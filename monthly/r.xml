@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>GitHub R Monthly Trending</title>
+    <description>Monthly Trending of R in GitHub</description>
+    <pubDate>Sun, 16 Mar 2025 02:07:45 GMT</pubDate>
+    <link>http://mshibanami.github.io/GitHubTrendingRSS</link>
+    
+    <item>
+      <title>rdpeng/ProgrammingAssignment2</title>
+      <link>https://github.com/rdpeng/ProgrammingAssignment2</link>
+      <description>&lt;p&gt;Repository for Programming Assignment 2 for R Programming on Coursera&lt;/p&gt;&lt;hr&gt;&lt;h3&gt;Introduction&lt;/h3&gt; 
+&lt;p&gt;This second programming assignment will require you to write an R function that is able to cache potentially time-consuming computations. For example, taking the mean of a numeric vector is typically a fast operation. However, for a very long vector, it may take too long to compute the mean, especially if it has to be computed repeatedly (e.g. in a loop). If the contents of a vector are not changing, it may make sense to cache the value of the mean so that when we need it again, it can be looked up in the cache rather than recomputed. In this Programming Assignment you will take advantage of the scoping rules of the R language and how they can be manipulated to preserve state inside of an R object.&lt;/p&gt; 
+&lt;h3&gt;Example: Caching the Mean of a Vector&lt;/h3&gt; 
+&lt;p&gt;In this example we introduce the &lt;code&gt;&amp;lt;&amp;lt;-&lt;/code&gt; operator which can be used to assign a value to an object in an environment that is different from the current environment. Below are two functions that are used to create a special object that stores a numeric vector and caches its mean.&lt;/p&gt; 
+&lt;p&gt;The first function, &lt;code&gt;makeVector&lt;/code&gt; creates a special &quot;vector&quot;, which is really a list containing a function to&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;set the value of the vector&lt;/li&gt; 
+ &lt;li&gt;get the value of the vector&lt;/li&gt; 
+ &lt;li&gt;set the value of the mean&lt;/li&gt; 
+ &lt;li&gt;get the value of the mean&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;!-- --&gt; 
+&lt;pre&gt;&lt;code&gt;makeVector &amp;lt;- function(x = numeric()) {
+        m &amp;lt;- NULL
+        set &amp;lt;- function(y) {
+                x &amp;lt;&amp;lt;- y
+                m &amp;lt;&amp;lt;- NULL
+        }
+        get &amp;lt;- function() x
+        setmean &amp;lt;- function(mean) m &amp;lt;&amp;lt;- mean
+        getmean &amp;lt;- function() m
+        list(set = set, get = get,
+             setmean = setmean,
+             getmean = getmean)
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;The following function calculates the mean of the special &quot;vector&quot; created with the above function. However, it first checks to see if the mean has already been calculated. If so, it &lt;code&gt;get&lt;/code&gt;s the mean from the cache and skips the computation. Otherwise, it calculates the mean of the data and sets the value of the mean in the cache via the &lt;code&gt;setmean&lt;/code&gt; function.&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;cachemean &amp;lt;- function(x, ...) {
+        m &amp;lt;- x$getmean()
+        if(!is.null(m)) {
+                message(&quot;getting cached data&quot;)
+                return(m)
+        }
+        data &amp;lt;- x$get()
+        m &amp;lt;- mean(data, ...)
+        x$setmean(m)
+        m
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Assignment: Caching the Inverse of a Matrix&lt;/h3&gt; 
+&lt;p&gt;Matrix inversion is usually a costly computation and there may be some benefit to caching the inverse of a matrix rather than computing it repeatedly (there are also alternatives to matrix inversion that we will not discuss here). Your assignment is to write a pair of functions that cache the inverse of a matrix.&lt;/p&gt; 
+&lt;p&gt;Write the following functions:&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;&lt;code&gt;makeCacheMatrix&lt;/code&gt;: This function creates a special &quot;matrix&quot; object that can cache its inverse.&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;cacheSolve&lt;/code&gt;: This function computes the inverse of the special &quot;matrix&quot; returned by &lt;code&gt;makeCacheMatrix&lt;/code&gt; above. If the inverse has already been calculated (and the matrix has not changed), then &lt;code&gt;cacheSolve&lt;/code&gt; should retrieve the inverse from the cache.&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;p&gt;Computing the inverse of a square matrix can be done with the &lt;code&gt;solve&lt;/code&gt; function in R. For example, if &lt;code&gt;X&lt;/code&gt; is a square invertible matrix, then &lt;code&gt;solve(X)&lt;/code&gt; returns its inverse.&lt;/p&gt; 
+&lt;p&gt;For this assignment, assume that the matrix supplied is always invertible.&lt;/p&gt; 
+&lt;p&gt;In order to complete this assignment, you must do the following:&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;Fork the GitHub repository containing the stub R files at &lt;a href=&quot;https://github.com/rdpeng/ProgrammingAssignment2&quot;&gt;https://github.com/rdpeng/ProgrammingAssignment2&lt;/a&gt; to create a copy under your own account.&lt;/li&gt; 
+ &lt;li&gt;Clone your forked GitHub repository to your computer so that you can edit the files locally on your own machine.&lt;/li&gt; 
+ &lt;li&gt;Edit the R file contained in the git repository and place your solution in that file (please do not rename the file).&lt;/li&gt; 
+ &lt;li&gt;Commit your completed R file into YOUR git repository and push your git branch to the GitHub repository under your account.&lt;/li&gt; 
+ &lt;li&gt;Submit to Coursera the URL to your GitHub repository that contains the completed R code for the assignment.&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;h3&gt;Grading&lt;/h3&gt; 
+&lt;p&gt;This assignment will be graded via peer assessment.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rdatatable/data.table</title>
+      <link>https://github.com/Rdatatable/data.table</link>
+      <description>&lt;p&gt;R&#39;s data.table package extends data.frame:&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;data.table &lt;a href=&quot;https://r-datatable.com&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Rdatatable/data.table/master/.graphics/logo.png&quot; align=&quot;right&quot; height=&quot;140&quot;&gt;&lt;/a&gt;&lt;/h1&gt; 
+&lt;!-- badges: start --&gt; 
+&lt;p&gt;&lt;a href=&quot;https://cran.r-project.org/web/checks/check_results_data.table.html&quot;&gt;&lt;img src=&quot;https://badges.cranchecks.info/flavor/release/data.table.svg?sanitize=true&quot; alt=&quot;CRAN status&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/Rdatatable/data.table/actions&quot;&gt;&lt;img src=&quot;https://github.com/Rdatatable/data.table/workflows/R-CMD-check/badge.svg?sanitize=true&quot; alt=&quot;R-CMD-check&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://app.codecov.io/github/Rdatatable/data.table?branch=master&quot;&gt;&lt;img src=&quot;https://codecov.io/github/Rdatatable/data.table/coverage.svg?branch=master&quot; alt=&quot;Codecov test coverage&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://gitlab.com/Rdatatable/data.table/-/pipelines&quot;&gt;&lt;img src=&quot;https://gitlab.com/Rdatatable/data.table/badges/master/pipeline.svg?sanitize=true&quot; alt=&quot;GitLab CI build status&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://www.rdocumentation.org/trends&quot;&gt;&lt;img src=&quot;https://cranlogs.r-pkg.org/badges/data.table&quot; alt=&quot;downloads&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://gitlab.com/jangorecki/rdeps&quot;&gt;&lt;img src=&quot;https://jangorecki.gitlab.io/rdeps/data.table/CRAN_usage.svg?sanitize=true&quot; alt=&quot;CRAN usage&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://gitlab.com/jangorecki/rdeps&quot;&gt;&lt;img src=&quot;https://jangorecki.gitlab.io/rdeps/data.table/BioC_usage.svg?sanitize=true&quot; alt=&quot;BioC usage&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://gitlab.com/jangorecki/rdeps&quot;&gt;&lt;img src=&quot;https://jangorecki.gitlab.io/rdeps/data.table/indirect_usage.svg?sanitize=true&quot; alt=&quot;indirect usage&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;!-- badges: end --&gt; 
+&lt;p&gt;&lt;code&gt;data.table&lt;/code&gt; provides a high-performance version of &lt;a href=&quot;https://www.r-project.org/about.html&quot;&gt;base R&lt;/a&gt;&#39;s &lt;code&gt;data.frame&lt;/code&gt; with syntax and feature enhancements for ease of use, convenience and programming speed.&lt;/p&gt; 
+&lt;h2&gt;Why &lt;code&gt;data.table&lt;/code&gt;?&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;concise syntax: fast to type, fast to read&lt;/li&gt; 
+ &lt;li&gt;fast speed&lt;/li&gt; 
+ &lt;li&gt;memory efficient&lt;/li&gt; 
+ &lt;li&gt;careful API lifecycle management&lt;/li&gt; 
+ &lt;li&gt;community&lt;/li&gt; 
+ &lt;li&gt;feature rich&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Features&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;fast and friendly delimited &lt;strong&gt;file reader&lt;/strong&gt;: &lt;strong&gt;&lt;a href=&quot;https://rdatatable.gitlab.io/data.table/reference/fread.html&quot;&gt;&lt;code&gt;?fread&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt;, see also &lt;a href=&quot;https://github.com/Rdatatable/data.table/wiki/Convenience-features-of-fread&quot;&gt;convenience features for &lt;em&gt;small&lt;/em&gt; data&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;fast and feature rich delimited &lt;strong&gt;file writer&lt;/strong&gt;: &lt;strong&gt;&lt;a href=&quot;https://rdatatable.gitlab.io/data.table/reference/fwrite.html&quot;&gt;&lt;code&gt;?fwrite&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt; 
+ &lt;li&gt;low-level &lt;strong&gt;parallelism&lt;/strong&gt;: many common operations are internally parallelized to use multiple CPU threads&lt;/li&gt; 
+ &lt;li&gt;fast and scalable aggregations; e.g. 100GB in RAM (see &lt;a href=&quot;https://duckdblabs.github.io/db-benchmark/&quot;&gt;benchmarks&lt;/a&gt; on up to &lt;strong&gt;two billion rows&lt;/strong&gt;)&lt;/li&gt; 
+ &lt;li&gt;fast and feature rich joins: &lt;strong&gt;ordered joins&lt;/strong&gt; (e.g. rolling forwards, backwards, nearest and limited staleness), &lt;strong&gt;&lt;a href=&quot;https://github.com/Rdatatable/data.table/wiki/talks/EARL2014_OverlapRangeJoin_Arun.pdf&quot;&gt;overlapping range joins&lt;/a&gt;&lt;/strong&gt; (similar to &lt;code&gt;IRanges::findOverlaps&lt;/code&gt;), &lt;strong&gt;&lt;a href=&quot;https://github.com/Rdatatable/data.table/wiki/talks/ArunSrinivasanUseR2016.pdf&quot;&gt;non-equi joins&lt;/a&gt;&lt;/strong&gt; (i.e. joins using operators &lt;code&gt;&amp;gt;, &amp;gt;=, &amp;lt;, &amp;lt;=&lt;/code&gt;), &lt;strong&gt;aggregate on join&lt;/strong&gt; (&lt;code&gt;by=.EACHI&lt;/code&gt;), &lt;strong&gt;update on join&lt;/strong&gt;&lt;/li&gt; 
+ &lt;li&gt;fast add/update/delete columns &lt;strong&gt;by reference&lt;/strong&gt; by group using no copies at all&lt;/li&gt; 
+ &lt;li&gt;fast and feature rich &lt;strong&gt;reshaping&lt;/strong&gt; data: &lt;strong&gt;&lt;a href=&quot;https://rdatatable.gitlab.io/data.table/reference/dcast.data.table.html&quot;&gt;&lt;code&gt;?dcast&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt; (&lt;em&gt;pivot/wider/spread&lt;/em&gt;) and &lt;strong&gt;&lt;a href=&quot;https://rdatatable.gitlab.io/data.table/reference/melt.data.table.html&quot;&gt;&lt;code&gt;?melt&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt; (&lt;em&gt;unpivot/longer/gather&lt;/em&gt;)&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;any R function from any R package&lt;/strong&gt; can be used in queries not just the subset of functions made available by a database backend, also columns of type &lt;code&gt;list&lt;/code&gt; are supported&lt;/li&gt; 
+ &lt;li&gt;has &lt;strong&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Dependency_hell&quot;&gt;no dependencies&lt;/a&gt;&lt;/strong&gt; at all other than base R itself, for simpler production/maintenance&lt;/li&gt; 
+ &lt;li&gt;the R dependency is &lt;strong&gt;as old as possible for as long as possible&lt;/strong&gt;, dated April 2014, and we continuously test against that version; e.g. v1.11.0 released on 5 May 2018 bumped the dependency up from 5 year old R 3.0.0 to 4 year old R 3.1.0&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;data.table&quot;)
+
+# latest development version (only if newer available)
+data.table::update_dev_pkg()
+
+# latest development version (force install)
+install.packages(&quot;data.table&quot;, repos=&quot;https://rdatatable.gitlab.io/data.table&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;See &lt;a href=&quot;https://github.com/Rdatatable/data.table/wiki/Installation&quot;&gt;the Installation wiki&lt;/a&gt; for more details.&lt;/p&gt; 
+&lt;h2&gt;Usage&lt;/h2&gt; 
+&lt;p&gt;Use &lt;code&gt;data.table&lt;/code&gt; subset &lt;code&gt;[&lt;/code&gt; operator the same way you would use &lt;code&gt;data.frame&lt;/code&gt; one, but...&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;no need to prefix each column with &lt;code&gt;DT$&lt;/code&gt; (like &lt;code&gt;subset()&lt;/code&gt; and &lt;code&gt;with()&lt;/code&gt; but built-in)&lt;/li&gt; 
+ &lt;li&gt;any R expression using any package is allowed in &lt;code&gt;j&lt;/code&gt; argument, not just list of columns&lt;/li&gt; 
+ &lt;li&gt;extra argument &lt;code&gt;by&lt;/code&gt; to compute &lt;code&gt;j&lt;/code&gt; expression by group&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;library(data.table)
+DT = as.data.table(iris)
+
+# FROM[WHERE, SELECT, GROUP BY]
+# DT  [i,     j,      by]
+
+DT[Petal.Width &amp;gt; 1.0, mean(Petal.Length), by = Species]
+#      Species       V1
+#1: versicolor 4.362791
+#2:  virginica 5.552000
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Getting started&lt;/h3&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://cran.r-project.org/package=data.table/vignettes/datatable-intro.html&quot;&gt;Introduction to data.table&lt;/a&gt; vignette&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/Rdatatable/data.table/wiki/Getting-started&quot;&gt;Getting started&lt;/a&gt; wiki page&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://rdatatable.gitlab.io/data.table/reference/data.table.html#examples&quot;&gt;Examples&lt;/a&gt; produced by &lt;code&gt;example(data.table)&lt;/code&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Cheatsheets&lt;/h3&gt; 
+&lt;p&gt;&lt;a href=&quot;https://raw.githubusercontent.com/rstudio/cheatsheets/master/datatable.pdf&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rstudio/cheatsheets/master/pngs/datatable.png&quot; width=&quot;615&quot; height=&quot;242&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Community&lt;/h2&gt; 
+&lt;p&gt;&lt;code&gt;data.table&lt;/code&gt; is widely used by the R community. It is being directly used by hundreds of CRAN and Bioconductor packages, and indirectly by thousands. It is one of the &lt;a href=&quot;https://medium.datadriveninvestor.com/most-starred-and-forked-github-repos-for-r-in-data-science-fb87a54d2a6a&quot;&gt;top most starred&lt;/a&gt; R packages on GitHub, and was highly rated by the &lt;a href=&quot;http://depsy.org/package/r/data.table&quot;&gt;Depsy project&lt;/a&gt;. If you need help, the &lt;code&gt;data.table&lt;/code&gt; community is active on &lt;a href=&quot;https://stackoverflow.com/questions/tagged/data.table&quot;&gt;StackOverflow&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;A list of packages that significantly support, extend, or make use of &lt;code&gt;data.table&lt;/code&gt; can be found in the &lt;a href=&quot;https://github.com/Rdatatable/data.table/raw/master/Seal_of_Approval.md&quot;&gt;Seal of Approval&lt;/a&gt; document.&lt;/p&gt; 
+&lt;h3&gt;Stay up-to-date&lt;/h3&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;click the &lt;strong&gt;Watch&lt;/strong&gt; button at the top and right of GitHub project page&lt;/li&gt; 
+ &lt;li&gt;read &lt;a href=&quot;https://github.com/Rdatatable/data.table/raw/master/NEWS.md&quot;&gt;NEWS file&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;follow &lt;a href=&quot;https://twitter.com/hashtag/rdatatable&quot;&gt;#rdatatable&lt;/a&gt; and the &lt;a href=&quot;https://x.com/r_data_table&quot;&gt;r_data_table&lt;/a&gt; account on X/Twitter&lt;/li&gt; 
+ &lt;li&gt;follow &lt;a href=&quot;https://fosstodon.org/tags/rdatatable&quot;&gt;#rdatatable&lt;/a&gt; and the &lt;a href=&quot;https://fosstodon.org/@r_data_table&quot;&gt;r_data_table account&lt;/a&gt; on fosstodon&lt;/li&gt; 
+ &lt;li&gt;follow the &lt;a href=&quot;https://www.linkedin.com/company/data-table-community&quot;&gt;data.table community page&lt;/a&gt; on LinkedIn&lt;/li&gt; 
+ &lt;li&gt;watch recent &lt;a href=&quot;https://github.com/Rdatatable/data.table/wiki/Presentations&quot;&gt;Presentations&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;read recent &lt;a href=&quot;https://github.com/Rdatatable/data.table/wiki/Articles&quot;&gt;Articles&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;read posts on &lt;a href=&quot;https://rdatatable-community.github.io/The-Raft/&quot;&gt;The Raft&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Contributing&lt;/h3&gt; 
+&lt;p&gt;Guidelines for filing issues / pull requests: &lt;a href=&quot;https://github.com/Rdatatable/data.table/raw/master/.github/CONTRIBUTING.md&quot;&gt;Contribution Guidelines&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>r-spatial/sf</title>
+      <link>https://github.com/r-spatial/sf</link>
+      <description>&lt;p&gt;Simple Features for R&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/r-spatial/sf/actions/workflows/R-CMD-check.yaml&quot;&gt;&lt;img src=&quot;https://github.com/r-spatial/sf/actions/workflows/R-CMD-check.yaml/badge.svg?sanitize=true&quot; alt=&quot;R-CMD-check&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/r-spatial/sf/actions/workflows/tic-db.yml&quot;&gt;&lt;img src=&quot;https://github.com/r-spatial/sf/actions/workflows/tic-db.yml/badge.svg?sanitize=true&quot; alt=&quot;tic-db&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://app.codecov.io/gh/r-spatial/sf&quot;&gt;&lt;img src=&quot;https://img.shields.io/codecov/c/github/r-spatial/sf/main.svg?sanitize=true&quot; alt=&quot;Coverage Status&quot;&gt;&lt;/a&gt; &lt;a href=&quot;http://www.gnu.org/licenses/gpl-2.0.html&quot;&gt;&lt;img src=&quot;http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat&quot; alt=&quot;License&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/package=sf&quot;&gt;&lt;img src=&quot;https://www.r-pkg.org/badges/version/sf&quot; alt=&quot;CRAN&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/web/checks/check_results_sf.html&quot;&gt;&lt;img src=&quot;https://badges.cranchecks.info/worst/sf.svg?sanitize=true&quot; alt=&quot;cran checks&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://www.r-pkg.org/pkg/sf&quot;&gt;&lt;img src=&quot;https://cranlogs.r-pkg.org/badges/sf?color=brightgreen&quot; alt=&quot;Downloads&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://CRAN.R-project.org/package=sf&quot;&gt;&lt;img src=&quot;https://tinyverse.netlify.app/badge/sf&quot; alt=&quot;status&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;!-- badges: end --&gt; 
+&lt;h1&gt;Simple Features for R&lt;/h1&gt; 
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/edzer/f461a3a95570c4ab7edf3125c2f19d20&quot;&gt;&lt;img align=&quot;right&quot; src=&quot;https://user-images.githubusercontent.com/520851/34887433-ce1d130e-f7c6-11e7-83fc-d60ad4fae6bd.gif&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;A package that provides &lt;a href=&quot;https://en.wikipedia.org/wiki/Simple_Features&quot;&gt;simple features access&lt;/a&gt; for R.&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://raw.githubusercontent.com/r-spatial/sf/main/#blogs-presentations-vignettes-sp-sf-wiki&quot;&gt;Blogs, links&lt;/a&gt; • &lt;a href=&quot;https://raw.githubusercontent.com/r-spatial/sf/main/#cheatsheet&quot;&gt;Cheatsheet&lt;/a&gt; • &lt;a href=&quot;https://raw.githubusercontent.com/r-spatial/sf/main/#installing&quot;&gt;Installing&lt;/a&gt; • &lt;a href=&quot;https://raw.githubusercontent.com/r-spatial/sf/main/#contributing&quot;&gt;Contributing&lt;/a&gt; • &lt;a href=&quot;https://raw.githubusercontent.com/r-spatial/sf/main/#acknowledgment&quot;&gt;Acknowledgment&lt;/a&gt; • &lt;a href=&quot;https://raw.githubusercontent.com/r-spatial/sf/main/#how-to-cite&quot;&gt;How to cite&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Package sf:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;represents simple features as records in a &lt;code&gt;data.frame&lt;/code&gt; or &lt;code&gt;tibble&lt;/code&gt; with a geometry list-column&lt;/li&gt; 
+ &lt;li&gt;represents natively in R all 17 simple feature types for all dimensions (XY, XYZ, XYM, XYZM)&lt;/li&gt; 
+ &lt;li&gt;interfaces to &lt;a href=&quot;https://libgeos.org&quot;&gt;GEOS&lt;/a&gt; for geometrical operations on projected coordinates, and (through R package &lt;a href=&quot;https://cran.r-project.org/package=s2&quot;&gt;s2&lt;/a&gt;) to &lt;a href=&quot;http://s2geometry.io/&quot;&gt;s2geometry&lt;/a&gt; for geometrical operations on ellipsoidal coordinates&lt;/li&gt; 
+ &lt;li&gt;interfaces to &lt;a href=&quot;https://gdal.org/&quot;&gt;GDAL&lt;/a&gt;, supporting all driver options, &lt;code&gt;Date&lt;/code&gt; and &lt;code&gt;POSIXct&lt;/code&gt; and list-columns&lt;/li&gt; 
+ &lt;li&gt;interfaces to &lt;a href=&quot;http://proj.org/&quot;&gt;PRØJ&lt;/a&gt; for coordinate reference system conversion and transformation&lt;/li&gt; 
+ &lt;li&gt;uses &lt;a href=&quot;https://en.wikipedia.org/wiki/Well-known_text#Well-known_binary&quot;&gt;well-known-binary&lt;/a&gt; serialisations written in C++/Rcpp for fast I/O with GDAL and GEOS&lt;/li&gt; 
+ &lt;li&gt;reads from and writes to spatial databases such as &lt;a href=&quot;http://postgis.net/&quot;&gt;PostGIS&lt;/a&gt; using &lt;a href=&quot;https://cran.r-project.org/package=DBI&quot;&gt;DBI&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;is extended by 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/r-spatial/lwgeom/&quot;&gt;lwgeom&lt;/a&gt; for selected liblwgeom/PostGIS functions&lt;/li&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/r-spatial/stars/&quot;&gt;stars&lt;/a&gt; for raster data, and raster or vector data cubes (spatial time series)&lt;/li&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://luukvdmeer.github.io/sfnetworks/&quot;&gt;sfnetworks&lt;/a&gt; for geospatial network data&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/edzer/442d74a5775abcd5068cf3e73b23687b&quot;&gt;&lt;img align=&quot;left&quot; src=&quot;https://user-images.githubusercontent.com/520851/50280460-e35c1880-044c-11e9-9ed7-cc46754e49db.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;(Illustration (c) 2018 by &lt;a href=&quot;https://twitter.com/allison_horst/status/1071456081308614656&quot;&gt;Allison Horst&lt;/a&gt;)&lt;/p&gt; 
+&lt;h2&gt;Books, journal articles, blogs, presentations, vignettes, sp-sf wiki&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;an open access &lt;a href=&quot;https://journal.r-project.org/archive/2018/RJ-2018-009/index.html&quot;&gt;R Journal article&lt;/a&gt; summarizes the package&lt;/li&gt; 
+ &lt;li&gt;two books: &lt;a href=&quot;https://r-spatial.org/book/&quot;&gt;Spatial Data Science: with applications in R&lt;/a&gt;, &lt;a href=&quot;https://r.geocompx.org/&quot;&gt;Geocomputation with R&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;package vignettes: &lt;a href=&quot;https://r-spatial.github.io/sf/articles/sf1.html&quot;&gt;first&lt;/a&gt;, &lt;a href=&quot;https://r-spatial.github.io/sf/articles/sf2.html&quot;&gt;second&lt;/a&gt;, &lt;a href=&quot;https://r-spatial.github.io/sf/articles/sf3.html&quot;&gt;third&lt;/a&gt;, &lt;a href=&quot;https://r-spatial.github.io/sf/articles/sf4.html&quot;&gt;fourth&lt;/a&gt;, &lt;a href=&quot;https://r-spatial.github.io/sf/articles/sf5.html&quot;&gt;fifth&lt;/a&gt;, &lt;a href=&quot;https://r-spatial.github.io/sf/articles/sf6.html&quot;&gt;sixth&lt;/a&gt;, &lt;a href=&quot;https://r-spatial.github.io/sf/articles/sf7.html&quot;&gt;seventh&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;blog posts: &lt;a href=&quot;https://r-spatial.org/r/2016/02/15/simple-features-for-r.html&quot;&gt;first&lt;/a&gt;, &lt;a href=&quot;https://r-spatial.org/r/2016/07/18/sf2.html&quot;&gt;second&lt;/a&gt;, &lt;a href=&quot;https://r-spatial.org/r/2016/11/02/sfcran.html&quot;&gt;third&lt;/a&gt;, &lt;a href=&quot;https://r-spatial.org/r/2017/01/12/newssf.html&quot;&gt;fourth&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;the original R Consortium ISC &lt;a href=&quot;https://raw.githubusercontent.com/r-spatial/sf/main/PROPOSAL.md&quot;&gt;proposal&lt;/a&gt;, the R Consortium &lt;a href=&quot;https://www.r-consortium.org/blog/2017/01/03/simple-features-now-on-cran&quot;&gt;blog post&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;presentations: &lt;a href=&quot;https://edzer.github.io/rstudio_conf/#1&quot;&gt;rstudio::conf 2018&lt;/a&gt; (&lt;a href=&quot;https://posit.co/resources/videos/tidy-spatial-data-analysis/&quot;&gt;video&lt;/a&gt;), &lt;a href=&quot;http://pebesma.staff.ifgi.de/pebesma_sfr.pdf&quot;&gt;UseR! 2016&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;wiki page describing &lt;a href=&quot;https://github.com/r-spatial/sf/wiki/Migrating&quot;&gt;sp-sf migration&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Cheatsheet&lt;/h2&gt; 
+&lt;p&gt;&lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;CC 4.0&lt;/a&gt; BY &lt;a href=&quot;https://github.com/ryangarnett&quot;&gt;Ryan Garnett&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/rstudio/cheatsheets/raw/main/sf.pdf&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rstudio/cheatsheets/main/pngs/sf.png&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Installing&lt;/h2&gt; 
+&lt;p&gt;Install either from CRAN with:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;sf&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;This will install binary packages on Windows and MacOS, unless you configured R such that it tries to install source packages; in that case, see below.&lt;/p&gt; 
+&lt;p&gt;Install development versions from GitHub with:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;library(remotes)
+install_github(&quot;r-spatial/sf&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Windows&lt;/h3&gt; 
+&lt;p&gt;Installing sf from source works under Windows when &lt;a href=&quot;https://cran.r-project.org/bin/windows/Rtools/&quot;&gt;Rtools&lt;/a&gt; is installed.&lt;/p&gt; 
+&lt;h3&gt;MacOS&lt;/h3&gt; 
+&lt;p&gt;MacOS users are strongly encouraged to install the &lt;code&gt;sf&lt;/code&gt; binary packages from CRAN, unless they are familiar with compilers, linking, C++ source code, and homebrew.&lt;/p&gt; 
+&lt;p&gt;The easiest way to install &lt;code&gt;gdal&lt;/code&gt; is using Homebrew. Recent versions of Homebrew include a full-featured up-to-date &lt;a href=&quot;https://github.com/Homebrew/homebrew-core/raw/master/Formula/g/gdal.rb&quot;&gt;gdal formula&lt;/a&gt;, which installs &lt;code&gt;proj&lt;/code&gt; and &lt;code&gt;gdal&lt;/code&gt; at the same time:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;brew install pkg-config
+brew install gdal
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Once gdal is installed, you will be able to install &lt;code&gt;sf&lt;/code&gt; package from source in R. With the current version of &lt;code&gt;proj&lt;/code&gt; on homebrew, installation requires additional configuration:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;sf&quot;, type = &quot;source&quot;, configure.args = &quot;--with-proj-lib=$(brew --prefix)/lib/&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Or the development version:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;library(remotes)
+install_github(&quot;r-spatial/sf&quot;, configure.args = &quot;--with-proj-lib=$(brew --prefix)/lib/&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;If you are using &lt;code&gt;sf&lt;/code&gt; and &lt;code&gt;rgdal&lt;/code&gt; together, it is necessary to install &lt;code&gt;rgdal&lt;/code&gt; from source using this configuration:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;rgdal&quot;, type = &quot;source&quot;, configure.args = c(&quot;--with-proj-lib=$(brew --prefix)/lib/&quot;, &quot;--with-proj-include=$(brew --prefix)/include/&quot;))
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Alternatively, &lt;a href=&quot;https://stat.ethz.ch/pipermail/r-sig-mac/2017-June/012429.html&quot;&gt;these instructions&lt;/a&gt; explain how to install gdal using kyngchaos frameworks.&lt;/p&gt; 
+&lt;p&gt;For Mac OS 11 Big Sur source install instruction, see &lt;a href=&quot;https://github.com/r-spatial/sf/issues/1536#issuecomment-727342736&quot;&gt;here&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;Linux&lt;/h3&gt; 
+&lt;p&gt;For Unix-alikes, GDAL (&amp;gt;= 2.0.1), GEOS (&amp;gt;= 3.4.0) and Proj.4 (&amp;gt;= 4.8.0) are required.&lt;/p&gt; 
+&lt;h4&gt;Ubuntu&lt;/h4&gt; 
+&lt;p&gt;Dependencies for recent versions of Ubuntu (18.04 and later) are available in the official repositories; you can install them with:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-sh&quot;&gt;apt-get -y update &amp;amp;&amp;amp; apt-get install -y  libudunits2-dev libgdal-dev libgeos-dev libproj-dev
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;However, to get more up-to-date versions of dependencies such as GDAL, we recommend adding the &lt;a href=&quot;http://ppa.launchpad.net/ubuntugis/ubuntugis-unstable/ubuntu/&quot;&gt;ubuntugis-unstable&lt;/a&gt; PPA to the package repositories and installing them as follows:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-sh&quot;&gt;sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
+sudo apt-get update
+sudo apt-get install libudunits2-dev libgdal-dev libgeos-dev libproj-dev libsqlite0-dev
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Adding this PPA is required for installing &lt;code&gt;sf&lt;/code&gt; on older versions of Ubuntu (e.g. Xenial).&lt;/p&gt; 
+&lt;p&gt;Another option, for advanced users, is to install dependencies from source; see e.g. an older &lt;a href=&quot;https://github.com/r-spatial/sf/raw/593ee48b34001fe3b383ea73ea57063ecf690732/.travis.yml&quot;&gt;Travis&lt;/a&gt; config file for hints.&lt;/p&gt; 
+&lt;h4&gt;Fedora&lt;/h4&gt; 
+&lt;p&gt;The following command installs all required dependencies:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-sh&quot;&gt;sudo dnf install gdal-devel proj-devel geos-devel sqlite-devel udunits2-devel
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h4&gt;Arch&lt;/h4&gt; 
+&lt;p&gt;Get gdal, proj, geos and podofo from the main repos, and udunits from the AUR:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;pacman -S gdal proj geos arrow podofo
+yay/pacaur/yaourt/whatever -S udunits
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h4&gt;&lt;code&gt;renv&lt;/code&gt; or &lt;code&gt;conda&lt;/code&gt;&lt;/h4&gt; 
+&lt;p&gt;There are several reports that &lt;code&gt;sf&lt;/code&gt; fails to install as a source package when R is used with &lt;code&gt;renv&lt;/code&gt;, or when R is installed in a &lt;code&gt;conda&lt;/code&gt; environment. If you experience this, please do not raise an issue here, but&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;try to sort this out with the &lt;code&gt;renv&lt;/code&gt; developers or the &lt;code&gt;conda&lt;/code&gt; maintainers, or&lt;/li&gt; 
+ &lt;li&gt;try to use binary installs of the &lt;code&gt;sf&lt;/code&gt; package, e.g. from &lt;a href=&quot;https://github.com/eddelbuettel/r2u&quot;&gt;r2u&lt;/a&gt;, or the Posit package manager&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h4&gt;Other&lt;/h4&gt; 
+&lt;p&gt;To install on Debian, the &lt;a href=&quot;https://github.com/rocker-org/geospatial&quot;&gt;rocker geospatial&lt;/a&gt; Dockerfiles may be helpful. Ubuntu Dockerfiles are found &lt;a href=&quot;https://github.com/r-spatial/sf/tree/main/inst/docker&quot;&gt;here&lt;/a&gt;.&lt;/p&gt; 
+&lt;h3&gt;Multiple GDAL, GEOS and/or PROJ versions on your system&lt;/h3&gt; 
+&lt;p&gt;If you use dynamic linking (installation from source) and have multiple versions of these libraries installed (e.g. one from ubuntugis-unstable, another installed from source in &lt;code&gt;/usr/local/lib&lt;/code&gt;) then this will in general not work, even when setting &lt;code&gt;LD_LIBRARY_PATH&lt;/code&gt; manually. See &lt;a href=&quot;https://github.com/r-spatial/sf/issues/844&quot;&gt;here&lt;/a&gt; for the reason why.&lt;/p&gt; 
+&lt;h3&gt;lwgeom&lt;/h3&gt; 
+&lt;p&gt;Functions and methods that require &lt;code&gt;liblwgeom&lt;/code&gt;, including ellipsoidal (not spherical or Euclidean) metrics (area, distances), are provide by and used from &lt;a href=&quot;https://github.com/r-spatial/lwgeom&quot;&gt;lwgeom&lt;/a&gt;, which is also on &lt;a href=&quot;https://cran.r-project.org/package=lwgeom&quot;&gt;CRAN&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Contributing&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Contributions of all sorts are most welcome, issues and pull requests are the preferred ways of sharing them.&lt;/li&gt; 
+ &lt;li&gt;When contributing pull requests, please adhere to the package style (in package code use &lt;code&gt;=&lt;/code&gt; rather than &lt;code&gt;&amp;lt;-&lt;/code&gt;; don&#39;t change indentation; tab stops of 4 spaces are preferred).&lt;/li&gt; 
+ &lt;li&gt;This project is released with a &lt;a href=&quot;https://raw.githubusercontent.com/r-spatial/sf/main/CONDUCT.md&quot;&gt;Contributor Code of Conduct&lt;/a&gt;. By participating in this project, you agree to abide by its terms.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;How to cite&lt;/h2&gt; 
+&lt;p&gt;Package &lt;code&gt;sf&lt;/code&gt; can be cited as:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt; &lt;p&gt;Edzer Pebesma, 2018. Simple Features for R: Standardized Support for Spatial Vector Data. The R Journal &lt;a href=&quot;https://journal.r-project.org/archive/2018/RJ-2018-009/index.html&quot;&gt;10:1, 439-446.&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Pebesma, E.; Bivand, R. (2023). &lt;a href=&quot;https://r-spatial.org/book/&quot;&gt;Spatial Data Science: With Applications in R&lt;/a&gt; (1st ed.). 314 pages. &lt;a href=&quot;https://doi.org/10.1201/9780429459016&quot;&gt;Chapman and Hall/CRC&lt;/a&gt;.&lt;/p&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Acknowledgment&lt;/h2&gt; 
+&lt;p&gt;This project gratefully acknowledges financial &lt;a href=&quot;https://www.r-consortium.org/projects&quot;&gt;support&lt;/a&gt; from the&lt;/p&gt; 
+&lt;a href=&quot;https://r-consortium.org/all-projects/2016-group-1.html#simple-features-for-r&quot;&gt; &lt;img src=&quot;https://r-consortium.org/images/RConsortium_Horizontal_Pantone.webp&quot; width=&quot;300&quot;&gt; &lt;/a&gt; 
+&lt;!--
+&lt;img src=&quot;http://pebesma.staff.ifgi.de/RConsortium_Horizontal_Pantone.png&quot; width=&quot;300&quot;&gt;
+--&gt;</description>
+    </item>
+    
+    <item>
+      <title>sqjin/CellChat</title>
+      <link>https://github.com/sqjin/CellChat</link>
+      <description>&lt;p&gt;R toolkit for inference, visualization and analysis of cell-cell communication from single-cell data&lt;/p&gt;&lt;hr&gt;&lt;p align=&quot;center&quot;&gt; &lt;img width=&quot;200&quot; src=&quot;https://github.com/sqjin/CellChat/raw/master/CellChat_Logo.png&quot;&gt; &lt;/p&gt; 
+&lt;h1&gt;CAUTION&lt;/h1&gt; 
+&lt;p&gt;We have updated CellChat to v2 and migrated CellChat to a new repository. This repository will be NOT updated and maintained any more. Please check the new repository &lt;a href=&quot;https://github.com/jinworks/CellChat&quot;&gt;jinworks/CellChat&lt;/a&gt; for the new updates, and the &lt;a href=&quot;https://biorxiv.org/cgi/content/short/2023.11.05.565674v1&quot;&gt;CellChat v2 paper&lt;/a&gt; for a comprehensive protocol of CellChat.&lt;/p&gt; 
+&lt;h1&gt;About CellChat and CellChatDB&lt;/h1&gt; 
+&lt;p&gt;CellChat is an R package designed for inference, analysis, and visualization of cell-cell communication from single-cell data. CellChat aims to enable users to identify and interpret cell-cell communication within an easily interpretable framework, with the emphasis of clear, attractive, and interpretable visualizations.&lt;/p&gt; 
+&lt;p&gt;CellChatDB is a manually curated database of literature-supported ligand-receptor interactions in mutiple species, leading to a comprehensive recapitulation of known molecular interaction mechanisms including multi-subunit structure of ligand-receptor complexes and co-factors.&lt;/p&gt; 
+&lt;p&gt;If you use CellChat in your research, please considering citing our papers:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://biorxiv.org/cgi/content/short/2023.11.05.565674v1&quot;&gt;Suoqin Jin et al., CellChat for systematic analysis of cell-cell communication from single-cell and spatially resolved transcriptomics, bioRxiv 2023&lt;/a&gt; [CellChat v2]&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/s41467-021-21246-9&quot;&gt;Suoqin Jin et al., Inference and analysis of cell-cell communication using CellChat, Nature Communications 2021&lt;/a&gt; [CellChat v1]&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h1&gt;Capabilities&lt;/h1&gt; 
+&lt;p&gt;In addition to infer the intercellular communication from any given single-cell data, CellChat provides functionality for further data exploration, analysis, and visualization.&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;It can quantitatively characterize and compare the inferred cell-cell communication networks using a systems approach by combining social network analysis, pattern recognition, and manifold learning approaches.&lt;/li&gt; 
+ &lt;li&gt;It provides an easy-to-use tool for extracting and visualizing high-order information of the inferred networks. For example, it allows ready prediction of major signaling inputs and outputs for all cell populations and how these populations and signals coordinate together for functions.&lt;/li&gt; 
+ &lt;li&gt;It enables comparative analysis of cell-cell communication across different conditions and identification of altered signaling and cell populations.&lt;/li&gt; 
+ &lt;li&gt;It provides several visualization outputs to facilitate intuitive user-guided data interpretation.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p align=&quot;center&quot;&gt; &lt;img width=&quot;700&quot; src=&quot;https://github.com/sqjin/CellChat/raw/master/overview_CellChat.png&quot;&gt; &lt;/p&gt; 
+&lt;p align=&quot;center&quot;&gt; &lt;a href=&quot;https://clustrmaps.com/site/1bpq2&quot;&gt; &lt;img width=&quot;200&quot; src=&quot;https://clustrmaps.com/map_v2.png?cl=ffffff&amp;amp;w=a&amp;amp;t=n&amp;amp;d=42WqeykSXznN_NSaBlpf6CtSXQxhqmIs6QusUsguFdY&quot;&gt; &lt;/a&gt; &lt;/p&gt; 
+&lt;p align=&quot;center&quot;&gt; &lt;a href=&quot;https://raw.githubusercontent.com/sqjin/CellChat/master/#&quot;&gt; &lt;img src=&quot;https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsqjin%2FCellChat&amp;amp;labelColor=%233499cc&amp;amp;countColor=%2370c168&quot;&gt; &lt;/a&gt; &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>vegandevs/vegan</title>
+      <link>https://github.com/vegandevs/vegan</link>
+      <description>&lt;p&gt;R package for community ecologists: popular ordination methods, ecological null models &amp; diversity analysis&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;vegan: an R package for community ecologists&lt;/h1&gt; 
+&lt;p&gt;Ordination methods, diversity analysis and other functions for community and vegetation ecologists.&lt;/p&gt; 
+&lt;!-- badges: start --&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/vegandevs/vegan/actions/workflows/R-CMD-check.yaml&quot;&gt;&lt;img src=&quot;https://github.com/vegandevs/vegan/actions/workflows/R-CMD-check.yaml/badge.svg?sanitize=true&quot; alt=&quot;R-CMD-check&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/package=vegan&quot;&gt;&lt;img src=&quot;https://www.r-pkg.org/badges/version/vegan&quot; alt=&quot;CRAN_Status_Badge&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.rstudio.com/web/packages/vegan/index.html&quot;&gt;&lt;img src=&quot;https://cranlogs.r-pkg.org/badges/grand-total/vegan&quot; alt=&quot;Downloads&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://vegandevs.r-universe.dev/vegan&quot;&gt;&lt;img src=&quot;https://vegandevs.r-universe.dev/badges/vegan&quot; alt=&quot;R-universe&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;!-- badges: end --&gt; 
+&lt;p&gt;Website for the development version of the &lt;strong&gt;vegan&lt;/strong&gt; package.&lt;/p&gt; 
+&lt;p&gt;Vignettes are available on &lt;a href=&quot;https://vegandevs.r-universe.dev/vegan&quot;&gt;R-universe&lt;/a&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://vegandevs.r-universe.dev/vegan/doc/intro-vegan.pdf&quot;&gt;Introduction to ordination in vegan&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://vegandevs.r-universe.dev/vegan/doc/partitioning.pdf&quot;&gt;Partition of Variation&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://vegandevs.r-universe.dev/vegan/doc/diversity-vegan.pdf&quot;&gt;Diversity analysis in vegan&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://vegandevs.r-universe.dev/vegan/doc/decision-vegan.pdf&quot;&gt;Design decisions and implementation&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h1&gt;Installation&lt;/h1&gt; 
+&lt;p&gt;To install the development version of &lt;strong&gt;vegan&lt;/strong&gt; you can use the usual &lt;code&gt;git&lt;/code&gt; and &lt;code&gt;R CMD build -&amp;gt; R CMD INSTALL&lt;/code&gt; dance on the cloned repo (or downloaded sources). You&#39;ll need to be able to install packages from source for that to work; if you don&#39;t have the relevant developer tools, you won&#39;t be able to install &lt;strong&gt;vegan&lt;/strong&gt; this way.&lt;/p&gt; 
+&lt;h2&gt;Using &lt;strong&gt;remotes&lt;/strong&gt;&lt;/h2&gt; 
+&lt;p&gt;If you do have the developer tools installed but don&#39;t want the hassle of keeping a local source code tree up-to-date, use the &lt;strong&gt;remotes&lt;/strong&gt; package:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;remotes&quot;)
+remotes::install_github(&quot;vegandevs/vegan&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Installing binaries from R Universe&lt;/h2&gt; 
+&lt;p&gt;If you just want to install a binary version of the packages, just as you would from CRAN, you can install from our R Universe repository. Run the following in your R session:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&#39;vegan&#39;,
+    repos = c(&#39;https://vegandevs.r-universe.dev&#39;,&#39;https://cloud.r-project.org&#39;))
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>joey711/phyloseq</title>
+      <link>https://github.com/joey711/phyloseq</link>
+      <description>&lt;p&gt;phyloseq is a set of classes, wrappers, and tools (in R) to make it easier to import, store, and analyze phylogenetic sequencing data; and to reproducibly share that data and analysis with others. See the phyloseq front page:&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;&lt;a href=&quot;http://joey711.github.com/phyloseq/&quot;&gt;phyloseq&lt;/a&gt;&lt;/h1&gt; 
+&lt;p&gt;&lt;a href=&quot;https://travis-ci.org/joey711/phyloseq&quot;&gt;&lt;img src=&quot;https://travis-ci.org/joey711/phyloseq.svg?branch=master&quot; alt=&quot;Travis-CI Build Status&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/joey711/phyloseq/master/inst/extdata/phyloseq.png&quot; alt=&quot;phyloseq&quot;&gt;&lt;/p&gt; 
+&lt;h2&gt;Quick Install&lt;/h2&gt; 
+&lt;p&gt;In R terminal:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;if(!requireNamespace(&quot;BiocManager&quot;)){
+  install.packages(&quot;BiocManager&quot;)
+}
+BiocManager::install(&quot;phyloseq&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;See &lt;a href=&quot;http://joey711.github.io/phyloseq/install.html&quot;&gt;the phyloseq installation page&lt;/a&gt; for further details, examples.&lt;/p&gt; 
+&lt;h2&gt;Article on Improved Microbiome Analysis&lt;/h2&gt; 
+&lt;p&gt;McMurdie and Holmes (2014) &lt;a href=&quot;http://dx.plos.org/10.1371/journal.pcbi.1003531&quot;&gt;Waste Not, Want Not: Why Rarefying Microbiome Data is Statistically Inadmissible&lt;/a&gt; &lt;em&gt;PLoS Computational Biology&lt;/em&gt; 10(4): e1003531&lt;/p&gt; 
+&lt;p&gt;Presubmission versions ahead of acceptance (2013): &lt;a href=&quot;http://arxiv.org/pdf/1310.0424v2.pdf&quot;&gt;PDF version 2&lt;/a&gt;, &lt;a href=&quot;http://arxiv.org/pdf/1310.0424v1.pdf&quot;&gt;PDF version 1&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Peer-reviewed articles about phyloseq&lt;/h2&gt; 
+&lt;p&gt;McMurdie and Holmes (2014) &lt;a href=&quot;http://bioinformatics.oxfordjournals.org/content/early/2014/10/02/bioinformatics.btu616&quot;&gt;Shiny-phyloseq: Web Application for Interactive Microbiome Analysis with Provenance Tracking&lt;/a&gt;. &lt;em&gt;Bioinformatics (Oxford, England)&lt;/em&gt; 31(2), 282–283.&lt;/p&gt; 
+&lt;p&gt;McMurdie and Holmes (2013) &lt;a href=&quot;http://dx.plos.org/10.1371/journal.pone.0061217&quot;&gt;phyloseq: An R package for reproducible interactive analysis and graphics of microbiome census data&lt;/a&gt; &lt;em&gt;PLoS ONE&lt;/em&gt; 8(4):e61217&lt;/p&gt; 
+&lt;h2&gt;Other resources&lt;/h2&gt; 
+&lt;p&gt;The phyloseq project also has a number of supporting online resources, including (but probably not limited to)&lt;/p&gt; 
+&lt;h3&gt;&lt;a href=&quot;http://joey711.github.com/phyloseq/&quot;&gt;the phyloseq home page&lt;/a&gt;&lt;/h3&gt; 
+&lt;h3&gt;&lt;a href=&quot;https://www.bioconductor.org/packages/release/bioc/vignettes/phyloseq/inst/doc/phyloseq-FAQ.html&quot;&gt;the phyloseq FAQ&lt;/a&gt;&lt;/h3&gt; 
+&lt;p&gt;I recommend checking this page, and the issues tracker, before posting new issues.&lt;/p&gt; 
+&lt;h3&gt;&lt;a href=&quot;http://bioconductor.org/packages/release/bioc/html/phyloseq.html&quot;&gt;Bioconductor stable release&lt;/a&gt;.&lt;/h3&gt; 
+&lt;h3&gt;&lt;a href=&quot;https://github.com/joey711/phyloseq/issues&quot;&gt;the phyloseq Issue Tracker&lt;/a&gt;&lt;/h3&gt; 
+&lt;p&gt;This is the recommended location to post&lt;/p&gt; 
+&lt;p&gt;(1) feature requests (2) bug reports (3) theoretical considerations (4) other issues, feedback (5) ask for help&lt;/p&gt; 
+&lt;p&gt;Search previous posts, and check &lt;a href=&quot;https://www.bioconductor.org/packages/release/bioc/vignettes/phyloseq/inst/doc/phyloseq-FAQ.html&quot;&gt;the phyloseq FAQ&lt;/a&gt; before posting a new issue.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>jokergoo/ComplexHeatmap</title>
+      <link>https://github.com/jokergoo/ComplexHeatmap</link>
+      <description>&lt;p&gt;Make Complex Heatmaps&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;Make Complex Heatmaps &lt;a href=&quot;https://jokergoo.github.io/ComplexHeatmap-reference/book/&quot;&gt;&lt;img src=&quot;https://jokergoo.github.io/ComplexHeatmap-reference/book/complexheatmap-cover.jpg&quot; width=&quot;240&quot; align=&quot;right&quot; style=&quot;border:2px solid black;&quot;&gt;&lt;/a&gt;&lt;/h1&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/jokergoo/ComplexHeatmap/actions&quot;&gt;&lt;img src=&quot;https://github.com/jokergoo/ComplexHeatmap/workflows/R-CMD-check/badge.svg?sanitize=true&quot; alt=&quot;R-CMD-check&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://codecov.io/github/jokergoo/ComplexHeatmap&quot;&gt;&lt;img src=&quot;https://img.shields.io/codecov/c/github/jokergoo/ComplexHeatmap.svg?sanitize=true&quot; alt=&quot;codecov&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://bioconductor.org/packages/stats/bioc/ComplexHeatmap/&quot;&gt;&lt;img src=&quot;http://www.bioconductor.org/shields/downloads/devel/ComplexHeatmap.svg?sanitize=true&quot; alt=&quot;bioc&quot;&gt;&lt;/a&gt; &lt;a href=&quot;http://bioconductor.org/packages/devel/bioc/html/ComplexHeatmap.html&quot;&gt;&lt;img src=&quot;http://www.bioconductor.org/shields/years-in-bioc/ComplexHeatmap.svg?sanitize=true&quot; alt=&quot;bioc&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;img src=&quot;http://jokergoo.github.io/complexheatmap_logo.svg?sanitize=true&quot; width=&quot;550&quot;&gt; 
+&lt;p&gt;Complex heatmaps are efficient to visualize associations between different sources of data sets and reveal potential patterns. Here the &lt;strong&gt;ComplexHeatmap&lt;/strong&gt; package provides a highly flexible way to arrange multiple heatmaps and supports various annotation graphics.&lt;/p&gt; 
+&lt;p&gt;The &lt;a href=&quot;https://github.com/jokergoo/InteractiveComplexHeatmap&quot;&gt;&lt;strong&gt;InteractiveComplexHeatmap&lt;/strong&gt;&lt;/a&gt; package can directly export static complex heatmaps into an interactive Shiny app. Have a try!&lt;/p&gt; 
+&lt;h2&gt;Citation&lt;/h2&gt; 
+&lt;p&gt;Zuguang Gu, et al., &lt;a href=&quot;http://bioinformatics.oxfordjournals.org/content/early/2016/05/20/bioinformatics.btw313.abstract&quot;&gt;Complex heatmaps reveal patterns and correlations in multidimensional genomic data&lt;/a&gt;, Bioinformatics, 2016.&lt;/p&gt; 
+&lt;p&gt;Zuguang Gu. &lt;a href=&quot;https://doi.org/10.1002/imt2.43&quot;&gt;Complex Heatmap Visualization&lt;/a&gt;, iMeta, 2022.&lt;/p&gt; 
+&lt;h2&gt;Install&lt;/h2&gt; 
+&lt;p&gt;&lt;code&gt;ComplexHeatmap&lt;/code&gt; is available on &lt;a href=&quot;http://www.bioconductor.org/packages/devel/bioc/html/ComplexHeatmap.html&quot;&gt;Bioconductor&lt;/a&gt;, you can install it by:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;if (!requireNamespace(&quot;BiocManager&quot;, quietly=TRUE))
+    install.packages(&quot;BiocManager&quot;)
+BiocManager::install(&quot;ComplexHeatmap&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;If you want the latest version, install it directly from GitHub:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;library(devtools)
+install_github(&quot;jokergoo/ComplexHeatmap&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Usage&lt;/h2&gt; 
+&lt;p&gt;Make a single heatmap:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;Heatmap(mat, ...)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;A single Heatmap with column annotations:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;ha = HeatmapAnnotation(df = anno1, anno_fun = anno2, ...)
+Heatmap(mat, ..., top_annotation = ha)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Make a list of heatmaps:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;Heatmap(mat1, ...) + Heatmap(mat2, ...)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Make a list of heatmaps and row annotations:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;ha = HeatmapAnnotation(df = anno1, anno_fun = anno2, ..., which = &quot;row&quot;)
+Heatmap(mat1, ...) + Heatmap(mat2, ...) + ha
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Documentation&lt;/h2&gt; 
+&lt;p&gt;The full documentations are available at &lt;a href=&quot;https://jokergoo.github.io/ComplexHeatmap-reference/book/&quot;&gt;https://jokergoo.github.io/ComplexHeatmap-reference/book/&lt;/a&gt; and the website is at &lt;a href=&quot;https://jokergoo.github.io/ComplexHeatmap&quot;&gt;https://jokergoo.github.io/ComplexHeatmap&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Blog posts&lt;/h2&gt; 
+&lt;p&gt;There are following blog posts focusing on specific topics:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://jokergoo.github.io/2021/03/24/3d-heatmap/&quot;&gt;Make 3D heatmap&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://jokergoo.github.io/2020/05/06/translate-from-pheatmap-to-complexheatmap/&quot;&gt;Translate from pheatmap to ComplexHeatmap&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://jokergoo.github.io/2020/05/11/set-cell-width/height-in-the-heatmap/&quot;&gt;Set cell width/height in the heatmap&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://jokergoo.github.io/2020/05/15/interactive-complexheatmap/&quot;&gt;Interactive ComplexHeatmap&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://jokergoo.github.io/2020/05/31/word-cloud-as-heatmap-annotation/&quot;&gt;Word cloud as heatmap annotation&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://jokergoo.github.io/2020/06/19/which-heatmap-function-is-faster/&quot;&gt;Which heatmap function is faster?&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://jokergoo.github.io/2020/06/30/rasterization-in-complexheatmap/&quot;&gt;Rasterization in ComplexHeatmap&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://jokergoo.github.io/2020/07/06/block-annotation-over-several-slices/&quot;&gt;Block annotation over several slices&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://jokergoo.github.io/2020/07/14/integrate-complexheatmap-with-cowplot-package/&quot;&gt;Integrate ComplexHeatmap with cowplot package&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Examples&lt;/h2&gt; 
+&lt;h3&gt;Visualize Methylation Profile with Complex Annotations&lt;/h3&gt; 
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/449218/47718635-2ec22980-dc49-11e8-9f01-37becb19e0d5.png&quot; alt=&quot;complexheatmap_example4&quot;&gt;&lt;/p&gt; 
+&lt;h3&gt;Correlations between methylation, expression and other genomic features&lt;/h3&gt; 
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/449218/47718636-2ec22980-dc49-11e8-8db0-1659c27dcf40.png&quot; alt=&quot;complexheatmap_example3&quot;&gt;&lt;/p&gt; 
+&lt;h3&gt;Visualize Cell Heterogeneity from Single Cell RNASeq&lt;/h3&gt; 
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/449218/47718637-2ec22980-dc49-11e8-925e-955c16cfa982.png&quot; alt=&quot;complexheatmap_example2&quot;&gt;&lt;/p&gt; 
+&lt;h3&gt;Making Enhanced OncoPrint&lt;/h3&gt; 
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/449218/47718638-2ec22980-dc49-11e8-845e-21e51d3b8e73.png&quot; alt=&quot;complexheatmap_example1&quot;&gt;&lt;/p&gt; 
+&lt;h3&gt;UpSet plot&lt;/h3&gt; 
+&lt;img src=&quot;https://user-images.githubusercontent.com/449218/102615477-48c76a80-4136-11eb-98d9-3c528844fbe8.png&quot; width=&quot;500&quot;&gt; 
+&lt;h3&gt;3D heatmap&lt;/h3&gt; 
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/449218/112284448-8c77c600-8c89-11eb-8d38-c5538900df20.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt; 
+&lt;h2&gt;License&lt;/h2&gt; 
+&lt;p&gt;MIT @ Zuguang Gu&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>satijalab/seurat</title>
+      <link>https://github.com/satijalab/seurat</link>
+      <description>&lt;p&gt;R toolkit for single cell genomics&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;a href=&quot;https://cran.r-project.org/package=Seurat&quot;&gt;&lt;img src=&quot;https://www.r-pkg.org/badges/version/Seurat&quot; alt=&quot;CRAN Version&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/package=Seurat&quot;&gt;&lt;img src=&quot;https://cranlogs.r-pkg.org/badges/Seurat&quot; alt=&quot;CRAN Downloads&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h1&gt;Seurat v5&lt;/h1&gt; 
+&lt;p&gt;Seurat is an R toolkit for single cell genomics, developed and maintained by the Satija Lab at NYGC.&lt;/p&gt; 
+&lt;p&gt;We are excited to release Seurat v5! This updates introduces new functionality for spatial, multimodal, and scalable single-cell analysis.&lt;/p&gt; 
+&lt;p&gt;Seurat v5 is backwards-compatible with previous versions, so that users will continue to be able to re-run existing workflows.&lt;/p&gt; 
+&lt;p&gt;Instructions, documentation, and tutorials can be found at:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://satijalab.org/seurat&quot;&gt;https://satijalab.org/seurat&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Seurat is also hosted on GitHub, you can view and clone the repository at&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/satijalab/seurat&quot;&gt;https://github.com/satijalab/seurat&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Seurat has been successfully installed on Mac OS X, Linux, and Windows, using the devtools package to install directly from GitHub&lt;/p&gt; 
+&lt;p&gt;Improvements and new features will be added on a regular basis, please post on the &lt;a href=&quot;https://github.com/satijalab/seurat&quot;&gt;github page&lt;/a&gt; with any questions or if you would like to contribute&lt;/p&gt; 
+&lt;p&gt;For a version history/changelog, please see the &lt;a href=&quot;https://github.com/satijalab/seurat/raw/master/NEWS.md&quot;&gt;NEWS file&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>plotly/plotly.R</title>
+      <link>https://github.com/plotly/plotly.R</link>
+      <description>&lt;p&gt;An interactive graphing library for R&lt;/p&gt;&lt;hr&gt;&lt;img src=&quot;https://raw.githubusercontent.com/plotly/plotly.R/master/man/figures/plotly.png&quot; width=&quot;200&quot;&gt; 
+&lt;!-- badges: start --&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/plotly/plotly.R/actions&quot;&gt;&lt;img src=&quot;https://github.com/ropensci/plotly/workflows/R-CMD-check/badge.svg?sanitize=true&quot; alt=&quot;R-CMD-check&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/package=plotly&quot;&gt;&lt;img src=&quot;https://www.r-pkg.org/badges/version/plotly&quot; alt=&quot;CRAN Status&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cranlogs.r-pkg.org/badges/grand-total/plotly&quot;&gt;&lt;img src=&quot;https://cranlogs.r-pkg.org/badges/grand-total/plotly&quot; alt=&quot;CRAN Downloads&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cranlogs.r-pkg.org/badges/plotly&quot;&gt;&lt;img src=&quot;https://cranlogs.r-pkg.org/badges/plotly&quot; alt=&quot;monthly&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;!-- badges: end --&gt; 
+&lt;p&gt;An R package for creating interactive web graphics via the open source JavaScript graphing library &lt;a href=&quot;https://github.com/plotly/plotly.js&quot;&gt;plotly.js&lt;/a&gt;.&lt;/p&gt; 
+&lt;div align=&quot;center&quot;&gt; 
+ &lt;a href=&quot;https://dash.plotly.com/project-maintenance&quot;&gt; &lt;img src=&quot;https://dash.plotly.com/assets/images/maintained-by-community.png&quot; width=&quot;400px&quot; alt=&quot;Maintained by the Plotly Community&quot;&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;p&gt;Install from CRAN:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;plotly&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Or install the latest development version (on GitHub) via &lt;code&gt;{remotes}&lt;/code&gt;:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;remotes::install_github(&quot;plotly/plotly&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Getting started&lt;/h2&gt; 
+&lt;h3&gt;Web-based ggplot2 graphics&lt;/h3&gt; 
+&lt;p&gt;If you use &lt;a href=&quot;https://github.com/tidyverse/ggplot2&quot;&gt;ggplot2&lt;/a&gt;, &lt;code&gt;ggplotly()&lt;/code&gt; converts your static plots to an interactive web-based version!&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;library(plotly)
+g &amp;lt;- ggplot(faithful, aes(x = eruptions, y = waiting)) +
+  stat_density_2d(aes(fill = ..level..), geom = &quot;polygon&quot;) + 
+  xlim(1, 6) + ylim(40, 100)
+ggplotly(g)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/G1rSArP.gif&quot; alt=&quot;https://i.imgur.com/G1rSArP.gifv&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;By default, &lt;code&gt;ggplotly()&lt;/code&gt; tries to replicate the static ggplot2 version exactly (before any interaction occurs), but sometimes you need greater control over the interactive behavior. The &lt;code&gt;ggplotly()&lt;/code&gt; function itself has some convenient “high-level” arguments, such as &lt;code&gt;dynamicTicks&lt;/code&gt;, which tells plotly.js to dynamically recompute axes, when appropriate. The &lt;code&gt;style()&lt;/code&gt; function also comes in handy for &lt;em&gt;modifying&lt;/em&gt; the underlying trace attributes (e.g. &lt;a href=&quot;https://plotly.com/r/reference/#scatter-hoveron&quot;&gt;hoveron&lt;/a&gt;) used to generate the plot:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;gg &amp;lt;- ggplotly(g, dynamicTicks = &quot;y&quot;)
+style(gg, hoveron = &quot;points&quot;, hoverinfo = &quot;x+y+text&quot;, hoverlabel = list(bgcolor = &quot;white&quot;))
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/qRvLgea.gif&quot; alt=&quot;https://i.imgur.com/qRvLgea.gifv&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;Moreover, since &lt;code&gt;ggplotly()&lt;/code&gt; returns a plotly object, you can apply essentially any function from the R package on that object. Some useful ones include &lt;code&gt;layout()&lt;/code&gt; (for &lt;a href=&quot;https://plotly-r.com/improving-ggplotly.html#modifying-layout&quot;&gt;customizing the layout&lt;/a&gt;), &lt;code&gt;add_traces()&lt;/code&gt; (and its higher-level &lt;code&gt;add_*()&lt;/code&gt; siblings, for example &lt;code&gt;add_polygons()&lt;/code&gt;, for &lt;a href=&quot;https://plotly-r.com/improving-ggplotly.html#leveraging-statistical-output&quot;&gt;adding new traces/data&lt;/a&gt;), &lt;code&gt;subplot()&lt;/code&gt; (for &lt;a href=&quot;https://plotly-r.com/arranging-views.html#arranging-plotly-objects&quot;&gt;combining multiple plotly objects&lt;/a&gt;), and &lt;code&gt;plotly_json()&lt;/code&gt; (for inspecting the underlying JSON sent to plotly.js).&lt;/p&gt; 
+&lt;p&gt;The &lt;code&gt;ggplotly()&lt;/code&gt; function will also respect some “unofficial” &lt;strong&gt;ggplot2&lt;/strong&gt; aesthetics, namely &lt;code&gt;text&lt;/code&gt; (for &lt;a href=&quot;https://plotly-r.com/controlling-tooltips.html#tooltip-text-ggplotly&quot;&gt;customizing the tooltip&lt;/a&gt;), &lt;code&gt;frame&lt;/code&gt; (for &lt;a href=&quot;https://plotly-r.com/animating-views.html&quot;&gt;creating animations&lt;/a&gt;), and &lt;code&gt;ids&lt;/code&gt; (for ensuring sensible smooth transitions).&lt;/p&gt; 
+&lt;h3&gt;Using plotly without ggplot2&lt;/h3&gt; 
+&lt;p&gt;The &lt;code&gt;plot_ly()&lt;/code&gt; function provides a more direct interface to plotly.js so you can leverage more specialized chart types (e.g., &lt;a href=&quot;https://plotly.com/r/parallel-coordinates-plot/&quot;&gt;parallel coordinates&lt;/a&gt; or &lt;a href=&quot;https://plotly.com/r/maps/&quot;&gt;maps&lt;/a&gt;) or even some visualization that the ggplot2 API won’t ever support (e.g., surface, &lt;a href=&quot;https://plotly.com/r/3d-mesh/&quot;&gt;mesh&lt;/a&gt;, &lt;a href=&quot;https://plotly.com/r/trisurf/&quot;&gt;trisurf&lt;/a&gt;, etc).&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;plot_ly(z = ~volcano, type = &quot;surface&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://plot.ly/~brnvg/1134.png&quot; alt=&quot;https://plot.ly/~brnvg/1134&quot;&gt;&lt;/p&gt; 
+&lt;h2&gt;Learn more&lt;/h2&gt; 
+&lt;p&gt;To learn more about special features that the plotly R package provides (e.g., &lt;a href=&quot;https://plotly-r.com/client-side-linking.html&quot;&gt;client-side linking&lt;/a&gt;, &lt;a href=&quot;https://plotly-r.com/linking-views-with-shiny.html&quot;&gt;&lt;strong&gt;shiny&lt;/strong&gt; integration&lt;/a&gt;, &lt;a href=&quot;https://plotly-r.com/publish.html&quot;&gt;editing and generating static images&lt;/a&gt;, &lt;a href=&quot;https://plotly-r.com/javascript.html&quot;&gt;custom events in JavaScript&lt;/a&gt;, and more), see &lt;a href=&quot;https://plotly-r.com&quot;&gt;https://plotly-r.com&lt;/a&gt;. You may already be familiar with existing plotly documentation (e.g., &lt;a href=&quot;https://plotly.com/r/&quot;&gt;https://plotly.com/r/&lt;/a&gt;), which is essentially a language-agnostic how-to guide for learning plotly.js, whereas &lt;a href=&quot;https://plotly-r.com&quot;&gt;https://plotly-r.com&lt;/a&gt; is meant to be more wholistic tutorial written by and for the R user. The package itself ships with a number of demos (list them by running &lt;code&gt;demo(package = &quot;plotly&quot;)&lt;/code&gt;) and shiny/rmarkdown examples (list them by running &lt;code&gt;plotly_example(&quot;shiny&quot;)&lt;/code&gt; or &lt;code&gt;plotly_example(&quot;rmd&quot;)&lt;/code&gt;). &lt;a href=&quot;https://cpsievert.me&quot;&gt;Carson&lt;/a&gt; also keeps numerous &lt;a href=&quot;https://talks.cpsievert.me&quot;&gt;slide decks&lt;/a&gt; with useful examples and concepts.&lt;/p&gt; 
+&lt;h2&gt;Contributing&lt;/h2&gt; 
+&lt;p&gt;Please read through our &lt;a href=&quot;https://github.com/plotly/plotly.R/raw/master/CONTRIBUTING.md&quot;&gt;contributing guidelines&lt;/a&gt;. Included are directions for opening issues, asking questions, contributing changes to plotly, and our code of conduct.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>chris-mcginnis-ucsf/DoubletFinder</title>
+      <link>https://github.com/chris-mcginnis-ucsf/DoubletFinder</link>
+      <description>&lt;p&gt;R package for detecting doublets in single-cell RNA sequencing data&lt;/p&gt;&lt;hr&gt;&lt;p&gt;~~ Announcement (11/24/21) ~~ I&#39;m now a postdoc at Stanford and my UCSF email will be decommissioned soon. I also only check my github repos about once per month, so please reach out directly at cmcginni@stanford[dot]edu if you run into any issues.&lt;/p&gt; 
+&lt;h1&gt;DoubletFinder&lt;/h1&gt; 
+&lt;p&gt;DoubletFinder is an R package that predicts doublets in single-cell RNA sequencing data.&lt;/p&gt; 
+&lt;p&gt;DoubletFinder is implemented to interface with Seurat &amp;gt;= 2.0 (&lt;a href=&quot;https://satijalab.org/seurat/&quot;&gt;https://satijalab.org/seurat/&lt;/a&gt;)&lt;/p&gt; 
+&lt;p&gt;DoubletFinder was published by Cell Systems in April, 2019: &lt;a href=&quot;https://www.cell.com/cell-systems/fulltext/S2405-4712(19)30073-0&quot;&gt;https://www.cell.com/cell-systems/fulltext/S2405-4712(19)30073-0&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Updates&lt;/h2&gt; 
+&lt;p&gt;(02/02/2025) Haibo Liu (Senior Bioinformatician at UMass, @haibol2016) added as maintainer after his much-needed improvement updates to the package.&lt;/p&gt; 
+&lt;p&gt;(11/21/2023) Made compatible with Seurat v5 and removed &#39;_v3&#39; flag from relevant function names.&lt;/p&gt; 
+&lt;p&gt;(03/31/2020) Internalized functions normally in &#39;modes&#39; package to enable compatibility with R v3.6 and highger.&lt;/p&gt; 
+&lt;p&gt;(06/21/2019) Added parallelization to paramSweep_v3 (thanks NathanSkeen!) -- Note: progress no longer updated, but the process is much faster! Fixed bug with smaller datasets. Updated readme.&lt;/p&gt; 
+&lt;p&gt;(04/12/2019) Added SCTransform compatibilities to &#39;paramSweep_v3&#39; and &#39;doubletFinder_v3&#39;&lt;/p&gt; 
+&lt;p&gt;(04/08/2019) Added &#39;PCs&#39; argument to &#39;doubletFinder&#39;, &#39;doubletFinder_v3&#39;, &#39;paramSweep&#39;, and &#39;paramSweep_v3&#39; to avoid conflicts with dimension reduction preferences. Updated readme.&lt;/p&gt; 
+&lt;p&gt;(01/12/2019) Seurat V3 compatibility: &#39;doubletFinder_v3&#39; and &#39;paramSweep_v3&#39; functions added, other functions for parameter estimation remain compatible.&lt;/p&gt; 
+&lt;h2&gt;DoubletFinder V2.0 (11/28/2018)&lt;/h2&gt; 
+&lt;p&gt;New Features:&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;Increased computational efficiency during pANN computation&lt;/li&gt; 
+ &lt;li&gt;Implemented strategy for determining optimal pK values for any scRNA-seq data using pN-pK parameter sweeps and mean-variance-normalized bimodality coefficient (BCmvn)&lt;/li&gt; 
+ &lt;li&gt;Included vignette describing &#39;best-practices&#39; for applying DoubletFinder to scRNA-seq data generated without sample multiplexing&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;h2&gt;Installation (in R/RStudio)&lt;/h2&gt; 
+&lt;p&gt;remotes::install_github(&#39;chris-mcginnis-ucsf/DoubletFinder&#39;)&lt;/p&gt; 
+&lt;h2&gt;Dependencies&lt;/h2&gt; 
+&lt;p&gt;DoubletFinder requires the following R packages:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Seurat (&amp;gt;= 2.0)&lt;/li&gt; 
+ &lt;li&gt;Matrix (1.2.14)&lt;/li&gt; 
+ &lt;li&gt;fields (9.6)&lt;/li&gt; 
+ &lt;li&gt;KernSmooth (2.23-15)&lt;/li&gt; 
+ &lt;li&gt;ROCR (1.0-7)&lt;/li&gt; 
+ &lt;li&gt;parallel (3.5.1)&lt;/li&gt; 
+ &lt;li&gt;NOTE: These package versions were used in the bioRxiv paper, but other versions may work, as well.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Frequently Asked Questions&lt;/h2&gt; 
+&lt;p&gt;Question: What is my anticipated doublet rate? Answer: This is dependent on your platform (10x, parse, etc.) and will vary with the number of input cells. It will not always be 7.5% as is used in the tutorial. This information is available in the user guides for each technology. See &lt;a href=&quot;https://github.com/chris-mcginnis-ucsf/DoubletFinder/issues/76&quot;&gt;https://github.com/chris-mcginnis-ucsf/DoubletFinder/issues/76&lt;/a&gt; and &lt;a href=&quot;https://github.com/chris-mcginnis-ucsf/DoubletFinder/issues/156&quot;&gt;https://github.com/chris-mcginnis-ucsf/DoubletFinder/issues/156&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Question: Can I run DoubletFinder on merged data from multiple 10x lanes? Answer: Technically yes but I would only do this if you were splitting the same sample across multiple lanes. You want to avoid instances where DoubletFinder is attempting to find doublets that do not actually exist in the data. I would also not advise running DF on integrated Seurat objects. See &lt;a href=&quot;https://github.com/chris-mcginnis-ucsf/DoubletFinder/issues/101&quot;&gt;https://github.com/chris-mcginnis-ucsf/DoubletFinder/issues/101&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Question: I see multiple potential pK values when visualizing BCmvn -- what should I do? Answer: I would spot check the results in GEX space to see what makes the most sense given your understanding of the data. See &lt;a href=&quot;https://github.com/chris-mcginnis-ucsf/DoubletFinder/issues/62&quot;&gt;https://github.com/chris-mcginnis-ucsf/DoubletFinder/issues/62&lt;/a&gt; and &lt;a href=&quot;https://github.com/chris-mcginnis-ucsf/DoubletFinder/issues/40&quot;&gt;https://github.com/chris-mcginnis-ucsf/DoubletFinder/issues/40&lt;/a&gt;&lt;/p&gt; 
+&lt;h1&gt;DoubletFinder Overview&lt;/h1&gt; 
+&lt;p&gt;DoubletFinder can be broken up into 4 steps:&lt;/p&gt; 
+&lt;p&gt;(1) Generate artificial doublets from existing scRNA-seq data&lt;/p&gt; 
+&lt;p&gt;(2) Pre-process merged real-artificial data&lt;/p&gt; 
+&lt;p&gt;(3) Perform PCA and use the PC distance matrix to find each cell&#39;s proportion of artificial k nearest neighbors (pANN)&lt;/p&gt; 
+&lt;p&gt;(4) Rank order and threshold pANN values according to the expected number of doublets&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/chris-mcginnis-ucsf/DoubletFinder/master/DF.screenshots/DoubletFinderOverview.png&quot; alt=&quot;alternativetext&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;DoubletFinder takes the following arguments:&lt;/p&gt; 
+&lt;p&gt;seu ~ This is a fully-processed Seurat object (i.e., after NormalizeData, FindVariableGenes, ScaleData, RunPCA, and RunTSNE have all been run).&lt;/p&gt; 
+&lt;p&gt;PCs ~ The number of statistically-significant principal components, specified as a range (e.g., PCs = 1:10)&lt;/p&gt; 
+&lt;p&gt;pN ~ This defines the number of generated artificial doublets, expressed as a proportion of the merged real-artificial data. Default is set to 25%, based on observation that DoubletFinder performance is largely pN-invariant (see McGinnis, Murrow and Gartner 2019, Cell Systems).&lt;/p&gt; 
+&lt;p&gt;pK ~ This defines the PC neighborhood size used to compute pANN, expressed as a proportion of the merged real-artificial data. No default is set, as pK should be adjusted for each scRNA-seq dataset. Optimal pK values should be estimated using the strategy described below.&lt;/p&gt; 
+&lt;p&gt;nExp ~ This defines the pANN threshold used to make final doublet/singlet predictions. This value can best be estimated from cell loading densities into the 10X/Drop-Seq device, and adjusted according to the estimated proportion of homotypic doublets.&lt;/p&gt; 
+&lt;h2&gt;Application to Cell Hashing and Demuxlet data&lt;/h2&gt; 
+&lt;p&gt;DoubletFinder successfully recapitulates ground-truth doublet classifications determined using antibody-barcode sample multiplexing (Cell Hashing) and SNP deconvolution (Demuxlet). DoubletFinder identifies false-negative Demuxlet classifications caused by doublets formed from cells with identical SNP profiles. DoubletFinder is insensitive to homotypic doublets -- i.e., doublets dervied from transcriptionally-similar cell states.&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/chris-mcginnis-ucsf/DoubletFinder/master/DF.screenshots/Results_Demux.png&quot; alt=&quot;alternativetext&quot;&gt; &lt;img src=&quot;https://raw.githubusercontent.com/chris-mcginnis-ucsf/DoubletFinder/master/DF.screenshots/Results_Hashing.png&quot; alt=&quot;alternativetext&quot;&gt;&lt;/p&gt; 
+&lt;h1&gt;&#39;Best-Practices&#39; for scRNA-seq data generated without sample multiplexing&lt;/h1&gt; 
+&lt;h2&gt;Input scRNA-seq Data&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt; &lt;p&gt;Do not apply DoubletFinder to aggregated scRNA-seq data representing multiple &lt;em&gt;distinct&lt;/em&gt; samples (e.g., multiple 10X lanes). For example, if you run DoubletFinder on aggregated data representing WT and mutant cell lines sequenced across different 10X lanes, artificial doublets will be generated from WT and mutant cells, which cannot exist in your data. These artificial doublets will skew results. Notably, it is okay to run DoubletFinder on data generated by splitting a single sample across multiple 10X lanes.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Ensure that input data is cleared of low-quality cell clusters. There are a variety of ways to do this, but I usually use the following workflow:&lt;/p&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;Manually threshold raw gene expression matrices according to RNA nUMIs (especially important when dealing with super-loaded 10X data because of the way CellRanger threholds data -- See Lun et al., 2019, Genome Biology.&lt;/li&gt; 
+ &lt;li&gt;Pre-process data using standard workflow.&lt;/li&gt; 
+ &lt;li&gt;Identify clusters with (A) low RNA UMIs, (B) High % mitochondrial reads, and/or (C) Uninformative marker genes.&lt;/li&gt; 
+ &lt;li&gt;Remove clusters, pre-process again, and run DoubletFinder.&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;h2&gt;pK Selection&lt;/h2&gt; 
+&lt;p&gt;ROC analysis across pN-pK parameter sweeps for Cell Hashing and Demuxlet datasets demonstrate that DoubletFinder performance is largely invariant of pN value selection:&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/chris-mcginnis-ucsf/DoubletFinder/master/DF.screenshots/ParamSweep_Schematic.png&quot; alt=&quot;alternativetext&quot;&gt; &lt;img src=&quot;https://raw.githubusercontent.com/chris-mcginnis-ucsf/DoubletFinder/master/DF.screenshots/ParamSweep_HeatMap.png&quot; alt=&quot;alternativetext&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;ROC analysis across pN-pK parameter sweeps for simulated scRNA-seq data with (I) Variable numbers of cell states and (II) Variable magnitudes of transcriptional heterogeneity demonstrates that (I) Optimal pK value selection depends on the total number of cell states and (II) DoubletFinder performance suffers when applied to transcriptionally-homogenous data. Simulated data was generated using a strategy similar to as described in Wolock, Lopex &amp;amp; Klein 2019, Cell Systems.&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/chris-mcginnis-ucsf/DoubletFinder/master/DF.screenshots/Simulation_Schematic.png&quot; alt=&quot;alternativetext&quot;&gt; &lt;img src=&quot;https://raw.githubusercontent.com/chris-mcginnis-ucsf/DoubletFinder/master/DF.screenshots/Results_Simulation.png&quot; alt=&quot;alternativetext&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;Simulated and sample-multiplexed data are unique in that ground-truth doublet classifications can be leveraged to characterize how DoubletFinder parameters must be &#39;fit&#39; to distinct scRNA-seq datasets. However, doublets remain unknown in real-world contexts -- which is likely why you are interested in DoubletFinder, at all!&lt;/p&gt; 
+&lt;p&gt;To maximize the accuracy of DoubletFinder predictions, we sought a ground-truth-agnostic metric that coincides with pK values that maximize AUC in Cell Hashing and Demuxlet data. Mean-variance normalized bimodality coefficient (BCmvn) achieves this goal, featuring a single, easily-discernible maximum at pK values that optimize AUC.&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/chris-mcginnis-ucsf/DoubletFinder/master/DF.screenshots/BCmvn.png&quot; alt=&quot;alternativetext&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;BCmvn distributions also feature a single maximum for scRNA-seq datasets generated without sample-multiplexing (e.g., Mouse pancreas, Byrnes et al., 2018, Nature Communcations; Mouse kidney, Park et al., 2018, Science), enabling pK selection.&lt;/p&gt; 
+&lt;h2&gt;Doublet Number Estimation&lt;/h2&gt; 
+&lt;p&gt;DoubletFinder is sensitive to heterotypic doublets -- i.e., doublets formed from transcriptionally-distinct cell states -- but is insensitive to homotypic doublets -- i.e., doublets formed from transcriptionally-similar cell states. In our original manuscript, we suggested using DoubletFinder to predict the number of doublets expected from Poisson statistical estimates realting to the droplet microfluidics cell loading density. However, Poisson estimates are agnostic of homotypic doublets, and will thus invariably overestimate the number of &lt;em&gt;detectable&lt;/em&gt; doublets.&lt;/p&gt; 
+&lt;p&gt;To address this issue, we suggest users utilize literature-supported cell type annotations to model the proportion of homotypic doublets present in their data. As an example, we present an analysis of mouse kidney scRNA-seq data (Park et al., 2018, Science):&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/chris-mcginnis-ucsf/DoubletFinder/master/DF.screenshots/HomotypicAdjustment.png&quot; alt=&quot;alternativetext&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;Notably, it is conceivable that literature-suppoted cell type annotations may not accurately recapitulate the magnitude of transcriptional divergence necessary for DoubletFinder sensitivity. For example, nominally-homogenous cells (e.g., CD4+ T-cells) may exist along a spectrum of gene expression states (e.g., distinct anatomical locations, disease states, naive/Tregs/Th17 cells, etc.), and doublets formed by cell sub-types may be detectable by DoubletFinder. Thus, we consider doublet number estimates based on Poisson statistics with and without homotypic doublet proportion adjustment to &#39;bookend&#39; the real detectable doublet rate.&lt;/p&gt; 
+&lt;h2&gt;Example code for &#39;real-world&#39; applications&lt;/h2&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-R&quot;&gt;## Pre-process Seurat object (standard) --------------------------------------------------------------------------------------
+seu_kidney &amp;lt;- CreateSeuratObject(kidney.data)
+seu_kidney &amp;lt;- NormalizeData(seu_kidney)
+seu_kidney &amp;lt;- FindVariableFeatures(seu_kidney, selection.method = &quot;vst&quot;, nfeatures = 2000)
+seu_kidney &amp;lt;- ScaleData(seu_kidney)
+seu_kidney &amp;lt;- RunPCA(seu_kidney)
+seu_kidney &amp;lt;- RunUMAP(seu_kidney, dims = 1:10)
+
+## Pre-process Seurat object (sctransform) -----------------------------------------------------------------------------------
+seu_kidney &amp;lt;- CreateSeuratObject(kidney.data)
+seu_kidney &amp;lt;- SCTransform(seu_kidney)
+seu_kidney &amp;lt;- RunPCA(seu_kidney)
+seu_kidney &amp;lt;- RunUMAP(seu_kidney, dims = 1:10)
+
+## pK Identification (no ground-truth) ---------------------------------------------------------------------------------------
+sweep.res.list_kidney &amp;lt;- paramSweep(seu_kidney, PCs = 1:10, sct = FALSE)
+sweep.stats_kidney &amp;lt;- summarizeSweep(sweep.res.list_kidney, GT = FALSE)
+bcmvn_kidney &amp;lt;- find.pK(sweep.stats_kidney)
+
+## pK Identification (ground-truth) ------------------------------------------------------------------------------------------
+sweep.res.list_kidney &amp;lt;- paramSweep(seu_kidney, PCs = 1:10, sct = FALSE)
+gt.calls &amp;lt;- seu_kidney@meta.data[rownames(sweep.res.list_kidney[[1]]), &quot;GT&quot;].   ## GT is a vector containing &quot;Singlet&quot; and &quot;Doublet&quot; calls recorded using sample multiplexing classification and/or in silico geneotyping results 
+sweep.stats_kidney &amp;lt;- summarizeSweep(sweep.res.list_kidney, GT = TRUE, GT.calls = gt.calls)
+bcmvn_kidney &amp;lt;- find.pK(sweep.stats_kidney)
+
+## Homotypic Doublet Proportion Estimate -------------------------------------------------------------------------------------
+homotypic.prop &amp;lt;- modelHomotypic(annotations)           ## ex: annotations &amp;lt;- seu_kidney@meta.data$ClusteringResults
+nExp_poi &amp;lt;- round(0.075*nrow(seu_kidney@meta.data))  ## Assuming 7.5% doublet formation rate - tailor for your dataset
+nExp_poi.adj &amp;lt;- round(nExp_poi*(1-homotypic.prop))
+
+## Run DoubletFinder with varying classification stringencies ----------------------------------------------------------------
+seu_kidney &amp;lt;- doubletFinder(seu_kidney, PCs = 1:10, pN = 0.25, pK = 0.09, nExp = nExp_poi, reuse.pANN = NULL, sct = FALSE)
+seu_kidney &amp;lt;- doubletFinder(seu_kidney, PCs = 1:10, pN = 0.25, pK = 0.09, nExp = nExp_poi.adj, reuse.pANN = &quot;pANN_0.25_0.09_913&quot;, sct = FALSE)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/chris-mcginnis-ucsf/DoubletFinder/master/DF.screenshots/DFkidney_low.vs.high.png&quot; alt=&quot;alternativetext&quot;&gt;&lt;/p&gt; 
+&lt;h2&gt;Other Doublet Detection Methods&lt;/h2&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/AllonKleinLab/scrublet&quot;&gt;Scrublet&lt;/a&gt; &lt;a href=&quot;https://github.com/EDePasquale/DoubletDecon&quot;&gt;DoubletDecon&lt;/a&gt; &lt;a href=&quot;https://github.com/JonathanShor/DoubletDetection&quot;&gt;DoubletDetection&lt;/a&gt; &lt;a href=&quot;https://github.com/calico/solo&quot;&gt;Solo&lt;/a&gt; &lt;a href=&quot;https://github.com/kostkalab/scds&quot;&gt;scds&lt;/a&gt; &lt;a href=&quot;https://github.com/plger/scDblFinder&quot;&gt;scDblFinder&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;References&lt;/h2&gt; 
+&lt;ol&gt; 
+ &lt;li&gt; &lt;p&gt;Stoeckius M, Zheng S, Houck-Loomis B, Hao S, Yeung BZ, Smibert P, Satija R. Cell Hashing with barcoded antibodies enables multiplexing and doublet detection for single cell genomics. Genome Biology. 2018. 19:224.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Kang HM, Subramaniam M, Targ S, Nguyen M, Maliskova L, McCarthy E, Wan E, Wong S, Byrnes L, Lanata CM, Gate RE, Mostafavi S, Marson A, Zaitlen N, Criswell LA, Ye JC. Multiplexed droplet single-cell RNA-sequencing using natural genetic variation. Nature Biotechnology. 2018. 36(1):89-94.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Wolock SL, Lopez R, Klein AM. Scrublet: Computational Identification of Cell Doublets in Single-Cell Transcriptomic Data. Cell Systems. 2019. 8(4):281-291.e9.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Park J, Shrestha R, Qiu C, Kondo A, Huang S, Werth M, Li M, Barasch J, Suszták K. Single-cell transcriptomics of the mouse kidney reveals potential cellular targets of kidney disease. Science. 2018. 360(6390):758-63.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Byrnes LE, Wong DM, Subramaniam M, Meyer NP, Gilchrist CL, Knox SM, Tward AD, Ye CJ, Sneddon JB. Lineage dynamics of murine pancreatic development at single-cell resolution. Nature Communications. 2018; 9:3922.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Bais AS, Kostka D. scds: computational annotation of doublets in single-cell RNA sequencing data. Bioinformatics. 2020. 36(4):1150-8.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Bernstein NJ, Fong NL, Lam I, Roy MA, Hendrickson DG, Kelley DR. Solo: Doublet Identification in Single-Cell RNA-Seq via Semi-Supervised Deep Learning. Cell Systems. 2020. S2405-4712(20)30195-2.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;DePasquale EAK, Schnell DJ, Van Camp PJ, Valiente-Alandi I, Blaxall BC, Grimes HL, Singh H, Salomonis N. DoubletDecon: Deconvoluting Doublets from Single-Cell RNA-Sequencing Data. Cell Reports. 2019. 29(6):1718-27.e8.&lt;/p&gt; &lt;/li&gt; 
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>broadinstitute/infercnv</title>
+      <link>https://github.com/broadinstitute/infercnv</link>
+      <description>&lt;p&gt;Inferring CNV from Single-Cell RNA-Seq&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;Subclustering&lt;/h1&gt; 
+&lt;p&gt;Subclustering resolution is one of the primary settings that will need to be adjusted in most runs to avoid oversplitting. The tutorial below explains how it works and details about it can also be found on the &lt;a href=&quot;https://github.com/broadinstitute/infercnv/wiki/infercnv-tumor-subclusters#tumor-subclustering-by-leiden-clustering-preferred&quot;&gt;wiki&lt;/a&gt;.&lt;/p&gt; 
+&lt;h1&gt;Documentation&lt;/h1&gt; 
+&lt;h3&gt;Full documentation&lt;/h3&gt; 
+&lt;p&gt;Visit project &lt;a href=&quot;https://github.com/broadinstitute/inferCNV/wiki&quot;&gt;wiki&lt;/a&gt; for InferCNV documentation.&lt;/p&gt; 
+&lt;h3&gt;Infercnv video tutorial&lt;/h3&gt; 
+&lt;p&gt;A &lt;strong&gt;video&lt;/strong&gt; tutorial giving on overview of infercnv features and how to run an analysis can be found below &lt;strong&gt;(click on the image)&lt;/strong&gt;:&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=-qOcHAavZT8&quot; title=&quot;Tutorial: Running infercnv&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/-qOcHAavZT8/0.jpg&quot; alt=&quot;Tutorial: Running infercnv&quot;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>benjjneb/dada2</title>
+      <link>https://github.com/benjjneb/dada2</link>
+      <description>&lt;p&gt;Accurate sample inference from amplicon data with single nucleotide resolution&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;a href=&quot;https://app.travis-ci.com/benjjneb/dada2&quot;&gt;&lt;img src=&quot;https://app.travis-ci.com/benjjneb/dada2.svg?branch=master&quot; alt=&quot;Build Status&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h1&gt;dada2&lt;/h1&gt; 
+&lt;p&gt;Exact sample inference from high-throughput amplicon data. Resolves real variants differing by as little as one nucleotide. Visit &lt;a href=&quot;https://benjjneb.github.io/dada2/index.html&quot;&gt;the DADA2 website&lt;/a&gt; for the most detailed and up-to-date documentation.&lt;/p&gt; 
+&lt;h3&gt;Installation&lt;/h3&gt; 
+&lt;p&gt;The dada2 package binaries are available through Bioconductor:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-S&quot;&gt;## try http:// if https:// URLs are not supported
+if (!requireNamespace(&quot;BiocManager&quot;, quietly=TRUE))
+    install.packages(&quot;BiocManager&quot;)
+BiocManager::install(&quot;dada2&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;In order to install dada2 from source (and get the latest and greatest new features) see our &lt;a href=&quot;https://benjjneb.github.io/dada2/dada-installation.html&quot;&gt;installation from source instructions&lt;/a&gt;.&lt;/p&gt; 
+&lt;h3&gt;Documentation&lt;/h3&gt; 
+&lt;p&gt;The &lt;a href=&quot;https://benjjneb.github.io/dada2/tutorial.html&quot;&gt;tutorial walkthrough of the DADA2 pipeline on paired end Illumina Miseq data&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;The &lt;a href=&quot;https://www.bioconductor.org/packages/3.6/bioc/manuals/dada2/man/dada2.pdf&quot;&gt;dada2 R package manual&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;Further documentation is available on &lt;a href=&quot;http://benjjneb.github.io/dada2/&quot;&gt;the DADA2 front page&lt;/a&gt;.&lt;/p&gt; 
+&lt;h3&gt;DADA2 Articles&lt;/h3&gt; 
+&lt;p&gt;&lt;a href=&quot;http://dx.doi.org/10.1038/nmeth.3869&quot;&gt;DADA2: High resolution sample inference from Illumina amplicon data. Nature Methods, 2016.&lt;/a&gt; &lt;a href=&quot;http://rdcu.be/ipGh&quot;&gt;(Open Access link.)&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://f1000research.com/articles/5-1492&quot;&gt;Bioconductor workflow for microbiome data analysis: from raw reads to community analyses. F1000 Research, 2016.&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;http://dx.doi.org/10.1038/ismej.2017.119&quot;&gt;Exact sequence variants should replace operational taxonomic units in marker-gene data analysis. ISMEJ, 2017.&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;http://dx.doi.org/10.1093/nar/gkz569&quot;&gt;High-throughput amplicon sequencing of the full-length 16S rRNA gene with single-nucleotide resolution. Nucleic Acids Research, 2019.&lt;/a&gt;&lt;/p&gt; 
+&lt;h3&gt;Other Resources&lt;/h3&gt; 
+&lt;p&gt;Planned feature improvements are publicly catalogued at the main DADA2 development site on github, specifically on the &quot;Issues&quot; page for DADA2:&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/benjjneb/dada2/issues&quot;&gt;https://github.com/benjjneb/dada2/issues&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;If the feature you are hoping for is not listed, you are welcome to add it as a feature request &quot;issue&quot; on this page. This request will be publicly available and listed on the page.&lt;/p&gt; 
+&lt;p&gt;Bugs and difficulties in using DADA2 are also welcome on &lt;a href=&quot;https://github.com/benjjneb/dada2/issues&quot;&gt;the issue tracker&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>mojaveazure/seurat-disk</title>
+      <link>https://github.com/mojaveazure/seurat-disk</link>
+      <description>&lt;p&gt;Interfaces for HDF5-based Single Cell File Formats&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;SeuratDisk v0.0.0.9015&lt;/h1&gt; 
+&lt;!-- badges: start --&gt; 
+&lt;p&gt;&lt;a href=&quot;https://cran.r-project.org/package=SeuratDisk&quot;&gt;&lt;img src=&quot;https://img.shields.io/cran/v/SeuratDisk&quot; alt=&quot;CRAN/METACRAN&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/mojaveazure/seurat-disk&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/lifecycle-experimental-orange.svg?sanitize=true&quot; alt=&quot;Lifecycle&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;!-- badges: end --&gt; 
+&lt;!-- Interfaces for HDF5-based Single Cell File Formats --&gt; 
+&lt;p&gt;The h5Seurat file format is specifically designed for the storage and analysis of multi-modal single-cell and spatially-resolved expression experiments, for example, from CITE-seq or 10X Visium technologies. It holds all molecular information and associated metadata, including (for example) nearest-neighbor graphs, dimensional reduction information, spatial coordinates and image data, and cluster labels. We also support rapid and on-disk conversion between h5Seurat and AnnData objects, with the goal of enhancing interoperability between Seurat and Scanpy.&lt;/p&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;p&gt;SeuratDisk is not currently available on CRAN. You can install it from &lt;a href=&quot;https://github.com/mojaveazure/seurat-disk&quot;&gt;GitHub&lt;/a&gt; with:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;if (!requireNamespace(&quot;remotes&quot;, quietly = TRUE)) {
+  install.packages(&quot;remotes&quot;)
+}
+remotes::install_github(&quot;mojaveazure/seurat-disk&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Dependencies&lt;/h2&gt; 
+&lt;p&gt;SeuratDisk depends on the following non-standard packages:&lt;/p&gt; 
+&lt;table&gt; 
+ &lt;thead&gt; 
+  &lt;tr&gt; 
+   &lt;th align=&quot;center&quot;&gt;Package&lt;/th&gt; 
+   &lt;th align=&quot;center&quot;&gt;CRAN Webpage&lt;/th&gt; 
+   &lt;th align=&quot;center&quot;&gt;Source&lt;/th&gt; 
+   &lt;th align=&quot;center&quot;&gt;Website&lt;/th&gt; 
+  &lt;/tr&gt; 
+ &lt;/thead&gt; 
+ &lt;tbody&gt; 
+  &lt;tr&gt; 
+   &lt;td align=&quot;center&quot;&gt;cli&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://cran.r-project.org/package=cli&quot;&gt;CRAN&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/r-lib/cli#readme&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;–&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td align=&quot;center&quot;&gt;crayon&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://cran.r-project.org/package=crayon&quot;&gt;CRAN&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/r-lib/crayon#readme&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;–&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td align=&quot;center&quot;&gt;hdf5r&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://cran.r-project.org/package=hdf5r&quot;&gt;CRAN&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/hhoeflin/hdf5r&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://hhoeflin.github.io/hdf5r/&quot;&gt;Website&lt;/a&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td align=&quot;center&quot;&gt;Matrix&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://cran.r-project.org/package=Matrix&quot;&gt;CRAN&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;–&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;http://Matrix.R-forge.R-project.org/&quot;&gt;Website&lt;/a&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td align=&quot;center&quot;&gt;R6&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://cran.r-project.org/package=R6&quot;&gt;CRAN&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/r-lib/R6/&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://r6.r-lib.org&quot;&gt;Website&lt;/a&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td align=&quot;center&quot;&gt;rlang&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://cran.r-project.org/package=rlang&quot;&gt;CRAN&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/r-lib/rlang&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://rlang.r-lib.org&quot;&gt;Website&lt;/a&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td align=&quot;center&quot;&gt;Seurat&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://cran.r-project.org/package=Seurat&quot;&gt;CRAN&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/satijalab/seurat&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://satijalab.org/seurat&quot;&gt;Website&lt;/a&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td align=&quot;center&quot;&gt;SeuratObject&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://cran.r-project.org/package=SeuratObject&quot;&gt;CRAN&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/mojaveazure/seurat-object&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://satijalab.org/seurat&quot;&gt;Website&lt;/a&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td align=&quot;center&quot;&gt;stringi&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://cran.r-project.org/package=stringi&quot;&gt;CRAN&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;–&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;[Website](&lt;a href=&quot;https://stringi.gagolewski.com/&quot;&gt;https://stringi.gagolewski.com/&lt;/a&gt; &lt;a href=&quot;http://site.icu-project.org/&quot;&gt;http://site.icu-project.org/&lt;/a&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://www.unicode.org/&quot;&gt;https://www.unicode.org/&lt;/a&gt;)&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td align=&quot;center&quot;&gt;withr&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://cran.r-project.org/package=withr&quot;&gt;CRAN&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://github.com/r-lib/withr#readme&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt; 
+   &lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://withr.r-lib.org&quot;&gt;Website&lt;/a&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/tbody&gt; 
+&lt;/table&gt;</description>
+    </item>
+    
+    <item>
+      <title>stuart-lab/signac</title>
+      <link>https://github.com/stuart-lab/signac</link>
+      <description>&lt;p&gt;R toolkit for the analysis of single-cell chromatin data&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;Signac &lt;img align=&quot;right&quot; src=&quot;https://raw.githubusercontent.com/stuart-lab/signac/master/man/figures/logo.svg?sanitize=true&quot; style=&quot;height:100px;&quot;&gt;&lt;/h1&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/stuart-lab/signac/actions&quot;&gt;&lt;img src=&quot;https://github.com/stuart-lab/signac/workflows/R-CMD-check/badge.svg?sanitize=true&quot; alt=&quot;R-CMD-check&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/package=Signac&quot;&gt;&lt;img src=&quot;https://www.r-pkg.org/badges/version/Signac&quot; alt=&quot;CRAN Version&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/package=Signac&quot;&gt;&lt;img src=&quot;https://cranlogs.r-pkg.org/badges/Signac&quot; alt=&quot;CRAN Downloads&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Overview&lt;/h2&gt; 
+&lt;p&gt;Signac is a comprehensive R package for the analysis of single-cell chromatin data. Signac includes functions for quality control, normalization, dimension reduction, clustering, differential activity, and more.&lt;/p&gt; 
+&lt;p&gt;Documentation and tutorials can be found at &lt;a href=&quot;https://stuartlab.org/signac/&quot;&gt;https://stuartlab.org/signac/&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;p&gt;To install the latest release of Signac from CRAN:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;setRepositories(ind=1:3) # needed to automatically install Bioconductor dependencies
+install.packages(&quot;Signac&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;To release the latest develop version from GitHub:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;if (!requireNamespace(&quot;remotes&quot;, quietly = TRUE))
+    install.packages(&quot;remotes&quot;)
+remotes::install_github(&quot;stuart-lab/signac&quot;, ref = &quot;develop&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Release notes&lt;/h2&gt; 
+&lt;p&gt;For a changelog please see the &lt;a href=&quot;https://github.com/stuart-lab/signac/raw/develop/NEWS.md&quot;&gt;NEWS file&lt;/a&gt;, also available on the &lt;a href=&quot;https://stuartlab.org/signac/news/index.html&quot;&gt;Signac website&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Contributing&lt;/h2&gt; 
+&lt;p&gt;We welcome contributions to the Signac package. Please see the &lt;a href=&quot;https://github.com/stuart-lab/signac/raw/develop/CONTRIBUTING.md&quot;&gt;contribution guide&lt;/a&gt; for more information.&lt;/p&gt; 
+&lt;h2&gt;Getting help&lt;/h2&gt; 
+&lt;p&gt;If you encounter a bug or have a feature request, please open an &lt;a href=&quot;https://github.com/stuart-lab/signac/issues&quot;&gt;issue&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;If you would like to discuss questions related to single-cell analysis, you can open a &lt;a href=&quot;https://github.com/stuart-lab/signac/discussions&quot;&gt;discussion&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Roadmap&lt;/h2&gt; 
+&lt;p&gt;Signac runs on a quarterly release schedule. Additional releases will be scheduled in the case of urgent bug fixes. The development roadmap can be viewed on GitHub &lt;a href=&quot;https://github.com/orgs/stuart-lab/projects/1&quot;&gt;here&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Citing Signac&lt;/h2&gt; 
+&lt;p&gt;If you use the Signac package in your work please cite &lt;a href=&quot;https://doi.org/10.1038/s41592-021-01282-5&quot;&gt;Stuart et al. 2021&lt;/a&gt;&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;@ARTICLE{signac,
+  title     = &quot;Single-cell chromatin state analysis with Signac&quot;,
+  author    = &quot;Stuart, Tim and Srivastava, Avi and Madad, Shaista and Lareau,
+               Caleb A and Satija, Rahul&quot;,
+  journal   = &quot;Nat. Methods&quot;,
+  publisher = &quot;Nature Publishing Group&quot;,
+  pages     = &quot;1--9&quot;,
+  month     =  nov,
+  year      =  2021,
+  url       = &quot;https://www.nature.com/articles/s41592-021-01282-5&quot;,
+  language  = &quot;en&quot;
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Related packages&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/satijalab/seurat&quot;&gt;Seurat&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/satijalab/seurat-object&quot;&gt;SeuratObject&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/mojaveazure/seurat-disk&quot;&gt;SeuratDisk&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/satijalab/seurat-data&quot;&gt;SeuratData&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/satijalab/seurat-wrappers&quot;&gt;SeuratWrappers&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/satijalab/azimuth&quot;&gt;Azimuth&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>tidyverse/ggplot2</title>
+      <link>https://github.com/tidyverse/ggplot2</link>
+      <description>&lt;p&gt;An implementation of the Grammar of Graphics in R&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;ggplot2 &lt;a href=&quot;https://ggplot2.tidyverse.org&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/tidyverse/ggplot2/main/man/figures/logo.png&quot; align=&quot;right&quot; height=&quot;138&quot; alt=&quot;ggplot2 website&quot;&gt;&lt;/a&gt;&lt;/h1&gt; 
+&lt;!-- badges: start --&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/tidyverse/ggplot2/actions/workflows/R-CMD-check.yaml&quot;&gt;&lt;img src=&quot;https://github.com/tidyverse/ggplot2/actions/workflows/R-CMD-check.yaml/badge.svg?sanitize=true&quot; alt=&quot;R-CMD-check&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/package=ggplot2&quot;&gt;&lt;img src=&quot;https://www.r-pkg.org/badges/version/ggplot2&quot; alt=&quot;CRAN_Status_Badge&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://app.codecov.io/gh/tidyverse/ggplot2&quot;&gt;&lt;img src=&quot;https://codecov.io/gh/tidyverse/ggplot2/graph/badge.svg?sanitize=true&quot; alt=&quot;Codecov test coverage&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;!-- badges: end --&gt; 
+&lt;h2&gt;Overview&lt;/h2&gt; 
+&lt;p&gt;ggplot2 is a system for declaratively creating graphics, based on &lt;a href=&quot;https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl&quot;&gt;The Grammar of Graphics&lt;/a&gt;. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.&lt;/p&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;# The easiest way to get ggplot2 is to install the whole tidyverse:
+install.packages(&quot;tidyverse&quot;)
+
+# Alternatively, install just ggplot2:
+install.packages(&quot;ggplot2&quot;)
+
+# Or the development version from GitHub:
+# install.packages(&quot;pak&quot;)
+pak::pak(&quot;tidyverse/ggplot2&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Cheatsheet&lt;/h2&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/rstudio/cheatsheets/raw/master/data-visualization.pdf&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rstudio/cheatsheets/master/pngs/thumbnails/data-visualization-cheatsheet-thumbs.png&quot; width=&quot;630&quot; height=&quot;252&quot; alt=&quot;ggplot2 cheatsheet&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Usage&lt;/h2&gt; 
+&lt;p&gt;It’s hard to succinctly describe how ggplot2 works because it embodies a deep philosophy of visualisation. However, in most cases you start with &lt;code&gt;ggplot()&lt;/code&gt;, supply a dataset and aesthetic mapping (with &lt;code&gt;aes()&lt;/code&gt;). You then add on layers (like &lt;code&gt;geom_point()&lt;/code&gt; or &lt;code&gt;geom_histogram()&lt;/code&gt;), scales (like &lt;code&gt;scale_colour_brewer()&lt;/code&gt;), faceting specifications (like &lt;code&gt;facet_wrap()&lt;/code&gt;) and coordinate systems (like &lt;code&gt;coord_flip()&lt;/code&gt;).&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;library(ggplot2)
+
+ggplot(mpg, aes(displ, hwy, colour = class)) + 
+  geom_point()
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/tidyverse/ggplot2/main/man/figures/README-example-1.png&quot; alt=&quot;Scatterplot of engine displacement versus highway miles per gallon, for 234 cars coloured by 7 &#39;types&#39; of car. The displacement and miles per gallon are inversely correlated.&quot;&gt; 
+&lt;h2&gt;Lifecycle&lt;/h2&gt; 
+&lt;p&gt;&lt;a href=&quot;https://lifecycle.r-lib.org/articles/stages.html&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/lifecycle-stable-brightgreen.svg?sanitize=true&quot; alt=&quot;lifecycle&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;ggplot2 is now over 10 years old and is used by hundreds of thousands of people to make millions of plots. That means, by-and-large, ggplot2 itself changes relatively little. When we do make changes, they will be generally to add new functions or arguments rather than changing the behaviour of existing functions, and if we do make changes to existing behaviour we will do them for compelling reasons.&lt;/p&gt; 
+&lt;p&gt;If you are looking for innovation, look to ggplot2’s rich ecosystem of extensions. See a community maintained list at &lt;a href=&quot;https://exts.ggplot2.tidyverse.org/gallery/&quot;&gt;https://exts.ggplot2.tidyverse.org/gallery/&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Learning ggplot2&lt;/h2&gt; 
+&lt;p&gt;If you are new to ggplot2 you are better off starting with a systematic introduction, rather than trying to learn from reading individual documentation pages. Currently, there are several good places to start:&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt; &lt;p&gt;The &lt;a href=&quot;https://r4ds.hadley.nz/data-visualize&quot;&gt;Data Visualization&lt;/a&gt; and &lt;a href=&quot;https://r4ds.hadley.nz/communication&quot;&gt;Communication&lt;/a&gt; chapters in &lt;a href=&quot;https://r4ds.hadley.nz&quot;&gt;R for Data Science&lt;/a&gt;. R for Data Science is designed to give you a comprehensive introduction to the &lt;a href=&quot;https://www.tidyverse.org&quot;&gt;tidyverse&lt;/a&gt;, and these two chapters will get you up to speed with the essentials of ggplot2 as quickly as possible.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;If you’d like to take an online course, try &lt;a href=&quot;https://learning.oreilly.com/videos/data-visualization-in/9781491963661/&quot;&gt;Data Visualization in R With ggplot2&lt;/a&gt; by Kara Woo.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;If you’d like to follow a webinar, try &lt;a href=&quot;https://youtu.be/h29g21z0a68&quot;&gt;Plotting Anything with ggplot2&lt;/a&gt; by Thomas Lin Pedersen.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;If you want to dive into making common graphics as quickly as possible, I recommend &lt;a href=&quot;https://r-graphics.org&quot;&gt;The R Graphics Cookbook&lt;/a&gt; by Winston Chang. It provides a set of recipes to solve common graphics problems.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;If you’ve mastered the basics and want to learn more, read &lt;a href=&quot;https://ggplot2-book.org&quot;&gt;ggplot2: Elegant Graphics for Data Analysis&lt;/a&gt;. It describes the theoretical underpinnings of ggplot2 and shows you how all the pieces fit together. This book helps you understand the theory that underpins ggplot2, and will help you create new types of graphics specifically tailored to your needs.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;For articles about announcements and deep-dives you can visit the &lt;a href=&quot;https://www.tidyverse.org/tags/ggplot2/&quot;&gt;tidyverse blog&lt;/a&gt;.&lt;/p&gt; &lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;h2&gt;Getting help&lt;/h2&gt; 
+&lt;p&gt;There are two main places to get help with ggplot2:&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt; &lt;p&gt;The &lt;a href=&quot;https://forum.posit.co/&quot;&gt;RStudio community&lt;/a&gt; is a friendly place to ask any questions about ggplot2.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/tagged/ggplot2?sort=frequent&amp;amp;pageSize=50&quot;&gt;Stack Overflow&lt;/a&gt; is a great source of answers to common ggplot2 questions. It is also a great place to get help, once you have created a reproducible example that illustrates your problem.&lt;/p&gt; &lt;/li&gt; 
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>kassambara/ggpubr</title>
+      <link>https://github.com/kassambara/ggpubr</link>
+      <description>&lt;p&gt;&#39;ggplot2&#39; Based Publication Ready Plots&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/kassambara/ggpubr/actions/workflows/R-CMD-check.yaml&quot;&gt;&lt;img src=&quot;https://github.com/kassambara/ggpubr/actions/workflows/R-CMD-check.yaml/badge.svg?sanitize=true&quot; alt=&quot;R-CMD-check&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/package=ggpubr&quot;&gt;&lt;img src=&quot;https://www.r-pkg.org/badges/version/ggpubr&quot; alt=&quot;CRAN_Status_Badge&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/package=ggpubr&quot;&gt;&lt;img src=&quot;https://cranlogs.r-pkg.org/badges/ggpubr&quot; alt=&quot;Downloads&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/package=ggpubr&quot;&gt;&lt;img src=&quot;https://cranlogs.r-pkg.org/badges/grand-total/ggpubr?color=orange&quot; alt=&quot;Total Downloads&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h1&gt;ggpubr: ‘ggplot2’ Based Publication Ready Plots&lt;/h1&gt; 
+&lt;p&gt;&lt;a href=&quot;https://ggplot2.tidyverse.org/&quot;&gt;ggplot2, by Hadley Wickham,&lt;/a&gt; is an excellent and flexible package for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a ggplot, the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills.&lt;/p&gt; 
+&lt;p&gt;The ‘ggpubr’ package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots.&lt;/p&gt; 
+&lt;p&gt;Find out more at &lt;a href=&quot;https://rpkgs.datanovia.com/ggpubr/&quot; class=&quot;uri&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://rpkgs.datanovia.com/ggpubr/&quot;&gt;https://rpkgs.datanovia.com/ggpubr/&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Installation and loading&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Install from &lt;a href=&quot;https://cran.r-project.org/package=ggpubr&quot;&gt;CRAN&lt;/a&gt; as follow:&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;ggpubr&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Or, install the latest version from &lt;a href=&quot;https://github.com/kassambara/ggpubr&quot;&gt;GitHub&lt;/a&gt; as follow:&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;# Install
+if(!require(devtools)) install.packages(&quot;devtools&quot;)
+devtools::install_github(&quot;kassambara/ggpubr&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Distribution&lt;/h2&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;library(ggpubr)
+#&amp;gt; Loading required package: ggplot2
+# Create some data format
+# :::::::::::::::::::::::::::::::::::::::::::::::::::
+set.seed(1234)
+wdata = data.frame(
+   sex = factor(rep(c(&quot;F&quot;, &quot;M&quot;), each=200)),
+   weight = c(rnorm(200, 55), rnorm(200, 58)))
+head(wdata, 4)
+#&amp;gt;   sex   weight
+#&amp;gt; 1   F 53.79293
+#&amp;gt; 2   F 55.27743
+#&amp;gt; 3   F 56.08444
+#&amp;gt; 4   F 52.65430
+
+# Density plot with mean lines and marginal rug
+# :::::::::::::::::::::::::::::::::::::::::::::::::::
+# Change outline and fill colors by groups (&quot;sex&quot;)
+# Use custom palette
+ggdensity(wdata, x = &quot;weight&quot;,
+   add = &quot;mean&quot;, rug = TRUE,
+   color = &quot;sex&quot;, fill = &quot;sex&quot;,
+   palette = c(&quot;#00AFBB&quot;, &quot;#E7B800&quot;))
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-ggpubr-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;# Histogram plot with mean lines and marginal rug
+# :::::::::::::::::::::::::::::::::::::::::::::::::::
+# Change outline and fill colors by groups (&quot;sex&quot;)
+# Use custom color palette
+gghistogram(wdata, x = &quot;weight&quot;,
+   add = &quot;mean&quot;, rug = TRUE,
+   color = &quot;sex&quot;, fill = &quot;sex&quot;,
+   palette = c(&quot;#00AFBB&quot;, &quot;#E7B800&quot;))
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-ggpubr-2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;h2&gt;Box plots and violin plots&lt;/h2&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;# Load data
+data(&quot;ToothGrowth&quot;)
+df &amp;lt;- ToothGrowth
+head(df, 4)
+#&amp;gt;    len supp dose
+#&amp;gt; 1  4.2   VC  0.5
+#&amp;gt; 2 11.5   VC  0.5
+#&amp;gt; 3  7.3   VC  0.5
+#&amp;gt; 4  5.8   VC  0.5
+
+# Box plots with jittered points
+# :::::::::::::::::::::::::::::::::::::::::::::::::::
+# Change outline colors by groups: dose
+# Use custom color palette
+# Add jitter points and change the shape by groups
+ p &amp;lt;- ggboxplot(df, x = &quot;dose&quot;, y = &quot;len&quot;,
+                color = &quot;dose&quot;, palette =c(&quot;#00AFBB&quot;, &quot;#E7B800&quot;, &quot;#FC4E07&quot;),
+                add = &quot;jitter&quot;, shape = &quot;dose&quot;)
+ p
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-ggpubr-box-plot-dot-plots-strip-charts-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt; 
+ # Add p-values comparing groups
+ # Specify the comparisons you want
+my_comparisons &amp;lt;- list( c(&quot;0.5&quot;, &quot;1&quot;), c(&quot;1&quot;, &quot;2&quot;), c(&quot;0.5&quot;, &quot;2&quot;) )
+p + stat_compare_means(comparisons = my_comparisons)+ # Add pairwise comparisons p-value
+  stat_compare_means(label.y = 50)                   # Add global p-value
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-ggpubr-box-plot-dot-plots-strip-charts-2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;
+ 
+# Violin plots with box plots inside
+# :::::::::::::::::::::::::::::::::::::::::::::::::::
+# Change fill color by groups: dose
+# add boxplot with white fill color
+ggviolin(df, x = &quot;dose&quot;, y = &quot;len&quot;, fill = &quot;dose&quot;,
+         palette = c(&quot;#00AFBB&quot;, &quot;#E7B800&quot;, &quot;#FC4E07&quot;),
+         add = &quot;boxplot&quot;, add.params = list(fill = &quot;white&quot;))+
+  stat_compare_means(comparisons = my_comparisons, label = &quot;p.signif&quot;)+ # Add significance levels
+  stat_compare_means(label.y = 50)                                      # Add global the p-value 
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-ggpubr-box-plot-dot-plots-strip-charts-3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;h2&gt;Bar plots&lt;/h2&gt; 
+&lt;h3&gt;Demo data set&lt;/h3&gt; 
+&lt;p&gt;Load and prepare data:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;# Load data
+data(&quot;mtcars&quot;)
+dfm &amp;lt;- mtcars
+# Convert the cyl variable to a factor
+dfm$cyl &amp;lt;- as.factor(dfm$cyl)
+# Add the name colums
+dfm$name &amp;lt;- rownames(dfm)
+# Inspect the data
+head(dfm[, c(&quot;name&quot;, &quot;wt&quot;, &quot;mpg&quot;, &quot;cyl&quot;)])
+#&amp;gt;                                name    wt  mpg cyl
+#&amp;gt; Mazda RX4                 Mazda RX4 2.620 21.0   6
+#&amp;gt; Mazda RX4 Wag         Mazda RX4 Wag 2.875 21.0   6
+#&amp;gt; Datsun 710               Datsun 710 2.320 22.8   4
+#&amp;gt; Hornet 4 Drive       Hornet 4 Drive 3.215 21.4   6
+#&amp;gt; Hornet Sportabout Hornet Sportabout 3.440 18.7   8
+#&amp;gt; Valiant                     Valiant 3.460 18.1   6
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Ordered bar plots&lt;/h3&gt; 
+&lt;p&gt;Change the fill color by the grouping variable “cyl”. Sorting will be done globally, but not by groups.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;ggbarplot(dfm, x = &quot;name&quot;, y = &quot;mpg&quot;,
+          fill = &quot;cyl&quot;,               # change fill color by cyl
+          color = &quot;white&quot;,            # Set bar border colors to white
+          palette = &quot;jco&quot;,            # jco journal color palett. see ?ggpar
+          sort.val = &quot;desc&quot;,          # Sort the value in dscending order
+          sort.by.groups = FALSE,     # Don&#39;t sort inside each group
+          x.text.angle = 90           # Rotate vertically x axis texts
+          )
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-ordered-bar-plots-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;Sort bars inside each group. Use the argument &lt;strong&gt;sort.by.groups = TRUE&lt;/strong&gt;.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;ggbarplot(dfm, x = &quot;name&quot;, y = &quot;mpg&quot;,
+          fill = &quot;cyl&quot;,               # change fill color by cyl
+          color = &quot;white&quot;,            # Set bar border colors to white
+          palette = &quot;jco&quot;,            # jco journal color palett. see ?ggpar
+          sort.val = &quot;asc&quot;,           # Sort the value in dscending order
+          sort.by.groups = TRUE,      # Sort inside each group
+          x.text.angle = 90           # Rotate vertically x axis texts
+          )
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-ordered-bar-plots-by-groups-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;h3&gt;Deviation graphs&lt;/h3&gt; 
+&lt;p&gt;The deviation graph shows the deviation of quantitatives values to a reference value. In the R code below, we’ll plot the mpg z-score from the mtcars dataset.&lt;/p&gt; 
+&lt;p&gt;Calculate the z-score of the mpg data:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;# Calculate the z-score of the mpg data
+dfm$mpg_z &amp;lt;- (dfm$mpg -mean(dfm$mpg))/sd(dfm$mpg)
+dfm$mpg_grp &amp;lt;- factor(ifelse(dfm$mpg_z &amp;lt; 0, &quot;low&quot;, &quot;high&quot;), 
+                     levels = c(&quot;low&quot;, &quot;high&quot;))
+# Inspect the data
+head(dfm[, c(&quot;name&quot;, &quot;wt&quot;, &quot;mpg&quot;, &quot;mpg_z&quot;, &quot;mpg_grp&quot;, &quot;cyl&quot;)])
+#&amp;gt;                                name    wt  mpg      mpg_z mpg_grp cyl
+#&amp;gt; Mazda RX4                 Mazda RX4 2.620 21.0  0.1508848    high   6
+#&amp;gt; Mazda RX4 Wag         Mazda RX4 Wag 2.875 21.0  0.1508848    high   6
+#&amp;gt; Datsun 710               Datsun 710 2.320 22.8  0.4495434    high   4
+#&amp;gt; Hornet 4 Drive       Hornet 4 Drive 3.215 21.4  0.2172534    high   6
+#&amp;gt; Hornet Sportabout Hornet Sportabout 3.440 18.7 -0.2307345     low   8
+#&amp;gt; Valiant                     Valiant 3.460 18.1 -0.3302874     low   6
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Create an ordered barplot, colored according to the level of mpg:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;ggbarplot(dfm, x = &quot;name&quot;, y = &quot;mpg_z&quot;,
+          fill = &quot;mpg_grp&quot;,           # change fill color by mpg_level
+          color = &quot;white&quot;,            # Set bar border colors to white
+          palette = &quot;jco&quot;,            # jco journal color palett. see ?ggpar
+          sort.val = &quot;asc&quot;,           # Sort the value in ascending order
+          sort.by.groups = FALSE,     # Don&#39;t sort inside each group
+          x.text.angle = 90,          # Rotate vertically x axis texts
+          ylab = &quot;MPG z-score&quot;,
+          xlab = FALSE,
+          legend.title = &quot;MPG Group&quot;
+          )
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-deviation-graphs-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;Rotate the plot: use rotate = TRUE and sort.val = “desc”&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;ggbarplot(dfm, x = &quot;name&quot;, y = &quot;mpg_z&quot;,
+          fill = &quot;mpg_grp&quot;,           # change fill color by mpg_level
+          color = &quot;white&quot;,            # Set bar border colors to white
+          palette = &quot;jco&quot;,            # jco journal color palett. see ?ggpar
+          sort.val = &quot;desc&quot;,          # Sort the value in descending order
+          sort.by.groups = FALSE,     # Don&#39;t sort inside each group
+          x.text.angle = 90,          # Rotate vertically x axis texts
+          ylab = &quot;MPG z-score&quot;,
+          legend.title = &quot;MPG Group&quot;,
+          rotate = TRUE,
+          ggtheme = theme_minimal()
+          )
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-deviation-graphs-horizontal-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;h2&gt;Dot charts&lt;/h2&gt; 
+&lt;h3&gt;Lollipop chart&lt;/h3&gt; 
+&lt;p&gt;Lollipop chart is an alternative to bar plots, when you have a large set of values to visualize.&lt;/p&gt; 
+&lt;p&gt;Lollipop chart colored by the grouping variable “cyl”:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;ggdotchart(dfm, x = &quot;name&quot;, y = &quot;mpg&quot;,
+           color = &quot;cyl&quot;,                                # Color by groups
+           palette = c(&quot;#00AFBB&quot;, &quot;#E7B800&quot;, &quot;#FC4E07&quot;), # Custom color palette
+           sorting = &quot;ascending&quot;,                        # Sort value in descending order
+           add = &quot;segments&quot;,                             # Add segments from y = 0 to dots
+           ggtheme = theme_pubr()                        # ggplot2 theme
+           )
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-lollipop-chart-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Sort in decending order. &lt;strong&gt;sorting = “descending”&lt;/strong&gt;.&lt;/li&gt; 
+ &lt;li&gt;Rotate the plot vertically, using &lt;strong&gt;rotate = TRUE&lt;/strong&gt;.&lt;/li&gt; 
+ &lt;li&gt;Sort the mpg value inside each group by using &lt;strong&gt;group = “cyl”&lt;/strong&gt;.&lt;/li&gt; 
+ &lt;li&gt;Set &lt;strong&gt;dot.size&lt;/strong&gt; to 6.&lt;/li&gt; 
+ &lt;li&gt;Add mpg values as label. &lt;strong&gt;label = “mpg”&lt;/strong&gt; or &lt;strong&gt;label = round(dfm$mpg)&lt;/strong&gt;.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;ggdotchart(dfm, x = &quot;name&quot;, y = &quot;mpg&quot;,
+           color = &quot;cyl&quot;,                                # Color by groups
+           palette = c(&quot;#00AFBB&quot;, &quot;#E7B800&quot;, &quot;#FC4E07&quot;), # Custom color palette
+           sorting = &quot;descending&quot;,                       # Sort value in descending order
+           add = &quot;segments&quot;,                             # Add segments from y = 0 to dots
+           rotate = TRUE,                                # Rotate vertically
+           group = &quot;cyl&quot;,                                # Order by groups
+           dot.size = 6,                                 # Large dot size
+           label = round(dfm$mpg),                        # Add mpg values as dot labels
+           font.label = list(color = &quot;white&quot;, size = 9, 
+                             vjust = 0.5),               # Adjust label parameters
+           ggtheme = theme_pubr()                        # ggplot2 theme
+           )
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-lollipop-chart-rotate-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;Deviation graph:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Use y = “mpg_z”&lt;/li&gt; 
+ &lt;li&gt;Change segment color and size: add.params = list(color = “lightgray”, size = 2)&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;ggdotchart(dfm, x = &quot;name&quot;, y = &quot;mpg_z&quot;,
+           color = &quot;cyl&quot;,                                # Color by groups
+           palette = c(&quot;#00AFBB&quot;, &quot;#E7B800&quot;, &quot;#FC4E07&quot;), # Custom color palette
+           sorting = &quot;descending&quot;,                       # Sort value in descending order
+           add = &quot;segments&quot;,                             # Add segments from y = 0 to dots
+           add.params = list(color = &quot;lightgray&quot;, size = 2), # Change segment color and size
+           group = &quot;cyl&quot;,                                # Order by groups
+           dot.size = 6,                                 # Large dot size
+           label = round(dfm$mpg_z,1),                        # Add mpg values as dot labels
+           font.label = list(color = &quot;white&quot;, size = 9, 
+                             vjust = 0.5),               # Adjust label parameters
+           ggtheme = theme_pubr()                        # ggplot2 theme
+           )+
+  geom_hline(yintercept = 0, linetype = 2, color = &quot;lightgray&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-lollipop-chart-deviation-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;h3&gt;Cleveland’s dot plot&lt;/h3&gt; 
+&lt;p&gt;Color y text by groups. Use y.text.col = TRUE.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;ggdotchart(dfm, x = &quot;name&quot;, y = &quot;mpg&quot;,
+           color = &quot;cyl&quot;,                                # Color by groups
+           palette = c(&quot;#00AFBB&quot;, &quot;#E7B800&quot;, &quot;#FC4E07&quot;), # Custom color palette
+           sorting = &quot;descending&quot;,                       # Sort value in descending order
+           rotate = TRUE,                                # Rotate vertically
+           dot.size = 2,                                 # Large dot size
+           y.text.col = TRUE,                            # Color y text by groups
+           ggtheme = theme_pubr()                        # ggplot2 theme
+           )+
+  theme_cleveland()                                      # Add dashed grids
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kassambara/ggpubr/master/tools/README-cleveland-dot-plots-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt; 
+&lt;h2&gt;More&lt;/h2&gt; 
+&lt;p&gt;Find out more at &lt;a href=&quot;https://rpkgs.datanovia.com/ggpubr/&quot; class=&quot;uri&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://rpkgs.datanovia.com/ggpubr/&quot;&gt;https://rpkgs.datanovia.com/ggpubr/&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Blog posts&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;A. Kassambara. &lt;a href=&quot;http://www.sthda.com/english/articles/24-ggpubr-publication-ready-plots/&quot;&gt;ggpubr R Package: ggplot2-Based Publication Ready Plots&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>prisma-flowdiagram/PRISMA2020</title>
+      <link>https://github.com/prisma-flowdiagram/PRISMA2020</link>
+      <description>&lt;p&gt;Produce PRISMA-2020 compliant flow diagrams&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/prisma-flowdiagram/PRISMA2020/actions/workflows/check-and-deploy.yml&quot;&gt;&lt;img src=&quot;https://github.com/prisma-flowdiagram/PRISMA2020/actions/workflows/check-and-deploy.yml/badge.svg?sanitize=true&quot; alt=&quot;Check &amp;amp; Deploy&quot;&gt;&lt;/a&gt; &lt;img src=&quot;https://img.shields.io/github/v/release/prisma-flowdiagram/PRISMA2020&quot; alt=&quot;GitHub release (latest by date)&quot;&gt; &lt;img src=&quot;https://img.shields.io/github/stars/prisma-flowdiagram/PRISMA2020?style=social&quot; alt=&quot;GitHub Repo stars&quot;&gt; &lt;a href=&quot;https://doi.org/10.5281/zenodo.4287834&quot;&gt;&lt;img src=&quot;https://zenodo.org/badge/DOI/10.5281/zenodo.4287834.svg?sanitize=true&quot; alt=&quot;DOI&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://doi.org/10.1002/cl2.1230&quot;&gt;&lt;img src=&quot;https://zenodo.org/badge/DOI/10.1002/cl2.1230.svg?sanitize=true&quot; alt=&quot;DOI&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://ko-fi.com/O5O4JQJ5W&quot;&gt;&lt;img src=&quot;https://ko-fi.com/img/githubbutton_sm.svg?sanitize=true&quot; alt=&quot;ko-fi&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;!-- badges: end --&gt; 
+&lt;h1&gt;PRISMA2020 Flow Diagram &lt;img src=&quot;https://raw.githubusercontent.com/prisma-flowdiagram/PRISMA2020/master/PRISMA2020-hex.png&quot; align=&quot;right&quot; width=&quot;15%&quot;&gt;&lt;/h1&gt; 
+&lt;p&gt;You can use this package to produce a flow diagram that conforms to the PRISMA 2020 standards using the &lt;code&gt;PRISMA_flowdiagram()&lt;/code&gt; function. The data can be manually entered into the function, or loaded up using the template CSV file provided in &#39;INST/EXTDATA/&#39;. The function, (if &#39;interactive = TRUE&#39;) produces an interactive HTML ouput with each box linking to a specific page (e.g. of search results or methods details), and hover-over tooltips for further information. &lt;br&gt; &lt;img src=&quot;https://raw.githubusercontent.com/prisma-flowdiagram/PRISMA2020/master/inst/extdata/PRISMA.png&quot; width=&quot;70%&quot;&gt; &lt;br&gt;&lt;/p&gt; 
+&lt;p&gt;The &#39;Previous&#39; and &#39;Other&#39; study arms of the flowchart can be toggled on and off and removed or added to the diagram by specifying this in the function inputs.&lt;/p&gt; 
+&lt;p&gt;A static version is produced otherwise.&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://srflowdiagram.github.io/template.html&quot; target=&quot;_blank&quot;&gt;See the interactive template here.&lt;/a&gt;&lt;br&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://estech.shinyapps.io/prisma_flowdiagram/&quot; target=&quot;_blank&quot;&gt;Visit the web-based Shiny app for a point-and-click user interface here.&lt;/a&gt;&lt;/p&gt; 
+&lt;hr&gt; 
+&lt;h2&gt;Docker Installation&lt;/h2&gt; 
+&lt;p&gt;You can quickly install the PRISMA2020 package and run the included example shinyapp using &lt;a href=&quot;https://docs.docker.com/engine/install/&quot;&gt;Docker&lt;/a&gt;.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;docker build . -t prisma-shiny:1
+docker run -it --rm -p 3838:3838 prisma-shiny:1
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Then visit &lt;a href=&quot;http://localhost:3838/app&quot;&gt;http://localhost:3838/app&lt;/a&gt; in your web browser. To stop the app, press &lt;code&gt;Ctrl+C&lt;/code&gt; in the terminal.&lt;/p&gt; 
+&lt;hr&gt; 
+&lt;p&gt;Please cite as:&lt;br&gt; Haddaway, N. R., Page, M. J., Pritchard, C. C., &amp;amp; McGuinness, L. A. (2022). PRISMA2020: An R package and Shiny app for producing PRISMA 2020-compliant flow diagrams, with interactivity for optimised digital transparency and Open Synthesis. Campbell Systematic Reviews, 18, e1230. &lt;a href=&quot;https://doi.org/10.1002/cl2.1230&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://doi.org/10.1002/cl2.1230&quot;&gt;https://doi.org/10.1002/cl2.1230&lt;/a&gt;&lt;br&gt; &lt;a id=&quot;raw-url&quot; href=&quot;https://raw.githubusercontent.com/nealhaddaway/PRISMA2020/master/inst/extdata/citation.ris&quot;&gt;Citation in .ris format (right click &#39;Save Link As&#39;)&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>hadley/r4ds</title>
+      <link>https://github.com/hadley/r4ds</link>
+      <description>&lt;p&gt;R for data science: a book&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;R for Data Science&lt;/h1&gt; 
+&lt;!-- badges: start --&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/hadley/r4ds/actions/workflows/build_book.yaml&quot;&gt;&lt;img src=&quot;https://github.com/hadley/r4ds/actions/workflows/build_book.yaml/badge.svg?sanitize=true&quot; alt=&quot;Render and deploy Book to Netlify&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;!-- badges: end --&gt; 
+&lt;p&gt;This repository contains the source of &lt;a href=&quot;http://r4ds.hadley.nz&quot;&gt;R for Data Science&lt;/a&gt; book. The book is built using &lt;a href=&quot;https://quarto.org/&quot;&gt;Quarto&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Images&lt;/h2&gt; 
+&lt;h3&gt;Omnigraffle drawings&lt;/h3&gt; 
+&lt;ul&gt; 
+ &lt;li&gt; &lt;p&gt;Font: 12pt Guardian Sans Condensed / Ubuntu mono&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Export as 300 dpi png.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Website font is 18 px = 13.5 pt, so scale dpi to match font sizes: 270 = 300 * 12 / 13.5. (I also verified this empirically by screenshotting.)&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;#| echo: FALSE
+#| out.width: NULL
+knitr::include_graphics(&quot;diagrams/transform.png&quot;, dpi = 270)
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Screenshots&lt;/h3&gt; 
+&lt;ul&gt; 
+ &lt;li&gt; &lt;p&gt;Make sure you&#39;re using a light theme. For small interface elements (eg. toolbars), zoom in twice.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Screenshot with Cmd + Shift + 4.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Don&#39;t need to set dpi:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;#| echo: FALSE
+#| out.width: NULL
+knitr::include_graphics(&quot;screenshots/rstudio-wg.png&quot;)
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;O&#39;Reilly&lt;/h3&gt; 
+&lt;p&gt;To generate book for O&#39;Reilly, build the book then:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;# pak::pak(&quot;hadley/htmlbook&quot;)
+htmlbook::convert_book()
+
+html &amp;lt;- list.files(&quot;oreilly&quot;, pattern = &quot;[.]html$&quot;, full.names = TRUE)
+file.copy(html, &quot;../r-for-data-science-2e/&quot;, overwrite = TRUE)
+
+pngs &amp;lt;- list.files(&quot;oreilly&quot;, pattern = &quot;[.]png$&quot;, full.names = TRUE, recursive = TRUE)
+dest &amp;lt;- gsub(&quot;oreilly&quot;, &quot;../r-for-data-science-2e/&quot;, pngs)
+fs::dir_create(unique(dirname(dest)))
+file.copy(pngs, dest, overwrite = TRUE)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Then commit and push to atlas.&lt;/p&gt; 
+&lt;h2&gt;Code of Conduct&lt;/h2&gt; 
+&lt;p&gt;Please note that r4ds uses a &lt;a href=&quot;https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html&quot;&gt;Contributor Code of Conduct&lt;/a&gt;. By contributing to this book, you agree to abide by its terms.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>rstudio/renv</title>
+      <link>https://github.com/rstudio/renv</link>
+      <description>&lt;p&gt;renv: Project environments for R.&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;renv &lt;img src=&quot;https://raw.githubusercontent.com/rstudio/renv/main/man/figures/logo.svg?sanitize=true&quot; align=&quot;right&quot; height=&quot;115&quot;&gt;&lt;/h1&gt; 
+&lt;!-- badges: start --&gt; 
+&lt;p&gt;&lt;a href=&quot;https://lifecycle.r-lib.org/articles/stages.html&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/lifecycle-stable-brightgreen.svg?sanitize=true&quot; alt=&quot;Lifecycle: stable&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://CRAN.R-project.org/package=renv&quot;&gt;&lt;img src=&quot;https://www.r-pkg.org/badges/version/renv&quot; alt=&quot;CRAN status&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/rstudio/renv/actions/workflows/R-CMD-check.yaml&quot;&gt;&lt;img src=&quot;https://github.com/rstudio/renv/actions/workflows/R-CMD-check.yaml/badge.svg?sanitize=true&quot; alt=&quot;R-CMD-check&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;!-- badges: end --&gt; 
+&lt;h2&gt;Overview&lt;/h2&gt; 
+&lt;p&gt;The renv package[^1] helps you create &lt;strong&gt;r&lt;/strong&gt;eproducible &lt;strong&gt;env&lt;/strong&gt;ironments for your R projects. Use renv to make your R projects more isolated, portable and reproducible.&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;strong&gt;Isolated&lt;/strong&gt;: Installing a new or updated package for one project won’t break your other projects, and vice versa. That’s because renv gives each project its own private library.&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;Portable&lt;/strong&gt;: Easily transport your projects from one computer to another, even across different platforms. renv makes it easy to install the packages your project depends on.&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;Reproducible&lt;/strong&gt;: renv records the exact package versions you depend on, and ensures those exact versions are the ones that get installed wherever you go.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;p&gt;Install the latest version of renv from CRAN with:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;renv&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Alternatively, install the development version from &lt;a href=&quot;https://rstudio.r-universe.dev/renv&quot;&gt;r-universe&lt;/a&gt; with:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;renv&quot;, repos = &quot;https://rstudio.r-universe.dev&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Workflow&lt;/h2&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/rstudio/renv/main/vignettes/renv.png&quot; alt=&quot;A diagram showing the most important verbs and nouns of renv. Projects start with init(), which creates a project library using packages from the system library. snapshot() updates the lockfile using the packages installed in the project library, where restore() installs packages into the project library using the metadata from the lockfile, and status() compares the lockfile to the project library. You install and update packages from CRAN and GitHub using install() and update(), but because you&#39;ll need to do this for multiple projects, renv uses cache to make this fast.&quot; width=&quot;408&quot; style=&quot;display: block; margin: auto;&quot;&gt; 
+&lt;p&gt;Use &lt;code&gt;renv::init()&lt;/code&gt; to initialize renv in a new or existing project. This will set up a &lt;strong&gt;project library&lt;/strong&gt;, containing all the packages you’re currently using. The packages (and all the metadata needed to reinstall them) are recorded into a &lt;strong&gt;lockfile&lt;/strong&gt;, &lt;code&gt;renv.lock&lt;/code&gt;, and a &lt;code&gt;.Rprofile&lt;/code&gt; ensures that the library is used every time you open that project.&lt;/p&gt; 
+&lt;p&gt;As you continue to work on your project, you will install and upgrade packages, either using &lt;code&gt;install.packages()&lt;/code&gt; and &lt;code&gt;update.packages()&lt;/code&gt; or &lt;code&gt;renv::install()&lt;/code&gt; and &lt;code&gt;renv::update()&lt;/code&gt;. After you’ve confirmed your code works as expected, use &lt;code&gt;renv::snapshot()&lt;/code&gt; to record the packages and their sources in the lockfile.&lt;/p&gt; 
+&lt;p&gt;Later, if you need to share your code with someone else or run your code on new machine, your collaborator (or you) can call &lt;code&gt;renv::restore()&lt;/code&gt; to reinstall the specific package versions recorded in the lockfile.&lt;/p&gt; 
+&lt;h2&gt;Learning more&lt;/h2&gt; 
+&lt;p&gt;If this is your first time using renv, we strongly recommend starting with the &lt;a href=&quot;https://rstudio.github.io/renv/articles/renv.html&quot;&gt;Introduction to renv&lt;/a&gt; vignette: this will help you understand the most important verbs and nouns of renv.&lt;/p&gt; 
+&lt;p&gt;If you have a question about renv, please first check the &lt;a href=&quot;https://rstudio.github.io/renv/articles/faq.html&quot;&gt;FAQ&lt;/a&gt; to see whether your question has already been addressed. If it hasn’t, please feel free to ask on the &lt;a href=&quot;https://forum.posit.co&quot;&gt;Posit Forum&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;If you believe you’ve found a bug in renv, please file a bug (and, if possible, a &lt;a href=&quot;https://reprex.tidyverse.org&quot;&gt;reproducible example&lt;/a&gt;) at &lt;a href=&quot;https://github.com/rstudio/renv/issues&quot;&gt;https://github.com/rstudio/renv/issues&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;[^1]: Pronounced “R” “env”&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>stan-dev/rstan</title>
+      <link>https://github.com/stan-dev/rstan</link>
+      <description>&lt;p&gt;RStan, the R interface to Stan&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;RStan &lt;img src=&quot;https://raw.githubusercontent.com/stan-dev/rstan/develop/rstan/rstan/man/figures/stanlogo.png&quot; align=&quot;right&quot; width=&quot;120&quot;&gt;&lt;/h1&gt; 
+&lt;!-- badges: start --&gt; 
+&lt;p&gt;&lt;a href=&quot;https://cran.r-project.org/package=rstan&quot;&gt;&lt;img src=&quot;https://www.r-pkg.org/badges/version/rstan?color=blue&quot; alt=&quot;CRAN_Status_Badge&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.rstudio.com/package=rstan&quot;&gt;&lt;img src=&quot;https://cranlogs.r-pkg.org/badges/rstan?color=blue&quot; alt=&quot;Downloads&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://depsy.org/package/r/rstan&quot;&gt;&lt;img src=&quot;http://depsy.org/api/package/cran/rstan/badge.svg?sanitize=true&quot; alt=&quot;Research software impact&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/stan-dev/rstan/actions&quot;&gt;&lt;img src=&quot;https://github.com/stan-dev/rstan/workflows/R-CMD-check/badge.svg?sanitize=true&quot; alt=&quot;R-CMD-check&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;!-- badges: end --&gt; 
+&lt;p&gt;&lt;strong&gt;RStan&lt;/strong&gt; is the R interface to &lt;a href=&quot;https://mc-stan.org&quot;&gt;Stan&lt;/a&gt;.&lt;/p&gt; 
+&lt;h3&gt;Quick links&lt;/h3&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://mc-stan.org/rstan/&quot;&gt;mc-stan.org/rstan&lt;/a&gt; (online RStan documentation, vignettes)&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://mc-stan.org/users/documentation/&quot;&gt;Stan documentation&lt;/a&gt; (language manual, case studies, and more)&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://discourse.mc-stan.org&quot;&gt;Ask a question&lt;/a&gt; (Stan Forums on Discourse)&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/stan-dev/rstan/issues&quot;&gt;Open an issue&lt;/a&gt; (GitHub issues for bug reports, feature requests)&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Getting Started&lt;/h3&gt; 
+&lt;p&gt;For installation instructions and other tips on getting started with RStan see&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started&quot;&gt;RStan Getting Started&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Several Stan users have also contributed translations of the &lt;em&gt;RStan Getting Started&lt;/em&gt; page:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started-(Fran%C3%A7ais)&quot;&gt;RStan Getting Started (French)&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started-(Japanese)&quot;&gt;RStan Getting Started (Japanese)&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started-(%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87)&quot;&gt;RStan Getting Started (繁體中文)&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started-(Portugu%C3%AAs)&quot;&gt;RStan Getting Started (Portuguese)&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Source Repository&lt;/h3&gt; 
+&lt;p&gt;RStan&#39;s source code repository is hosted here on GitHub. Stan&#39;s source repository is defined as a submodule. See &lt;a href=&quot;https://github.com/stan-dev/rstan/wiki/How-to-work-with-the-stan-submodule-in-rstan-repo%3F&quot;&gt;how to work with stan submodule in rstan repo&lt;/a&gt;.&lt;/p&gt; 
+&lt;h3&gt;Licensing&lt;/h3&gt; 
+&lt;p&gt;RStan is licensed under GPLv3. The Stan code packaged in RStan is licensed under new BSD.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>REditorSupport/languageserver</title>
+      <link>https://github.com/REditorSupport/languageserver</link>
+      <description>&lt;p&gt;An implementation of the Language Server Protocol for R&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;languageserver: An implementation of the Language Server Protocol for R&lt;/h1&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/REditorSupport/languageserver/actions/workflows/rcmdcheck.yml&quot;&gt;&lt;img src=&quot;https://github.com/REditorSupport/languageserver/actions/workflows/rcmdcheck.yml/badge.svg?sanitize=true&quot; alt=&quot;R-CMD-check&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://app.codecov.io/gh/REditorSupport/languageserver&quot;&gt;&lt;img src=&quot;https://codecov.io/gh/REditorSupport/languageserver/branch/master/graph/badge.svg?sanitize=true&quot; alt=&quot;codecov&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/package=languageserver&quot;&gt;&lt;img src=&quot;http://www.r-pkg.org/badges/version/languageserver&quot; alt=&quot;CRAN_Status_Badge&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://cran.r-project.org/package=languageserver&quot;&gt;&lt;img src=&quot;http://cranlogs.r-pkg.org/badges/grand-total/languageserver&quot; alt=&quot;CRAN Downloads&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://reditorsupport.r-universe.dev/ui/#package:languageserver&quot;&gt;&lt;img src=&quot;https://reditorsupport.r-universe.dev/badges/languageserver&quot; alt=&quot;r-universe&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;languageserver&lt;/code&gt; is an implementation of the Microsoft&#39;s &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/&quot;&gt;Language Server Protocol&lt;/a&gt; for the language of R.&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/REditorSupport/languageserver/master/#installation&quot;&gt;Installation&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/REditorSupport/languageserver/master/#language-clients&quot;&gt;Language Clients&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/REditorSupport/languageserver/master/#services-implemented&quot;&gt;Services Implemented&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/REditorSupport/languageserver/master/#settings&quot;&gt;Settings&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/REditorSupport/languageserver/master/#faq&quot;&gt;FAQ&lt;/a&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/REditorSupport/languageserver/master/#linters&quot;&gt;Linters&lt;/a&gt;&lt;/li&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/REditorSupport/languageserver/master/#customizing-server-capabilities&quot;&gt;Customizing server capabilities&lt;/a&gt;&lt;/li&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/REditorSupport/languageserver/master/#customizing-formatting-style&quot;&gt;Customizing formatting style&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;p&gt;A few dependencies are required beforehand:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;# On Debian, Ubuntu, etc.
+apt install --assume-yes --no-install-recommends build-essential libcurl4-openssl-dev libssl-dev libxml2-dev r-base
+
+# On Fedora, Centos, etc.
+dnf install --assumeyes --setopt=install_weak_deps=False @development-tools libcurl-devel libxml2-devel openssl-devel R
+
+# On Alpine
+apk add --no-cache curl-dev g++ gcc libxml2-dev linux-headers make R R-dev
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;code&gt;languageserver&lt;/code&gt; is released on CRAN and can be easily installed by&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;languageserver&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;To try the latest features, install the daily development build from our &lt;a href=&quot;https://reditorsupport.r-universe.dev&quot;&gt;r-universe&lt;/a&gt; repository:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;languageserver&quot;, repos = c(
+    reditorsupport = &quot;https://reditorsupport.r-universe.dev&quot;,
+    getOption(&quot;repos&quot;)
+))
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Or install the latest development version from our GitHub repository:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;# install.packages(&quot;remotes&quot;)
+remotes::install_github(&quot;REditorSupport/languageserver&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Language Clients&lt;/h2&gt; 
+&lt;p&gt;The following editors are supported by installing the corresponding extensions:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt; &lt;p&gt;VS Code: &lt;a href=&quot;https://github.com/REditorSupport/vscode-R&quot;&gt;vscode-R&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Atom: &lt;a href=&quot;https://github.com/REditorSupport/atom-ide-r&quot;&gt;atom-ide-r&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Sublime Text: &lt;a href=&quot;https://github.com/REditorSupport/sublime-ide-r&quot;&gt;R-IDE&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Vim/NeoVim: &lt;a href=&quot;https://github.com/autozimu/LanguageClient-neovim&quot;&gt;LanguageClient-neovim&lt;/a&gt; with settings&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-vim&quot;&gt;let g:LanguageClient_serverCommands = {
+    \ &#39;r&#39;: [&#39;R&#39;, &#39;--slave&#39;, &#39;-e&#39;, &#39;languageserver::run()&#39;],
+    \ }
+&lt;/code&gt;&lt;/pre&gt; &lt;p&gt;or, if you use &lt;a href=&quot;https://github.com/neoclide/coc.nvim&quot;&gt;coc.nvim&lt;/a&gt;, you can do one of two things:&lt;/p&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt; &lt;p&gt;Install &lt;a href=&quot;https://github.com/neoclide/coc-r-lsp&quot;&gt;coc-r-lsp&lt;/a&gt; with:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-vim&quot;&gt;:CocInstall coc-r-lsp
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+   &lt;li&gt; &lt;p&gt;or install the languageserver package in R&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;languageserver&quot;)
+# or install the developement version
+# remotes::install_github(&quot;REditorSupport/languageserver&quot;)
+&lt;/code&gt;&lt;/pre&gt; &lt;p&gt;Then add the following to your Coc config:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;&quot;languageserver&quot;: {
+    &quot;R&quot;: {
+        &quot;command&quot;: &quot;/usr/bin/R&quot;,
+        &quot;args&quot; : [ &quot;--slave&quot;, &quot;-e&quot;, &quot;languageserver::run()&quot;],
+        &quot;filetypes&quot; : [&quot;r&quot;]
+    }
+}
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Emacs: &lt;a href=&quot;https://github.com/emacs-lsp/lsp-mode&quot;&gt;lsp-mode&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;JupyterLab: &lt;a href=&quot;https://github.com/jupyter-lsp/jupyterlab-lsp&quot;&gt;jupyterlab-lsp&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;a href=&quot;https://www.barebones.com/products/bbedit/&quot;&gt;BBEdit&lt;/a&gt;: preconfigured in version 14.0 and later; see the &lt;a href=&quot;https://www.barebones.com/support/bbedit/lsp-notes.html&quot;&gt;BBEdit LSP support page&lt;/a&gt; for complete details.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;a href=&quot;https://nova.app&quot;&gt;Nova&lt;/a&gt;: &lt;a href=&quot;https://github.com/jonclayden/R-Nova&quot;&gt;R-Nova&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Services Implemented&lt;/h2&gt; 
+&lt;p&gt;&lt;code&gt;languageserver&lt;/code&gt; is still under active development, the following services have been implemented:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_synchronization&quot;&gt;textDocumentSync&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_publishDiagnostics&quot;&gt;publishDiagnostics&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_hover&quot;&gt;hoverProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_completion&quot;&gt;completionProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#completionItem_resolve&quot;&gt;completionItemResolve&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_signatureHelp&quot;&gt;signatureHelpProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_definition&quot;&gt;definitionProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_references&quot;&gt;referencesProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_documentHighlight&quot;&gt;documentHighlightProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_documentSymbol&quot;&gt;documentSymbolProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#workspace_symbol&quot;&gt;workspaceSymbolProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_codeAction&quot;&gt;codeActionProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_codeLens&quot;&gt;codeLensProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_formatting&quot;&gt;documentFormattingProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_rangeFormatting&quot;&gt;documentRangeFormattingProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_onTypeFormatting&quot;&gt;documentOnTypeFormattingProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_rename&quot;&gt;renameProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_prepareRename&quot;&gt;prepareRenameProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_documentLink&quot;&gt;documentLinkProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#documentLink_resolve&quot;&gt;documentLinkResolve&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_documentColor&quot;&gt;colorProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_colorPresentation&quot;&gt;colorPresentation&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_foldingRange&quot;&gt;foldingRangeProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_selectionRange&quot;&gt;selectionRangeProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_prepareCallHierarchy&quot;&gt;prepareCallHierarchy&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#callHierarchy_incomingCalls&quot;&gt;callHierarchyIncomingCalls&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#callHierarchy_outgoingCalls&quot;&gt;callHierarchyOutgoingCalls&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_prepareTypeHierarchy&quot;&gt;prepareTypeHierarchy&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#typeHierarchy_supertypes&quot;&gt;typeHierarchySupertypes&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#typeHierarchy_subtypes&quot;&gt;typeHierarchySubtypes&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_semanticTokens&quot;&gt;semanticTokens&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_linkedEditingRange&quot;&gt;linkedEditingRange&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#workspace_executeCommand&quot;&gt;executeCommandProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_inlineValue&quot;&gt;inlineValueProvider&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-current/#textDocument_inlayHint&quot;&gt;inlayHintProivder&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Settings&lt;/h2&gt; 
+&lt;p&gt;&lt;code&gt;languageserver&lt;/code&gt; exposes the following settings via LSP configuration.&lt;/p&gt; 
+&lt;table&gt; 
+ &lt;thead&gt; 
+  &lt;tr&gt; 
+   &lt;th&gt;settings&lt;/th&gt; 
+   &lt;th&gt;default&lt;/th&gt; 
+   &lt;th&gt;description&lt;/th&gt; 
+  &lt;/tr&gt; 
+ &lt;/thead&gt; 
+ &lt;tbody&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;code&gt;r.lsp.debug&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;code&gt;false&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;increase verbosity for debug purpose&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;code&gt;r.lsp.log_file&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;code&gt;null&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;file to log debug messages, fallback to stderr if empty&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;code&gt;r.lsp.diagnostics&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;enable file diagnostics via &lt;a href=&quot;https://github.com/r-lib/lintr&quot;&gt;lintr&lt;/a&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;code&gt;r.lsp.rich_documentation&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;rich documentation with enhanced markdown features&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;code&gt;r.lsp.snippet_support&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;code&gt;true&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;enable snippets in auto completion&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;code&gt;r.lsp.max_completions&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;200&lt;/td&gt; 
+   &lt;td&gt;maximum number of completion items&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;code&gt;r.lsp.lint_cache&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;code&gt;false&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;toggle caching of lint results&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;code&gt;r.lsp.server_capabilities&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;code&gt;{}&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;override server capabilities defined in &lt;a href=&quot;https://github.com/REditorSupport/languageserver/raw/master/R/capabilities.R&quot;&gt;capabilities.R&lt;/a&gt;. See FAQ below.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;code&gt;r.lsp.link_file_size_limit&lt;/code&gt;&lt;/td&gt; 
+   &lt;td&gt;16384&lt;/td&gt; 
+   &lt;td&gt;maximum file size (in bytes) that supports document links&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/tbody&gt; 
+&lt;/table&gt; 
+&lt;p&gt;These settings could also specified in &lt;code&gt;.Rprofile&lt;/code&gt; file via &lt;code&gt;options(languageserver.&amp;lt;SETTING_NAME&amp;gt; = &amp;lt;VALUE&amp;gt;)&lt;/code&gt;. For example,&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;options(languageserver.snippet_support = FALSE)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;will turn off snippet support globally. LSP configuration settings are always overriden by &lt;code&gt;options()&lt;/code&gt;.&lt;/p&gt; 
+&lt;h2&gt;FAQ&lt;/h2&gt; 
+&lt;h3&gt;Linters&lt;/h3&gt; 
+&lt;p&gt;With &lt;a href=&quot;https://github.com/r-lib/lintr&quot;&gt;lintr&lt;/a&gt; v2.0.0, the linters can be specified by creating the &lt;code&gt;.lintr&lt;/code&gt; file at the project or home directory. Details can be found at lintr &lt;a href=&quot;https://lintr.r-lib.org/articles/lintr.html&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt; 
+&lt;h3&gt;Customizing server capabilities&lt;/h3&gt; 
+&lt;p&gt;Server capabilities are defined in &lt;a href=&quot;https://github.com/REditorSupport/languageserver/raw/master/R/capabilities.R&quot;&gt;capabilities.R&lt;/a&gt;. Users could override the capabilities by specifying the LSP configuration setting &lt;code&gt;server_capabilities&lt;/code&gt; or &lt;code&gt;options(languageserver.server_capabilities)&lt;/code&gt; in &lt;code&gt;.Rprofile&lt;/code&gt;. For example, to turn off &lt;code&gt;definitionProvider&lt;/code&gt;, one could either use LSP configuration&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;&quot;r&quot;: {
+    &quot;lsp&quot;: {
+        &quot;server_capabilities&quot;: {
+            &quot;definitionProvider&quot;: false
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;or R options&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;options(
+    languageserver.server_capabilities = list(
+        definitionProvider = FALSE
+    )
+)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Customizing formatting style&lt;/h3&gt; 
+&lt;p&gt;The language server uses &lt;a href=&quot;https://github.com/r-lib/styler&quot;&gt;&lt;code&gt;styler&lt;/code&gt;&lt;/a&gt; to perform code formatting. It uses &lt;code&gt;styler::tidyverse_style(indent_by = options$tabSize)&lt;/code&gt; as the default style where &lt;code&gt;options&lt;/code&gt; is the &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/specifications/specification-3-14/#textDocument_formatting&quot;&gt;formatting options&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;The formatting style can be customized by specifying &lt;code&gt;languageserver.formatting_style&lt;/code&gt; option which is supposed to be a function that accepts an &lt;code&gt;options&lt;/code&gt; argument mentioned above. You could consider to put the code in &lt;code&gt;.Rprofile&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://styler.r-lib.org/reference/tidyverse_style.html&quot;&gt;&lt;code&gt;styler::tidyverse_style&lt;/code&gt;&lt;/a&gt; provides numerous arguments to customize the formatting behavior. For example, to make it only work at indention scope:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;options(languageserver.formatting_style = function(options) {
+    styler::tidyverse_style(scope = &quot;indention&quot;, indent_by = options$tabSize)
+})
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;To disable assignment operator fix (replacing &lt;code&gt;=&lt;/code&gt; with &lt;code&gt;&amp;lt;-&lt;/code&gt;):&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;options(languageserver.formatting_style = function(options) {
+    style &amp;lt;- styler::tidyverse_style(indent_by = options$tabSize)
+    style$token$force_assignment_op &amp;lt;- NULL
+    style
+})
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;To further customize the formatting style, please refer to &lt;a href=&quot;https://styler.r-lib.org/articles/customizing_styler.html&quot;&gt;Customizing styler&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>immunogenomics/harmony</title>
+      <link>https://github.com/immunogenomics/harmony</link>
+      <description>&lt;p&gt;Fast, sensitive and accurate integration of single-cell data with Harmony&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;Harmony &lt;img src=&quot;https://raw.githubusercontent.com/immunogenomics/harmony/master/man/figures/logo.png&quot; width=&quot;181px&quot; align=&quot;right&quot;&gt;&lt;/h1&gt; 
+&lt;p&gt;&lt;a href=&quot;https://travis-ci.org/immunogenomics/harmony&quot;&gt;&lt;img src=&quot;https://travis-ci.org/immunogenomics/harmony.svg?branch=master&quot; alt=&quot;Travis-CI Build Status&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://ci.appveyor.com/project/immunogenomics/harmony&quot;&gt;&lt;img src=&quot;https://ci.appveyor.com/api/projects/status/github/immunogenomics/harmony?branch=master&amp;amp;svg=true&quot; alt=&quot;AppVeyor Build Status&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://doi.org/10.1038/s41592-019-0619-0&quot;&gt;&lt;img src=&quot;https://zenodo.org/badge/doi/10.1038/s41592-019-0619-0.svg?sanitize=true&quot; alt=&quot;DOI&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;em&gt;Fast, sensitive and accurate integration of single-cell data with Harmony&lt;/em&gt;&lt;/p&gt; 
+&lt;p&gt;Check out the manuscript in Nature Methods:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/s41592-019-0619-0&quot;&gt;nature website&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/s41592-019-0619-0.epdf?shared_access_token=rDg_Rd07lrFXExt_ySj7V9RgN0jAjWel9jnR3ZoTv0NfDJkKCfDV_X9Mq3lweQmKiXEXxhrebQRjJEZdc-xNv6-7ZN1XotlD_mo5TSS4Z4eWn-kUo6mBwA5dEAKlTfR8OT6E10MZY_E-906ajbzvgg%3D%3D&quot;&gt;read link&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;For Python users, check out the &lt;a href=&quot;https://github.com/slowkow/harmonypy&quot;&gt;harmonypy package&lt;/a&gt; by Kamil Slowikowski.&lt;/p&gt; 
+&lt;h1&gt;System requirements&lt;/h1&gt; 
+&lt;p&gt;Harmony has been tested on R versions &amp;gt;= 3.4. Please consult the DESCRIPTION file for more details on required R packages. Harmony has been tested on Linux, OS X, and Windows platforms.&lt;/p&gt; 
+&lt;h1&gt;Installation&lt;/h1&gt; 
+&lt;p&gt;To run Harmony, open R and install harmony from CRAN:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;install.packages(&quot;harmony&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;If you&#39;d like the latest development version, install from this github directly:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;devtools::install_github(&quot;immunogenomics/harmony&quot;, build_vignettes=TRUE)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h1&gt;Usage&lt;/h1&gt; 
+&lt;p&gt;Harmony is designed to be user-friendly and supports some SingleCellExperiment and Seurat R analysis pipelines. Alternatively, it can be used in standalone mode.&lt;/p&gt; 
+&lt;h2&gt;Quick Start&lt;/h2&gt; 
+&lt;h3&gt;Standalone Mode&lt;/h3&gt; 
+&lt;p&gt;Check out this &lt;a href=&quot;http://htmlpreview.github.io/?https://github.com/immunogenomics/harmony/raw/master/doc/quickstart.html&quot;&gt;vignette&lt;/a&gt; for a quick start tutorial which demonstrates the usage of the tool in standalone mode.&lt;/p&gt; 
+&lt;p&gt;At minimum the following parameters need to be specified to achieve an integration.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;library(harmony)
+my_harmony_embeddings &amp;lt;- RunHarmony(my_pca_embeddings, meta_data, &quot;dataset&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Seurat Objects&lt;/h2&gt; 
+&lt;p&gt;By default, the harmony API works on Seurats PCA cell embeddings and corrects them. You can run Harmony within your Seurat workflow with &lt;code&gt;RunHarmony()&lt;/code&gt;. Prior &lt;code&gt;RunHarmony()&lt;/code&gt; the PCA cell embeddings need to be precomputed through Seurat&#39;s API. For downstream analyses, use the &lt;code&gt;harmony&lt;/code&gt; embeddings instead of &lt;code&gt;pca&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;For example, the following snippet run Harmony and then calculates UMAP of the corrected input embeddings:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;seuratObj &amp;lt;- RunHarmony(seuratObj, &quot;dataset&quot;)
+seuratObj &amp;lt;- RunUMAP(seuratObj, reduction = &quot;harmony&quot;)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;For a more detailed overview of the &lt;code&gt;RunHarmony()&lt;/code&gt; Seurat interface check, the &lt;a href=&quot;http://htmlpreview.github.io/?https://github.com/immunogenomics/harmony/raw/master/doc/Seurat.html&quot;&gt;Seurat vignette&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Harmony with two or more covariates&lt;/h2&gt; 
+&lt;p&gt;Harmony can integrate over multiple covariates. To do this, specify a vector covariates to integrate.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;my_harmony_embeddings &amp;lt;- RunHarmony(
+  my_pca_embeddings, meta_data, c(&quot;dataset&quot;, &quot;donor&quot;, &quot;batch_id&quot;)
+)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Do the same with your Seurat object:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-r&quot;&gt;seuratObject &amp;lt;- RunHarmony(seuratObject, c(&quot;dataset&quot;, &quot;donor&quot;, &quot;batch_id&quot;))
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Advanced tutorial&lt;/h2&gt; 
+&lt;p&gt;The examples above all return integrated PCA embeddings. We created a &lt;a href=&quot;http://htmlpreview.github.io/?https://github.com/immunogenomics/harmony/raw/master/doc/detailedWalkthrough.html&quot;&gt;detailed walkthrough&lt;/a&gt; that explores the internal data structures and mechanics of the Harmony algorithm.&lt;/p&gt; 
+&lt;h1&gt;Performance Notes&lt;/h1&gt; 
+&lt;h2&gt;BLAS vs. OPENBLAS&lt;/h2&gt; 
+&lt;p&gt;R distributions can be bundled with different scientific computing libraries. This can drastically impact harmony&#39;s performance. Rstudio comes by default with BLAS. In contrast, conda distributions of R are bundled with OPENBLAS. Overall, our benchmarks show that &lt;strong&gt;harmony+OPENBLAS is substantially faster compared harmony+BLAS&lt;/strong&gt;. Therefore users with large datasets will benefit using OPENBLAS.&lt;/p&gt; 
+&lt;h2&gt;Multithreading in OPENBLAS&lt;/h2&gt; 
+&lt;p&gt;One caveat is that OPENBLAS uses OPENMP to parallelize operations. By default, OPENBLAS will utilize all cores for these operations. While in theory this accelerates runtimes, in practice harmony is not optimized for multi-threaded performance and the unoptimized parallelization granularity may result in significantly slower run times and inefficient resource utilization (wasted CPU cycles). Therefore, by default harmony turns off multi-threading. However, very large datasets &amp;gt;1M may benefit from parallelization. This behavior can be controlled by the &lt;code&gt;ncores&lt;/code&gt; parameter which expects a number threads which harmony will use for its math operation. Users are advised to increase gradually &lt;code&gt;ncores&lt;/code&gt; and assess potential performance benefits.&lt;/p&gt; 
+&lt;h1&gt;Reproducing results from manuscript&lt;/h1&gt; 
+&lt;p&gt;Code to reproduce Harmony results from the Korsunsky et al 2019 manuscript will be made available on github.com/immunogenomics/harmony2019.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

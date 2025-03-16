@@ -1,0 +1,1871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>GitHub Perl Monthly Trending</title>
+    <description>Monthly Trending of Perl in GitHub</description>
+    <pubDate>Sun, 16 Mar 2025 02:07:04 GMT</pubDate>
+    <link>http://mshibanami.github.io/GitHubTrendingRSS</link>
+    
+    <item>
+      <title>holzschu/a-shell</title>
+      <link>https://github.com/holzschu/a-shell</link>
+      <description>&lt;p&gt;A terminal for iOS, with multiple windows&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;a-shell: A terminal for iOS, with multiple windows&lt;/h1&gt; 
+&lt;p align=&quot;center&quot;&gt; &lt;img src=&quot;https://img.shields.io/badge/Platform-iOS%2014.0+-lightgrey.svg?sanitize=true&quot; alt=&quot;Platform: iOS&quot;&gt; &lt;a href=&quot;https://twitter.com/a_Shell_iOS&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Twitter-@a__Shell__iOS-blue.svg?style=flat&quot; alt=&quot;Twitter&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://discord.gg/cvYnZm69Gy&quot;&gt;&lt;img src=&quot;https://img.shields.io/discord/935519150305050644?color=5865f2&amp;amp;label=Discord&amp;amp;style=flat&quot; alt=&quot;Discord&quot;&gt;&lt;/a&gt; &lt;/p&gt; 
+&lt;p&gt;The goal in this project is to provide a simple Unix-like terminal on iOS. It uses &lt;a href=&quot;https://github.com/holzschu/ios_system/&quot;&gt;ios_system&lt;/a&gt; for command interpretation, and includes all commands from the &lt;a href=&quot;https://github.com/holzschu/ios_system/&quot;&gt;ios_system&lt;/a&gt; ecosystem (nslookup, whois, python3, lua, pdflatex, lualatex...)&lt;/p&gt; 
+&lt;p&gt;The project uses iPadOS 13 ability to create and manage multiple windows. Each window has its own context, appearance, command history and current directory. &lt;code&gt;newWindow&lt;/code&gt; opens a new window, &lt;code&gt;exit&lt;/code&gt; closes the current window.&lt;/p&gt; 
+&lt;p&gt;For help, type &lt;code&gt;help&lt;/code&gt; in the command line. &lt;code&gt;help -l&lt;/code&gt; lists all the available commands. &lt;code&gt;help -l | grep command&lt;/code&gt; will tell you if your favorite command is already installed.&lt;/p&gt; 
+&lt;p&gt;You can change the appearance of a-Shell using &lt;code&gt;config&lt;/code&gt;. It lets you change the font, the font size, the background color, the text color and the cursor color and shape. Each window can have its own appearance. &lt;code&gt;config -p&lt;/code&gt; will make the settings for the current window permanent, that is used for all future windows. With &lt;code&gt;config -t&lt;/code&gt; you can also configure the toolbar.&lt;/p&gt; 
+&lt;p&gt;When opening a new window, a-Shell executes the file &lt;code&gt;.profile&lt;/code&gt; if it exists. You can use this mechanism to customize further, e.g. have custom environment variables or cleanup temporary files.&lt;/p&gt; 
+&lt;p&gt;For more tips on how to use a-Shell, see &lt;a href=&quot;https://bianshen00009.gitbook.io/a-guide-to-a-shell/&quot;&gt;the document&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;AppStore&lt;/h2&gt; 
+&lt;p&gt;a-Shell is now &lt;a href=&quot;https://holzschu.github.io/a-Shell_iOS/&quot;&gt;available on the AppStore&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;How to compile it?&lt;/h2&gt; 
+&lt;p&gt;If you want to compile the project yourself, you will need the following steps:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;download the entire project and its sub-modules: &lt;code&gt;git submodule update --init --recursive&lt;/code&gt;&lt;/li&gt; 
+ &lt;li&gt;download all the xcFrameworks: &lt;code&gt;downloadFrameworks.sh&lt;/code&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;this will download the standard Apple frameworks (in &lt;code&gt;xcfs/.build/artefacts/xcfs&lt;/code&gt;, with checksum control).&lt;/li&gt; 
+   &lt;li&gt;There are too many Python frameworks (more than 2000) for automatic download. You can either remove them from the &quot;Embed&quot; step in the project, or compile them: 
+    &lt;ul&gt; 
+     &lt;li&gt;You&#39;ll need the Xcode command line tools, if you don&#39;t already have them: &lt;code&gt;sudo xcode-select --install&lt;/code&gt;&lt;/li&gt; 
+     &lt;li&gt;You also need the OpenSSL libraries (libssl and libcrypto), XQuartz (freetype), and Node.js (npm) for macOS (we provide the versions for iOS and simulator).&lt;/li&gt; 
+     &lt;li&gt;change directory to &lt;code&gt;cpython&lt;/code&gt;: &lt;code&gt;cd cpython&lt;/code&gt;&lt;/li&gt; 
+     &lt;li&gt;build Python 3.11 and all the associated libraries / frameworks: &lt;code&gt;sh ./downloadAndCompile.sh&lt;/code&gt; (this step takes several hours on a 2GHz i5 MBP, YMMV).&lt;/li&gt; 
+    &lt;/ul&gt; &lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;a-Shell now runs on the devices. a-Shell mini can run on the devices and the simulator.&lt;/p&gt; 
+&lt;p&gt;Because Python 3.x uses functions that are only available on the iOS 14 SDK, I&#39;ve set the minimum iOS version to 14.0. It also reduces the size of the binaries, so &lt;code&gt;ios_system&lt;/code&gt; and the other frameworks have the same settings. If you need to run it on an iOS 13 device, you&#39;ll have to recompile most frameworks.&lt;/p&gt; 
+&lt;h2&gt;Home directory&lt;/h2&gt; 
+&lt;p&gt;In iOS, you cannot write in the &lt;code&gt;~&lt;/code&gt; directory, only in &lt;code&gt;~/Documents/&lt;/code&gt;, &lt;code&gt;~/Library/&lt;/code&gt; and &lt;code&gt;~/tmp&lt;/code&gt;. Most Unix programs assume the configuration files are in &lt;code&gt;$HOME&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;So a-Shell changes several environment variables so that they point to &lt;code&gt;~/Documents&lt;/code&gt;. Type &lt;code&gt;env&lt;/code&gt; to see them.&lt;/p&gt; 
+&lt;p&gt;Most configuration files (Python packages, TeX files, Clang SDK...) are in &lt;code&gt;~/Library&lt;/code&gt;.&lt;/p&gt; 
+&lt;h2&gt;Sandbox and Bookmarks&lt;/h2&gt; 
+&lt;p&gt;a-Shell uses iOS 13 ability to access directories in other Apps sandbox. Type &lt;code&gt;pickFolder&lt;/code&gt; to access a directory inside another App. Once you have selected a directory, you can do pretty much anything you want here, so be careful.&lt;/p&gt; 
+&lt;p&gt;All the directories you access with &lt;code&gt;pickFolder&lt;/code&gt; are bookmarked, so you can return to them later without &lt;code&gt;pickFolder&lt;/code&gt;. You can also bookmark the current directory with &lt;code&gt;bookmark&lt;/code&gt;. &lt;code&gt;showmarks&lt;/code&gt; will list all the existing bookmarks, &lt;code&gt;jump mark&lt;/code&gt; and &lt;code&gt;cd ~mark&lt;/code&gt; will change the current directory to this specific bookmark, &lt;code&gt;renamemark&lt;/code&gt; will let you change the name of a specific bookmark and &lt;code&gt;deletemark&lt;/code&gt; will delete a bookmark.&lt;/p&gt; 
+&lt;p&gt;A user-configurable option in Settings lets you use the commands &lt;code&gt;s&lt;/code&gt;, &lt;code&gt;g&lt;/code&gt;, &lt;code&gt;l&lt;/code&gt;, &lt;code&gt;r&lt;/code&gt; and &lt;code&gt;d&lt;/code&gt; instead or as well.&lt;/p&gt; 
+&lt;p&gt;If you are lost, &lt;code&gt;cd&lt;/code&gt; will always bring you back to &lt;code&gt;~/Documents/&lt;/code&gt;. &lt;code&gt;cd -&lt;/code&gt; will change to the previous directory.&lt;/p&gt; 
+&lt;h2&gt;Shortcuts&lt;/h2&gt; 
+&lt;p&gt;a-Shell is compatible with Apple Shortcuts, giving users full control of the Shell. You can write complex Shortcuts to download, process and release files using a-Shell commands. There are three shortcuts:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;code&gt;Execute Command&lt;/code&gt;, which takes a list of commands and executes them in order. The input can also be a file or a text node, in which case the commands inside the node are executed.&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;Put File&lt;/code&gt; and &lt;code&gt;Get File&lt;/code&gt; are used to transfer files to and from a-Shell.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Shortcuts can be executed either &quot;In Extension&quot; or &quot;In App&quot;. &quot;In Extension&quot; means the shortcut runs in a lightweight version of the App, without no graphical user interface. It is good for light commands that do not require configuration files or system libraries (mkdir, nslookup, whois, touch, cat, echo...). &quot;In App&quot; opens the main application to execute the shortcut. It has access to all the commands, but will take longer. Once a shortcut has opened the App, you can return to the Shortcuts app by calling the command &lt;code&gt;open shortcuts://&lt;/code&gt;. The default behaviour is to try to run the commands &quot;in Extension&quot; as much as possible, based on the content of the commands. You can force a specific shortcut to run &quot;in App&quot; or &quot;in Extension&quot;, with the warning that it won&#39;t always work.&lt;/p&gt; 
+&lt;p&gt;Both kind of shortcuts run by default in the same specific directory, &lt;code&gt;$SHORTCUTS&lt;/code&gt; or &lt;code&gt;~shortcuts&lt;/code&gt;. Of course, since you can run the commands &lt;code&gt;cd&lt;/code&gt; and &lt;code&gt;jump&lt;/code&gt; in a shortcut, you can pretty much go anywhere.&lt;/p&gt; 
+&lt;h2&gt;Programming / add more commands:&lt;/h2&gt; 
+&lt;p&gt;a-Shell has several programming languages installed: Python, Lua, JS, C, C++ and TeX.&lt;/p&gt; 
+&lt;p&gt;For C and C++, you compile your programs with &lt;code&gt;clang program.c&lt;/code&gt; and it produces a webAssembly file. You can then execute it with &lt;code&gt;wasm a.out&lt;/code&gt;. You can also link multiple object files together, make a static library with &lt;code&gt;ar&lt;/code&gt;, etc. Once you are satisfied with your program, if you move it to a directory in the &lt;code&gt;$PATH&lt;/code&gt; (e.g. &lt;code&gt;~/Documents/bin&lt;/code&gt;) and rename it &lt;code&gt;program.wasm&lt;/code&gt;, it will be executed if you type &lt;code&gt;program&lt;/code&gt; on the command line.&lt;/p&gt; 
+&lt;p&gt;You can also cross-compile programs on your main computer using our specific &lt;a href=&quot;https://github.com/holzschu/wasi-sdk&quot;&gt;WASI-sdk&lt;/a&gt;, and transfer the WebAssembly file to your iPad or iPhone.&lt;/p&gt; 
+&lt;p&gt;Precompiled WebAssembly commands specific for a-Shell are available here: &lt;a href=&quot;https://github.com/holzschu/a-Shell-commands&quot;&gt;https://github.com/holzschu/a-Shell-commands&lt;/a&gt; These include &lt;code&gt;zip&lt;/code&gt;, &lt;code&gt;unzip&lt;/code&gt;, &lt;code&gt;xz&lt;/code&gt;, &lt;code&gt;ffmpeg&lt;/code&gt;... You install them on your iPad by downloading them and placing them in the &lt;code&gt;$PATH&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;We have the limitations of WebAssembly: no sockets, no forks, no interactive user input (piping input from other commands with &lt;code&gt;command | wasm program.wasm&lt;/code&gt; works fine).&lt;/p&gt; 
+&lt;p&gt;For Python, you can install more packages with &lt;code&gt;pip install packagename&lt;/code&gt;, but only if they are pure Python. The C compiler is not yet able to produce dynamic libraries that could be used by Python.&lt;/p&gt; 
+&lt;p&gt;TeX files are not installed by default. Type any TeX command and the system will prompt you to download them. Same with LuaTeX files.&lt;/p&gt; 
+&lt;h2&gt;VoiceOver&lt;/h2&gt; 
+&lt;p&gt;If you enable VoiceOver in Settings, a-Shell will work with VoiceOver: reading commands as you type them, reading the result, letting you read the screen with your finger...&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>brendangregg/FlameGraph</title>
+      <link>https://github.com/brendangregg/FlameGraph</link>
+      <description>&lt;p&gt;Stack trace visualizer&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;Flame Graphs visualize profiled code&lt;/h1&gt; 
+&lt;p&gt;Main Website: &lt;a href=&quot;http://www.brendangregg.com/flamegraphs.html&quot;&gt;http://www.brendangregg.com/flamegraphs.html&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Example (click to zoom):&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;http://www.brendangregg.com/FlameGraphs/cpu-bash-flamegraph.svg&quot;&gt;&lt;img src=&quot;http://www.brendangregg.com/FlameGraphs/cpu-bash-flamegraph.svg?sanitize=true&quot; alt=&quot;Example&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Click a box to zoom the Flame Graph to this stack frame only. To search and highlight all stack frames matching a regular expression, click the &lt;em&gt;search&lt;/em&gt; button in the upper right corner or press Ctrl-F. By default, search is case sensitive, but this can be toggled by pressing Ctrl-I or by clicking the &lt;em&gt;ic&lt;/em&gt; button in the upper right corner.&lt;/p&gt; 
+&lt;p&gt;Other sites:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;The Flame Graph article in ACMQ and CACM: &lt;a href=&quot;http://queue.acm.org/detail.cfm?id=2927301&quot;&gt;http://queue.acm.org/detail.cfm?id=2927301&lt;/a&gt; &lt;a href=&quot;http://cacm.acm.org/magazines/2016/6/202665-the-flame-graph/abstract&quot;&gt;http://cacm.acm.org/magazines/2016/6/202665-the-flame-graph/abstract&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;CPU profiling using Linux perf_events, DTrace, SystemTap, or ktap: &lt;a href=&quot;http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html&quot;&gt;http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;CPU profiling using XCode Instruments: &lt;a href=&quot;http://schani.wordpress.com/2012/11/16/flame-graphs-for-instruments/&quot;&gt;http://schani.wordpress.com/2012/11/16/flame-graphs-for-instruments/&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;CPU profiling using Xperf.exe: &lt;a href=&quot;http://randomascii.wordpress.com/2013/03/26/summarizing-xperf-cpu-usage-with-flame-graphs/&quot;&gt;http://randomascii.wordpress.com/2013/03/26/summarizing-xperf-cpu-usage-with-flame-graphs/&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;Memory profiling: &lt;a href=&quot;http://www.brendangregg.com/FlameGraphs/memoryflamegraphs.html&quot;&gt;http://www.brendangregg.com/FlameGraphs/memoryflamegraphs.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;Other examples, updates, and news: &lt;a href=&quot;http://www.brendangregg.com/flamegraphs.html#Updates&quot;&gt;http://www.brendangregg.com/flamegraphs.html#Updates&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Flame graphs can be created in three steps:&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;Capture stacks&lt;/li&gt; 
+ &lt;li&gt;Fold stacks&lt;/li&gt; 
+ &lt;li&gt;flamegraph.pl&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;h1&gt;1. Capture stacks&lt;/h1&gt; 
+&lt;p&gt;Stack samples can be captured using Linux perf_events, FreeBSD pmcstat (hwpmc), DTrace, SystemTap, and many other profilers. See the stackcollapse-* converters.&lt;/p&gt; 
+&lt;h3&gt;Linux perf_events&lt;/h3&gt; 
+&lt;p&gt;Using Linux perf_events (aka &quot;perf&quot;) to capture 60 seconds of 99 Hertz stack samples, both user- and kernel-level stacks, all processes:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;# perf record -F 99 -a -g -- sleep 60
+# perf script &amp;gt; out.perf
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Now only capturing PID 181:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;# perf record -F 99 -p 181 -g -- sleep 60
+# perf script &amp;gt; out.perf
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;DTrace&lt;/h3&gt; 
+&lt;p&gt;Using DTrace to capture 60 seconds of kernel stacks at 997 Hertz:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;# dtrace -x stackframes=100 -n &#39;profile-997 /arg0/ { @[stack()] = count(); } tick-60s { exit(0); }&#39; -o out.kern_stacks
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Using DTrace to capture 60 seconds of user-level stacks for PID 12345 at 97 Hertz:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;# dtrace -x ustackframes=100 -n &#39;profile-97 /pid == 12345 &amp;amp;&amp;amp; arg1/ { @[ustack()] = count(); } tick-60s { exit(0); }&#39; -o out.user_stacks
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;60 seconds of user-level stacks, including time spent in-kernel, for PID 12345 at 97 Hertz:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;# dtrace -x ustackframes=100 -n &#39;profile-97 /pid == 12345/ { @[ustack()] = count(); } tick-60s { exit(0); }&#39; -o out.user_stacks
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Switch &lt;code&gt;ustack()&lt;/code&gt; for &lt;code&gt;jstack()&lt;/code&gt; if the application has a ustack helper to include translated frames (eg, node.js frames; see: &lt;a href=&quot;http://dtrace.org/blogs/dap/2012/01/05/where-does-your-node-program-spend-its-time/&quot;&gt;http://dtrace.org/blogs/dap/2012/01/05/where-does-your-node-program-spend-its-time/&lt;/a&gt;). The rate for user-level stack collection is deliberately slower than kernel, which is especially important when using &lt;code&gt;jstack()&lt;/code&gt; as it performs additional work to translate frames.&lt;/p&gt; 
+&lt;h1&gt;2. Fold stacks&lt;/h1&gt; 
+&lt;p&gt;Use the stackcollapse programs to fold stack samples into single lines. The programs provided are:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;code&gt;stackcollapse.pl&lt;/code&gt;: for DTrace stacks&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;stackcollapse-perf.pl&lt;/code&gt;: for Linux perf_events &quot;perf script&quot; output&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;stackcollapse-pmc.pl&lt;/code&gt;: for FreeBSD pmcstat -G stacks&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;stackcollapse-stap.pl&lt;/code&gt;: for SystemTap stacks&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;stackcollapse-instruments.pl&lt;/code&gt;: for XCode Instruments&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;stackcollapse-vtune.pl&lt;/code&gt;: for Intel VTune profiles&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;stackcollapse-ljp.awk&lt;/code&gt;: for Lightweight Java Profiler&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;stackcollapse-jstack.pl&lt;/code&gt;: for Java jstack(1) output&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;stackcollapse-gdb.pl&lt;/code&gt;: for gdb(1) stacks&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;stackcollapse-go.pl&lt;/code&gt;: for Golang pprof stacks&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;stackcollapse-vsprof.pl&lt;/code&gt;: for Microsoft Visual Studio profiles&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;stackcollapse-wcp.pl&lt;/code&gt;: for wallClockProfiler output&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Usage example:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;For perf_events:
+$ ./stackcollapse-perf.pl out.perf &amp;gt; out.folded
+
+For DTrace:
+$ ./stackcollapse.pl out.kern_stacks &amp;gt; out.kern_folded
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;The output looks like this:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;unix`_sys_sysenter_post_swapgs 1401
+unix`_sys_sysenter_post_swapgs;genunix`close 5
+unix`_sys_sysenter_post_swapgs;genunix`close;genunix`closeandsetf 85
+unix`_sys_sysenter_post_swapgs;genunix`close;genunix`closeandsetf;c2audit`audit_closef 26
+unix`_sys_sysenter_post_swapgs;genunix`close;genunix`closeandsetf;c2audit`audit_setf 5
+unix`_sys_sysenter_post_swapgs;genunix`close;genunix`closeandsetf;genunix`audit_getstate 6
+unix`_sys_sysenter_post_swapgs;genunix`close;genunix`closeandsetf;genunix`audit_unfalloc 2
+unix`_sys_sysenter_post_swapgs;genunix`close;genunix`closeandsetf;genunix`closef 48
+[...]
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h1&gt;3. flamegraph.pl&lt;/h1&gt; 
+&lt;p&gt;Use flamegraph.pl to render a SVG.&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;$ ./flamegraph.pl out.kern_folded &amp;gt; kernel.svg
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;An advantage of having the folded input file (and why this is separate to flamegraph.pl) is that you can use grep for functions of interest. Eg:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;$ grep cpuid out.kern_folded | ./flamegraph.pl &amp;gt; cpuid.svg
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h1&gt;Provided Examples&lt;/h1&gt; 
+&lt;h3&gt;Linux perf_events&lt;/h3&gt; 
+&lt;p&gt;An example output from Linux &quot;perf script&quot; is included, gzip&#39;d, as example-perf-stacks.txt.gz. The resulting flame graph is example-perf.svg:&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;http://www.brendangregg.com/FlameGraphs/example-perf.svg&quot;&gt;&lt;img src=&quot;http://www.brendangregg.com/FlameGraphs/example-perf.svg?sanitize=true&quot; alt=&quot;Example&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;You can create this using:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;$ gunzip -c example-perf-stacks.txt.gz | ./stackcollapse-perf.pl --all | ./flamegraph.pl --color=java --hash &amp;gt; example-perf.svg
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;This shows my typical workflow: I&#39;ll gzip profiles on the target, then copy them to my laptop for analysis. Since I have hundreds of profiles, I leave them gzip&#39;d!&lt;/p&gt; 
+&lt;p&gt;Since this profile included Java, I used the flamegraph.pl --color=java palette. I&#39;ve also used stackcollapse-perf.pl --all, which includes all annotations that help flamegraph.pl use separate colors for kernel and user level code. The resulting flame graph uses: green == Java, yellow == C++, red == user-mode native, orange == kernel.&lt;/p&gt; 
+&lt;p&gt;This profile was from an analysis of vert.x performance. The benchmark client, wrk, is also visible in the flame graph.&lt;/p&gt; 
+&lt;h3&gt;DTrace&lt;/h3&gt; 
+&lt;p&gt;An example output from DTrace is also included, example-dtrace-stacks.txt, and the resulting flame graph, example-dtrace.svg:&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;http://www.brendangregg.com/FlameGraphs/example-dtrace.svg&quot;&gt;&lt;img src=&quot;http://www.brendangregg.com/FlameGraphs/example-dtrace.svg?sanitize=true&quot; alt=&quot;Example&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;You can generate this using:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;$ ./stackcollapse.pl example-stacks.txt | ./flamegraph.pl &amp;gt; example.svg
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;This was from a particular performance investigation: the Flame Graph identified that CPU time was spent in the lofs module, and quantified that time.&lt;/p&gt; 
+&lt;h1&gt;Options&lt;/h1&gt; 
+&lt;p&gt;See the USAGE message (--help) for options:&lt;/p&gt; 
+&lt;p&gt;USAGE: ./flamegraph.pl [options] infile &amp;gt; outfile.svg&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;--title TEXT     # change title text
+--subtitle TEXT  # second level title (optional)
+--width NUM      # width of image (default 1200)
+--height NUM     # height of each frame (default 16)
+--minwidth NUM   # omit smaller functions. In pixels or use &quot;%&quot; for 
+                 # percentage of time (default 0.1 pixels)
+--fonttype FONT  # font type (default &quot;Verdana&quot;)
+--fontsize NUM   # font size (default 12)
+--countname TEXT # count type label (default &quot;samples&quot;)
+--nametype TEXT  # name type label (default &quot;Function:&quot;)
+--colors PALETTE # set color palette. choices are: hot (default), mem,
+                 # io, wakeup, chain, java, js, perl, red, green, blue,
+                 # aqua, yellow, purple, orange
+--bgcolors COLOR # set background colors. gradient choices are yellow
+                 # (default), blue, green, grey; flat colors use &quot;#rrggbb&quot;
+--hash           # colors are keyed by function name hash
+--cp             # use consistent palette (palette.map)
+--reverse        # generate stack-reversed flame graph
+--inverted       # icicle graph
+--flamechart     # produce a flame chart (sort by time, do not merge stacks)
+--negate         # switch differential hues (blue&amp;lt;-&amp;gt;red)
+--notes TEXT     # add notes comment in SVG (for debugging)
+--help           # this message
+
+eg,
+./flamegraph.pl --title=&quot;Flame Graph: malloc()&quot; trace.txt &amp;gt; graph.svg
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;As suggested in the example, flame graphs can process traces of any event, such as malloc()s, provided stack traces are gathered.&lt;/p&gt; 
+&lt;h1&gt;Consistent Palette&lt;/h1&gt; 
+&lt;p&gt;If you use the &lt;code&gt;--cp&lt;/code&gt; option, it will use the $colors selection and randomly generate the palette like normal. Any future flamegraphs created using the &lt;code&gt;--cp&lt;/code&gt; option will use the same palette map. Any new symbols from future flamegraphs will have their colors randomly generated using the $colors selection.&lt;/p&gt; 
+&lt;p&gt;If you don&#39;t like the palette, just delete the palette.map file.&lt;/p&gt; 
+&lt;p&gt;This allows your to change your colorscheme between flamegraphs to make the differences REALLY stand out.&lt;/p&gt; 
+&lt;p&gt;Example:&lt;/p&gt; 
+&lt;p&gt;Say we have 2 captures, one with a problem, and one when it was working (whatever &quot;it&quot; is):&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;cat working.folded | ./flamegraph.pl --cp &amp;gt; working.svg
+# this generates a palette.map, as per the normal random generated look.
+
+cat broken.folded | ./flamegraph.pl --cp --colors mem &amp;gt; broken.svg
+# this svg will use the same palette.map for the same events, but a very
+# different colorscheme for any new events.
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Take a look at the demo directory for an example:&lt;/p&gt; 
+&lt;p&gt;palette-example-working.svg&lt;br&gt; palette-example-broken.svg&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>sullo/nikto</title>
+      <link>https://github.com/sullo/nikto</link>
+      <description>&lt;p&gt;Nikto web server scanner&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;nikto&lt;/h1&gt; 
+&lt;p&gt;&lt;a href=&quot;https://www.patreon.com/sullo&quot;&gt;&lt;img src=&quot;https://cirt.net/images/patreon.png&quot; alt=&quot;alt text&quot; title=&quot;Become a patron of Nikto!&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Nikto web server scanner - &lt;a href=&quot;https://cirt.net/Nikto2&quot;&gt;https://cirt.net/Nikto2&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Full documentation - &lt;a href=&quot;https://github.com/sullo/nikto/wiki&quot;&gt;https://github.com/sullo/nikto/wiki&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Run normally:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/sullo/nikto
+# Main script is in program/
+cd nikto/program
+# Run using the shebang interpreter
+./nikto.pl -h http://www.example.com
+# Run using perl (if you forget to chmod)
+perl nikto.pl -h http://www.example.com
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Run as a Docker container:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git clone https://github.com/sullo/nikto.git
+cd nikto
+docker build -t sullo/nikto .
+# Call it without arguments to display the full help
+docker run --rm sullo/nikto
+# Basic usage
+docker run --rm sullo/nikto -h http://www.example.com
+# To save the report in a specific format, mount /tmp as a volume:
+docker run --rm -v $(pwd):/tmp sullo/nikto -h http://www.example.com -o /tmp/out.json
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Basic usage:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;   Options:
+       -ask+               Whether to ask about submitting updates
+                               yes   Ask about each (default)
+                               no    Don&#39;t ask, don&#39;t send
+                               auto  Don&#39;t ask, just send
+       -Cgidirs+           Scan these CGI dirs: &quot;none&quot;, &quot;all&quot;, or values like &quot;/cgi/ /cgi-a/&quot;
+       -config+            Use this config file
+       -Display+           Turn on/off display outputs:
+                               1     Show redirects
+                               2     Show cookies received
+                               3     Show all 200/OK responses
+                               4     Show URLs which require authentication
+                               D     Debug output
+                               E     Display all HTTP errors
+                               P     Print progress to STDOUT
+                               S     Scrub output of IPs and hostnames
+                               V     Verbose output
+       -dbcheck           Check database and other key files for syntax errors
+       -followredirects   Follow 3xx redirects to new location
+       -evasion+          Encoding technique:
+                               1     Random URI encoding (non-UTF8)
+                               2     Directory self-reference (/./)
+                               3     Premature URL ending
+                               4     Prepend long random string
+                               5     Fake parameter
+                               6     TAB as request spacer
+                               7     Change the case of the URL
+                               8     Use Windows directory separator (\)
+                               A     Use a carriage return (0x0d) as a request spacer
+                               B     Use binary value 0x0b as a request spacer
+        -Format+           Save file (-o) format:
+                               csv   Comma-separated-value
+                               htm   HTML Format
+                               msf+  Log to Metasploit
+                               nbe   Nessus NBE format
+                               txt   Plain text
+                               xml   XML Format
+                               (if not specified the format will be taken from the file extension passed to -output)
+       -Help              Extended help information
+       -host+             Target host
+       -IgnoreCode        Ignore Codes--treat as negative responses
+       -id+               Host authentication to use, format is id:pass or id:pass:realm
+       -key+              Client certificate key file
+       -list-plugins      List all available plugins, perform no testing
+       -maxtime+          Maximum testing time per host
+       -mutate+           Guess additional file names:
+                               1     Test all files with all root directories
+                               2     Guess for password file names
+                               3     Enumerate user names via Apache (/~user type requests)
+                               4     Enumerate user names via cgiwrap (/cgi-bin/cgiwrap/~user type requests)
+                               5     Attempt to brute force sub-domain names, assume that the host name is the parent domain
+                               6     Attempt to guess directory names from the supplied dictionary file
+       -mutate-options    Provide information for mutates
+       -nointeractive     Disables interactive features
+       -nolookup          Disables DNS lookups
+       -noslash           Strip trailing slash from URL (e.g., &#39;/admin/&#39; to &#39;/admin&#39;)
+       -nossl             Disables the use of SSL
+       -no404             Disables nikto attempting to guess a 404 page
+       -output+           Write output to this file (&#39;.&#39; for auto-name)
+       -Pause+            Pause between tests (seconds, integer or float)
+       -Plugins+          List of plugins to run (default: ALL)
+       -port+             Port to use (default 80)
+       -RSAcert+          Client certificate file
+       -root+             Prepend root value to all requests, format is /directory
+       -Save              Save positive responses to this directory (&#39;.&#39; for auto-name)
+       -ssl               Force ssl mode on port
+       -Tuning+           Scan tuning:
+                               1     Interesting File / Seen in logs
+                               2     Misconfiguration / Default File
+                               3     Information Disclosure
+                               4     Injection (XSS/Script/HTML)
+                               5     Remote File Retrieval - Inside Web Root
+                               6     Denial of Service
+                               7     Remote File Retrieval - Server Wide
+                               8     Command Execution / Remote Shell
+                               9     SQL Injection
+                               0     File Upload
+                               a     Authentication Bypass
+                               b     Software Identification
+                               c     Remote Source Inclusion
+                               x     Reverse Tuning Options (i.e., include all except specified)
+       -timeout+          Timeout for requests (default 10 seconds)
+       -Userdbs           Load only user databases, not the standard databases
+                               all   Disable standard dbs and load only user dbs
+                               tests Disable only db_tests and load udb_tests
+       -until             Run until the specified time or duration
+       -update            Update databases and plugins from CIRT.net
+       -useproxy          Use the proxy defined in nikto.conf
+       -usecookies        Use cookies from responses in future requests
+       -Version           Print plugin and database versions
+       -vhost+            Virtual host (for Host header)
+              + requires a value
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h1&gt;License&lt;/h1&gt; 
+&lt;p&gt;Copyright (C) 2001 Chris Sullo&lt;/p&gt; 
+&lt;p&gt;This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; version 2 of the License only.&lt;/p&gt; 
+&lt;p&gt;This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.&lt;/p&gt; 
+&lt;p&gt;You should have received a copy of the GNU General Public License along with this program; if not, write to Free Software Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>adrienverge/openfortivpn</title>
+      <link>https://github.com/adrienverge/openfortivpn</link>
+      <description>&lt;p&gt;Client for PPP+TLS VPN tunnel services&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;openfortivpn&lt;/h1&gt; 
+&lt;p&gt;openfortivpn is a client for PPP+TLS VPN tunnel services. It spawns a pppd process and operates the communication between the gateway and this process.&lt;/p&gt; 
+&lt;p&gt;It is compatible with Fortinet VPNs.&lt;/p&gt; 
+&lt;h2&gt;Usage&lt;/h2&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;man openfortivpn
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Examples&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt; &lt;p&gt;Simply connect to a VPN:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;openfortivpn vpn-gateway:8443 --username=foo
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Connect to a VPN using an authentication realm:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;openfortivpn vpn-gateway:8443 --username=foo --realm=bar
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Store password securely with a pinentry program:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;openfortivpn vpn-gateway:8443 --username=foo --pinentry=pinentry-mac
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Connect with a user certificate and no password:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;openfortivpn vpn-gateway:8443 --username= --password= --user-cert=cert.pem --user-key=key.pem
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Connect using SAML login:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;openfortivpn vpn-gateway:8443 --saml-login
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Don&#39;t set IP routes and don&#39;t add VPN nameservers to &lt;code&gt;/etc/resolv.conf&lt;/code&gt;:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;openfortivpn vpn-gateway:8443 -u foo --no-routes --no-dns --pppd-no-peerdns
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Using a configuration file:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;openfortivpn -c /etc/openfortivpn/my-config
+&lt;/code&gt;&lt;/pre&gt; &lt;p&gt;With &lt;code&gt;/etc/openfortivpn/my-config&lt;/code&gt; containing:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-ini&quot;&gt;host = vpn-gateway
+port = 8443
+username = foo
+set-dns = 0
+pppd-use-peerdns = 0
+# X509 certificate sha256 sum, trust only this one!
+trusted-cert = e46d4aff08ba6914e64daa85bc6112a422fa7ce16631bff0b592a28556f993db
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;For the full list of config options, see the &lt;code&gt;CONFIGURATION&lt;/code&gt; section of&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;man openfortivpn
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Smartcard&lt;/h2&gt; 
+&lt;p&gt;Smartcard support needs &lt;code&gt;openssl pkcs engine&lt;/code&gt; and &lt;code&gt;opensc&lt;/code&gt; to be installed. The pkcs11-engine from libp11 needs to be compiled with p11-kit-devel installed. Check &lt;a href=&quot;https://github.com/adrienverge/openfortivpn/issues/464&quot;&gt;#464&lt;/a&gt; for a discussion of known issues in this area.&lt;/p&gt; 
+&lt;p&gt;To make use of your smartcard put at least &lt;code&gt;pkcs11:&lt;/code&gt; to the user-cert config or commandline option. It takes the full or a partial PKCS#11 token URI.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-ini&quot;&gt;user-cert = pkcs11:
+user-cert = pkcs11:token=someuser
+user-cert = pkcs11:model=PKCS%2315%20emulated;manufacturer=piv_II;serial=012345678;token=someuser
+username =
+password =
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;In most cases &lt;code&gt;user-cert = pkcs11:&lt;/code&gt; will do it, but if needed you can get the token-URI with &lt;code&gt;p11tool --list-token-urls&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;Multiple readers are currently not supported.&lt;/p&gt; 
+&lt;p&gt;Smartcard support has been tested with Yubikey under Linux, but other PIV enabled smartcards may work too. On Mac OS X Mojave it is known that the pkcs engine-by-id is not found.&lt;/p&gt; 
+&lt;h2&gt;Installing&lt;/h2&gt; 
+&lt;h3&gt;Installing existing packages&lt;/h3&gt; 
+&lt;p&gt;Some Linux distributions provide &lt;code&gt;openfortivpn&lt;/code&gt; packages:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://packages.fedoraproject.org/pkgs/openfortivpn&quot;&gt;Fedora / CentOS&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://software.opensuse.org/package/openfortivpn&quot;&gt;openSUSE / SLE&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://packages.gentoo.org/packages/net-vpn/openfortivpn&quot;&gt;Gentoo&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/NixOS/nixpkgs/tree/master/pkgs/tools/networking/openfortivpn&quot;&gt;NixOS&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://archlinux.org/packages/extra/x86_64/openfortivpn&quot;&gt;Arch Linux&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://packages.debian.org/stable/openfortivpn&quot;&gt;Debian&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://packages.ubuntu.com/search?keywords=openfortivpn&quot;&gt;Ubuntu&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://dev.getsol.us/source/openfortivpn/&quot;&gt;Solus&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://pkgs.alpinelinux.org/package/edge/testing/x86_64/openfortivpn&quot;&gt;Alpine Linux&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;On macOS both &lt;a href=&quot;https://formulae.brew.sh/formula/openfortivpn&quot;&gt;Homebrew&lt;/a&gt; and &lt;a href=&quot;https://ports.macports.org/port/openfortivpn&quot;&gt;MacPorts&lt;/a&gt; provide an &lt;code&gt;openfortivpn&lt;/code&gt; package. Either &lt;a href=&quot;https://brew.sh/&quot;&gt;install Homebrew&lt;/a&gt; then install openfortivpn:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;# Install &#39;Homebrew&#39;
+/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+
+# Install &#39;openfortivpn&#39;
+brew install openfortivpn
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;or &lt;a href=&quot;https://www.macports.org/install.php&quot;&gt;install MacPorts&lt;/a&gt; then install openfortivpn:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;# Install &#39;openfortivpn&#39;
+sudo port install openfortivpn
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;A more complete overview can be obtained from &lt;a href=&quot;https://repology.org/project/openfortivpn/versions&quot;&gt;repology&lt;/a&gt;.&lt;/p&gt; 
+&lt;h3&gt;Building and installing from source&lt;/h3&gt; 
+&lt;p&gt;For other distros, you&#39;ll need to build and install from source:&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt; &lt;p&gt;Install build dependencies.&lt;/p&gt; 
+  &lt;ul&gt; 
+   &lt;li&gt;RHEL/CentOS/Fedora: &lt;code&gt;gcc&lt;/code&gt; &lt;code&gt;automake&lt;/code&gt; &lt;code&gt;autoconf&lt;/code&gt; &lt;code&gt;openssl-devel&lt;/code&gt; &lt;code&gt;make&lt;/code&gt; &lt;code&gt;pkg-config&lt;/code&gt;&lt;/li&gt; 
+   &lt;li&gt;Debian/Ubuntu: &lt;code&gt;gcc&lt;/code&gt; &lt;code&gt;automake&lt;/code&gt; &lt;code&gt;autoconf&lt;/code&gt; &lt;code&gt;libssl-dev&lt;/code&gt; &lt;code&gt;make&lt;/code&gt; &lt;code&gt;pkg-config&lt;/code&gt;&lt;/li&gt; 
+   &lt;li&gt;Arch Linux: &lt;code&gt;gcc&lt;/code&gt; &lt;code&gt;automake&lt;/code&gt; &lt;code&gt;autoconf&lt;/code&gt; &lt;code&gt;openssl&lt;/code&gt; &lt;code&gt;pkg-config&lt;/code&gt;&lt;/li&gt; 
+   &lt;li&gt;Gentoo Linux: &lt;code&gt;net-dialup/ppp&lt;/code&gt; &lt;code&gt;pkg-config&lt;/code&gt;&lt;/li&gt; 
+   &lt;li&gt;openSUSE: &lt;code&gt;gcc&lt;/code&gt; &lt;code&gt;automake&lt;/code&gt; &lt;code&gt;autoconf&lt;/code&gt; &lt;code&gt;libopenssl-devel&lt;/code&gt; &lt;code&gt;pkg-config&lt;/code&gt;&lt;/li&gt; 
+   &lt;li&gt;macOS (Homebrew): &lt;code&gt;automake&lt;/code&gt; &lt;code&gt;autoconf&lt;/code&gt; &lt;code&gt;openssl@1.1&lt;/code&gt; &lt;code&gt;pkg-config&lt;/code&gt;&lt;/li&gt; 
+   &lt;li&gt;FreeBSD: &lt;code&gt;automake&lt;/code&gt; &lt;code&gt;autoconf&lt;/code&gt; &lt;code&gt;libressl&lt;/code&gt; &lt;code&gt;pkgconf&lt;/code&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;p&gt;On Linux, if you manage your kernel yourself, ensure to compile those modules:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;CONFIG_PPP=m
+CONFIG_PPP_ASYNC=m
+&lt;/code&gt;&lt;/pre&gt; &lt;p&gt;On macOS, install &#39;Homebrew&#39; to install the build dependencies:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;# Install &#39;Homebrew&#39;
+/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+
+# Install Dependencies
+brew install automake autoconf openssl@1.1 pkg-config
+
+# You may need to make this openssl available to compilers and pkg-config
+export LDFLAGS=&quot;-L/usr/local/opt/openssl/lib $LDFLAGS&quot;
+export CPPFLAGS=&quot;-I/usr/local/opt/openssl/include $CPPFLAGS&quot;
+export PKG_CONFIG_PATH=&quot;/usr/local/opt/openssl/lib/pkgconfig:$PKG_CONFIG_PATH&quot;
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Build and install.&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;./autogen.sh
+./configure --prefix=/usr/local --sysconfdir=/etc
+make
+sudo make install
+&lt;/code&gt;&lt;/pre&gt; &lt;p&gt;If targeting platforms with pppd &amp;lt; 2.5.0 such as current version of macOS, we suggest you configure with option --enable-legacy-pppd:&lt;/p&gt; &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;./autogen.sh
+./configure --prefix=/usr/local --sysconfdir=/etc --enable-legacy-pppd
+make
+sudo make install
+&lt;/code&gt;&lt;/pre&gt; &lt;p&gt;If you need to specify the openssl location you can set the &lt;code&gt;$PKG_CONFIG_PATH&lt;/code&gt; environment variable. For fine-tuning check the available configure arguments with &lt;code&gt;./configure --help&lt;/code&gt; especially when you are cross compiling.&lt;/p&gt; &lt;p&gt;Finally, install runtime dependency &lt;code&gt;ppp&lt;/code&gt; or &lt;code&gt;pppd&lt;/code&gt;.&lt;/p&gt; &lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;h2&gt;Running as root?&lt;/h2&gt; 
+&lt;p&gt;openfortivpn needs elevated privileges at three steps during tunnel set up:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;when spawning a &lt;code&gt;/usr/sbin/pppd&lt;/code&gt; process;&lt;/li&gt; 
+ &lt;li&gt;when setting IP routes through VPN (when the tunnel is up);&lt;/li&gt; 
+ &lt;li&gt;when adding nameservers to &lt;code&gt;/etc/resolv.conf&lt;/code&gt; (when the tunnel is up).&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;For these reasons, you need to use &lt;code&gt;sudo openfortivpn&lt;/code&gt;. If you need it to be usable by non-sudoer users, you might consider adding an entry in &lt;code&gt;/etc/sudoers&lt;/code&gt; or a file under &lt;code&gt;/etc/sudoers.d&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;For example:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;visudo -f /etc/sudoers.d/openfortivpn
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Cmnd_Alias  OPENFORTIVPN = /usr/bin/openfortivpn
+
+%adm       ALL = (ALL) OPENFORTIVPN
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Adapt the above example by changing the &lt;code&gt;openfortivpn&lt;/code&gt; path or choosing a group different from &lt;code&gt;adm&lt;/code&gt; - such as a dedicated &lt;code&gt;openfortivpn&lt;/code&gt; group.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Warning&lt;/strong&gt;: Make sure only trusted users can run openfortivpn as root! As described in &lt;a href=&quot;https://github.com/adrienverge/openfortivpn/issues/54&quot;&gt;#54&lt;/a&gt;, a malicious user could use &lt;code&gt;--pppd-plugin&lt;/code&gt; and &lt;code&gt;--pppd-log&lt;/code&gt; options to divert the program&#39;s behaviour.&lt;/p&gt; 
+&lt;h2&gt;SSO/SAML/2FA&lt;/h2&gt; 
+&lt;p&gt;In some cases, the server may require the VPN client to load and interact with a web page containing JavaScript. Depending on the complexity of the web page, interpreting the web page might be beyond the reach of a command line program such as openfortivpn.&lt;/p&gt; 
+&lt;p&gt;In such cases, you may use an external program spawning a full-fledged web browser such as &lt;a href=&quot;https://github.com/gm-vm/openfortivpn-webview&quot;&gt;openfortivpn-webview&lt;/a&gt; to authenticate and retrieve a session cookie. This cookie can be fed to openfortivpn using option &lt;code&gt;--cookie-on-stdin&lt;/code&gt;. Obviously, such a solution requires a graphic session.&lt;/p&gt; 
+&lt;p&gt;When started using &lt;code&gt;--saml-login&lt;/code&gt; the program creates a web server that accepts SAML login requests. To login using SAML you just have to open &lt;code&gt;&amp;lt;your-vpn-domain&amp;gt;/remote/saml/start?redirect=1&lt;/code&gt; and follow the login steps. At the end of the login process the page will be redirected to &lt;code&gt;http://127.0.0.1:8020/?id=&amp;lt;session-id&amp;gt;&lt;/code&gt;&lt;/p&gt; 
+&lt;h2&gt;Contributing&lt;/h2&gt; 
+&lt;p&gt;Feel free to make pull requests!&lt;/p&gt; 
+&lt;p&gt;C coding style should follow the &lt;a href=&quot;https://www.kernel.org/doc/html/latest/process/coding-style.html&quot;&gt;Linux kernel coding style&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>glpi-project/glpi-agent</title>
+      <link>https://github.com/glpi-project/glpi-agent</link>
+      <description>&lt;p&gt;GLPI Agent&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;&lt;img src=&quot;https://raw.githubusercontent.com/glpi-project/glpi-agent/develop/share/html/logo.png&quot; alt=&quot;GLPI Agent&quot; width=&quot;32&quot; height=&quot;32&quot;&gt; GLPI Agent&lt;/h1&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/glpi-project/glpi-agent/actions/workflows/glpi-agent-ci.yml&quot;&gt;&lt;img src=&quot;https://github.com/glpi-project/glpi-agent/actions/workflows/glpi-agent-ci.yml/badge.svg?sanitize=true&quot; alt=&quot;GLPI Agent CI&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/glpi-project/glpi-agent/actions/workflows/glpi-agent-packaging.yml&quot;&gt;&lt;img src=&quot;https://github.com/glpi-project/glpi-agent/actions/workflows/glpi-agent-packaging.yml/badge.svg?sanitize=true&quot; alt=&quot;GLPI Agent Packaging&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://raw.githubusercontent.com/glpi-project/glpi-agent/develop/#download&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/downloads/glpi-project/glpi-agent/total.svg?sanitize=true&quot; alt=&quot;Github All Releases&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://twitter.com/GLPI_PROJECT&quot;&gt;&lt;img src=&quot;https://img.shields.io/twitter/follow/GLPI_PROJECT.svg?style=social&amp;amp;label=Follow&quot; alt=&quot;Twitter Follow&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Summary&lt;/h2&gt; 
+&lt;p&gt;The GLPI Agent is a generic management agent. It can perform a certain number of tasks, according to its own execution plan, or on behalf of a GLPI server acting as a control point.&lt;/p&gt; 
+&lt;h2&gt;Description&lt;/h2&gt; 
+&lt;p&gt;This agent is based on a fork of &lt;a href=&quot;https://github.com/fusioninventory/fusioninventory-agent&quot;&gt;FusionInventory agent&lt;/a&gt; and so works mainly like FusionInventory agent. It introduces new features and a new protocol to communicate directly with a GLPI server and its native inventory feature. Anyway it also keeps the compatibility with &lt;a href=&quot;https://github.com/fusioninventory/fusioninventory-for-glpi&quot;&gt;FusionInventory for GLPI plugin&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Download&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Release: See &lt;a href=&quot;https://github.com/glpi-project/glpi-agent/releases&quot;&gt;our github releases&lt;/a&gt; for official win32, MacOSX &amp;amp; linux packages.&lt;/li&gt; 
+ &lt;li&gt;Development builds: 
+  &lt;ul&gt; 
+   &lt;li&gt;nightly builds for last &#39;develop&#39; branch commits: &lt;a href=&quot;http://nightly.glpi-project.org/glpi-agent&quot;&gt;GLPI-Agent nightly builds&lt;/a&gt;&lt;/li&gt; 
+   &lt;li&gt;with a github account, you can also access artifacts for any other branches supporting &lt;a href=&quot;https://github.com/glpi-project/glpi-agent/actions/workflows/glpi-agent-packaging.yml?query=is%3Asuccess+event%3Apush+-branch%3Adevelop&quot;&gt;&quot;GLPI Agent Packaging&quot; workflow&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Documentation&lt;/h2&gt; 
+&lt;p&gt;The GLPI Agent has its &lt;a href=&quot;https://github.com/glpi-project/doc-agent&quot;&gt;dedicated documentation project&lt;/a&gt; where any contribution will also be appreciated.&lt;/p&gt; 
+&lt;p&gt;The documentation itself is &lt;a href=&quot;https://glpi-agent.readthedocs.io/&quot;&gt;readable online&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://glpi-agent.readthedocs.io/en/latest/?badge=latest&quot;&gt;&lt;img src=&quot;https://readthedocs.org/projects/glpi-agent/badge/?version=latest&quot; alt=&quot;Documentation Status&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Dependencies&lt;/h2&gt; 
+&lt;h3&gt;Core&lt;/h3&gt; 
+&lt;p&gt;Minimum perl version: 5.8&lt;/p&gt; 
+&lt;p&gt;Mandatory Perl modules:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;File::Which&lt;/li&gt; 
+ &lt;li&gt;LWP::UserAgent&lt;/li&gt; 
+ &lt;li&gt;Net::IP&lt;/li&gt; 
+ &lt;li&gt;Text::Template&lt;/li&gt; 
+ &lt;li&gt;UNIVERSAL::require&lt;/li&gt; 
+ &lt;li&gt;XML::LibXML&lt;/li&gt; 
+ &lt;li&gt;Cpanel::JSON::XS&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Optional Perl modules:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Compress::Zlib, for message compression&lt;/li&gt; 
+ &lt;li&gt;HTTP::Daemon, for web interface&lt;/li&gt; 
+ &lt;li&gt;IO::Socket::SSL, for HTTPS support&lt;/li&gt; 
+ &lt;li&gt;LWP::Protocol::https, for HTTPS support&lt;/li&gt; 
+ &lt;li&gt;Proc::Daemon, for daemon mode (Unix only)&lt;/li&gt; 
+ &lt;li&gt;Proc::PID::File, for daemon mode (Unix only)&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Inventory task&lt;/h3&gt; 
+&lt;p&gt;Optional Perl modules:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Net::CUPS, for printers detection&lt;/li&gt; 
+ &lt;li&gt;Parse::EDID, for EDID data parsing&lt;/li&gt; 
+ &lt;li&gt;DateTime, for reliable timezone name extraction&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Optional programs:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;dmidecode, for DMI data retrieval&lt;/li&gt; 
+ &lt;li&gt;lspci, for PCI bus scanning&lt;/li&gt; 
+ &lt;li&gt;hdparm, for additional disk drive info retrieval&lt;/li&gt; 
+ &lt;li&gt;monitor-get-edid-using-vbe, monitor-get-edid or get-edid, for EDID data access&lt;/li&gt; 
+ &lt;li&gt;ssh-keyscan, for host SSH public key retrieval&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Network discovery tasks&lt;/h3&gt; 
+&lt;p&gt;Mandatory Perl modules:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Thread::Queue&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Optional Perl modules:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Net::NBName, for NetBios method support&lt;/li&gt; 
+ &lt;li&gt;Net::SNMP, for SNMP method support&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Optional programs:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;arp, for arp table lookup method support&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Network inventory tasks&lt;/h3&gt; 
+&lt;p&gt;Mandatory Perl modules:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Net::SNMP&lt;/li&gt; 
+ &lt;li&gt;Thread::Queue&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Optional Perl modules:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Crypt::DES, for SNMPv3 support&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Wake on LAN task&lt;/h3&gt; 
+&lt;p&gt;Optional Perl modules:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Net::Write::Layer2, for ethernet method support&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Deploy task&lt;/h3&gt; 
+&lt;p&gt;Mandatory Perl modules:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Digest::SHA&lt;/li&gt; 
+ &lt;li&gt;File::Copy::Recursive&lt;/li&gt; 
+ &lt;li&gt;Cpanel::JSON::XS&lt;/li&gt; 
+ &lt;li&gt;URI::Escape&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Mandatory Perl modules for P2P Support:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Net::Ping&lt;/li&gt; 
+ &lt;li&gt;Parallel::ForkManager&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;MSI Packaging&lt;/h3&gt; 
+&lt;p&gt;Tools:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/glpi-project/dmidecode&quot;&gt;dmidecode&lt;/a&gt; modified to be built with mingw32&lt;/li&gt; 
+ &lt;li&gt;hdparm&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://www.7-zip.org/&quot;&gt;7zip&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Mandatory Perl modules:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Perl::Dist::Strawberry&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;MacOSX Packaging&lt;/h3&gt; 
+&lt;p&gt;Tools:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/glpi-project/dmidecode/tree/macosx&quot;&gt;dmidecode&lt;/a&gt; modified to be built on macosx&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/munki/munki-pkg&quot;&gt;munkipkg&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;Xcode&lt;/li&gt; 
+ &lt;li&gt;productbuild&lt;/li&gt; 
+ &lt;li&gt;hdiutil&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Public databases&lt;/h3&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Pci.ids&lt;/li&gt; 
+ &lt;li&gt;Usb.ids&lt;/li&gt; 
+ &lt;li&gt;SysObject.ids: &lt;a href=&quot;https://github.com/glpi-project/sysobject.ids&quot;&gt;sysobject.ids&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Related contribs&lt;/h2&gt; 
+&lt;p&gt;See &lt;a href=&quot;https://raw.githubusercontent.com/glpi-project/glpi-agent/develop/CONTRIB.md&quot;&gt;CONTRIB&lt;/a&gt; to find references to GLPI Agent related scritps/files&lt;/p&gt; 
+&lt;h2&gt;Contacts&lt;/h2&gt; 
+&lt;p&gt;Project websites:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;main site: &lt;a href=&quot;https://glpi-project.org/&quot;&gt;https://glpi-project.org/&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;forum: &lt;a href=&quot;https://forum.glpi-project.org/&quot;&gt;https://forum.glpi-project.org/&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;github: &lt;a href=&quot;http://github.com/glpi-project/glpi-agent&quot;&gt;http://github.com/glpi-project/glpi-agent&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Project Telegram channel:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://t.me/glpien&quot;&gt;https://t.me/glpien&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Please report any issues on project &lt;a href=&quot;https://github.com/glpi-project/glpi-agent/issues&quot;&gt;github issue tracker&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Active authors&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Guillaume Bougard &lt;a href=&quot;mailto:gbougard@teclib.com&quot;&gt;gbougard@teclib.com&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Copyright 2006-2010 &lt;a href=&quot;https://www.ocsinventory-ng.org/&quot;&gt;OCS Inventory contributors&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Copyright 2010-2019 &lt;a href=&quot;https://fusioninventory.org&quot;&gt;FusionInventory Team&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Copyright 2011-2021 &lt;a href=&quot;https://www.teclib-edition.com/&quot;&gt;Teclib Editions&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;License&lt;/h2&gt; 
+&lt;p&gt;&lt;a href=&quot;https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-GPL%20v2-blue.svg?sanitize=true&quot; alt=&quot;License: GPL v2&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;This software is licensed under the terms of GPLv2+, see LICENSE file for details.&lt;/p&gt; 
+&lt;h2&gt;Additional pieces of software&lt;/h2&gt; 
+&lt;p&gt;The glpi-injector script is based on fusioninventory-injector script:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;author: Pascal Danek&lt;/li&gt; 
+ &lt;li&gt;copyright: 2005 Pascal Danek&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;GLPI::Agent::Task::Inventory::Vmsystem contains code from imvirt:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;url: &lt;a href=&quot;http://micky.ibh.net/~liske/imvirt.html&quot;&gt;http://micky.ibh.net/~liske/imvirt.html&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;author: Thomas Liske &lt;a href=&quot;mailto:liske@ibh.de&quot;&gt;liske@ibh.de&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;copyright: 2008 IBH IT-Service GmbH &lt;a href=&quot;http://www.ibh.de/&quot;&gt;http://www.ibh.de/&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;License: GPLv2+&lt;/li&gt; 
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>yaml/yaml-test-suite</title>
+      <link>https://github.com/yaml/yaml-test-suite</link>
+      <description>&lt;p&gt;Comprehensive, language independent Test Suite for YAML&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;YAML Test Suite&lt;/h1&gt; 
+&lt;p&gt;Comprehensive Test Suite for YAML&lt;/p&gt; 
+&lt;h2&gt;Overview&lt;/h2&gt; 
+&lt;p&gt;This repository contains data for testing the correctness of YAML processors.&lt;/p&gt; 
+&lt;p&gt;The types of data include:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Metadata about the test 
+  &lt;ul&gt; 
+   &lt;li&gt;Name (short phrase)&lt;/li&gt; 
+   &lt;li&gt;Tags&lt;/li&gt; 
+   &lt;li&gt;Description&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;Input YAML&lt;/li&gt; 
+ &lt;li&gt;Canonical output YAML&lt;/li&gt; 
+ &lt;li&gt;Matching JSON&lt;/li&gt; 
+ &lt;li&gt;Token stream notation&lt;/li&gt; 
+ &lt;li&gt;Event stream notation&lt;/li&gt; 
+ &lt;li&gt;Error data&lt;/li&gt; 
+ &lt;li&gt;etc&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;To get a quick overview of the tests you can have a look at the &lt;a href=&quot;http://matrix.yaml.info/&quot;&gt;YAML Test Matrix&lt;/a&gt;, made from &lt;a href=&quot;https://github.com/perlpunk/yaml-test-matrix&quot;&gt;https://github.com/perlpunk/yaml-test-matrix&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;You can also view the latest test results from 15 different parsers in &lt;a href=&quot;https://tinyurl.com/2p97ah8a&quot;&gt;this Google sheet&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Usage&lt;/h2&gt; 
+&lt;p&gt;The tests are available in 2 forms. Files in the &lt;code&gt;src&lt;/code&gt; directory encode all the data for YAML using YAML. The data from these tests is also available in a form where each test has its own directory.&lt;/p&gt; 
+&lt;p&gt;For that, use the latest data release under &lt;a href=&quot;https://github.com/yaml/yaml-test-suite/releases&quot;&gt;https://github.com/yaml/yaml-test-suite/releases&lt;/a&gt;:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/yaml/yaml-test-suite -b data-YYYY-MM-DD
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;There are tests which have multiple similar subtests. Those subtests are in their own numeric directories under the parent id, e.g.:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;VJP3/
+VJP3/00
+VJP3/00/===
+VJP3/00/error
+VJP3/00/in.yaml
+VJP3/00/test.event
+VJP3/01
+...
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;The releases are made from the &lt;code&gt;data&lt;/code&gt; branch, which is made from the data in the YAML in the &lt;code&gt;main&lt;/code&gt; branch. You shouldn&#39;t use the data branch directly as the branch contains unreleased commits which might be wrong, and it is squashed and force pushed from time to time.&lt;/p&gt; 
+&lt;h3&gt;Special Characters&lt;/h3&gt; 
+&lt;p&gt;The YAML files use a number of non-ascii unicode characters to indicate the presence of certain characters that would be otherwise hard to read.&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;code&gt;␣&lt;/code&gt; is used for trailing space characters&lt;/li&gt; 
+ &lt;li&gt;Hard tabs are reresented by one of: (expanding to 4 spaces) 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;code&gt;———»&lt;/code&gt;&lt;/li&gt; 
+   &lt;li&gt;&lt;code&gt;——»&lt;/code&gt;&lt;/li&gt; 
+   &lt;li&gt;&lt;code&gt;—»&lt;/code&gt;&lt;/li&gt; 
+   &lt;li&gt;&lt;code&gt;»&lt;/code&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;↵&lt;/code&gt; us used to show trailing newline characters&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;∎&lt;/code&gt; is used at the end when there is no final newline character&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;←&lt;/code&gt; indicates a carriage return character&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;⇔&lt;/code&gt; indicates a byte order mark (BOM) character&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Also these are used in test event output:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;code&gt;&amp;lt;SPC&amp;gt;&lt;/code&gt; for a space character&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;&amp;lt;TAB&amp;gt;&lt;/code&gt; for a tab character&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;The &lt;code&gt;data&lt;/code&gt; branch files&lt;/h2&gt; 
+&lt;p&gt;The YAML test files in the &lt;code&gt;src/&lt;/code&gt; dir are turned into data files in the &lt;code&gt;data&lt;/code&gt; branch. The &lt;code&gt;make data-update&lt;/code&gt; command generates the &lt;code&gt;data&lt;/code&gt; branch files under the &lt;code&gt;./data/&lt;/code&gt; directory. For instance, a file &lt;code&gt;src/AB3D.yaml&lt;/code&gt; will generate a &lt;code&gt;data/AB3D/&lt;/code&gt; directory.&lt;/p&gt; 
+&lt;p&gt;A YAML test file can have 1 or more tests. Originally each file had one test, and all the data files were under &lt;code&gt;data/AB3D/&lt;/code&gt;. If a YAML test file has more than one test, subdirectories are created: &lt;code&gt;data/AB3D/00/&lt;/code&gt;, &lt;code&gt;data/AB3D/01/&lt;/code&gt;, &lt;code&gt;data/AB3D/02/&lt;/code&gt;, etc.&lt;/p&gt; 
+&lt;p&gt;The test files are:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;code&gt;===&lt;/code&gt; -- The name/label of the test&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;in.yaml&lt;/code&gt; -- The YAML input to be parsed or loaded&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;test.event&lt;/code&gt; -- The event DSL produced by the parser test program&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;in.json&lt;/code&gt; -- The JSON value that shoiuld load the same as &lt;code&gt;in.yaml&lt;/code&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;out.yaml&lt;/code&gt; -- The most normal output a dumper would produce&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;error&lt;/code&gt; -- This file indicates the YAML should fail to parse&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;emit.yaml&lt;/code&gt; -- Output an emitter would produce&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Makefile Targets&lt;/h2&gt; 
+&lt;p&gt;The Makefile has a number of targets for automating the process of adding new tests and also preprocessing them into the &lt;code&gt;data&lt;/code&gt; branch.&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;code&gt;make data&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Create a &lt;code&gt;data&lt;/code&gt; worktree subdirectory with all the tests as data files.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;code&gt;make data-update&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Update the &lt;code&gt;data&lt;/code&gt; branch directory with the latest info in the &lt;code&gt;src&lt;/code&gt; directory.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;code&gt;make export&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Creates an &lt;code&gt;export.tsv&lt;/code&gt; file with all the data from the &lt;code&gt;src&lt;/code&gt; test files. This tsv data can be copied into a google spreadsheet. The &lt;a href=&quot;https://play.yaml.io/main/parser&quot;&gt;YAML parser playground&lt;/a&gt; has a button to copy a test to the same tsv form.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;code&gt;make import&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Make a directory called &lt;code&gt;new&lt;/code&gt; from a file named &lt;code&gt;import.tsv&lt;/code&gt;. The &lt;code&gt;import.tsv&lt;/code&gt; file should have data copied from a google spreadsheet.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;code&gt;make add-new&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Copy the new tests under &lt;code&gt;new/&lt;/code&gt; into &lt;code&gt;src/&lt;/code&gt; to make a PR for new tests.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;code&gt;make testml&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Generate &lt;code&gt;.tml&lt;/code&gt; files under a &lt;code&gt;testml/&lt;/code&gt; directory for all the suite tests.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;code&gt;make clean&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Remove generated files and directories.&lt;/p&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Libaries using this test suite&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;C 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/yaml/libyaml&quot;&gt;libyaml&lt;/a&gt;&lt;/li&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/pantoniou/libfyaml&quot;&gt;libfyaml&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;C++ 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/biojppm/rapidyaml&quot;&gt;rapidyaml&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;C# 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/aaubry/YamlDotNet&quot;&gt;YamlDotNet&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;D 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/dlang-community/D-YAML&quot;&gt;dyaml&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;Delphi 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/neslib/Neslib.Yaml&quot;&gt;Neslib.Yaml&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;Haskell 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/haskell-hvr/HsYAML&quot;&gt;HsYAML&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;Java 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/asomov/snakeyaml-engine&quot;&gt;SnakeYAML Engine&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;Javascript 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/eemeli/yaml&quot;&gt;yaml&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;Nim 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/flyx/NimYAML&quot;&gt;NimYAML&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;Perl 5 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/perlpunk/YAML-PP-p5&quot;&gt;YAML::PP&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;Scala 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;a href=&quot;https://github.com/VirtusLab/scala-yaml&quot;&gt;Scala-Yaml&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;If your library is using the test suite, drop us a line and we can add it here. It would also be nice if you could add a link back to this test suite.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>so-fancy/diff-so-fancy</title>
+      <link>https://github.com/so-fancy/diff-so-fancy</link>
+      <description>&lt;p&gt;Good-lookin&#39; diffs. Actually… nah… The best-lookin&#39; diffs. 🎉&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;diff-so-fancy &lt;a href=&quot;https://circleci.com/gh/so-fancy/diff-so-fancy&quot;&gt;&lt;img src=&quot;https://circleci.com/gh/so-fancy/diff-so-fancy.svg?style=shield&quot; alt=&quot;Circle CI build&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://travis-ci.org/so-fancy/diff-so-fancy&quot;&gt;&lt;img src=&quot;https://travis-ci.org/so-fancy/diff-so-fancy.svg?branch=master&quot; alt=&quot;TravisCI build&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://ci.appveyor.com/project/stevemao/diff-so-fancy/branch/master&quot;&gt;&lt;img src=&quot;https://ci.appveyor.com/api/projects/status/github/so-fancy/diff-so-fancy?branch=master&amp;amp;svg=true&quot; alt=&quot;AppVeyor build&quot;&gt;&lt;/a&gt;&lt;/h1&gt; 
+&lt;p&gt;&lt;code&gt;diff-so-fancy&lt;/code&gt; strives to make your diffs &lt;strong&gt;human&lt;/strong&gt; readable instead of machine readable. This helps improve code quality and helps you spot defects faster.&lt;/p&gt; 
+&lt;h2&gt;Screenshot&lt;/h2&gt; 
+&lt;p&gt;Vanilla &lt;code&gt;git diff&lt;/code&gt; vs &lt;code&gt;git&lt;/code&gt; and &lt;code&gt;diff-so-fancy&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/so-fancy/diff-so-fancy/next/diff-so-fancy.png&quot; alt=&quot;diff-highlight vs diff-so-fancy&quot;&gt;&lt;/p&gt; 
+&lt;h2&gt;Install&lt;/h2&gt; 
+&lt;p&gt;Simply copy the &lt;code&gt;diff-so-fancy&lt;/code&gt; script from the latest release into your &lt;code&gt;$PATH&lt;/code&gt; and you&#39;re done. Alternately to test development features you can clone this repo and then put the &lt;code&gt;diff-so-fancy&lt;/code&gt; script (symlink will work) into your &lt;code&gt;$PATH&lt;/code&gt;. The &lt;code&gt;lib/&lt;/code&gt; directory will need to be kept relative to the core script.&lt;/p&gt; 
+&lt;p&gt;If you are using a ZSH framework like &lt;a href=&quot;https://github.com/jandamm/zgenom&quot;&gt;zgenom&lt;/a&gt; or &lt;a href=&quot;https://ohmyz.sh&quot;&gt;oh-my-zsh&lt;/a&gt;, refer to &lt;a href=&quot;https://raw.githubusercontent.com/so-fancy/diff-so-fancy/next/pro-tips.md&quot;&gt;Zsh plugin support for diff-so-fancy&lt;/a&gt; for detailed installation instructions.&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;diff-so-fancy&lt;/code&gt; is also available from the &lt;a href=&quot;https://www.npmjs.com/package/diff-so-fancy&quot;&gt;NPM registry&lt;/a&gt;, &lt;a href=&quot;https://formulae.brew.sh/formula/diff-so-fancy&quot;&gt;brew&lt;/a&gt;, as a package on &lt;a href=&quot;https://github.com/NixOS/nixpkgs/raw/master/pkgs/applications/version-management/diff-so-fancy/default.nix&quot;&gt;Nix&lt;/a&gt;, &lt;a href=&quot;https://packages.fedoraproject.org/pkgs/diff-so-fancy/diff-so-fancy/&quot;&gt;Fedora&lt;/a&gt;, in the &lt;a href=&quot;https://archlinux.org/packages/extra/any/diff-so-fancy/&quot;&gt;Arch extra repo&lt;/a&gt;, and as &lt;a href=&quot;https://github.com/aos/dsf-debian&quot;&gt;ppa:aos for Debian/Ubuntu Linux&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;Issues relating to packaging (&#39;installation does not work&#39;, &#39;version is out of date&#39;, etc.) should be directed to those packages&#39; own repositories/issue trackers where applicable. Issues relating to packaging (&quot;installation does not work&quot;, &quot;version is out of date&quot;, etc.) should be directed to those packages&#39; repositories/issue trackers where applicable.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Windows users may need to install &lt;a href=&quot;https://sourceforge.net/projects/mingw/files/&quot;&gt;MinGW&lt;/a&gt; or the &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/install-win10&quot;&gt;Windows subsystem for Linux&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Usage&lt;/h2&gt; 
+&lt;h3&gt;With git&lt;/h3&gt; 
+&lt;p&gt;Configure git to use &lt;code&gt;diff-so-fancy&lt;/code&gt; for all diff output:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;git config --global core.pager &quot;diff-so-fancy | less --tabs=4 -RF&quot;
+git config --global interactive.diffFilter &quot;diff-so-fancy --patch&quot;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Improved colors for the highlighted bits&lt;/h3&gt; 
+&lt;p&gt;The default Git colors are not optimal. The colors used for the screenshot above were:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;git config --global color.ui true
+
+git config --global color.diff-highlight.oldNormal    &quot;red bold&quot;
+git config --global color.diff-highlight.oldHighlight &quot;red bold 52&quot;
+git config --global color.diff-highlight.newNormal    &quot;green bold&quot;
+git config --global color.diff-highlight.newHighlight &quot;green bold 22&quot;
+
+git config --global color.diff.meta       &quot;11&quot;
+git config --global color.diff.frag       &quot;magenta bold&quot;
+git config --global color.diff.func       &quot;146 bold&quot;
+git config --global color.diff.commit     &quot;yellow bold&quot;
+git config --global color.diff.old        &quot;red bold&quot;
+git config --global color.diff.new        &quot;green bold&quot;
+git config --global color.diff.whitespace &quot;red reverse&quot;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;With diff&lt;/h3&gt; 
+&lt;p&gt;Use &lt;code&gt;-u&lt;/code&gt; with &lt;code&gt;diff&lt;/code&gt; for unified output, and pipe the output to &lt;code&gt;diff-so-fancy&lt;/code&gt;:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;diff -u file_a file_b | diff-so-fancy
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;It also supports the recursive mode of diff with &lt;code&gt;-r&lt;/code&gt; or &lt;code&gt;--recursive&lt;/code&gt; as &lt;strong&gt;first argument&lt;/strong&gt;&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;diff -r -u folder_a folder_b | diff-so-fancy
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;diff --recursive -u folder_a folder_b | diff-so-fancy
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Options&lt;/h2&gt; 
+&lt;h3&gt;markEmptyLines&lt;/h3&gt; 
+&lt;p&gt;Should the first block of an empty line be colored. (Default: true)&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;git config --bool --global diff-so-fancy.markEmptyLines false
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;changeHunkIndicators&lt;/h3&gt; 
+&lt;p&gt;Simplify git header chunks to a more human readable format. (Default: true)&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;git config --bool --global diff-so-fancy.changeHunkIndicators false
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;stripLeadingSymbols&lt;/h3&gt; 
+&lt;p&gt;Should the pesky &lt;code&gt;+&lt;/code&gt; or &lt;code&gt;-&lt;/code&gt; at line-start be removed. (Default: true)&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;git config --bool --global diff-so-fancy.stripLeadingSymbols false
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;useUnicodeRuler&lt;/h3&gt; 
+&lt;p&gt;By default, the separator for the file header uses Unicode line-drawing characters. If this is causing output errors on your terminal, set this to &lt;code&gt;false&lt;/code&gt; to use ASCII characters instead. (Default: true)&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;git config --bool --global diff-so-fancy.useUnicodeRuler false
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;rulerWidth&lt;/h3&gt; 
+&lt;p&gt;By default, the separator for the file header spans the full width of the terminal. Use this setting to set the width of the file header manually.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;git config --global diff-so-fancy.rulerWidth 80
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;The diff-so-fancy team&lt;/h2&gt; 
+&lt;table&gt; 
+ &lt;thead&gt; 
+  &lt;tr&gt; 
+   &lt;th&gt;Person&lt;/th&gt; 
+   &lt;th&gt;Role&lt;/th&gt; 
+  &lt;/tr&gt; 
+ &lt;/thead&gt; 
+ &lt;tbody&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;@scottchiefbaker&lt;/td&gt; 
+   &lt;td&gt;Project lead&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;@OJFord&lt;/td&gt; 
+   &lt;td&gt;Bug triage&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;@GenieTim&lt;/td&gt; 
+   &lt;td&gt;Travis OSX fixes&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;@AOS&lt;/td&gt; 
+   &lt;td&gt;Debian packager&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;@Stevemao/@Paul Irish&lt;/td&gt; 
+   &lt;td&gt;NPM release team&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/tbody&gt; 
+&lt;/table&gt; 
+&lt;h2&gt;Contributing&lt;/h2&gt; 
+&lt;p&gt;Pull requests are quite welcome, and should target the &lt;a href=&quot;https://github.com/so-fancy/diff-so-fancy/tree/next&quot;&gt;&lt;code&gt;next&lt;/code&gt; branch&lt;/a&gt;. We are also looking for any feedback or ideas on how to make &lt;code&gt;diff-so-fancy&lt;/code&gt; even &lt;em&gt;fancier&lt;/em&gt;.&lt;/p&gt; 
+&lt;h3&gt;Other documentation&lt;/h3&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/so-fancy/diff-so-fancy/next/pro-tips.md&quot;&gt;Pro-tips on advanced usage&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/so-fancy/diff-so-fancy/next/reporting-bugs.md&quot;&gt;Reporting Bugs&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/so-fancy/diff-so-fancy/next/hacking-and-testing.md&quot;&gt;Hacking and Testing&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/so-fancy/diff-so-fancy/next/history.md&quot;&gt;History&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Alternatives&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/dandavison/delta&quot;&gt;Delta&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/jesseduffield/lazygit&quot;&gt;Lazygit&lt;/a&gt; with diff-so-fancy &lt;a href=&quot;https://github.com/jesseduffield/lazygit/raw/master/docs/Custom_Pagers.md#diff-so-fancy&quot;&gt;integration&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;License&lt;/h2&gt; 
+&lt;p&gt;MIT&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FelixKrueger/TrimGalore</title>
+      <link>https://github.com/FelixKrueger/TrimGalore</link>
+      <description>&lt;p&gt;A wrapper around Cutadapt and FastQC to consistently apply adapter and quality trimming to FastQ files, with extra functionality for RRBS data&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;Trim Galore&lt;/h1&gt; 
+&lt;p&gt;&lt;em&gt;Trim Galore&lt;/em&gt; is a wrapper around &lt;a href=&quot;https://github.com/marcelm/cutadapt&quot;&gt;Cutadapt&lt;/a&gt; and &lt;a href=&quot;http://www.bioinformatics.babraham.ac.uk/projects/fastqc/&quot;&gt;FastQC&lt;/a&gt; to consistently apply adapter and quality trimming to FastQ files, with extra functionality for RRBS data.&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://zenodo.org/badge/latestdoi/62039322&quot;&gt;&lt;img src=&quot;https://zenodo.org/badge/62039322.svg?sanitize=true&quot; alt=&quot;DOI&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://travis-ci.org/FelixKrueger/TrimGalore&quot;&gt;&lt;img src=&quot;https://travis-ci.org/FelixKrueger/TrimGalore.svg?branch=master&quot; alt=&quot;Build Status&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://bioconda.github.io/recipes/trim-galore/README.html&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?sanitize=true&quot; alt=&quot;install with bioconda&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://quay.io/repository/biocontainers/trim-galore&quot;&gt;&lt;img src=&quot;https://quay.io/repository/biocontainers/trim-galore/status&quot; alt=&quot;container ready&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;p&gt;&lt;em&gt;Trim Galore&lt;/em&gt; is a a Perl wrapper around two tools: &lt;a href=&quot;https://github.com/marcelm/cutadapt&quot;&gt;Cutadapt&lt;/a&gt; and &lt;a href=&quot;http://www.bioinformatics.babraham.ac.uk/projects/fastqc/&quot;&gt;FastQC&lt;/a&gt;. To use, ensure that these two pieces of software are available and copy the &lt;code&gt;trim_galore&lt;/code&gt; script to a location available on the &lt;code&gt;PATH&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;For example:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;# Check that cutadapt is installed
+cutadapt --version
+# Check that FastQC is installed
+fastqc -v
+# Install Trim Galore
+curl -fsSL https://github.com/FelixKrueger/TrimGalore/archive/0.6.10.tar.gz -o trim_galore.tar.gz
+tar xvzf trim_galore.tar.gz
+# Run Trim Galore
+~/TrimGalore-0.6.10/trim_galore
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;If you are using Bioconda:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;conda install trim-galore
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Documentation&lt;/h2&gt; 
+&lt;p&gt;For instructions on how to use &lt;em&gt;Trim Galore&lt;/em&gt;, please see the &lt;a href=&quot;https://raw.githubusercontent.com/FelixKrueger/TrimGalore/master/Docs/Trim_Galore_User_Guide.md&quot;&gt;User Guide&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Credits&lt;/h2&gt; 
+&lt;p&gt;&lt;em&gt;Trim Galore&lt;/em&gt; was developed at The Babraham Institute by &lt;a href=&quot;https://github.com/FelixKrueger/&quot;&gt;@FelixKrueger&lt;/a&gt;, now part of &lt;a href=&quot;https://altoslabs.com/&quot;&gt;Altos Labs&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>linux-test-project/lcov</title>
+      <link>https://github.com/linux-test-project/lcov</link>
+      <description>&lt;p&gt;LCOV&lt;/p&gt;&lt;hr&gt;&lt;hr&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;README file for the LTP GCOV extension (LCOV) -&lt;/li&gt; 
+ &lt;li&gt;Last changes: 2024-12-25&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;hr&gt; 
+&lt;h2&gt;Description&lt;/h2&gt; 
+&lt;p&gt;LCOV is a tool to manipulate and display information about what parts of a program are actually executed (i.e. &quot;covered&quot;) while running a particular test case or set of testcases. LCOV consists of a set of Perl scripts which build on the text output of various coverage tools - e.g., gcov, llvm-cov, Coverage.py, Cobertura, Devel::Cover, Jacoco, etc. - to implement the following enhanced functionality:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;* HTML based output: coverage rates are indicated using bar
+  graphs and specific colors in a hyperlinked coverage report, intended
+  to enable the user to quickly diagnose and address coverage issues.
+
+* Support for large projects: overview pages allow quick browsing of
+  coverage data by providing a hierarchical directory structure
+  view, a flat list of all source files in the project, or a three-level
+  detail view: directory, file and source code view.
+
+* Support for multiple languages - including C/C++, Perl, and Python.
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;LCOV was initially designed to support Linux kernel coverage measurements, but works as well for coverage measurements on standard user space applications.&lt;/p&gt; 
+&lt;p&gt;LCOV supports differential coverage, as well as date- and owner-binning. See: &lt;a href=&quot;https://arxiv.org/abs/2008.07947&quot;&gt;https://arxiv.org/abs/2008.07947&lt;/a&gt; or &lt;a href=&quot;https://ieeexplore.ieee.org/document/9438597&quot;&gt;https://ieeexplore.ieee.org/document/9438597&lt;/a&gt; for a detailed explanation of the concepts and several possible use models.&lt;/p&gt; 
+&lt;p&gt;A video presentation of the basic ideas can be found at &lt;a href=&quot;http://doi.org/10.5281/zenodo.4653252&quot;&gt;http://doi.org/10.5281/zenodo.4653252&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;In addition, several other features and capabilities are available. See section 6, below, for a brief description - and also see the man pages and the test cases.&lt;/p&gt; 
+&lt;h2&gt;Further README contents&lt;/h2&gt; 
+&lt;ol&gt; 
+ &lt;li&gt; &lt;p&gt;Included files&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Installing LCOV&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Dependencies&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;An example of how to access kernel coverage data&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;An example of how to access coverage data for a user space program&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;LCOV features&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Questions and Comments&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Filing a new issue&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;Important files&lt;/p&gt; &lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;hr&gt; 
+&lt;p&gt;README - This README file CHANGES - List of changes between releases bin/lcov - Tool for capturing LCOV coverage data bin/genhtml - Tool for creating HTML output from LCOV data bin/gendesc - Tool for creating description files as used by genhtml bin/perl2lcov - Tool to translate Perl Devel::Cover data to lcov format bin/llvm2lcov - Tool to translate LLVM &#39;llvm-cov&#39; JSON data to LCOV format bin/py2lcov - Tool to translate Python Coverage.py to lcov format bin/xml2lcov - Tool to translate Cobertura-like XML coverage data to lcov format bin/geninfo - Internal tool (creates LCOV data files) bin/genpng - Internal tool (creates png overviews of source files) lcovrc - LCOV configuration file man - Directory containing man pages for included tools example - Directory containing an example to demonstrate LCOV tests - Directory containing lcov regression tests Makefile - Makefile providing &#39;install&#39; and &#39;uninstall&#39; targets&lt;/p&gt; 
+&lt;ol start=&quot;2&quot;&gt; 
+ &lt;li&gt;Installing LCOV&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;hr&gt; 
+&lt;p&gt;The LCOV package is available as either RPM or tarball from:&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/linux-test-project/lcov/releases&quot;&gt;https://github.com/linux-test-project/lcov/releases&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;To install the tarball, unpack it to a directory and run:&lt;/p&gt; 
+&lt;p&gt;make install&lt;/p&gt; 
+&lt;p&gt;Use Git for the most recent (but possibly unstable) version:&lt;/p&gt; 
+&lt;p&gt;git clone &lt;a href=&quot;https://github.com/linux-test-project/lcov.git&quot;&gt;https://github.com/linux-test-project/lcov.git&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Change to the resulting lcov directory and type:&lt;/p&gt; 
+&lt;p&gt;make install&lt;/p&gt; 
+&lt;p&gt;The default install location is /usr/local. Note that you may need to have superuser permissions to write into system directories.&lt;/p&gt; 
+&lt;p&gt;To install in a different location - for example, your home directory, run:&lt;/p&gt; 
+&lt;p&gt;make PREFIX=$HOME/my_lcov install&lt;/p&gt; 
+&lt;p&gt;your PREFIX should be an absolute path.&lt;/p&gt; 
+&lt;p&gt;To run the LCOV regression test suite on your installation:&lt;/p&gt; 
+&lt;p&gt;$ cp -r $LCOV_HOME/share/test path/to/myTestDir $ cd path/to/myTestDir $ make [COVERAGE=1]&lt;/p&gt; 
+&lt;p&gt;If desired, you can collect coverage data for the LCOV module by setting the COVERAGE makefile variable. Note that the Devel::Cover package must be installed if COVERAGE is enabled or if you want to use the perl2lcov utility. To view the collected coverage information, point your browser to .../lcov_coverage/index.html after running the tests.&lt;/p&gt; 
+&lt;p&gt;Note that the testcases are primarily intended to test LCOV functionality and not to be easily readable tutorial examples.&lt;/p&gt; 
+&lt;ol start=&quot;3&quot;&gt; 
+ &lt;li&gt;Dependencies:&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;hr&gt; 
+&lt;p&gt;The lcov module is implemented primarily in Perl - and requires both a moderately up-to-date Perl installation and multiple Perl packages.&lt;/p&gt; 
+&lt;p&gt;These perl packages include:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Capture::Tiny&lt;/li&gt; 
+ &lt;li&gt;DateTime&lt;/li&gt; 
+ &lt;li&gt;Devel::Cover&lt;/li&gt; 
+ &lt;li&gt;Digest::MD5&lt;/li&gt; 
+ &lt;li&gt;File::Spec&lt;/li&gt; 
+ &lt;li&gt;at least one flavor of JSON module. In order of performance/preference: 
+  &lt;ul&gt; 
+   &lt;li&gt;JSON::XS&lt;/li&gt; 
+   &lt;li&gt;Cpanel::JSON::XS&lt;/li&gt; 
+   &lt;li&gt;JSON::PP&lt;/li&gt; 
+   &lt;li&gt;JSON&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;Memory::Process&lt;/li&gt; 
+ &lt;li&gt;Module::Load::Conditional&lt;/li&gt; 
+ &lt;li&gt;Scalar::Util&lt;/li&gt; 
+ &lt;li&gt;Time::HiRes&lt;/li&gt; 
+ &lt;li&gt;TimeDate&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;If your system is missing any of these, then you may be able to install them via:&lt;/p&gt; 
+&lt;p&gt;$ perl -MCPAN -e &#39;install(
+ &lt;packagename&gt;
+  )&#39;
+ &lt;/packagename&gt;&lt;/p&gt; 
+&lt;p&gt;You will very likely need superuser access to be able to install Perl modules.&lt;/p&gt; 
+&lt;p&gt;Some of the applications provided with the lcov module are written in Python - and may require additional Python packages. In particular, &#39;xlsxwriter&#39; is required in order to generate any of the spreadsheet reports.&lt;/p&gt; 
+&lt;p&gt;To measure Python code coverage, users will need Python packages:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Coverage.py&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;In addition, contributors will need:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;perltidy&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Your platform may support other mechanisms to install and/or update required packages.&lt;/p&gt; 
+&lt;ol start=&quot;4&quot;&gt; 
+ &lt;li&gt;An example of how to access Linux kernel coverage data&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;hr&gt; 
+&lt;p&gt;Requirements: Follow the Linux kernel coverage setup instructions at:&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://docs.kernel.org/dev-tools/gcov.html&quot;&gt;https://docs.kernel.org/dev-tools/gcov.html&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;As root, do the following:&lt;/p&gt; 
+&lt;p&gt;a) Resetting counters&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; lcov --zerocounters
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;b) Capturing the current coverage state to a file&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; lcov --capture --output-file kernel.info
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;c) Getting HTML output&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; genhtml kernel.info
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Point the web browser of your choice to the resulting index.html file.&lt;/p&gt; 
+&lt;ol start=&quot;5&quot;&gt; 
+ &lt;li&gt;An example of how to access coverage data for a user space program&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;hr&gt; 
+&lt;p&gt;a) Capture current coverage state to a file:&lt;/p&gt; 
+&lt;p&gt;i) C/C++ code:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;  Compile your program using the &#39;--coverage&#39; GCC or LLVM
+  option. During linking, make sure to specify &#39;--coverage&#39;:
+
+    $ gcc -o myTest --coverage simple.c
+      OR
+    $ gcc -c file1.c file2.c ... --coverage
+    $ gcc -o myOtherTest --coverage file1.o file2.o ....
+
+  Alternately, LLVM users can use the &#39;profdata path&#39; (rather than the
+  &#39;gcov path&#39;) to collect coverage data from their C/C++ code.  See
+  https://github.com/linux-test-project/lcov/discussions/234 for more
+  information.
+
+   Run your testcase at least once:
+
+    $ path/to/my/testcase/myTest
+
+   Capture the current coverage state to a file:
+
+     $ lcov --directory path/to/my/testcase --capture --output-file app.info
+
+   (LLVM users using the &#39;profdata path&#39; will use a somewhat different
+   command for this step - see the discussion referenced above.)
+
+   If you want to collect Modified Condition / Decision Coverage (MD/DC)
+   date, then:
+     - you must use gcc/14.2 (or newer), or LLVM/18 (or newer)
+     - your GCC compile- and link command line must include flag
+       &#39;-fcondition-coverage&#39;.
+     - LLVM users must use the &#39;profdata path&#39; for coverage data collection,
+       and your compile command line must include
+       &#39;-fprofile-inst-generate -fcoverage-mapping -fcoverage-mcdc&#39;.
+       See the above referenced discussion for details.
+     - your lcov and genhtml command line must include flag
+       &#39;--mcdc-coverage&#39;
+   See the &#39;--mcdc-coverage&#39; section in the genhtml and geninfo man pages.
+
+   Note that runtime coverage data exists only after the application has
+   been started and stopped at least once. Otherwise, no data will be found
+   and lcov will abort with an error mentioning that there are no
+   data/.gcda files.
+
+   The coverage runtime emits data (the .gcda files) in an atexit
+   callback.  If your application exits abnormally or crashes before
+   the callback is executed, then no coverage data will be available.
+
+   For further information on the gcc profiling mechanism, please
+   consult the gcov man page.
+
+  See &#39;man lcov&#39; for more information - especially if your build/test
+  environment is not trivial.
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;ii) Python code:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; - install the Coverage.py module
+
+ - execute your testcase to produce python coverage data:
+
+     $ COVERAGE_FILE=./pycov.dat coverage run --append --branch \
+         myPythonScript [my script args]
+
+ - translate Python coverage data to LCOV format:
+
+     $ py2lcov -o pycov.info [py2lcov_options] pycov.dat [x.dat]+
+
+ See &#39;py2lcov --help&#39; and the Coverage.py documentation for more
+ information.
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;iii) Perl code:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; - install the Devel::Cover module
+
+ - execute your testcase to produce perl coverage data:
+
+     $ perl -MDevel::Cover=-db,perlcov_db,-coverage,statement,branch,condition,subroutine,-silent,1 myPerlTest.pl [my script args]
+
+ - translate Perl coverage data to LCOV format:
+
+     $ perl2lcov --output perlcov.info perlcov_db [perl2lcov options]
+
+ See &#39;perl2lcov --help&#39; and the Devel::Cover documentation for more
+ information.
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;iv) XML data (for example, generated by Cobertura):&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; - translate XM coverage data to LCOV format:
+
+     $ xml2lcov --output myData.info coverage.xml [xml2lcov options]
+
+ See &#39;xml2lcov --help&#39; and the Cobertura documentation for more
+ information.
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;b) Generate an HTML coverage report:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;Generate an HTML report, combining all of your LCOV data files:
+
+  $ genhtml -o html_report app.info pycov.info perlcov.info
+
+Point the web browser of your choice to the resulting file:
+html_report/index.html.
+
+See &#39;man genhtml&#39; for more details.
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;c) Generate a differential coverage report:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;See the example in .../example (run &quot;make test_differential&quot;)
+as well as the examples in .../tests/gendiffcov.
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;ol start=&quot;6&quot;&gt; 
+ &lt;li&gt;LCOV Features:&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;hr&gt; 
+&lt;p&gt;LCOV features and capabilities fall into 7 major categories:&lt;/p&gt; 
+&lt;p&gt;a) Categorization&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; This refers primarily to differential coverage categorization as
+ well as date- and owner-binning.  See https://arxiv.org/abs/2008.07947
+ or https://ieeexplore.ieee.org/document/9438597 for a detailed
+ description of the concepts.
+
+ Differential categorization and binning are orthogonal in the sense
+ that you can generate differential report without binning as well
+ as &#39;vanilla&#39; coverage reports with binning.  See the above papers
+ and the genhtml man page for details.
+
+ Related options:
+    --baseline-file, --diff-file, --annotate-script, --select-script
+    --date-bins, --date-labels --new-file-as-baseline,
+    --elide-path-mismatch
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;b) Error handling&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; A generic - but very simple - error handler has been added to the
+ lcov tool suite.  The error handler is used to report exceptions,
+ and provides a mechanism for the user to ignore the particular
+ message if desired.  Note that ignoring certain errors can cause
+ subsequent errors and/or can result in inconsistent or confusing
+ coverage reports.
+ See the genhtml/lcov/geninfo man pages for details.
+
+ Note that some errors are unrecoverable - and cannot be suppressed or
+ ignored.
+
+ Related options:
+    --ignore-error, --expect-message-count, --keep-going, --msg-log
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;c) Navigation and display:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; Navigation aids such as hyperlinks to the first uncovered region,
+ to the next uncovered region, etc. have been implemented.  Similarly,
+ new tables, new columns, and new links between tables enable the
+ user to identify the author of particular code (covered or not
+ covered), as well as the time period when the code was written.
+
+ Collectively, these features help the user to quickly identify the
+ cause of code coverage issues, and to then decide what to do.
+
+ An option to generate a &#39;hierarchical&#39; coverage report (which follows
+ the source code directory structure) or &#39;flat&#39; (all files in top level
+ of two-level report) as well as various other small features (tooltip
+ popups, user-specified HTML header, footer, and table labels, etc.) are
+ also available.
+
+ See the genhtml man page for some details, as well as the
+ &#39;gendiffcov/simple&#39; testcases for some examples.
+
+  Related options:
+      --baseline-title, --baseline-date, --current-date,
+      --flat, --hierarchical,
+      --show-owners, --show-noncode, --show-navigation, --show-proportion,
+      --suppress-aliases
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;d) Data manipulation&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; Filters are used to suppress or remove certain coverage artifacts -
+ for example, branches generated by the compiler (e.g., for exception
+ handling).  These artifacts can overwhelm the user code and obscure
+ coverage features that are interesting to the user.
+
+ Other options are used to focus on or to exclude certain sections
+ of code, as well as to do regexp replacement of file names - possibly
+ using case-insensitive comparison.
+ (Path munging is useful primarily when the build structure does
+ not exactly match the layout in your revision control system; this
+ is common in large projects with reusable components.)
+
+ During coverage data capture, the --build-directory option can be used
+ to specify a search path, to find the .gcno (compile-time coverage data)
+ file corresponding to a particular .gcda (runtime coverage data) file.
+ Similarly, the --source-directory option can be used to specify a
+ search path for source files.
+
+ See the lcov/geninfo/genhtml man pages for a detailed description of
+ the available filters and manipulation features.
+
+ Related options:
+    --include, --exclude, --erase-functions, --omit-lines,
+    --substitute, --filter
+    --build-directory --source-directory
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;e) Callbacks/customization&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; The user can supply callbacks which are used to:
+
+    i) interface with the revision control system
+       Sample scripts:
+         - Perforce:  see &#39;p4diff&#39;, &#39;p4annotate.pm&#39;, &#39;p4annotate&#39;
+         - Git: see &#39;gitdiff&#39;, &#39;gitblame.pm&#39;, &#39;gitblame&#39;
+    ii) verify that source code versions are compatible, and
+        Sample scripts: see &#39;get_signature&#39;, &#39;P4version.pm&#39;, &#39;getp4version&#39;,
+        &#39;gitversion&#39;, &#39;gitversion.pm&#39;, and &#39;batchGitVersion.pm&#39;
+    iii) enforce a desired code coverage criteria
+         Sample script: criteria.pm/criteria
+    iv) find source files in more complicated environments - where
+        simple substitutions become complicated or unweildy.
+    v) select a subset of coverage data to display - e.g., to
+       use in a code review which wants to concentrate on only
+       the changes caused by a particular commit or range of commits,
+       or to review changes in a particular release.
+       Sample script:  select.pm
+     vi) keep track of environment and other settings - to aid
+        infrastructure debugging in more complicated use cases.
+
+ The callback may be any desired script or executable - but there
+ may be performance advantages if it is written as a Perl module.
+
+ See the genhtml/lcov/geninfo man pages for details.
+
+ Note that the various sample scripts are found in the source code
+ &#39;scripts&#39; directory, but are installed in the
+ $LCOV_HOME/share/lcov/support-scripts directory of the release.
+
+ Related options:
+   --annotate-script, --criteria-script, --version-script
+   --resolve-script, --select-script, --context-script
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;f) Performance&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; lcov/genhtml/geninfo have been refactored to parallelize computation
+ across multiple cores, if requested.
+ In general, this provides speedup that is nearly linear in the number
+ of cores.
+ There is also an option to throttle parallelism to not exceed peak
+ memory consumption constraints, as well as options to enable simple
+ profile data collection - so you can see where time is going and
+ thus to hint at potential optimizations.  The &#39;spreadsheet.py&#39;
+ script can be used to view generated profile data.
+
+ There are several configuration file options which can be used to
+ tweak certain parallelization parameters to optimize performance
+ for your environment in cases that the default behaviour is suboptimal.
+ See the lcovrc man page for more information.
+
+ See the genhtml/lcov/geninfo man pages for details
+
+ Related options: --parallel, --memory, --profile
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;g) Language/tool support&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt; Added &#39;llvm2lcov&#39;, &#39;py2lcov&#39;, &#39;perl2lcov&#39; and &#39;xml2lcov&#39; scripts.
+
+   - llvm2lcov:
+
+       translates JSON coverage data generated by &#39;llvm-cov export -format=text ...&#39;
+       to lcov format.
+
+       See &quot;llvm2lcov --help&quot; for brief instruction on how to use the
+       translator.  Note that llvm2lcov uses a similar set of command line
+       and configuration file options as lcov, genhtml, and geninfo.
+
+   - py2lcov:
+
+       translates python Coverage.py XML data to lcov format.
+
+       See the Coverage.py documentation at https://coverage.readthedocs.io,
+       as well as &quot;.../py2lcov --help&quot;
+
+   - perl2lcov
+
+      translates Perl Devel::Cover data to lcov format.
+
+      See the Devel::Cover documentation at
+        https://metacpan.org/pod/Devel::Cover
+      to find out how to generate coverage data for Perl code.
+
+      See &quot;perl2lcov --help&quot; for brief instructions on how to
+      use the translator.
+      Note that perl2lcov uses a similar set of command line and
+      config file options as lcov, genhtml, and geninfo.
+
+   - xml2lcov
+
+      translates XML coverage data to lcov format.
+      The XML data may come from Cobertura or similar tools.
+
+      See &quot;xml2lcov --help&quot; for brief instructions on how to use
+      the translator.
+      See the Coburtura documentation for directions on how to
+      generate XML data.
+
+ Other languages can be integrated using a similar approach.
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;In general, the new features and options are implemented uniformly in lcov, genhtml, and geninfo. Most of the features can be enabled/disabled using either command line options or by setting defaults in your &#39;lcovrc&#39; file. See the lcovrc man page for details.&lt;/p&gt; 
+&lt;ol start=&quot;7&quot;&gt; 
+ &lt;li&gt;Questions and comments&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;hr&gt; 
+&lt;p&gt;See the included man pages for more information on how to use the LCOV tools.&lt;/p&gt; 
+&lt;p&gt;In case of further questions, feel free to open a new issue or discussion using the issue tracker on the LCOV code repository site at:&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/linux-test-project/lcov&quot;&gt;https://github.com/linux-test-project/lcov&lt;/a&gt;&lt;/p&gt; 
+&lt;ol start=&quot;8&quot;&gt; 
+ &lt;li&gt;Filing a new issue&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;hr&gt; 
+&lt;p&gt;Before filing a new issue - and if you are using an LCOV release (as opposed to using a clone of the github repo) - please verify whether the issue is still present in the LCOV master version. See section 2, above for directions on how to clone and install the most up-to-date LCOV version.&lt;/p&gt; 
+&lt;p&gt;If possible, please include a testcase which illustrates the problem when you file an issue. Please describe your environment (platform, compiler, perl, and python versions, etc.). Please include a detailed description of the issue: what you were trying to do (your goal - not the mechanics of your procedure), what you did (the mechanics of your procedure), the result you wanted to see vs. what actually happened. Depending on the issue, your testcase may need to include source code and compile/link command lines, directions for how to run your example, the command lines used to capture and generate your lcov reports, etc. In other cases, the captured &#39;.info&#39; files may be sufficient to reproduce the issue. When in doubt: more is better than less.&lt;/p&gt; 
+&lt;p&gt;If you cannot include a testcase - e.g., because you feel that it is senstitive or proprietary - then your detailed description is even more important. Note that, without an example, it may be difficult or impossible to diagnose or fix the problem.&lt;/p&gt; 
+&lt;p&gt;Bear in mind that you are asking for help from volunteers. Your priority might not be their priority. Civility, consideration and politeness go a long way.&lt;/p&gt; 
+&lt;p&gt;Please check back and to verify the fix and close the issue once it has been addressed. Again: remember that you are asking for help from volunteers. Make sure that you are doing your part.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>inverse-inc/packetfence</title>
+      <link>https://github.com/inverse-inc/packetfence</link>
+      <description>&lt;p&gt;PacketFence is a fully supported, trusted, Free and Open Source network access control (NAC) solution. Boasting an impressive feature set including a captive-portal for registration and remediation, centralized wired and wireless management, powerful BYOD management options, 802.1X support, layer-2 isolation of problematic devices; PacketFence c…&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;PacketFence&lt;/h1&gt; 
+&lt;h2&gt;What is PacketFence?&lt;/h2&gt; 
+&lt;p&gt;PacketFence is a fully supported, trusted, Free and Open Source network access control (NAC) system. Boasting an impressive feature set including a captive-portal for registration and remediation, centralized wired and wireless management, 802.1X support, layer-2 isolation of problematic devices, integration with IDS solutions and vulnerability scanners; PacketFence can be used to effectively secure networks - from small to very large heterogeneous networks.&lt;/p&gt; 
+&lt;p&gt;You want to know who is on your network? You want to give different access to your network based on who is connecting? PacketFence is for you!&lt;/p&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;p&gt;Follow the instructions provided in the &lt;a href=&quot;https://packetfence.org/support/index.html#/documentation&quot;&gt;Administration Guide&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;More Information&lt;/h2&gt; 
+&lt;p&gt;Noteworthy changes since the last release see the &lt;a href=&quot;https://github.com/inverse-inc/packetfence/raw/devel/NEWS.asciidoc&quot;&gt;NEWS file&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;Upgrading? See the &lt;a href=&quot;https://github.com/inverse-inc/packetfence/raw/devel/docs/PacketFence_Upgrade_Guide.asciidoc&quot;&gt;Upgrade Guide&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;For more details and developer visible changes see the &lt;a href=&quot;https://github.com/inverse-inc/packetfence&quot;&gt;project&#39;s page on Github&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Support&lt;/h2&gt; 
+&lt;p&gt;Join the &lt;a href=&quot;https://packetfence.org/support/index.html#/community&quot;&gt;community&lt;/a&gt; or request &lt;a href=&quot;https://packetfence.org/support/index.html#/commercial&quot;&gt;commercial support&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Contribute&lt;/h2&gt; 
+&lt;p&gt;PacketFence is a collaborative effort in order to create the best Open Source NAC solution. There are multiple ways you can contribute to the project.&lt;/p&gt; 
+&lt;h3&gt;&lt;em&gt;You are a network vendor&lt;/em&gt;&lt;/h3&gt; 
+&lt;p&gt;Provide Inverse with switches, access points, wireless controllers, etc. so we can support even more equipment.&lt;/p&gt; 
+&lt;h3&gt;&lt;em&gt;You are a security software vendor&lt;/em&gt;&lt;/h3&gt; 
+&lt;p&gt;Provide Inverse with licenses of your software so we can integrate your IDS, Netflow analyzer, IPS, Web filter, etc. directly into PacketFence and its captive portal technology.&lt;/p&gt; 
+&lt;h3&gt;&lt;em&gt;You are a PacketFence user&lt;/em&gt;&lt;/h3&gt; 
+&lt;p&gt;You can provide:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Documentation reviews, enhancements and translations&lt;/li&gt; 
+ &lt;li&gt;Share your ideas and participate to the discussion in &lt;a href=&quot;https://packetfence.org/support/index.html#/community&quot; title=&quot;Community Mailing Lists&quot;&gt;mailing lists&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;Provide Inverse with switches, access points, wireless controllers, etc. so we can support even more equipment&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;&lt;em&gt;You are a developer&lt;/em&gt;&lt;/h3&gt; 
+&lt;p&gt;You can provide:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Documentation reviews, enhancements and translations&lt;/li&gt; 
+ &lt;li&gt;Share your ideas and participate to the discussion in &lt;a href=&quot;https://packetfence.org/support/index.html#/community&quot; title=&quot;Community Mailing Lists&quot;&gt;mailing lists&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;Patches for bugs or enhancements&lt;/li&gt; 
+ &lt;li&gt;Write tests&lt;/li&gt; 
+ &lt;li&gt;Handle tasks in our Roadmap&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;&lt;em&gt;You are a security researcher&lt;/em&gt;&lt;/h3&gt; 
+&lt;p&gt;Push PacketFence into new areas by leveraging the extensibility built into PacketFence. A lot of the low-level plumbing is done for you so you can focus on demoing your ideas.&lt;/p&gt; 
+&lt;p&gt;Get in touch with us on the developer &lt;a href=&quot;https://packetfence.org/support/index.html#/community&quot; title=&quot;Community Mailing Lists&quot;&gt;mailing list&lt;/a&gt; with your ideas!&lt;/p&gt; 
+&lt;h2&gt;Source&lt;/h2&gt; 
+&lt;p&gt;Feel free to fork our &lt;a href=&quot;https://github.com/inverse-inc/packetfence&quot;&gt;github repository&lt;/a&gt; if you are willing to contribute.&lt;/p&gt; 
+&lt;p&gt;Most of the development happens in branches. Once ready for integration into &lt;a href=&quot;https://github.com/inverse-inc/packetfence/tree/devel&quot;&gt;devel&lt;/a&gt;, a pull request is opened and a code review takes place. See the list of &lt;a href=&quot;https://github.com/inverse-inc/packetfence/branches&quot;&gt;all branches in the works&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Translations&lt;/h2&gt; 
+&lt;p&gt;PacketFence is available in various languages. The following list describes the official translations alongside their maintainers:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;English - Inverse inc.&lt;/li&gt; 
+ &lt;li&gt;Brazilian Portuguese - Diego de Souza Lopes&lt;/li&gt; 
+ &lt;li&gt;French - Inverse inc.&lt;/li&gt; 
+ &lt;li&gt;Norwegian&lt;/li&gt; 
+ &lt;li&gt;Polish - Maciej Uhlig&lt;/li&gt; 
+ &lt;li&gt;Spanish (Spain) - Dominique Couot&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;If you would like to translate the software in an other language, please consult the &lt;a href=&quot;https://packetfence.org/support/faq/article/how-to-translate-packetfence-in-another-language.html&quot;&gt;FAQ&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;License&lt;/h2&gt; 
+&lt;p&gt;Licensed under the GNU General Public License v2.&lt;/p&gt; 
+&lt;hr&gt; 
+&lt;p&gt;&lt;a href=&quot;https://inverse.ca/&quot;&gt;Inverse inc.&lt;/a&gt; leads the development of the solution. Over the years, numerous people and organizations have contributed to the project and we would like to thank them all !&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>rjbs/Email-Sender</title>
+      <link>https://github.com/rjbs/Email-Sender</link>
+      <description>&lt;p&gt;a perl library for sending email&lt;/p&gt;&lt;hr&gt;</description>
+    </item>
+    
+    <item>
+      <title>quran/quran.com-images</title>
+      <link>https://github.com/quran/quran.com-images</link>
+      <description>&lt;p&gt;images using fonts from King Fahed Complex / qurancomplex.org&lt;/p&gt;&lt;hr&gt;&lt;p&gt;بسم الله الرحمن الرحيم &lt;br&gt;&lt;em&gt;In the name of Allah, Most Gracious, Most Merciful&lt;/em&gt;&lt;/p&gt; 
+&lt;h1&gt;Quran Image Generator&lt;/h1&gt; 
+&lt;p&gt;These are a set of scripts that generate Quran page images based on the old madani fonts provided by the King Fahd Quran Complex in Saudi Arabia. They are currently being used in quran.com and its mobile apps.&lt;/p&gt; 
+&lt;p&gt;This script outputs images, and also updates a database with the bounds of each of the generated glyphs (allowing apps to highlight individual words or verses).&lt;/p&gt; 
+&lt;p&gt;The code is copyleft GPL (read: free) but the actual fonts and pages (in the &lt;code&gt;res/fonts&lt;/code&gt; directory) belong to the &lt;a href=&quot;http://www.qurancomplex.com&quot;&gt;King Fahd Quran Complex in Saudia Arabia&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Prerequisites&lt;/h2&gt; 
+&lt;p&gt;Following prerequisites are required before instructions below can work. I tried this on my windows box (no reason to believe it will not work on other platform as long as you use the right tools for this platform)&lt;/p&gt; 
+&lt;h4&gt;Required Packages&lt;/h4&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;ppm install dmake&lt;/li&gt; 
+ &lt;li&gt;ppm install dbd-mysql&lt;/li&gt; 
+ &lt;li&gt;ppm install yaml&lt;/li&gt; 
+ &lt;li&gt;Go to your perl package manager and add &#39;Mojo-Log-More&#39; package and all dependencies.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h4&gt;Required Software&lt;/h4&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Install MySQL server and tools.&lt;/li&gt; 
+ &lt;li&gt;Add mysql.exe path to system path (convenience)&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h4&gt;Notes about following installation summary&lt;/h4&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;If you installed dmake, replace all &#39;make&#39; in commands below with &#39;dmake&#39;&lt;/li&gt; 
+ &lt;li&gt;Note that there is no space between -p and password, e.g.: -pMyPasswor&lt;/li&gt; 
+ &lt;li&gt;Replace &#39;&amp;lt; sql/database.sql&#39; with &#39;-Dnextgen &amp;lt; sql/database.sql&#39; - otherwise you&#39;ll get an error. &#39;nextgen&#39; is the database name.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Now you should be good to go with the following instructions&lt;/p&gt; 
+&lt;h2&gt;Installation Summary&lt;/h2&gt; 
+&lt;pre&gt;&lt;code&gt;perl Makefile.PL
+make
+make install
+mysql -u root -p your_password &amp;lt; sql/schema.sql
+mysql -u root -p your_password &amp;lt; sql/database.sql
+mysql -u root -p your_password -e &quot;create user &#39;nextgen&#39;@&#39;localhost&#39; identified by &#39;nextgen&#39;&quot;
+mysql -u root -p your_password -e &quot;grant all privileges on nextgen.* to &#39;nextgen&#39;@&#39;localhost&#39;&quot;
+mysql -u root -p your_password -e &quot;flush privileges&quot;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Docker installation&lt;/h2&gt; 
+&lt;p&gt;Install &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt; and &lt;a href=&quot;https://docs.docker.com/compose/install/&quot;&gt;Docker Compose&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;Build and run services (mysql and perl libs):&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;docker-compose up -d
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;To run scripts (see Usage section below) use the &lt;code&gt;gen&lt;/code&gt; service:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;docker-compose run gen /app/script/generate.pl --output ./output/ ...
+docker-compose run gen zopflipng --prefix=comp/ ... ./output/*.png
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Stop sevices when done:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;docker-compose down
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Note that mysql data is persisted on the host as a docker volume. You must set the &lt;code&gt;--output&lt;/code&gt; option value to &lt;code&gt;./output/&lt;/code&gt; to persist the output on the host machine. Any other output path will be local to the container.&lt;/p&gt; 
+&lt;h2&gt;Usage&lt;/h2&gt; 
+&lt;p&gt;generate page 50 with a width of 1300:&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;./script/generate.pl --width 1300 --output ./output/ --pages 50&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;generate pages 1 through 3 with a width of 1300:&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;./script/generate.pl --width 1300 --output ./output/ --pages 1..3&lt;/code&gt;&lt;/p&gt; 
+&lt;h2&gt;Compression&lt;/h2&gt; 
+&lt;p&gt;make sure to run the images through &lt;a href=&quot;https://imageoptim.com&quot;&gt;ImageOptim&lt;/a&gt; or through &lt;a href=&quot;https://github.com/google/zopfli&quot;&gt;zopflipng&lt;/a&gt; to get optimized images.&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;zopflipng --prefix=out/ --lossy_transparent --lossy_8bit --splitting=2 --iterations=100 *.png&lt;/code&gt;&lt;/p&gt; 
+&lt;h2&gt;Ayah by ayah images&lt;/h2&gt; 
+&lt;p&gt;For generating ayah by ayah images, see our &lt;a href=&quot;https://github.com/quran/quran.com-images/tree/legacy&quot;&gt;legacy branch&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>libsdl-org/SDL_shadercross</title>
+      <link>https://github.com/libsdl-org/SDL_shadercross</link>
+      <description>&lt;p&gt;Shader translation library for SDL&#39;s GPU API.&lt;/p&gt;&lt;hr&gt;&lt;p&gt;SDL_shadercross&lt;/p&gt; 
+&lt;p&gt;This is a library for translating shaders to different formats, intended for use with SDL&#39;s GPU API. It takes SPIRV or HLSL as the source and outputs DXBC, DXIL, SPIRV, MSL, or HLSL.&lt;/p&gt; 
+&lt;p&gt;This library can perform runtime translation and conveniently returns compiled SDL GPU shader objects from HLSL or SPIRV source. This library also provides a command line interface for offline translation of shaders.&lt;/p&gt; 
+&lt;p&gt;For SPIRV translation, this library depends on SPIRV-Cross: &lt;a href=&quot;https://github.com/KhronosGroup/SPIRV-Cross&quot;&gt;https://github.com/KhronosGroup/SPIRV-Cross&lt;/a&gt; spirv-cross-c-shared.dll (or your platform&#39;s equivalent) can be obtained in the Vulkan SDK: &lt;a href=&quot;https://vulkan.lunarg.com/&quot;&gt;https://vulkan.lunarg.com/&lt;/a&gt; For compiling to DXIL, dxcompiler.dll and dxil.dll (or your platform&#39;s equivalent) are required. DXIL dependencies can be obtained here: &lt;a href=&quot;https://github.com/microsoft/DirectXShaderCompiler/releases&quot;&gt;https://github.com/microsoft/DirectXShaderCompiler/releases&lt;/a&gt; It is strongly recommended that you ship SPIRV-Cross and DXIL dependencies along with your application. For compiling to DXBC, d3dcompiler_47 is shipped with Windows. Other platforms require vkd3d-utils.&lt;/p&gt; 
+&lt;p&gt;This library is under the zlib license, see LICENSE.txt for details.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>tseemann/prokka</title>
+      <link>https://github.com/tseemann/prokka</link>
+      <description>&lt;p&gt;⚡ ♒ Rapid prokaryotic genome annotation&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;a href=&quot;https://travis-ci.org/tseemann/prokka&quot;&gt;&lt;img src=&quot;https://travis-ci.org/tseemann/prokka.svg?branch=master&quot; alt=&quot;Build Status&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gnu.org/licenses/gpl-3.0&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-GPL%20v3-blue.svg?sanitize=true&quot; alt=&quot;License: GPL v3&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://doi.org/10.1093/bioinformatics/btu153&quot;&gt;&lt;img src=&quot;https://zenodo.org/badge/DOI/10.1093/bioinformatics/btu153.svg?sanitize=true&quot; alt=&quot;DOI:10.1093/bioinformatics/btu153&quot;&gt;&lt;/a&gt; &lt;img src=&quot;https://img.shields.io/badge/Language-Perl_5-steelblue.svg?sanitize=true&quot; alt=&quot;Don&#39;t judge me&quot;&gt;&lt;/p&gt; 
+&lt;h1&gt;Prokka: rapid prokaryotic genome annotation&lt;/h1&gt; 
+&lt;h2&gt;Introduction&lt;/h2&gt; 
+&lt;p&gt;Whole genome annotation is the process of identifying features of interest in a set of genomic DNA sequences, and labelling them with useful information. Prokka is a software tool to annotate bacterial, archaeal and viral genomes quickly and produce standards-compliant output files.&lt;/p&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;h3&gt;Bioconda&lt;/h3&gt; 
+&lt;p&gt;If you use &lt;a href=&quot;https://conda.io/docs/install/quick.html&quot;&gt;Conda&lt;/a&gt; you can use the &lt;a href=&quot;https://bioconda.github.io/&quot;&gt;Bioconda channel&lt;/a&gt;:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;conda install -c conda-forge -c bioconda -c defaults prokka
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Brew&lt;/h3&gt; 
+&lt;p&gt;If you are using the &lt;a href=&quot;http://brew.sh/&quot;&gt;MacOS Brew&lt;/a&gt; or &lt;a href=&quot;http://brew.sh/linuxbrew/&quot;&gt;LinuxBrew&lt;/a&gt; packaging system:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;brew install brewsci/bio/prokka
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Docker&lt;/h3&gt; 
+&lt;p&gt;Maintained by &lt;a href=&quot;https://hub.docker.com/u/staphb&quot;&gt;https://hub.docker.com/u/staphb&lt;/a&gt;&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;
+docker pull staphb/prokka:latest
+docker run staphb/prokka:latest prokka -h
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Singularity&lt;/h3&gt; 
+&lt;pre&gt;&lt;code&gt;singularity build prokka.sif docker://staphb/prokka:latest
+singularity exec prokka.sif prokka -h
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Ubuntu/Debian/Mint&lt;/h3&gt; 
+&lt;pre&gt;&lt;code&gt;sudo apt-get install libdatetime-perl libxml-simple-perl libdigest-md5-perl git default-jre bioperl
+sudo cpan Bio::Perl
+git clone https://github.com/tseemann/prokka.git $HOME/prokka
+$HOME/prokka/bin/prokka --setupdb
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Centos/Fedora/RHEL&lt;/h3&gt; 
+&lt;pre&gt;&lt;code&gt;sudo yum install git perl-Time-Piece perl-XML-Simple perl-Digest-MD5 perl-App-cpanminus git java perl-CPAN perl-Module-Build
+sudo cpanm Bio::Perl
+git clone https://github.com/tseemann/prokka.git $HOME/prokka
+$HOME/prokka/bin/prokka --setupdb
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;MacOS&lt;/h3&gt; 
+&lt;pre&gt;&lt;code&gt;sudo cpan Time::Piece XML::Simple Digest::MD5 Bio::Perl
+git clone https://github.com/tseemann/prokka.git $HOME/prokka
+$HOME/prokka/bin/prokka --setupdb
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Test&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Type &lt;code&gt;prokka&lt;/code&gt; and it should output its help screen.&lt;/li&gt; 
+ &lt;li&gt;Type &lt;code&gt;prokka --version&lt;/code&gt; and you should see an output like &lt;code&gt;prokka 1.x&lt;/code&gt;&lt;/li&gt; 
+ &lt;li&gt;Type &lt;code&gt;prokka --listdb&lt;/code&gt; and it will show you what databases it has installed to use.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Invoking Prokka&lt;/h2&gt; 
+&lt;h3&gt;Beginner&lt;/h3&gt; 
+&lt;pre&gt;&lt;code&gt;# Vanilla (but with free toppings)
+% prokka contigs.fa
+
+# Look for a folder called PROKKA_yyyymmdd (today&#39;s date) and look at stats
+% cat PROKKA_yyyymmdd/*.txt
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Moderate&lt;/h3&gt; 
+&lt;pre&gt;&lt;code&gt;# Choose the names of the output files
+% prokka --outdir mydir --prefix mygenome contigs.fa
+
+# Visualize it in Artemis
+% art mydir/mygenome.gff
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Specialist&lt;/h3&gt; 
+&lt;pre&gt;&lt;code&gt;# Have curated genomes I want to use to annotate from
+% prokka --proteins MG1655.gbk --outdir mutant --prefix K12_mut contigs.fa
+
+# Look at tabular features
+% less -S mutant/K12_mut.tsv
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Expert&lt;/h3&gt; 
+&lt;pre&gt;&lt;code&gt;# It&#39;s not just for bacteria, people
+% prokka --kingdom Archaea --outdir mydir --genus Pyrococcus --locustag PYCC
+
+# Search for your favourite gene
+% exonerate --bestn 1 zetatoxin.fasta mydir/PYCC_06072012.faa | less
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Wizard&lt;/h3&gt; 
+&lt;pre&gt;&lt;code&gt;# Watch and learn
+% prokka --outdir mydir --locustag EHEC --proteins NewToxins.faa --evalue 0.001 --gram neg --addgenes contigs.fa
+
+# Check to see if anything went really wrong
+% less mydir/EHEC_06072012.err
+
+# Add final details using Sequin
+% sequin mydir/EHEC_0607201.sqn
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;NCBI Genbank submitter&lt;/h3&gt; 
+&lt;pre&gt;&lt;code&gt;# Register your BioProject (e.g. PRJNA123456) and your locus_tag prefix (e.g. EHEC) first!
+% prokka --compliant --centre UoN --outdir PRJNA123456 --locustag EHEC --prefix EHEC-Chr1 contigs.fa
+
+# Check to see if anything went really wrong
+% less PRJNA123456/EHEC-Chr1.err
+
+# Add final details using Sequin
+% sequin PRJNA123456/EHEC-Chr1.sqn
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;European Nucleotide Archive (ENA) submitter&lt;/h3&gt; 
+&lt;pre&gt;&lt;code&gt;# Register your BioProject (e.g. PRJEB12345) and your locus_tag (e.g. EHEC) prefix first!
+% prokka --compliant --centre UoN --outdir PRJEB12345 --locustag EHEC --prefix EHEC-Chr1 contigs.fa
+
+# Check to see if anything went really wrong
+% less PRJNA123456/EHEC-Chr1.err
+
+# Install and run Sanger Pathogen group&#39;s Prokka GFF3 to EMBL converter
+# available from https://github.com/sanger-pathogens/gff3toembl
+# Find the closest NCBI taxonomy id (e.g. 562 for Escherichia coli)
+% gff3_to_embl -i &quot;Submitter, A.&quot; \
+    -m &quot;Escherichia coli EHEC annotated using Prokka.&quot; \
+    -g linear -c PROK -n 11 -f PRJEB12345/EHEC-Chr1.embl \
+    &quot;Escherichia coli&quot; 562 PRJEB12345 &quot;Escherichia coli strain EHEC&quot; PRJEB12345/EHEC-Chr1.gff
+
+# Download and run the latest EMBL validator prior to submitting the EMBL flat file
+# from http://central.maven.org/maven2/uk/ac/ebi/ena/sequence/embl-api-validator/
+# which at the time of writing is v1.1.129
+% curl -L -O http://central.maven.org/maven2/uk/ac/ebi/ena/sequence/embl-api-validator/1.1.129/embl-api-validator-1.1.129.jar
+% java -jar embl-api-validator-1.1.129.jar -r PRJEB12345/EHEC-Chr1.embl
+
+# Compress the file ready to upload to ENA, and calculate MD5 checksum
+% gzip PRJEB12345/EHEC-Chr1.embl
+% md5sum PRJEB12345/EHEC-Chr1.embl.gz
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Crazy Person&lt;/h3&gt; 
+&lt;pre&gt;&lt;code&gt;# No stinking Perl script is going to control me
+% prokka \
+        --outdir $HOME/genomes/Ec_POO247 --force \
+        --prefix Ec_POO247 --addgenes --locustag ECPOOp \
+        --increment 10 --gffver 2 --centre CDC  --compliant \
+        --genus Escherichia --species coli --strain POO247 --plasmid pECPOO247 \
+        --kingdom Bacteria --gcode 11 --usegenus \
+        --proteins /opt/prokka/db/trusted/Ecocyc-17.6 \
+        --evalue 1e-9 --rfam \
+        plasmid-closed.fna
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Output Files&lt;/h2&gt; 
+&lt;table&gt; 
+ &lt;thead&gt; 
+  &lt;tr&gt; 
+   &lt;th&gt;Extension&lt;/th&gt; 
+   &lt;th&gt;Description&lt;/th&gt; 
+  &lt;/tr&gt; 
+ &lt;/thead&gt; 
+ &lt;tbody&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;.gff&lt;/td&gt; 
+   &lt;td&gt;This is the master annotation in GFF3 format, containing both sequences and annotations. It can be viewed directly in Artemis or IGV.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;.gbk&lt;/td&gt; 
+   &lt;td&gt;This is a standard Genbank file derived from the master .gff. If the input to prokka was a multi-FASTA, then this will be a multi-Genbank, with one record for each sequence.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;.fna&lt;/td&gt; 
+   &lt;td&gt;Nucleotide FASTA file of the input contig sequences.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;.faa&lt;/td&gt; 
+   &lt;td&gt;Protein FASTA file of the translated CDS sequences.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;.ffn&lt;/td&gt; 
+   &lt;td&gt;Nucleotide FASTA file of all the prediction transcripts (CDS, rRNA, tRNA, tmRNA, misc_RNA)&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;.sqn&lt;/td&gt; 
+   &lt;td&gt;An ASN1 format &quot;Sequin&quot; file for submission to Genbank. It needs to be edited to set the correct taxonomy, authors, related publication etc.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;.fsa&lt;/td&gt; 
+   &lt;td&gt;Nucleotide FASTA file of the input contig sequences, used by &quot;tbl2asn&quot; to create the .sqn file. It is mostly the same as the .fna file, but with extra Sequin tags in the sequence description lines.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;.tbl&lt;/td&gt; 
+   &lt;td&gt;Feature Table file, used by &quot;tbl2asn&quot; to create the .sqn file.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;.err&lt;/td&gt; 
+   &lt;td&gt;Unacceptable annotations - the NCBI discrepancy report.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;.log&lt;/td&gt; 
+   &lt;td&gt;Contains all the output that Prokka produced during its run. This is a record of what settings you used, even if the --quiet option was enabled.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;.txt&lt;/td&gt; 
+   &lt;td&gt;Statistics relating to the annotated features found.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;.tsv&lt;/td&gt; 
+   &lt;td&gt;Tab-separated file of all features: locus_tag,ftype,len_bp,gene,EC_number,COG,product&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/tbody&gt; 
+&lt;/table&gt; 
+&lt;h2&gt;Command line options&lt;/h2&gt; 
+&lt;pre&gt;&lt;code&gt;General:
+  --help            This help
+  --version         Print version and exit
+  --citation        Print citation for referencing Prokka
+  --quiet           No screen output (default OFF)
+  --debug           Debug mode: keep all temporary files (default OFF)
+Setup:
+  --listdb          List all configured databases
+  --setupdb         Index all installed databases
+  --cleandb         Remove all database indices
+  --depends         List all software dependencies
+Outputs:
+  --outdir [X]      Output folder [auto] (default &#39;&#39;)
+  --force           Force overwriting existing output folder (default OFF)
+  --prefix [X]      Filename output prefix [auto] (default &#39;&#39;)
+  --addgenes        Add &#39;gene&#39; features for each &#39;CDS&#39; feature (default OFF)
+  --locustag [X]    Locus tag prefix (default &#39;PROKKA&#39;)
+  --increment [N]   Locus tag counter increment (default &#39;1&#39;)
+  --gffver [N]      GFF version (default &#39;3&#39;)
+  --compliant       Force Genbank/ENA/DDJB compliance: --genes --mincontiglen 200 --centre XXX (default OFF)
+  --centre [X]      Sequencing centre ID. (default &#39;&#39;)
+Organism details:
+  --genus [X]       Genus name (default &#39;Genus&#39;)
+  --species [X]     Species name (default &#39;species&#39;)
+  --strain [X]      Strain name (default &#39;strain&#39;)
+  --plasmid [X]     Plasmid name or identifier (default &#39;&#39;)
+Annotations:
+  --kingdom [X]     Annotation mode: Archaea|Bacteria|Mitochondria|Viruses (default &#39;Bacteria&#39;)
+  --gcode [N]       Genetic code / Translation table (set if --kingdom is set) (default &#39;0&#39;)
+  --prodigaltf [X]  Prodigal training file (default &#39;&#39;)
+  --gram [X]        Gram: -/neg +/pos (default &#39;&#39;)
+  --usegenus        Use genus-specific BLAST databases (needs --genus) (default OFF)
+  --proteins [X]    Fasta file of trusted proteins to first annotate from (default &#39;&#39;)
+  --hmms [X]        Trusted HMM to first annotate from (default &#39;&#39;)
+  --metagenome      Improve gene predictions for highly fragmented genomes (default OFF)
+  --rawproduct      Do not clean up /product annotation (default OFF)
+Computation:
+  --fast            Fast mode - skip CDS /product searching (default OFF)
+  --cpus [N]        Number of CPUs to use [0=all] (default &#39;8&#39;)
+  --mincontiglen [N] Minimum contig size [NCBI needs 200] (default &#39;1&#39;)
+  --evalue [n.n]    Similarity e-value cut-off (default &#39;1e-06&#39;)
+  --rfam            Enable searching for ncRNAs with Infernal+Rfam (SLOW!) (default &#39;0&#39;)
+  --norrna          Don&#39;t run rRNA search (default OFF)
+  --notrna          Don&#39;t run tRNA search (default OFF)
+  --rnammer         Prefer RNAmmer over Barrnap for rRNA prediction (default OFF)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Option: --proteins&lt;/h3&gt; 
+&lt;p&gt;The &lt;code&gt;--proteins&lt;/code&gt; option is recommended when you have good quality reference genomes and want to ensure gene naming is consistent. Some species use specific terminology which will be often lost if you rely on the default Swiss-Prot database included with Prokka.&lt;/p&gt; 
+&lt;p&gt;If you have Genbank or Protein FASTA file(s) that you want to annotate genes from as the first priority, use the &lt;code&gt;--proteins myfile.gbk&lt;/code&gt;. Please make sure it has a recognisable file extension like &lt;code&gt;.gb&lt;/code&gt; or &lt;code&gt;.gbk&lt;/code&gt; or auto-detect will fail. The use of Genbank is recommended over FASTA, because it will provide &lt;code&gt;/gene&lt;/code&gt; and &lt;code&gt;/EC_number&lt;/code&gt; annotations that a typical &lt;code&gt;.faa&lt;/code&gt; file will not provide, unless you have specially formatted it for Prokka.&lt;/p&gt; 
+&lt;h3&gt;Option: --prodigaltf&lt;/h3&gt; 
+&lt;p&gt;Instead of letting &lt;code&gt;prodigal&lt;/code&gt; train its gene model on the contigs you provide, you can pre-train it on some good closed reference genomes first using the &lt;code&gt;prodigal -t&lt;/code&gt; option. Once you&#39;ve done that, provide &lt;code&gt;prokka&lt;/code&gt; the training file using the &lt;code&gt;--prodgialtf&lt;/code&gt; option.&lt;/p&gt; 
+&lt;h3&gt;Option: --rawproduct&lt;/h3&gt; 
+&lt;p&gt;Prokka annotates proteins by using sequence similarity to other proteins in its database, or the databases the user provides via &lt;code&gt;--proteins&lt;/code&gt;. By default, Prokka tries to &quot;cleans&quot; the &lt;code&gt;/product&lt;/code&gt; names to ensure they are compliant with Genbank/ENA conventions. Some of the main things it does is:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;set vague names to &lt;code&gt;hypothetical protein&lt;/code&gt;&lt;/li&gt; 
+ &lt;li&gt;consistifies terms like &lt;code&gt;possible&lt;/code&gt;, &lt;code&gt;probable&lt;/code&gt;, &lt;code&gt;predicted&lt;/code&gt;, ... to &lt;code&gt;putative&lt;/code&gt;&lt;/li&gt; 
+ &lt;li&gt;removes EC, COG and locus_tag identifiers&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Full details can be found in the &lt;code&gt;cleanup_product()&lt;/code&gt; function in the &lt;code&gt;prokka&lt;/code&gt; script. If you feel your annotations are being ruined, try using the &lt;code&gt;--rawproduct&lt;/code&gt; option, and please &lt;a href=&quot;https://github.com/tseemann/prokka/issues/&quot;&gt;file an issue&lt;/a&gt; if you find an example of where it is &quot;behaving badly&quot; and I will fix it.&lt;/p&gt; 
+&lt;h2&gt;Databases&lt;/h2&gt; 
+&lt;h3&gt;The Core (BLAST+) Databases&lt;/h3&gt; 
+&lt;p&gt;Prokka uses a variety of databases when trying to assign function to the predicted CDS features. It takes a hierarchical approach to make it fast.&lt;br&gt; A small, core set of well characterized proteins are first searched using BLAST+. This combination of small database and fast search typically completes about 70% of the workload. Then a series of slower but more sensitive HMM databases are searched using HMMER3.&lt;/p&gt; 
+&lt;p&gt;The three core databases, applied in order, are:&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;a href=&quot;https://isfinder.biotoul.fr/&quot;&gt;ISfinder&lt;/a&gt;: Only the tranposase (protein) sequences; the whole transposon is not annotated.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/bioproject/313047&quot;&gt;NCBI Bacterial Antimicrobial Resistance Reference Gene Database&lt;/a&gt;: Antimicrobial resistance genes curated by NCBI.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;a href=&quot;https://www.uniprot.org/uniprot/?query=reviewed:yes&quot;&gt;UniProtKB (SwissProt)&lt;/a&gt;: For each &lt;code&gt;--kingdom&lt;/code&gt; we include curated proteins with evidence that (i) from Bacteria (or Archaea or Viruses); (ii) not be &quot;Fragment&quot; entries; and (iii) have an evidence level (&quot;PE&quot;) of 2 or lower, which corresponds to experimental mRNA or proteomics evidence.&lt;/p&gt; &lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;h4&gt;Making a Core Databases&lt;/h4&gt; 
+&lt;p&gt;If you want to modify these core databases, the included script &lt;code&gt;prokka-uniprot_to_fasta_db&lt;/code&gt;, along with the official &lt;code&gt;uniprot_sprot.dat&lt;/code&gt;, can be used to generate a new database to put in &lt;code&gt;/opt/prokka/db/kingdom/&lt;/code&gt;. If you add new ones, the command &lt;code&gt;prokka --listdb&lt;/code&gt; will show you whether it has been detected properly.&lt;/p&gt; 
+&lt;h4&gt;The Genus Databases&lt;/h4&gt; 
+&lt;p&gt;&lt;span&gt;⚠&lt;/span&gt; This is no longer recommended. Please use &lt;code&gt;--proteins&lt;/code&gt; instead.&lt;/p&gt; 
+&lt;p&gt;If you enable &lt;code&gt;--usegenus&lt;/code&gt; and also provide a Genus via &lt;code&gt;--genus&lt;/code&gt; then it will first use a BLAST database which is Genus specific. Prokka comes with a set of databases for the most common Bacterial genera; type prokka &lt;code&gt;--listdb&lt;/code&gt; to see what they are.&lt;/p&gt; 
+&lt;h4&gt;Adding a Genus Databases&lt;/h4&gt; 
+&lt;p&gt;If you have a set of Genbank files and want to create a new Genus database, Prokka comes with a tool called &lt;code&gt;prokka-genbank_to_fasta_db&lt;/code&gt; to help. For example, if you had four annotated &quot;Coccus&quot; genomes, you could do the following:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;% prokka-genbank_to_fasta_db Coccus1.gbk Coccus2.gbk Coccus3.gbk Coccus4.gbk &amp;gt; Coccus.faa
+% cd-hit -i Coccus.faa -o Coccus -T 0 -M 0 -g 1 -s 0.8 -c 0.9
+% rm -fv Coccus.faa Coccus.bak.clstr Coccus.clstr
+% makeblastdb -dbtype prot -in Coccus
+% mv Coccus.p* /path/to/prokka/db/genus/
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;The HMM Databases&lt;/h3&gt; 
+&lt;p&gt;Prokka comes with a bunch of HMM libraries for HMMER3. They are mostly Bacteria-specific. They are searched after the core and genus databases. You can add more simply by putting them in &lt;code&gt;/opt/prokka/db/hmm&lt;/code&gt;. Type &lt;code&gt;prokka --listdb&lt;/code&gt; to confirm they are recognised.&lt;/p&gt; 
+&lt;h3&gt;FASTA database format&lt;/h3&gt; 
+&lt;p&gt;Prokka understands two annotation tag formats, a plain one and a detailed one.&lt;/p&gt; 
+&lt;p&gt;The plain one is a standard FASTA-like line with the ID after the &lt;code&gt;&amp;gt;&lt;/code&gt; sign, and the protein &lt;code&gt;/product&lt;/code&gt; after the ID (the &quot;description&quot; part of the line):&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;&amp;gt;SeqID product
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;The detailed one consists of a special encoded three-part description line. The parts are the &lt;code&gt;/EC_number&lt;/code&gt;, the &lt;code&gt;/gene&lt;/code&gt; code, then the &lt;code&gt;/product&lt;/code&gt; - and they are separated by a special &quot;~~~&quot; sequence:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;&amp;gt;SeqID EC_number~~~gene~~~product~~~COG
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Here are some examples. Note that not all parts need to be present, but the &quot;~~~&quot; should still be there:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;&amp;gt;YP_492693.1 2.1.1.48~~~ermC~~~rRNA adenine N-6-methyltransferase~~~COG1234
+MNEKNIKHSQNFITSKHNIDKIMTNIRLNEHDNIFEIGSGKGHFTLELVQRCNFVTAIEI
+DHKLCKTTENKLVDHDNFQVLNKDILQFKFPKNQSYKIFGNIPYNISTDIIRKIVF*
+&amp;gt;YP_492697.1 ~~~traB~~~transfer complex protein TraB~~~
+MIKKFSLTTVYVAFLSIVLSNITLGAENPGPKIEQGLQQVQTFLTGLIVAVGICAGVWIV
+LKKLPGIDDPMVKNEMFRGVGMVLAGVAVGAALVWLVPWVYNLFQ*
+&amp;gt;YP_492694.1 ~~~~~~transposase~~~
+MNYFRYKQFNKDVITVAVGYYLRYALSYRDISEILRGRGVNVHHSTVYRWVQEYAPILYQ
+QSINTAKNTLKGIECIYALYKKNRRSLQIYGFSPCHEISIMLAS*
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;The same description lines apply to HMM models, except the &quot;NAME&quot; and &quot;DESC&quot; fields are used:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;NAME  PRK00001
+ACC   PRK00001
+DESC  2.1.1.48~~~ermC~~~rRNA adenine N-6-methyltransferase~~~COG1234
+LENG  284
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;FAQ&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;Where does the name &quot;Prokka&quot; come from?&lt;/strong&gt;&lt;br&gt; Prokka is a contraction of &quot;prokaryotic annotation&quot;. It&#39;s also relatively unique within Google, and also rhymes with a native Australian marsupial called the quokka.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;Can I annotate by eukaryote genome with Prokka?&lt;/strong&gt;&lt;br&gt; No. Prokka is specifically designed for Bacteria, Archaea and Viruses. It can&#39;t handle multi-exon gene models; I would recommend using MAKER 2 for that purpose.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;Why does Prokka keeps on crashing when it gets to the &quot;tbl2asn&quot; stage?&lt;/strong&gt;&lt;br&gt; It seems that the tbl2asn program from NCBI &quot;expires&quot; after 6-12 months, and refuses to run. Unfortunately you need to install a newer version which you can download from &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/genbank/tbl2asn2/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;The hmmscan step seems to hang and do nothing?&lt;/strong&gt;&lt;br&gt; The problem here is GNU Parallel. It seems the Debian package for hmmer has modified it to require the &lt;code&gt;--gnu&lt;/code&gt; option to behave in the &#39;default&#39; way. There is no clear reason for this. The only way to restore normal behaviour is to edit the prokka script and change &lt;code&gt;parallel&lt;/code&gt; to &lt;code&gt;parallel --gnu&lt;/code&gt;.&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;Why does prokka fail when it gets to hmmscan?&lt;/strong&gt;&lt;br&gt; Unfortunately HMMER keeps changing its database format, and they aren&#39;t upward compatible. If you upgraded HMMER (from 3.0 to 3.1 say) then you need to &quot;re-press&quot; the files. This can be done as follows:&lt;/p&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;pre&gt;&lt;code&gt;cd /path/to/prokka/db/hmm
+mkdir new
+for D in *.hmm ; do hmmconvert $D &amp;gt; new/$D ; done
+cd new
+for D in *.hmm ; do hmmpress $D ; done
+mv * ..
+rmdir new
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;ul&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;Why can&#39;t I load Prokka .GBK files into Mauve?&lt;/strong&gt;&lt;br&gt; Mauve uses BioJava to parse GenBank files, and it is very picky about Genbank files. It does not like long contig names, like those from Velvet or Spades. One solution is to use &lt;code&gt;--centre XXX&lt;/code&gt; in Prokka and it will rename all your contigs to be NCBI (and Mauve) compliant. It does not like the ACCESSION and VERSION strings that Prokka produces via the &quot;tbl2asn&quot; tool. The following Unix command will fix them: &lt;code&gt;egrep -v &#39;^(ACCESSION|VERSION)&#39; prokka.gbk &amp;gt; mauve.gbk&lt;/code&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;How can I make my GFF not have the contig sequences in it?&lt;/strong&gt;&lt;/p&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;pre&gt;&lt;code&gt;sed &#39;/^##FASTA/Q&#39; prokka.gff &amp;gt; nosequence.gff
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Bugs&lt;/h2&gt; 
+&lt;p&gt;Submit problems or requests to the &lt;a href=&quot;https://github.com/tseemann/prokka/issues&quot;&gt;Issue Tracker&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Changes&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Read the &lt;a href=&quot;https://github.com/tseemann/prokka/releases&quot;&gt;release notes&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;Read the &lt;a href=&quot;https://raw.githubusercontent.com/tseemann/prokka/master/doc/ChangeLog.txt&quot;&gt;ChangeLog.txt&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;Look at the &lt;a href=&quot;https://github.com/tseemann/prokka/commits/master&quot;&gt;Github commits&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Citation&lt;/h2&gt; 
+&lt;p&gt;Seemann T.&lt;br&gt; &lt;em&gt;Prokka: rapid prokaryotic genome annotation&lt;/em&gt;&lt;br&gt; &lt;strong&gt;Bioinformatics&lt;/strong&gt; 2014 Jul 15;30(14):2068-9. &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/24642063&quot;&gt;PMID:24642063&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Dependencies&lt;/h2&gt; 
+&lt;h3&gt;Mandatory&lt;/h3&gt; 
+&lt;ul&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;BioPerl&lt;/strong&gt;&lt;br&gt; Used for input/output of various file formats&lt;br&gt; &lt;em&gt;Stajich et al, The Bioperl toolkit: Perl modules for the life sciences. Genome Res. 2002 Oct;12(10):1611-8.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;GNU Parallel&lt;/strong&gt;&lt;br&gt; A shell tool for executing jobs in parallel using one or more computers&lt;br&gt; &lt;em&gt;O. Tange, GNU Parallel - The Command-Line Power Tool, ;login: The USENIX Magazine, Feb 2011:42-47.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;BLAST+&lt;/strong&gt;&lt;br&gt; Used for similarity searching against protein sequence libraries&lt;br&gt; &lt;em&gt;Camacho C et al. BLAST+: architecture and applications. BMC Bioinformatics. 2009 Dec 15;10:421.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;Prodigal&lt;/strong&gt;&lt;br&gt; Finds protein-coding features (CDS)&lt;br&gt; &lt;em&gt;Hyatt D et al. Prodigal: prokaryotic gene recognition and translation initiation site identification. BMC Bioinformatics. 2010 Mar 8;11:119.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;TBL2ASN&lt;/strong&gt; Prepare sequence records for Genbank submission &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/genbank/tbl2asn2/&quot;&gt;Tbl2asn home page&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Recommended&lt;/h3&gt; 
+&lt;ul&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;Aragorn&lt;/strong&gt;&lt;br&gt; Finds transfer RNA features (tRNA)&lt;br&gt; &lt;em&gt;Laslett D, Canback B. ARAGORN, a program to detect tRNA genes and tmRNA genes in nucleotide sequences. Nucleic Acids Res. 2004 Jan 2;32(1):11-6.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;Barrnap&lt;/strong&gt;&lt;br&gt; Used to predict ribosomal RNA features (rRNA). My licence-free replacement for RNAmmmer.&lt;br&gt; &lt;em&gt;Manuscript under preparation.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;HMMER3&lt;/strong&gt;&lt;br&gt; Used for similarity searching against protein family profiles&lt;br&gt; &lt;em&gt;Finn RD et al. HMMER web server: interactive sequence similarity searching. Nucleic Acids Res. 2011 Jul;39(Web Server issue):W29-37.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Optional&lt;/h3&gt; 
+&lt;ul&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;minced&lt;/strong&gt;&lt;br&gt; Finds CRISPR arrays &lt;a href=&quot;https://github.com/ctSkennerton/minced&quot;&gt;Minced home page&lt;/a&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;RNAmmer&lt;/strong&gt;&lt;br&gt; Finds ribosomal RNA features (rRNA)&lt;br&gt; &lt;em&gt;Lagesen K et al. RNAmmer: consistent and rapid annotation of ribosomal RNA genes. Nucleic Acids Res. 2007;35(9):3100-8.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;SignalP&lt;/strong&gt;&lt;br&gt; Finds signal peptide features in CDS (sig_peptide)&lt;br&gt; &lt;em&gt;Petersen TN et al. SignalP 4.0: discriminating signal peptides from transmembrane regions. Nat Methods. 2011 Sep 29;8(10):785-6.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; 
+ &lt;li&gt; &lt;p&gt;&lt;strong&gt;Infernal&lt;/strong&gt;&lt;br&gt; Used for similarity searching against ncRNA family profiles&lt;br&gt; &lt;em&gt;D. L. Kolbe, S. R. Eddy. Fast Filtering for RNA Homology Search. Bioinformatics, 27:3102-3109, 2011.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h1&gt;Licence&lt;/h1&gt; 
+&lt;p&gt;&lt;a href=&quot;https://raw.githubusercontent.com/tseemann/prokka/master/doc/LICENSE.Prokka&quot;&gt;GPL v3&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Author&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Torsten Seemann&lt;/li&gt; 
+ &lt;li&gt;Web: &lt;a href=&quot;https://tseemann.github.io/&quot;&gt;https://tseemann.github.io/&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;Twitter: &lt;a href=&quot;https://twitter.com/torstenseemann&quot;&gt;@torstenseemann&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;Blog: &lt;a href=&quot;https://thegenomefactory.blogspot.com/&quot;&gt;The Genome Factory&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

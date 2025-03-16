@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>GitHub CSS Daily Trending</title>
+    <description>Daily Trending of CSS in GitHub</description>
+    <pubDate>Sun, 16 Mar 2025 01:30:10 GMT</pubDate>
+    <link>http://mshibanami.github.io/GitHubTrendingRSS</link>
+    
+    <item>
+      <title>barryclark/jekyll-now</title>
+      <link>https://github.com/barryclark/jekyll-now</link>
+      <description>&lt;p&gt;Build a Jekyll blog in minutes, without touching the command line.&lt;/p&gt;&lt;hr&gt;&lt;blockquote&gt; 
+ &lt;p&gt;March, 2016: If you&#39;re on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by &lt;a href=&quot;https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0&quot;&gt;Jekyll 3 and GitHub Pages updates&lt;/a&gt;, just &lt;span&gt;✨&lt;/span&gt;&lt;a href=&quot;https://github.com/barryclark/jekyll-now/pull/445/files&quot;&gt;update your _config.yml&lt;/a&gt;&lt;span&gt;✨&lt;/span&gt; and you&#39;ll be set!&lt;/p&gt; 
+&lt;/blockquote&gt; 
+&lt;h1&gt;Jekyll Now&lt;/h1&gt; 
+&lt;p&gt;&lt;strong&gt;Jekyll&lt;/strong&gt; is a static site generator that&#39;s perfect for GitHub hosted blogs (&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll Repository&lt;/a&gt;)&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Jekyll Now&lt;/strong&gt; makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;You don&#39;t need to touch the command line&lt;/li&gt; 
+ &lt;li&gt;You don&#39;t need to install/configure ruby, rvm/rbenv, ruby gems &lt;span&gt;☺&lt;/span&gt;&lt;/li&gt; 
+ &lt;li&gt;You don&#39;t need to install runtime dependencies like markdown processors, Pygments, etc&lt;/li&gt; 
+ &lt;li&gt;If you&#39;re on Windows, this will make setting up Jekyll a lot easier&lt;/li&gt; 
+ &lt;li&gt;It&#39;s easy to try out, you can just delete your forked repository if you don&#39;t like it&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;In a few minutes you&#39;ll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-now-theme-screenshot.jpg&quot; alt=&quot;Jekyll Now Theme Screenshot&quot; title=&quot;Jekyll Now Theme Screenshot&quot;&gt;&lt;/p&gt; 
+&lt;h2&gt;Quick Start&lt;/h2&gt; 
+&lt;h3&gt;Step 1) Fork Jekyll Now to your User Repository&lt;/h3&gt; 
+&lt;p&gt;Fork this repo, then rename the repository to yourgithubusername.github.io.&lt;/p&gt; 
+&lt;p&gt;Your Jekyll blog will often be viewable immediately at &lt;a href=&quot;https://yourgithubusername.github.io&quot;&gt;https://yourgithubusername.github.io&lt;/a&gt; (if it&#39;s not, you can often force it to build by completing step 2)&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/step1.gif&quot; alt=&quot;Step 1&quot; title=&quot;Step 1&quot;&gt;&lt;/p&gt; 
+&lt;h3&gt;Step 2) Customize and view your site&lt;/h3&gt; 
+&lt;p&gt;Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.&lt;/p&gt; 
+&lt;p&gt;Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at &lt;a href=&quot;https://yourgithubusername.github.io&quot;&gt;https://yourgithubusername.github.io&lt;/a&gt; - if not, give it ten minutes as GitHub suggests and it&#39;ll appear soon&lt;/p&gt; 
+&lt;blockquote&gt; 
+ &lt;p&gt;There are 3 different ways that you can make changes to your blog&#39;s files:&lt;/p&gt; 
+&lt;/blockquote&gt; 
+&lt;blockquote&gt; 
+ &lt;ol&gt; 
+  &lt;li&gt;Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).&lt;/li&gt; 
+  &lt;li&gt;Use a third party GitHub content editor, like &lt;a href=&quot;http://prose.io&quot;&gt;Prose by Development Seed&lt;/a&gt;. It&#39;s optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.&lt;/li&gt; 
+  &lt;li&gt;Clone down your repository and make updates locally, then push them to your GitHub repository.&lt;/li&gt; 
+ &lt;/ol&gt; 
+&lt;/blockquote&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/config.png&quot; alt=&quot;_config.yml&quot; title=&quot;_config.yml&quot;&gt;&lt;/p&gt; 
+&lt;h3&gt;Step 3) Publish your first blog post&lt;/h3&gt; 
+&lt;p&gt;Edit &lt;code&gt;/_posts/2014-3-3-Hello-World.md&lt;/code&gt; to publish your first blog post. This &lt;a href=&quot;http://www.jekyllnow.com/Markdown-Style-Guide/&quot;&gt;Markdown Cheatsheet&lt;/a&gt; might come in handy.&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/first-post.png&quot; alt=&quot;First Post&quot; title=&quot;First Post&quot;&gt;&lt;/p&gt; 
+&lt;blockquote&gt; 
+ &lt;p&gt;You can add additional posts in the browser on GitHub.com too! Just hit the + icon in &lt;code&gt;/_posts/&lt;/code&gt; to create new content. Just make sure to include the &lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot;&gt;front-matter&lt;/a&gt; block at the top of each new blog post and make sure the post&#39;s filename is in this format: year-month-day-title.md&lt;/p&gt; 
+&lt;/blockquote&gt; 
+&lt;h2&gt;Local Development&lt;/h2&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;Install Jekyll and plug-ins in one fell swoop. &lt;code&gt;gem install github-pages&lt;/code&gt; This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.&lt;/li&gt; 
+ &lt;li&gt;Clone down your fork &lt;code&gt;git clone https://github.com/yourusername/yourusername.github.io.git&lt;/code&gt;&lt;/li&gt; 
+ &lt;li&gt;Serve the site and watch for markup/sass changes &lt;code&gt;jekyll serve&lt;/code&gt;&lt;/li&gt; 
+ &lt;li&gt;View your website at &lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;h2&gt;Moar!&lt;/h2&gt; 
+&lt;p&gt;I&#39;ve created a more detailed walkthrough, &lt;a href=&quot;http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/&quot;&gt;&lt;strong&gt;Build A Blog With Jekyll And GitHub Pages&lt;/strong&gt;&lt;/a&gt; over at the Smashing Magazine website. Check it out if you&#39;d like a more detailed walkthrough and some background on Jekyll. &lt;span&gt;🤘&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;It covers:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;A more detailed walkthrough of setting up your Jekyll blog&lt;/li&gt; 
+ &lt;li&gt;Common issues that you might encounter while using Jekyll&lt;/li&gt; 
+ &lt;li&gt;Importing from Wordpress, using your own domain name, and blogging in your favorite editor&lt;/li&gt; 
+ &lt;li&gt;Theming in Jekyll, with Liquid templating examples&lt;/li&gt; 
+ &lt;li&gt;A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Jekyll Now Features&lt;/h2&gt; 
+&lt;p&gt;✓ Command-line free &lt;em&gt;fork-first workflow&lt;/em&gt;, using GitHub.com to create, customize and post to your blog&lt;br&gt; ✓ Fully responsive and mobile optimized base theme (&lt;strong&gt;&lt;a href=&quot;http://jekyllnow.com&quot;&gt;Theme Demo&lt;/a&gt;&lt;/strong&gt;)&lt;br&gt; ✓ Sass/Coffeescript support using Jekyll 2.0&lt;br&gt; ✓ Free hosting on your GitHub Pages user site&lt;br&gt; ✓ Markdown blogging&lt;br&gt; ✓ Syntax highlighting&lt;br&gt; ✓ Disqus commenting&lt;br&gt; ✓ Google Analytics integration&lt;br&gt; ✓ SVG social icons for your footer&lt;br&gt; ✓ 3 http requests, including your avatar&lt;/p&gt; 
+&lt;p&gt;✘ No installing dependencies ✘ No need to set up local development&lt;br&gt; ✘ No configuring plugins&lt;br&gt; ✘ No need to spend time on theming&lt;br&gt; ✘ More time to code other things ... wait ✓!&lt;/p&gt; 
+&lt;h2&gt;Questions?&lt;/h2&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/barryclark/jekyll-now/issues/new&quot;&gt;Open an Issue&lt;/a&gt; and let&#39;s chat!&lt;/p&gt; 
+&lt;h2&gt;Other forkable themes&lt;/h2&gt; 
+&lt;p&gt;You can use the &lt;a href=&quot;https://github.com/barryclark/jekyll-now#quick-start&quot;&gt;Quick Start&lt;/a&gt; workflow with other themes that are set up to be forked too! Here are some of my favorites:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/poole/hyde&quot;&gt;Hyde&lt;/a&gt; by MDO&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;Lanyon&lt;/a&gt; by MDO&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/mojombo/mojombo.github.io&quot;&gt;mojombo.github.io&lt;/a&gt; by Tom Preston-Werner&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/holman/left&quot;&gt;Left&lt;/a&gt; by Zach Holman&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes&quot;&gt;Minimal Mistakes&lt;/a&gt; by Michael Rose&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/skinny-bones-jekyll&quot;&gt;Skinny Bones&lt;/a&gt; by Michael Rose&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Credits&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&lt;/a&gt; - Thanks to its creators, contributors and maintainers.&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/neilorangepeel/Free-Social-Icons&quot;&gt;SVG icons&lt;/a&gt; - Thanks, Neil Orange Peel. They&#39;re beautiful.&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://gist.github.com/edwardhotchkiss/2005058&quot;&gt;Solarized Light Pygments&lt;/a&gt; - Thanks, Edward.&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;http://joelglovier.com/writing/&quot;&gt;Joel Glovier&lt;/a&gt; - Great Jekyll articles. I used Joel&#39;s feed.xml in this repository.&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/dfurnes&quot;&gt;David Furnes&lt;/a&gt;, &lt;a href=&quot;https://github.com/jonuy&quot;&gt;Jon Uy&lt;/a&gt;, &lt;a href=&quot;https://github.com/lkpttn&quot;&gt;Luke Patton&lt;/a&gt; - Thanks for the design/code reviews.&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://github.com/bkiers&quot;&gt;Bart Kiers&lt;/a&gt;, &lt;a href=&quot;https://github.com/vermluh&quot;&gt;Florian Simon&lt;/a&gt;, &lt;a href=&quot;https://github.com/henryaj&quot;&gt;Henry Stanley&lt;/a&gt;, &lt;a href=&quot;https://github.com/hunjaelee&quot;&gt;Hun Jae Lee&lt;/a&gt;, &lt;a href=&quot;https://github.com/javiercejudo&quot;&gt;Javier Cejudo&lt;/a&gt;, &lt;a href=&quot;https://github.com/etelej&quot;&gt;Peter Etelej&lt;/a&gt;, &lt;a href=&quot;https://github.com/jaminscript&quot;&gt;Ben Abbott&lt;/a&gt;, &lt;a href=&quot;https://github.com/rnicholus&quot;&gt;Ray Nicholus&lt;/a&gt;, &lt;a href=&quot;https://github.com/eringrand&quot;&gt;Erin Grand&lt;/a&gt;, &lt;a href=&quot;https://github.com/LeoColomb&quot;&gt;Léo Colombaro&lt;/a&gt;, &lt;a href=&quot;https://github.com/daattali&quot;&gt;Dean Attali&lt;/a&gt;, &lt;a href=&quot;https://github.com/cjerrington&quot;&gt;Clayton Errington&lt;/a&gt;, &lt;a href=&quot;https://github.com/coltonfitzgerald&quot;&gt;Colton Fitzgerald&lt;/a&gt;, &lt;a href=&quot;https://github.com/sunnankar&quot;&gt;Trace Mayer&lt;/a&gt; - Thanks for your &lt;a href=&quot;https://github.com/barryclark/jekyll-now/commits/master&quot;&gt;fantastic contributions&lt;/a&gt; to the project!&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Contributing&lt;/h2&gt; 
+&lt;p&gt;Issues and Pull Requests are greatly appreciated. If you&#39;ve never contributed to an open source project before I&#39;m more than happy to walk you through how to create a pull request.&lt;/p&gt; 
+&lt;p&gt;You can start by &lt;a href=&quot;https://github.com/barryclark/jekyll-now/issues/new&quot;&gt;opening an issue&lt;/a&gt; describing the problem that you&#39;re looking to resolve and we&#39;ll go from there.&lt;/p&gt; 
+&lt;p&gt;I want to keep Jekyll Now as minimal as possible. Every line of code should be one that&#39;s useful to 90% of the people using it. Please bear that in mind when submitting feature requests. If it&#39;s not something that most people will use, it probably won&#39;t get merged. &lt;span&gt;💂♂&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>jgthms/bulma</title>
+      <link>https://github.com/jgthms/bulma</link>
+      <description>&lt;p&gt;Modern CSS framework based on Flexbox&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;&lt;a href=&quot;https://bulma.io&quot;&gt;Bulma&lt;/a&gt;&lt;/h1&gt; 
+&lt;p&gt;Bulma is a &lt;strong&gt;modern CSS framework&lt;/strong&gt; based on &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes&quot;&gt;Flexbox&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/v/release/jgthms/bulma?logo=Bulma&quot; alt=&quot;Github&quot;&gt; &lt;a href=&quot;https://www.npmjs.com/package/bulma&quot;&gt;&lt;img src=&quot;https://img.shields.io/npm/v/bulma.svg?sanitize=true&quot; alt=&quot;npm&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://www.npmjs.com/package/bulma&quot;&gt;&lt;img src=&quot;https://img.shields.io/npm/dm/bulma.svg?sanitize=true&quot; alt=&quot;npm&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://www.jsdelivr.com/package/npm/bulma&quot;&gt;&lt;img src=&quot;https://data.jsdelivr.com/v1/package/npm/bulma/badge&quot; alt=&quot;&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/awesome-css-group/awesome-css&quot;&gt;&lt;img src=&quot;https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg?sanitize=true&quot; alt=&quot;Awesome&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://gitter.im/jgthms/bulma&quot;&gt;&lt;img src=&quot;https://badges.gitter.im/jgthms/bulma.svg?sanitize=true&quot; alt=&quot;Join the chat at https://gitter.im/jgthms/bulma&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://travis-ci.org/jgthms/bulma&quot;&gt;&lt;img src=&quot;https://travis-ci.org/jgthms/bulma.svg?branch=master&quot; alt=&quot;Build Status&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://bulma.io&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/jgthms/bulma/master/docs/images/bulma-banner.png&quot; alt=&quot;Bulma: a Flexbox CSS framework&quot; style=&quot;max-width:100%;&quot; width=&quot;600&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Quick install&lt;/h2&gt; 
+&lt;p&gt;Bulma is constantly in development! Try it out now:&lt;/p&gt; 
+&lt;h3&gt;NPM&lt;/h3&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-sh&quot;&gt;npm install bulma
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;strong&gt;or&lt;/strong&gt;&lt;/p&gt; 
+&lt;h3&gt;Yarn&lt;/h3&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-sh&quot;&gt;yarn add bulma
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Bower&lt;/h3&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-sh&quot;&gt;bower install bulma
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Import&lt;/h3&gt; 
+&lt;p&gt;After installation, you can import the CSS file into your project using this snippet:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-sh&quot;&gt;@import &#39;bulma/css/bulma.css&#39;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;CDN&lt;/h3&gt; 
+&lt;p&gt;&lt;a href=&quot;https://www.jsdelivr.com/package/npm/bulma&quot;&gt;https://www.jsdelivr.com/package/npm/bulma&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Feel free to raise an issue or submit a pull request.&lt;/p&gt; 
+&lt;h2&gt;CSS only&lt;/h2&gt; 
+&lt;p&gt;Bulma is a &lt;strong&gt;CSS&lt;/strong&gt; framework. As such, the sole output is a single CSS file: &lt;a href=&quot;https://github.com/jgthms/bulma/raw/main/css/bulma.css&quot;&gt;bulma.css&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;You can either use that file, &quot;out of the box&quot;, or download the Sass source files to customize the &lt;a href=&quot;https://bulma.io/documentation/customize/#docsNav&quot;&gt;variables&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;There is &lt;strong&gt;no&lt;/strong&gt; JavaScript included. People generally want to use their own JS implementation (and usually already have one). Bulma can be considered &quot;environment agnostic&quot;: it&#39;s just the style layer on top of the logic.&lt;/p&gt; 
+&lt;h2&gt;Browser Support&lt;/h2&gt; 
+&lt;p&gt;Bulma uses &lt;a href=&quot;https://github.com/postcss/autoprefixer&quot;&gt;autoprefixer&lt;/a&gt; to make (most) Flexbox features compatible with earlier browser versions. According to &lt;a href=&quot;https://caniuse.com/#feat=flexbox&quot;&gt;Can I use&lt;/a&gt;, Bulma is compatible with &lt;strong&gt;recent&lt;/strong&gt; versions of:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Chrome&lt;/li&gt; 
+ &lt;li&gt;Edge&lt;/li&gt; 
+ &lt;li&gt;Firefox&lt;/li&gt; 
+ &lt;li&gt;Opera&lt;/li&gt; 
+ &lt;li&gt;Safari&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Internet Explorer (10+) is only partially supported.&lt;/p&gt; 
+&lt;h2&gt;Documentation&lt;/h2&gt; 
+&lt;p&gt;The documentation resides in the &lt;a href=&quot;https://raw.githubusercontent.com/jgthms/bulma/main/docs&quot;&gt;docs&lt;/a&gt; directory, and is built with the Ruby-based &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; tool.&lt;/p&gt; 
+&lt;p&gt;Browse the &lt;a href=&quot;https://bulma.io/documentation/start/overview/&quot;&gt;online documentation here.&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Related projects&lt;/h2&gt; 
+&lt;table&gt; 
+ &lt;thead&gt; 
+  &lt;tr&gt; 
+   &lt;th&gt;Project&lt;/th&gt; 
+   &lt;th&gt;Description&lt;/th&gt; 
+  &lt;/tr&gt; 
+ &lt;/thead&gt; 
+ &lt;tbody&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/j5bot/bulma-attribute-selectors&quot;&gt;Bulma with Attribute Modules&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Adds support for attribute-based selectors&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/joshuajansen/bulma-rails&quot;&gt;Bulma with Rails&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Integrates Bulma with the rails asset pipeline&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/loogn/bulmarazor&quot;&gt;BulmaRazor&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;A lightweight component library based on Bulma and Blazor.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/vue-bulma/vue-admin&quot;&gt;Vue Admin (dead)&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Vue Admin framework powered by Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/jenil/bulmaswatch&quot;&gt;Bulmaswatch&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Free themes for Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/Caiyeon/goldfish&quot;&gt;Goldfish (read-only)&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Vault UI with Bulma, Golang, and Vue Admin&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/open-tux/ember-bulma&quot;&gt;ember-bulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Ember addon providing a collection of UI components for Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://bloomer.js.org&quot;&gt;Bloomer&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;A set of React components for Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/kulakowka/react-bulma&quot;&gt;React-bulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;React.js components for Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://buefy.org/&quot;&gt;Buefy&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Lightweight UI components for Vue.js based on Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/vouill/vue-bulma-components&quot;&gt;vue-bulma-components&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Bulma components for Vue.js with straightforward syntax&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/VizuaaLOG/BulmaJS&quot;&gt;BulmaJS&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Javascript integration for Bulma. Written in ES6 with a data-* API&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/postare/bulma-modal-fx&quot;&gt;Bulma-modal-fx&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;A set of modal window effects with CSS transitions and animations for Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/groenroos/bulma-stylus&quot;&gt;Bulma Stylus&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Up-to-date 1:1 translation to Stylus&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/log1x/bulma.styl&quot;&gt;Bulma.styl (read-only)&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;1:1 Stylus translation of Bulma 0.6.11&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/surprisetalk/elm-bulma&quot;&gt;elm-bulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Bulma + Elm&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/ahstro/elm-bulma-classes&quot;&gt;elm-bulma-classes&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Bulma classes prepared for usage with Elm&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://bulma-customizer.bstash.io/&quot;&gt;Bulma Customizer&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Bulma Customizer – Create your own &lt;strong&gt;bespoke&lt;/strong&gt; Bulma build&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://fulma.github.io/Fulma/&quot;&gt;Fulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Wrapper around Bulma for &lt;a href=&quot;https://github.com/fable-compiler/fable-react&quot;&gt;fable-react&lt;/a&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/laravel-enso/enso&quot;&gt;Laravel Enso&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;SPA Admin Panel built with Bulma, VueJS and Laravel&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/timonweb/django-bulma&quot;&gt;Django Bulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Integrates Bulma with Django&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/dansup/bulma-templates&quot;&gt;Bulma Templates&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Free Templates for Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/couds/react-bulma-components&quot;&gt;React Bulma Components&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Another React wrap on React for Bulma.io&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/sectore/purescript-bulma&quot;&gt;purescript-bulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;PureScript bindings for Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/laravel-enso/vuedatatable&quot;&gt;Vue Datatable&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Bulma themed datatable based on Vue, Laravel &amp;amp; JSON templates&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://mubaidr.github.io/bulma-fluent/&quot;&gt;bulma-fluent&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Fluent Design Theme for Bulma inspired by Microsoft’s Fluent Design System&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/4d11/csskrt-csskrt&quot;&gt;csskrt-csskrt&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Automatically add Bulma classes to HTML files&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/hipstersmoothie/bulma-pagination-react&quot;&gt;bulma-pagination-react&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Bulma pagination as a react component&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/jmaczan/bulma-helpers&quot;&gt;bulma-helpers&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Functional / Atomic CSS classes for Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/hipstersmoothie/bulma-swatch-hook&quot;&gt;bulma-swatch-hook&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Bulma swatches as a react hook and a component&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/tomhrtly/BulmaWP&quot;&gt;BulmaWP (read-only)&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Starter WordPress theme for Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/aldi/ralma&quot;&gt;Ralma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Stateless Ractive.js Components for Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/python-discord/django-simple-bulma&quot;&gt;Django Simple Bulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Lightweight integration of Bulma and Bulma-Extensions for your Django app&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://dfee.github.io/rbx&quot;&gt;rbx&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Comprehensive React UI Framework written in TypeScript&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/aldi/awesome-bulma-templates&quot;&gt;Awesome Bulma Templates&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Free real-world Templates built with Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/fibo/trunx&quot;&gt;Trunx&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Super Saiyan React components, son of awesome Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/web-padawan/aybolit/tree/master/packages/bulma&quot;&gt;@aybolit/bulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Web Components library inspired by Bulma and Bulma-extensions&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://www.drupal.org/project/drulma&quot;&gt;Drulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Drupal theme for Bulma.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/textbook/bulrush&quot;&gt;Bulrush&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;A Bulma-based Python Pelican blog theme&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/service-paradis/bulma-variables-export&quot;&gt;Bulma Variable Export&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Access Bulma Variables in Javascript/Typescript in project using Webpack&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/gomah/bulmil&quot;&gt;Bulmil&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;An agnostic UI components library based on Web Components, made with Bulma &amp;amp; Stencil.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/elcobvg/svelte-bulma-components&quot;&gt;Svelte Bulma Components&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Library of UI components to be used in &lt;a href=&quot;https://svelte.technology/&quot;&gt;Svelte.js&lt;/a&gt; or standalone.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/benninkcorien/nunjucks-starter-kit&quot;&gt;Bulma Nunjucks Starterkit&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Starterkit for Nunjucks with Bulma.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/aldi/bulma-social&quot;&gt;Bulma-Social&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Social Buttons and Colors for Bulma&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://divjoy.com/?kit=bulma&quot;&gt;Divjoy&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;React codebase generator with Bulma templates&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/Megabit/Blazorise&quot;&gt;Blazorise&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Blazor component library with the support for Bulma CSS framework&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/oruga-ui/theme-bulma&quot;&gt;Oruga-Bulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Bulma theme for &lt;a href=&quot;https://oruga.io&quot;&gt;Oruga UI&lt;/a&gt;&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/daniil4udo/bulvar/tree/master/packages/bulma&quot;&gt;@bulvar/bulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Bulma with &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties&quot;&gt;CSS Variables&lt;/a&gt; support&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://quinnjr.github.io/angular-bulma&quot;&gt;@angular-bulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://angular.io/&quot;&gt;Angular&lt;/a&gt; directives and components to use in your Bulma projects&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/eliutdev/bulma-css-class-completion&quot;&gt;Bulma CSS Class Completion&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;CSS class name completion for the HTML class attribute based on Bulma CSS classes.&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/ckrybus/crispy-bulma&quot;&gt;Crispy-Bulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Bulma template pack for django-crispy-forms&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://manifest.build&quot;&gt;Manifest&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;Manifest is a lightweight Backend-as-a-Service with essential features: DB, Admin panel, API, JS SDK&lt;/td&gt; 
+  &lt;/tr&gt; 
+  &lt;tr&gt; 
+   &lt;td&gt;&lt;a href=&quot;https://github.com/NicolasOmar/reactive-bulma&quot;&gt;Reactive Bulma&lt;/a&gt;&lt;/td&gt; 
+   &lt;td&gt;A component library based on React, Bulma, Typescript and Rollup&lt;/td&gt; 
+  &lt;/tr&gt; 
+ &lt;/tbody&gt; 
+&lt;/table&gt; 
+&lt;p&gt;Browser testing via&lt;br&gt;&lt;a href=&quot;https://www.lambdatest.com/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://bulma.io/assets/images/amis/lambdatest-logo.png&quot; width=&quot;168&quot; height=&quot;40&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Copyright and license &lt;img src=&quot;https://img.shields.io/github/license/jgthms/bulma?logo=Github&quot; alt=&quot;Github&quot;&gt;&lt;/h2&gt; 
+&lt;p&gt;Code copyright 2023 Jeremy Thomas. Code released under &lt;a href=&quot;https://github.com/jgthms/bulma/raw/main/LICENSE&quot;&gt;the MIT license&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>lipis/flag-icons</title>
+      <link>https://github.com/lipis/flag-icons</link>
+      <description>&lt;p&gt;🎏 A curated collection of all country flags in SVG — plus the CSS for easier integration&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;flag-icons&lt;/h1&gt; 
+&lt;blockquote&gt; 
+ &lt;p&gt;A curated collection of all country flags in SVG — plus the CSS for easier integration. See the &lt;a href=&quot;https://flagicons.lipis.dev&quot;&gt;demo&lt;/a&gt;.&lt;/p&gt; 
+&lt;/blockquote&gt; 
+&lt;h2&gt;Install&lt;/h2&gt; 
+&lt;p&gt;You can either &lt;a href=&quot;https://github.com/lipis/flag-icons/archive/main.zip&quot;&gt;download&lt;/a&gt; the whole project as is or install it via npm or Yarn:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;npm install flag-icons
+# or
+yarn add flag-icons
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Usage&lt;/h2&gt; 
+&lt;p&gt;First, you need to import css:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;import &quot;/node_modules/flag-icons/css/flag-icons.min.css&quot;;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;or use CDN:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;link
+  rel=&quot;stylesheet&quot;
+  href=&quot;https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css&quot;
+/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;For using the flags inline with text add the classes &lt;code&gt;.fi&lt;/code&gt; and &lt;code&gt;.fi-xx&lt;/code&gt; (where &lt;code&gt;xx&lt;/code&gt; is the &lt;a href=&quot;https://www.iso.org/obp/ui/#search/code/&quot;&gt;ISO 3166-1-alpha-2 code&lt;/a&gt; of a country) to an empty &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;. If you want to have a squared version flag then add the class &lt;code&gt;fis&lt;/code&gt; as well. Example:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;span class=&quot;fi fi-gr&quot;&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;span class=&quot;fi fi-gr fis&quot;&amp;gt;&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;You could also apply this to any element, but in that case you&#39;ll have to use the &lt;code&gt;fib&lt;/code&gt; instead of &lt;code&gt;fi&lt;/code&gt; and you&#39;re set. This will add the correct background with the following CSS properties:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;background-size: contain;
+background-position: 50%;
+background-repeat: no-repeat;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Which means that the flag is just going to appear in the middle of an element, so you will have to set manually the correct size of 4 by 3 ratio or if it&#39;s squared add also the &lt;code&gt;flag-icon-squared&lt;/code&gt; class.&lt;/p&gt; 
+&lt;h2&gt;Development&lt;/h2&gt; 
+&lt;p&gt;Run the &lt;code&gt;yarn&lt;/code&gt; to install the dependencies after cloning the project and you&#39;ll be able to:&lt;/p&gt; 
+&lt;p&gt;To build &lt;code&gt;*.scss&lt;/code&gt; files&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;$ yarn build
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;To serve it on &lt;code&gt;localhost:8000&lt;/code&gt;&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;$ yarn start
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;To have only specific countries in the css file, remove the ones that you don&#39;t need from the &lt;a href=&quot;https://raw.githubusercontent.com/lipis/flag-icons/main/sass/_flag-icons-list.scss&quot;&gt;&lt;code&gt;_flag-icons-list.scss&lt;/code&gt;&lt;/a&gt; file and build it again.&lt;/p&gt; 
+&lt;h2&gt;Credits&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;This project wouldn&#39;t exist without the awesome and now deleted collection of SVG flags by &lt;a href=&quot;https://github.com/koppi&quot;&gt;koppi&lt;/a&gt;.&lt;/li&gt; 
+ &lt;li&gt;Thank you &lt;a href=&quot;https://twitter.com/andrejsabrickis&quot;&gt;Andrejs Abrickis&lt;/a&gt; for providing the &lt;code&gt;flag-icons&lt;/code&gt; name on &lt;a href=&quot;https://www.npmjs.com/package/flag-icons&quot;&gt;npm&lt;/a&gt;.&lt;/li&gt; 
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>jothepro/doxygen-awesome-css</title>
+      <link>https://github.com/jothepro/doxygen-awesome-css</link>
+      <description>&lt;p&gt;Custom CSS theme for doxygen html-documentation with lots of customization parameters.&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;Doxygen Awesome&lt;/h1&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/jothepro/doxygen-awesome-css/releases/latest&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/v/release/jothepro/doxygen-awesome-css&quot; alt=&quot;GitHub release (latest by date)&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/jothepro/doxygen-awesome-css/raw/main/LICENSE&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/license/jothepro/doxygen-awesome-css&quot; alt=&quot;GitHub&quot;&gt;&lt;/a&gt; &lt;img src=&quot;https://img.shields.io/github/stars/jothepro/doxygen-awesome-css&quot; alt=&quot;GitHub Repo stars&quot;&gt;&lt;/p&gt; 
+&lt;div class=&quot;title_screenshot&quot;&gt; 
+ &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/jothepro/doxygen-awesome-css/main/img/screenshot.png&quot; alt=&quot;Screenshot of Doxygen Awesome CSS&quot;&gt;&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&lt;strong&gt;Doxygen Awesome&lt;/strong&gt; is a custom CSS theme for Doxygen HTML documentation with lots of customization parameters.&lt;/p&gt; 
+&lt;h2&gt;Motivation&lt;/h2&gt; 
+&lt;p&gt;I really like how the Doxygen HTML documentation is structured! But IMHO it looks a bit outdated.&lt;/p&gt; 
+&lt;p&gt;This theme is an attempt to update the visuals of Doxygen without changing its overall layout too much.&lt;/p&gt; 
+&lt;h2&gt;Features&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;🌈 Clean, modern design&lt;/li&gt; 
+ &lt;li&gt;🚀 Heavily customizable by adjusting CSS variables&lt;/li&gt; 
+ &lt;li&gt;🧩 No changes to the HTML structure of Doxygen are required&lt;/li&gt; 
+ &lt;li&gt;📱 Improved mobile usability&lt;/li&gt; 
+ &lt;li&gt;🌘 Dark mode support!&lt;/li&gt; 
+ &lt;li&gt;🥇 Works best with &lt;strong&gt;doxygen 1.9.1&lt;/strong&gt; - &lt;strong&gt;1.9.4&lt;/strong&gt; and &lt;strong&gt;1.9.6&lt;/strong&gt; - &lt;strong&gt;1.12.0&lt;/strong&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Examples&lt;/h2&gt; 
+&lt;p&gt;Some websites using this theme:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://jothepro.github.io/doxygen-awesome-css/&quot;&gt;Documentation of this repository&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://docs.wxwidgets.org/3.2/&quot;&gt;wxWidgets&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://docs.opencv.org/5.x/&quot;&gt;OpenCV 5.x&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://docs.zephyrproject.org/latest/doxygen/html/index.html&quot;&gt;Zephyr&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://mwiesenberger.github.io/feltor/dg/html/modules.html&quot;&gt;FELTOR&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://leomccormack.github.io/Spatial_Audio_Framework/index.html&quot;&gt;Spatial Audio Framework (SAF)&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://www.randolf.ca/c++/docs/&quot;&gt;Randolf Richardson&#39;s C++ classes&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://jothepro.github.io/libCloudSync/&quot;&gt;libCloudSync&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://a4z.github.io/libsl3/&quot;&gt;libsl3&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;p&gt;To use the theme when generating your documentation, bring the required CSS and JS files from this repository into your project.&lt;/p&gt; 
+&lt;p&gt;This can be done in several ways:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;manually copying the files&lt;/li&gt; 
+ &lt;li&gt;adding the project as a Git submodule&lt;/li&gt; 
+ &lt;li&gt;downloading the project with CMake FetchContent&lt;/li&gt; 
+ &lt;li&gt;adding the project as a npm/xpm dependency&lt;/li&gt; 
+ &lt;li&gt;installing the theme system-wide&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;All theme files are located in the root of this repository and start with the prefix &lt;code&gt;doxygen-awesome-&lt;/code&gt;. You may not need all of them. Follow the install instructions to figure out what files are required for your setup.&lt;/p&gt; 
+&lt;h3&gt;Git submodule&lt;/h3&gt; 
+&lt;p&gt;For projects that use git, add the repository as a submodule and check out the desired release:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-sh&quot;&gt;git submodule add https://github.com/jothepro/doxygen-awesome-css.git
+cd doxygen-awesome-css
+git checkout v2.3.4
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;CMake with FetchContent&lt;/h3&gt; 
+&lt;p&gt;For project that build with CMake, the &lt;code&gt;FetchContent&lt;/code&gt; module can be used to download the repository at configure-time.&lt;/p&gt; 
+&lt;p&gt;Add the following snippet to your &lt;code&gt;CMakeLists.txt&lt;/code&gt;&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-cmake&quot;&gt;include(FetchContent)
+FetchContent_Declare(
+    doxygen-awesome-css
+    URL https://github.com/jothepro/doxygen-awesome-css/archive/refs/heads/main.zip
+)
+FetchContent_MakeAvailable(doxygen-awesome-css)
+
+# Save the location the files were cloned into
+# This allows us to get the path to doxygen-awesome.css
+FetchContent_GetProperties(doxygen-awesome-css SOURCE_DIR AWESOME_CSS_DIR)
+
+# Generate the Doxyfile
+set(DOXYFILE_IN ${CMAKE_CURRENT_SOURCE_DIR}/doc/Doxyfile.in)
+set(DOXYFILE_OUT ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile)
+configure_file(${DOXYFILE_IN} ${DOXYFILE_OUT} @ONLY)
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;This downloads the latest main (but any other revision could be used) and unpacks in the build folder. The &lt;code&gt;Doxyfile.in&lt;/code&gt; can reference this location in the &lt;code&gt;HTML_EXTRA_STYLESHEET&lt;/code&gt; field&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;HTML_EXTRA_STYLESHEET  = @AWESOME_CSS_DIR@/doxygen-awesome.css
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;When the configure stage of CMake is run, the &lt;code&gt;Doxyfile.in&lt;/code&gt; is rendered to Doxyfile and Doxygen can be run as usual.&lt;/p&gt; 
+&lt;h3&gt;npm/xpm dependency&lt;/h3&gt; 
+&lt;p&gt;In the npm ecosystem, this project can be added as a development dependency to your project:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-sh&quot;&gt;cd your-project
+npm install https://github.com/jothepro/doxygen-awesome-css#v2.3.4 --save-dev
+
+ls -l node_module/@jothepro/doxygen-awesome-css
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Similarly, in the &lt;a href=&quot;https://xpack.github.io&quot;&gt;xPack&lt;/a&gt; ecosystem, this project can be added as a development dependency to an &lt;a href=&quot;https://xpack.github.io/xpm/&quot;&gt;&lt;code&gt;xpm&lt;/code&gt;&lt;/a&gt; managed project.&lt;/p&gt; 
+&lt;h3&gt;System-wide&lt;/h3&gt; 
+&lt;p&gt;You can even install the theme system-wide by running &lt;code&gt;make install&lt;/code&gt;. The files will be installed to &lt;code&gt;/usr/local/share/&lt;/code&gt; by default, but you can customize the install location with &lt;code&gt;make PREFIX=/my/custom/path install&lt;/code&gt;.&lt;/p&gt; 
+&lt;h3&gt;Choosing a layout&lt;/h3&gt; 
+&lt;p&gt;There are two layout options. Choose one of them and configure Doxygen accordingly:&lt;/p&gt; 
+&lt;div class=&quot;tabbed&quot;&gt; 
+ &lt;ul&gt; 
+  &lt;li&gt; &lt;p&gt;&lt;b class=&quot;tab-title&quot;&gt;Base Theme&lt;/b&gt;&lt;/p&gt;
+   &lt;div class=&quot;darkmode_inverted_image&quot;&gt; 
+    &lt;img src=&quot;https://raw.githubusercontent.com/jothepro/doxygen-awesome-css/main/img/theme-variants-base.drawio.svg?sanitize=true&quot; alt=&quot;&quot;&gt;
+    &lt;p&gt;&lt;/p&gt; 
+   &lt;/div&gt; Comes with the typical Doxygen titlebar. Optionally the treeview in the sidebar can be enabled. &lt;p&gt;Required files: &lt;code&gt;doxygen-awesome.css&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Required &lt;code&gt;Doxyfile&lt;/code&gt; configuration:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;GENERATE_TREEVIEW      = YES # optional. Also works without treeview
+DISABLE_INDEX = NO
+FULL_SIDEBAR = NO
+HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css
+HTML_COLORSTYLE        = LIGHT # required with Doxygen &amp;gt;= 1.9.5
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+  &lt;li&gt; &lt;p&gt;&lt;b class=&quot;tab-title&quot;&gt;Sidebar-Only Theme&lt;/b&gt;&lt;/p&gt;
+   &lt;div class=&quot;darkmode_inverted_image&quot;&gt; 
+    &lt;img src=&quot;https://raw.githubusercontent.com/jothepro/doxygen-awesome-css/main/img/theme-variants-sidebar-only.drawio.svg?sanitize=true&quot; alt=&quot;&quot;&gt;
+    &lt;p&gt;&lt;/p&gt; 
+   &lt;/div&gt; Hides the top titlebar to give more space to the content. The treeview must be enabled in order for this theme to work. &lt;p&gt;Required files: &lt;code&gt;doxygen-awesome.css&lt;/code&gt;, &lt;code&gt;doxygen-awesome-sidebar-only.css&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Required &lt;code&gt;Doxyfile&lt;/code&gt; configuration:&lt;/p&gt; &lt;pre&gt;&lt;code&gt;
+GENERATE_TREEVIEW      = YES # required!
+DISABLE_INDEX          = NO
+FULL_SIDEBAR           = NO
+HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css \
+                        doxygen-awesome-css/doxygen-awesome-sidebar-only.css
+HTML_COLORSTYLE        = LIGHT # required with Doxygen &amp;gt;= 1.9.5
+&lt;/code&gt;&lt;/pre&gt; &lt;/li&gt; 
+ &lt;/ul&gt; 
+&lt;/div&gt; 
+&lt;br&gt; 
+&lt;p&gt;@warning&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;This theme is not compatible with the &lt;code&gt;FULL_SIDEBAR = YES&lt;/code&gt; option provided by Doxygen!&lt;/li&gt; 
+ &lt;li&gt;&lt;code&gt;HTML_COLORSTYLE&lt;/code&gt; must be set to &lt;code&gt;LIGHT&lt;/code&gt; since Doxygen 1.9.5!&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Further installation instructions&lt;/h3&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/jothepro/doxygen-awesome-css/main/docs/extensions.md&quot;&gt;Installing extensions&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/jothepro/doxygen-awesome-css/main/docs/customization.md&quot;&gt;Customizing the theme (colors, spacing, border-radius, ...)&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/jothepro/doxygen-awesome-css/main/docs/tricks.md&quot;&gt;Tips and Tricks for further configuration&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Browser support&lt;/h2&gt; 
+&lt;p&gt;Tested with&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Chrome 119, Chrome 119 for Android, Chrome 119 for iOS&lt;/li&gt; 
+ &lt;li&gt;Safari 17, Safari for iOS 16&lt;/li&gt; 
+ &lt;li&gt;Firefox 118, Firefox 120 for Android, Firefox 119 for iOS&lt;/li&gt; 
+ &lt;li&gt;Edge 119&lt;/li&gt; 
+ &lt;li&gt;Opera 108&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;The theme does not strive to be backward compatible with (significantly) older browser versions.&lt;/p&gt; 
+&lt;h2&gt;Credits&lt;/h2&gt; 
+&lt;p&gt;Thanks for all the bug reports and inspiring feedback on GitHub!&lt;/p&gt; 
+&lt;p&gt;Special thanks to all the contributors: &lt;br&gt;&lt;br&gt; &lt;a href=&quot;https://github.com/jothepro/doxygen-awesome-css/graphs/contributors&quot;&gt; &lt;img src=&quot;https://contrib.rocks/image?repo=jothepro/doxygen-awesome-css&quot;&gt; &lt;/a&gt;&lt;/p&gt; 
+&lt;div class=&quot;section_buttons&quot;&gt; 
+ &lt;table&gt; 
+  &lt;thead&gt; 
+   &lt;tr&gt; 
+    &lt;th align=&quot;right&quot;&gt;Read Next&lt;/th&gt; 
+   &lt;/tr&gt; 
+  &lt;/thead&gt; 
+  &lt;tbody&gt; 
+   &lt;tr&gt; 
+    &lt;td align=&quot;right&quot;&gt;&lt;a href=&quot;https://raw.githubusercontent.com/jothepro/doxygen-awesome-css/main/docs/extensions.md&quot;&gt;Extensions&lt;/a&gt;&lt;/td&gt; 
+   &lt;/tr&gt; 
+  &lt;/tbody&gt; 
+ &lt;/table&gt; 
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>mattvh/jekyllthemes</title>
+      <link>https://github.com/mattvh/jekyllthemes</link>
+      <description>&lt;p&gt;A directory of the best-looking themes for Jekyll blogs&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;Jekyll Themes&lt;/h1&gt; 
+&lt;p&gt;A directory of the best-looking themes for Jekyll blogs&lt;/p&gt; 
+&lt;h2&gt;Submitting a Theme&lt;/h2&gt; 
+&lt;p&gt;Have a theme you want to share?&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Fork the site on GitHub&lt;/li&gt; 
+ &lt;li&gt;Create a new post in the &lt;code&gt;_posts&lt;/code&gt; directory and fill out the relevant YAML fields&lt;/li&gt; 
+ &lt;li&gt;Make a 250x200 thumbnail and drop it in the thumbnails directory. List its filename in the post&#39;s markdown file.&lt;/li&gt; 
+ &lt;li&gt;Test it out, then push your changes up and open a pull request.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;License&lt;/h2&gt; 
+&lt;p&gt;The contents of this repository are licensed under the &lt;a href=&quot;http://www.gnu.org/licenses/gpl-3.0.html&quot;&gt;GNU Public License.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>jdan/98.css</title>
+      <link>https://github.com/jdan/98.css</link>
+      <description>&lt;p&gt;A design system for building faithful recreations of old UIs&lt;/p&gt;&lt;hr&gt;&lt;h2&gt;98.css&lt;/h2&gt; 
+&lt;p&gt;&lt;a href=&quot;http://npm.im/98.css&quot;&gt;&lt;img src=&quot;https://98badges.now.sh/api/version&quot; alt=&quot;npm&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://unpkg.com/98.css&quot;&gt;&lt;img src=&quot;https://98badges.now.sh/api/size&quot; alt=&quot;gzip size&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;A design system for building faithful recreations of old UIs.&lt;/p&gt; 
+&lt;p&gt;&lt;img alt=&quot;a screenshot of a window with the title &#39;My First VB4 Program&#39; and two buttons OK and Cancel, styled like a Windows 98 dialog&quot; src=&quot;https://github.com/jdan/98.css/raw/main/docs/window.png?raw=true&quot; height=&quot;133&quot;&gt; &lt;img alt=&quot;a magnified view showing pixel-perfect borders on a scrollbar and button element&quot; src=&quot;https://github.com/jdan/98.css/raw/main/docs/zoom.png?raw=true?raw=true&quot; height=&quot;133&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;98.css is a CSS file that takes semantic HTML and makes it look pretty. It does not ship with any JavaScript, so it is compatible with your frontend framework of choice.&lt;/p&gt; 
+&lt;p&gt;Be sure to check out &lt;a href=&quot;https://botoxparty.github.io/XP.css/&quot;&gt;XP.css&lt;/a&gt; and &lt;a href=&quot;https://khang-nd.github.io/7.css/&quot;&gt;7.css&lt;/a&gt; as well.&lt;/p&gt; 
+&lt;h3&gt;Installation / Usage&lt;/h3&gt; 
+&lt;p&gt;The easiest way to use 98.css is to import it from &lt;a href=&quot;https://unpkg.com/&quot;&gt;unpkg&lt;/a&gt;.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;title&amp;gt;98.css example&amp;lt;/title&amp;gt;
+  &amp;lt;meta charset=&quot;UTF-8&quot; /&amp;gt;
+  &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/98.css&quot; /&amp;gt;
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+  &amp;lt;div class=&quot;window&quot; style=&quot;margin: 32px; width: 250px&quot;&amp;gt;
+    &amp;lt;div class=&quot;title-bar&quot;&amp;gt;
+      &amp;lt;div class=&quot;title-bar-text&quot;&amp;gt;
+        My First VB4 Program
+      &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;div class=&quot;window-body&quot;&amp;gt;
+      &amp;lt;p&amp;gt;Hello, world!&amp;lt;/p&amp;gt;
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Alternatively, you can grab 98.css for &lt;a href=&quot;https://github.com/jdan/98.css/releases&quot;&gt;the releases page&lt;/a&gt; or &lt;a href=&quot;https://www.npmjs.com/package/98.css&quot;&gt;npm&lt;/a&gt;.&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;npm install 98.css
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Here is an example of &lt;a href=&quot;https://codesandbox.io/s/objective-chandrasekhar-t5t6h?file=/src/index.js&quot;&gt;98.css being used with React&lt;/a&gt;, and &lt;a href=&quot;https://codesandbox.io/s/late-sound-miqho?file=/index.html&quot;&gt;an example with vanilla JavaScript&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;Refer to the &lt;a href=&quot;https://jdan.github.io/98.css/&quot;&gt;documentation page&lt;/a&gt; for specific instructions on this library&#39;s components.&lt;/p&gt; 
+&lt;h3&gt;Developing&lt;/h3&gt; 
+&lt;p&gt;First, run &lt;code&gt;npm install&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/jdan/98.css/raw/main/style.css&quot;&gt;&lt;code&gt;style.css&lt;/code&gt;&lt;/a&gt; is where everything happens.&lt;/p&gt; 
+&lt;p&gt;You can use &lt;code&gt;npm start&lt;/code&gt; to start a development environment that will watch for file changes and rebuild 98.css, reloading your browser in the process.&lt;/p&gt; 
+&lt;p&gt;You can run a build manually with &lt;code&gt;npm run build&lt;/code&gt;. This will write to the &lt;code&gt;dist/&lt;/code&gt; directory.&lt;/p&gt; 
+&lt;h3&gt;Issues, Contributing, etc.&lt;/h3&gt; 
+&lt;p&gt;Refer to &lt;a href=&quot;https://github.com/jdan/98.css/issues&quot;&gt;the GitHub issues page&lt;/a&gt; to see bugs in my CSS or report new ones. I&#39;d really like to see your pull requests (especially those new to open-source!) and will happily provide code review. 98.css is a fun, silly project and I&#39;d like to make it a fun place to build your open-source muscle.&lt;/p&gt; 
+&lt;p&gt;Thank you for checking my little project out, I hope it brought you some joy today. Consider &lt;a href=&quot;https://github.com/jdan/98.css/stargazers&quot;&gt;starring/following along on GitHub&lt;/a&gt; and maybe subscribing to more fun things on &lt;a href=&quot;https://twitter.com/jdan&quot;&gt;my twitter&lt;/a&gt;. 👋&lt;/p&gt; 
+&lt;h3&gt;Publishing&lt;/h3&gt; 
+&lt;p&gt;Building the docs site: &lt;code&gt;npm run deploy:docs&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;Publishing to npm: &lt;code&gt;npm run release&lt;/code&gt;&lt;/p&gt; 
+&lt;h3&gt;License&lt;/h3&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/jdan/98.css/raw/main/LICENSE&quot;&gt;MIT&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>joy-of-react/project-wordle</title>
+      <link>https://github.com/joy-of-react/project-wordle</link>
+      <description>&lt;p&gt;&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;Word Game&lt;/h1&gt; 
+&lt;h2&gt;Joy of React, Project I&lt;/h2&gt; 
+&lt;p&gt;In this project, we&#39;ll recreate a popular online word game, Wordle:&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/joy-of-react/project-wordle/main/docs/wordle-demo.gif&quot; alt=&quot;Demo showing the finished product, our Wordle clone&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;In Wordle, users have 6 attempts to guess a 5-letter word. You&#39;re helped along the way by ruling out letters that aren&#39;t in the word, and being told whether the correct letters are in the correct location or not.&lt;/p&gt; 
+&lt;h2&gt;Getting Started&lt;/h2&gt; 
+&lt;p&gt;This project is created with &lt;a href=&quot;https://parceljs.org/&quot;&gt;Parcel&lt;/a&gt;, a modern JS build tool. It&#39;s intended to be run locally, on your computer, using Node.js and NPM.&lt;/p&gt; 
+&lt;p&gt;If you&#39;re not sure how to run a local development server, or if you run into some trouble, check out the &lt;a href=&quot;https://courses.joshwcomeau.com/joy-of-react/project-wordle/03-dev-server&quot;&gt;“Local Development” instructions&lt;/a&gt;. It includes all the info you need to know, including troubleshooting common issues.&lt;/p&gt; 
+&lt;blockquote&gt; 
+ &lt;p&gt;&lt;strong&gt;NOTE: This project is tricky!&lt;/strong&gt;&lt;/p&gt; 
+ &lt;p&gt;This project is meant to be challenging, because I believe that the best way to learn is to be challenged. Depending on your experience level, though, you may feel like it&#39;s unreasonably difficult.&lt;/p&gt; 
+ &lt;p&gt;This workshop is split into 5 exercises, and each exercise has a solution video. If you spend more than 10 minutes stuck on an exercise, I encourage you to &lt;strong&gt;watch the solution.&lt;/strong&gt; If things are still unclear after that, please ask questions in the Discord community!&lt;/p&gt; 
+&lt;/blockquote&gt; 
+&lt;h2&gt;Exercise 1: GuessInput&lt;/h2&gt; 
+&lt;p&gt;First thing’s first: we need a way to submit guesses!&lt;/p&gt; 
+&lt;p&gt;In the standard Wordle game, a global event listener registers keypresses. This isn&#39;t very accessible, and so we&#39;re going to do things a little bit differently.&lt;/p&gt; 
+&lt;p&gt;We&#39;ll render a little form that holds a text input:&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/joy-of-react/project-wordle/main/docs/guess-input.png&quot; alt=&quot;Screenshot showing the guess input UI&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;Your job in this first exercise is to create a new component for this UI, and render it inside the &lt;code&gt;Game&lt;/code&gt; component.&lt;/p&gt; 
+&lt;p&gt;Here&#39;s a minimal representation of the markup expected to be produced by this new component:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;form class=&quot;guess-input-wrapper&quot;&amp;gt;
+  &amp;lt;label for=&quot;guess-input&quot;&amp;gt;Enter guess:&amp;lt;/label&amp;gt;
+  &amp;lt;input id=&quot;guess-input&quot; type=&quot;text&quot; /&amp;gt;
+&amp;lt;/form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is the &lt;em&gt;minimal&lt;/em&gt; markup required, for the styles to be applied and for accessibility. &lt;strong&gt;It isn&#39;t set in stone!&lt;/strong&gt; Feel free to make tweaks in order to match all of the acceptance criteria below.&lt;/p&gt; 
+&lt;p&gt;Here&#39;s a quick screen recording of the expected result:&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/joy-of-react/project-wordle/main/docs/submit-guess.gif&quot; alt=&quot;Screen recording showing the guess being entered. It gets logged to the console, and erased from the input&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Acceptance Criteria:&lt;/strong&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Create a new component. 
+  &lt;ul&gt; 
+   &lt;li&gt;Don&#39;t forget, you can use an NPM script to generate the scaffolding for you! We learn how to do this in the &lt;a href=&quot;https://courses.joshwcomeau.com/joy-of-react/project-wordle/04-overview&quot;&gt;“Getting Started” video&lt;/a&gt;&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;This component should render a &lt;code&gt;&amp;lt;form&amp;gt;&lt;/code&gt; tag, including a label and a text input.&lt;/li&gt; 
+ &lt;li&gt;The text input should be controlled by React state.&lt;/li&gt; 
+ &lt;li&gt;When the form is submitted: 
+  &lt;ul&gt; 
+   &lt;li&gt;The entered value should be logged to the console (for now).&lt;/li&gt; 
+   &lt;li&gt;The input should be reset to an empty string.&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;The user&#39;s input should be converted to ALL UPPERCASE.&lt;/strong&gt; No lower-case letters allowed.&lt;/li&gt; 
+ &lt;li&gt;The input should have a minimum and maximum length of 5. 
+  &lt;ul&gt; 
+   &lt;li&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; The &lt;code&gt;minLength&lt;/code&gt; validator is a bit funky; you may wish to use the &lt;code&gt;pattern&lt;/code&gt; attribute instead. This is discussed in more detail on the &lt;a href=&quot;https://courses.joshwcomeau.com/joy-of-react/project-wordle/06-solution#an-alternative-to-minlength&quot;&gt;Solution page&lt;/a&gt;.&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Exercise 2: Keeping track of guesses&lt;/h2&gt; 
+&lt;p&gt;Instead of obliterating the user&#39;s guess, let&#39;s add it to a list, so we can show the user all of their previously-submitted guesses!&lt;/p&gt; 
+&lt;p&gt;For now, we aren&#39;t worrying about any game-logic stuff. We&#39;re still setting up the scaffolding, getting some of the component + DOM structure in place.&lt;/p&gt; 
+&lt;p&gt;Our goal in this exercise is to render each of the user&#39;s guesses:&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/joy-of-react/project-wordle/main/docs/printed-word-list.gif&quot; alt=&quot;Screen recording showing each guess printed out above the text input from the last exercise&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;And here&#39;s an example of the expected DOM structure:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&quot;guess-results&quot;&amp;gt;
+  &amp;lt;p class=&quot;guess&quot;&amp;gt;FIRST&amp;lt;/p&amp;gt;
+  &amp;lt;p class=&quot;guess&quot;&amp;gt;GUESS&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;strong&gt;Acceptance Criteria:&lt;/strong&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;A new component should be created, to render previous guesses.&lt;/li&gt; 
+ &lt;li&gt;When the user submits their guess, that value should be rendered within this new component.&lt;/li&gt; 
+ &lt;li&gt;There should be no key warnings in the console!&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Exercise 3: Guess slots&lt;/h2&gt; 
+&lt;p&gt;In the real Wordle game, the initial screen shows 6 rows of 5 squares:&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/joy-of-react/project-wordle/main/docs/wordle-squares.png&quot; alt=&quot;Screenshot of real Wordle, showing a 5x6 grid&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;In this exercise, we&#39;ll update our code to display a similar grid. We&#39;ll show 6 rows of guesses, no matter how many guesses the user has submitted, and each row will consist of 5 cells.&lt;/p&gt; 
+&lt;p&gt;As the user submits guesses, their guess will populate the cells:&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/joy-of-react/project-wordle/main/docs/words-in-cells.gif&quot; alt=&quot;Screen recording showing each guess being added to the 5x6 grid&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;Here&#39;s the DOM structure you&#39;ll want to create dynamically, based on the user&#39;s guesses:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&quot;guess-results&quot;&amp;gt;
+  &amp;lt;p class=&quot;guess&quot;&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;H&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;E&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;L&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;L&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;O&amp;lt;/span&amp;gt;
+  &amp;lt;/p&amp;gt;
+  &amp;lt;p class=&quot;guess&quot;&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;T&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;H&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;E&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;R&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;E&amp;lt;/span&amp;gt;
+  &amp;lt;/p&amp;gt;
+  &amp;lt;p class=&quot;guess&quot;&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;W&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;O&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;R&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;L&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;D&amp;lt;/span&amp;gt;
+  &amp;lt;/p&amp;gt;
+  &amp;lt;p class=&quot;guess&quot;&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;&amp;lt;/span&amp;gt;
+  &amp;lt;/p&amp;gt;
+  &amp;lt;p class=&quot;guess&quot;&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;&amp;lt;/span&amp;gt;
+    &amp;lt;span class=&quot;cell&quot;&amp;gt;&amp;lt;/span&amp;gt;
+  &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;strong&gt;Things to know:&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;There are two things that should help you tackle this exercise:&lt;/p&gt; 
+&lt;ol&gt; 
+ &lt;li&gt;You can use the &lt;code&gt;range&lt;/code&gt; utility to create arrays of a specified length to map over. It&#39;s provided in &lt;code&gt;/src/utils.js&lt;/code&gt;. Check out the “Range Utility” lesson in the course for more info on how to use it.&lt;/li&gt; 
+ &lt;li&gt;Inside &lt;code&gt;/src/constants.js&lt;/code&gt;, you&#39;ll find a constant, &lt;code&gt;NUM_OF_GUESSES_ALLOWED&lt;/code&gt;. You should import and use this constant when generating the set of guesses. This would make it easy for us to change the difficulty of the game later on, by increasing/decreasing the # of guesses.&lt;/li&gt; 
+&lt;/ol&gt; 
+&lt;p&gt;&lt;strong&gt;Acceptance Criteria:&lt;/strong&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Create a new &lt;code&gt;Guess&lt;/code&gt; component. 6 instances should be rendered at all times, no matter how many guesses have been submitted.&lt;/li&gt; 
+ &lt;li&gt;The &lt;code&gt;Guess&lt;/code&gt; component should render 5 spans, each with the class of &lt;code&gt;cell&lt;/code&gt;.&lt;/li&gt; 
+ &lt;li&gt;Each cell should contain a letter, if the &lt;code&gt;Guess&lt;/code&gt; instance has been given a value. If not, the cell should be blank.&lt;/li&gt; 
+ &lt;li&gt;Use the &lt;code&gt;NUM_OF_GUESSES_ALLOWED&lt;/code&gt; constant, when needed.&lt;/li&gt; 
+ &lt;li&gt;No &lt;code&gt;key&lt;/code&gt; warnings in the console.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Exercise 4: Game logic&lt;/h2&gt; 
+&lt;p&gt;Alright: over the first 3 exercises, we&#39;ve been setting up all of the structure and scaffolding. It&#39;s time to do some game-logic stuff!&lt;/p&gt; 
+&lt;p&gt;In this exercise, we&#39;ll add some CSS classes to color the background of each cell, based on the results and the correct answer:&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/joy-of-react/project-wordle/main/docs/words-with-backgrounds.gif&quot; alt=&quot;Screen recording. The guesses are applied to the game board, and the background colors update accordingly&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;Inside &lt;code&gt;/src/game-helpers.js&lt;/code&gt;, you&#39;ll find a helper function, &lt;code&gt;checkGuess&lt;/code&gt;. As parameters, it takes a single guess, as well as the correct answer. It returns an array that contains the status for each letter.&lt;/p&gt; 
+&lt;p&gt;For example:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;checkGuess(&#39;WHALE&#39;, &#39;LEARN&#39;);
+/*
+  Returns:
+
+  [
+    { letter: &#39;W&#39;, status: &#39;incorrect&#39; },
+    { letter: &#39;H&#39;, status: &#39;incorrect&#39; },
+    { letter: &#39;A&#39;, status: &#39;correct&#39; },
+    { letter: &#39;L&#39;, status: &#39;misplaced&#39; },
+    { letter: &#39;E&#39;, status: &#39;misplaced&#39; },
+  ]
+*/
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;There are 3 possible statuses:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;strong&gt;correct&lt;/strong&gt; — this slot is perfect. It&#39;s the right letter in the right place.&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;misplaced&lt;/strong&gt; — this letter does exist in the word, but in a different slot.&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;incorrect&lt;/strong&gt; — this letter is not found in the word at all.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;In the example above, &lt;code&gt;W&lt;/code&gt; and &lt;code&gt;H&lt;/code&gt; aren&#39;t found in the word &lt;code&gt;LEARN&lt;/code&gt;, and so they&#39;re marked as “incorrect”. &lt;code&gt;A&lt;/code&gt; is correct, since it&#39;s in the 3rd slot in each word. The other two letters, &lt;code&gt;L&lt;/code&gt; and &lt;code&gt;E&lt;/code&gt;, are meant to be in other slots.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;These statuses correspond with CSS classes.&lt;/strong&gt; The &lt;code&gt;correct&lt;/code&gt; status has a &lt;code&gt;correct&lt;/code&gt; class name, which will apply the green background when applied to a cell. Same thing for &lt;code&gt;misplaced&lt;/code&gt; and &lt;code&gt;incorrect&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;Your task is to use this function to validate the user&#39;s guesses, and apply the correct CSS classes. The final output for a given guess should look like this:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;p class=&quot;guess&quot;&amp;gt;
+  &amp;lt;span class=&quot;cell incorrect&quot;&amp;gt;W&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;cell incorrect&quot;&amp;gt;H&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;cell correct&quot;&amp;gt;A&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;cell misplaced&quot;&amp;gt;L&amp;lt;/span&amp;gt;
+  &amp;lt;span class=&quot;cell misplaced&quot;&amp;gt;E&amp;lt;/span&amp;gt;
+&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;strong&gt;Acceptance Criteria:&lt;/strong&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Import the &lt;code&gt;checkGuess&lt;/code&gt; function from &lt;code&gt;/src/game-helpers.js&lt;/code&gt;, and use it to validate each of the user&#39;s guesses&lt;/li&gt; 
+ &lt;li&gt;When rendering the letters in the &lt;code&gt;Guess&lt;/code&gt; component, apply the letter&#39;s &lt;code&gt;status&lt;/code&gt; to the &lt;code&gt;cell&lt;/code&gt; element.&lt;/li&gt; 
+ &lt;li&gt;&quot;Empty&quot; guess slots should have the same markup as before: &lt;code&gt;&amp;lt;span class=&quot;cell&quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;/code&gt;.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Exercise 5: winning and losing&lt;/h2&gt; 
+&lt;p&gt;We&#39;re so close! We only have one concern left: ending the game.&lt;/p&gt; 
+&lt;p&gt;If the user wins the game, a happy banner should be shown:&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/joy-of-react/project-wordle/main/docs/happy-banner.png&quot; alt=&quot;Screenshot of a won game, showing a green success banner&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;If the user loses the game, by contrast, a sad banner should be shown:&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/joy-of-react/project-wordle/main/docs/sad-banner.png&quot; alt=&quot;Screenshot of a won game, showing a red failure banner&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;The user wins the game when their guessed word is identical to the &lt;code&gt;answer&lt;/code&gt;. They lose the game if they submit 6 guesses without winning.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&quot;happy banner&quot;&amp;gt;
+  &amp;lt;p&amp;gt;
+    &amp;lt;strong&amp;gt;Congratulations!&amp;lt;/strong&amp;gt; Got it in
+    &amp;lt;strong&amp;gt;3 guesses&amp;lt;/strong&amp;gt;.
+  &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;div class=&quot;sad banner&quot;&amp;gt;
+  &amp;lt;p&amp;gt;Sorry, the correct answer is &amp;lt;strong&amp;gt;LEARN&amp;lt;/strong&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;When the game is over, one of these banners should be shown, and the text input should be disabled so that no new guesses can be typed or submitted.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Acceptance Criteria:&lt;/strong&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;If the user wins the game, a happy banner should be shown.&lt;/li&gt; 
+ &lt;li&gt;If the user loses the game, a sad banner should be shown&lt;/li&gt; 
+ &lt;li&gt;When the game is over, the text input should be disabled.&lt;/li&gt; 
+ &lt;li&gt;It&#39;s up to you to decide how to structure the banner! Feel free to create new component(s) if you think it&#39;s warranted.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;hr&gt; 
+&lt;h1&gt;Stretch Goals&lt;/h1&gt; 
+&lt;p&gt;If you&#39;re looking for an additional challenge, give these stretch goals a shot!&lt;/p&gt; 
+&lt;p&gt;Unlike the standard exercises, no solution video is available for these goals, though the raw solution source code is available. See the solutions page on the Course Platform.&lt;/p&gt; 
+&lt;p&gt;Also, feel free to come up with &lt;em&gt;your own&lt;/em&gt; stretch goals! If there&#39;s a thing you&#39;d like to implement, go for it!!&lt;/p&gt; 
+&lt;h2&gt;Visual Keyboard&lt;/h2&gt; 
+&lt;p&gt;In the real Wordle game, a keyboard is shown below the guesses:&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/joy-of-react/project-wordle/main/docs/bottom-keyboard-original.png&quot; alt=&quot;Screenshot of the Wordle game, showing a keyboard below the game board&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;This keyboard is an important game element, since it makes it easy to tell which letters have already been tested.&lt;/p&gt; 
+&lt;p&gt;Here&#39;s what the keyboard looked like in my implementation:&lt;/p&gt; 
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/joy-of-react/project-wordle/main/docs/bottom-keyboard-clone.png&quot; alt=&quot;Screenshot of our Wordle clone, showing a keyboard below the game board&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Note: Styling isn&#39;t provided for stretch goals.&lt;/strong&gt; You&#39;ll need to come up with your own CSS. You can add it to &lt;code&gt;src/styles.css&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Relatedly:&lt;/strong&gt; When you add a keyboard, it&#39;ll likely be pushed &quot;below the fold&quot; on smaller windows. Don&#39;t worry about trying to fit everything in the viewport at once.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Acceptance Criteria:&lt;/strong&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Render 3 rows of letters at the bottom of the screen&lt;/li&gt; 
+ &lt;li&gt;The colors of each letter should match the colors shown in the game board: 
+  &lt;ul&gt; 
+   &lt;li&gt;Correct letters should have a green background and white text&lt;/li&gt; 
+   &lt;li&gt;Misplaced letters should have a yellow background and white text&lt;/li&gt; 
+   &lt;li&gt;Incorrect letters should have a dark gray background and white text&lt;/li&gt; 
+   &lt;li&gt;Unused letters should have a light gray background and black text&lt;/li&gt; 
+  &lt;/ul&gt; &lt;/li&gt; 
+ &lt;li&gt;No need to include &quot;Enter&quot; and &quot;Backspace&quot; keys.&lt;/li&gt; 
+ &lt;li&gt;Don&#39;t worry too much about the styling, trying to get the alignment to look exactly like a real keyboard.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Restart button&lt;/h2&gt; 
+&lt;p&gt;One of Wordle&#39;s hooks is that you can only play 1 game per day: there&#39;s a new word for all users every day. As a result, there&#39;s no &quot;restart button&quot;, you just have to wait until the next day.&lt;/p&gt; 
+&lt;p&gt;In our clone, we aren&#39;t picking a new word every day, we&#39;re picking a new word when the app first loads.&lt;/p&gt; 
+&lt;p&gt;Update the game so that it can be restarted. Add a &quot;Restart game&quot; button to the banner shown when the user wins or loses.&lt;/p&gt; 
+&lt;p&gt;&lt;em&gt;HINT:&lt;/em&gt; This will require moving the &lt;code&gt;answer&lt;/code&gt; into state. You&#39;ll want to do the random word selection inside a callback function, the secondary way to initialize state described here: &lt;a href=&quot;https://courses.joshwcomeau.com/joy-of-react/02-state/03-use-state#initial-value&quot;&gt;https://courses.joshwcomeau.com/joy-of-react/02-state/03-use-state#initial-value&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Acceptance Criteria:&lt;/strong&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;A &quot;Restart Game&quot; button is shown at the end of the game. You can put this button in the &lt;code&gt;GameOverBanner&lt;/code&gt;, or wherever else you&#39;d like!&lt;/li&gt; 
+ &lt;li&gt;Clicking the button should select a new correct word and reset all other state.&lt;/li&gt; 
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>progit/progit2</title>
+      <link>https://github.com/progit/progit2</link>
+      <description>&lt;p&gt;Pro Git 2nd Edition&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;Pro Git, Second Edition&lt;/h1&gt; 
+&lt;div id=&quot;preamble&quot;&gt; 
+ &lt;div class=&quot;sectionbody&quot;&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;Welcome to the second edition of the Pro Git book.&lt;/p&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;You can find this book online at: &lt;a href=&quot;https://git-scm.com/book&quot; class=&quot;bare&quot;&gt;https://git-scm.com/book&lt;/a&gt;&lt;/p&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;Like the first edition, the second edition of Pro Git is open source under a Creative Commons license.&lt;/p&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;A couple of things have changed since open sourcing the first edition. For one, we’ve moved from Markdown to the amazing AsciiDoc format for the text of the book; here’s an &lt;a href=&quot;https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/&quot;&gt;AsciiDoc quick reference&lt;/a&gt;.&lt;/p&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;We’ve also moved to keeping the translations in separate repositories rather than subdirectories of the English repository. See &lt;a href=&quot;https://raw.githubusercontent.com/progit/progit2/main/TRANSLATING.md&quot;&gt;the translating document&lt;/a&gt; for more information.&lt;/p&gt; 
+  &lt;/div&gt; 
+ &lt;/div&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;sect1&quot;&gt; 
+ &lt;h2 id=&quot;_how_to_generate_the_book&quot;&gt;How To Generate the Book&lt;/h2&gt; 
+ &lt;div class=&quot;sectionbody&quot;&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;You can generate the e-book files manually with Asciidoctor. If you run the following you &lt;em&gt;may&lt;/em&gt; actually get HTML, Epub, Mobi and PDF output files:&lt;/p&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;listingblock&quot;&gt; 
+   &lt;div class=&quot;content&quot;&gt; 
+    &lt;pre&gt;$ bundle install
+$ bundle exec rake book:build
+Converting to HTML...
+ -- HTML output at progit.html
+Converting to EPub...
+ -- Epub output at progit.epub
+Converting to Mobi (kf8)...
+ -- Mobi output at progit.mobi
+Converting to PDF...
+ -- PDF output at progit.pdf&lt;/pre&gt; 
+   &lt;/div&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;You can generate just one of the supported formats (HTML, EPUB, mobi, or PDF). Use one of the following commands:&lt;/p&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;To generate the HTML book:&lt;/p&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;listingblock&quot;&gt; 
+   &lt;div class=&quot;content&quot;&gt; 
+    &lt;pre&gt;$ bundle exec rake book:build_html&lt;/pre&gt; 
+   &lt;/div&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;To generate the EPUB book:&lt;/p&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;listingblock&quot;&gt; 
+   &lt;div class=&quot;content&quot;&gt; 
+    &lt;pre&gt;$ bundle exec rake book:build_epub&lt;/pre&gt; 
+   &lt;/div&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;To generate the mobi book:&lt;/p&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;listingblock&quot;&gt; 
+   &lt;div class=&quot;content&quot;&gt; 
+    &lt;pre&gt;$ bundle exec rake book:build_mobi&lt;/pre&gt; 
+   &lt;/div&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;To generate the PDF book:&lt;/p&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;listingblock&quot;&gt; 
+   &lt;div class=&quot;content&quot;&gt; 
+    &lt;pre&gt;$ bundle exec rake book:build_pdf&lt;/pre&gt; 
+   &lt;/div&gt; 
+  &lt;/div&gt; 
+ &lt;/div&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;sect1&quot;&gt; 
+ &lt;h2 id=&quot;_signaling_an_issue&quot;&gt;Signaling an Issue&lt;/h2&gt; 
+ &lt;div class=&quot;sectionbody&quot;&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;Before signaling an issue, please check that there isn’t already a similar one in the bug tracking system.&lt;/p&gt; 
+  &lt;/div&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;Also, if this issue has been spotted on the git-scm.com site, please cross-check that it is still present in this repo. The issue may have already been corrected, but the changes have not been deployed yet.&lt;/p&gt; 
+  &lt;/div&gt; 
+ &lt;/div&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;sect1&quot;&gt; 
+ &lt;h2 id=&quot;_contributing&quot;&gt;Contributing&lt;/h2&gt; 
+ &lt;div class=&quot;sectionbody&quot;&gt; 
+  &lt;div class=&quot;paragraph&quot;&gt; 
+   &lt;p&gt;If you’d like to help out by making a change, take a look at the &lt;a href=&quot;https://raw.githubusercontent.com/progit/progit2/main/CONTRIBUTING.md&quot;&gt;contributor’s guide&lt;/a&gt;.&lt;/p&gt; 
+  &lt;/div&gt; 
+ &lt;/div&gt; 
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>imfing/hextra</title>
+      <link>https://github.com/imfing/hextra</link>
+      <description>&lt;p&gt;🔯 Modern, batteries-included Hugo theme for creating beautiful doc, blog and static websites&lt;/p&gt;&lt;hr&gt;&lt;div align=&quot;center&quot;&gt; 
+ &lt;h1 align=&quot;center&quot;&gt;Hextra&lt;/h1&gt; 
+ &lt;sup align=&quot;center&quot;&gt;&lt;a href=&quot;https://raw.githubusercontent.com/imfing/hextra/main/README.md&quot;&gt;English&lt;/a&gt; | &lt;a href=&quot;https://raw.githubusercontent.com/imfing/hextra/main/README.zh-cn.md&quot;&gt;简体中文&lt;/a&gt; ｜ &lt;a href=&quot;https://raw.githubusercontent.com/imfing/hextra/main/README.fa.md&quot;&gt;فارسی&lt;/a&gt;&lt;/sup&gt; 
+ &lt;p align=&quot;center&quot;&gt;Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.&lt;/p&gt; 
+ &lt;p&gt;Demo → &lt;a href=&quot;https://imfing.github.io/hextra/&quot;&gt;imfing.github.io/hextra&lt;/a&gt;&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;picture&gt; 
+ &lt;source media=&quot;(prefers-color-scheme: dark)&quot; srcset=&quot;https://user-images.githubusercontent.com/5097752/263550533-c18343ca-3848-4230-b5c0-ee989d7916da.png&quot;&gt; 
+ &lt;img alt=&quot;Hextra&quot; src=&quot;https://user-images.githubusercontent.com/5097752/263550528-663599f9-17a1-4686-b5c4-3da233b5034d.png&quot;&gt; 
+&lt;/picture&gt; 
+&lt;div align=&quot;right&quot;&gt; 
+ &lt;a href=&quot;https://github.com/imfing/hextra/actions/workflows/pages.yml&quot;&gt;&lt;img alt=&quot;GitHub Actions Status&quot; src=&quot;https://github.com/imfing/hextra/actions/workflows/pages.yml/badge.svg?sanitize=true&quot;&gt;&lt;/a&gt; 
+ &lt;a href=&quot;https://app.netlify.com/sites/hugo-hextra/deploys&quot;&gt;&lt;img alt=&quot;Netlify Status&quot; src=&quot;https://api.netlify.com/api/v1/badges/61d6e55a-2447-487e-b59f-c9537e5df175/deploy-status&quot;&gt;&lt;/a&gt; 
+&lt;/div&gt; 
+&lt;h2&gt;Features&lt;/h2&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;strong&gt;Beautiful Design&lt;/strong&gt; - Inspired by Nextra, Hextra utilizes Tailwind CSS to offer a modern design that makes your site look outstanding.&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;Responsive Layout and Dark Mode&lt;/strong&gt; - It looks great on all devices, from mobile to desktop. Dark mode is also supported to accommodate various lighting conditions.&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;Fast and Lightweight&lt;/strong&gt; - Powered by Hugo, a lightning-fast static-site generator housed in a single binary file, Hextra keeps its footprint minimal. No JavaScript or Node.js are needed to use it.&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;Full-text Search&lt;/strong&gt; - Built-in offline full-text search powered by FlexSearch, no extra configuration required.&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;Battery-included&lt;/strong&gt; - Markdown, syntax highlighting, LaTeX math formulae, diagrams and Shortcodes elements to enhance your content. Table of contents, breadcrumbs, pagination, sidebar navigation and more are all automatically generated.&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;Multi-language and SEO Ready&lt;/strong&gt; - Multi-language sites made easy with Hugo&#39;s multilingual mode. Out-of-the-box support is included for SEO tags, Open Graph, and Twitter Cards.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Quick Start&lt;/h2&gt; 
+&lt;h3&gt;Use the template&lt;/h3&gt; 
+&lt;p&gt;Using the &lt;a href=&quot;https://github.com/imfing/hextra-starter-template&quot;&gt;Hextra Starter Template&lt;/a&gt; is the simplest method to bootstrap a new website with Hextra theme. Get started by clicking the &quot;Use this template&quot; button on the template repository page.&lt;/p&gt; 
+&lt;p&gt;The template repository also includes a &lt;a href=&quot;https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow&quot;&gt;GitHub Actions workflow&lt;/a&gt; for deploying your website to GitHub Pages.&lt;/p&gt; 
+&lt;img alt=&quot;Hextra Starter Template&quot; src=&quot;https://user-images.githubusercontent.com/5097752/263551418-c403b9a9-a76c-47a6-8466-513d772ef0b7.jpg&quot; width=&quot;600/&quot;&gt; 
+&lt;h3&gt;Usage&lt;/h3&gt; 
+&lt;p&gt;Refer to the &lt;a href=&quot;https://imfing.github.io/hextra/docs&quot;&gt;documentation&lt;/a&gt; for more information.&lt;/p&gt; 
+&lt;h2&gt;Contributing&lt;/h2&gt; 
+&lt;p&gt;Contributions are welcome. Check out the &lt;a href=&quot;https://raw.githubusercontent.com/imfing/hextra/main/.github/CONTRIBUTING.md&quot;&gt;contributing guide&lt;/a&gt; to get started.&lt;/p&gt; 
+&lt;h2&gt;License&lt;/h2&gt; 
+&lt;p&gt;&lt;a href=&quot;https://raw.githubusercontent.com/imfing/hextra/main/LICENSE&quot;&gt;MIT License&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>primefaces/primereact</title>
+      <link>https://github.com/primefaces/primereact</link>
+      <description>&lt;p&gt;The Most Complete React UI Component Library&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;a href=&quot;https://opensource.org/licenses/MIT&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-MIT-yellow.svg?sanitize=true&quot; alt=&quot;License: MIT&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://badge.fury.io/js/primereact&quot;&gt;&lt;img src=&quot;https://badge.fury.io/js/primereact.svg?sanitize=true&quot; alt=&quot;npm version&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://snyk.io/advisor/npm-package/primereact&quot;&gt;&lt;img src=&quot;https://snyk.io/advisor/npm-package/primereact/badge.svg?sanitize=true&quot; alt=&quot;primereact&quot;&gt;&lt;/a&gt; &lt;img src=&quot;https://img.shields.io/npm/dm/primereact?color=purple&quot; alt=&quot;NPM Downloads&quot;&gt; &lt;a href=&quot;https://github.com/primefaces/primereact/actions/workflows/node.js.yml&quot;&gt;&lt;img src=&quot;https://github.com/primefaces/primereact/workflows/NodeJS%20CI/badge.svg?sanitize=true&quot; alt=&quot;Actions CI&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://discord.gg/gzKFYnpmCY&quot;&gt;&lt;img src=&quot;https://img.shields.io/discord/557940238991753223.svg?color=7289da&amp;amp;label=chat&amp;amp;logo=discord&quot; alt=&quot;Discord Chat&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://stackoverflow.com/questions/tagged/primereact&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/StackOverflow-primereact-chocolate.svg?sanitize=true&quot; alt=&quot;Stackoverflow&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/orgs/primefaces/discussions&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/discussions-search?query=org%3Aprimefaces&amp;amp;logo=github&amp;amp;label=Prime%20Discussions&amp;amp;link=https%3A%2F%2Fgithub.com%2Forgs%2Fprimefaces%2Fdiscussions&quot; alt=&quot;Prime Discussions&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://www.primereact.org&quot;&gt;&lt;img src=&quot;https://www.primefaces.org/static/social/primereact-preview.jpg&quot; alt=&quot;PrimeReact Hero&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;h1&gt;PrimeReact&lt;/h1&gt; 
+&lt;p&gt;PrimeReact is a rich set of open source UI Components for React. See &lt;a href=&quot;https://primereact.org/&quot;&gt;PrimeReact homepage&lt;/a&gt; for live showcase and documentation.&lt;/p&gt; 
+&lt;h2&gt;Download&lt;/h2&gt; 
+&lt;p&gt;PrimeReact is available at &lt;a href=&quot;https://www.npmjs.com/package/primereact&quot;&gt;npm&lt;/a&gt;.&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;# Using npm
+npm install primereact
+
+# Using yarn
+yarn add primereact
+
+# Using pnpm
+pnpm add primereact
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Import&lt;/h2&gt; 
+&lt;p&gt;Each component can be imported individually so that you only bundle what you use. Import path is available in the documentation of the corresponding component.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;//import { ComponentName } from &#39;primereact/{componentname}&#39;;
+import { Button } from &#39;primereact/button&#39;;
+
+export default function MyComponent() {
+  return (
+    &amp;lt;Button label=&quot;PrimeReact&quot; /&amp;gt;
+  )
+}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Theming&lt;/h2&gt; 
+&lt;p&gt;PrimeReact has two theming modes; styled or unstyled.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Styled Mode&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Styled mode is based on pre-skinned components with opinionated themes like Material, Bootstrap or PrimeOne themes. Theme is the required css file to be imported, visit the &lt;a href=&quot;https://primereact.org/theming&quot;&gt;Themes&lt;/a&gt; section for the complete list of available themes to choose from.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;// theme
+import &#39;primereact/resources/themes/lara-light-cyan/theme.css&#39;;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;strong&gt;Unstyled Mode&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Unstyled mode is disabled by default for all components. Using the PrimeReact context, set &lt;code&gt;unstyled&lt;/code&gt; as true to enable it globally. Visit the &lt;a href=&quot;https://primereact.org/unstyled&quot;&gt;Unstyled mode&lt;/a&gt; documentation for more information and examples.&lt;/p&gt; 
+&lt;h2&gt;Contributors&lt;/h2&gt; 
+&lt;a href=&quot;https://github.com/primefaces/primereact/graphs/contributors&quot;&gt; &lt;img src=&quot;https://contrib.rocks/image?repo=primefaces/primereact&quot;&gt; &lt;/a&gt;</description>
+    </item>
+    
+    <item>
+      <title>rime/home</title>
+      <link>https://github.com/rime/home</link>
+      <description>&lt;p&gt;Rime::Home is home to Rime users and developers&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;Rime::Home&lt;/h1&gt; 
+&lt;p&gt;Rime 代碼之家&lt;/p&gt; 
+&lt;p&gt;&lt;span class=&quot;badges&quot;&gt;&lt;a href=&quot;https://github.com/rime/home/discussions&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/discussions/rime/home.svg?sanitize=true&quot; alt=&quot;Discussions&quot;&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;h2&gt;Project home page&lt;/h2&gt; 
+&lt;p&gt;&lt;a href=&quot;https://rime.im&quot;&gt;https://rime.im&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Docs&lt;/h2&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/rime/home/wiki&quot;&gt;Rime Wiki&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Bug Report&lt;/h2&gt; 
+&lt;p&gt;Submit general issues about Rime to &lt;a href=&quot;https://github.com/rime/home/issues&quot;&gt;Rime::Home&lt;/a&gt; for triage.&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://github.com/rime/home/issues&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/issues/rime/home.svg?sanitize=true&quot; alt=&quot;Issues&quot;&gt;&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;This also includes bug reports and feature requests specific to the project site, docs or Rime::Home itself.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>teacat/chaturbate-dvr</title>
+      <link>https://github.com/teacat/chaturbate-dvr</link>
+      <description>&lt;p&gt;😎 Chaturbate DVR - auto records the stream when it goes online!&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;Chaturbate DVR&lt;/h1&gt; 
+&lt;p&gt;The program can records &lt;strong&gt;multiple&lt;/strong&gt; Chaturbate streams, supports macOS, Windows, Linux, can be run on Docker.&lt;/p&gt; 
+&lt;p&gt;For Chaturbate-&lt;strong&gt;only&lt;/strong&gt;, private/ticket stream is &lt;strong&gt;unsupported&lt;/strong&gt;.&lt;/p&gt; 
+&lt;p&gt;※ &lt;strong&gt;&lt;a href=&quot;https://www.dmca.com/&quot;&gt;DMCA WARNING&lt;/a&gt;&lt;/strong&gt;: Contents on Chaturbate are copyrighted, you should not copy, share, distribute the content.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;Usage&lt;/h2&gt; 
+&lt;p&gt;Download executable from &lt;strong&gt;&lt;a href=&quot;https://github.com/teacat/chaturbate-dvr/releases&quot;&gt;Release&lt;/a&gt;&lt;/strong&gt; page (e.g., &lt;code&gt;windows_chatubrate-dvr.exe&lt;/code&gt;).&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;🌐 Start the program with the Web UI&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Visit &lt;a href=&quot;http://localhost:8080&quot;&gt;&lt;code&gt;http://localhost:8080&lt;/code&gt;&lt;/a&gt; to use the Web UI.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;# Windows (or double-click `chaturbate-dvr.exe` to open)
+$ chaturbate-dvr.exe
+
+# macOS or Linux
+$ chaturbate-dvr
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;💻 or... Run as a command-line tool&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;Run the program with a channel name (&lt;code&gt;-u CHANNEL_USERNAME&lt;/code&gt;) records the channel immediately, and the Web UI will be disabled.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;# Windows
+$ chaturbate-dvr.exe -u CHANNEL_USERNAME
+
+# macOS or Linux
+$ chaturbate-dvr -u CHANNEL_USERNAME
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;Preview&lt;/h2&gt; 
+&lt;p&gt;&lt;img src=&quot;https://github.com/teacat/chaturbate-dvr/assets/7308718/c6d17ffe-eba7-4296-9315-f501489d85f3&quot; alt=&quot;image_1&quot;&gt; &lt;img src=&quot;https://github.com/teacat/chaturbate-dvr/assets/7308718/d02923e0-574d-4a15-a373-8b0599101e3f&quot; alt=&quot;image_2&quot;&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;or... Command-line tool&lt;/strong&gt;&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;$ ./chaturbate-dvr -u emillybrowm start
+
+ ██████╗██╗  ██╗ █████╗ ████████╗██╗   ██╗██████╗ ██████╗  █████╗ ████████╗███████╗
+██╔════╝██║  ██║██╔══██╗╚══██╔══╝██║   ██║██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██╔════╝
+██║     ███████║███████║   ██║   ██║   ██║██████╔╝██████╔╝███████║   ██║   █████╗
+██║     ██╔══██║██╔══██║   ██║   ██║   ██║██╔══██╗██╔══██╗██╔══██║   ██║   ██╔══╝
+╚██████╗██║  ██║██║  ██║   ██║   ╚██████╔╝██║  ██║██████╔╝██║  ██║   ██║   ███████╗
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝
+██████╗ ██╗   ██╗██████╗
+██╔══██╗██║   ██║██╔══██╗
+██║  ██║██║   ██║██████╔╝
+██║  ██║╚██╗ ██╔╝██╔══██╗
+██████╔╝ ╚████╔╝ ██║  ██║
+╚═════╝   ╚═══╝  ╚═╝  ╚═╝
+[2024-01-24 00:11:54] [INFO] [emillybrowm] channel created
+[2024-01-24 00:11:55] [INFO] [emillybrowm] channel is online, start fetching...
+[2024-01-24 00:11:55] [INFO] [emillybrowm] the stream will be saved as videos/emillybrowm_2024-01-24_00-11-55.ts
+[2024-01-24 00:11:55] [INFO] [emillybrowm] resolution 1080p is used
+[2024-01-24 00:11:55] [INFO] [emillybrowm] framerate 30fps is used
+[2024-01-24 00:11:57] [INFO] [emillybrowm] segment #0 written
+[2024-01-24 00:11:57] [INFO] [emillybrowm] segment #1 written
+[2024-01-24 00:11:57] [INFO] [emillybrowm] segment #2 written
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;Help&lt;/h2&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;$ chaturbate-dvr -h
+
+NAME:
+   chaturbate-dvr - Records your favorite Chaturbate stream 😎🫵
+
+USAGE:
+   chaturbate-dvr [global options] command [command options]
+
+VERSION:
+   1.0.0
+
+COMMANDS:
+   help, h  Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --username value, -u value               channel username to record
+   --gui-username value, --gui-u value      username for auth web (optional)
+   --gui-password value, --gui-p value      password for auth web (optional)
+   --framerate value, -f value              preferred framerate (default: 30)
+   --interval value, -i value               minutes to check if the channel is online (default: 1)
+   --resolution value, -r value             preferred resolution (default: 1080)
+   --resolution-fallback value, --rf value  fallback to &#39;up&#39; (larger) or &#39;down&#39; (smaller) resolution if preferred resolution is not available (default: &quot;down&quot;)
+   --filename-pattern value, --fp value     filename pattern for videos (default: &quot;videos/{{.Username}}_{{.Year}}-{{.Month}}-{{.Day}}_{{.Hour}}-{{.Minute}}-{{.Second}}{{if .Sequence}}_{{.Sequence}}{{end}}&quot;)
+   --split-duration value, --sd value       minutes to split each video into segments (&#39;0&#39; to disable) (default: 0)
+   --split-filesize value, --sf value       size in MB to split each video into segments (&#39;0&#39; to disable) (default: 0)
+   --log-level value                        log level, availables: &#39;DEBUG&#39;, &#39;INFO&#39;, &#39;WARN&#39;, &#39;ERROR&#39; (default: &quot;INFO&quot;)
+   --port value                             port to expose the web interface and API (default: &quot;8080&quot;)
+   --help, -h                               show help
+   --version, -v                            print the version
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;:&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;# Records in 720p/60fps
+$ chaturbate-dvr -u yamiodymel -r 720 -f 60
+
+# Split the video every 30 minutes
+$ chaturbate-dvr -u yamiodymel -sd 30
+
+# Split the video every 1024 MB
+$ chaturbate-dvr -u yamiodymel -sf 1024
+
+# Change output filename pattern
+$ chaturbate-dvr -u yamiodymel -fp video/{{.Username}}/{{.Year}}-{{.Month}}-{{.Day}}_{{.Hour}}-{{.Minute}}-{{.Second}}_{{.Sequence}}
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;※ When runs in Web UI mode, the settings will be default settings for Web UI to create channels.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;📺 Framerate &amp;amp; Resolution / Fallback&lt;/h2&gt; 
+&lt;p&gt;Fallback indicates what to do when there&#39;s no expected target resolution, situation:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;Availables: 1080p, 720p, 240p
+
+Resolution: 480p (fallback setted to: up)
+    Result: 720p will be used
+
+Resolution: 480p (fallback setted to: down)
+    Result: 240p will be used
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;📄 Filename Pattern&lt;/h2&gt; 
+&lt;p&gt;The format is based on &lt;a href=&quot;https://pkg.go.dev/text/template&quot;&gt;Go Template Syntax&lt;/a&gt;, available variables are:&lt;/p&gt; 
+&lt;p&gt;&lt;code&gt;{{.Username}}&lt;/code&gt;, &lt;code&gt;{{.Year}}&lt;/code&gt;, &lt;code&gt;{{.Month}}&lt;/code&gt;, &lt;code&gt;{{.Day}}&lt;/code&gt;, &lt;code&gt;{{.Hour}}&lt;/code&gt;, &lt;code&gt;{{.Minute}}&lt;/code&gt;, &lt;code&gt;{{.Second}}&lt;/code&gt;, &lt;code&gt;{{.Sequence}}&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;Default it hides the sequence if it&#39;s zero.&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;Pattern: {{.Username}}_{{.Year}}-{{.Month}}-{{.Day}}_{{.Hour}}-{{.Minute}}-{{.Second}}{{if .Sequence}}_{{.Sequence}}{{end}}
+ Output: yamiodymel_2024-01-02_13-45-00.ts    # Sequence won&#39;t be shown if it&#39;s zero.
+ Output: yamiodymel_2024-01-02_13-45-00_1.ts
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;strong&gt;👀 or... The sequence can be shown even if it&#39;s zero.&lt;/strong&gt;&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;Pattern: {{.Username}}_{{.Year}}-{{.Month}}-{{.Day}}_{{.Hour}}-{{.Minute}}-{{.Second}}_{{.Sequence}}
+ Output: yamiodymel_2024-01-02_13-45-00_0.ts
+ Output: yamiodymel_2024-01-02_13-45-00_1.ts
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;&lt;strong&gt;📁 or... Folder per each channel.&lt;/strong&gt;&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;Pattern: video/{{.Username}}/{{.Year}}-{{.Month}}-{{.Day}}_{{.Hour}}-{{.Minute}}-{{.Second}}_{{.Sequence}}
+ Output: video/yamiodymel/2024-01-02_13-45-00_0.ts
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;※ The file will be saved as &lt;code&gt;.ts&lt;/code&gt; format and it&#39;s not configurable.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;🤔 Frequently Asked Questions&lt;/h2&gt; 
+&lt;p&gt;&lt;strong&gt;Q: The program closes itself when I just open it on Windows&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;A: Try to open the program in &lt;strong&gt;Command Prompt&lt;/strong&gt;, the error message should appear, and create a new &lt;a href=&quot;https://github.com/teacat/chaturbate-dvr/issues&quot;&gt;Issue&lt;/a&gt; for it.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Q: Channel is online but the program says it&#39;s Offline&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;A: The program might be blocked by Chaturbate or Cloudflare. If the Channel is in a private/ticket show, the program doesn&#39;t support it yet.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Q: &lt;code&gt;listen tcp :8080: bind: An attempt was made to access a socket in a way forbidden by its access permissions.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;A: The port &lt;code&gt;8080&lt;/code&gt; is already in use, change the port with &lt;code&gt;-port&lt;/code&gt; option (e.g. &lt;code&gt;-port 8123&lt;/code&gt;) and visit &lt;code&gt;http://localhost:8123&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;If the error still occur, run &lt;strong&gt;Command Prompt&lt;/strong&gt; as Administrator, and type &lt;code&gt;net stop winnat&lt;/code&gt; then &lt;code&gt;net start winnat&lt;/code&gt;, and re-run the Chaturbate DVR again.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Q: &lt;code&gt;A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;A: Your network is unstable or being blocked by Chaturbate, the program can&#39;t help with the network issue. Usually happened when you are using VPN or Proxy.&lt;/p&gt; 
+&lt;p&gt;&amp;nbsp;&lt;/p&gt; 
+&lt;h2&gt;💬 Verbose Log&lt;/h2&gt; 
+&lt;p&gt;Change &lt;code&gt;-log-level&lt;/code&gt; to &lt;code&gt;DEBUG&lt;/code&gt; to see more details in terminal, like Duration and Size.&lt;/p&gt; 
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;# Availables: DEBUG, INFO, WARN, ERROR
+$ chaturbate-dvr -u hepbugbear -log-level DEBUG
+[2024-01-24 01:18:11] [INFO] [hepbugbear] segment #0 written
+[2024-01-24 01:18:11] [DEBUG] [hepbugbear] duration: 00:00:06, size: 0.00 MiB
+[2024-01-24 01:18:11] [INFO] [hepbugbear] segment #1 written
+[2024-01-24 01:18:11] [DEBUG] [hepbugbear] duration: 00:00:06, size: 1.36 MiB
+[2024-01-24 01:18:11] [INFO] [hepbugbear] segment #2 written
+[2024-01-24 01:18:11] [DEBUG] [hepbugbear] duration: 00:00:06, size: 2.72 MiB
+[2024-01-24 01:18:12] [DEBUG] [hepbugbear] segment #3 fetched
+[2024-01-24 01:18:13] [INFO] [hepbugbear] segment #3 written
+[2024-01-24 01:18:13] [DEBUG] [hepbugbear] duration: 00:00:10, size: 4.08 MiB
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>moveit/moveit2_tutorials</title>
+      <link>https://github.com/moveit/moveit2_tutorials</link>
+      <description>&lt;p&gt;A sphinx-based centralized documentation repo for MoveIt 2&lt;/p&gt;&lt;hr&gt;&lt;h1&gt;MoveIt Tutorials&lt;/h1&gt; 
+&lt;p&gt;&lt;a href=&quot;https://moveit.picknik.ai/&quot;&gt;Live tutorials here&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;This is the primary documentation for the MoveIt project.&lt;/p&gt; 
+&lt;h2&gt;Build Status&lt;/h2&gt; 
+&lt;p&gt;This repository is built and deployed automatically by GitHub Actions:&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;strong&gt;Rolling&lt;/strong&gt; (main): &lt;a href=&quot;https://github.com/moveit/moveit2_tutorials/actions/workflows/ci.yaml?query=branch%3Amain&quot;&gt;&lt;img src=&quot;https://github.com/moveit/moveit2_tutorials/actions/workflows/ci.yaml/badge.svg?branch=main&quot; alt=&quot;CI&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/moveit/moveit2_tutorials/actions/workflows/format.yml?query=branch%3Amain&quot;&gt;&lt;img src=&quot;https://github.com/moveit/moveit2_tutorials/actions/workflows/format.yml/badge.svg?branch=main&quot; alt=&quot;Format&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/moveit/moveit2_tutorials/actions/workflows/deploy.yml?query=branch%3Amain&quot;&gt;&lt;img src=&quot;https://github.com/moveit/moveit2_tutorials/actions/workflows/deploy.yml/badge.svg?branch=main&quot; alt=&quot;Deploy&quot;&gt;&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;strong&gt;Humble&lt;/strong&gt;: &lt;a href=&quot;https://github.com/moveit/moveit2_tutorials/actions/workflows/ci.yaml?query=branch%3Ahumble&quot;&gt;&lt;img src=&quot;https://github.com/moveit/moveit2_tutorials/actions/workflows/ci.yaml/badge.svg?branch=humble&quot; alt=&quot;CI&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/moveit/moveit2_tutorials/actions/workflows/format.yml?query=branch%3Ahumble&quot;&gt;&lt;img src=&quot;https://github.com/moveit/moveit2_tutorials/actions/workflows/format.yml/badge.svg?branch=humble&quot; alt=&quot;Format&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/moveit/moveit2_tutorials/actions/workflows/deploy.yml?query=branch%3Ahumble&quot;&gt;&lt;img src=&quot;https://github.com/moveit/moveit2_tutorials/actions/workflows/deploy.yml/badge.svg?branch=humble&quot; alt=&quot;Deploy&quot;&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Contributing&lt;/h2&gt; 
+&lt;p&gt;We strongly encourage you to help improve MoveIt&#39;s documentation. Please consider helping improve the tutorials, port old ones from ROS 1, and write new tutorials. We recommend you read the quality standards below as well as the &lt;a href=&quot;https://moveit.picknik.ai/main/doc/how_to_contribute/how_to_write_tutorials.html&quot;&gt;How to Write a MoveIt Tutorial&lt;/a&gt; page.&lt;/p&gt; 
+&lt;p&gt;If you find an issue with the tutorials you are not able to fix yourself, please &lt;a href=&quot;https://github.com/moveit/moveit2_tutorials/issues/new&quot;&gt;open an issue on GitHub&lt;/a&gt; or open a PR with proposed changes.&lt;/p&gt; 
+&lt;h2&gt;Helping with Porting Tutorials to ROS 2&lt;/h2&gt; 
+&lt;p&gt;An issue has been created for each tutorial to be ported to ROS 2. At the top of each tutorial, there is a tag: &quot;:moveit1:&quot;, remove the tag after the tutorial has been successfully updated.&lt;/p&gt; 
+&lt;p&gt;Below are some links to help with the ports.&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://colcon.readthedocs.io/en/released/user/how-to.html&quot;&gt;colcon&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://index.ros.org/doc/ros2/Tutorials/Ament-CMake-Documentation/&quot;&gt;ament&lt;/a&gt;&lt;/li&gt; 
+ &lt;li&gt;&lt;a href=&quot;https://docs.ros2.org/latest/api/rclcpp/index.html&quot;&gt;rclcpp&lt;/a&gt;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;MoveIt Tutorials Source Build&lt;/h2&gt; 
+&lt;p&gt;Follow the &lt;a href=&quot;https://moveit.ros.org/install-moveit2/source/&quot;&gt;MoveIt Source Build&lt;/a&gt; instructions to set up a colcon workspace with MoveIt from the source.&lt;/p&gt; 
+&lt;p&gt;Open a command line to your colcon workspace:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;cd $COLCON_WS/src
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Download the MoveIt Tutorials source code:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/moveit/moveit2_tutorials.git
+vcs import &amp;lt; moveit2_tutorials/moveit2_tutorials.repos
+rosdep install -r --from-paths . --ignore-src --rosdistro rolling -y
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Configure and build the workspace:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;cd $COLCON_WS
+colcon build --event-handlers desktop_notification- status- --cmake-args -DCMAKE_BUILD_TYPE=Release
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Build HTML Pages Locally&lt;/h2&gt; 
+&lt;p&gt;If you want to test the tutorials by generating the HTML pages locally on your machine, you can use the &lt;code&gt;build_locally.sh&lt;/code&gt; script in this repo.&lt;/p&gt; 
+&lt;p&gt;If you are using Ubuntu 24.04 (or Python 3.11 or greater), you should first create a virtual environment.&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;python3 -m venv .venv
+source .venv/bin/activate
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Then, issue the following commands in the root of the &lt;code&gt;moveit2_tutorials&lt;/code&gt; package:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;cd $COLCON_WS/src/moveit2_tutorials
+
+export ROS_DISTRO=rolling  # 24.04
+source /opt/ros/$ROS_DISTRO/setup.bash
+
+./build_locally.sh
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;The local website &lt;code&gt;&amp;lt;LOCAL_PACKAGE_PATH&amp;gt;/build/html/index.html&lt;/code&gt; should automatically open in your web browser.&lt;/p&gt; 
+&lt;h3&gt;Optional build_locally Settings&lt;/h3&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;&lt;em&gt;noinstall&lt;/em&gt; skip the dependencies install step to speed up the script&lt;/li&gt; 
+ &lt;li&gt;&lt;em&gt;loop&lt;/em&gt; automatically rebuilds the HTML if a change is detected&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h3&gt;Formatting and Style&lt;/h3&gt; 
+&lt;p&gt;These tutorials use the &lt;a href=&quot;http://www.sphinx-doc.org/en/stable/rest.html&quot;&gt;reStructuredText&lt;/a&gt; format commonly used in the Sphinx &quot;Python Documentation Generator&quot;. This unfortunately differs from the common Markdown format, but its advantage is that it supports embedding code directly from source files for inline code tutorials.&lt;/p&gt; 
+&lt;p&gt;&lt;strong&gt;Code Formatting&lt;/strong&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;These tutorials use the same &lt;a href=&quot;http://moveit.ros.org/documentation/contributing/code/&quot;&gt;style guidelines&lt;/a&gt; as the MoveIt project. When modifying or adding to these tutorials, it is required that code is auto-formatted using &lt;a href=&quot;http://moveit.ros.org/documentation/contributing/code/&quot;&gt;clang format&lt;/a&gt;. To check and apply the style guidelines we use &lt;a href=&quot;https://pre-commit.com/&quot;&gt;pre-commit&lt;/a&gt;.&lt;/li&gt; 
+ &lt;li&gt;Tutorials should exemplify best coding practices. If a contribution wouldn&#39;t pass review in the MoveIt project, then it shouldn&#39;t pass review in the tutorials.&lt;/li&gt; 
+ &lt;li&gt;Relevant code should be included and explained using the &lt;code&gt;.. tutorial-formatter::&lt;/code&gt; tag.&lt;/li&gt; 
+ &lt;li&gt;Irrelevant code should be excluded from the generated HTML using the &lt;code&gt;BEGIN_TUTORIAL&lt;/code&gt;, &lt;code&gt;END_TUTORIAL&lt;/code&gt;, &lt;code&gt;BEGIN_SUB_TUTORIAL&lt;/code&gt;, and &lt;code&gt;END_SUB_TUTORIAL&lt;/code&gt; tags.&lt;/li&gt; 
+ &lt;li&gt;Whenever possible, links should be created using the &lt;code&gt;extlinks&lt;/code&gt; dictionary defined in &lt;code&gt;conf.py&lt;/code&gt;.&lt;/li&gt; 
+ &lt;li&gt;All demo code should be runnable from within the &lt;code&gt;moveit2_tutorials&lt;/code&gt; package.&lt;/li&gt; 
+ &lt;li&gt;Python code should be run using &lt;code&gt;ros2 run&lt;/code&gt;.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;strong&gt;Style&lt;/strong&gt;&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Each tutorial should be focused on teaching the user one feature or interface within MoveIt.&lt;/li&gt; 
+ &lt;li&gt;Tutorials should flow from show to tell with videos and demos at the beginning followed by explanations.&lt;/li&gt; 
+ &lt;li&gt;New tutorials should match the formatting, style, and flow of existing tutorials whenever possible.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;&lt;strong&gt;pre-commit&lt;/strong&gt;&lt;/p&gt; 
+&lt;p&gt;pre-commit is a tool that is used in moveit2_tutorials to check and apply style guidelines automatically. To install pre-commit into your system:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;pip3 install pre-commit
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Then under the moveit2_tutorials directory install the git hooks like this:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;cd $COLCON_WS/src/moveit2_tutorials &amp;amp;&amp;amp; pre-commit install
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;With this pre-commit will automatically run and check a list of styling including clang-format, end of files, and trailing whitespaces whenever you run &lt;code&gt;git commit&lt;/code&gt;. To run pre-commit any time other than &lt;code&gt;git commit&lt;/code&gt;:&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;cd $COLCON_WS/src/moveit2_tutorials &amp;amp;&amp;amp; pre-commit run -a
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Including Images and Videos&lt;/h3&gt; 
+&lt;h4&gt;Images&lt;/h4&gt; 
+&lt;p&gt;The standard way to include an image in reStructuredText is&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;.. image:: filename.png
+   :width: 700px
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;This assumes that &lt;code&gt;filename.png&lt;/code&gt; is in the same folder as the source &lt;code&gt;.rst&lt;/code&gt; file. Images linked in this way will automatically be copied to the appropriate folder in the build.&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://sublime-and-sphinx-guide.readthedocs.io/en/latest/images.html&quot;&gt;External Documentation&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Do &lt;strong&gt;not&lt;/strong&gt; include animated gifs as the file format leads to very large files. Use a video format like &lt;code&gt;webm&lt;/code&gt; and see the section on the local video below.&lt;/p&gt; 
+&lt;h4&gt;YouTube and other External Video&lt;/h4&gt; 
+&lt;p&gt;You can embed video with raw HTML, like in this example from the Pick and Place Tutorial.&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;.. raw:: html
+
+    &amp;lt;div style=&quot;position: relative; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;&quot;&amp;gt;
+        &amp;lt;iframe width=&quot;700px&quot; height=&quot;400px&quot; src=&quot;https://www.youtube.com/embed/QBJPxx_63Bs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+    &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;This includes &lt;a href=&quot;https://support.google.com/youtube/answer/171780?hl=en&quot;&gt;YouTube&#39;s suggested embed HTML&lt;/a&gt;.&lt;/p&gt; 
+&lt;h4&gt;Local Video&lt;/h4&gt; 
+&lt;p&gt;To embed a video that is included in this repository, you also will use raw HTML, like this example from the Quickstart in RViz tutorial.&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;.. raw:: html
+
+    &amp;lt;video width=&quot;700px&quot; controls=&quot;true&quot; autoplay=&quot;true&quot; loop=&quot;true&quot;&amp;gt;
+        &amp;lt;source src=&quot;../../../_static/videos/rviz_joints_nullspace.webm&quot; type=&quot;video/webm&quot;&amp;gt;
+        The joints move while the end effector stays still
+    &amp;lt;/video&amp;gt;
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Note that the video file is in the &lt;code&gt;_static/videos&lt;/code&gt; folder instead of the same folder.&lt;/p&gt; 
+&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video&quot;&gt;External Documentation on &amp;lt;video&amp;gt; tag&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;License&lt;/h2&gt; 
+&lt;p&gt;All content in this repository is open source and released under the &lt;a href=&quot;https://opensource.org/licenses/BSD-3-Clause&quot;&gt;BSD License v3&lt;/a&gt;. Each source code file should contain a copy of the license.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
