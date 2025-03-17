@@ -10,6 +10,7 @@
       <title>{{ userID }}/{{ repositoryName }}</title>
       <link>{{ url }}</link>
       <description>{{ description }}</description>
+      <pubDate>{{ pubDate }}</pubDate>
     </item>
     {% endfor %}
   </channel>
