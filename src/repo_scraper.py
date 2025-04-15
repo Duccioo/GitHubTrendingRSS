@@ -2,6 +2,7 @@
 import requests
 from datetime import datetime, timedelta
 import os
+import json
 
 from dotenv import load_dotenv
 
@@ -117,29 +118,49 @@ def main():
     else:
         print("Token GitHub trovato. Le richieste API saranno autenticate.")
 
+    # Crea la directory data se non esiste
+    data_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+    if not os.path.exists(data_dir):
+        os.makedirs(data_dir)
+
     # Recupera repository più popolari in generale
-    trending_repos = get_trending_repositories(since="weekly", limit=10, headers=headers)
+    trending_repos = get_trending_repositories(since="monthly", limit=20, headers=headers)
     print(f"Recuperate {len(trending_repos)} repository più popolari in generale")
 
     # Recupera repository che hanno guadagnato popolarità recentemente
     recent_trending_repos = get_trending_repositories(
-        since="daily", limit=5, headers=headers, recently_trending=True
+        since="weekly", limit=20, headers=headers, recently_trending=True
     )
     print(f"Recuperate {len(recent_trending_repos)} repository che hanno guadagnato popolarità recentemente")
 
+    # Organizza i dati
+    organized_trending_repos = extract_repo_data(trending_repos)
+    organized_recent_trending_repos = extract_repo_data(recent_trending_repos)
+
+    # Salva i dati in JSON
+    trending_json_path = os.path.join(data_dir, "trending_repos.json")
+    with open(trending_json_path, "w", encoding="utf-8") as file:
+        json.dump(organized_trending_repos, file, ensure_ascii=False, indent=2)
+        print(f"Dati salvati in {trending_json_path}")
+
+    recent_trending_json_path = os.path.join(data_dir, "recently_trending_repos.json")
+    with open(recent_trending_json_path, "w", encoding="utf-8") as file:
+        json.dump(organized_recent_trending_repos, file, ensure_ascii=False, indent=2)
+        print(f"Dati salvati in {recent_trending_json_path}")
+
     # Mostra un esempio dei dati organizzati per repository popolari in generale
-    if trending_repos:
+    if organized_trending_repos:
         print("\nEsempio di repository popolare in generale:")
-        organized_repo = extract_repo_data([trending_repos[0]])[0]
+        organized_repo = organized_trending_repos[0]
         print(f"Nome: {organized_repo['name']}")
         print(f"URL: {organized_repo['url']}")
         print(f"Descrizione: {organized_repo['description']}")
         print(f"Stelle: {organized_repo['stars']}")
 
     # Mostra un esempio dei dati organizzati per repository recentemente popolari
-    if recent_trending_repos:
+    if organized_recent_trending_repos:
         print("\nEsempio di repository recentemente popolare:")
-        organized_repo = extract_repo_data([recent_trending_repos[0]])[0]
+        organized_repo = organized_recent_trending_repos[0]
         print(f"Nome: {organized_repo['name']}")
         print(f"URL: {organized_repo['url']}")
         print(f"Descrizione: {organized_repo['description']}")
