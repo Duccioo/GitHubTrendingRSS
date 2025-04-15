@@ -1,4 +1,24 @@
-<!DOCTYPE html>
+from datetime import datetime
+
+
+def generate_website():
+    """
+    Genera un sito web HTML per visualizzare i feed RSS delle repository di tendenza
+    organizzate per linguaggio di programmazione e periodo di tempo.
+    """
+    # Definisci i linguaggi supportati
+    languages = [
+        "All Languages",
+        "Unknown languages",
+        # Puoi aggiungere altri linguaggi a piacimento
+    ]
+
+    # Definisci i periodi di tempo
+    periods = ["Daily", "Weekly", "Monthly"]
+
+    # Crea la struttura base del sito HTML
+    html = (
+        """<!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -93,37 +113,38 @@
         <h1>GitHub Trending RSS</h1>
         <div class="github-badge">Fetch and Generate RSS Feeds <span class="passing">passing</span></div>
         <div class="github-star">★ Star: 24</div>
-        <div class="build-info">The latest build: 15 April, 2025</div>
+        <div class="build-info">The latest build: """
+        + datetime.now().strftime("%d %B, %Y")
+        + """</div>
     </header>
     
     <div class="container">
+"""
+    )
 
+    # Aggiungi una card per ogni linguaggio
+    for language in languages:
+        html += f"""
         <div class="language-card">
-            <div class="language-title">All Languages</div>
+            <div class="language-title">{language}</div>
             <div class="feed-links">
+"""
+        # Aggiungi i link per ogni periodo di tempo
+        for period in periods:
+            language_param = language.replace(" ", "%20")
+            language_filename = language.replace(" ", "_").lower()
+            period_lower = period.lower()
+            html += f"""
+                <a href="feeds/{language_filename}_{period_lower}.xml">{period}</a>
+"""
 
-                <a href="feeds/all_languages_daily.xml">Daily</a>
-
-                <a href="feeds/all_languages_weekly.xml">Weekly</a>
-
-                <a href="feeds/all_languages_monthly.xml">Monthly</a>
-
+        html += """
             </div>
         </div>
+"""
 
-        <div class="language-card">
-            <div class="language-title">Unknown languages</div>
-            <div class="feed-links">
-
-                <a href="feeds/unknown_languages_daily.xml">Daily</a>
-
-                <a href="feeds/unknown_languages_weekly.xml">Weekly</a>
-
-                <a href="feeds/unknown_languages_monthly.xml">Monthly</a>
-
-            </div>
-        </div>
-
+    # Chiudi l'HTML
+    html += """
     </div>
     
     <footer>
@@ -131,3 +152,41 @@
     </footer>
 </body>
 </html>
+"""
+
+    return html
+
+
+def save_website(html_content, filename="index.html"):
+    """
+    Salva il contenuto HTML in un file
+
+    Parameters:
+    html_content (str): Contenuto HTML del sito web
+    filename (str): Nome del file di output
+
+    Returns:
+    bool: True se il salvataggio ha avuto successo, False altrimenti
+    """
+    try:
+        with open(filename, "w", encoding="utf-8") as file:
+            file.write(html_content)
+        return True
+    except Exception as e:
+        print(f"Errore durante il salvataggio del file HTML: {e}")
+        return False
+
+
+def main():
+    # Genera il sito web
+    html_content = generate_website()
+
+    # Salva il sito web in un file
+    if save_website(html_content):
+        print("Sito web generato e salvato come index.html")
+    else:
+        print("Errore durante il salvataggio del sito web")
+
+
+if __name__ == "__main__":
+    main()
