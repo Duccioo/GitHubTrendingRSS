@@ -38,6 +38,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/ docs/ rss/ feeds/ index.html
+          git add feeds/ index.html
           git diff --quiet && git diff --staged --quiet || git commit -m "Daily update: $(date +%Y-%m-%d)"
           git push
