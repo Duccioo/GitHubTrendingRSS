@@ -103,7 +103,7 @@ def main_complete():
     # 2. Genera il sito web
     print("\n=== GENERAZIONE SITO WEB ===\n")
     html_content = generate_website()
-    success = save_website(html_content)
+    success = save_website(html_content, filename="index.html")
 
     if success:
         print(f"Il sito web è stato salvato con successo in 'index.html'")

@@ -10,19 +10,6 @@ def generate_website():
     languages = [
         "All Languages",
         "Unknown languages",
-        "1C Enterprise",
-        "2-Dimensional Array",
-        "4D",
-        "ABAP",
-        "ABAP CDS",
-        "ABNF",
-        "ActionScript",
-        "Ada",
-        "Adblock Filter List",
-        "Adobe Font Metrics",
-        "Agda",
-        "AGS Script",
-        "AIDL",
         # Puoi aggiungere altri linguaggi a piacimento
     ]
 
