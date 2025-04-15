@@ -1,0 +1,44 @@
+name: Daily GitHub Trending Update
+
+on:
+  schedule:
+    # Esegui ogni giorno alle 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Permette anche l'esecuzione manuale
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Run repo scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python src/repo_scraper.py
+          
+      - name: Generate RSS feeds and website
+        run: |
+          python src/generate_rss.py
+          python src/generate_website.py
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/ docs/ rss/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Daily update: $(date +%Y-%m-%d)"
+          git push
