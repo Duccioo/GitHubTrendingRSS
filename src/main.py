@@ -1,10 +1,5 @@
 # Importa le librerie necessarie
-import requests
-import json
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
 import os
-from dateutil import parser
 import time
 
 
