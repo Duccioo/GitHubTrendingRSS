@@ -72,7 +72,8 @@ public class SiteSourceMaker {
                     userID: $0.pageLink.userID,
                     repositoryName: $0.pageLink.repositoryName,
                     url: $0.pageLink.url.absoluteString,
-                    pageLink: $0.pageLink
+                    pageLink: $0.pageLink,
+                    pubDate: pubDate // Aggiungi questa riga
                 )
             },
             "periods": Period.allCases.map(\.rawValue),
