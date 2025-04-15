@@ -1,6 +1,5 @@
 # Importa le librerie necessarie
 import requests
-import json
 from datetime import datetime, timedelta
 import os
 
