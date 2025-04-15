@@ -32,7 +32,7 @@ jobs:
           
       - name: Generate RSS feeds and website
         run: |
-          python main.py
+          python src/main.py
           
       - name: Commit and push changes
         run: |
