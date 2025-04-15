@@ -31,7 +31,7 @@ def create_rss_feed(
     ET.SubElement(channel, "link").text = "https://github.com/trending"
     ET.SubElement(channel, "description").text = description
     ET.SubElement(channel, "language").text = "it-IT"
-    ET.SubElement(channel, "pubDate").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
+    ET.SubElement(channel, "updated").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
 
     # Aggiungi ogni repository come item nel feed
     for repo in repos:

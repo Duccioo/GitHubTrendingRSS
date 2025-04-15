@@ -1,10 +1,10 @@
 # Importa le librerie necessarie
 import os
 import time
-
+from datetime import datetime
+import website
 
 # ----
-from website import generate_website, save_website
 from repo_scraper import get_trending_repositories, extract_repo_data
 from gen_feed import create_rss_feed
 
@@ -81,37 +81,22 @@ def generate_all_feeds():
     return count, errors
 
 
-# Esegui la generazione di tutti i feed
-feeds_count, feeds_errors = generate_all_feeds()
+def main():
+    # Assicurati che esista la directory dei feeds
+    os.makedirs("feeds", exist_ok=True)
 
+    # Qui potresti chiamare altre funzioni per generare i feed RSS
+    generate_all_feeds()
 
-def main_complete():
-    """
-    Processo completo per generare tutti i feed RSS e il sito web
-    """
-    print("Avvio generazione del sistema completo di feed RSS GitHub trending...\n")
-
-    # 1. Genera tutti i feed RSS
-    print("\n=== GENERAZIONE FEED RSS ===\n")
-    feeds_count, feeds_errors = generate_all_feeds()
-
-    # 2. Genera il sito web
-    print("\n=== GENERAZIONE SITO WEB ===\n")
-    html_content = generate_website()
-    success = save_website(html_content, filename="index.html")
-
-    if success:
-        print(f"Il sito web è stato salvato con successo in 'index.html'")
+    # Genera e salva il sito web
+    html_content = website.generate_website()
+    if website.save_website(html_content):
+        print(f"Sito web generato e salvato come index.html")
     else:
-        print(f"Si è verificato un errore durante il salvataggio del sito web")
-
-    print("\n=== RIEPILOGO ===\n")
-    print(f"Feed RSS generati: {feeds_count}")
-    print(f"Feed RSS con errori: {feeds_errors}")
-    print(f"Sito web generato: {'Sì' if success else 'No'}")
-    print("\nPuoi aprire index.html nel tuo browser per visualizzare e accedere ai feed RSS")
+        print("Errore durante il salvataggio del sito web")
 
 
-# Eseguiamo tutto il processo completo se lo script viene eseguito direttamente
 if __name__ == "__main__":
-    main_complete()
+    print(f"Inizio esecuzione: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    main()
+    print(f"Fine esecuzione: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")

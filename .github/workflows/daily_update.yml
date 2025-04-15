@@ -24,13 +24,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: Run repo scraper
+      - name: Generate RSS feeds and website
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python src/repo_scraper.py
-          
-      - name: Generate RSS feeds and website
         run: |
           python src/main.py
           
