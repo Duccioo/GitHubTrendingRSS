@@ -16,7 +16,7 @@ def generate_all_feeds():
     """
 
     # Definisci l'URL base per i tuoi feed
-    base_feed_url = "https://duccioo.github.io/GitHubTrendingRSS_duccioo/"  # Modifica se necessario
+    base_feed_url = "https://duccioo.github.io/GitHubTrendingRSS/"  # Modifica se necessario
 
     # Define supported languages
     languages = [
