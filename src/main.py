@@ -11,92 +11,90 @@ from gen_feed import create_rss_feed
 
 def generate_all_feeds():
     """
-    Genera feed RSS per tutti i linguaggi e periodi di tempo definiti
-    e li salva nella cartella 'feeds'.
+    Generates Atom feeds for all languages and time periods
+    and saves them in the 'feeds' folder.
     """
-    # Definisci i linguaggi supportati
+    # Define supported languages
     languages = [
         "All Languages",
         "Unknown languages",
-        # Puoi aggiungere altri linguaggi a piacimento
+        # You can add more languages as needed
     ]
 
-    # Definisci i periodi di tempo
+    # Define time periods
     periods = ["daily", "weekly", "monthly"]
 
-    # Crea la cartella feeds se non esiste
+    # Create feeds folder if it doesn't exist
     if not os.path.exists("feeds"):
         os.makedirs("feeds")
-        print("Creata cartella 'feeds'")
+        print("Created 'feeds' folder")
 
     count = 0
     errors = 0
 
-    # Genera feed per ogni combinazione di linguaggio e periodo
+    # Generate feed for each language and period combination
     for language in languages:
         for period in periods:
             try:
-                print(f"Generazione feed per {language} ({period})...")
+                print(f"Generating feed for {language} ({period})...")
 
-                # Usa None per 'All Languages' e converti appropriatamente per 'Unknown languages'
+                # Use None for 'All Languages' and convert appropriately for 'Unknown languages'
                 lang_param = None if language == "All Languages" else language
                 if language == "Unknown languages":
                     lang_param = "Unknown"
 
-                # Recupera repository
+                # Get repositories
                 repos = get_trending_repositories(language=lang_param, since=period, limit=30)
 
                 if repos:
-                    # Organizza i dati
+                    # Organize data
                     organized_repos = extract_repo_data(repos)
 
-                    # Genera feed RSS
+                    # Generate Atom feed
                     feed_title = f"GitHub Trending - {language} ({period})"
-                    feed_description = (
-                        f"Le repository più popolari in {language} nell'ultimo periodo {period}"
-                    )
-                    rss_feed = create_rss_feed(
+                    feed_description = f"The most popular repositories in {language} for the {period} period"
+                    atom_feed = create_rss_feed(
                         organized_repos, title=feed_title, description=feed_description
                     )
 
-                    # Salva feed RSS
+                    # Save Atom feed
                     filename = f"feeds/{language.replace(' ', '_').lower()}_{period}.xml"
                     with open(filename, "w", encoding="utf-8") as file:
-                        file.write(rss_feed)
+                        file.write(atom_feed)
 
                     count += 1
-                    print(f"Feed salvato: {filename}")
+                    print(f"Feed saved: {filename}")
 
-                    # Aggiungi piccola pausa per evitare troppe richieste API
+                    # Add a small pause to avoid too many API requests
                     time.sleep(1)
                 else:
-                    print(f"Nessuna repository trovata per {language} ({period})")
+                    print(f"No repositories found for {language} ({period})")
                     errors += 1
 
             except Exception as e:
-                print(f"Errore per {language} ({period}): {str(e)}")
+                print(f"Error for {language} ({period}): {str(e)}")
                 errors += 1
 
-    print(f"\nCompletato! Feed generati: {count}, errori: {errors}")
+    print(f"\nCompleted! Feeds generated: {count}, errors: {errors}")
     return count, errors
 
 
 def main():
-    # Assicurati che esista la directory dei feeds
+    # Make sure the feeds directory exists
     os.makedirs("feeds", exist_ok=True)
 
-    # Qui potresti chiamare altre funzioni per generare i feed RSS
+    # Generate all feeds
     generate_all_feeds()
 
-    # Genera e salva il sito web
+    # Generate and save the website
     html_content = website.generate_website()
-    if website.save_website(html_content):
-        print(f"Sito web generato e salvato come index.html")
+    if website.save_website(html_content, "index.html"):
+        print(f"Website generated and saved as index.html")
     else:
-        print("Errore durante il salvataggio del sito web")
+        print("Error while saving the website")
 
 
 if __name__ == "__main__":
-    print(f"Inizio esecuzione: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Execution started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     main()
-    print(f"Fine esecuzione: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Execution completed: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
