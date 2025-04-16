@@ -28,10 +28,20 @@ def extract_repo_data(repos):
         repo_data = {
             "name": repo.get("full_name", ""),
             "url": repo.get("html_url", ""),
-            "description": repo.get("description", "no description"),
+            "description": repo.get(
+                "description", "Nessuna descrizione fornita"
+            ),  # Migliorata la stringa di default
             "stars": repo.get("stargazers_count", 0),
             "forks": repo.get("forks_count", 0),
-            "language": repo.get("language", "no language"),
+            "language": repo.get(
+                "language", "Non specificato"
+            ),  # Migliorata la stringa di default
+            "topics": repo.get("topics", []),  # Aggiunti i topics
+            "license": (
+                repo.get("license", {}).get("name", "Nessuna licenza")
+                if repo.get("license")
+                else "Nessuna licenza"
+            ),  # Aggiunta la licenza con gestione del caso None
             "created_at": repo.get("created_at"),
             "updated_at": repo.get("updated_at"),
             "owner": {
@@ -45,7 +55,9 @@ def extract_repo_data(repos):
     return organized_data
 
 
-def get_trending_repositories(language=None, since="daily", limit=20, headers=None, recently_trending=False):
+def get_trending_repositories(
+    language=None, since="daily", limit=20, headers=None, recently_trending=False
+):
     """
     Recupera le repository di tendenza su GitHub
 
@@ -109,29 +121,40 @@ def main():
     GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
     # Configura gli headers per le richieste API
-    headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+    headers = {
+        "Authorization": f"token {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github.v3+json",
+    }
 
     # Verifica se il token è stato impostato
     if not GITHUB_TOKEN:
-        print("Attenzione: Token GitHub non trovato! Le richieste API potrebbero essere limitate.")
+        print(
+            "Attenzione: Token GitHub non trovato! Le richieste API potrebbero essere limitate."
+        )
         headers = {"Accept": "application/vnd.github.v3+json"}
     else:
         print("Token GitHub trovato. Le richieste API saranno autenticate.")
 
     # Crea la directory data se non esiste
-    data_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+    data_dir = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data"
+    )
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
 
     # Recupera repository più popolari in generale
-    trending_repos = get_trending_repositories(since="monthly", limit=20, headers=headers)
+    trending_repos = get_trending_repositories(
+        since="monthly", limit=20, headers=headers
+    )
     print(f"Recuperate {len(trending_repos)} repository più popolari in generale")
 
     # Recupera repository che hanno guadagnato popolarità recentemente
     recent_trending_repos = get_trending_repositories(
         since="weekly", limit=20, headers=headers, recently_trending=True
     )
-    print(f"Recuperate {len(recent_trending_repos)} repository che hanno guadagnato popolarità recentemente")
+    print(
+        f"Recuperate {len(recent_trending_repos)} repository che hanno guadagnato popolarità recentemente"
+    )
 
     # Organizza i dati
     organized_trending_repos = extract_repo_data(trending_repos)
