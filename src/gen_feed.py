@@ -39,15 +39,15 @@ def create_rss_feed(
     # Add feed details
     ET.SubElement(feed, "{%s}title" % namespace).text = title
 
-    link_alternate = ET.SubElement(feed, "{%s}link" % namespace)
-    link_alternate.set("href", "https://github.com/trending")  # Link alla pagina generale di trending
-    link_alternate.set("rel", "alternate")
+    # link_alternate = ET.SubElement(feed, "{%s}link" % namespace)
+    # link_alternate.set("href", "https://github.com/trending")  # Link alla pagina generale di trending
+    # link_alternate.set("rel", "alternate")
 
     link_self = ET.SubElement(feed, "{%s}link" % namespace)
     link_self.set("href", feed_url)  # Usa l'URL specifico passato come parametro
     link_self.set("rel", "self")
 
-    ET.SubElement(feed, "{%s}id" % namespace).text = feed_url  # Usa l'URL specifico come ID univoco
+    # ET.SubElement(feed, "{%s}id" % namespace).text = feed_url  # Usa l'URL specifico come ID univoco
 
     current_time = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
     ET.SubElement(feed, "{%s}updated" % namespace).text = current_time
