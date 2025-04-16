@@ -47,7 +47,7 @@ def create_rss_feed(
     link_self.set("href", feed_url)  # Usa l'URL specifico passato come parametro
     link_self.set("rel", "self")
 
-    # ET.SubElement(feed, "{%s}id" % namespace).text = feed_url  # Usa l'URL specifico come ID univoco
+    ET.SubElement(feed, "{%s}id" % namespace).text = feed_url  # Usa l'URL specifico come ID univoco
 
     current_time = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
     ET.SubElement(feed, "{%s}updated" % namespace).text = current_time
