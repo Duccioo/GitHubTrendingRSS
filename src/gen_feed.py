@@ -9,13 +9,17 @@ from datetime import datetime
 
 
 def create_rss_feed(
-    repos, title="GitHub Trending Repositories", description="The most popular repositories on GitHub"
+    repos,
+    feed_url,  # Aggiungi questo parametro
+    title="GitHub Trending Repositories",
+    description="The most popular repositories on GitHub",
 ):
     """
     Creates an Atom feed from GitHub repositories
 
     Parameters:
     repos (list): List of organized repositories
+    feed_url (str): The public URL where this feed will be hosted
     title (str): Feed title
     description (str): Feed description
 
@@ -36,14 +40,14 @@ def create_rss_feed(
     ET.SubElement(feed, "{%s}title" % namespace).text = title
 
     link_alternate = ET.SubElement(feed, "{%s}link" % namespace)
-    link_alternate.set("href", "https://github.com/trending")
+    link_alternate.set("href", "https://github.com/trending")  # Link alla pagina generale di trending
     link_alternate.set("rel", "alternate")
 
     link_self = ET.SubElement(feed, "{%s}link" % namespace)
-    link_self.set("href", "https://github.com/trending")
+    link_self.set("href", feed_url)  # Usa l'URL specifico passato come parametro
     link_self.set("rel", "self")
 
-    ET.SubElement(feed, "{%s}id" % namespace).text = "https://github.com/trending"
+    ET.SubElement(feed, "{%s}id" % namespace).text = feed_url  # Usa l'URL specifico come ID univoco
 
     current_time = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
     ET.SubElement(feed, "{%s}updated" % namespace).text = current_time

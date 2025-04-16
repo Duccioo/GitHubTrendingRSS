@@ -14,6 +14,10 @@ def generate_all_feeds():
     Generates Atom feeds for all languages and time periods
     and saves them in the 'feeds' folder.
     """
+
+    # Definisci l'URL base per i tuoi feed
+    base_feed_url = "https://duccioo.github.io/GitHubTrendingRSS_duccioo/feeds/"  # Modifica se necessario
+
     # Define supported languages
     languages = [
         "All Languages",
@@ -50,15 +54,19 @@ def generate_all_feeds():
                     # Organize data
                     organized_repos = extract_repo_data(repos)
 
+                    # Costruisci l'URL e il nome del file specifici
+                    filename = f"feeds/{language.replace(' ', '_').lower()}_{period}.xml"
+                    feed_url = f"{base_feed_url}{filename}"
+
                     # Generate Atom feed
                     feed_title = f"GitHub Trending - {language} ({period})"
                     feed_description = f"The most popular repositories in {language} for the {period} period"
                     atom_feed = create_rss_feed(
-                        organized_repos, title=feed_title, description=feed_description
+                        organized_repos, feed_url=feed_url, title=feed_title, description=feed_description
                     )
 
                     # Save Atom feed
-                    filename = f"feeds/{language.replace(' ', '_').lower()}_{period}.xml"
+
                     with open(filename, "w", encoding="utf-8") as file:
                         file.write(atom_feed)
 
