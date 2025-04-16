@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Trending RSS ⚡️</title>
+    <link rel="icon" type="image/png" href="https://github.githubassets.com/favicons/favicon-dark.png">
+    <style>
+        :root {
+            --bg-color: #1a1a1a;
+            --card-bg: #2c2c2c;
+            --text-color: #e0e0e0;
+            --title-color: #ffffff;
+            --accent-color: #ffd700; /* Gold yellow */
+            --accent-hover: #ffec80;
+            --border-color: #444444;
+            --card-shadow: 0 4px 15px rgba(0,0,0,0.4);
+            --card-radius: 8px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth; /* Enable smooth scrolling */
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            font-size: 16px; /* Base font size */
+        }
+
+        header {
+            background: linear-gradient(135deg, #333 0%, #111 100%);
+            color: var(--title-color);
+            text-align: center;
+            padding: 2.5rem 1rem;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.5);
+            position: relative;
+            overflow: hidden;
+            border-bottom: 3px solid var(--accent-color);
+        }
+
+        /* Optional subtle flash animation */
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            background: linear-gradient(to right, rgba(255, 215, 0, 0.1), rgba(255, 215, 0, 0) 10%, rgba(255, 215, 0, 0) 90%, rgba(255, 215, 0, 0.1));
+            animation: lightning-flash 5s linear infinite;
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        @keyframes lightning-flash {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin: 0 0 0.5rem 0; /* Added bottom margin */
+            position: relative;
+            color: var(--accent-color); /* Main title yellow */
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+        }
+        /* Emoji in title might not need specific styling unless alignment is off */
+
+        .header-links { /* Container for links below title */
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header-links a {
+            color: var(--accent-hover);
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1rem;
+            transition: color 0.2s ease;
+        }
+
+        .header-links a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+
+        .build-info {
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            color: rgba(224, 224, 224, 0.8);
+            position: relative;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Section Titles */
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: var(--title-color);
+            margin-bottom: 2rem;
+            margin-top: 3rem; /* Add space above section titles */
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+         h2 .emoji { /* Style for emoji in H2 */
+             margin-right: 10px;
+             vertical-align: middle; /* Better alignment */
+        }
+
+        /* Main Languages Section */
+        .main-languages-section {
+            margin-bottom: 3rem;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border-radius: var(--card-radius);
+            box-shadow: var(--card-shadow);
+            border: 1px solid var(--border-color);
+        }
+        .main-languages-section h2 {
+            margin-top: 0; /* Remove top margin for h2 inside this section */
+            margin-bottom: 1.5rem;
+            text-align: left;
+            border-bottom: none; /* Remove border for this specific h2 */
+            font-size: 1.8rem;
+        }
+        .main-language-group {
+            margin-bottom: 1.5rem;
+        }
+        .main-language-group:last-child {
+            margin-bottom: 0;
+        }
+        .main-language-group h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--title-color);
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        /* Grid for language cards */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 3rem;
+        }
+
+        .language-card {
+            background: var(--card-bg);
+            border-radius: var(--card-radius);
+            box-shadow: var(--card-shadow);
+            border: 1px solid var(--border-color);
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .language-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+            border-color: var(--accent-color);
+        }
+
+        .language-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--title-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        .feed-links {
+            display: flex;
+            justify-content: center; /* Center links in cards */
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        /* Adjust feed links alignment for main languages section */
+        .main-language-group .feed-links {
+             justify-content: flex-start; /* Align links to the start */
+        }
+
+        .feed-link {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 16px;
+            border-radius: 20px;
+            background-color: var(--bg-color);
+            color: var(--accent-color);
+            text-decoration: none;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s ease;
+            font-weight: 500;
+            font-size: 0.95rem; /* Slightly smaller font for links */
+        }
+
+        .feed-link:hover {
+            background-color: var(--accent-color);
+            color: var(--bg-color);
+            transform: scale(1.05);
+            box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3);
+            border-color: var(--accent-hover);
+        }
+
+        .feed-link .emoji { /* Style for emoji within link */
+            margin-right: 6px;
+            font-size: 1em; /* Match link font size */
+            display: inline-block; /* Helps with alignment */
+        }
+
+        /* Popular Repositories Section */
+        .popular-repos {
+            margin-top: 3rem;
+            /* Removed border-top, handled by h2 */
+        }
+
+        .popular-repos h2 {
+            /* Styles already defined in general h2 */
+        }
+
+        .popular-grid {
+             display: grid;
+             grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+             gap: 25px;
+        }
+
+        .popular-repo-card {
+            background: var(--card-bg);
+            border-radius: var(--card-radius);
+            box-shadow: var(--card-shadow);
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+         .popular-repo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+            border-color: var(--accent-color);
+        }
+
+        .popular-repo-card .repo-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--title-color);
+            margin-bottom: 10px;
+            word-break: break-all;
+        }
+        .popular-repo-card .repo-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+         .popular-repo-card .repo-title a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+
+        .popular-repo-card .repo-description {
+            font-size: 0.95rem;
+            color: var(--text-color);
+            margin-bottom: 15px;
+            flex-grow: 1;
+        }
+
+        .popular-repo-card .repo-stats {
+            font-size: 0.9rem;
+            color: var(--text-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+            padding-top: 10px;
+            border-top: 1px solid var(--border-color);
+        }
+        .popular-repo-card .repo-stats span {
+             display: inline-flex;
+             align-items: center;
+             gap: 5px;
+        }
+        .popular-repo-card .repo-stats .emoji { /* Style for stat emojis */
+             font-size: 1.1em; /* Slightly larger emoji */
+             display: inline-block;
+        }
+
+        .star-history-chart {
+            margin: 15px 0; /* Add some vertical spacing */
+            text-align: center; /* Center the image if needed */
+            background-color: #ffffff; /* Add a white background for better contrast */
+            padding: 5px;
+            border-radius: 4px;
+            line-height: 0; /* Prevent extra space below the image */
+        }
+
+        .star-history-chart img {
+            max-width: 100%; /* Ensure image scales down */
+            height: auto;   /* Maintain aspect ratio */
+            display: block; /* Remove potential extra space below */
+            margin: 0 auto; /* Center image if container is wider */
+        }
+
+        /* Other Languages Section */
+        .other-languages-section {
+            margin-top: 3rem;
+            /* Removed border-top, handled by h2 */
+        }
+
+        .other-languages-section details {
+            background: var(--card-bg);
+            border-radius: var(--card-radius);
+            box-shadow: var(--card-shadow);
+            border: 1px solid var(--border-color);
+            margin-bottom: 1rem; /* Space below the details block */
+            overflow: hidden; /* Contain the border radius */
+        }
+
+        .other-languages-section summary {
+            padding: 15px 20px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--title-color);
+            cursor: pointer;
+            outline: none;
+            transition: background-color 0.2s ease;
+            list-style: none; /* Remove default marker */
+            display: flex; /* Use flexbox for alignment */
+            justify-content: space-between; /* Space between text and arrow */
+            align-items: center;
+        }
+        .other-languages-section summary::marker, /* Hide marker for Webkit */
+        .other-languages-section summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .other-languages-section summary:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .other-languages-section summary .arrow {
+            font-size: 1em; /* Match summary font size */
+            transition: transform 0.3s ease;
+        }
+
+        .other-languages-section details[open] summary .arrow {
+            transform: rotate(180deg);
+        }
+
+
+        .other-languages-section details .cards-grid {
+            padding: 25px;
+            margin-bottom: 0; /* Remove bottom margin inside details */
+            border-top: 1px solid var(--border-color); /* Separator line */
+        }
+
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            background-color: #111;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-color);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+        }
+
+        .footer-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 15px; /* Increased gap */
+        }
+
+        .footer-links { /* Container for multiple links */
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap; /* Allow wrapping on small screens */
+        }
+
+        .footer-link { /* Style for individual footer links */
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .footer-link .emoji { /* Emoji in footer links */
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            .cards-grid, .popular-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+             h2 { /* Adjust h2 size for mobile */
+                 font-size: 1.8rem;
+             }
+             .main-languages-section h2 {
+                 font-size: 1.6rem; /* Slightly smaller for this specific h2 */
+             }
+             .other-languages-section summary {
+                 font-size: 1.1rem;
+             }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>⚡️ GitHub Trending RSS</h1>
+            <div class="header-links">
+                <a href="#other-languages">Browse Other Languages 🔽</a>
+            </div>
+            <div class="build-info">Last updated: 16 April 2025, 23:15:25 </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Section for All Languages & Unknown Languages -->
+        <div class="main-languages-section">
+             <h2>Core Feeds</h2>
+             <div class="main-language-group"><h3>All Languages</h3><div class="feed-links">
+                    <a href="feeds/all_languages_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/all_languages_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/all_languages_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            </div></div>
+        </div>
+
+        <!-- Popular Repositories Section -->
+        <div class="popular-repos">
+             <h2><span class="emoji">⭐</span> Popular Repositories (Monthly)</h2>
+             <div class="popular-grid">
+                
+            <div class="popular-repo-card">
+                <div class="repo-title"><a href="https://github.com/openai/codex" target="_blank" rel="noopener noreferrer">openai/codex</a></div>
+                <div class="repo-description">Lightweight coding agent that runs in your terminal</div>
+                
+            <div class="star-history-chart">
+                <a href="https://star-history.com/#openai/codex&amp;Date" target="_blank" rel="noopener noreferrer" title="View Star History for openai/codex">
+                    <img src="https://api.star-history.com/svg?repos=openai/codex&amp;type=Date" alt="Star History Chart for openai/codex" loading="lazy">
+                </a>
+            </div>
+        
+                <div class="repo-stats">
+                    <span class="stars" title="Stars"><span class="emoji">⭐</span> 5205</span>
+                    <span title="Forks"><span class="emoji">🍴</span> 387</span>
+                    <span title="Language"><span class="emoji">💻</span> TypeScript</span>
+                </div>
+            </div>
+        
+            <div class="popular-repo-card">
+                <div class="repo-title"><a href="https://github.com/jamez-bondos/awesome-gpt4o-images" target="_blank" rel="noopener noreferrer">jamez-bondos/awesome-gpt4o-images</a></div>
+                <div class="repo-description">Awesome curated collection of GPT-4o images &amp; prompts. Explore diverse AI-generated art styles (Ghibli, 3D, etc.) from OpenAI&#x27;s latest model. </div>
+                
+            <div class="star-history-chart">
+                <a href="https://star-history.com/#jamez-bondos/awesome-gpt4o-images&amp;Date" target="_blank" rel="noopener noreferrer" title="View Star History for jamez-bondos/awesome-gpt4o-images">
+                    <img src="https://api.star-history.com/svg?repos=jamez-bondos/awesome-gpt4o-images&amp;type=Date" alt="Star History Chart for jamez-bondos/awesome-gpt4o-images" loading="lazy">
+                </a>
+            </div>
+        
+                <div class="repo-stats">
+                    <span class="stars" title="Stars"><span class="emoji">⭐</span> 3116</span>
+                    <span title="Forks"><span class="emoji">🍴</span> 262</span>
+                    <span title="Language"><span class="emoji">💻</span> N/A</span>
+                </div>
+            </div>
+        
+            <div class="popular-repo-card">
+                <div class="repo-title"><a href="https://github.com/hxu296/tariff" target="_blank" rel="noopener noreferrer">hxu296/tariff</a></div>
+                <div class="repo-description">The official repository for tariff</div>
+                
+            <div class="star-history-chart">
+                <a href="https://star-history.com/#hxu296/tariff&amp;Date" target="_blank" rel="noopener noreferrer" title="View Star History for hxu296/tariff">
+                    <img src="https://api.star-history.com/svg?repos=hxu296/tariff&amp;type=Date" alt="Star History Chart for hxu296/tariff" loading="lazy">
+                </a>
+            </div>
+        
+                <div class="repo-stats">
+                    <span class="stars" title="Stars"><span class="emoji">⭐</span> 1570</span>
+                    <span title="Forks"><span class="emoji">🍴</span> 28</span>
+                    <span title="Language"><span class="emoji">💻</span> Python</span>
+                </div>
+            </div>
+        
+            <div class="popular-repo-card">
+                <div class="repo-title"><a href="https://github.com/ByteDance-Seed/Seed-Thinking-v1.5" target="_blank" rel="noopener noreferrer">ByteDance-Seed/Seed-Thinking-v1.5</a></div>
+                <div class="repo-description">No description available.</div>
+                
+            <div class="star-history-chart">
+                <a href="https://star-history.com/#ByteDance-Seed/Seed-Thinking-v1.5&amp;Date" target="_blank" rel="noopener noreferrer" title="View Star History for ByteDance-Seed/Seed-Thinking-v1.5">
+                    <img src="https://api.star-history.com/svg?repos=ByteDance-Seed/Seed-Thinking-v1.5&amp;type=Date" alt="Star History Chart for ByteDance-Seed/Seed-Thinking-v1.5" loading="lazy">
+                </a>
+            </div>
+        
+                <div class="repo-stats">
+                    <span class="stars" title="Stars"><span class="emoji">⭐</span> 655</span>
+                    <span title="Forks"><span class="emoji">🍴</span> 9</span>
+                    <span title="Language"><span class="emoji">💻</span> N/A</span>
+                </div>
+            </div>
+        
+            <div class="popular-repo-card">
+                <div class="repo-title"><a href="https://github.com/droidrun/droidrun" target="_blank" rel="noopener noreferrer">droidrun/droidrun</a></div>
+                <div class="repo-description">No description available.</div>
+                
+            <div class="star-history-chart">
+                <a href="https://star-history.com/#droidrun/droidrun&amp;Date" target="_blank" rel="noopener noreferrer" title="View Star History for droidrun/droidrun">
+                    <img src="https://api.star-history.com/svg?repos=droidrun/droidrun&amp;type=Date" alt="Star History Chart for droidrun/droidrun" loading="lazy">
+                </a>
+            </div>
+        
+                <div class="repo-stats">
+                    <span class="stars" title="Stars"><span class="emoji">⭐</span> 490</span>
+                    <span title="Forks"><span class="emoji">🍴</span> 53</span>
+                    <span title="Language"><span class="emoji">💻</span> Python</span>
+                </div>
+            </div>
+        
+            <div class="popular-repo-card">
+                <div class="repo-title"><a href="https://github.com/SkyworkAI/Skywork-OR1" target="_blank" rel="noopener noreferrer">SkyworkAI/Skywork-OR1</a></div>
+                <div class="repo-description">No description available.</div>
+                
+            <div class="star-history-chart">
+                <a href="https://star-history.com/#SkyworkAI/Skywork-OR1&amp;Date" target="_blank" rel="noopener noreferrer" title="View Star History for SkyworkAI/Skywork-OR1">
+                    <img src="https://api.star-history.com/svg?repos=SkyworkAI/Skywork-OR1&amp;type=Date" alt="Star History Chart for SkyworkAI/Skywork-OR1" loading="lazy">
+                </a>
+            </div>
+        
+                <div class="repo-stats">
+                    <span class="stars" title="Stars"><span class="emoji">⭐</span> 467</span>
+                    <span title="Forks"><span class="emoji">🍴</span> 25</span>
+                    <span title="Language"><span class="emoji">💻</span> Python</span>
+                </div>
+            </div>
+        
+            <div class="popular-repo-card">
+                <div class="repo-title"><a href="https://github.com/123xiao/sex-agreement-app" target="_blank" rel="noopener noreferrer">123xiao/sex-agreement-app</a></div>
+                <div class="repo-description">性行为同意协议系统</div>
+                
+            <div class="star-history-chart">
+                <a href="https://star-history.com/#123xiao/sex-agreement-app&amp;Date" target="_blank" rel="noopener noreferrer" title="View Star History for 123xiao/sex-agreement-app">
+                    <img src="https://api.star-history.com/svg?repos=123xiao/sex-agreement-app&amp;type=Date" alt="Star History Chart for 123xiao/sex-agreement-app" loading="lazy">
+                </a>
+            </div>
+        
+                <div class="repo-stats">
+                    <span class="stars" title="Stars"><span class="emoji">⭐</span> 344</span>
+                    <span title="Forks"><span class="emoji">🍴</span> 45</span>
+                    <span title="Language"><span class="emoji">💻</span> TypeScript</span>
+                </div>
+            </div>
+        
+            <div class="popular-repo-card">
+                <div class="repo-title"><a href="https://github.com/wongryan8000/Stork-Auto-Bot" target="_blank" rel="noopener noreferrer">wongryan8000/Stork-Auto-Bot</a></div>
+                <div class="repo-description">Automated validation bot for the Stork Oracle network. This bot helps you automate the verification process to earn rewards through the Stork Oracl...</div>
+                
+            <div class="star-history-chart">
+                <a href="https://star-history.com/#wongryan8000/Stork-Auto-Bot&amp;Date" target="_blank" rel="noopener noreferrer" title="View Star History for wongryan8000/Stork-Auto-Bot">
+                    <img src="https://api.star-history.com/svg?repos=wongryan8000/Stork-Auto-Bot&amp;type=Date" alt="Star History Chart for wongryan8000/Stork-Auto-Bot" loading="lazy">
+                </a>
+            </div>
+        
+                <div class="repo-stats">
+                    <span class="stars" title="Stars"><span class="emoji">⭐</span> 320</span>
+                    <span title="Forks"><span class="emoji">🍴</span> 0</span>
+                    <span title="Language"><span class="emoji">💻</span> N/A</span>
+                </div>
+            </div>
+        
+            <div class="popular-repo-card">
+                <div class="repo-title"><a href="https://github.com/wongryan8000/3DOS-Auto-Bot" target="_blank" rel="noopener noreferrer">wongryan8000/3DOS-Auto-Bot</a></div>
+                <div class="repo-description">An automated bot for managing multiple 3DOS accounts with proxy support</div>
+                
+            <div class="star-history-chart">
+                <a href="https://star-history.com/#wongryan8000/3DOS-Auto-Bot&amp;Date" target="_blank" rel="noopener noreferrer" title="View Star History for wongryan8000/3DOS-Auto-Bot">
+                    <img src="https://api.star-history.com/svg?repos=wongryan8000/3DOS-Auto-Bot&amp;type=Date" alt="Star History Chart for wongryan8000/3DOS-Auto-Bot" loading="lazy">
+                </a>
+            </div>
+        
+                <div class="repo-stats">
+                    <span class="stars" title="Stars"><span class="emoji">⭐</span> 308</span>
+                    <span title="Forks"><span class="emoji">🍴</span> 0</span>
+                    <span title="Language"><span class="emoji">💻</span> N/A</span>
+                </div>
+            </div>
+        
+             </div>
+        </div>
+
+        <!-- Other Languages Section (Collapsible) -->
+        <div id="other-languages" class="other-languages-section">
+            <h2>Other Languages</h2>
+            <details>
+                <summary>
+                    <span>Click to expand/collapse</span>
+                    <span class="arrow">🔽</span>
+                </summary>
+                <div class="cards-grid">
+                    
+            <div class="language-card">
+                <div class="language-title">C#</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/csharp_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/csharp_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/csharp_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">C++</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/cplusplus_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/cplusplus_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/cplusplus_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">CSS</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/css_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/css_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/css_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">Go</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/go_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/go_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/go_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">HTML</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/html_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/html_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/html_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">Java</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/java_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/java_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/java_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">JavaScript</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/javascript_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/javascript_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/javascript_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">Kotlin</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/kotlin_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/kotlin_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/kotlin_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">PHP</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/php_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/php_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/php_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">Python</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/python_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/python_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/python_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">Ruby</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/ruby_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/ruby_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/ruby_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">Rust</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/rust_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/rust_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/rust_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">Swift</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/swift_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/swift_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/swift_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">TypeScript</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/typescript_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/typescript_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/typescript_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+            <div class="language-card">
+                <div class="language-title">Unknown languages</div>
+                <div class="feed-links">
+        
+                    <a href="feeds/unknown_languages_daily.xml" class="feed-link">
+                        <span class="emoji">📰</span>Daily
+                    </a>
+            
+                    <a href="feeds/unknown_languages_weekly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Weekly
+                    </a>
+            
+                    <a href="feeds/unknown_languages_monthly.xml" class="feed-link">
+                        <span class="emoji">📰</span>Monthly
+                    </a>
+            
+                </div>
+            </div>
+        
+                </div>
+            </details>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>⚡️ Created with Love by Duccio Meconcelli ⚡️</p>
+            <div class="footer-links">
+                <a href="https://github.com/duccioo/GitHubTrendingRSS" class="footer-link" target="_blank" rel="noopener noreferrer">
+                    <span class="emoji">🐙</span>
+                    Source Code on GitHub
+                </a>
+                <a href="https://duccio.me" class="footer-link" target="_blank" rel="noopener noreferrer">
+                    <span class="emoji">👤</span>
+                    duccio.me
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
