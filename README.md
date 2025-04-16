@@ -73,6 +73,13 @@ You can deploy this on any web server or hosting service that supports static si
 
 For automated updates, consider setting up a cron job or scheduled task to run the script periodically.
 
+## TODO
+
+- [ ] Create a Telegraph page for the README
+   - [ ] Also embed the Gitstar within the Telegraph page
+- [ ] Set the RSS feed link to a Telegraph page containing the nicely rendered README
+- [ ] Improve the web page by adding a logo and enhancing the colors
+
 ## 📜 License
 
 MIT
