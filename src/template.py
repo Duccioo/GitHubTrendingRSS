@@ -1,41 +1,40 @@
 """
-Questo modulo contiene il template HTML per il sito web GitHubTrendingRSS.
+This module contains the HTML template for the GitHubTrendingRSS website.
 """
 
 
 def get_html_template(build_date):
     """
-    Restituisce il template HTML con la data di build specificata.
+    Returns the HTML template with the specified build date.
 
     Parameters:
-    build_date (str): Data di generazione del sito
+    build_date (str): Site generation date/time string
 
     Returns:
-    str: Template HTML
+    str: HTML template
     """
-    # Icona Fulmine SVG (giallo)
-    lightning_svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M11 21H7V14H2V11.5L3.5 5.75L4 5H17L16.5 7H11V12H15L11 21Z"/></svg>'
-    # Icona RSS SVG (giallo)
-    rss_svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M6,19h4C10,14.37,5.63,10,1,10v4C3.59,14,6,16.41,6,19z M3.9,17.1C3.9,16.36,3.26,15.9,2.5,15.9s-1.4,0.46-1.4,1.2s0.63,1.2,1.4,1.2S3.9,17.85,3.9,17.1z M17,19h4v-4c-4.63,0-9,4.37-9,9h4C16,21.41,14.93,19,17,19z M12,10v4c3.59,0,6.5,2.91,6.5,6.5h4C22.5,14.09,17.91,10,12,10z" /></svg>'
-    # Icona GitHub SVG (giallo)
-    github_svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>'
+    # Emojis (replace SVGs)
+    lightning_emoji = "⚡️"
+    star_emoji = "⭐"
+    github_emoji = "🐙"  # Octocat emoji for GitHub link
+    down_arrow_emoji = "🔽"  # Emoji for dropdown
 
     return f"""<!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Trending RSS {lightning_svg}</title>
-    <link rel="icon" type="image/png" href="https://github.githubassets.com/favicons/favicon-dark.png"> <!-- Icona scura -->
+    <title>GitHub Trending RSS {lightning_emoji}</title>
+    <link rel="icon" type="image/png" href="https://github.githubassets.com/favicons/favicon-dark.png">
     <style>
         :root {{
-            --bg-color: #1a1a1a; /* Sfondo principale scuro */
-            --card-bg: #2c2c2c; /* Sfondo card leggermente più chiaro */
-            --text-color: #e0e0e0; /* Testo chiaro */
-            --title-color: #ffffff; /* Titoli bianchi */
-            --accent-color: #ffd700; /* Giallo oro per accenti */
-            --accent-hover: #ffec80; /* Giallo più chiaro per hover */
-            --border-color: #444444; /* Bordi scuri */
+            --bg-color: #1a1a1a;
+            --card-bg: #2c2c2c;
+            --text-color: #e0e0e0;
+            --title-color: #ffffff;
+            --accent-color: #ffd700; /* Gold yellow */
+            --accent-hover: #ffec80;
+            --border-color: #444444;
             --card-shadow: 0 4px 15px rgba(0,0,0,0.4);
             --card-radius: 8px;
         }}
@@ -46,11 +45,16 @@ def get_html_template(build_date):
             padding: 0;
         }}
 
+        html {{
+            scroll-behavior: smooth; /* Enable smooth scrolling */
+        }}
+
         body {{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
             color: var(--text-color);
             background-color: var(--bg-color);
+            font-size: 16px; /* Base font size */
         }}
 
         header {{
@@ -65,7 +69,7 @@ def get_html_template(build_date):
             border-bottom: 3px solid var(--accent-color);
         }}
 
-        /* Animazione fulmine sottile (opzionale) */
+        /* Optional subtle flash animation */
         header::before {{
             content: '';
             position: absolute;
@@ -84,16 +88,29 @@ def get_html_template(build_date):
         h1 {{
             font-size: 2.8rem;
             font-weight: 700;
-            margin: 0;
+            margin: 0 0 0.5rem 0; /* Added bottom margin */
             position: relative;
-            color: var(--accent-color); /* Titolo principale giallo */
+            color: var(--accent-color); /* Main title yellow */
             text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
         }}
-        h1 svg {{ /* Stile per SVG nel titolo */
-             vertical-align: middle;
-             margin-left: 10px;
-             width: 1.8rem;
-             height: 1.8rem;
+        /* Emoji in title might not need specific styling unless alignment is off */
+
+        .header-links {{ /* Container for links below title */
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }}
+
+        .header-links a {{
+            color: var(--accent-hover);
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1rem;
+            transition: color 0.2s ease;
+        }}
+
+        .header-links a:hover {{
+            color: var(--accent-color);
+            text-decoration: underline;
         }}
 
         .build-info {{
@@ -109,12 +126,58 @@ def get_html_template(build_date):
             padding: 0 20px;
         }}
 
-        /* Grid per le card dei linguaggi */
+        /* Section Titles */
+        h2 {{
+            text-align: center;
+            font-size: 2rem;
+            color: var(--title-color);
+            margin-bottom: 2rem;
+            margin-top: 3rem; /* Add space above section titles */
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }}
+         h2 .emoji {{ /* Style for emoji in H2 */
+             margin-right: 10px;
+             vertical-align: middle; /* Better alignment */
+        }}
+
+        /* Main Languages Section */
+        .main-languages-section {{
+            margin-bottom: 3rem;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border-radius: var(--card-radius);
+            box-shadow: var(--card-shadow);
+            border: 1px solid var(--border-color);
+        }}
+        .main-languages-section h2 {{
+            margin-top: 0; /* Remove top margin for h2 inside this section */
+            margin-bottom: 1.5rem;
+            text-align: left;
+            border-bottom: none; /* Remove border for this specific h2 */
+            font-size: 1.8rem;
+        }}
+        .main-language-group {{
+            margin-bottom: 1.5rem;
+        }}
+        .main-language-group:last-child {{
+            margin-bottom: 0;
+        }}
+        .main-language-group h3 {{
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--title-color);
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }}
+
+        /* Grid for language cards */
         .cards-grid {{
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 25px;
-            margin-bottom: 3rem; /* Spazio prima della sezione repo popolari */
+            margin-bottom: 3rem;
         }}
 
         .language-card {{
@@ -145,13 +208,17 @@ def get_html_template(build_date):
 
         .feed-links {{
             display: flex;
-            justify-content: center;
+            justify-content: center; /* Center links in cards */
             flex-wrap: wrap;
             gap: 15px;
         }}
+        /* Adjust feed links alignment for main languages section */
+        .main-language-group .feed-links {{
+             justify-content: flex-start; /* Align links to the start */
+        }}
 
         .feed-link {{
-            display: inline-flex; /* Usa flex per allineare icona e testo */
+            display: inline-flex;
             align-items: center;
             padding: 8px 16px;
             border-radius: 20px;
@@ -161,41 +228,31 @@ def get_html_template(build_date):
             border: 1px solid var(--border-color);
             transition: all 0.2s ease;
             font-weight: 500;
+            font-size: 0.95rem; /* Slightly smaller font for links */
         }}
 
         .feed-link:hover {{
             background-color: var(--accent-color);
-            color: var(--bg-color); /* Testo scuro su sfondo giallo */
+            color: var(--bg-color);
             transform: scale(1.05);
             box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3);
             border-color: var(--accent-hover);
         }}
 
-        .rss-icon svg {{
-            width: 14px;
-            height: 14px;
+        .feed-link .emoji {{ /* Style for emoji within link */
             margin-right: 6px;
-            vertical-align: middle;
-            fill: currentColor; /* L'icona prende il colore del link */
+            font-size: 1em; /* Match link font size */
+            display: inline-block; /* Helps with alignment */
         }}
 
-        /* Sezione Repository Popolari */
+        /* Popular Repositories Section */
         .popular-repos {{
             margin-top: 3rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-color);
+            /* Removed border-top, handled by h2 */
         }}
 
         .popular-repos h2 {{
-            text-align: center;
-            font-size: 2rem;
-            color: var(--title-color);
-            margin-bottom: 2rem;
-        }}
-        .popular-repos h2 svg {{ /* Icona stella nel titolo */
-             vertical-align: middle;
-             margin-right: 10px;
-             color: var(--accent-color);
+            /* Styles already defined in general h2 */
         }}
 
         .popular-grid {{
@@ -225,7 +282,7 @@ def get_html_template(build_date):
             font-weight: 600;
             color: var(--title-color);
             margin-bottom: 10px;
-            word-break: break-all; /* Evita overflow nomi lunghi */
+            word-break: break-all;
         }}
         .popular-repo-card .repo-title a {{
             color: inherit;
@@ -240,7 +297,7 @@ def get_html_template(build_date):
             font-size: 0.95rem;
             color: var(--text-color);
             margin-bottom: 15px;
-            flex-grow: 1; /* Fa espandere la descrizione */
+            flex-grow: 1;
         }}
 
         .popular-repo-card .repo-stats {{
@@ -249,7 +306,7 @@ def get_html_template(build_date):
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-top: auto; /* Spinge le stats in basso */
+            margin-top: auto;
             padding-top: 10px;
             border-top: 1px solid var(--border-color);
         }}
@@ -258,7 +315,79 @@ def get_html_template(build_date):
              align-items: center;
              gap: 5px;
         }}
-        .popular-repo-card .repo-stats .stars svg {{ color: var(--accent-color); }} /* Stella gialla */
+        .popular-repo-card .repo-stats .emoji {{ /* Style for stat emojis */
+             font-size: 1.1em; /* Slightly larger emoji */
+             display: inline-block;
+        }}
+
+        .star-history-chart {{
+            margin: 15px 0; /* Add some vertical spacing */
+            text-align: center; /* Center the image if needed */
+            background-color: #ffffff; /* Add a white background for better contrast */
+            padding: 5px;
+            border-radius: 4px;
+            line-height: 0; /* Prevent extra space below the image */
+        }}
+
+        .star-history-chart img {{
+            max-width: 100%; /* Ensure image scales down */
+            height: auto;   /* Maintain aspect ratio */
+            display: block; /* Remove potential extra space below */
+            margin: 0 auto; /* Center image if container is wider */
+        }}
+
+        /* Other Languages Section */
+        .other-languages-section {{
+            margin-top: 3rem;
+            /* Removed border-top, handled by h2 */
+        }}
+
+        .other-languages-section details {{
+            background: var(--card-bg);
+            border-radius: var(--card-radius);
+            box-shadow: var(--card-shadow);
+            border: 1px solid var(--border-color);
+            margin-bottom: 1rem; /* Space below the details block */
+            overflow: hidden; /* Contain the border radius */
+        }}
+
+        .other-languages-section summary {{
+            padding: 15px 20px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--title-color);
+            cursor: pointer;
+            outline: none;
+            transition: background-color 0.2s ease;
+            list-style: none; /* Remove default marker */
+            display: flex; /* Use flexbox for alignment */
+            justify-content: space-between; /* Space between text and arrow */
+            align-items: center;
+        }}
+        .other-languages-section summary::marker, /* Hide marker for Webkit */
+        .other-languages-section summary::-webkit-details-marker {{
+            display: none;
+        }}
+
+        .other-languages-section summary:hover {{
+            background-color: rgba(255, 255, 255, 0.05);
+        }}
+
+        .other-languages-section summary .arrow {{
+            font-size: 1em; /* Match summary font size */
+            transition: transform 0.3s ease;
+        }}
+
+        .other-languages-section details[open] summary .arrow {{
+            transform: rotate(180deg);
+        }}
+
+
+        .other-languages-section details .cards-grid {{
+            padding: 25px;
+            margin-bottom: 0; /* Remove bottom margin inside details */
+            border-top: 1px solid var(--border-color); /* Separator line */
+        }}
 
 
         /* Footer */
@@ -266,9 +395,10 @@ def get_html_template(build_date):
             text-align: center;
             padding: 30px;
             margin-top: 40px;
-            background-color: #111; /* Footer molto scuro */
+            background-color: #111;
             border-top: 1px solid var(--border-color);
             color: var(--text-color);
+            font-size: 0.9rem;
         }}
 
         footer a {{
@@ -286,31 +416,43 @@ def get_html_template(build_date):
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            gap: 10px;
+            gap: 15px; /* Increased gap */
         }}
 
-        .github-link {{
+        .footer-links {{ /* Container for multiple links */
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap; /* Allow wrapping on small screens */
+        }}
+
+        .footer-link {{ /* Style for individual footer links */
             display: inline-flex;
             align-items: center;
             gap: 8px;
         }}
 
-        .github-icon svg {{
-            width: 20px;
-            height: 20px;
-            fill: currentColor;
+        .footer-link .emoji {{ /* Emoji in footer links */
+            font-size: 1.2em;
         }}
 
         @media (max-width: 768px) {{
             .cards-grid, .popular-grid {{
-                grid-template-columns: 1fr; /* Una colonna su mobile */
+                grid-template-columns: 1fr;
             }}
 
             h1 {{
                 font-size: 2.2rem;
             }}
-             .popular-repos h2 {{
+             h2 {{ /* Adjust h2 size for mobile */
                  font-size: 1.8rem;
+             }}
+             .main-languages-section h2 {{
+                 font-size: 1.6rem; /* Slightly smaller for this specific h2 */
+             }}
+             .other-languages-section summary {{
+                 font-size: 1.1rem;
              }}
         }}
     </style>
@@ -318,31 +460,59 @@ def get_html_template(build_date):
 <body>
     <header>
         <div class="container">
-            <h1>{lightning_svg} GitHub Trending RSS</h1>
-            <div class="build-info">Ultimo aggiornamento: {build_date}</div>
+            <h1>{lightning_emoji} GitHub Trending RSS</h1>
+            <div class="header-links">
+                <a href="#other-languages">Browse Other Languages {down_arrow_emoji}</a>
+            </div>
+            <div class="build-info">Last updated: {build_date}</div>
         </div>
     </header>
 
     <div class="container">
-        <div class="cards-grid">
-            <!-- Qui verranno inserite le card dei linguaggi -->
+
+        <!-- Section for All Languages & Unknown Languages -->
+        <div class="main-languages-section">
+             <h2>Core Feeds</h2>
+             <!-- Main language links will be inserted here -->
         </div>
 
+        <!-- Popular Repositories Section -->
         <div class="popular-repos">
-             <h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M12,17.27L18.18,21L17,14.64L22,9.73L14.81,8.63L12,2L9.19,8.63L2,9.73L7,14.64L5.82,21L12,17.27Z"/></svg> Repository Popolari del Mese</h2>
+             <h2><span class="emoji">{star_emoji}</span> Popular Repositories (Monthly)</h2>
              <div class="popular-grid">
-                <!-- Qui verranno inseriti gli esempi di repo popolari -->
+                <!-- Popular repo examples will be inserted here -->
              </div>
         </div>
+
+        <!-- Other Languages Section (Collapsible) -->
+        <div id="other-languages" class="other-languages-section">
+            <h2>Other Languages</h2>
+            <details>
+                <summary>
+                    <span>Click to expand/collapse</span>
+                    <span class="arrow">{down_arrow_emoji}</span>
+                </summary>
+                <div class="cards-grid">
+                    <!-- Other language cards will be inserted here -->
+                </div>
+            </details>
+        </div>
+
     </div>
 
     <footer>
         <div class="footer-content">
-            <p>Generato automaticamente con Python {lightning_svg}</p>
-            <a href="https://github.com/duccioo/GitHubTrendingRSS" class="github-link" target="_blank" rel="noopener noreferrer">
-                <span class="github-icon">{github_svg}</span>
-                Codice Sorgente su GitHub
-            </a>
+            <p>{lightning_emoji} Created with Love by Duccio Meconcelli {lightning_emoji}</p>
+            <div class="footer-links">
+                <a href="https://github.com/duccioo/GitHubTrendingRSS" class="footer-link" target="_blank" rel="noopener noreferrer">
+                    <span class="emoji">{github_emoji}</span>
+                    Source Code on GitHub
+                </a>
+                <a href="https://duccio.me" class="footer-link" target="_blank" rel="noopener noreferrer">
+                    <span class="emoji">👤</span>
+                    duccio.me
+                </a>
+            </div>
         </div>
     </footer>
 </body>

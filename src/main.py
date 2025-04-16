@@ -3,6 +3,11 @@ import os
 import time
 from datetime import datetime
 import json  # Importa json per caricare i dati
+from dotenv import load_dotenv
+
+
+# ----
+load_dotenv(".env")
 
 # ----
 from repo_scraper import get_trending_repositories, extract_repo_data
@@ -10,7 +15,7 @@ from gen_feed import create_rss_feed
 import website
 
 
-def generate_all_feeds():
+def generate_all_feeds(limit=30):
     """
     Generates Atom feeds for all languages and time periods
     and saves them in the 'feeds' folder.
@@ -51,11 +56,17 @@ def generate_all_feeds():
         os.makedirs(feeds_dir)
         print(f"Creata directory '{feeds_dir}'")
 
+    data_dir = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data"
+    )
+    if not os.path.exists(data_dir):
+        os.makedirs(data_dir)
+
     count = 0
     errors = 0
 
     # Recupera il token GitHub una sola volta
-    GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+    GITHUB_TOKEN = os.getenv("REPO_GITHUB_TOKEN")
     headers = {"Accept": "application/vnd.github.v3+json"}
     if GITHUB_TOKEN:
         print("Token GitHub trovato. Le richieste API saranno autenticate.")
@@ -73,7 +84,7 @@ def generate_all_feeds():
                 print(f"Generazione feed per {language} ({period})...")
 
                 # Use None for 'All Languages' and convert appropriately for 'Unknown languages'
-                lang_param = None if language == "All Languages" else language
+                lang_param = None if language == "Unknow Languages" else language
                 if language == "Unknown languages":
                     # GitHub API non supporta direttamente "Unknown", quindi potremmo dover omettere il filtro lingua
                     # o usare una query più complessa. Per semplicità, lo trattiamo come 'All Languages'
@@ -81,10 +92,12 @@ def generate_all_feeds():
                         f"Nota: 'Unknown languages' verrà trattato come 'All Languages' per l'API GitHub."
                     )
                     lang_param = None  # Tratta come All per ora
+                elif language == "All Languages":
+                    lang_param = "all"
 
                 # Get repositories
                 repos = get_trending_repositories(
-                    language=lang_param, since=period, limit=30, headers=headers
+                    language=lang_param, since=period, limit=limit, headers=headers
                 )
 
                 if repos:
@@ -105,6 +118,14 @@ def generate_all_feeds():
                     )  # Usa os.path.join
                     feed_url = f"{base_feed_url}{feeds_dir}/{lang_filename_part}_{period_lower}.xml"  # Aggiorna URL
 
+                    trending_json_path = os.path.join(
+                        data_dir, f"{lang_filename_part}_{period_lower}.json"
+                    )
+
+                    with open(trending_json_path, "w", encoding="utf-8") as file:
+                        json.dump(organized_repos, file, ensure_ascii=False, indent=2)
+                        print(f"Dati salvati in {trending_json_path}")
+
                     # Generate RSS feed
                     feed_title = f"GitHub Trending - {language} ({period.capitalize()})"  # Capitalize period
                     feed_description = f"Repository più popolari su GitHub in {language} nel periodo {period.lower()}"
@@ -123,9 +144,7 @@ def generate_all_feeds():
                     print(f"Feed salvato: {filename}")
 
                     # Add a small pause to avoid too many API requests
-                    time.sleep(
-                        1
-                    )  # Riduci se hai un token e non hai problemi di rate limit
+                    time.sleep(3)
                 else:
                     print(f"Nessun repository trovato per {language} ({period})")
                     # Non incrementare errors se è normale non trovare repo (es. linguaggi rari)
@@ -143,9 +162,6 @@ def main():
     output_directory = os.path.dirname(
         os.path.dirname(os.path.abspath(__file__))
     )  # Directory principale del progetto
-
-    # Assicurati che la directory dei feed esista (generate_all_feeds lo fa già, ma per sicurezza)
-    os.makedirs(os.path.join(output_directory, "feeds"), exist_ok=True)
 
     # --- Carica i dati dei repository popolari ---
     popular_repos_data = []
@@ -178,7 +194,7 @@ def main():
     # --- Genera e salva il sito web ---
     print("\nGenerazione sito web...")
     # Passa i dati caricati alla funzione di generazione del sito
-    html_content = website.generate_website(popular_repos_data)
+    html_content = website.generate_website()
 
     # Salva il sito web nel file index.html nella directory di output principale
     if website.save_website(

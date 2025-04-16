@@ -6,6 +6,9 @@ A Python tool that generates RSS/Atom feeds for GitHub trending repositories.
 
 This project is a fork of [mshibanami/GitHubTrendingRSS](https://github.com/mshibanami/GitHubTrendingRSS) reimplemented in Python for a simpler, faster approach. It fetches trending repositories from GitHub and converts them into RSS/Atom feeds that can be consumed by any feed reader.
 
+The feeds are generated for different programming languages and time periods (daily, weekly, monthly) and are stored in a simple HTML interface for easy browsing.
+The main goal is to provide a lightweight and efficient way to keep track of trending repositories on GitHub without the need for complex setups or heavy dependencies.
+
 ## ✨ Features
 
 - 📊 Generates Atom feeds for different programming languages
@@ -21,6 +24,7 @@ This project is a fork of [mshibanami/GitHubTrendingRSS](https://github.com/mshi
   - requests
   - python-dateutil
   - python-dotenv
+  - BeautifulSoup4
 
 ## 🔧 Installation
 
@@ -32,12 +36,12 @@ This project is a fork of [mshibanami/GitHubTrendingRSS](https://github.com/mshi
 
 2. Install dependencies:
    ```
-   pip install requests python-dateutil python-dotenv
+   pip install -r requirements.txt
    ```
 
 3. Create a `.env` file with your GitHub token (optional but recommended to avoid API rate limits):
    ```
-   GITHUB_TOKEN=your_github_token_here
+   REPO_GITHUB_TOKEN=your_github_token_here
    ```
 
 ## 🚀 Usage
@@ -72,6 +76,13 @@ For example:
 You can deploy this on any web server or hosting service that supports static sites. Simply copy the generated `index.html` and `feeds` directory to your server.
 
 For automated updates, consider setting up a cron job or scheduled task to run the script periodically.
+
+## TODO
+
+- [ ] Create a Telegraph page for the README
+   - [ ] Also embed the Gitstar within the Telegraph page
+- [ ] Set the RSS feed link to a Telegraph page containing the nicely rendered README
+- [ ] Improve the web page by adding a logo and enhancing the colors
 
 ## 📜 License
 
