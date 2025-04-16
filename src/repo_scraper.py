@@ -104,6 +104,8 @@ def create_telegraph_page_from_markdown(title, markdown_content):
             "h2",
             "h3",
             "picture",
+            "span",
+            "table",
         ]
         for tag in tag_not_supported:
             for unsupported_tag in soup.find_all(tag):
@@ -226,12 +228,11 @@ def get_trending_repositories(
         date_cutoff = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
 
     if recently_trending:
-        sort = "stars"
         query += f" pushed:>{date_cutoff}"
     else:
         query += f" created:>{date_cutoff}"
-        sort = "stars"
 
+    sort = "stars"
     order = "desc"
 
     url = f"https://api.github.com/search/repositories?q={query}&sort={sort}&order={order}&per_page={limit}"
