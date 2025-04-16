@@ -3,6 +3,11 @@ import os
 import time
 from datetime import datetime
 import json  # Importa json per caricare i dati
+from dotenv import load_dotenv
+
+
+# ----
+load_dotenv(".env")
 
 # ----
 from repo_scraper import get_trending_repositories, extract_repo_data
@@ -61,7 +66,7 @@ def generate_all_feeds(limit=30):
     errors = 0
 
     # Recupera il token GitHub una sola volta
-    GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+    GITHUB_TOKEN = os.getenv("REPO_GITHUB_TOKEN")
     headers = {"Accept": "application/vnd.github.v3+json"}
     if GITHUB_TOKEN:
         print("Token GitHub trovato. Le richieste API saranno autenticate.")

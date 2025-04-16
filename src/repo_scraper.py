@@ -8,12 +8,6 @@ from telegraph import Telegraph  # Importa Telegraph
 from markdown import markdown  # Importa Markdown per conversione a HTML
 from bs4 import BeautifulSoup  # Importa BeautifulSoup
 
-from dotenv import load_dotenv
-
-
-# ----
-load_dotenv(".env")
-
 # --- Inizializzazione Telegraph ---
 telegraph = None
 if telegraph is None:
@@ -249,7 +243,7 @@ def get_trending_repositories(
 
 
 def main():
-    GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+    GITHUB_TOKEN = os.getenv("REPO_GITHUB_TOKEN")
     headers = {"Accept": "application/vnd.github.v3+json"}
 
     if GITHUB_TOKEN:

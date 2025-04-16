@@ -30,7 +30,7 @@ jobs:
           
       - name: Generate RSS feeds and website
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_GITHUB_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
         run: |
           python src/main.py
           
