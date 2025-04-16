@@ -5,6 +5,10 @@ on:
     # Esegui ogni giorno alle 02:00 UTC
     - cron: '0 2 * * *'
   workflow_dispatch:  # Permette anche l'esecuzione manuale
+  push: # Aggiungi questo trigger
+    branches:
+      - main # Esegui solo su push al branch 'main' (modifica se il tuo branch principale ha un altro nome)
+
 
 jobs:
   update:
@@ -12,10 +16,10 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'
           
