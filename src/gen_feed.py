@@ -9,93 +9,121 @@ from datetime import datetime
 
 
 def create_rss_feed(
-    repos, title="GitHub Trending Repositories", description="Le repository più popolari su GitHub"
+    repos, title="GitHub Trending Repositories", description="The most popular repositories on GitHub"
 ):
     """
-    Crea un feed RSS dalle repository di GitHub
+    Creates an Atom feed from GitHub repositories
 
     Parameters:
-    repos (list): Lista di repository organizzate
-    title (str): Titolo del feed RSS
-    description (str): Descrizione del feed RSS
+    repos (list): List of organized repositories
+    title (str): Feed title
+    description (str): Feed description
 
     Returns:
-    str: Feed RSS in formato XML
+    str: Atom feed in XML format
     """
-    # Crea l'elemento root del feed RSS
-    rss = ET.Element("rss", version="2.0")
-    channel = ET.SubElement(rss, "channel")
+    # Create namespace for Atom
+    namespace = "http://www.w3.org/2005/Atom"
+    media_namespace = "http://search.yahoo.com/mrss/"
+    ET.register_namespace("", namespace)
+    ET.register_namespace("media", media_namespace)
 
-    # Aggiungi i dettagli del feed
-    ET.SubElement(channel, "title").text = title
-    ET.SubElement(channel, "link").text = "https://github.com/trending"
-    ET.SubElement(channel, "description").text = description
-    ET.SubElement(channel, "language").text = "it-IT"
-    ET.SubElement(channel, "updated").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
+    # Create root element
+    feed = ET.Element("{%s}feed" % namespace)
+    feed.set("xml:lang", "en-us")
 
-    # Aggiungi ogni repository come item nel feed
+    # Add feed details
+    ET.SubElement(feed, "{%s}title" % namespace).text = title
+
+    link_alternate = ET.SubElement(feed, "{%s}link" % namespace)
+    link_alternate.set("href", "https://github.com/trending")
+    link_alternate.set("rel", "alternate")
+
+    link_self = ET.SubElement(feed, "{%s}link" % namespace)
+    link_self.set("href", "https://github.com/trending")
+    link_self.set("rel", "self")
+
+    ET.SubElement(feed, "{%s}id" % namespace).text = "https://github.com/trending"
+
+    current_time = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
+    ET.SubElement(feed, "{%s}updated" % namespace).text = current_time
+
+    author = ET.SubElement(feed, "{%s}author" % namespace)
+    ET.SubElement(author, "{%s}name" % namespace).text = "GitHub Trending RSS"
+
+    ET.SubElement(feed, "{%s}subtitle" % namespace).text = description
+
+    # Add each repository as an entry
     for repo in repos:
-        item = ET.SubElement(channel, "item")
+        entry = ET.SubElement(feed, "{%s}entry" % namespace)
 
-        # Formatta il titolo con il nome e le stelle
+        # Format title with repo name and stars
         item_title = f"{repo['name']} ({repo['stars']} ⭐)"
-        ET.SubElement(item, "title").text = item_title
+        ET.SubElement(entry, "{%s}title" % namespace).text = item_title
 
-        ET.SubElement(item, "link").text = repo["url"]
+        link = ET.SubElement(entry, "{%s}link" % namespace)
+        link.set("href", repo["url"])
+        link.set("rel", "alternate")
 
-        # Formatta la descrizione HTML
-        description = f"""
-        <p><strong>Repository:</strong> {repo['name']}</p>
-        <p><strong>Descrizione:</strong> {repo['description']}</p>
-        <p><strong>Linguaggio:</strong> {repo['language']}</p>
-        <p><strong>Stelle:</strong> {repo['stars']} ⭐</p>
-        <p><strong>Fork:</strong> {repo['forks']}</p>
-        <p><strong>Creata il:</strong> {repo['created_at']}</p>
-        <p><a href="{repo['url']}">Visita repository</a></p>
-        """
-        ET.SubElement(item, "description").text = description
-
-        # Genera un ID unico
-        ET.SubElement(item, "guid", isPermaLink="false").text = repo["url"]
-
-        # Aggiungi data di pubblicazione
+        # Create ISO formatted dates
         if repo.get("created_at"):
             try:
-                pub_date = parser.parse(repo["created_at"]).strftime("%a, %d %b %Y %H:%M:%S +0000")
-                ET.SubElement(item, "pubDate").text = pub_date
+                pub_date = parser.parse(repo["created_at"]).strftime("%Y-%m-%dT%H:%M:%S+00:00")
+                ET.SubElement(entry, "{%s}published" % namespace).text = pub_date
+                ET.SubElement(entry, "{%s}updated" % namespace).text = pub_date
             except Exception:
-                ET.SubElement(item, "pubDate").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
+                ET.SubElement(entry, "{%s}published" % namespace).text = current_time
+                ET.SubElement(entry, "{%s}updated" % namespace).text = current_time
+        else:
+            ET.SubElement(entry, "{%s}published" % namespace).text = current_time
+            ET.SubElement(entry, "{%s}updated" % namespace).text = current_time
 
-    # Converti l'albero XML in stringa
-    xml_string = ET.tostring(rss, encoding="utf-8", method="xml")
+        ET.SubElement(entry, "{%s}id" % namespace).text = repo["url"]
 
-    # Aggiungi l'intestazione XML e decodifica
+        # Format description as HTML summary
+        description_html = f"""
+        <p><strong>Repository:</strong> {repo['name']}</p>
+        <p><strong>Description:</strong> {repo['description']}</p>
+        <p><strong>Language:</strong> {repo['language']}</p>
+        <p><strong>Stars:</strong> {repo['stars']} ⭐</p>
+        <p><strong>Forks:</strong> {repo['forks']}</p>
+        <p><strong>Created on:</strong> {repo['created_at']}</p>
+        <p><a href="{repo['url']}">Visit repository</a></p>
+        """
+        summary = ET.SubElement(entry, "{%s}summary" % namespace)
+        summary.set("type", "html")
+        summary.text = description_html
+
+    # Convert XML tree to string
+    xml_string = ET.tostring(feed, encoding="utf-8", method="xml")
+
+    # Add XML declaration and decode
     xml_declaration = '<?xml version="1.0" encoding="UTF-8" ?>\n'
     return xml_declaration + xml_string.decode("utf-8")
 
 
 def save_rss_feed(rss_feed, filename="github_trending.xml"):
     """
-    Salva il feed RSS in un file
+    Saves the Atom feed to a file
 
     Parameters:
-    rss_feed (str): Contenuto del feed RSS
-    filename (str): Nome del file di output
+    rss_feed (str): Atom feed content
+    filename (str): Output file name
 
     Returns:
-    bool: True se il salvataggio ha avuto successo, False altrimenti
+    bool: True if the save was successful, False otherwise
     """
     try:
         with open(filename, "w", encoding="utf-8") as file:
             file.write(rss_feed)
         return True
     except Exception as e:
-        print(f"Errore durante il salvataggio del file: {e}")
+        print(f"Error while saving the file: {e}")
         return False
 
 
 def main():
-    # Testa la generazione del feed RSS
+    # Test feed generation
     pass
 
 

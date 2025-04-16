@@ -4,26 +4,26 @@ from template import get_html_template
 
 def generate_website():
     """
-    Genera un sito web HTML per visualizzare i feed RSS delle repository di tendenza
-    organizzate per linguaggio di programmazione e periodo di tempo.
+    Generates an HTML website to display the RSS feeds of trending repositories
+    organized by programming language and time period.
     """
-    # Definisci i linguaggi supportati
+    # Define supported languages
     languages = [
         "All Languages",
         "Unknown languages",
-        # Puoi aggiungere altri linguaggi a piacimento
+        # You can add more languages as needed
     ]
 
-    # Definisci i periodi di tempo
+    # Define time periods
     periods = ["Daily", "Weekly", "Monthly"]
 
-    # Ottieni la data di build attuale
+    # Get current build date
     build_date = datetime.now().strftime("%d %B, %Y")
 
-    # Ottieni il template HTML base
+    # Get the base HTML template
     html = get_html_template(build_date)
 
-    # Prepara le card dei linguaggi per inserirle nel template
+    # Prepare language cards to insert in the template
     language_cards = ""
 
     for language in languages:
@@ -33,7 +33,7 @@ def generate_website():
                 <div class="feed-links">
         """
 
-        # Aggiungi i link per ogni periodo di tempo
+        # Add links for each time period
         for period in periods:
             language_filename = language.replace(" ", "_").lower()
             period_lower = period.lower()
@@ -48,7 +48,7 @@ def generate_website():
             </div>
         """
 
-    # Inserisci le card dei linguaggi nel template
+    # Insert language cards into the template
     html = html.replace("<!-- Qui verranno inserite le card dei linguaggi -->", language_cards)
 
     return html
@@ -56,33 +56,33 @@ def generate_website():
 
 def save_website(html_content, filename="index.html"):
     """
-    Salva il contenuto HTML in un file
+    Saves the HTML content to a file
 
     Parameters:
-    html_content (str): Contenuto HTML del sito web
-    filename (str): Nome del file di output
+    html_content (str): HTML content of the website
+    filename (str): Output file name
 
     Returns:
-    bool: True se il salvataggio ha avuto successo, False altrimenti
+    bool: True if the save was successful, False otherwise
     """
     try:
         with open(filename, "w", encoding="utf-8") as file:
             file.write(html_content)
         return True
     except Exception as e:
-        print(f"Errore durante il salvataggio del file HTML: {e}")
+        print(f"Error while saving the HTML file: {e}")
         return False
 
 
 def main():
-    # Genera il sito web
+    # Generate the website
     html_content = generate_website()
 
-    # Salva il sito web in un file
+    # Save the website to a file
     if save_website(html_content):
-        print("Sito web generato e salvato come index.html")
+        print("Website generated and saved as index.html")
     else:
-        print("Errore durante il salvataggio del sito web")
+        print("Error while saving the website")
 
 
 if __name__ == "__main__":
