@@ -8,6 +8,7 @@ from telegraph import Telegraph  # Importa Telegraph
 from markdown import markdown  # Importa Markdown per conversione a HTML
 from bs4 import BeautifulSoup  # Importa BeautifulSoup
 
+
 # --- Inizializzazione Telegraph ---
 telegraph = None
 if telegraph is None:

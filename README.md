@@ -81,8 +81,12 @@ For automated updates, consider setting up a cron job or scheduled task to run t
 
 - [ ] Create a Telegraph page for the README
    - [ ] Also embed the Gitstar within the Telegraph page
+   - [ ] Add a link to the GitHub repository at the start 
+   - [ ] use a lot of emojis
+   - [ ] Add a link to the RSS feed at the end of the README and link to this project 
 - [ ] Set the RSS feed link to a Telegraph page containing the nicely rendered README
-- [ ] Improve the web page by adding a logo and enhancing the colors
+- [ ] Improve the web page by adding a logo and enhancing the colors (maybe using a CSS framework)
+- [ ] Add a search feature to the HTML interface
 
 ## 📜 License
 
