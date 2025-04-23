@@ -90,21 +90,35 @@ def create_rss_feed(
         ET.SubElement(item, "link").text = repo["url"]
         ET.SubElement(item, "guid", isPermaLink="true").text = repo["url"]
 
-        # Format description as HTML with more details and Telegraph link
-        # Usiamo CDATA per includere HTML nella description
         # Usiamo html.escape per sicurezza sui dati forniti dall'utente (descrizione, nome repo, ecc.)
         repo_name_safe = html.escape(repo["name"])
-        repo_desc_safe = html.escape(repo.get("description", "N/A"))
-        repo_lang_safe = html.escape(repo.get("language", "N/A"))
-        repo_license_safe = html.escape(repo.get("license", "N/A"))
-        owner_name_safe = html.escape(repo.get("owner", {}).get("name", "N/A"))
+        # Modifica: Controlla esplicitamente per None dopo il get
+        repo_desc = repo.get("description")  # Ottieni il valore o None
+        repo_desc_safe = html.escape(repo_desc if repo_desc is not None else "N/A")
+
+        repo_lang = repo.get("language")
+        repo_lang_safe = html.escape(repo_lang if repo_lang is not None else "N/A")
+
+        repo_license = repo.get("license")
+        repo_license_safe = html.escape(repo_license if repo_license is not None else "N/A")
+
+        # Per owner, la logica attuale con il dizionario vuoto come default funziona bene
+        # perché .get("name", "N/A") viene chiamato su {} se owner non esiste o è None (se gestito prima)
+        # Ma per essere ultra sicuri e coerenti:
+        owner_dict = repo.get("owner", {})  # Ottiene il dizionario owner o {}
+        owner_name = (
+            owner_dict.get("name") if owner_dict else None
+        )  # Ottiene il nome se owner_dict non è vuoto/None
+        owner_name_safe = html.escape(owner_name if owner_name is not None else "N/A")
 
         # Topics
         topics_html = ""
-        if repo.get("topics"):
+        # Modifica: Usa il default [] direttamente qui è sicuro perché iteriamo
+        topics_list = repo.get("topics", [])
+        if topics_list:  # Controlla se la lista non è vuota
             topics_html = " ".join(
                 f'<span style="background-color: #f0f0f0; padding: 2px 5px; border-radius: 3px; margin-right: 3px; font-size: 0.9em;">{html.escape(topic)}</span>'
-                for topic in repo["topics"]
+                for topic in topics_list  # Usa la lista ottenuta
             )
             topics_html = f"<p><strong>🏷️ Topics:</strong> {topics_html}</p>"
 
@@ -123,8 +137,8 @@ def create_rss_feed(
         <p>💻 <strong>Linguaggio:</strong> {repo_lang_safe}</p>
         {topics_html}
         <p>📜 <strong>Licenza:</strong> {repo_license_safe}</p>
-        <p>⏰ <strong>Creato il:</strong> {repo.get('created_at', 'N/A')}</p>
-        <p>🔄 <strong>Ultimo Aggiornamento:</strong> {repo.get('updated_at', 'N/A')}</p>
+        <p>⏰ <strong>Creato il:</strong> {html.escape(repo.get('created_at') or 'N/A')}</p>
+        <p>🔄 <strong>Ultimo Aggiornamento:</strong> {html.escape(repo.get('updated_at') or 'N/A')}</p>
         {telegraph_link_html}
         <hr>
         <p><a href="{html.escape(repo['url'])}">Visita il Repository su GitHub</a></p>
@@ -133,9 +147,8 @@ def create_rss_feed(
         ET.SubElement(item, "description").text = description_html
 
         # Create RFC 822 formatted dates for pubDate (using updated_at for relevance)
-        pub_date_source = repo.get("updated_at") or repo.get(
-            "created_at"
-        )  # Preferisci updated_at
+        # Modifica: La logica qui con 'or' gestisce già il caso None
+        pub_date_source = repo.get("updated_at") or repo.get("created_at")
         if pub_date_source:
             try:
                 pub_date_dt = parser.parse(pub_date_source)
@@ -147,9 +160,7 @@ def create_rss_feed(
                 pub_date_str = email.utils.format_datetime(pub_date_dt)
                 ET.SubElement(item, "pubDate").text = pub_date_str
             except Exception as e:
-                print(
-                    f"Warning: Failed to parse date '{pub_date_source}' for {repo['name']}: {e}"
-                )
+                print(f"Warning: Failed to parse date '{pub_date_source}' for {repo['name']}: {e}")
                 ET.SubElement(item, "pubDate").text = last_build_date  # Fallback
         else:
             ET.SubElement(item, "pubDate").text = last_build_date  # Fallback
@@ -158,7 +169,8 @@ def create_rss_feed(
         if repo.get("language"):
             ET.SubElement(item, "category").text = repo["language"]
         # Aggiungi categorie/tag per i topics
-        for topic in repo.get("topics", []):
+        # Modifica: Usa la lista ottenuta prima
+        for topic in topics_list:  # Usa topics_list invece di chiamare get di nuovo
             ET.SubElement(item, "category").text = topic
 
     # Convert XML tree to string
