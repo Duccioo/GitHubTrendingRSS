@@ -8,6 +8,7 @@ from dateutil import parser
 from datetime import datetime, timezone
 import email.utils  # Per formattare le date in RFC 822
 import html  # Per fare l'escape di caratteri speciali nell'HTML
+import logging  # Aggiunto import
 
 
 def create_rss_feed(
@@ -125,7 +126,15 @@ def create_rss_feed(
         # Telegraph Link
         telegraph_link_html = ""
         if repo.get("telegraph_url"):
-            telegraph_link_html = f'<p>📖 <a href="{html.escape(repo["telegraph_url"])}"><strong>Leggi il README su Telegraph</strong></a></p>'
+            try:
+                telegraph_link_html = f'<p>📖 <a href="{html.escape(repo["telegraph_url"])}"><strong>Leggi il README su Telegraph</strong></a></p>'
+            except Exception as e:
+                logging.error(
+                    f"Errore durante la creazione della pagina Telegraph per {repo['name']}: {e}"
+                )  # Modificato print
+                telegraph_link_html = (
+                    "<p><em>Errore durante la generazione dell'anteprima Telegraph.</em></p>"
+                )
 
         description_html = f"""
         <![CDATA[
