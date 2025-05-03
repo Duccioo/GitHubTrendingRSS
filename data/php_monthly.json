@@ -3,13 +3,13 @@
     "name": "nunomaduro/essentials",
     "url": "https://github.com/nunomaduro/essentials",
     "description": "Just better defaults for your Laravel projects.",
-    "stars": 253,
+    "stars": 256,
     "forks": 22,
     "language": "PHP",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-04-11T20:24:18Z",
-    "updated_at": "2025-05-01T23:48:11Z",
+    "updated_at": "2025-05-02T16:40:30Z",
     "owner": {
       "name": "nunomaduro",
       "avatar_url": "https://avatars.githubusercontent.com/u/5457236?v=4"
@@ -20,7 +20,7 @@
     "name": "opgginc/laravel-mcp-server",
     "url": "https://github.com/opgginc/laravel-mcp-server",
     "description": "A Laravel package for implementing secure Model Context Protocol servers using Server-Sent Events (SSE) transport, providing real-time communication and a scalable tool system for enterprise environments.",
-    "stars": 103,
+    "stars": 108,
     "forks": 8,
     "language": "PHP",
     "topics": [
@@ -34,7 +34,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-04-13T18:04:48Z",
-    "updated_at": "2025-05-01T13:15:12Z",
+    "updated_at": "2025-05-03T02:48:59Z",
     "owner": {
       "name": "opgginc",
       "avatar_url": "https://avatars.githubusercontent.com/u/29659061?v=4"
@@ -45,13 +45,13 @@
     "name": "infinitypaul/idempotency-laravel",
     "url": "https://github.com/infinitypaul/idempotency-laravel",
     "description": null,
-    "stars": 76,
+    "stars": 78,
     "forks": 1,
     "language": "PHP",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-04-07T20:12:32Z",
-    "updated_at": "2025-05-01T16:01:57Z",
+    "updated_at": "2025-05-03T00:46:01Z",
     "owner": {
       "name": "infinitypaul",
       "avatar_url": "https://avatars.githubusercontent.com/u/15332137?v=4"
@@ -85,27 +85,28 @@
     "telegraph_url": null
   },
   {
-    "name": "eduardovillao/wp-since",
-    "url": "https://github.com/eduardovillao/wp-since",
-    "description": "Ensure your plugin is compatible with WordPress – scans functions, classes, methods, and hooks.",
-    "stars": 55,
-    "forks": 2,
+    "name": "eramitgupta/laravel-disposable-email",
+    "url": "https://github.com/eramitgupta/laravel-disposable-email",
+    "description": "A Laravel package to detect and block disposable email addresses with 100K+ known domains.",
+    "stars": 58,
+    "forks": 1,
     "language": "PHP",
     "topics": [
-      "code-analysis",
-      "compatibility",
-      "developer-tools",
-      "static-analysis",
-      "wordpress",
-      "wordpress-development",
-      "wp-plugin"
+      "disposable",
+      "disposable-check",
+      "disposable-domains",
+      "disposable-email",
+      "disposable-email-domains",
+      "email-blacklist",
+      "laravel",
+      "validation"
     ],
-    "license": "No license",
-    "created_at": "2025-04-03T21:23:14Z",
-    "updated_at": "2025-05-01T20:03:53Z",
+    "license": "MIT License",
+    "created_at": "2025-04-18T16:57:56Z",
+    "updated_at": "2025-05-03T02:47:22Z",
     "owner": {
-      "name": "eduardovillao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60461940?v=4"
+      "name": "eramitgupta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72160684?v=4"
     },
     "telegraph_url": null
   },
@@ -130,16 +131,33 @@
     "name": "jwage/phpamqplib-messenger",
     "url": "https://github.com/jwage/phpamqplib-messenger",
     "description": null,
-    "stars": 48,
+    "stars": 51,
     "forks": 2,
     "language": "PHP",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-04-12T18:36:44Z",
-    "updated_at": "2025-05-01T15:54:26Z",
+    "updated_at": "2025-05-02T17:50:35Z",
     "owner": {
       "name": "jwage",
       "avatar_url": "https://avatars.githubusercontent.com/u/97422?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "php-mcp/server",
+    "url": "https://github.com/php-mcp/server",
+    "description": "Core PHP implementation for the Model Context Protocol (MCP) server",
+    "stars": 44,
+    "forks": 2,
+    "language": "PHP",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-04-28T12:13:42Z",
+    "updated_at": "2025-05-03T00:39:08Z",
+    "owner": {
+      "name": "php-mcp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209475819?v=4"
     },
     "telegraph_url": null
   },
@@ -164,13 +182,13 @@
     "name": "codestify/wordforge",
     "url": "https://github.com/codestify/wordforge",
     "description": "WordForge is a simple, opinionated SLIM MVC framework for WordPress that brings structure to plugin development",
-    "stars": 37,
+    "stars": 38,
     "forks": 3,
     "language": "PHP",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-04-27T08:52:42Z",
-    "updated_at": "2025-05-01T18:23:58Z",
+    "updated_at": "2025-05-02T16:44:01Z",
     "owner": {
       "name": "codestify",
       "avatar_url": "https://avatars.githubusercontent.com/u/60575042?v=4"
@@ -178,36 +196,10 @@
     "telegraph_url": null
   },
   {
-    "name": "eramitgupta/laravel-disposable-email",
-    "url": "https://github.com/eramitgupta/laravel-disposable-email",
-    "description": "A Laravel package to detect and block disposable email addresses with 100K+ known domains.",
-    "stars": 36,
-    "forks": 1,
-    "language": "PHP",
-    "topics": [
-      "disposable",
-      "disposable-check",
-      "disposable-domains",
-      "disposable-email",
-      "disposable-email-domains",
-      "email-blacklist",
-      "laravel",
-      "validation"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-04-18T16:57:56Z",
-    "updated_at": "2025-05-02T01:26:51Z",
-    "owner": {
-      "name": "eramitgupta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72160684?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "prog-time/tg-support-bot",
     "url": "https://github.com/prog-time/tg-support-bot",
     "description": "Бот для технической поддержки",
-    "stars": 35,
+    "stars": 36,
     "forks": 6,
     "language": "PHP",
     "topics": [
@@ -218,7 +210,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-04-06T14:17:06Z",
-    "updated_at": "2025-05-01T07:57:45Z",
+    "updated_at": "2025-05-02T15:23:28Z",
     "owner": {
       "name": "prog-time",
       "avatar_url": "https://avatars.githubusercontent.com/u/40496434?v=4"
@@ -229,7 +221,7 @@
     "name": "aiaccess/ai-access",
     "url": "https://github.com/aiaccess/ai-access",
     "description": "A flexible PHP library providing access to various AI models (Gemini, OpenAI, Anthropic, DeepSeek, Grok) via a consistent interface.",
-    "stars": 32,
+    "stars": 33,
     "forks": 0,
     "language": "PHP",
     "topics": [
@@ -248,7 +240,7 @@
     ],
     "license": "No license",
     "created_at": "2025-04-11T15:23:01Z",
-    "updated_at": "2025-04-25T09:45:43Z",
+    "updated_at": "2025-05-02T06:32:20Z",
     "owner": {
       "name": "aiaccess",
       "avatar_url": "https://avatars.githubusercontent.com/u/207221050?v=4"
@@ -290,6 +282,27 @@
     "telegraph_url": null
   },
   {
+    "name": "ashleyhindle/croft",
+    "url": "https://github.com/ashleyhindle/croft",
+    "description": "MCP server for all of your Laravel projects - better AI pair programming, coming soon..",
+    "stars": 30,
+    "forks": 1,
+    "language": "PHP",
+    "topics": [
+      "ai",
+      "laravel",
+      "mcp"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-04-05T08:07:25Z",
+    "updated_at": "2025-05-02T15:50:18Z",
+    "owner": {
+      "name": "ashleyhindle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/454975?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "reg233/whois-domain-lookup",
     "url": "https://github.com/reg233/whois-domain-lookup",
     "description": "A simple WHOIS domain lookup website with strong TLD compatibility.",
@@ -313,44 +326,6 @@
     "telegraph_url": null
   },
   {
-    "name": "ashleyhindle/croft",
-    "url": "https://github.com/ashleyhindle/croft",
-    "description": "MCP server for all of your Laravel projects - better AI pair programming, coming soon..",
-    "stars": 28,
-    "forks": 1,
-    "language": "PHP",
-    "topics": [
-      "ai",
-      "laravel",
-      "mcp"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-04-05T08:07:25Z",
-    "updated_at": "2025-04-30T17:18:19Z",
-    "owner": {
-      "name": "ashleyhindle",
-      "avatar_url": "https://avatars.githubusercontent.com/u/454975?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "php-mcp/server",
-    "url": "https://github.com/php-mcp/server",
-    "description": "Core PHP implementation for the Model Context Protocol (MCP) server",
-    "stars": 26,
-    "forks": 2,
-    "language": "PHP",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-04-28T12:13:42Z",
-    "updated_at": "2025-05-02T01:44:38Z",
-    "owner": {
-      "name": "php-mcp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/209475819?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "Laragear/Populate",
     "url": "https://github.com/Laragear/Populate",
     "description": "Populate your database with a supercharged, continuable seeder",
@@ -364,6 +339,28 @@
     "owner": {
       "name": "Laragear",
       "avatar_url": "https://avatars.githubusercontent.com/u/89560594?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "TCB13/uSentry",
+    "url": "https://github.com/TCB13/uSentry",
+    "description": "Identity and Access Management (IAM) and Single Sign-On (SSO) for your homelab in a single file!",
+    "stars": 25,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "authentication",
+      "iam",
+      "sso",
+      "sso-authentication"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-04-25T09:39:54Z",
+    "updated_at": "2025-05-02T22:36:11Z",
+    "owner": {
+      "name": "TCB13",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6315832?v=4"
     },
     "telegraph_url": null
   },
@@ -385,11 +382,28 @@
     "telegraph_url": null
   },
   {
+    "name": "Automattic/wordpress-mcp",
+    "url": "https://github.com/Automattic/wordpress-mcp",
+    "description": null,
+    "stars": 23,
+    "forks": 4,
+    "language": "PHP",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-04-29T12:49:22Z",
+    "updated_at": "2025-05-02T18:45:37Z",
+    "owner": {
+      "name": "Automattic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/887802?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "craftcms/security-patches",
     "url": "https://github.com/craftcms/security-patches",
     "description": "Provides security patches for out-of-date Craft CMS installs",
     "stars": 22,
-    "forks": 1,
+    "forks": 2,
     "language": "PHP",
     "topics": [],
     "license": "MIT License",
@@ -398,6 +412,30 @@
     "owner": {
       "name": "craftcms",
       "avatar_url": "https://avatars.githubusercontent.com/u/22369139?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "rectorphp/jack",
+    "url": "https://github.com/rectorphp/jack",
+    "description": "Safe and steady way to raise your composer dependency versions ",
+    "stars": 21,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "ci",
+      "cli",
+      "composer",
+      "php",
+      "rector",
+      "upgrade"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-04-17T17:27:15Z",
+    "updated_at": "2025-05-03T02:42:35Z",
+    "owner": {
+      "name": "rectorphp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32097581?v=4"
     },
     "telegraph_url": null
   },
@@ -411,7 +449,7 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-04-22T06:21:35Z",
-    "updated_at": "2025-04-28T01:21:03Z",
+    "updated_at": "2025-05-02T05:11:49Z",
     "owner": {
       "name": "staabm",
       "avatar_url": "https://avatars.githubusercontent.com/u/120441?v=4"
@@ -432,30 +470,6 @@
     "owner": {
       "name": "Astralzz",
       "avatar_url": "https://avatars.githubusercontent.com/u/101297627?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "rectorphp/jack",
-    "url": "https://github.com/rectorphp/jack",
-    "description": "Safe and steady way to raise your composer dependency versions ",
-    "stars": 19,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [
-      "ci",
-      "cli",
-      "composer",
-      "php",
-      "rector",
-      "upgrade"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-04-17T17:27:15Z",
-    "updated_at": "2025-04-30T12:38:57Z",
-    "owner": {
-      "name": "rectorphp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32097581?v=4"
     },
     "telegraph_url": null
   },
@@ -562,23 +576,6 @@
     "owner": {
       "name": "AlexDev404",
       "avatar_url": "https://avatars.githubusercontent.com/u/34188635?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "Genaker/AgentoAI",
-    "url": "https://github.com/Genaker/AgentoAI",
-    "description": "Agento: Magento MCP AI Agent",
-    "stars": 17,
-    "forks": 4,
-    "language": "PHP",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-04-07T06:06:05Z",
-    "updated_at": "2025-05-01T21:51:05Z",
-    "owner": {
-      "name": "Genaker",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9213670?v=4"
     },
     "telegraph_url": null
   }
