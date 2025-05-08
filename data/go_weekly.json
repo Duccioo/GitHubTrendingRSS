@@ -3,8 +3,8 @@
     "name": "doganarif/GoVisual",
     "url": "https://github.com/doganarif/GoVisual",
     "description": "Zero-config, pure-Go HTTP request visualizer & debugger for local Go web development.",
-    "stars": 248,
-    "forks": 13,
+    "stars": 291,
+    "forks": 16,
     "language": "Go",
     "topics": [
       "golang",
@@ -15,7 +15,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-05-04T02:29:54Z",
-    "updated_at": "2025-05-07T02:22:44Z",
+    "updated_at": "2025-05-08T02:05:04Z",
     "owner": {
       "name": "doganarif",
       "avatar_url": "https://avatars.githubusercontent.com/u/39677866?v=4"
@@ -23,458 +23,101 @@
     "telegraph_url": null
   },
   {
-    "name": "selfishwreck/go-aws-azure-login",
-    "url": "https://github.com/selfishwreck/go-aws-azure-login",
-    "description": "Port of aws-azure-login to go",
-    "stars": 61,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-06T18:49:46Z",
-    "updated_at": "2025-05-07T02:42:20Z",
-    "owner": {
-      "name": "selfishwreck",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200437012?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "pepperycurta/scertec",
-    "url": "https://github.com/pepperycurta/scertec",
-    "description": "ACME client daemon that puts fresh HTTPS certs in setec, and client to get them out of at serving time",
+    "name": "skinnyheat/aws-parameter-bulk",
+    "url": "https://github.com/skinnyheat/aws-parameter-bulk",
+    "description": "Export AWS SSM Parameter Store values in bulk to .env files",
     "stars": 60,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2025-05-06T18:45:38Z",
-    "updated_at": "2025-05-06T21:40:58Z",
-    "owner": {
-      "name": "pepperycurta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200410396?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "giddycockro/exo",
-    "url": "https://github.com/giddycockro/exo",
-    "description": "schema validation and struct builder, ala Elixir's ecto",
-    "stars": 59,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
     "license": "MIT License",
-    "created_at": "2025-05-06T18:40:56Z",
-    "updated_at": "2025-05-07T02:38:30Z",
+    "created_at": "2025-05-07T06:30:00Z",
+    "updated_at": "2025-05-07T19:31:01Z",
     "owner": {
-      "name": "giddycockro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200402253?v=4"
+      "name": "skinnyheat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200518430?v=4"
     },
     "telegraph_url": null
   },
   {
-    "name": "wildbriefly/vbalancer",
-    "url": "https://github.com/wildbriefly/vbalancer",
-    "description": "The vbalancer is a highload proxy for TCP traffic. It provides high availability, scalability for applications running on multiple servers.  It allows users to easily manage and scale their applications. balancer, cli, cross-platform, docker, highload, network, proxy, requests, web",
-    "stars": 59,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2025-05-06T18:47:22Z",
-    "updated_at": "2025-05-07T02:42:19Z",
-    "owner": {
-      "name": "wildbriefly",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200423691?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "originalpor/nv",
-    "url": "https://github.com/originalpor/nv",
-    "description": "A .env loader with secret manager integration cli, config, development, dotenv, env, infosec, loader, local, nv, secret-management, secrets",
-    "stars": 59,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-06T18:50:23Z",
-    "updated_at": "2025-05-07T02:32:52Z",
-    "owner": {
-      "name": "originalpor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200438246?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "whisperedwa/casbin-go-client",
-    "url": "https://github.com/whisperedwa/casbin-go-client",
-    "description": "Go client for Casbin-Server abac, access-control, acl, auth, casbin, casbin-server, client, rbac",
-    "stars": 58,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-05-06T18:53:42Z",
-    "updated_at": "2025-05-07T02:42:22Z",
-    "owner": {
-      "name": "whisperedwa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200441009?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "pitifulspool/imps",
-    "url": "https://github.com/pitifulspool/imps",
-    "description": "ImagePullSecrets controller allows you to distribute image pull secrets based on namespace/pod matches.",
-    "stars": 57,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-05-06T18:52:07Z",
-    "updated_at": "2025-05-07T02:42:21Z",
-    "owner": {
-      "name": "pitifulspool",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200440369?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "impressiveas/caddy-pocketbase",
-    "url": "https://github.com/impressiveas/caddy-pocketbase",
-    "description": "PocketBase embedded in Caddy baas, caddy, caddy-plugin, caddyserver, pocketbase",
-    "stars": 56,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-05-06T18:54:34Z",
-    "updated_at": "2025-05-07T02:32:52Z",
-    "owner": {
-      "name": "impressiveas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200441466?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "jumpyfuneral/snowplow-golang-tracker",
-    "url": "https://github.com/jumpyfuneral/snowplow-golang-tracker",
-    "description": "Snowplow event tracker for Golang. Add analytics to your Go apps and servers",
-    "stars": 56,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-05-06T18:43:41Z",
-    "updated_at": "2025-05-07T02:42:23Z",
-    "owner": {
-      "name": "jumpyfuneral",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200405812?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "givingreprese/gin-helmet",
-    "url": "https://github.com/givingreprese/gin-helmet",
-    "description": "HTTP Security middleware for GoLang library Gin, inspired by Helmet for Express",
-    "stars": 55,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-06T18:50:35Z",
-    "updated_at": "2025-05-07T02:42:39Z",
-    "owner": {
-      "name": "givingreprese",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200438720?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "frugalmimosa/tlsproxy",
-    "url": "https://github.com/frugalmimosa/tlsproxy",
-    "description": "HTTP proxy with per-request uTLS fingerprint mimicry and upstream proxy tunneling. Currently WIP. goproxy, ja3, proxy, tls-fingerprint, utls",
-    "stars": 55,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-06T18:51:10Z",
-    "updated_at": "2025-05-07T02:42:22Z",
-    "owner": {
-      "name": "frugalmimosa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200439829?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "dimpleddignit/signalfx-go",
-    "url": "https://github.com/dimpleddignit/signalfx-go",
-    "description": "Go client library and instrumentation bindings for SignalFx",
+    "name": "farawayimagi/eks-controller",
+    "url": "https://github.com/farawayimagi/eks-controller",
+    "description": "ACK service controller for Amazon Elastic Kubernetes Service (EKS)",
     "stars": 55,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2025-05-06T18:46:56Z",
-    "updated_at": "2025-05-06T21:40:58Z",
+    "created_at": "2025-05-07T06:35:20Z",
+    "updated_at": "2025-05-07T19:31:00Z",
     "owner": {
-      "name": "dimpleddignit",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200412482?v=4"
+      "name": "farawayimagi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200568446?v=4"
     },
     "telegraph_url": null
   },
   {
-    "name": "infatuatedfut/atk",
-    "url": "https://github.com/infatuatedfut/atk",
-    "description": "Aegis To KeePass aegis, aegis-authenticator, kdbx-database, keepass, keepass-database, totp",
-    "stars": 55,
+    "name": "boilingsitar/mss-boot",
+    "url": "https://github.com/boilingsitar/mss-boot",
+    "description": "A microservice rapid development framework istio, k8s, microservice",
+    "stars": 53,
     "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-07T06:41:55Z",
+    "updated_at": "2025-05-07T19:32:34Z",
+    "owner": {
+      "name": "boilingsitar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200624464?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "SpectraSystem/SpectraOS",
+    "url": "https://github.com/SpectraSystem/SpectraOS",
+    "description": "First Blockchain-Based OS Full control: custom nodes, anti-MEV RPC, direct validator access, instant swaps, and AI analytics. Built for speed and dominance",
+    "stars": 49,
+    "forks": 51,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2025-05-06T18:52:27Z",
-    "updated_at": "2025-05-07T02:28:44Z",
+    "created_at": "2025-05-02T18:54:26Z",
+    "updated_at": "2025-05-07T11:06:40Z",
     "owner": {
-      "name": "infatuatedfut",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200440535?v=4"
+      "name": "SpectraSystem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210078697?v=4"
     },
     "telegraph_url": null
-  },
-  {
-    "name": "whiteswath/element-portable",
-    "url": "https://github.com/whiteswath/element-portable",
-    "description": "🚀 Element portable for Windows portable, portapps, riot, riotim, windows",
-    "stars": 54,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-06T18:58:36Z",
-    "updated_at": "2025-05-07T02:28:44Z",
-    "owner": {
-      "name": "whiteswath",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200443527?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "pleasantgodfa/depp",
-    "url": "https://github.com/pleasantgodfa/depp",
-    "description": "No frills static page generator for Git repositories git, static-site-generator",
-    "stars": 54,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-05-06T18:42:36Z",
-    "updated_at": "2025-05-07T02:42:22Z",
-    "owner": {
-      "name": "pleasantgodfa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200404253?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "athleticrace/grol",
-    "url": "https://github.com/athleticrace/grol",
-    "description": "Go REPL Open Language interpreted-programming-language, interpreter, monkey",
-    "stars": 52,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-05-06T18:41:27Z",
-    "updated_at": "2025-05-07T02:43:38Z",
-    "owner": {
-      "name": "athleticrace",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200402962?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "fumblingeffec/kubectl-really-get-all",
-    "url": "https://github.com/fumblingeffec/kubectl-really-get-all",
-    "description": "A kubectl get plugin that allows you to list every resource in your cluster kubectl, kubectl-plugin, kubectl-plugins, kubernetes, kubernetes-client",
-    "stars": 52,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-06T18:53:08Z",
-    "updated_at": "2025-05-07T02:42:22Z",
-    "owner": {
-      "name": "fumblingeffec",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200440729?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "informallobot/wasify-go",
-    "url": "https://github.com/informallobot/wasify-go",
-    "description": "Wasify golang-library, golang-package, microservice, microservices, programmable, wasi, wasi-sdk, wasm, webassembly, webassembly-runtime",
-    "stars": 52,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-06T18:59:17Z",
-    "updated_at": "2025-05-07T02:42:20Z",
-    "owner": {
-      "name": "informallobot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200443994?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---informallobotwasify-go-05-07"
-  },
-  {
-    "name": "physicalconf/SCAPinoculars",
-    "url": "https://github.com/physicalconf/SCAPinoculars",
-    "description": "OpenSCAP Report Publisher",
-    "stars": 51,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-06T18:45:52Z",
-    "updated_at": "2025-05-07T02:42:22Z",
-    "owner": {
-      "name": "physicalconf",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200410531?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---physicalconfSCAPinoculars-05-07"
-  },
-  {
-    "name": "overduetrain/articletext",
-    "url": "https://github.com/overduetrain/articletext",
-    "description": "Golang package to extract useful text from a HTML document",
-    "stars": 51,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-05-06T18:46:44Z",
-    "updated_at": "2025-05-07T02:42:20Z",
-    "owner": {
-      "name": "overduetrain",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200412413?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---overduetrainarticletext-05-07"
-  },
-  {
-    "name": "outlyingmenti/go-spdx",
-    "url": "https://github.com/outlyingmenti/go-spdx",
-    "description": "Golang implementation of a checker for determining if an SPDX ID satisfies an SPDX Expression.",
-    "stars": 51,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-06T18:53:54Z",
-    "updated_at": "2025-05-06T21:48:58Z",
-    "owner": {
-      "name": "outlyingmenti",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200441005?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---outlyingmentigo-spdx-05-07"
   },
   {
     "name": "occasionalbo/matrix-alertmanager-receiver",
     "url": "https://github.com/occasionalbo/matrix-alertmanager-receiver",
     "description": "Send Alertmanager alerts to Matrix rooms alertmanager, alertmanager-webhook, alertmanager-webhook-receiver, matrix, monitoring, prometheus",
-    "stars": 50,
+    "stars": 38,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2025-05-04T08:54:23Z",
-    "updated_at": "2025-05-07T02:43:01Z",
+    "updated_at": "2025-05-07T18:54:15Z",
     "owner": {
       "name": "occasionalbo",
       "avatar_url": "https://avatars.githubusercontent.com/u/200342012?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---occasionalbomatrix-alertmanager-receiver-05-07"
-  },
-  {
-    "name": "soggyaccount/cattail",
-    "url": "https://github.com/soggyaccount/cattail",
-    "description": "An unofficial tailscale/headscale client",
-    "stars": 50,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-05-04T09:04:57Z",
-    "updated_at": "2025-05-06T20:59:40Z",
-    "owner": {
-      "name": "soggyaccount",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200347742?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---soggyaccountcattail-05-07"
-  },
-  {
-    "name": "ovalgene/goup",
-    "url": "https://github.com/ovalgene/goup",
-    "description": "Checks if there are any updates for imports in your module. golint, gomod, gotools",
-    "stars": 50,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-04T08:55:40Z",
-    "updated_at": "2025-05-07T02:42:20Z",
-    "owner": {
-      "name": "ovalgene",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200342438?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---ovalgenegoup-05-07"
-  },
-  {
-    "name": "plaintivesi/gontainer",
-    "url": "https://github.com/plaintivesi/gontainer",
-    "description": "Dependency Injection container for Golang projects.",
-    "stars": 49,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-05-06T18:58:01Z",
-    "updated_at": "2025-05-07T02:42:21Z",
-    "owner": {
-      "name": "plaintivesi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200443048?v=4"
-    },
     "telegraph_url": null
-  },
-  {
-    "name": "giganticclas/crab",
-    "url": "https://github.com/giganticclas/crab",
-    "description": "🦀 A versatile tool to crawl dozens of URLs from a given source, like a sitemap or an URL list. cache-warmer, cache-warmup, sitemap, sitemap-check, url-monitor, web",
-    "stars": 49,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-06T18:48:44Z",
-    "updated_at": "2025-05-07T02:43:37Z",
-    "owner": {
-      "name": "giganticclas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200436298?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---giganticclascrab-05-07"
   },
   {
     "name": "oddballape/layout",
     "url": "https://github.com/oddballape/layout",
     "description": "Generate new project from layout. Supports typed user-input, hooks, and conditions. cookiecutter, layout, project-bootstrapping, project-generator",
-    "stars": 48,
+    "stars": 37,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-05-04T09:17:05Z",
-    "updated_at": "2025-05-07T02:42:20Z",
+    "updated_at": "2025-05-07T18:54:09Z",
     "owner": {
       "name": "oddballape",
       "avatar_url": "https://avatars.githubusercontent.com/u/200356370?v=4"
@@ -482,37 +125,394 @@
     "telegraph_url": null
   },
   {
-    "name": "juvenilearcha/astar",
-    "url": "https://github.com/juvenilearcha/astar",
-    "description": "Package astar implements the A* search algorithm for finding least-cost paths. algorithm, astar-algorithm, graph, least-cost-paths, pathfinding, search-algorithm, shortest-path",
-    "stars": 48,
+    "name": "singleoutlin/electric-usage-downloader",
+    "url": "https://github.com/singleoutlin/electric-usage-downloader",
+    "description": "Import smart meter metrics from smarthub into VictoriaMetrics or InfluxDB coop, electric, electricity-consumption, grafana, grafana-dashboard, grafana-panel, influxdb, nisc, novec, smarthub, victoriametrics",
+    "stars": 37,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2025-05-05T10:06:50Z",
-    "updated_at": "2025-05-06T16:48:02Z",
+    "license": "MIT License",
+    "created_at": "2025-05-04T09:06:48Z",
+    "updated_at": "2025-05-07T17:48:24Z",
     "owner": {
-      "name": "juvenilearcha",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200382653?v=4"
+      "name": "singleoutlin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200349079?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---juvenilearchaastar-05-07"
+    "telegraph_url": null
   },
   {
-    "name": "perfumedcaus/horusec-engine",
-    "url": "https://github.com/perfumedcaus/horusec-engine",
-    "description": "Horusec analysis engine cd, ci, cli, hacktoberfest, java, javascript, kotlin, netcore, python, ruby, sast, security, security-development, terraform",
-    "stars": 48,
+    "name": "shorttermbons/go-ddd-clean-architect",
+    "url": "https://github.com/shorttermbons/go-ddd-clean-architect",
+    "description": "A sample project layout for golang clean architect and domain driven design",
+    "stars": 36,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-04T08:57:53Z",
+    "updated_at": "2025-05-07T18:54:25Z",
+    "owner": {
+      "name": "shorttermbons",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200343648?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "soggyaccount/cattail",
+    "url": "https://github.com/soggyaccount/cattail",
+    "description": "An unofficial tailscale/headscale client",
+    "stars": 36,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-05-04T09:04:57Z",
+    "updated_at": "2025-05-07T18:54:17Z",
+    "owner": {
+      "name": "soggyaccount",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200347742?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "ovalgene/goup",
+    "url": "https://github.com/ovalgene/goup",
+    "description": "Checks if there are any updates for imports in your module. golint, gomod, gotools",
+    "stars": 35,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-04T08:55:40Z",
+    "updated_at": "2025-05-07T19:00:59Z",
+    "owner": {
+      "name": "ovalgene",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200342438?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "duxthemux/gophercon-latam-2025",
+    "url": "https://github.com/duxthemux/gophercon-latam-2025",
+    "description": null,
+    "stars": 35,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-05-04T17:51:05Z",
+    "updated_at": "2025-05-06T11:53:12Z",
+    "owner": {
+      "name": "duxthemux",
+      "avatar_url": "https://avatars.githubusercontent.com/u/145001012?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "simplisticju/terraform-provider-thousandeyes",
+    "url": "https://github.com/simplisticju/terraform-provider-thousandeyes",
+    "description": "ThousandEyes Terraform Provider terraform, terraform-provider",
+    "stars": 34,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2025-05-04T08:55:51Z",
-    "updated_at": "2025-05-07T02:35:41Z",
+    "created_at": "2025-05-04T08:58:12Z",
+    "updated_at": "2025-05-07T19:01:00Z",
     "owner": {
-      "name": "perfumedcaus",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200342716?v=4"
+      "name": "simplisticju",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200344002?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---perfumedcaushorusec-engine-05-07"
+    "telegraph_url": null
+  },
+  {
+    "name": "slipperywhi/heart-rate-server",
+    "url": "https://github.com/slipperywhi/heart-rate-server",
+    "description": "基于Go语言开发的实时心率数据监测与共享系统，提供安全可靠的API端点用于数据上报、查询及可视化展示。采用Redis实时存储、GORM关系映射，支持Docker容器化部署。",
+    "stars": 33,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-04T09:04:36Z",
+    "updated_at": "2025-05-07T19:30:58Z",
+    "owner": {
+      "name": "slipperywhi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200347418?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "overjoyedhu/guard",
+    "url": "https://github.com/overjoyedhu/guard",
+    "description": "Guard is an open-source cloud security tool. It scans for misconfigurations, vulnerabilities, and compliance issues, offering actionable AI-driven remedies. Guard makes cloud security simple, scalable, and accessible for all teams.",
+    "stars": 33,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2025-05-04T09:06:37Z",
+    "updated_at": "2025-05-07T18:54:10Z",
+    "owner": {
+      "name": "overjoyedhu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200348995?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "sneakyvengea/adfind",
+    "url": "https://github.com/sneakyvengea/adfind",
+    "description": "Admin Panel Finder",
+    "stars": 33,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-05-04T08:53:02Z",
+    "updated_at": "2025-05-07T19:31:02Z",
+    "owner": {
+      "name": "sneakyvengea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200341460?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "squeakycomf/sol-shotty",
+    "url": "https://github.com/squeakycomf/sol-shotty",
+    "description": "SOL Shotty is a Solana RPC proxy with a little something \"extra\".",
+    "stars": 33,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-04T09:03:44Z",
+    "updated_at": "2025-05-07T18:53:59Z",
+    "owner": {
+      "name": "squeakycomf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200347083?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "expensivepi/utils",
+    "url": "https://github.com/expensivepi/utils",
+    "description": "Lightweight and versatile utilities for Go 📦 go-utils, golang-library, random-generator, templating, utils, utils-library",
+    "stars": 33,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-04T09:12:49Z",
+    "updated_at": "2025-05-07T18:52:41Z",
+    "owner": {
+      "name": "expensivepi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200353016?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "outlandishac/toot",
+    "url": "https://github.com/outlandishac/toot",
+    "description": "Mastodon Server API",
+    "stars": 33,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2025-05-04T08:52:27Z",
+    "updated_at": "2025-05-07T18:54:28Z",
+    "owner": {
+      "name": "outlandishac",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200341127?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "slimyvoting/freeipa-issuer",
+    "url": "https://github.com/slimyvoting/freeipa-issuer",
+    "description": "A cert-manager external issuer for FreeIPA certificate, kubernetes, pki",
+    "stars": 32,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-04T09:15:52Z",
+    "updated_at": "2025-05-07T18:52:41Z",
+    "owner": {
+      "name": "slimyvoting",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200355966?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "necessaryin/terraform-provider-headscale",
+    "url": "https://github.com/necessaryin/terraform-provider-headscale",
+    "description": "A terraform provider for Headscale headscale, tailscale, terraform-provider",
+    "stars": 32,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-04T09:14:37Z",
+    "updated_at": "2025-05-07T19:32:32Z",
+    "owner": {
+      "name": "necessaryin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200354859?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "shoddybutter/eks-ng-ami-updater",
+    "url": "https://github.com/shoddybutter/eks-ng-ami-updater",
+    "description": "EKS NG AMI Updater is an open source project that can be used to update kubernetes node group images.",
+    "stars": 32,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-04T09:10:00Z",
+    "updated_at": "2025-05-07T18:53:59Z",
+    "owner": {
+      "name": "shoddybutter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200351283?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "notedcommitte/go-dotenv",
+    "url": "https://github.com/notedcommitte/go-dotenv",
+    "description": "A fast and minimalist library for loading .env files in Go. Zero Allocation Get and Set methods configuration, environment-variables, golang-library, hacktoberfest, hacktoberfest2021",
+    "stars": 32,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-04T09:12:59Z",
+    "updated_at": "2025-05-07T19:31:00Z",
+    "owner": {
+      "name": "notedcommitte",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200353387?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---notedcommittego-dotenv-05-08"
+  },
+  {
+    "name": "sprycompulsio/ovh",
+    "url": "https://github.com/sprycompulsio/ovh",
+    "description": "Caddy module: dns.providers.ovh",
+    "stars": 31,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-04T09:12:39Z",
+    "updated_at": "2025-05-07T18:35:08Z",
+    "owner": {
+      "name": "sprycompulsio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200352770?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---sprycompulsioovh-05-08"
+  },
+  {
+    "name": "softfledglin/colorable",
+    "url": "https://github.com/softfledglin/colorable",
+    "description": "Colorable writer for windows.",
+    "stars": 31,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-04T09:02:39Z",
+    "updated_at": "2025-05-07T18:53:59Z",
+    "owner": {
+      "name": "softfledglin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200346112?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---softfledglincolorable-05-08"
+  },
+  {
+    "name": "supportiveg/firefly-fabconnect",
+    "url": "https://github.com/supportiveg/firefly-fabconnect",
+    "description": "REST API to interact with a Fabric network and event streaming via websocket",
+    "stars": 31,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-04T09:13:04Z",
+    "updated_at": "2025-05-07T18:54:09Z",
+    "owner": {
+      "name": "supportiveg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200353497?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---supportivegfirefly-fabconnect-05-08"
+  },
+  {
+    "name": "silenttectoni/redicrypt",
+    "url": "https://github.com/silenttectoni/redicrypt",
+    "description": "An encryption module for redis",
+    "stars": 30,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-04T09:06:09Z",
+    "updated_at": "2025-05-07T19:00:59Z",
+    "owner": {
+      "name": "silenttectoni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200348794?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---silenttectoniredicrypt-05-08"
+  },
+  {
+    "name": "ditthkr/go-template",
+    "url": "https://github.com/ditthkr/go-template",
+    "description": "Go Template - (Hexagonal + Clean Architecture)",
+    "stars": 30,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-05-02T07:57:03Z",
+    "updated_at": "2025-05-07T07:20:41Z",
+    "owner": {
+      "name": "ditthkr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/164640831?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "shockedentre/mock",
+    "url": "https://github.com/shockedentre/mock",
+    "description": "Language-agnostic API mocking and testing utility api, api-mocking, command-line-tool, e2e-tests, mock, mock-server, server, testing",
+    "stars": 30,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-04T09:10:05Z",
+    "updated_at": "2025-05-07T19:01:01Z",
+    "owner": {
+      "name": "shockedentre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200351300?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---shockedentremock-05-08"
+  },
+  {
+    "name": "sillystatem/coverbee",
+    "url": "https://github.com/sillystatem/coverbee",
+    "description": "Code coverage tooling for eBPF",
+    "stars": 30,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-04T09:08:35Z",
+    "updated_at": "2025-05-07T19:30:58Z",
+    "owner": {
+      "name": "sillystatem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200349948?v=4"
+    },
+    "telegraph_url": null
   }
 ]
