@@ -83,7 +83,7 @@ def generate_popular_repo_cards(repos_data):
         encoded_repo_name = repo_full_name
 
         star_history_svg_url = (
-            f"https://api.star-history.com/svg?repos={encoded_repo_name}&type=Date"
+            f"https://api.star-history.com/svg?repos={encoded_repo_name}&Date"
         )
 
         star_history_link_url = f"https://star-history.com/#{encoded_repo_name}&Date"  # Link to interactive chart
