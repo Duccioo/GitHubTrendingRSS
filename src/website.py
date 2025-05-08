@@ -82,15 +82,14 @@ def generate_popular_repo_cards(repos_data):
         # No need to double-encode if the source name is already owner/repo
         encoded_repo_name = repo_full_name
 
-        star_history_svg_url = (
-            f"https://api.star-history.com/svg?repos={encoded_repo_name}&Date"
-        )
+        star_history_svg_url = f"https://api.star-history.com/svg?repos={encoded_repo_name}&type=Date&theme=dark"
 
         star_history_link_url = f"https://star-history.com/#{encoded_repo_name}&Date"  # Link to interactive chart
 
         star_history_html = f"""
             <div class="star-history-chart">
                 <a href="{html.escape(star_history_link_url)}" target="_blank" rel="noopener noreferrer" title="View Star History for {repo_name_safe}">
+                    
                     <img src="{html.escape(star_history_svg_url)}" alt="Star History Chart for {repo_name_safe}" loading="lazy">
                 </a>
             </div>
