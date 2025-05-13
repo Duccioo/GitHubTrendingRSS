@@ -1,66 +1,15 @@
 [
   {
-    "name": "skinnyheat/aws-parameter-bulk",
-    "url": "https://github.com/skinnyheat/aws-parameter-bulk",
-    "description": "Export AWS SSM Parameter Store values in bulk to .env files",
-    "stars": 52,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-07T06:30:00Z",
-    "updated_at": "2025-05-09T18:31:53Z",
-    "owner": {
-      "name": "skinnyheat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200518430?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "farawayimagi/eks-controller",
-    "url": "https://github.com/farawayimagi/eks-controller",
-    "description": "ACK service controller for Amazon Elastic Kubernetes Service (EKS)",
-    "stars": 49,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-05-07T06:35:20Z",
-    "updated_at": "2025-05-09T18:35:08Z",
-    "owner": {
-      "name": "farawayimagi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200568446?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "boilingsitar/mss-boot",
-    "url": "https://github.com/boilingsitar/mss-boot",
-    "description": "A microservice rapid development framework istio, k8s, microservice",
-    "stars": 45,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-07T06:41:55Z",
-    "updated_at": "2025-05-09T18:41:54Z",
-    "owner": {
-      "name": "boilingsitar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200624464?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "shihuricha/cabbageDB",
     "url": "https://github.com/shihuricha/cabbageDB",
     "description": null,
-    "stars": 32,
-    "forks": 1,
+    "stars": 86,
+    "forks": 12,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-05-10T15:23:16Z",
-    "updated_at": "2025-05-12T02:58:29Z",
+    "updated_at": "2025-05-13T03:02:11Z",
     "owner": {
       "name": "shihuricha",
       "avatar_url": "https://avatars.githubusercontent.com/u/53305471?v=4"
@@ -68,10 +17,49 @@
     "telegraph_url": null
   },
   {
+    "name": "ahmetb/kubectl-node_resource",
+    "url": "https://github.com/ahmetb/kubectl-node_resource",
+    "description": "Query node allocations/utilizations in kubectl",
+    "stars": 40,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "kubectl",
+      "kubectl-plugin",
+      "kubectl-plugins",
+      "kubernetes"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-11T06:20:42Z",
+    "updated_at": "2025-05-12T23:31:30Z",
+    "owner": {
+      "name": "ahmetb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/159209?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "stanNthe5/stringbuf",
+    "url": "https://github.com/stanNthe5/stringbuf",
+    "description": "A Go string concatenation library that is more efficient than strings.Builder.",
+    "stars": 32,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-05-10T00:04:31Z",
+    "updated_at": "2025-05-12T18:55:37Z",
+    "owner": {
+      "name": "stanNthe5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/204592444?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "rezatg/gitc",
     "url": "https://github.com/rezatg/gitc",
     "description": "High-Performance AI for Lightning-Fast Conventional & Gitmoji commit messages 🚀",
-    "stars": 27,
+    "stars": 29,
     "forks": 1,
     "language": "Go",
     "topics": [
@@ -85,7 +73,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-05-08T17:35:17Z",
-    "updated_at": "2025-05-11T18:36:27Z",
+    "updated_at": "2025-05-12T18:12:40Z",
     "owner": {
       "name": "rezatg",
       "avatar_url": "https://avatars.githubusercontent.com/u/77942073?v=4"
@@ -93,123 +81,26 @@
     "telegraph_url": null
   },
   {
-    "name": "stanNthe5/stringbuf",
-    "url": "https://github.com/stanNthe5/stringbuf",
-    "description": "A Go string concatenation library that is more efficient than strings.Builder.",
-    "stars": 26,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-05-10T00:04:31Z",
-    "updated_at": "2025-05-12T02:00:19Z",
-    "owner": {
-      "name": "stanNthe5",
-      "avatar_url": "https://avatars.githubusercontent.com/u/204592444?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "phildougherty/mcp-compose",
-    "url": "https://github.com/phildougherty/mcp-compose",
-    "description": "Run and manage MCP servers as Docker/Podman containers. Inspired by Docker compose.",
-    "stars": 23,
+    "name": "VictoriaMetrics-Community/mcp-victoriametrics",
+    "url": "https://github.com/VictoriaMetrics-Community/mcp-victoriametrics",
+    "description": "The implementation of Model Context Protocol (MCP) server for VictoriaMetrics",
+    "stars": 17,
     "forks": 1,
     "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-05-06T19:01:35Z",
-    "updated_at": "2025-05-11T14:02:34Z",
-    "owner": {
-      "name": "phildougherty",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1385344?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "ahmetb/kubectl-node_resource",
-    "url": "https://github.com/ahmetb/kubectl-node_resource",
-    "description": "Query node allocations/utilization in kubectl",
-    "stars": 23,
-    "forks": 0,
-    "language": "Go",
     "topics": [
-      "kubectl",
-      "kubectl-plugin",
-      "kubectl-plugins",
-      "kubernetes"
+      "ai",
+      "mcp",
+      "mcp-server",
+      "monitoring",
+      "observability",
+      "victoriametrics"
     ],
     "license": "Apache License 2.0",
-    "created_at": "2025-05-11T06:20:42Z",
-    "updated_at": "2025-05-11T21:43:49Z",
+    "created_at": "2025-05-08T20:25:27Z",
+    "updated_at": "2025-05-12T20:36:12Z",
     "owner": {
-      "name": "ahmetb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/159209?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "rhettjay/learn-go-cicd",
-    "url": "https://github.com/rhettjay/learn-go-cicd",
-    "description": "go cicd starter",
-    "stars": 21,
-    "forks": 21,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-05-06T15:33:57Z",
-    "updated_at": "2025-05-08T19:07:39Z",
-    "owner": {
-      "name": "rhettjay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67493409?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "RogerChan555/GPRC-Go",
-    "url": "https://github.com/RogerChan555/GPRC-Go",
-    "description": null,
-    "stars": 18,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-05-06T23:54:18Z",
-    "updated_at": "2025-05-12T00:10:36Z",
-    "owner": {
-      "name": "RogerChan555",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28197200?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "STRRL/shell-now",
-    "url": "https://github.com/STRRL/shell-now",
-    "description": "Share your terminal in the browser in seconds.",
-    "stars": 15,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "cloudflare",
-      "cloudflare-tunnel",
-      "cloudflared",
-      "devops",
-      "devops-tools",
-      "devtools",
-      "go",
-      "live-share",
-      "remote-debugging",
-      "remote-shell",
-      "ttyd",
-      "web-terminal",
-      "webshell"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-05-06T03:35:20Z",
-    "updated_at": "2025-05-11T22:43:55Z",
-    "owner": {
-      "name": "STRRL",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20221408?v=4"
+      "name": "VictoriaMetrics-Community",
+      "avatar_url": "https://avatars.githubusercontent.com/u/174736222?v=4"
     },
     "telegraph_url": null
   },
@@ -246,7 +137,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-05-08T15:56:55Z",
-    "updated_at": "2025-05-11T10:26:18Z",
+    "updated_at": "2025-05-12T19:51:01Z",
     "owner": {
       "name": "richiejp",
       "avatar_url": "https://avatars.githubusercontent.com/u/988098?v=4"
@@ -269,7 +160,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-05-08T07:45:17Z",
-    "updated_at": "2025-05-11T16:37:06Z",
+    "updated_at": "2025-05-12T07:38:59Z",
     "owner": {
       "name": "hhftechnology",
       "avatar_url": "https://avatars.githubusercontent.com/u/171442910?v=4"
@@ -277,65 +168,20 @@
     "telegraph_url": null
   },
   {
-    "name": "ct-jyjntc/claude-share",
-    "url": "https://github.com/ct-jyjntc/claude-share",
-    "description": "集成claude chat web和claude api",
-    "stars": 12,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-05-06T09:51:05Z",
-    "updated_at": "2025-05-10T11:10:13Z",
-    "owner": {
-      "name": "ct-jyjntc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/202885683?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "HynoR/uscf",
     "url": "https://github.com/HynoR/uscf",
-    "description": "a small tool to use warp through masque",
-    "stars": 11,
+    "description": "A 3rd-Party Application Based on Usque Which Provide A Proxy to Connect To Cloudflare Warp Through MASQUE Protocol",
+    "stars": 13,
     "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-05-10T16:11:06Z",
-    "updated_at": "2025-05-12T02:12:00Z",
+    "updated_at": "2025-05-13T01:14:18Z",
     "owner": {
       "name": "HynoR",
       "avatar_url": "https://avatars.githubusercontent.com/u/20227709?v=4"
     },
-    "telegraph_url": null
-  },
-  {
-    "name": "Deeptanshu-sankhwar/MCPChain",
-    "url": "https://github.com/Deeptanshu-sankhwar/MCPChain",
-    "description": "MCPChain brings the Model Context Protocol to Web3 by anchoring agent tools, trust registries, and attestable executions on-chain.",
-    "stars": 10,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "aiagents",
-      "blockchain",
-      "cometbft",
-      "cosmos-sdk",
-      "ignite",
-      "layer1",
-      "layer2",
-      "mcp",
-      "mcp-server",
-      "proof-of-stake"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-05-06T10:48:36Z",
-    "updated_at": "2025-05-12T01:58:34Z",
-    "owner": {
-      "name": "Deeptanshu-sankhwar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31755863?v=4"
-    },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---HynoRuscf-05-13"
   }
 ]
