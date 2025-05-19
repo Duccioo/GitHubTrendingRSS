@@ -3,18 +3,23 @@
     "name": "dimonomid/nerdlog",
     "url": "https://github.com/dimonomid/nerdlog",
     "description": "Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server",
-    "stars": 893,
+    "stars": 909,
     "forks": 21,
     "language": "Go",
     "topics": [
       "devops-tools",
       "distributed",
+      "go",
       "histogram",
       "log-analysis",
+      "log-management",
       "log-monitor",
+      "log-search",
       "log-viewer",
       "log-visualization",
       "logging",
+      "logs",
+      "monitoring",
       "remote",
       "self-hosted",
       "syslog",
@@ -23,7 +28,7 @@
     ],
     "license": "BSD 2-Clause \"Simplified\" License",
     "created_at": "2025-04-20T17:57:25Z",
-    "updated_at": "2025-05-18T01:29:39Z",
+    "updated_at": "2025-05-18T23:48:02Z",
     "owner": {
       "name": "dimonomid",
       "avatar_url": "https://avatars.githubusercontent.com/u/1329932?v=4"
@@ -31,63 +36,10 @@
     "telegraph_url": null
   },
   {
-    "name": "glidea/zenfeed",
-    "url": "https://github.com/glidea/zenfeed",
-    "description": "Make RSS 📰 great again with AI 🧠✨!!",
-    "stars": 834,
-    "forks": 52,
-    "language": "Go",
-    "topics": [
-      "ai",
-      "deepseek",
-      "email",
-      "mcp",
-      "mcp-server",
-      "monitoring",
-      "openai",
-      "paas",
-      "prometheus",
-      "rss",
-      "rss-reader",
-      "rsshub"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2025-04-19T07:53:47Z",
-    "updated_at": "2025-05-17T16:08:30Z",
-    "owner": {
-      "name": "glidea",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53204825?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "alvinunreal/tmuxai",
-    "url": "https://github.com/alvinunreal/tmuxai",
-    "description": "AI-Powered, Non-Intrusive Terminal Assistant",
-    "stars": 704,
-    "forks": 28,
-    "language": "Go",
-    "topics": [
-      "ai",
-      "assistant",
-      "chatgpt",
-      "tmux",
-      "warp"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-04-19T05:51:47Z",
-    "updated_at": "2025-05-17T21:53:17Z",
-    "owner": {
-      "name": "alvinunreal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/204474669?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "doganarif/GoVisual",
     "url": "https://github.com/doganarif/GoVisual",
     "description": "Zero-config, pure-Go HTTP request visualizer & debugger for local Go web development.",
-    "stars": 450,
+    "stars": 467,
     "forks": 19,
     "language": "Go",
     "topics": [
@@ -99,7 +51,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-05-04T02:29:54Z",
-    "updated_at": "2025-05-18T03:39:11Z",
+    "updated_at": "2025-05-19T02:34:28Z",
     "owner": {
       "name": "doganarif",
       "avatar_url": "https://avatars.githubusercontent.com/u/39677866?v=4"
@@ -107,10 +59,27 @@
     "telegraph_url": null
   },
   {
+    "name": "sst/opencode",
+    "url": "https://github.com/sst/opencode",
+    "description": null,
+    "stars": 456,
+    "forks": 18,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-04-30T20:08:00Z",
+    "updated_at": "2025-05-19T03:37:10Z",
+    "owner": {
+      "name": "sst",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66570915?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "Safe3/openresty-manager",
     "url": "https://github.com/Safe3/openresty-manager",
     "description": "The easiest using, powerful and beautiful OpenResty Manager(Nginx Enhanced Version), open source alternative to OpenResty Edge.",
-    "stars": 445,
+    "stars": 453,
     "forks": 39,
     "language": "Go",
     "topics": [
@@ -130,7 +99,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2025-04-29T08:12:42Z",
-    "updated_at": "2025-05-18T00:22:09Z",
+    "updated_at": "2025-05-19T03:24:23Z",
     "owner": {
       "name": "Safe3",
       "avatar_url": "https://avatars.githubusercontent.com/u/5555374?v=4"
@@ -138,33 +107,16 @@
     "telegraph_url": null
   },
   {
-    "name": "sst/opencode",
-    "url": "https://github.com/sst/opencode",
-    "description": null,
-    "stars": 425,
-    "forks": 16,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-04-30T20:08:00Z",
-    "updated_at": "2025-05-17T19:38:43Z",
-    "owner": {
-      "name": "sst",
-      "avatar_url": "https://avatars.githubusercontent.com/u/66570915?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "shihuricha/cabbageDB",
     "url": "https://github.com/shihuricha/cabbageDB",
     "description": "本项目是一个轻量级分布式 SQL 数据库（Go），专为学习数据库核心技术设计，核心模块自主实现，支持分布式容错、ACID 事务及标准 SQL 查询。",
-    "stars": 302,
+    "stars": 312,
     "forks": 42,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-05-10T15:23:16Z",
-    "updated_at": "2025-05-18T03:14:03Z",
+    "updated_at": "2025-05-18T08:09:56Z",
     "owner": {
       "name": "shihuricha",
       "avatar_url": "https://avatars.githubusercontent.com/u/53305471?v=4"
@@ -192,31 +144,10 @@
     "telegraph_url": null
   },
   {
-    "name": "razorpay/razorpay-mcp-server",
-    "url": "https://github.com/razorpay/razorpay-mcp-server",
-    "description": "Razorpay's Official MCP Server",
-    "stars": 183,
-    "forks": 21,
-    "language": "Go",
-    "topics": [
-      "mcp",
-      "mcp-server",
-      "razorpay"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-04-26T10:23:45Z",
-    "updated_at": "2025-05-14T12:12:22Z",
-    "owner": {
-      "name": "razorpay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7713209?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "tienanr/docurift",
     "url": "https://github.com/tienanr/docurift",
     "description": "DocuRift is an intelligent API documentation generator that automatically analyzes your API traffic and generates comprehensive documentation in multiple formats. It works as a proxy server that captures API requests and responses, then generates OpenAPI and Postman collection documentation.",
-    "stars": 182,
+    "stars": 185,
     "forks": 8,
     "language": "Go",
     "topics": [
@@ -228,10 +159,31 @@
     ],
     "license": "MIT License",
     "created_at": "2025-04-27T23:32:35Z",
-    "updated_at": "2025-05-18T00:55:57Z",
+    "updated_at": "2025-05-18T16:10:37Z",
     "owner": {
       "name": "tienanr",
       "avatar_url": "https://avatars.githubusercontent.com/u/12192767?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "razorpay/razorpay-mcp-server",
+    "url": "https://github.com/razorpay/razorpay-mcp-server",
+    "description": "Razorpay's Official MCP Server",
+    "stars": 184,
+    "forks": 21,
+    "language": "Go",
+    "topics": [
+      "mcp",
+      "mcp-server",
+      "razorpay"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-04-26T10:23:45Z",
+    "updated_at": "2025-05-18T07:39:00Z",
+    "owner": {
+      "name": "razorpay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7713209?v=4"
     },
     "telegraph_url": null
   },
@@ -264,7 +216,7 @@
     "name": "al-sultani/prokzee",
     "url": "https://github.com/al-sultani/prokzee",
     "description": "A cross-platform desktop application for HTTP/HTTPS traffic interception and analysis, built with Go. Features modern UI, traffic manipulation tools, request resending, fuzzing capabilities, and AI-powered analysis.",
-    "stars": 140,
+    "stars": 141,
     "forks": 20,
     "language": "Go",
     "topics": [
@@ -280,7 +232,7 @@
     ],
     "license": "Other",
     "created_at": "2025-04-28T17:58:35Z",
-    "updated_at": "2025-05-18T03:17:42Z",
+    "updated_at": "2025-05-19T00:07:27Z",
     "owner": {
       "name": "al-sultani",
       "avatar_url": "https://avatars.githubusercontent.com/u/6137238?v=4"
@@ -291,8 +243,8 @@
     "name": "WenLiCG/PowerWhois",
     "url": "https://github.com/WenLiCG/PowerWhois",
     "description": "一个用Go语言编写的性能强大的域名可用性检查扫描工具 A high-performance domain availability scanning tool written in Go.",
-    "stars": 124,
-    "forks": 75,
+    "stars": 129,
+    "forks": 77,
     "language": "Go",
     "topics": [
       "domain",
@@ -302,7 +254,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-04-22T15:19:54Z",
-    "updated_at": "2025-05-17T16:27:51Z",
+    "updated_at": "2025-05-19T02:01:10Z",
     "owner": {
       "name": "WenLiCG",
       "avatar_url": "https://avatars.githubusercontent.com/u/98327518?v=4"
@@ -312,8 +264,8 @@
   {
     "name": "webriots/rate",
     "url": "https://github.com/webriots/rate",
-    "description": "A high-performance rate limiting library for Go applications",
-    "stars": 122,
+    "description": "A high-performance rate limiter library for Go applications",
+    "stars": 125,
     "forks": 2,
     "language": "Go",
     "topics": [
@@ -329,7 +281,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-05-13T20:40:24Z",
-    "updated_at": "2025-05-18T03:34:09Z",
+    "updated_at": "2025-05-19T03:20:35Z",
     "owner": {
       "name": "webriots",
       "avatar_url": "https://avatars.githubusercontent.com/u/194557006?v=4"
@@ -381,13 +333,13 @@
     "name": "TheManticoreProject/Manticore",
     "url": "https://github.com/TheManticoreProject/Manticore",
     "description": "A cross platform library to write offensive and defensive security tools in Go",
-    "stars": 67,
-    "forks": 1,
+    "stars": 69,
+    "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2025-05-04T18:47:50Z",
-    "updated_at": "2025-05-17T01:38:01Z",
+    "updated_at": "2025-05-18T23:19:54Z",
     "owner": {
       "name": "TheManticoreProject",
       "avatar_url": "https://avatars.githubusercontent.com/u/206504287?v=4"
@@ -398,13 +350,13 @@
     "name": "ckanthony/openapi-mcp",
     "url": "https://github.com/ckanthony/openapi-mcp",
     "description": "Dockerized MCP Server to allow your AI agent to access any API with existing api docs",
-    "stars": 67,
+    "stars": 68,
     "forks": 6,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-04-22T20:17:06Z",
-    "updated_at": "2025-05-16T11:49:56Z",
+    "updated_at": "2025-05-18T10:52:29Z",
     "owner": {
       "name": "ckanthony",
       "avatar_url": "https://avatars.githubusercontent.com/u/3399366?v=4"
@@ -412,27 +364,10 @@
     "telegraph_url": null
   },
   {
-    "name": "c1phy/sqltimer",
-    "url": "https://github.com/c1phy/sqltimer",
-    "description": "A fast, minimalistic scanner for time-based SQL injection (SQLi) detection – built in Go.",
-    "stars": 66,
-    "forks": 5,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-04-25T09:42:15Z",
-    "updated_at": "2025-05-14T07:56:59Z",
-    "owner": {
-      "name": "c1phy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/151621776?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "otk-final/openapi-codegen",
     "url": "https://github.com/otk-final/openapi-codegen",
     "description": "openapi（swagger）代码生成器",
-    "stars": 65,
+    "stars": 67,
     "forks": 2,
     "language": "Go",
     "topics": [
@@ -443,10 +378,27 @@
     ],
     "license": "No license",
     "created_at": "2025-04-21T15:18:11Z",
-    "updated_at": "2025-05-17T09:38:21Z",
+    "updated_at": "2025-05-19T03:38:33Z",
     "owner": {
       "name": "otk-final",
       "avatar_url": "https://avatars.githubusercontent.com/u/4920025?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "c1phy/sqltimer",
+    "url": "https://github.com/c1phy/sqltimer",
+    "description": "A fast, minimalistic scanner for time-based SQL injection (SQLi) detection – built in Go.",
+    "stars": 67,
+    "forks": 5,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-04-25T09:42:15Z",
+    "updated_at": "2025-05-19T00:52:32Z",
+    "owner": {
+      "name": "c1phy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/151621776?v=4"
     },
     "telegraph_url": null
   },
@@ -496,13 +448,13 @@
     "name": "AliRizaAynaci/gorl",
     "url": "https://github.com/AliRizaAynaci/gorl",
     "description": "A high-performance, modular rate limiting library for Go. Supports in-memory and Redis backends. Includes Fixed Window, Sliding Window, Token Bucket, and Leaky Bucket algorithms. Flexible keying (IP, API key, token, or custom). Production-ready. Easy integration.",
-    "stars": 51,
+    "stars": 58,
     "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-05-15T20:10:28Z",
-    "updated_at": "2025-05-17T23:33:28Z",
+    "updated_at": "2025-05-19T03:10:59Z",
     "owner": {
       "name": "AliRizaAynaci",
       "avatar_url": "https://avatars.githubusercontent.com/u/115364922?v=4"
@@ -590,7 +542,7 @@
     "name": "ahmetb/kubectl-node_resource",
     "url": "https://github.com/ahmetb/kubectl-node_resource",
     "description": "Query node allocations/utilizations in kubectl",
-    "stars": 44,
+    "stars": 45,
     "forks": 1,
     "language": "Go",
     "topics": [
@@ -601,7 +553,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-05-11T06:20:42Z",
-    "updated_at": "2025-05-17T21:54:56Z",
+    "updated_at": "2025-05-18T14:19:54Z",
     "owner": {
       "name": "ahmetb",
       "avatar_url": "https://avatars.githubusercontent.com/u/159209?v=4"
@@ -626,6 +578,23 @@
     "telegraph_url": null
   },
   {
+    "name": "your-api/your-api",
+    "url": "https://github.com/your-api/your-api",
+    "description": "全新的高颜值/高性能的AI模型接口管理与分发系统，本项目基于NewAPI开发。A brand new high aesthetic/high-performance AI model interface management and distribution system is only for personal or internal management and distribution channels of enterprises. Please do not use it for commercial purposes.",
+    "stars": 43,
+    "forks": 4,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-16T07:55:19Z",
+    "updated_at": "2025-05-18T17:38:28Z",
+    "owner": {
+      "name": "your-api",
+      "avatar_url": "https://avatars.githubusercontent.com/u/211800269?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "Sriram-PR/doc-scraper",
     "url": "https://github.com/Sriram-PR/doc-scraper",
     "description": "Go web crawler to scrape documentation sites and convert content to clean Markdown for LLM ingestion (RAG, training data).",
@@ -643,6 +612,23 @@
     "owner": {
       "name": "Sriram-PR",
       "avatar_url": "https://avatars.githubusercontent.com/u/160517347?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "SpectraSystem/SpectraOS",
+    "url": "https://github.com/SpectraSystem/SpectraOS",
+    "description": "First Blockchain-Based OS Full control: custom nodes, anti-MEV RPC, direct validator access, instant swaps, and AI analytics. Built for speed and dominance",
+    "stars": 38,
+    "forks": 45,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-02T18:54:26Z",
+    "updated_at": "2025-05-16T01:56:12Z",
+    "owner": {
+      "name": "SpectraSystem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210078697?v=4"
     },
     "telegraph_url": null
   }
