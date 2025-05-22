@@ -1,36 +1,19 @@
 [
   {
-    "name": "AliRizaAynaci/gorl",
-    "url": "https://github.com/AliRizaAynaci/gorl",
-    "description": "A high-performance, modular rate limiting library for Go. Supports in-memory and Redis backends. Includes Fixed Window, Sliding Window, Token Bucket, and Leaky Bucket algorithms. Flexible keying (IP, API key, token, or custom). Production-ready. Easy integration.",
-    "stars": 64,
-    "forks": 3,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-15T20:10:28Z",
-    "updated_at": "2025-05-20T23:13:10Z",
-    "owner": {
-      "name": "AliRizaAynaci",
-      "avatar_url": "https://avatars.githubusercontent.com/u/115364922?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "octelium/octelium",
     "url": "https://github.com/octelium/octelium",
     "description": "A next-gen FOSS self-hosted unified zero trust secure access platform that's relevant for the age of AI and dynamic workloads",
-    "stars": 61,
-    "forks": 1,
+    "stars": 109,
+    "forks": 4,
     "language": "Go",
     "topics": [
       "2fa",
       "abac",
-      "ai",
       "ai-gateway",
       "api-gateway",
       "beyondcorp",
       "homelab",
+      "kubernetes",
       "mcp",
       "mfa",
       "oauth2",
@@ -47,7 +30,7 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2025-05-18T16:56:34Z",
-    "updated_at": "2025-05-21T01:53:40Z",
+    "updated_at": "2025-05-22T02:55:20Z",
     "owner": {
       "name": "octelium",
       "avatar_url": "https://avatars.githubusercontent.com/u/114482526?v=4"
@@ -55,28 +38,11 @@
     "telegraph_url": null
   },
   {
-    "name": "your-api/your-api",
-    "url": "https://github.com/your-api/your-api",
-    "description": "全新的高颜值/高性能的AI模型接口管理与分发系统，本项目基于NewAPI开发。A brand new high aesthetic/high-performance AI model interface management and distribution system is only for personal or internal management and distribution channels of enterprises. Please do not use it for commercial purposes.",
-    "stars": 49,
-    "forks": 8,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-05-16T07:55:19Z",
-    "updated_at": "2025-05-19T13:17:34Z",
-    "owner": {
-      "name": "your-api",
-      "avatar_url": "https://avatars.githubusercontent.com/u/211800269?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "bloom42/markdown-ninja",
     "url": "https://github.com/bloom42/markdown-ninja",
     "description": "Markdown-first CMS for bloggers, minimalists and startups. Open Source alternative to Substack, Mailchimp and Netlify - https://markdown.ninja",
-    "stars": 47,
-    "forks": 4,
+    "stars": 59,
+    "forks": 5,
     "language": "Go",
     "topics": [
       "blog",
@@ -101,10 +67,44 @@
     ],
     "license": "MIT License",
     "created_at": "2025-05-20T06:36:06Z",
-    "updated_at": "2025-05-21T03:07:32Z",
+    "updated_at": "2025-05-21T20:40:11Z",
     "owner": {
       "name": "bloom42",
       "avatar_url": "https://avatars.githubusercontent.com/u/211307461?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "brizzai/auto-mcp",
+    "url": "https://github.com/brizzai/auto-mcp",
+    "description": "Transform any OpenAPI/Swagger definition into a fully-featured Model Context Protocol (MCP) server",
+    "stars": 53,
+    "forks": 8,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-16T14:35:58Z",
+    "updated_at": "2025-05-22T02:50:02Z",
+    "owner": {
+      "name": "brizzai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193657262?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "your-api/your-api",
+    "url": "https://github.com/your-api/your-api",
+    "description": "全新的高颜值/高性能的AI模型接口管理与分发系统，本项目基于NewAPI开发。A brand new high aesthetic/high-performance AI model interface management and distribution system is only for personal or internal management and distribution channels of enterprises. Please do not use it for commercial purposes.",
+    "stars": 49,
+    "forks": 8,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-16T07:55:19Z",
+    "updated_at": "2025-05-19T13:17:34Z",
+    "owner": {
+      "name": "your-api",
+      "avatar_url": "https://avatars.githubusercontent.com/u/211800269?v=4"
     },
     "telegraph_url": null
   },
@@ -126,33 +126,16 @@
     "telegraph_url": null
   },
   {
-    "name": "brizzai/auto-mcp",
-    "url": "https://github.com/brizzai/auto-mcp",
-    "description": "Transform any OpenAPI/Swagger definition into a fully-featured Model Context Protocol (MCP) server",
-    "stars": 37,
-    "forks": 5,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-05-16T14:35:58Z",
-    "updated_at": "2025-05-20T12:21:46Z",
-    "owner": {
-      "name": "brizzai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/193657262?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "TapXWorld/ChinaTextbook-tools",
     "url": "https://github.com/TapXWorld/ChinaTextbook-tools",
     "description": "ChinaTextbook 项目的文件合并、分割工具",
-    "stars": 29,
-    "forks": 14,
+    "stars": 40,
+    "forks": 18,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-05-18T03:41:27Z",
-    "updated_at": "2025-05-21T01:41:22Z",
+    "updated_at": "2025-05-22T02:12:43Z",
     "owner": {
       "name": "TapXWorld",
       "avatar_url": "https://avatars.githubusercontent.com/u/3353541?v=4"
@@ -163,8 +146,8 @@
     "name": "guycipher/wildcat",
     "url": "https://github.com/guycipher/wildcat",
     "description": "Embedded open-source storage engine for highly concurrent, transactional log-structured key-value storage.",
-    "stars": 27,
-    "forks": 3,
+    "stars": 31,
+    "forks": 2,
     "language": "Go",
     "topics": [
       "concurrent",
@@ -178,7 +161,7 @@
     ],
     "license": "Mozilla Public License 2.0",
     "created_at": "2025-05-17T02:48:03Z",
-    "updated_at": "2025-05-21T00:02:56Z",
+    "updated_at": "2025-05-21T23:35:21Z",
     "owner": {
       "name": "guycipher",
       "avatar_url": "https://avatars.githubusercontent.com/u/102377168?v=4"
@@ -189,13 +172,13 @@
     "name": "FiloSottile/csrf",
     "url": "https://github.com/FiloSottile/csrf",
     "description": null,
-    "stars": 22,
+    "stars": 23,
     "forks": 1,
     "language": "Go",
     "topics": [],
     "license": "Other",
     "created_at": "2025-05-16T20:30:24Z",
-    "updated_at": "2025-05-19T12:15:36Z",
+    "updated_at": "2025-05-21T08:26:22Z",
     "owner": {
       "name": "FiloSottile",
       "avatar_url": "https://avatars.githubusercontent.com/u/1225294?v=4"
@@ -223,16 +206,33 @@
     "name": "ayang64/retry",
     "url": "https://github.com/ayang64/retry",
     "description": null,
-    "stars": 18,
+    "stars": 19,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "BSD 3-Clause \"New\" or \"Revised\" License",
     "created_at": "2025-05-18T01:33:31Z",
-    "updated_at": "2025-05-20T17:16:14Z",
+    "updated_at": "2025-05-21T13:02:34Z",
     "owner": {
       "name": "ayang64",
       "avatar_url": "https://avatars.githubusercontent.com/u/1615303?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "smallnest/mcp-prompt-server-go",
+    "url": "https://github.com/smallnest/mcp-prompt-server-go",
+    "description": "一个提供优秀prompt的Model Context Protocol (MCP)的服务器，用于根据用户任务需求提供预设的prompt模板，帮助Cline/Cursor/Windsurf...更高效地执行各种任务。服务器将预设的prompt作为工具(tools)返回，以便在Cursor和Windsurf等编辑器中更好地和使用。提供tool和prompt两种形式",
+    "stars": 13,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-21T06:56:05Z",
+    "updated_at": "2025-05-22T02:59:42Z",
+    "owner": {
+      "name": "smallnest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/865763?v=4"
     },
     "telegraph_url": null
   },
@@ -271,6 +271,40 @@
     "telegraph_url": null
   },
   {
+    "name": "bia-pain-bache/BPB-Warp-Scanner",
+    "url": "https://github.com/bia-pain-bache/BPB-Warp-Scanner",
+    "description": null,
+    "stars": 12,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-05-17T20:31:57Z",
+    "updated_at": "2025-05-21T21:30:21Z",
+    "owner": {
+      "name": "bia-pain-bache",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155004885?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "hackers365/xiaozhi-esp32-server-golang",
+    "url": "https://github.com/hackers365/xiaozhi-esp32-server-golang",
+    "description": "golang版本的小智后端服务，支持websocket和mqtt+udp",
+    "stars": 11,
+    "forks": 4,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-20T03:50:45Z",
+    "updated_at": "2025-05-22T02:15:53Z",
+    "owner": {
+      "name": "hackers365",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2667293?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "Maginaaa/taishan",
     "url": "https://github.com/Maginaaa/taishan",
     "description": null,
@@ -284,6 +318,74 @@
     "owner": {
       "name": "Maginaaa",
       "avatar_url": "https://avatars.githubusercontent.com/u/19279437?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "streamplace/oatproxy",
+    "url": "https://github.com/streamplace/oatproxy",
+    "description": null,
+    "stars": 11,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-21T04:10:54Z",
+    "updated_at": "2025-05-22T02:21:35Z",
+    "owner": {
+      "name": "streamplace",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25138659?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "orbitoo/grok-chat-proxy2",
+    "url": "https://github.com/orbitoo/grok-chat-proxy2",
+    "description": "A grok chat reverse proxy using chromedp.",
+    "stars": 11,
+    "forks": 5,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-19T14:45:19Z",
+    "updated_at": "2025-05-21T20:18:51Z",
+    "owner": {
+      "name": "orbitoo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86230731?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "abui-am/gitgud",
+    "url": "https://github.com/abui-am/gitgud",
+    "description": "GitGud is a minimalist command-line interface (CLI) tool written in Go that enhances the Git experience with AI-assisted commit message generation. It seamlessly wraps standard Git commands while introducing intelligent features to streamline your workflow.",
+    "stars": 10,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-05-17T18:49:00Z",
+    "updated_at": "2025-05-22T02:48:12Z",
+    "owner": {
+      "name": "abui-am",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50738961?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "mhrlife/goai-kit",
+    "url": "https://github.com/mhrlife/goai-kit",
+    "description": null,
+    "stars": 10,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-05-18T20:13:54Z",
+    "updated_at": "2025-05-21T12:01:28Z",
+    "owner": {
+      "name": "mhrlife",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6649177?v=4"
     },
     "telegraph_url": null
   }
