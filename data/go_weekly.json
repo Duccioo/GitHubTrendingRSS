@@ -1,47 +1,31 @@
 [
   {
-    "name": "octelium/octelium",
-    "url": "https://github.com/octelium/octelium",
-    "description": "A next-gen FOSS self-hosted unified zero trust secure access ZTNA/remote access VPN alternative platform that's relevant for the age of AI and dynamic workloads",
-    "stars": 160,
-    "forks": 6,
+    "name": "yarlson/lnk",
+    "url": "https://github.com/yarlson/lnk",
+    "description": "🔗 Git-native dotfiles management that doesn't suck.",
+    "stars": 162,
+    "forks": 2,
     "language": "Go",
     "topics": [
-      "2fa",
-      "abac",
-      "ai-gateway",
-      "api-gateway",
-      "beyondcorp",
-      "homelab",
-      "kubernetes",
-      "mcp",
-      "mfa",
-      "oauth2",
-      "paas",
-      "policy-as-code",
-      "quic",
-      "remote-access",
-      "ssh",
-      "sso",
-      "vpn",
-      "wireguard",
-      "zero-trust",
-      "ztna"
+      "configuration-management",
+      "devtools",
+      "dotfiles",
+      "dotfiles-manager"
     ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2025-05-18T16:56:34Z",
-    "updated_at": "2025-05-24T00:45:32Z",
+    "license": "MIT License",
+    "created_at": "2025-05-23T16:22:43Z",
+    "updated_at": "2025-05-25T03:13:38Z",
     "owner": {
-      "name": "octelium",
-      "avatar_url": "https://avatars.githubusercontent.com/u/114482526?v=4"
+      "name": "yarlson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/751584?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---octeliumoctelium-05-24"
+    "telegraph_url": null
   },
   {
     "name": "bloom42/markdown-ninja",
     "url": "https://github.com/bloom42/markdown-ninja",
     "description": "Markdown-first CMS for bloggers, minimalists and startups. Open Source alternative to Substack, Mailchimp and Netlify - https://markdown.ninja",
-    "stars": 121,
+    "stars": 128,
     "forks": 6,
     "language": "Go",
     "topics": [
@@ -67,35 +51,45 @@
     ],
     "license": "MIT License",
     "created_at": "2025-05-20T06:36:06Z",
-    "updated_at": "2025-05-24T02:15:18Z",
+    "updated_at": "2025-05-24T22:29:01Z",
     "owner": {
       "name": "bloom42",
       "avatar_url": "https://avatars.githubusercontent.com/u/211307461?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---bloom42markdown-ninja-05-25"
   },
   {
-    "name": "TapXWorld/ChinaTextbook-tools",
-    "url": "https://github.com/TapXWorld/ChinaTextbook-tools",
-    "description": "ChinaTextbook 项目的文件合并、分割工具",
-    "stars": 58,
-    "forks": 26,
+    "name": "jetify-com/sse",
+    "url": "https://github.com/jetify-com/sse",
+    "description": "Server-Sent Events for Go. A tiny, dependency-free, spec-compliant library compatible with the HTTP stdlib.",
+    "stars": 50,
+    "forks": 0,
     "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-05-18T03:41:27Z",
-    "updated_at": "2025-05-24T01:37:25Z",
+    "topics": [
+      "event-driven",
+      "go",
+      "golang",
+      "real-time",
+      "realtime",
+      "server-sent-events",
+      "sse",
+      "sse-client",
+      "streaming"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-21T15:59:01Z",
+    "updated_at": "2025-05-25T02:01:45Z",
     "owner": {
-      "name": "TapXWorld",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3353541?v=4"
+      "name": "jetify-com",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65328393?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---jetify-comsse-05-25"
   },
   {
     "name": "dans-stuff/swar",
     "url": "https://github.com/dans-stuff/swar",
     "description": "Provides SIMD within a register (SWAR) primitives in Golang",
-    "stars": 41,
+    "stars": 44,
     "forks": 1,
     "language": "Go",
     "topics": [
@@ -108,7 +102,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-05-21T04:34:19Z",
-    "updated_at": "2025-05-24T02:57:38Z",
+    "updated_at": "2025-05-24T16:30:07Z",
     "owner": {
       "name": "dans-stuff",
       "avatar_url": "https://avatars.githubusercontent.com/u/6707696?v=4"
@@ -116,53 +110,19 @@
     "telegraph_url": null
   },
   {
-    "name": "smallnest/mcp-prompt-server-go",
-    "url": "https://github.com/smallnest/mcp-prompt-server-go",
-    "description": "一个提供优秀prompt的Model Context Protocol (MCP)的服务器，用于根据用户任务需求提供预设的prompt模板，帮助Cline/Cursor/Windsurf...更高效地执行各种任务。服务器将预设的prompt作为工具(tools)返回，以便在Cursor和Windsurf等编辑器中更好地和使用。提供tool和prompt两种形式",
-    "stars": 23,
-    "forks": 3,
+    "name": "TFMV/icebox",
+    "url": "https://github.com/TFMV/icebox",
+    "description": "Iceberg Playground in a Box",
+    "stars": 28,
+    "forks": 4,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2025-05-21T06:56:05Z",
-    "updated_at": "2025-05-23T22:21:18Z",
+    "created_at": "2025-05-23T12:05:13Z",
+    "updated_at": "2025-05-25T01:11:58Z",
     "owner": {
-      "name": "smallnest",
-      "avatar_url": "https://avatars.githubusercontent.com/u/865763?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "puhitaku/port-notifier",
-    "url": "https://github.com/puhitaku/port-notifier",
-    "description": "Get notified when a TTY (COM) port appears or disappears. Works on macOS, Linux, Windows, etc.",
-    "stars": 23,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-22T15:15:05Z",
-    "updated_at": "2025-05-24T02:02:53Z",
-    "owner": {
-      "name": "puhitaku",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2425178?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "haileyok/yippy",
-    "url": "https://github.com/haileyok/yippy",
-    "description": "A smol Go server to transcode MKVs on the fly to MP4 (with subtitles)",
-    "stars": 20,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-18T10:31:21Z",
-    "updated_at": "2025-05-22T06:36:48Z",
-    "owner": {
-      "name": "haileyok",
-      "avatar_url": "https://avatars.githubusercontent.com/u/153161762?v=4"
+      "name": "TFMV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3191913?v=4"
     },
     "telegraph_url": null
   },
@@ -170,13 +130,19 @@
     "name": "Zhoros/Torranor",
     "url": "https://github.com/Zhoros/Torranor",
     "description": null,
-    "stars": 20,
+    "stars": 26,
     "forks": 2,
     "language": "Go",
-    "topics": [],
+    "topics": [
+      "bittorrent",
+      "bittorrent-client",
+      "bittorrent-protocol",
+      "torrent",
+      "torrenting"
+    ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2025-05-22T09:07:47Z",
-    "updated_at": "2025-05-23T22:37:19Z",
+    "updated_at": "2025-05-24T21:17:53Z",
     "owner": {
       "name": "Zhoros",
       "avatar_url": "https://avatars.githubusercontent.com/u/106366188?v=4"
@@ -184,27 +150,44 @@
     "telegraph_url": null
   },
   {
-    "name": "ayang64/retry",
-    "url": "https://github.com/ayang64/retry",
-    "description": null,
-    "stars": 19,
+    "name": "puhitaku/port-notifier",
+    "url": "https://github.com/puhitaku/port-notifier",
+    "description": "Get notified when a TTY (COM) port appears or disappears. Works on macOS, Linux, Windows, etc.",
+    "stars": 25,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2025-05-18T01:33:31Z",
-    "updated_at": "2025-05-21T13:02:34Z",
+    "license": "MIT License",
+    "created_at": "2025-05-22T15:15:05Z",
+    "updated_at": "2025-05-25T02:56:23Z",
     "owner": {
-      "name": "ayang64",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1615303?v=4"
+      "name": "puhitaku",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2425178?v=4"
     },
     "telegraph_url": null
+  },
+  {
+    "name": "smallnest/mcp-prompt-server-go",
+    "url": "https://github.com/smallnest/mcp-prompt-server-go",
+    "description": "一个提供优秀prompt的Model Context Protocol (MCP)的服务器，用于根据用户任务需求提供预设的prompt模板，帮助Cline/Cursor/Windsurf...更高效地执行各种任务。服务器将预设的prompt作为工具(tools)返回，以便在Cursor和Windsurf等编辑器中更好地和使用。提供tool和prompt两种形式",
+    "stars": 24,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-21T06:56:05Z",
+    "updated_at": "2025-05-25T02:21:57Z",
+    "owner": {
+      "name": "smallnest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/865763?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---smallnestmcp-prompt-server-go-05-25"
   },
   {
     "name": "jedisct1/openapi-mcp",
     "url": "https://github.com/jedisct1/openapi-mcp",
     "description": "Turn any API spec into AI-accessible tools instantly.",
-    "stars": 15,
+    "stars": 17,
     "forks": 1,
     "language": "Go",
     "topics": [
@@ -222,7 +205,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-05-22T08:34:56Z",
-    "updated_at": "2025-05-23T22:42:59Z",
+    "updated_at": "2025-05-24T19:41:57Z",
     "owner": {
       "name": "jedisct1",
       "avatar_url": "https://avatars.githubusercontent.com/u/124872?v=4"
@@ -230,21 +213,72 @@
     "telegraph_url": null
   },
   {
-    "name": "starrytomat/kube-operator-tutorial",
-    "url": "https://github.com/starrytomat/kube-operator-tutorial",
-    "description": "🛠️ Build a Kubernetes Operator in 10 minutes kubebuilder, kubernetes, operator, tutorial",
+    "name": "orbitoo/grok-chat-proxy2",
+    "url": "https://github.com/orbitoo/grok-chat-proxy2",
+    "description": "A grok chat reverse proxy using chromedp.",
+    "stars": 16,
+    "forks": 6,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-19T14:45:19Z",
+    "updated_at": "2025-05-24T23:47:24Z",
+    "owner": {
+      "name": "orbitoo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86230731?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "hackers365/xiaozhi-esp32-server-golang",
+    "url": "https://github.com/hackers365/xiaozhi-esp32-server-golang",
+    "description": "golang版本的小智后端服务，支持websocket和mqtt+udp",
+    "stars": 15,
+    "forks": 4,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-20T03:50:45Z",
+    "updated_at": "2025-05-24T07:46:38Z",
+    "owner": {
+      "name": "hackers365",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2667293?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---hackers365xiaozhi-esp32-server-golang-05-25"
+  },
+  {
+    "name": "stupendousbl/minimatch",
+    "url": "https://github.com/stupendousbl/minimatch",
+    "description": "Minimal Open Match replacement matchmaking",
+    "stars": 15,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-19T05:04:20Z",
+    "updated_at": "2025-05-24T23:27:36Z",
+    "owner": {
+      "name": "stupendousbl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209014991?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---stupendousblminimatch-05-25"
+  },
+  {
+    "name": "noorall/equinoxdb",
+    "url": "https://github.com/noorall/equinoxdb",
+    "description": "[WIP] A key value separation time series data storage engine inspired by Wisckey and TSM.",
     "stars": 15,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "No license",
-    "created_at": "2025-05-18T14:04:07Z",
-    "updated_at": "2025-05-23T15:01:42Z",
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-23T02:47:33Z",
+    "updated_at": "2025-05-24T19:51:33Z",
     "owner": {
-      "name": "starrytomat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208925201?v=4"
+      "name": "noorall",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30954408?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---noorallequinoxdb-05-25"
   },
   {
     "name": "soretachomete/CasaOS-AppManagement",
@@ -260,6 +294,23 @@
     "owner": {
       "name": "soretachomete",
       "avatar_url": "https://avatars.githubusercontent.com/u/209016632?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---soretachometeCasaOS-AppManagement-05-25"
+  },
+  {
+    "name": "vitalcupboar/BronyaBot",
+    "url": "https://github.com/vitalcupboar/BronyaBot",
+    "description": "一站式签到解决方案！ BronyaBot 是一个基于 Go 语言开发的自动化签到项目，专为工学云平台和超星学习通设计。通过模拟登录、自动签到、考试答题（学习通部分尚在开发中），让你轻松完成每日任务！适用于个人用户和团队使用。",
+    "stars": 15,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-19T09:21:19Z",
+    "updated_at": "2025-05-24T04:36:06Z",
+    "owner": {
+      "name": "vitalcupboar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209029484?v=4"
     },
     "telegraph_url": null
   },
@@ -278,7 +329,7 @@
       "name": "altruisticbel",
       "avatar_url": "https://avatars.githubusercontent.com/u/209010025?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---altruisticbelconbox-05-25"
   },
   {
     "name": "smoggytravele/zius",
@@ -295,41 +346,7 @@
       "name": "smoggytravele",
       "avatar_url": "https://avatars.githubusercontent.com/u/209035116?v=4"
     },
-    "telegraph_url": null
-  },
-  {
-    "name": "capitalbath/discordtidal",
-    "url": "https://github.com/capitalbath/discordtidal",
-    "description": "tidal discord rich presence for windows discord, discord-rich-presence, discord-rpc, rich-presence, tidal",
-    "stars": 15,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-05-18T11:01:34Z",
-    "updated_at": "2025-05-23T14:59:50Z",
-    "owner": {
-      "name": "capitalbath",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208923668?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "royalcouch/daytona-provider-docker",
-    "url": "https://github.com/royalcouch/daytona-provider-docker",
-    "description": "Daytona Docker Provider",
-    "stars": 15,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-18T23:46:48Z",
-    "updated_at": "2025-05-23T15:31:16Z",
-    "owner": {
-      "name": "royalcouch",
-      "avatar_url": "https://avatars.githubusercontent.com/u/209008661?v=4"
-    },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---smoggytravelezius-05-25"
   },
   {
     "name": "oddballceram/guess-language",
@@ -349,210 +366,6 @@
     "telegraph_url": null
   },
   {
-    "name": "hackers365/xiaozhi-esp32-server-golang",
-    "url": "https://github.com/hackers365/xiaozhi-esp32-server-golang",
-    "description": "golang版本的小智后端服务，支持websocket和mqtt+udp",
-    "stars": 14,
-    "forks": 4,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-20T03:50:45Z",
-    "updated_at": "2025-05-23T06:56:34Z",
-    "owner": {
-      "name": "hackers365",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2667293?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "knottygazebo/MxTransporter",
-    "url": "https://github.com/knottygazebo/MxTransporter",
-    "description": "Export change streams of mongoDB to Data Warehouse, streaming services.",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-18T22:04:19Z",
-    "updated_at": "2025-05-23T15:36:54Z",
-    "owner": {
-      "name": "knottygazebo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/209007396?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "snivelingsh/go-clamav",
-    "url": "https://github.com/snivelingsh/go-clamav",
-    "description": "go wrapper for libclamav",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2025-05-18T23:16:05Z",
-    "updated_at": "2025-05-23T16:01:26Z",
-    "owner": {
-      "name": "snivelingsh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/209008340?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "outrageousdro/function-status-transformer",
-    "url": "https://github.com/outrageousdro/function-status-transformer",
-    "description": "A @crossplane composition function that can create custom status conditions and events for claims and XRs",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-05-18T05:25:33Z",
-    "updated_at": "2025-05-23T14:53:51Z",
-    "owner": {
-      "name": "outrageousdro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208920285?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "fantasticban/cpackget",
-    "url": "https://github.com/fantasticban/cpackget",
-    "description": "Open-CMSIS-Pack Package Installer arm, embedded-systems, open-cmsis-pack, package-installer",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-05-18T20:21:56Z",
-    "updated_at": "2025-05-23T15:17:33Z",
-    "owner": {
-      "name": "fantasticban",
-      "avatar_url": "https://avatars.githubusercontent.com/u/209005848?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "needyverb/misstodon",
-    "url": "https://github.com/needyverb/misstodon",
-    "description": "[DEPRECATED] Misskey Mastodon-compatible APIs activitypub, federation, fediverse, mastodon, misskey",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2025-05-18T08:49:20Z",
-    "updated_at": "2025-05-23T15:16:30Z",
-    "owner": {
-      "name": "needyverb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208922472?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "fluidadrenali/go-multiaddr-dns",
-    "url": "https://github.com/fluidadrenali/go-multiaddr-dns",
-    "description": "Go library and CLI tool for /dns4, /dns6, /dnsaddr multiaddr resolution dns, dnsaddr, madns, multiaddr, resolve",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-18T12:33:10Z",
-    "updated_at": "2025-05-23T15:09:43Z",
-    "owner": {
-      "name": "fluidadrenali",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208924450?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "swiftbeck/doc",
-    "url": "https://github.com/swiftbeck/doc",
-    "description": "A modern TUI for reading man pages, info pages, and tldr pages.",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-05-18T16:46:16Z",
-    "updated_at": "2025-05-23T15:14:22Z",
-    "owner": {
-      "name": "swiftbeck",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208926468?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "necessarydar/smartgit-portable",
-    "url": "https://github.com/necessarydar/smartgit-portable",
-    "description": "🚀 SmartGit portable for Windows  portable, portapps, smartgit, windows",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-18T18:39:19Z",
-    "updated_at": "2025-05-23T10:46:31Z",
-    "owner": {
-      "name": "necessarydar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/209003673?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "weepyintensi/bodycomposition",
-    "url": "https://github.com/weepyintensi/bodycomposition",
-    "description": "Bodycomposition is a program to manage your body measurements and composition stored in Garmin Connect from your beloved commandline. fit, fitness, garmin, garmin-connect, ",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-05-18T00:41:00Z",
-    "updated_at": "2025-05-23T14:47:36Z",
-    "owner": {
-      "name": "weepyintensi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207635457?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "expensiveca/gqlgenc",
-    "url": "https://github.com/expensiveca/gqlgenc",
-    "description": "gqlgenc is a fully featured go gql client, powered by codegen",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-05-18T04:04:13Z",
-    "updated_at": "2025-05-23T14:48:08Z",
-    "owner": {
-      "name": "expensiveca",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208919154?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "unsightlyzo/unihtml",
-    "url": "https://github.com/unsightlyzo/unihtml",
-    "description": "UniHTML client html-to-pdf, unidoc, unipdf",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2025-05-18T18:23:48Z",
-    "updated_at": "2025-05-23T15:51:29Z",
-    "owner": {
-      "name": "unsightlyzo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208927910?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "frayedpress/drone-volume-cache",
     "url": "https://github.com/frayedpress/drone-volume-cache",
     "description": "Drone plugin to cache directories within the build workspace drone, drone-plugin",
@@ -566,6 +379,193 @@
     "owner": {
       "name": "frayedpress",
       "avatar_url": "https://avatars.githubusercontent.com/u/209032047?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "upsethellca/terraform-provider-temporal",
+    "url": "https://github.com/upsethellca/terraform-provider-temporal",
+    "description": "Terraform provider to manage Temporal Server resources infrastructure-as-code, temporal, terraform, terraform-provider",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Mozilla Public License 2.0",
+    "created_at": "2025-05-19T07:43:56Z",
+    "updated_at": "2025-05-23T15:49:00Z",
+    "owner": {
+      "name": "upsethellca",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209028245?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "originalnoir/webhooked",
+    "url": "https://github.com/originalnoir/webhooked",
+    "description": "A webhook receiver on steroids. apps, hacktoberfest, webhooks",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-19T10:12:30Z",
+    "updated_at": "2025-05-23T15:53:49Z",
+    "owner": {
+      "name": "originalnoir",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209030394?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "unlinedtrem/writer",
+    "url": "https://github.com/unlinedtrem/writer",
+    "description": "✍️ A simple text-on-image writing package for Go",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-19T00:47:55Z",
+    "updated_at": "2025-05-23T15:51:09Z",
+    "owner": {
+      "name": "unlinedtrem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209009370?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "hungryevictio/cilium-haegress-operator",
+    "url": "https://github.com/hungryevictio/cilium-haegress-operator",
+    "description": "Watch Cilium services placement and use for Cilium Egress Gateway, see https://github.com/cilium/cilium/issues/18230 cilium, operator-sdk",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2025-05-19T02:40:50Z",
+    "updated_at": "2025-05-23T15:33:10Z",
+    "owner": {
+      "name": "hungryevictio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209011004?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "splendidalloy/cloud.snippets.ninja",
+    "url": "https://github.com/splendidalloy/cloud.snippets.ninja",
+    "description": "Supposed to be a backend for snippets.ninja api-server, go-restful",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-05-19T11:14:22Z",
+    "updated_at": "2025-05-23T16:03:05Z",
+    "owner": {
+      "name": "splendidalloy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209031107?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "stormyschol/webhook-broker",
+    "url": "https://github.com/stormyschol/webhook-broker",
+    "description": "This is a fully HTTP based Pub/Sub Broker with a goal to simplify system architecture in SOA or Microservice architecture. It aims to solve the inter service communication problem. webhook, webhook-broker, webhooks",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-05-19T05:35:11Z",
+    "updated_at": "2025-05-23T15:58:49Z",
+    "owner": {
+      "name": "stormyschol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209016136?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "vicioussociet/santa",
+    "url": "https://github.com/vicioussociet/santa",
+    "description": "Santa brings presents to people. The ice owners get special presents based on how good they've been all year.",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2025-05-19T10:22:48Z",
+    "updated_at": "2025-05-23T15:57:54Z",
+    "owner": {
+      "name": "vicioussociet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209030554?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "terriblenur/go-smb2",
+    "url": "https://github.com/terriblenur/go-smb2",
+    "description": "Client implementation of the SMB 2 & 3 protocols",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "BSD 2-Clause \"Simplified\" License",
+    "created_at": "2025-05-19T06:11:02Z",
+    "updated_at": "2025-05-23T15:52:22Z",
+    "owner": {
+      "name": "terriblenur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209021075?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "trustingasc/vector-db",
+    "url": "https://github.com/trustingasc/vector-db",
+    "description": "A minimalistic vector database that can be used to search for similar vectors in logarithmic time. vector-database, vector-search",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-19T11:50:15Z",
+    "updated_at": "2025-05-23T15:59:21Z",
+    "owner": {
+      "name": "trustingasc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209031869?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "whoppingcon/walletd",
+    "url": "https://github.com/whoppingcon/walletd",
+    "description": "A new Sia wallet hacktoberfest",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-05-19T04:38:35Z",
+    "updated_at": "2025-05-23T15:59:47Z",
+    "owner": {
+      "name": "whoppingcon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209013917?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "bonynestmat/bilibili_ctl",
+    "url": "https://github.com/bonynestmat/bilibili_ctl",
+    "description": "Bilibili 评论控制工具，帮助你自动清理不想要的评论内容，支持关键字、黑名单以及正则表达式匹配",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-05-20T13:05:40Z",
+    "updated_at": "2025-05-23T12:53:16Z",
+    "owner": {
+      "name": "bonynestmat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209305453?v=4"
     },
     "telegraph_url": null
   }
