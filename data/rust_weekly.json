@@ -3,7 +3,7 @@
     "name": "iamsanmith/MetaSort",
     "url": "https://github.com/iamsanmith/MetaSort",
     "description": "📸 Smart Google Photos organizer! Clean files, extract dates, embed metadata, sort by date, generate reports. Supports 50+ formats including RAW.",
-    "stars": 55,
+    "stars": 59,
     "forks": 4,
     "language": "Rust",
     "topics": [
@@ -22,7 +22,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-07-02T14:08:41Z",
-    "updated_at": "2025-07-04T22:01:38Z",
+    "updated_at": "2025-07-05T23:40:22Z",
     "owner": {
       "name": "iamsanmith",
       "avatar_url": "https://avatars.githubusercontent.com/u/128987616?v=4"
@@ -80,33 +80,11 @@
     "telegraph_url": null
   },
   {
-    "name": "bilelmoussaoui/gnome-mcp-server",
-    "url": "https://github.com/bilelmoussaoui/gnome-mcp-server",
-    "description": "Grant the AI octopus access to a portion of your desktop",
-    "stars": 18,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "gnome",
-      "integration",
-      "mcp",
-      "mcp-server"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-06-29T17:47:41Z",
-    "updated_at": "2025-07-05T01:10:32Z",
-    "owner": {
-      "name": "bilelmoussaoui",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7660997?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "0xTan1319/chess-smart-contract-solana",
     "url": "https://github.com/0xTan1319/chess-smart-contract-solana",
     "description": "Casino game smart contract-Chess game smart contract: Escrow Contract to Sol Token for P2P Web3 Game on Solana Blockchain",
-    "stars": 13,
-    "forks": 16,
+    "stars": 19,
+    "forks": 30,
     "language": "Rust",
     "topics": [
       "casino",
@@ -118,10 +96,66 @@
     ],
     "license": "No license",
     "created_at": "2025-07-04T06:35:55Z",
-    "updated_at": "2025-07-04T23:02:36Z",
+    "updated_at": "2025-07-06T02:10:31Z",
     "owner": {
       "name": "0xTan1319",
       "avatar_url": "https://avatars.githubusercontent.com/u/45282429?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "hsnyildiz/tinykv",
+    "url": "https://github.com/hsnyildiz/tinykv",
+    "description": "`tinykv` is a lightweight, `serde`-powered key-value storage engine with optional TTL (time-to-live) support, atomic saving, and human-readable persistence via JSON.  Perfect for config storage, CLI apps, prototyping, testing, and anywhere you need a simple persistent store without setting up a database.",
+    "stars": 18,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-07-04T21:33:36Z",
+    "updated_at": "2025-07-06T02:35:54Z",
+    "owner": {
+      "name": "hsnyildiz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1096278?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "egoist/update-bin",
+    "url": "https://github.com/egoist/update-bin",
+    "description": "Update a binary to its latest version by using the original package manager that was used to install it",
+    "stars": 17,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-07-04T16:41:00Z",
+    "updated_at": "2025-07-06T01:32:34Z",
+    "owner": {
+      "name": "egoist",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8784712?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "azu/confirm-pam",
+    "url": "https://github.com/azu/confirm-pam",
+    "description": "A CLI tool for biometric authentication confirmation.",
+    "stars": 15,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "biometric",
+      "cli",
+      "fingerprint-authentication",
+      "security"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-07-04T01:13:04Z",
+    "updated_at": "2025-07-05T09:46:51Z",
+    "owner": {
+      "name": "azu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19714?v=4"
     },
     "telegraph_url": null
   },
@@ -143,28 +177,6 @@
     "telegraph_url": null
   },
   {
-    "name": "azu/confirm-pam",
-    "url": "https://github.com/azu/confirm-pam",
-    "description": "A CLI tool for biometric authentication confirmation.",
-    "stars": 12,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "biometric",
-      "cli",
-      "fingerprint-authentication",
-      "security"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-07-04T01:13:04Z",
-    "updated_at": "2025-07-05T02:22:06Z",
-    "owner": {
-      "name": "azu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19714?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "nehu3n/minargs",
     "url": "https://github.com/nehu3n/minargs",
     "description": "🚀 Ultra-lightweight, blazing-fast, zero-dependency CLI parser — inspired by Clap.",
@@ -178,6 +190,45 @@
     "owner": {
       "name": "nehu3n",
       "avatar_url": "https://avatars.githubusercontent.com/u/130004827?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "densumesh/actix-passport",
+    "url": "https://github.com/densumesh/actix-passport",
+    "description": "A comprehensive, flexible authentication framework for actix-web applications in Rust.",
+    "stars": 11,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "actix-web",
+      "actix-web-middleware",
+      "authentication",
+      "rust"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-07-02T04:01:54Z",
+    "updated_at": "2025-07-05T13:34:12Z",
+    "owner": {
+      "name": "densumesh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25559111?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "xboxoneresearch/LittleHydra",
+    "url": "https://github.com/xboxoneresearch/LittleHydra",
+    "description": "Little Hydra is a modular Windows process manager daemon for Xbox One/Series unsigned code execution.",
+    "stars": 11,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-06-30T04:25:49Z",
+    "updated_at": "2025-07-06T00:29:42Z",
+    "owner": {
+      "name": "xboxoneresearch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43215579?v=4"
     },
     "telegraph_url": null
   }
