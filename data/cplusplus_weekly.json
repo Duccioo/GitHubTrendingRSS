@@ -3,8 +3,8 @@
     "name": "maxDcb/DreamWalkers",
     "url": "https://github.com/maxDcb/DreamWalkers",
     "description": "Reflective shellcode loaderwith advanced call stack spoofing and .NET support.",
-    "stars": 115,
-    "forks": 21,
+    "stars": 140,
+    "forks": 28,
     "language": "C",
     "topics": [
       "malware-research",
@@ -13,18 +13,18 @@
     ],
     "license": "No license",
     "created_at": "2025-07-03T15:03:40Z",
-    "updated_at": "2025-07-08T02:20:11Z",
+    "updated_at": "2025-07-09T03:07:38Z",
     "owner": {
       "name": "maxDcb",
       "avatar_url": "https://avatars.githubusercontent.com/u/40819564?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---maxDcbDreamWalkers-07-08"
+    "telegraph_url": "https://telegra.ph/README---maxDcbDreamWalkers-07-09"
   },
   {
     "name": "MatheuZSecurity/RingReaper",
     "url": "https://github.com/MatheuZSecurity/RingReaper",
     "description": "Linux post-exploitation agent that uses io_uring to stealthily bypass EDR detection by avoiding traditional syscalls.",
-    "stars": 62,
+    "stars": 65,
     "forks": 12,
     "language": "C",
     "topics": [
@@ -37,7 +37,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-04T14:25:31Z",
-    "updated_at": "2025-07-07T19:29:08Z",
+    "updated_at": "2025-07-08T09:27:09Z",
     "owner": {
       "name": "MatheuZSecurity",
       "avatar_url": "https://avatars.githubusercontent.com/u/88067225?v=4"
@@ -45,61 +45,27 @@
     "telegraph_url": null
   },
   {
-    "name": "PocketConcepts/Solar_nRF",
-    "url": "https://github.com/PocketConcepts/Solar_nRF",
-    "description": "Solar BPW34 powered nRF BLE",
-    "stars": 40,
+    "name": "Dor00tkit/BamExtensionTableHook",
+    "url": "https://github.com/Dor00tkit/BamExtensionTableHook",
+    "description": "Proof-of-concept kernel driver that hijacks the Windows kernel extension table mechanism to preserve process notify callbacks even when attackers disable standard process notify callbacks.",
+    "stars": 63,
     "forks": 6,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2025-07-04T19:13:09Z",
-    "updated_at": "2025-07-07T21:58:01Z",
-    "owner": {
-      "name": "PocketConcepts",
-      "avatar_url": "https://avatars.githubusercontent.com/u/196242735?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---PocketConceptsSolar-nRF-07-08"
-  },
-  {
-    "name": "Dor00tkit/BamExtensionTableHook",
-    "url": "https://github.com/Dor00tkit/BamExtensionTableHook",
-    "description": "Proof-of-concept kernel driver that hijacks the Windows kernel extension table mechanism to preserve process notify callbacks even when attackers disable standard process notify callbacks.",
-    "stars": 29,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
     "created_at": "2025-07-07T06:35:19Z",
-    "updated_at": "2025-07-08T02:08:57Z",
+    "updated_at": "2025-07-09T03:02:49Z",
     "owner": {
       "name": "Dor00tkit",
       "avatar_url": "https://avatars.githubusercontent.com/u/47893732?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---Dor00tkitBamExtensionTableHook-07-08"
-  },
-  {
-    "name": "jb55/oot_bitset",
-    "url": "https://github.com/jb55/oot_bitset",
-    "description": "A 16-bit bitset implementation used in Ocarina of Time save files",
-    "stars": 25,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-07-04T16:17:19Z",
-    "updated_at": "2025-07-07T16:55:43Z",
-    "owner": {
-      "name": "jb55",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45598?v=4"
-    },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---Dor00tkitBamExtensionTableHook-07-09"
   },
   {
     "name": "surban/memstop",
     "url": "https://github.com/surban/memstop",
     "description": "Memstop monitors available memory and waits until a configurable percentage of memory becomes available before allowing a program to start.",
-    "stars": 23,
+    "stars": 60,
     "forks": 0,
     "language": "C",
     "topics": [
@@ -114,7 +80,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2025-07-03T21:45:22Z",
-    "updated_at": "2025-07-06T20:22:02Z",
+    "updated_at": "2025-07-09T03:10:24Z",
     "owner": {
       "name": "surban",
       "avatar_url": "https://avatars.githubusercontent.com/u/1213857?v=4"
@@ -122,47 +88,72 @@
     "telegraph_url": null
   },
   {
-    "name": "coolbutuseless/zap",
-    "url": "https://github.com/coolbutuseless/zap",
-    "description": "Fast object serialization with high compression",
-    "stars": 23,
-    "forks": 0,
+    "name": "jb55/oot_bitset",
+    "url": "https://github.com/jb55/oot_bitset",
+    "description": "A 16-bit bitset implementation used in Ocarina of Time save files",
+    "stars": 54,
+    "forks": 1,
     "language": "C",
-    "topics": [
-      "compression",
-      "data",
-      "library",
-      "package",
-      "pkg",
-      "r",
-      "rstats",
-      "serializing"
-    ],
-    "license": "Other",
-    "created_at": "2025-07-02T10:43:06Z",
-    "updated_at": "2025-07-06T04:26:45Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-07-04T16:17:19Z",
+    "updated_at": "2025-07-08T22:08:35Z",
     "owner": {
-      "name": "coolbutuseless",
-      "avatar_url": "https://avatars.githubusercontent.com/u/181818?v=4"
+      "name": "jb55",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45598?v=4"
     },
     "telegraph_url": null
+  },
+  {
+    "name": "PocketConcepts/Solar_nRF",
+    "url": "https://github.com/PocketConcepts/Solar_nRF",
+    "description": "Solar BPW34 powered nRF BLE",
+    "stars": 45,
+    "forks": 6,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-07-04T19:13:09Z",
+    "updated_at": "2025-07-09T01:42:10Z",
+    "owner": {
+      "name": "PocketConcepts",
+      "avatar_url": "https://avatars.githubusercontent.com/u/196242735?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---PocketConceptsSolar-nRF-07-09"
   },
   {
     "name": "LeKoYa/SoundMixer",
     "url": "https://github.com/LeKoYa/SoundMixer",
     "description": "A deej-powered Soundmixer for individual volume control with rotary encoders, leds, buttons and oled support",
-    "stars": 17,
+    "stars": 21,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-07-06T16:36:48Z",
-    "updated_at": "2025-07-07T20:13:08Z",
+    "updated_at": "2025-07-09T02:26:51Z",
     "owner": {
       "name": "LeKoYa",
       "avatar_url": "https://avatars.githubusercontent.com/u/28577529?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---LeKoYaSoundMixer-07-08"
+    "telegraph_url": "https://telegra.ph/README---LeKoYaSoundMixer-07-09"
+  },
+  {
+    "name": "buldansec/EnableEFS",
+    "url": "https://github.com/buldansec/EnableEFS",
+    "description": "Enable EFS service as low priv user (PE & BOF)",
+    "stars": 13,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-07-06T21:11:22Z",
+    "updated_at": "2025-07-09T03:07:16Z",
+    "owner": {
+      "name": "buldansec",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56409321?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---buldansecEnableEFS-07-09"
   },
   {
     "name": "GeoSn0w/Filza26Maker",
@@ -179,57 +170,40 @@
       "name": "GeoSn0w",
       "avatar_url": "https://avatars.githubusercontent.com/u/15067741?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---GeoSn0wFilza26Maker-07-08"
+    "telegraph_url": "https://telegra.ph/README---GeoSn0wFilza26Maker-07-09"
   },
   {
-    "name": "buldansec/EnableEFS",
-    "url": "https://github.com/buldansec/EnableEFS",
-    "description": "Enable EFS service as low priv user (PE & BOF)",
-    "stars": 10,
-    "forks": 0,
+    "name": "EvilWhales/ShadowDropper",
+    "url": "https://github.com/EvilWhales/ShadowDropper",
+    "description": "ShadowDropper is a utility for covertly delivering and executing payloads on a target system.",
+    "stars": 11,
+    "forks": 4,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-07-06T21:11:22Z",
-    "updated_at": "2025-07-07T21:26:15Z",
+    "license": "No license",
+    "created_at": "2025-07-04T06:10:10Z",
+    "updated_at": "2025-07-08T16:58:32Z",
     "owner": {
-      "name": "buldansec",
-      "avatar_url": "https://avatars.githubusercontent.com/u/56409321?v=4"
+      "name": "EvilWhales",
+      "avatar_url": "https://avatars.githubusercontent.com/u/213427304?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---buldansecEnableEFS-07-08"
+    "telegraph_url": "https://telegra.ph/README---EvilWhalesShadowDropper-07-09"
   },
   {
-    "name": "Kay69696969/Kernel-Injection-BETA-",
-    "url": "https://github.com/Kay69696969/Kernel-Injection-BETA-",
+    "name": "aychikhi/42-Exam04",
+    "url": "https://github.com/aychikhi/42-Exam04",
     "description": null,
     "stars": 10,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2025-07-02T11:57:09Z",
-    "updated_at": "2025-07-04T14:19:29Z",
+    "created_at": "2025-07-04T11:05:53Z",
+    "updated_at": "2025-07-08T15:53:20Z",
     "owner": {
-      "name": "Kay69696969",
-      "avatar_url": "https://avatars.githubusercontent.com/u/128990133?v=4"
+      "name": "aychikhi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132785318?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---Kay69696969Kernel-Injection-BETA-07-08"
-  },
-  {
-    "name": "EvilWhales/ShadowDropper",
-    "url": "https://github.com/EvilWhales/ShadowDropper",
-    "description": "ShadowDropper is a utility for covertly delivering and executing payloads on a target system.",
-    "stars": 10,
-    "forks": 4,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-07-04T06:10:10Z",
-    "updated_at": "2025-07-07T05:41:23Z",
-    "owner": {
-      "name": "EvilWhales",
-      "avatar_url": "https://avatars.githubusercontent.com/u/213427304?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---EvilWhalesShadowDropper-07-08"
+    "telegraph_url": "https://telegra.ph/README---aychikhi42-Exam04-07-09"
   }
 ]
