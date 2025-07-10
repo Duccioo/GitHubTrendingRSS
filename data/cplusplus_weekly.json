@@ -1,30 +1,43 @@
 [
   {
-    "name": "maxDcb/DreamWalkers",
-    "url": "https://github.com/maxDcb/DreamWalkers",
-    "description": "Reflective shellcode loaderwith advanced call stack spoofing and .NET support.",
-    "stars": 140,
-    "forks": 28,
+    "name": "antirez/historical-redis-versions",
+    "url": "https://github.com/antirez/historical-redis-versions",
+    "description": "Very early versions of Redis with some backstory in the README",
+    "stars": 78,
+    "forks": 1,
     "language": "C",
-    "topics": [
-      "malware-research",
-      "redteam",
-      "windows"
-    ],
+    "topics": [],
     "license": "No license",
-    "created_at": "2025-07-03T15:03:40Z",
-    "updated_at": "2025-07-09T03:07:38Z",
+    "created_at": "2025-07-09T10:34:38Z",
+    "updated_at": "2025-07-10T03:01:17Z",
     "owner": {
-      "name": "maxDcb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40819564?v=4"
+      "name": "antirez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---maxDcbDreamWalkers-07-09"
+    "telegraph_url": null
+  },
+  {
+    "name": "Dor00tkit/BamExtensionTableHook",
+    "url": "https://github.com/Dor00tkit/BamExtensionTableHook",
+    "description": "Proof-of-concept kernel driver that hijacks the Windows kernel extension table mechanism to preserve process notify callbacks even when attackers disable standard process notify callbacks.",
+    "stars": 72,
+    "forks": 10,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-07-07T06:35:19Z",
+    "updated_at": "2025-07-09T16:08:10Z",
+    "owner": {
+      "name": "Dor00tkit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47893732?v=4"
+    },
+    "telegraph_url": null
   },
   {
     "name": "MatheuZSecurity/RingReaper",
     "url": "https://github.com/MatheuZSecurity/RingReaper",
     "description": "Linux post-exploitation agent that uses io_uring to stealthily bypass EDR detection by avoiding traditional syscalls.",
-    "stars": 65,
+    "stars": 69,
     "forks": 12,
     "language": "C",
     "topics": [
@@ -37,7 +50,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-04T14:25:31Z",
-    "updated_at": "2025-07-08T09:27:09Z",
+    "updated_at": "2025-07-10T02:36:30Z",
     "owner": {
       "name": "MatheuZSecurity",
       "avatar_url": "https://avatars.githubusercontent.com/u/88067225?v=4"
@@ -45,59 +58,16 @@
     "telegraph_url": null
   },
   {
-    "name": "Dor00tkit/BamExtensionTableHook",
-    "url": "https://github.com/Dor00tkit/BamExtensionTableHook",
-    "description": "Proof-of-concept kernel driver that hijacks the Windows kernel extension table mechanism to preserve process notify callbacks even when attackers disable standard process notify callbacks.",
-    "stars": 63,
-    "forks": 6,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-07-07T06:35:19Z",
-    "updated_at": "2025-07-09T03:02:49Z",
-    "owner": {
-      "name": "Dor00tkit",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47893732?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---Dor00tkitBamExtensionTableHook-07-09"
-  },
-  {
-    "name": "surban/memstop",
-    "url": "https://github.com/surban/memstop",
-    "description": "Memstop monitors available memory and waits until a configurable percentage of memory becomes available before allowing a program to start.",
-    "stars": 60,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "build",
-      "c",
-      "ld-preload",
-      "linux",
-      "make",
-      "memory",
-      "parallel",
-      "parallel-build"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-07-03T21:45:22Z",
-    "updated_at": "2025-07-09T03:10:24Z",
-    "owner": {
-      "name": "surban",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1213857?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "jb55/oot_bitset",
     "url": "https://github.com/jb55/oot_bitset",
     "description": "A 16-bit bitset implementation used in Ocarina of Time save files",
-    "stars": 54,
+    "stars": 58,
     "forks": 1,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2025-07-04T16:17:19Z",
-    "updated_at": "2025-07-08T22:08:35Z",
+    "updated_at": "2025-07-10T01:32:22Z",
     "owner": {
       "name": "jb55",
       "avatar_url": "https://avatars.githubusercontent.com/u/45598?v=4"
@@ -119,58 +89,126 @@
       "name": "PocketConcepts",
       "avatar_url": "https://avatars.githubusercontent.com/u/196242735?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---PocketConceptsSolar-nRF-07-09"
+    "telegraph_url": null
   },
   {
     "name": "LeKoYa/SoundMixer",
     "url": "https://github.com/LeKoYa/SoundMixer",
     "description": "A deej-powered Soundmixer for individual volume control with rotary encoders, leds, buttons and oled support",
-    "stars": 21,
+    "stars": 22,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-07-06T16:36:48Z",
-    "updated_at": "2025-07-09T02:26:51Z",
+    "updated_at": "2025-07-09T08:08:04Z",
     "owner": {
       "name": "LeKoYa",
       "avatar_url": "https://avatars.githubusercontent.com/u/28577529?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---LeKoYaSoundMixer-07-09"
+    "telegraph_url": null
+  },
+  {
+    "name": "we-are-mono/keyboard",
+    "url": "https://github.com/we-are-mono/keyboard",
+    "description": "Source files for Mono Keyboard",
+    "stars": 17,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-07-09T12:58:38Z",
+    "updated_at": "2025-07-10T03:08:48Z",
+    "owner": {
+      "name": "we-are-mono",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177112037?v=4"
+    },
+    "telegraph_url": null
   },
   {
     "name": "buldansec/EnableEFS",
     "url": "https://github.com/buldansec/EnableEFS",
     "description": "Enable EFS service as low priv user (PE & BOF)",
-    "stars": 13,
+    "stars": 14,
     "forks": 1,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-07-06T21:11:22Z",
-    "updated_at": "2025-07-09T03:07:16Z",
+    "updated_at": "2025-07-09T20:52:39Z",
     "owner": {
       "name": "buldansec",
       "avatar_url": "https://avatars.githubusercontent.com/u/56409321?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---buldansecEnableEFS-07-09"
+    "telegraph_url": null
+  },
+  {
+    "name": "kunugiza/fast_sqrt_squared",
+    "url": "https://github.com/kunugiza/fast_sqrt_squared",
+    "description": "Extremely fast algorithm for calculating a square of square root",
+    "stars": 14,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "The Unlicense",
+    "created_at": "2025-07-09T11:25:06Z",
+    "updated_at": "2025-07-10T03:07:02Z",
+    "owner": {
+      "name": "kunugiza",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10278241?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "seeyebe/snub",
+    "url": "https://github.com/seeyebe/snub",
+    "description": "Recursive file search tool that spills results fast. No bloat, no mercy",
+    "stars": 13,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-07-07T01:33:29Z",
+    "updated_at": "2025-07-10T01:12:34Z",
+    "owner": {
+      "name": "seeyebe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85168740?v=4"
+    },
+    "telegraph_url": null
   },
   {
     "name": "GeoSn0w/Filza26Maker",
     "url": "https://github.com/GeoSn0w/Filza26Maker",
     "description": "A small C program that takes the Filza tweak DEB and converts it to an iOS 26 / iOS 18-ready IPA :-) No exploits.",
-    "stars": 11,
+    "stars": 12,
     "forks": 1,
     "language": "C",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-07-05T20:31:52Z",
-    "updated_at": "2025-07-07T15:12:48Z",
+    "updated_at": "2025-07-09T14:11:27Z",
     "owner": {
       "name": "GeoSn0w",
       "avatar_url": "https://avatars.githubusercontent.com/u/15067741?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---GeoSn0wFilza26Maker-07-09"
+    "telegraph_url": null
+  },
+  {
+    "name": "aychikhi/42-Exam04",
+    "url": "https://github.com/aychikhi/42-Exam04",
+    "description": null,
+    "stars": 11,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-07-04T11:05:53Z",
+    "updated_at": "2025-07-09T11:22:41Z",
+    "owner": {
+      "name": "aychikhi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132785318?v=4"
+    },
+    "telegraph_url": null
   },
   {
     "name": "EvilWhales/ShadowDropper",
@@ -187,23 +225,6 @@
       "name": "EvilWhales",
       "avatar_url": "https://avatars.githubusercontent.com/u/213427304?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---EvilWhalesShadowDropper-07-09"
-  },
-  {
-    "name": "aychikhi/42-Exam04",
-    "url": "https://github.com/aychikhi/42-Exam04",
-    "description": null,
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-07-04T11:05:53Z",
-    "updated_at": "2025-07-08T15:53:20Z",
-    "owner": {
-      "name": "aychikhi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/132785318?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---aychikhi42-Exam04-07-09"
+    "telegraph_url": null
   }
 ]
