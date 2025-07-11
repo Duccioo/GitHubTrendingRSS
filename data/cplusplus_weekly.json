@@ -3,13 +3,13 @@
     "name": "antirez/historical-redis-versions",
     "url": "https://github.com/antirez/historical-redis-versions",
     "description": "Very early versions of Redis with some backstory in the README",
-    "stars": 78,
+    "stars": 112,
     "forks": 1,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2025-07-09T10:34:38Z",
-    "updated_at": "2025-07-10T03:01:17Z",
+    "updated_at": "2025-07-11T01:24:13Z",
     "owner": {
       "name": "antirez",
       "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
@@ -20,13 +20,13 @@
     "name": "Dor00tkit/BamExtensionTableHook",
     "url": "https://github.com/Dor00tkit/BamExtensionTableHook",
     "description": "Proof-of-concept kernel driver that hijacks the Windows kernel extension table mechanism to preserve process notify callbacks even when attackers disable standard process notify callbacks.",
-    "stars": 72,
+    "stars": 74,
     "forks": 10,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2025-07-07T06:35:19Z",
-    "updated_at": "2025-07-09T16:08:10Z",
+    "updated_at": "2025-07-10T16:26:38Z",
     "owner": {
       "name": "Dor00tkit",
       "avatar_url": "https://avatars.githubusercontent.com/u/47893732?v=4"
@@ -34,60 +34,36 @@
     "telegraph_url": null
   },
   {
-    "name": "MatheuZSecurity/RingReaper",
-    "url": "https://github.com/MatheuZSecurity/RingReaper",
-    "description": "Linux post-exploitation agent that uses io_uring to stealthily bypass EDR detection by avoiding traditional syscalls.",
-    "stars": 69,
-    "forks": 12,
+    "name": "kunugiza/fast_sqrt_squared",
+    "url": "https://github.com/kunugiza/fast_sqrt_squared",
+    "description": "Extremely fast algorithm for calculating a square of square root",
+    "stars": 41,
+    "forks": 3,
     "language": "C",
-    "topics": [
-      "c2",
-      "evasion",
-      "iouring",
-      "malware",
-      "poc",
-      "rootkit"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-07-04T14:25:31Z",
-    "updated_at": "2025-07-10T02:36:30Z",
+    "topics": [],
+    "license": "The Unlicense",
+    "created_at": "2025-07-09T11:25:06Z",
+    "updated_at": "2025-07-11T02:45:33Z",
     "owner": {
-      "name": "MatheuZSecurity",
-      "avatar_url": "https://avatars.githubusercontent.com/u/88067225?v=4"
+      "name": "kunugiza",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10278241?v=4"
     },
     "telegraph_url": null
   },
   {
-    "name": "jb55/oot_bitset",
-    "url": "https://github.com/jb55/oot_bitset",
-    "description": "A 16-bit bitset implementation used in Ocarina of Time save files",
-    "stars": 58,
-    "forks": 1,
+    "name": "we-are-mono/keyboard",
+    "url": "https://github.com/we-are-mono/keyboard",
+    "description": "Source files for Mono Keyboard",
+    "stars": 29,
+    "forks": 4,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2025-07-04T16:17:19Z",
-    "updated_at": "2025-07-10T01:32:22Z",
+    "created_at": "2025-07-09T12:58:38Z",
+    "updated_at": "2025-07-10T14:49:29Z",
     "owner": {
-      "name": "jb55",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45598?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "PocketConcepts/Solar_nRF",
-    "url": "https://github.com/PocketConcepts/Solar_nRF",
-    "description": "Solar BPW34 powered nRF BLE",
-    "stars": 45,
-    "forks": 6,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-07-04T19:13:09Z",
-    "updated_at": "2025-07-09T01:42:10Z",
-    "owner": {
-      "name": "PocketConcepts",
-      "avatar_url": "https://avatars.githubusercontent.com/u/196242735?v=4"
+      "name": "we-are-mono",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177112037?v=4"
     },
     "telegraph_url": null
   },
@@ -109,33 +85,16 @@
     "telegraph_url": null
   },
   {
-    "name": "we-are-mono/keyboard",
-    "url": "https://github.com/we-are-mono/keyboard",
-    "description": "Source files for Mono Keyboard",
-    "stars": 17,
-    "forks": 3,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-07-09T12:58:38Z",
-    "updated_at": "2025-07-10T03:08:48Z",
-    "owner": {
-      "name": "we-are-mono",
-      "avatar_url": "https://avatars.githubusercontent.com/u/177112037?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "buldansec/EnableEFS",
     "url": "https://github.com/buldansec/EnableEFS",
     "description": "Enable EFS service as low priv user (PE & BOF)",
-    "stars": 14,
+    "stars": 15,
     "forks": 1,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-07-06T21:11:22Z",
-    "updated_at": "2025-07-09T20:52:39Z",
+    "updated_at": "2025-07-10T20:57:07Z",
     "owner": {
       "name": "buldansec",
       "avatar_url": "https://avatars.githubusercontent.com/u/56409321?v=4"
@@ -143,33 +102,16 @@
     "telegraph_url": null
   },
   {
-    "name": "kunugiza/fast_sqrt_squared",
-    "url": "https://github.com/kunugiza/fast_sqrt_squared",
-    "description": "Extremely fast algorithm for calculating a square of square root",
-    "stars": 14,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "The Unlicense",
-    "created_at": "2025-07-09T11:25:06Z",
-    "updated_at": "2025-07-10T03:07:02Z",
-    "owner": {
-      "name": "kunugiza",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10278241?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "seeyebe/snub",
     "url": "https://github.com/seeyebe/snub",
-    "description": "Recursive file search tool that spills results fast. No bloat, no mercy",
-    "stars": 13,
+    "description": "Command-line file search utility for Windows",
+    "stars": 15,
     "forks": 3,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-07-07T01:33:29Z",
-    "updated_at": "2025-07-10T01:12:34Z",
+    "updated_at": "2025-07-11T00:19:41Z",
     "owner": {
       "name": "seeyebe",
       "avatar_url": "https://avatars.githubusercontent.com/u/85168740?v=4"
@@ -180,13 +122,13 @@
     "name": "GeoSn0w/Filza26Maker",
     "url": "https://github.com/GeoSn0w/Filza26Maker",
     "description": "A small C program that takes the Filza tweak DEB and converts it to an iOS 26 / iOS 18-ready IPA :-) No exploits.",
-    "stars": 12,
-    "forks": 1,
+    "stars": 13,
+    "forks": 2,
     "language": "C",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-07-05T20:31:52Z",
-    "updated_at": "2025-07-09T14:11:27Z",
+    "updated_at": "2025-07-10T18:07:27Z",
     "owner": {
       "name": "GeoSn0w",
       "avatar_url": "https://avatars.githubusercontent.com/u/15067741?v=4"
@@ -194,36 +136,19 @@
     "telegraph_url": null
   },
   {
-    "name": "aychikhi/42-Exam04",
-    "url": "https://github.com/aychikhi/42-Exam04",
-    "description": null,
-    "stars": 11,
-    "forks": 3,
+    "name": "gamemann/cweb",
+    "url": "https://github.com/gamemann/cweb",
+    "description": "A low-level web server written in C I'm using to learn more about web servers. This is a work-in-progress and not ready for production.. yet.",
+    "stars": 10,
+    "forks": 0,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2025-07-04T11:05:53Z",
-    "updated_at": "2025-07-09T11:22:41Z",
+    "created_at": "2025-07-07T00:18:14Z",
+    "updated_at": "2025-07-10T23:56:30Z",
     "owner": {
-      "name": "aychikhi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/132785318?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "EvilWhales/ShadowDropper",
-    "url": "https://github.com/EvilWhales/ShadowDropper",
-    "description": "ShadowDropper is a utility for covertly delivering and executing payloads on a target system.",
-    "stars": 11,
-    "forks": 4,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-07-04T06:10:10Z",
-    "updated_at": "2025-07-08T16:58:32Z",
-    "owner": {
-      "name": "EvilWhales",
-      "avatar_url": "https://avatars.githubusercontent.com/u/213427304?v=4"
+      "name": "gamemann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6509565?v=4"
     },
     "telegraph_url": null
   }
