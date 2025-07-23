@@ -1,39 +1,25 @@
 [
   {
-    "name": "11notes/docker-tinyauth",
-    "url": "https://github.com/11notes/docker-tinyauth",
-    "description": "Run tinyauth rootless, distroless and truly tiny.",
-    "stars": 69,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-07-16T18:56:04Z",
-    "updated_at": "2025-07-21T16:05:05Z",
-    "owner": {
-      "name": "11notes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1902318?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "twoKilo/smart-config-syncer",
-    "url": "https://github.com/twoKilo/smart-config-syncer",
-    "description": "ssync: 安全、高效的多环境配置同步器",
-    "stars": 37,
-    "forks": 0,
+    "name": "EvilBytecode/Ebyte-Go-Morpher",
+    "url": "https://github.com/EvilBytecode/Ebyte-Go-Morpher",
+    "description": "Ebyte-Go-Morpher is a Go program that parses, analyzes, and rewrites Go source code to apply multiple layers of obfuscation. It operates directly on the Go Abstract Syntax Tree (AST) and generates both obfuscated source files and runtime decryption logic.",
+    "stars": 30,
+    "forks": 7,
     "language": "Go",
     "topics": [
-      "config-sync",
-      "configuration",
-      "environment-variables"
+      "ast",
+      "binary-protection",
+      "golang-string",
+      "obfuscate",
+      "obfuscation",
+      "protector"
     ],
     "license": "MIT License",
-    "created_at": "2025-07-16T04:53:17Z",
-    "updated_at": "2025-07-22T01:53:56Z",
+    "created_at": "2025-07-19T11:26:02Z",
+    "updated_at": "2025-07-23T02:38:15Z",
     "owner": {
-      "name": "twoKilo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23336402?v=4"
+      "name": "EvilBytecode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/151552809?v=4"
     },
     "telegraph_url": null
   },
@@ -59,93 +45,73 @@
       "name": "ohayocorp",
       "avatar_url": "https://avatars.githubusercontent.com/u/200183651?v=4"
     },
-    "telegraph_url": null
-  },
-  {
-    "name": "itpourya/beshkan",
-    "url": "https://github.com/itpourya/beshkan",
-    "description": "A simple Go tool that automatically detects your active network connection and replaces its DNS servers using NetworkManager ",
-    "stars": 21,
-    "forks": 3,
-    "language": "Go",
-    "topics": [
-      "dns-server",
-      "golang-cli",
-      "network"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-07-16T14:36:00Z",
-    "updated_at": "2025-07-21T01:58:37Z",
-    "owner": {
-      "name": "itpourya",
-      "avatar_url": "https://avatars.githubusercontent.com/u/171802180?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "EvilBytecode/Ebyte-Go-Morpher",
-    "url": "https://github.com/EvilBytecode/Ebyte-Go-Morpher",
-    "description": "Ebyte-Go-Morpher is a Go program that parses, analyzes, and rewrites Go source code to apply multiple layers of obfuscation. It operates directly on the Go Abstract Syntax Tree (AST) and generates both obfuscated source files and runtime decryption logic.",
-    "stars": 19,
-    "forks": 4,
-    "language": "Go",
-    "topics": [
-      "ast",
-      "binary-protection",
-      "golang-string",
-      "obfuscate",
-      "obfuscation",
-      "protector"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-07-19T11:26:02Z",
-    "updated_at": "2025-07-22T02:39:36Z",
-    "owner": {
-      "name": "EvilBytecode",
-      "avatar_url": "https://avatars.githubusercontent.com/u/151552809?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "jaxxstorm/proxyt",
-    "url": "https://github.com/jaxxstorm/proxyt",
-    "description": "A simple proxy for the Tailscale control plane",
-    "stars": 19,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-07-16T14:12:17Z",
-    "updated_at": "2025-07-21T22:35:36Z",
-    "owner": {
-      "name": "jaxxstorm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1622940?v=4"
-    },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---ohayocorpanemos-07-23"
   },
   {
     "name": "bestK/kiro2cc",
     "url": "https://github.com/bestK/kiro2cc",
-    "description": null,
-    "stars": 17,
-    "forks": 5,
+    "description": "kiro to claude code",
+    "stars": 26,
+    "forks": 7,
     "language": "Go",
-    "topics": [],
+    "topics": [
+      "api",
+      "claudecode"
+    ],
     "license": "No license",
     "created_at": "2025-07-17T03:07:30Z",
-    "updated_at": "2025-07-22T01:46:46Z",
+    "updated_at": "2025-07-23T00:41:49Z",
     "owner": {
       "name": "bestK",
       "avatar_url": "https://avatars.githubusercontent.com/u/14979305?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---bestKkiro2cc-07-22"
+    "telegraph_url": "https://telegra.ph/README---bestKkiro2cc-07-23"
+  },
+  {
+    "name": "hazcod/CVE-2025-53770",
+    "url": "https://github.com/hazcod/CVE-2025-53770",
+    "description": "Scanner for the SharePoint CVE-2025-53770 RCE zero day vulnerability.",
+    "stars": 22,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "cve",
+      "cve-2025-53770",
+      "poc",
+      "sharepoint"
+    ],
+    "license": "No license",
+    "created_at": "2025-07-21T14:19:50Z",
+    "updated_at": "2025-07-23T01:42:19Z",
+    "owner": {
+      "name": "hazcod",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5222512?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---hazcodCVE-2025-53770-07-23"
+  },
+  {
+    "name": "huaimeng666/gofinger",
+    "url": "https://github.com/huaimeng666/gofinger",
+    "description": "Finger是一款专为红队设计的资产指纹识别工具，旨在帮助渗透测试人员快速、准确识别目标网络中的资产指纹信息。工具支持多种输入方式（URL、IP、文件、API查询），集成了多个指纹库（如Chainreactors Fingers、Goby、Ehole、Wappalyzer等），并支持Fofa、Quake和Hunter API查询，提供全面的资产发现能力。语言开发，具有高效的并发处理能力，支持多种输出格式（CSV、JSON、XLSX），并提供代理、日志和指纹库自动更新功能，适用于大规模资产扫描和信息采集。",
+    "stars": 18,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-07-18T08:04:30Z",
+    "updated_at": "2025-07-23T02:34:17Z",
+    "owner": {
+      "name": "huaimeng666",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76671878?v=4"
+    },
+    "telegraph_url": null
   },
   {
     "name": "EndowTheGreat/KeyPull",
     "url": "https://github.com/EndowTheGreat/KeyPull",
     "description": "KeyPull is a command-line utility to extract keybox/keystore data from your Android phone",
     "stars": 17,
-    "forks": 2,
+    "forks": 3,
     "language": "Go",
     "topics": [],
     "license": "GNU General Public License v3.0",
@@ -155,41 +121,74 @@
       "name": "EndowTheGreat",
       "avatar_url": "https://avatars.githubusercontent.com/u/89557487?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---EndowTheGreatKeyPull-07-22"
+    "telegraph_url": "https://telegra.ph/README---EndowTheGreatKeyPull-07-23"
   },
   {
     "name": "ozontech/seq-db",
     "url": "https://github.com/ozontech/seq-db",
     "description": null,
     "stars": 14,
-    "forks": 0,
+    "forks": 1,
     "language": "Go",
-    "topics": [],
+    "topics": [
+      "database",
+      "golang",
+      "logs",
+      "observability"
+    ],
     "license": "Apache License 2.0",
     "created_at": "2025-07-18T14:03:34Z",
-    "updated_at": "2025-07-21T22:03:03Z",
+    "updated_at": "2025-07-22T13:48:39Z",
     "owner": {
       "name": "ozontech",
       "avatar_url": "https://avatars.githubusercontent.com/u/95622872?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---ozontechseq-db-07-22"
+    "telegraph_url": "https://telegra.ph/README---ozontechseq-db-07-23"
   },
   {
-    "name": "bravo1goingdark/mailgrid",
-    "url": "https://github.com/bravo1goingdark/mailgrid",
-    "description": "Mailgrid is an ultra-lightweight, high-throughput email automation CLI written in Go. It reads recipients from a CSV or Google Sheet and delivers emails via SMTP (Zoho, Gmail, etc.) with concurrency, rate-limiting, and optional scheduling — all without bloated dependencies.",
-    "stars": 13,
-    "forks": 2,
+    "name": "ThePikachuDev/gh-dlp",
+    "url": "https://github.com/ThePikachuDev/gh-dlp",
+    "description": "A cli tool to download a subfolder of a github repo ",
+    "stars": 14,
+    "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "No license",
-    "created_at": "2025-07-16T05:45:32Z",
-    "updated_at": "2025-07-21T13:25:51Z",
+    "license": "Apache License 2.0",
+    "created_at": "2025-07-17T08:05:31Z",
+    "updated_at": "2025-07-22T08:22:58Z",
     "owner": {
-      "name": "bravo1goingdark",
-      "avatar_url": "https://avatars.githubusercontent.com/u/70029422?v=4"
+      "name": "ThePikachuDev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144322392?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---ThePikachuDevgh-dlp-07-23"
+  },
+  {
+    "name": "fulsiram/type-cli",
+    "url": "https://github.com/fulsiram/type-cli",
+    "description": "terminal-based typing test built with Go and BubbleTea.",
+    "stars": 14,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "bubbletea",
+      "cli",
+      "go",
+      "ssh",
+      "ssh-server",
+      "terminal",
+      "tui",
+      "typing",
+      "typing-practice",
+      "typing-trainer"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-07-17T20:36:45Z",
+    "updated_at": "2025-07-23T02:07:32Z",
+    "owner": {
+      "name": "fulsiram",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79424365?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---fulsiramtype-cli-07-23"
   },
   {
     "name": "CactusBros/smaila",
@@ -210,44 +209,58 @@
       "name": "CactusBros",
       "avatar_url": "https://avatars.githubusercontent.com/u/215954075?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---CactusBrossmaila-07-22"
+    "telegraph_url": "https://telegra.ph/README---CactusBrossmaila-07-23"
   },
   {
-    "name": "ThePikachuDev/gh-dlp",
-    "url": "https://github.com/ThePikachuDev/gh-dlp",
-    "description": "A cli tool to download a subfolder of a github repo ",
+    "name": "alperdrsnn/clime",
+    "url": "https://github.com/alperdrsnn/clime",
+    "description": "Beautiful Terminal UI for Go",
     "stars": 13,
     "forks": 0,
     "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-07-17T08:05:31Z",
-    "updated_at": "2025-07-19T23:26:22Z",
-    "owner": {
-      "name": "ThePikachuDev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/144322392?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---ThePikachuDevgh-dlp-07-22"
-  },
-  {
-    "name": "universal-tool-calling-protocol/go-utcp",
-    "url": "https://github.com/universal-tool-calling-protocol/go-utcp",
-    "description": "Universal Tool Calling Protocol (UTCP) implementation in Go.",
-    "stars": 12,
-    "forks": 1,
-    "language": "Go",
     "topics": [
+      "cli",
+      "go",
       "golang",
-      "utcp"
+      "library",
+      "terminal-ui",
+      "tui"
     ],
     "license": "MIT License",
-    "created_at": "2025-07-16T17:21:09Z",
-    "updated_at": "2025-07-22T01:03:24Z",
+    "created_at": "2025-07-22T16:32:04Z",
+    "updated_at": "2025-07-23T01:43:31Z",
     "owner": {
-      "name": "universal-tool-calling-protocol",
-      "avatar_url": "https://avatars.githubusercontent.com/u/217755609?v=4"
+      "name": "alperdrsnn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26122521?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---universal-tool-calling-protocolgo-utcp-07-22"
+    "telegraph_url": "https://telegra.ph/README---alperdrsnnclime-07-23"
+  },
+  {
+    "name": "orchestre-dev/ccproxy",
+    "url": "https://github.com/orchestre-dev/ccproxy",
+    "description": "A production-grade Golang proxy server that enables the use of multiple AI providers (Groq, OpenRouter, OpenAI, and more) with Claude Code by translating between Anthropic and provider-specific API formats",
+    "stars": 13,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "claude-code",
+      "claude-code-gemini",
+      "claude-code-grok",
+      "claude-code-groq",
+      "claude-code-kimi-k2",
+      "claude-code-openai",
+      "claude-code-openrouter",
+      "claude-code-proxy",
+      "proxy"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-07-17T00:03:32Z",
+    "updated_at": "2025-07-23T02:42:50Z",
+    "owner": {
+      "name": "orchestre-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/213737227?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---orchestre-devccproxy-07-23"
   },
   {
     "name": "ezozu/QuantumLeap",
@@ -259,12 +272,12 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-07-18T13:10:37Z",
-    "updated_at": "2025-07-21T20:41:13Z",
+    "updated_at": "2025-07-23T00:48:03Z",
     "owner": {
       "name": "ezozu",
       "avatar_url": "https://avatars.githubusercontent.com/u/91341753?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---ezozuQuantumLeap-07-22"
+    "telegraph_url": null
   },
   {
     "name": "codeciphur/dynafetch",
@@ -300,7 +313,7 @@
       "name": "jpts",
       "avatar_url": "https://avatars.githubusercontent.com/u/5352661?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---jptscve-2025-23266-poc-07-22"
+    "telegraph_url": null
   },
   {
     "name": "k1ngmang/practical",
@@ -317,6 +330,6 @@
       "name": "k1ngmang",
       "avatar_url": "https://avatars.githubusercontent.com/u/126554294?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---k1ngmangpractical-07-22"
+    "telegraph_url": null
   }
 ]
