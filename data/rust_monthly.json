@@ -2,9 +2,9 @@
   {
     "name": "bugthesystem/Flux",
     "url": "https://github.com/bugthesystem/Flux",
-    "description": "[Experimental] Flux is a high-performance message transport library for Rust that implements patterns inspired by LMAX Disruptor and Aeron. It provides lock-free inter-process communication (IPC), UDP transport, and reliable UDP with optimized memory management for applications with low latency requirements.",
-    "stars": 709,
-    "forks": 11,
+    "description": "Flux is a high-performance message transport library for Rust that implements patterns inspired by LMAX Disruptor and Aeron. It provides lock-free inter-process communication (IPC), UDP transport, and reliable UDP with optimized memory management for applications with low latency requirements.",
+    "stars": 730,
+    "forks": 13,
     "language": "Rust",
     "topics": [
       "aeron",
@@ -19,7 +19,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-15T17:28:54Z",
-    "updated_at": "2025-07-24T02:41:22Z",
+    "updated_at": "2025-07-25T02:26:35Z",
     "owner": {
       "name": "bugthesystem",
       "avatar_url": "https://avatars.githubusercontent.com/u/1651945?v=4"
@@ -30,13 +30,13 @@
     "name": "ShilohEye/bitchat-terminal",
     "url": "https://github.com/ShilohEye/bitchat-terminal",
     "description": "bluetooth mesh chat, IRC vibes",
-    "stars": 388,
+    "stars": 391,
     "forks": 42,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2025-07-14T01:44:12Z",
-    "updated_at": "2025-07-23T08:58:12Z",
+    "updated_at": "2025-07-24T15:26:37Z",
     "owner": {
       "name": "ShilohEye",
       "avatar_url": "https://avatars.githubusercontent.com/u/135930020?v=4"
@@ -47,7 +47,7 @@
     "name": "ThioJoe/win-svg-thumbs-rust",
     "url": "https://github.com/ThioJoe/win-svg-thumbs-rust",
     "description": "A native hardware-accelerated Windows SVG thumbnail handler for File Explorer that uses only the Windows API, written in Rust.",
-    "stars": 360,
+    "stars": 368,
     "forks": 7,
     "language": "Rust",
     "topics": [
@@ -58,7 +58,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-06-27T04:09:46Z",
-    "updated_at": "2025-07-24T02:35:02Z",
+    "updated_at": "2025-07-25T00:28:45Z",
     "owner": {
       "name": "ThioJoe",
       "avatar_url": "https://avatars.githubusercontent.com/u/12518330?v=4"
@@ -83,13 +83,32 @@
     "telegraph_url": null
   },
   {
+    "name": "vivoblueos/kernel",
+    "url": "https://github.com/vivoblueos/kernel",
+    "description": null,
+    "stars": 314,
+    "forks": 18,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-07-19T09:57:43Z",
+    "updated_at": "2025-07-25T03:19:29Z",
+    "owner": {
+      "name": "vivoblueos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/217866016?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "Barre/ZeroFS",
     "url": "https://github.com/Barre/ZeroFS",
-    "description": "ZeroFS - The Filesystem That Makes S3 your Primary Storage",
-    "stars": 288,
+    "description": "ZeroFS - The Filesystem That Makes S3 your Primary Storage. ZeroFS is 9P/NFS/NBD on top of S3.",
+    "stars": 295,
     "forks": 9,
     "language": "Rust",
     "topics": [
+      "9p",
+      "9p2000",
       "nbd",
       "nfs",
       "nfs-server",
@@ -97,7 +116,7 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2025-07-14T22:22:46Z",
-    "updated_at": "2025-07-24T00:47:32Z",
+    "updated_at": "2025-07-25T01:04:44Z",
     "owner": {
       "name": "Barre",
       "avatar_url": "https://avatars.githubusercontent.com/u/45085843?v=4"
@@ -108,7 +127,7 @@
     "name": "joaoviictorti/hypnus",
     "url": "https://github.com/joaoviictorti/hypnus",
     "description": "Memory Obfuscation in Rust",
-    "stars": 226,
+    "stars": 227,
     "forks": 23,
     "language": "Rust",
     "topics": [
@@ -119,7 +138,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-06-26T13:13:41Z",
-    "updated_at": "2025-07-23T21:19:31Z",
+    "updated_at": "2025-07-24T05:14:25Z",
     "owner": {
       "name": "joaoviictorti",
       "avatar_url": "https://avatars.githubusercontent.com/u/85838827?v=4"
@@ -130,16 +149,36 @@
     "name": "ruvnet/ruv-FANN",
     "url": "https://github.com/ruvnet/ruv-FANN",
     "description": "A blazing-fast, memory-safe neural network library for Rust that brings the power of FANN to the modern world.",
-    "stars": 197,
+    "stars": 199,
     "forks": 73,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-06-26T20:38:15Z",
-    "updated_at": "2025-07-24T00:25:53Z",
+    "updated_at": "2025-07-24T18:51:55Z",
     "owner": {
       "name": "ruvnet",
       "avatar_url": "https://avatars.githubusercontent.com/u/2934394?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "cachix/secretspec",
+    "url": "https://github.com/cachix/secretspec",
+    "description": "Declarative secrets, every environment, any provider.",
+    "stars": 149,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "secret-management",
+      "secrets"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2025-07-04T20:20:17Z",
+    "updated_at": "2025-07-25T00:12:55Z",
+    "owner": {
+      "name": "cachix",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36824654?v=4"
     },
     "telegraph_url": null
   },
@@ -161,36 +200,16 @@
     "telegraph_url": null
   },
   {
-    "name": "cachix/secretspec",
-    "url": "https://github.com/cachix/secretspec",
-    "description": "Declarative secrets, every environment, any provider.",
-    "stars": 138,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "secret-management",
-      "secrets"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-07-04T20:20:17Z",
-    "updated_at": "2025-07-23T18:40:46Z",
-    "owner": {
-      "name": "cachix",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36824654?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "Caliel666/lsfg-vk-ui",
     "url": "https://github.com/Caliel666/lsfg-vk-ui",
     "description": "non official gtk GUI for lsfg-vk by pancake",
-    "stars": 126,
-    "forks": 3,
+    "stars": 129,
+    "forks": 4,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2025-07-19T17:27:04Z",
-    "updated_at": "2025-07-23T22:08:04Z",
+    "updated_at": "2025-07-25T00:24:24Z",
     "owner": {
       "name": "Caliel666",
       "avatar_url": "https://avatars.githubusercontent.com/u/38433434?v=4"
@@ -198,28 +217,11 @@
     "telegraph_url": null
   },
   {
-    "name": "OctopusTakopi/binance_l3_est",
-    "url": "https://github.com/OctopusTakopi/binance_l3_est",
-    "description": "Uses L2 data's change in time to estimate a L3 order book microstructure on Binance",
-    "stars": 107,
-    "forks": 17,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-07-21T04:30:50Z",
-    "updated_at": "2025-07-23T21:46:06Z",
-    "owner": {
-      "name": "OctopusTakopi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/177598040?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "vaibhav-mattoo/bitchat-tui",
     "url": "https://github.com/vaibhav-mattoo/bitchat-tui",
     "description": "🔒 Secure, anonymous, peer-to-peer (P2P) Bluetooth chat in your terminal. An off-grid, encrypted TUI messenger built with Rust.",
-    "stars": 104,
-    "forks": 6,
+    "stars": 113,
+    "forks": 8,
     "language": "Rust",
     "topics": [
       "anonymous",
@@ -243,7 +245,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-17T03:00:32Z",
-    "updated_at": "2025-07-24T00:35:09Z",
+    "updated_at": "2025-07-24T22:11:02Z",
     "owner": {
       "name": "vaibhav-mattoo",
       "avatar_url": "https://avatars.githubusercontent.com/u/204271982?v=4"
@@ -251,10 +253,27 @@
     "telegraph_url": null
   },
   {
+    "name": "OctopusTakopi/binance_l3_est",
+    "url": "https://github.com/OctopusTakopi/binance_l3_est",
+    "description": "Uses L2 data's change in time to estimate a L3 order book microstructure on Binance",
+    "stars": 109,
+    "forks": 18,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-07-21T04:30:50Z",
+    "updated_at": "2025-07-25T03:16:13Z",
+    "owner": {
+      "name": "OctopusTakopi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177598040?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "jarl-opensource/drakkar-vfx",
     "url": "https://github.com/jarl-opensource/drakkar-vfx",
     "description": "VFX editor for Bevy and Hanabi",
-    "stars": 99,
+    "stars": 100,
     "forks": 2,
     "language": "Rust",
     "topics": [
@@ -265,7 +284,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-07-04T16:25:29Z",
-    "updated_at": "2025-07-22T18:27:43Z",
+    "updated_at": "2025-07-24T13:57:07Z",
     "owner": {
       "name": "jarl-opensource",
       "avatar_url": "https://avatars.githubusercontent.com/u/219319901?v=4"
@@ -276,7 +295,7 @@
     "name": "jiahaoxiang2000/claude-code-zed",
     "url": "https://github.com/jiahaoxiang2000/claude-code-zed",
     "description": "Zed extension for Claude Code CLI integration",
-    "stars": 86,
+    "stars": 90,
     "forks": 3,
     "language": "Rust",
     "topics": [
@@ -286,7 +305,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-05T09:04:10Z",
-    "updated_at": "2025-07-23T18:48:05Z",
+    "updated_at": "2025-07-24T20:13:35Z",
     "owner": {
       "name": "jiahaoxiang2000",
       "avatar_url": "https://avatars.githubusercontent.com/u/166665970?v=4"
@@ -297,7 +316,7 @@
     "name": "iamsanmith/MetaSort",
     "url": "https://github.com/iamsanmith/MetaSort",
     "description": "📸 Smart Google Photos organizer! Clean files, extract dates, embed metadata, sort by date, generate reports. Supports 50+ formats including RAW.",
-    "stars": 83,
+    "stars": 84,
     "forks": 5,
     "language": "Rust",
     "topics": [
@@ -316,27 +335,10 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-07-02T14:08:41Z",
-    "updated_at": "2025-07-23T23:09:29Z",
+    "updated_at": "2025-07-24T08:11:24Z",
     "owner": {
       "name": "iamsanmith",
       "avatar_url": "https://avatars.githubusercontent.com/u/128987616?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "vivoblueos/kernel",
-    "url": "https://github.com/vivoblueos/kernel",
-    "description": null,
-    "stars": 79,
-    "forks": 7,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-07-19T09:57:43Z",
-    "updated_at": "2025-07-24T03:25:17Z",
-    "owner": {
-      "name": "vivoblueos",
-      "avatar_url": "https://avatars.githubusercontent.com/u/217866016?v=4"
     },
     "telegraph_url": null
   },
@@ -391,6 +393,23 @@
     "telegraph_url": null
   },
   {
+    "name": "Teach2Breach/stargate",
+    "url": "https://github.com/Teach2Breach/stargate",
+    "description": "Locate dlls and function addresses without PEB Walk and EAT parsing",
+    "stars": 63,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-07-14T06:10:16Z",
+    "updated_at": "2025-07-25T00:30:30Z",
+    "owner": {
+      "name": "Teach2Breach",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105792760?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "thatdevsherry/suzui-rs",
     "url": "https://github.com/thatdevsherry/suzui-rs",
     "description": "Suzuki Serial Data Line (SDL) viewer in rust.",
@@ -405,10 +424,33 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-06T11:22:13Z",
-    "updated_at": "2025-07-23T20:56:22Z",
+    "updated_at": "2025-07-24T13:23:09Z",
     "owner": {
       "name": "thatdevsherry",
       "avatar_url": "https://avatars.githubusercontent.com/u/40890226?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "lightonai/pylate-rs",
+    "url": "https://github.com/lightonai/pylate-rs",
+    "description": "PyLate efficient inference engine",
+    "stars": 60,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [
+      "colbert",
+      "late-interaction",
+      "python",
+      "rust",
+      "wasm"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-07-01T12:04:17Z",
+    "updated_at": "2025-07-24T19:07:49Z",
+    "owner": {
+      "name": "lightonai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32305486?v=4"
     },
     "telegraph_url": null
   },
@@ -430,42 +472,19 @@
     "telegraph_url": null
   },
   {
-    "name": "Teach2Breach/stargate",
-    "url": "https://github.com/Teach2Breach/stargate",
-    "description": "Locate dlls and function addresses without PEB Walk and EAT parsing",
-    "stars": 60,
+    "name": "silvabyte/ChezWizper",
+    "url": "https://github.com/silvabyte/ChezWizper",
+    "description": null,
+    "stars": 58,
     "forks": 5,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2025-07-14T06:10:16Z",
-    "updated_at": "2025-07-23T22:10:50Z",
+    "created_at": "2025-07-20T01:55:46Z",
+    "updated_at": "2025-07-25T02:22:51Z",
     "owner": {
-      "name": "Teach2Breach",
-      "avatar_url": "https://avatars.githubusercontent.com/u/105792760?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "lightonai/pylate-rs",
-    "url": "https://github.com/lightonai/pylate-rs",
-    "description": "PyLate efficient inference engine",
-    "stars": 59,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "colbert",
-      "late-interaction",
-      "python",
-      "rust",
-      "wasm"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-07-01T12:04:17Z",
-    "updated_at": "2025-07-21T07:08:41Z",
-    "owner": {
-      "name": "lightonai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32305486?v=4"
+      "name": "silvabyte",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158818557?v=4"
     },
     "telegraph_url": null
   },
@@ -479,27 +498,10 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-06-30T13:49:28Z",
-    "updated_at": "2025-07-24T00:33:27Z",
+    "updated_at": "2025-07-24T16:53:24Z",
     "owner": {
       "name": "kako-jun",
       "avatar_url": "https://avatars.githubusercontent.com/u/3541096?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "silvabyte/ChezWizper",
-    "url": "https://github.com/silvabyte/ChezWizper",
-    "description": null,
-    "stars": 56,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-07-20T01:55:46Z",
-    "updated_at": "2025-07-22T19:13:51Z",
-    "owner": {
-      "name": "silvabyte",
-      "avatar_url": "https://avatars.githubusercontent.com/u/158818557?v=4"
     },
     "telegraph_url": null
   },
@@ -580,13 +582,13 @@
     "name": "kyotalab/hawk",
     "url": "https://github.com/kyotalab/hawk",
     "description": "Modern data processing tool combining the power of pandas with the simplicity of awk",
-    "stars": 51,
+    "stars": 52,
     "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-07-08T06:20:52Z",
-    "updated_at": "2025-07-21T10:25:05Z",
+    "updated_at": "2025-07-25T02:03:26Z",
     "owner": {
       "name": "kyotalab",
       "avatar_url": "https://avatars.githubusercontent.com/u/79064717?v=4"
@@ -597,7 +599,7 @@
     "name": "Gilfeather/furnace",
     "url": "https://github.com/Gilfeather/furnace",
     "description": "🔥 Blazingly fast ML inference server powered by Rust and Burn framework",
-    "stars": 48,
+    "stars": 51,
     "forks": 5,
     "language": "Rust",
     "topics": [
@@ -614,7 +616,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-16T05:07:55Z",
-    "updated_at": "2025-07-24T02:17:40Z",
+    "updated_at": "2025-07-24T23:50:08Z",
     "owner": {
       "name": "Gilfeather",
       "avatar_url": "https://avatars.githubusercontent.com/u/33490189?v=4"

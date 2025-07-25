@@ -3,7 +3,7 @@
     "name": "EvilBytecode/Ebyte-Go-Morpher",
     "url": "https://github.com/EvilBytecode/Ebyte-Go-Morpher",
     "description": "Ebyte-Go-Morpher is a Go program that parses, analyzes, and rewrites Go source code to apply multiple layers of obfuscation. It operates directly on the Go Abstract Syntax Tree (AST) and generates both obfuscated source files and runtime decryption logic.",
-    "stars": 34,
+    "stars": 44,
     "forks": 8,
     "language": "Go",
     "topics": [
@@ -16,19 +16,19 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-19T11:26:02Z",
-    "updated_at": "2025-07-23T16:08:47Z",
+    "updated_at": "2025-07-25T02:37:06Z",
     "owner": {
       "name": "EvilBytecode",
       "avatar_url": "https://avatars.githubusercontent.com/u/151552809?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---EvilBytecodeEbyte-Go-Morpher-07-25"
   },
   {
     "name": "alperdrsnn/clime",
     "url": "https://github.com/alperdrsnn/clime",
     "description": "Beautiful Terminal UI for Go",
-    "stars": 30,
-    "forks": 1,
+    "stars": 35,
+    "forks": 2,
     "language": "Go",
     "topics": [
       "cli",
@@ -40,19 +40,19 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-22T16:32:04Z",
-    "updated_at": "2025-07-24T01:57:53Z",
+    "updated_at": "2025-07-25T02:58:22Z",
     "owner": {
       "name": "alperdrsnn",
       "avatar_url": "https://avatars.githubusercontent.com/u/26122521?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---alperdrsnnclime-07-25"
   },
   {
     "name": "hazcod/CVE-2025-53770",
     "url": "https://github.com/hazcod/CVE-2025-53770",
     "description": "Scanner for the SharePoint CVE-2025-53770 RCE zero day vulnerability.",
-    "stars": 29,
-    "forks": 5,
+    "stars": 32,
+    "forks": 10,
     "language": "Go",
     "topics": [
       "cve",
@@ -62,36 +62,19 @@
     ],
     "license": "No license",
     "created_at": "2025-07-21T14:19:50Z",
-    "updated_at": "2025-07-23T23:25:39Z",
+    "updated_at": "2025-07-24T13:37:08Z",
     "owner": {
       "name": "hazcod",
       "avatar_url": "https://avatars.githubusercontent.com/u/5222512?v=4"
     },
-    "telegraph_url": null
-  },
-  {
-    "name": "huaimeng666/gofinger",
-    "url": "https://github.com/huaimeng666/gofinger",
-    "description": "GoFinger是一款专为红队设计的资产指纹识别工具，旨在帮助渗透测试人员快速、准确识别目标网络中的资产指纹信息。工具支持多种输入方式（URL、IP、文件、API查询），集成了多个指纹库（如Chainreactors Fingers、Goby、Ehole、Wappalyzer等），并支持Fofa、Quake和Hunter API查询，提供全面的资产发现能力。语言开发，具有高效的并发处理能力，支持多种输出格式（CSV、JSON、XLSX），并提供代理、日志和指纹库自动更新功能，适用于大规模资产扫描和信息采集。",
-    "stars": 25,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-07-18T08:04:30Z",
-    "updated_at": "2025-07-24T03:10:10Z",
-    "owner": {
-      "name": "huaimeng666",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76671878?v=4"
-    },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---hazcodCVE-2025-53770-07-25"
   },
   {
     "name": "dunamismax/go-web-server",
     "url": "https://github.com/dunamismax/go-web-server",
     "description": "A production-ready template for modern web applications using The Modern Go Stack - a cohesive technology stack for building high-performance, maintainable applications. Creates single, self-contained binaries with zero external dependencies.",
-    "stars": 22,
-    "forks": 3,
+    "stars": 30,
+    "forks": 4,
     "language": "Go",
     "topics": [
       "echo",
@@ -100,6 +83,7 @@
       "golang",
       "goose",
       "htmx",
+      "htmx-app",
       "koanf",
       "mage",
       "magefile",
@@ -107,11 +91,14 @@
       "slog",
       "sqlc",
       "sqlite",
-      "templ"
+      "templ",
+      "webapp",
+      "webserver",
+      "website"
     ],
     "license": "MIT License",
     "created_at": "2025-07-22T12:12:43Z",
-    "updated_at": "2025-07-24T02:27:54Z",
+    "updated_at": "2025-07-24T20:40:40Z",
     "owner": {
       "name": "dunamismax",
       "avatar_url": "https://avatars.githubusercontent.com/u/65822992?v=4"
@@ -119,16 +106,33 @@
     "telegraph_url": null
   },
   {
+    "name": "AthenaNetworks/ProxMigrate",
+    "url": "https://github.com/AthenaNetworks/ProxMigrate",
+    "description": "Migrate Proxmox VM's across clusters",
+    "stars": 26,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-07-24T07:11:08Z",
+    "updated_at": "2025-07-25T02:58:55Z",
+    "owner": {
+      "name": "AthenaNetworks",
+      "avatar_url": "https://avatars.githubusercontent.com/u/182020002?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "Davincible/claude-code-open",
     "url": "https://github.com/Davincible/claude-code-open",
     "description": "Claude Code with any LLM provider (OpenRouter, Gemini, Kimi K2)",
-    "stars": 15,
-    "forks": 3,
+    "stars": 20,
+    "forks": 5,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-07-23T00:51:09Z",
-    "updated_at": "2025-07-24T03:10:16Z",
+    "updated_at": "2025-07-24T21:54:31Z",
     "owner": {
       "name": "Davincible",
       "avatar_url": "https://avatars.githubusercontent.com/u/25869544?v=4"
@@ -136,65 +140,21 @@
     "telegraph_url": null
   },
   {
-    "name": "ozontech/seq-db",
-    "url": "https://github.com/ozontech/seq-db",
-    "description": "seq-db is a scalable and high-performance database designed for storing and querying logs efficiently",
-    "stars": 14,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "database",
-      "full-text-search",
-      "golang",
-      "logs",
-      "observability"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-07-18T14:03:34Z",
-    "updated_at": "2025-07-23T13:39:22Z",
-    "owner": {
-      "name": "ozontech",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95622872?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---ozontechseq-db-07-24"
-  },
-  {
-    "name": "CactusBros/smaila",
-    "url": "https://github.com/CactusBros/smaila",
-    "description": "Smaila is a lightweight HTTP API for sending emails using an SMTP server.",
-    "stars": 13,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "docker",
-      "golang",
-      "smtp"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-07-18T09:49:56Z",
-    "updated_at": "2025-07-23T22:19:46Z",
-    "owner": {
-      "name": "CactusBros",
-      "avatar_url": "https://avatars.githubusercontent.com/u/215954075?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---CactusBrossmaila-07-24"
-  },
-  {
-    "name": "ezozu/QuantumLeap",
-    "url": "https://github.com/ezozu/QuantumLeap",
-    "description": "Quantized Forex binary option price prediction via LSTM networks; explores stochastic oscillator-based feature engineering and backtesting frameworks.",
+    "name": "n0xa/SecKC-MHN-Globe",
+    "url": "https://github.com/n0xa/SecKC-MHN-Globe",
+    "description": "Terminal UI Visualization for SecKC MHN Attack Map",
     "stars": 12,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-07-18T13:10:37Z",
-    "updated_at": "2025-07-23T00:48:03Z",
+    "license": "BSD 2-Clause \"Simplified\" License",
+    "created_at": "2025-07-23T23:42:29Z",
+    "updated_at": "2025-07-25T02:16:23Z",
     "owner": {
-      "name": "ezozu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91341753?v=4"
+      "name": "n0xa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23286114?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---ezozuQuantumLeap-07-24"
+    "telegraph_url": "https://telegra.ph/README---n0xaSecKC-MHN-Globe-07-25"
   },
   {
     "name": "imjasonh/cnotes",
@@ -211,14 +171,90 @@
       "name": "imjasonh",
       "avatar_url": "https://avatars.githubusercontent.com/u/210737?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---imjasonhcnotes-07-24"
+    "telegraph_url": "https://telegra.ph/README---imjasonhcnotes-07-25"
+  },
+  {
+    "name": "jpts/cve-2025-23266-poc",
+    "url": "https://github.com/jpts/cve-2025-23266-poc",
+    "description": null,
+    "stars": 11,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "cve-2025-23266"
+    ],
+    "license": "No license",
+    "created_at": "2025-07-19T10:40:04Z",
+    "updated_at": "2025-07-25T02:36:26Z",
+    "owner": {
+      "name": "jpts",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5352661?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---jptscve-2025-23266-poc-07-25"
+  },
+  {
+    "name": "SOL-Strategies/solana-validator-failover",
+    "url": "https://github.com/SOL-Strategies/solana-validator-failover",
+    "description": "(QUIC) Solana validator failovers",
+    "stars": 10,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-07-21T10:23:05Z",
+    "updated_at": "2025-07-24T23:03:29Z",
+    "owner": {
+      "name": "SOL-Strategies",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153528442?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---SOL-Strategiessolana-validator-failover-07-25"
+  },
+  {
+    "name": "txplain/txplain",
+    "url": "https://github.com/txplain/txplain",
+    "description": "Open-source AI-powered blockchain transaction analysis",
+    "stars": 10,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "blockchain",
+      "ethereum",
+      "llm",
+      "web3"
+    ],
+    "license": "No license",
+    "created_at": "2025-07-21T20:57:31Z",
+    "updated_at": "2025-07-24T22:17:46Z",
+    "owner": {
+      "name": "txplain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/221211827?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "AntonStoeckl/dynamic-streams-eventstore-go",
+    "url": "https://github.com/AntonStoeckl/dynamic-streams-eventstore-go",
+    "description": "An Event Store for Event Sourcing implemented in Go. It works with dynamic event streams (DCB) instead of fixed ones",
+    "stars": 10,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-07-21T16:40:53Z",
+    "updated_at": "2025-07-25T01:58:17Z",
+    "owner": {
+      "name": "AntonStoeckl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/776322?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---AntonStoeckldynamic-streams-eventstore-go-07-25"
   },
   {
     "name": "jose-donato/binancef_l3_estimate_go",
     "url": "https://github.com/jose-donato/binancef_l3_estimate_go",
     "description": null,
     "stars": 10,
-    "forks": 4,
+    "forks": 5,
     "language": "Go",
     "topics": [],
     "license": "No license",
@@ -228,26 +264,7 @@
       "name": "jose-donato",
       "avatar_url": "https://avatars.githubusercontent.com/u/43375532?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---jose-donatobinancef-l3-estimate-go-07-24"
-  },
-  {
-    "name": "jpts/cve-2025-23266-poc",
-    "url": "https://github.com/jpts/cve-2025-23266-poc",
-    "description": null,
-    "stars": 10,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "cve-2025-23266"
-    ],
-    "license": "No license",
-    "created_at": "2025-07-19T10:40:04Z",
-    "updated_at": "2025-07-21T13:44:45Z",
-    "owner": {
-      "name": "jpts",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5352661?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---jptscve-2025-23266-poc-07-24"
+    "telegraph_url": null
   },
   {
     "name": "k1ngmang/practical",
@@ -264,6 +281,28 @@
       "name": "k1ngmang",
       "avatar_url": "https://avatars.githubusercontent.com/u/126554294?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---k1ngmangpractical-07-24"
+    "telegraph_url": null
+  },
+  {
+    "name": "WCY-dt/ponghub",
+    "url": "https://github.com/WCY-dt/ponghub",
+    "description": "An open-source service status monitoring website designed to help users track and verify service availability",
+    "stars": 10,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "github-actions",
+      "github-pages",
+      "status",
+      "status-page"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-07-20T15:04:14Z",
+    "updated_at": "2025-07-25T01:42:52Z",
+    "owner": {
+      "name": "WCY-dt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55525165?v=4"
+    },
+    "telegraph_url": null
   }
 ]
