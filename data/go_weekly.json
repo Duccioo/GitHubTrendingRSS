@@ -1,25 +1,46 @@
 [
   {
-    "name": "alperdrsnn/clime",
-    "url": "https://github.com/alperdrsnn/clime",
-    "description": "Beautiful Terminal UI for Go",
-    "stars": 105,
+    "name": "babycommando/zuse",
+    "url": "https://github.com/babycommando/zuse",
+    "description": "ZUSE is an irc client for the terminal made in Go with Bubbletea",
+    "stars": 174,
+    "forks": 5,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-07-27T22:12:35Z",
+    "updated_at": "2025-07-29T03:31:24Z",
+    "owner": {
+      "name": "babycommando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71618056?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "0x4D31/finch",
+    "url": "https://github.com/0x4D31/finch",
+    "description": "Fingerprint-aware TLS reverse proxy. Use Finch to outsmart bad traffic—collect client fingerprints (JA3, JA4 +QUIC, JA4H, HTTP/2) and act on them: block, reroute, tarpit, or deceive in real time.",
+    "stars": 80,
     "forks": 5,
     "language": "Go",
     "topics": [
-      "cli",
+      "deception",
+      "fingerprint",
+      "fingerprinting",
       "go",
-      "golang",
-      "library",
-      "terminal-ui",
-      "tui"
+      "honeypot",
+      "ja3",
+      "ja4",
+      "reverse-proxy",
+      "security",
+      "security-tools"
     ],
-    "license": "MIT License",
-    "created_at": "2025-07-22T16:32:04Z",
-    "updated_at": "2025-07-28T03:12:53Z",
+    "license": "Apache License 2.0",
+    "created_at": "2025-07-27T18:16:58Z",
+    "updated_at": "2025-07-29T02:49:54Z",
     "owner": {
-      "name": "alperdrsnn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26122521?v=4"
+      "name": "0x4D31",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11577776?v=4"
     },
     "telegraph_url": null
   },
@@ -27,8 +48,8 @@
     "name": "MuhammadWaseem29/BackupFinder",
     "url": "https://github.com/MuhammadWaseem29/BackupFinder",
     "description": "BackupFinder discovers backup files on web servers by generating intelligent patterns.",
-    "stars": 51,
-    "forks": 13,
+    "stars": 69,
+    "forks": 16,
     "language": "Go",
     "topics": [
       "backupfinder",
@@ -43,24 +64,24 @@
     ],
     "license": "Other",
     "created_at": "2025-07-25T13:10:09Z",
-    "updated_at": "2025-07-28T02:59:48Z",
+    "updated_at": "2025-07-29T02:14:26Z",
     "owner": {
       "name": "MuhammadWaseem29",
       "avatar_url": "https://avatars.githubusercontent.com/u/161931698?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---MuhammadWaseem29BackupFinder-07-29"
   },
   {
     "name": "AthenaNetworks/ProxMigrate",
     "url": "https://github.com/AthenaNetworks/ProxMigrate",
     "description": "Migrate Proxmox VM's across clusters",
-    "stars": 46,
+    "stars": 47,
     "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-07-24T07:11:08Z",
-    "updated_at": "2025-07-28T02:48:21Z",
+    "updated_at": "2025-07-28T17:25:38Z",
     "owner": {
       "name": "AthenaNetworks",
       "avatar_url": "https://avatars.githubusercontent.com/u/182020002?v=4"
@@ -68,72 +89,48 @@
     "telegraph_url": null
   },
   {
-    "name": "babycommando/zuse",
-    "url": "https://github.com/babycommando/zuse",
-    "description": "ZUSE is an irc client for the terminal made in Go with Bubbletea",
-    "stars": 34,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-07-27T22:12:35Z",
-    "updated_at": "2025-07-28T03:37:04Z",
-    "owner": {
-      "name": "babycommando",
-      "avatar_url": "https://avatars.githubusercontent.com/u/71618056?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "dunamismax/go-web-server",
-    "url": "https://github.com/dunamismax/go-web-server",
-    "description": "A production-ready template for modern web applications using The Modern Go Stack - a cohesive technology stack for building high-performance, maintainable applications. Creates single, self-contained binaries with zero external dependencies.",
-    "stars": 32,
-    "forks": 4,
-    "language": "Go",
-    "topics": [
-      "echo",
-      "echo-framework",
-      "go",
-      "golang",
-      "goose",
-      "htmx",
-      "htmx-app",
-      "koanf",
-      "mage",
-      "magefile",
-      "picocss",
-      "slog",
-      "sqlc",
-      "sqlite",
-      "templ",
-      "webapp",
-      "webserver",
-      "website"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-07-22T12:12:43Z",
-    "updated_at": "2025-07-26T15:03:09Z",
-    "owner": {
-      "name": "dunamismax",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65822992?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "hmgle/httpseal",
     "url": "https://github.com/hmgle/httpseal",
     "description": "HTTPSeal is a Linux command-line tool for intercepting and analyzing HTTPS traffic from specific processes using namespace isolation and DNS hijacking",
-    "stars": 31,
-    "forks": 1,
+    "stars": 35,
+    "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-07-23T13:42:50Z",
-    "updated_at": "2025-07-28T03:13:25Z",
+    "updated_at": "2025-07-29T00:53:10Z",
     "owner": {
       "name": "hmgle",
       "avatar_url": "https://avatars.githubusercontent.com/u/1779916?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---hmglehttpseal-07-29"
+  },
+  {
+    "name": "checkly-go/checkly",
+    "url": "https://github.com/checkly-go/checkly",
+    "description": "packages, cli and api for website analysis ",
+    "stars": 35,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "backend",
+      "backend-api",
+      "docker",
+      "gin",
+      "golang",
+      "golang-application",
+      "golang-library",
+      "golang-package",
+      "hosting",
+      "mongodb",
+      "server"
+    ],
+    "license": "No license",
+    "created_at": "2025-07-26T18:52:44Z",
+    "updated_at": "2025-07-28T20:00:36Z",
+    "owner": {
+      "name": "checkly-go",
+      "avatar_url": "https://avatars.githubusercontent.com/u/223197788?v=4"
     },
     "telegraph_url": null
   },
@@ -141,13 +138,13 @@
     "name": "Davincible/claude-code-open",
     "url": "https://github.com/Davincible/claude-code-open",
     "description": "Claude Code with any LLM provider (OpenRouter, Gemini, Kimi K2)",
-    "stars": 29,
-    "forks": 5,
+    "stars": 32,
+    "forks": 7,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-07-23T00:51:09Z",
-    "updated_at": "2025-07-28T02:24:46Z",
+    "updated_at": "2025-07-28T14:45:36Z",
     "owner": {
       "name": "Davincible",
       "avatar_url": "https://avatars.githubusercontent.com/u/25869544?v=4"
@@ -155,10 +152,75 @@
     "telegraph_url": null
   },
   {
+    "name": "yurikdotdev/covfefescript",
+    "url": "https://github.com/yurikdotdev/covfefescript",
+    "description": "A Trumpian-syntax Turing-complete interpreted language. (Boot.dev Hackathon)",
+    "stars": 29,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "golang",
+      "hackathon",
+      "interpreter",
+      "meme",
+      "pratt-parser",
+      "repl",
+      "toy-language",
+      "tree-walk-interpreter"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-07-26T10:23:24Z",
+    "updated_at": "2025-07-28T21:46:20Z",
+    "owner": {
+      "name": "yurikdotdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/172495341?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "Vedjw/DonkeyType",
+    "url": "https://github.com/Vedjw/DonkeyType",
+    "description": null,
+    "stars": 29,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-07-25T16:16:09Z",
+    "updated_at": "2025-07-28T22:14:29Z",
+    "owner": {
+      "name": "Vedjw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148562130?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---VedjwDonkeyType-07-29"
+  },
+  {
+    "name": "maniac-en/req",
+    "url": "https://github.com/maniac-en/req",
+    "description": "Req - Test APIs with Terminal Velocity",
+    "stars": 27,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "cli",
+      "go",
+      "req",
+      "tui"
+    ],
+    "license": "Other",
+    "created_at": "2025-07-25T15:23:50Z",
+    "updated_at": "2025-07-29T00:05:18Z",
+    "owner": {
+      "name": "maniac-en",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45049766?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---maniac-enreq-07-29"
+  },
+  {
     "name": "zarkones/netescape",
     "url": "https://github.com/zarkones/netescape",
     "description": "Malware traffic obfuscation library",
-    "stars": 23,
+    "stars": 26,
     "forks": 8,
     "language": "Go",
     "topics": [
@@ -170,12 +232,53 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-23T21:30:32Z",
-    "updated_at": "2025-07-27T22:38:20Z",
+    "updated_at": "2025-07-28T14:04:13Z",
     "owner": {
       "name": "zarkones",
       "avatar_url": "https://avatars.githubusercontent.com/u/17931195?v=4"
     },
     "telegraph_url": null
+  },
+  {
+    "name": "amrulizwan/learn-golang",
+    "url": "https://github.com/amrulizwan/learn-golang",
+    "description": "Repositori ini berisi struktur pembelajaran Golang yang lengkap dan terorganisir dari level beginner hingga expert, dilengkapi dengan project examples untuk praktik langsung.",
+    "stars": 26,
+    "forks": 5,
+    "language": "Go",
+    "topics": [
+      "beginner-friendly",
+      "go",
+      "golang",
+      "learn-to-code",
+      "learning",
+      "learning-by-doing"
+    ],
+    "license": "No license",
+    "created_at": "2025-07-24T21:30:36Z",
+    "updated_at": "2025-07-28T21:31:27Z",
+    "owner": {
+      "name": "amrulizwan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58427636?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---amrulizwanlearn-golang-07-29"
+  },
+  {
+    "name": "shumy26/Sir-Lints-a-Lot",
+    "url": "https://github.com/shumy26/Sir-Lints-a-Lot",
+    "description": null,
+    "stars": 23,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-07-25T15:45:48Z",
+    "updated_at": "2025-07-28T17:18:59Z",
+    "owner": {
+      "name": "shumy26",
+      "avatar_url": "https://avatars.githubusercontent.com/u/134865899?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---shumy26Sir-Lints-a-Lot-07-29"
   },
   {
     "name": "zhoudm1743/go-cache",
@@ -201,122 +304,104 @@
     "telegraph_url": null
   },
   {
-    "name": "amrulizwan/learn-golang",
-    "url": "https://github.com/amrulizwan/learn-golang",
-    "description": "Repositori ini berisi struktur pembelajaran Golang yang lengkap dan terorganisir dari level beginner hingga expert, dilengkapi dengan project examples untuk praktik langsung.",
-    "stars": 22,
-    "forks": 5,
-    "language": "Go",
-    "topics": [
-      "beginner-friendly",
-      "go",
-      "golang",
-      "learn-to-code",
-      "learning",
-      "learning-by-doing"
-    ],
-    "license": "No license",
-    "created_at": "2025-07-24T21:30:36Z",
-    "updated_at": "2025-07-28T01:57:27Z",
-    "owner": {
-      "name": "amrulizwan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58427636?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "0x4D31/finch",
-    "url": "https://github.com/0x4D31/finch",
-    "description": "Fingerprint-aware TLS reverse proxy: allow, deny, route, or deceive traffic using JA3, JA4 (+QUIC), JA4H, HTTP/2 fingerprints, and request metadata. Finch outsmarts bad traffic—blocking noise with high-fidelity fingerprints, tarpitting scanners, and dynamically deceiving attackers in real time.",
-    "stars": 17,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "deception",
-      "fingerprint",
-      "fingerprinting",
-      "go",
-      "honeypot",
-      "ja3",
-      "ja4",
-      "reverse-proxy",
-      "security",
-      "security-tools"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-07-27T18:16:58Z",
-    "updated_at": "2025-07-28T03:34:56Z",
-    "owner": {
-      "name": "0x4D31",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11577776?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "syou6162/cchook",
     "url": "https://github.com/syou6162/cchook",
     "description": "A CLI tool that simplifies Claude Code's hook system by replacing complex JSON configurations with clean YAML syntax, template-based data access, and conditional logic",
-    "stars": 14,
+    "stars": 21,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-07-24T13:46:36Z",
-    "updated_at": "2025-07-28T02:07:59Z",
+    "updated_at": "2025-07-28T14:40:50Z",
     "owner": {
       "name": "syou6162",
       "avatar_url": "https://avatars.githubusercontent.com/u/18356?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---syou6162cchook-07-29"
   },
   {
-    "name": "adoboscan21/Memory-Tools",
-    "url": "https://github.com/adoboscan21/Memory-Tools",
-    "description": " In-memory database tool written in GoLang.",
-    "stars": 12,
+    "name": "FeliciaFredlund/trackinstall",
+    "url": "https://github.com/FeliciaFredlund/trackinstall",
+    "description": "A CLI to track manually installed programs/apps and their dependencies.",
+    "stars": 19,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-07-25T16:19:42Z",
+    "updated_at": "2025-07-28T16:38:19Z",
+    "owner": {
+      "name": "FeliciaFredlund",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103130280?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---FeliciaFredlundtrackinstall-07-29"
+  },
+  {
+    "name": "Asfolny/geaves",
+    "url": "https://github.com/Asfolny/geaves",
+    "description": null,
+    "stars": 19,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2025-07-23T19:59:26Z",
-    "updated_at": "2025-07-27T19:05:08Z",
+    "created_at": "2025-07-25T20:56:30Z",
+    "updated_at": "2025-07-28T15:52:49Z",
     "owner": {
-      "name": "adoboscan21",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74828318?v=4"
+      "name": "Asfolny",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19804492?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---Asfolnygeaves-07-29"
+  },
+  {
+    "name": "kawilkinson/gocade",
+    "url": "https://github.com/kawilkinson/gocade",
+    "description": null,
+    "stars": 17,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-07-25T16:05:09Z",
+    "updated_at": "2025-07-28T17:36:45Z",
+    "owner": {
+      "name": "kawilkinson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/178110662?v=4"
     },
     "telegraph_url": null
   },
   {
-    "name": "Digital-Shane/treeview",
-    "url": "https://github.com/Digital-Shane/treeview",
-    "description": "treeview is a feature-rich Go module for displaying and navigating hierarchical structures in the terminal.",
-    "stars": 12,
-    "forks": 0,
+    "name": "FT1006/devesis",
+    "url": "https://github.com/FT1006/devesis",
+    "description": "A CLI survival horror game inspired by Nemesis and Boot.dev where hackathon developers escape Tutorial Hell",
+    "stars": 16,
+    "forks": 1,
     "language": "Go",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-07-24T01:18:44Z",
-    "updated_at": "2025-07-28T02:31:42Z",
+    "license": "MIT License",
+    "created_at": "2025-07-25T21:10:20Z",
+    "updated_at": "2025-07-28T17:07:05Z",
     "owner": {
-      "name": "Digital-Shane",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7040929?v=4"
+      "name": "FT1006",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111700930?v=4"
     },
     "telegraph_url": null
   },
   {
-    "name": "n0xa/SecKC-MHN-Globe",
-    "url": "https://github.com/n0xa/SecKC-MHN-Globe",
-    "description": "Terminal UI Visualization for SecKC MHN Attack Map",
-    "stars": 12,
+    "name": "Ceinl/Go-dashboard",
+    "url": "https://github.com/Ceinl/Go-dashboard",
+    "description": null,
+    "stars": 16,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "BSD 2-Clause \"Simplified\" License",
-    "created_at": "2025-07-23T23:42:29Z",
-    "updated_at": "2025-07-27T18:19:22Z",
+    "license": "MIT License",
+    "created_at": "2025-07-25T20:03:30Z",
+    "updated_at": "2025-07-28T16:33:05Z",
     "owner": {
-      "name": "n0xa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23286114?v=4"
+      "name": "Ceinl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73730760?v=4"
     },
     "telegraph_url": null
   },
@@ -324,7 +409,7 @@
     "name": "nalgeon/azor",
     "url": "https://github.com/nalgeon/azor",
     "description": "Promises and async/await in Go",
-    "stars": 12,
+    "stars": 16,
     "forks": 0,
     "language": "Go",
     "topics": [
@@ -334,7 +419,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-27T14:58:18Z",
-    "updated_at": "2025-07-28T01:22:03Z",
+    "updated_at": "2025-07-28T18:56:03Z",
     "owner": {
       "name": "nalgeon",
       "avatar_url": "https://avatars.githubusercontent.com/u/2946182?v=4"
@@ -342,36 +427,22 @@
     "telegraph_url": null
   },
   {
-    "name": "caidaoli/kiro2api",
-    "url": "https://github.com/caidaoli/kiro2api",
-    "description": null,
-    "stars": 12,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-07-25T06:53:44Z",
-    "updated_at": "2025-07-28T02:03:32Z",
-    "owner": {
-      "name": "caidaoli",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3807815?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "sainikmandal/diary-in-terminal",
-    "url": "https://github.com/sainikmandal/diary-in-terminal",
-    "description": null,
-    "stars": 11,
+    "name": "navid-m/arrow",
+    "url": "https://github.com/navid-m/arrow",
+    "description": "Documentation generator for go",
+    "stars": 16,
     "forks": 0,
     "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-07-26T10:59:41Z",
-    "updated_at": "2025-07-28T02:30:16Z",
+    "topics": [
+      "documentation-generator",
+      "golang"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-07-24T12:44:52Z",
+    "updated_at": "2025-07-29T00:44:26Z",
     "owner": {
-      "name": "sainikmandal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68194201?v=4"
+      "name": "navid-m",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1858451?v=4"
     },
     "telegraph_url": null
   },
@@ -379,17 +450,136 @@
     "name": "bdbrwr/api-replay",
     "url": "https://github.com/bdbrwr/api-replay",
     "description": null,
-    "stars": 10,
+    "stars": 15,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-07-25T20:48:35Z",
-    "updated_at": "2025-07-28T02:19:28Z",
+    "updated_at": "2025-07-28T16:22:11Z",
     "owner": {
       "name": "bdbrwr",
       "avatar_url": "https://avatars.githubusercontent.com/u/82840731?v=4"
     },
     "telegraph_url": null
+  },
+  {
+    "name": "chee-zer/sd-bro",
+    "url": "https://github.com/chee-zer/sd-bro",
+    "description": "project for the Boot Dev 2025 hackathon",
+    "stars": 15,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-07-26T06:26:39Z",
+    "updated_at": "2025-07-29T00:17:32Z",
+    "owner": {
+      "name": "chee-zer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141304932?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "n0xa/SecKC-MHN-Globe",
+    "url": "https://github.com/n0xa/SecKC-MHN-Globe",
+    "description": "Terminal UI Visualization for SecKC MHN Attack Map",
+    "stars": 15,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "BSD 2-Clause \"Simplified\" License",
+    "created_at": "2025-07-23T23:42:29Z",
+    "updated_at": "2025-07-28T16:32:39Z",
+    "owner": {
+      "name": "n0xa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23286114?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "haley-marie/growlog",
+    "url": "https://github.com/haley-marie/growlog",
+    "description": null,
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-07-26T15:34:26Z",
+    "updated_at": "2025-07-28T16:37:32Z",
+    "owner": {
+      "name": "haley-marie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/165605530?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---haley-mariegrowlog-07-29"
+  },
+  {
+    "name": "sainikmandal/diary-in-terminal",
+    "url": "https://github.com/sainikmandal/diary-in-terminal",
+    "description": null,
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-07-26T10:59:41Z",
+    "updated_at": "2025-07-29T02:02:02Z",
+    "owner": {
+      "name": "sainikmandal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68194201?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---sainikmandaldiary-in-terminal-07-29"
+  },
+  {
+    "name": "huaimeng666/gofinger",
+    "url": "https://github.com/huaimeng666/gofinger",
+    "description": "GoFinger是一款专为红队攻防和企业资产管理设计的下一代指纹发现、指纹识别工具。基于 Go 语言开发，它不仅继承了传统指纹工具的识别能力，更在**性能、可扩展性和输出质量**上进行了深度优化。  它旨在帮助安全工程师和渗透测试人员快速、精准地识别网络资产指纹，并以美观、易读的格式呈现结果。工具原生支持本地指纹库与 Fofa、Quake、Hunter 等主流API联动，并集成了 Chainreactors Fingers、Goby、Ehole、Wappalyzer 等多种知名指纹库，是现代网络空间测绘和资产管理不可或缺的瑞士军刀。",
+    "stars": 13,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-07-25T05:00:53Z",
+    "updated_at": "2025-07-29T02:40:25Z",
+    "owner": {
+      "name": "huaimeng666",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76671878?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "caidaoli/kiro2api",
+    "url": "https://github.com/caidaoli/kiro2api",
+    "description": null,
+    "stars": 13,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-07-25T06:53:44Z",
+    "updated_at": "2025-07-29T00:29:21Z",
+    "owner": {
+      "name": "caidaoli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3807815?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---caidaolikiro2api-07-29"
+  },
+  {
+    "name": "adoboscan21/Memory-Tools",
+    "url": "https://github.com/adoboscan21/Memory-Tools",
+    "description": " In-memory database tool written in GoLang.",
+    "stars": 12,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-07-23T19:59:26Z",
+    "updated_at": "2025-07-28T22:11:29Z",
+    "owner": {
+      "name": "adoboscan21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74828318?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---adoboscan21Memory-Tools-07-29"
   }
 ]
