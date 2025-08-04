@@ -2,14 +2,14 @@
   {
     "name": "fish2018/pansou",
     "url": "https://github.com/fish2018/pansou",
-    "description": "PanSou（GoComicMosaic的独立子项目）是一款高性能的网盘资源搜索API服务，支持TG搜索和网盘搜索引擎。系统设计以性能和可扩展性为核心，支持多频道并发搜索、结果智能排序和网盘类型分类。https://so.252035.xyz/",
-    "stars": 630,
-    "forks": 111,
+    "description": "PanSou（GoComicMosaic的独立子项目）是一款高性能的网盘资源搜索API服务，支持TG频道和插件搜索。系统设计以性能和可扩展性为核心，支持多频道多插件并发搜索、结果智能排序和网盘类型分类。https://so.252035.xyz/",
+    "stars": 726,
+    "forks": 126,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-07-10T07:17:46Z",
-    "updated_at": "2025-08-03T03:46:43Z",
+    "updated_at": "2025-08-04T03:50:23Z",
     "owner": {
       "name": "fish2018",
       "avatar_url": "https://avatars.githubusercontent.com/u/34814105?v=4"
@@ -20,7 +20,7 @@
     "name": "iosifache/annas-mcp",
     "url": "https://github.com/iosifache/annas-mcp",
     "description": "MCP server and CLI tool for searching and downloading documents from Anna's Archive",
-    "stars": 482,
+    "stars": 494,
     "forks": 17,
     "language": "Go",
     "topics": [
@@ -30,7 +30,7 @@
     ],
     "license": "No license",
     "created_at": "2025-07-09T07:56:18Z",
-    "updated_at": "2025-08-03T02:52:23Z",
+    "updated_at": "2025-08-04T03:04:08Z",
     "owner": {
       "name": "iosifache",
       "avatar_url": "https://avatars.githubusercontent.com/u/11766982?v=4"
@@ -41,7 +41,7 @@
     "name": "bufbuild/hyperpb-go",
     "url": "https://github.com/bufbuild/hyperpb-go",
     "description": "10x faster dynamic Protobuf parsing in Go that’s even 3x faster than generated code.",
-    "stars": 454,
+    "stars": 460,
     "forks": 6,
     "language": "Go",
     "topics": [
@@ -52,7 +52,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-07-14T20:19:44Z",
-    "updated_at": "2025-08-02T22:50:30Z",
+    "updated_at": "2025-08-04T02:20:07Z",
     "owner": {
       "name": "bufbuild",
       "avatar_url": "https://avatars.githubusercontent.com/u/54191850?v=4"
@@ -63,13 +63,13 @@
     "name": "oxc-project/tsgolint",
     "url": "https://github.com/oxc-project/tsgolint",
     "description": "Type aware linting for oxlint",
-    "stars": 416,
+    "stars": 417,
     "forks": 7,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-07-14T07:18:02Z",
-    "updated_at": "2025-08-02T17:17:45Z",
+    "updated_at": "2025-08-03T23:52:31Z",
     "owner": {
       "name": "oxc-project",
       "avatar_url": "https://avatars.githubusercontent.com/u/149946238?v=4"
@@ -80,7 +80,7 @@
     "name": "ebogdum/callfs",
     "url": "https://github.com/ebogdum/callfs",
     "description": "CallFS is an ultra-lightweight, high-performance REST API filesystem that provides precise Linux filesystem semantics over various backends including local filesystem, Amazon S3, and distributed peer networks",
-    "stars": 355,
+    "stars": 356,
     "forks": 10,
     "language": "Go",
     "topics": [
@@ -98,7 +98,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-14T10:39:05Z",
-    "updated_at": "2025-08-02T05:46:42Z",
+    "updated_at": "2025-08-03T20:39:05Z",
     "owner": {
       "name": "ebogdum",
       "avatar_url": "https://avatars.githubusercontent.com/u/19283017?v=4"
@@ -106,33 +106,16 @@
     "telegraph_url": null
   },
   {
-    "name": "VictoriaMetrics/VictoriaLogs",
-    "url": "https://github.com/VictoriaMetrics/VictoriaLogs",
-    "description": "Fast and easy to use database for logs, which can efficiently handle terabytes of logs",
-    "stars": 249,
-    "forks": 12,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-07-06T22:56:52Z",
-    "updated_at": "2025-08-01T16:04:15Z",
-    "owner": {
-      "name": "VictoriaMetrics",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43720803?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "context-space/context-space",
     "url": "https://github.com/context-space/context-space",
     "description": "Ultimate Context Engineering Infrastructure, starting from MCPs and Integrations",
-    "stars": 249,
+    "stars": 264,
     "forks": 25,
     "language": "Go",
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2025-07-08T18:44:39Z",
-    "updated_at": "2025-08-03T03:36:22Z",
+    "updated_at": "2025-08-04T02:25:22Z",
     "owner": {
       "name": "context-space",
       "avatar_url": "https://avatars.githubusercontent.com/u/211929957?v=4"
@@ -140,16 +123,33 @@
     "telegraph_url": null
   },
   {
+    "name": "VictoriaMetrics/VictoriaLogs",
+    "url": "https://github.com/VictoriaMetrics/VictoriaLogs",
+    "description": "Fast and easy to use database for logs, which can efficiently handle terabytes of logs",
+    "stars": 253,
+    "forks": 13,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-07-06T22:56:52Z",
+    "updated_at": "2025-08-04T02:12:30Z",
+    "owner": {
+      "name": "VictoriaMetrics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43720803?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "babycommando/zuse",
     "url": "https://github.com/babycommando/zuse",
     "description": "ZUSE is an irc client for the terminal made in Go with Bubbletea",
-    "stars": 238,
+    "stars": 240,
     "forks": 10,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-07-27T22:12:35Z",
-    "updated_at": "2025-08-02T18:05:34Z",
+    "updated_at": "2025-08-03T22:13:20Z",
     "owner": {
       "name": "babycommando",
       "avatar_url": "https://avatars.githubusercontent.com/u/71618056?v=4"
@@ -160,8 +160,8 @@
     "name": "VersusControl/devops-ai-guidelines",
     "url": "https://github.com/VersusControl/devops-ai-guidelines",
     "description": "🚀 First AI Journey for DevOps - with comprehensive learning paths, practical tips, and enterprise guidelines",
-    "stars": 194,
-    "forks": 48,
+    "stars": 217,
+    "forks": 50,
     "language": "Go",
     "topics": [
       "ai",
@@ -174,7 +174,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-20T11:15:56Z",
-    "updated_at": "2025-08-03T03:33:42Z",
+    "updated_at": "2025-08-04T03:00:05Z",
     "owner": {
       "name": "VersusControl",
       "avatar_url": "https://avatars.githubusercontent.com/u/197741460?v=4"
@@ -185,8 +185,8 @@
     "name": "KrishnaSSH/GopherTube",
     "url": "https://github.com/KrishnaSSH/GopherTube",
     "description": "A modern terminal user interface for searching and watching  YouTube videos using mpv and chafa",
-    "stars": 175,
-    "forks": 12,
+    "stars": 176,
+    "forks": 13,
     "language": "Go",
     "topics": [
       "chafa",
@@ -199,10 +199,27 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2025-07-12T07:51:28Z",
-    "updated_at": "2025-08-01T20:37:37Z",
+    "updated_at": "2025-08-03T17:53:13Z",
     "owner": {
       "name": "KrishnaSSH",
       "avatar_url": "https://avatars.githubusercontent.com/u/125943937?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "andrewarrow/starchive",
+    "url": "https://github.com/andrewarrow/starchive",
+    "description": "browser plugin to send youtube videos to local backend",
+    "stars": 171,
+    "forks": 11,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-08-02T15:21:59Z",
+    "updated_at": "2025-08-04T03:45:36Z",
+    "owner": {
+      "name": "andrewarrow",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127054?v=4"
     },
     "telegraph_url": null
   },
@@ -227,7 +244,7 @@
     "name": "alperdrsnn/clime",
     "url": "https://github.com/alperdrsnn/clime",
     "description": "Beautiful Terminal UI for Go",
-    "stars": 146,
+    "stars": 148,
     "forks": 6,
     "language": "Go",
     "topics": [
@@ -240,7 +257,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-22T16:32:04Z",
-    "updated_at": "2025-08-02T22:51:55Z",
+    "updated_at": "2025-08-03T20:40:00Z",
     "owner": {
       "name": "alperdrsnn",
       "avatar_url": "https://avatars.githubusercontent.com/u/26122521?v=4"
@@ -251,13 +268,13 @@
     "name": "vvvvv/dlg",
     "url": "https://github.com/vvvvv/dlg",
     "description": "Printf-Style Debugging with Zero-Cost in Production Builds",
-    "stars": 138,
+    "stars": 144,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "BSD 3-Clause \"New\" or \"Revised\" License",
     "created_at": "2025-07-24T19:47:23Z",
-    "updated_at": "2025-08-03T03:20:13Z",
+    "updated_at": "2025-08-04T02:46:04Z",
     "owner": {
       "name": "vvvvv",
       "avatar_url": "https://avatars.githubusercontent.com/u/65471094?v=4"
@@ -268,13 +285,13 @@
     "name": "hellokaton/just-icon",
     "url": "https://github.com/hellokaton/just-icon",
     "description": "AI-powered icon generation CLI tool",
-    "stars": 134,
+    "stars": 135,
     "forks": 8,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-07-06T08:48:12Z",
-    "updated_at": "2025-08-02T13:04:44Z",
+    "updated_at": "2025-08-03T08:23:24Z",
     "owner": {
       "name": "hellokaton",
       "avatar_url": "https://avatars.githubusercontent.com/u/3849072?v=4"
@@ -360,7 +377,7 @@
     "name": "WCY-dt/ponghub",
     "url": "https://github.com/WCY-dt/ponghub",
     "description": "Free endpoint monitoring. One-click deployment.",
-    "stars": 97,
+    "stars": 104,
     "forks": 21,
     "language": "Go",
     "topics": [
@@ -371,7 +388,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-20T15:04:14Z",
-    "updated_at": "2025-08-02T16:35:04Z",
+    "updated_at": "2025-08-04T03:03:31Z",
     "owner": {
       "name": "WCY-dt",
       "avatar_url": "https://avatars.githubusercontent.com/u/55525165?v=4"
@@ -379,27 +396,10 @@
     "telegraph_url": null
   },
   {
-    "name": "webwizards-team/Phantom-Tunnel",
-    "url": "https://github.com/webwizards-team/Phantom-Tunnel",
-    "description": null,
-    "stars": 94,
-    "forks": 31,
-    "language": "Go",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2025-07-05T07:35:43Z",
-    "updated_at": "2025-08-03T01:58:26Z",
-    "owner": {
-      "name": "webwizards-team",
-      "avatar_url": "https://avatars.githubusercontent.com/u/219247084?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "EvilBytecode/Ebyte-Go-Morpher",
     "url": "https://github.com/EvilBytecode/Ebyte-Go-Morpher",
     "description": "Ebyte-Go-Morpher is a Go program that parses, analyzes, and rewrites Go source code to apply multiple layers of obfuscation. It operates directly on the Go Abstract Syntax Tree (AST) and generates both obfuscated source files and runtime decryption logic.",
-    "stars": 90,
+    "stars": 91,
     "forks": 9,
     "language": "Go",
     "topics": [
@@ -412,27 +412,10 @@
     ],
     "license": "MIT License",
     "created_at": "2025-07-19T11:26:02Z",
-    "updated_at": "2025-08-01T04:27:39Z",
+    "updated_at": "2025-08-03T15:59:55Z",
     "owner": {
       "name": "EvilBytecode",
       "avatar_url": "https://avatars.githubusercontent.com/u/151552809?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "andrewarrow/starchive",
-    "url": "https://github.com/andrewarrow/starchive",
-    "description": "browser plugin to send youtube videos to local backend",
-    "stars": 87,
-    "forks": 9,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-08-02T15:21:59Z",
-    "updated_at": "2025-08-03T03:35:35Z",
-    "owner": {
-      "name": "andrewarrow",
-      "avatar_url": "https://avatars.githubusercontent.com/u/127054?v=4"
     },
     "telegraph_url": null
   },
@@ -457,7 +440,7 @@
     "name": "MuhammadWaseem29/BackupFinder",
     "url": "https://github.com/MuhammadWaseem29/BackupFinder",
     "description": "BackupFinder discovers backup files on web servers by generating intelligent patterns.",
-    "stars": 77,
+    "stars": 78,
     "forks": 17,
     "language": "Go",
     "topics": [
@@ -473,10 +456,33 @@
     ],
     "license": "Other",
     "created_at": "2025-07-25T13:10:09Z",
-    "updated_at": "2025-07-31T21:12:27Z",
+    "updated_at": "2025-08-03T08:49:33Z",
     "owner": {
       "name": "MuhammadWaseem29",
       "avatar_url": "https://avatars.githubusercontent.com/u/161931698?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "compassvpn/cf-tools",
+    "url": "https://github.com/compassvpn/cf-tools",
+    "description": "Cloudflare Tools",
+    "stars": 78,
+    "forks": 17,
+    "language": "Go",
+    "topics": [
+      "bgp",
+      "cdn",
+      "cloudflare",
+      "prefix",
+      "warp"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-07-07T13:24:19Z",
+    "updated_at": "2025-08-04T02:57:17Z",
+    "owner": {
+      "name": "compassvpn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/169551264?v=4"
     },
     "telegraph_url": null
   },
@@ -518,29 +524,6 @@
     "telegraph_url": null
   },
   {
-    "name": "compassvpn/cf-tools",
-    "url": "https://github.com/compassvpn/cf-tools",
-    "description": "Cloudflare Tools",
-    "stars": 76,
-    "forks": 17,
-    "language": "Go",
-    "topics": [
-      "bgp",
-      "cdn",
-      "cloudflare",
-      "prefix",
-      "warp"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-07-07T13:24:19Z",
-    "updated_at": "2025-08-01T15:32:42Z",
-    "owner": {
-      "name": "compassvpn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/169551264?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "ohmydevops/arvancloud-radar-notif",
     "url": "https://github.com/ohmydevops/arvancloud-radar-notif",
     "description": " 📡 Tell me about iran internet outages in realtime",
@@ -568,7 +551,7 @@
     "url": "https://github.com/sriniously/go-boilerplate",
     "description": "A production grade Go boilerplate",
     "stars": 65,
-    "forks": 9,
+    "forks": 10,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
@@ -584,13 +567,13 @@
     "name": "SoulKyu/notificator",
     "url": "https://github.com/SoulKyu/notificator",
     "description": "Notificator is a GUI for alertmanager with sounds and notifications",
-    "stars": 60,
+    "stars": 61,
     "forks": 5,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-07-08T13:18:29Z",
-    "updated_at": "2025-08-01T12:49:32Z",
+    "updated_at": "2025-08-03T22:49:22Z",
     "owner": {
       "name": "SoulKyu",
       "avatar_url": "https://avatars.githubusercontent.com/u/30684712?v=4"
@@ -622,6 +605,27 @@
     "owner": {
       "name": "unkn0wn-root",
       "avatar_url": "https://avatars.githubusercontent.com/u/54364197?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "twoKilo/smart-config-syncer",
+    "url": "https://github.com/twoKilo/smart-config-syncer",
+    "description": "ssync: 安全、高效的多环境配置同步器",
+    "stars": 56,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "config-sync",
+      "configuration",
+      "environment-variables"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-07-16T04:53:17Z",
+    "updated_at": "2025-07-31T14:59:03Z",
+    "owner": {
+      "name": "twoKilo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23336402?v=4"
     },
     "telegraph_url": null
   }
