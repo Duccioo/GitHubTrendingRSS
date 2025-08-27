@@ -3,7 +3,7 @@
     "name": "nao1215/filesql",
     "url": "https://github.com/nao1215/filesql",
     "description": "filesql - sql driver for CSV, TSV, LTSV with gzip, bzip2, xz, zstd support.",
-    "stars": 59,
+    "stars": 65,
     "forks": 0,
     "language": "Go",
     "topics": [
@@ -21,7 +21,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-08-23T13:53:01Z",
-    "updated_at": "2025-08-26T03:02:41Z",
+    "updated_at": "2025-08-26T17:57:09Z",
     "owner": {
       "name": "nao1215",
       "avatar_url": "https://avatars.githubusercontent.com/u/22737008?v=4"
@@ -29,85 +29,10 @@
     "telegraph_url": null
   },
   {
-    "name": "noperator/slice",
-    "url": "https://github.com/noperator/slice",
-    "description": "SAST + LLM Interprocedural Context Extractor",
-    "stars": 44,
-    "forks": 6,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-08-20T06:21:54Z",
-    "updated_at": "2025-08-26T02:37:37Z",
-    "owner": {
-      "name": "noperator",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6006772?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "modom-ofn/auth-portal",
-    "url": "https://github.com/modom-ofn/auth-portal",
-    "description": "Authentication gateway for Plex/Jellyfin/Emby users with SSO access to internal services.",
-    "stars": 37,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-08-20T12:07:18Z",
-    "updated_at": "2025-08-25T16:37:50Z",
-    "owner": {
-      "name": "modom-ofn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47093906?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "blacktop/go-hypervisor",
-    "url": "https://github.com/blacktop/go-hypervisor",
-    "description": "Apple Hypervisor.framework bindings for Golang",
-    "stars": 26,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "apple",
-      "apple-silicon",
-      "arm64",
-      "golang",
-      "hypervisor",
-      "hypervisor-framework"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-08-22T18:02:33Z",
-    "updated_at": "2025-08-25T11:14:23Z",
-    "owner": {
-      "name": "blacktop",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6118188?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "onexstack/osbuilder",
-    "url": "https://github.com/onexstack/osbuilder",
-    "description": "「云原生 AI 实战营」Go 项目开发脚手架",
-    "stars": 24,
-    "forks": 3,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-08-21T17:43:40Z",
-    "updated_at": "2025-08-25T21:06:31Z",
-    "owner": {
-      "name": "onexstack",
-      "avatar_url": "https://avatars.githubusercontent.com/u/116050818?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "unkn0wn-root/cascache",
     "url": "https://github.com/unkn0wn-root/cascache",
     "description": "CAS-safe cache with read-validated singles, bulk set validation, pluggable providers/codecs, and optional shared generations.",
-    "stars": 24,
+    "stars": 33,
     "forks": 0,
     "language": "Go",
     "topics": [
@@ -121,12 +46,53 @@
     ],
     "license": "Other",
     "created_at": "2025-08-23T09:29:49Z",
-    "updated_at": "2025-08-26T02:50:23Z",
+    "updated_at": "2025-08-26T20:04:45Z",
     "owner": {
       "name": "unkn0wn-root",
       "avatar_url": "https://avatars.githubusercontent.com/u/54364197?v=4"
     },
     "telegraph_url": null
+  },
+  {
+    "name": "blacktop/go-hypervisor",
+    "url": "https://github.com/blacktop/go-hypervisor",
+    "description": "Apple Hypervisor.framework bindings for Golang",
+    "stars": 27,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "apple",
+      "apple-silicon",
+      "arm64",
+      "golang",
+      "hypervisor",
+      "hypervisor-framework"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-08-22T18:02:33Z",
+    "updated_at": "2025-08-26T15:45:56Z",
+    "owner": {
+      "name": "blacktop",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6118188?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---blacktopgo-hypervisor-08-27"
+  },
+  {
+    "name": "onexstack/osbuilder",
+    "url": "https://github.com/onexstack/osbuilder",
+    "description": "「云原生 AI 实战营」Go 项目开发脚手架",
+    "stars": 26,
+    "forks": 5,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-08-21T17:43:40Z",
+    "updated_at": "2025-08-26T09:29:50Z",
+    "owner": {
+      "name": "onexstack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116050818?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---onexstackosbuilder-08-27"
   },
   {
     "name": "MengMengCode/GetRealityDomain",
@@ -143,65 +109,88 @@
       "name": "MengMengCode",
       "avatar_url": "https://avatars.githubusercontent.com/u/227010654?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---MengMengCodeGetRealityDomain-08-27"
+  },
+  {
+    "name": "nkaewam/taskw",
+    "url": "https://github.com/nkaewam/taskw",
+    "description": "Go route generation + dependency injection framework based on Fiber + Wire + Swag + Taskfile",
+    "stars": 18,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "codegen",
+      "dependency-injection",
+      "fiber",
+      "golang",
+      "wire"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-08-24T19:37:34Z",
+    "updated_at": "2025-08-26T15:57:27Z",
+    "owner": {
+      "name": "nkaewam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43312669?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---nkaewamtaskw-08-27"
   },
   {
     "name": "narwhal-cloud/virtual-nezha-agent",
     "url": "https://github.com/narwhal-cloud/virtual-nezha-agent",
     "description": "虚拟哪吒插针",
-    "stars": 16,
+    "stars": 17,
     "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2025-08-23T01:06:57Z",
-    "updated_at": "2025-08-26T01:46:54Z",
+    "updated_at": "2025-08-26T15:45:10Z",
     "owner": {
       "name": "narwhal-cloud",
       "avatar_url": "https://avatars.githubusercontent.com/u/228129521?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---narwhal-cloudvirtual-nezha-agent-08-27"
   },
   {
     "name": "schollz/2n",
     "url": "https://github.com/schollz/2n",
     "description": null,
-    "stars": 13,
+    "stars": 16,
     "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-08-24T01:12:36Z",
-    "updated_at": "2025-08-26T02:07:46Z",
+    "updated_at": "2025-08-26T23:47:49Z",
     "owner": {
       "name": "schollz",
       "avatar_url": "https://avatars.githubusercontent.com/u/6550035?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---schollz2n-08-26"
+    "telegraph_url": "https://telegra.ph/README---schollz2n-08-27"
   },
   {
     "name": "jams246/blazing-fast-idiomatic-go",
     "url": "https://github.com/jams246/blazing-fast-idiomatic-go",
     "description": null,
-    "stars": 12,
-    "forks": 1,
+    "stars": 14,
+    "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-08-24T18:36:40Z",
-    "updated_at": "2025-08-25T13:01:58Z",
+    "updated_at": "2025-08-26T19:36:06Z",
     "owner": {
       "name": "jams246",
       "avatar_url": "https://avatars.githubusercontent.com/u/56314366?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---jams246blazing-fast-idiomatic-go-08-26"
+    "telegraph_url": null
   },
   {
     "name": "chojs23/im-switch.nvim",
     "url": "https://github.com/chojs23/im-switch.nvim",
     "description": "A Neovim plugin that automatically switches keyboard input method to English",
-    "stars": 11,
-    "forks": 0,
+    "stars": 12,
+    "forks": 1,
     "language": "Go",
     "topics": [
       "golang",
@@ -211,12 +200,46 @@
     ],
     "license": "MIT License",
     "created_at": "2025-08-21T10:48:12Z",
-    "updated_at": "2025-08-26T02:48:10Z",
+    "updated_at": "2025-08-26T08:30:58Z",
     "owner": {
       "name": "chojs23",
       "avatar_url": "https://avatars.githubusercontent.com/u/55792153?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---chojs23im-switchnvim-08-26"
+    "telegraph_url": null
+  },
+  {
+    "name": "Banh-Canh/netwatch",
+    "url": "https://github.com/Banh-Canh/netwatch",
+    "description": "A tool to manage temporary Kubernetes network access via a web UI and a controller.",
+    "stars": 12,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-08-23T21:00:55Z",
+    "updated_at": "2025-08-26T09:15:19Z",
+    "owner": {
+      "name": "Banh-Canh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66330398?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "Kagnite/Kernel-Ruler",
+    "url": "https://github.com/Kagnite/Kernel-Ruler",
+    "description": null,
+    "stars": 12,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-08-21T23:23:03Z",
+    "updated_at": "2025-08-26T15:44:49Z",
+    "owner": {
+      "name": "Kagnite",
+      "avatar_url": "https://avatars.githubusercontent.com/u/222172321?v=4"
+    },
+    "telegraph_url": null
   },
   {
     "name": "phishingclub/phishingclub",
@@ -235,46 +258,12 @@
     ],
     "license": "Other",
     "created_at": "2025-08-21T15:02:42Z",
-    "updated_at": "2025-08-26T02:26:55Z",
+    "updated_at": "2025-08-26T16:22:51Z",
     "owner": {
       "name": "phishingclub",
       "avatar_url": "https://avatars.githubusercontent.com/u/140894462?v=4"
     },
     "telegraph_url": null
-  },
-  {
-    "name": "Banh-Canh/netwatch",
-    "url": "https://github.com/Banh-Canh/netwatch",
-    "description": "A tool to manage temporary Kubernetes network access via a web UI and a controller.",
-    "stars": 11,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-08-23T21:00:55Z",
-    "updated_at": "2025-08-25T16:52:41Z",
-    "owner": {
-      "name": "Banh-Canh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/66330398?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "Kagnite/Kernel-Ruler",
-    "url": "https://github.com/Kagnite/Kernel-Ruler",
-    "description": null,
-    "stars": 11,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-08-21T23:23:03Z",
-    "updated_at": "2025-08-25T12:17:17Z",
-    "owner": {
-      "name": "Kagnite",
-      "avatar_url": "https://avatars.githubusercontent.com/u/222172321?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---KagniteKernel-Ruler-08-26"
   },
   {
     "name": "nodeseeker/CertHunter",
@@ -308,28 +297,6 @@
       "name": "Jacob2161",
       "avatar_url": "https://avatars.githubusercontent.com/u/52801504?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---Jacob2161sqlitebp-08-26"
-  },
-  {
-    "name": "LazarenkoA/protoc-gen-1c",
-    "url": "https://github.com/LazarenkoA/protoc-gen-1c",
-    "description": "Генерация http сервисов 1С по protobuf спецификации",
-    "stars": 10,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "1c",
-      "1c-enterprise",
-      "protobuf",
-      "protoc"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-08-20T11:16:34Z",
-    "updated_at": "2025-08-24T13:31:59Z",
-    "owner": {
-      "name": "LazarenkoA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15386101?v=4"
-    },
     "telegraph_url": null
   },
   {
@@ -348,22 +315,5 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/228129521?v=4"
     },
     "telegraph_url": null
-  },
-  {
-    "name": "onurartan/mockserver",
-    "url": "https://github.com/onurartan/mockserver",
-    "description": "MockServer - Lightweight Go-based mock API server for fast prototyping, testing, and simulating REST endpoints with JSON config.",
-    "stars": 10,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-08-20T06:56:32Z",
-    "updated_at": "2025-08-25T23:23:59Z",
-    "owner": {
-      "name": "onurartan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/85056519?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---onurartanmockserver-08-26"
   }
 ]
