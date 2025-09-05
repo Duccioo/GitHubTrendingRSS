@@ -3,7 +3,7 @@
     "name": "control-theory/gonzo",
     "url": "https://github.com/control-theory/gonzo",
     "description": "Gonzo! The Go based TUI log analysis tool",
-    "stars": 953,
+    "stars": 1143,
     "forks": 21,
     "language": "Go",
     "topics": [
@@ -20,7 +20,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-08-18T18:21:51Z",
-    "updated_at": "2025-09-04T01:45:55Z",
+    "updated_at": "2025-09-05T02:43:30Z",
     "owner": {
       "name": "control-theory",
       "avatar_url": "https://avatars.githubusercontent.com/u/157961368?v=4"
@@ -31,8 +31,8 @@
     "name": "Adembc/lazyssh",
     "url": "https://github.com/Adembc/lazyssh",
     "description": "A terminal-based SSH manager inspired by lazydocker and k9s - Written in go",
-    "stars": 657,
-    "forks": 12,
+    "stars": 765,
+    "forks": 23,
     "language": "Go",
     "topics": [
       "cli",
@@ -47,7 +47,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-08-13T09:33:09Z",
-    "updated_at": "2025-09-04T02:27:59Z",
+    "updated_at": "2025-09-05T02:35:13Z",
     "owner": {
       "name": "Adembc",
       "avatar_url": "https://avatars.githubusercontent.com/u/71262172?v=4"
@@ -58,8 +58,8 @@
     "name": "Print3M/DllShimmer",
     "url": "https://github.com/Print3M/DllShimmer",
     "description": "Weaponize DLL hijacking easily. Backdoor any function in any DLL.",
-    "stars": 466,
-    "forks": 51,
+    "stars": 479,
+    "forks": 52,
     "language": "Go",
     "topics": [
       "backdoor",
@@ -78,7 +78,7 @@
     ],
     "license": "No license",
     "created_at": "2025-08-16T11:05:38Z",
-    "updated_at": "2025-09-04T02:09:30Z",
+    "updated_at": "2025-09-04T23:33:35Z",
     "owner": {
       "name": "Print3M",
       "avatar_url": "https://avatars.githubusercontent.com/u/92022497?v=4"
@@ -86,19 +86,22 @@
     "telegraph_url": null
   },
   {
-    "name": "berbyte/sinkzone",
-    "url": "https://github.com/berbyte/sinkzone",
-    "description": "Block everything. Allow only what matters. A DNS tool for productivity, focus, and child safety. Allowlist-only internet for distraction-free work.",
-    "stars": 302,
-    "forks": 15,
+    "name": "docker/cagent",
+    "url": "https://github.com/docker/cagent",
+    "description": "Agent Builder and Runtime by Docker Engineering",
+    "stars": 341,
+    "forks": 33,
     "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-08-06T14:05:14Z",
-    "updated_at": "2025-09-03T09:19:07Z",
+    "topics": [
+      "agents",
+      "ai"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2025-09-01T12:14:45Z",
+    "updated_at": "2025-09-05T02:51:59Z",
     "owner": {
-      "name": "berbyte",
-      "avatar_url": "https://avatars.githubusercontent.com/u/172304324?v=4"
+      "name": "docker",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5429470?v=4"
     },
     "telegraph_url": null
   },
@@ -123,13 +126,13 @@
     "name": "murat-cileli/clyp",
     "url": "https://github.com/murat-cileli/clyp",
     "description": "Clipboard manager for Linux.",
-    "stars": 261,
+    "stars": 262,
     "forks": 4,
     "language": "Go",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2025-08-14T22:19:59Z",
-    "updated_at": "2025-09-02T12:27:05Z",
+    "updated_at": "2025-09-04T19:19:36Z",
     "owner": {
       "name": "murat-cileli",
       "avatar_url": "https://avatars.githubusercontent.com/u/6532000?v=4"
@@ -137,71 +140,16 @@
     "telegraph_url": null
   },
   {
-    "name": "kxn/claude-code-companion",
-    "url": "https://github.com/kxn/claude-code-companion",
-    "description": null,
-    "stars": 237,
-    "forks": 35,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-08-06T15:03:09Z",
-    "updated_at": "2025-09-02T14:40:06Z",
-    "owner": {
-      "name": "kxn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2174436?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "olafhartong/BamboozlEDR",
-    "url": "https://github.com/olafhartong/BamboozlEDR",
-    "description": "A comprehensive ETW (Event Tracing for Windows) event generation tool designed for testing and research purposes.",
-    "stars": 211,
-    "forks": 20,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-08-06T20:28:10Z",
-    "updated_at": "2025-09-03T16:03:56Z",
-    "owner": {
-      "name": "olafhartong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8149899?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "zbuzhi/diff-excel",
-    "url": "https://github.com/zbuzhi/diff-excel",
-    "description": "Excel文件对比工具",
-    "stars": 205,
-    "forks": 10,
-    "language": "Go",
-    "topics": [
-      "diff-excel",
-      "diffexcel",
-      "excel-util"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-08-11T13:11:40Z",
-    "updated_at": "2025-09-03T09:05:52Z",
-    "owner": {
-      "name": "zbuzhi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108049706?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "enetx/surf",
     "url": "https://github.com/enetx/surf",
     "description": "SURF - Advanced Go HTTP client with Chrome/Firefox browser impersonation, HTTP/3 with QUIC fingerprinting, JA3/JA4 TLS emulation, and anti-bot bypass for web automation and scraping.",
-    "stars": 196,
+    "stars": 238,
     "forks": 9,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-08-30T12:33:32Z",
-    "updated_at": "2025-09-04T02:50:27Z",
+    "updated_at": "2025-09-05T02:38:58Z",
     "owner": {
       "name": "enetx",
       "avatar_url": "https://avatars.githubusercontent.com/u/163449931?v=4"
@@ -212,13 +160,13 @@
     "name": "ericschmar/moribito",
     "url": "https://github.com/ericschmar/moribito",
     "description": null,
-    "stars": 195,
-    "forks": 3,
+    "stars": 207,
+    "forks": 4,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-08-20T15:51:51Z",
-    "updated_at": "2025-09-04T01:04:57Z",
+    "updated_at": "2025-09-04T20:22:25Z",
     "owner": {
       "name": "ericschmar",
       "avatar_url": "https://avatars.githubusercontent.com/u/10875517?v=4"
@@ -226,10 +174,31 @@
     "telegraph_url": null
   },
   {
+    "name": "zbuzhi/diff-excel",
+    "url": "https://github.com/zbuzhi/diff-excel",
+    "description": "Excel文件对比工具",
+    "stars": 207,
+    "forks": 10,
+    "language": "Go",
+    "topics": [
+      "diff-excel",
+      "diffexcel",
+      "excel-util"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-08-11T13:11:40Z",
+    "updated_at": "2025-09-05T00:50:49Z",
+    "owner": {
+      "name": "zbuzhi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108049706?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "nalgeon/chans",
     "url": "https://github.com/nalgeon/chans",
     "description": "Building blocks for idiomatic Go pipelines",
-    "stars": 157,
+    "stars": 159,
     "forks": 2,
     "language": "Go",
     "topics": [
@@ -240,7 +209,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-08-10T14:59:17Z",
-    "updated_at": "2025-09-02T15:29:20Z",
+    "updated_at": "2025-09-04T11:52:06Z",
     "owner": {
       "name": "nalgeon",
       "avatar_url": "https://avatars.githubusercontent.com/u/2946182?v=4"
@@ -251,13 +220,13 @@
     "name": "kbykb/OpenAI-Compatible-API-Proxy-for-Z",
     "url": "https://github.com/kbykb/OpenAI-Compatible-API-Proxy-for-Z",
     "description": "这是一个为 Zai 提供 OpenAI API 兼容接口的代理服务，允许开发者通过标准的 OpenAI API 格式访问 Zai 的 GLM-4.5 模型。",
-    "stars": 144,
-    "forks": 97,
+    "stars": 152,
+    "forks": 107,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-09-01T04:58:29Z",
-    "updated_at": "2025-09-04T01:13:46Z",
+    "updated_at": "2025-09-04T17:32:52Z",
     "owner": {
       "name": "kbykb",
       "avatar_url": "https://avatars.githubusercontent.com/u/107339994?v=4"
@@ -268,7 +237,7 @@
     "name": "jkroepke/access-log-exporter",
     "url": "https://github.com/jkroepke/access-log-exporter",
     "description": "A Prometheus exporter that receives access logs from nginx through the syslog protocol and converts them into metrics.",
-    "stars": 143,
+    "stars": 144,
     "forks": 6,
     "language": "Go",
     "topics": [
@@ -280,7 +249,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-08-11T16:59:42Z",
-    "updated_at": "2025-09-01T06:40:35Z",
+    "updated_at": "2025-09-05T01:07:59Z",
     "owner": {
       "name": "jkroepke",
       "avatar_url": "https://avatars.githubusercontent.com/u/1560587?v=4"
@@ -288,36 +257,16 @@
     "telegraph_url": null
   },
   {
-    "name": "docker/cagent",
-    "url": "https://github.com/docker/cagent",
-    "description": "Agent Builder and Runtime by Docker Engineering",
-    "stars": 137,
-    "forks": 16,
-    "language": "Go",
-    "topics": [
-      "agents",
-      "ai"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-09-01T12:14:45Z",
-    "updated_at": "2025-09-04T02:52:20Z",
-    "owner": {
-      "name": "docker",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5429470?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "Digital-Shane/title-tidy",
     "url": "https://github.com/Digital-Shane/title-tidy",
     "description": "The quickest way to rename acquired shows and movies for use in your media center. ",
-    "stars": 131,
+    "stars": 137,
     "forks": 1,
     "language": "Go",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2025-08-12T23:05:33Z",
-    "updated_at": "2025-09-04T02:32:57Z",
+    "updated_at": "2025-09-05T01:08:42Z",
     "owner": {
       "name": "Digital-Shane",
       "avatar_url": "https://avatars.githubusercontent.com/u/7040929?v=4"
@@ -328,7 +277,7 @@
     "name": "githubnext/gh-aw",
     "url": "https://github.com/githubnext/gh-aw",
     "description": "GitHub Agentic Workflows from GitHub Next",
-    "stars": 98,
+    "stars": 101,
     "forks": 9,
     "language": "Go",
     "topics": [
@@ -336,7 +285,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-08-12T17:40:41Z",
-    "updated_at": "2025-09-04T02:52:07Z",
+    "updated_at": "2025-09-05T01:26:13Z",
     "owner": {
       "name": "githubnext",
       "avatar_url": "https://avatars.githubusercontent.com/u/89615882?v=4"
@@ -344,10 +293,27 @@
     "telegraph_url": null
   },
   {
+    "name": "Gu1llaum-3/sshm",
+    "url": "https://github.com/Gu1llaum-3/sshm",
+    "description": "SSHM is a beautiful command-line tool that transforms how you manage and connect to your SSH hosts. Built with Go and featuring an intuitive TUI interface, it makes SSH connection management effortless and enjoyable.",
+    "stars": 93,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-08-31T20:56:25Z",
+    "updated_at": "2025-09-05T01:41:04Z",
+    "owner": {
+      "name": "Gu1llaum-3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67098259?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "nao1215/filesql",
     "url": "https://github.com/nao1215/filesql",
     "description": "filesql - sql driver for CSV, TSV, LTSV, Parquet, Excel with gzip, bzip2, xz, zstd support.",
-    "stars": 90,
+    "stars": 89,
     "forks": 0,
     "language": "Go",
     "topics": [
@@ -369,7 +335,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-08-23T13:53:01Z",
-    "updated_at": "2025-09-04T02:45:41Z",
+    "updated_at": "2025-09-04T18:59:30Z",
     "owner": {
       "name": "nao1215",
       "avatar_url": "https://avatars.githubusercontent.com/u/22737008?v=4"
@@ -411,16 +377,33 @@
     "telegraph_url": null
   },
   {
+    "name": "libaxuan/ZtoApi",
+    "url": "https://github.com/libaxuan/ZtoApi",
+    "description": "OpenAI兼容API代理 for Z.ai GLM-4.5",
+    "stars": 78,
+    "forks": 44,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-09-02T05:48:02Z",
+    "updated_at": "2025-09-05T02:55:53Z",
+    "owner": {
+      "name": "libaxuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33255877?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "TelemetryHarbor/telemetry-harbor-oss",
     "url": "https://github.com/TelemetryHarbor/telemetry-harbor-oss",
     "description": "Telemetry Harbor OSS is the open-source ingestion and visualization stack behind Telemetry Harbor",
-    "stars": 75,
+    "stars": 77,
     "forks": 5,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-08-27T08:22:01Z",
-    "updated_at": "2025-09-03T18:36:09Z",
+    "updated_at": "2025-09-04T22:08:16Z",
     "owner": {
       "name": "TelemetryHarbor",
       "avatar_url": "https://avatars.githubusercontent.com/u/187952984?v=4"
@@ -431,7 +414,7 @@
     "name": "SebastienMelki/sebuf",
     "url": "https://github.com/SebastienMelki/sebuf",
     "description": "Comprehensive Go protobuf toolkit for building type-safe HTTP APIs with automatic validation, OpenAPI docs, and low number of dependencies",
-    "stars": 74,
+    "stars": 75,
     "forks": 5,
     "language": "Go",
     "topics": [
@@ -454,7 +437,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-08-15T13:15:28Z",
-    "updated_at": "2025-09-03T13:50:32Z",
+    "updated_at": "2025-09-04T12:27:52Z",
     "owner": {
       "name": "SebastienMelki",
       "avatar_url": "https://avatars.githubusercontent.com/u/5787993?v=4"
@@ -462,19 +445,19 @@
     "telegraph_url": null
   },
   {
-    "name": "libaxuan/ZtoApi",
-    "url": "https://github.com/libaxuan/ZtoApi",
-    "description": "OpenAI兼容API代理 for Z.ai GLM-4.5",
-    "stars": 65,
-    "forks": 36,
+    "name": "sammwyy/listnr",
+    "url": "https://github.com/sammwyy/listnr",
+    "description": "TUI/Terminal interactive music player",
+    "stars": 69,
+    "forks": 7,
     "language": "Go",
     "topics": [],
     "license": "No license",
-    "created_at": "2025-09-02T05:48:02Z",
-    "updated_at": "2025-09-04T02:51:28Z",
+    "created_at": "2025-09-02T14:15:29Z",
+    "updated_at": "2025-09-05T02:53:46Z",
     "owner": {
-      "name": "libaxuan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33255877?v=4"
+      "name": "sammwyy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44925968?v=4"
     },
     "telegraph_url": null
   },
@@ -482,7 +465,7 @@
     "name": "ircfspace/masque-plus",
     "url": "https://github.com/ircfspace/masque-plus",
     "description": "A simple Go launcher for usque that handles registration, configuration, and running a SOCKS proxy. Designed for Cloudflare MASQUE protocol usage.",
-    "stars": 64,
+    "stars": 68,
     "forks": 4,
     "language": "Go",
     "topics": [
@@ -498,7 +481,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-08-28T21:21:57Z",
-    "updated_at": "2025-09-03T20:21:29Z",
+    "updated_at": "2025-09-04T21:34:59Z",
     "owner": {
       "name": "ircfspace",
       "avatar_url": "https://avatars.githubusercontent.com/u/128790947?v=4"
@@ -506,36 +489,19 @@
     "telegraph_url": null
   },
   {
-    "name": "sammwyy/listnr",
-    "url": "https://github.com/sammwyy/listnr",
-    "description": "TUI/Terminal interactive music player",
-    "stars": 64,
-    "forks": 7,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-09-02T14:15:29Z",
-    "updated_at": "2025-09-04T01:43:30Z",
-    "owner": {
-      "name": "sammwyy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44925968?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "sahaj-b/wakafetch",
-    "url": "https://github.com/sahaj-b/wakafetch",
-    "description": "Terminal dashboard for your WakaTime/Wakapi coding activity",
-    "stars": 63,
-    "forks": 2,
+    "name": "noperator/slice",
+    "url": "https://github.com/noperator/slice",
+    "description": "SAST + LLM Interprocedural Context Extractor",
+    "stars": 67,
+    "forks": 9,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2025-08-06T10:33:06Z",
-    "updated_at": "2025-09-03T16:54:27Z",
+    "created_at": "2025-08-20T06:21:54Z",
+    "updated_at": "2025-09-05T02:38:25Z",
     "owner": {
-      "name": "sahaj-b",
-      "avatar_url": "https://avatars.githubusercontent.com/u/94101577?v=4"
+      "name": "noperator",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6006772?v=4"
     },
     "telegraph_url": null
   },
@@ -543,7 +509,7 @@
     "name": "VincenzoManto/Datacmd",
     "url": "https://github.com/VincenzoManto/Datacmd",
     "description": "Datacmd is the fastest, coolest way to turn raw data into stunning terminal dashboards. No setup, no fluff — just run a command and boom, your CSV or API becomes a live data experience. ⚡ CLI dashboards have never been this fun.",
-    "stars": 62,
+    "stars": 66,
     "forks": 1,
     "language": "Go",
     "topics": [
@@ -558,7 +524,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-08-19T10:52:25Z",
-    "updated_at": "2025-09-04T01:30:04Z",
+    "updated_at": "2025-09-05T01:23:02Z",
     "owner": {
       "name": "VincenzoManto",
       "avatar_url": "https://avatars.githubusercontent.com/u/64726971?v=4"
@@ -579,23 +545,6 @@
     "owner": {
       "name": "tobilg",
       "avatar_url": "https://avatars.githubusercontent.com/u/1841985?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "noperator/slice",
-    "url": "https://github.com/noperator/slice",
-    "description": "SAST + LLM Interprocedural Context Extractor",
-    "stars": 58,
-    "forks": 7,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-08-20T06:21:54Z",
-    "updated_at": "2025-09-03T21:55:09Z",
-    "owner": {
-      "name": "noperator",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6006772?v=4"
     },
     "telegraph_url": null
   },
@@ -621,6 +570,74 @@
     "owner": {
       "name": "goflash",
       "avatar_url": "https://avatars.githubusercontent.com/u/226514986?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "modom-ofn/auth-portal",
+    "url": "https://github.com/modom-ofn/auth-portal",
+    "description": "Authentication gateway for Plex/Jellyfin/Emby users with SSO access to internal services.",
+    "stars": 53,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-08-20T12:07:18Z",
+    "updated_at": "2025-09-04T11:20:21Z",
+    "owner": {
+      "name": "modom-ofn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47093906?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "chaindead/modup",
+    "url": "https://github.com/chaindead/modup",
+    "description": "Terminal UI for Go dependency updates with outdated module detection and selective upgrading.",
+    "stars": 52,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "go",
+      "go-modules",
+      "golang",
+      "outdated",
+      "outdated-dependencies",
+      "outdated-packages",
+      "outdated-version",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-08-18T15:47:33Z",
+    "updated_at": "2025-09-02T13:06:07Z",
+    "owner": {
+      "name": "chaindead",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190544799?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "unkn0wn-root/cascache",
+    "url": "https://github.com/unkn0wn-root/cascache",
+    "description": "Generation-based CAS cache for Go - read-time validation, self-verifying bulks, pluggable providers/codecs and multi-replica safe via GenStore",
+    "stars": 52,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "bigcache",
+      "cache",
+      "caching",
+      "go",
+      "golang",
+      "redis",
+      "ristretto"
+    ],
+    "license": "Other",
+    "created_at": "2025-08-23T09:29:49Z",
+    "updated_at": "2025-09-05T01:20:18Z",
+    "owner": {
+      "name": "unkn0wn-root",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54364197?v=4"
     },
     "telegraph_url": null
   }
