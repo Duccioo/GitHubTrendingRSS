@@ -1,32 +1,15 @@
 [
   {
-    "name": "Kudaes/MFTool",
-    "url": "https://github.com/Kudaes/MFTool",
-    "description": "Direct access to NTFS volumes",
-    "stars": 226,
-    "forks": 23,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-09-09T08:33:44Z",
-    "updated_at": "2025-09-14T17:23:57Z",
-    "owner": {
-      "name": "Kudaes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9372136?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "tekaratzas/RustGPT",
     "url": "https://github.com/tekaratzas/RustGPT",
     "description": "An transformer based LLM. Written completely in Rust",
-    "stars": 93,
-    "forks": 8,
+    "stars": 1187,
+    "forks": 76,
     "language": "Rust",
     "topics": [],
-    "license": "No license",
+    "license": "MIT License",
     "created_at": "2025-09-13T22:05:55Z",
-    "updated_at": "2025-09-15T03:03:46Z",
+    "updated_at": "2025-09-16T02:55:50Z",
     "owner": {
       "name": "tekaratzas",
       "avatar_url": "https://avatars.githubusercontent.com/u/9121201?v=4"
@@ -34,33 +17,16 @@
     "telegraph_url": null
   },
   {
-    "name": "humblepenguinn/mv",
-    "url": "https://github.com/humblepenguinn/mv",
-    "description": "Real time C++ memory visualization tool built for beginners and students",
-    "stars": 61,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2025-09-09T14:57:19Z",
-    "updated_at": "2025-09-14T19:44:51Z",
-    "owner": {
-      "name": "humblepenguinn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/92458623?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "DavidLiedle/DriftDB",
     "url": "https://github.com/DavidLiedle/DriftDB",
     "description": "DriftDB - An experimental append-only database with built-in time travel. Query any point in history, guaranteed data integrity, and immutable audit trails. Written in Rust.",
-    "stars": 40,
-    "forks": 1,
+    "stars": 97,
+    "forks": 3,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-09-14T16:27:28Z",
-    "updated_at": "2025-09-15T02:29:31Z",
+    "updated_at": "2025-09-15T23:42:01Z",
     "owner": {
       "name": "DavidLiedle",
       "avatar_url": "https://avatars.githubusercontent.com/u/126598?v=4"
@@ -68,28 +34,11 @@
     "telegraph_url": null
   },
   {
-    "name": "ZhiHanZ/sql-parser-demo",
-    "url": "https://github.com/ZhiHanZ/sql-parser-demo",
-    "description": "A demo repo show simple parser design in rust",
-    "stars": 27,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-09-11T07:06:23Z",
-    "updated_at": "2025-09-14T23:53:53Z",
-    "owner": {
-      "name": "ZhiHanZ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25170437?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "h2337/tsink",
     "url": "https://github.com/h2337/tsink",
     "description": "Embedded time-series database for Rust",
-    "stars": 21,
-    "forks": 2,
+    "stars": 74,
+    "forks": 4,
     "language": "Rust",
     "topics": [
       "database",
@@ -97,11 +46,12 @@
       "rust",
       "time-series",
       "timeseries",
-      "timeseries-database"
+      "timeseries-database",
+      "tsdb"
     ],
     "license": "MIT License",
     "created_at": "2025-09-12T21:29:24Z",
-    "updated_at": "2025-09-15T02:35:06Z",
+    "updated_at": "2025-09-16T01:46:55Z",
     "owner": {
       "name": "h2337",
       "avatar_url": "https://avatars.githubusercontent.com/u/43515211?v=4"
@@ -109,19 +59,19 @@
     "telegraph_url": null
   },
   {
-    "name": "ejuro/omado",
-    "url": "https://github.com/ejuro/omado",
-    "description": "A fast, minimal todo application built specifically for Omarchy. Both GUI and CLI interfaces.",
-    "stars": 20,
-    "forks": 2,
+    "name": "ZhiHanZ/sql-parser-demo",
+    "url": "https://github.com/ZhiHanZ/sql-parser-demo",
+    "description": "A demo repo show simple parser design in rust",
+    "stars": 29,
+    "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2025-09-09T19:11:03Z",
-    "updated_at": "2025-09-11T15:58:07Z",
+    "created_at": "2025-09-11T07:06:23Z",
+    "updated_at": "2025-09-15T22:25:34Z",
     "owner": {
-      "name": "ejuro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/172146456?v=4"
+      "name": "ZhiHanZ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25170437?v=4"
     },
     "telegraph_url": null
   },
@@ -168,13 +118,13 @@
     "name": "cgisky1980/rwkv-tts-rs",
     "url": "https://github.com/cgisky1980/rwkv-tts-rs",
     "description": "RWKV-based Text-to-Speech implementation in Rust",
-    "stars": 16,
+    "stars": 17,
     "forks": 3,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2025-09-10T19:40:27Z",
-    "updated_at": "2025-09-14T13:06:14Z",
+    "updated_at": "2025-09-15T12:02:54Z",
     "owner": {
       "name": "cgisky1980",
       "avatar_url": "https://avatars.githubusercontent.com/u/82481660?v=4"
@@ -182,53 +132,36 @@
     "telegraph_url": null
   },
   {
-    "name": "MrFadiAi/Auto-claimer",
-    "url": "https://github.com/MrFadiAi/Auto-claimer",
-    "description": "Tool that auto claim your airdrop / transfer tokens for compromised wallets",
-    "stars": 14,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-09-09T03:55:09Z",
-    "updated_at": "2025-09-12T19:52:15Z",
-    "owner": {
-      "name": "MrFadiAi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73393700?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "datafusion-contrib/datafusion-geo",
-    "url": "https://github.com/datafusion-contrib/datafusion-geo",
-    "description": "Geometry and Geography Support for Apache DataFusion",
-    "stars": 14,
+    "name": "nik-rev/derive-aliases",
+    "url": "https://github.com/nik-rev/derive-aliases",
+    "description": "Very elegant #[derive] aliases for Rust 💖",
+    "stars": 16,
     "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "No license",
-    "created_at": "2025-09-10T20:14:54Z",
-    "updated_at": "2025-09-15T00:29:33Z",
+    "created_at": "2025-09-14T22:24:46Z",
+    "updated_at": "2025-09-16T00:19:09Z",
     "owner": {
-      "name": "datafusion-contrib",
-      "avatar_url": "https://avatars.githubusercontent.com/u/94101791?v=4"
+      "name": "nik-rev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/154856872?v=4"
     },
     "telegraph_url": null
   },
   {
-    "name": "jkcoxson/idevice_mirror",
-    "url": "https://github.com/jkcoxson/idevice_mirror",
-    "description": "Mirror your phone screen to the computer",
-    "stars": 14,
+    "name": "pingora-web/pingora_web",
+    "url": "https://github.com/pingora-web/pingora_web",
+    "description": null,
+    "stars": 16,
     "forks": 1,
     "language": "Rust",
     "topics": [],
-    "license": "No license",
-    "created_at": "2025-09-09T17:58:46Z",
-    "updated_at": "2025-09-13T04:23:52Z",
+    "license": "Apache License 2.0",
+    "created_at": "2025-09-13T18:03:17Z",
+    "updated_at": "2025-09-15T23:29:42Z",
     "owner": {
-      "name": "jkcoxson",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28877351?v=4"
+      "name": "pingora-web",
+      "avatar_url": "https://avatars.githubusercontent.com/u/232101397?v=4"
     },
     "telegraph_url": null
   },
@@ -236,16 +169,33 @@
     "name": "ozvor/tiktok-edata-encryption",
     "url": "https://github.com/ozvor/tiktok-edata-encryption",
     "description": "Encryption & decryption for the 'edata' param used inside tiktok's captcha",
-    "stars": 11,
+    "stars": 15,
     "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2025-09-13T14:42:25Z",
-    "updated_at": "2025-09-15T00:47:59Z",
+    "updated_at": "2025-09-16T01:59:23Z",
     "owner": {
       "name": "ozvor",
       "avatar_url": "https://avatars.githubusercontent.com/u/231108854?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "datafusion-contrib/datafusion-geo",
+    "url": "https://github.com/datafusion-contrib/datafusion-geo",
+    "description": "Geometry and Geography Support for Apache DataFusion",
+    "stars": 15,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-09-10T20:14:54Z",
+    "updated_at": "2025-09-15T23:52:42Z",
+    "owner": {
+      "name": "datafusion-contrib",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94101791?v=4"
     },
     "telegraph_url": null
   },
@@ -263,23 +213,6 @@
     "owner": {
       "name": "panditdhamdhere",
       "avatar_url": "https://avatars.githubusercontent.com/u/85685981?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "pingora-web/pingora_web",
-    "url": "https://github.com/pingora-web/pingora_web",
-    "description": null,
-    "stars": 10,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-09-13T18:03:17Z",
-    "updated_at": "2025-09-15T02:49:52Z",
-    "owner": {
-      "name": "pingora-web",
-      "avatar_url": "https://avatars.githubusercontent.com/u/232101397?v=4"
     },
     "telegraph_url": null
   }
