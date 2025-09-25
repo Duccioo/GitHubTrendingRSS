@@ -1,39 +1,5 @@
 [
   {
-    "name": "kagehq/gpu-kill",
-    "url": "https://github.com/kagehq/gpu-kill",
-    "description": "Manage your GPUs across NVIDIA, AMD, Intel, and Apple Silicon systems.",
-    "stars": 76,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2025-09-18T17:21:38Z",
-    "updated_at": "2025-09-24T02:20:28Z",
-    "owner": {
-      "name": "kagehq",
-      "avatar_url": "https://avatars.githubusercontent.com/u/138626554?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "vaibhawvipul/taper",
-    "url": "https://github.com/vaibhawvipul/taper",
-    "description": "Autodiff in rust",
-    "stars": 46,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-09-18T06:21:22Z",
-    "updated_at": "2025-09-24T02:32:31Z",
-    "owner": {
-      "name": "vaibhawvipul",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10995936?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "nik-rev/culit",
     "url": "https://github.com/nik-rev/culit",
     "description": "Custom literals in Rust",
@@ -51,24 +17,53 @@
     "telegraph_url": null
   },
   {
-    "name": "cola-io/codex-acp",
-    "url": "https://github.com/cola-io/codex-acp",
-    "description": "An Agent Client Protocol (ACP)–compatible agent that bridges the OpenAI Codex runtime with ACP clients over stdio.",
-    "stars": 36,
+    "name": "logannye/space-efficient-zero-knowledge-proofs",
+    "url": "https://github.com/logannye/space-efficient-zero-knowledge-proofs",
+    "description": "Sublinear-space ZKP system in Rust: a streaming prover that uses only O(√T) memory to commit wires/Z/Q via KZG (BN254) with blocked IFFT and aggregate-only Fiat–Shamir. Supports eval/coeff bases, deterministic dev SRS, and pairing checks. Includes CLI prover/verifier and tests.",
+    "stars": 41,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-09-21T17:54:23Z",
+    "updated_at": "2025-09-24T20:36:03Z",
+    "owner": {
+      "name": "logannye",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87274608?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "bahdotsh/blogr",
+    "url": "https://github.com/bahdotsh/blogr",
+    "description": "Write, edit, and publish your blog without ever leaving your terminal!",
+    "stars": 34,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-09-20T04:59:23Z",
+    "updated_at": "2025-09-24T13:09:17Z",
+    "owner": {
+      "name": "bahdotsh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26796930?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "PPakalns/bevy_immediate",
+    "url": "https://github.com/PPakalns/bevy_immediate",
+    "description": "Immediate mode UI library for Bevy, simple and extensible.",
+    "stars": 34,
     "forks": 3,
     "language": "Rust",
-    "topics": [
-      "acp",
-      "agent-client-protocol",
-      "codex",
-      "zed"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-09-18T04:43:16Z",
-    "updated_at": "2025-09-24T00:50:48Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-09-22T07:33:14Z",
+    "updated_at": "2025-09-24T14:44:25Z",
     "owner": {
-      "name": "cola-io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93108940?v=4"
+      "name": "PPakalns",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5494814?v=4"
     },
     "telegraph_url": null
   },
@@ -76,8 +71,8 @@
     "name": "0xTan1319/hyperliquid-trading-bot-rust",
     "url": "https://github.com/0xTan1319/hyperliquid-trading-bot-rust",
     "description": "Hyperliquid Tranding Bot Rust: Automated trading bot, compatible with Hyperliquid DEX",
-    "stars": 34,
-    "forks": 18,
+    "stars": 33,
+    "forks": 19,
     "language": "Rust",
     "topics": [
       "algorithmic-trading",
@@ -93,7 +88,7 @@
     ],
     "license": "No license",
     "created_at": "2025-09-22T08:51:59Z",
-    "updated_at": "2025-09-23T20:37:52Z",
+    "updated_at": "2025-09-25T01:03:17Z",
     "owner": {
       "name": "0xTan1319",
       "avatar_url": "https://avatars.githubusercontent.com/u/45282429?v=4"
@@ -101,45 +96,11 @@
     "telegraph_url": null
   },
   {
-    "name": "bahdotsh/blogr",
-    "url": "https://github.com/bahdotsh/blogr",
-    "description": "Write, edit, and publish your blog without ever leaving your terminal!",
-    "stars": 30,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-09-20T04:59:23Z",
-    "updated_at": "2025-09-24T00:05:12Z",
-    "owner": {
-      "name": "bahdotsh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26796930?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "PPakalns/bevy_immediate",
-    "url": "https://github.com/PPakalns/bevy_immediate",
-    "description": "Immediate mode UI library for Bevy, simple and extensible.",
-    "stars": 29,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-09-22T07:33:14Z",
-    "updated_at": "2025-09-24T02:50:04Z",
-    "owner": {
-      "name": "PPakalns",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5494814?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "ruvnet/sublinear-time-solver",
     "url": "https://github.com/ruvnet/sublinear-time-solver",
     "description": "Rust + WASM sublinear-time solver for asymmetric diagonally dominant systems. Exposes Neumann series, push, and hybrid random-walk algorithms with npm/npx CLI and Flow-Nexus HTTP streaming for swarm cost propagation and verification.",
-    "stars": 24,
-    "forks": 14,
+    "stars": 27,
+    "forks": 15,
     "language": "Rust",
     "topics": [
       "asymmetric-matrices",
@@ -164,7 +125,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-09-19T19:10:19Z",
-    "updated_at": "2025-09-24T02:25:07Z",
+    "updated_at": "2025-09-25T02:52:34Z",
     "owner": {
       "name": "ruvnet",
       "avatar_url": "https://avatars.githubusercontent.com/u/2934394?v=4"
@@ -172,50 +133,16 @@
     "telegraph_url": null
   },
   {
-    "name": "nik-rev/docstr",
-    "url": "https://github.com/nik-rev/docstr",
-    "description": "Ergonomic multi-line string literals",
-    "stars": 21,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-09-18T18:23:50Z",
-    "updated_at": "2025-09-22T18:08:45Z",
-    "owner": {
-      "name": "nik-rev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/154856872?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "aristorechina/arnold_decoder",
-    "url": "https://github.com/aristorechina/arnold_decoder",
-    "description": "一个用于暴力破解猫变换（Arnold's Cat Map）加密图像的命令行工具。",
-    "stars": 19,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-09-21T09:33:17Z",
-    "updated_at": "2025-09-23T05:52:36Z",
-    "owner": {
-      "name": "aristorechina",
-      "avatar_url": "https://avatars.githubusercontent.com/u/81846254?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "emrakyz/xav",
     "url": "https://github.com/emrakyz/xav",
     "description": "eXtreme AOMedia Video: The Most Efficient Chunked or Target Quality AV1/AV2 Encoding Framework",
-    "stars": 19,
+    "stars": 22,
     "forks": 4,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-09-22T23:01:48Z",
-    "updated_at": "2025-09-23T20:35:42Z",
+    "updated_at": "2025-09-24T20:56:11Z",
     "owner": {
       "name": "emrakyz",
       "avatar_url": "https://avatars.githubusercontent.com/u/89175311?v=4"
@@ -223,19 +150,74 @@
     "telegraph_url": null
   },
   {
+    "name": "aristorechina/arnold_decoder",
+    "url": "https://github.com/aristorechina/arnold_decoder",
+    "description": "一个用于暴力破解猫变换（Arnold's Cat Map）加密图像的命令行工具。",
+    "stars": 20,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-09-21T09:33:17Z",
+    "updated_at": "2025-09-25T00:47:24Z",
+    "owner": {
+      "name": "aristorechina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81846254?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "MaazSiddiqi/zen",
     "url": "https://github.com/MaazSiddiqi/zen",
     "description": "A simple command launcher and alias manager",
-    "stars": 15,
+    "stars": 18,
     "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-09-20T16:24:03Z",
-    "updated_at": "2025-09-23T21:12:35Z",
+    "updated_at": "2025-09-24T22:43:44Z",
     "owner": {
       "name": "MaazSiddiqi",
       "avatar_url": "https://avatars.githubusercontent.com/u/96938305?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "jfernandez/mdserve",
+    "url": "https://github.com/jfernandez/mdserve",
+    "description": "Fast markdown preview server with live reload and theme support.",
+    "stars": 17,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-09-22T04:15:44Z",
+    "updated_at": "2025-09-24T18:25:16Z",
+    "owner": {
+      "name": "jfernandez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3172?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "sdiehl/compiler-crates",
+    "url": "https://github.com/sdiehl/compiler-crates",
+    "description": "Minmal examples of crates useful for compiler development",
+    "stars": 16,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "compiler",
+      "parsing",
+      "rust"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-09-23T08:17:58Z",
+    "updated_at": "2025-09-24T22:03:35Z",
+    "owner": {
+      "name": "sdiehl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/236767?v=4"
     },
     "telegraph_url": null
   },
@@ -255,61 +237,10 @@
     ],
     "license": "MIT License",
     "created_at": "2025-09-19T08:45:54Z",
-    "updated_at": "2025-09-23T13:38:18Z",
+    "updated_at": "2025-09-24T18:55:41Z",
     "owner": {
       "name": "juuso",
       "avatar_url": "https://avatars.githubusercontent.com/u/614446?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "bidhan-a/solana-elf-from-scratch",
-    "url": "https://github.com/bidhan-a/solana-elf-from-scratch",
-    "description": "Building a Solana ELF from scratch.",
-    "stars": 14,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-09-18T10:31:47Z",
-    "updated_at": "2025-09-19T14:36:55Z",
-    "owner": {
-      "name": "bidhan-a",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5824659?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "jfernandez/mdserve",
-    "url": "https://github.com/jfernandez/mdserve",
-    "description": "Fast markdown preview server with live reload and theme support.",
-    "stars": 13,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-09-22T04:15:44Z",
-    "updated_at": "2025-09-24T02:38:11Z",
-    "owner": {
-      "name": "jfernandez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3172?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "riverar/physpanel",
-    "url": "https://github.com/riverar/physpanel",
-    "description": "A Windows utility to query and modify the internal panel dimensions reported by the system.",
-    "stars": 13,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-09-18T02:44:07Z",
-    "updated_at": "2025-09-23T18:31:20Z",
-    "owner": {
-      "name": "riverar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/475132?v=4"
     },
     "telegraph_url": null
   },
@@ -327,23 +258,6 @@
     "owner": {
       "name": "yurii-k49",
       "avatar_url": "https://avatars.githubusercontent.com/u/50834641?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "lexrus/xcstrings_mcp",
-    "url": "https://github.com/lexrus/xcstrings_mcp",
-    "description": "A Rust implementation of a Model Context Protocol (MCP) server designed for working with Xcode `Localizable.xcstrings` files.",
-    "stars": 10,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-09-18T15:00:34Z",
-    "updated_at": "2025-09-23T04:51:59Z",
-    "owner": {
-      "name": "lexrus",
-      "avatar_url": "https://avatars.githubusercontent.com/u/219689?v=4"
     },
     "telegraph_url": null
   }
