@@ -20,13 +20,13 @@
     "name": "logannye/space-efficient-zero-knowledge-proofs",
     "url": "https://github.com/logannye/space-efficient-zero-knowledge-proofs",
     "description": "Sublinear-space ZKP system in Rust: a streaming prover that uses only O(√T) memory to commit wires/Z/Q via KZG (BN254) with blocked IFFT and aggregate-only Fiat–Shamir. Supports eval/coeff bases, deterministic dev SRS, and pairing checks. Includes CLI prover/verifier and tests.",
-    "stars": 41,
+    "stars": 43,
     "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2025-09-21T17:54:23Z",
-    "updated_at": "2025-09-24T20:36:03Z",
+    "updated_at": "2025-09-25T12:29:41Z",
     "owner": {
       "name": "logannye",
       "avatar_url": "https://avatars.githubusercontent.com/u/87274608?v=4"
@@ -34,16 +34,33 @@
     "telegraph_url": null
   },
   {
+    "name": "iKeepLearn/db-back-tool",
+    "url": "https://github.com/iKeepLearn/db-back-tool",
+    "description": "postgresql、mysql数据库备份并上传到腾讯云或者阿里云，同时可列出、删除云上存储的备份文件。",
+    "stars": 41,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-09-22T08:49:42Z",
+    "updated_at": "2025-09-26T02:53:10Z",
+    "owner": {
+      "name": "iKeepLearn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38156393?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "bahdotsh/blogr",
     "url": "https://github.com/bahdotsh/blogr",
     "description": "Write, edit, and publish your blog without ever leaving your terminal!",
-    "stars": 34,
-    "forks": 2,
+    "stars": 39,
+    "forks": 3,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-09-20T04:59:23Z",
-    "updated_at": "2025-09-24T13:09:17Z",
+    "updated_at": "2025-09-25T16:08:18Z",
     "owner": {
       "name": "bahdotsh",
       "avatar_url": "https://avatars.githubusercontent.com/u/26796930?v=4"
@@ -54,13 +71,13 @@
     "name": "PPakalns/bevy_immediate",
     "url": "https://github.com/PPakalns/bevy_immediate",
     "description": "Immediate mode UI library for Bevy, simple and extensible.",
-    "stars": 34,
+    "stars": 38,
     "forks": 3,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-09-22T07:33:14Z",
-    "updated_at": "2025-09-24T14:44:25Z",
+    "updated_at": "2025-09-25T23:35:11Z",
     "owner": {
       "name": "PPakalns",
       "avatar_url": "https://avatars.githubusercontent.com/u/5494814?v=4"
@@ -71,8 +88,8 @@
     "name": "0xTan1319/hyperliquid-trading-bot-rust",
     "url": "https://github.com/0xTan1319/hyperliquid-trading-bot-rust",
     "description": "Hyperliquid Tranding Bot Rust: Automated trading bot, compatible with Hyperliquid DEX",
-    "stars": 33,
-    "forks": 19,
+    "stars": 30,
+    "forks": 22,
     "language": "Rust",
     "topics": [
       "algorithmic-trading",
@@ -88,7 +105,7 @@
     ],
     "license": "No license",
     "created_at": "2025-09-22T08:51:59Z",
-    "updated_at": "2025-09-25T01:03:17Z",
+    "updated_at": "2025-09-25T13:38:34Z",
     "owner": {
       "name": "0xTan1319",
       "avatar_url": "https://avatars.githubusercontent.com/u/45282429?v=4"
@@ -96,56 +113,36 @@
     "telegraph_url": null
   },
   {
-    "name": "ruvnet/sublinear-time-solver",
-    "url": "https://github.com/ruvnet/sublinear-time-solver",
-    "description": "Rust + WASM sublinear-time solver for asymmetric diagonally dominant systems. Exposes Neumann series, push, and hybrid random-walk algorithms with npm/npx CLI and Flow-Nexus HTTP streaming for swarm cost propagation and verification.",
-    "stars": 27,
-    "forks": 15,
-    "language": "Rust",
-    "topics": [
-      "asymmetric-matrices",
-      "conjugate-gradient-method",
-      "diagonally-dominant",
-      "distributed-solvers",
-      "edge-computing-algorithms",
-      "graph-laplacian",
-      "iterative-solvers",
-      "mcp-tools",
-      "model-context-protocol",
-      "network-flow-optimization",
-      "neumann-series",
-      "numerical-linear-algebra",
-      "pagerank-algorithm",
-      "rust-wasm",
-      "scientific-computing",
-      "sparse-linear-solver",
-      "sparse-matrix-computation",
-      "sublinear-algorithms",
-      "temporal-computing"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-09-19T19:10:19Z",
-    "updated_at": "2025-09-25T02:52:34Z",
-    "owner": {
-      "name": "ruvnet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2934394?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "emrakyz/xav",
     "url": "https://github.com/emrakyz/xav",
     "description": "eXtreme AOMedia Video: The Most Efficient Chunked or Target Quality AV1/AV2 Encoding Framework",
-    "stars": 22,
+    "stars": 24,
     "forks": 4,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-09-22T23:01:48Z",
-    "updated_at": "2025-09-24T20:56:11Z",
+    "updated_at": "2025-09-26T02:21:05Z",
     "owner": {
       "name": "emrakyz",
       "avatar_url": "https://avatars.githubusercontent.com/u/89175311?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "jfernandez/mdserve",
+    "url": "https://github.com/jfernandez/mdserve",
+    "description": "Fast markdown preview server with live reload and theme support.",
+    "stars": 23,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-09-22T04:15:44Z",
+    "updated_at": "2025-09-25T16:47:52Z",
+    "owner": {
+      "name": "jfernandez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3172?v=4"
     },
     "telegraph_url": null
   },
@@ -167,6 +164,27 @@
     "telegraph_url": null
   },
   {
+    "name": "sdiehl/compiler-crates",
+    "url": "https://github.com/sdiehl/compiler-crates",
+    "description": "Minimal examples of crates useful for compiler development",
+    "stars": 20,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "compiler",
+      "parsing",
+      "rust"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-09-23T08:17:58Z",
+    "updated_at": "2025-09-25T18:48:35Z",
+    "owner": {
+      "name": "sdiehl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/236767?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "MaazSiddiqi/zen",
     "url": "https://github.com/MaazSiddiqi/zen",
     "description": "A simple command launcher and alias manager",
@@ -184,69 +202,48 @@
     "telegraph_url": null
   },
   {
-    "name": "jfernandez/mdserve",
-    "url": "https://github.com/jfernandez/mdserve",
-    "description": "Fast markdown preview server with live reload and theme support.",
-    "stars": 17,
+    "name": "agata/hootvoice",
+    "url": "https://github.com/agata/hootvoice",
+    "description": "HootVoice records your microphone and transcribes speech to text in real time using Whisper. It ships a simple floating toolbar and a settings UI with model/download management, device controls, and a user dictionary.",
+    "stars": 12,
     "forks": 1,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2025-09-22T04:15:44Z",
-    "updated_at": "2025-09-24T18:25:16Z",
+    "created_at": "2025-09-24T15:28:43Z",
+    "updated_at": "2025-09-26T02:28:00Z",
     "owner": {
-      "name": "jfernandez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3172?v=4"
+      "name": "agata",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40473?v=4"
     },
     "telegraph_url": null
   },
   {
-    "name": "sdiehl/compiler-crates",
-    "url": "https://github.com/sdiehl/compiler-crates",
-    "description": "Minmal examples of crates useful for compiler development",
-    "stars": 16,
+    "name": "lispking/taskflow-rs",
+    "url": "https://github.com/lispking/taskflow-rs",
+    "description": "A modern, async task processing framework written in Rust for building scalable workflow systems with support for multiple task types, dependency management, and distributed execution.",
+    "stars": 12,
     "forks": 1,
     "language": "Rust",
     "topics": [
-      "compiler",
-      "parsing",
-      "rust"
+      "async",
+      "distributed",
+      "scheduler",
+      "task",
+      "workflow"
     ],
-    "license": "MIT License",
-    "created_at": "2025-09-23T08:17:58Z",
-    "updated_at": "2025-09-24T22:03:35Z",
+    "license": "Apache License 2.0",
+    "created_at": "2025-09-20T17:37:37Z",
+    "updated_at": "2025-09-25T17:31:31Z",
     "owner": {
-      "name": "sdiehl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/236767?v=4"
+      "name": "lispking",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4446580?v=4"
     },
     "telegraph_url": null
   },
   {
-    "name": "juuso/gigawatt",
-    "url": "https://github.com/juuso/gigawatt",
-    "description": "An opinionated theme-aware shell prompt",
-    "stars": 14,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "bash-prompt",
-      "fish-prompt",
-      "rust",
-      "shell-prompt",
-      "zsh-prompt"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-09-19T08:45:54Z",
-    "updated_at": "2025-09-24T18:55:41Z",
-    "owner": {
-      "name": "juuso",
-      "avatar_url": "https://avatars.githubusercontent.com/u/614446?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "yurii-k49/ApeX-Raffle-program",
-    "url": "https://github.com/yurii-k49/ApeX-Raffle-program",
+    "name": "rainbow49/ApeX-Raffle-program",
+    "url": "https://github.com/rainbow49/ApeX-Raffle-program",
     "description": null,
     "stars": 10,
     "forks": 0,
@@ -256,8 +253,25 @@
     "created_at": "2025-09-22T00:42:38Z",
     "updated_at": "2025-09-23T13:50:02Z",
     "owner": {
-      "name": "yurii-k49",
+      "name": "rainbow49",
       "avatar_url": "https://avatars.githubusercontent.com/u/50834641?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "katex-rs/katex-rs",
+    "url": "https://github.com/katex-rs/katex-rs",
+    "description": "KaTeX-rs is a Rust implementation of [KaTeX](https://github.com/KaTeX/KaTeX), providing fast mathematical typesetting capabilities, not limited to Javascript environments.",
+    "stars": 10,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-09-23T09:06:55Z",
+    "updated_at": "2025-09-25T15:57:58Z",
+    "owner": {
+      "name": "katex-rs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/233937030?v=4"
     },
     "telegraph_url": null
   }
