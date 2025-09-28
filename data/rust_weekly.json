@@ -3,13 +3,13 @@
     "name": "iKeepLearn/db-back-tool",
     "url": "https://github.com/iKeepLearn/db-back-tool",
     "description": "postgresql、mysql数据库备份并上传到腾讯云或者阿里云或兼容S3协议的其他云存储，同时可列出、删除云上存储的备份文件。",
-    "stars": 89,
-    "forks": 5,
+    "stars": 116,
+    "forks": 7,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2025-09-22T08:49:42Z",
-    "updated_at": "2025-09-27T02:27:01Z",
+    "updated_at": "2025-09-28T02:33:51Z",
     "owner": {
       "name": "iKeepLearn",
       "avatar_url": "https://avatars.githubusercontent.com/u/38156393?v=4"
@@ -17,19 +17,24 @@
     "telegraph_url": null
   },
   {
-    "name": "nik-rev/culit",
-    "url": "https://github.com/nik-rev/culit",
-    "description": "Custom literals in Rust",
-    "stars": 45,
-    "forks": 0,
+    "name": "0xflux/Wyrm",
+    "url": "https://github.com/0xflux/Wyrm",
+    "description": " The dragon in the dark. A red team post exploitation framework for testing security controls during red team assessments. ",
+    "stars": 84,
+    "forks": 9,
     "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-09-21T13:19:13Z",
-    "updated_at": "2025-09-23T22:02:14Z",
+    "topics": [
+      "c2",
+      "pentest",
+      "pentesting",
+      "red-team"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-09-25T16:41:37Z",
+    "updated_at": "2025-09-28T02:50:52Z",
     "owner": {
-      "name": "nik-rev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/154856872?v=4"
+      "name": "0xflux",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49762827?v=4"
     },
     "telegraph_url": null
   },
@@ -37,7 +42,7 @@
     "name": "0xTan1319/hyperliquid-trading-bot-rust",
     "url": "https://github.com/0xTan1319/hyperliquid-trading-bot-rust",
     "description": "Hyperliquid Tranding Bot Rust: Automated trading bot, compatible with Hyperliquid DEX",
-    "stars": 44,
+    "stars": 62,
     "forks": 25,
     "language": "Rust",
     "topics": [
@@ -54,7 +59,7 @@
     ],
     "license": "No license",
     "created_at": "2025-09-22T08:51:59Z",
-    "updated_at": "2025-09-27T01:05:13Z",
+    "updated_at": "2025-09-27T17:17:24Z",
     "owner": {
       "name": "0xTan1319",
       "avatar_url": "https://avatars.githubusercontent.com/u/45282429?v=4"
@@ -62,33 +67,16 @@
     "telegraph_url": null
   },
   {
-    "name": "logannye/space-efficient-zero-knowledge-proofs",
-    "url": "https://github.com/logannye/space-efficient-zero-knowledge-proofs",
-    "description": "Sublinear-space ZKP system in Rust: a streaming prover that uses only O(√T) memory to commit wires/Z/Q via KZG (BN254) with blocked IFFT and aggregate-only Fiat–Shamir. Supports eval/coeff bases, deterministic dev SRS, and pairing checks. Includes CLI prover/verifier and tests.",
-    "stars": 43,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-09-21T17:54:23Z",
-    "updated_at": "2025-09-25T12:29:41Z",
-    "owner": {
-      "name": "logannye",
-      "avatar_url": "https://avatars.githubusercontent.com/u/87274608?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "PPakalns/bevy_immediate",
     "url": "https://github.com/PPakalns/bevy_immediate",
     "description": "Immediate mode UI library for Bevy, simple and extensible.",
-    "stars": 39,
+    "stars": 42,
     "forks": 3,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-09-22T07:33:14Z",
-    "updated_at": "2025-09-26T17:37:15Z",
+    "updated_at": "2025-09-28T01:27:02Z",
     "owner": {
       "name": "PPakalns",
       "avatar_url": "https://avatars.githubusercontent.com/u/5494814?v=4"
@@ -96,33 +84,16 @@
     "telegraph_url": null
   },
   {
-    "name": "0xflux/Wyrm",
-    "url": "https://github.com/0xflux/Wyrm",
-    "description": " The dragon in the dark. The best defence, is a good offense. A red team post exploitation framework for testing security controls during red team assessments. ",
-    "stars": 33,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-09-25T16:41:37Z",
-    "updated_at": "2025-09-27T02:48:38Z",
-    "owner": {
-      "name": "0xflux",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49762827?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "jfernandez/mdserve",
     "url": "https://github.com/jfernandez/mdserve",
     "description": "Fast markdown preview server with live reload and theme support.",
-    "stars": 25,
-    "forks": 1,
+    "stars": 39,
+    "forks": 2,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-09-22T04:15:44Z",
-    "updated_at": "2025-09-26T14:44:01Z",
+    "updated_at": "2025-09-28T03:05:54Z",
     "owner": {
       "name": "jfernandez",
       "avatar_url": "https://avatars.githubusercontent.com/u/3172?v=4"
@@ -133,13 +104,13 @@
     "name": "emrakyz/xav",
     "url": "https://github.com/emrakyz/xav",
     "description": "eXtreme AOMedia Video: The Most Efficient Chunked or Target Quality AV1/AV2 Encoding Framework",
-    "stars": 24,
+    "stars": 25,
     "forks": 4,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-09-22T23:01:48Z",
-    "updated_at": "2025-09-26T20:06:22Z",
+    "updated_at": "2025-09-27T15:02:00Z",
     "owner": {
       "name": "emrakyz",
       "avatar_url": "https://avatars.githubusercontent.com/u/89175311?v=4"
@@ -168,33 +139,16 @@
     "telegraph_url": null
   },
   {
-    "name": "aristorechina/arnold_decoder",
-    "url": "https://github.com/aristorechina/arnold_decoder",
-    "description": "一个用于暴力破解猫变换（Arnold's Cat Map）加密图像的命令行工具。",
-    "stars": 20,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-09-21T09:33:17Z",
-    "updated_at": "2025-09-25T00:47:24Z",
-    "owner": {
-      "name": "aristorechina",
-      "avatar_url": "https://avatars.githubusercontent.com/u/81846254?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "agata/hootvoice",
     "url": "https://github.com/agata/hootvoice",
     "description": "HootVoice records your microphone and transcribes speech to text in real time using Whisper. It ships a simple floating toolbar and a settings UI with model/download management, device controls, and a user dictionary.",
-    "stars": 16,
+    "stars": 18,
     "forks": 1,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-09-24T15:28:43Z",
-    "updated_at": "2025-09-27T01:45:56Z",
+    "updated_at": "2025-09-27T07:05:47Z",
     "owner": {
       "name": "agata",
       "avatar_url": "https://avatars.githubusercontent.com/u/40473?v=4"
@@ -205,7 +159,7 @@
     "name": "synacktiv/appledb_rs",
     "url": "https://github.com/synacktiv/appledb_rs",
     "description": "Apple artifacts database - Mirror of https://github.com/cocool97/appledb_rs",
-    "stars": 15,
+    "stars": 16,
     "forks": 0,
     "language": "Rust",
     "topics": [
@@ -216,10 +170,44 @@
     ],
     "license": "No license",
     "created_at": "2025-09-24T14:29:53Z",
-    "updated_at": "2025-09-26T17:08:22Z",
+    "updated_at": "2025-09-27T08:46:08Z",
     "owner": {
       "name": "synacktiv",
       "avatar_url": "https://avatars.githubusercontent.com/u/50145679?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "AprDeci/WxReader-fish",
+    "url": "https://github.com/AprDeci/WxReader-fish",
+    "description": "基于Pake的微信阅读摸鱼应用",
+    "stars": 12,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-09-26T06:01:30Z",
+    "updated_at": "2025-09-28T02:54:11Z",
+    "owner": {
+      "name": "AprDeci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53986661?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "Seyud/FreePPS",
+    "url": "https://github.com/Seyud/FreePPS",
+    "description": "启用搭载澎湃 P1、P2 芯片机型的公版 PPS 支持",
+    "stars": 12,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-09-24T10:02:44Z",
+    "updated_at": "2025-09-28T01:41:48Z",
+    "owner": {
+      "name": "Seyud",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97807424?v=4"
     },
     "telegraph_url": null
   },
@@ -258,28 +246,11 @@
     "telegraph_url": null
   },
   {
-    "name": "Seyud/FreePPS",
-    "url": "https://github.com/Seyud/FreePPS",
-    "description": "启用搭载澎湃 P1、P2 芯片机型的公版 PPS 支持",
-    "stars": 10,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-09-24T10:02:44Z",
-    "updated_at": "2025-09-26T16:40:19Z",
-    "owner": {
-      "name": "Seyud",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97807424?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "0xfnzero/sol-parser-sdk",
     "url": "https://github.com/0xfnzero/sol-parser-sdk",
     "description": "A lightweight Rust library providing efficient event parsing and subscription capabilities for PumpFun, PumpSwap, Bonk, and Raydium protocols.",
     "stars": 10,
-    "forks": 1,
+    "forks": 2,
     "language": "Rust",
     "topics": [
       "bonk",
@@ -301,7 +272,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-09-22T06:57:54Z",
-    "updated_at": "2025-09-27T00:13:52Z",
+    "updated_at": "2025-09-27T16:20:45Z",
     "owner": {
       "name": "0xfnzero",
       "avatar_url": "https://avatars.githubusercontent.com/u/2081812?v=4"
