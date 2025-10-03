@@ -3,15 +3,15 @@
     "name": "plutov/oq",
     "url": "https://github.com/plutov/oq",
     "description": "Terminal OpenAPI Spec viewer",
-    "stars": 723,
-    "forks": 12,
+    "stars": 814,
+    "forks": 13,
     "language": "Go",
     "topics": [
       "hacktoberfest"
     ],
     "license": "MIT License",
     "created_at": "2025-09-12T14:04:46Z",
-    "updated_at": "2025-10-01T18:41:06Z",
+    "updated_at": "2025-10-03T01:06:55Z",
     "owner": {
       "name": "plutov",
       "avatar_url": "https://avatars.githubusercontent.com/u/1124859?v=4"
@@ -19,10 +19,34 @@
     "telegraph_url": null
   },
   {
+    "name": "go-kratos/blades",
+    "url": "https://github.com/go-kratos/blades",
+    "description": "Blades is a Go-based multimodal AI Agent framework.",
+    "stars": 478,
+    "forks": 49,
+    "language": "Go",
+    "topics": [
+      "agent",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "golang",
+      "workflow"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-09-15T16:43:22Z",
+    "updated_at": "2025-10-03T00:05:30Z",
+    "owner": {
+      "name": "go-kratos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62791634?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "subnetmarco/pgmcp",
     "url": "https://github.com/subnetmarco/pgmcp",
     "description": "An MCP server to query any Postgres database in natural language.",
-    "stars": 473,
+    "stars": 475,
     "forks": 48,
     "language": "Go",
     "topics": [
@@ -41,43 +65,19 @@
     ],
     "license": "Other",
     "created_at": "2025-09-16T19:45:03Z",
-    "updated_at": "2025-10-01T13:25:32Z",
+    "updated_at": "2025-10-02T18:18:21Z",
     "owner": {
       "name": "subnetmarco",
       "avatar_url": "https://avatars.githubusercontent.com/u/964813?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---subnetmarcopgmcp-10-02"
-  },
-  {
-    "name": "go-kratos/blades",
-    "url": "https://github.com/go-kratos/blades",
-    "description": "Blades is a Go-based multimodal AI Agent framework.",
-    "stars": 464,
-    "forks": 45,
-    "language": "Go",
-    "topics": [
-      "agent",
-      "agentic-framework",
-      "agentic-workflow",
-      "ai",
-      "golang",
-      "workflow"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-09-15T16:43:22Z",
-    "updated_at": "2025-10-02T02:21:39Z",
-    "owner": {
-      "name": "go-kratos",
-      "avatar_url": "https://avatars.githubusercontent.com/u/62791634?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---go-kratosblades-10-02"
+    "telegraph_url": null
   },
   {
     "name": "DeprecatedLuar/better-curl-saul",
     "url": "https://github.com/DeprecatedLuar/better-curl-saul",
     "description": "Did you know you have rights? The FOSS says you do... Better Curl Saul is my homemade CLI 'http client' to make api reusability simple.",
     "stars": 216,
-    "forks": 5,
+    "forks": 6,
     "language": "Go",
     "topics": [
       "api",
@@ -95,7 +95,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-09-18T09:00:50Z",
-    "updated_at": "2025-10-01T19:30:15Z",
+    "updated_at": "2025-10-02T13:21:37Z",
     "owner": {
       "name": "DeprecatedLuar",
       "avatar_url": "https://avatars.githubusercontent.com/u/204733951?v=4"
@@ -106,7 +106,7 @@
     "name": "tailscale/tsidp",
     "url": "https://github.com/tailscale/tsidp",
     "description": "A simple OIDC / OAuth Identity Provider (IdP) server for your tailnet.",
-    "stars": 153,
+    "stars": 157,
     "forks": 8,
     "language": "Go",
     "topics": [
@@ -119,7 +119,7 @@
     ],
     "license": "BSD 3-Clause \"New\" or \"Revised\" License",
     "created_at": "2025-09-05T16:49:35Z",
-    "updated_at": "2025-10-01T20:34:58Z",
+    "updated_at": "2025-10-02T21:42:27Z",
     "owner": {
       "name": "tailscale",
       "avatar_url": "https://avatars.githubusercontent.com/u/48932923?v=4"
@@ -130,24 +130,49 @@
     "name": "bingcicle/friendly-potato",
     "url": "https://github.com/bingcicle/friendly-potato",
     "description": "jsonl-tool",
-    "stars": 153,
+    "stars": 152,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-09-29T15:09:04Z",
-    "updated_at": "2025-10-01T09:39:02Z",
+    "updated_at": "2025-10-02T14:02:06Z",
     "owner": {
       "name": "bingcicle",
       "avatar_url": "https://avatars.githubusercontent.com/u/161196769?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---bingciclefriendly-potato-10-02-2"
+    "telegraph_url": null
+  },
+  {
+    "name": "unkn0wn-root/resterm",
+    "url": "https://github.com/unkn0wn-root/resterm",
+    "description": "Terminal REST client for .http/.rest files with HTTP, GraphQL, and gRPC support.",
+    "stars": 146,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "go",
+      "golang",
+      "rest",
+      "rest-api",
+      "rest-client",
+      "tui",
+      "tui-app"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2025-09-30T11:47:23Z",
+    "updated_at": "2025-10-03T01:32:47Z",
+    "owner": {
+      "name": "unkn0wn-root",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54364197?v=4"
+    },
+    "telegraph_url": null
   },
   {
     "name": "Print3M/ByteCaster",
     "url": "https://github.com/Print3M/ByteCaster",
     "description": "Swiss Army Knife for payload encryption, obfuscation, and conversion to byte arrays – all in a single command (14 output formats supported)! ☢️",
-    "stars": 124,
+    "stars": 127,
     "forks": 20,
     "language": "Go",
     "topics": [
@@ -168,24 +193,24 @@
     ],
     "license": "No license",
     "created_at": "2025-09-17T14:45:28Z",
-    "updated_at": "2025-10-01T19:55:18Z",
+    "updated_at": "2025-10-02T13:51:52Z",
     "owner": {
       "name": "Print3M",
       "avatar_url": "https://avatars.githubusercontent.com/u/92022497?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---Print3MByteCaster-10-02"
+    "telegraph_url": null
   },
   {
     "name": "PrathxmOp/dab-downloader",
     "url": "https://github.com/PrathxmOp/dab-downloader",
     "description": "A powerful, modular music downloader that delivers high-quality FLAC files with comprehensive metadata support through the DAB API.",
-    "stars": 120,
+    "stars": 121,
     "forks": 5,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-09-13T23:36:48Z",
-    "updated_at": "2025-10-02T00:00:04Z",
+    "updated_at": "2025-10-03T02:32:54Z",
     "owner": {
       "name": "PrathxmOp",
       "avatar_url": "https://avatars.githubusercontent.com/u/185752095?v=4"
@@ -207,7 +232,29 @@
       "name": "faroedev",
       "avatar_url": "https://avatars.githubusercontent.com/u/229860927?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---faroedevfaroe-10-02"
+    "telegraph_url": null
+  },
+  {
+    "name": "strandnerd/tunn",
+    "url": "https://github.com/strandnerd/tunn",
+    "description": "SSH tunnels made simple: Launch and monitor SSH tunnels from a single YAML config and your existing OpenSSH setup.",
+    "stars": 103,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "golang",
+      "ssh",
+      "ssh-tunnel",
+      "tunneling"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-09-23T03:13:27Z",
+    "updated_at": "2025-10-02T20:22:06Z",
+    "owner": {
+      "name": "strandnerd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/222114332?v=4"
+    },
+    "telegraph_url": null
   },
   {
     "name": "deriv-security/MeetC2",
@@ -224,29 +271,7 @@
       "name": "deriv-security",
       "avatar_url": "https://avatars.githubusercontent.com/u/230177297?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---deriv-securityMeetC2-10-02"
-  },
-  {
-    "name": "strandnerd/tunn",
-    "url": "https://github.com/strandnerd/tunn",
-    "description": "SSH tunnels made simple: Launch and monitor SSH tunnels from a single YAML config and your existing OpenSSH setup.",
-    "stars": 102,
-    "forks": 2,
-    "language": "Go",
-    "topics": [
-      "golang",
-      "ssh",
-      "ssh-tunnel",
-      "tunneling"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-09-23T03:13:27Z",
-    "updated_at": "2025-10-01T21:55:00Z",
-    "owner": {
-      "name": "strandnerd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/222114332?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---strandnerdtunn-10-02"
+    "telegraph_url": null
   },
   {
     "name": "Rodert/go-commons",
@@ -266,27 +291,10 @@
     "telegraph_url": null
   },
   {
-    "name": "dunglas/frankenphp-grpc",
-    "url": "https://github.com/dunglas/frankenphp-grpc",
-    "description": " A PHP extension to write gRPC servers using the official gRPC library written in Go ",
-    "stars": 78,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-09-15T13:46:34Z",
-    "updated_at": "2025-09-24T17:32:40Z",
-    "owner": {
-      "name": "dunglas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57224?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---dunglasfrankenphp-grpc-10-02"
-  },
-  {
     "name": "itzCozi/devbox",
     "url": "https://github.com/itzCozi/devbox",
     "description": "Create and manage isolated development environments using Docker with ease.",
-    "stars": 76,
+    "stars": 81,
     "forks": 2,
     "language": "Go",
     "topics": [
@@ -302,29 +310,46 @@
     ],
     "license": "MIT License",
     "created_at": "2025-09-16T21:43:21Z",
-    "updated_at": "2025-10-02T02:34:42Z",
+    "updated_at": "2025-10-02T23:51:40Z",
     "owner": {
       "name": "itzCozi",
       "avatar_url": "https://avatars.githubusercontent.com/u/93058744?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---itzCozidevbox-10-02"
+    "telegraph_url": null
+  },
+  {
+    "name": "dunglas/frankenphp-grpc",
+    "url": "https://github.com/dunglas/frankenphp-grpc",
+    "description": " A PHP extension to write gRPC servers using the official gRPC library written in Go ",
+    "stars": 78,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-09-15T13:46:34Z",
+    "updated_at": "2025-09-24T17:32:40Z",
+    "owner": {
+      "name": "dunglas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57224?v=4"
+    },
+    "telegraph_url": null
   },
   {
     "name": "KingOfBugbounty/s3tk",
     "url": "https://github.com/KingOfBugbounty/s3tk",
     "description": null,
-    "stars": 76,
+    "stars": 75,
     "forks": 18,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-09-13T00:05:26Z",
-    "updated_at": "2025-09-29T05:18:56Z",
+    "updated_at": "2025-10-02T11:36:11Z",
     "owner": {
       "name": "KingOfBugbounty",
       "avatar_url": "https://avatars.githubusercontent.com/u/28729614?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---KingOfBugbountys3tk-10-02"
+    "telegraph_url": null
   },
   {
     "name": "sshllm/sshai",
@@ -348,6 +373,23 @@
     "telegraph_url": null
   },
   {
+    "name": "VirtueSecurity/IAMhounddog",
+    "url": "https://github.com/VirtueSecurity/IAMhounddog",
+    "description": "A tool to help pentesters quickly identify privileged principals and second-order privilege escalation opportunities in unfamiliar AWS accounts.",
+    "stars": 68,
+    "forks": 6,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-09-12T19:37:53Z",
+    "updated_at": "2025-10-02T20:16:45Z",
+    "owner": {
+      "name": "VirtueSecurity",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15305548?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "btouchard/ackify-ce",
     "url": "https://github.com/btouchard/ackify-ce",
     "description": "Proof of Read. Compliance made simple.",
@@ -357,7 +399,7 @@
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2025-09-10T15:08:38Z",
-    "updated_at": "2025-10-01T16:53:53Z",
+    "updated_at": "2025-10-02T20:37:10Z",
     "owner": {
       "name": "btouchard",
       "avatar_url": "https://avatars.githubusercontent.com/u/4984372?v=4"
@@ -365,27 +407,46 @@
     "telegraph_url": null
   },
   {
-    "name": "unkn0wn-root/resterm",
-    "url": "https://github.com/unkn0wn-root/resterm",
-    "description": "Terminal REST client for .http/.rest files with HTTP, GraphQL, and gRPC support.",
-    "stars": 64,
+    "name": "chinmay-sawant/gomindmapper",
+    "url": "https://github.com/chinmay-sawant/gomindmapper",
+    "description": "Mind Mapper for Go (Might make it language agnostic in future)",
+    "stars": 65,
     "forks": 1,
     "language": "Go",
     "topics": [
-      "go",
-      "golang",
-      "rest",
-      "rest-api",
-      "rest-client",
-      "tui",
-      "tui-app"
+      "code-visualization",
+      "go-code-visualizer",
+      "go-visualizer",
+      "mindmap",
+      "mindmap-visualizer",
+      "visualizer"
     ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-09-30T11:47:23Z",
-    "updated_at": "2025-10-02T02:14:46Z",
+    "license": "MIT License",
+    "created_at": "2025-09-17T18:43:05Z",
+    "updated_at": "2025-10-02T15:55:57Z",
     "owner": {
-      "name": "unkn0wn-root",
-      "avatar_url": "https://avatars.githubusercontent.com/u/54364197?v=4"
+      "name": "chinmay-sawant",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28671172?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "home-operations/tuppr",
+    "url": "https://github.com/home-operations/tuppr",
+    "description": "Kubernetes controller to upgrade Talos and Kubernetes",
+    "stars": 64,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "kubernetes",
+      "talos"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2025-09-16T22:01:48Z",
+    "updated_at": "2025-10-02T17:31:32Z",
+    "owner": {
+      "name": "home-operations",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152294696?v=4"
     },
     "telegraph_url": null
   },
@@ -438,26 +499,6 @@
     "telegraph_url": null
   },
   {
-    "name": "home-operations/tuppr",
-    "url": "https://github.com/home-operations/tuppr",
-    "description": "Kubernetes controller to upgrade Talos and Kubernetes",
-    "stars": 62,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "kubernetes",
-      "talos"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2025-09-16T22:01:48Z",
-    "updated_at": "2025-10-01T14:05:42Z",
-    "owner": {
-      "name": "home-operations",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152294696?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "fengyumeng1/kernel-lab",
     "url": "https://github.com/fengyumeng1/kernel-lab",
     "description": "Migrated repository from migrated-repo",
@@ -475,26 +516,36 @@
     "telegraph_url": null
   },
   {
-    "name": "chinmay-sawant/gomindmapper",
-    "url": "https://github.com/chinmay-sawant/gomindmapper",
-    "description": "Mind Mapper for Go (Might make it language agnostic in future)",
-    "stars": 58,
-    "forks": 1,
+    "name": "belindagardy/circuit-flow",
+    "url": "https://github.com/belindagardy/circuit-flow",
+    "description": "Migrated repository from migrated-repo",
+    "stars": 59,
+    "forks": 0,
     "language": "Go",
-    "topics": [
-      "code-visualization",
-      "go-code-visualizer",
-      "go-visualizer",
-      "mindmap",
-      "mindmap-visualizer",
-      "visualizer"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-09-17T18:43:05Z",
-    "updated_at": "2025-10-01T11:08:00Z",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2025-09-29T05:12:08Z",
+    "updated_at": "2025-10-02T15:49:44Z",
     "owner": {
-      "name": "chinmay-sawant",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28671172?v=4"
+      "name": "belindagardy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/122521667?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "beankeji-cloud/SLiteIO",
+    "url": "https://github.com/beankeji-cloud/SLiteIO",
+    "description": "SLiteIO is a cloud-native block storage solution for Kubernetes, using LVM and SPDK to provide both local volumes and high-performance NVMe-oF remote volumes. Its minimal I/O path delivers excellent performance even with standard SSDs, enabling dynamic block device provisioning in hyper-converged clusters.",
+    "stars": 59,
+    "forks": 6,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-09-26T02:18:16Z",
+    "updated_at": "2025-10-02T16:45:08Z",
+    "owner": {
+      "name": "beankeji-cloud",
+      "avatar_url": "https://avatars.githubusercontent.com/u/204121575?v=4"
     },
     "telegraph_url": null
   },
@@ -512,23 +563,6 @@
     "owner": {
       "name": "lahomafonseca",
       "avatar_url": "https://avatars.githubusercontent.com/u/118583462?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "belindagardy/circuit-flow",
-    "url": "https://github.com/belindagardy/circuit-flow",
-    "description": "Migrated repository from migrated-repo",
-    "stars": 58,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2025-09-29T05:12:08Z",
-    "updated_at": "2025-09-29T09:05:20Z",
-    "owner": {
-      "name": "belindagardy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/122521667?v=4"
     },
     "telegraph_url": null
   },
@@ -574,23 +608,6 @@
     "telegraph_url": null
   },
   {
-    "name": "VirtueSecurity/IAMhounddog",
-    "url": "https://github.com/VirtueSecurity/IAMhounddog",
-    "description": "A tool to help pentesters quickly identify privileged principals and second-order privilege escalation opportunities in unfamiliar AWS accounts.",
-    "stars": 55,
-    "forks": 6,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-09-12T19:37:53Z",
-    "updated_at": "2025-10-02T01:51:33Z",
-    "owner": {
-      "name": "VirtueSecurity",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15305548?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "sahaj-b/sound-of-sort",
     "url": "https://github.com/sahaj-b/sound-of-sort",
     "description": "Sorting visualizer with image support and sonification",
@@ -604,23 +621,6 @@
     "owner": {
       "name": "sahaj-b",
       "avatar_url": "https://avatars.githubusercontent.com/u/94101577?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "GlennBrooka/orbit-stack",
-    "url": "https://github.com/GlennBrooka/orbit-stack",
-    "description": "Migrated repository from migrated-repo",
-    "stars": 54,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-09-29T02:22:15Z",
-    "updated_at": "2025-09-29T04:11:01Z",
-    "owner": {
-      "name": "GlennBrooka",
-      "avatar_url": "https://avatars.githubusercontent.com/u/172977285?v=4"
     },
     "telegraph_url": null
   }
