@@ -1,35 +1,24 @@
 [
   {
-    "name": "brk0v/trixter",
-    "url": "https://github.com/brk0v/trixter",
-    "description": "Trixter Proxy + tokio-netem: chaos engineering tools for Rust networking",
-    "stars": 43,
-    "forks": 2,
+    "name": "state-machines/state-machines-rs",
+    "url": "https://github.com/state-machines/state-machines-rs",
+    "description": "Compile-time state machine DSL for Rust, inspired by the Ruby state_machines gem.",
+    "stars": 54,
+    "forks": 0,
     "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-10-05T20:17:55Z",
-    "updated_at": "2025-10-11T02:18:03Z",
-    "owner": {
-      "name": "brk0v",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47447?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "nik-rev/displaystr",
-    "url": "https://github.com/nik-rev/displaystr",
-    "description": "Ergonomically implement the `Display` trait",
-    "stars": 38,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
+    "topics": [
+      "embedded",
+      "no-std",
+      "procedural-macro",
+      "rust",
+      "state-machines"
+    ],
     "license": "Apache License 2.0",
-    "created_at": "2025-10-05T04:03:10Z",
-    "updated_at": "2025-10-10T00:03:21Z",
+    "created_at": "2025-10-08T21:33:46Z",
+    "updated_at": "2025-10-12T01:30:02Z",
     "owner": {
-      "name": "nik-rev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/154856872?v=4"
+      "name": "state-machines",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7613709?v=4"
     },
     "telegraph_url": null
   },
@@ -37,7 +26,7 @@
     "name": "Mic92/direnv-instant",
     "url": "https://github.com/Mic92/direnv-instant",
     "description": "Non-blocking direnv integration daemon with tmux support that provides instant shell prompts by running direnv asynchronously in the background.",
-    "stars": 35,
+    "stars": 37,
     "forks": 0,
     "language": "Rust",
     "topics": [
@@ -45,7 +34,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-10-08T14:23:20Z",
-    "updated_at": "2025-10-10T15:25:48Z",
+    "updated_at": "2025-10-11T22:35:07Z",
     "owner": {
       "name": "Mic92",
       "avatar_url": "https://avatars.githubusercontent.com/u/96200?v=4"
@@ -53,33 +42,16 @@
     "telegraph_url": null
   },
   {
-    "name": "byebye-code/byebyecode",
-    "url": "https://github.com/byebye-code/byebyecode",
-    "description": "88code的Claude增强statusline，基于CCometixLine开发",
-    "stars": 27,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-10-05T02:19:33Z",
-    "updated_at": "2025-10-10T11:06:36Z",
-    "owner": {
-      "name": "byebye-code",
-      "avatar_url": "https://avatars.githubusercontent.com/u/234212774?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "vnxfsc/fourmeme_parser_sdk",
     "url": "https://github.com/vnxfsc/fourmeme_parser_sdk",
     "description": "A powerful Rust SDK for real-time listening and parsing Fourmeme contract events on BSC, with automatic tracking of token lifecycle from launch to DEX.",
-    "stars": 23,
-    "forks": 13,
+    "stars": 25,
+    "forks": 16,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-10-08T19:42:55Z",
-    "updated_at": "2025-10-10T17:04:37Z",
+    "updated_at": "2025-10-12T01:08:57Z",
     "owner": {
       "name": "vnxfsc",
       "avatar_url": "https://avatars.githubusercontent.com/u/40782902?v=4"
@@ -110,10 +82,27 @@
     "telegraph_url": null
   },
   {
+    "name": "timschmidt/egui-rad-builder",
+    "url": "https://github.com/timschmidt/egui-rad-builder",
+    "description": "Tool for quickly designing egui user interfaces",
+    "stars": 22,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-10-10T06:21:23Z",
+    "updated_at": "2025-10-12T03:01:27Z",
+    "owner": {
+      "name": "timschmidt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/273202?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "azeezabass2005/quickicon",
     "url": "https://github.com/azeezabass2005/quickicon",
     "description": "Transform SVG files into React components instantly from your clipboard, local files, or remote URLs.",
-    "stars": 16,
+    "stars": 17,
     "forks": 1,
     "language": "Rust",
     "topics": [
@@ -128,7 +117,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-10-06T00:01:13Z",
-    "updated_at": "2025-10-09T07:21:49Z",
+    "updated_at": "2025-10-11T05:41:07Z",
     "owner": {
       "name": "azeezabass2005",
       "avatar_url": "https://avatars.githubusercontent.com/u/117828916?v=4"
@@ -136,42 +125,19 @@
     "telegraph_url": null
   },
   {
-    "name": "state-machines/state-machines-rs",
-    "url": "https://github.com/state-machines/state-machines-rs",
-    "description": "Compile-time state machine DSL for Rust, inspired by the Ruby state_machines gem.",
+    "name": "UOR-Foundation/atlas-embeddings",
+    "url": "https://github.com/UOR-Foundation/atlas-embeddings",
+    "description": null,
     "stars": 15,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "embedded",
-      "no-std",
-      "procedural-macro",
-      "rust",
-      "state-machines"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-10-08T21:33:46Z",
-    "updated_at": "2025-10-11T02:38:28Z",
-    "owner": {
-      "name": "state-machines",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7613709?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "timschmidt/egui-rad-builder",
-    "url": "https://github.com/timschmidt/egui-rad-builder",
-    "description": "Tool for quickly designing egui user interfaces",
-    "stars": 13,
     "forks": 1,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2025-10-10T06:21:23Z",
-    "updated_at": "2025-10-11T00:37:05Z",
+    "created_at": "2025-10-07T05:39:58Z",
+    "updated_at": "2025-10-12T01:10:08Z",
     "owner": {
-      "name": "timschmidt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/273202?v=4"
+      "name": "UOR-Foundation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152028902?v=4"
     },
     "telegraph_url": null
   },
@@ -206,6 +172,27 @@
     "owner": {
       "name": "benthecarman",
       "avatar_url": "https://avatars.githubusercontent.com/u/15256660?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "Anapaya/scion-sdk",
+    "url": "https://github.com/Anapaya/scion-sdk",
+    "description": "Supercharge your applications with SCION's path-aware networking capabilities!",
+    "stars": 10,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "internet",
+      "networking",
+      "scion"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2025-10-07T15:34:59Z",
+    "updated_at": "2025-10-11T20:46:05Z",
+    "owner": {
+      "name": "Anapaya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29568863?v=4"
     },
     "telegraph_url": null
   }
