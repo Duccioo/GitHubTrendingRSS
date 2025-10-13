@@ -3,7 +3,7 @@
     "name": "state-machines/state-machines-rs",
     "url": "https://github.com/state-machines/state-machines-rs",
     "description": "Compile-time state machine DSL for Rust, inspired by the Ruby state_machines gem.",
-    "stars": 54,
+    "stars": 77,
     "forks": 0,
     "language": "Rust",
     "topics": [
@@ -15,7 +15,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-10-08T21:33:46Z",
-    "updated_at": "2025-10-12T01:30:02Z",
+    "updated_at": "2025-10-13T03:06:58Z",
     "owner": {
       "name": "state-machines",
       "avatar_url": "https://avatars.githubusercontent.com/u/7613709?v=4"
@@ -23,47 +23,11 @@
     "telegraph_url": null
   },
   {
-    "name": "Mic92/direnv-instant",
-    "url": "https://github.com/Mic92/direnv-instant",
-    "description": "Non-blocking direnv integration daemon with tmux support that provides instant shell prompts by running direnv asynchronously in the background.",
-    "stars": 37,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "build-with-buildbot"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-10-08T14:23:20Z",
-    "updated_at": "2025-10-11T22:35:07Z",
-    "owner": {
-      "name": "Mic92",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96200?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "vnxfsc/fourmeme_parser_sdk",
-    "url": "https://github.com/vnxfsc/fourmeme_parser_sdk",
-    "description": "A powerful Rust SDK for real-time listening and parsing Fourmeme contract events on BSC, with automatic tracking of token lifecycle from launch to DEX.",
-    "stars": 25,
-    "forks": 16,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-10-08T19:42:55Z",
-    "updated_at": "2025-10-12T01:08:57Z",
-    "owner": {
-      "name": "vnxfsc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40782902?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "factoryDAO/four.meme.trading.bot",
     "url": "https://github.com/factoryDAO/four.meme.trading.bot",
     "description": "four.meme Volume & Sniper Bot — 终极的 BNB 链 meme 代币工具，用于在 four.meme 发射台上制造交易量、秒抢（sniping）、跟单（copy-trading）、批量捆绑与流动性自动化。开源、Rust 驱动 —— 自动狙击新币、产生有机交易量，并跟踪/复制盈利钱包，助你在 BNB 智能链上抢占先机",
-    "stars": 22,
-    "forks": 5,
+    "stars": 66,
+    "forks": 6,
     "language": "Rust",
     "topics": [
       "fourmeme",
@@ -74,7 +38,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-10-07T23:45:34Z",
-    "updated_at": "2025-10-10T17:31:28Z",
+    "updated_at": "2025-10-13T01:17:00Z",
     "owner": {
       "name": "factoryDAO",
       "avatar_url": "https://avatars.githubusercontent.com/u/234996056?v=4"
@@ -82,16 +46,90 @@
     "telegraph_url": null
   },
   {
+    "name": "Mic92/direnv-instant",
+    "url": "https://github.com/Mic92/direnv-instant",
+    "description": "Non-blocking direnv integration daemon with tmux support that provides instant shell prompts by running direnv asynchronously in the background.",
+    "stars": 41,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "build-with-buildbot"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-10-08T14:23:20Z",
+    "updated_at": "2025-10-13T01:00:07Z",
+    "owner": {
+      "name": "Mic92",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96200?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "Frontrunx/solana-pumpfunx-sniper-bot",
+    "url": "https://github.com/Frontrunx/solana-pumpfunx-sniper-bot",
+    "description": "Get fast, precise results with a combined Solana sniper bot and Solana trading bot. Acting as a volume bot Solana, it uses Pump.fun bundler support and MEV front-run logic. Try all features and validate your crypto sniper strategy safely.",
+    "stars": 31,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "ai-trading",
+      "ai-trading-bot",
+      "ai-trading-bots",
+      "bundler-bot",
+      "crypto-bot",
+      "crypto-trading-bot",
+      "grpc",
+      "mev",
+      "mev-bot-solana",
+      "pumpfun-bot",
+      "raydium",
+      "raydium-bot",
+      "snipe-bot",
+      "solana",
+      "solana-memecoin-sniper-bot",
+      "solana-mev-bot",
+      "solana-sniper-bot",
+      "solana-trading-bot",
+      "volume-bot",
+      "volume-bot-solana"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-10-08T01:35:37Z",
+    "updated_at": "2025-10-13T03:05:31Z",
+    "owner": {
+      "name": "Frontrunx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55723573?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "vnxfsc/fourmeme_parser_sdk",
+    "url": "https://github.com/vnxfsc/fourmeme_parser_sdk",
+    "description": "A powerful Rust SDK for real-time listening and parsing Fourmeme contract events on BSC, with automatic tracking of token lifecycle from launch to DEX.",
+    "stars": 29,
+    "forks": 16,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-10-08T19:42:55Z",
+    "updated_at": "2025-10-13T01:24:31Z",
+    "owner": {
+      "name": "vnxfsc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40782902?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "timschmidt/egui-rad-builder",
     "url": "https://github.com/timschmidt/egui-rad-builder",
     "description": "Tool for quickly designing egui user interfaces",
-    "stars": 22,
+    "stars": 27,
     "forks": 2,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-10-10T06:21:23Z",
-    "updated_at": "2025-10-12T03:01:27Z",
+    "updated_at": "2025-10-12T23:43:45Z",
     "owner": {
       "name": "timschmidt",
       "avatar_url": "https://avatars.githubusercontent.com/u/273202?v=4"
@@ -99,28 +137,36 @@
     "telegraph_url": null
   },
   {
-    "name": "azeezabass2005/quickicon",
-    "url": "https://github.com/azeezabass2005/quickicon",
-    "description": "Transform SVG files into React components instantly from your clipboard, local files, or remote URLs.",
-    "stars": 17,
+    "name": "0xSero/codex-local",
+    "url": "https://github.com/0xSero/codex-local",
+    "description": "A modified Codex CLI application built to support local LLMs",
+    "stars": 16,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-10-12T08:21:29Z",
+    "updated_at": "2025-10-13T01:07:29Z",
+    "owner": {
+      "name": "0xSero",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69639595?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "blueshift-gg/sbpf-linker",
+    "url": "https://github.com/blueshift-gg/sbpf-linker",
+    "description": "An upstream BPF linker for SBPF V0 programs",
+    "stars": 16,
     "forks": 1,
     "language": "Rust",
-    "topics": [
-      "cli-app",
-      "developer-tool",
-      "reactjs",
-      "rust",
-      "rust-cli",
-      "svg",
-      "svg-icons",
-      "typescript"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-10-06T00:01:13Z",
-    "updated_at": "2025-10-11T05:41:07Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-10-11T06:48:21Z",
+    "updated_at": "2025-10-12T21:59:44Z",
     "owner": {
-      "name": "azeezabass2005",
-      "avatar_url": "https://avatars.githubusercontent.com/u/117828916?v=4"
+      "name": "blueshift-gg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194624326?v=4"
     },
     "telegraph_url": null
   },
@@ -142,6 +188,23 @@
     "telegraph_url": null
   },
   {
+    "name": "benthecarman/spark-invoice-doxxer",
+    "url": "https://github.com/benthecarman/spark-invoice-doxxer",
+    "description": null,
+    "stars": 13,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-10-08T15:34:12Z",
+    "updated_at": "2025-10-12T19:13:32Z",
+    "owner": {
+      "name": "benthecarman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15256660?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "Mac-XK/WarpGo",
     "url": "https://github.com/Mac-XK/WarpGo",
     "description": "基于 Tauri、Rust 和 Vue 3 构建的现代化 Warp 账户管理工具。",
@@ -159,19 +222,36 @@
     "telegraph_url": null
   },
   {
-    "name": "benthecarman/spark-invoice-doxxer",
-    "url": "https://github.com/benthecarman/spark-invoice-doxxer",
+    "name": "llc-993/sa-token-rust",
+    "url": "https://github.com/llc-993/sa-token-rust",
+    "description": "一个轻量级 Java 权限认证框架，让鉴权变得简单、优雅！—— 登录认证、权限认证、分布式Session会话、微服务网关鉴权、单点登录、OAuth2.0",
+    "stars": 11,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2025-10-11T02:14:19Z",
+    "updated_at": "2025-10-13T02:27:56Z",
+    "owner": {
+      "name": "llc-993",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116716194?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "blueshift-gg/upstream-pinocchio-escrow",
+    "url": "https://github.com/blueshift-gg/upstream-pinocchio-escrow",
     "description": null,
-    "stars": 12,
+    "stars": 11,
     "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "No license",
-    "created_at": "2025-10-08T15:34:12Z",
-    "updated_at": "2025-10-09T14:11:39Z",
+    "created_at": "2025-10-11T11:15:04Z",
+    "updated_at": "2025-10-12T22:00:02Z",
     "owner": {
-      "name": "benthecarman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15256660?v=4"
+      "name": "blueshift-gg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194624326?v=4"
     },
     "telegraph_url": null
   },
