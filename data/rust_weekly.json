@@ -1,115 +1,42 @@
 [
   {
-    "name": "state-machines/state-machines-rs",
-    "url": "https://github.com/state-machines/state-machines-rs",
-    "description": "Compile-time state machine DSL for Rust, inspired by the Ruby state_machines gem.",
-    "stars": 88,
+    "name": "42futures/firm",
+    "url": "https://github.com/42futures/firm",
+    "description": "A text-based work management system for technologists.",
+    "stars": 40,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "business",
+      "cli",
+      "dsl",
+      "firm",
+      "graph",
+      "work"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2025-10-10T11:42:37Z",
+    "updated_at": "2025-10-15T01:36:43Z",
+    "owner": {
+      "name": "42futures",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64900505?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "hotchpotch/fast-bunkai",
+    "url": "https://github.com/hotchpotch/fast-bunkai",
+    "description": "Japanese sentence splitting(日本語文境界判定器), 40–250× faster via a Rust-accelerated Python library with near-perfect API   compatibility with megagonlabs/bunkai.",
+    "stars": 33,
     "forks": 1,
     "language": "Rust",
-    "topics": [
-      "embedded",
-      "no-std",
-      "procedural-macro",
-      "rust",
-      "state-machines"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-10-08T21:33:46Z",
-    "updated_at": "2025-10-13T17:26:23Z",
-    "owner": {
-      "name": "state-machines",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7613709?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "Mic92/direnv-instant",
-    "url": "https://github.com/Mic92/direnv-instant",
-    "description": "Non-blocking direnv integration daemon with tmux support that provides instant shell prompts by running direnv asynchronously in the background.",
-    "stars": 42,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "build-with-buildbot"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-10-08T14:23:20Z",
-    "updated_at": "2025-10-13T14:44:02Z",
-    "owner": {
-      "name": "Mic92",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96200?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "vnxfsc/fourmeme_parser_sdk",
-    "url": "https://github.com/vnxfsc/fourmeme_parser_sdk",
-    "description": "A powerful Rust SDK for real-time listening and parsing Fourmeme contract events on BSC, with automatic tracking of token lifecycle from launch to DEX.",
-    "stars": 31,
-    "forks": 18,
-    "language": "Rust",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-10-08T19:42:55Z",
-    "updated_at": "2025-10-13T13:15:35Z",
+    "license": "No license",
+    "created_at": "2025-10-10T22:50:39Z",
+    "updated_at": "2025-10-15T02:57:19Z",
     "owner": {
-      "name": "vnxfsc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40782902?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "timschmidt/egui-rad-builder",
-    "url": "https://github.com/timschmidt/egui-rad-builder",
-    "description": "Tool for quickly designing egui user interfaces",
-    "stars": 28,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-10-10T06:21:23Z",
-    "updated_at": "2025-10-13T08:54:51Z",
-    "owner": {
-      "name": "timschmidt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/273202?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "Frontrunx/solana-pumpfunx-sniper-bot",
-    "url": "https://github.com/Frontrunx/solana-pumpfunx-sniper-bot",
-    "description": "Get fast, precise results with a combined Solana sniper bot and Solana trading bot. Acting as a volume bot Solana, it uses Pump.fun bundler support and MEV front-run logic. Try all features and validate your crypto sniper strategy safely.",
-    "stars": 24,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [
-      "ai-trading",
-      "ai-trading-bot",
-      "ai-trading-bots",
-      "bundler-bot",
-      "crypto-bot",
-      "crypto-trading-bot",
-      "grpc",
-      "mev",
-      "mev-bot-solana",
-      "pumpfun-bot",
-      "raydium",
-      "raydium-bot",
-      "snipe-bot",
-      "solana",
-      "solana-memecoin-sniper-bot",
-      "solana-mev-bot",
-      "solana-sniper-bot",
-      "solana-trading-bot",
-      "volume-bot",
-      "volume-bot-solana"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-10-08T01:35:37Z",
-    "updated_at": "2025-10-13T08:09:01Z",
-    "owner": {
-      "name": "Frontrunx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55723573?v=4"
+      "name": "hotchpotch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3500?v=4"
     },
     "telegraph_url": null
   },
@@ -117,13 +44,13 @@
     "name": "danielbeach/drainage",
     "url": "https://github.com/danielbeach/drainage",
     "description": "Rust + Python Lake House Health Analyzer | Detect • Diagnose • Optimize • Flow ",
-    "stars": 21,
-    "forks": 0,
+    "stars": 31,
+    "forks": 1,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-10-09T23:53:33Z",
-    "updated_at": "2025-10-14T01:41:01Z",
+    "updated_at": "2025-10-14T19:49:27Z",
     "owner": {
       "name": "danielbeach",
       "avatar_url": "https://avatars.githubusercontent.com/u/34192225?v=4"
@@ -131,16 +58,33 @@
     "telegraph_url": null
   },
   {
+    "name": "timschmidt/egui-rad-builder",
+    "url": "https://github.com/timschmidt/egui-rad-builder",
+    "description": "Tool for quickly designing egui user interfaces",
+    "stars": 30,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-10-10T06:21:23Z",
+    "updated_at": "2025-10-14T21:42:29Z",
+    "owner": {
+      "name": "timschmidt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/273202?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "0xSero/codex-local",
     "url": "https://github.com/0xSero/codex-local",
     "description": "A modified Codex CLI application built to support local LLMs",
-    "stars": 18,
+    "stars": 21,
     "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-10-12T08:21:29Z",
-    "updated_at": "2025-10-13T07:39:27Z",
+    "updated_at": "2025-10-15T01:57:43Z",
     "owner": {
       "name": "0xSero",
       "avatar_url": "https://avatars.githubusercontent.com/u/69639595?v=4"
@@ -151,16 +95,33 @@
     "name": "llc-993/sa-token-rust",
     "url": "https://github.com/llc-993/sa-token-rust",
     "description": "一个轻量级 Java 权限认证框架，让鉴权变得简单、优雅！—— 登录认证、权限认证、分布式Session会话、微服务网关鉴权、单点登录、OAuth2.0",
-    "stars": 18,
+    "stars": 19,
     "forks": 2,
     "language": "Rust",
     "topics": [],
     "license": "Other",
     "created_at": "2025-10-11T02:14:19Z",
-    "updated_at": "2025-10-14T02:51:19Z",
+    "updated_at": "2025-10-14T03:12:39Z",
     "owner": {
       "name": "llc-993",
       "avatar_url": "https://avatars.githubusercontent.com/u/116716194?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "fjmurcia/orderbook-rust",
+    "url": "https://github.com/fjmurcia/orderbook-rust",
+    "description": "high-performance orderbook engine in Rust with microsecond latency",
+    "stars": 19,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-10-13T12:21:32Z",
+    "updated_at": "2025-10-15T01:31:19Z",
+    "owner": {
+      "name": "fjmurcia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14927763?v=4"
     },
     "telegraph_url": null
   },
@@ -182,19 +143,25 @@
     "telegraph_url": null
   },
   {
-    "name": "benthecarman/spark-invoice-doxxer",
-    "url": "https://github.com/benthecarman/spark-invoice-doxxer",
-    "description": null,
-    "stars": 13,
-    "forks": 0,
+    "name": "devmobasa/hyprmarker",
+    "url": "https://github.com/devmobasa/hyprmarker",
+    "description": "Annotation tool (ZoomIt inspired) for Hyprland",
+    "stars": 12,
+    "forks": 1,
     "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-10-08T15:34:12Z",
-    "updated_at": "2025-10-12T19:13:32Z",
+    "topics": [
+      "annotations",
+      "arch-linux",
+      "hyprland",
+      "omarchy",
+      "zoomit"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-10-13T21:36:14Z",
+    "updated_at": "2025-10-14T23:41:49Z",
     "owner": {
-      "name": "benthecarman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15256660?v=4"
+      "name": "devmobasa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4170275?v=4"
     },
     "telegraph_url": null
   },
@@ -216,27 +183,10 @@
     "telegraph_url": null
   },
   {
-    "name": "knowledgenoise/gfw-helper",
-    "url": "https://github.com/knowledgenoise/gfw-helper",
-    "description": null,
-    "stars": 11,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-10-10T10:35:44Z",
-    "updated_at": "2025-10-13T09:28:34Z",
-    "owner": {
-      "name": "knowledgenoise",
-      "avatar_url": "https://avatars.githubusercontent.com/u/228426698?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "tesserato/Inscribe",
     "url": "https://github.com/tesserato/Inscribe",
     "description": "Markdown preprocessor that runs code fences",
-    "stars": 10,
+    "stars": 12,
     "forks": 0,
     "language": "Rust",
     "topics": [
@@ -246,10 +196,44 @@
     ],
     "license": "MIT License",
     "created_at": "2025-10-11T11:31:26Z",
-    "updated_at": "2025-10-13T15:25:01Z",
+    "updated_at": "2025-10-14T11:55:22Z",
     "owner": {
       "name": "tesserato",
       "avatar_url": "https://avatars.githubusercontent.com/u/29524323?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "knowledgenoise/gfw-helper",
+    "url": "https://github.com/knowledgenoise/gfw-helper",
+    "description": null,
+    "stars": 11,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-10-10T10:35:44Z",
+    "updated_at": "2025-10-14T08:32:09Z",
+    "owner": {
+      "name": "knowledgenoise",
+      "avatar_url": "https://avatars.githubusercontent.com/u/228426698?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "ellenhp/auditlm",
+    "url": "https://github.com/ellenhp/auditlm",
+    "description": "Self-hostable AI code review for your Forgejo",
+    "stars": 10,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2025-10-11T20:49:25Z",
+    "updated_at": "2025-10-14T10:57:53Z",
+    "owner": {
+      "name": "ellenhp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1936763?v=4"
     },
     "telegraph_url": null
   }
