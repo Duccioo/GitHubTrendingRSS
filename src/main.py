@@ -1,7 +1,7 @@
 # Importa le librerie necessarie
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import json
 from dotenv import load_dotenv
 import pathlib
@@ -24,10 +24,11 @@ import website
 from config import TIMEOUT, LANGUAGE, PERIOD
 
 
-def generate_all_feeds(limit=30):
+def generate_all_feeds(limit=30, max_days=14):
     """
-    Generates Atom feeds for all languages and time periods
+    Generates Atom feeds for all languages and time periods,
     and saves them in the 'feeds' folder.
+    Older entries are pruned based on max_days.
     """
     # Definisci l'URL base per i tuoi feed
     base_feed_url = (
@@ -124,30 +125,63 @@ def generate_all_feeds(limit=30):
                             ) as f_json_old:
                                 previous_repos_data = json.load(f_json_old)
 
-                            added_from_history_count = 0
-                            for old_repo in previous_repos_data:
-                                # Aggiungi il vecchio repository solo se ha un URL e non è già presente
-                                # nella lista dei repository correnti (per evitare duplicati).
-                                if (
-                                    "html_url" in old_repo
-                                    and old_repo["html_url"] not in processed_repo_urls
-                                ):
-                                    final_repos_for_feed.append(old_repo)
-                                    processed_repo_urls.add(
-                                        old_repo["html_url"]
-                                    )  # Segna come processato
-                                    added_from_history_count += 1
-                            if added_from_history_count > 0:
+                            # Filtra i vecchi repository e mantieni solo quelli
+                            # che sono stati aggiornati negli ultimi `max_days` giorni.
+                            filtered_previous_repos = []
+                            repos_to_keep = []
+
+                            if max_days > 0:
+                                time_threshold = datetime.now(
+                                    timezone.utc
+                                ) - timedelta(days=max_days)
+                                for repo in previous_repos_data:
+                                    updated_at_str = repo.get("updated_at")
+                                    if updated_at_str:
+                                        try:
+                                            # Converte la data in un oggetto datetime con timezone
+                                            updated_at_dt = datetime.fromisoformat(
+                                                updated_at_str.replace("Z", "+00:00")
+                                            )
+                                            if updated_at_dt > time_threshold:
+                                                repos_to_keep.append(repo)
+                                        except ValueError:
+                                            # Ignora i repo con formati di data non validi
+                                            continue
+                                # Logica per aggiungere i repository storici filtrati
+                                added_from_history_count = 0
+                                for old_repo in repos_to_keep:
+                                    if (
+                                        "html_url" in old_repo
+                                        and old_repo["html_url"]
+                                        not in processed_repo_urls
+                                    ):
+                                        final_repos_for_feed.append(old_repo)
+                                        processed_repo_urls.add(old_repo["html_url"])
+                                        added_from_history_count += 1
+
+                                # Messaggio di log per i repository scartati
+                                discarded_count = len(previous_repos_data) - len(
+                                    repos_to_keep
+                                )
+                                if discarded_count > 0:
+                                    logging.info(
+                                        f"Scartati {discarded_count} repository storici perché più vecchi di {max_days} giorni."
+                                    )
+                                if added_from_history_count > 0:
+                                    logging.info(
+                                        f"Aggiunti {added_from_history_count} repository storici da {trending_json_path}."
+                                    )
+                            else:
                                 logging.info(
-                                    f"Aggiunti {added_from_history_count} repository storici da {trending_json_path} per {language} ({period})."
+                                    "La conservazione dei dati storici è disabilitata (max_days=0)."
                                 )
                         except json.JSONDecodeError:
                             logging.warning(
-                                f"Impossibile decodificare il file JSON storico {trending_json_path} per {language} ({period}). Il feed non sarà arricchito con dati storici da questo file."
+                                f"Impossibile decodificare il file JSON storico {trending_json_path}. Il feed non sarà arricchito."
                             )
                         except Exception as e:
                             logging.warning(
-                                f"Errore durante la lettura del file JSON storico {trending_json_path} per {language} ({period}): {e}. Il feed non sarà arricchito."
+                                f"Errore durante la lettura o il filtraggio del file JSON storico {trending_json_path}: {e}"
                             )
 
                     # Opzionale: ordina la lista finale. Ad esempio, per numero di stelle (decrescente).
@@ -159,14 +193,14 @@ def generate_all_feeds(limit=30):
                         )
                     # --- Fine logica per feed cumulativo ---
 
-                    # Salva la lista aggiornata e potenzialmente cumulativa di repository nel file JSON.
-                    # Questo file JSON ora funge da "database" per i repository di questo feed.
+                    # Salva la lista aggiornata e filtrata di repository nel file JSON.
+                    # Questo file JSON funge da "database" per i prossimi aggiornamenti.
                     with open(trending_json_path, "w", encoding="utf-8") as file:
                         json.dump(
                             final_repos_for_feed, file, ensure_ascii=False, indent=2
                         )
                     logging.info(
-                        f"Dati dei repository ({len(final_repos_for_feed)} totali) salvati in {trending_json_path}"
+                        f"Dati dei repository ({len(final_repos_for_feed)} totali) aggiornati e salvati in {trending_json_path}"
                     )
 
                     # Generate RSS feed
