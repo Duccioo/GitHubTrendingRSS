@@ -1,9 +1,32 @@
 [
   {
+    "name": "dennisyang1986/getk",
+    "url": "https://github.com/dennisyang1986/getk",
+    "description": "一个基于长桥证券接口（LongPort OpenAPI）的抓取工具，按配置批量抓取指定股票在指定日期的历史 K 线并写入 PostgreSQL。支持多只股票、多日期、去重插入、进度显示。",
+    "stars": 79,
+    "forks": 11,
+    "language": "Go",
+    "topics": [
+      "stock-analysis",
+      "stock-data",
+      "stock-market",
+      "stocks",
+      "stocks-api"
+    ],
+    "license": "No license",
+    "created_at": "2025-10-25T17:19:29Z",
+    "updated_at": "2025-10-28T02:35:40Z",
+    "owner": {
+      "name": "dennisyang1986",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12760701?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "rt5555/vryxen",
     "url": "https://github.com/rt5555/vryxen",
     "description": "Next-Gen Stealer written in Go. Stealing from Chromium-Based & Firefox-Based Browsers, Crypto Wallets and more, from every user on every disk.",
-    "stars": 77,
+    "stars": 76,
     "forks": 0,
     "language": "Go",
     "topics": [
@@ -27,7 +50,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-10-25T17:01:15Z",
-    "updated_at": "2025-10-27T02:47:12Z",
+    "updated_at": "2025-10-28T02:31:23Z",
     "owner": {
       "name": "rt5555",
       "avatar_url": "https://avatars.githubusercontent.com/u/211995583?v=4"
@@ -35,21 +58,27 @@
     "telegraph_url": null
   },
   {
-    "name": "guigui42/mcp-vosdroits",
-    "url": "https://github.com/guigui42/mcp-vosdroits",
-    "description": "Serveur MCP pour Service Public Vos Droits",
-    "stars": 66,
-    "forks": 7,
+    "name": "platform-engineering-labs/formae",
+    "url": "https://github.com/platform-engineering-labs/formae",
+    "description": "Infrastructure-as-Code Platform Built for the Future",
+    "stars": 60,
+    "forks": 4,
     "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-10-21T16:54:38Z",
-    "updated_at": "2025-10-26T22:02:21Z",
+    "topics": [
+      "devops",
+      "iac",
+      "infrastructure-as-code",
+      "platform-engineering",
+      "sre"
+    ],
+    "license": "No license",
+    "created_at": "2025-10-22T00:00:55Z",
+    "updated_at": "2025-10-27T23:46:27Z",
     "owner": {
-      "name": "guigui42",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2376010?v=4"
+      "name": "platform-engineering-labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/185366587?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---guigui42mcp-vosdroits-10-27"
+    "telegraph_url": null
   },
   {
     "name": "MarioF-dev/server-query-fake-player-count",
@@ -76,7 +105,7 @@
     ],
     "license": "No license",
     "created_at": "2025-10-23T04:22:27Z",
-    "updated_at": "2025-10-27T02:28:53Z",
+    "updated_at": "2025-10-28T02:37:47Z",
     "owner": {
       "name": "MarioF-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/61386232?v=4"
@@ -84,160 +113,53 @@
     "telegraph_url": null
   },
   {
-    "name": "platform-engineering-labs/formae",
-    "url": "https://github.com/platform-engineering-labs/formae",
-    "description": "Infrastructure-as-Code Platform Built for the Future",
-    "stars": 55,
-    "forks": 4,
-    "language": "Go",
-    "topics": [
-      "devops",
-      "iac",
-      "infrastructure-as-code",
-      "platform-engineering",
-      "sre"
-    ],
-    "license": "No license",
-    "created_at": "2025-10-22T00:00:55Z",
-    "updated_at": "2025-10-26T22:44:59Z",
-    "owner": {
-      "name": "platform-engineering-labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/185366587?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "dennisyang1986/getk",
-    "url": "https://github.com/dennisyang1986/getk",
-    "description": "一个基于长桥证券接口（LongPort OpenAPI）的抓取工具，按配置批量抓取指定股票在指定日期的历史 K 线并写入 PostgreSQL。支持多只股票、多日期、去重插入、进度显示。",
-    "stars": 50,
-    "forks": 8,
-    "language": "Go",
-    "topics": [
-      "stock-analysis",
-      "stock-data",
-      "stock-market",
-      "stocks",
-      "stocks-api"
-    ],
-    "license": "No license",
-    "created_at": "2025-10-25T17:19:29Z",
-    "updated_at": "2025-10-27T03:11:55Z",
-    "owner": {
-      "name": "dennisyang1986",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12760701?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---dennisyang1986getk-10-27"
-  },
-  {
     "name": "geomys/sandboxed-step",
     "url": "https://github.com/geomys/sandboxed-step",
     "description": "A GitHub Action that runs a command in a gVisor sandbox",
-    "stars": 36,
+    "stars": 43,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-10-23T14:12:14Z",
-    "updated_at": "2025-10-25T23:58:01Z",
+    "updated_at": "2025-10-27T20:45:26Z",
     "owner": {
       "name": "geomys",
       "avatar_url": "https://avatars.githubusercontent.com/u/231565477?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---geomyssandboxed-step-10-27"
+    "telegraph_url": null
   },
   {
-    "name": "rom8726/floxy",
-    "url": "https://github.com/rom8726/floxy",
-    "description": "Lightweight workflow engine for GoLang with Saga rollback mechanism",
-    "stars": 34,
-    "forks": 3,
-    "language": "Go",
-    "topics": [
-      "golang",
-      "saga",
-      "workflows"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-10-21T19:25:23Z",
-    "updated_at": "2025-10-27T01:27:16Z",
-    "owner": {
-      "name": "rom8726",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2155302?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---rom8726floxy-10-27"
-  },
-  {
-    "name": "ianlancetaylor/jsonschema",
-    "url": "https://github.com/ianlancetaylor/jsonschema",
-    "description": "JSON schema support for Go programs",
-    "stars": 28,
+    "name": "chatgpt-trading-bot/chatgpt-trading-bot",
+    "url": "https://github.com/chatgpt-trading-bot/chatgpt-trading-bot",
+    "description": "🤖 ChatGPT Trading Bot — smart AI crypto trading assistant powered by ChatGPT. Trade automatically using ChatGPT AI models that analyze charts, news, and market sentiment in real time. Run your autonomous ChatGPT trading bot locally for safe, private, and intelligent crypto trading on Binance, Hyperliquid, and other exchanges.",
+    "stars": 25,
     "forks": 1,
     "language": "Go",
     "topics": [],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2025-10-21T23:30:34Z",
-    "updated_at": "2025-10-26T15:38:37Z",
+    "license": "MIT License",
+    "created_at": "2025-10-26T18:46:34Z",
+    "updated_at": "2025-10-28T02:14:49Z",
     "owner": {
-      "name": "ianlancetaylor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3194333?v=4"
+      "name": "chatgpt-trading-bot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/240350366?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---ianlancetaylorjsonschema-10-27"
+    "telegraph_url": null
   },
   {
-    "name": "dragonkeep/GoSSRF",
-    "url": "https://github.com/dragonkeep/GoSSRF",
-    "description": "一款用Go语言编写的SSRF（Server-Side Request Forgery）漏洞检测工具，可以自动测试网站参数是否存在SSRF漏洞。",
-    "stars": 16,
+    "name": "deepseek-trading-bot/deepseek-trading-bot",
+    "url": "https://github.com/deepseek-trading-bot/deepseek-trading-bot",
+    "description": "DeepSeek Trading Bot, DeepSeek Crypto Trader, DeepSeek AI Trading System, DeepSeek AI Trader, DeepSeek Automated Trading, DeepSeek Arbitrage Bot, DeepSeek Algorithmic Trading, DeepSeek AI Portfolio Manager, DeepSeek Signal Bot, DeepSeek Scalping Bot, DeepSeek Market Making AI, DeepSeek Quant Trader, DeepSeek Binance AI Bot, DeepSeek Bybit AI Trader",
+    "stars": 21,
     "forks": 2,
     "language": "Go",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-10-21T14:49:05Z",
-    "updated_at": "2025-10-26T03:19:32Z",
+    "license": "MIT License",
+    "created_at": "2025-10-26T21:11:15Z",
+    "updated_at": "2025-10-28T03:01:18Z",
     "owner": {
-      "name": "dragonkeep",
-      "avatar_url": "https://avatars.githubusercontent.com/u/132127946?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---dragonkeepGoSSRF-10-27"
-  },
-  {
-    "name": "Nicnl/borderlands4-serials",
-    "url": "https://github.com/Nicnl/borderlands4-serials",
-    "description": "A Go library that allows to deserialize, manipulate, and reserialize Borderlands 4 weapon/item codes.",
-    "stars": 14,
-    "forks": 5,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2025-10-21T17:27:59Z",
-    "updated_at": "2025-10-26T19:02:02Z",
-    "owner": {
-      "name": "Nicnl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1387951?v=4"
-    },
-    "telegraph_url": "https://telegra.ph/README---Nicnlborderlands4-serials-10-27"
-  },
-  {
-    "name": "xiaoyi510/xbot",
-    "url": "https://github.com/xiaoyi510/xbot",
-    "description": "🤖XArr系列软件之 XBot - 基于 Go 语言开发的高性能 OneBot 机器人框架 | 支持多种匹配器、中间件系统、限流机制、会话管理 | 简洁优雅的 API 设计，开箱即用",
-    "stars": 13,
-    "forks": 2,
-    "language": "Go",
-    "topics": [
-      "golang",
-      "onebot",
-      "onebot11",
-      "qqbot",
-      "robot"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-10-21T05:55:15Z",
-    "updated_at": "2025-10-21T10:20:50Z",
-    "owner": {
-      "name": "xiaoyi510",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20254874?v=4"
+      "name": "deepseek-trading-bot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/240373868?v=4"
     },
     "telegraph_url": null
   },
@@ -245,16 +167,67 @@
     "name": "uhdnow/emby_ext_domains",
     "url": "https://github.com/uhdnow/emby_ext_domains",
     "description": "一个轻量级的 Go 应用，用于扩展 Emby 媒体服务器的功能。提供了一个 RESTful API 端点，允许客户端通过 Emby Token 验证获取配置的服务器域名列表。",
-    "stars": 12,
+    "stars": 18,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2025-10-26T14:56:18Z",
-    "updated_at": "2025-10-27T01:32:54Z",
+    "updated_at": "2025-10-27T13:56:00Z",
     "owner": {
       "name": "uhdnow",
       "avatar_url": "https://avatars.githubusercontent.com/u/240330354?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "devnova777/dgeth",
+    "url": "https://github.com/devnova777/dgeth",
+    "description": null,
+    "stars": 12,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-10-22T09:27:42Z",
+    "updated_at": "2025-10-28T02:56:41Z",
+    "owner": {
+      "name": "devnova777",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83767210?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "sean908/PortReleasor",
+    "url": "https://github.com/sean908/PortReleasor",
+    "description": "a cross-platform tool for checking and releasing occupied ports",
+    "stars": 11,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-10-23T08:23:31Z",
+    "updated_at": "2025-10-28T02:04:18Z",
+    "owner": {
+      "name": "sean908",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4495319?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "mrinalxdev/smolgo",
+    "url": "https://github.com/mrinalxdev/smolgo",
+    "description": "A set of layering projects I am implementing after reading articles and research papers",
+    "stars": 11,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-10-25T07:11:27Z",
+    "updated_at": "2025-10-27T17:21:45Z",
+    "owner": {
+      "name": "mrinalxdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99001768?v=4"
     },
     "telegraph_url": null
   },
@@ -273,7 +246,7 @@
       "name": "JulioCezar9619",
       "avatar_url": "https://avatars.githubusercontent.com/u/10196447?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---JulioCezar9619auto-repo-mh6h6y55-13-10-27"
+    "telegraph_url": "https://telegra.ph/README---JulioCezar9619auto-repo-mh6h6y55-13-10-28"
   },
   {
     "name": "JulioCezar9619/auto-repo-mh6h6y55-25",
@@ -290,7 +263,24 @@
       "name": "JulioCezar9619",
       "avatar_url": "https://avatars.githubusercontent.com/u/10196447?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---JulioCezar9619auto-repo-mh6h6y55-25-10-27"
+    "telegraph_url": "https://telegra.ph/README---JulioCezar9619auto-repo-mh6h6y55-25-10-28"
+  },
+  {
+    "name": "Esonhugh/go-rex-java",
+    "url": "https://github.com/Esonhugh/go-rex-java",
+    "description": "RexJava 是一个用 Go 语言编写的 Java 序列化流解析库，从 Ruby 的 rex-java 库移植而来。该库专门用于安全研究和渗透测试，能够解析和构建 Java 对象序列化格式的二进制流。",
+    "stars": 10,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-10-25T07:02:54Z",
+    "updated_at": "2025-10-27T17:49:00Z",
+    "owner": {
+      "name": "Esonhugh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32677240?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---Esonhughgo-rex-java-10-28"
   },
   {
     "name": "JulioCezar9619/auto-repo-mh6h6y55-24",
@@ -307,7 +297,7 @@
       "name": "JulioCezar9619",
       "avatar_url": "https://avatars.githubusercontent.com/u/10196447?v=4"
     },
-    "telegraph_url": "https://telegra.ph/README---JulioCezar9619auto-repo-mh6h6y55-24-10-27"
+    "telegraph_url": "https://telegra.ph/README---JulioCezar9619auto-repo-mh6h6y55-24-10-28"
   },
   {
     "name": "JulioCezar9619/auto-repo-mh6h6y55-17",
@@ -324,7 +314,24 @@
       "name": "JulioCezar9619",
       "avatar_url": "https://avatars.githubusercontent.com/u/10196447?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---JulioCezar9619auto-repo-mh6h6y55-17-10-28"
+  },
+  {
+    "name": "openfort-xyz/opensigner",
+    "url": "https://github.com/openfort-xyz/opensigner",
+    "description": "Key management infrastructure, made with ♥ at Openfort.",
+    "stars": 10,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-10-24T11:52:03Z",
+    "updated_at": "2025-10-27T17:44:33Z",
+    "owner": {
+      "name": "openfort-xyz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114717127?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---openfort-xyzopensigner-10-28"
   },
   {
     "name": "obra/packnplay",
@@ -336,12 +343,12 @@
     "topics": [],
     "license": "No license",
     "created_at": "2025-10-23T03:36:21Z",
-    "updated_at": "2025-10-26T06:59:42Z",
+    "updated_at": "2025-10-27T22:44:40Z",
     "owner": {
       "name": "obra",
       "avatar_url": "https://avatars.githubusercontent.com/u/45416?v=4"
     },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---obrapacknplay-10-28"
   },
   {
     "name": "zemguimaraes/fijahu-19",
@@ -358,7 +365,41 @@
       "name": "zemguimaraes",
       "avatar_url": "https://avatars.githubusercontent.com/u/40216835?v=4"
     },
+    "telegraph_url": "https://telegra.ph/README---zemguimaraesfijahu-19-10-28"
+  },
+  {
+    "name": "wbrown/janus-datalog",
+    "url": "https://github.com/wbrown/janus-datalog",
+    "description": "An embeddable Datalog database that is Datomic-inspired written in Golang",
+    "stars": 10,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-10-26T04:30:28Z",
+    "updated_at": "2025-10-27T22:20:05Z",
+    "owner": {
+      "name": "wbrown",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36844?v=4"
+    },
     "telegraph_url": null
+  },
+  {
+    "name": "haileyok/myaur",
+    "url": "https://github.com/haileyok/myaur",
+    "description": "An AUR (Arch User Repository) mirror service written in Go",
+    "stars": 10,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-10-26T21:23:29Z",
+    "updated_at": "2025-10-27T13:19:41Z",
+    "owner": {
+      "name": "haileyok",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153161762?v=4"
+    },
+    "telegraph_url": "https://telegra.ph/README---haileyokmyaur-10-28"
   },
   {
     "name": "zemguimaraes/fijahu-16",
@@ -375,24 +416,7 @@
       "name": "zemguimaraes",
       "avatar_url": "https://avatars.githubusercontent.com/u/40216835?v=4"
     },
-    "telegraph_url": null
-  },
-  {
-    "name": "Esonhugh/ysoysoserial.net",
-    "url": "https://github.com/Esonhugh/ysoysoserial.net",
-    "description": "a golang based dotnet ysoserial poc generation tool. Operated by cursor and metasploit",
-    "stars": 10,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-10-21T15:59:11Z",
-    "updated_at": "2025-10-23T05:45:18Z",
-    "owner": {
-      "name": "Esonhugh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32677240?v=4"
-    },
-    "telegraph_url": null
+    "telegraph_url": "https://telegra.ph/README---zemguimaraesfijahu-16-10-28"
   },
   {
     "name": "JulioCezar9619/auto-repo-mh6h6y55-9",
