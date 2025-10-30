@@ -2,22 +2,26 @@
   {
     "name": "tinkle-community/nofx",
     "url": "https://github.com/tinkle-community/nofx",
-    "description": "AI-powered Binance futures trading bot with DeepSeek/Qwen, featuring multi-AI competition, Sharpe ratio self-evolution, and real-time dashboard",
-    "stars": 311,
-    "forks": 90,
+    "description": "Multi-exchange AI trading platform (Binance/Hyperliquid/Aster) with multi-AI competition(deepseek/qwen/claude), self-evolution, and real-time dashboard",
+    "stars": 1061,
+    "forks": 323,
     "language": "Go",
     "topics": [
       "ai-trading",
+      "aster",
       "cryptocurrency",
       "deepseek",
       "futures-trading",
+      "hyperliquid",
+      "llm",
+      "llm-trading",
       "nof1ai",
       "qwen",
       "trading-bot"
     ],
     "license": "No license",
     "created_at": "2025-10-28T07:17:53Z",
-    "updated_at": "2025-10-29T03:11:18Z",
+    "updated_at": "2025-10-30T03:06:30Z",
     "owner": {
       "name": "tinkle-community",
       "avatar_url": "https://avatars.githubusercontent.com/u/240652709?v=4"
@@ -28,13 +32,13 @@
     "name": "juchain-network/chain",
     "url": "https://github.com/juchain-network/chain",
     "description": "JuChain: Ethereum-compatible blockchain with JPoSA consensus (DPoS+PoA). Fast, low-cost, EVM compatible. ",
-    "stars": 230,
+    "stars": 258,
     "forks": 1,
     "language": "Go",
     "topics": [],
     "license": "Other",
     "created_at": "2025-10-27T14:16:01Z",
-    "updated_at": "2025-10-29T02:55:07Z",
+    "updated_at": "2025-10-30T02:44:54Z",
     "owner": {
       "name": "juchain-network",
       "avatar_url": "https://avatars.githubusercontent.com/u/240508444?v=4"
@@ -45,7 +49,7 @@
     "name": "dennisyang1986/getk",
     "url": "https://github.com/dennisyang1986/getk",
     "description": "一个基于长桥证券接口（LongPort OpenAPI）的抓取工具，按配置批量抓取指定股票在指定日期的历史 K 线并写入 PostgreSQL。支持多只股票、多日期、去重插入、进度显示。",
-    "stars": 144,
+    "stars": 150,
     "forks": 13,
     "language": "Go",
     "topics": [
@@ -57,7 +61,7 @@
     ],
     "license": "No license",
     "created_at": "2025-10-25T17:19:29Z",
-    "updated_at": "2025-10-29T03:06:28Z",
+    "updated_at": "2025-10-29T16:05:41Z",
     "owner": {
       "name": "dennisyang1986",
       "avatar_url": "https://avatars.githubusercontent.com/u/12760701?v=4"
@@ -68,8 +72,8 @@
     "name": "lich0821/ccNexus",
     "url": "https://github.com/lich0821/ccNexus",
     "description": "Intelligent API gateway for Claude Code - rotate endpoints, monitor usage, and seamlessly integrate OpenAI, Gemini, and other platforms.",
-    "stars": 90,
-    "forks": 13,
+    "stars": 96,
+    "forks": 14,
     "language": "Go",
     "topics": [
       "ai-coding",
@@ -79,7 +83,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-10-24T13:08:29Z",
-    "updated_at": "2025-10-29T03:04:35Z",
+    "updated_at": "2025-10-30T01:56:02Z",
     "owner": {
       "name": "lich0821",
       "avatar_url": "https://avatars.githubusercontent.com/u/87742696?v=4"
@@ -114,7 +118,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-10-25T17:01:15Z",
-    "updated_at": "2025-10-29T02:59:04Z",
+    "updated_at": "2025-10-30T02:56:44Z",
     "owner": {
       "name": "rt5555",
       "avatar_url": "https://avatars.githubusercontent.com/u/211995583?v=4"
@@ -122,48 +126,16 @@
     "telegraph_url": null
   },
   {
-    "name": "MarioF-dev/server-query-fake-player-count",
-    "url": "https://github.com/MarioF-dev/server-query-fake-player-count",
-    "description": "🥸 A proxy that allows to modify the reported number of players on a game server to Steam",
-    "stars": 57,
-    "forks": 3,
-    "language": "Go",
-    "topics": [
-      "cheat",
-      "dayz",
-      "exploit",
-      "external",
-      "gaming",
-      "hack",
-      "injector",
-      "internal",
-      "loader",
-      "mod",
-      "steam",
-      "tool",
-      "trainer",
-      "undetected"
-    ],
-    "license": "No license",
-    "created_at": "2025-10-23T04:22:27Z",
-    "updated_at": "2025-10-29T03:03:19Z",
-    "owner": {
-      "name": "MarioF-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61386232?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "kbykb/dynamic-proxy",
     "url": "https://github.com/kbykb/dynamic-proxy",
     "description": "一个免费的动态HTTP/SOCKS5代理程序",
-    "stars": 53,
-    "forks": 18,
+    "stars": 67,
+    "forks": 25,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-10-28T12:21:44Z",
-    "updated_at": "2025-10-29T02:57:17Z",
+    "updated_at": "2025-10-29T15:49:05Z",
     "owner": {
       "name": "kbykb",
       "avatar_url": "https://avatars.githubusercontent.com/u/107339994?v=4"
@@ -171,33 +143,16 @@
     "telegraph_url": null
   },
   {
-    "name": "geomys/sandboxed-step",
-    "url": "https://github.com/geomys/sandboxed-step",
-    "description": "A GitHub Action that runs a command in a gVisor sandbox",
-    "stars": 44,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-10-23T14:12:14Z",
-    "updated_at": "2025-10-28T15:07:10Z",
-    "owner": {
-      "name": "geomys",
-      "avatar_url": "https://avatars.githubusercontent.com/u/231565477?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "chatgpt-trading-bot/chatgpt-trading-bot",
     "url": "https://github.com/chatgpt-trading-bot/chatgpt-trading-bot",
     "description": "🤖 ChatGPT Trading Bot — smart AI crypto trading assistant powered by ChatGPT. Trade automatically using ChatGPT AI models that analyze charts, news, and market sentiment in real time. Run your autonomous ChatGPT trading bot locally for safe, private, and intelligent crypto trading on Binance, Hyperliquid, and other exchanges.",
-    "stars": 37,
-    "forks": 5,
+    "stars": 39,
+    "forks": 8,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-10-26T18:46:34Z",
-    "updated_at": "2025-10-28T17:14:42Z",
+    "updated_at": "2025-10-30T02:13:00Z",
     "owner": {
       "name": "chatgpt-trading-bot",
       "avatar_url": "https://avatars.githubusercontent.com/u/240350366?v=4"
@@ -205,33 +160,16 @@
     "telegraph_url": null
   },
   {
-    "name": "ldavis-563ef/c4udit5",
-    "url": "https://github.com/ldavis-563ef/c4udit5",
-    "description": "Static analyzer for solidity contracts based on regexs specifically crafted for code4rena contests",
-    "stars": 24,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-10-27T19:44:46Z",
-    "updated_at": "2025-10-29T02:51:34Z",
-    "owner": {
-      "name": "ldavis-563ef",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207688201?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "virginia5097-gordonl/goeth20",
     "url": "https://github.com/virginia5097-gordonl/goeth20",
     "description": "go-eth2-client[![Tag](https://img.shields",
-    "stars": 24,
+    "stars": 26,
     "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-10-27T21:16:36Z",
-    "updated_at": "2025-10-29T01:52:36Z",
+    "updated_at": "2025-10-29T08:39:01Z",
     "owner": {
       "name": "virginia5097-gordonl",
       "avatar_url": "https://avatars.githubusercontent.com/u/207711872?v=4"
@@ -239,33 +177,16 @@
     "telegraph_url": null
   },
   {
-    "name": "ldavis-563ef/ethtoo6",
-    "url": "https://github.com/ldavis-563ef/ethtoo6",
-    "description": "Package ethtool allows control of the Linux ethtool generic netlink interface. MIT Licensed.",
-    "stars": 23,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-10-27T19:44:32Z",
-    "updated_at": "2025-10-29T00:11:10Z",
-    "owner": {
-      "name": "ldavis-563ef",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207688201?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "SleepingBag945/IPSearch-MCP",
     "url": "https://github.com/SleepingBag945/IPSearch-MCP",
     "description": "离线IP Whois查询工具。可根据IP查询所属IP段信息、根据关键词查询IP段信息的MCP版本",
-    "stars": 22,
+    "stars": 26,
     "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-10-28T07:41:05Z",
-    "updated_at": "2025-10-29T02:25:05Z",
+    "updated_at": "2025-10-30T02:22:46Z",
     "owner": {
       "name": "SleepingBag945",
       "avatar_url": "https://avatars.githubusercontent.com/u/100852628?v=4"
@@ -273,19 +194,94 @@
     "telegraph_url": null
   },
   {
-    "name": "jan92-wk/kroma4",
-    "url": "https://github.com/jan92-wk/kroma4",
-    "description": "A developer-friendly, rollup-based Ethereum Layer 2 solution that offers low fees and EVM equivalence.",
-    "stars": 20,
+    "name": "qwen-trade-bot/qwen-trading-bot",
+    "url": "https://github.com/qwen-trade-bot/qwen-trading-bot",
+    "description": "Qwen Trading Bot, Qwen Crypto Trader, Qwen AI Trading System, Qwen AI Trader, Qwen Automated Trading, Qwen Arbitrage Bot, Qwen Algorithmic Trading, Qwen AI Portfolio Manager, Qwen Signal Bot, Qwen Scalping Bot, Qwen Market Making AI, Qwen Quant Trader, Qwen Binance AI Bot, Qwen Bybit AI Trader, Qwen OKX AI Bot, Qwen Crypto Assistant.",
+    "stars": 26,
+    "forks": 7,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-10-27T21:26:51Z",
+    "updated_at": "2025-10-30T02:10:32Z",
+    "owner": {
+      "name": "qwen-trade-bot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/240584211?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "ldavis-563ef/ethtoo6",
+    "url": "https://github.com/ldavis-563ef/ethtoo6",
+    "description": "Package ethtool allows control of the Linux ethtool generic netlink interface. MIT Licensed.",
+    "stars": 24,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "Other",
-    "created_at": "2025-10-27T18:25:48Z",
-    "updated_at": "2025-10-28T23:31:34Z",
+    "license": "MIT License",
+    "created_at": "2025-10-27T19:44:32Z",
+    "updated_at": "2025-10-29T07:58:10Z",
     "owner": {
-      "name": "jan92-wk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/205193790?v=4"
+      "name": "ldavis-563ef",
+      "avatar_url": "https://avatars.githubusercontent.com/u/207688201?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "ldavis-563ef/c4udit5",
+    "url": "https://github.com/ldavis-563ef/c4udit5",
+    "description": "Static analyzer for solidity contracts based on regexs specifically crafted for code4rena contests",
+    "stars": 23,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-10-27T19:44:46Z",
+    "updated_at": "2025-10-29T14:47:48Z",
+    "owner": {
+      "name": "ldavis-563ef",
+      "avatar_url": "https://avatars.githubusercontent.com/u/207688201?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "uhdnow/emby_ext_domains",
+    "url": "https://github.com/uhdnow/emby_ext_domains",
+    "description": "一个轻量级的 Go 应用，用于扩展 Emby 媒体服务器的功能。提供了一个 RESTful API 端点，允许客户端通过 Emby Token 验证获取配置的服务器域名列表。",
+    "stars": 22,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-10-26T14:56:18Z",
+    "updated_at": "2025-10-29T18:15:04Z",
+    "owner": {
+      "name": "uhdnow",
+      "avatar_url": "https://avatars.githubusercontent.com/u/240330354?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "alpkeskin/gotoon",
+    "url": "https://github.com/alpkeskin/gotoon",
+    "description": "Token-Oriented Object Notation for Go – JSON for LLMs at half the token cost ",
+    "stars": 22,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "go-package",
+      "llm",
+      "token",
+      "token-cost",
+      "tokenization"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-10-28T08:49:57Z",
+    "updated_at": "2025-10-29T20:46:30Z",
+    "owner": {
+      "name": "alpkeskin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49457057?v=4"
     },
     "telegraph_url": null
   },
@@ -293,7 +289,7 @@
     "name": "superstarryeyes/bit",
     "url": "https://github.com/superstarryeyes/bit",
     "description": "CLI/TUI logo designer + ANSI font library with gradient colors, shadows, and multi-format export",
-    "stars": 20,
+    "stars": 21,
     "forks": 0,
     "language": "Go",
     "topics": [
@@ -317,7 +313,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-10-27T17:17:28Z",
-    "updated_at": "2025-10-29T02:12:20Z",
+    "updated_at": "2025-10-29T18:16:59Z",
     "owner": {
       "name": "superstarryeyes",
       "avatar_url": "https://avatars.githubusercontent.com/u/225475693?v=4"
@@ -325,19 +321,70 @@
     "telegraph_url": null
   },
   {
-    "name": "uhdnow/emby_ext_domains",
-    "url": "https://github.com/uhdnow/emby_ext_domains",
-    "description": "一个轻量级的 Go 应用，用于扩展 Emby 媒体服务器的功能。提供了一个 RESTful API 端点，允许客户端通过 Emby Token 验证获取配置的服务器域名列表。",
+    "name": "samogod/samoscout",
+    "url": "https://github.com/samogod/samoscout",
+    "description": "one-for-all llm powered, passive & active subdomain enumeration tool",
+    "stars": 20,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-10-25T20:03:42Z",
+    "updated_at": "2025-10-30T02:36:51Z",
+    "owner": {
+      "name": "samogod",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81412659?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "jan92-wk/kroma4",
+    "url": "https://github.com/jan92-wk/kroma4",
+    "description": "A developer-friendly, rollup-based Ethereum Layer 2 solution that offers low fees and EVM equivalence.",
     "stars": 19,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "No license",
-    "created_at": "2025-10-26T14:56:18Z",
-    "updated_at": "2025-10-28T23:44:47Z",
+    "license": "Other",
+    "created_at": "2025-10-27T18:25:48Z",
+    "updated_at": "2025-10-29T14:47:48Z",
     "owner": {
-      "name": "uhdnow",
-      "avatar_url": "https://avatars.githubusercontent.com/u/240330354?v=4"
+      "name": "jan92-wk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/205193790?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "owenscatherinexuv-28/distrid",
+    "url": "https://github.com/owenscatherinexuv-28/distrid",
+    "description": "A distributed system for detecting vulnerabilities in smart contracts using Docker, gRPC, RabbitMQ, Redis, MySQL, and Nginx.",
+    "stars": 19,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-10-27T21:20:46Z",
+    "updated_at": "2025-10-29T09:04:34Z",
+    "owner": {
+      "name": "owenscatherinexuv-28",
+      "avatar_url": "https://avatars.githubusercontent.com/u/205128079?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "Esonhugh/go-rex-java",
+    "url": "https://github.com/Esonhugh/go-rex-java",
+    "description": "RexJava 是一个用 Go 语言编写的 Java 序列化流解析库，从 Ruby 的 rex-java 库移植而来。该库专门用于安全研究和渗透测试，能够解析和构建 Java 对象序列化格式的二进制流。",
+    "stars": 18,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-10-25T07:02:54Z",
+    "updated_at": "2025-10-29T04:43:58Z",
+    "owner": {
+      "name": "Esonhugh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32677240?v=4"
     },
     "telegraph_url": null
   },
@@ -359,40 +406,6 @@
     "telegraph_url": null
   },
   {
-    "name": "owenscatherinexuv-28/distrid",
-    "url": "https://github.com/owenscatherinexuv-28/distrid",
-    "description": "A distributed system for detecting vulnerabilities in smart contracts using Docker, gRPC, RabbitMQ, Redis, MySQL, and Nginx.",
-    "stars": 18,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-10-27T21:20:46Z",
-    "updated_at": "2025-10-29T00:18:33Z",
-    "owner": {
-      "name": "owenscatherinexuv-28",
-      "avatar_url": "https://avatars.githubusercontent.com/u/205128079?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "qwen-trade-bot/qwen-trading-bot",
-    "url": "https://github.com/qwen-trade-bot/qwen-trading-bot",
-    "description": "Qwen Trading Bot, Qwen Crypto Trader, Qwen AI Trading System, Qwen AI Trader, Qwen Automated Trading, Qwen Arbitrage Bot, Qwen Algorithmic Trading, Qwen AI Portfolio Manager, Qwen Signal Bot, Qwen Scalping Bot, Qwen Market Making AI, Qwen Quant Trader, Qwen Binance AI Bot, Qwen Bybit AI Trader, Qwen OKX AI Bot, Qwen Crypto Assistant.",
-    "stars": 18,
-    "forks": 5,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-10-27T21:26:51Z",
-    "updated_at": "2025-10-28T17:14:58Z",
-    "owner": {
-      "name": "qwen-trade-bot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/240584211?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "breedenjosephr-1/cwibce2",
     "url": "https://github.com/breedenjosephr-1/cwibce2",
     "description": "An example smart contract + test suite for communicating over IBC.",
@@ -406,23 +419,6 @@
     "owner": {
       "name": "breedenjosephr-1",
       "avatar_url": "https://avatars.githubusercontent.com/u/207671133?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "Esonhugh/go-rex-java",
-    "url": "https://github.com/Esonhugh/go-rex-java",
-    "description": "RexJava 是一个用 Go 语言编写的 Java 序列化流解析库，从 Ruby 的 rex-java 库移植而来。该库专门用于安全研究和渗透测试，能够解析和构建 Java 对象序列化格式的二进制流。",
-    "stars": 17,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-10-25T07:02:54Z",
-    "updated_at": "2025-10-29T03:09:32Z",
-    "owner": {
-      "name": "Esonhugh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32677240?v=4"
     },
     "telegraph_url": null
   },
@@ -461,8 +457,8 @@
     "telegraph_url": null
   },
   {
-    "name": "gonzalezgeorge35-46/eth2va2",
-    "url": "https://github.com/gonzalezgeorge35-46/eth2va2",
+    "name": "roovj/eth2va2",
+    "url": "https://github.com/roovj/eth2va2",
     "description": "Some experimental tools to manage validators - use at your own risk",
     "stars": 17,
     "forks": 0,
@@ -472,7 +468,7 @@
     "created_at": "2025-10-27T21:13:50Z",
     "updated_at": "2025-10-28T23:15:33Z",
     "owner": {
-      "name": "gonzalezgeorge35-46",
+      "name": "roovj",
       "avatar_url": "https://avatars.githubusercontent.com/u/205171449?v=4"
     },
     "telegraph_url": null
@@ -487,7 +483,7 @@
     "topics": [],
     "license": "GNU Lesser General Public License v3.0",
     "created_at": "2025-10-27T21:22:57Z",
-    "updated_at": "2025-10-29T00:14:25Z",
+    "updated_at": "2025-10-29T14:47:54Z",
     "owner": {
       "name": "michelle5013-guilloryn",
       "avatar_url": "https://avatars.githubusercontent.com/u/207713020?v=4"
@@ -495,19 +491,36 @@
     "telegraph_url": null
   },
   {
-    "name": "aj7581-k/ethashc",
-    "url": "https://github.com/aj7581-k/ethashc",
-    "description": "High Efficient mining pool designed for Ethash based coins",
+    "name": "openfort-xyz/opensigner",
+    "url": "https://github.com/openfort-xyz/opensigner",
+    "description": "Key management infrastructure, made with ♥ at Openfort.",
     "stars": 16,
-    "forks": 2,
+    "forks": 1,
     "language": "Go",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-10-27T18:19:42Z",
-    "updated_at": "2025-10-28T17:36:32Z",
+    "license": "No license",
+    "created_at": "2025-10-24T11:52:03Z",
+    "updated_at": "2025-10-30T00:37:13Z",
     "owner": {
-      "name": "aj7581-k",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207713438?v=4"
+      "name": "openfort-xyz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114717127?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "wbrown/janus-datalog",
+    "url": "https://github.com/wbrown/janus-datalog",
+    "description": "An embeddable Datalog database that is Datomic-inspired written in Golang",
+    "stars": 16,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-10-26T04:30:28Z",
+    "updated_at": "2025-10-29T17:00:04Z",
+    "owner": {
+      "name": "wbrown",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36844?v=4"
     },
     "telegraph_url": null
   },
@@ -546,36 +559,19 @@
     "telegraph_url": null
   },
   {
-    "name": "kevpaq-520/subnet2",
-    "url": "https://github.com/kevpaq-520/subnet2",
-    "description": "Launch your own EVM as an Avalanche Subnet",
-    "stars": 14,
-    "forks": 1,
+    "name": "kajustpo/ethashc",
+    "url": "https://github.com/kajustpo/ethashc",
+    "description": "High Efficient mining pool designed for Ethash based coins",
+    "stars": 15,
+    "forks": 2,
     "language": "Go",
     "topics": [],
-    "license": "GNU Lesser General Public License v3.0",
-    "created_at": "2025-10-27T18:14:51Z",
-    "updated_at": "2025-10-29T00:34:10Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-10-27T18:19:42Z",
+    "updated_at": "2025-10-29T14:47:51Z",
     "owner": {
-      "name": "kevpaq-520",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207670804?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "wbrown/janus-datalog",
-    "url": "https://github.com/wbrown/janus-datalog",
-    "description": "An embeddable Datalog database that is Datomic-inspired written in Golang",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-10-26T04:30:28Z",
-    "updated_at": "2025-10-28T22:34:34Z",
-    "owner": {
-      "name": "wbrown",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36844?v=4"
+      "name": "kajustpo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/207713438?v=4"
     },
     "telegraph_url": null
   }
