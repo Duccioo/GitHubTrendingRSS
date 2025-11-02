@@ -1,53 +1,68 @@
 [
   {
-    "name": "vasiliy809/shadow-rs",
-    "url": "https://github.com/vasiliy809/shadow-rs",
-    "description": "Windows Kernel Rootkit in Rust",
-    "stars": 66,
-    "forks": 1,
+    "name": "tasammie/rustransomware",
+    "url": "https://github.com/tasammie/rustransomware",
+    "description": "A Rust ransomware framework that bypasses some antivirus solutions e.g. ESET, Avast and Huorong.",
+    "stars": 83,
+    "forks": 0,
     "language": "Rust",
     "topics": [
       "cheat",
       "exploit",
       "external",
+      "framework",
       "gaming",
       "hack",
       "injector",
       "internal",
-      "kernel",
       "loader",
       "mod",
-      "ring0",
-      "rootkit",
+      "ransomware",
       "rust",
       "tool",
       "trainer",
-      "undetected",
-      "windows"
+      "undetected"
     ],
-    "license": "MIT License",
-    "created_at": "2025-10-26T07:40:23Z",
-    "updated_at": "2025-10-31T13:18:47Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-11-01T17:50:12Z",
+    "updated_at": "2025-11-02T03:10:47Z",
     "owner": {
-      "name": "vasiliy809",
-      "avatar_url": "https://avatars.githubusercontent.com/u/197097343?v=4"
+      "name": "tasammie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121990566?v=4"
     },
     "telegraph_url": null
   },
   {
-    "name": "adolfousier/ratifact",
-    "url": "https://github.com/adolfousier/ratifact",
-    "description": "Track and manage build artifacts from multiple programming languages. Built with Ratatui",
-    "stars": 43,
-    "forks": 0,
+    "name": "0xDamian/CVE-2018-9995-rs",
+    "url": "https://github.com/0xDamian/CVE-2018-9995-rs",
+    "description": "POC of CVE-2018-9995 written in Rust.",
+    "stars": 60,
+    "forks": 11,
     "language": "Rust",
     "topics": [],
-    "license": "Other",
-    "created_at": "2025-10-26T20:54:30Z",
-    "updated_at": "2025-10-31T08:01:51Z",
+    "license": "No license",
+    "created_at": "2025-10-28T15:30:18Z",
+    "updated_at": "2025-11-02T02:13:19Z",
     "owner": {
-      "name": "adolfousier",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35583002?v=4"
+      "name": "0xDamian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99565245?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "BlWasp/PhantomTask",
+    "url": "https://github.com/BlWasp/PhantomTask",
+    "description": "A tool to play with scheduled tasks on Windows, in Rust",
+    "stars": 47,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-10-31T16:49:42Z",
+    "updated_at": "2025-11-01T22:07:56Z",
+    "owner": {
+      "name": "BlWasp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35003340?v=4"
     },
     "telegraph_url": null
   },
@@ -55,16 +70,50 @@
     "name": "express402/express402-relayer",
     "url": "https://github.com/express402/express402-relayer",
     "description": null,
-    "stars": 37,
+    "stars": 38,
     "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2025-10-28T16:12:22Z",
-    "updated_at": "2025-10-30T02:48:08Z",
+    "updated_at": "2025-11-01T03:20:30Z",
     "owner": {
       "name": "express402",
       "avatar_url": "https://avatars.githubusercontent.com/u/240741948?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "Ammar-Alnagar/Helios-Engine",
+    "url": "https://github.com/Ammar-Alnagar/Helios-Engine",
+    "description": "Helios Engine is a powerful and flexible Rust framework for building LLM-powered agents with tool support, chat capabilities, and easy configuration management. Create intelligent agents that can interact with users, call tools, and maintain conversation context.",
+    "stars": 33,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-10-29T17:44:17Z",
+    "updated_at": "2025-11-01T16:42:19Z",
+    "owner": {
+      "name": "Ammar-Alnagar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76597039?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "hcavarsan/pipedash",
+    "url": "https://github.com/hcavarsan/pipedash",
+    "description": "A desktop app for managing CI/CD pipelines from multiple providers",
+    "stars": 33,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-10-31T00:02:21Z",
+    "updated_at": "2025-11-02T02:51:03Z",
+    "owner": {
+      "name": "hcavarsan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30353685?v=4"
     },
     "telegraph_url": null
   },
@@ -86,40 +135,6 @@
     "telegraph_url": null
   },
   {
-    "name": "weitereigh/OtakuTerminator",
-    "url": "https://github.com/weitereigh/OtakuTerminator",
-    "description": "Hybrid Event-Driven Architecture for Intelligent Distributed Applications with Real-Time Machine Learning Integration at Runtime.",
-    "stars": 28,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-10-26T17:52:20Z",
-    "updated_at": "2025-10-31T15:43:47Z",
-    "owner": {
-      "name": "weitereigh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/240343619?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "Ammar-Alnagar/Helios-Engine",
-    "url": "https://github.com/Ammar-Alnagar/Helios-Engine",
-    "description": "Helios Engine is a powerful and flexible Rust framework for building LLM-powered agents with tool support, chat capabilities, and easy configuration management. Create intelligent agents that can interact with users, call tools, and maintain conversation context.",
-    "stars": 27,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-10-29T17:44:17Z",
-    "updated_at": "2025-10-31T23:42:31Z",
-    "owner": {
-      "name": "Ammar-Alnagar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76597039?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "db7712-5/ageusd3",
     "url": "https://github.com/db7712-5/ageusd3",
     "description": "The AgeUSD protocol specifications/smart contracts/off-chain code.",
@@ -133,23 +148,6 @@
     "owner": {
       "name": "db7712-5",
       "avatar_url": "https://avatars.githubusercontent.com/u/207710723?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "j-g00da/ratrioshka",
-    "url": "https://github.com/j-g00da/ratrioshka",
-    "description": "A Ratatui widget that lets you add Ratatui to your Ratatui.",
-    "stars": 25,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-10-26T01:24:53Z",
-    "updated_at": "2025-10-30T22:24:22Z",
-    "owner": {
-      "name": "j-g00da",
-      "avatar_url": "https://avatars.githubusercontent.com/u/128227338?v=4"
     },
     "telegraph_url": null
   },
@@ -184,26 +182,6 @@
     "owner": {
       "name": "ldawson-457gj",
       "avatar_url": "https://avatars.githubusercontent.com/u/207737188?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "sxhxliang/arp",
-    "url": "https://github.com/sxhxliang/arp",
-    "description": "功能上来说就是Claude Code webUI和frp的结合体，简化配置和部署",
-    "stars": 22,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "claude",
-      "webui"
-    ],
-    "license": "No license",
-    "created_at": "2025-10-26T13:52:41Z",
-    "updated_at": "2025-11-01T02:52:07Z",
-    "owner": {
-      "name": "sxhxliang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8338091?v=4"
     },
     "telegraph_url": null
   },
@@ -276,6 +254,31 @@
     "telegraph_url": null
   },
   {
+    "name": "Letdown2491/runkit",
+    "url": "https://github.com/Letdown2491/runkit",
+    "description": "Graphical manager for runit services.",
+    "stars": 19,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "gtk4",
+      "runit",
+      "rust-lang",
+      "service-management",
+      "void-linux",
+      "void-packages",
+      "voidtools"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-10-30T08:16:44Z",
+    "updated_at": "2025-11-01T23:09:43Z",
+    "owner": {
+      "name": "Letdown2491",
+      "avatar_url": "https://avatars.githubusercontent.com/u/168875499?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "wilson-bryanp/rigonce",
     "url": "https://github.com/wilson-bryanp/rigonce",
     "description": "🔗🤖 Build multi-tenant AI agents that execute secure blockchain operations across Solana and EVM networks",
@@ -327,6 +330,27 @@
     "telegraph_url": null
   },
   {
+    "name": "chainbound/prometric",
+    "url": "https://github.com/chainbound/prometric",
+    "description": "An attribute macro for generating and using embedded Prometheus metrics with an ergonomic API.",
+    "stars": 17,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "metrics",
+      "prometheus",
+      "rust"
+    ],
+    "license": "No license",
+    "created_at": "2025-10-28T16:39:21Z",
+    "updated_at": "2025-11-01T18:54:38Z",
+    "owner": {
+      "name": "chainbound",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96652961?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
     "name": "kevpaq-520/evmindb",
     "url": "https://github.com/kevpaq-520/evmindb",
     "description": "EVM-compatible chain indexer.",
@@ -340,6 +364,23 @@
     "owner": {
       "name": "kevpaq-520",
       "avatar_url": "https://avatars.githubusercontent.com/u/207670804?v=4"
+    },
+    "telegraph_url": null
+  },
+  {
+    "name": "bagnalla/6502",
+    "url": "https://github.com/bagnalla/6502",
+    "description": "Cycle-accurate 6502 emulator as coroutine in Rust",
+    "stars": 17,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-11-01T14:32:33Z",
+    "updated_at": "2025-11-02T01:25:26Z",
+    "owner": {
+      "name": "bagnalla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6832353?v=4"
     },
     "telegraph_url": null
   },
@@ -378,23 +419,6 @@
     "telegraph_url": null
   },
   {
-    "name": "BlWasp/PhantomTask",
-    "url": "https://github.com/BlWasp/PhantomTask",
-    "description": "A tool to play with scheduled tasks on Windows, in Rust",
-    "stars": 17,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-10-31T16:49:42Z",
-    "updated_at": "2025-11-01T01:51:27Z",
-    "owner": {
-      "name": "BlWasp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35003340?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
     "name": "devnova777/DISEQ",
     "url": "https://github.com/devnova777/DISEQ",
     "description": null,
@@ -408,27 +432,6 @@
     "owner": {
       "name": "devnova777",
       "avatar_url": "https://avatars.githubusercontent.com/u/83767210?v=4"
-    },
-    "telegraph_url": null
-  },
-  {
-    "name": "chainbound/prometric",
-    "url": "https://github.com/chainbound/prometric",
-    "description": "An attribute macro for generating and using embedded Prometheus metrics with an ergonomic API.",
-    "stars": 16,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "metrics",
-      "prometheus",
-      "rust"
-    ],
-    "license": "No license",
-    "created_at": "2025-10-28T16:39:21Z",
-    "updated_at": "2025-10-31T14:24:14Z",
-    "owner": {
-      "name": "chainbound",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96652961?v=4"
     },
     "telegraph_url": null
   },
@@ -521,19 +524,19 @@
     "telegraph_url": null
   },
   {
-    "name": "annlewise6/dopple0",
-    "url": "https://github.com/annlewise6/dopple0",
-    "description": "The fastest oracle on Solana",
+    "name": "paritytech/jamtart",
+    "url": "https://github.com/paritytech/jamtart",
+    "description": null,
     "stars": 15,
-    "forks": 0,
+    "forks": 1,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2025-10-27T18:56:02Z",
-    "updated_at": "2025-10-29T00:03:01Z",
+    "created_at": "2025-10-29T13:18:23Z",
+    "updated_at": "2025-11-01T14:35:19Z",
     "owner": {
-      "name": "annlewise6",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207714158?v=4"
+      "name": "paritytech",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14176906?v=4"
     },
     "telegraph_url": null
   }
