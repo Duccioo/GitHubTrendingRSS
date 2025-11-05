@@ -89,6 +89,23 @@ def generate_all_feeds(limit=30, max_days=14):
                     # Estrai dati e crea pagine Telegraph (passa headers)
                     current_trending_repos = extract_repo_data(repos, headers)
 
+                    # --- Inizio logica di de-duplicazione ---
+                    # Rimuovi duplicati basati su 'html_url' mantenendo il primo incontro
+                    unique_repos = []
+                    seen_urls = set()
+                    for repo in current_trending_repos:
+                        if "html_url" in repo and repo["html_url"] not in seen_urls:
+                            unique_repos.append(repo)
+                            seen_urls.add(repo["html_url"])
+
+                    if len(current_trending_repos) > len(unique_repos):
+                        logging.info(
+                            f"Rimossi {len(current_trending_repos) - len(unique_repos)} duplicati dalla lista dei repository correnti."
+                        )
+
+                    current_trending_repos = unique_repos
+                    # --- Fine logica di de-duplicazione ---
+
                     # Costruisci l'URL e il nome del file specifici
                     # Crea filename sicuro
                     lang_filename_part = (
