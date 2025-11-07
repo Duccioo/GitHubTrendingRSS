@@ -123,19 +123,6 @@ def create_rss_feed(
             )
             topics_html = f"<p><strong>🏷️ Topics:</strong> {topics_html}</p>"
 
-        # Telegraph Link
-        telegraph_link_html = ""
-        if repo.get("telegraph_url"):
-            try:
-                telegraph_link_html = f'<p>📖 <a href="{html.escape(repo["telegraph_url"])}"><strong>Leggi il README su Telegraph</strong></a></p>'
-            except Exception as e:
-                logging.error(
-                    f"Errore durante la creazione della pagina Telegraph per {repo['name']}: {e}"
-                )  # Modificato print
-                telegraph_link_html = (
-                    "<p><em>Errore durante la generazione dell'anteprima Telegraph.</em></p>"
-                )
-
         description_html = f"""
         <![CDATA[
         <p>👤 <strong>Owner:</strong> {owner_name_safe}</p>
@@ -148,7 +135,6 @@ def create_rss_feed(
         <p>📜 <strong>Licenza:</strong> {repo_license_safe}</p>
         <p>⏰ <strong>Creato il:</strong> {html.escape(repo.get('created_at') or 'N/A')}</p>
         <p>🔄 <strong>Ultimo Aggiornamento:</strong> {html.escape(repo.get('updated_at') or 'N/A')}</p>
-        {telegraph_link_html}
         <hr>
         <p><a href="{html.escape(repo['url'])}">Visita il Repository su GitHub</a></p>
         ]]>
@@ -211,46 +197,3 @@ def save_rss_feed(rss_feed, filename="github_trending.xml"):
         return False
 
 
-def main():
-    # Test feed generation (esempio con dati fittizi aggiornati)
-    sample_repos = [
-        {
-            "name": "Test Repo 1",
-            "stars": 123,
-            "url": "https://github.com/user/test-repo-1",
-            "description": "This is a test repository.",
-            "language": "Python",
-            "forks": 45,
-            "created_at": "2024-01-15T10:00:00Z",
-            "updated_at": "2025-04-10T12:00:00Z",
-            "telegraph_url": "https://telegra.ph/README-Test-Repo-1-04-16",  # Esempio URL Telegraph
-            "topics": ["python", "test", "example"],
-            "license": "MIT License",
-            "owner": {"name": "testuser", "avatar_url": ""},
-        },
-        {
-            "name": "Another Repo",
-            "stars": 456,
-            "url": "https://github.com/user/another-repo",
-            "description": "Another great project. <script>alert('xss')</script>",  # Esempio con potenziale XSS
-            "language": "JavaScript",
-            "forks": 78,
-            "created_at": "2025-03-20T14:30:00+01:00",
-            "updated_at": "2025-04-15T09:15:00Z",
-            "telegraph_url": None,  # Esempio senza URL Telegraph
-            "topics": ["javascript", "web", "frontend"],
-            "license": "Apache License 2.0",
-            "owner": {"name": "anotheruser", "avatar_url": ""},
-        },
-    ]
-    feed_content = create_rss_feed(sample_repos, "https://example.com/rss.xml")
-    print("Generated RSS Feed:")
-    # print(feed_content) # Stampa il feed generato (può essere lungo)
-    if save_rss_feed(feed_content, "test_rss_feed.xml"):
-        print("Test RSS feed saved to test_rss_feed.xml")
-    else:
-        print("Failed to save test RSS feed.")
-
-
-if __name__ == "__main__":
-    main()
