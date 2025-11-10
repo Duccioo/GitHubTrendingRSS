@@ -63,18 +63,19 @@ def get_trending_repositories(language=None, since="daily", limit=20, headers=No
     if language:
         query += f" language:{language}"
 
+    # Imposta il cutoff della data solo per i periodi temporali
     date_cutoff = None
-    if since == "weekly":
+    if since == "daily":
+        date_cutoff = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+    elif since == "weekly":
         date_cutoff = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
     elif since == "monthly":
         date_cutoff = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
-    elif since == "daily":
-        date_cutoff = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
 
-    if recently_trending:
+    # Aggiungi il filtro per data solo se 'since' non è 'all-time'
+    # Usiamo 'pushed' per riflettere l'attività recente, non la data di creazione
+    if since != "all-time" and date_cutoff:
         query += f" pushed:>{date_cutoff}"
-    else:
-        query += f" created:>{date_cutoff}"
 
     sort = "stars"
     order = "desc"

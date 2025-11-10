@@ -16,5 +16,5 @@ LANGUAGE = [
     "HTML",
     "CSS",
 ]
-PERIOD = ["daily", "weekly", "monthly"]
-TIMEOUT = 500
+PERIOD = ["daily", "weekly", "monthly", "all-time"]
+TIMEOUT = 5000
