@@ -90,13 +90,13 @@ def generate_all_feeds(limit=30, max_days=14):
                     current_trending_repos = extract_repo_data(repos, headers)
 
                     # --- Inizio logica di de-duplicazione ---
-                    # Rimuovi duplicati basati su 'html_url' mantenendo il primo incontro
+                    # Rimuovi duplicati basati su 'url' mantenendo il primo incontro
                     unique_repos = []
                     seen_urls = set()
                     for repo in current_trending_repos:
-                        if "html_url" in repo and repo["html_url"] not in seen_urls:
+                        if "url" in repo and repo["url"] not in seen_urls:
                             unique_repos.append(repo)
-                            seen_urls.add(repo["html_url"])
+                            seen_urls.add(repo["url"])
 
                     if len(current_trending_repos) > len(unique_repos):
                         logging.info(
@@ -128,9 +128,9 @@ def generate_all_feeds(limit=30, max_days=14):
                     final_repos_for_feed = list(current_trending_repos)
                     # Tiene traccia degli URL dei repo già inclusi per evitare duplicati
                     processed_repo_urls = {
-                        repo["html_url"]
+                        repo["url"]
                         for repo in current_trending_repos
-                        if "html_url" in repo
+                        if "url" in repo
                     }
 
                     # Se il file JSON con i dati dei repository delle esecuzioni precedenti esiste,
@@ -168,12 +168,12 @@ def generate_all_feeds(limit=30, max_days=14):
                                 added_from_history_count = 0
                                 for old_repo in repos_to_keep:
                                     if (
-                                        "html_url" in old_repo
-                                        and old_repo["html_url"]
+                                        "url" in old_repo
+                                        and old_repo["url"]
                                         not in processed_repo_urls
                                     ):
                                         final_repos_for_feed.append(old_repo)
-                                        processed_repo_urls.add(old_repo["html_url"])
+                                        processed_repo_urls.add(old_repo["url"])
                                         added_from_history_count += 1
 
                                 # Messaggio di log per i repository scartati
