@@ -17,4 +17,5 @@ LANGUAGE = [
     "CSS",
 ]
 PERIOD = ["daily", "weekly", "monthly", "all-time"]
+FEED_TYPE = ["new", "last_update"]
 TIMEOUT = 5000
