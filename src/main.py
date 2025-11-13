@@ -21,7 +21,7 @@ logging.basicConfig(
 from repo_scraper import get_trending_repositories, extract_repo_data
 from gen_feed import create_rss_feed
 import website
-from config import TIMEOUT, LANGUAGE, PERIOD
+from config import TIMEOUT, LANGUAGE, PERIOD, FEED_TYPE
 
 
 def generate_all_feeds(limit=30, max_days=14):
@@ -35,22 +35,18 @@ def generate_all_feeds(limit=30, max_days=14):
         "https://duccioo.github.io/GitHubTrendingRSS/"  # Modifica se necessario
     )
 
-    # Define supported languages
-    languages = LANGUAGE  # Importa le lingue da config.py
-    languages.sort()  # Ordina alfabeticamente
-
-    # Define time periods
+    # Define supported languages, periods, and feed types
+    languages = LANGUAGE
     periods = PERIOD
+    feed_types = FEED_TYPE
+    languages.sort()
 
     # Create feeds folder if it doesn't exist
-    feeds_dir = pathlib.Path("feeds")  # Definisci la directory dei feed
-    feeds_dir.mkdir(parents=True, exist_ok=True)  # Crea la directory se non esiste
+    feeds_dir = pathlib.Path("feeds")
+    feeds_dir.mkdir(parents=True, exist_ok=True)
 
-    data_dir = os.path.join(
-        os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data"
-    )
-    data_dir = pathlib.Path(data_dir)  # Definisci la directory dei dati
-    data_dir.mkdir(parents=True, exist_ok=True)  # Crea la directory se non esiste
+    data_dir = pathlib.Path("data")
+    data_dir.mkdir(parents=True, exist_ok=True)
 
     count = 0
     errors = 0
@@ -64,198 +60,121 @@ def generate_all_feeds(limit=30, max_days=14):
     else:
         logging.warning(
             "Attenzione: Token GitHub non trovato! Le richieste API potrebbero essere limitate."
-            " Il recupero dei README potrebbe fallire."
         )
 
-    # Generate feed for each language and period combination
+    # Generate feed for each combination
     for language in languages:
         for period in periods:
-            try:
-                logging.info(f"Generazione feed per {language} ({period})...")
+            for feed_type in feed_types:
+                # Condizione per 'last_update': solo per 'All Languages'
+                if feed_type == "last_update" and language != "All Languages":
+                    continue
 
-                # Use None for 'All Languages' and convert appropriately for 'Unknown languages'
-                lang_param = None if language == "Unknow Languages" else language
-                if language == "Unknown languages":
-                    lang_param = None  # Tratta come All per ora
-                elif language == "All Languages":
-                    lang_param = "all"
+                try:
+                    logging.info(
+                        f"Generazione feed per {language} ({period}, {feed_type})..."
+                    )
 
-                # Get repositories
-                repos = get_trending_repositories(
-                    language=lang_param, since=period, limit=limit, headers=headers
-                )
+                    lang_param = "all" if language == "All Languages" else language
+                    if language == "Unknown languages":
+                        lang_param = None
 
-                if repos:
-                    # Estrai dati e crea pagine Telegraph (passa headers)
-                    current_trending_repos = extract_repo_data(repos, headers)
+                    # Get repositories
+                    repos = get_trending_repositories(
+                        language=lang_param,
+                        since=period,
+                        limit=limit,
+                        headers=headers,
+                        feed_type=feed_type,
+                    )
 
-                    # --- Inizio logica di de-duplicazione ---
-                    # Rimuovi duplicati basati su 'url' mantenendo il primo incontro
-                    unique_repos = []
-                    seen_urls = set()
-                    for repo in current_trending_repos:
-                        if "url" in repo and repo["url"] not in seen_urls:
-                            unique_repos.append(repo)
-                            seen_urls.add(repo["url"])
-
-                    if len(current_trending_repos) > len(unique_repos):
+                    if not repos:
                         logging.info(
-                            f"Rimossi {len(current_trending_repos) - len(unique_repos)} duplicati dalla lista dei repository correnti."
+                            f"Nessun repository trovato per {language} ({period}, {feed_type})"
                         )
+                        continue
 
-                    current_trending_repos = unique_repos
-                    # --- Fine logica di de-duplicazione ---
+                    current_trending_repos = extract_repo_data(repos, headers)
+                    unique_repos = {
+                        repo["url"]: repo for repo in current_trending_repos
+                    }.values()
+                    current_trending_repos = list(unique_repos)
 
-                    # Costruisci l'URL e il nome del file specifici
-                    # Crea filename sicuro
-                    lang_filename_part = (
-                        language.replace(" ", "_")
-                        .replace("#", "sharp")
-                        .replace("+", "plus")
-                        .lower()
+                    # Costruisci il nome del file
+                    lang_fn = language.replace(" ", "_").lower()
+                    filename_xml = (
+                        feeds_dir / f"{lang_fn}_{period.lower()}_{feed_type}.xml"
                     )
-
-                    period_lower = period.lower()
-                    filename = feeds_dir / f"{lang_filename_part}_{period_lower}.xml"
-                    feed_url = f"{base_feed_url}{filename.name}"  # Aggiorna URL
-
-                    trending_json_path = (
-                        data_dir / f"{lang_filename_part}_{period_lower}.json"
+                    filename_json = (
+                        data_dir / f"{lang_fn}_{period.lower()}_{feed_type}.json"
                     )
+                    feed_url = f"{base_feed_url}{filename_xml.name}"
 
-                    # --- Inizio logica per feed cumulativo ---
-                    # 'current_trending_repos' contiene i repository attualmente di tendenza
                     final_repos_for_feed = list(current_trending_repos)
-                    # Tiene traccia degli URL dei repo già inclusi per evitare duplicati
-                    processed_repo_urls = {
-                        repo["url"]
-                        for repo in current_trending_repos
-                        if "url" in repo
-                    }
+                    processed_urls = {repo["url"] for repo in current_trending_repos}
 
-                    # Se il file JSON con i dati dei repository delle esecuzioni precedenti esiste,
-                    # leggilo per aggiungere i repository storici.
-                    if os.path.exists(trending_json_path):
+                    if os.path.exists(filename_json):
                         try:
-                            with open(
-                                trending_json_path, "r", encoding="utf-8"
-                            ) as f_json_old:
-                                previous_repos_data = json.load(f_json_old)
-
-                            # Filtra i vecchi repository e mantieni solo quelli
-                            # che sono stati aggiornati negli ultimi `max_days` giorni.
-                            filtered_previous_repos = []
-                            repos_to_keep = []
-
-                            if max_days > 0:
-                                time_threshold = datetime.now(
-                                    timezone.utc
-                                ) - timedelta(days=max_days)
-                                for repo in previous_repos_data:
-                                    updated_at_str = repo.get("updated_at")
-                                    if updated_at_str:
-                                        try:
-                                            # Converte la data in un oggetto datetime con timezone
-                                            updated_at_dt = datetime.fromisoformat(
-                                                updated_at_str.replace("Z", "+00:00")
-                                            )
-                                            if updated_at_dt > time_threshold:
-                                                repos_to_keep.append(repo)
-                                        except ValueError:
-                                            # Ignora i repo con formati di data non validi
-                                            continue
-                                # Logica per aggiungere i repository storici filtrati
-                                added_from_history_count = 0
-                                for old_repo in repos_to_keep:
-                                    if (
-                                        "url" in old_repo
-                                        and old_repo["url"]
-                                        not in processed_repo_urls
-                                    ):
-                                        final_repos_for_feed.append(old_repo)
-                                        processed_repo_urls.add(old_repo["url"])
-                                        added_from_history_count += 1
-
-                                # Messaggio di log per i repository scartati
-                                discarded_count = len(previous_repos_data) - len(
-                                    repos_to_keep
-                                )
-                                if discarded_count > 0:
-                                    logging.info(
-                                        f"Scartati {discarded_count} repository storici perché più vecchi di {max_days} giorni."
+                            with open(filename_json, "r", encoding="utf-8") as f:
+                                previous_repos = json.load(f)
+                            time_threshold = datetime.now(timezone.utc) - timedelta(
+                                days=max_days
+                            )
+                            added_from_history = 0
+                            for repo in previous_repos:
+                                if repo["url"] not in processed_urls:
+                                    updated_at = datetime.fromisoformat(
+                                        repo["updated_at"].replace("Z", "+00:00")
                                     )
-                                if added_from_history_count > 0:
-                                    logging.info(
-                                        f"Aggiunti {added_from_history_count} repository storici da {trending_json_path}."
-                                    )
-                            else:
+                                    if updated_at > time_threshold:
+                                        final_repos_for_feed.append(repo)
+                                        processed_urls.add(repo["url"])
+                                        added_from_history += 1
+                            if added_from_history > 0:
                                 logging.info(
-                                    "La conservazione dei dati storici è disabilitata (max_days=0)."
+                                    f"Aggiunti {added_from_history} repository storici."
                                 )
-                        except json.JSONDecodeError:
+                        except (json.JSONDecodeError, KeyError) as e:
                             logging.warning(
-                                f"Impossibile decodificare il file JSON storico {trending_json_path}. Il feed non sarà arricchito."
-                            )
-                        except Exception as e:
-                            logging.warning(
-                                f"Errore durante la lettura o il filtraggio del file JSON storico {trending_json_path}: {e}"
+                                f"Errore nel processare {filename_json}: {e}"
                             )
 
-                    # Opzionale: ordina la lista finale. Ad esempio, per numero di stelle (decrescente).
-                    # Questo assicura un ordinamento consistente nel feed.
-                    # Se non ordinato, i nuovi saranno prima, seguiti dai vecchi non duplicati.
-                    if final_repos_for_feed:
-                        final_repos_for_feed.sort(
-                            key=lambda x: x.get("stars", 0), reverse=True
-                        )
-                    # --- Fine logica per feed cumulativo ---
+                    final_repos_for_feed.sort(key=lambda x: x["stars"], reverse=True)
 
-                    # Salva la lista aggiornata e filtrata di repository nel file JSON.
-                    # Questo file JSON funge da "database" per i prossimi aggiornamenti.
-                    with open(trending_json_path, "w", encoding="utf-8") as file:
+                    with open(filename_json, "w", encoding="utf-8") as f:
                         json.dump(
-                            final_repos_for_feed, file, ensure_ascii=False, indent=2
+                            final_repos_for_feed, f, ensure_ascii=False, indent=2
                         )
                     logging.info(
-                        f"Dati dei repository ({len(final_repos_for_feed)} totali) aggiornati e salvati in {trending_json_path}"
+                        f"Dati salvati in {filename_json} ({len(final_repos_for_feed)} repo)."
                     )
 
                     # Generate RSS feed
-                    feed_title = f"GitHub Trending - {language} ({period.capitalize()})"
+                    type_str = (
+                        "Nuovi" if feed_type == "new" else "Aggiornati di recente"
+                    )
+                    feed_title = f"GitHub Trending - {type_str} in {language} ({period.capitalize()})"
+                    feed_description = f"Repository ({type_str}) più popolari in {language} nel periodo {period.lower()}."
 
-                    additional_description_note = ""
-                    # Aggiungi una nota alla descrizione se il feed contiene dati storici
-                    if len(final_repos_for_feed) > len(current_trending_repos):
-                        additional_description_note = (
-                            " (include repository da sessioni precedenti)"
-                        )
-
-                    feed_description = f"Repository più popolari su GitHub in {language} nel periodo {period.lower()}{additional_description_note}"
                     rss_feed = create_rss_feed(
-                        final_repos_for_feed,  # Usa la lista finale (cumulativa)
+                        final_repos_for_feed,
                         feed_url=feed_url,
                         title=feed_title,
                         description=feed_description,
                     )
 
-                    # Save RSS feed
-                    with open(filename, "w", encoding="utf-8") as file:
-                        file.write(rss_feed)
-
+                    with open(filename_xml, "w", encoding="utf-8") as f:
+                        f.write(rss_feed)
                     count += 1
-                    logging.info(f"Feed salvato: {filename}")
+                    logging.info(f"Feed salvato: {filename_xml}")
 
-                    # Add a small pause to avoid too many API requests
-                    time.sleep(TIMEOUT / 1000)  # Converti millisecondi in secondi
-                else:
-                    logging.info(f"Nessun repository trovato per {language} ({period})")
-                    # Non incrementare errors se è normale non trovare repo (es. linguaggi rari)
+                    time.sleep(TIMEOUT / 1000)
 
-            except Exception as e:
-                logging.exception(
-                    f"Errore durante la generazione per {language} ({period}): {e}"
-                )
-                errors += 1
+                except Exception as e:
+                    logging.exception(
+                        f"Errore per {language} ({period}, {feed_type}): {e}"
+                    )
+                    errors += 1
 
     logging.info(f"\nCompletato! Feed generati: {count}, Errori: {errors}")
     return count, errors
