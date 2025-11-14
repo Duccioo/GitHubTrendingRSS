@@ -115,108 +115,75 @@ def generate_popular_repo_cards(repos_data):
 
 def generate_website():
     """
-    Generates an HTML website by reading data from the monthly feed file.
+    Generates an HTML website with categorized feed links.
     """
-    # Define time periods (English)
     periods = ["Daily", "Weekly", "Monthly"]
     rss_emoji = "📰"
-
-    # Get current build date/time
     build_date = datetime.now().strftime("%d %B %Y, %H:%M:%S %Z")
-
-    # Get the base HTML template
     html_template = get_html_template(build_date)
 
-    # --- Generate Main Language Links ---
-    main_links_html = ""
+    # --- Generate "New Repositories" Section ---
+    new_repos_main_links_html = ""
     for language in MAIN_LANGUAGES:
-        main_links_html += f'<div class="main-language-group">'
-        main_links_html += f"<h3>{html.escape(language)}</h3>"
-        main_links_html += '<div class="feed-links">'  # Reuse existing class for links
+        new_repos_main_links_html += f'<div class="main-language-group">'
+        new_repos_main_links_html += f"<h3>{html.escape(language)}</h3>"
+        new_repos_main_links_html += '<div class="feed-links">'
         for period in periods:
-            lang_filename_part = (
-                language.replace(" ", "_")
-                .replace("#", "sharp")
-                .replace("+", "plus")
-                .lower()
-            )
-            period_lower = period.lower()
-            feed_filename = f"{lang_filename_part}_{period_lower}.xml"
+            lang_fn = language.replace(" ", "_").lower()
+            feed_filename = f"{lang_fn}_{period.lower()}_new.xml"
             feed_path = f"feeds/{feed_filename}"
-            # Ensure feed_path is properly escaped if needed, though relative paths are usually safe
-            main_links_html += f"""
-                    <a href="{html.escape(feed_path)}" class="feed-link">
-                        <span class="emoji">{rss_emoji}</span>{html.escape(period)}
-                    </a>
-            """
-        main_links_html += "</div></div>"  # Close feed-links and main-language-group
+            new_repos_main_links_html += f'<a href="{html.escape(feed_path)}" class="feed-link"><span class="emoji">{rss_emoji}</span>{html.escape(period)}</a>'
+        new_repos_main_links_html += "</div></div>"
 
-    # --- Generate Other Language Cards ---
-    other_language_cards_html = ""
+    new_repos_other_cards_html = ""
     for language in OTHER_LANGUAGES:
-        other_language_cards_html += f"""
-            <div class="language-card">
-                <div class="language-title">{html.escape(language)}</div>
-                <div class="feed-links">
-        """
+        new_repos_other_cards_html += f'<div class="language-card"><div class="language-title">{html.escape(language)}</div><div class="feed-links">'
         for period in periods:
-            lang_filename_part = (
-                language.replace(" ", "_")
-                .replace("#", "sharp")
-                .replace("+", "plus")
-                .lower()
-            )
-            period_lower = period.lower()
-            feed_filename = f"{lang_filename_part}_{period_lower}.xml"
+            lang_fn = language.replace(" ", "_").lower()
+            feed_filename = f"{lang_fn}_{period.lower()}_new.xml"
             feed_path = f"feeds/{feed_filename}"
-            # Ensure feed_path is properly escaped if needed
-            other_language_cards_html += f"""
-                    <a href="{html.escape(feed_path)}" class="feed-link">
-                        <span class="emoji">{rss_emoji}</span>{html.escape(period)}
-                    </a>
-            """
-        other_language_cards_html += """
-                </div>
-            </div>
-        """
+            new_repos_other_cards_html += f'<a href="{html.escape(feed_path)}" class="feed-link"><span class="emoji">{rss_emoji}</span>{html.escape(period)}</a>'
+        new_repos_other_cards_html += "</div></div>"
 
-    # --- Generate Popular Repo Cards from Feed ---
+    # --- Generate "Recently Updated" Section ---
+    updated_repos_links_html = '<div class="main-language-group">'
+    updated_repos_links_html += f"<h3>All Languages</h3>"
+    updated_repos_links_html += '<div class="feed-links">'
+    for period in periods:
+        feed_filename = f"all_languages_{period.lower()}_last_update.xml"
+        feed_path = f"feeds/{feed_filename}"
+        updated_repos_links_html += f'<a href="{html.escape(feed_path)}" class="feed-link"><span class="emoji">{rss_emoji}</span>{html.escape(period)}</a>'
+    updated_repos_links_html += "</div></div>"
+
+    # --- Generate Popular Repo Cards ---
+    target_feed_file = os.path.join(DATA_DIR, "all_languages_weekly_new.json")
     popular_cards_html = ""
-    popular_repos_from_feed = []
-    # Define the feed file to parse for popular repos (using Weekly All Languages)
-    target_feed_file = os.path.join(DATA_DIR, "all_languages_weekly.json")
-
     if os.path.exists(target_feed_file):
         try:
-            print(f"Parsing feed file for popular repos: {target_feed_file}")
             with open(target_feed_file, "r", encoding="utf-8") as file:
-                popular_repos_from_feed = json.load(file)
-                print(f"Loaded {len(popular_repos_from_feed)} repositories from feed.")
-            # Sort by stars (descending)
-            popular_repos_from_feed.sort(key=lambda x: x.get("stars", 0), reverse=True)
-
-            # Generate cards for the top N
-            popular_cards_html = generate_popular_repo_cards(popular_repos_from_feed)
-
+                popular_repos = json.load(file)
+            popular_repos.sort(key=lambda x: x.get("stars", 0), reverse=True)
+            popular_cards_html = generate_popular_repo_cards(popular_repos)
         except Exception as e:
-            print(f"Error processing feed file {target_feed_file}: {e}")
-            popular_cards_html = "<p>Error processing popular repositories feed.</p>"
+            print(f"Error processing {target_feed_file}: {e}")
+            popular_cards_html = "<p>Error loading popular repositories.</p>"
     else:
-        print(
-            f"Warning: Feed file {target_feed_file} not found. Popular repositories section will use placeholder."
-        )
-        # Provide a more informative placeholder if the file is missing
-        popular_cards_html = f"<p>Data feed ('{os.path.basename(target_feed_file)}') not found. Popular repositories cannot be displayed.</p>"
+        popular_cards_html = f"<p>Data feed not found.</p>"
 
     # --- Insert sections into the template ---
     html_output = html_template.replace(
-        "<!-- Main language links will be inserted here -->", main_links_html
+        "<!-- Main language links will be inserted here -->", new_repos_main_links_html
+    )
+    html_output = html_output.replace(
+        "<!-- Other language cards will be inserted here -->",
+        new_repos_other_cards_html,
+    )
+    html_output = html_output.replace(
+        "<!-- Recently updated links will be inserted here -->",
+        updated_repos_links_html,
     )
     html_output = html_output.replace(
         "<!-- Popular repo examples will be inserted here -->", popular_cards_html
-    )
-    html_output = html_output.replace(
-        "<!-- Other language cards will be inserted here -->", other_language_cards_html
     )
 
     return html_output

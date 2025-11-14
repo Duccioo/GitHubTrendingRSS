@@ -470,10 +470,16 @@ def get_html_template(build_date):
 
     <div class="container">
 
-        <!-- Section for All Languages & Unknown Languages -->
+        <!-- Section for "New" Repositories -->
         <div class="main-languages-section">
-             <h2>Core Feeds</h2>
+             <h2>New Repositories</h2>
              <!-- Main language links will be inserted here -->
+        </div>
+
+        <!-- Section for "Recently Updated" Repositories -->
+        <div class="main-languages-section">
+            <h2>Recently Updated Repositories</h2>
+            <!-- Recently updated links will be inserted here -->
         </div>
 
         <!-- Popular Repositories Section -->

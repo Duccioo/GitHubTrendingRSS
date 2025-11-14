@@ -53,7 +53,14 @@ def extract_repo_data(repos, headers):
     return organized_data
 
 
-def get_trending_repositories(language=None, since="daily", limit=20, headers=None, recently_trending=False):
+def get_trending_repositories(
+    language=None,
+    since="daily",
+    limit=20,
+    headers=None,
+    recently_trending=False,
+    feed_type="last_update",
+):
     """
     Recupera le repository di tendenza su GitHub
     """
@@ -73,9 +80,11 @@ def get_trending_repositories(language=None, since="daily", limit=20, headers=No
         date_cutoff = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
 
     # Aggiungi il filtro per data solo se 'since' non è 'all-time'
-    # Usiamo 'pushed' per riflettere l'attività recente, non la data di creazione
     if since != "all-time" and date_cutoff:
-        query += f" pushed:>{date_cutoff}"
+        if feed_type == "new":
+            query += f" created:>{date_cutoff}"
+        else:  # Default a 'last_update'
+            query += f" pushed:>{date_cutoff}"
 
     sort = "stars"
     order = "desc"
