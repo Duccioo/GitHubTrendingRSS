@@ -3,7 +3,7 @@
     "name": "TimmyOVO/deepseek-ocr.rs",
     "url": "https://github.com/TimmyOVO/deepseek-ocr.rs",
     "description": "Rust implementation of DeepSeek-OCR with OpenAI-compatible server & CLI No Python environment needed - just download and run.",
-    "stars": 1870,
+    "stars": 1878,
     "forks": 142,
     "language": "Rust",
     "topics": [
@@ -15,7 +15,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-10-25T13:42:10Z",
-    "updated_at": "2025-11-15T02:52:29Z",
+    "updated_at": "2025-11-15T21:27:47Z",
     "owner": {
       "name": "TimmyOVO",
       "avatar_url": "https://avatars.githubusercontent.com/u/47740511?v=4"
@@ -24,14 +24,14 @@
   {
     "name": "gausian-AI/Gausian_native_editor",
     "url": "https://github.com/gausian-AI/Gausian_native_editor",
-    "description": null,
-    "stars": 711,
+    "description": "Gausian - Rust-based local video editor for AI video production",
+    "stars": 866,
     "forks": 10,
     "language": "Rust",
     "topics": [],
     "license": "Other",
     "created_at": "2025-11-04T14:18:16Z",
-    "updated_at": "2025-11-15T02:16:06Z",
+    "updated_at": "2025-11-16T02:16:26Z",
     "owner": {
       "name": "gausian-AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/241996575?v=4"
@@ -41,13 +41,13 @@
     "name": "jdx/fnox",
     "url": "https://github.com/jdx/fnox",
     "description": "encrypted/remote secret manager",
-    "stars": 653,
+    "stars": 654,
     "forks": 16,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-10-18T11:19:04Z",
-    "updated_at": "2025-11-15T02:37:12Z",
+    "updated_at": "2025-11-15T17:35:00Z",
     "owner": {
       "name": "jdx",
       "avatar_url": "https://avatars.githubusercontent.com/u/216188?v=4"
@@ -57,8 +57,8 @@
     "name": "jonathanmagambo/otterlang",
     "url": "https://github.com/jonathanmagambo/otterlang",
     "description": "Otterlang programming language 🦦",
-    "stars": 587,
-    "forks": 11,
+    "stars": 596,
+    "forks": 12,
     "language": "Rust",
     "topics": [
       "compiler",
@@ -73,39 +73,18 @@
     ],
     "license": "BSD 3-Clause \"New\" or \"Revised\" License",
     "created_at": "2025-10-27T02:11:00Z",
-    "updated_at": "2025-11-14T22:54:37Z",
+    "updated_at": "2025-11-16T02:42:40Z",
     "owner": {
       "name": "jonathanmagambo",
       "avatar_url": "https://avatars.githubusercontent.com/u/183411567?v=4"
     }
   },
   {
-    "name": "tursodatabase/agentfs",
-    "url": "https://github.com/tursodatabase/agentfs",
-    "description": "The filesystem for agents.",
-    "stars": 544,
-    "forks": 31,
-    "language": "Rust",
-    "topics": [
-      "agents",
-      "filesystem",
-      "sqlite",
-      "turso"
-    ],
-    "license": "No license",
-    "created_at": "2025-10-24T17:05:06Z",
-    "updated_at": "2025-11-14T23:36:25Z",
-    "owner": {
-      "name": "tursodatabase",
-      "avatar_url": "https://avatars.githubusercontent.com/u/139391156?v=4"
-    }
-  },
-  {
     "name": "hcavarsan/pipedash",
     "url": "https://github.com/hcavarsan/pipedash",
     "description": "A desktop app for managing CI/CD pipelines from multiple providers",
-    "stars": 504,
-    "forks": 36,
+    "stars": 587,
+    "forks": 37,
     "language": "Rust",
     "topics": [
       "buildkite",
@@ -119,10 +98,56 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2025-10-31T00:02:21Z",
-    "updated_at": "2025-11-14T23:16:19Z",
+    "updated_at": "2025-11-16T03:03:08Z",
     "owner": {
       "name": "hcavarsan",
       "avatar_url": "https://avatars.githubusercontent.com/u/30353685?v=4"
+    }
+  },
+  {
+    "name": "tursodatabase/agentfs",
+    "url": "https://github.com/tursodatabase/agentfs",
+    "description": "The filesystem for agents.",
+    "stars": 562,
+    "forks": 33,
+    "language": "Rust",
+    "topics": [
+      "agents",
+      "filesystem",
+      "sqlite",
+      "turso"
+    ],
+    "license": "No license",
+    "created_at": "2025-10-24T17:05:06Z",
+    "updated_at": "2025-11-16T02:51:33Z",
+    "owner": {
+      "name": "tursodatabase",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139391156?v=4"
+    }
+  },
+  {
+    "name": "bgreenwell/xleak",
+    "url": "https://github.com/bgreenwell/xleak",
+    "description": "A fast terminal Excel viewer with an interactive TUI. Features full-text search, formula display, lazy loading for large files, clipboard support, and export to CSV/JSON. Built with Rust and ratatui.",
+    "stars": 463,
+    "forks": 21,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "excel",
+      "ratatui",
+      "rust",
+      "rust-lang",
+      "spreadsheet",
+      "spreadsheets",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-11-06T12:51:31Z",
+    "updated_at": "2025-11-15T23:38:11Z",
+    "owner": {
+      "name": "bgreenwell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3777755?v=4"
     }
   },
   {
@@ -142,41 +167,16 @@
     }
   },
   {
-    "name": "bgreenwell/xleak",
-    "url": "https://github.com/bgreenwell/xleak",
-    "description": "A fast terminal Excel viewer with an interactive TUI. Features full-text search, formula display, lazy loading for large files, clipboard support, and export to CSV/JSON. Built with Rust and ratatui.",
-    "stars": 371,
-    "forks": 13,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "excel",
-      "ratatui",
-      "rust",
-      "rust-lang",
-      "spreadsheet",
-      "spreadsheets",
-      "tui"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-11-06T12:51:31Z",
-    "updated_at": "2025-11-15T02:54:08Z",
-    "owner": {
-      "name": "bgreenwell",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3777755?v=4"
-    }
-  },
-  {
     "name": "pawurb/channels-console",
     "url": "https://github.com/pawurb/channels-console",
     "description": "Real-time monitoring, metrics and logs for Rust channels",
-    "stars": 299,
-    "forks": 4,
+    "stars": 315,
+    "forks": 5,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-10-28T20:52:16Z",
-    "updated_at": "2025-11-15T01:40:53Z",
+    "updated_at": "2025-11-16T01:48:30Z",
     "owner": {
       "name": "pawurb",
       "avatar_url": "https://avatars.githubusercontent.com/u/1131944?v=4"
@@ -186,13 +186,13 @@
     "name": "Augani/adabraka-ui",
     "url": "https://github.com/Augani/adabraka-ui",
     "description": "A ui component library for building desktop applications in rust",
-    "stars": 251,
+    "stars": 252,
     "forks": 5,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-10-21T19:25:32Z",
-    "updated_at": "2025-11-13T13:12:51Z",
+    "updated_at": "2025-11-15T14:32:06Z",
     "owner": {
       "name": "Augani",
       "avatar_url": "https://avatars.githubusercontent.com/u/13237525?v=4"
@@ -201,14 +201,19 @@
   {
     "name": "Jagalite/superseedr",
     "url": "https://github.com/Jagalite/superseedr",
-    "description": "A BitTorrent Client in your Terminal",
+    "description": "A Rust BitTorrent Client in your Terminal",
     "stars": 235,
     "forks": 8,
     "language": "Rust",
-    "topics": [],
+    "topics": [
+      "bittorrent",
+      "docker",
+      "rust",
+      "tui"
+    ],
     "license": "GNU General Public License v3.0",
     "created_at": "2025-10-18T22:09:46Z",
-    "updated_at": "2025-11-13T11:48:29Z",
+    "updated_at": "2025-11-15T22:40:32Z",
     "owner": {
       "name": "Jagalite",
       "avatar_url": "https://avatars.githubusercontent.com/u/8354941?v=4"
@@ -218,13 +223,13 @@
     "name": "Kamyil/work-tuimer",
     "url": "https://github.com/Kamyil/work-tuimer",
     "description": "Simple, keyboard-driven TUI for time-tracking that allows you to quickly add time blocks and automatically group time if same task was done in different sessions",
-    "stars": 200,
+    "stars": 202,
     "forks": 5,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-10-31T13:26:31Z",
-    "updated_at": "2025-11-14T19:00:16Z",
+    "updated_at": "2025-11-15T12:31:35Z",
     "owner": {
       "name": "Kamyil",
       "avatar_url": "https://avatars.githubusercontent.com/u/26087070?v=4"
@@ -234,13 +239,13 @@
     "name": "perplexityai/pplx-garden",
     "url": "https://github.com/perplexityai/pplx-garden",
     "description": "Perplexity open source garden for inference technology",
-    "stars": 186,
-    "forks": 17,
+    "stars": 194,
+    "forks": 18,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-11-04T17:35:34Z",
-    "updated_at": "2025-11-15T02:16:25Z",
+    "updated_at": "2025-11-16T00:45:42Z",
     "owner": {
       "name": "perplexityai",
       "avatar_url": "https://avatars.githubusercontent.com/u/185426709?v=4"
@@ -250,13 +255,13 @@
     "name": "alrpal/TinyETL",
     "url": "https://github.com/alrpal/TinyETL",
     "description": "Fast, zero-config ETL in a single binary",
-    "stars": 179,
-    "forks": 6,
+    "stars": 191,
+    "forks": 7,
     "language": "Rust",
     "topics": [],
     "license": "Other",
     "created_at": "2025-11-07T22:32:29Z",
-    "updated_at": "2025-11-15T01:42:24Z",
+    "updated_at": "2025-11-15T23:55:13Z",
     "owner": {
       "name": "alrpal",
       "avatar_url": "https://avatars.githubusercontent.com/u/13388054?v=4"
@@ -349,13 +354,13 @@
     "name": "neverl805/never-jscore",
     "url": "https://github.com/neverl805/never-jscore",
     "description": "基于rust deno_core开发封装的v8引擎库,用于python高性能执行js.(execjs的上位替代品)",
-    "stars": 125,
-    "forks": 40,
+    "stars": 130,
+    "forks": 41,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2025-11-04T14:42:59Z",
-    "updated_at": "2025-11-15T02:03:13Z",
+    "updated_at": "2025-11-16T00:37:31Z",
     "owner": {
       "name": "neverl805",
       "avatar_url": "https://avatars.githubusercontent.com/u/111741364?v=4"
@@ -400,8 +405,8 @@
     "name": "JayanAXHF/filessh",
     "url": "https://github.com/JayanAXHF/filessh",
     "description": "A fast and convenient TUI file browser for remote servers",
-    "stars": 100,
-    "forks": 0,
+    "stars": 112,
+    "forks": 2,
     "language": "Rust",
     "topics": [
       "cli",
@@ -412,7 +417,7 @@
     ],
     "license": "The Unlicense",
     "created_at": "2025-11-11T09:22:32Z",
-    "updated_at": "2025-11-14T22:51:33Z",
+    "updated_at": "2025-11-16T01:34:20Z",
     "owner": {
       "name": "JayanAXHF",
       "avatar_url": "https://avatars.githubusercontent.com/u/73993003?v=4"
@@ -422,8 +427,8 @@
     "name": "std-microblock/fripack",
     "url": "https://github.com/std-microblock/fripack",
     "description": "Package your Frida script into an executable.",
-    "stars": 94,
-    "forks": 16,
+    "stars": 105,
+    "forks": 18,
     "language": "Rust",
     "topics": [
       "bundle",
@@ -434,7 +439,7 @@
     ],
     "license": "No license",
     "created_at": "2025-11-10T12:02:31Z",
-    "updated_at": "2025-11-15T00:50:23Z",
+    "updated_at": "2025-11-16T03:07:04Z",
     "owner": {
       "name": "std-microblock",
       "avatar_url": "https://avatars.githubusercontent.com/u/66859419?v=4"
@@ -489,6 +494,30 @@
     }
   },
   {
+    "name": "htin1/toktop",
+    "url": "https://github.com/htin1/toktop",
+    "description": "llm usage monitor in terminal",
+    "stars": 91,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "anthropic",
+      "llm",
+      "openai",
+      "rust",
+      "telemetry",
+      "terminal",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-11-06T23:17:37Z",
+    "updated_at": "2025-11-15T21:14:25Z",
+    "owner": {
+      "name": "htin1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173961715?v=4"
+    }
+  },
+  {
     "name": "WilliamJudge94/fairshare",
     "url": "https://github.com/WilliamJudge94/fairshare",
     "description": "Fair resource allocation for shared Linux systems",
@@ -521,27 +550,24 @@
     }
   },
   {
-    "name": "htin1/toktop",
-    "url": "https://github.com/htin1/toktop",
-    "description": "llm usage monitor in terminal",
-    "stars": 80,
-    "forks": 0,
+    "name": "nooscraft/tokuin",
+    "url": "https://github.com/nooscraft/tokuin",
+    "description": "CLI tool – estimates LLM tokens/costs and runs provider-aware load tests for OpenAI, Anthropic, OpenRouter, or custom endpoints.",
+    "stars": 77,
+    "forks": 2,
     "language": "Rust",
     "topics": [
-      "anthropic",
-      "llm",
-      "openai",
+      "llms",
+      "prompt-engineering",
       "rust",
-      "telemetry",
-      "terminal",
-      "tui"
+      "tokenizer"
     ],
-    "license": "MIT License",
-    "created_at": "2025-11-06T23:17:37Z",
-    "updated_at": "2025-11-15T02:25:52Z",
+    "license": "Other",
+    "created_at": "2025-11-06T09:08:48Z",
+    "updated_at": "2025-11-16T00:54:09Z",
     "owner": {
-      "name": "htin1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/173961715?v=4"
+      "name": "nooscraft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/221098?v=4"
     }
   },
   {
@@ -576,31 +602,10 @@
     ],
     "license": "Other",
     "created_at": "2025-11-01T03:42:34Z",
-    "updated_at": "2025-11-14T04:16:53Z",
+    "updated_at": "2025-11-15T17:09:32Z",
     "owner": {
       "name": "linnix-os",
       "avatar_url": "https://avatars.githubusercontent.com/u/224917429?v=4"
-    }
-  },
-  {
-    "name": "nooscraft/tokuin",
-    "url": "https://github.com/nooscraft/tokuin",
-    "description": "CLI tool – estimates LLM tokens/costs and runs provider-aware load tests for OpenAI, Anthropic, OpenRouter, or custom endpoints.",
-    "stars": 70,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "llms",
-      "prompt-engineering",
-      "rust",
-      "tokenizer"
-    ],
-    "license": "Other",
-    "created_at": "2025-11-06T09:08:48Z",
-    "updated_at": "2025-11-15T02:08:06Z",
-    "owner": {
-      "name": "nooscraft",
-      "avatar_url": "https://avatars.githubusercontent.com/u/221098?v=4"
     }
   }
 ]
