@@ -3,8 +3,8 @@
     "name": "hasinhayder/tyro",
     "url": "https://github.com/hasinhayder/tyro",
     "description": "Tyro is a powerful Authentication, Authorization, Role & Privilege Management solution for Laravel 12. Think of it as a Swiss Army knife that handles everything from user authentication and role-based access control to user suspension workflows.",
-    "stars": 369,
-    "forks": 25,
+    "stars": 420,
+    "forks": 27,
     "language": "PHP",
     "topics": [
       "api",
@@ -19,7 +19,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-11-22T04:02:58Z",
-    "updated_at": "2025-12-02T03:15:46Z",
+    "updated_at": "2025-12-02T19:52:33Z",
     "owner": {
       "name": "hasinhayder",
       "avatar_url": "https://avatars.githubusercontent.com/u/490779?v=4"
@@ -29,13 +29,13 @@
     "name": "infosave2007/amneziavpnphp",
     "url": "https://github.com/infosave2007/amneziavpnphp",
     "description": "Web-based management panel for Amnezia AWG (WireGuard) VPN servers.",
-    "stars": 105,
+    "stars": 110,
     "forks": 15,
     "language": "PHP",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-11-07T10:24:25Z",
-    "updated_at": "2025-12-01T16:33:25Z",
+    "updated_at": "2025-12-03T03:13:44Z",
     "owner": {
       "name": "infosave2007",
       "avatar_url": "https://avatars.githubusercontent.com/u/50740197?v=4"
@@ -216,6 +216,60 @@
     }
   },
   {
+    "name": "hasinhayder/tyro-login",
+    "url": "https://github.com/hasinhayder/tyro-login",
+    "description": "Powerful authentication system for Laravel 12 - Login, registration, Forget Password, Email Verification, OTP, Captcha, Brute Force Lockout, 5 Layouts, Dark & Light Themes, Email templates, Fully Configurable, Social Login. Comes with Excellent Documentation.",
+    "stars": 61,
+    "forks": 12,
+    "language": "PHP",
+    "topics": [
+      "authentication",
+      "javascript",
+      "laravel",
+      "login",
+      "php",
+      "sanctum",
+      "social-login",
+      "tyro"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-11-30T08:00:51Z",
+    "updated_at": "2025-12-03T02:22:42Z",
+    "owner": {
+      "name": "hasinhayder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/490779?v=4"
+    }
+  },
+  {
+    "name": "claude-php/Claude-PHP-SDK",
+    "url": "https://github.com/claude-php/Claude-PHP-SDK",
+    "description": "PHP SDK for Claude - Provides complete 1-for-1 functionality of the Official Python SDK",
+    "stars": 57,
+    "forks": 2,
+    "language": "PHP",
+    "topics": [
+      "ai",
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-ai",
+      "claude-api",
+      "claude-php",
+      "claude-php-sdk",
+      "php",
+      "php-sdk",
+      "php-sdks",
+      "sdk"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-11-17T12:42:59Z",
+    "updated_at": "2025-12-02T20:57:22Z",
+    "owner": {
+      "name": "claude-php",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173442925?v=4"
+    }
+  },
+  {
     "name": "duckpigdog/PHP-Code-Sec",
     "url": "https://github.com/duckpigdog/PHP-Code-Sec",
     "description": "A local testing ground covering common PHP code auditing topics. Organized similarly to DVWA/Pikachu, it includes an installation wizard and a tutorial.一个覆盖常见 PHP 代码审计知识点的本地靶场。参考 DVWA / Pikachu 的组织方式，含安装向导与通关教程。",
@@ -236,44 +290,15 @@
     "url": "https://github.com/ShopeX/ECShopX",
     "description": "The ECShopX Open Source E-Commerce System is free for commercial use, subject to the Apache 2.0 License and Shopex’s additional terms. ",
     "stars": 55,
-    "forks": 4,
+    "forks": 5,
     "language": "PHP",
     "topics": [],
     "license": "Other",
     "created_at": "2025-11-19T05:37:13Z",
-    "updated_at": "2025-12-01T12:55:29Z",
+    "updated_at": "2025-12-02T09:27:47Z",
     "owner": {
       "name": "ShopeX",
       "avatar_url": "https://avatars.githubusercontent.com/u/3449580?v=4"
-    }
-  },
-  {
-    "name": "claude-php/Claude-PHP-SDK",
-    "url": "https://github.com/claude-php/Claude-PHP-SDK",
-    "description": "PHP SDK for Claude - Provides complete 1-for-1 functionality of the Official Python SDK",
-    "stars": 53,
-    "forks": 1,
-    "language": "PHP",
-    "topics": [
-      "ai",
-      "anthropic",
-      "anthropic-claude",
-      "claude",
-      "claude-ai",
-      "claude-api",
-      "claude-php",
-      "claude-php-sdk",
-      "php",
-      "php-sdk",
-      "php-sdks",
-      "sdk"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-11-17T12:42:59Z",
-    "updated_at": "2025-12-01T14:13:13Z",
-    "owner": {
-      "name": "claude-php",
-      "avatar_url": "https://avatars.githubusercontent.com/u/173442925?v=4"
     }
   },
   {
@@ -403,51 +428,55 @@
     }
   },
   {
-    "name": "selimwdev/WAPTLab",
-    "url": "https://github.com/selimwdev/WAPTLab",
-    "description": "WAPTLab - Web Application Penetration Testing Lab",
-    "stars": 47,
-    "forks": 13,
+    "name": "franbarbalopez/mirror",
+    "url": "https://github.com/franbarbalopez/mirror",
+    "description": "Mirror is an elegant user impersonation package for Laravel. It allows administrators to seamlessly log in as other users to troubleshoot issues, provide support, or test user experiences",
+    "stars": 49,
+    "forks": 1,
     "language": "PHP",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-11-07T22:20:09Z",
-    "updated_at": "2025-12-01T20:57:18Z",
+    "topics": [
+      "impersonate",
+      "impersonation",
+      "laravel"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-11-05T22:01:59Z",
+    "updated_at": "2025-12-03T01:18:40Z",
     "owner": {
-      "name": "selimwdev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/113633078?v=4"
+      "name": "franbarbalopez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57897024?v=4"
     }
   },
   {
     "name": "mariorazo97/single-file-php-ai",
     "url": "https://github.com/mariorazo97/single-file-php-ai",
     "description": "A drop-in, single-file PHP chat interface for Ollama and OpenAI. No Node.js, no Docker, no build steps.",
-    "stars": 46,
+    "stars": 48,
     "forks": 1,
     "language": "PHP",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-11-26T02:54:20Z",
-    "updated_at": "2025-12-01T13:06:29Z",
+    "updated_at": "2025-12-02T15:42:44Z",
     "owner": {
       "name": "mariorazo97",
       "avatar_url": "https://avatars.githubusercontent.com/u/108847652?v=4"
     }
   },
   {
-    "name": "mateffy/laravel-job-progress",
-    "url": "https://github.com/mateffy/laravel-job-progress",
-    "description": "Track and show progress of your background jobs (for progress bar UIs etc.) using Laravel's cache system. Also supports cancelling jobs during execution and also returning some job result data (e.g. model IDs or other DTOs).",
-    "stars": 41,
-    "forks": 1,
+    "name": "selimwdev/WAPTLab",
+    "url": "https://github.com/selimwdev/WAPTLab",
+    "description": "WAPTLab - Web Application Penetration Testing Lab",
+    "stars": 46,
+    "forks": 13,
     "language": "PHP",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-11-03T20:42:39Z",
-    "updated_at": "2025-11-28T14:36:31Z",
+    "license": "No license",
+    "created_at": "2025-11-07T22:20:09Z",
+    "updated_at": "2025-12-02T03:32:17Z",
     "owner": {
-      "name": "mateffy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/89932972?v=4"
+      "name": "selimwdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113633078?v=4"
     }
   },
   {
@@ -471,6 +500,22 @@
     "owner": {
       "name": "lukacavic",
       "avatar_url": "https://avatars.githubusercontent.com/u/4538071?v=4"
+    }
+  },
+  {
+    "name": "mateffy/laravel-job-progress",
+    "url": "https://github.com/mateffy/laravel-job-progress",
+    "description": "Track and show progress of your background jobs (for progress bar UIs etc.) using Laravel's cache system. Also supports cancelling jobs during execution and also returning some job result data (e.g. model IDs or other DTOs).",
+    "stars": 41,
+    "forks": 1,
+    "language": "PHP",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-11-03T20:42:39Z",
+    "updated_at": "2025-11-28T14:36:31Z",
+    "owner": {
+      "name": "mateffy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89932972?v=4"
     }
   },
   {
@@ -510,6 +555,22 @@
     "owner": {
       "name": "saeedvir",
       "avatar_url": "https://avatars.githubusercontent.com/u/8615309?v=4"
+    }
+  },
+  {
+    "name": "AlizHarb/forgepulse",
+    "url": "https://github.com/AlizHarb/forgepulse",
+    "description": "Dynamic Workflow Builder for Laravel - Drag-and-drop workflow designer with conditional branching and real-time execution tracking",
+    "stars": 34,
+    "forks": 1,
+    "language": "PHP",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-11-25T22:53:52Z",
+    "updated_at": "2025-12-02T13:47:52Z",
+    "owner": {
+      "name": "AlizHarb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34816428?v=4"
     }
   },
   {
@@ -566,22 +627,6 @@
     }
   },
   {
-    "name": "AlizHarb/forgepulse",
-    "url": "https://github.com/AlizHarb/forgepulse",
-    "description": "Dynamic Workflow Builder for Laravel - Drag-and-drop workflow designer with conditional branching and real-time execution tracking",
-    "stars": 33,
-    "forks": 1,
-    "language": "PHP",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-11-25T22:53:52Z",
-    "updated_at": "2025-12-01T12:33:09Z",
-    "owner": {
-      "name": "AlizHarb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34816428?v=4"
-    }
-  },
-  {
     "name": "B3rou/Polyglot-Calculators",
     "url": "https://github.com/B3rou/Polyglot-Calculators",
     "description": "A collection of calculator programs written in any language - from beginner-friendly arithmetic calculators to advanced mathematical tools.",
@@ -614,26 +659,6 @@
     "owner": {
       "name": "myxiaoao",
       "avatar_url": "https://avatars.githubusercontent.com/u/1223134?v=4"
-    }
-  },
-  {
-    "name": "franbarbalopez/mirror",
-    "url": "https://github.com/franbarbalopez/mirror",
-    "description": "Mirror is an elegant user impersonation package for Laravel. It allows administrators to seamlessly log in as other users to troubleshoot issues, provide support, or test user experiences",
-    "stars": 24,
-    "forks": 1,
-    "language": "PHP",
-    "topics": [
-      "impersonate",
-      "impersonation",
-      "laravel"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-11-05T22:01:59Z",
-    "updated_at": "2025-11-24T06:27:51Z",
-    "owner": {
-      "name": "franbarbalopez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57897024?v=4"
     }
   },
   {
@@ -715,7 +740,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-11-15T18:57:22Z",
-    "updated_at": "2025-11-27T18:19:52Z",
+    "updated_at": "2025-12-02T11:03:36Z",
     "owner": {
       "name": "jobmetric",
       "avatar_url": "https://avatars.githubusercontent.com/u/225939223?v=4"
@@ -751,6 +776,28 @@
     "owner": {
       "name": "nyahajimi",
       "avatar_url": "https://avatars.githubusercontent.com/u/226980854?v=4"
+    }
+  },
+  {
+    "name": "vildanbina/laravel-translation-pruner",
+    "url": "https://github.com/vildanbina/laravel-translation-pruner",
+    "description": "Simple Laravel tool to find and remove unused translation strings across your project.",
+    "stars": 20,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "artisan",
+      "i18n",
+      "laravel",
+      "localization",
+      "translations"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-11-16T20:32:57Z",
+    "updated_at": "2025-12-02T04:16:01Z",
+    "owner": {
+      "name": "vildanbina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51203303?v=4"
     }
   },
   {
@@ -802,25 +849,23 @@
     }
   },
   {
-    "name": "vildanbina/laravel-translation-pruner",
-    "url": "https://github.com/vildanbina/laravel-translation-pruner",
-    "description": "Simple Laravel tool to find and remove unused translation strings across your project.",
-    "stars": 19,
+    "name": "Kocal/phpstan-symfony-ux",
+    "url": "https://github.com/Kocal/phpstan-symfony-ux",
+    "description": "PHPStan rules for Symfony UX",
+    "stars": 20,
     "forks": 0,
     "language": "PHP",
     "topics": [
-      "artisan",
-      "i18n",
-      "laravel",
-      "localization",
-      "translations"
+      "phpstan",
+      "phpstan-rules",
+      "symfony-ux"
     ],
     "license": "MIT License",
-    "created_at": "2025-11-16T20:32:57Z",
-    "updated_at": "2025-11-26T07:46:17Z",
+    "created_at": "2025-11-22T17:52:35Z",
+    "updated_at": "2025-12-02T22:45:38Z",
     "owner": {
-      "name": "vildanbina",
-      "avatar_url": "https://avatars.githubusercontent.com/u/51203303?v=4"
+      "name": "Kocal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2103975?v=4"
     }
   },
   {
@@ -842,26 +887,6 @@
     "owner": {
       "name": "LaushLoco",
       "avatar_url": "https://avatars.githubusercontent.com/u/146996489?v=4"
-    }
-  },
-  {
-    "name": "Kocal/phpstan-symfony-ux",
-    "url": "https://github.com/Kocal/phpstan-symfony-ux",
-    "description": "PHPStan rules for Symfony UX",
-    "stars": 19,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [
-      "phpstan",
-      "phpstan-rules",
-      "symfony-ux"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-11-22T17:52:35Z",
-    "updated_at": "2025-12-01T11:06:23Z",
-    "owner": {
-      "name": "Kocal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2103975?v=4"
     }
   },
   {
