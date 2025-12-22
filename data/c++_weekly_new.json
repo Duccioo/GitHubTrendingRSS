@@ -16,35 +16,46 @@
     }
   },
   {
-    "name": "PlummersSoftwareLLC/retropad",
-    "url": "https://github.com/PlummersSoftwareLLC/retropad",
-    "description": null,
-    "stars": 163,
-    "forks": 43,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-02T00:36:15Z",
-    "updated_at": "2025-12-07T22:10:59Z",
-    "owner": {
-      "name": "PlummersSoftwareLLC",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83871427?v=4"
-    }
-  },
-  {
     "name": "tsoding/lamb",
     "url": "https://github.com/tsoding/lamb",
-    "description": "Smallest Pure Functional Programming Language in C",
-    "stars": 119,
+    "description": "Tiny Pure Functional Programming Language in C",
+    "stars": 128,
     "forks": 1,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-16T11:52:02Z",
-    "updated_at": "2025-12-20T22:43:08Z",
+    "updated_at": "2025-12-22T02:14:30Z",
     "owner": {
       "name": "tsoding",
       "avatar_url": "https://avatars.githubusercontent.com/u/18597647?v=4"
+    }
+  },
+  {
+    "name": "zero2504/EDR-GhostLocker",
+    "url": "https://github.com/zero2504/EDR-GhostLocker",
+    "description": "AppLocker-Based EDR Neutralization",
+    "stars": 111,
+    "forks": 15,
+    "language": "C",
+    "topics": [
+      "applocker",
+      "applocker-rule",
+      "edr",
+      "edr-bypass",
+      "edr-evasion",
+      "malware",
+      "malware-analysis",
+      "malware-development",
+      "malware-research",
+      "windowsinternals"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-19T11:38:04Z",
+    "updated_at": "2025-12-22T03:26:11Z",
+    "owner": {
+      "name": "zero2504",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84348823?v=4"
     }
   },
   {
@@ -83,13 +94,13 @@
     "name": "RayRRT/ESC1-unPAC",
     "url": "https://github.com/RayRRT/ESC1-unPAC",
     "description": "A Beacon Object File (BOF) that performs the complete ESC1 attack chain in a single execution: certificate request with arbitrary SAN (+SID), PKINIT authentication, and NT hash extraction via UnPAC-the-hash.",
-    "stars": 86,
-    "forks": 16,
+    "stars": 92,
+    "forks": 17,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2025-12-17T22:08:16Z",
-    "updated_at": "2025-12-21T02:50:32Z",
+    "updated_at": "2025-12-22T01:30:19Z",
     "owner": {
       "name": "RayRRT",
       "avatar_url": "https://avatars.githubusercontent.com/u/52030285?v=4"
@@ -192,33 +203,6 @@
     }
   },
   {
-    "name": "zero2504/EDR-GhostLocker",
-    "url": "https://github.com/zero2504/EDR-GhostLocker",
-    "description": "AppLocker-Based EDR Neutralization",
-    "stars": 40,
-    "forks": 4,
-    "language": "C",
-    "topics": [
-      "applocker",
-      "applocker-rule",
-      "edr",
-      "edr-bypass",
-      "edr-evasion",
-      "malware",
-      "malware-analysis",
-      "malware-development",
-      "malware-research",
-      "windowsinternals"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-19T11:38:04Z",
-    "updated_at": "2025-12-21T03:00:03Z",
-    "owner": {
-      "name": "zero2504",
-      "avatar_url": "https://avatars.githubusercontent.com/u/84348823?v=4"
-    }
-  },
-  {
     "name": "kozmer/sigdream",
     "url": "https://github.com/kozmer/sigdream",
     "description": "sigreturn-oriented programming (SROP) based sleep obfuscation poc for Linux",
@@ -264,6 +248,22 @@
     "owner": {
       "name": "ringtailsoftware",
       "avatar_url": "https://avatars.githubusercontent.com/u/20110944?v=4"
+    }
+  },
+  {
+    "name": "jhalon/cSessionHop",
+    "url": "https://github.com/jhalon/cSessionHop",
+    "description": "Beacon Object File (BOF) for Windows Session Hijacking via IHxHelpPaneServer COM",
+    "stars": 36,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-12-20T01:26:34Z",
+    "updated_at": "2025-12-22T03:05:16Z",
+    "owner": {
+      "name": "jhalon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19541892?v=4"
     }
   },
   {
@@ -359,6 +359,22 @@
     "owner": {
       "name": "vmsplit",
       "avatar_url": "https://avatars.githubusercontent.com/u/190651047?v=4"
+    }
+  },
+  {
+    "name": "ashish0kumar/cwalk",
+    "url": "https://github.com/ashish0kumar/cwalk",
+    "description": "colorful random-walk pipes terminal screensaver",
+    "stars": 24,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-19T18:40:20Z",
+    "updated_at": "2025-12-21T23:31:20Z",
+    "owner": {
+      "name": "ashish0kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/143941235?v=4"
     }
   },
   {
@@ -536,29 +552,6 @@
     }
   },
   {
-    "name": "vmsplit/silkhook",
-    "url": "https://github.com/vmsplit/silkhook",
-    "description": "tiny arm64 hooking library (WIP)",
-    "stars": 17,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "aarch64",
-      "aarch64-linux",
-      "arm64",
-      "hooking",
-      "library",
-      "linux"
-    ],
-    "license": "No license",
-    "created_at": "2025-12-02T20:00:27Z",
-    "updated_at": "2025-12-07T19:17:06Z",
-    "owner": {
-      "name": "vmsplit",
-      "avatar_url": "https://avatars.githubusercontent.com/u/190651047?v=4"
-    }
-  },
-  {
     "name": "sebyx07/zsv-ruby",
     "url": "https://github.com/sebyx07/zsv-ruby",
     "description": "SIMD-accelerated CSV parser for Ruby - 5-6x faster than CSV stdlib",
@@ -581,22 +574,6 @@
     }
   },
   {
-    "name": "jhalon/cSessionHop",
-    "url": "https://github.com/jhalon/cSessionHop",
-    "description": "Beacon Object File (BOF) for Windows Session Hijacking via IHxHelpPaneServer COM",
-    "stars": 15,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-20T01:26:34Z",
-    "updated_at": "2025-12-21T01:03:26Z",
-    "owner": {
-      "name": "jhalon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19541892?v=4"
-    }
-  },
-  {
     "name": "Imrglop/IDA-FastAnalysis",
     "url": "https://github.com/Imrglop/IDA-FastAnalysis",
     "description": "(WIP) IDA Pro plugin that speeds up the initial binary auto analysis through caching and multithreaded analysis",
@@ -610,42 +587,10 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-16T02:56:53Z",
-    "updated_at": "2025-12-20T20:06:01Z",
+    "updated_at": "2025-12-22T02:27:48Z",
     "owner": {
       "name": "Imrglop",
       "avatar_url": "https://avatars.githubusercontent.com/u/69129770?v=4"
-    }
-  },
-  {
-    "name": "SuckDuck/PuppetStudio",
-    "url": "https://github.com/SuckDuck/PuppetStudio",
-    "description": "A lightweight, simple, and portable 2D skeletal frame-by-frame animation software inspired by Pivot Animator.",
-    "stars": 14,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-03T06:23:29Z",
-    "updated_at": "2025-12-07T20:45:41Z",
-    "owner": {
-      "name": "SuckDuck",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108150387?v=4"
-    }
-  },
-  {
-    "name": "ashish0kumar/cwalk",
-    "url": "https://github.com/ashish0kumar/cwalk",
-    "description": "colorful random-walk pipes terminal screensaver",
-    "stars": 13,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-19T18:40:20Z",
-    "updated_at": "2025-12-21T02:49:59Z",
-    "owner": {
-      "name": "ashish0kumar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/143941235?v=4"
     }
   },
   {
@@ -764,6 +709,38 @@
     }
   },
   {
+    "name": "finngineering/ch55x_firmware_extractor",
+    "url": "https://github.com/finngineering/ch55x_firmware_extractor",
+    "description": "Firmware extractor for CH55x microprocessors",
+    "stars": 11,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-18T17:47:38Z",
+    "updated_at": "2025-12-22T01:29:02Z",
+    "owner": {
+      "name": "finngineering",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99587867?v=4"
+    }
+  },
+  {
+    "name": "j4nn/xperable",
+    "url": "https://github.com/j4nn/xperable",
+    "description": "Xperia ABL fastboot Exploit",
+    "stars": 11,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-12-16T20:25:52Z",
+    "updated_at": "2025-12-22T02:35:28Z",
+    "owner": {
+      "name": "j4nn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/531585?v=4"
+    }
+  },
+  {
     "name": "bjarki-andreasen/zephyr-micropython",
     "url": "https://github.com/bjarki-andreasen/zephyr-micropython",
     "description": null,
@@ -812,19 +789,19 @@
     }
   },
   {
-    "name": "z-libs/zalloc.h",
-    "url": "https://github.com/z-libs/zalloc.h",
-    "description": "A single-header C/C++ memory suite featuring Arena, Pool, and Debug allocators for high-performance systems.",
-    "stars": 11,
+    "name": "earthonion/RustCERevive",
+    "url": "https://github.com/earthonion/RustCERevive",
+    "description": "Trying to get Rust Console edition working without PSN, and to host servers on our own machines. (On Jailbroken Consoles)",
+    "stars": 10,
     "forks": 1,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-03T22:56:34Z",
-    "updated_at": "2025-12-07T17:40:06Z",
+    "license": "No license",
+    "created_at": "2025-12-17T00:24:37Z",
+    "updated_at": "2025-12-21T19:57:33Z",
     "owner": {
-      "name": "z-libs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/245714965?v=4"
+      "name": "earthonion",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3332298?v=4"
     }
   },
   {
