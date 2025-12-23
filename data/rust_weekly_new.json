@@ -3,8 +3,8 @@
     "name": "terauss/Polymarket-Kalshi-Arbitrage-bot",
     "url": "https://github.com/terauss/Polymarket-Kalshi-Arbitrage-bot",
     "description": "Polymarket arbitrage bot. Kalshi-Poly, Poly-Poly, and Kalshi-Kalshi arbitrage bot for automated cross-platform trading on Prediction Market. ",
-    "stars": 379,
-    "forks": 347,
+    "stars": 413,
+    "forks": 372,
     "language": "Rust",
     "topics": [
       "kalshi-kalshi-arbitrage-bot",
@@ -15,7 +15,7 @@
     ],
     "license": "No license",
     "created_at": "2025-12-18T13:35:16Z",
-    "updated_at": "2025-12-22T03:22:57Z",
+    "updated_at": "2025-12-23T03:08:26Z",
     "owner": {
       "name": "terauss",
       "avatar_url": "https://avatars.githubusercontent.com/u/7345924?v=4"
@@ -60,6 +60,26 @@
     }
   },
   {
+    "name": "jgarzik/hk",
+    "url": "https://github.com/jgarzik/hk",
+    "description": "A modern, Linux compatible OS kernel",
+    "stars": 279,
+    "forks": 14,
+    "language": "Rust",
+    "topics": [
+      "kernel",
+      "linux",
+      "linux-kernel"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-18T23:38:31Z",
+    "updated_at": "2025-12-23T03:09:23Z",
+    "owner": {
+      "name": "jgarzik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/494411?v=4"
+    }
+  },
+  {
     "name": "fcoury/tsql",
     "url": "https://github.com/fcoury/tsql",
     "description": "🐘 tsql — A modern PostgreSQL manager TUI",
@@ -73,26 +93,6 @@
     "owner": {
       "name": "fcoury",
       "avatar_url": "https://avatars.githubusercontent.com/u/1371?v=4"
-    }
-  },
-  {
-    "name": "jgarzik/hk",
-    "url": "https://github.com/jgarzik/hk",
-    "description": "A modern, Linux compatible OS kernel",
-    "stars": 202,
-    "forks": 8,
-    "language": "Rust",
-    "topics": [
-      "kernel",
-      "linux",
-      "linux-kernel"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-18T23:38:31Z",
-    "updated_at": "2025-12-22T03:00:55Z",
-    "owner": {
-      "name": "jgarzik",
-      "avatar_url": "https://avatars.githubusercontent.com/u/494411?v=4"
     }
   },
   {
@@ -137,6 +137,30 @@
     "owner": {
       "name": "CryptomSol",
       "avatar_url": "https://avatars.githubusercontent.com/u/17170870?v=4"
+    }
+  },
+  {
+    "name": "boonzy00/ringmpsc",
+    "url": "https://github.com/boonzy00/ringmpsc",
+    "description": "Lock-free MPSC channel in Zig achieving 50+ billion messages/second via ring-decomposed architecture",
+    "stars": 145,
+    "forks": 10,
+    "language": "Rust",
+    "topics": [
+      "concurrency",
+      "lock-free",
+      "lock-freechannel",
+      "mpsc",
+      "ring-buffer",
+      "spsc",
+      "zig"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-18T20:55:33Z",
+    "updated_at": "2025-12-22T19:25:29Z",
+    "owner": {
+      "name": "boonzy00",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193149050?v=4"
     }
   },
   {
@@ -311,7 +335,7 @@
     "name": "markrai/obsidenc",
     "url": "https://github.com/markrai/obsidenc",
     "description": "paranoid-grade rust-based encryption utility + cross-platform GUI",
-    "stars": 58,
+    "stars": 60,
     "forks": 3,
     "language": "Rust",
     "topics": [
@@ -324,7 +348,7 @@
     ],
     "license": "Other",
     "created_at": "2025-12-17T03:27:02Z",
-    "updated_at": "2025-12-21T19:40:19Z",
+    "updated_at": "2025-12-22T19:46:54Z",
     "owner": {
       "name": "markrai",
       "avatar_url": "https://avatars.githubusercontent.com/u/28987673?v=4"
@@ -414,11 +438,27 @@
     }
   },
   {
+    "name": "sammwyy/NRelay",
+    "url": "https://github.com/sammwyy/NRelay",
+    "description": "W.I.P Ngrok Alternative: Self-hosted and open-source OOB reverse tunnel (TCP/UDP/SNI/HTTP/MC)",
+    "stars": 45,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-12-21T02:23:50Z",
+    "updated_at": "2025-12-22T23:51:50Z",
+    "owner": {
+      "name": "sammwyy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44925968?v=4"
+    }
+  },
+  {
     "name": "DaniPopes/fixed-cache",
     "url": "https://github.com/DaniPopes/fixed-cache",
     "description": "A minimalistic, lock-free, fixed-size cache for Rust.",
-    "stars": 44,
-    "forks": 3,
+    "stars": 45,
+    "forks": 4,
     "language": "Rust",
     "topics": [
       "atomics",
@@ -430,10 +470,26 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-12-17T19:24:09Z",
-    "updated_at": "2025-12-21T16:08:36Z",
+    "updated_at": "2025-12-22T13:03:28Z",
     "owner": {
       "name": "DaniPopes",
       "avatar_url": "https://avatars.githubusercontent.com/u/57450786?v=4"
+    }
+  },
+  {
+    "name": "dtolnay/zmij",
+    "url": "https://github.com/dtolnay/zmij",
+    "description": "Fast floating point to string conversion",
+    "stars": 43,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-20T17:31:22Z",
+    "updated_at": "2025-12-23T02:54:31Z",
+    "owner": {
+      "name": "dtolnay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1940490?v=4"
     }
   },
   {
@@ -473,35 +529,19 @@
     }
   },
   {
-    "name": "0x1a3n3o7n/incognito-program",
-    "url": "https://github.com/0x1a3n3o7n/incognito-program",
-    "description": "ZK-Proof Privacy Protocol On Solana",
-    "stars": 33,
-    "forks": 9,
+    "name": "dmmulroy/jj-starship",
+    "url": "https://github.com/dmmulroy/jj-starship",
+    "description": null,
+    "stars": 35,
+    "forks": 3,
     "language": "Rust",
     "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-20T02:00:04Z",
-    "updated_at": "2025-12-21T09:20:30Z",
+    "license": "MIT License",
+    "created_at": "2025-12-20T23:22:51Z",
+    "updated_at": "2025-12-22T22:47:05Z",
     "owner": {
-      "name": "0x1a3n3o7n",
-      "avatar_url": "https://avatars.githubusercontent.com/u/250631493?v=4"
-    }
-  },
-  {
-    "name": "sammwyy/NRelay",
-    "url": "https://github.com/sammwyy/NRelay",
-    "description": "W.I.P Ngrok Alternative: Self-hosted and open-source OOB reverse tunnel (TCP/UDP/SNI/HTTP/MC)",
-    "stars": 32,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-21T02:23:50Z",
-    "updated_at": "2025-12-22T02:43:57Z",
-    "owner": {
-      "name": "sammwyy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44925968?v=4"
+      "name": "dmmulroy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2755722?v=4"
     }
   },
   {
@@ -673,19 +713,19 @@
     }
   },
   {
-    "name": "dtolnay/zmij",
-    "url": "https://github.com/dtolnay/zmij",
-    "description": "Fast floating point to string conversion",
+    "name": "tylergraydev/claude-code-tool-manager",
+    "url": "https://github.com/tylergraydev/claude-code-tool-manager",
+    "description": "GUI app to manage MCP servers for Claude Code",
     "stars": 27,
-    "forks": 1,
+    "forks": 2,
     "language": "Rust",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-20T17:31:22Z",
-    "updated_at": "2025-12-22T02:47:38Z",
+    "license": "No license",
+    "created_at": "2025-12-19T00:19:23Z",
+    "updated_at": "2025-12-22T15:37:12Z",
     "owner": {
-      "name": "dtolnay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1940490?v=4"
+      "name": "tylergraydev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16503453?v=4"
     }
   },
   {
@@ -728,22 +768,6 @@
     }
   },
   {
-    "name": "tylergraydev/claude-code-tool-manager",
-    "url": "https://github.com/tylergraydev/claude-code-tool-manager",
-    "description": "GUI app to manage MCP servers for Claude Code",
-    "stars": 26,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-19T00:19:23Z",
-    "updated_at": "2025-12-22T02:46:42Z",
-    "owner": {
-      "name": "tylergraydev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16503453?v=4"
-    }
-  },
-  {
     "name": "astabrutie8/OrionPrime",
     "url": "https://github.com/astabrutie8/OrionPrime",
     "description": "Edge-Computation orchestrates predictive-analytics workloads within containerized microservices, delivering highly-available, self-healing, self-service compute Engine.",
@@ -757,22 +781,6 @@
     "owner": {
       "name": "astabrutie8",
       "avatar_url": "https://avatars.githubusercontent.com/u/125909656?v=4"
-    }
-  },
-  {
-    "name": "dmmulroy/jj-starship",
-    "url": "https://github.com/dmmulroy/jj-starship",
-    "description": null,
-    "stars": 25,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-20T23:22:51Z",
-    "updated_at": "2025-12-21T20:23:11Z",
-    "owner": {
-      "name": "dmmulroy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2755722?v=4"
     }
   },
   {
@@ -809,6 +817,22 @@
     "owner": {
       "name": "danielclough",
       "avatar_url": "https://avatars.githubusercontent.com/u/9276072?v=4"
+    }
+  },
+  {
+    "name": "taetaehoho/polymarket-copytrader",
+    "url": "https://github.com/taetaehoho/polymarket-copytrader",
+    "description": null,
+    "stars": 24,
+    "forks": 11,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-12-19T09:02:41Z",
+    "updated_at": "2025-12-23T03:19:30Z",
+    "owner": {
+      "name": "taetaehoho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75167060?v=4"
     }
   },
   {
@@ -892,6 +916,38 @@
     }
   },
   {
+    "name": "coolbeevip/tui-banner",
+    "url": "https://github.com/coolbeevip/tui-banner",
+    "description": "Cinematic ANSI banners for Rust CLI/TUI.",
+    "stars": 22,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2025-12-19T09:12:13Z",
+    "updated_at": "2025-12-22T23:55:42Z",
+    "owner": {
+      "name": "coolbeevip",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4271525?v=4"
+    }
+  },
+  {
+    "name": "celestayelen-tech/anestesia",
+    "url": "https://github.com/celestayelen-tech/anestesia",
+    "description": "Windows Sovereignty Tool & Recall Mitigation Agent.",
+    "stars": 22,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2025-12-18T02:31:24Z",
+    "updated_at": "2025-12-22T20:37:31Z",
+    "owner": {
+      "name": "celestayelen-tech",
+      "avatar_url": "https://avatars.githubusercontent.com/u/233679226?v=4"
+    }
+  },
+  {
     "name": "Michael-A-Kuykendall/muxide",
     "url": "https://github.com/Michael-A-Kuykendall/muxide",
     "description": "Pure Rust MP4 muxer — zero deps, no FFmpeg. Feed it encoded frames, get a standards-compliant MP4. H.264, H.265, AV1, AAC, Opus.",
@@ -929,22 +985,6 @@
     }
   },
   {
-    "name": "jerankda/lol-lint",
-    "url": "https://github.com/jerankda/lol-lint",
-    "description": null,
-    "stars": 22,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-03T03:33:59Z",
-    "updated_at": "2025-12-08T09:37:07Z",
-    "owner": {
-      "name": "jerankda",
-      "avatar_url": "https://avatars.githubusercontent.com/u/119113564?v=4"
-    }
-  },
-  {
     "name": "edgarhsanchez/bevy_material_ui",
     "url": "https://github.com/edgarhsanchez/bevy_material_ui",
     "description": "material ui library for bevy ui",
@@ -977,19 +1017,49 @@
     }
   },
   {
-    "name": "celestayelen-tech/anestesia",
-    "url": "https://github.com/celestayelen-tech/anestesia",
-    "description": "Windows Sovereignty Tool & Recall Mitigation Agent.",
+    "name": "llc-993/matching-core",
+    "url": "https://github.com/llc-993/matching-core",
+    "description": "High-performance matching engine core library, built with Rust, supporting multiple order types and trading instruments.",
+    "stars": 20,
+    "forks": 9,
+    "language": "Rust",
+    "topics": [
+      "matching-engine",
+      "matching-engine-core-library"
+    ],
+    "license": "No license",
+    "created_at": "2025-12-19T15:35:20Z",
+    "updated_at": "2025-12-23T02:24:25Z",
+    "owner": {
+      "name": "llc-993",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116716194?v=4"
+    }
+  },
+  {
+    "name": "DaniPopes/tracing-samply",
+    "url": "https://github.com/DaniPopes/tracing-samply",
+    "description": "Tracing subscriber layer for samply",
     "stars": 20,
     "forks": 1,
     "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2025-12-18T02:31:24Z",
-    "updated_at": "2025-12-21T17:45:30Z",
+    "topics": [
+      "debugging",
+      "events",
+      "log",
+      "logging",
+      "logs",
+      "perf",
+      "profiling",
+      "samply",
+      "traces",
+      "tracing"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2025-12-20T02:23:51Z",
+    "updated_at": "2025-12-22T14:19:11Z",
     "owner": {
-      "name": "celestayelen-tech",
-      "avatar_url": "https://avatars.githubusercontent.com/u/233679226?v=4"
+      "name": "DaniPopes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57450786?v=4"
     }
   },
   {
@@ -1091,6 +1161,22 @@
     }
   },
   {
+    "name": "0x1a3n3o7n/incognito-program",
+    "url": "https://github.com/0x1a3n3o7n/incognito-program",
+    "description": "ZK-Proof Privacy Protocol On Solana",
+    "stars": 19,
+    "forks": 10,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-12-20T02:00:04Z",
+    "updated_at": "2025-12-22T16:23:18Z",
+    "owner": {
+      "name": "0x1a3n3o7n",
+      "avatar_url": "https://avatars.githubusercontent.com/u/250631493?v=4"
+    }
+  },
+  {
     "name": "astro-automata/symbolic_regression.rs",
     "url": "https://github.com/astro-automata/symbolic_regression.rs",
     "description": "Rust port of SymbolicRegression.jl",
@@ -1120,22 +1206,6 @@
     "owner": {
       "name": "MilesCranmer",
       "avatar_url": "https://avatars.githubusercontent.com/u/7593028?v=4"
-    }
-  },
-  {
-    "name": "coolbeevip/tui-banner",
-    "url": "https://github.com/coolbeevip/tui-banner",
-    "description": "Cinematic ANSI banners for Rust CLI/TUI.",
-    "stars": 18,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-12-19T09:12:13Z",
-    "updated_at": "2025-12-22T02:01:05Z",
-    "owner": {
-      "name": "coolbeevip",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4271525?v=4"
     }
   },
   {
@@ -1200,63 +1270,6 @@
     "owner": {
       "name": "aprilrr",
       "avatar_url": "https://avatars.githubusercontent.com/u/60031800?v=4"
-    }
-  },
-  {
-    "name": "sammwyy/aish",
-    "url": "https://github.com/sammwyy/aish",
-    "description": "AI-powered shell assistant that helps you execute commands and file operations through natural language.",
-    "stars": 18,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "ai",
-      "ai-agents",
-      "ai-assistant",
-      "ai-shell",
-      "ai-terminal",
-      "llm",
-      "llm-agent",
-      "llm-agents",
-      "openai",
-      "shell",
-      "shell-scripts",
-      "terminal",
-      "terminal-app"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-06T17:51:20Z",
-    "updated_at": "2025-12-08T11:44:36Z",
-    "owner": {
-      "name": "sammwyy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44925968?v=4"
-    }
-  },
-  {
-    "name": "DaniPopes/tracing-samply",
-    "url": "https://github.com/DaniPopes/tracing-samply",
-    "description": "Tracing subscriber layer for samply",
-    "stars": 17,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "debugging",
-      "events",
-      "log",
-      "logging",
-      "logs",
-      "perf",
-      "profiling",
-      "samply",
-      "traces",
-      "tracing"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-12-20T02:23:51Z",
-    "updated_at": "2025-12-22T00:54:21Z",
-    "owner": {
-      "name": "DaniPopes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57450786?v=4"
     }
   },
   {
@@ -1380,6 +1393,22 @@
     }
   },
   {
+    "name": "nwiizo/cargo-coupling",
+    "url": "https://github.com/nwiizo/cargo-coupling",
+    "description": "A coupling analysis tool for Rust projects - measuring the 'right distance' in your code",
+    "stars": 15,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-18T16:02:52Z",
+    "updated_at": "2025-12-22T21:31:45Z",
+    "owner": {
+      "name": "nwiizo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12461120?v=4"
+    }
+  },
+  {
     "name": "YASSERRMD/barq-db",
     "url": "https://github.com/YASSERRMD/barq-db",
     "description": "Rust-based vector database with native hybrid search (BM25 + vectors)",
@@ -1470,6 +1499,27 @@
     }
   },
   {
+    "name": "hkandala/tauri-plugin-liquid-glass",
+    "url": "https://github.com/hkandala/tauri-plugin-liquid-glass",
+    "description": "macOS 26+ Liquid Glass support for Tauri v2",
+    "stars": 14,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "liquid-glass",
+      "macos26",
+      "tauri-apps",
+      "tauri-plugin"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-17T00:49:14Z",
+    "updated_at": "2025-12-22T17:14:09Z",
+    "owner": {
+      "name": "hkandala",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9005092?v=4"
+    }
+  },
+  {
     "name": "ruidosujeira/depx",
     "url": "https://github.com/ruidosujeira/depx",
     "description": null,
@@ -1530,19 +1580,19 @@
     }
   },
   {
-    "name": "nwiizo/cargo-coupling",
-    "url": "https://github.com/nwiizo/cargo-coupling",
-    "description": "A coupling analysis tool for Rust projects - measuring the 'right distance' in your code",
+    "name": "sashokbg/wlout",
+    "url": "https://github.com/sashokbg/wlout",
+    "description": "A Wayland display management CLI tool written in Rust",
     "stars": 13,
     "forks": 0,
     "language": "Rust",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-18T16:02:52Z",
-    "updated_at": "2025-12-22T00:45:29Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-12-17T07:41:46Z",
+    "updated_at": "2025-12-22T08:05:47Z",
     "owner": {
-      "name": "nwiizo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12461120?v=4"
+      "name": "sashokbg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10643824?v=4"
     }
   },
   {
@@ -1599,59 +1649,35 @@
     }
   },
   {
-    "name": "llc-993/matching-core",
-    "url": "https://github.com/llc-993/matching-core",
-    "description": "High-performance matching engine core library, built with Rust, supporting multiple order types and trading instruments.",
-    "stars": 12,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [
-      "matching-engine",
-      "matching-engine-core-library"
-    ],
-    "license": "No license",
-    "created_at": "2025-12-19T15:35:20Z",
-    "updated_at": "2025-12-22T02:41:08Z",
-    "owner": {
-      "name": "llc-993",
-      "avatar_url": "https://avatars.githubusercontent.com/u/116716194?v=4"
-    }
-  },
-  {
-    "name": "hkandala/tauri-plugin-liquid-glass",
-    "url": "https://github.com/hkandala/tauri-plugin-liquid-glass",
-    "description": "macOS 26+ Liquid Glass support for Tauri v2",
-    "stars": 12,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "liquid-glass",
-      "macos26",
-      "tauri-apps",
-      "tauri-plugin"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-17T00:49:14Z",
-    "updated_at": "2025-12-21T23:01:41Z",
-    "owner": {
-      "name": "hkandala",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9005092?v=4"
-    }
-  },
-  {
-    "name": "sashokbg/wlout",
-    "url": "https://github.com/sashokbg/wlout",
-    "description": "A Wayland display management CLI tool written in Rust",
+    "name": "nicksenger/revibe",
+    "url": "https://github.com/nicksenger/revibe",
+    "description": "Mistral Vibe rewritten in Rust by Devstral 2",
     "stars": 12,
     "forks": 0,
     "language": "Rust",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-12-17T07:41:46Z",
-    "updated_at": "2025-12-22T01:21:42Z",
+    "license": "Apache License 2.0",
+    "created_at": "2025-12-21T20:39:56Z",
+    "updated_at": "2025-12-22T14:00:31Z",
     "owner": {
-      "name": "sashokbg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10643824?v=4"
+      "name": "nicksenger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16542714?v=4"
+    }
+  },
+  {
+    "name": "frostming/pic-opendal",
+    "url": "https://github.com/frostming/pic-opendal",
+    "description": null,
+    "stars": 12,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-22T11:05:46Z",
+    "updated_at": "2025-12-23T03:19:21Z",
+    "owner": {
+      "name": "frostming",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16336606?v=4"
     }
   },
   {
@@ -1706,6 +1732,69 @@
     "owner": {
       "name": "Malfoy",
       "avatar_url": "https://avatars.githubusercontent.com/u/5199358?v=4"
+    }
+  },
+  {
+    "name": "Zendevve/capcut-version-guard",
+    "url": "https://github.com/Zendevve/capcut-version-guard",
+    "description": "Take control of your CapCut installation. Lock your preferred version and block unwanted auto-updates. Built with Rust.",
+    "stars": 11,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "auto-updater",
+      "blocker",
+      "capcut",
+      "egui",
+      "rust",
+      "utility",
+      "version-management",
+      "windows"
+    ],
+    "license": "No license",
+    "created_at": "2025-12-19T02:06:12Z",
+    "updated_at": "2025-12-22T16:31:45Z",
+    "owner": {
+      "name": "Zendevve",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86281350?v=4"
+    }
+  },
+  {
+    "name": "dtolnay/dtoa-benchmark",
+    "url": "https://github.com/dtolnay/dtoa-benchmark",
+    "description": "Benchmark Rust f64-to-string conversion libraries",
+    "stars": 11,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-21T21:42:49Z",
+    "updated_at": "2025-12-23T01:41:07Z",
+    "owner": {
+      "name": "dtolnay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1940490?v=4"
+    }
+  },
+  {
+    "name": "skyline69/spotix",
+    "url": "https://github.com/skyline69/spotix",
+    "description": "A fast, native Spotify client written in Rust - a fork of psst focused on a lightweight,   Electron‑free desktop experience.",
+    "stars": 11,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "gui",
+      "lightweight",
+      "psst",
+      "rust",
+      "spotify"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-18T15:32:01Z",
+    "updated_at": "2025-12-23T02:09:56Z",
+    "owner": {
+      "name": "skyline69",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67526259?v=4"
     }
   },
   {
@@ -1861,6 +1950,22 @@
     "owner": {
       "name": "naseridev",
       "avatar_url": "https://avatars.githubusercontent.com/u/77214940?v=4"
+    }
+  },
+  {
+    "name": "0x00nier/noircast",
+    "url": "https://github.com/0x00nier/noircast",
+    "description": null,
+    "stars": 10,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-12-17T19:12:31Z",
+    "updated_at": "2025-12-22T21:50:14Z",
+    "owner": {
+      "name": "0x00nier",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45222020?v=4"
     }
   },
   {
@@ -2054,22 +2159,6 @@
     "owner": {
       "name": "yhw2003",
       "avatar_url": "https://avatars.githubusercontent.com/u/46086392?v=4"
-    }
-  },
-  {
-    "name": "luckyman0026/QANTO",
-    "url": "https://github.com/luckyman0026/QANTO",
-    "description": null,
-    "stars": 10,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-07T22:32:51Z",
-    "updated_at": "2025-12-08T11:57:09Z",
-    "owner": {
-      "name": "luckyman0026",
-      "avatar_url": "https://avatars.githubusercontent.com/u/198246273?v=4"
     }
   },
   {
