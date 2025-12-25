@@ -3,13 +3,13 @@
     "name": "bellard/mquickjs",
     "url": "https://github.com/bellard/mquickjs",
     "description": "Public repository of the Micro QuickJS Javascript Engine",
-    "stars": 1423,
-    "forks": 34,
+    "stars": 2886,
+    "forks": 75,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2025-12-22T14:20:32Z",
-    "updated_at": "2025-12-24T03:18:45Z",
+    "updated_at": "2025-12-25T03:21:45Z",
     "owner": {
       "name": "bellard",
       "avatar_url": "https://avatars.githubusercontent.com/u/6490144?v=4"
@@ -35,8 +35,8 @@
     "name": "zero2504/EDR-GhostLocker",
     "url": "https://github.com/zero2504/EDR-GhostLocker",
     "description": "AppLocker-Based EDR Neutralization",
-    "stars": 173,
-    "forks": 25,
+    "stars": 184,
+    "forks": 26,
     "language": "C",
     "topics": [
       "applocker",
@@ -52,7 +52,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-19T11:38:04Z",
-    "updated_at": "2025-12-24T02:53:04Z",
+    "updated_at": "2025-12-25T01:21:45Z",
     "owner": {
       "name": "zero2504",
       "avatar_url": "https://avatars.githubusercontent.com/u/84348823?v=4"
@@ -91,22 +91,6 @@
     }
   },
   {
-    "name": "garagetinkering/Video_Game_Mini_Maps",
-    "url": "https://github.com/garagetinkering/Video_Game_Mini_Maps",
-    "description": "A small app for the ESP32-P4 that allows you to display local live (offline) mapping",
-    "stars": 95,
-    "forks": 4,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-05T09:19:50Z",
-    "updated_at": "2025-12-11T02:13:29Z",
-    "owner": {
-      "name": "garagetinkering",
-      "avatar_url": "https://avatars.githubusercontent.com/u/172923619?v=4"
-    }
-  },
-  {
     "name": "RayRRT/ESC1-unPAC",
     "url": "https://github.com/RayRRT/ESC1-unPAC",
     "description": "A Beacon Object File (BOF) that performs the complete ESC1 attack chain in a single execution: certificate request with arbitrary SAN (+SID), PKINIT authentication, and NT hash extraction via UnPAC-the-hash.",
@@ -117,6 +101,22 @@
     "license": "No license",
     "created_at": "2025-12-17T22:08:16Z",
     "updated_at": "2025-12-22T12:21:25Z",
+    "owner": {
+      "name": "RayRRT",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52030285?v=4"
+    }
+  },
+  {
+    "name": "RayRRT/BOFs",
+    "url": "https://github.com/RayRRT/BOFs",
+    "description": "Beacon Object Files (BOFs) for Cobalt Strike and Havoc C2. Implementations of Active Directory attacks and post-exploitation techniques.",
+    "stars": 70,
+    "forks": 7,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-12-22T10:54:52Z",
+    "updated_at": "2025-12-25T03:14:34Z",
     "owner": {
       "name": "RayRRT",
       "avatar_url": "https://avatars.githubusercontent.com/u/52030285?v=4"
@@ -171,19 +171,38 @@
     }
   },
   {
-    "name": "RayRRT/BOFs",
-    "url": "https://github.com/RayRRT/BOFs",
-    "description": "Beacon Object Files (BOFs) for Cobalt Strike and Havoc C2. Implementations of Active Directory attacks and post-exploitation techniques.",
+    "name": "Maldev-Academy/DumpChromeSecrets",
+    "url": "https://github.com/Maldev-Academy/DumpChromeSecrets",
+    "description": "Extract data from modern Chrome versions, including refresh tokens, cookies, saved credentials, autofill data, browsing history, and bookmarks",
     "stars": 55,
-    "forks": 7,
+    "forks": 9,
+    "language": "C",
+    "topics": [
+      "chrome",
+      "credential-harvesting"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-21T09:28:32Z",
+    "updated_at": "2025-12-25T02:53:14Z",
+    "owner": {
+      "name": "Maldev-Academy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121844819?v=4"
+    }
+  },
+  {
+    "name": "farazsth98/poc-CVE-2025-38352",
+    "url": "https://github.com/farazsth98/poc-CVE-2025-38352",
+    "description": "This is a proof of concept for CVE-2025-38352, a vulnerability in the Linux kernel's POSIX CPU timers implementation. The September 2025 Android Bulletin mentions that this vulnerability has been used in limited, targeted exploitation in the wild.",
+    "stars": 52,
+    "forks": 6,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2025-12-22T10:54:52Z",
-    "updated_at": "2025-12-24T02:42:35Z",
+    "created_at": "2025-12-21T23:59:18Z",
+    "updated_at": "2025-12-25T03:00:26Z",
     "owner": {
-      "name": "RayRRT",
-      "avatar_url": "https://avatars.githubusercontent.com/u/52030285?v=4"
+      "name": "farazsth98",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25904081?v=4"
     }
   },
   {
@@ -203,6 +222,22 @@
     }
   },
   {
+    "name": "jhalon/cSessionHop",
+    "url": "https://github.com/jhalon/cSessionHop",
+    "description": "Beacon Object File (BOF) for Windows Session Hijacking via IHxHelpPaneServer COM",
+    "stars": 44,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-12-20T01:26:34Z",
+    "updated_at": "2025-12-24T17:18:52Z",
+    "owner": {
+      "name": "jhalon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19541892?v=4"
+    }
+  },
+  {
     "name": "sirbardo/hsrtsp_power_plan_policy_switcher",
     "url": "https://github.com/sirbardo/hsrtsp_power_plan_policy_switcher",
     "description": "Easily switch a specific power plan variable that affects videogame's processes performance on AMD CPUs using PBO",
@@ -216,54 +251,6 @@
     "owner": {
       "name": "sirbardo",
       "avatar_url": "https://avatars.githubusercontent.com/u/7734458?v=4"
-    }
-  },
-  {
-    "name": "jhalon/cSessionHop",
-    "url": "https://github.com/jhalon/cSessionHop",
-    "description": "Beacon Object File (BOF) for Windows Session Hijacking via IHxHelpPaneServer COM",
-    "stars": 42,
-    "forks": 3,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-20T01:26:34Z",
-    "updated_at": "2025-12-22T17:38:18Z",
-    "owner": {
-      "name": "jhalon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19541892?v=4"
-    }
-  },
-  {
-    "name": "outflanknl/seccomp-notify-injection",
-    "url": "https://github.com/outflanknl/seccomp-notify-injection",
-    "description": "Linux Process Injection via Seccomp Notifier",
-    "stars": 42,
-    "forks": 4,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-12-05T20:36:46Z",
-    "updated_at": "2025-12-11T01:35:23Z",
-    "owner": {
-      "name": "outflanknl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22417563?v=4"
-    }
-  },
-  {
-    "name": "farazsth98/poc-CVE-2025-38352",
-    "url": "https://github.com/farazsth98/poc-CVE-2025-38352",
-    "description": "This is a proof of concept for CVE-2025-38352, a vulnerability in the Linux kernel's POSIX CPU timers implementation. The September 2025 Android Bulletin mentions that this vulnerability has been used in limited, targeted exploitation in the wild.",
-    "stars": 40,
-    "forks": 6,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-21T23:59:18Z",
-    "updated_at": "2025-12-24T03:06:14Z",
-    "owner": {
-      "name": "farazsth98",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25904081?v=4"
     }
   },
   {
@@ -347,48 +334,48 @@
     }
   },
   {
-    "name": "ashish0kumar/cwalk",
-    "url": "https://github.com/ashish0kumar/cwalk",
-    "description": "colorful random-walk pipes terminal screensaver",
-    "stars": 29,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-19T18:40:20Z",
-    "updated_at": "2025-12-23T15:05:48Z",
-    "owner": {
-      "name": "ashish0kumar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/143941235?v=4"
-    }
-  },
-  {
     "name": "hoshinolina/libfunnel",
     "url": "https://github.com/hoshinolina/libfunnel",
     "description": "Easy app-to-app frame sharing using PipeWire",
-    "stars": 27,
+    "stars": 31,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-22T04:34:53Z",
-    "updated_at": "2025-12-23T20:59:50Z",
+    "updated_at": "2025-12-24T22:49:09Z",
     "owner": {
       "name": "hoshinolina",
       "avatar_url": "https://avatars.githubusercontent.com/u/102031928?v=4"
     }
   },
   {
+    "name": "ashish0kumar/cwalk",
+    "url": "https://github.com/ashish0kumar/cwalk",
+    "description": "colorful random-walk pipes terminal screensaver",
+    "stars": 30,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-19T18:40:20Z",
+    "updated_at": "2025-12-24T09:38:46Z",
+    "owner": {
+      "name": "ashish0kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/143941235?v=4"
+    }
+  },
+  {
     "name": "archive-utcn/UTCN-ARCHIVE-AC",
     "url": "https://github.com/archive-utcn/UTCN-ARCHIVE-AC",
     "description": null,
-    "stars": 27,
+    "stars": 30,
     "forks": 2,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2025-12-22T15:37:16Z",
-    "updated_at": "2025-12-23T23:19:39Z",
+    "updated_at": "2025-12-24T14:38:52Z",
     "owner": {
       "name": "archive-utcn",
       "avatar_url": "https://avatars.githubusercontent.com/u/251010146?v=4"
@@ -464,36 +451,6 @@
     }
   },
   {
-    "name": "miguel-b-p/preload-ng",
-    "url": "https://github.com/miguel-b-p/preload-ng",
-    "description": "A maintained fork of preload - an adaptive readahead daemon for faster Linux app startups",
-    "stars": 23,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "c",
-      "daemon",
-      "flake",
-      "linux",
-      "markov-chain",
-      "nix",
-      "nix-flake",
-      "performance",
-      "performance-optimization",
-      "prefetch",
-      "preload",
-      "preload-ng",
-      "readahead"
-    ],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2025-12-05T17:56:10Z",
-    "updated_at": "2025-12-11T02:43:45Z",
-    "owner": {
-      "name": "miguel-b-p",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96029590?v=4"
-    }
-  },
-  {
     "name": "pjh456/ccd",
     "url": "https://github.com/pjh456/ccd",
     "description": "C Clone Detector Tutorial",
@@ -542,25 +499,6 @@
     }
   },
   {
-    "name": "Maldev-Academy/DumpChromeSecrets",
-    "url": "https://github.com/Maldev-Academy/DumpChromeSecrets",
-    "description": "Extract data from modern Chrome versions, including refresh tokens, cookies, saved credentials, autofill data, browsing history, and bookmarks",
-    "stars": 18,
-    "forks": 3,
-    "language": "C",
-    "topics": [
-      "chrome",
-      "credential-harvesting"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-21T09:28:32Z",
-    "updated_at": "2025-12-23T15:01:14Z",
-    "owner": {
-      "name": "Maldev-Academy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/121844819?v=4"
-    }
-  },
-  {
     "name": "DErDYAST1R/GDRVMapper",
     "url": "https://github.com/DErDYAST1R/GDRVMapper",
     "description": "This is similar to GdrvLoader but it works on EAC (& BE but same for GdrvLoader) with included gdrv.sys (cert)",
@@ -599,6 +537,29 @@
     }
   },
   {
+    "name": "mellow-hype/mt7622-qemu-vm",
+    "url": "https://github.com/mellow-hype/mt7622-qemu-vm",
+    "description": "QEMU emulation of MediaTek MT7622 PCI driver",
+    "stars": 15,
+    "forks": 3,
+    "language": "C",
+    "topics": [
+      "embedded",
+      "hacking",
+      "mediatek",
+      "mt7622",
+      "pwn",
+      "qemu"
+    ],
+    "license": "No license",
+    "created_at": "2025-12-21T21:38:10Z",
+    "updated_at": "2025-12-24T06:07:24Z",
+    "owner": {
+      "name": "mellow-hype",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25216562?v=4"
+    }
+  },
+  {
     "name": "Imrglop/IDA-FastAnalysis",
     "url": "https://github.com/Imrglop/IDA-FastAnalysis",
     "description": "(WIP) IDA Pro plugin that speeds up the initial binary auto analysis through caching and multithreaded analysis",
@@ -619,39 +580,16 @@
     }
   },
   {
-    "name": "mellow-hype/mt7622-qemu-vm",
-    "url": "https://github.com/mellow-hype/mt7622-qemu-vm",
-    "description": "QEMU emulation of MediaTek MT7622 PCI driver",
-    "stars": 14,
-    "forks": 3,
-    "language": "C",
-    "topics": [
-      "embedded",
-      "hacking",
-      "mediatek",
-      "mt7622",
-      "pwn",
-      "qemu"
-    ],
-    "license": "No license",
-    "created_at": "2025-12-21T21:38:10Z",
-    "updated_at": "2025-12-24T01:41:20Z",
-    "owner": {
-      "name": "mellow-hype",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25216562?v=4"
-    }
-  },
-  {
     "name": "autoselff/kinnie",
     "url": "https://github.com/autoselff/kinnie",
     "description": "Minimalist interpreted programming language written in C",
-    "stars": 13,
+    "stars": 14,
     "forks": 2,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-19T16:52:40Z",
-    "updated_at": "2025-12-23T23:25:43Z",
+    "updated_at": "2025-12-24T18:21:57Z",
     "owner": {
       "name": "autoselff",
       "avatar_url": "https://avatars.githubusercontent.com/u/60112867?v=4"
@@ -671,22 +609,6 @@
     "owner": {
       "name": "uint23",
       "avatar_url": "https://avatars.githubusercontent.com/u/72694427?v=4"
-    }
-  },
-  {
-    "name": "anhtuank7c/ssh-alert",
-    "url": "https://github.com/anhtuank7c/ssh-alert",
-    "description": "[FREE - Miễn Phí] ssh-alert is a lightweight Linux agent that monitors SSH login sessions in real time and sends instant alerts to Telegram, Slack or custom webhook when access is detected. Designed for servers, VPS, and production environments with a focus on security, reliability, and low overhead.",
-    "stars": 12,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-20T02:51:54Z",
-    "updated_at": "2025-12-23T13:01:42Z",
-    "owner": {
-      "name": "anhtuank7c",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3163410?v=4"
     }
   },
   {
@@ -786,22 +708,19 @@
     }
   },
   {
-    "name": "quark-programming/quark",
-    "url": "https://github.com/quark-programming/quark",
-    "description": "The Quark Programming Language",
-    "stars": 12,
+    "name": "anhtuank7c/ssh-alert",
+    "url": "https://github.com/anhtuank7c/ssh-alert",
+    "description": "[FREE - Miễn Phí] ssh-alert is a lightweight Linux agent that monitors SSH login sessions in real time and sends instant alerts to Telegram, Slack or custom webhook when access is detected. Designed for servers, VPS, and production environments with a focus on security, reliability, and low overhead.",
+    "stars": 11,
     "forks": 1,
     "language": "C",
-    "topics": [
-      "compiler",
-      "language"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2025-12-05T17:51:52Z",
-    "updated_at": "2025-12-10T18:20:47Z",
+    "created_at": "2025-12-20T02:51:54Z",
+    "updated_at": "2025-12-24T07:09:17Z",
     "owner": {
-      "name": "quark-programming",
-      "avatar_url": "https://avatars.githubusercontent.com/u/248047051?v=4"
+      "name": "anhtuank7c",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3163410?v=4"
     }
   },
   {
@@ -876,6 +795,30 @@
     "owner": {
       "name": "tuanpmt",
       "avatar_url": "https://avatars.githubusercontent.com/u/1904924?v=4"
+    }
+  },
+  {
+    "name": "cnlohr/cnrbtree",
+    "url": "https://github.com/cnlohr/cnrbtree",
+    "description": "Dictionary, like stl map, in C, as a single-file header, with convenience functionality for strings, ints, and indexing.",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "c",
+      "dictionary",
+      "header-only",
+      "library",
+      "map",
+      "red-black-tree",
+      "sfh"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-23T07:44:46Z",
+    "updated_at": "2025-12-24T11:48:11Z",
+    "owner": {
+      "name": "cnlohr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2748168?v=4"
     }
   },
   {
