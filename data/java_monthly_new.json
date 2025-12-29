@@ -83,13 +83,13 @@
     "name": "add2ws/etl-engine-project",
     "url": "https://github.com/add2ws/etl-engine-project",
     "description": "A fast & stable & flexible ETL tool.",
-    "stars": 185,
-    "forks": 37,
+    "stars": 199,
+    "forks": 39,
     "language": "Java",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-05T15:27:07Z",
-    "updated_at": "2025-12-28T02:37:52Z",
+    "updated_at": "2025-12-29T02:24:57Z",
     "owner": {
       "name": "add2ws",
       "avatar_url": "https://avatars.githubusercontent.com/u/8814427?v=4"
@@ -135,8 +135,8 @@
     "name": "LingFrame/LingFrame",
     "url": "https://github.com/LingFrame/LingFrame",
     "description": "灵珑（LingFrame）是一个为Spring Boot应用设计的插件安全治理框架。它通过权限控制与调用链审计两大核心能力，确保第三方或自定义插件的所有操作都经过授权且全程可追溯，从而构建安全、可控的插件化架构。",
-    "stars": 141,
-    "forks": 17,
+    "stars": 151,
+    "forks": 21,
     "language": "Java",
     "topics": [
       "framework",
@@ -151,7 +151,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-12-02T14:01:38Z",
-    "updated_at": "2025-12-28T02:38:06Z",
+    "updated_at": "2025-12-29T03:23:02Z",
     "owner": {
       "name": "LingFrame",
       "avatar_url": "https://avatars.githubusercontent.com/u/247389574?v=4"
@@ -246,6 +246,22 @@
     }
   },
   {
+    "name": "darkfiv/DouSql",
+    "url": "https://github.com/darkfiv/DouSql",
+    "description": null,
+    "stars": 99,
+    "forks": 6,
+    "language": "Java",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-25T14:01:11Z",
+    "updated_at": "2025-12-29T03:36:13Z",
+    "owner": {
+      "name": "darkfiv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/203215517?v=4"
+    }
+  },
+  {
     "name": "Davidjos03/Reliable-Java-Messaging-Platform",
     "url": "https://github.com/Davidjos03/Reliable-Java-Messaging-Platform",
     "description": "Chronicle Queue is a Java-based, high-performance messaging queue with ultra-low latency and durable off-heap persistence. It supports multiple concurrent writers and lock-free readers, delivering microsecond latency for millions of messages per second. Perfect for microservices, trading systems, event streaming, and distributed architectures.",
@@ -314,16 +330,41 @@
     "name": "masonliiu/jvm-custom-memory-arena",
     "url": "https://github.com/masonliiu/jvm-custom-memory-arena",
     "description": "Manual memory arena for Java, with the sole purpose of re-enacting how the JVM works under the hood.",
-    "stars": 84,
+    "stars": 86,
     "forks": 30,
     "language": "Java",
     "topics": [],
     "license": "No license",
     "created_at": "2025-12-19T17:50:05Z",
-    "updated_at": "2025-12-27T13:48:39Z",
+    "updated_at": "2025-12-28T20:23:51Z",
     "owner": {
       "name": "masonliiu",
       "avatar_url": "https://avatars.githubusercontent.com/u/138553405?v=4"
+    }
+  },
+  {
+    "name": "spring-ai-community/spring-ai-playground",
+    "url": "https://github.com/spring-ai-community/spring-ai-playground",
+    "description": "Spring AI Playground is a self-hosted web UI for low-code AI tool development with live MCP server registration. It includes MCP server inspection, agentic chat, and integrated LLM and RAG workflows, enabling real-time experimentation and evolution of tool-enabled AI systems without redeployment.",
+    "stars": 82,
+    "forks": 20,
+    "language": "Java",
+    "topics": [
+      "agentic-chat",
+      "ai-agents",
+      "ai-playground",
+      "low-code-platform",
+      "mcp-client",
+      "mcp-server",
+      "rag",
+      "tool-development"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2025-12-10T05:18:38Z",
+    "updated_at": "2025-12-29T03:13:33Z",
+    "owner": {
+      "name": "spring-ai-community",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190035333?v=4"
     }
   },
   {
@@ -353,31 +394,6 @@
     }
   },
   {
-    "name": "spring-ai-community/spring-ai-playground",
-    "url": "https://github.com/spring-ai-community/spring-ai-playground",
-    "description": "Spring AI Playground is a self-hosted web UI for low-code AI tool development with live MCP server registration. It includes MCP server inspection, agentic chat, and integrated LLM and RAG workflows, enabling real-time experimentation and evolution of tool-enabled AI systems without redeployment.",
-    "stars": 76,
-    "forks": 18,
-    "language": "Java",
-    "topics": [
-      "agentic-chat",
-      "ai-agents",
-      "ai-playground",
-      "low-code-platform",
-      "mcp-client",
-      "mcp-server",
-      "rag",
-      "tool-development"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-12-10T05:18:38Z",
-    "updated_at": "2025-12-27T21:04:42Z",
-    "owner": {
-      "name": "spring-ai-community",
-      "avatar_url": "https://avatars.githubusercontent.com/u/190035333?v=4"
-    }
-  },
-  {
     "name": "shutu-hub/devSphere",
     "url": "https://github.com/shutu-hub/devSphere",
     "description": "devSphere-chat 是一个基于 Spring Boot 构建的高性能实时聊天系统，支持私聊、群聊、消息持久化、离线消息推送等功能。系统采用 Netty 实现 WebSocket 通信，通过 Redis Stream 保证消息可靠传输，并集成完善的用户认证和权限管理体系。",
@@ -387,7 +403,7 @@
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-12-10T01:22:44Z",
-    "updated_at": "2025-12-26T06:50:41Z",
+    "updated_at": "2025-12-29T02:37:24Z",
     "owner": {
       "name": "shutu-hub",
       "avatar_url": "https://avatars.githubusercontent.com/u/187094830?v=4"
@@ -437,6 +453,28 @@
     }
   },
   {
+    "name": "BitTheByte/Jarida",
+    "url": "https://github.com/BitTheByte/Jarida",
+    "description": "Jarida (Jadx + Frida) is a Jadx GUI plugin that lets you trace and optionally patch Java method return values at runtime using Frida, directly from Jadx’s decompiled view.",
+    "stars": 64,
+    "forks": 0,
+    "language": "Java",
+    "topics": [
+      "android",
+      "frida",
+      "jadx",
+      "mobile",
+      "reverse-engineering"
+    ],
+    "license": "No license",
+    "created_at": "2025-12-23T10:47:46Z",
+    "updated_at": "2025-12-29T01:36:52Z",
+    "owner": {
+      "name": "BitTheByte",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16452985?v=4"
+    }
+  },
+  {
     "name": "apple/pollianna",
     "url": "https://github.com/apple/pollianna",
     "description": null,
@@ -450,28 +488,6 @@
     "owner": {
       "name": "apple",
       "avatar_url": "https://avatars.githubusercontent.com/u/10639145?v=4"
-    }
-  },
-  {
-    "name": "BitTheByte/Jarida",
-    "url": "https://github.com/BitTheByte/Jarida",
-    "description": "Jarida (Jadx + Frida) is a Jadx GUI plugin that lets you trace and optionally patch Java method return values at runtime using Frida, directly from Jadx’s decompiled view.",
-    "stars": 62,
-    "forks": 0,
-    "language": "Java",
-    "topics": [
-      "android",
-      "frida",
-      "jadx",
-      "mobile",
-      "reverse-engineering"
-    ],
-    "license": "No license",
-    "created_at": "2025-12-23T10:47:46Z",
-    "updated_at": "2025-12-28T01:44:57Z",
-    "owner": {
-      "name": "BitTheByte",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16452985?v=4"
     }
   },
   {
@@ -504,6 +520,22 @@
     }
   },
   {
+    "name": "jd-opensource/JDOxyGent4J",
+    "url": "https://github.com/jd-opensource/JDOxyGent4J",
+    "description": "JDOxyGent4J: The Java sibling of the OxyGent ecosystem.",
+    "stars": 59,
+    "forks": 9,
+    "language": "Java",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2025-12-22T05:07:57Z",
+    "updated_at": "2025-12-29T02:14:14Z",
+    "owner": {
+      "name": "jd-opensource",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75349771?v=4"
+    }
+  },
+  {
     "name": "XiaoTong6666/Sui",
     "url": "https://github.com/XiaoTong6666/Sui",
     "description": "Modern super user interface implementation on Android.",
@@ -517,22 +549,6 @@
     "owner": {
       "name": "XiaoTong6666",
       "avatar_url": "https://avatars.githubusercontent.com/u/110387028?v=4"
-    }
-  },
-  {
-    "name": "jd-opensource/JDOxyGent4J",
-    "url": "https://github.com/jd-opensource/JDOxyGent4J",
-    "description": "JDOxyGent4J: The Java sibling of the OxyGent ecosystem.",
-    "stars": 57,
-    "forks": 8,
-    "language": "Java",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2025-12-22T05:07:57Z",
-    "updated_at": "2025-12-27T18:13:40Z",
-    "owner": {
-      "name": "jd-opensource",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75349771?v=4"
     }
   },
   {
@@ -690,13 +706,13 @@
     "name": "kusoroadeolu/streamline-spring-boot-starter",
     "url": "https://github.com/kusoroadeolu/streamline-spring-boot-starter",
     "description": "A spring boot starter library that makes using sse emitters with springboot mvc more pleasant",
-    "stars": 35,
+    "stars": 36,
     "forks": 0,
     "language": "Java",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-12-08T18:36:21Z",
-    "updated_at": "2025-12-24T03:42:37Z",
+    "updated_at": "2025-12-28T20:40:38Z",
     "owner": {
       "name": "kusoroadeolu",
       "avatar_url": "https://avatars.githubusercontent.com/u/192969471?v=4"
@@ -735,19 +751,19 @@
     }
   },
   {
-    "name": "Davidjos03/apitally-java",
-    "url": "https://github.com/Davidjos03/apitally-java",
-    "description": "Simple API monitoring & analytics for Java web apps",
-    "stars": 31,
-    "forks": 29,
+    "name": "Syngnat/missav-bot",
+    "url": "https://github.com/Syngnat/missav-bot",
+    "description": "一个基于 Telegram 的视频推送机器人,自动抓取 MissAV 最新视频并推送给订阅用户。",
+    "stars": 29,
+    "forks": 5,
     "language": "Java",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2025-12-02T06:30:40Z",
-    "updated_at": "2025-12-15T02:05:07Z",
+    "created_at": "2025-12-27T12:20:16Z",
+    "updated_at": "2025-12-29T02:46:00Z",
     "owner": {
-      "name": "Davidjos03",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38574135?v=4"
+      "name": "Syngnat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92659908?v=4"
     }
   },
   {
@@ -777,22 +793,6 @@
     "owner": {
       "name": "iohao",
       "avatar_url": "https://avatars.githubusercontent.com/u/26356013?v=4"
-    }
-  },
-  {
-    "name": "CleanroomMC/Kirino-Engine",
-    "url": "https://github.com/CleanroomMC/Kirino-Engine",
-    "description": null,
-    "stars": 28,
-    "forks": 2,
-    "language": "Java",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2025-11-17T22:28:40Z",
-    "updated_at": "2025-12-14T23:20:19Z",
-    "owner": {
-      "name": "CleanroomMC",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96911867?v=4"
     }
   },
   {
@@ -828,6 +828,42 @@
     }
   },
   {
+    "name": "spring-ai-community/spring-ai-tool-search-tool",
+    "url": "https://github.com/spring-ai-community/spring-ai-tool-search-tool",
+    "description": "Dynamic tool discovery and selection for Spring AI, enabling LLMs to work efficiently with large tool libraries by discovering tools on-demand instead of loading all definitions upfront.",
+    "stars": 23,
+    "forks": 1,
+    "language": "Java",
+    "topics": [
+      "agentic-ai",
+      "spring-ai",
+      "tool-calling"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2025-12-10T04:16:21Z",
+    "updated_at": "2025-12-28T10:49:45Z",
+    "owner": {
+      "name": "spring-ai-community",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190035333?v=4"
+    }
+  },
+  {
+    "name": "wiyuka0/Prehistoric",
+    "url": "https://github.com/wiyuka0/Prehistoric",
+    "description": "A optimization mod of performance, but in ancient",
+    "stars": 22,
+    "forks": 8,
+    "language": "Java",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-23T17:50:45Z",
+    "updated_at": "2025-12-28T07:10:18Z",
+    "owner": {
+      "name": "wiyuka0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/187525632?v=4"
+    }
+  },
+  {
     "name": "mokszr/bilgecan",
     "url": "https://github.com/mokszr/bilgecan",
     "description": "self-hosted local AI platform based on Ollama + Spring AI",
@@ -841,26 +877,6 @@
     "owner": {
       "name": "mokszr",
       "avatar_url": "https://avatars.githubusercontent.com/u/5112669?v=4"
-    }
-  },
-  {
-    "name": "spring-ai-community/spring-ai-tool-search-tool",
-    "url": "https://github.com/spring-ai-community/spring-ai-tool-search-tool",
-    "description": "Dynamic tool discovery and selection for Spring AI, enabling LLMs to work efficiently with large tool libraries by discovering tools on-demand instead of loading all definitions upfront.",
-    "stars": 22,
-    "forks": 1,
-    "language": "Java",
-    "topics": [
-      "agentic-ai",
-      "spring-ai",
-      "tool-calling"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2025-12-10T04:16:21Z",
-    "updated_at": "2025-12-26T14:58:19Z",
-    "owner": {
-      "name": "spring-ai-community",
-      "avatar_url": "https://avatars.githubusercontent.com/u/190035333?v=4"
     }
   },
   {
