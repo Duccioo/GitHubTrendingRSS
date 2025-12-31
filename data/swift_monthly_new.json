@@ -2,8 +2,8 @@
   {
     "name": "productdevbook/port-killer",
     "url": "https://github.com/productdevbook/port-killer",
-    "description": "Native macOS app for finding and killing processes on open ports. Perfect for developers.",
-    "stars": 2655,
+    "description": "A powerful cross-platform port management tool for developers. Monitor ports, manage Kubernetes port forwards, integrate Cloudflare Tunnels, and kill processes with one click.",
+    "stars": 2673,
     "forks": 80,
     "language": "Swift",
     "topics": [
@@ -15,11 +15,12 @@
       "port-killer",
       "process-manager",
       "swift",
-      "swiftui"
+      "swiftui",
+      "windows"
     ],
     "license": "MIT License",
     "created_at": "2025-12-16T01:44:50Z",
-    "updated_at": "2025-12-30T03:04:31Z",
+    "updated_at": "2025-12-31T02:33:00Z",
     "owner": {
       "name": "productdevbook",
       "avatar_url": "https://avatars.githubusercontent.com/u/38668796?v=4"
@@ -29,13 +30,13 @@
     "name": "nguyenphutrong/quotio",
     "url": "https://github.com/nguyenphutrong/quotio",
     "description": "Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid.",
-    "stars": 1211,
-    "forks": 78,
+    "stars": 1428,
+    "forks": 90,
     "language": "Swift",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-24T14:42:00Z",
-    "updated_at": "2025-12-30T03:22:54Z",
+    "updated_at": "2025-12-31T03:07:45Z",
     "owner": {
       "name": "nguyenphutrong",
       "avatar_url": "https://avatars.githubusercontent.com/u/62984954?v=4"
@@ -45,16 +46,32 @@
     "name": "farouqaldori/claude-island",
     "url": "https://github.com/farouqaldori/claude-island",
     "description": "Claude Code notifications without the context switch. A minimal, always-present session manager for macOS.",
-    "stars": 587,
+    "stars": 592,
     "forks": 51,
     "language": "Swift",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-12-09T01:16:59Z",
-    "updated_at": "2025-12-30T02:42:41Z",
+    "updated_at": "2025-12-31T01:14:17Z",
     "owner": {
       "name": "farouqaldori",
       "avatar_url": "https://avatars.githubusercontent.com/u/16778033?v=4"
+    }
+  },
+  {
+    "name": "tobi/AudioPriorityBar",
+    "url": "https://github.com/tobi/AudioPriorityBar",
+    "description": "A native macOS menu bar app for managing audio device priorities",
+    "stars": 440,
+    "forks": 12,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-27T15:34:42Z",
+    "updated_at": "2025-12-31T02:39:20Z",
+    "owner": {
+      "name": "tobi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/347?v=4"
     }
   },
   {
@@ -80,40 +97,24 @@
     "name": "Kruszoneq/macUSB",
     "url": "https://github.com/Kruszoneq/macUSB",
     "description": "The easiest way to create legacy macOS bootable drives on modern Macs. Revive old Intel Macs using your Apple Silicon machine - no Terminal knowledge required.",
-    "stars": 412,
-    "forks": 19,
+    "stars": 414,
+    "forks": 20,
     "language": "Swift",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-14T17:22:24Z",
-    "updated_at": "2025-12-30T03:05:54Z",
+    "updated_at": "2025-12-30T22:06:16Z",
     "owner": {
       "name": "Kruszoneq",
       "avatar_url": "https://avatars.githubusercontent.com/u/83231322?v=4"
     }
   },
   {
-    "name": "tobi/AudioPriorityBar",
-    "url": "https://github.com/tobi/AudioPriorityBar",
-    "description": "A native macOS menu bar app for managing audio device priorities",
-    "stars": 392,
-    "forks": 11,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-27T15:34:42Z",
-    "updated_at": "2025-12-30T02:00:10Z",
-    "owner": {
-      "name": "tobi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/347?v=4"
-    }
-  },
-  {
     "name": "angristan/MacThrottle",
     "url": "https://github.com/angristan/MacThrottle",
     "description": "Menu bar app to know when your Mac is thermal throttling",
-    "stars": 318,
-    "forks": 10,
+    "stars": 390,
+    "forks": 13,
     "language": "Swift",
     "topics": [
       "apple",
@@ -129,7 +130,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-16T09:15:32Z",
-    "updated_at": "2025-12-30T03:06:43Z",
+    "updated_at": "2025-12-31T01:37:50Z",
     "owner": {
       "name": "angristan",
       "avatar_url": "https://avatars.githubusercontent.com/u/11699655?v=4"
@@ -138,20 +139,22 @@
   {
     "name": "tddworks/ClaudeBar",
     "url": "https://github.com/tddworks/ClaudeBar",
-    "description": "A macOS menu bar application that monitors AI coding assistant usage quotas. Keep track of your Claude, Codex, and Gemini usage at a glance.",
-    "stars": 316,
+    "description": "A macOS menu bar application that monitors AI coding assistant usage quotas. Keep track of your Claude, Codex, Antigravity ,and Gemini usage at a glance.",
+    "stars": 326,
     "forks": 26,
     "language": "Swift",
     "topics": [
+      "antigravity",
       "claude",
       "claude-code",
       "codex",
       "gemini",
-      "githubcopilot"
+      "githubcopilot",
+      "glm4"
     ],
     "license": "No license",
     "created_at": "2025-12-20T13:58:06Z",
-    "updated_at": "2025-12-30T03:14:35Z",
+    "updated_at": "2025-12-31T02:09:37Z",
     "owner": {
       "name": "tddworks",
       "avatar_url": "https://avatars.githubusercontent.com/u/154110414?v=4"
@@ -162,7 +165,7 @@
     "url": "https://github.com/OskarGroth/MaterialView",
     "description": null,
     "stars": 284,
-    "forks": 9,
+    "forks": 10,
     "language": "Swift",
     "topics": [],
     "license": "MIT License",
@@ -177,13 +180,13 @@
     "name": "xmannv/xkey",
     "url": "https://github.com/xmannv/xkey",
     "description": "Vietnamese Input for macOS - Bộ gõ Tiếng Việt mã nguồn mở cho macOS",
-    "stars": 272,
+    "stars": 274,
     "forks": 33,
     "language": "Swift",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-16T01:07:48Z",
-    "updated_at": "2025-12-29T19:16:46Z",
+    "updated_at": "2025-12-30T20:19:53Z",
     "owner": {
       "name": "xmannv",
       "avatar_url": "https://avatars.githubusercontent.com/u/6252311?v=4"
@@ -193,13 +196,13 @@
     "name": "christopherkarani/SwiftAgents",
     "url": "https://github.com/christopherkarani/SwiftAgents",
     "description": "Langchain but for swift 🐦‍🔥",
-    "stars": 212,
-    "forks": 4,
+    "stars": 226,
+    "forks": 5,
     "language": "Swift",
     "topics": [],
     "license": "No license",
     "created_at": "2025-12-12T09:01:41Z",
-    "updated_at": "2025-12-30T02:49:59Z",
+    "updated_at": "2025-12-31T02:16:33Z",
     "owner": {
       "name": "christopherkarani",
       "avatar_url": "https://avatars.githubusercontent.com/u/13857475?v=4"
@@ -209,13 +212,13 @@
     "name": "tasselx/Keyden",
     "url": "https://github.com/tasselx/Keyden",
     "description": "Keyden is a clean and elegant macOS menu bar TOTP authenticator — securely store secrets in macOS Keychain, add accounts via QR code scanning, and copy codes with one click . Keyden 是一款简洁优雅的 macOS 菜单栏 TOTP 验证器——密钥安全存储于 macOS 钥匙串，支持扫码添加账号与一键复制验证码",
-    "stars": 191,
+    "stars": 193,
     "forks": 6,
     "language": "Swift",
     "topics": [],
     "license": "No license",
     "created_at": "2025-12-14T11:16:58Z",
-    "updated_at": "2025-12-29T10:56:54Z",
+    "updated_at": "2025-12-31T03:11:31Z",
     "owner": {
       "name": "tasselx",
       "avatar_url": "https://avatars.githubusercontent.com/u/2656142?v=4"
@@ -258,6 +261,22 @@
     }
   },
   {
+    "name": "Pinperepette/MacPersistenceChecker",
+    "url": "https://github.com/Pinperepette/MacPersistenceChecker",
+    "description": "macOS persistence mechanism scanner with code signature verification and timeline tracking.",
+    "stars": 178,
+    "forks": 8,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-16T11:53:57Z",
+    "updated_at": "2025-12-31T03:13:55Z",
+    "owner": {
+      "name": "Pinperepette",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1530269?v=4"
+    }
+  },
+  {
     "name": "PGshen/mini-clipboard",
     "url": "https://github.com/PGshen/mini-clipboard",
     "description": "Open-source. Focused on simple, beautiful, and smooth experience.",
@@ -278,32 +297,16 @@
     }
   },
   {
-    "name": "Pinperepette/MacPersistenceChecker",
-    "url": "https://github.com/Pinperepette/MacPersistenceChecker",
-    "description": "macOS persistence mechanism scanner with code signature verification and timeline tracking.",
-    "stars": 174,
-    "forks": 8,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-16T11:53:57Z",
-    "updated_at": "2025-12-29T17:15:12Z",
-    "owner": {
-      "name": "Pinperepette",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1530269?v=4"
-    }
-  },
-  {
     "name": "mogemogecm/NebulaKit",
     "url": "https://github.com/mogemogecm/NebulaKit",
     "description": "NebulaKit is a Metal-based iOS 3D scene and terrain rendering engine designed for building interactive 3D browsers, terrain visualization, and lightweight game prototypes.",
-    "stars": 162,
+    "stars": 163,
     "forks": 0,
     "language": "Swift",
     "topics": [],
     "license": "No license",
     "created_at": "2025-12-06T15:26:35Z",
-    "updated_at": "2025-12-29T17:39:55Z",
+    "updated_at": "2025-12-30T03:37:35Z",
     "owner": {
       "name": "mogemogecm",
       "avatar_url": "https://avatars.githubusercontent.com/u/167496832?v=4"
@@ -313,7 +316,7 @@
     "name": "rcarmo/PhotosExport",
     "url": "https://github.com/rcarmo/PhotosExport",
     "description": "Export ALL your data from Apple Photos",
-    "stars": 151,
+    "stars": 161,
     "forks": 6,
     "language": "Swift",
     "topics": [
@@ -324,7 +327,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-27T14:35:33Z",
-    "updated_at": "2025-12-30T02:46:35Z",
+    "updated_at": "2025-12-31T02:10:15Z",
     "owner": {
       "name": "rcarmo",
       "avatar_url": "https://avatars.githubusercontent.com/u/392683?v=4"
@@ -334,7 +337,7 @@
     "name": "achtungsoftware/alarik",
     "url": "https://github.com/achtungsoftware/alarik",
     "description": "High performance S3 compatible object storage focused on speed and simplicity and designed to be an open alternative to MinIO and RustFS.",
-    "stars": 141,
+    "stars": 142,
     "forks": 0,
     "language": "Swift",
     "topics": [
@@ -347,7 +350,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-12-06T03:48:26Z",
-    "updated_at": "2025-12-29T15:27:50Z",
+    "updated_at": "2025-12-30T18:43:27Z",
     "owner": {
       "name": "achtungsoftware",
       "avatar_url": "https://avatars.githubusercontent.com/u/76080644?v=4"
@@ -373,8 +376,8 @@
     "name": "steipete/imsg",
     "url": "https://github.com/steipete/imsg",
     "description": "CLI for Apple's Messages.app so your agent can send and receive text messages/iMessages.",
-    "stars": 129,
-    "forks": 6,
+    "stars": 134,
+    "forks": 7,
     "language": "Swift",
     "topics": [
       "cli",
@@ -382,10 +385,26 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-05T11:24:43Z",
-    "updated_at": "2025-12-30T01:47:35Z",
+    "updated_at": "2025-12-31T01:47:19Z",
     "owner": {
       "name": "steipete",
       "avatar_url": "https://avatars.githubusercontent.com/u/58493?v=4"
+    }
+  },
+  {
+    "name": "Turbo1123/turbometa-rayban-ai",
+    "url": "https://github.com/Turbo1123/turbometa-rayban-ai",
+    "description": "World's First Full-Chinese Ray-Ban Meta AI Assistant - 全球首个全中文 Ray-Ban Meta 智能眼镜 AI 助手",
+    "stars": 133,
+    "forks": 18,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-21T13:04:54Z",
+    "updated_at": "2025-12-31T02:59:40Z",
+    "owner": {
+      "name": "Turbo1123",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3039850?v=4"
     }
   },
   {
@@ -437,6 +456,35 @@
     }
   },
   {
+    "name": "sozercan/kaset",
+    "url": "https://github.com/sozercan/kaset",
+    "description": "📻 The missing YouTube Music macOS app",
+    "stars": 120,
+    "forks": 3,
+    "language": "Swift",
+    "topics": [
+      "apple-music",
+      "liquid-glass",
+      "macos",
+      "macos-26",
+      "music",
+      "music-player",
+      "swift",
+      "swiftui",
+      "youtube",
+      "youtube-api",
+      "youtube-music",
+      "youtube-music-player"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-19T21:32:25Z",
+    "updated_at": "2025-12-31T03:21:50Z",
+    "owner": {
+      "name": "sozercan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/852750?v=4"
+    }
+  },
+  {
     "name": "Dimillian/RetroDiffusionApp",
     "url": "https://github.com/Dimillian/RetroDiffusionApp",
     "description": "iOS app for https://retrodiffusion.ai/app/devtools",
@@ -466,6 +514,41 @@
     "owner": {
       "name": "elliotttate",
       "avatar_url": "https://avatars.githubusercontent.com/u/25666454?v=4"
+    }
+  },
+  {
+    "name": "SwiftedMind/Tessera",
+    "url": "https://github.com/SwiftedMind/Tessera",
+    "description": "A Swift package that turns a single generated tile composed of SwiftUI views into an endlessly repeating, seamlessly wrapping pattern.",
+    "stars": 101,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [
+      "swift",
+      "swiftui"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-09T13:47:46Z",
+    "updated_at": "2025-12-30T10:35:23Z",
+    "owner": {
+      "name": "SwiftedMind",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7083109?v=4"
+    }
+  },
+  {
+    "name": "Stallion77RepoOfficial/MetalGoose",
+    "url": "https://github.com/Stallion77RepoOfficial/MetalGoose",
+    "description": null,
+    "stars": 100,
+    "forks": 8,
+    "language": "Swift",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-12-07T16:05:52Z",
+    "updated_at": "2025-12-30T15:19:19Z",
+    "owner": {
+      "name": "Stallion77RepoOfficial",
+      "avatar_url": "https://avatars.githubusercontent.com/u/149940678?v=4"
     }
   },
   {
@@ -499,70 +582,6 @@
     }
   },
   {
-    "name": "sozercan/kaset",
-    "url": "https://github.com/sozercan/kaset",
-    "description": "📻 The missing YouTube Music macOS app",
-    "stars": 100,
-    "forks": 3,
-    "language": "Swift",
-    "topics": [
-      "apple-music",
-      "liquid-glass",
-      "macos",
-      "macos-26",
-      "music",
-      "music-player",
-      "swift",
-      "swiftui",
-      "youtube",
-      "youtube-api",
-      "youtube-music",
-      "youtube-music-player"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-19T21:32:25Z",
-    "updated_at": "2025-12-29T15:10:50Z",
-    "owner": {
-      "name": "sozercan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/852750?v=4"
-    }
-  },
-  {
-    "name": "SwiftedMind/Tessera",
-    "url": "https://github.com/SwiftedMind/Tessera",
-    "description": "A Swift package that turns a single generated tile composed of SwiftUI views into an endlessly repeating, seamlessly wrapping pattern.",
-    "stars": 100,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [
-      "swift",
-      "swiftui"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-09T13:47:46Z",
-    "updated_at": "2025-12-29T16:44:33Z",
-    "owner": {
-      "name": "SwiftedMind",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7083109?v=4"
-    }
-  },
-  {
-    "name": "Stallion77RepoOfficial/MetalGoose",
-    "url": "https://github.com/Stallion77RepoOfficial/MetalGoose",
-    "description": null,
-    "stars": 99,
-    "forks": 8,
-    "language": "Swift",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-12-07T16:05:52Z",
-    "updated_at": "2025-12-29T17:58:20Z",
-    "owner": {
-      "name": "Stallion77RepoOfficial",
-      "avatar_url": "https://avatars.githubusercontent.com/u/149940678?v=4"
-    }
-  },
-  {
     "name": "rvarunrathod/HiFidelity",
     "url": "https://github.com/rvarunrathod/HiFidelity",
     "description": "A native macOS offline audiophile music player build with BASS audio library and Taglib",
@@ -590,6 +609,22 @@
     }
   },
   {
+    "name": "emerysilb/immibridge",
+    "url": "https://github.com/emerysilb/immibridge",
+    "description": "Desktop app for copying and syncing an apple photo library to immich.",
+    "stars": 93,
+    "forks": 2,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-27T01:58:55Z",
+    "updated_at": "2025-12-31T03:17:57Z",
+    "owner": {
+      "name": "emerysilb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1472193?v=4"
+    }
+  },
+  {
     "name": "Francium-Tech/scanify",
     "url": "https://github.com/Francium-Tech/scanify",
     "description": "A CLI tool that transforms PDFs to look like scanned documents.",
@@ -603,22 +638,6 @@
     "owner": {
       "name": "Francium-Tech",
       "avatar_url": "https://avatars.githubusercontent.com/u/63695663?v=4"
-    }
-  },
-  {
-    "name": "qusc/SwiftUI-Popover",
-    "url": "https://github.com/qusc/SwiftUI-Popover",
-    "description": "Lightweight, SwiftUI-only anchored popovers for all Apple platforms.",
-    "stars": 90,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-11-21T10:47:22Z",
-    "updated_at": "2025-12-16T13:16:39Z",
-    "owner": {
-      "name": "qusc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/27284448?v=4"
     }
   },
   {
@@ -649,7 +668,7 @@
     "name": "jpomykala/NotchPrompter",
     "url": "https://github.com/jpomykala/NotchPrompter",
     "description": "A very basic, always-on-top floating text prompter for macOS. Perfect for quick videos, or keeping important text visible while you work.",
-    "stars": 81,
+    "stars": 82,
     "forks": 1,
     "language": "Swift",
     "topics": [
@@ -660,7 +679,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-06T14:24:31Z",
-    "updated_at": "2025-12-26T16:16:57Z",
+    "updated_at": "2025-12-30T11:10:58Z",
     "owner": {
       "name": "jpomykala",
       "avatar_url": "https://avatars.githubusercontent.com/u/1548104?v=4"
@@ -670,13 +689,13 @@
     "name": "alexcding/gemini-desktop-mac",
     "url": "https://github.com/alexcding/gemini-desktop-mac",
     "description": null,
-    "stars": 78,
-    "forks": 5,
+    "stars": 80,
+    "forks": 6,
     "language": "Swift",
     "topics": [],
     "license": "Other",
     "created_at": "2025-12-13T18:35:29Z",
-    "updated_at": "2025-12-29T21:18:11Z",
+    "updated_at": "2025-12-30T14:42:37Z",
     "owner": {
       "name": "alexcding",
       "avatar_url": "https://avatars.githubusercontent.com/u/67485107?v=4"
@@ -686,7 +705,7 @@
     "name": "DePasqualeOrg/mlx-swift-audio",
     "url": "https://github.com/DePasqualeOrg/mlx-swift-audio",
     "description": "Swift tools for text to speech (TTS) and speech to text (STT) powered by MLX",
-    "stars": 78,
+    "stars": 79,
     "forks": 7,
     "language": "Swift",
     "topics": [
@@ -707,7 +726,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-03T08:22:36Z",
-    "updated_at": "2025-12-28T03:52:11Z",
+    "updated_at": "2025-12-30T17:53:24Z",
     "owner": {
       "name": "DePasqualeOrg",
       "avatar_url": "https://avatars.githubusercontent.com/u/25420077?v=4"
@@ -730,22 +749,6 @@
     }
   },
   {
-    "name": "emerysilb/immibridge",
-    "url": "https://github.com/emerysilb/immibridge",
-    "description": "Desktop app for copying and syncing an apple photo library to immich.",
-    "stars": 75,
-    "forks": 2,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-27T01:58:55Z",
-    "updated_at": "2025-12-29T21:31:51Z",
-    "owner": {
-      "name": "emerysilb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1472193?v=4"
-    }
-  },
-  {
     "name": "validatedev/BrewServicesManager",
     "url": "https://github.com/validatedev/BrewServicesManager",
     "description": "A macOS menu bar app for managing Homebrew services",
@@ -759,22 +762,6 @@
     "owner": {
       "name": "validatedev",
       "avatar_url": "https://avatars.githubusercontent.com/u/29679552?v=4"
-    }
-  },
-  {
-    "name": "Turbo1123/turbometa-rayban-ai",
-    "url": "https://github.com/Turbo1123/turbometa-rayban-ai",
-    "description": "World's First Full-Chinese Ray-Ban Meta AI Assistant - 全球首个全中文 Ray-Ban Meta 智能眼镜 AI 助手",
-    "stars": 71,
-    "forks": 14,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-21T13:04:54Z",
-    "updated_at": "2025-12-26T03:02:51Z",
-    "owner": {
-      "name": "Turbo1123",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3039850?v=4"
     }
   },
   {
