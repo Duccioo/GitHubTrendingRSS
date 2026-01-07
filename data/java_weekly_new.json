@@ -3,8 +3,8 @@
     "name": "Snailclimb/interview-guide",
     "url": "https://github.com/Snailclimb/interview-guide",
     "description": "基于 Spring Boot 4.0 + Java 21 + Spring AI + PostgreSQL + pgvector + RustFS + Redis，实现简历智能分析、AI模拟面试、知识库RAG检索等核心功能。非常适合作为学习和简历项目，学习门槛低。",
-    "stars": 192,
-    "forks": 48,
+    "stars": 219,
+    "forks": 54,
     "language": "Java",
     "topics": [
       "gradle",
@@ -24,7 +24,7 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-01-03T11:25:48Z",
-    "updated_at": "2026-01-06T03:24:08Z",
+    "updated_at": "2026-01-07T02:56:50Z",
     "owner": {
       "name": "Snailclimb",
       "avatar_url": "https://avatars.githubusercontent.com/u/29880145?v=4"
@@ -74,13 +74,13 @@
     "name": "Dulcinea-J/class-winter-master",
     "url": "https://github.com/Dulcinea-J/class-winter-master",
     "description": null,
-    "stars": 111,
+    "stars": 69,
     "forks": 2,
     "language": "Java",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-04T02:07:37Z",
-    "updated_at": "2026-01-05T05:49:51Z",
+    "updated_at": "2026-01-06T20:35:14Z",
     "owner": {
       "name": "Dulcinea-J",
       "avatar_url": "https://avatars.githubusercontent.com/u/38640016?v=4"
@@ -112,7 +112,7 @@
     "name": "sivaprasadreddy/spring-boot-application-architecture-patterns",
     "url": "https://github.com/sivaprasadreddy/spring-boot-application-architecture-patterns",
     "description": "Spring Application Architecture & Design Patterns",
-    "stars": 61,
+    "stars": 62,
     "forks": 13,
     "language": "Java",
     "topics": [
@@ -129,7 +129,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-01-02T05:45:58Z",
-    "updated_at": "2026-01-06T01:32:34Z",
+    "updated_at": "2026-01-07T00:45:20Z",
     "owner": {
       "name": "sivaprasadreddy",
       "avatar_url": "https://avatars.githubusercontent.com/u/542428?v=4"
@@ -180,13 +180,13 @@
     "name": "xiaogang000/XG_SQL",
     "url": "https://github.com/xiaogang000/XG_SQL",
     "description": "二开xiasql",
-    "stars": 39,
+    "stars": 42,
     "forks": 4,
     "language": "Java",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-01T16:28:23Z",
-    "updated_at": "2026-01-06T00:49:03Z",
+    "updated_at": "2026-01-07T02:17:33Z",
     "owner": {
       "name": "xiaogang000",
       "avatar_url": "https://avatars.githubusercontent.com/u/50757673?v=4"
@@ -211,17 +211,46 @@
   {
     "name": "DNGriffin/minecraftcode",
     "url": "https://github.com/DNGriffin/minecraftcode",
-    "description": null,
+    "description": "Brings OpenCode into Minecraft singleplayer mode. Vibecode while you play MC. ",
     "stars": 33,
     "forks": 2,
     "language": "Java",
-    "topics": [],
+    "topics": [
+      "minecraft",
+      "opencode",
+      "vibecoding"
+    ],
     "license": "MIT License",
     "created_at": "2026-01-03T04:38:07Z",
-    "updated_at": "2026-01-06T02:56:48Z",
+    "updated_at": "2026-01-06T04:02:38Z",
     "owner": {
       "name": "DNGriffin",
       "avatar_url": "https://avatars.githubusercontent.com/u/31415269?v=4"
+    }
+  },
+  {
+    "name": "reugn/default4j",
+    "url": "https://github.com/reugn/default4j",
+    "description": "Default parameter values for Java via annotation processing",
+    "stars": 31,
+    "forks": 0,
+    "language": "Java",
+    "topics": [
+      "annotation-processor",
+      "builder",
+      "code-generation",
+      "default-parameters",
+      "default-values",
+      "java",
+      "java-records",
+      "records"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-03T13:18:53Z",
+    "updated_at": "2026-01-07T01:25:07Z",
+    "owner": {
+      "name": "reugn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45880064?v=4"
     }
   },
   {
@@ -238,31 +267,6 @@
     "owner": {
       "name": "Syngnat",
       "avatar_url": "https://avatars.githubusercontent.com/u/92659908?v=4"
-    }
-  },
-  {
-    "name": "reugn/default4j",
-    "url": "https://github.com/reugn/default4j",
-    "description": "Default parameter values for Java via annotation processing",
-    "stars": 23,
-    "forks": 0,
-    "language": "Java",
-    "topics": [
-      "annotation-processor",
-      "builder",
-      "code-generation",
-      "default-parameters",
-      "default-values",
-      "java",
-      "java-records",
-      "records"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-03T13:18:53Z",
-    "updated_at": "2026-01-05T21:16:28Z",
-    "owner": {
-      "name": "reugn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45880064?v=4"
     }
   },
   {
@@ -384,35 +388,35 @@
     }
   },
   {
-    "name": "masonliiu/jvm-custom-memory-arena",
-    "url": "https://github.com/masonliiu/jvm-custom-memory-arena",
-    "description": "Manual memory arena for Java, with the sole purpose of re-enacting how the JVM works under the hood.",
-    "stars": 16,
-    "forks": 6,
-    "language": "Java",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-19T17:50:05Z",
-    "updated_at": "2025-12-24T00:37:30Z",
-    "owner": {
-      "name": "masonliiu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/138553405?v=4"
-    }
-  },
-  {
     "name": "238469/burp-finger",
     "url": "https://github.com/238469/burp-finger",
     "description": "Finger 是一款专为 Burp Suite 打造的模块化指纹识别插件，旨在通过被动流量监控与智能主动探测，快速识别目标站点的技术栈（CMS、框架、中间件、API 接口及敏感路径泄露）",
-    "stars": 14,
+    "stars": 16,
     "forks": 0,
     "language": "Java",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-01T15:18:23Z",
-    "updated_at": "2026-01-05T09:36:27Z",
+    "updated_at": "2026-01-07T01:54:04Z",
     "owner": {
       "name": "238469",
       "avatar_url": "https://avatars.githubusercontent.com/u/126778520?v=4"
+    }
+  },
+  {
+    "name": "gunnarmorling/hardwood",
+    "url": "https://github.com/gunnarmorling/hardwood",
+    "description": "A minimal dependency implementation of Apache Parquet",
+    "stars": 15,
+    "forks": 0,
+    "language": "Java",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-04T22:25:12Z",
+    "updated_at": "2026-01-07T00:35:23Z",
+    "owner": {
+      "name": "gunnarmorling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28612?v=4"
     }
   },
   {
