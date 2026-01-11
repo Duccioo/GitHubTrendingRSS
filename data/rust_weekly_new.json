@@ -91,7 +91,7 @@
     "name": "cesarferreira/rip",
     "url": "https://github.com/cesarferreira/rip",
     "description": "Fuzzy find and kill processes from your terminal",
-    "stars": 144,
+    "stars": 182,
     "forks": 4,
     "language": "Rust",
     "topics": [
@@ -101,7 +101,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-07T16:41:18Z",
-    "updated_at": "2026-01-10T01:09:14Z",
+    "updated_at": "2026-01-11T03:45:34Z",
     "owner": {
       "name": "cesarferreira",
       "avatar_url": "https://avatars.githubusercontent.com/u/277426?v=4"
@@ -111,16 +111,32 @@
     "name": "cakaroni/polymarket-arbitrage-bot",
     "url": "https://github.com/cakaroni/polymarket-arbitrage-bot",
     "description": "Polymarket arbitrage bot - BTC 15min market & ETH 15min market - Catch position and make decision",
-    "stars": 138,
-    "forks": 135,
+    "stars": 152,
+    "forks": 147,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-07T08:25:52Z",
-    "updated_at": "2026-01-10T03:01:33Z",
+    "updated_at": "2026-01-11T02:42:57Z",
     "owner": {
       "name": "cakaroni",
       "avatar_url": "https://avatars.githubusercontent.com/u/204888448?v=4"
+    }
+  },
+  {
+    "name": "minimaxir/miditui",
+    "url": "https://github.com/minimaxir/miditui",
+    "description": "An interactive terminal app/UI for MIDI composing, mixing, and playback—written in Rust",
+    "stars": 121,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-05T07:44:57Z",
+    "updated_at": "2026-01-11T02:18:17Z",
+    "owner": {
+      "name": "minimaxir",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2179708?v=4"
     }
   },
   {
@@ -159,13 +175,13 @@
     "name": "scipenai/tylax",
     "url": "https://github.com/scipenai/tylax",
     "description": "A bi-directional converter between Typst and LaTeX. Available as both a CLI tool and a Web interface.",
-    "stars": 93,
+    "stars": 99,
     "forks": 1,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-01-05T03:12:17Z",
-    "updated_at": "2026-01-10T00:24:49Z",
+    "updated_at": "2026-01-10T23:56:15Z",
     "owner": {
       "name": "scipenai",
       "avatar_url": "https://avatars.githubusercontent.com/u/233201817?v=4"
@@ -261,6 +277,22 @@
     }
   },
   {
+    "name": "ericzakariasson/duster",
+    "url": "https://github.com/ericzakariasson/duster",
+    "description": "A developer-focused CLI tool to clean up unused files and free disk space",
+    "stars": 68,
+    "forks": 8,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-08T15:21:43Z",
+    "updated_at": "2026-01-10T17:40:24Z",
+    "owner": {
+      "name": "ericzakariasson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25622412?v=4"
+    }
+  },
+  {
     "name": "pheuter/svelte-check-rs",
     "url": "https://github.com/pheuter/svelte-check-rs",
     "description": "Fast Rust-powered drop-in replacement for svelte-check (Svelte 5+)",
@@ -300,19 +332,19 @@
     }
   },
   {
-    "name": "ericzakariasson/duster",
-    "url": "https://github.com/ericzakariasson/duster",
-    "description": "A developer-focused CLI tool to clean up unused files and free disk space",
-    "stars": 59,
-    "forks": 7,
+    "name": "agavra/tuicr",
+    "url": "https://github.com/agavra/tuicr",
+    "description": "Review AI-generated diffs like a GitHub pull request, right from your terminal.",
+    "stars": 57,
+    "forks": 5,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-01-08T15:21:43Z",
-    "updated_at": "2026-01-10T02:21:15Z",
+    "created_at": "2026-01-08T04:55:34Z",
+    "updated_at": "2026-01-11T03:26:38Z",
     "owner": {
-      "name": "ericzakariasson",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25622412?v=4"
+      "name": "agavra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3172405?v=4"
     }
   },
   {
@@ -417,16 +449,57 @@
     "name": "ctmakes/SnapToWindow",
     "url": "https://github.com/ctmakes/SnapToWindow",
     "description": "A cross-platform (windows, macOS) window management application. Snap windows to predefined positions using keyboard shortcuts.",
-    "stars": 41,
-    "forks": 37,
+    "stars": 51,
+    "forks": 47,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-01-07T06:49:56Z",
-    "updated_at": "2026-01-09T20:42:32Z",
+    "updated_at": "2026-01-10T04:40:11Z",
     "owner": {
       "name": "ctmakes",
       "avatar_url": "https://avatars.githubusercontent.com/u/8296195?v=4"
+    }
+  },
+  {
+    "name": "jsubroto/flow",
+    "url": "https://github.com/jsubroto/flow",
+    "description": "A keyboard-first Kanban board in your terminal",
+    "stars": 49,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "kanban",
+      "keyboard-driven",
+      "productivity",
+      "ratatui",
+      "rust",
+      "terminal",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-08T01:20:10Z",
+    "updated_at": "2026-01-11T02:04:39Z",
+    "owner": {
+      "name": "jsubroto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13898099?v=4"
+    }
+  },
+  {
+    "name": "SamuraiJack96/ScamFilter",
+    "url": "https://github.com/SamuraiJack96/ScamFilter",
+    "description": "Preemptive ScamFilter Proactively Mitigates Risk through AI-driven Transaction Validation and Adaptive Profiler",
+    "stars": 40,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-07T06:25:31Z",
+    "updated_at": "2026-01-11T01:22:32Z",
+    "owner": {
+      "name": "SamuraiJack96",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109554692?v=4"
     }
   },
   {
@@ -446,19 +519,24 @@
     }
   },
   {
-    "name": "SamuraiJack96/ScamFilter",
-    "url": "https://github.com/SamuraiJack96/ScamFilter",
-    "description": "Preemptive ScamFilter Proactively Mitigates Risk through AI-driven Transaction Validation and Adaptive Profiler",
-    "stars": 35,
-    "forks": 1,
+    "name": "dahlia/hongdown",
+    "url": "https://github.com/dahlia/hongdown",
+    "description": "A Markdown formatter that enforces Hong Minhee's Markdown style conventions",
+    "stars": 36,
+    "forks": 2,
     "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-07T06:25:31Z",
-    "updated_at": "2026-01-10T01:30:26Z",
+    "topics": [
+      "commonmark",
+      "formatter",
+      "gfm",
+      "markdown"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-01-06T19:13:53Z",
+    "updated_at": "2026-01-11T02:10:56Z",
     "owner": {
-      "name": "SamuraiJack96",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109554692?v=4"
+      "name": "dahlia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12431?v=4"
     }
   },
   {
@@ -475,22 +553,6 @@
     "owner": {
       "name": "ubugeeei",
       "avatar_url": "https://avatars.githubusercontent.com/u/71201308?v=4"
-    }
-  },
-  {
-    "name": "agavra/tuicr",
-    "url": "https://github.com/agavra/tuicr",
-    "description": "Review AI-generated diffs like a GitHub pull request, right from your terminal.",
-    "stars": 34,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-08T04:55:34Z",
-    "updated_at": "2026-01-10T03:16:02Z",
-    "owner": {
-      "name": "agavra",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3172405?v=4"
     }
   },
   {
@@ -523,31 +585,6 @@
     "owner": {
       "name": "quincy-rs",
       "avatar_url": "https://avatars.githubusercontent.com/u/213416932?v=4"
-    }
-  },
-  {
-    "name": "jsubroto/flow",
-    "url": "https://github.com/jsubroto/flow",
-    "description": "A keyboard-first Kanban board in your terminal",
-    "stars": 31,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "kanban",
-      "keyboard-driven",
-      "productivity",
-      "ratatui",
-      "rust",
-      "terminal",
-      "tui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-08T01:20:10Z",
-    "updated_at": "2026-01-09T20:48:29Z",
-    "owner": {
-      "name": "jsubroto",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13898099?v=4"
     }
   },
   {
@@ -629,6 +666,22 @@
     }
   },
   {
+    "name": "charleshamesse/RS-VIO",
+    "url": "https://github.com/charleshamesse/RS-VIO",
+    "description": "Rust Stereo Visual-Inertial Odometry",
+    "stars": 29,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-01-10T08:09:57Z",
+    "updated_at": "2026-01-11T01:34:12Z",
+    "owner": {
+      "name": "charleshamesse",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10261071?v=4"
+    }
+  },
+  {
     "name": "RallyPat/LibreTune",
     "url": "https://github.com/RallyPat/LibreTune",
     "description": "Open Source TS Compatible ECU Tuning Software",
@@ -661,23 +714,19 @@
     }
   },
   {
-    "name": "trustless-engineering/leader-stream",
-    "url": "https://github.com/trustless-engineering/leader-stream",
-    "description": "Solana Leader TPU List and Event Stream",
-    "stars": 29,
-    "forks": 7,
+    "name": "SamuraiJack96/WhaleWatcher",
+    "url": "https://github.com/SamuraiJack96/WhaleWatcher",
+    "description": "Distributed NeuroSynapse Engine leveraging Predictive Modeling and Streaming Analytics to drive Intelligent Data Insights Explorer.",
+    "stars": 28,
+    "forks": 0,
     "language": "Rust",
-    "topics": [
-      "blockchain",
-      "solana",
-      "tpu"
-    ],
-    "license": "Other",
-    "created_at": "2025-12-23T13:43:40Z",
-    "updated_at": "2025-12-27T16:30:05Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-07T06:22:40Z",
+    "updated_at": "2026-01-11T01:22:34Z",
     "owner": {
-      "name": "trustless-engineering",
-      "avatar_url": "https://avatars.githubusercontent.com/u/125307656?v=4"
+      "name": "SamuraiJack96",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109554692?v=4"
     }
   },
   {
@@ -790,6 +839,22 @@
     }
   },
   {
+    "name": "nyanko3141592/filetree",
+    "url": "https://github.com/nyanko3141592/filetree",
+    "description": "A fast, lightweight file explorer TUI with Vim keybindings",
+    "stars": 24,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-09T09:17:13Z",
+    "updated_at": "2026-01-11T03:46:58Z",
+    "owner": {
+      "name": "nyanko3141592",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43579605?v=4"
+    }
+  },
+  {
     "name": "linuxmobile/keystroke",
     "url": "https://github.com/linuxmobile/keystroke",
     "description": "Keystroke visualizer for Wayland compositors",
@@ -837,51 +902,41 @@
     }
   },
   {
-    "name": "HanSoBored/Zygisk-Loader",
-    "url": "https://github.com/HanSoBored/Zygisk-Loader",
-    "description": "A dynamic, Rust-based Zygisk module for hot-swapping native libraries into Android applications without rebooting. Designed for security research, SSL unpinning, and runtime instrumentation.",
-    "stars": 24,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [
-      "aarch64",
-      "android-modding",
-      "android-security",
-      "dlopen",
-      "hooking",
-      "hot-reload",
-      "kernelsu",
-      "library-injector",
-      "magisk-module",
-      "reverse-engineering",
-      "rust",
-      "rust-android",
-      "ssl-unpinning",
-      "zygisk",
-      "zygisk-module"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-22T15:48:20Z",
-    "updated_at": "2025-12-27T06:19:01Z",
-    "owner": {
-      "name": "HanSoBored",
-      "avatar_url": "https://avatars.githubusercontent.com/u/100244706?v=4"
-    }
-  },
-  {
-    "name": "SamuraiJack96/WhaleWatcher",
-    "url": "https://github.com/SamuraiJack96/WhaleWatcher",
-    "description": "Distributed NeuroSynapse Engine leveraging Predictive Modeling and Streaming Analytics to drive Intelligent Data Insights Explorer.",
+    "name": "SamuraiJack96/WalletAnalytics",
+    "url": "https://github.com/SamuraiJack96/WalletAnalytics",
+    "description": "Dynamic, Adaptive, and Scalable WalletAnalytics Hub Suite. implementing modern data encryption with quantum-resistant cryptography patterns with Secure architecture",
     "stars": 23,
     "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-01-07T06:22:40Z",
-    "updated_at": "2026-01-10T01:22:44Z",
+    "created_at": "2026-01-07T06:20:12Z",
+    "updated_at": "2026-01-11T01:22:35Z",
     "owner": {
       "name": "SamuraiJack96",
       "avatar_url": "https://avatars.githubusercontent.com/u/109554692?v=4"
+    }
+  },
+  {
+    "name": "SameerVers3/stdout-tv",
+    "url": "https://github.com/SameerVers3/stdout-tv",
+    "description": "Stream YouTube videos as live ASCII art in your terminal with audio and full color.",
+    "stars": 23,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "ascii-art",
+      "cli",
+      "rust",
+      "video",
+      "youtube"
+    ],
+    "license": "No license",
+    "created_at": "2026-01-06T18:13:49Z",
+    "updated_at": "2026-01-10T14:57:50Z",
+    "owner": {
+      "name": "SameerVers3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111224603?v=4"
     }
   },
   {
@@ -909,6 +964,22 @@
     "owner": {
       "name": "Th0rgal",
       "avatar_url": "https://avatars.githubusercontent.com/u/41830259?v=4"
+    }
+  },
+  {
+    "name": "khoinp1012/kprotect",
+    "url": "https://github.com/khoinp1012/kprotect",
+    "description": null,
+    "stars": 22,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-01-06T15:30:57Z",
+    "updated_at": "2026-01-10T23:50:20Z",
+    "owner": {
+      "name": "khoinp1012",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28219994?v=4"
     }
   },
   {
@@ -954,38 +1025,6 @@
     }
   },
   {
-    "name": "c4pt0r/tipg",
-    "url": "https://github.com/c4pt0r/tipg",
-    "description": "A Postgres-compatible SQL layer on TiKV",
-    "stars": 21,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-04T00:08:46Z",
-    "updated_at": "2026-01-09T05:14:02Z",
-    "owner": {
-      "name": "c4pt0r",
-      "avatar_url": "https://avatars.githubusercontent.com/u/773853?v=4"
-    }
-  },
-  {
-    "name": "khoinp1012/kprotect",
-    "url": "https://github.com/khoinp1012/kprotect",
-    "description": null,
-    "stars": 21,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-01-06T15:30:57Z",
-    "updated_at": "2026-01-09T08:06:52Z",
-    "owner": {
-      "name": "khoinp1012",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28219994?v=4"
-    }
-  },
-  {
     "name": "hoangnv170752/StudyNest",
     "url": "https://github.com/hoangnv170752/StudyNest",
     "description": "Local PC app for everyone to use LLM locally 🫡",
@@ -1002,10 +1041,26 @@
     ],
     "license": "No license",
     "created_at": "2026-01-05T15:52:59Z",
-    "updated_at": "2026-01-09T00:40:00Z",
+    "updated_at": "2026-01-10T07:04:46Z",
     "owner": {
       "name": "hoangnv170752",
       "avatar_url": "https://avatars.githubusercontent.com/u/79237359?v=4"
+    }
+  },
+  {
+    "name": "c4pt0r/tipg",
+    "url": "https://github.com/c4pt0r/tipg",
+    "description": "A Postgres-compatible SQL layer on TiKV",
+    "stars": 21,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-04T00:08:46Z",
+    "updated_at": "2026-01-09T05:14:02Z",
+    "owner": {
+      "name": "c4pt0r",
+      "avatar_url": "https://avatars.githubusercontent.com/u/773853?v=4"
     }
   },
   {
@@ -1047,6 +1102,28 @@
     }
   },
   {
+    "name": "SameerVers3/pixel2ascii",
+    "url": "https://github.com/SameerVers3/pixel2ascii",
+    "description": "A Rust CLI tool to convert images into ASCII art. Supports color, grayscale, block-based sampling, and customizable charsets.",
+    "stars": 20,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "ascii-art",
+      "cli",
+      "image-processing",
+      "rust",
+      "terminal"
+    ],
+    "license": "No license",
+    "created_at": "2026-01-05T22:40:13Z",
+    "updated_at": "2026-01-10T14:57:49Z",
+    "owner": {
+      "name": "SameerVers3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111224603?v=4"
+    }
+  },
+  {
     "name": "5ocworkshop/mixed-signals",
     "url": "https://github.com/5ocworkshop/mixed-signals",
     "description": "Signal generators, easing, RNG & more Rust crate providing mathematical primitives to make TUIs, games, and creative tools feel alive and organic. Stop hardcoding magic numbers and start designing motion. Built for cinematic terminal interfaces, it bridges the gap between raw math and natural behavior without the overhead of full audio DSP engines.",
@@ -1076,6 +1153,31 @@
     "owner": {
       "name": "artst3in",
       "avatar_url": "https://avatars.githubusercontent.com/u/2458976?v=4"
+    }
+  },
+  {
+    "name": "Jayesh-Dev21/lowRes-tv-ascii-Render",
+    "url": "https://github.com/Jayesh-Dev21/lowRes-tv-ascii-Render",
+    "description": "A tiny, opinionated Rust tool that renders low-resolution YouTube streams as ASCII in your terminal.",
+    "stars": 19,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "ascii",
+      "audio",
+      "ffmpeg",
+      "pixel2ascii",
+      "rust",
+      "stream",
+      "terminal",
+      "yt-dlp"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-01-09T10:42:35Z",
+    "updated_at": "2026-01-10T15:38:24Z",
+    "owner": {
+      "name": "Jayesh-Dev21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84006107?v=4"
     }
   },
   {
@@ -1137,44 +1239,6 @@
     "owner": {
       "name": "naseridev",
       "avatar_url": "https://avatars.githubusercontent.com/u/77214940?v=4"
-    }
-  },
-  {
-    "name": "SamuraiJack96/WalletAnalytics",
-    "url": "https://github.com/SamuraiJack96/WalletAnalytics",
-    "description": "Dynamic, Adaptive, and Scalable WalletAnalytics Hub Suite. implementing modern data encryption with quantum-resistant cryptography patterns with Secure architecture",
-    "stars": 18,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-07T06:20:12Z",
-    "updated_at": "2026-01-10T01:22:45Z",
-    "owner": {
-      "name": "SamuraiJack96",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109554692?v=4"
-    }
-  },
-  {
-    "name": "SameerVers3/stdout-tv",
-    "url": "https://github.com/SameerVers3/stdout-tv",
-    "description": "Stream YouTube videos as live ASCII art in your terminal with audio and full color.",
-    "stars": 18,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "ascii-art",
-      "cli",
-      "rust",
-      "video",
-      "youtube"
-    ],
-    "license": "No license",
-    "created_at": "2026-01-06T18:13:49Z",
-    "updated_at": "2026-01-09T21:01:48Z",
-    "owner": {
-      "name": "SameerVers3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/111224603?v=4"
     }
   },
   {
@@ -1296,6 +1360,22 @@
     }
   },
   {
+    "name": "SamuraiJack96/TransactionHistory",
+    "url": "https://github.com/SamuraiJack96/TransactionHistory",
+    "description": "Transactional event streams, aggregated through distributed logging and scalable ingestion, enable actionable Financial TransactionHistory Insights Analytics.",
+    "stars": 16,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-07T06:18:39Z",
+    "updated_at": "2026-01-11T01:22:36Z",
+    "owner": {
+      "name": "SamuraiJack96",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109554692?v=4"
+    }
+  },
+  {
     "name": "fzakaria/uld",
     "url": "https://github.com/fzakaria/uld",
     "description": "A minimal Rust linker",
@@ -1352,28 +1432,6 @@
     "owner": {
       "name": "0xflux",
       "avatar_url": "https://avatars.githubusercontent.com/u/49762827?v=4"
-    }
-  },
-  {
-    "name": "SameerVers3/pixel2ascii",
-    "url": "https://github.com/SameerVers3/pixel2ascii",
-    "description": "A Rust CLI tool to convert images into ASCII art. Supports color, grayscale, block-based sampling, and customizable charsets.",
-    "stars": 15,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "ascii-art",
-      "cli",
-      "image-processing",
-      "rust",
-      "terminal"
-    ],
-    "license": "No license",
-    "created_at": "2026-01-05T22:40:13Z",
-    "updated_at": "2026-01-10T00:32:32Z",
-    "owner": {
-      "name": "SameerVers3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/111224603?v=4"
     }
   },
   {
@@ -1487,19 +1545,19 @@
     }
   },
   {
-    "name": "SamuraiJack96/TransactionHistory",
-    "url": "https://github.com/SamuraiJack96/TransactionHistory",
-    "description": "Transactional event streams, aggregated through distributed logging and scalable ingestion, enable actionable Financial TransactionHistory Insights Analytics.",
+    "name": "bearcove/roam",
+    "url": "https://github.com/bearcove/roam",
+    "description": "Rust-native RPC, friendly to other languages via facet-powered codegen",
     "stars": 14,
     "forks": 0,
     "language": "Rust",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-07T06:18:39Z",
-    "updated_at": "2026-01-10T01:22:46Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-06T13:00:11Z",
+    "updated_at": "2026-01-10T15:15:23Z",
     "owner": {
-      "name": "SamuraiJack96",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109554692?v=4"
+      "name": "bearcove",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89281699?v=4"
     }
   },
   {
@@ -1557,22 +1615,6 @@
     "owner": {
       "name": "WowoEngine",
       "avatar_url": "https://avatars.githubusercontent.com/u/251884211?v=4"
-    }
-  },
-  {
-    "name": "bearcove/roam",
-    "url": "https://github.com/bearcove/roam",
-    "description": "Rust-native RPC, friendly to other languages via facet-powered codegen",
-    "stars": 13,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-06T13:00:11Z",
-    "updated_at": "2026-01-09T23:36:32Z",
-    "owner": {
-      "name": "bearcove",
-      "avatar_url": "https://avatars.githubusercontent.com/u/89281699?v=4"
     }
   },
   {
@@ -1656,23 +1698,22 @@
     }
   },
   {
-    "name": "pepicrft/plasma",
-    "url": "https://github.com/pepicrft/plasma",
-    "description": "A new experience for agentic-coding Android and Apple apps",
-    "stars": 13,
-    "forks": 0,
+    "name": "dangrover/next-meeting-for-cosmic",
+    "url": "https://github.com/dangrover/next-meeting-for-cosmic",
+    "description": "Applet for Cosmic DE that shows your next meeting with button to join",
+    "stars": 12,
+    "forks": 1,
     "language": "Rust",
     "topics": [
-      "agentic",
-      "ai",
-      "coding"
+      "calendar",
+      "cosmic-desktop"
     ],
-    "license": "Mozilla Public License 2.0",
-    "created_at": "2025-12-22T07:55:50Z",
-    "updated_at": "2025-12-27T14:59:52Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-01-08T03:07:27Z",
+    "updated_at": "2026-01-10T20:29:26Z",
     "owner": {
-      "name": "pepicrft",
-      "avatar_url": "https://avatars.githubusercontent.com/u/663605?v=4"
+      "name": "dangrover",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96156?v=4"
     }
   },
   {
@@ -1689,10 +1730,63 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-05T04:38:28Z",
-    "updated_at": "2026-01-10T03:11:12Z",
+    "updated_at": "2026-01-10T04:07:37Z",
     "owner": {
       "name": "fuad1502",
       "avatar_url": "https://avatars.githubusercontent.com/u/17215112?v=4"
+    }
+  },
+  {
+    "name": "ericcurtin/darker",
+    "url": "https://github.com/ericcurtin/darker",
+    "description": "Darker is a tool for Darwin (macOS) containers",
+    "stars": 12,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-09T16:59:56Z",
+    "updated_at": "2026-01-10T22:03:51Z",
+    "owner": {
+      "name": "ericcurtin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1694275?v=4"
+    }
+  },
+  {
+    "name": "vyavdoshenko/red",
+    "url": "https://github.com/vyavdoshenko/red",
+    "description": "An experimental drop-in replacement for GNU sed, written in Rust.",
+    "stars": 12,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-08T20:50:05Z",
+    "updated_at": "2026-01-11T02:13:03Z",
+    "owner": {
+      "name": "vyavdoshenko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41993419?v=4"
+    }
+  },
+  {
+    "name": "ohkami-rs/alien-signals-rs",
+    "url": "https://github.com/ohkami-rs/alien-signals-rs",
+    "description": "Rust port of alien-signals 👾 the lightest signal library",
+    "stars": 12,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "reactive",
+      "rust",
+      "signal",
+      "signals"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-07T16:51:25Z",
+    "updated_at": "2026-01-10T23:08:37Z",
+    "owner": {
+      "name": "ohkami-rs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/174201176?v=4"
     }
   },
   {
@@ -1922,22 +2016,6 @@
     "owner": {
       "name": "Hovirix",
       "avatar_url": "https://avatars.githubusercontent.com/u/184756415?v=4"
-    }
-  },
-  {
-    "name": "compiledkernel-idk/pacboost",
-    "url": "https://github.com/compiledkernel-idk/pacboost",
-    "description": "Extremely fast front-end for the pacman package manager.",
-    "stars": 12,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-12-23T18:33:49Z",
-    "updated_at": "2025-12-27T04:41:09Z",
-    "owner": {
-      "name": "compiledkernel-idk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/220610112?v=4"
     }
   },
   {
@@ -2266,31 +2344,6 @@
     "owner": {
       "name": "salihcantekin",
       "avatar_url": "https://avatars.githubusercontent.com/u/17653555?v=4"
-    }
-  },
-  {
-    "name": "buyukakyuz/smith",
-    "url": "https://github.com/buyukakyuz/smith",
-    "description": "A performant open-source AI coding agent that lives in your terminal.",
-    "stars": 10,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "agent",
-      "claude",
-      "cli",
-      "coding-assistant",
-      "llm",
-      "openai",
-      "rust",
-      "terminal"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-22T11:57:49Z",
-    "updated_at": "2025-12-27T09:18:51Z",
-    "owner": {
-      "name": "buyukakyuz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/99087793?v=4"
     }
   }
 ]
