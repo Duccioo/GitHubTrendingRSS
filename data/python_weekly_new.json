@@ -120,6 +120,38 @@
     }
   },
   {
+    "name": "x011/smtp-tunnel-proxy",
+    "url": "https://github.com/x011/smtp-tunnel-proxy",
+    "description": "A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls.",
+    "stars": 775,
+    "forks": 62,
+    "language": "Python",
+    "topics": [
+      "censorship-circumvention",
+      "censorship-resistance",
+      "covert-tunnel",
+      "deep-packet-inspection",
+      "encryption",
+      "evasion",
+      "network-security",
+      "proxy",
+      "python",
+      "smtp",
+      "socks5",
+      "socks5-proxy",
+      "socks5-server",
+      "tls",
+      "tunnel"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-01-06T19:38:32Z",
+    "updated_at": "2026-01-11T03:46:14Z",
+    "owner": {
+      "name": "x011",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4313821?v=4"
+    }
+  },
+  {
     "name": "jenish-sojitra/JSAnalyzer",
     "url": "https://github.com/jenish-sojitra/JSAnalyzer",
     "description": null,
@@ -136,6 +168,28 @@
     }
   },
   {
+    "name": "jarrodwatts/claude-code-config",
+    "url": "https://github.com/jarrodwatts/claude-code-config",
+    "description": "My personal Claude Code configuration - rules, hooks, agents, skills, and commands",
+    "stars": 713,
+    "forks": 87,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "dotfiles"
+    ],
+    "license": "No license",
+    "created_at": "2026-01-08T06:30:49Z",
+    "updated_at": "2026-01-11T03:11:33Z",
+    "owner": {
+      "name": "jarrodwatts",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35651410?v=4"
+    }
+  },
+  {
     "name": "CloudAI-X/claude-workflow",
     "url": "https://github.com/CloudAI-X/claude-workflow",
     "description": "Universal Claude Code workflow plugin with agents, skills, hooks, and commands",
@@ -149,28 +203,6 @@
     "owner": {
       "name": "CloudAI-X",
       "avatar_url": "https://avatars.githubusercontent.com/u/83179771?v=4"
-    }
-  },
-  {
-    "name": "jarrodwatts/claude-code-config",
-    "url": "https://github.com/jarrodwatts/claude-code-config",
-    "description": "My personal Claude Code configuration - rules, hooks, agents, skills, and commands",
-    "stars": 662,
-    "forks": 82,
-    "language": "Python",
-    "topics": [
-      "ai",
-      "claude",
-      "claude-code",
-      "developer-tools",
-      "dotfiles"
-    ],
-    "license": "No license",
-    "created_at": "2026-01-08T06:30:49Z",
-    "updated_at": "2026-01-10T03:09:21Z",
-    "owner": {
-      "name": "jarrodwatts",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35651410?v=4"
     }
   },
   {
@@ -203,6 +235,22 @@
     "owner": {
       "name": "davidfowl",
       "avatar_url": "https://avatars.githubusercontent.com/u/95136?v=4"
+    }
+  },
+  {
+    "name": "QwenLM/Qwen3-VL-Embedding",
+    "url": "https://github.com/QwenLM/Qwen3-VL-Embedding",
+    "description": null,
+    "stars": 486,
+    "forks": 35,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-08T03:42:57Z",
+    "updated_at": "2026-01-11T03:28:34Z",
+    "owner": {
+      "name": "QwenLM",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141221163?v=4"
     }
   },
   {
@@ -275,38 +323,6 @@
     }
   },
   {
-    "name": "x011/smtp-tunnel-proxy",
-    "url": "https://github.com/x011/smtp-tunnel-proxy",
-    "description": "A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls.",
-    "stars": 441,
-    "forks": 29,
-    "language": "Python",
-    "topics": [
-      "censorship-circumvention",
-      "censorship-resistance",
-      "covert-tunnel",
-      "deep-packet-inspection",
-      "encryption",
-      "evasion",
-      "network-security",
-      "proxy",
-      "python",
-      "smtp",
-      "socks5",
-      "socks5-proxy",
-      "socks5-server",
-      "tls",
-      "tunnel"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-01-06T19:38:32Z",
-    "updated_at": "2026-01-10T03:16:10Z",
-    "owner": {
-      "name": "x011",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4313821?v=4"
-    }
-  },
-  {
     "name": "simonw/claude-code-transcripts",
     "url": "https://github.com/simonw/claude-code-transcripts",
     "description": "Tools for publishing transcripts for Claude Code sessions",
@@ -323,19 +339,19 @@
     }
   },
   {
-    "name": "QwenLM/Qwen3-VL-Embedding",
-    "url": "https://github.com/QwenLM/Qwen3-VL-Embedding",
-    "description": null,
-    "stars": 399,
-    "forks": 27,
+    "name": "huangserva/skill-prompt-generator",
+    "url": "https://github.com/huangserva/skill-prompt-generator",
+    "description": "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制",
+    "stars": 403,
+    "forks": 95,
     "language": "Python",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-08T03:42:57Z",
-    "updated_at": "2026-01-10T03:15:03Z",
+    "license": "No license",
+    "created_at": "2026-01-05T04:49:44Z",
+    "updated_at": "2026-01-11T03:39:55Z",
     "owner": {
-      "name": "QwenLM",
-      "avatar_url": "https://avatars.githubusercontent.com/u/141221163?v=4"
+      "name": "huangserva",
+      "avatar_url": "https://avatars.githubusercontent.com/u/201197786?v=4"
     }
   },
   {
@@ -407,22 +423,6 @@
     "owner": {
       "name": "ARahim3",
       "avatar_url": "https://avatars.githubusercontent.com/u/41390319?v=4"
-    }
-  },
-  {
-    "name": "huangserva/skill-prompt-generator",
-    "url": "https://github.com/huangserva/skill-prompt-generator",
-    "description": "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制",
-    "stars": 305,
-    "forks": 68,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-05T04:49:44Z",
-    "updated_at": "2026-01-10T03:18:20Z",
-    "owner": {
-      "name": "huangserva",
-      "avatar_url": "https://avatars.githubusercontent.com/u/201197786?v=4"
     }
   },
   {
@@ -534,6 +534,22 @@
     }
   },
   {
+    "name": "naklecha/simple-llm",
+    "url": "https://github.com/naklecha/simple-llm",
+    "description": "~950 line, minimal, extensible LLM inference engine built from scratch.",
+    "stars": 248,
+    "forks": 19,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-08T14:20:40Z",
+    "updated_at": "2026-01-11T03:36:45Z",
+    "owner": {
+      "name": "naklecha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31594715?v=4"
+    }
+  },
+  {
     "name": "OrionStarAI/claudecode-vertex-proxy",
     "url": "https://github.com/OrionStarAI/claudecode-vertex-proxy",
     "description": "Proxy service for Claude Code to access Claude models via GCP Vertex AI | 让 Claude Code 通过 GCP Vertex AI 访问 Claude 模型",
@@ -640,22 +656,6 @@
     }
   },
   {
-    "name": "abhishekkrthakur/NyRAG",
-    "url": "https://github.com/abhishekkrthakur/NyRAG",
-    "description": "advanced, scalable, no-code RAG",
-    "stars": 198,
-    "forks": 22,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-12-22T12:02:27Z",
-    "updated_at": "2025-12-28T02:00:21Z",
-    "owner": {
-      "name": "abhishekkrthakur",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1183441?v=4"
-    }
-  },
-  {
     "name": "kasperjunge/agent-resources-project",
     "url": "https://github.com/kasperjunge/agent-resources-project",
     "description": "Install Claude Code skills from GitHub with one command: uvx add-skill 🚀 Also works for slash commands and subagents 🤙",
@@ -669,6 +669,26 @@
     "owner": {
       "name": "kasperjunge",
       "avatar_url": "https://avatars.githubusercontent.com/u/39537120?v=4"
+    }
+  },
+  {
+    "name": "AdamBankz/tiktok-web-reverse",
+    "url": "https://github.com/AdamBankz/tiktok-web-reverse",
+    "description": "TikTok Web Reverse Engineered. Includes Bogus, Gnarly, mssdk & more.",
+    "stars": 195,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "reverse-engineering",
+      "tiktok-api",
+      "tiktok-reverse"
+    ],
+    "license": "No license",
+    "created_at": "2026-01-08T14:53:58Z",
+    "updated_at": "2026-01-10T19:21:06Z",
+    "owner": {
+      "name": "AdamBankz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/208094155?v=4"
     }
   },
   {
@@ -704,6 +724,31 @@
     }
   },
   {
+    "name": "Chocapikk/CVE-2026-21858",
+    "url": "https://github.com/Chocapikk/CVE-2026-21858",
+    "description": "n8n Ni8mare - Unauthenticated Arbitrary File Read to RCE Chain (CVSS 10.0)",
+    "stars": 184,
+    "forks": 39,
+    "language": "Python",
+    "topics": [
+      "cve-2026-21858",
+      "exploit",
+      "n8n",
+      "ni8mare",
+      "poc",
+      "rce",
+      "security",
+      "vulnerability"
+    ],
+    "license": "No license",
+    "created_at": "2026-01-07T19:32:42Z",
+    "updated_at": "2026-01-11T02:05:14Z",
+    "owner": {
+      "name": "Chocapikk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88535377?v=4"
+    }
+  },
+  {
     "name": "tokenbender/mHC-manifold-constrained-hyper-connections",
     "url": "https://github.com/tokenbender/mHC-manifold-constrained-hyper-connections",
     "description": "implementations and experimentation on mHC by deepseek - https://arxiv.org/abs/2512.24880",
@@ -720,6 +765,22 @@
     }
   },
   {
+    "name": "pbeenigg/LittleCrawler",
+    "url": "https://github.com/pbeenigg/LittleCrawler",
+    "description": "LittleCrawler（小爬虫），支持小红书（xhs）｜ 知乎（zh）|  闲鱼（xy）平台的公开信息抓取。",
+    "stars": 182,
+    "forks": 28,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-07T01:50:12Z",
+    "updated_at": "2026-01-11T03:44:22Z",
+    "owner": {
+      "name": "pbeenigg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/227541026?v=4"
+    }
+  },
+  {
     "name": "lyehe/porterminal",
     "url": "https://github.com/lyehe/porterminal",
     "description": "Quick n' dirty web terminal tunneling your phone & pc",
@@ -733,6 +794,22 @@
     "owner": {
       "name": "lyehe",
       "avatar_url": "https://avatars.githubusercontent.com/u/39746231?v=4"
+    }
+  },
+  {
+    "name": "coleam00/habit-tracker",
+    "url": "https://github.com/coleam00/habit-tracker",
+    "description": "Habit Tracker for the AI Coding Workshop",
+    "stars": 174,
+    "forks": 95,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-05T23:41:57Z",
+    "updated_at": "2026-01-11T03:44:39Z",
+    "owner": {
+      "name": "coleam00",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47287758?v=4"
     }
   },
   {
@@ -800,32 +877,16 @@
     }
   },
   {
-    "name": "naklecha/simple-llm",
-    "url": "https://github.com/naklecha/simple-llm",
-    "description": "~950 line, minimal, extensible LLM inference engine built from scratch.",
-    "stars": 164,
-    "forks": 13,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-08T14:20:40Z",
-    "updated_at": "2026-01-10T03:11:58Z",
-    "owner": {
-      "name": "naklecha",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31594715?v=4"
-    }
-  },
-  {
     "name": "HM-RunningHub/ComfyUI_RH_DreamID-V",
     "url": "https://github.com/HM-RunningHub/ComfyUI_RH_DreamID-V",
     "description": "This is a ComfyUI plug-in for bytedance/DreamID-V",
-    "stars": 155,
-    "forks": 30,
+    "stars": 164,
+    "forks": 31,
     "language": "Python",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-07T16:37:01Z",
-    "updated_at": "2026-01-10T02:08:04Z",
+    "updated_at": "2026-01-11T02:50:33Z",
     "owner": {
       "name": "HM-RunningHub",
       "avatar_url": "https://avatars.githubusercontent.com/u/191476741?v=4"
@@ -845,31 +906,6 @@
     "owner": {
       "name": "tronghieuit",
       "avatar_url": "https://avatars.githubusercontent.com/u/24490718?v=4"
-    }
-  },
-  {
-    "name": "Chocapikk/CVE-2026-21858",
-    "url": "https://github.com/Chocapikk/CVE-2026-21858",
-    "description": "n8n Ni8mare - Unauthenticated Arbitrary File Read to RCE Chain (CVSS 10.0)",
-    "stars": 148,
-    "forks": 35,
-    "language": "Python",
-    "topics": [
-      "cve-2026-21858",
-      "exploit",
-      "n8n",
-      "ni8mare",
-      "poc",
-      "rce",
-      "security",
-      "vulnerability"
-    ],
-    "license": "No license",
-    "created_at": "2026-01-07T19:32:42Z",
-    "updated_at": "2026-01-10T02:31:30Z",
-    "owner": {
-      "name": "Chocapikk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/88535377?v=4"
     }
   },
   {
@@ -1015,19 +1051,29 @@
     }
   },
   {
-    "name": "coleam00/habit-tracker",
-    "url": "https://github.com/coleam00/habit-tracker",
-    "description": "Habit Tracker for the AI Coding Workshop",
-    "stars": 125,
-    "forks": 74,
+    "name": "egebese/seo-research-mcp",
+    "url": "https://github.com/egebese/seo-research-mcp",
+    "description": "A free SEO research tool using Model Context Protocol (MCP) powered by Ahrefs data. Get backlink analysis, keyword research, traffic estimation, and more — directly in your AI-powered IDE.",
+    "stars": 122,
+    "forks": 19,
     "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-05T23:41:57Z",
-    "updated_at": "2026-01-10T01:46:37Z",
+    "topics": [
+      "ahrefs",
+      "backlink-analysis",
+      "keyword-search",
+      "mcp",
+      "mcp-tools",
+      "seo",
+      "seo-optimization",
+      "seo-tools",
+      "traffic-analysis"
+    ],
+    "license": "Other",
+    "created_at": "2026-01-07T06:47:28Z",
+    "updated_at": "2026-01-10T23:32:55Z",
     "owner": {
-      "name": "coleam00",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47287758?v=4"
+      "name": "egebese",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13166929?v=4"
     }
   },
   {
@@ -1063,29 +1109,19 @@
     }
   },
   {
-    "name": "egebese/seo-research-mcp",
-    "url": "https://github.com/egebese/seo-research-mcp",
-    "description": "A free SEO research tool using Model Context Protocol (MCP) powered by Ahrefs data. Get backlink analysis, keyword research, traffic estimation, and more — directly in your AI-powered IDE.",
-    "stars": 115,
-    "forks": 19,
+    "name": "noambrown/poker_solver",
+    "url": "https://github.com/noambrown/poker_solver",
+    "description": "A no-limit Texas hold'em river solver using CFR variants",
+    "stars": 112,
+    "forks": 12,
     "language": "Python",
-    "topics": [
-      "ahrefs",
-      "backlink-analysis",
-      "keyword-search",
-      "mcp",
-      "mcp-tools",
-      "seo",
-      "seo-optimization",
-      "seo-tools",
-      "traffic-analysis"
-    ],
-    "license": "Other",
-    "created_at": "2026-01-07T06:47:28Z",
-    "updated_at": "2026-01-10T03:04:17Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-05T16:58:22Z",
+    "updated_at": "2026-01-10T07:45:21Z",
     "owner": {
-      "name": "egebese",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13166929?v=4"
+      "name": "noambrown",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1719838?v=4"
     }
   },
   {
@@ -1102,22 +1138,6 @@
     "owner": {
       "name": "LAOGOU-666",
       "avatar_url": "https://avatars.githubusercontent.com/u/164337292?v=4"
-    }
-  },
-  {
-    "name": "noambrown/poker_solver",
-    "url": "https://github.com/noambrown/poker_solver",
-    "description": "A no-limit Texas hold'em river solver using CFR variants",
-    "stars": 111,
-    "forks": 13,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-05T16:58:22Z",
-    "updated_at": "2026-01-09T13:17:09Z",
-    "owner": {
-      "name": "noambrown",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1719838?v=4"
     }
   },
   {
@@ -1175,19 +1195,19 @@
     }
   },
   {
-    "name": "WeichenFan/UAE",
-    "url": "https://github.com/WeichenFan/UAE",
-    "description": "Official repo for UAE",
+    "name": "parcadei/llm-tldr",
+    "url": "https://github.com/parcadei/llm-tldr",
+    "description": "95% token savings. 155x faster queries. 16 languages.  LLMs can't read your entire codebase. TLDR extracts structure, traces dependencies, and gives them exactly what they need.",
     "stars": 104,
-    "forks": 3,
+    "forks": 20,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2025-12-22T06:28:19Z",
-    "updated_at": "2025-12-27T14:53:06Z",
+    "created_at": "2026-01-09T08:55:54Z",
+    "updated_at": "2026-01-11T03:10:04Z",
     "owner": {
-      "name": "WeichenFan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/112800544?v=4"
+      "name": "parcadei",
+      "avatar_url": "https://avatars.githubusercontent.com/u/227596144?v=4"
     }
   },
   {
@@ -1334,39 +1354,19 @@
     }
   },
   {
-    "name": "bjzhou/iptv-collector",
-    "url": "https://github.com/bjzhou/iptv-collector",
-    "description": null,
-    "stars": 96,
+    "name": "sundial-org/skills",
+    "url": "https://github.com/sundial-org/skills",
+    "description": "Claude Code Skills",
+    "stars": 94,
     "forks": 6,
     "language": "Python",
     "topics": [],
     "license": "No license",
-    "created_at": "2025-12-23T09:39:08Z",
-    "updated_at": "2025-12-27T17:06:02Z",
+    "created_at": "2026-01-07T19:18:17Z",
+    "updated_at": "2026-01-10T22:53:15Z",
     "owner": {
-      "name": "bjzhou",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3062432?v=4"
-    }
-  },
-  {
-    "name": "AdamBankz/tiktok-web-reverse",
-    "url": "https://github.com/AdamBankz/tiktok-web-reverse",
-    "description": "TikTok Web Reverse Engineered. Includes Bogus, Gnarly, mssdk & more.",
-    "stars": 93,
-    "forks": 0,
-    "language": "Python",
-    "topics": [
-      "reverse-engineering",
-      "tiktok-api",
-      "tiktok-reverse"
-    ],
-    "license": "No license",
-    "created_at": "2026-01-08T14:53:58Z",
-    "updated_at": "2026-01-09T16:59:28Z",
-    "owner": {
-      "name": "AdamBankz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208094155?v=4"
+      "name": "sundial-org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/225963689?v=4"
     }
   },
   {
@@ -1386,6 +1386,47 @@
     }
   },
   {
+    "name": "imbue-bit/AlphaGPT",
+    "url": "https://github.com/imbue-bit/AlphaGPT",
+    "description": "使用符号回归在中国股市上进行高效因子挖掘。/ By the way, Leverage the novel features and advanced financial mathematics introduced in Uniswap V4 to effectively mitigate just-in-time (JIT) liquidity provision issues.",
+    "stars": 91,
+    "forks": 242,
+    "language": "Python",
+    "topics": [
+      "deep-learning",
+      "finance",
+      "math",
+      "quant",
+      "quantitative-finance",
+      "sr",
+      "transformer",
+      "uniswap-v4"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-08T02:05:21Z",
+    "updated_at": "2026-01-10T13:00:54Z",
+    "owner": {
+      "name": "imbue-bit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/219517514?v=4"
+    }
+  },
+  {
+    "name": "jarnovandenbrink/getSPNless",
+    "url": "https://github.com/jarnovandenbrink/getSPNless",
+    "description": "Python tool to automatically perform SPN-less RBCD attacks.",
+    "stars": 91,
+    "forks": 9,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-07T14:58:42Z",
+    "updated_at": "2026-01-10T14:58:47Z",
+    "owner": {
+      "name": "jarnovandenbrink",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84376146?v=4"
+    }
+  },
+  {
     "name": "infinigence/FUSCO",
     "url": "https://github.com/infinigence/FUSCO",
     "description": "High-performance distributed data shuffling (all-to-all) library for MoE training and inference",
@@ -1402,44 +1443,40 @@
     }
   },
   {
-    "name": "imbue-bit/AlphaGPT",
-    "url": "https://github.com/imbue-bit/AlphaGPT",
-    "description": "使用符号回归在中国股市上进行高效因子挖掘。/ By the way, Leverage the novel features and advanced financial mathematics introduced in Uniswap V4 to effectively mitigate just-in-time (JIT) liquidity provision issues.",
-    "stars": 88,
-    "forks": 224,
+    "name": "ZhuLinsen/daily_stock_analysis",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "description": "daily_stock_analysis: AI 驱动的 A 股智能分析器，多数据源行情 + 实时新闻 + Gemini 决策仪表盘 + 微信推送，零成本，纯白嫖，定时运行",
+    "stars": 90,
+    "forks": 37,
     "language": "Python",
     "topics": [
-      "deep-learning",
-      "finance",
-      "math",
-      "quant",
-      "quantitative-finance",
-      "sr",
-      "transformer",
-      "uniswap-v4"
+      "ai",
+      "aigc",
+      "gemini",
+      "llm"
     ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-08T02:05:21Z",
-    "updated_at": "2026-01-10T02:14:30Z",
+    "license": "MIT License",
+    "created_at": "2026-01-10T06:43:20Z",
+    "updated_at": "2026-01-11T03:43:59Z",
     "owner": {
-      "name": "imbue-bit",
-      "avatar_url": "https://avatars.githubusercontent.com/u/219517514?v=4"
+      "name": "ZhuLinsen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42829555?v=4"
     }
   },
   {
-    "name": "jarnovandenbrink/getSPNless",
-    "url": "https://github.com/jarnovandenbrink/getSPNless",
-    "description": "Python tool to automatically perform SPN-less RBCD attacks.",
-    "stars": 87,
-    "forks": 9,
+    "name": "koreal6803/finlab-ai",
+    "url": "https://github.com/koreal6803/finlab-ai",
+    "description": "Claude Code skill for FinLab quantitative trading - Taiwan stock market analysis and strategy development",
+    "stars": 90,
+    "forks": 16,
     "language": "Python",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-07T14:58:42Z",
-    "updated_at": "2026-01-10T03:04:40Z",
+    "license": "No license",
+    "created_at": "2026-01-06T07:59:04Z",
+    "updated_at": "2026-01-10T21:47:38Z",
     "owner": {
-      "name": "jarnovandenbrink",
-      "avatar_url": "https://avatars.githubusercontent.com/u/84376146?v=4"
+      "name": "koreal6803",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7858648?v=4"
     }
   },
   {
@@ -1558,22 +1595,6 @@
     }
   },
   {
-    "name": "sundial-org/skills",
-    "url": "https://github.com/sundial-org/skills",
-    "description": "Claude Code Skills",
-    "stars": 80,
-    "forks": 5,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-07T19:18:17Z",
-    "updated_at": "2026-01-10T03:09:20Z",
-    "owner": {
-      "name": "sundial-org",
-      "avatar_url": "https://avatars.githubusercontent.com/u/225963689?v=4"
-    }
-  },
-  {
     "name": "liongliong/DeepSearch-FlashRAG",
     "url": "https://github.com/liongliong/DeepSearch-FlashRAG",
     "description": "2025 CCF BDCI DeepSearch 赛道 Top 方案",
@@ -1603,6 +1624,22 @@
     "owner": {
       "name": "thegraycuber",
       "avatar_url": "https://avatars.githubusercontent.com/u/175418552?v=4"
+    }
+  },
+  {
+    "name": "naufaljct48/youtube-heatmap-clipper",
+    "url": "https://github.com/naufaljct48/youtube-heatmap-clipper",
+    "description": "Automatically find and clip the most engaging parts of YouTube videos using heatmap-based viewer interaction data.",
+    "stars": 77,
+    "forks": 17,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-09T06:45:16Z",
+    "updated_at": "2026-01-10T14:16:25Z",
+    "owner": {
+      "name": "naufaljct48",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30202760?v=4"
     }
   },
   {
@@ -1651,6 +1688,22 @@
     "owner": {
       "name": "mprajyothreddy",
       "avatar_url": "https://avatars.githubusercontent.com/u/72191306?v=4"
+    }
+  },
+  {
+    "name": "ctsdownloads/easyspeak",
+    "url": "https://github.com/ctsdownloads/easyspeak",
+    "description": "Voice control for Linux desktops. Fully local, no cloud, Wayland-native.",
+    "stars": 73,
+    "forks": 3,
+    "language": "Python",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-01-05T08:56:14Z",
+    "updated_at": "2026-01-11T00:15:35Z",
+    "owner": {
+      "name": "ctsdownloads",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18758065?v=4"
     }
   },
   {
@@ -1708,6 +1761,38 @@
     }
   },
   {
+    "name": "princepainter/ComfyUI-PainterLTXV2",
+    "url": "https://github.com/princepainter/ComfyUI-PainterLTXV2",
+    "description": "ComfyUI custom nodes for LTXV audio-video separation sampling and latent preparation.  PainterSamplerLTXV: Advanced sampler with external sigmas support - PainterLTXVtoVideo: LTXV latent preparation with audio/video separation",
+    "stars": 70,
+    "forks": 2,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-07T02:05:57Z",
+    "updated_at": "2026-01-10T10:02:35Z",
+    "owner": {
+      "name": "princepainter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/124643595?v=4"
+    }
+  },
+  {
+    "name": "1600822305/Fielix",
+    "url": "https://github.com/1600822305/Fielix",
+    "description": "A novel neural network architecture featuring Field Effect Propagation, Dynamic Topology, Spiral Memory, and Emergent Position Encoding. Achieves better learning efficiency than Transformer.",
+    "stars": 69,
+    "forks": 11,
+    "language": "Python",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-01-05T22:26:35Z",
+    "updated_at": "2026-01-08T23:32:00Z",
+    "owner": {
+      "name": "1600822305",
+      "avatar_url": "https://avatars.githubusercontent.com/u/161661698?v=4"
+    }
+  },
+  {
     "name": "dengo07/textual-sticky-notes-tui",
     "url": "https://github.com/dengo07/textual-sticky-notes-tui",
     "description": "A keyboard-centric sticky notes TUI built with Python and Textual ",
@@ -1739,22 +1824,6 @@
     }
   },
   {
-    "name": "1600822305/Fielix",
-    "url": "https://github.com/1600822305/Fielix",
-    "description": "A novel neural network architecture featuring Field Effect Propagation, Dynamic Topology, Spiral Memory, and Emergent Position Encoding. Achieves better learning efficiency than Transformer.",
-    "stars": 69,
-    "forks": 11,
-    "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-01-05T22:26:35Z",
-    "updated_at": "2026-01-08T23:32:00Z",
-    "owner": {
-      "name": "1600822305",
-      "avatar_url": "https://avatars.githubusercontent.com/u/161661698?v=4"
-    }
-  },
-  {
     "name": "PKU-YuanGroup/UltraShape-1.0",
     "url": "https://github.com/PKU-YuanGroup/UltraShape-1.0",
     "description": "High-Fidelity 3D Shape Generation via Scalable Geometric Refinement",
@@ -1768,6 +1837,22 @@
     "owner": {
       "name": "PKU-YuanGroup",
       "avatar_url": "https://avatars.githubusercontent.com/u/135824553?v=4"
+    }
+  },
+  {
+    "name": "discountry/polymarket-trading-bot",
+    "url": "https://github.com/discountry/polymarket-trading-bot",
+    "description": null,
+    "stars": 67,
+    "forks": 33,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-08T09:49:24Z",
+    "updated_at": "2026-01-11T03:02:12Z",
+    "owner": {
+      "name": "discountry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4507101?v=4"
     }
   },
   {
@@ -1787,67 +1872,43 @@
     }
   },
   {
-    "name": "HyoKong/WorldWarp",
-    "url": "https://github.com/HyoKong/WorldWarp",
-    "description": "Long-range camera-conditioned scene generation from one single image.",
-    "stars": 67,
-    "forks": 6,
+    "name": "liangdabiao/XHS_Business_Idea_Validator",
+    "url": "https://github.com/liangdabiao/XHS_Business_Idea_Validator",
+    "description": "小红书收集和分析数据来解析市场需求用户痛点及竞争格局 - 📊 **小红书数据抓取**: 自动抓取相关笔记和评论数据  - 🤖 **AI 内容分析**: 使用 LLM 分析用户痛点和市场需求 - 📄 **自动化报告生成**: 生成专业的市场验证报告",
+    "stars": 66,
+    "forks": 17,
     "language": "Python",
-    "topics": [],
+    "topics": [
+      "agent",
+      "agentic-ai"
+    ],
     "license": "No license",
-    "created_at": "2025-12-22T16:22:48Z",
-    "updated_at": "2025-12-28T02:29:09Z",
+    "created_at": "2026-01-05T15:17:08Z",
+    "updated_at": "2026-01-10T14:55:25Z",
     "owner": {
-      "name": "HyoKong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32049327?v=4"
+      "name": "liangdabiao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1232260?v=4"
     }
   },
   {
-    "name": "ctsdownloads/easyspeak",
-    "url": "https://github.com/ctsdownloads/easyspeak",
-    "description": "Voice control for Linux desktops. Fully local, no cloud, Wayland-native.",
-    "stars": 65,
-    "forks": 3,
-    "language": "Python",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-01-05T08:56:14Z",
-    "updated_at": "2026-01-10T00:08:38Z",
-    "owner": {
-      "name": "ctsdownloads",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18758065?v=4"
-    }
-  },
-  {
-    "name": "pbeenigg/LittleCrawler",
-    "url": "https://github.com/pbeenigg/LittleCrawler",
-    "description": "LittleCrawler（小爬虫），支持小红书（xhs）｜ 知乎（zh）|  闲鱼（xy）平台的公开信息抓取。",
-    "stars": 65,
-    "forks": 12,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-07T01:50:12Z",
-    "updated_at": "2026-01-10T03:13:11Z",
-    "owner": {
-      "name": "pbeenigg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/227541026?v=4"
-    }
-  },
-  {
-    "name": "princepainter/ComfyUI-PainterLTXV2",
-    "url": "https://github.com/princepainter/ComfyUI-PainterLTXV2",
-    "description": "ComfyUI custom nodes for LTXV audio-video separation sampling and latent preparation.  PainterSamplerLTXV: Advanced sampler with external sigmas support - PainterLTXVtoVideo: LTXV latent preparation with audio/video separation",
+    "name": "meituan/EvoCUA",
+    "url": "https://github.com/meituan/EvoCUA",
+    "description": "EvoCUA: Evolving Computer Use Agent",
     "stars": 65,
     "forks": 2,
     "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-07T02:05:57Z",
-    "updated_at": "2026-01-10T01:28:38Z",
+    "topics": [
+      "computer-use-agent",
+      "foundation-models",
+      "gui",
+      "vision-language-model"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-07T02:39:11Z",
+    "updated_at": "2026-01-10T14:35:47Z",
     "owner": {
-      "name": "princepainter",
-      "avatar_url": "https://avatars.githubusercontent.com/u/124643595?v=4"
+      "name": "meituan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/977371?v=4"
     }
   },
   {
@@ -1864,25 +1925,6 @@
     "owner": {
       "name": "eztg",
       "avatar_url": "https://avatars.githubusercontent.com/u/213158794?v=4"
-    }
-  },
-  {
-    "name": "liangdabiao/XHS_Business_Idea_Validator",
-    "url": "https://github.com/liangdabiao/XHS_Business_Idea_Validator",
-    "description": "小红书收集和分析数据来解析市场需求用户痛点及竞争格局 - 📊 **小红书数据抓取**: 自动抓取相关笔记和评论数据  - 🤖 **AI 内容分析**: 使用 LLM 分析用户痛点和市场需求 - 📄 **自动化报告生成**: 生成专业的市场验证报告",
-    "stars": 64,
-    "forks": 17,
-    "language": "Python",
-    "topics": [
-      "agent",
-      "agentic-ai"
-    ],
-    "license": "No license",
-    "created_at": "2026-01-05T15:17:08Z",
-    "updated_at": "2026-01-09T13:18:16Z",
-    "owner": {
-      "name": "liangdabiao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1232260?v=4"
     }
   },
   {
@@ -1925,27 +1967,6 @@
     }
   },
   {
-    "name": "meituan/EvoCUA",
-    "url": "https://github.com/meituan/EvoCUA",
-    "description": "EvoCUA: Evolving Computer Use Agent",
-    "stars": 62,
-    "forks": 2,
-    "language": "Python",
-    "topics": [
-      "computer-use-agent",
-      "foundation-models",
-      "gui",
-      "vision-language-model"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-07T02:39:11Z",
-    "updated_at": "2026-01-09T09:17:48Z",
-    "owner": {
-      "name": "meituan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/977371?v=4"
-    }
-  },
-  {
     "name": "4Sitam4/Romifleur",
     "url": "https://github.com/4Sitam4/Romifleur",
     "description": null,
@@ -1975,22 +1996,6 @@
     "owner": {
       "name": "filliptm",
       "avatar_url": "https://avatars.githubusercontent.com/u/55672949?v=4"
-    }
-  },
-  {
-    "name": "naufaljct48/youtube-heatmap-clipper",
-    "url": "https://github.com/naufaljct48/youtube-heatmap-clipper",
-    "description": "Automatically find and clip the most engaging parts of YouTube videos using heatmap-based viewer interaction data.",
-    "stars": 61,
-    "forks": 11,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-09T06:45:16Z",
-    "updated_at": "2026-01-10T02:53:44Z",
-    "owner": {
-      "name": "naufaljct48",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30202760?v=4"
     }
   },
   {
@@ -2035,22 +2040,6 @@
     }
   },
   {
-    "name": "auracast-research/race-toolkit",
-    "url": "https://github.com/auracast-research/race-toolkit",
-    "description": "Communicate with Airoha-based Bluetooth devices using the RACE protocol via Bluetooth and USB.",
-    "stars": 59,
-    "forks": 5,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-22T21:56:52Z",
-    "updated_at": "2025-12-28T01:51:20Z",
-    "owner": {
-      "name": "auracast-research",
-      "avatar_url": "https://avatars.githubusercontent.com/u/192710922?v=4"
-    }
-  },
-  {
     "name": "bugswriter/dontforget",
     "url": "https://github.com/bugswriter/dontforget",
     "description": "your edentic memory",
@@ -2064,6 +2053,22 @@
     "owner": {
       "name": "bugswriter",
       "avatar_url": "https://avatars.githubusercontent.com/u/23283318?v=4"
+    }
+  },
+  {
+    "name": "WKL-Sec/slack-udc2",
+    "url": "https://github.com/WKL-Sec/slack-udc2",
+    "description": "Cobalt Strike UDC2 implementation that provides an Slack C2 channel ",
+    "stars": 56,
+    "forks": 8,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-05T20:22:10Z",
+    "updated_at": "2026-01-10T14:58:47Z",
+    "owner": {
+      "name": "WKL-Sec",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97109724?v=4"
     }
   },
   {
@@ -2108,6 +2113,22 @@
     }
   },
   {
+    "name": "mitkox/rlmgw",
+    "url": "https://github.com/mitkox/rlmgw",
+    "description": "Recursive Language Models Gateway build using rlm https://arxiv.org/abs/2512.24601v1 ",
+    "stars": 54,
+    "forks": 9,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-06T11:31:24Z",
+    "updated_at": "2026-01-10T12:14:17Z",
+    "owner": {
+      "name": "mitkox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43349905?v=4"
+    }
+  },
+  {
     "name": "github653224/ai-auto-touch",
     "url": "https://github.com/github653224/ai-auto-touch",
     "description": "一款基于 AI 大模型的 Android 设备自动化控制平台，支持自然语言指令控制、实时屏幕镜像、多设备批量管理。",
@@ -2140,6 +2161,22 @@
     }
   },
   {
+    "name": "GeneralTrajectory/dex-teleop",
+    "url": "https://github.com/GeneralTrajectory/dex-teleop",
+    "description": "VR-based Teleoperation for Dexterous Manipulation - Control xArm + Inspire Hands with Vive Trackers and Quest Hand Tracking",
+    "stars": 52,
+    "forks": 4,
+    "language": "Python",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-01-05T09:25:39Z",
+    "updated_at": "2026-01-09T05:22:16Z",
+    "owner": {
+      "name": "GeneralTrajectory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/181777859?v=4"
+    }
+  },
+  {
     "name": "rotejin/MotionPNGTuber",
     "url": "https://github.com/rotejin/MotionPNGTuber",
     "description": "PNGTuber以上Live2D未満 - 動画ループで髪揺れなど表現可能なリアルタイム口パクツール",
@@ -2153,27 +2190,6 @@
     "owner": {
       "name": "rotejin",
       "avatar_url": "https://avatars.githubusercontent.com/u/128216944?v=4"
-    }
-  },
-  {
-    "name": "zakirkun/guardian-cli",
-    "url": "https://github.com/zakirkun/guardian-cli",
-    "description": "Guardian is a production-ready AI-powered penetration testing automation CLI tool that leverages Google Gemini and LangChain to orchestrate intelligent, step-by-step penetration testing workflows while maintaining ethical hacking standards.",
-    "stars": 50,
-    "forks": 5,
-    "language": "Python",
-    "topics": [
-      "automation",
-      "gemini-ai",
-      "generative-ai",
-      "pentest-tool"
-    ],
-    "license": "Other",
-    "created_at": "2025-12-22T05:21:52Z",
-    "updated_at": "2025-12-27T20:51:11Z",
-    "owner": {
-      "name": "zakirkun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61570975?v=4"
     }
   },
   {
@@ -2430,22 +2446,6 @@
     "owner": {
       "name": "CyberSecurityUP",
       "avatar_url": "https://avatars.githubusercontent.com/u/34966120?v=4"
-    }
-  },
-  {
-    "name": "linkfy/saturn-desktop",
-    "url": "https://github.com/linkfy/saturn-desktop",
-    "description": "Animate your Windows desktop icons to orbit around a planet like Saturn's rings",
-    "stars": 29,
-    "forks": 10,
-    "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2025-12-23T09:58:05Z",
-    "updated_at": "2025-12-28T00:17:29Z",
-    "owner": {
-      "name": "linkfy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3251569?v=4"
     }
   }
 ]
