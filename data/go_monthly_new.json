@@ -3,13 +3,13 @@
     "name": "pranshuparmar/witr",
     "url": "https://github.com/pranshuparmar/witr",
     "description": "Why is this running?",
-    "stars": 10851,
+    "stars": 10917,
     "forks": 244,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-12-20T17:26:59Z",
-    "updated_at": "2026-01-14T03:36:04Z",
+    "updated_at": "2026-01-15T02:58:17Z",
     "owner": {
       "name": "pranshuparmar",
       "avatar_url": "https://avatars.githubusercontent.com/u/4262592?v=4"
@@ -64,6 +64,22 @@
     }
   },
   {
+    "name": "fengshao1227/ccg-workflow",
+    "url": "https://github.com/fengshao1227/ccg-workflow",
+    "description": "多模型协作开发工具集 - 基于 Claude Code CLI，整合 Codex/Gemini 后端能力，提供智能路由、代码审查、Git 工具等 17+ 个命令",
+    "stars": 1113,
+    "forks": 79,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-04T15:56:26Z",
+    "updated_at": "2026-01-15T03:21:08Z",
+    "owner": {
+      "name": "fengshao1227",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177014058?v=4"
+    }
+  },
+  {
     "name": "m0n0x41d/quint-code",
     "url": "https://github.com/m0n0x41d/quint-code",
     "description": "Structured reasoning framework for Claude Code, Gemini, Cursor, and Codex — hypothesis-driven decision making with auditable evidence trails",
@@ -98,64 +114,27 @@
     }
   },
   {
-    "name": "fengshao1227/ccg-workflow",
-    "url": "https://github.com/fengshao1227/ccg-workflow",
-    "description": "多模型协作开发工具集 - 基于 Claude Code CLI，整合 Codex/Gemini 后端能力，提供智能路由、代码审查、Git 工具等 17+ 个命令",
-    "stars": 996,
-    "forks": 74,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-04T15:56:26Z",
-    "updated_at": "2026-01-14T03:42:11Z",
-    "owner": {
-      "name": "fengshao1227",
-      "avatar_url": "https://avatars.githubusercontent.com/u/177014058?v=4"
-    }
-  },
-  {
     "name": "Adversis/tailsnitch",
     "url": "https://github.com/Adversis/tailsnitch",
     "description": "A security auditor for Tailscale configurations. Scans your tailnet for misconfigurations, overly permissive access controls, and security best practice violations.",
-    "stars": 946,
+    "stars": 962,
     "forks": 22,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-24T21:54:49Z",
-    "updated_at": "2026-01-14T03:18:36Z",
+    "updated_at": "2026-01-15T02:31:41Z",
     "owner": {
       "name": "Adversis",
       "avatar_url": "https://avatars.githubusercontent.com/u/48007049?v=4"
     }
   },
   {
-    "name": "dennisyang1986/opensqt_market_maker",
-    "url": "https://github.com/dennisyang1986/opensqt_market_maker",
-    "description": "OpenSQT 是一个高性能、低延迟的加密货币做市商系统，专注于永续合约市场的做多网格交易策略。系统采用 Go 语言开发，基于 WebSocket 实时数据流驱动，旨在为 Binance、Bitget、Gate.io 等主流交易所提供稳定的流动性支持。",
-    "stars": 666,
-    "forks": 282,
-    "language": "Go",
-    "topics": [
-      "crypto",
-      "crypto-bot",
-      "marketmaker",
-      "marketmakerbot"
-    ],
-    "license": "No license",
-    "created_at": "2025-12-24T11:22:01Z",
-    "updated_at": "2026-01-14T03:21:01Z",
-    "owner": {
-      "name": "dennisyang1986",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12760701?v=4"
-    }
-  },
-  {
     "name": "Wei-Shaw/sub2api",
     "url": "https://github.com/Wei-Shaw/sub2api",
     "description": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "stars": 638,
-    "forks": 145,
+    "stars": 674,
+    "forks": 152,
     "language": "Go",
     "topics": [
       "2api",
@@ -170,23 +149,44 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-18T02:26:18Z",
-    "updated_at": "2026-01-14T03:33:38Z",
+    "updated_at": "2026-01-15T03:23:22Z",
     "owner": {
       "name": "Wei-Shaw",
       "avatar_url": "https://avatars.githubusercontent.com/u/26101719?v=4"
     }
   },
   {
+    "name": "dennisyang1986/opensqt_market_maker",
+    "url": "https://github.com/dennisyang1986/opensqt_market_maker",
+    "description": "OpenSQT 是一个高性能、低延迟的加密货币做市商系统，专注于永续合约市场的做多网格交易策略。系统采用 Go 语言开发，基于 WebSocket 实时数据流驱动，旨在为 Binance、Bitget、Gate.io 等主流交易所提供稳定的流动性支持。",
+    "stars": 670,
+    "forks": 285,
+    "language": "Go",
+    "topics": [
+      "crypto",
+      "crypto-bot",
+      "marketmaker",
+      "marketmakerbot"
+    ],
+    "license": "No license",
+    "created_at": "2025-12-24T11:22:01Z",
+    "updated_at": "2026-01-14T15:48:11Z",
+    "owner": {
+      "name": "dennisyang1986",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12760701?v=4"
+    }
+  },
+  {
     "name": "shridarpatil/whatomate",
     "url": "https://github.com/shridarpatil/whatomate",
     "description": "Whatomate is an open-source WhatsApp integration",
-    "stars": 505,
-    "forks": 87,
+    "stars": 531,
+    "forks": 90,
     "language": "Go",
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2025-12-19T13:04:21Z",
-    "updated_at": "2026-01-14T03:04:58Z",
+    "updated_at": "2026-01-15T03:23:10Z",
     "owner": {
       "name": "shridarpatil",
       "avatar_url": "https://avatars.githubusercontent.com/u/11792643?v=4"
@@ -260,16 +260,32 @@
     "name": "open-experiments/agent-exchange",
     "url": "https://github.com/open-experiments/agent-exchange",
     "description": "Agent Discovery & Work Exchange Platform",
-    "stars": 339,
+    "stars": 345,
     "forks": 266,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-19T17:12:26Z",
-    "updated_at": "2026-01-13T18:55:50Z",
+    "updated_at": "2026-01-14T20:41:19Z",
     "owner": {
       "name": "open-experiments",
       "avatar_url": "https://avatars.githubusercontent.com/u/197980526?v=4"
+    }
+  },
+  {
+    "name": "finbarr/yolobox",
+    "url": "https://github.com/finbarr/yolobox",
+    "description": "Let your AI go full send. Your home directory stays home.",
+    "stars": 310,
+    "forks": 16,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-09T05:05:16Z",
+    "updated_at": "2026-01-15T03:10:27Z",
+    "owner": {
+      "name": "finbarr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/211517?v=4"
     }
   },
   {
@@ -367,45 +383,29 @@
     "name": "kubeden/clopus-watcher",
     "url": "https://github.com/kubeden/clopus-watcher",
     "description": "An autonomous 24/7 on-call engineer in the form of a Claude Code living in a cronjob.",
-    "stars": 262,
-    "forks": 38,
+    "stars": 263,
+    "forks": 40,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-25T18:47:32Z",
-    "updated_at": "2026-01-14T03:06:31Z",
+    "updated_at": "2026-01-14T14:09:48Z",
     "owner": {
       "name": "kubeden",
       "avatar_url": "https://avatars.githubusercontent.com/u/40846846?v=4"
     }
   },
   {
-    "name": "finbarr/yolobox",
-    "url": "https://github.com/finbarr/yolobox",
-    "description": "Let your AI go full send. Your home directory stays home.",
-    "stars": 258,
-    "forks": 11,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-09T05:05:16Z",
-    "updated_at": "2026-01-14T02:54:13Z",
-    "owner": {
-      "name": "finbarr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/211517?v=4"
-    }
-  },
-  {
     "name": "pipethedev/distributed-system-algorithms",
     "url": "https://github.com/pipethedev/distributed-system-algorithms",
     "description": null,
-    "stars": 254,
+    "stars": 257,
     "forks": 35,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-03T14:25:21Z",
-    "updated_at": "2026-01-13T11:18:29Z",
+    "updated_at": "2026-01-14T13:45:14Z",
     "owner": {
       "name": "pipethedev",
       "avatar_url": "https://avatars.githubusercontent.com/u/54484130?v=4"
@@ -459,6 +459,25 @@
     }
   },
   {
+    "name": "k1LoW/git-wt",
+    "url": "https://github.com/k1LoW/git-wt",
+    "description": "A Git subcommand that makes `git worktree` simple",
+    "stars": 222,
+    "forks": 10,
+    "language": "Go",
+    "topics": [
+      "git",
+      "git-worktree"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-26T00:16:09Z",
+    "updated_at": "2026-01-15T01:13:14Z",
+    "owner": {
+      "name": "k1LoW",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57114?v=4"
+    }
+  },
+  {
     "name": "paramientos/presto",
     "url": "https://github.com/paramientos/presto",
     "description": "Presto is a dependency manager for PHP and drop-in-replacement for Composer",
@@ -480,25 +499,6 @@
     "owner": {
       "name": "paramientos",
       "avatar_url": "https://avatars.githubusercontent.com/u/4548213?v=4"
-    }
-  },
-  {
-    "name": "k1LoW/git-wt",
-    "url": "https://github.com/k1LoW/git-wt",
-    "description": "A Git subcommand that makes `git worktree` simple",
-    "stars": 217,
-    "forks": 10,
-    "language": "Go",
-    "topics": [
-      "git",
-      "git-worktree"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-26T00:16:09Z",
-    "updated_at": "2026-01-14T02:39:45Z",
-    "owner": {
-      "name": "k1LoW",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57114?v=4"
     }
   },
   {
@@ -527,7 +527,7 @@
     "name": "bschaatsbergen/cek",
     "url": "https://github.com/bschaatsbergen/cek",
     "description": "Explore the (overlay) filesystem and layers of OCI container images, without running them.",
-    "stars": 208,
+    "stars": 210,
     "forks": 4,
     "language": "Go",
     "topics": [
@@ -536,7 +536,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-27T17:55:02Z",
-    "updated_at": "2026-01-13T22:43:26Z",
+    "updated_at": "2026-01-14T05:28:23Z",
     "owner": {
       "name": "bschaatsbergen",
       "avatar_url": "https://avatars.githubusercontent.com/u/58337159?v=4"
@@ -546,7 +546,7 @@
     "name": "nook24/lagident",
     "url": "https://github.com/nook24/lagident",
     "description": "Lagident pings targets and collects information about response time and packet loss. Helps you identify anomalies across your network",
-    "stars": 186,
+    "stars": 187,
     "forks": 7,
     "language": "Go",
     "topics": [
@@ -560,10 +560,63 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-21T17:37:07Z",
-    "updated_at": "2026-01-13T11:18:22Z",
+    "updated_at": "2026-01-14T07:43:04Z",
     "owner": {
       "name": "nook24",
       "avatar_url": "https://avatars.githubusercontent.com/u/9019992?v=4"
+    }
+  },
+  {
+    "name": "vflame6/leaker",
+    "url": "https://github.com/vflame6/leaker",
+    "description": "Passive leak enumeration tool.",
+    "stars": 185,
+    "forks": 20,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-25T11:43:14Z",
+    "updated_at": "2026-01-15T03:07:26Z",
+    "owner": {
+      "name": "vflame6",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80809363?v=4"
+    }
+  },
+  {
+    "name": "sardanioss/httpcloak",
+    "url": "https://github.com/sardanioss/httpcloak",
+    "description": "Go HTTP client with browser-identical TLS/HTTP2 fingerprinting. Bypass bot detection by perfectly mimicking Chrome, Firefox, and Safari at the cryptographic level (JA3/JA4, Akamai fingerprint, header order). Supports HTTP/1.1, HTTP/2, HTTP/3, sessions, cookies, and proxies.",
+    "stars": 185,
+    "forks": 10,
+    "language": "Go",
+    "topics": [
+      "anti-bot",
+      "bot-detection",
+      "browser-fingerprint",
+      "browser-fingerprinting",
+      "cloudflare",
+      "go",
+      "golang",
+      "http-client",
+      "http2",
+      "http3",
+      "ja3-fingerprint",
+      "ja4-fingerprint",
+      "js",
+      "nodejs",
+      "python",
+      "python3",
+      "quic",
+      "tls-fingerprint",
+      "tls-fingerprinting",
+      "web-scraping"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-28T22:39:27Z",
+    "updated_at": "2026-01-15T03:08:32Z",
+    "owner": {
+      "name": "sardanioss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66795395?v=4"
     }
   },
   {
@@ -615,43 +668,6 @@
     }
   },
   {
-    "name": "sardanioss/httpcloak",
-    "url": "https://github.com/sardanioss/httpcloak",
-    "description": "Go HTTP client with browser-identical TLS/HTTP2 fingerprinting. Bypass bot detection by perfectly mimicking Chrome, Firefox, and Safari at the cryptographic level (JA3/JA4, Akamai fingerprint, header order). Supports HTTP/1.1, HTTP/2, HTTP/3, sessions, cookies, and proxies.",
-    "stars": 161,
-    "forks": 8,
-    "language": "Go",
-    "topics": [
-      "anti-bot",
-      "bot-detection",
-      "browser-fingerprint",
-      "browser-fingerprinting",
-      "cloudflare",
-      "go",
-      "golang",
-      "http-client",
-      "http2",
-      "http3",
-      "ja3-fingerprint",
-      "ja4-fingerprint",
-      "js",
-      "nodejs",
-      "python",
-      "python3",
-      "quic",
-      "tls-fingerprint",
-      "tls-fingerprinting",
-      "web-scraping"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-28T22:39:27Z",
-    "updated_at": "2026-01-14T02:56:45Z",
-    "owner": {
-      "name": "sardanioss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/66795395?v=4"
-    }
-  },
-  {
     "name": "aqstack/mimir",
     "url": "https://github.com/aqstack/mimir",
     "description": "mimir is a drop-in proxy that caches LLM API responses using semantic similarity, reducing costs and latency for repeated or similar queries.",
@@ -680,13 +696,13 @@
     "name": "wesm/roborev",
     "url": "https://github.com/wesm/roborev",
     "description": "Background agent to review your git commits autonomously with CLI agents while you work, with CLI and TUI support",
-    "stars": 157,
+    "stars": 158,
     "forks": 15,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-05T19:28:46Z",
-    "updated_at": "2026-01-13T16:23:03Z",
+    "updated_at": "2026-01-14T15:01:43Z",
     "owner": {
       "name": "wesm",
       "avatar_url": "https://avatars.githubusercontent.com/u/329591?v=4"
@@ -723,13 +739,13 @@
     "name": "JakeNesler/Claude_Prophet",
     "url": "https://github.com/JakeNesler/Claude_Prophet",
     "description": null,
-    "stars": 152,
+    "stars": 153,
     "forks": 51,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-20T23:53:00Z",
-    "updated_at": "2026-01-13T20:07:38Z",
+    "updated_at": "2026-01-14T17:47:28Z",
     "owner": {
       "name": "JakeNesler",
       "avatar_url": "https://avatars.githubusercontent.com/u/62406670?v=4"
@@ -739,7 +755,7 @@
     "name": "FootprintAI/Containarium",
     "url": "https://github.com/FootprintAI/Containarium",
     "description": "Hundred of containers living together with LXC container for saving resources and make the configuration easier",
-    "stars": 147,
+    "stars": 152,
     "forks": 8,
     "language": "Go",
     "topics": [
@@ -752,33 +768,17 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2025-12-28T23:58:47Z",
-    "updated_at": "2026-01-14T03:00:16Z",
+    "updated_at": "2026-01-15T02:43:26Z",
     "owner": {
       "name": "FootprintAI",
       "avatar_url": "https://avatars.githubusercontent.com/u/63830888?v=4"
     }
   },
   {
-    "name": "vflame6/leaker",
-    "url": "https://github.com/vflame6/leaker",
-    "description": "Passive leak enumeration tool.",
-    "stars": 146,
-    "forks": 15,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-25T11:43:14Z",
-    "updated_at": "2026-01-14T03:24:51Z",
-    "owner": {
-      "name": "vflame6",
-      "avatar_url": "https://avatars.githubusercontent.com/u/80809363?v=4"
-    }
-  },
-  {
     "name": "tobilg/ai-observer",
     "url": "https://github.com/tobilg/ai-observer",
     "description": "Unified local observability for AI coding assistants",
-    "stars": 145,
+    "stars": 146,
     "forks": 9,
     "language": "Go",
     "topics": [
@@ -792,7 +792,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-23T13:13:06Z",
-    "updated_at": "2026-01-13T20:34:28Z",
+    "updated_at": "2026-01-14T20:38:18Z",
     "owner": {
       "name": "tobilg",
       "avatar_url": "https://avatars.githubusercontent.com/u/1841985?v=4"
@@ -822,7 +822,7 @@
     "name": "2ykwang/mac-cleanup-go",
     "url": "https://github.com/2ykwang/mac-cleanup-go",
     "description": "TUI macOS cleaner that scans caches/logs, shows sizes/paths, lets you select what to delete before Trash.",
-    "stars": 141,
+    "stars": 143,
     "forks": 6,
     "language": "Go",
     "topics": [
@@ -838,7 +838,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-01T14:34:49Z",
-    "updated_at": "2026-01-14T01:23:57Z",
+    "updated_at": "2026-01-14T21:07:04Z",
     "owner": {
       "name": "2ykwang",
       "avatar_url": "https://avatars.githubusercontent.com/u/6832790?v=4"
@@ -890,6 +890,22 @@
     }
   },
   {
+    "name": "yoanbernabeu/grepai",
+    "url": "https://github.com/yoanbernabeu/grepai",
+    "description": "grep on steroids: semantic code search powered by AI embeddings. Search your codebase by meaning, not just keywords.",
+    "stars": 130,
+    "forks": 8,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-09T13:01:33Z",
+    "updated_at": "2026-01-15T01:45:54Z",
+    "owner": {
+      "name": "yoanbernabeu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59195351?v=4"
+    }
+  },
+  {
     "name": "roseforljh/KunBox",
     "url": "https://github.com/roseforljh/KunBox",
     "description": null,
@@ -922,6 +938,22 @@
     }
   },
   {
+    "name": "Leo-Mu/montecarlo-ip-searcher",
+    "url": "https://github.com/Leo-Mu/montecarlo-ip-searcher",
+    "description": "蒙特卡罗搜索+多头注意力，告别全段扫描的快速优选工具",
+    "stars": 127,
+    "forks": 31,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-12-22T10:02:15Z",
+    "updated_at": "2026-01-14T07:55:02Z",
+    "owner": {
+      "name": "Leo-Mu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21038421?v=4"
+    }
+  },
+  {
     "name": "ikwerre-dev/EmojiDB",
     "url": "https://github.com/ikwerre-dev/EmojiDB",
     "description": "Database, but encrypted using emojis",
@@ -938,19 +970,66 @@
     }
   },
   {
-    "name": "Leo-Mu/montecarlo-ip-searcher",
-    "url": "https://github.com/Leo-Mu/montecarlo-ip-searcher",
-    "description": "蒙特卡罗搜索+多头注意力，告别全段扫描的快速优选工具",
-    "stars": 126,
+    "name": "tangxiaofeng7/cscan",
+    "url": "https://github.com/tangxiaofeng7/cscan",
+    "description": "Enterprise distributed network asset scanning platform with port scanning, subdomain enumeration, fingerprinting, and vulnerability detection. Built with Go-Zero + Vue3.(端口扫描/子域名枚举/指纹识别/漏洞检测)",
+    "stars": 125,
+    "forks": 23,
+    "language": "Go",
+    "topics": [
+      "dnsx",
+      "fofa",
+      "httpx",
+      "hunter",
+      "masscan",
+      "nabbu",
+      "namp",
+      "nuclei",
+      "quake",
+      "scan",
+      "security",
+      "subfinder",
+      "urlfinder",
+      "wappalyzer"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-20T13:44:00Z",
+    "updated_at": "2026-01-15T03:03:20Z",
+    "owner": {
+      "name": "tangxiaofeng7",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45926593?v=4"
+    }
+  },
+  {
+    "name": "coffinxp/crtmon",
+    "url": "https://github.com/coffinxp/crtmon",
+    "description": "Monitor your targets and hunt fresh assets in real time.",
+    "stars": 124,
     "forks": 31,
     "language": "Go",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-12-22T10:02:15Z",
-    "updated_at": "2026-01-13T15:26:03Z",
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "created_at": "2025-12-27T12:52:30Z",
+    "updated_at": "2026-01-14T16:03:25Z",
     "owner": {
-      "name": "Leo-Mu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/21038421?v=4"
+      "name": "coffinxp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177080559?v=4"
+    }
+  },
+  {
+    "name": "0xAstroAlpha/cliProxyAPI-Dashboard",
+    "url": "https://github.com/0xAstroAlpha/cliProxyAPI-Dashboard",
+    "description": "cliProxyAPI-Dashboard",
+    "stars": 122,
+    "forks": 49,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2025-12-26T01:14:02Z",
+    "updated_at": "2026-01-15T02:45:21Z",
+    "owner": {
+      "name": "0xAstroAlpha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/228642096?v=4"
     }
   },
   {
@@ -980,22 +1059,6 @@
     }
   },
   {
-    "name": "coffinxp/crtmon",
-    "url": "https://github.com/coffinxp/crtmon",
-    "description": "Monitor your targets and hunt fresh assets in real time.",
-    "stars": 118,
-    "forks": 31,
-    "language": "Go",
-    "topics": [],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2025-12-27T12:52:30Z",
-    "updated_at": "2026-01-12T15:43:27Z",
-    "owner": {
-      "name": "coffinxp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/177080559?v=4"
-    }
-  },
-  {
     "name": "opsre/ZenOps",
     "url": "https://github.com/opsre/ZenOps",
     "description": "🧘 通过钉钉、飞书、企微智能机器人用自然语言查询运维资源的工具。",
@@ -1019,22 +1082,6 @@
     "owner": {
       "name": "opsre",
       "avatar_url": "https://avatars.githubusercontent.com/u/188568020?v=4"
-    }
-  },
-  {
-    "name": "tangxiaofeng7/cscan",
-    "url": "https://github.com/tangxiaofeng7/cscan",
-    "description": "企业级分布式网络资产扫描平台",
-    "stars": 111,
-    "forks": 22,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-20T13:44:00Z",
-    "updated_at": "2026-01-12T01:28:59Z",
-    "owner": {
-      "name": "tangxiaofeng7",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45926593?v=4"
     }
   }
 ]
