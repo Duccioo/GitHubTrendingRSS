@@ -3,13 +3,13 @@
     "name": "deepseek-ai/Engram",
     "url": "https://github.com/deepseek-ai/Engram",
     "description": "Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models",
-    "stars": 2256,
-    "forks": 116,
+    "stars": 2506,
+    "forks": 138,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-01-12T05:26:50Z",
-    "updated_at": "2026-01-15T03:26:09Z",
+    "updated_at": "2026-01-16T03:26:04Z",
     "owner": {
       "name": "deepseek-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/148330874?v=4"
@@ -19,8 +19,8 @@
     "name": "ZhuLinsen/daily_stock_analysis",
     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
     "description": "LLM驱动的 A 股智能分析器，多数据源行情 + 实时新闻 + Gemini 决策仪表盘 + 多渠道推送，零成本，纯白嫖，定时运行",
-    "stars": 1503,
-    "forks": 1224,
+    "stars": 2001,
+    "forks": 1788,
     "language": "Python",
     "topics": [
       "agent",
@@ -35,7 +35,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-10T06:43:20Z",
-    "updated_at": "2026-01-15T03:25:21Z",
+    "updated_at": "2026-01-16T03:25:38Z",
     "owner": {
       "name": "ZhuLinsen",
       "avatar_url": "https://avatars.githubusercontent.com/u/42829555?v=4"
@@ -107,13 +107,13 @@
     "name": "1rgs/nanocode",
     "url": "https://github.com/1rgs/nanocode",
     "description": "Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lines.",
-    "stars": 1078,
-    "forks": 84,
+    "stars": 1244,
+    "forks": 99,
     "language": "Python",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-11T02:12:27Z",
-    "updated_at": "2026-01-15T03:25:52Z",
+    "updated_at": "2026-01-16T03:19:49Z",
     "owner": {
       "name": "1rgs",
       "avatar_url": "https://avatars.githubusercontent.com/u/20087438?v=4"
@@ -149,6 +149,22 @@
     "owner": {
       "name": "CloudAI-X",
       "avatar_url": "https://avatars.githubusercontent.com/u/252792870?v=4"
+    }
+  },
+  {
+    "name": "trailofbits/skills",
+    "url": "https://github.com/trailofbits/skills",
+    "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
+    "stars": 897,
+    "forks": 65,
+    "language": "Python",
+    "topics": [],
+    "license": "Creative Commons Attribution Share Alike 4.0 International",
+    "created_at": "2026-01-14T18:23:21Z",
+    "updated_at": "2026-01-16T03:26:47Z",
+    "owner": {
+      "name": "trailofbits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2314423?v=4"
     }
   },
   {
@@ -286,22 +302,6 @@
     }
   },
   {
-    "name": "davidfowl/tally",
-    "url": "https://github.com/davidfowl/tally",
-    "description": "Let agents classify your bank transactions.",
-    "stars": 487,
-    "forks": 38,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-26T18:43:19Z",
-    "updated_at": "2026-01-01T03:28:12Z",
-    "owner": {
-      "name": "davidfowl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95136?v=4"
-    }
-  },
-  {
     "name": "parcadei/llm-tldr",
     "url": "https://github.com/parcadei/llm-tldr",
     "description": "95% token savings. 155x faster queries. 16 languages.  LLMs can't read your entire codebase. TLDR extracts structure, traces dependencies, and gives them exactly what they need.",
@@ -380,6 +380,30 @@
     }
   },
   {
+    "name": "zscole/adversarial-spec",
+    "url": "https://github.com/zscole/adversarial-spec",
+    "description": "A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.",
+    "stars": 408,
+    "forks": 38,
+    "language": "Python",
+    "topics": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "llm",
+      "orchestration"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-11T04:24:30Z",
+    "updated_at": "2026-01-16T01:12:57Z",
+    "owner": {
+      "name": "zscole",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20308948?v=4"
+    }
+  },
+  {
     "name": "huangserva/skill-prompt-generator",
     "url": "https://github.com/huangserva/skill-prompt-generator",
     "description": "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制",
@@ -396,40 +420,16 @@
     }
   },
   {
-    "name": "zscole/adversarial-spec",
-    "url": "https://github.com/zscole/adversarial-spec",
-    "description": "A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.",
-    "stars": 394,
-    "forks": 38,
-    "language": "Python",
-    "topics": [
-      "anthropic",
-      "claude-ai",
-      "claude-code",
-      "claude-code-plugin",
-      "claude-skills",
-      "llm",
-      "orchestration"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-11T04:24:30Z",
-    "updated_at": "2026-01-15T01:13:03Z",
-    "owner": {
-      "name": "zscole",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20308948?v=4"
-    }
-  },
-  {
     "name": "Spirit-AI-Team/spirit-v1.5",
     "url": "https://github.com/Spirit-AI-Team/spirit-v1.5",
     "description": "Spirit-v1.5: A Robotic Foundation Model by Spirit AI",
-    "stars": 388,
+    "stars": 402,
     "forks": 15,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-11T10:21:54Z",
-    "updated_at": "2026-01-15T03:01:30Z",
+    "updated_at": "2026-01-16T03:25:47Z",
     "owner": {
       "name": "Spirit-AI-Team",
       "avatar_url": "https://avatars.githubusercontent.com/u/171234508?v=4"
@@ -452,6 +452,31 @@
     }
   },
   {
+    "name": "terauss/Polymarket-trading-bot-15min-BTC",
+    "url": "https://github.com/terauss/Polymarket-trading-bot-15min-BTC",
+    "description": "15min BTC Arbitrage bot on polymarket, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket arbitrage bot",
+    "stars": 350,
+    "forks": 310,
+    "language": "Python",
+    "topics": [
+      "15min-btc-arbitrage-bot",
+      "polymarket-arbitrage",
+      "polymarket-arbitrage-bot",
+      "polymarket-arbitragebot",
+      "polymarket-bot",
+      "polymarket-trading-bot",
+      "polymarket-tradingbot",
+      "trading-bot"
+    ],
+    "license": "No license",
+    "created_at": "2026-01-11T22:16:57Z",
+    "updated_at": "2026-01-16T03:25:10Z",
+    "owner": {
+      "name": "terauss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7345924?v=4"
+    }
+  },
+  {
     "name": "naklecha/simple-llm",
     "url": "https://github.com/naklecha/simple-llm",
     "description": "~950 line, minimal, extensible LLM inference engine built from scratch.",
@@ -465,6 +490,22 @@
     "owner": {
       "name": "naklecha",
       "avatar_url": "https://avatars.githubusercontent.com/u/31594715?v=4"
+    }
+  },
+  {
+    "name": "kingbootoshi/cartographer",
+    "url": "https://github.com/kingbootoshi/cartographer",
+    "description": "Claude Code plugin that maps and documents codebases of any size using parallel AI subagents",
+    "stars": 329,
+    "forks": 20,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-13T21:47:27Z",
+    "updated_at": "2026-01-16T03:15:57Z",
+    "owner": {
+      "name": "kingbootoshi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127834715?v=4"
     }
   },
   {
@@ -539,31 +580,6 @@
     }
   },
   {
-    "name": "terauss/Polymarket-trading-bot-15min-BTC",
-    "url": "https://github.com/terauss/Polymarket-trading-bot-15min-BTC",
-    "description": "15min BTC Arbitrage bot on polymarket, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket arbitrage bot",
-    "stars": 289,
-    "forks": 268,
-    "language": "Python",
-    "topics": [
-      "15min-btc-arbitrage-bot",
-      "polymarket-arbitrage",
-      "polymarket-arbitrage-bot",
-      "polymarket-arbitragebot",
-      "polymarket-bot",
-      "polymarket-trading-bot",
-      "polymarket-tradingbot",
-      "trading-bot"
-    ],
-    "license": "No license",
-    "created_at": "2026-01-11T22:16:57Z",
-    "updated_at": "2026-01-15T03:05:23Z",
-    "owner": {
-      "name": "terauss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7345924?v=4"
-    }
-  },
-  {
     "name": "humanplane/cross-market-state-fusion",
     "url": "https://github.com/humanplane/cross-market-state-fusion",
     "description": "RL agent fusing real-time Binance futures data into Polymarket prediction markets. On-device training with MLX on Apple Silicon.",
@@ -602,19 +618,46 @@
     }
   },
   {
-    "name": "garagesteve1155/PowerTrader_AI",
-    "url": "https://github.com/garagesteve1155/PowerTrader_AI",
-    "description": "Fully automated crypto trading powered by a custom price prediction AI and a structured/tiered DCA system.",
-    "stars": 267,
-    "forks": 116,
+    "name": "ysharma3501/NovaSR",
+    "url": "https://github.com/ysharma3501/NovaSR",
+    "description": "A lightning fast audio upsampler.",
+    "stars": 281,
+    "forks": 20,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2025-12-27T15:27:54Z",
-    "updated_at": "2026-01-02T02:24:38Z",
+    "created_at": "2026-01-12T23:54:41Z",
+    "updated_at": "2026-01-16T03:23:06Z",
     "owner": {
-      "name": "garagesteve1155",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63130426?v=4"
+      "name": "ysharma3501",
+      "avatar_url": "https://avatars.githubusercontent.com/u/244096243?v=4"
+    }
+  },
+  {
+    "name": "runesatsdev/polymarket-arbitrage-bot",
+    "url": "https://github.com/runesatsdev/polymarket-arbitrage-bot",
+    "description": "Polymarket-Arbitrage-Bot: Automated Python bot detecting real-time arbitrage opportunities in Polymarket prediction markets. Monitors markets, analyzes prices, calculates probabilities.",
+    "stars": 279,
+    "forks": 263,
+    "language": "Python",
+    "topics": [
+      "arbitrage",
+      "automated-trading-strategies",
+      "clob-client",
+      "ctf-exchange",
+      "defi",
+      "market-analysis",
+      "polymarket",
+      "polymarket-api",
+      "prediction-markets",
+      "python"
+    ],
+    "license": "No license",
+    "created_at": "2026-01-12T17:21:31Z",
+    "updated_at": "2026-01-16T03:26:41Z",
+    "owner": {
+      "name": "runesatsdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/125123579?v=4"
     }
   },
   {
@@ -634,38 +677,6 @@
     }
   },
   {
-    "name": "trailofbits/skills",
-    "url": "https://github.com/trailofbits/skills",
-    "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
-    "stars": 258,
-    "forks": 14,
-    "language": "Python",
-    "topics": [],
-    "license": "Creative Commons Attribution Share Alike 4.0 International",
-    "created_at": "2026-01-14T18:23:21Z",
-    "updated_at": "2026-01-15T03:24:55Z",
-    "owner": {
-      "name": "trailofbits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2314423?v=4"
-    }
-  },
-  {
-    "name": "kingbootoshi/cartographer",
-    "url": "https://github.com/kingbootoshi/cartographer",
-    "description": "Claude Code plugin that maps and documents codebases of any size using parallel AI subagents",
-    "stars": 254,
-    "forks": 17,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-13T21:47:27Z",
-    "updated_at": "2026-01-15T03:26:44Z",
-    "owner": {
-      "name": "kingbootoshi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/127834715?v=4"
-    }
-  },
-  {
     "name": "saidsurucu/borsapy",
     "url": "https://github.com/saidsurucu/borsapy",
     "description": "Python library for Turkish financial markets - BIST stocks, forex, crypto, funds, inflation",
@@ -679,6 +690,38 @@
     "owner": {
       "name": "saidsurucu",
       "avatar_url": "https://avatars.githubusercontent.com/u/148570570?v=4"
+    }
+  },
+  {
+    "name": "project-instinct/InstinctLab",
+    "url": "https://github.com/project-instinct/InstinctLab",
+    "description": null,
+    "stars": 248,
+    "forks": 26,
+    "language": "Python",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-01-12T02:23:21Z",
+    "updated_at": "2026-01-16T03:00:08Z",
+    "owner": {
+      "name": "project-instinct",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195434864?v=4"
+    }
+  },
+  {
+    "name": "cosinusalpha/webctl",
+    "url": "https://github.com/cosinusalpha/webctl",
+    "description": "Browser automation via CLI — for humans and agents",
+    "stars": 242,
+    "forks": 6,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-13T10:43:40Z",
+    "updated_at": "2026-01-16T03:21:31Z",
+    "owner": {
+      "name": "cosinusalpha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42695699?v=4"
     }
   },
   {
@@ -704,62 +747,19 @@
     }
   },
   {
-    "name": "ysharma3501/NovaSR",
-    "url": "https://github.com/ysharma3501/NovaSR",
-    "description": "A lightning fast audio upsampler.",
-    "stars": 236,
-    "forks": 14,
+    "name": "sickn33/antigravity-awesome-skills",
+    "url": "https://github.com/sickn33/antigravity-awesome-skills",
+    "description": "The ultimate collection of 58+ Agentic Skills for Claude Code (Antigravity), curated from the best community sources.",
+    "stars": 220,
+    "forks": 34,
     "language": "Python",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-12T23:54:41Z",
-    "updated_at": "2026-01-15T03:04:01Z",
+    "license": "MIT License",
+    "created_at": "2026-01-14T17:48:09Z",
+    "updated_at": "2026-01-16T03:22:43Z",
     "owner": {
-      "name": "ysharma3501",
-      "avatar_url": "https://avatars.githubusercontent.com/u/244096243?v=4"
-    }
-  },
-  {
-    "name": "project-instinct/InstinctLab",
-    "url": "https://github.com/project-instinct/InstinctLab",
-    "description": null,
-    "stars": 229,
-    "forks": 24,
-    "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-01-12T02:23:21Z",
-    "updated_at": "2026-01-15T03:26:18Z",
-    "owner": {
-      "name": "project-instinct",
-      "avatar_url": "https://avatars.githubusercontent.com/u/195434864?v=4"
-    }
-  },
-  {
-    "name": "runesatsdev/polymarket-arbitrage-bot",
-    "url": "https://github.com/runesatsdev/polymarket-arbitrage-bot",
-    "description": "Polymarket-Arbitrage-Bot: Automated Python bot detecting real-time arbitrage opportunities in Polymarket prediction markets. Monitors markets, analyzes prices, calculates probabilities.",
-    "stars": 224,
-    "forks": 210,
-    "language": "Python",
-    "topics": [
-      "arbitrage",
-      "automated-trading-strategies",
-      "clob-client",
-      "ctf-exchange",
-      "defi",
-      "market-analysis",
-      "polymarket",
-      "polymarket-api",
-      "prediction-markets",
-      "python"
-    ],
-    "license": "No license",
-    "created_at": "2026-01-12T17:21:31Z",
-    "updated_at": "2026-01-15T03:07:09Z",
-    "owner": {
-      "name": "runesatsdev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/125123579?v=4"
+      "name": "sickn33",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184072420?v=4"
     }
   },
   {
@@ -837,22 +837,6 @@
     "owner": {
       "name": "disler",
       "avatar_url": "https://avatars.githubusercontent.com/u/7570811?v=4"
-    }
-  },
-  {
-    "name": "iamzhihuix/happy-claude-skills",
-    "url": "https://github.com/iamzhihuix/happy-claude-skills",
-    "description": null,
-    "stars": 199,
-    "forks": 15,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-27T02:40:43Z",
-    "updated_at": "2026-01-02T02:14:40Z",
-    "owner": {
-      "name": "iamzhihuix",
-      "avatar_url": "https://avatars.githubusercontent.com/u/188819461?v=4"
     }
   },
   {
@@ -1036,6 +1020,22 @@
     }
   },
   {
+    "name": "kristelTech/Doomscrolling_Blocker",
+    "url": "https://github.com/kristelTech/Doomscrolling_Blocker",
+    "description": null,
+    "stars": 163,
+    "forks": 17,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-11T20:44:15Z",
+    "updated_at": "2026-01-15T23:35:48Z",
+    "owner": {
+      "name": "kristelTech",
+      "avatar_url": "https://avatars.githubusercontent.com/u/180558248?v=4"
+    }
+  },
+  {
     "name": "Alanma23/tinytinyTPU-co",
     "url": "https://github.com/Alanma23/tinytinyTPU-co",
     "description": null,
@@ -1052,35 +1052,19 @@
     }
   },
   {
-    "name": "kristelTech/Doomscrolling_Blocker",
-    "url": "https://github.com/kristelTech/Doomscrolling_Blocker",
-    "description": null,
-    "stars": 140,
-    "forks": 15,
+    "name": "AIGeeksGroup/AnyDepth",
+    "url": "https://github.com/AIGeeksGroup/AnyDepth",
+    "description": "AnyDepth: Depth Estimation Made Easy",
+    "stars": 139,
+    "forks": 7,
     "language": "Python",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-01-11T20:44:15Z",
-    "updated_at": "2026-01-15T02:54:27Z",
+    "created_at": "2026-01-10T09:53:04Z",
+    "updated_at": "2026-01-16T01:52:05Z",
     "owner": {
-      "name": "kristelTech",
-      "avatar_url": "https://avatars.githubusercontent.com/u/180558248?v=4"
-    }
-  },
-  {
-    "name": "tsale/awesome-dfir-skills",
-    "url": "https://github.com/tsale/awesome-dfir-skills",
-    "description": "A curated collection of DFIR skills and workflows for InfoSec practitioners.",
-    "stars": 138,
-    "forks": 11,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-12-27T04:51:50Z",
-    "updated_at": "2026-01-02T02:28:23Z",
-    "owner": {
-      "name": "tsale",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25332397?v=4"
+      "name": "AIGeeksGroup",
+      "avatar_url": "https://avatars.githubusercontent.com/u/164838097?v=4"
     }
   },
   {
@@ -1124,13 +1108,13 @@
     "name": "discountry/ai-trading-team",
     "url": "https://github.com/discountry/ai-trading-team",
     "description": null,
-    "stars": 129,
+    "stars": 132,
     "forks": 48,
     "language": "Python",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-10T15:36:28Z",
-    "updated_at": "2026-01-15T03:05:02Z",
+    "updated_at": "2026-01-15T19:18:04Z",
     "owner": {
       "name": "discountry",
       "avatar_url": "https://avatars.githubusercontent.com/u/4507101?v=4"
@@ -1169,6 +1153,46 @@
     }
   },
   {
+    "name": "xuzeyu91/WebCode",
+    "url": "https://github.com/xuzeyu91/WebCode",
+    "description": "WebCode is a browser-based AI coding platform that lets you remotely run and control CLI coding assistants like Claude Code and Codex. Code from anywhere—subway, café, or couch—with just a web browser.",
+    "stars": 128,
+    "forks": 13,
+    "language": "Python",
+    "topics": [
+      "aicoding",
+      "blazor",
+      "claude-code",
+      "codex",
+      "dotnet-core",
+      "vibecoding",
+      "webcode"
+    ],
+    "license": "Other",
+    "created_at": "2026-01-14T07:58:06Z",
+    "updated_at": "2026-01-16T03:03:33Z",
+    "owner": {
+      "name": "xuzeyu91",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26290929?v=4"
+    }
+  },
+  {
+    "name": "UniPat-AI/BabyVision",
+    "url": "https://github.com/UniPat-AI/BabyVision",
+    "description": "We introduce BabyVision, a benchmark revealing the infancy of AI vision. ",
+    "stars": 127,
+    "forks": 4,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-10T17:35:49Z",
+    "updated_at": "2026-01-16T01:15:04Z",
+    "owner": {
+      "name": "UniPat-AI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/242818301?v=4"
+    }
+  },
+  {
     "name": "OpenBMB/AgentCPM",
     "url": "https://github.com/OpenBMB/AgentCPM",
     "description": "An End-to-End Infrastructure for Training and Evaluating Various LLM Agents",
@@ -1182,22 +1206,6 @@
     "owner": {
       "name": "OpenBMB",
       "avatar_url": "https://avatars.githubusercontent.com/u/89920203?v=4"
-    }
-  },
-  {
-    "name": "AIGeeksGroup/AnyDepth",
-    "url": "https://github.com/AIGeeksGroup/AnyDepth",
-    "description": "AnyDepth: Depth Estimation Made Easy",
-    "stars": 125,
-    "forks": 6,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-10T09:53:04Z",
-    "updated_at": "2026-01-15T02:44:41Z",
-    "owner": {
-      "name": "AIGeeksGroup",
-      "avatar_url": "https://avatars.githubusercontent.com/u/164838097?v=4"
     }
   },
   {
@@ -1259,22 +1267,6 @@
     }
   },
   {
-    "name": "UniPat-AI/BabyVision",
-    "url": "https://github.com/UniPat-AI/BabyVision",
-    "description": "We introduce BabyVision, a benchmark revealing the infancy of AI vision. ",
-    "stars": 113,
-    "forks": 3,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-10T17:35:49Z",
-    "updated_at": "2026-01-15T03:10:57Z",
-    "owner": {
-      "name": "UniPat-AI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/242818301?v=4"
-    }
-  },
-  {
     "name": "noambrown/poker_solver",
     "url": "https://github.com/noambrown/poker_solver",
     "description": "A no-limit Texas hold'em river solver using CFR variants",
@@ -1288,6 +1280,22 @@
     "owner": {
       "name": "noambrown",
       "avatar_url": "https://avatars.githubusercontent.com/u/1719838?v=4"
+    }
+  },
+  {
+    "name": "BowTiedSwan/rlm-skill",
+    "url": "https://github.com/BowTiedSwan/rlm-skill",
+    "description": null,
+    "stars": 109,
+    "forks": 9,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-12T20:08:16Z",
+    "updated_at": "2026-01-16T02:18:20Z",
+    "owner": {
+      "name": "BowTiedSwan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86532747?v=4"
     }
   },
   {
@@ -1313,19 +1321,35 @@
     }
   },
   {
-    "name": "shootthesound/comfyUI-LongLook",
-    "url": "https://github.com/shootthesound/comfyUI-LongLook",
-    "description": "A ComfyUI node pack that implements FreeLong (NeurIPS 2024) spectral blending for Wan 2.2 video generation",
+    "name": "zstmfhy/zlibrary-to-notebooklm",
+    "url": "https://github.com/zstmfhy/zlibrary-to-notebooklm",
+    "description": "一键将 Z-Library 书籍自动下载并上传到 Google NotebookLM",
     "stars": 106,
-    "forks": 12,
+    "forks": 19,
     "language": "Python",
     "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-27T21:30:23Z",
-    "updated_at": "2026-01-01T11:54:33Z",
+    "license": "MIT License",
+    "created_at": "2026-01-14T00:27:42Z",
+    "updated_at": "2026-01-16T03:22:37Z",
     "owner": {
-      "name": "shootthesound",
-      "avatar_url": "https://avatars.githubusercontent.com/u/110498357?v=4"
+      "name": "zstmfhy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42237181?v=4"
+    }
+  },
+  {
+    "name": "six2dez/burp-mcp-agents",
+    "url": "https://github.com/six2dez/burp-mcp-agents",
+    "description": "Practical setup guides and helpers to connect Burp Suite MCP Server to multiple AI backends (Codex, Gemini, Ollama, ...).",
+    "stars": 104,
+    "forks": 20,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-13T11:24:56Z",
+    "updated_at": "2026-01-16T03:26:33Z",
+    "owner": {
+      "name": "six2dez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24670991?v=4"
     }
   },
   {
@@ -1352,19 +1376,19 @@
     }
   },
   {
-    "name": "BowTiedSwan/rlm-skill",
-    "url": "https://github.com/BowTiedSwan/rlm-skill",
+    "name": "h9-tec/uloom-quran",
+    "url": "https://github.com/h9-tec/uloom-quran",
     "description": null,
     "stars": 103,
-    "forks": 9,
+    "forks": 20,
     "language": "Python",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-12T20:08:16Z",
-    "updated_at": "2026-01-14T22:42:14Z",
+    "license": "Other",
+    "created_at": "2026-01-15T09:36:35Z",
+    "updated_at": "2026-01-16T02:02:31Z",
     "owner": {
-      "name": "BowTiedSwan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/86532747?v=4"
+      "name": "h9-tec",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61054142?v=4"
     }
   },
   {
@@ -1420,6 +1444,22 @@
     }
   },
   {
+    "name": "wecode-ai/Wegent",
+    "url": "https://github.com/wecode-ai/Wegent",
+    "description": "An open-source AI-native operating system to define, organize, and run intelligent agent teams",
+    "stars": 101,
+    "forks": 13,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-10T15:42:57Z",
+    "updated_at": "2026-01-16T03:11:41Z",
+    "owner": {
+      "name": "wecode-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/214628658?v=4"
+    }
+  },
+  {
     "name": "lxfater/nano-image-generator-skill",
     "url": "https://github.com/lxfater/nano-image-generator-skill",
     "description": null,
@@ -1433,6 +1473,22 @@
     "owner": {
       "name": "lxfater",
       "avatar_url": "https://avatars.githubusercontent.com/u/22794120?v=4"
+    }
+  },
+  {
+    "name": "xieyan110/Novel2Comic",
+    "url": "https://github.com/xieyan110/Novel2Comic",
+    "description": null,
+    "stars": 100,
+    "forks": 22,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-14T01:26:31Z",
+    "updated_at": "2026-01-16T02:55:52Z",
+    "owner": {
+      "name": "xieyan110",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24507450?v=4"
     }
   },
   {
@@ -1479,6 +1535,45 @@
     }
   },
   {
+    "name": "chrisdiana/TinyCity",
+    "url": "https://github.com/chrisdiana/TinyCity",
+    "description": "TinyCity is a city simulation game inspired by SimCity for MicroPython",
+    "stars": 98,
+    "forks": 2,
+    "language": "Python",
+    "topics": [
+      "city-builder",
+      "micropython",
+      "python",
+      "simcity",
+      "simulation",
+      "strategy-game"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-01-15T04:28:16Z",
+    "updated_at": "2026-01-16T03:13:52Z",
+    "owner": {
+      "name": "chrisdiana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4675420?v=4"
+    }
+  },
+  {
+    "name": "7836246/aws-builder-id",
+    "url": "https://github.com/7836246/aws-builder-id",
+    "description": "自动化注册 AWS Builder ID 账号的工具，支持多地区环境模拟、浏览器指纹随机化和代理集成。",
+    "stars": 98,
+    "forks": 68,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-13T01:15:43Z",
+    "updated_at": "2026-01-16T01:32:20Z",
+    "owner": {
+      "name": "7836246",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65436665?v=4"
+    }
+  },
+  {
     "name": "k2-fsa/Flow2GAN",
     "url": "https://github.com/k2-fsa/Flow2GAN",
     "description": "Hybrid Flow Matching and GAN with Multi-Resolution Network for Few-Step High-Fidelity Audio Generation",
@@ -1508,6 +1603,22 @@
     "owner": {
       "name": "jtydhr88",
       "avatar_url": "https://avatars.githubusercontent.com/u/860985?v=4"
+    }
+  },
+  {
+    "name": "linlee996/gemini-business",
+    "url": "https://github.com/linlee996/gemini-business",
+    "description": "集成了 google business 批量注册、Token 刷新、2API 的服务",
+    "stars": 95,
+    "forks": 69,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-14T10:03:06Z",
+    "updated_at": "2026-01-16T03:17:55Z",
+    "owner": {
+      "name": "linlee996",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128984922?v=4"
     }
   },
   {
@@ -1543,6 +1654,22 @@
     }
   },
   {
+    "name": "mohammed840/RLM-implementation",
+    "url": "https://github.com/mohammed840/RLM-implementation",
+    "description": "RVAA: Recursive Vision-Action Agent for Long Video Understanding. Implementation of the RLM paradigm (Zhang, Kraska, Khattab 2025)",
+    "stars": 93,
+    "forks": 13,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-12T00:23:13Z",
+    "updated_at": "2026-01-16T01:44:20Z",
+    "owner": {
+      "name": "mohammed840",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71986409?v=4"
+    }
+  },
+  {
     "name": "pipecat-ai/nemotron-january-2026",
     "url": "https://github.com/pipecat-ai/nemotron-january-2026",
     "description": null,
@@ -1559,35 +1686,22 @@
     }
   },
   {
-    "name": "cosinusalpha/webctl",
-    "url": "https://github.com/cosinusalpha/webctl",
-    "description": "Browser automation via CLI — for humans and agents",
-    "stars": 92,
-    "forks": 4,
+    "name": "ekwek1/soprano-factory",
+    "url": "https://github.com/ekwek1/soprano-factory",
+    "description": "Soprano-Factory: Train your own 2000x realtime text-to-speech model",
+    "stars": 91,
+    "forks": 19,
     "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-13T10:43:40Z",
-    "updated_at": "2026-01-15T03:27:26Z",
+    "topics": [
+      "text-to-speech",
+      "tts"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-13T15:44:14Z",
+    "updated_at": "2026-01-15T23:51:49Z",
     "owner": {
-      "name": "cosinusalpha",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42695699?v=4"
-    }
-  },
-  {
-    "name": "mohammed840/RLM-implementation",
-    "url": "https://github.com/mohammed840/RLM-implementation",
-    "description": "RVAA: Recursive Vision-Action Agent for Long Video Understanding. Implementation of the RLM paradigm (Zhang, Kraska, Khattab 2025)",
-    "stars": 92,
-    "forks": 13,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-12T00:23:13Z",
-    "updated_at": "2026-01-14T18:50:37Z",
-    "owner": {
-      "name": "mohammed840",
-      "avatar_url": "https://avatars.githubusercontent.com/u/71986409?v=4"
+      "name": "ekwek1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101159140?v=4"
     }
   },
   {
@@ -1623,54 +1737,6 @@
     }
   },
   {
-    "name": "sickn33/antigravity-awesome-skills",
-    "url": "https://github.com/sickn33/antigravity-awesome-skills",
-    "description": "The ultimate collection of 58+ Agentic Skills for Claude Code (Antigravity), curated from the best community sources.",
-    "stars": 89,
-    "forks": 13,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-14T17:48:09Z",
-    "updated_at": "2026-01-15T03:10:12Z",
-    "owner": {
-      "name": "sickn33",
-      "avatar_url": "https://avatars.githubusercontent.com/u/184072420?v=4"
-    }
-  },
-  {
-    "name": "xieyan110/Novel2Comic",
-    "url": "https://github.com/xieyan110/Novel2Comic",
-    "description": null,
-    "stars": 89,
-    "forks": 20,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-14T01:26:31Z",
-    "updated_at": "2026-01-15T03:22:33Z",
-    "owner": {
-      "name": "xieyan110",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24507450?v=4"
-    }
-  },
-  {
-    "name": "7836246/aws-builder-id",
-    "url": "https://github.com/7836246/aws-builder-id",
-    "description": "自动化注册 AWS Builder ID 账号的工具，支持多地区环境模拟、浏览器指纹随机化和代理集成。",
-    "stars": 88,
-    "forks": 61,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-13T01:15:43Z",
-    "updated_at": "2026-01-15T02:31:51Z",
-    "owner": {
-      "name": "7836246",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65436665?v=4"
-    }
-  },
-  {
     "name": "baidu-baige/LoongFlow",
     "url": "https://github.com/baidu-baige/LoongFlow",
     "description": "Evolve Agent Development Framework.",
@@ -1690,6 +1756,26 @@
     "owner": {
       "name": "baidu-baige",
       "avatar_url": "https://avatars.githubusercontent.com/u/251454410?v=4"
+    }
+  },
+  {
+    "name": "reinesana/MeowCV",
+    "url": "https://github.com/reinesana/MeowCV",
+    "description": "A openCV program that detects faces and displays Tiktok cats.",
+    "stars": 86,
+    "forks": 5,
+    "language": "Python",
+    "topics": [
+      "mediapipe",
+      "opencv",
+      "python"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-11T02:40:00Z",
+    "updated_at": "2026-01-16T00:15:55Z",
+    "owner": {
+      "name": "reinesana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153279125?v=4"
     }
   },
   {
@@ -1738,22 +1824,6 @@
     "owner": {
       "name": "discountry",
       "avatar_url": "https://avatars.githubusercontent.com/u/4507101?v=4"
-    }
-  },
-  {
-    "name": "six2dez/burp-mcp-agents",
-    "url": "https://github.com/six2dez/burp-mcp-agents",
-    "description": "Practical setup guides and helpers to connect Burp Suite MCP Server to multiple AI backends (Codex, Gemini, Ollama, ...).",
-    "stars": 81,
-    "forks": 13,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-13T11:24:56Z",
-    "updated_at": "2026-01-15T03:06:43Z",
-    "owner": {
-      "name": "six2dez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24670991?v=4"
     }
   },
   {
@@ -1815,28 +1885,6 @@
     "owner": {
       "name": "lzjever",
       "avatar_url": "https://avatars.githubusercontent.com/u/2283276?v=4"
-    }
-  },
-  {
-    "name": "xuzeyu91/WebCode",
-    "url": "https://github.com/xuzeyu91/WebCode",
-    "description": "WebCode is a browser-based AI coding platform that lets you remotely run and control CLI coding assistants like Claude Code and Codex. Code from anywhere—subway, café, or couch—with just a web browser.",
-    "stars": 79,
-    "forks": 11,
-    "language": "Python",
-    "topics": [
-      "aicoding",
-      "claude-code",
-      "codex",
-      "vibecoding",
-      "webcode"
-    ],
-    "license": "Other",
-    "created_at": "2026-01-14T07:58:06Z",
-    "updated_at": "2026-01-15T03:17:41Z",
-    "owner": {
-      "name": "xuzeyu91",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26290929?v=4"
     }
   },
   {
@@ -1989,28 +2037,6 @@
     }
   },
   {
-    "name": "lucidrains/metacontroller",
-    "url": "https://github.com/lucidrains/metacontroller",
-    "description": "Implementation of the MetaController proposed in \"Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning\"",
-    "stars": 73,
-    "forks": 6,
-    "language": "Python",
-    "topics": [
-      "artificial-intelligence",
-      "deep-learning",
-      "hierarchical-reinforcement-learning",
-      "latent-steering",
-      "modularity"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-27T04:21:30Z",
-    "updated_at": "2026-01-01T18:08:20Z",
-    "owner": {
-      "name": "lucidrains",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108653?v=4"
-    }
-  },
-  {
     "name": "jiulingyun/ecommerce-image-ai-processor",
     "url": "https://github.com/jiulingyun/ecommerce-image-ai-processor",
     "description": "一款面向电商运营的桌面软件，通过 qwen-image-edit-plus AI 模型批量处理商品图片，实现背景去除、商品合成，并添加自定义背景、边框和文字。",
@@ -2116,25 +2142,6 @@
     "owner": {
       "name": "dengo07",
       "avatar_url": "https://avatars.githubusercontent.com/u/156198368?v=4"
-    }
-  },
-  {
-    "name": "ekwek1/soprano-factory",
-    "url": "https://github.com/ekwek1/soprano-factory",
-    "description": "Soprano-Factory: Train your own 2000x realtime text-to-speech model",
-    "stars": 68,
-    "forks": 14,
-    "language": "Python",
-    "topics": [
-      "text-to-speech",
-      "tts"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-13T15:44:14Z",
-    "updated_at": "2026-01-15T02:28:00Z",
-    "owner": {
-      "name": "ekwek1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/101159140?v=4"
     }
   },
   {
