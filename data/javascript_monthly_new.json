@@ -3,16 +3,40 @@
     "name": "ChrisWiles/claude-code-showcase",
     "url": "https://github.com/ChrisWiles/claude-code-showcase",
     "description": "Comprehensive Claude Code project configuration example with hooks, skills, agents, commands, and GitHub Actions workflows",
-    "stars": 4467,
-    "forks": 384,
+    "stars": 4778,
+    "forks": 402,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-06T18:51:02Z",
-    "updated_at": "2026-01-15T03:19:57Z",
+    "updated_at": "2026-01-16T03:23:52Z",
     "owner": {
       "name": "ChrisWiles",
       "avatar_url": "https://avatars.githubusercontent.com/u/9455409?v=4"
+    }
+  },
+  {
+    "name": "jarrodwatts/claude-hud",
+    "url": "https://github.com/jarrodwatts/claude-hud",
+    "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+    "stars": 2355,
+    "forks": 102,
+    "language": "JavaScript",
+    "topics": [
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cli",
+      "plugin",
+      "statusline",
+      "typescript"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-02T01:35:07Z",
+    "updated_at": "2026-01-16T03:14:57Z",
+    "owner": {
+      "name": "jarrodwatts",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35651410?v=4"
     }
   },
   {
@@ -34,30 +58,6 @@
     "owner": {
       "name": "cporter202",
       "avatar_url": "https://avatars.githubusercontent.com/u/163957687?v=4"
-    }
-  },
-  {
-    "name": "jarrodwatts/claude-hud",
-    "url": "https://github.com/jarrodwatts/claude-hud",
-    "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
-    "stars": 2263,
-    "forks": 101,
-    "language": "JavaScript",
-    "topics": [
-      "anthropic",
-      "claude",
-      "claude-code",
-      "cli",
-      "plugin",
-      "statusline",
-      "typescript"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-02T01:35:07Z",
-    "updated_at": "2026-01-15T02:53:11Z",
-    "owner": {
-      "name": "jarrodwatts",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35651410?v=4"
     }
   },
   {
@@ -85,13 +85,13 @@
     "name": "journey-ad/gemini-watermark-remover",
     "url": "https://github.com/journey-ad/gemini-watermark-remover",
     "description": "A high-performance, 100% client-side tool for removing Gemini AI watermarks. Built with pure JavaScript, it leverages a mathematically precise Reverse Alpha Blending algorithm rather than unpredictable AI inpainting. / 基于 Javascript 的纯浏览器端 Gemini AI 图像无损去水印工具，使用数学精确的反向 Alpha 混合算法",
-    "stars": 2100,
-    "forks": 235,
+    "stars": 2128,
+    "forks": 239,
     "language": "JavaScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-19T12:06:10Z",
-    "updated_at": "2026-01-15T02:53:37Z",
+    "updated_at": "2026-01-16T03:18:35Z",
     "owner": {
       "name": "journey-ad",
       "avatar_url": "https://avatars.githubusercontent.com/u/16256221?v=4"
@@ -122,8 +122,8 @@
     "name": "datawhalechina/easy-vibe",
     "url": "https://github.com/datawhalechina/easy-vibe",
     "description": "Learn vibe coding from 0 to 1 | 实战中从零学会 AI 编程｜产品思维、前后端开发",
-    "stars": 1611,
-    "forks": 132,
+    "stars": 1643,
+    "forks": 133,
     "language": "JavaScript",
     "topics": [
       "agent",
@@ -149,7 +149,7 @@
     ],
     "license": "No license",
     "created_at": "2025-12-28T16:45:28Z",
-    "updated_at": "2026-01-15T03:26:56Z",
+    "updated_at": "2026-01-16T03:10:22Z",
     "owner": {
       "name": "datawhalechina",
       "avatar_url": "https://avatars.githubusercontent.com/u/46047812?v=4"
@@ -159,19 +159,21 @@
     "name": "badrisnarayanan/antigravity-claude-proxy",
     "url": "https://github.com/badrisnarayanan/antigravity-claude-proxy",
     "description": "Proxy that exposes Antigravity provided claude / gemini models, so we can use them in Claude Code",
-    "stars": 1581,
-    "forks": 194,
+    "stars": 1634,
+    "forks": 202,
     "language": "JavaScript",
     "topics": [
       "antigravity",
       "claude",
+      "claude-ai",
       "claude-code",
       "gemini",
-      "gemini-cli"
+      "gemini-cli",
+      "proxy"
     ],
     "license": "MIT License",
     "created_at": "2025-12-19T13:57:33Z",
-    "updated_at": "2026-01-15T03:18:40Z",
+    "updated_at": "2026-01-16T03:12:36Z",
     "owner": {
       "name": "badrisnarayanan",
       "avatar_url": "https://avatars.githubusercontent.com/u/59133612?v=4"
@@ -194,6 +196,22 @@
     }
   },
   {
+    "name": "aagentah/nw_wrld",
+    "url": "https://github.com/aagentah/nw_wrld",
+    "description": "nw_wrld is an event-driven sequencer for triggering visuals using web technologies. It enables users to scale up audiovisual compositions for prototyping, demos, exhibitions, and live performances. Users code their own visual modules, then orchestrate them using the project's native UI composer.",
+    "stars": 1390,
+    "forks": 127,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-12-31T23:38:47Z",
+    "updated_at": "2026-01-16T03:10:44Z",
+    "owner": {
+      "name": "aagentah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19705695?v=4"
+    }
+  },
+  {
     "name": "eooce/Gla-deploy",
     "url": "https://github.com/eooce/Gla-deploy",
     "description": null,
@@ -210,32 +228,16 @@
     }
   },
   {
-    "name": "aagentah/nw_wrld",
-    "url": "https://github.com/aagentah/nw_wrld",
-    "description": "nw_wrld is an event-driven sequencer for triggering visuals using web technologies. It enables users to scale up audiovisual compositions for prototyping, demos, exhibitions, and live performances. Users code their own visual modules, then orchestrate them using the project's native UI composer.",
-    "stars": 1333,
-    "forks": 124,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-12-31T23:38:47Z",
-    "updated_at": "2026-01-15T02:50:57Z",
-    "owner": {
-      "name": "aagentah",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19705695?v=4"
-    }
-  },
-  {
     "name": "PDFCraftTool/pdfcraft",
     "url": "https://github.com/PDFCraftTool/pdfcraft",
     "description": "PDFCraft is a free, privacy-focused PDF toolkit that runs entirely in your browser. With 80+ professional tools, you can edit, convert, merge, split, and secure your PDF files without ever uploading them to a server.",
-    "stars": 1076,
-    "forks": 122,
+    "stars": 1171,
+    "forks": 129,
     "language": "JavaScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-03T01:14:49Z",
-    "updated_at": "2026-01-15T03:18:24Z",
+    "updated_at": "2026-01-16T03:25:28Z",
     "owner": {
       "name": "PDFCraftTool",
       "avatar_url": "https://avatars.githubusercontent.com/u/252608121?v=4"
@@ -245,13 +247,13 @@
     "name": "Dammyjay93/claude-design-engineer",
     "url": "https://github.com/Dammyjay93/claude-design-engineer",
     "description": "Design engineering for Claude Code. Craft, memory, and enforcement for consistent UI.",
-    "stars": 985,
-    "forks": 94,
+    "stars": 1014,
+    "forks": 95,
     "language": "JavaScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-05T00:41:45Z",
-    "updated_at": "2026-01-15T01:01:47Z",
+    "updated_at": "2026-01-16T02:21:30Z",
     "owner": {
       "name": "Dammyjay93",
       "avatar_url": "https://avatars.githubusercontent.com/u/86404480?v=4"
@@ -280,13 +282,13 @@
     "name": "joe-desimone/mongobleed",
     "url": "https://github.com/joe-desimone/mongobleed",
     "description": null,
-    "stars": 906,
-    "forks": 160,
+    "stars": 907,
+    "forks": 161,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
     "created_at": "2025-12-26T00:30:40Z",
-    "updated_at": "2026-01-15T02:31:42Z",
+    "updated_at": "2026-01-15T23:26:20Z",
     "owner": {
       "name": "joe-desimone",
       "avatar_url": "https://avatars.githubusercontent.com/u/56411054?v=4"
@@ -296,8 +298,8 @@
     "name": "yeahhe365/gemini-nexus",
     "url": "https://github.com/yeahhe365/gemini-nexus",
     "description": "Gemini Nexus 是一款深度集成 Google Gemini 能力的 Chrome 扩展程序。它不仅仅是一个侧边栏插件，而是通过注入式的悬浮工具栏、强大的图像 AI 处理以及前沿的浏览器控制协议 (MCP)，将 AI 的触角伸向网页浏览的每一个交互细节。",
-    "stars": 876,
-    "forks": 114,
+    "stars": 882,
+    "forks": 116,
     "language": "JavaScript",
     "topics": [
       "browser-automation",
@@ -310,7 +312,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-19T04:24:32Z",
-    "updated_at": "2026-01-15T03:20:34Z",
+    "updated_at": "2026-01-16T02:19:27Z",
     "owner": {
       "name": "yeahhe365",
       "avatar_url": "https://avatars.githubusercontent.com/u/64304674?v=4"
@@ -358,8 +360,8 @@
     "name": "jarrodwatts/claude-code-config",
     "url": "https://github.com/jarrodwatts/claude-code-config",
     "description": "My personal Claude Code configuration - rules, hooks, agents, skills, and commands",
-    "stars": 776,
-    "forks": 93,
+    "stars": 805,
+    "forks": 94,
     "language": "JavaScript",
     "topics": [
       "ai",
@@ -370,7 +372,7 @@
     ],
     "license": "No license",
     "created_at": "2026-01-08T06:30:49Z",
-    "updated_at": "2026-01-15T01:53:14Z",
+    "updated_at": "2026-01-16T03:25:38Z",
     "owner": {
       "name": "jarrodwatts",
       "avatar_url": "https://avatars.githubusercontent.com/u/35651410?v=4"
@@ -380,7 +382,7 @@
     "name": "covibes/zeroshot",
     "url": "https://github.com/covibes/zeroshot",
     "description": "Your autonomous engineering team in a CLI. Point Zeroshot at a GitHub issue, walk away, and return to production-grade code. Supports Claude Code, OpenAI Codex, and Gemini CLI.",
-    "stars": 741,
+    "stars": 777,
     "forks": 70,
     "language": "JavaScript",
     "topics": [
@@ -405,7 +407,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-25T17:12:45Z",
-    "updated_at": "2026-01-15T03:20:45Z",
+    "updated_at": "2026-01-16T02:47:31Z",
     "owner": {
       "name": "covibes",
       "avatar_url": "https://avatars.githubusercontent.com/u/223873207?v=4"
@@ -415,13 +417,13 @@
     "name": "technomancer702/nodecast-tv",
     "url": "https://github.com/technomancer702/nodecast-tv",
     "description": "A self-hosted web application that lets you stream Live TV, Movies, and Series from your Xtream Codes or M3U provider directly in your browser. It's built with performance in mind and handles large libraries smoothly.",
-    "stars": 727,
+    "stars": 732,
     "forks": 60,
     "language": "JavaScript",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2025-12-27T22:16:10Z",
-    "updated_at": "2026-01-15T01:34:32Z",
+    "updated_at": "2026-01-15T21:27:44Z",
     "owner": {
       "name": "technomancer702",
       "avatar_url": "https://avatars.githubusercontent.com/u/20826180?v=4"
@@ -431,29 +433,45 @@
     "name": "vibeforge1111/vibeship-spawner-skills",
     "url": "https://github.com/vibeforge1111/vibeship-spawner-skills",
     "description": "a skill directory for world-class specialized agents, in your terminal / IDE. more sophisticated than skills with just md files. and they're free.",
-    "stars": 716,
-    "forks": 89,
+    "stars": 723,
+    "forks": 90,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
     "created_at": "2025-12-27T13:58:29Z",
-    "updated_at": "2026-01-14T22:41:32Z",
+    "updated_at": "2026-01-16T02:25:21Z",
     "owner": {
       "name": "vibeforge1111",
       "avatar_url": "https://avatars.githubusercontent.com/u/224284815?v=4"
     }
   },
   {
+    "name": "pixlcore/xyops",
+    "url": "https://github.com/pixlcore/xyops",
+    "description": "A complete workflow automation and server monitoring system.",
+    "stars": 718,
+    "forks": 74,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "created_at": "2025-12-29T16:57:27Z",
+    "updated_at": "2026-01-16T02:39:56Z",
+    "owner": {
+      "name": "pixlcore",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6893077?v=4"
+    }
+  },
+  {
     "name": "jtydhr88/ComfyUI-qwenmultiangle",
     "url": "https://github.com/jtydhr88/ComfyUI-qwenmultiangle",
     "description": "A ComfyUI custom node for 3D camera angle control. Provides an interactive Three.js viewport to adjust camera angles and outputs formatted prompt strings for multi-angle image generation.",
-    "stars": 688,
-    "forks": 28,
+    "stars": 713,
+    "forks": 32,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-08T23:39:38Z",
-    "updated_at": "2026-01-15T03:11:58Z",
+    "updated_at": "2026-01-16T02:37:58Z",
     "owner": {
       "name": "jtydhr88",
       "avatar_url": "https://avatars.githubusercontent.com/u/860985?v=4"
@@ -463,39 +481,23 @@
     "name": "alexknowshtml/smaug",
     "url": "https://github.com/alexknowshtml/smaug",
     "description": "Archive your Twitter/X bookmarks to markdown. Automatically.  Like a dragon hoarding treasure, Smaug collects the valuable things you bookmark.",
-    "stars": 664,
-    "forks": 67,
+    "stars": 667,
+    "forks": 68,
     "language": "JavaScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-02T02:55:25Z",
-    "updated_at": "2026-01-14T22:02:36Z",
+    "updated_at": "2026-01-15T21:50:38Z",
     "owner": {
       "name": "alexknowshtml",
       "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4"
     }
   },
   {
-    "name": "pixlcore/xyops",
-    "url": "https://github.com/pixlcore/xyops",
-    "description": "A complete workflow automation and server monitoring system.",
-    "stars": 636,
-    "forks": 62,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2025-12-29T16:57:27Z",
-    "updated_at": "2026-01-15T02:58:52Z",
-    "owner": {
-      "name": "pixlcore",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6893077?v=4"
-    }
-  },
-  {
     "name": "lklynet/hypermind",
     "url": "https://github.com/lklynet/hypermind",
     "description": "The High-Availability Solution to a Problem That Doesn't Exist.",
-    "stars": 616,
+    "stars": 624,
     "forks": 23,
     "language": "JavaScript",
     "topics": [
@@ -519,7 +521,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-02T03:40:46Z",
-    "updated_at": "2026-01-15T02:11:35Z",
+    "updated_at": "2026-01-15T23:18:14Z",
     "owner": {
       "name": "lklynet",
       "avatar_url": "https://avatars.githubusercontent.com/u/190622871?v=4"
@@ -545,13 +547,13 @@
     "name": "muratcankoylan/ralph-wiggum-marketer",
     "url": "https://github.com/muratcankoylan/ralph-wiggum-marketer",
     "description": "A Claude Code Plugin that provides an autonomous AI copywriter.",
-    "stars": 487,
-    "forks": 58,
+    "stars": 511,
+    "forks": 60,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-07T07:48:17Z",
-    "updated_at": "2026-01-15T02:21:30Z",
+    "updated_at": "2026-01-16T02:52:48Z",
     "owner": {
       "name": "muratcankoylan",
       "avatar_url": "https://avatars.githubusercontent.com/u/132029956?v=4"
@@ -561,7 +563,7 @@
     "name": "WowoEngine/SawitDB",
     "url": "https://github.com/WowoEngine/SawitDB",
     "description": "SawitDB: The First Agricultural-Based Database with Anti-Corruption Protocols. Built for Data Sovereignty to oppose expensive, unreliable state infrastructure.",
-    "stars": 457,
+    "stars": 474,
     "forks": 33,
     "language": "JavaScript",
     "topics": [
@@ -577,7 +579,7 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-28T18:17:40Z",
-    "updated_at": "2026-01-15T00:43:47Z",
+    "updated_at": "2026-01-16T03:21:33Z",
     "owner": {
       "name": "WowoEngine",
       "avatar_url": "https://avatars.githubusercontent.com/u/251884211?v=4"
@@ -616,22 +618,6 @@
     "owner": {
       "name": "hj01857655",
       "avatar_url": "https://avatars.githubusercontent.com/u/48206536?v=4"
-    }
-  },
-  {
-    "name": "vercel-labs/fix-react2shell-next",
-    "url": "https://github.com/vercel-labs/fix-react2shell-next",
-    "description": "One command to fix CVE-2025-66478 (React 2 Shell RCE) in your Next.js / React RSC app.",
-    "stars": 389,
-    "forks": 58,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-06T02:41:12Z",
-    "updated_at": "2026-01-01T05:30:10Z",
-    "owner": {
-      "name": "vercel-labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108547162?v=4"
     }
   },
   {
@@ -683,40 +669,44 @@
     }
   },
   {
-    "name": "markrai/gitpow",
-    "url": "https://github.com/markrai/gitpow",
-    "description": "an open-source, cross-platform git client",
-    "stars": 305,
-    "forks": 10,
-    "language": "JavaScript",
-    "topics": [
-      "cross-platform",
-      "git",
-      "open-source",
-      "version-control"
-    ],
-    "license": "Other",
-    "created_at": "2025-12-04T00:28:18Z",
-    "updated_at": "2026-01-01T03:31:24Z",
-    "owner": {
-      "name": "markrai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28987673?v=4"
-    }
-  },
-  {
-    "name": "emredavut/CVE-2025-55182",
-    "url": "https://github.com/emredavut/CVE-2025-55182",
-    "description": "RSC/Next.js RCE Vulnerability Detector & PoC Chrome Extension – CVE-2025-55182 & CVE-2025-66478",
-    "stars": 303,
-    "forks": 56,
+    "name": "cocojojo5213/phonics-app",
+    "url": "https://github.com/cocojojo5213/phonics-app",
+    "description": "真正从基础开始学英语 - 自然拼读练习应用",
+    "stars": 308,
+    "forks": 32,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
-    "created_at": "2025-12-06T00:36:16Z",
-    "updated_at": "2026-01-02T00:20:52Z",
+    "created_at": "2025-12-31T08:35:36Z",
+    "updated_at": "2026-01-16T02:37:18Z",
     "owner": {
-      "name": "emredavut",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14972838?v=4"
+      "name": "cocojojo5213",
+      "avatar_url": "https://avatars.githubusercontent.com/u/222327869?v=4"
+    }
+  },
+  {
+    "name": "popovicu/ultimate-linux",
+    "url": "https://github.com/popovicu/ultimate-linux",
+    "description": "The Ultimate Linux micro distribution written in JavaScript! A very functional minimal userspace for Linux written in... pure JavaScript! Not quite, but almost. It's good, I promise!",
+    "stars": 290,
+    "forks": 13,
+    "language": "JavaScript",
+    "topics": [
+      "abi",
+      "c",
+      "go",
+      "haskell",
+      "javascript",
+      "linux",
+      "rust",
+      "typescript"
+    ],
+    "license": "No license",
+    "created_at": "2025-12-24T04:15:18Z",
+    "updated_at": "2026-01-15T22:12:36Z",
+    "owner": {
+      "name": "popovicu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8605841?v=4"
     }
   },
   {
@@ -736,44 +726,24 @@
     }
   },
   {
-    "name": "cocojojo5213/phonics-app",
-    "url": "https://github.com/cocojojo5213/phonics-app",
-    "description": "真正从基础开始学英语 - 自然拼读练习应用",
-    "stars": 288,
-    "forks": 30,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-31T08:35:36Z",
-    "updated_at": "2026-01-15T03:04:28Z",
-    "owner": {
-      "name": "cocojojo5213",
-      "avatar_url": "https://avatars.githubusercontent.com/u/222327869?v=4"
-    }
-  },
-  {
-    "name": "popovicu/ultimate-linux",
-    "url": "https://github.com/popovicu/ultimate-linux",
-    "description": "The Ultimate Linux micro distribution written in JavaScript! A very functional minimal userspace for Linux written in... pure JavaScript! Not quite, but almost. It's good, I promise!",
-    "stars": 287,
-    "forks": 13,
+    "name": "tsoding/formula",
+    "url": "https://github.com/tsoding/formula",
+    "description": "\"One Formula That Demystifies 3D Graphics\"",
+    "stars": 285,
+    "forks": 29,
     "language": "JavaScript",
     "topics": [
-      "abi",
-      "c",
-      "go",
-      "haskell",
+      "3d-graphics",
+      "html-canvas",
       "javascript",
-      "linux",
-      "rust",
-      "typescript"
+      "youtube-video"
     ],
-    "license": "No license",
-    "created_at": "2025-12-24T04:15:18Z",
-    "updated_at": "2026-01-14T13:59:27Z",
+    "license": "MIT License",
+    "created_at": "2025-12-25T10:08:02Z",
+    "updated_at": "2026-01-16T00:07:57Z",
     "owner": {
-      "name": "popovicu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8605841?v=4"
+      "name": "tsoding",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18597647?v=4"
     }
   },
   {
@@ -793,37 +763,16 @@
     }
   },
   {
-    "name": "tsoding/formula",
-    "url": "https://github.com/tsoding/formula",
-    "description": "\"One Formula That Demystifies 3D Graphics\"",
-    "stars": 281,
-    "forks": 29,
-    "language": "JavaScript",
-    "topics": [
-      "3d-graphics",
-      "html-canvas",
-      "javascript",
-      "youtube-video"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-25T10:08:02Z",
-    "updated_at": "2026-01-14T19:22:30Z",
-    "owner": {
-      "name": "tsoding",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18597647?v=4"
-    }
-  },
-  {
     "name": "ingriddaleusag-dotcom/PeekPiliRelease",
     "url": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease",
     "description": null,
-    "stars": 269,
-    "forks": 50,
+    "stars": 275,
+    "forks": 51,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
     "created_at": "2025-12-29T00:46:40Z",
-    "updated_at": "2026-01-15T02:01:11Z",
+    "updated_at": "2026-01-16T01:19:07Z",
     "owner": {
       "name": "ingriddaleusag-dotcom",
       "avatar_url": "https://avatars.githubusercontent.com/u/250664764?v=4"
@@ -958,22 +907,6 @@
     }
   },
   {
-    "name": "AnswerDotAI/clipmd",
-    "url": "https://github.com/AnswerDotAI/clipmd",
-    "description": "Convert clipboard from HTML to MD",
-    "stars": 207,
-    "forks": 11,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-04T22:26:06Z",
-    "updated_at": "2026-01-01T22:08:18Z",
-    "owner": {
-      "name": "AnswerDotAI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/156509747?v=4"
-    }
-  },
-  {
     "name": "Novus-Tech-LLC/Casino-Games",
     "url": "https://github.com/Novus-Tech-LLC/Casino-Games",
     "description": "A multi-chain blockchain casino platform supporting Solana, Ethereum, Bitcoin, BSC, and Tron, compatible with ERC-20, BEP-20, and TRC-20 tokens. Provides secure wallet integration and real-time on-chain gameplay for a modern Web3 gaming experience.",
@@ -1004,6 +937,34 @@
     }
   },
   {
+    "name": "appsecco/vulnerable-mcp-servers-lab",
+    "url": "https://github.com/appsecco/vulnerable-mcp-servers-lab",
+    "description": "A collection of servers which are deliberately vulnerable to learn Pentesting MCP Servers.",
+    "stars": 192,
+    "forks": 29,
+    "language": "JavaScript",
+    "topics": [
+      "ai-red-teaming",
+      "ai-research",
+      "appsecco",
+      "bugbounty",
+      "hacking",
+      "learning-pentesting",
+      "mcp",
+      "mcp-client",
+      "mcp-server",
+      "pentesting",
+      "vulnerable-labs"
+    ],
+    "license": "MIT License",
+    "created_at": "2025-12-18T08:31:23Z",
+    "updated_at": "2026-01-15T19:19:04Z",
+    "owner": {
+      "name": "appsecco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19403939?v=4"
+    }
+  },
+  {
     "name": "ineesdv/Tangled",
     "url": "https://github.com/ineesdv/Tangled",
     "description": "Open-source offensive security platform for conducting phishing campaigns that weaponizes iCalendar automatic event processing.",
@@ -1024,47 +985,35 @@
     }
   },
   {
-    "name": "appsecco/vulnerable-mcp-servers-lab",
-    "url": "https://github.com/appsecco/vulnerable-mcp-servers-lab",
-    "description": "A collection of servers which are deliberately vulnerable to learn Pentesting MCP Servers.",
-    "stars": 188,
-    "forks": 28,
-    "language": "JavaScript",
-    "topics": [
-      "ai-red-teaming",
-      "ai-research",
-      "appsecco",
-      "bugbounty",
-      "hacking",
-      "learning-pentesting",
-      "mcp",
-      "mcp-client",
-      "mcp-server",
-      "pentesting",
-      "vulnerable-labs"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-18T08:31:23Z",
-    "updated_at": "2026-01-15T03:03:55Z",
-    "owner": {
-      "name": "appsecco",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19403939?v=4"
-    }
-  },
-  {
     "name": "BryanLunduke/Wikipedia-Donation-Destroyer",
     "url": "https://github.com/BryanLunduke/Wikipedia-Donation-Destroyer",
     "description": "Removes the Wikipedia donation popup, replacing it with Wikipedia's actual financials.",
-    "stars": 184,
+    "stars": 185,
     "forks": 12,
     "language": "JavaScript",
     "topics": [],
     "license": "BSD 2-Clause \"Simplified\" License",
     "created_at": "2026-01-04T16:36:22Z",
-    "updated_at": "2026-01-14T18:41:23Z",
+    "updated_at": "2026-01-15T13:21:58Z",
     "owner": {
       "name": "BryanLunduke",
       "avatar_url": "https://avatars.githubusercontent.com/u/1839166?v=4"
+    }
+  },
+  {
+    "name": "jtydhr88/ComfyUI-HY-Motion1",
+    "url": "https://github.com/jtydhr88/ComfyUI-HY-Motion1",
+    "description": "A ComfyUI plugin based on HY-Motion 1.0 for text-to-3D human motion generation.",
+    "stars": 184,
+    "forks": 13,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-12-30T23:18:33Z",
+    "updated_at": "2026-01-15T18:33:22Z",
+    "owner": {
+      "name": "jtydhr88",
+      "avatar_url": "https://avatars.githubusercontent.com/u/860985?v=4"
     }
   },
   {
@@ -1085,22 +1034,6 @@
     "owner": {
       "name": "iBenzene",
       "avatar_url": "https://avatars.githubusercontent.com/u/74494276?v=4"
-    }
-  },
-  {
-    "name": "jtydhr88/ComfyUI-HY-Motion1",
-    "url": "https://github.com/jtydhr88/ComfyUI-HY-Motion1",
-    "description": "A ComfyUI plugin based on HY-Motion 1.0 for text-to-3D human motion generation.",
-    "stars": 181,
-    "forks": 13,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-30T23:18:33Z",
-    "updated_at": "2026-01-15T02:39:07Z",
-    "owner": {
-      "name": "jtydhr88",
-      "avatar_url": "https://avatars.githubusercontent.com/u/860985?v=4"
     }
   },
   {
@@ -1139,7 +1072,7 @@
     "name": "DOSAYGO-STUDIO/HackerBook",
     "url": "https://github.com/DOSAYGO-STUDIO/HackerBook",
     "description": "Hacker Book - COMMUNITY, ALL THE HN ARE BELONG TO YOU. An unkillable, static offline archive of all of Hacker News. Updated weekly.",
-    "stars": 174,
+    "stars": 176,
     "forks": 15,
     "language": "JavaScript",
     "topics": [
@@ -1150,42 +1083,42 @@
     ],
     "license": "MIT License",
     "created_at": "2025-12-29T15:59:44Z",
-    "updated_at": "2026-01-14T22:13:43Z",
+    "updated_at": "2026-01-15T20:52:44Z",
     "owner": {
       "name": "DOSAYGO-STUDIO",
       "avatar_url": "https://avatars.githubusercontent.com/u/179304995?v=4"
     }
   },
   {
+    "name": "Real-Sam/her-birthday",
+    "url": "https://github.com/Real-Sam/her-birthday",
+    "description": null,
+    "stars": 175,
+    "forks": 188,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2025-12-19T09:55:33Z",
+    "updated_at": "2026-01-16T02:56:17Z",
+    "owner": {
+      "name": "Real-Sam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218823063?v=4"
+    }
+  },
+  {
     "name": "znlsl/Antigravity2Api",
     "url": "https://github.com/znlsl/Antigravity2Api",
     "description": null,
-    "stars": 173,
+    "stars": 174,
     "forks": 34,
     "language": "JavaScript",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2025-12-19T15:31:02Z",
-    "updated_at": "2026-01-14T21:12:13Z",
+    "updated_at": "2026-01-15T15:02:23Z",
     "owner": {
       "name": "znlsl",
       "avatar_url": "https://avatars.githubusercontent.com/u/25316391?v=4"
-    }
-  },
-  {
-    "name": "Real-Sam/her-birthday",
-    "url": "https://github.com/Real-Sam/her-birthday",
-    "description": null,
-    "stars": 170,
-    "forks": 177,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-19T09:55:33Z",
-    "updated_at": "2026-01-13T13:10:11Z",
-    "owner": {
-      "name": "Real-Sam",
-      "avatar_url": "https://avatars.githubusercontent.com/u/218823063?v=4"
     }
   },
   {

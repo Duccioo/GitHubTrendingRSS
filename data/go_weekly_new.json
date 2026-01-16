@@ -129,13 +129,13 @@
     "name": "chrismccord/webtmux",
     "url": "https://github.com/chrismccord/webtmux",
     "description": "Web-based terminal with tmux-specific features",
-    "stars": 88,
-    "forks": 12,
+    "stars": 90,
+    "forks": 14,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-12T17:25:05Z",
-    "updated_at": "2026-01-15T00:22:52Z",
+    "updated_at": "2026-01-15T23:00:05Z",
     "owner": {
       "name": "chrismccord",
       "avatar_url": "https://avatars.githubusercontent.com/u/576796?v=4"
@@ -158,6 +158,28 @@
     }
   },
   {
+    "name": "geekjourneyx/md2wechat-skill",
+    "url": "https://github.com/geekjourneyx/md2wechat-skill",
+    "description": "  用 Markdown 写公众号文章，一键转换为精美排版并自动上传到微信草稿箱。支持 AI 多主题样式和批量发布，让公众号写作像发朋友圈一样简单。https://md2wechat.cn",
+    "stars": 82,
+    "forks": 13,
+    "language": "Go",
+    "topics": [
+      "claude-skills",
+      "golang",
+      "markdown-converter",
+      "skills",
+      "wechat"
+    ],
+    "license": "No license",
+    "created_at": "2026-01-11T06:36:13Z",
+    "updated_at": "2026-01-16T03:18:42Z",
+    "owner": {
+      "name": "geekjourneyx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24422856?v=4"
+    }
+  },
+  {
     "name": "mitsuhiko/gh-issue-sync",
     "url": "https://github.com/mitsuhiko/gh-issue-sync",
     "description": "A github issue sync tool for working with issues locally",
@@ -171,6 +193,22 @@
     "owner": {
       "name": "mitsuhiko",
       "avatar_url": "https://avatars.githubusercontent.com/u/7396?v=4"
+    }
+  },
+  {
+    "name": "hulutech-web/novel-video-workflow",
+    "url": "https://github.com/hulutech-web/novel-video-workflow",
+    "description": "提供了本地运行小说视频生成工作流，每个人都能成为导演！！！",
+    "stars": 77,
+    "forks": 22,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-10T17:01:08Z",
+    "updated_at": "2026-01-16T03:10:55Z",
+    "owner": {
+      "name": "hulutech-web",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60816893?v=4"
     }
   },
   {
@@ -273,22 +311,6 @@
     }
   },
   {
-    "name": "coffinxp/crtmon",
-    "url": "https://github.com/coffinxp/crtmon",
-    "description": "Monitor your targets and hunt fresh assets in real time.",
-    "stars": 72,
-    "forks": 14,
-    "language": "Go",
-    "topics": [],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2025-12-27T12:52:30Z",
-    "updated_at": "2026-01-02T01:43:09Z",
-    "owner": {
-      "name": "coffinxp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/177080559?v=4"
-    }
-  },
-  {
     "name": "jobin-404/debtbomb",
     "url": "https://github.com/jobin-404/debtbomb",
     "description": "DebtBomb lets teams ship temporary hacks safely by attaching an expiry date to them. When the date passes, the bomb explodes and your CI fails — forcing the code to be cleaned up instead of rotting forever.",
@@ -383,22 +405,6 @@
     }
   },
   {
-    "name": "0xAstroAlpha/cliProxyAPI-Dashboard",
-    "url": "https://github.com/0xAstroAlpha/cliProxyAPI-Dashboard",
-    "description": "cliProxyAPI-Dashboard",
-    "stars": 52,
-    "forks": 31,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-26T01:14:02Z",
-    "updated_at": "2026-01-01T03:44:24Z",
-    "owner": {
-      "name": "0xAstroAlpha",
-      "avatar_url": "https://avatars.githubusercontent.com/u/228642096?v=4"
-    }
-  },
-  {
     "name": "Hostzero-GmbH/keycloak-operator",
     "url": "https://github.com/Hostzero-GmbH/keycloak-operator",
     "description": "Kubernetes operator for Keycloak. Manage realms, clients, users, roles, and identity providers as code. Features GitOps support, automatic secret sync, drift detection, and works with Keycloak 20-26+.",
@@ -421,6 +427,55 @@
     }
   },
   {
+    "name": "apenwarr/atlogin",
+    "url": "https://github.com/apenwarr/atlogin",
+    "description": "An OIDC provider that logs in with ATProto",
+    "stars": 47,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "created_at": "2026-01-12T19:43:41Z",
+    "updated_at": "2026-01-16T01:04:33Z",
+    "owner": {
+      "name": "apenwarr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20592?v=4"
+    }
+  },
+  {
+    "name": "runkids/skillshare",
+    "url": "https://github.com/runkids/skillshare",
+    "description": "Sync skills to all your AI CLI tools with one command for Claude, Codex, Cursor, Antigravity & more",
+    "stars": 46,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "antigravity",
+      "claude",
+      "cli",
+      "codex",
+      "cross-machine-sync",
+      "cursor",
+      "developer-tools",
+      "golang",
+      "opencode",
+      "skills",
+      "skills-management",
+      "skills-manager",
+      "skillshare",
+      "sync",
+      "team-management"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-14T10:07:46Z",
+    "updated_at": "2026-01-16T03:16:25Z",
+    "owner": {
+      "name": "runkids",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15520254?v=4"
+    }
+  },
+  {
     "name": "kira-mari/discord-c2-poc",
     "url": "https://github.com/kira-mari/discord-c2-poc",
     "description": "A stealthy Command & Control (C2) framework using Discord. Written in Go for educational research (Red/Blue Teaming).",
@@ -437,22 +492,6 @@
     }
   },
   {
-    "name": "zynapsee/XKey",
-    "url": "https://github.com/zynapsee/XKey",
-    "description": "Optimizing Elliptic Curve Cryptography with X25519Key for Scalable, High-Performance Asymmetric Encryption Governance Manager",
-    "stars": 44,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-10T16:15:48Z",
-    "updated_at": "2026-01-14T12:58:29Z",
-    "owner": {
-      "name": "zynapsee",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97906303?v=4"
-    }
-  },
-  {
     "name": "xiaofang142/PrerenderShield",
     "url": "https://github.com/xiaofang142/PrerenderShield",
     "description": "PrerenderShield 是一款集防火墙安全防护与预渲染功能于一体的企业级 Web 应用中间件，专为解决前后端分离架构下网站发布的痛点而设计。现有防火墙产品（如雷池）无法支持预渲染，而预渲染产品（如 Rendertron）缺乏防火墙能力，PrerenderShield 填补了这一市场空白，为用户提供一站式的安全防护与 SEO 优化解决方案。",
@@ -466,6 +505,22 @@
     "owner": {
       "name": "xiaofang142",
       "avatar_url": "https://avatars.githubusercontent.com/u/27294963?v=4"
+    }
+  },
+  {
+    "name": "zynapsee/XKey",
+    "url": "https://github.com/zynapsee/XKey",
+    "description": "Optimizing Elliptic Curve Cryptography with X25519Key for Scalable, High-Performance Asymmetric Encryption Governance Manager",
+    "stars": 43,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-10T16:15:48Z",
+    "updated_at": "2026-01-15T16:36:13Z",
+    "owner": {
+      "name": "zynapsee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97906303?v=4"
     }
   },
   {
@@ -525,28 +580,6 @@
     }
   },
   {
-    "name": "geekjourneyx/md2wechat-skill",
-    "url": "https://github.com/geekjourneyx/md2wechat-skill",
-    "description": "  用 Markdown 写公众号文章，一键转换为精美排版并自动上传到微信草稿箱。支持 AI 多主题样式和批量发布，让公众号写作像发朋友圈一样简单。https://md2wechat.cn",
-    "stars": 39,
-    "forks": 4,
-    "language": "Go",
-    "topics": [
-      "claude-skills",
-      "golang",
-      "markdown-converter",
-      "skills",
-      "wechat"
-    ],
-    "license": "No license",
-    "created_at": "2026-01-11T06:36:13Z",
-    "updated_at": "2026-01-15T02:53:26Z",
-    "owner": {
-      "name": "geekjourneyx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24422856?v=4"
-    }
-  },
-  {
     "name": "UgOrange/vibemux",
     "url": "https://github.com/UgOrange/vibemux",
     "description": "VibeMux – Orchestrate parallel Claude Code agents in a single TUI",
@@ -560,22 +593,6 @@
     "owner": {
       "name": "UgOrange",
       "avatar_url": "https://avatars.githubusercontent.com/u/28263639?v=4"
-    }
-  },
-  {
-    "name": "apenwarr/atlogin",
-    "url": "https://github.com/apenwarr/atlogin",
-    "description": "An OIDC provider that logs in with ATProto",
-    "stars": 35,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2026-01-12T19:43:41Z",
-    "updated_at": "2026-01-14T22:14:57Z",
-    "owner": {
-      "name": "apenwarr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20592?v=4"
     }
   },
   {
@@ -843,6 +860,22 @@
     }
   },
   {
+    "name": "p-box2025/P-BOX",
+    "url": "https://github.com/p-box2025/P-BOX",
+    "description": "Professional, modern, and high-performance proxy management platform supporting 18+ protocols, transparent proxying, inbound services, tunnel management, WireGuard, and cloud-native integrations.",
+    "stars": 25,
+    "forks": 7,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-11T11:39:48Z",
+    "updated_at": "2026-01-15T10:02:19Z",
+    "owner": {
+      "name": "p-box2025",
+      "avatar_url": "https://avatars.githubusercontent.com/u/254221909?v=4"
+    }
+  },
+  {
     "name": "aqueeb/confluence2md",
     "url": "https://github.com/aqueeb/confluence2md",
     "description": "Convert Confluence MIME exports (.doc) to clean Markdown",
@@ -890,25 +923,6 @@
     }
   },
   {
-    "name": "bschaatsbergen/cek",
-    "url": "https://github.com/bschaatsbergen/cek",
-    "description": "List, inspect and explore OCI container images, their layers and contents.",
-    "stars": 25,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "containers",
-      "oci"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-27T17:55:02Z",
-    "updated_at": "2026-01-01T17:52:23Z",
-    "owner": {
-      "name": "bschaatsbergen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58337159?v=4"
-    }
-  },
-  {
     "name": "Siddhant-K-code/distill",
     "url": "https://github.com/Siddhant-K-code/distill",
     "description": "A reliability layer for LLM context. Deterministic deduplication that removes redundancy before it reaches your model.",
@@ -937,6 +951,22 @@
     "owner": {
       "name": "Siddhant-K-code",
       "avatar_url": "https://avatars.githubusercontent.com/u/55068936?v=4"
+    }
+  },
+  {
+    "name": "OOLin/HashVault",
+    "url": "https://github.com/OOLin/HashVault",
+    "description": "Effortless high-availability clusters dynamically scale on demand, safeguarding enterprise data within a resilient EdgeGuardCore.",
+    "stars": 23,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-12T17:06:29Z",
+    "updated_at": "2026-01-16T03:05:11Z",
+    "owner": {
+      "name": "OOLin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12219774?v=4"
     }
   },
   {
@@ -1032,19 +1062,42 @@
     }
   },
   {
-    "name": "p-box2025/P-BOX",
-    "url": "https://github.com/p-box2025/P-BOX",
-    "description": "Professional, modern, and high-performance proxy management platform supporting 18+ protocols, transparent proxying, inbound services, tunnel management, WireGuard, and cloud-native integrations.",
+    "name": "gotale/gophertale",
+    "url": "https://github.com/gotale/gophertale",
+    "description": null,
     "stars": 22,
-    "forks": 7,
+    "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-11T11:39:48Z",
-    "updated_at": "2026-01-14T17:07:39Z",
+    "license": "MIT License",
+    "created_at": "2026-01-12T16:55:53Z",
+    "updated_at": "2026-01-16T02:58:54Z",
     "owner": {
-      "name": "p-box2025",
-      "avatar_url": "https://avatars.githubusercontent.com/u/254221909?v=4"
+      "name": "gotale",
+      "avatar_url": "https://avatars.githubusercontent.com/u/254505776?v=4"
+    }
+  },
+  {
+    "name": "ArchDevs/HyLauncher",
+    "url": "https://github.com/ArchDevs/HyLauncher",
+    "description": "Unofficial Hytale Launcher for free to play gamers",
+    "stars": 22,
+    "forks": 5,
+    "language": "Go",
+    "topics": [
+      "free",
+      "game",
+      "hytale",
+      "hytale-launcher",
+      "launcher",
+      "minecraft"
+    ],
+    "license": "Other",
+    "created_at": "2026-01-12T17:54:12Z",
+    "updated_at": "2026-01-16T01:11:19Z",
+    "owner": {
+      "name": "ArchDevs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96195646?v=4"
     }
   },
   {
@@ -1246,6 +1299,32 @@
     }
   },
   {
+    "name": "usestring/powhttp-mcp",
+    "url": "https://github.com/usestring/powhttp-mcp",
+    "description": "MCP server enabling agents to debug HTTP requests better (using powhttp)",
+    "stars": 18,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "antibot-detection",
+      "debugging",
+      "debugging-proxy",
+      "http",
+      "mitm",
+      "proxy",
+      "scraping",
+      "scraping-tool",
+      "tls"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-01-14T08:09:51Z",
+    "updated_at": "2026-01-15T18:28:17Z",
+    "owner": {
+      "name": "usestring",
+      "avatar_url": "https://avatars.githubusercontent.com/u/238091928?v=4"
+    }
+  },
+  {
     "name": "WowoEngine/SawitDB-Go",
     "url": "https://github.com/WowoEngine/SawitDB-Go",
     "description": "SawitDB: The First Agricultural-Based Database with Anti-Corruption Protocols. Built for Data Sovereignty to oppose expensive, unreliable state infrastructure.",
@@ -1309,22 +1388,6 @@
     "owner": {
       "name": "atas",
       "avatar_url": "https://avatars.githubusercontent.com/u/1978244?v=4"
-    }
-  },
-  {
-    "name": "gotale/gophertale",
-    "url": "https://github.com/gotale/gophertale",
-    "description": null,
-    "stars": 17,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-12T16:55:53Z",
-    "updated_at": "2026-01-15T00:21:22Z",
-    "owner": {
-      "name": "gotale",
-      "avatar_url": "https://avatars.githubusercontent.com/u/254505776?v=4"
     }
   },
   {
@@ -1460,35 +1523,22 @@
     }
   },
   {
-    "name": "In3x0rabl3/Proxywatch",
-    "url": "https://github.com/In3x0rabl3/Proxywatch",
-    "description": "ProxyWatch",
+    "name": "AlfonsSkills/SkillSync",
+    "url": "https://github.com/AlfonsSkills/SkillSync",
+    "description": "Sync skills from Git repositories to local AI coding tools (Gemini CLI / Claude Code / Codex CLI ... )",
     "stars": 16,
-    "forks": 4,
+    "forks": 2,
     "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-09T00:43:03Z",
-    "updated_at": "2026-01-14T22:49:20Z",
-    "owner": {
-      "name": "In3x0rabl3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55308780?v=4"
-    }
-  },
-  {
-    "name": "OOLin/HashVault",
-    "url": "https://github.com/OOLin/HashVault",
-    "description": "Effortless high-availability clusters dynamically scale on demand, safeguarding enterprise data within a resilient EdgeGuardCore.",
-    "stars": 16,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
+    "topics": [
+      "agent-skill",
+      "skill-installer"
+    ],
     "license": "MIT License",
-    "created_at": "2026-01-12T17:06:29Z",
-    "updated_at": "2026-01-15T00:38:21Z",
+    "created_at": "2026-01-12T09:36:27Z",
+    "updated_at": "2026-01-16T01:25:55Z",
     "owner": {
-      "name": "OOLin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12219774?v=4"
+      "name": "AlfonsSkills",
+      "avatar_url": "https://avatars.githubusercontent.com/u/254396022?v=4"
     }
   },
   {
@@ -1514,6 +1564,38 @@
     "owner": {
       "name": "mrjoshuak",
       "avatar_url": "https://avatars.githubusercontent.com/u/80540?v=4"
+    }
+  },
+  {
+    "name": "VoidArchive/nepal-payment-go",
+    "url": "https://github.com/VoidArchive/nepal-payment-go",
+    "description": "Unified Payment Go SDK for nepal payment provider.",
+    "stars": 16,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-13T12:55:10Z",
+    "updated_at": "2026-01-15T18:30:27Z",
+    "owner": {
+      "name": "VoidArchive",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53934107?v=4"
+    }
+  },
+  {
+    "name": "In3x0rabl3/Proxywatch",
+    "url": "https://github.com/In3x0rabl3/Proxywatch",
+    "description": "ProxyWatch",
+    "stars": 16,
+    "forks": 4,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-09T00:43:03Z",
+    "updated_at": "2026-01-14T22:49:20Z",
+    "owner": {
+      "name": "In3x0rabl3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55308780?v=4"
     }
   },
   {
@@ -1622,37 +1704,6 @@
     "owner": {
       "name": "eznix86",
       "avatar_url": "https://avatars.githubusercontent.com/u/26553194?v=4"
-    }
-  },
-  {
-    "name": "runkids/skillshare",
-    "url": "https://github.com/runkids/skillshare",
-    "description": "Sync skills to all your AI CLI tools with one command (Claude Code, Codex CLI, GitHub Copilot, Cursor, Antigravity, OpenCode)",
-    "stars": 15,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "ai",
-      "antigravity",
-      "claude",
-      "cli",
-      "codex",
-      "cursor",
-      "developer-tools",
-      "golang",
-      "opencode",
-      "skills",
-      "skills-management",
-      "skills-manager",
-      "sync",
-      "team-management"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-14T10:07:46Z",
-    "updated_at": "2026-01-15T03:10:18Z",
-    "owner": {
-      "name": "runkids",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15520254?v=4"
     }
   },
   {
@@ -1783,19 +1834,19 @@
     }
   },
   {
-    "name": "cousine/neovim-mcp",
-    "url": "https://github.com/cousine/neovim-mcp",
-    "description": "An MCP server for AI agents to command neovim",
-    "stars": 14,
+    "name": "tetref/KuroForge",
+    "url": "https://github.com/tetref/KuroForge",
+    "description": "Real-time adaptive KuroForge optimizes data-driven workflows through predictive analytics-driven orchestration. with cloud-agnostic architecture",
+    "stars": 13,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2025-12-27T19:21:28Z",
-    "updated_at": "2026-01-02T01:05:27Z",
+    "created_at": "2026-01-14T14:11:00Z",
+    "updated_at": "2026-01-16T03:08:26Z",
     "owner": {
-      "name": "cousine",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75551?v=4"
+      "name": "tetref",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11065044?v=4"
     }
   },
   {
@@ -2008,6 +2059,71 @@
     }
   },
   {
+    "name": "BlackVectorOps/semantic_firewall",
+    "url": "https://github.com/BlackVectorOps/semantic_firewall",
+    "description": "Generate deterministic semantic fingerprints for Go functions. Detect xz-style backdoors and verify semantic equivalence using Static Single Assignment (SSA) analysis and Scalar Evolution.",
+    "stars": 11,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "backdoor-detection",
+      "compiler-theory",
+      "devsecops",
+      "github-actions",
+      "go",
+      "golang",
+      "integrity",
+      "refactoring",
+      "security",
+      "semantic-analysis",
+      "ssa",
+      "static-analysis",
+      "supply-chain-security"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-10T11:23:14Z",
+    "updated_at": "2026-01-14T04:43:34Z",
+    "owner": {
+      "name": "BlackVectorOps",
+      "avatar_url": "https://avatars.githubusercontent.com/u/253175914?v=4"
+    }
+  },
+  {
+    "name": "phamdaiminhquan/vibe-devops",
+    "url": "https://github.com/phamdaiminhquan/vibe-devops",
+    "description": "An open-source AI terminal agent for automated VPS management and self-healing Docker deployments.",
+    "stars": 11,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-13T01:24:49Z",
+    "updated_at": "2026-01-16T01:03:11Z",
+    "owner": {
+      "name": "phamdaiminhquan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72492267?v=4"
+    }
+  },
+  {
+    "name": "decomp-project/hytale-downloader",
+    "url": "https://github.com/decomp-project/hytale-downloader",
+    "description": "Reverse-engineered Go implementation of the Hytale downloader tool",
+    "stars": 11,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "hytale",
+      "hytale-community"
+    ],
+    "license": "No license",
+    "created_at": "2026-01-12T08:28:50Z",
+    "updated_at": "2026-01-16T00:48:51Z",
+    "owner": {
+      "name": "decomp-project",
+      "avatar_url": "https://avatars.githubusercontent.com/u/254246699?v=4"
+    }
+  },
+  {
     "name": "cybersorcerer/c64u",
     "url": "https://github.com/cybersorcerer/c64u",
     "description": "CLI for the new Commodore C64 Ultimate",
@@ -2056,22 +2172,6 @@
     }
   },
   {
-    "name": "hasnezz/gossip",
-    "url": "https://github.com/hasnezz/gossip",
-    "description": "A lightweight P2P node framework over UDP implementing heartbeat-based peer discovery, gossip propagation, and HMAC-signed messaging.",
-    "stars": 11,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-30T19:01:39Z",
-    "updated_at": "2026-01-01T18:15:51Z",
-    "owner": {
-      "name": "hasnezz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/179812324?v=4"
-    }
-  },
-  {
     "name": "rshdhere/metaverse",
     "url": "https://github.com/rshdhere/metaverse",
     "description": "open source alternative for gather and zep, free to all users also available for self-hosting (work in progress)",
@@ -2088,24 +2188,35 @@
     }
   },
   {
-    "name": "jackchuka/gh-brag",
-    "url": "https://github.com/jackchuka/gh-brag",
-    "description": "Quantify your engineering impact: PRs, Issues, and Reviews analyzed in your terminal.",
-    "stars": 11,
-    "forks": 0,
+    "name": "Sicks3c/altdns-ng",
+    "url": "https://github.com/Sicks3c/altdns-ng",
+    "description": "High-performance subdomain permutation and DNS resolution tool - A modern Go reimplementation of altdns",
+    "stars": 10,
+    "forks": 1,
     "language": "Go",
-    "topics": [
-      "developer-tools",
-      "gh-extension",
-      "github-cli-extension",
-      "tui"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2025-12-27T18:18:42Z",
-    "updated_at": "2026-01-01T04:35:06Z",
+    "created_at": "2026-01-10T10:05:16Z",
+    "updated_at": "2026-01-15T21:34:12Z",
     "owner": {
-      "name": "jackchuka",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3062504?v=4"
+      "name": "Sicks3c",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32225186?v=4"
+    }
+  },
+  {
+    "name": "zakirkun/godown",
+    "url": "https://github.com/zakirkun/godown",
+    "description": "A modern, interactive CLI download manager",
+    "stars": 10,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-14T10:43:45Z",
+    "updated_at": "2026-01-15T09:41:05Z",
+    "owner": {
+      "name": "zakirkun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61570975?v=4"
     }
   },
   {
@@ -2218,22 +2329,6 @@
     "owner": {
       "name": "delaneyj",
       "avatar_url": "https://avatars.githubusercontent.com/u/438252?v=4"
-    }
-  },
-  {
-    "name": "AshkanYarmoradi/go-mink",
-    "url": "https://github.com/AshkanYarmoradi/go-mink",
-    "description": "A Comprehensive Event Sourcing & CQRS Toolkit for Go",
-    "stars": 10,
-    "forks": 6,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2025-12-27T00:59:15Z",
-    "updated_at": "2026-01-01T23:41:03Z",
-    "owner": {
-      "name": "AshkanYarmoradi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79542621?v=4"
     }
   }
 ]
