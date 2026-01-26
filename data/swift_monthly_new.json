@@ -51,12 +51,14 @@
     "name": "ronitsingh10/FineTune",
     "url": "https://github.com/ronitsingh10/FineTune",
     "description": "FineTune, a macOS menu bar app to control volume for each app independently, route apps to different output devices, and apply EQ",
-    "stars": 1553,
-    "forks": 65,
+    "stars": 1645,
+    "forks": 66,
     "language": "Swift",
     "topics": [
       "audio",
+      "audio-control",
       "audio-utility",
+      "equalizer",
       "macos",
       "macos-app",
       "menu-bar",
@@ -64,11 +66,13 @@
       "menubar-app",
       "swift",
       "swiftui",
-      "utility"
+      "utility",
+      "volume-control",
+      "volume-mixer"
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-01-18T19:29:15Z",
-    "updated_at": "2026-01-25T03:51:17Z",
+    "updated_at": "2026-01-26T03:48:45Z",
     "owner": {
       "name": "ronitsingh10",
       "avatar_url": "https://avatars.githubusercontent.com/u/70445944?v=4"
@@ -78,16 +82,32 @@
     "name": "Dimillian/CodexSkillManager",
     "url": "https://github.com/Dimillian/CodexSkillManager",
     "description": "macOS app to manage your Codex skills",
-    "stars": 736,
-    "forks": 46,
+    "stars": 743,
+    "forks": 45,
     "language": "Swift",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-07T11:45:21Z",
-    "updated_at": "2026-01-24T16:16:30Z",
+    "updated_at": "2026-01-26T03:06:04Z",
     "owner": {
       "name": "Dimillian",
       "avatar_url": "https://avatars.githubusercontent.com/u/535509?v=4"
+    }
+  },
+  {
+    "name": "tldev/posturr",
+    "url": "https://github.com/tldev/posturr",
+    "description": "A macOS app that blurs your screen when you slouch. Uses Vision framework for real-time posture detection.",
+    "stars": 598,
+    "forks": 14,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-24T18:40:06Z",
+    "updated_at": "2026-01-26T03:54:05Z",
+    "owner": {
+      "name": "tldev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4693583?v=4"
     }
   },
   {
@@ -164,22 +184,6 @@
     }
   },
   {
-    "name": "Kruszoneq/macUSB",
-    "url": "https://github.com/Kruszoneq/macUSB",
-    "description": "Creating bootable macOS and OS X USB drives has never been easier!",
-    "stars": 446,
-    "forks": 22,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-14T17:22:24Z",
-    "updated_at": "2026-01-12T01:02:04Z",
-    "owner": {
-      "name": "Kruszoneq",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83231322?v=4"
-    }
-  },
-  {
     "name": "tddworks/ClaudeBar",
     "url": "https://github.com/tddworks/ClaudeBar",
     "description": "A macOS menu bar application that monitors AI coding assistant usage quotas. Keep track of your Claude, Codex, Antigravity ,and Gemini usage at a glance.",
@@ -207,13 +211,13 @@
     "name": "EthanLipnik/MirageKit",
     "url": "https://github.com/EthanLipnik/MirageKit",
     "description": "Peer to Peer screen sharing framework from macOS to iPadOS, visionOS, and macOS",
-    "stars": 398,
-    "forks": 43,
+    "stars": 399,
+    "forks": 45,
     "language": "Swift",
     "topics": [],
     "license": "Other",
     "created_at": "2026-01-16T00:05:07Z",
-    "updated_at": "2026-01-25T01:51:22Z",
+    "updated_at": "2026-01-25T15:30:09Z",
     "owner": {
       "name": "EthanLipnik",
       "avatar_url": "https://avatars.githubusercontent.com/u/35352046?v=4"
@@ -223,8 +227,8 @@
     "name": "iordv/Droppy",
     "url": "https://github.com/iordv/Droppy",
     "description": "The native productivity layer macOS is missing.",
-    "stars": 373,
-    "forks": 20,
+    "stars": 385,
+    "forks": 22,
     "language": "Swift",
     "topics": [
       "app",
@@ -250,7 +254,7 @@
     ],
     "license": "Other",
     "created_at": "2026-01-02T17:24:02Z",
-    "updated_at": "2026-01-25T02:52:51Z",
+    "updated_at": "2026-01-26T02:06:25Z",
     "owner": {
       "name": "iordv",
       "avatar_url": "https://avatars.githubusercontent.com/u/188335620?v=4"
@@ -280,6 +284,22 @@
     }
   },
   {
+    "name": "richhickson/claudecodeusage",
+    "url": "https://github.com/richhickson/claudecodeusage",
+    "description": null,
+    "stars": 303,
+    "forks": 11,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-08T16:43:15Z",
+    "updated_at": "2026-01-25T14:20:11Z",
+    "owner": {
+      "name": "richhickson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16566843?v=4"
+    }
+  },
+  {
     "name": "xmannv/xkey",
     "url": "https://github.com/xmannv/xkey",
     "description": "Vietnamese Input for macOS - Bộ gõ Tiếng Việt mã nguồn mở cho macOS",
@@ -296,32 +316,16 @@
     }
   },
   {
-    "name": "richhickson/claudecodeusage",
-    "url": "https://github.com/richhickson/claudecodeusage",
-    "description": null,
-    "stars": 302,
-    "forks": 11,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-08T16:43:15Z",
-    "updated_at": "2026-01-24T10:27:51Z",
-    "owner": {
-      "name": "richhickson",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16566843?v=4"
-    }
-  },
-  {
     "name": "Meeep1/EeveeSpotifyRevivedPublic",
     "url": "https://github.com/Meeep1/EeveeSpotifyRevivedPublic",
     "description": null,
-    "stars": 241,
-    "forks": 253,
+    "stars": 244,
+    "forks": 265,
     "language": "Swift",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2025-12-31T16:58:31Z",
-    "updated_at": "2026-01-25T00:49:29Z",
+    "updated_at": "2026-01-26T02:14:22Z",
     "owner": {
       "name": "Meeep1",
       "avatar_url": "https://avatars.githubusercontent.com/u/83686477?v=4"
@@ -330,14 +334,14 @@
   {
     "name": "debugtheworldbot/keyStats",
     "url": "https://github.com/debugtheworldbot/keyStats",
-    "description": "Keyboard & Mouse Stats for macOS",
-    "stars": 234,
+    "description": "Keyboard & Mouse Stats for macOS/Windows",
+    "stars": 235,
     "forks": 13,
     "language": "Swift",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-28T10:51:54Z",
-    "updated_at": "2026-01-25T02:39:35Z",
+    "updated_at": "2026-01-25T10:23:52Z",
     "owner": {
       "name": "debugtheworldbot",
       "avatar_url": "https://avatars.githubusercontent.com/u/62830430?v=4"
@@ -385,22 +389,6 @@
     }
   },
   {
-    "name": "tasselx/Keyden",
-    "url": "https://github.com/tasselx/Keyden",
-    "description": "Keyden is a clean and elegant macOS menu bar TOTP authenticator — securely store secrets in macOS Keychain, add accounts via QR code scanning, and copy codes with one click . Keyden 是一款简洁优雅的 macOS 菜单栏 TOTP 验证器——密钥安全存储于 macOS 钥匙串，支持扫码添加账号与一键复制验证码",
-    "stars": 209,
-    "forks": 8,
-    "language": "Swift",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2025-12-14T11:16:58Z",
-    "updated_at": "2026-01-11T13:12:26Z",
-    "owner": {
-      "name": "tasselx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2656142?v=4"
-    }
-  },
-  {
     "name": "launchtodayhq/react-native-keyboard-composer",
     "url": "https://github.com/launchtodayhq/react-native-keyboard-composer",
     "description": "A native keyboard-aware composer for React Native chat applications.",
@@ -430,26 +418,6 @@
     "owner": {
       "name": "Pinperepette",
       "avatar_url": "https://avatars.githubusercontent.com/u/1530269?v=4"
-    }
-  },
-  {
-    "name": "Alex-Ozun/swift-effect",
-    "url": "https://github.com/Alex-Ozun/swift-effect",
-    "description": "Algebraic Effects and Effect Handlers for Swift",
-    "stars": 155,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [
-      "algebraic-effects",
-      "functional-programming",
-      "swift"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-14T13:30:15Z",
-    "updated_at": "2026-01-11T22:57:48Z",
-    "owner": {
-      "name": "Alex-Ozun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8514453?v=4"
     }
   },
   {
@@ -512,16 +480,32 @@
     "name": "mikker/steve",
     "url": "https://github.com/mikker/steve",
     "description": null,
-    "stars": 126,
+    "stars": 130,
     "forks": 3,
     "language": "Swift",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-15T23:37:52Z",
-    "updated_at": "2026-01-23T17:36:28Z",
+    "updated_at": "2026-01-26T01:19:41Z",
     "owner": {
       "name": "mikker",
       "avatar_url": "https://avatars.githubusercontent.com/u/2819?v=4"
+    }
+  },
+  {
+    "name": "BayramAnnakov/retain",
+    "url": "https://github.com/BayramAnnakov/retain",
+    "description": "Retain is a native macOS application that aggregates AI conversations from multiple platforms into a unified, searchable knowledge base with intelligent learning extraction.",
+    "stars": 125,
+    "forks": 4,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-05T23:57:38Z",
+    "updated_at": "2026-01-25T23:49:24Z",
+    "owner": {
+      "name": "BayramAnnakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/774131?v=4"
     }
   },
   {
@@ -541,19 +525,19 @@
     }
   },
   {
-    "name": "BayramAnnakov/retain",
-    "url": "https://github.com/BayramAnnakov/retain",
-    "description": "Retain is a native macOS application that aggregates AI conversations from multiple platforms into a unified, searchable knowledge base with intelligent learning extraction.",
-    "stars": 118,
-    "forks": 4,
+    "name": "fayazara/bucketdrop",
+    "url": "https://github.com/fayazara/bucketdrop",
+    "description": "BucketDrop is a tiny, open-source menu bar app for uploading files to your own S3-compatible storage.  No dashboards. No syncing folders. No vendor lock-in.  Just drop a file and get a shareable URL instantly.",
+    "stars": 120,
+    "forks": 21,
     "language": "Swift",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-05T23:57:38Z",
-    "updated_at": "2026-01-24T16:53:16Z",
+    "license": "No license",
+    "created_at": "2026-01-19T06:36:24Z",
+    "updated_at": "2026-01-26T03:02:50Z",
     "owner": {
-      "name": "BayramAnnakov",
-      "avatar_url": "https://avatars.githubusercontent.com/u/774131?v=4"
+      "name": "fayazara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15716057?v=4"
     }
   },
   {
@@ -570,6 +554,22 @@
     "owner": {
       "name": "elliotttate",
       "avatar_url": "https://avatars.githubusercontent.com/u/25666454?v=4"
+    }
+  },
+  {
+    "name": "ryzenixx/proxmoxbar-macos",
+    "url": "https://github.com/ryzenixx/proxmoxbar-macos",
+    "description": "A native macOS menu bar app to manage Proxmox Resources.",
+    "stars": 112,
+    "forks": 5,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-11T00:58:36Z",
+    "updated_at": "2026-01-26T03:52:05Z",
+    "owner": {
+      "name": "ryzenixx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96339570?v=4"
     }
   },
   {
@@ -603,32 +603,16 @@
     }
   },
   {
-    "name": "ryzenixx/proxmoxbar-macos",
-    "url": "https://github.com/ryzenixx/proxmoxbar-macos",
-    "description": "A native macOS menu bar app to manage Proxmox Resources.",
-    "stars": 110,
-    "forks": 5,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-11T00:58:36Z",
-    "updated_at": "2026-01-22T06:50:38Z",
-    "owner": {
-      "name": "ryzenixx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96339570?v=4"
-    }
-  },
-  {
     "name": "rselbach/jabber",
     "url": "https://github.com/rselbach/jabber",
     "description": "An open-source dictation tool for macOS",
-    "stars": 102,
+    "stars": 109,
     "forks": 6,
     "language": "Swift",
     "topics": [],
     "license": "The Unlicense",
     "created_at": "2026-01-07T10:39:58Z",
-    "updated_at": "2026-01-24T20:09:10Z",
+    "updated_at": "2026-01-26T00:23:53Z",
     "owner": {
       "name": "rselbach",
       "avatar_url": "https://avatars.githubusercontent.com/u/355691?v=4"
@@ -639,7 +623,7 @@
     "url": "https://github.com/AppGram/agentnotch",
     "description": "AgentNotch is a sleek macOS menu bar app that lives in your Mac's notch, providing real-time visibility into your AI coding assistants. Watch as Claude Code and OpenAI Codex think, read files, and execute tools — all without leaving your editor.",
     "stars": 96,
-    "forks": 7,
+    "forks": 6,
     "language": "Swift",
     "topics": [
       "claude-ai",
@@ -659,19 +643,19 @@
     }
   },
   {
-    "name": "fayazara/bucketdrop",
-    "url": "https://github.com/fayazara/bucketdrop",
-    "description": "BucketDrop is a tiny, open-source menu bar app for uploading files to your own S3-compatible storage.  No dashboards. No syncing folders. No vendor lock-in.  Just drop a file and get a shareable URL instantly.",
-    "stars": 95,
-    "forks": 15,
+    "name": "rselbach/reel",
+    "url": "https://github.com/rselbach/reel",
+    "description": "Simple demo recorder",
+    "stars": 93,
+    "forks": 5,
     "language": "Swift",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-19T06:36:24Z",
-    "updated_at": "2026-01-25T03:38:21Z",
+    "license": "The Unlicense",
+    "created_at": "2026-01-01T10:28:57Z",
+    "updated_at": "2026-01-26T02:09:08Z",
     "owner": {
-      "name": "fayazara",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15716057?v=4"
+      "name": "rselbach",
+      "avatar_url": "https://avatars.githubusercontent.com/u/355691?v=4"
     }
   },
   {
@@ -679,7 +663,7 @@
     "url": "https://github.com/abracadabra50/open-ring",
     "description": "unofficial api + menu bar app for Ring doorbells and cameras",
     "stars": 91,
-    "forks": 14,
+    "forks": 15,
     "language": "Swift",
     "topics": [],
     "license": "MIT License",
@@ -691,58 +675,16 @@
     }
   },
   {
-    "name": "rselbach/reel",
-    "url": "https://github.com/rselbach/reel",
-    "description": "Simple demo recorder",
-    "stars": 85,
-    "forks": 5,
-    "language": "Swift",
-    "topics": [],
-    "license": "The Unlicense",
-    "created_at": "2026-01-01T10:28:57Z",
-    "updated_at": "2026-01-24T20:09:35Z",
-    "owner": {
-      "name": "rselbach",
-      "avatar_url": "https://avatars.githubusercontent.com/u/355691?v=4"
-    }
-  },
-  {
-    "name": "PhamHungTien/PHTV",
-    "url": "https://github.com/PhamHungTien/PHTV",
-    "description": "PHTV - Precision Hybrid Typing Vietnamese | Bộ gõ Tiếng Việt Đa năng & Chuẩn xác cho macOS",
-    "stars": 83,
-    "forks": 10,
-    "language": "Swift",
-    "topics": [
-      "gotiengviet",
-      "input-method",
-      "macos",
-      "macosinput",
-      "phtv",
-      "swift",
-      "telex",
-      "vietnamese",
-      "vni"
-    ],
-    "license": "Other",
-    "created_at": "2025-12-14T19:26:44Z",
-    "updated_at": "2026-01-11T22:00:18Z",
-    "owner": {
-      "name": "PhamHungTien",
-      "avatar_url": "https://avatars.githubusercontent.com/u/181301764?v=4"
-    }
-  },
-  {
     "name": "schappim/coreml-cli",
     "url": "https://github.com/schappim/coreml-cli",
     "description": "A native command-line interface for working with Apple Core ML models on macOS",
-    "stars": 81,
+    "stars": 83,
     "forks": 1,
     "language": "Swift",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-21T03:11:25Z",
-    "updated_at": "2026-01-25T00:25:48Z",
+    "updated_at": "2026-01-25T21:46:43Z",
     "owner": {
       "name": "schappim",
       "avatar_url": "https://avatars.githubusercontent.com/u/40018?v=4"
@@ -752,13 +694,13 @@
     "name": "sadopc/machscope",
     "url": "https://github.com/sadopc/machscope",
     "description": "All-in-one macOS binary analysis: Mach-O parsing, ARM64 disassembly, code signatures, and debugging.",
-    "stars": 78,
+    "stars": 79,
     "forks": 4,
     "language": "Swift",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-12T20:26:16Z",
-    "updated_at": "2026-01-24T22:08:13Z",
+    "updated_at": "2026-01-25T16:24:57Z",
     "owner": {
       "name": "sadopc",
       "avatar_url": "https://avatars.githubusercontent.com/u/98687378?v=4"
@@ -816,22 +758,6 @@
     }
   },
   {
-    "name": "hayupadhyaya/xonora-ios",
-    "url": "https://github.com/hayupadhyaya/xonora-ios",
-    "description": null,
-    "stars": 67,
-    "forks": 4,
-    "language": "Swift",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-08T19:47:43Z",
-    "updated_at": "2026-01-23T13:20:27Z",
-    "owner": {
-      "name": "hayupadhyaya",
-      "avatar_url": "https://avatars.githubusercontent.com/u/41875548?v=4"
-    }
-  },
-  {
     "name": "kylehowells/swift-justhtml",
     "url": "https://github.com/kylehowells/swift-justhtml",
     "description": "Swift-JustHTML a Swift port of EmilStenstrom/justhtml by implementing 100% html5 spec compliant parsing of html documents in pure Swift",
@@ -880,6 +806,22 @@
     }
   },
   {
+    "name": "hayupadhyaya/xonora-ios",
+    "url": "https://github.com/hayupadhyaya/xonora-ios",
+    "description": null,
+    "stars": 66,
+    "forks": 4,
+    "language": "Swift",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-08T19:47:43Z",
+    "updated_at": "2026-01-26T02:31:06Z",
+    "owner": {
+      "name": "hayupadhyaya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41875548?v=4"
+    }
+  },
+  {
     "name": "mpospirit-apps/Repomance-iOS",
     "url": "https://github.com/mpospirit-apps/Repomance-iOS",
     "description": "A mobile app for discovering and starring GitHub repositories through a dating app like swipe interface.",
@@ -919,6 +861,22 @@
     }
   },
   {
+    "name": "simpsoka/jules-companion",
+    "url": "https://github.com/simpsoka/jules-companion",
+    "description": null,
+    "stars": 60,
+    "forks": 6,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-23T21:51:18Z",
+    "updated_at": "2026-01-26T03:00:08Z",
+    "owner": {
+      "name": "simpsoka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/704152?v=4"
+    }
+  },
+  {
     "name": "SyntheticAutonomicMind/SAM",
     "url": "https://github.com/SyntheticAutonomicMind/SAM",
     "description": "Synthetic Autonomic Mind",
@@ -944,16 +902,37 @@
     }
   },
   {
+    "name": "stefanprodan/kswitch",
+    "url": "https://github.com/stefanprodan/kswitch",
+    "description": "Kubernetes context manager for macOS",
+    "stars": 52,
+    "forks": 2,
+    "language": "Swift",
+    "topics": [
+      "fluxcd",
+      "gitops",
+      "kubernetes",
+      "macos"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-11T19:23:46Z",
+    "updated_at": "2026-01-26T03:53:12Z",
+    "owner": {
+      "name": "stefanprodan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3797675?v=4"
+    }
+  },
+  {
     "name": "Mulla6518/CodeReviewBot",
     "url": "https://github.com/Mulla6518/CodeReviewBot",
     "description": "A Swift Package for building a “code review bot” workflow in Swift — intended to automate review-style feedback (lint-like suggestions, heuristics, or AI-driven analysis) and integrate it into your development process.",
-    "stars": 52,
+    "stars": 51,
     "forks": 0,
     "language": "Swift",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-18T21:06:16Z",
-    "updated_at": "2026-01-24T14:33:37Z",
+    "updated_at": "2026-01-26T00:56:19Z",
     "owner": {
       "name": "Mulla6518",
       "avatar_url": "https://avatars.githubusercontent.com/u/10078884?v=4"
@@ -1008,6 +987,48 @@
     }
   },
   {
+    "name": "adriankraemer/Immich-Viewer",
+    "url": "https://github.com/adriankraemer/Immich-Viewer",
+    "description": "A sleek Apple TV viewer for your self-hosted Immich photo & video library. Turn your Apple TV into a beautiful digital photo frame and browse your media on the big screen with high-quality viewing, slideshow mode, interactive navigation, and support for albums, tags, maps, and more — all powered by your Immich server.",
+    "stars": 49,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [
+      "albums",
+      "appletv",
+      "gallery",
+      "immich",
+      "memories",
+      "photography",
+      "photos",
+      "self-hosted",
+      "slideshow"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2025-12-31T09:02:36Z",
+    "updated_at": "2026-01-26T02:03:00Z",
+    "owner": {
+      "name": "adriankraemer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/198390890?v=4"
+    }
+  },
+  {
+    "name": "FreeInternetAdvocate/connect-iran",
+    "url": "https://github.com/FreeInternetAdvocate/connect-iran",
+    "description": "Open-source initiative leveraging AI to help reconnect Iran to the internet. Fees go directly to the National Union for Democracy in Iran (X: @nufdiran)",
+    "stars": 48,
+    "forks": 13,
+    "language": "Swift",
+    "topics": [],
+    "license": "The Unlicense",
+    "created_at": "2026-01-17T02:56:56Z",
+    "updated_at": "2026-01-26T00:56:19Z",
+    "owner": {
+      "name": "FreeInternetAdvocate",
+      "avatar_url": "https://avatars.githubusercontent.com/u/196832905?v=4"
+    }
+  },
+  {
     "name": "christopherkarani/Conduit",
     "url": "https://github.com/christopherkarani/Conduit",
     "description": "Unified Swift SDK for LLM inference across local and cloud providers 🦑",
@@ -1033,32 +1054,6 @@
     "owner": {
       "name": "christopherkarani",
       "avatar_url": "https://avatars.githubusercontent.com/u/13857475?v=4"
-    }
-  },
-  {
-    "name": "adriankraemer/Immich-Viewer",
-    "url": "https://github.com/adriankraemer/Immich-Viewer",
-    "description": "A sleek Apple TV viewer for your self-hosted Immich photo & video library. Turn your Apple TV into a beautiful digital photo frame and browse your media on the big screen with high-quality viewing, slideshow mode, interactive navigation, and support for albums, tags, maps, and more — all powered by your Immich server.",
-    "stars": 46,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [
-      "albums",
-      "appletv",
-      "gallery",
-      "immich",
-      "memories",
-      "photography",
-      "photos",
-      "self-hosted",
-      "slideshow"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-12-31T09:02:36Z",
-    "updated_at": "2026-01-20T00:39:27Z",
-    "owner": {
-      "name": "adriankraemer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/198390890?v=4"
     }
   },
   {
