@@ -3,13 +3,13 @@
     "name": "xai-org/x-algorithm",
     "url": "https://github.com/xai-org/x-algorithm",
     "description": "Algorithm powering the For You feed on X",
-    "stars": 13515,
-    "forks": 2316,
+    "stars": 13756,
+    "forks": 2351,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-01-19T23:12:35Z",
-    "updated_at": "2026-01-26T03:53:00Z",
+    "updated_at": "2026-01-27T03:41:38Z",
     "owner": {
       "name": "xai-org",
       "avatar_url": "https://avatars.githubusercontent.com/u/130314967?v=4"
@@ -19,29 +19,45 @@
     "name": "huseyinbabal/taws",
     "url": "https://github.com/huseyinbabal/taws",
     "description": "Terminal UI for AWS (taws) - A terminal-based AWS resource viewer and manager",
-    "stars": 1980,
+    "stars": 1988,
     "forks": 53,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-04T09:50:22Z",
-    "updated_at": "2026-01-26T03:13:52Z",
+    "updated_at": "2026-01-27T02:41:56Z",
     "owner": {
       "name": "huseyinbabal",
       "avatar_url": "https://avatars.githubusercontent.com/u/1237982?v=4"
     }
   },
   {
+    "name": "lucasgelfond/zerobrew",
+    "url": "https://github.com/lucasgelfond/zerobrew",
+    "description": "A drop-in, 5-20x faster, experimental Homebrew alternative",
+    "stars": 1736,
+    "forks": 24,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-19T12:42:04Z",
+    "updated_at": "2026-01-27T03:45:10Z",
+    "owner": {
+      "name": "lucasgelfond",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8399069?v=4"
+    }
+  },
+  {
     "name": "buyukakyuz/corroded",
     "url": "https://github.com/buyukakyuz/corroded",
     "description": "Illegal rust",
-    "stars": 1598,
-    "forks": 46,
+    "stars": 1613,
+    "forks": 47,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2025-12-29T22:24:33Z",
-    "updated_at": "2026-01-26T03:11:06Z",
+    "updated_at": "2026-01-26T22:17:31Z",
     "owner": {
       "name": "buyukakyuz",
       "avatar_url": "https://avatars.githubusercontent.com/u/99087793?v=4"
@@ -51,13 +67,13 @@
     "name": "zs1083339604/FaceWinUnlock-Tauri",
     "url": "https://github.com/zs1083339604/FaceWinUnlock-Tauri",
     "description": "一款基于 Tauri 框架开发的现代化 Windows 面容识别解锁增强软件。它通过自定义 Credential Provider (DLL) 注入 Windows 登录界面，结合前端 Vue 3 和后端 OpenCV 人脸识别算法，为用户提供类似 Windows Hello 的解锁体验。",
-    "stars": 819,
-    "forks": 39,
+    "stars": 843,
+    "forks": 40,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-02T06:12:06Z",
-    "updated_at": "2026-01-26T03:30:16Z",
+    "updated_at": "2026-01-27T03:41:12Z",
     "owner": {
       "name": "zs1083339604",
       "avatar_url": "https://avatars.githubusercontent.com/u/41194731?v=4"
@@ -92,6 +108,37 @@
     }
   },
   {
+    "name": "lance0/ttl",
+    "url": "https://github.com/lance0/ttl",
+    "description": "Fast, modern traceroute with real-time TUI, per-hop stats, ASN/geo lookup, ECMP detection, and MPLS label parsing. A better mtr.",
+    "stars": 673,
+    "forks": 45,
+    "language": "Rust",
+    "topics": [
+      "asn-lookup",
+      "cli",
+      "geolocation",
+      "icmp",
+      "latency",
+      "latency-test",
+      "mtr",
+      "network-visualization",
+      "networking",
+      "ratatui",
+      "rust",
+      "terminal",
+      "traceroute",
+      "tui"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-12T15:16:32Z",
+    "updated_at": "2026-01-27T00:10:52Z",
+    "owner": {
+      "name": "lance0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3323861?v=4"
+    }
+  },
+  {
     "name": "terauss/Polymarket-Kalshi-Arbitrage-bot",
     "url": "https://github.com/terauss/Polymarket-Kalshi-Arbitrage-bot",
     "description": "polymarket-kalshi trading bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, kashi trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot",
@@ -113,37 +160,6 @@
     "owner": {
       "name": "terauss",
       "avatar_url": "https://avatars.githubusercontent.com/u/7345924?v=4"
-    }
-  },
-  {
-    "name": "lance0/ttl",
-    "url": "https://github.com/lance0/ttl",
-    "description": "Fast, modern traceroute with real-time TUI, per-hop stats, ASN/geo lookup, ECMP detection, and MPLS label parsing. A better mtr.",
-    "stars": 657,
-    "forks": 42,
-    "language": "Rust",
-    "topics": [
-      "asn-lookup",
-      "cli",
-      "geolocation",
-      "icmp",
-      "latency",
-      "latency-test",
-      "mtr",
-      "network-visualization",
-      "networking",
-      "ratatui",
-      "rust",
-      "terminal",
-      "traceroute",
-      "tui"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-12T15:16:32Z",
-    "updated_at": "2026-01-26T03:30:38Z",
-    "owner": {
-      "name": "lance0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3323861?v=4"
     }
   },
   {
@@ -174,7 +190,7 @@
     "name": "njbrake/agent-of-empires",
     "url": "https://github.com/njbrake/agent-of-empires",
     "description": "Claude Code, OpenCode, Codex Coding Agent Terminal Session manager via tmux and git Worktrees",
-    "stars": 481,
+    "stars": 488,
     "forks": 19,
     "language": "Rust",
     "topics": [
@@ -191,78 +207,66 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-09T17:23:31Z",
-    "updated_at": "2026-01-26T02:36:15Z",
+    "updated_at": "2026-01-27T03:10:47Z",
     "owner": {
       "name": "njbrake",
       "avatar_url": "https://avatars.githubusercontent.com/u/33383515?v=4"
     }
   },
   {
-    "name": "hanebox/ekphos",
-    "url": "https://github.com/hanebox/ekphos",
-    "description": "A lightweight, fast, terminal-based markdown research tool inspired by Obsidian",
-    "stars": 463,
-    "forks": 16,
-    "language": "Rust",
-    "topics": [
-      "productivity",
-      "tui"
-    ],
-    "license": "MIT License",
-    "created_at": "2025-12-15T11:06:31Z",
-    "updated_at": "2026-01-13T00:14:21Z",
-    "owner": {
-      "name": "hanebox",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109069184?v=4"
-    }
-  },
-  {
-    "name": "yesnotrader/polymarket-copy-trading-bot-telegram-ui",
-    "url": "https://github.com/yesnotrader/polymarket-copy-trading-bot-telegram-ui",
-    "description": "Polymarket copy trading bot|Polymarket copy trading bot|Polymarket copytrading bot|Polymarket trading bot|Polymarket trading bot|Polymarket trading bot|Polymarket copy trading bot|Polymarket copy trading bot|Polymarket trading bot",
-    "stars": 442,
-    "forks": 36,
-    "language": "Rust",
-    "topics": [
-      "copy-trading",
-      "copytrading",
-      "polymarket-copy-bot",
-      "polymarket-copy-trading-bot",
-      "polymarket-copytrading-bot",
-      "polymarket-trading-bot",
-      "trading",
-      "trading-bot"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-20T23:22:15Z",
-    "updated_at": "2026-01-26T02:30:43Z",
-    "owner": {
-      "name": "yesnotrader",
-      "avatar_url": "https://avatars.githubusercontent.com/u/150507969?v=4"
-    }
-  },
-  {
     "name": "Dicklesworthstone/beads_rust",
     "url": "https://github.com/Dicklesworthstone/beads_rust",
     "description": "A fast Rust port of Steve Yegge's beads - a local-first, non-invasive issue tracker for git repositories",
-    "stars": 393,
+    "stars": 403,
     "forks": 30,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-18T19:19:59Z",
-    "updated_at": "2026-01-26T00:22:33Z",
+    "updated_at": "2026-01-27T01:55:53Z",
     "owner": {
       "name": "Dicklesworthstone",
       "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4"
     }
   },
   {
+    "name": "NORMAL-EX/LetRecovery",
+    "url": "https://github.com/NORMAL-EX/LetRecovery",
+    "description": "一款免费开源的 Windows 系统重装工具",
+    "stars": 388,
+    "forks": 41,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-01-02T15:58:14Z",
+    "updated_at": "2026-01-27T03:28:01Z",
+    "owner": {
+      "name": "NORMAL-EX",
+      "avatar_url": "https://avatars.githubusercontent.com/u/198231480?v=4"
+    }
+  },
+  {
+    "name": "davidbeesley/claude-chill",
+    "url": "https://github.com/davidbeesley/claude-chill",
+    "description": null,
+    "stars": 383,
+    "forks": 13,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-17T03:08:54Z",
+    "updated_at": "2026-01-27T02:28:24Z",
+    "owner": {
+      "name": "davidbeesley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37917398?v=4"
+    }
+  },
+  {
     "name": "cesarferreira/rip",
     "url": "https://github.com/cesarferreira/rip",
     "description": "Fuzzy find and kill processes from your terminal",
-    "stars": 379,
-    "forks": 13,
+    "stars": 381,
+    "forks": 15,
     "language": "Rust",
     "topics": [
       "kill",
@@ -271,26 +275,10 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-07T16:41:18Z",
-    "updated_at": "2026-01-25T11:40:23Z",
+    "updated_at": "2026-01-26T23:42:21Z",
     "owner": {
       "name": "cesarferreira",
       "avatar_url": "https://avatars.githubusercontent.com/u/277426?v=4"
-    }
-  },
-  {
-    "name": "davidbeesley/claude-chill",
-    "url": "https://github.com/davidbeesley/claude-chill",
-    "description": null,
-    "stars": 376,
-    "forks": 12,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-17T03:08:54Z",
-    "updated_at": "2026-01-26T03:16:13Z",
-    "owner": {
-      "name": "davidbeesley",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37917398?v=4"
     }
   },
   {
@@ -307,6 +295,22 @@
     "owner": {
       "name": "taetaehoho",
       "avatar_url": "https://avatars.githubusercontent.com/u/75167060?v=4"
+    }
+  },
+  {
+    "name": "clockworklabs/BitCraftPublic",
+    "url": "https://github.com/clockworklabs/BitCraftPublic",
+    "description": "The open source server code for the BitCraft MMORPG",
+    "stars": 369,
+    "forks": 34,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-12T09:34:27Z",
+    "updated_at": "2026-01-27T00:20:41Z",
+    "owner": {
+      "name": "clockworklabs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48072542?v=4"
     }
   },
   {
@@ -342,22 +346,6 @@
     }
   },
   {
-    "name": "NORMAL-EX/LetRecovery",
-    "url": "https://github.com/NORMAL-EX/LetRecovery",
-    "description": "一款免费开源的 Windows 系统重装工具",
-    "stars": 362,
-    "forks": 38,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-01-02T15:58:14Z",
-    "updated_at": "2026-01-26T01:27:14Z",
-    "owner": {
-      "name": "NORMAL-EX",
-      "avatar_url": "https://avatars.githubusercontent.com/u/198231480?v=4"
-    }
-  },
-  {
     "name": "neiii/bridle",
     "url": "https://github.com/neiii/bridle",
     "description": "TUI / CLI config manager for agentic harnesses (Amp, Claude Code, Opencode, Goose, Copilot CLI, Crush)",
@@ -387,35 +375,42 @@
     }
   },
   {
-    "name": "clockworklabs/BitCraftPublic",
-    "url": "https://github.com/clockworklabs/BitCraftPublic",
-    "description": "The open source server code for the BitCraft MMORPG",
-    "stars": 359,
-    "forks": 31,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-12T09:34:27Z",
-    "updated_at": "2026-01-26T03:39:09Z",
-    "owner": {
-      "name": "clockworklabs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48072542?v=4"
-    }
-  },
-  {
-    "name": "tonisives/ovim",
-    "url": "https://github.com/tonisives/ovim",
-    "description": "macOS system wide vim mode",
-    "stars": 356,
-    "forks": 8,
+    "name": "kuse-ai/kuse_cowork",
+    "url": "https://github.com/kuse-ai/kuse_cowork",
+    "description": "Open-source Alternative to Claude Cowork Desktop App By Kuse",
+    "stars": 343,
+    "forks": 38,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2025-12-15T06:10:52Z",
-    "updated_at": "2026-01-12T22:48:03Z",
+    "created_at": "2026-01-17T17:42:35Z",
+    "updated_at": "2026-01-27T03:37:42Z",
     "owner": {
-      "name": "tonisives",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1083534?v=4"
+      "name": "kuse-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/147392345?v=4"
+    }
+  },
+  {
+    "name": "1jehuang/mermaid-rs-renderer",
+    "url": "https://github.com/1jehuang/mermaid-rs-renderer",
+    "description": "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli.",
+    "stars": 342,
+    "forks": 10,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "diagram",
+      "flowchart",
+      "mermaid",
+      "rust",
+      "svg"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-22T06:18:34Z",
+    "updated_at": "2026-01-27T03:26:09Z",
+    "owner": {
+      "name": "1jehuang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94247773?v=4"
     }
   },
   {
@@ -445,22 +440,6 @@
     }
   },
   {
-    "name": "kuse-ai/kuse_cowork",
-    "url": "https://github.com/kuse-ai/kuse_cowork",
-    "description": "Open-source Alternative to Claude Cowork Desktop App By Kuse",
-    "stars": 332,
-    "forks": 35,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-17T17:42:35Z",
-    "updated_at": "2026-01-26T02:39:40Z",
-    "owner": {
-      "name": "kuse-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/147392345?v=4"
-    }
-  },
-  {
     "name": "jgarzik/hk",
     "url": "https://github.com/jgarzik/hk",
     "description": "A modern, Linux compatible OS kernel",
@@ -481,6 +460,22 @@
     }
   },
   {
+    "name": "cachebag/payme",
+    "url": "https://github.com/cachebag/payme",
+    "description": "Personal finance tracking application.",
+    "stars": 326,
+    "forks": 20,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-03T21:37:19Z",
+    "updated_at": "2026-01-26T04:48:27Z",
+    "owner": {
+      "name": "cachebag",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111914307?v=4"
+    }
+  },
+  {
     "name": "ghuntley/loom",
     "url": "https://github.com/ghuntley/loom",
     "description": "if your name is not Geoffrey Huntley then do not use loom",
@@ -497,58 +492,44 @@
     }
   },
   {
-    "name": "cachebag/payme",
-    "url": "https://github.com/cachebag/payme",
-    "description": "Personal finance tracking application.",
-    "stars": 324,
-    "forks": 21,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-03T21:37:19Z",
-    "updated_at": "2026-01-25T22:36:16Z",
-    "owner": {
-      "name": "cachebag",
-      "avatar_url": "https://avatars.githubusercontent.com/u/111914307?v=4"
-    }
-  },
-  {
     "name": "karpathy/rustbpe",
     "url": "https://github.com/karpathy/rustbpe",
     "description": "The missing tiktoken training code",
-    "stars": 318,
+    "stars": 320,
     "forks": 22,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-03T21:20:46Z",
-    "updated_at": "2026-01-25T10:23:56Z",
+    "updated_at": "2026-01-26T20:37:47Z",
     "owner": {
       "name": "karpathy",
       "avatar_url": "https://avatars.githubusercontent.com/u/241138?v=4"
     }
   },
   {
-    "name": "1jehuang/mermaid-rs-renderer",
-    "url": "https://github.com/1jehuang/mermaid-rs-renderer",
-    "description": "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli.",
-    "stars": 295,
-    "forks": 6,
+    "name": "yesnotrader/polymarket-copy-trading-bot-telegram-ui",
+    "url": "https://github.com/yesnotrader/polymarket-copy-trading-bot-telegram-ui",
+    "description": "Polymarket copy trading bot|Polymarket copy trading bot|Polymarket copytrading bot|Polymarket trading bot|Polymarket trading bot|Polymarket trading bot|Polymarket copy trading bot|Polymarket copy trading bot|Polymarket trading bot",
+    "stars": 318,
+    "forks": 31,
     "language": "Rust",
     "topics": [
-      "cli",
-      "diagram",
-      "flowchart",
-      "mermaid",
-      "rust",
-      "svg"
+      "copy-trading",
+      "copytrading",
+      "polymarket-copy-bot",
+      "polymarket-copy-trading-bot",
+      "polymarket-copytrading-bot",
+      "polymarket-trading-bot",
+      "trading",
+      "trading-bot"
     ],
     "license": "MIT License",
-    "created_at": "2026-01-22T06:18:34Z",
-    "updated_at": "2026-01-26T03:52:35Z",
+    "created_at": "2026-01-20T23:22:15Z",
+    "updated_at": "2026-01-27T03:45:12Z",
     "owner": {
-      "name": "1jehuang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/94247773?v=4"
+      "name": "yesnotrader",
+      "avatar_url": "https://avatars.githubusercontent.com/u/150507969?v=4"
     }
   },
   {
@@ -621,8 +602,8 @@
     "name": "SIGNIAINDEX/SIGNIA",
     "url": "https://github.com/SIGNIAINDEX/SIGNIA",
     "description": "Compiling real-world structures into verifiable on-chain forms.",
-    "stars": 220,
-    "forks": 21,
+    "stars": 221,
+    "forks": 23,
     "language": "Rust",
     "topics": [
       "ai",
@@ -643,7 +624,7 @@
     ],
     "license": "Other",
     "created_at": "2026-01-18T15:32:45Z",
-    "updated_at": "2026-01-24T18:38:20Z",
+    "updated_at": "2026-01-26T12:48:41Z",
     "owner": {
       "name": "SIGNIAINDEX",
       "avatar_url": "https://avatars.githubusercontent.com/u/255679795?v=4"
@@ -653,8 +634,8 @@
     "name": "Mygod/slipstream-rust",
     "url": "https://github.com/Mygod/slipstream-rust",
     "description": "High-performance multi-path covert channel over DNS in Rust with vibe coding",
-    "stars": 211,
-    "forks": 55,
+    "stars": 221,
+    "forks": 59,
     "language": "Rust",
     "topics": [
       "censorship-circumvention",
@@ -667,17 +648,33 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-01-09T04:27:07Z",
-    "updated_at": "2026-01-25T21:57:21Z",
+    "updated_at": "2026-01-27T00:16:45Z",
     "owner": {
       "name": "Mygod",
       "avatar_url": "https://avatars.githubusercontent.com/u/3511321?v=4"
     }
   },
   {
+    "name": "Dicklesworthstone/destructive_command_guard",
+    "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+    "description": "A Claude Code hook that blocks destructive git and filesystem commands",
+    "stars": 216,
+    "forks": 17,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-07T22:27:34Z",
+    "updated_at": "2026-01-27T01:30:14Z",
+    "owner": {
+      "name": "Dicklesworthstone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4"
+    }
+  },
+  {
     "name": "agavra/tuicr",
     "url": "https://github.com/agavra/tuicr",
     "description": "A human-in-the-loop code review TUI for AI-generated changes.",
-    "stars": 199,
+    "stars": 204,
     "forks": 22,
     "language": "Rust",
     "topics": [
@@ -688,7 +685,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-08T04:55:34Z",
-    "updated_at": "2026-01-25T19:53:24Z",
+    "updated_at": "2026-01-26T23:58:08Z",
     "owner": {
       "name": "agavra",
       "avatar_url": "https://avatars.githubusercontent.com/u/3172405?v=4"
@@ -743,7 +740,7 @@
     "name": "wlswo/xray",
     "url": "https://github.com/wlswo/xray",
     "description": "A simple, intuitive, and light universal UI capture and inspection tool for macOS",
-    "stars": 183,
+    "stars": 184,
     "forks": 10,
     "language": "Rust",
     "topics": [
@@ -752,7 +749,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-01-14T05:09:45Z",
-    "updated_at": "2026-01-25T19:26:54Z",
+    "updated_at": "2026-01-26T06:00:02Z",
     "owner": {
       "name": "wlswo",
       "avatar_url": "https://avatars.githubusercontent.com/u/103496262?v=4"
@@ -762,13 +759,13 @@
     "name": "scipenai/tylax",
     "url": "https://github.com/scipenai/tylax",
     "description": "A bi-directional converter between Typst and LaTeX. Available as both a CLI tool and a Web interface.",
-    "stars": 176,
+    "stars": 179,
     "forks": 6,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-01-05T03:12:17Z",
-    "updated_at": "2026-01-25T16:42:06Z",
+    "updated_at": "2026-01-26T17:09:58Z",
     "owner": {
       "name": "scipenai",
       "avatar_url": "https://avatars.githubusercontent.com/u/233201817?v=4"
@@ -778,29 +775,45 @@
     "name": "minimaxir/miditui",
     "url": "https://github.com/minimaxir/miditui",
     "description": "An interactive terminal app/UI for MIDI composing, mixing, and playback—written in Rust",
-    "stars": 175,
+    "stars": 177,
     "forks": 8,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-05T07:44:57Z",
-    "updated_at": "2026-01-24T19:25:23Z",
+    "updated_at": "2026-01-26T08:45:57Z",
     "owner": {
       "name": "minimaxir",
       "avatar_url": "https://avatars.githubusercontent.com/u/2179708?v=4"
     }
   },
   {
+    "name": "tanaer/WindowsClear",
+    "url": "https://github.com/tanaer/WindowsClear",
+    "description": "Windows C盘清理工具/C盘瘦身工具，还你Appdata的大量硬盘空间 | Windows System disk cleanup, returning a large amount of hard drive space from your Appdata",
+    "stars": 170,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-24T09:12:25Z",
+    "updated_at": "2026-01-27T03:15:07Z",
+    "owner": {
+      "name": "tanaer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3828685?v=4"
+    }
+  },
+  {
     "name": "Handfish/talos-pilot",
     "url": "https://github.com/Handfish/talos-pilot",
     "description": "Talos TUI for real-time node monitoring, log streaming, etcd health, and diagnostics",
-    "stars": 168,
+    "stars": 170,
     "forks": 8,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-12T04:26:54Z",
-    "updated_at": "2026-01-25T23:49:44Z",
+    "updated_at": "2026-01-26T19:22:42Z",
     "owner": {
       "name": "Handfish",
       "avatar_url": "https://avatars.githubusercontent.com/u/7737624?v=4"
@@ -848,10 +861,26 @@
     }
   },
   {
+    "name": "samvallad33/vestige",
+    "url": "https://github.com/samvallad33/vestige",
+    "description": "Cognitive memory MCP server for Claude - FSRS-6, spreading activation, synaptic tagging, and 130 years of memory research",
+    "stars": 159,
+    "forks": 13,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-01-25T07:31:09Z",
+    "updated_at": "2026-01-27T03:39:45Z",
+    "owner": {
+      "name": "samvallad33",
+      "avatar_url": "https://avatars.githubusercontent.com/u/143034159?v=4"
+    }
+  },
+  {
     "name": "dahlia/hongdown",
     "url": "https://github.com/dahlia/hongdown",
     "description": "A Markdown formatter that enforces Hong Minhee's Markdown style conventions",
-    "stars": 154,
+    "stars": 155,
     "forks": 6,
     "language": "Rust",
     "topics": [
@@ -862,7 +891,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-01-06T19:13:53Z",
-    "updated_at": "2026-01-23T08:12:14Z",
+    "updated_at": "2026-01-26T12:36:43Z",
     "owner": {
       "name": "dahlia",
       "avatar_url": "https://avatars.githubusercontent.com/u/12431?v=4"
@@ -872,13 +901,13 @@
     "name": "xM0kht4r/AV-EDR-Killer",
     "url": "https://github.com/xM0kht4r/AV-EDR-Killer",
     "description": "AV/EDR processes termination by exploiting a vulnerable driver (BYOVD)",
-    "stars": 153,
+    "stars": 155,
     "forks": 24,
     "language": "Rust",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-01-10T22:42:42Z",
-    "updated_at": "2026-01-26T02:34:21Z",
+    "updated_at": "2026-01-26T21:39:29Z",
     "owner": {
       "name": "xM0kht4r",
       "avatar_url": "https://avatars.githubusercontent.com/u/26775853?v=4"
