@@ -24,7 +24,7 @@
     "name": "sane-apps/SaneBar",
     "url": "https://github.com/sane-apps/SaneBar",
     "description": "The privacy-first menu bar manager for macOS. Native, lightweight, and scriptable.",
-    "stars": 133,
+    "stars": 135,
     "forks": 9,
     "language": "Ruby",
     "topics": [
@@ -46,7 +46,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-02T00:47:55Z",
-    "updated_at": "2026-01-27T21:09:57Z",
+    "updated_at": "2026-01-28T21:52:02Z",
     "owner": {
       "name": "sane-apps",
       "avatar_url": "https://avatars.githubusercontent.com/u/254177780?v=4"
@@ -166,7 +166,7 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-06T18:28:55Z",
-    "updated_at": "2026-01-27T10:33:37Z",
+    "updated_at": "2026-01-28T19:43:22Z",
     "owner": {
       "name": "ggerman",
       "avatar_url": "https://avatars.githubusercontent.com/u/723460?v=4"
@@ -348,6 +348,38 @@
     }
   },
   {
+    "name": "vifreefly/nukitori",
+    "url": "https://github.com/vifreefly/nukitori",
+    "description": "Nukitori is a Ruby gem for HTML data extraction. It uses an LLM once to generate reusable XPath schemas, then extracts structured data from similarly structured pages using plain Nokogiri. This makes scraping fast, predictable, and cheap for repeated runs.",
+    "stars": 26,
+    "forks": 1,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-06T16:03:05Z",
+    "updated_at": "2026-01-28T23:00:38Z",
+    "owner": {
+      "name": "vifreefly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42641380?v=4"
+    }
+  },
+  {
+    "name": "dlt/faultline",
+    "url": "https://github.com/dlt/faultline",
+    "description": "Self-hosted embedded error tracking Rails engine. Track errors, get notified via Telegram/Slack/webhooks, and resolve issues with a clean dashboard—all without external services or SaaS fees.",
+    "stars": 26,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-10T07:16:01Z",
+    "updated_at": "2026-01-28T18:23:58Z",
+    "owner": {
+      "name": "dlt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48270?v=4"
+    }
+  },
+  {
     "name": "aviflombaum/railspress-engine",
     "url": "https://github.com/aviflombaum/railspress-engine",
     "description": null,
@@ -361,38 +393,6 @@
     "owner": {
       "name": "aviflombaum",
       "avatar_url": "https://avatars.githubusercontent.com/u/4515?v=4"
-    }
-  },
-  {
-    "name": "vifreefly/nukitori",
-    "url": "https://github.com/vifreefly/nukitori",
-    "description": "Nukitori is a Ruby gem for HTML data extraction. It uses an LLM once to generate reusable XPath schemas, then extracts structured data from similarly structured pages using plain Nokogiri. This makes scraping fast, predictable, and cheap for repeated runs.",
-    "stars": 23,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-06T16:03:05Z",
-    "updated_at": "2026-01-27T21:57:23Z",
-    "owner": {
-      "name": "vifreefly",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42641380?v=4"
-    }
-  },
-  {
-    "name": "dlt/faultline",
-    "url": "https://github.com/dlt/faultline",
-    "description": "Self-hosted embedded error tracking Rails engine. Track errors, get notified via Telegram/Slack/webhooks, and resolve issues with a clean dashboard—all without external services or SaaS fees.",
-    "stars": 23,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-10T07:16:01Z",
-    "updated_at": "2026-01-26T19:18:25Z",
-    "owner": {
-      "name": "dlt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48270?v=4"
     }
   },
   {
@@ -431,16 +431,54 @@
     "name": "works-on-your-machine/prompt_objects",
     "url": "https://github.com/works-on-your-machine/prompt_objects",
     "description": null,
-    "stars": 16,
+    "stars": 17,
     "forks": 1,
     "language": "Ruby",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-15T20:23:11Z",
-    "updated_at": "2026-01-27T04:47:28Z",
+    "updated_at": "2026-01-28T08:45:00Z",
     "owner": {
       "name": "works-on-your-machine",
       "avatar_url": "https://avatars.githubusercontent.com/u/240769486?v=4"
+    }
+  },
+  {
+    "name": "milkstrawai/branch_db",
+    "url": "https://github.com/milkstrawai/branch_db",
+    "description": "Automatic per-branch PostgreSQL databases for Rails development",
+    "stars": 14,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [
+      "database",
+      "development",
+      "git-branches",
+      "postgresql",
+      "ruby-on-rails"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-15T18:49:20Z",
+    "updated_at": "2026-01-28T21:40:12Z",
+    "owner": {
+      "name": "milkstrawai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132026648?v=4"
+    }
+  },
+  {
+    "name": "giovantenne/lastsignal",
+    "url": "https://github.com/giovantenne/lastsignal",
+    "description": "A self-hosted dead man's switch for delivering encrypted messages (E2EE) to your loved ones — when you're gone or unresponsive.",
+    "stars": 14,
+    "forks": 1,
+    "language": "Ruby",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-01-21T09:25:42Z",
+    "updated_at": "2026-01-28T23:17:00Z",
+    "owner": {
+      "name": "giovantenne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/917400?v=4"
     }
   },
   {
@@ -483,7 +521,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-15T14:03:56Z",
-    "updated_at": "2026-01-25T23:15:36Z",
+    "updated_at": "2026-01-28T19:40:37Z",
     "owner": {
       "name": "alec-c4",
       "avatar_url": "https://avatars.githubusercontent.com/u/25312?v=4"
@@ -516,7 +554,7 @@
     "name": "hoblin/claude-ruby-marketplace",
     "url": "https://github.com/hoblin/claude-ruby-marketplace",
     "description": "Claude Code plugin marketplace for Ruby and Rails development",
-    "stars": 12,
+    "stars": 13,
     "forks": 0,
     "language": "Ruby",
     "topics": [
@@ -536,10 +574,45 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-01T13:40:33Z",
-    "updated_at": "2026-01-27T11:06:55Z",
+    "updated_at": "2026-01-29T03:57:01Z",
     "owner": {
       "name": "hoblin",
       "avatar_url": "https://avatars.githubusercontent.com/u/28090?v=4"
+    }
+  },
+  {
+    "name": "kieranklaassen/ruby_llm-skills",
+    "url": "https://github.com/kieranklaassen/ruby_llm-skills",
+    "description": "Agent Skills extension for RubyLLM - load, validate, and integrate skills from filesystem or database",
+    "stars": 13,
+    "forks": 1,
+    "language": "Ruby",
+    "topics": [
+      "rubyllm",
+      "skills"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-16T02:39:30Z",
+    "updated_at": "2026-01-28T11:14:50Z",
+    "owner": {
+      "name": "kieranklaassen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209089?v=4"
+    }
+  },
+  {
+    "name": "JohnsonGnanasekar/query_console",
+    "url": "https://github.com/JohnsonGnanasekar/query_console",
+    "description": "Mountable Rails engine for secure read-only SQL queries",
+    "stars": 12,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-15T13:55:58Z",
+    "updated_at": "2026-01-28T10:37:48Z",
+    "owner": {
+      "name": "JohnsonGnanasekar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49266702?v=4"
     }
   },
   {
@@ -552,10 +625,49 @@
     "topics": [],
     "license": "Other",
     "created_at": "2025-12-31T15:08:46Z",
-    "updated_at": "2026-01-27T10:26:27Z",
+    "updated_at": "2026-01-29T00:35:09Z",
     "owner": {
       "name": "RatatuiRuby",
       "avatar_url": "https://avatars.githubusercontent.com/u/252350014?v=4"
+    }
+  },
+  {
+    "name": "alec-c4/ffmpeg_core",
+    "url": "https://github.com/alec-c4/ffmpeg_core",
+    "description": "Modern Ruby wrapper for FFmpeg with clean API and proper error handling.",
+    "stars": 11,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [
+      "ffmpeg",
+      "ffmpeg-wrapper",
+      "ruby",
+      "ruby-on-rails",
+      "video",
+      "video-processing"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-14T14:47:26Z",
+    "updated_at": "2026-01-28T09:09:54Z",
+    "owner": {
+      "name": "alec-c4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25312?v=4"
+    }
+  },
+  {
+    "name": "lukefan/subtitle_translate_ruby",
+    "url": "https://github.com/lukefan/subtitle_translate_ruby",
+    "description": null,
+    "stars": 11,
+    "forks": 5,
+    "language": "Ruby",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-23T08:58:25Z",
+    "updated_at": "2026-01-25T15:44:52Z",
+    "owner": {
+      "name": "lukefan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3324749?v=4"
     }
   },
   {
@@ -581,80 +693,6 @@
     }
   },
   {
-    "name": "alec-c4/ffmpeg_core",
-    "url": "https://github.com/alec-c4/ffmpeg_core",
-    "description": "Modern Ruby wrapper for FFmpeg with clean API and proper error handling.",
-    "stars": 11,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [
-      "ffmpeg",
-      "ffmpeg-wrapper",
-      "ruby",
-      "ruby-on-rails",
-      "video",
-      "video-processing"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-14T14:47:26Z",
-    "updated_at": "2026-01-27T15:38:10Z",
-    "owner": {
-      "name": "alec-c4",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25312?v=4"
-    }
-  },
-  {
-    "name": "kieranklaassen/ruby_llm-skills",
-    "url": "https://github.com/kieranklaassen/ruby_llm-skills",
-    "description": "Agent Skills extension for RubyLLM - load, validate, and integrate skills from filesystem or database",
-    "stars": 11,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [
-      "rubyllm",
-      "skills"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-16T02:39:30Z",
-    "updated_at": "2026-01-28T01:19:41Z",
-    "owner": {
-      "name": "kieranklaassen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/209089?v=4"
-    }
-  },
-  {
-    "name": "lukefan/subtitle_translate_ruby",
-    "url": "https://github.com/lukefan/subtitle_translate_ruby",
-    "description": null,
-    "stars": 11,
-    "forks": 5,
-    "language": "Ruby",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-23T08:58:25Z",
-    "updated_at": "2026-01-25T15:44:52Z",
-    "owner": {
-      "name": "lukefan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3324749?v=4"
-    }
-  },
-  {
-    "name": "bart-oz/sqlite_crypto",
-    "url": "https://github.com/bart-oz/sqlite_crypto",
-    "description": "Seamless UUID/ULID support for Rails 8 with SQLite",
-    "stars": 11,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-19T12:45:48Z",
-    "updated_at": "2026-01-14T15:14:41Z",
-    "owner": {
-      "name": "bart-oz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32847561?v=4"
-    }
-  },
-  {
     "name": "persona-id/arctic",
     "url": "https://github.com/persona-id/arctic",
     "description": "Frozen, deduplicated environment variable access in ruby",
@@ -668,6 +706,22 @@
     "owner": {
       "name": "persona-id",
       "avatar_url": "https://avatars.githubusercontent.com/u/42027496?v=4"
+    }
+  },
+  {
+    "name": "tobi/liquid-il",
+    "url": "https://github.com/tobi/liquid-il",
+    "description": "A Liquid template engine, 100% vibe coded by Claude Code against liquid-spec",
+    "stars": 10,
+    "forks": 2,
+    "language": "Ruby",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-07T03:28:15Z",
+    "updated_at": "2026-01-28T13:56:05Z",
+    "owner": {
+      "name": "tobi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/347?v=4"
     }
   },
   {
