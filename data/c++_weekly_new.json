@@ -51,7 +51,7 @@
     "name": "mitjafelicijan/xdgctl",
     "url": "https://github.com/mitjafelicijan/xdgctl",
     "description": "TUI for managing XDG default applications",
-    "stars": 190,
+    "stars": 191,
     "forks": 5,
     "language": "C",
     "topics": [
@@ -62,26 +62,10 @@
     ],
     "license": "BSD 2-Clause \"Simplified\" License",
     "created_at": "2026-01-25T11:03:23Z",
-    "updated_at": "2026-01-29T01:40:08Z",
+    "updated_at": "2026-01-29T20:15:49Z",
     "owner": {
       "name": "mitjafelicijan",
       "avatar_url": "https://avatars.githubusercontent.com/u/296714?v=4"
-    }
-  },
-  {
-    "name": "jhynes94/C_BitPacking",
-    "url": "https://github.com/jhynes94/C_BitPacking",
-    "description": null,
-    "stars": 175,
-    "forks": 4,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-10T06:03:22Z",
-    "updated_at": "2026-01-15T13:20:55Z",
-    "owner": {
-      "name": "jhynes94",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5491647?v=4"
     }
   },
   {
@@ -133,22 +117,6 @@
     }
   },
   {
-    "name": "antirez/gte-pure-C",
-    "url": "https://github.com/antirez/gte-pure-C",
-    "description": "Pure C inference for the GTE Small embedding model",
-    "stars": 90,
-    "forks": 6,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-10T21:52:45Z",
-    "updated_at": "2026-01-15T06:29:07Z",
-    "owner": {
-      "name": "antirez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
-    }
-  },
-  {
     "name": "matreshka15/MouseFix",
     "url": "https://github.com/matreshka15/MouseFix",
     "description": "🖱️ Fix your mouse issues instantly! A lightweight Windows tool that stops false double-clicks and wheel glitches. Free, open-source, and zero interference. 🚀",
@@ -172,6 +140,22 @@
     "owner": {
       "name": "matreshka15",
       "avatar_url": "https://avatars.githubusercontent.com/u/46095089?v=4"
+    }
+  },
+  {
+    "name": "antirez/whisperbot",
+    "url": "https://github.com/antirez/whisperbot",
+    "description": "Telegram bot that transcribes audio messages via whisper.cpp",
+    "stars": 84,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-27T19:09:40Z",
+    "updated_at": "2026-01-29T21:39:10Z",
+    "owner": {
+      "name": "antirez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
     }
   },
   {
@@ -239,19 +223,19 @@
     }
   },
   {
-    "name": "antirez/whisperbot",
-    "url": "https://github.com/antirez/whisperbot",
-    "description": "Telegram bot that transcribes audio messages via whisper.cpp",
-    "stars": 73,
-    "forks": 2,
+    "name": "CodeXTF2/OpenMalleableC2",
+    "url": "https://github.com/CodeXTF2/OpenMalleableC2",
+    "description": "Open Source Implementation of Cobalt Strike's Malleable C2",
+    "stars": 72,
+    "forks": 9,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-01-27T19:09:40Z",
-    "updated_at": "2026-01-29T00:57:06Z",
+    "created_at": "2026-01-27T09:23:22Z",
+    "updated_at": "2026-01-30T03:42:16Z",
     "owner": {
-      "name": "antirez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
+      "name": "CodeXTF2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29991665?v=4"
     }
   },
   {
@@ -287,19 +271,23 @@
     }
   },
   {
-    "name": "CodeXTF2/OpenMalleableC2",
-    "url": "https://github.com/CodeXTF2/OpenMalleableC2",
-    "description": "Open Source Implementation of Cobalt Strike's Malleable C2",
-    "stars": 58,
-    "forks": 7,
+    "name": "multikernel/daxfs",
+    "url": "https://github.com/multikernel/daxfs",
+    "description": "DAXFS is a secure delta-log filesystem for byte-addressable persistent memory.",
+    "stars": 57,
+    "forks": 4,
     "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-27T09:23:22Z",
-    "updated_at": "2026-01-29T02:03:19Z",
+    "topics": [
+      "cxl",
+      "linux",
+      "linux-kernel"
+    ],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-01-24T00:03:31Z",
+    "updated_at": "2026-01-30T02:47:21Z",
     "owner": {
-      "name": "CodeXTF2",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29991665?v=4"
+      "name": "multikernel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/202362072?v=4"
     }
   },
   {
@@ -335,26 +323,6 @@
     }
   },
   {
-    "name": "multikernel/daxfs",
-    "url": "https://github.com/multikernel/daxfs",
-    "description": "DAXFS is a copy-on-write branching for shared memory filesystem",
-    "stars": 53,
-    "forks": 4,
-    "language": "C",
-    "topics": [
-      "cxl",
-      "linux",
-      "linux-kernel"
-    ],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-01-24T00:03:31Z",
-    "updated_at": "2026-01-28T01:39:59Z",
-    "owner": {
-      "name": "multikernel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/202362072?v=4"
-    }
-  },
-  {
     "name": "Maldev-Academy/PrefetchFileParser",
     "url": "https://github.com/Maldev-Academy/PrefetchFileParser",
     "description": "A lightweight Windows Prefetch file parser to extract programs' execution history",
@@ -373,14 +341,14 @@
   {
     "name": "RickdeJager/RCECoaster",
     "url": "https://github.com/RickdeJager/RCECoaster",
-    "description": null,
-    "stars": 38,
+    "description": "A save game exploit for Rollercoaster Tycoon 1, as presented at Districtcon Junkyard 2026",
+    "stars": 39,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-24T21:12:38Z",
-    "updated_at": "2026-01-28T06:55:46Z",
+    "updated_at": "2026-01-29T18:30:29Z",
     "owner": {
       "name": "RickdeJager",
       "avatar_url": "https://avatars.githubusercontent.com/u/29239050?v=4"
@@ -670,22 +638,6 @@
     }
   },
   {
-    "name": "antirez/zxfy",
-    "url": "https://github.com/antirez/zxfy",
-    "description": "Evolve ZX Spectrum video memory bits to target a specific PNG image",
-    "stars": 18,
-    "forks": 6,
-    "language": "C",
-    "topics": [],
-    "license": "BSD 2-Clause \"Simplified\" License",
-    "created_at": "2026-01-10T07:53:48Z",
-    "updated_at": "2026-01-15T19:39:25Z",
-    "owner": {
-      "name": "antirez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
-    }
-  },
-  {
     "name": "Mr-Wiseguy/Nostalgia64Recomp",
     "url": "https://github.com/Mr-Wiseguy/Nostalgia64Recomp",
     "description": "Banjo: Recompiled version of the Banjo-Kazooie mod BK Nostalgia 64 by Kurko Mods.",
@@ -743,10 +695,26 @@
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-01-24T20:03:19Z",
-    "updated_at": "2026-01-28T20:33:54Z",
+    "updated_at": "2026-01-30T01:08:31Z",
     "owner": {
       "name": "RobertIsmo",
       "avatar_url": "https://avatars.githubusercontent.com/u/85849332?v=4"
+    }
+  },
+  {
+    "name": "valdanylchuk/breezydemo",
+    "url": "https://github.com/valdanylchuk/breezydemo",
+    "description": "BreezyBox shell demo for esp32s3",
+    "stars": 15,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-26T15:32:58Z",
+    "updated_at": "2026-01-29T19:53:37Z",
+    "owner": {
+      "name": "valdanylchuk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/621005?v=4"
     }
   },
   {
@@ -807,19 +775,19 @@
     }
   },
   {
-    "name": "SarahRoseLives/Pocket25",
-    "url": "https://github.com/SarahRoseLives/Pocket25",
-    "description": "Pocket25 - The Mobile P25 Radio Decoder",
-    "stars": 14,
+    "name": "al13n321/0.5players",
+    "url": "https://github.com/al13n321/0.5players",
+    "description": "Unofficial interactive version of the game 0PLAYER",
+    "stars": 13,
     "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-01-10T12:58:18Z",
-    "updated_at": "2026-01-16T01:47:02Z",
+    "license": "No license",
+    "created_at": "2026-01-26T10:06:21Z",
+    "updated_at": "2026-01-30T01:46:41Z",
     "owner": {
-      "name": "SarahRoseLives",
-      "avatar_url": "https://avatars.githubusercontent.com/u/156587765?v=4"
+      "name": "al13n321",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3629776?v=4"
     }
   },
   {
@@ -839,22 +807,6 @@
     }
   },
   {
-    "name": "thecatontheceiling/CLiPExploder",
-    "url": "https://github.com/thecatontheceiling/CLiPExploder",
-    "description": "A fancy in-place decryptor for the ClipSp.sys kernel driver included with Windows",
-    "stars": 13,
-    "forks": 3,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-01-11T17:11:54Z",
-    "updated_at": "2026-01-16T01:31:37Z",
-    "owner": {
-      "name": "thecatontheceiling",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75037904?v=4"
-    }
-  },
-  {
     "name": "PLACITECH/PC-Control-Panel-PLACITECH",
     "url": "https://github.com/PLACITECH/PC-Control-Panel-PLACITECH",
     "description": null,
@@ -868,22 +820,6 @@
     "owner": {
       "name": "PLACITECH",
       "avatar_url": "https://avatars.githubusercontent.com/u/123326873?v=4"
-    }
-  },
-  {
-    "name": "steffest/rubbur",
-    "url": "https://github.com/steffest/rubbur",
-    "description": "An oldskool demo for Amiga OCS",
-    "stars": 12,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-11T06:22:51Z",
-    "updated_at": "2026-01-15T15:41:44Z",
-    "owner": {
-      "name": "steffest",
-      "avatar_url": "https://avatars.githubusercontent.com/u/763047?v=4"
     }
   },
   {
@@ -908,6 +844,29 @@
     "owner": {
       "name": "gen0sec",
       "avatar_url": "https://avatars.githubusercontent.com/u/214268067?v=4"
+    }
+  },
+  {
+    "name": "PeterHackz/project-qemu",
+    "url": "https://github.com/PeterHackz/project-qemu",
+    "description": "Custom ARM64 ELF loader that runs an Android game library under QEMU, resolves deps/relocations, and extracts the obfuscated server public key.",
+    "stars": 11,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "arm64",
+      "chroot",
+      "emulation",
+      "linker",
+      "qemu",
+      "reverse-engineering"
+    ],
+    "license": "No license",
+    "created_at": "2026-01-28T14:03:25Z",
+    "updated_at": "2026-01-29T20:46:39Z",
+    "owner": {
+      "name": "PeterHackz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86655602?v=4"
     }
   },
   {
@@ -959,22 +918,6 @@
     }
   },
   {
-    "name": "Brokenagain-motorsport/Speeduino-Dash",
-    "url": "https://github.com/Brokenagain-motorsport/Speeduino-Dash",
-    "description": "Low cost digital dashboard to connect to speeduino ECU via Serial 3",
-    "stars": 11,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-01-13T13:44:26Z",
-    "updated_at": "2026-01-15T22:42:09Z",
-    "owner": {
-      "name": "Brokenagain-motorsport",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167320679?v=4"
-    }
-  },
-  {
     "name": "Espilon-Net/espilon-source",
     "url": "https://github.com/Espilon-Net/espilon-source",
     "description": null,
@@ -1004,6 +947,38 @@
     "owner": {
       "name": "X-Gen-Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/207864109?v=4"
+    }
+  },
+  {
+    "name": "taf2/pocket-tts.c",
+    "url": "https://github.com/taf2/pocket-tts.c",
+    "description": "Pocket TTS but pure C implementation inspired by Flux2.c",
+    "stars": 10,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-27T16:31:47Z",
+    "updated_at": "2026-01-29T07:29:13Z",
+    "owner": {
+      "name": "taf2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1568?v=4"
+    }
+  },
+  {
+    "name": "kerneltoast/android_kernel_google_tensynos",
+    "url": "https://github.com/kerneltoast/android_kernel_google_tensynos",
+    "description": "Pixel 7, 8, and 9 series kernel.",
+    "stars": 10,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-01-26T05:36:23Z",
+    "updated_at": "2026-01-29T14:29:26Z",
+    "owner": {
+      "name": "kerneltoast",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2985099?v=4"
     }
   },
   {
