@@ -51,13 +51,13 @@
     "name": "deepseek-ai/DeepSeek-OCR-2",
     "url": "https://github.com/deepseek-ai/DeepSeek-OCR-2",
     "description": "Visual Causal Flow",
-    "stars": 1607,
-    "forks": 102,
+    "stars": 1712,
+    "forks": 119,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-01-27T03:05:42Z",
-    "updated_at": "2026-01-30T03:31:29Z",
+    "updated_at": "2026-01-31T02:55:16Z",
     "owner": {
       "name": "deepseek-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/148330874?v=4"
@@ -104,19 +104,25 @@
     }
   },
   {
-    "name": "1rgs/nanocode",
-    "url": "https://github.com/1rgs/nanocode",
-    "description": "Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lines.",
-    "stars": 1360,
-    "forks": 112,
+    "name": "Robbyant/lingbot-world",
+    "url": "https://github.com/Robbyant/lingbot-world",
+    "description": "Advancing Open-source World Models",
+    "stars": 1134,
+    "forks": 44,
     "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-11T02:12:27Z",
-    "updated_at": "2026-01-17T03:16:38Z",
+    "topics": [
+      "aigc",
+      "image-to-video",
+      "lingbot-world",
+      "video-generation",
+      "world-models"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-28T04:52:50Z",
+    "updated_at": "2026-01-31T04:01:33Z",
     "owner": {
-      "name": "1rgs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20087438?v=4"
+      "name": "Robbyant",
+      "avatar_url": "https://avatars.githubusercontent.com/u/212647524?v=4"
     }
   },
   {
@@ -152,28 +158,6 @@
     }
   },
   {
-    "name": "Robbyant/lingbot-world",
-    "url": "https://github.com/Robbyant/lingbot-world",
-    "description": "Advancing Open-source World Models",
-    "stars": 881,
-    "forks": 32,
-    "language": "Python",
-    "topics": [
-      "aigc",
-      "image-to-video",
-      "lingbot-world",
-      "video-generation",
-      "world-models"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-28T04:52:50Z",
-    "updated_at": "2026-01-30T04:02:22Z",
-    "owner": {
-      "name": "Robbyant",
-      "avatar_url": "https://avatars.githubusercontent.com/u/212647524?v=4"
-    }
-  },
-  {
     "name": "op7418/Youtube-clipper-skill",
     "url": "https://github.com/op7418/Youtube-clipper-skill",
     "description": null,
@@ -187,6 +171,22 @@
     "owner": {
       "name": "op7418",
       "avatar_url": "https://avatars.githubusercontent.com/u/13505770?v=4"
+    }
+  },
+  {
+    "name": "QwenLM/Qwen3-ASR",
+    "url": "https://github.com/QwenLM/Qwen3-ASR",
+    "description": "Qwen3-ASR is an open-source series of ASR models developed by the Qwen team at Alibaba Cloud, supporting stable multilingual speech/music/song recognition, language detection and timestamp prediction.",
+    "stars": 777,
+    "forks": 50,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-28T05:44:59Z",
+    "updated_at": "2026-01-31T03:58:46Z",
+    "owner": {
+      "name": "QwenLM",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141221163?v=4"
     }
   },
   {
@@ -293,16 +293,45 @@
     "name": "Robbyant/lingbot-depth",
     "url": "https://github.com/Robbyant/lingbot-depth",
     "description": "Masked Depth Modeling for Spatial Perception",
-    "stars": 567,
-    "forks": 36,
+    "stars": 612,
+    "forks": 42,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-01-25T14:14:29Z",
-    "updated_at": "2026-01-30T03:55:39Z",
+    "updated_at": "2026-01-31T03:57:52Z",
     "owner": {
       "name": "Robbyant",
       "avatar_url": "https://avatars.githubusercontent.com/u/212647524?v=4"
+    }
+  },
+  {
+    "name": "jmuncor/sherlock",
+    "url": "https://github.com/jmuncor/sherlock",
+    "description": "Intercept LLM API traffic and visualize token usage in a real-time terminal dashboard. Track costs,       debug prompts, and monitor context window usage across your AI development sessions.      ",
+    "stars": 582,
+    "forks": 25,
+    "language": "Python",
+    "topics": [
+      "ai-tools",
+      "anthropic",
+      "cli",
+      "developer-tools",
+      "itmproxy",
+      "llm",
+      "m",
+      "proxy",
+      "python",
+      "rich",
+      "terminal-dashboard",
+      "token-counter"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-27T04:54:55Z",
+    "updated_at": "2026-01-31T03:52:57Z",
+    "owner": {
+      "name": "jmuncor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/191727717?v=4"
     }
   },
   {
@@ -338,32 +367,19 @@
     }
   },
   {
-    "name": "jmuncor/sherlock",
-    "url": "https://github.com/jmuncor/sherlock",
-    "description": "Intercept LLM API traffic and visualize token usage in a real-time terminal dashboard. Track costs,       debug prompts, and monitor context window usage across your AI development sessions.      ",
-    "stars": 528,
-    "forks": 22,
+    "name": "Robbyant/lingbot-vla",
+    "url": "https://github.com/Robbyant/lingbot-vla",
+    "description": "A Pragmatic VLA Foundation Model",
+    "stars": 499,
+    "forks": 35,
     "language": "Python",
-    "topics": [
-      "ai-tools",
-      "anthropic",
-      "cli",
-      "developer-tools",
-      "itmproxy",
-      "llm",
-      "m",
-      "proxy",
-      "python",
-      "rich",
-      "terminal-dashboard",
-      "token-counter"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-27T04:54:55Z",
-    "updated_at": "2026-01-30T04:00:08Z",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-26T12:52:25Z",
+    "updated_at": "2026-01-31T03:57:42Z",
     "owner": {
-      "name": "jmuncor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/191727717?v=4"
+      "name": "Robbyant",
+      "avatar_url": "https://avatars.githubusercontent.com/u/212647524?v=4"
     }
   },
   {
@@ -385,75 +401,19 @@
     }
   },
   {
-    "name": "QwenLM/Qwen3-ASR",
-    "url": "https://github.com/QwenLM/Qwen3-ASR",
-    "description": "Qwen3-ASR is an open-source series of ASR models developed by the Qwen team at Alibaba Cloud, supporting stable multilingual speech/music/song recognition, language detection and timestamp prediction.",
-    "stars": 464,
-    "forks": 22,
+    "name": "Prismer-AI/Prismer",
+    "url": "https://github.com/Prismer-AI/Prismer",
+    "description": "Open Source OpenAI Prism Alternative",
+    "stars": 427,
+    "forks": 11,
     "language": "Python",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-28T05:44:59Z",
-    "updated_at": "2026-01-30T04:04:22Z",
+    "license": "Other",
+    "created_at": "2026-01-28T09:17:24Z",
+    "updated_at": "2026-01-31T04:00:14Z",
     "owner": {
-      "name": "QwenLM",
-      "avatar_url": "https://avatars.githubusercontent.com/u/141221163?v=4"
-    }
-  },
-  {
-    "name": "Robbyant/lingbot-vla",
-    "url": "https://github.com/Robbyant/lingbot-vla",
-    "description": "A Pragmatic VLA Foundation Model",
-    "stars": 435,
-    "forks": 25,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-26T12:52:25Z",
-    "updated_at": "2026-01-30T03:58:23Z",
-    "owner": {
-      "name": "Robbyant",
-      "avatar_url": "https://avatars.githubusercontent.com/u/212647524?v=4"
-    }
-  },
-  {
-    "name": "zscole/adversarial-spec",
-    "url": "https://github.com/zscole/adversarial-spec",
-    "description": "A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.",
-    "stars": 428,
-    "forks": 38,
-    "language": "Python",
-    "topics": [
-      "anthropic",
-      "claude-ai",
-      "claude-code",
-      "claude-code-plugin",
-      "claude-skills",
-      "llm",
-      "orchestration"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-11T04:24:30Z",
-    "updated_at": "2026-01-17T03:00:12Z",
-    "owner": {
-      "name": "zscole",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20308948?v=4"
-    }
-  },
-  {
-    "name": "Spirit-AI-Team/spirit-v1.5",
-    "url": "https://github.com/Spirit-AI-Team/spirit-v1.5",
-    "description": "Spirit-v1.5: A Robotic Foundation Model by Spirit AI",
-    "stars": 411,
-    "forks": 16,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-11T10:21:54Z",
-    "updated_at": "2026-01-17T01:41:27Z",
-    "owner": {
-      "name": "Spirit-AI-Team",
-      "avatar_url": "https://avatars.githubusercontent.com/u/171234508?v=4"
+      "name": "Prismer-AI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/202446192?v=4"
     }
   },
   {
@@ -489,41 +449,16 @@
     }
   },
   {
-    "name": "terauss/Polymarket-trading-bot-15min-BTC",
-    "url": "https://github.com/terauss/Polymarket-trading-bot-15min-BTC",
-    "description": "15min BTC Arbitrage bot on polymarket, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket arbitrage bot",
-    "stars": 388,
-    "forks": 331,
-    "language": "Python",
-    "topics": [
-      "15min-btc-arbitrage-bot",
-      "polymarket-arbitrage",
-      "polymarket-arbitrage-bot",
-      "polymarket-arbitragebot",
-      "polymarket-bot",
-      "polymarket-trading-bot",
-      "polymarket-tradingbot",
-      "trading-bot"
-    ],
-    "license": "No license",
-    "created_at": "2026-01-11T22:16:57Z",
-    "updated_at": "2026-01-17T03:10:35Z",
-    "owner": {
-      "name": "terauss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7345924?v=4"
-    }
-  },
-  {
     "name": "hanxiao/claudecode-telegram",
     "url": "https://github.com/hanxiao/claudecode-telegram",
     "description": "Telegram bridge for Claude Code",
-    "stars": 379,
+    "stars": 381,
     "forks": 47,
     "language": "Python",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-25T17:24:12Z",
-    "updated_at": "2026-01-29T21:36:32Z",
+    "updated_at": "2026-01-31T00:02:43Z",
     "owner": {
       "name": "hanxiao",
       "avatar_url": "https://avatars.githubusercontent.com/u/2041322?v=4"
@@ -589,22 +524,6 @@
     }
   },
   {
-    "name": "Prismer-AI/Prismer",
-    "url": "https://github.com/Prismer-AI/Prismer",
-    "description": "Open Source OpenAI Prism Alternative",
-    "stars": 346,
-    "forks": 11,
-    "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-01-28T09:17:24Z",
-    "updated_at": "2026-01-30T04:04:41Z",
-    "owner": {
-      "name": "Prismer-AI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/202446192?v=4"
-    }
-  },
-  {
     "name": "cosinusalpha/webctl",
     "url": "https://github.com/cosinusalpha/webctl",
     "description": "Browser automation via CLI — for humans and agents",
@@ -618,6 +537,22 @@
     "owner": {
       "name": "cosinusalpha",
       "avatar_url": "https://avatars.githubusercontent.com/u/42695699?v=4"
+    }
+  },
+  {
+    "name": "btseytlin/hr-breaker",
+    "url": "https://github.com/btseytlin/hr-breaker",
+    "description": "Optimize resume for jobs, now with AI",
+    "stars": 330,
+    "forks": 50,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-29T16:11:53Z",
+    "updated_at": "2026-01-31T01:48:43Z",
+    "owner": {
+      "name": "btseytlin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2098322?v=4"
     }
   },
   {
@@ -637,6 +572,27 @@
     }
   },
   {
+    "name": "OpenMOSS/MOVA",
+    "url": "https://github.com/OpenMOSS/MOVA",
+    "description": "MOVA: Towards Scalable and Synchronized Video–Audio Generation",
+    "stars": 300,
+    "forks": 12,
+    "language": "Python",
+    "topics": [
+      "diffusion-models",
+      "multimodal",
+      "sglang",
+      "video-audio-generation"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-28T12:31:50Z",
+    "updated_at": "2026-01-31T03:43:05Z",
+    "owner": {
+      "name": "OpenMOSS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156300419?v=4"
+    }
+  },
+  {
     "name": "DB-121143/IMG2XML",
     "url": "https://github.com/DB-121143/IMG2XML",
     "description": null,
@@ -653,6 +609,28 @@
     }
   },
   {
+    "name": "joeseesun/anything-to-notebooklm",
+    "url": "https://github.com/joeseesun/anything-to-notebooklm",
+    "description": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries → Podcast/PPT/MindMap/Quiz etc.",
+    "stars": 283,
+    "forks": 43,
+    "language": "Python",
+    "topics": [
+      "automation",
+      "claude",
+      "mcp",
+      "notebooklm",
+      "skill"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-25T14:48:01Z",
+    "updated_at": "2026-01-31T01:34:48Z",
+    "owner": {
+      "name": "joeseesun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3236682?v=4"
+    }
+  },
+  {
     "name": "cclank/news-aggregator-skill",
     "url": "https://github.com/cclank/news-aggregator-skill",
     "description": "这是一个为您定制的全网新闻聚合skill,支持多个信息源，支持深度获取，能够阅读文章正文并提供有理有据的深度解读。",
@@ -666,28 +644,6 @@
     "owner": {
       "name": "cclank",
       "avatar_url": "https://avatars.githubusercontent.com/u/29557585?v=4"
-    }
-  },
-  {
-    "name": "joeseesun/anything-to-notebooklm",
-    "url": "https://github.com/joeseesun/anything-to-notebooklm",
-    "description": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries → Podcast/PPT/MindMap/Quiz etc.",
-    "stars": 278,
-    "forks": 43,
-    "language": "Python",
-    "topics": [
-      "automation",
-      "claude",
-      "mcp",
-      "notebooklm",
-      "skill"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-25T14:48:01Z",
-    "updated_at": "2026-01-30T01:12:36Z",
-    "owner": {
-      "name": "joeseesun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3236682?v=4"
     }
   },
   {
@@ -924,6 +880,22 @@
     }
   },
   {
+    "name": "Robbyant/lingbot-va",
+    "url": "https://github.com/Robbyant/lingbot-va",
+    "description": "Causal video-action world model for generalist robot control",
+    "stars": 223,
+    "forks": 3,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-29T19:20:33Z",
+    "updated_at": "2026-01-31T04:01:36Z",
+    "owner": {
+      "name": "Robbyant",
+      "avatar_url": "https://avatars.githubusercontent.com/u/212647524?v=4"
+    }
+  },
+  {
     "name": "jarrodwatts/claude-stt",
     "url": "https://github.com/jarrodwatts/claude-stt",
     "description": "Speech-to-text input for Claude Code with live streaming dictation",
@@ -1021,24 +993,35 @@
     }
   },
   {
-    "name": "OpenMOSS/MOVA",
-    "url": "https://github.com/OpenMOSS/MOVA",
-    "description": "MOVA: Towards Scalable and Synchronized Video–Audio Generation",
+    "name": "unslop-xyz/noodles",
+    "url": "https://github.com/unslop-xyz/noodles",
+    "description": "Your codebase was probably AI-generated. Get a better handle on it. Noodles creates interactive diagrams that visualize how your code actually works, so you can understand what the AI built without reading every line.",
     "stars": 210,
-    "forks": 10,
+    "forks": 24,
     "language": "Python",
-    "topics": [
-      "diffusion-models",
-      "multimodal",
-      "sglang",
-      "video-audio-generation"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-28T12:31:50Z",
-    "updated_at": "2026-01-30T04:04:09Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-26T13:59:24Z",
+    "updated_at": "2026-01-31T03:27:21Z",
     "owner": {
-      "name": "OpenMOSS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/156300419?v=4"
+      "name": "unslop-xyz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/249142534?v=4"
+    }
+  },
+  {
+    "name": "YunjueTech/Yunjue-Agent",
+    "url": "https://github.com/YunjueTech/Yunjue-Agent",
+    "description": "Yunjue Agent: A Fully Reproducible, Zero-Start In-Situ Self-Evolving Agent System for Open-Ended Tasks",
+    "stars": 208,
+    "forks": 27,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-26T04:01:21Z",
+    "updated_at": "2026-01-31T03:52:31Z",
+    "owner": {
+      "name": "YunjueTech",
+      "avatar_url": "https://avatars.githubusercontent.com/u/223072011?v=4"
     }
   },
   {
@@ -1067,38 +1050,6 @@
     }
   },
   {
-    "name": "YunjueTech/Yunjue-Agent",
-    "url": "https://github.com/YunjueTech/Yunjue-Agent",
-    "description": "Yunjue Agent: A Fully Reproducible, Zero-Start In-Situ Self-Evolving Agent System for Open-Ended Tasks",
-    "stars": 187,
-    "forks": 22,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-26T04:01:21Z",
-    "updated_at": "2026-01-30T02:39:00Z",
-    "owner": {
-      "name": "YunjueTech",
-      "avatar_url": "https://avatars.githubusercontent.com/u/223072011?v=4"
-    }
-  },
-  {
-    "name": "btseytlin/hr-breaker",
-    "url": "https://github.com/btseytlin/hr-breaker",
-    "description": "Optimize resume for jobs, now with AI",
-    "stars": 186,
-    "forks": 30,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-29T16:11:53Z",
-    "updated_at": "2026-01-30T04:03:43Z",
-    "owner": {
-      "name": "btseytlin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2098322?v=4"
-    }
-  },
-  {
     "name": "MOVIBALE/Lumina-Layers",
     "url": "https://github.com/MOVIBALE/Lumina-Layers",
     "description": "An experimental FDM engine for layered color mixing. Currently implements a CMYK mode for pixel art, with plans to support variable multi-color systems (2-8+ colors).",
@@ -1112,6 +1063,22 @@
     "owner": {
       "name": "MOVIBALE",
       "avatar_url": "https://avatars.githubusercontent.com/u/58595746?v=4"
+    }
+  },
+  {
+    "name": "amlalabs/amla-sandbox",
+    "url": "https://github.com/amlalabs/amla-sandbox",
+    "description": null,
+    "stars": 181,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-01-29T00:42:44Z",
+    "updated_at": "2026-01-31T03:54:59Z",
+    "owner": {
+      "name": "amlalabs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/240576177?v=4"
     }
   },
   {
@@ -1148,22 +1115,6 @@
     "owner": {
       "name": "vorvik-61",
       "avatar_url": "https://avatars.githubusercontent.com/u/199169193?v=4"
-    }
-  },
-  {
-    "name": "kristelTech/Doomscrolling_Blocker",
-    "url": "https://github.com/kristelTech/Doomscrolling_Blocker",
-    "description": null,
-    "stars": 181,
-    "forks": 20,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-11T20:44:15Z",
-    "updated_at": "2026-01-17T02:18:06Z",
-    "owner": {
-      "name": "kristelTech",
-      "avatar_url": "https://avatars.githubusercontent.com/u/180558248?v=4"
     }
   },
   {
@@ -1257,22 +1208,6 @@
     }
   },
   {
-    "name": "unslop-xyz/noodles",
-    "url": "https://github.com/unslop-xyz/noodles",
-    "description": "Your codebase was probably AI-generated. Get a better handle on it. Noodles creates interactive diagrams that visualize how your code actually works, so you can understand what the AI built without reading every line.",
-    "stars": 172,
-    "forks": 19,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-26T13:59:24Z",
-    "updated_at": "2026-01-30T03:15:38Z",
-    "owner": {
-      "name": "unslop-xyz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/249142534?v=4"
-    }
-  },
-  {
     "name": "terausss/15min-btc-polymarket-trading-bot",
     "url": "https://github.com/terausss/15min-btc-polymarket-trading-bot",
     "description": "15min btc polymarket arbitrage bot-polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot ",
@@ -1294,6 +1229,22 @@
     "owner": {
       "name": "terausss",
       "avatar_url": "https://avatars.githubusercontent.com/u/24262121?v=4"
+    }
+  },
+  {
+    "name": "https-deeplearning-ai/sc-agent-skills-files",
+    "url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
+    "description": null,
+    "stars": 159,
+    "forks": 61,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-27T23:56:39Z",
+    "updated_at": "2026-01-31T03:43:10Z",
+    "owner": {
+      "name": "https-deeplearning-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50225018?v=4"
     }
   },
   {
@@ -1750,6 +1701,22 @@
     }
   },
   {
+    "name": "op7418/Video-Wrapper-Skills",
+    "url": "https://github.com/op7418/Video-Wrapper-Skills",
+    "description": "为访谈视频添加综艺风格视觉特效的 Claude Skill。AI 分析字幕内容生成建议，用户审批后自动渲染，支持 4 种视觉主题。",
+    "stars": 136,
+    "forks": 11,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-28T04:41:16Z",
+    "updated_at": "2026-01-31T03:22:05Z",
+    "owner": {
+      "name": "op7418",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13505770?v=4"
+    }
+  },
+  {
     "name": "reinesana/Doomscroll-Skyrim-Edition",
     "url": "https://github.com/reinesana/Doomscroll-Skyrim-Edition",
     "description": "A CV productivity tool that plays the Skeleton Shield meme whenever you doomscroll or lose focus.",
@@ -1891,6 +1858,26 @@
     }
   },
   {
+    "name": "cisco-ai-defense/skill-scanner",
+    "url": "https://github.com/cisco-ai-defense/skill-scanner",
+    "description": "Security Scanner for Agent Skills",
+    "stars": 128,
+    "forks": 16,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "agent-skills",
+      "security"
+    ],
+    "license": "Other",
+    "created_at": "2026-01-29T01:31:32Z",
+    "updated_at": "2026-01-31T02:57:06Z",
+    "owner": {
+      "name": "cisco-ai-defense",
+      "avatar_url": "https://avatars.githubusercontent.com/u/220944709?v=4"
+    }
+  },
+  {
     "name": "violit-dev/violit",
     "url": "https://github.com/violit-dev/violit",
     "description": "The High-Performance Python Web Framework. The simplicity of Streamlit, minus the reruns",
@@ -1967,35 +1954,19 @@
     }
   },
   {
-    "name": "https-deeplearning-ai/sc-agent-skills-files",
-    "url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
+    "name": "Dokhacgiakhoa/google-antigravity",
+    "url": "https://github.com/Dokhacgiakhoa/google-antigravity",
     "description": null,
-    "stars": 123,
-    "forks": 53,
+    "stars": 121,
+    "forks": 23,
     "language": "Python",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-27T23:56:39Z",
-    "updated_at": "2026-01-30T03:27:39Z",
+    "license": "Other",
+    "created_at": "2026-01-27T21:22:16Z",
+    "updated_at": "2026-01-31T02:59:39Z",
     "owner": {
-      "name": "https-deeplearning-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50225018?v=4"
-    }
-  },
-  {
-    "name": "op7418/Video-Wrapper-Skills",
-    "url": "https://github.com/op7418/Video-Wrapper-Skills",
-    "description": "为访谈视频添加综艺风格视觉特效的 Claude Skill。AI 分析字幕内容生成建议，用户审批后自动渲染，支持 4 种视觉主题。",
-    "stars": 122,
-    "forks": 10,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-28T04:41:16Z",
-    "updated_at": "2026-01-30T02:49:17Z",
-    "owner": {
-      "name": "op7418",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13505770?v=4"
+      "name": "Dokhacgiakhoa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/129754311?v=4"
     }
   },
   {
@@ -2226,6 +2197,22 @@
     }
   },
   {
+    "name": "PenglongHuang/chinese-novelist-skill",
+    "url": "https://github.com/PenglongHuang/chinese-novelist-skill",
+    "description": "让 AI 为你写一部完整的中文小说 - AI 驱动的中文小说创作助手 - 超过20章的小说，几分钟全稿完成    Claude Code Skill：自动创作分章节中文小说，每章悬念钩子",
+    "stars": 106,
+    "forks": 16,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-25T14:20:33Z",
+    "updated_at": "2026-01-31T03:14:06Z",
+    "owner": {
+      "name": "PenglongHuang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26277039?v=4"
+    }
+  },
+  {
     "name": "xieyan110/Novel2Comic",
     "url": "https://github.com/xieyan110/Novel2Comic",
     "description": null,
@@ -2258,6 +2245,38 @@
     }
   },
   {
+    "name": "BquantFinance/licitaciones-espana",
+    "url": "https://github.com/BquantFinance/licitaciones-espana",
+    "description": null,
+    "stars": 103,
+    "forks": 19,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-27T12:44:43Z",
+    "updated_at": "2026-01-31T01:06:04Z",
+    "owner": {
+      "name": "BquantFinance",
+      "avatar_url": "https://avatars.githubusercontent.com/u/122722084?v=4"
+    }
+  },
+  {
+    "name": "thumpersecure/palm-tree",
+    "url": "https://github.com/thumpersecure/palm-tree",
+    "description": "🌴 A tool to generate a ton of randomized traffic noise using 30+ personas, 10 parallel generators, chaos modes, live headlines, and more! Bash, Python, or both!",
+    "stars": 102,
+    "forks": 6,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-25T02:25:47Z",
+    "updated_at": "2026-01-31T02:04:27Z",
+    "owner": {
+      "name": "thumpersecure",
+      "avatar_url": "https://avatars.githubusercontent.com/u/201845179?v=4"
+    }
+  },
+  {
     "name": "7836246/aws-builder-id",
     "url": "https://github.com/7836246/aws-builder-id",
     "description": "自动化注册 AWS Builder ID 账号的工具，支持多地区环境模拟、浏览器指纹随机化和代理集成。",
@@ -2271,38 +2290,6 @@
     "owner": {
       "name": "7836246",
       "avatar_url": "https://avatars.githubusercontent.com/u/65436665?v=4"
-    }
-  },
-  {
-    "name": "PenglongHuang/chinese-novelist-skill",
-    "url": "https://github.com/PenglongHuang/chinese-novelist-skill",
-    "description": "让 AI 为你写一部完整的中文小说 - AI 驱动的中文小说创作助手 - 超过20章的小说，几分钟全稿完成    Claude Code Skill：自动创作分章节中文小说，每章悬念钩子",
-    "stars": 98,
-    "forks": 15,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-25T14:20:33Z",
-    "updated_at": "2026-01-30T01:29:28Z",
-    "owner": {
-      "name": "PenglongHuang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26277039?v=4"
-    }
-  },
-  {
-    "name": "BquantFinance/licitaciones-espana",
-    "url": "https://github.com/BquantFinance/licitaciones-espana",
-    "description": null,
-    "stars": 98,
-    "forks": 17,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-27T12:44:43Z",
-    "updated_at": "2026-01-29T23:48:29Z",
-    "owner": {
-      "name": "BquantFinance",
-      "avatar_url": "https://avatars.githubusercontent.com/u/122722084?v=4"
     }
   },
   {
@@ -2365,16 +2352,32 @@
     }
   },
   {
+    "name": "filliptm/ComfyUI-FL-Qwen3TTS",
+    "url": "https://github.com/filliptm/ComfyUI-FL-Qwen3TTS",
+    "description": "Qwen3-TTS text-to-speech nodes for ComfyUI with voice cloning, voice design, and fine-tuning UI",
+    "stars": 96,
+    "forks": 11,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-26T03:49:40Z",
+    "updated_at": "2026-01-31T03:21:43Z",
+    "owner": {
+      "name": "filliptm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55672949?v=4"
+    }
+  },
+  {
     "name": "HKUDS/FutureShow",
     "url": "https://github.com/HKUDS/FutureShow",
     "description": "\"FutureShow: Can AI Predict the Future? Live Real-World Forecasting\"",
-    "stars": 95,
+    "stars": 96,
     "forks": 10,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-25T05:38:39Z",
-    "updated_at": "2026-01-29T21:43:54Z",
+    "updated_at": "2026-01-30T06:10:53Z",
     "owner": {
       "name": "HKUDS",
       "avatar_url": "https://avatars.githubusercontent.com/u/118165258?v=4"
@@ -2397,6 +2400,22 @@
     }
   },
   {
+    "name": "AMAP-ML/SpatialGenEval",
+    "url": "https://github.com/AMAP-ML/SpatialGenEval",
+    "description": null,
+    "stars": 94,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-29T03:52:20Z",
+    "updated_at": "2026-01-30T22:43:43Z",
+    "owner": {
+      "name": "AMAP-ML",
+      "avatar_url": "https://avatars.githubusercontent.com/u/202896035?v=4"
+    }
+  },
+  {
     "name": "luoluoluo22/jianying-editor-skill",
     "url": "https://github.com/luoluoluo22/jianying-editor-skill",
     "description": "Antigravity Skill for automating JianYing (CapCut Chinese version) video editing.",
@@ -2410,6 +2429,22 @@
     "owner": {
       "name": "luoluoluo22",
       "avatar_url": "https://avatars.githubusercontent.com/u/24725251?v=4"
+    }
+  },
+  {
+    "name": "allenai/SERA",
+    "url": "https://github.com/allenai/SERA",
+    "description": "Data generation and training repository for SERA: Soft-Verified Efficient Repository Agents.",
+    "stars": 89,
+    "forks": 12,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-25T11:22:27Z",
+    "updated_at": "2026-01-31T03:50:25Z",
+    "owner": {
+      "name": "allenai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5667695?v=4"
     }
   },
   {
@@ -2429,54 +2464,6 @@
     }
   },
   {
-    "name": "thumpersecure/palm-tree",
-    "url": "https://github.com/thumpersecure/palm-tree",
-    "description": "🌴 A tool to generate a ton of randomized traffic noise using 30+ personas, 10 parallel generators, chaos modes, live headlines, and more! Bash, Python, or both!",
-    "stars": 88,
-    "forks": 4,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-25T02:25:47Z",
-    "updated_at": "2026-01-30T01:20:54Z",
-    "owner": {
-      "name": "thumpersecure",
-      "avatar_url": "https://avatars.githubusercontent.com/u/201845179?v=4"
-    }
-  },
-  {
-    "name": "Dokhacgiakhoa/google-antigravity",
-    "url": "https://github.com/Dokhacgiakhoa/google-antigravity",
-    "description": null,
-    "stars": 87,
-    "forks": 18,
-    "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-01-27T21:22:16Z",
-    "updated_at": "2026-01-30T03:57:13Z",
-    "owner": {
-      "name": "Dokhacgiakhoa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/129754311?v=4"
-    }
-  },
-  {
-    "name": "filliptm/ComfyUI-FL-Qwen3TTS",
-    "url": "https://github.com/filliptm/ComfyUI-FL-Qwen3TTS",
-    "description": "Qwen3-TTS text-to-speech nodes for ComfyUI with voice cloning, voice design, and fine-tuning UI",
-    "stars": 86,
-    "forks": 10,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-26T03:49:40Z",
-    "updated_at": "2026-01-30T02:46:50Z",
-    "owner": {
-      "name": "filliptm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55672949?v=4"
-    }
-  },
-  {
     "name": "jipraks/yt-short-clipper",
     "url": "https://github.com/jipraks/yt-short-clipper",
     "description": "🎬 Transform long-form YouTube videos (podcasts, interviews, vlogs) into engaging short-form content for TikTok, Instagram Reels, and YouTube Shorts — all with a single command.",
@@ -2490,6 +2477,22 @@
     "owner": {
       "name": "jipraks",
       "avatar_url": "https://avatars.githubusercontent.com/u/10278519?v=4"
+    }
+  },
+  {
+    "name": "depthsecurity/RelayKing-Depth",
+    "url": "https://github.com/depthsecurity/RelayKing-Depth",
+    "description": "Dominate the domain. Relay to royalty.",
+    "stars": 84,
+    "forks": 5,
+    "language": "Python",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-01-26T17:42:10Z",
+    "updated_at": "2026-01-31T03:45:46Z",
+    "owner": {
+      "name": "depthsecurity",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4078898?v=4"
     }
   },
   {
@@ -2541,26 +2544,6 @@
     }
   },
   {
-    "name": "cisco-ai-defense/skill-scanner",
-    "url": "https://github.com/cisco-ai-defense/skill-scanner",
-    "description": "Security Scanner for Agent Skills",
-    "stars": 80,
-    "forks": 12,
-    "language": "Python",
-    "topics": [
-      "agent",
-      "agent-skills",
-      "security"
-    ],
-    "license": "Other",
-    "created_at": "2026-01-29T01:31:32Z",
-    "updated_at": "2026-01-30T02:53:48Z",
-    "owner": {
-      "name": "cisco-ai-defense",
-      "avatar_url": "https://avatars.githubusercontent.com/u/220944709?v=4"
-    }
-  },
-  {
     "name": "HAIGC/Comfyui-HAIGC-QwenTTS",
     "url": "https://github.com/HAIGC/Comfyui-HAIGC-QwenTTS",
     "description": "Qwen3-TTS在ComfyUI的实现，强大语音生成能力，为语音克隆、语音设计、超高质量类人语音生成以及基于自然语言的语音控制提供全面支持。",
@@ -2577,19 +2560,44 @@
     }
   },
   {
-    "name": "allenai/SERA",
-    "url": "https://github.com/allenai/SERA",
-    "description": "Data generation and training repository for SERA: Soft-Verified Efficient Repository Agents.",
-    "stars": 78,
-    "forks": 9,
+    "name": "934050259/BrowserCluster",
+    "url": "https://github.com/934050259/BrowserCluster",
+    "description": "Browser Cluster 是一个高性能、分布式的浏览器自动化集群系统，基于 Playwright 和 FastAPI 构建。它支持大规模并发网页抓取、截图、PDF 生成及自动化操作，具备完善的任务调度、结果缓存和节点管理功能。",
+    "stars": 76,
+    "forks": 26,
     "language": "Python",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-25T11:22:27Z",
-    "updated_at": "2026-01-30T02:06:58Z",
+    "license": "No license",
+    "created_at": "2026-01-29T03:52:44Z",
+    "updated_at": "2026-01-31T02:23:50Z",
     "owner": {
-      "name": "allenai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5667695?v=4"
+      "name": "934050259",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53814999?v=4"
+    }
+  },
+  {
+    "name": "thesSmartApe/polymarket-copy-trading-bot-python",
+    "url": "https://github.com/thesSmartApe/polymarket-copy-trading-bot-python",
+    "description": "Polymarket python copy trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot ",
+    "stars": 75,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "polymarket-bot",
+      "polymarket-copy-trading-bot",
+      "polymarket-copy-tradingbot",
+      "polymarket-copytrading-bot",
+      "polymarket-copytradingbot",
+      "polymarket-python-copy-trading-bot",
+      "polymarket-trading-bot",
+      "polymarket-tradingbot"
+    ],
+    "license": "No license",
+    "created_at": "2026-01-29T08:08:37Z",
+    "updated_at": "2026-01-31T03:41:45Z",
+    "owner": {
+      "name": "thesSmartApe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72080260?v=4"
     }
   },
   {
@@ -2625,19 +2633,19 @@
     }
   },
   {
-    "name": "Robbyant/lingbot-va",
-    "url": "https://github.com/Robbyant/lingbot-va",
-    "description": null,
-    "stars": 72,
-    "forks": 1,
+    "name": "timowhite88/Farnsworth",
+    "url": "https://github.com/timowhite88/Farnsworth",
+    "description": "Farnsworth is an autonomous, infinitely-memorable, self-evolving companion AI built entirely with free open-source tools.",
+    "stars": 71,
+    "forks": 14,
     "language": "Python",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-29T19:20:33Z",
-    "updated_at": "2026-01-30T04:04:39Z",
+    "license": "Other",
+    "created_at": "2026-01-25T06:15:01Z",
+    "updated_at": "2026-01-31T03:52:22Z",
     "owner": {
-      "name": "Robbyant",
-      "avatar_url": "https://avatars.githubusercontent.com/u/212647524?v=4"
+      "name": "timowhite88",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139286331?v=4"
     }
   },
   {
