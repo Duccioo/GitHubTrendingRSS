@@ -24,13 +24,13 @@
     "name": "giovantenne/lastsignal",
     "url": "https://github.com/giovantenne/lastsignal",
     "description": "A self-hosted dead man's switch for delivering encrypted messages (E2EE) to your loved ones — when you're gone or unresponsive.",
-    "stars": 148,
-    "forks": 1,
+    "stars": 184,
+    "forks": 3,
     "language": "Ruby",
     "topics": [],
     "license": "Other",
     "created_at": "2026-01-21T09:25:42Z",
-    "updated_at": "2026-02-02T02:55:39Z",
+    "updated_at": "2026-02-03T03:23:17Z",
     "owner": {
       "name": "giovantenne",
       "avatar_url": "https://avatars.githubusercontent.com/u/917400?v=4"
@@ -85,22 +85,6 @@
     }
   },
   {
-    "name": "Pedro-Revez-Silva/shelfarr",
-    "url": "https://github.com/Pedro-Revez-Silva/shelfarr",
-    "description": "Self hosted Ebook and Audiobook management system",
-    "stars": 91,
-    "forks": 7,
-    "language": "Ruby",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2025-12-23T22:58:12Z",
-    "updated_at": "2026-01-19T19:21:29Z",
-    "owner": {
-      "name": "Pedro-Revez-Silva",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22797183?v=4"
-    }
-  },
-  {
     "name": "marcoroth/bubbles-ruby",
     "url": "https://github.com/marcoroth/bubbles-ruby",
     "description": "TUI components for Bubble Tea, based on Charm's Bubbles.",
@@ -136,13 +120,16 @@
     "name": "dlt/faultline",
     "url": "https://github.com/dlt/faultline",
     "description": "Self-hosted embedded error tracking Rails engine. Track errors, get notified via Telegram/Slack/webhooks, and resolve issues with a clean dashboard—all without external services or SaaS fees.",
-    "stars": 41,
-    "forks": 1,
+    "stars": 52,
+    "forks": 3,
     "language": "Ruby",
-    "topics": [],
+    "topics": [
+      "error-monitoring",
+      "rails"
+    ],
     "license": "MIT License",
     "created_at": "2026-01-10T07:16:01Z",
-    "updated_at": "2026-02-02T02:18:10Z",
+    "updated_at": "2026-02-03T00:11:48Z",
     "owner": {
       "name": "dlt",
       "avatar_url": "https://avatars.githubusercontent.com/u/48270?v=4"
@@ -324,6 +311,22 @@
     }
   },
   {
+    "name": "ttunguz/meeting-review-agent",
+    "url": "https://github.com/ttunguz/meeting-review-agent",
+    "description": "AI-powered meeting performance review agent with weighted rubrics & improvement recommendations",
+    "stars": 20,
+    "forks": 3,
+    "language": "Ruby",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-28T23:18:06Z",
+    "updated_at": "2026-02-02T19:31:31Z",
+    "owner": {
+      "name": "ttunguz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/458598?v=4"
+    }
+  },
+  {
     "name": "deadalice/pg_reports",
     "url": "https://github.com/deadalice/pg_reports",
     "description": "PostgreSQL Analysis Dashboard",
@@ -340,19 +343,72 @@
     }
   },
   {
-    "name": "ttunguz/meeting-review-agent",
-    "url": "https://github.com/ttunguz/meeting-review-agent",
-    "description": "AI-powered meeting performance review agent with weighted rubrics & improvement recommendations",
-    "stars": 18,
-    "forks": 3,
+    "name": "alec-c4/ffmpeg_core",
+    "url": "https://github.com/alec-c4/ffmpeg_core",
+    "description": "Modern Ruby wrapper for FFmpeg with clean API and proper error handling.",
+    "stars": 19,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [
+      "ffmpeg",
+      "ffmpeg-wrapper",
+      "ruby",
+      "ruby-on-rails",
+      "video",
+      "video-processing"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-14T14:47:26Z",
+    "updated_at": "2026-02-02T13:34:39Z",
+    "owner": {
+      "name": "alec-c4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25312?v=4"
+    }
+  },
+  {
+    "name": "persona-id/arctic",
+    "url": "https://github.com/persona-id/arctic",
+    "description": "Frozen, deduplicated environment variable access in ruby",
+    "stars": 16,
+    "forks": 0,
     "language": "Ruby",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-28T23:18:06Z",
-    "updated_at": "2026-02-01T15:45:20Z",
+    "license": "MIT License",
+    "created_at": "2026-01-21T20:54:31Z",
+    "updated_at": "2026-02-02T11:38:43Z",
     "owner": {
-      "name": "ttunguz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/458598?v=4"
+      "name": "persona-id",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42027496?v=4"
+    }
+  },
+  {
+    "name": "alec-c4/inertia_i18n",
+    "url": "https://github.com/alec-c4/inertia_i18n",
+    "description": "Translation management for Inertia.js applications with Rails backend",
+    "stars": 16,
+    "forks": 1,
+    "language": "Ruby",
+    "topics": [
+      "i18n",
+      "i18next",
+      "i18next-react",
+      "inertia",
+      "inertiajs",
+      "react",
+      "reactjs",
+      "ruby",
+      "ruby-on-rails",
+      "svelte",
+      "sveltejs",
+      "vue",
+      "vuejs"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-15T14:03:56Z",
+    "updated_at": "2026-02-02T14:19:57Z",
+    "owner": {
+      "name": "alec-c4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25312?v=4"
     }
   },
   {
@@ -378,22 +434,6 @@
     }
   },
   {
-    "name": "persona-id/arctic",
-    "url": "https://github.com/persona-id/arctic",
-    "description": "Frozen, deduplicated environment variable access in ruby",
-    "stars": 15,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-21T20:54:31Z",
-    "updated_at": "2026-02-01T14:33:12Z",
-    "owner": {
-      "name": "persona-id",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42027496?v=4"
-    }
-  },
-  {
     "name": "kieranklaassen/ruby_llm-skills",
     "url": "https://github.com/kieranklaassen/ruby_llm-skills",
     "description": "Agent Skills extension for RubyLLM - load, validate, and integrate skills from filesystem or database",
@@ -416,46 +456,16 @@
     "name": "appraisal-rb/setup-ruby-flash",
     "url": "https://github.com/appraisal-rb/setup-ruby-flash",
     "description": "GHA: ⚡️Fast Setup of Ruby & Gems via rv & ore (alternative to setup-ruby)",
-    "stars": 14,
+    "stars": 15,
     "forks": 0,
     "language": "Ruby",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-14T03:36:12Z",
-    "updated_at": "2026-01-24T20:08:13Z",
+    "updated_at": "2026-02-02T12:59:35Z",
     "owner": {
       "name": "appraisal-rb",
       "avatar_url": "https://avatars.githubusercontent.com/u/220395989?v=4"
-    }
-  },
-  {
-    "name": "alec-c4/inertia_i18n",
-    "url": "https://github.com/alec-c4/inertia_i18n",
-    "description": "Translation management for Inertia.js applications with Rails backend",
-    "stars": 14,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [
-      "i18n",
-      "i18next",
-      "i18next-react",
-      "inertia",
-      "inertiajs",
-      "react",
-      "reactjs",
-      "ruby",
-      "ruby-on-rails",
-      "svelte",
-      "sveltejs",
-      "vue",
-      "vuejs"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-15T14:03:56Z",
-    "updated_at": "2026-01-29T14:52:52Z",
-    "owner": {
-      "name": "alec-c4",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25312?v=4"
     }
   },
   {
@@ -479,29 +489,6 @@
     "owner": {
       "name": "AnjanJ",
       "avatar_url": "https://avatars.githubusercontent.com/u/1040247?v=4"
-    }
-  },
-  {
-    "name": "alec-c4/ffmpeg_core",
-    "url": "https://github.com/alec-c4/ffmpeg_core",
-    "description": "Modern Ruby wrapper for FFmpeg with clean API and proper error handling.",
-    "stars": 13,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [
-      "ffmpeg",
-      "ffmpeg-wrapper",
-      "ruby",
-      "ruby-on-rails",
-      "video",
-      "video-processing"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-14T14:47:26Z",
-    "updated_at": "2026-02-01T09:48:42Z",
-    "owner": {
-      "name": "alec-c4",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25312?v=4"
     }
   },
   {
@@ -567,6 +554,61 @@
     }
   },
   {
+    "name": "stokry/vectra",
+    "url": "https://github.com/stokry/vectra",
+    "description": "Vectra is a unified Ruby client for vector databases. Write once, switch providers seamlessly.",
+    "stars": 11,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [
+      "ai",
+      "embeddings",
+      "rails",
+      "ruby",
+      "vector-database",
+      "vector-search"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-07T11:30:47Z",
+    "updated_at": "2026-02-02T18:30:07Z",
+    "owner": {
+      "name": "stokry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45555307?v=4"
+    }
+  },
+  {
+    "name": "tobi/liquid-il",
+    "url": "https://github.com/tobi/liquid-il",
+    "description": "A Liquid template engine, 100% vibe coded by Claude Code against liquid-spec",
+    "stars": 11,
+    "forks": 2,
+    "language": "Ruby",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-07T03:28:15Z",
+    "updated_at": "2026-02-02T18:49:11Z",
+    "owner": {
+      "name": "tobi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/347?v=4"
+    }
+  },
+  {
+    "name": "ThibautBaissac/view_components",
+    "url": "https://github.com/ThibautBaissac/view_components",
+    "description": "A comprehensive, production-ready library of reusable UI components for Ruby on Rails applications. Built with ViewComponent, Stimulus, and TailwindCSS.",
+    "stars": 11,
+    "forks": 1,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-08T15:25:06Z",
+    "updated_at": "2026-02-03T03:53:41Z",
+    "owner": {
+      "name": "ThibautBaissac",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59996803?v=4"
+    }
+  },
+  {
     "name": "RatatuiRuby/ratatui_ruby",
     "url": "https://github.com/RatatuiRuby/ratatui_ruby",
     "description": "💎 Unofficial Ruby wrapper for Ratatui 👨‍🍳🐀.",
@@ -605,58 +647,19 @@
     }
   },
   {
-    "name": "stokry/vectra",
-    "url": "https://github.com/stokry/vectra",
-    "description": "Vectra is a unified Ruby client for vector databases. Write once, switch providers seamlessly.",
+    "name": "rhsev/dy.lan",
+    "url": "https://github.com/rhsev/dy.lan",
+    "description": "Server-side HTTP redirector for local networks with plugin-based automation",
     "stars": 10,
     "forks": 0,
     "language": "Ruby",
-    "topics": [
-      "ai",
-      "embeddings",
-      "rails",
-      "ruby",
-      "vector-database",
-      "vector-search"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-07T11:30:47Z",
-    "updated_at": "2026-02-01T14:43:19Z",
-    "owner": {
-      "name": "stokry",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45555307?v=4"
-    }
-  },
-  {
-    "name": "tobi/liquid-il",
-    "url": "https://github.com/tobi/liquid-il",
-    "description": "A Liquid template engine, 100% vibe coded by Claude Code against liquid-spec",
-    "stars": 10,
-    "forks": 2,
-    "language": "Ruby",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-07T03:28:15Z",
-    "updated_at": "2026-01-29T07:28:46Z",
-    "owner": {
-      "name": "tobi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/347?v=4"
-    }
-  },
-  {
-    "name": "ThibautBaissac/view_components",
-    "url": "https://github.com/ThibautBaissac/view_components",
-    "description": "A comprehensive, production-ready library of reusable UI components for Ruby on Rails applications. Built with ViewComponent, Stimulus, and TailwindCSS.",
-    "stars": 10,
-    "forks": 1,
-    "language": "Ruby",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-01-08T15:25:06Z",
-    "updated_at": "2026-01-15T05:39:06Z",
+    "created_at": "2026-01-25T20:37:32Z",
+    "updated_at": "2026-02-02T16:06:55Z",
     "owner": {
-      "name": "ThibautBaissac",
-      "avatar_url": "https://avatars.githubusercontent.com/u/59996803?v=4"
+      "name": "rhsev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111519454?v=4"
     }
   }
 ]
