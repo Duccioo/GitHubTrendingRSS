@@ -24,13 +24,13 @@
     "name": "giovantenne/lastsignal",
     "url": "https://github.com/giovantenne/lastsignal",
     "description": "A self-hosted dead man's switch for delivering encrypted messages (E2EE) to your loved ones — when you're gone or unresponsive.",
-    "stars": 184,
-    "forks": 3,
+    "stars": 195,
+    "forks": 4,
     "language": "Ruby",
     "topics": [],
     "license": "Other",
     "created_at": "2026-01-21T09:25:42Z",
-    "updated_at": "2026-02-03T03:23:17Z",
+    "updated_at": "2026-02-04T02:45:58Z",
     "owner": {
       "name": "giovantenne",
       "avatar_url": "https://avatars.githubusercontent.com/u/917400?v=4"
@@ -85,6 +85,25 @@
     }
   },
   {
+    "name": "dlt/faultline",
+    "url": "https://github.com/dlt/faultline",
+    "description": "Self-hosted embedded error tracking Rails engine. Track errors, get notified via Telegram/Slack/webhooks, and resolve issues with a clean dashboard—all without external services or SaaS fees.",
+    "stars": 62,
+    "forks": 3,
+    "language": "Ruby",
+    "topics": [
+      "error-monitoring",
+      "rails"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-10T07:16:01Z",
+    "updated_at": "2026-02-03T19:01:12Z",
+    "owner": {
+      "name": "dlt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48270?v=4"
+    }
+  },
+  {
     "name": "marcoroth/bubbles-ruby",
     "url": "https://github.com/marcoroth/bubbles-ruby",
     "description": "TUI components for Bubble Tea, based on Charm's Bubbles.",
@@ -104,35 +123,16 @@
     "name": "ggerman/libgd-gis",
     "url": "https://github.com/ggerman/libgd-gis",
     "description": "libgd-gis is a native GIS and map-rendering engine for Ruby built on top of ruby-libgd. It lets Ruby applications generate map images, tiles, and geospatial visualizations directly from latitude/longitude data — without external map servers or image pipelines.",
-    "stars": 55,
+    "stars": 57,
     "forks": 0,
     "language": "Ruby",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-06T18:28:55Z",
-    "updated_at": "2026-01-30T18:41:33Z",
+    "updated_at": "2026-02-03T14:42:24Z",
     "owner": {
       "name": "ggerman",
       "avatar_url": "https://avatars.githubusercontent.com/u/723460?v=4"
-    }
-  },
-  {
-    "name": "dlt/faultline",
-    "url": "https://github.com/dlt/faultline",
-    "description": "Self-hosted embedded error tracking Rails engine. Track errors, get notified via Telegram/Slack/webhooks, and resolve issues with a clean dashboard—all without external services or SaaS fees.",
-    "stars": 52,
-    "forks": 3,
-    "language": "Ruby",
-    "topics": [
-      "error-monitoring",
-      "rails"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-10T07:16:01Z",
-    "updated_at": "2026-02-03T00:11:48Z",
-    "owner": {
-      "name": "dlt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48270?v=4"
     }
   },
   {
@@ -175,38 +175,6 @@
     "owner": {
       "name": "andrew",
       "avatar_url": "https://avatars.githubusercontent.com/u/1060?v=4"
-    }
-  },
-  {
-    "name": "marcoroth/huh-ruby",
-    "url": "https://github.com/marcoroth/huh-ruby",
-    "description": "Build Beautiful Terminal forms and prompts in Ruby, based on Charm's Huh.",
-    "stars": 39,
-    "forks": 3,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-29T09:41:32Z",
-    "updated_at": "2026-01-20T16:20:52Z",
-    "owner": {
-      "name": "marcoroth",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6411752?v=4"
-    }
-  },
-  {
-    "name": "marcoroth/harmonica-ruby",
-    "url": "https://github.com/marcoroth/harmonica-ruby",
-    "description": "A simple, physics-based animation library for Ruby, based on Charm's Harmonica.",
-    "stars": 38,
-    "forks": 3,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2025-12-25T23:08:57Z",
-    "updated_at": "2026-01-20T16:20:47Z",
-    "owner": {
-      "name": "marcoroth",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6411752?v=4"
     }
   },
   {
@@ -315,7 +283,7 @@
     "url": "https://github.com/ttunguz/meeting-review-agent",
     "description": "AI-powered meeting performance review agent with weighted rubrics & improvement recommendations",
     "stars": 20,
-    "forks": 3,
+    "forks": 5,
     "language": "Ruby",
     "topics": [],
     "license": "No license",
@@ -324,6 +292,29 @@
     "owner": {
       "name": "ttunguz",
       "avatar_url": "https://avatars.githubusercontent.com/u/458598?v=4"
+    }
+  },
+  {
+    "name": "alec-c4/ffmpeg_core",
+    "url": "https://github.com/alec-c4/ffmpeg_core",
+    "description": "Modern Ruby wrapper for FFmpeg with clean API and proper error handling.",
+    "stars": 20,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [
+      "ffmpeg",
+      "ffmpeg-wrapper",
+      "ruby",
+      "ruby-on-rails",
+      "video",
+      "video-processing"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-14T14:47:26Z",
+    "updated_at": "2026-02-03T17:39:27Z",
+    "owner": {
+      "name": "alec-c4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25312?v=4"
     }
   },
   {
@@ -343,23 +334,30 @@
     }
   },
   {
-    "name": "alec-c4/ffmpeg_core",
-    "url": "https://github.com/alec-c4/ffmpeg_core",
-    "description": "Modern Ruby wrapper for FFmpeg with clean API and proper error handling.",
-    "stars": 19,
-    "forks": 0,
+    "name": "alec-c4/inertia_i18n",
+    "url": "https://github.com/alec-c4/inertia_i18n",
+    "description": "Translation management for Inertia.js applications with Rails backend",
+    "stars": 18,
+    "forks": 1,
     "language": "Ruby",
     "topics": [
-      "ffmpeg",
-      "ffmpeg-wrapper",
+      "i18n",
+      "i18next",
+      "i18next-react",
+      "inertia",
+      "inertiajs",
+      "react",
+      "reactjs",
       "ruby",
       "ruby-on-rails",
-      "video",
-      "video-processing"
+      "svelte",
+      "sveltejs",
+      "vue",
+      "vuejs"
     ],
     "license": "MIT License",
-    "created_at": "2026-01-14T14:47:26Z",
-    "updated_at": "2026-02-02T13:34:39Z",
+    "created_at": "2026-01-15T14:03:56Z",
+    "updated_at": "2026-02-03T20:29:15Z",
     "owner": {
       "name": "alec-c4",
       "avatar_url": "https://avatars.githubusercontent.com/u/25312?v=4"
@@ -382,36 +380,6 @@
     }
   },
   {
-    "name": "alec-c4/inertia_i18n",
-    "url": "https://github.com/alec-c4/inertia_i18n",
-    "description": "Translation management for Inertia.js applications with Rails backend",
-    "stars": 16,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [
-      "i18n",
-      "i18next",
-      "i18next-react",
-      "inertia",
-      "inertiajs",
-      "react",
-      "reactjs",
-      "ruby",
-      "ruby-on-rails",
-      "svelte",
-      "sveltejs",
-      "vue",
-      "vuejs"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-15T14:03:56Z",
-    "updated_at": "2026-02-02T14:19:57Z",
-    "owner": {
-      "name": "alec-c4",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25312?v=4"
-    }
-  },
-  {
     "name": "milkstrawai/branch_db",
     "url": "https://github.com/milkstrawai/branch_db",
     "description": "Automatic per-branch PostgreSQL databases for Rails development",
@@ -427,7 +395,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-15T18:49:20Z",
-    "updated_at": "2026-01-29T17:51:29Z",
+    "updated_at": "2026-02-03T11:59:25Z",
     "owner": {
       "name": "milkstrawai",
       "avatar_url": "https://avatars.githubusercontent.com/u/132026648?v=4"
