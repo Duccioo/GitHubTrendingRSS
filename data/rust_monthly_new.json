@@ -3,13 +3,13 @@
     "name": "xai-org/x-algorithm",
     "url": "https://github.com/xai-org/x-algorithm",
     "description": "Algorithm powering the For You feed on X",
-    "stars": 14396,
-    "forks": 2488,
+    "stars": 14529,
+    "forks": 2516,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-01-19T23:12:35Z",
-    "updated_at": "2026-02-03T03:36:20Z",
+    "updated_at": "2026-02-04T03:58:37Z",
     "owner": {
       "name": "xai-org",
       "avatar_url": "https://avatars.githubusercontent.com/u/130314967?v=4"
@@ -19,13 +19,13 @@
     "name": "lucasgelfond/zerobrew",
     "url": "https://github.com/lucasgelfond/zerobrew",
     "description": "A drop-in, 5-20x faster, experimental Homebrew alternative",
-    "stars": 4874,
-    "forks": 113,
+    "stars": 4923,
+    "forks": 117,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-01-19T12:42:04Z",
-    "updated_at": "2026-02-03T04:06:29Z",
+    "updated_at": "2026-02-04T04:05:27Z",
     "owner": {
       "name": "lucasgelfond",
       "avatar_url": "https://avatars.githubusercontent.com/u/8399069?v=4"
@@ -80,10 +80,37 @@
     }
   },
   {
+    "name": "sheeki03/tirith",
+    "url": "https://github.com/sheeki03/tirith",
+    "description": "Your browser catches homograph attacks. Your terminal doesn't. Tirith guards the gate — intercepts suspicious URLs, ANSI injection, and pipe-to-shell attacks before they execute.",
+    "stars": 814,
+    "forks": 27,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "devtools",
+      "homograph-attack",
+      "rust",
+      "security",
+      "shell",
+      "supply-chain-security",
+      "terminal",
+      "unicode",
+      "url-security"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-02-02T04:33:47Z",
+    "updated_at": "2026-02-04T04:06:27Z",
+    "owner": {
+      "name": "sheeki03",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36009418?v=4"
+    }
+  },
+  {
     "name": "1jehuang/mermaid-rs-renderer",
     "url": "https://github.com/1jehuang/mermaid-rs-renderer",
     "description": "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli.",
-    "stars": 757,
+    "stars": 770,
     "forks": 18,
     "language": "Rust",
     "topics": [
@@ -96,43 +123,18 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-22T06:18:34Z",
-    "updated_at": "2026-02-03T03:37:38Z",
+    "updated_at": "2026-02-04T03:34:20Z",
     "owner": {
       "name": "1jehuang",
       "avatar_url": "https://avatars.githubusercontent.com/u/94247773?v=4"
     }
   },
   {
-    "name": "yesnotrader/polymarket-copy-trading-bot-telegram-ui",
-    "url": "https://github.com/yesnotrader/polymarket-copy-trading-bot-telegram-ui",
-    "description": "Polymarket copy trading bot|Polymarket copy trading bot|Polymarket copytrading bot|Polymarket trading bot|Polymarket trading bot|Polymarket trading bot|Polymarket copy trading bot|Polymarket copy trading bot|Polymarket trading bot",
-    "stars": 748,
-    "forks": 51,
-    "language": "Rust",
-    "topics": [
-      "copy-trading",
-      "copytrading",
-      "polymarket-copy-bot",
-      "polymarket-copy-trading-bot",
-      "polymarket-copytrading-bot",
-      "polymarket-trading-bot",
-      "trading",
-      "trading-bot"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-20T23:22:15Z",
-    "updated_at": "2026-02-03T04:08:17Z",
-    "owner": {
-      "name": "yesnotrader",
-      "avatar_url": "https://avatars.githubusercontent.com/u/150507969?v=4"
-    }
-  },
-  {
     "name": "lance0/ttl",
     "url": "https://github.com/lance0/ttl",
     "description": "Fast, modern traceroute with real-time TUI, per-hop stats, ASN/geo lookup, ECMP detection, and MPLS label parsing. A better mtr.",
-    "stars": 712,
-    "forks": 46,
+    "stars": 724,
+    "forks": 47,
     "language": "Rust",
     "topics": [
       "asn-lookup",
@@ -152,10 +154,35 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-01-12T15:16:32Z",
-    "updated_at": "2026-02-03T01:14:58Z",
+    "updated_at": "2026-02-04T01:35:47Z",
     "owner": {
       "name": "lance0",
       "avatar_url": "https://avatars.githubusercontent.com/u/3323861?v=4"
+    }
+  },
+  {
+    "name": "yesnotrader/polymarket-copy-trading-bot-telegram-ui",
+    "url": "https://github.com/yesnotrader/polymarket-copy-trading-bot-telegram-ui",
+    "description": "Polymarket copy trading bot|Polymarket copy trading bot|Polymarket copytrading bot|Polymarket trading bot|Polymarket trading bot|Polymarket trading bot|Polymarket copy trading bot|Polymarket copy trading bot|Polymarket trading bot",
+    "stars": 710,
+    "forks": 51,
+    "language": "Rust",
+    "topics": [
+      "copy-trading",
+      "copytrading",
+      "polymarket-copy-bot",
+      "polymarket-copy-trading-bot",
+      "polymarket-copytrading-bot",
+      "polymarket-trading-bot",
+      "trading",
+      "trading-bot"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-20T23:22:15Z",
+    "updated_at": "2026-02-04T04:03:27Z",
+    "owner": {
+      "name": "yesnotrader",
+      "avatar_url": "https://avatars.githubusercontent.com/u/150507969?v=4"
     }
   },
   {
@@ -186,8 +213,8 @@
     "name": "njbrake/agent-of-empires",
     "url": "https://github.com/njbrake/agent-of-empires",
     "description": "Claude Code, OpenCode, Mistral Vibe, Codex CLI, Gemini CLI Coding Agent Terminal Session manager via tmux and git Worktrees",
-    "stars": 534,
-    "forks": 22,
+    "stars": 544,
+    "forks": 23,
     "language": "Rust",
     "topics": [
       "ai-coding",
@@ -208,7 +235,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-09T17:23:31Z",
-    "updated_at": "2026-02-03T00:08:45Z",
+    "updated_at": "2026-02-03T23:26:00Z",
     "owner": {
       "name": "njbrake",
       "avatar_url": "https://avatars.githubusercontent.com/u/33383515?v=4"
@@ -218,13 +245,13 @@
     "name": "Dicklesworthstone/beads_rust",
     "url": "https://github.com/Dicklesworthstone/beads_rust",
     "description": "A fast Rust port of Steve Yegge's beads - a local-first, non-invasive issue tracker for git repositories",
-    "stars": 457,
-    "forks": 33,
+    "stars": 465,
+    "forks": 34,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-18T19:19:59Z",
-    "updated_at": "2026-02-03T00:00:24Z",
+    "updated_at": "2026-02-04T03:35:13Z",
     "owner": {
       "name": "Dicklesworthstone",
       "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4"
@@ -234,13 +261,13 @@
     "name": "davidbeesley/claude-chill",
     "url": "https://github.com/davidbeesley/claude-chill",
     "description": null,
-    "stars": 429,
-    "forks": 15,
+    "stars": 432,
+    "forks": 16,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-17T03:08:54Z",
-    "updated_at": "2026-02-02T10:33:20Z",
+    "updated_at": "2026-02-03T23:41:26Z",
     "owner": {
       "name": "davidbeesley",
       "avatar_url": "https://avatars.githubusercontent.com/u/37917398?v=4"
@@ -263,16 +290,43 @@
     }
   },
   {
+    "name": "rivet-dev/sandbox-agent",
+    "url": "https://github.com/rivet-dev/sandbox-agent",
+    "description": "Run Coding Agents in Sandboxes. Control Them Over HTTP. Supports Claude Code, Codex, OpenCode, and Amp.",
+    "stars": 401,
+    "forks": 34,
+    "language": "Rust",
+    "topics": [
+      "agent",
+      "ai",
+      "amp",
+      "claude",
+      "claude-code",
+      "codex",
+      "daytona",
+      "e2b",
+      "opencode",
+      "sandbox"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-25T10:03:02Z",
+    "updated_at": "2026-02-04T03:36:29Z",
+    "owner": {
+      "name": "rivet-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57733614?v=4"
+    }
+  },
+  {
     "name": "clockworklabs/BitCraftPublic",
     "url": "https://github.com/clockworklabs/BitCraftPublic",
     "description": "The open source server code for the BitCraft MMORPG",
-    "stars": 399,
+    "stars": 400,
     "forks": 37,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-01-12T09:34:27Z",
-    "updated_at": "2026-02-02T13:13:24Z",
+    "updated_at": "2026-02-03T19:50:25Z",
     "owner": {
       "name": "clockworklabs",
       "avatar_url": "https://avatars.githubusercontent.com/u/48072542?v=4"
@@ -282,7 +336,7 @@
     "name": "cesarferreira/rip",
     "url": "https://github.com/cesarferreira/rip",
     "description": "Fuzzy find and kill processes from your terminal",
-    "stars": 397,
+    "stars": 399,
     "forks": 16,
     "language": "Rust",
     "topics": [
@@ -292,7 +346,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-07T16:41:18Z",
-    "updated_at": "2026-02-02T21:04:07Z",
+    "updated_at": "2026-02-03T19:13:48Z",
     "owner": {
       "name": "cesarferreira",
       "avatar_url": "https://avatars.githubusercontent.com/u/277426?v=4"
@@ -302,13 +356,13 @@
     "name": "kuse-ai/kuse_cowork",
     "url": "https://github.com/kuse-ai/kuse_cowork",
     "description": "Open-source Alternative to Claude Cowork Desktop App By Kuse",
-    "stars": 375,
-    "forks": 39,
+    "stars": 378,
+    "forks": 40,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-17T17:42:35Z",
-    "updated_at": "2026-02-03T00:09:14Z",
+    "updated_at": "2026-02-04T01:01:19Z",
     "owner": {
       "name": "kuse-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/147392345?v=4"
@@ -360,30 +414,19 @@
     }
   },
   {
-    "name": "rivet-dev/sandbox-agent",
-    "url": "https://github.com/rivet-dev/sandbox-agent",
-    "description": "Run Coding Agents in Sandboxes. Control Them Over HTTP. Supports Claude Code, Codex, OpenCode, and Amp.",
+    "name": "samvallad33/vestige",
+    "url": "https://github.com/samvallad33/vestige",
+    "description": "Cognitive memory MCP server for Claude - FSRS-6, spreading activation, synaptic tagging, and 130 years of memory research",
     "stars": 338,
-    "forks": 29,
+    "forks": 27,
     "language": "Rust",
-    "topics": [
-      "agent",
-      "ai",
-      "amp",
-      "claude",
-      "claude-code",
-      "codex",
-      "daytona",
-      "e2b",
-      "opencode",
-      "sandbox"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-25T10:03:02Z",
-    "updated_at": "2026-02-03T04:08:06Z",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-01-25T07:31:09Z",
+    "updated_at": "2026-02-04T03:18:21Z",
     "owner": {
-      "name": "rivet-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57733614?v=4"
+      "name": "samvallad33",
+      "avatar_url": "https://avatars.githubusercontent.com/u/143034159?v=4"
     }
   },
   {
@@ -403,19 +446,19 @@
     }
   },
   {
-    "name": "samvallad33/vestige",
-    "url": "https://github.com/samvallad33/vestige",
-    "description": "Cognitive memory MCP server for Claude - FSRS-6, spreading activation, synaptic tagging, and 130 years of memory research",
-    "stars": 332,
-    "forks": 27,
+    "name": "Dicklesworthstone/destructive_command_guard",
+    "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+    "description": "A Claude Code hook that blocks destructive git and filesystem commands",
+    "stars": 333,
+    "forks": 21,
     "language": "Rust",
     "topics": [],
-    "license": "Other",
-    "created_at": "2026-01-25T07:31:09Z",
-    "updated_at": "2026-02-03T04:10:52Z",
+    "license": "MIT License",
+    "created_at": "2026-01-07T22:27:34Z",
+    "updated_at": "2026-02-04T03:33:52Z",
     "owner": {
-      "name": "samvallad33",
-      "avatar_url": "https://avatars.githubusercontent.com/u/143034159?v=4"
+      "name": "Dicklesworthstone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4"
     }
   },
   {
@@ -435,35 +478,51 @@
     }
   },
   {
-    "name": "Dicklesworthstone/destructive_command_guard",
-    "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-    "description": "A Claude Code hook that blocks destructive git and filesystem commands",
-    "stars": 317,
-    "forks": 20,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-07T22:27:34Z",
-    "updated_at": "2026-02-03T03:58:19Z",
-    "owner": {
-      "name": "Dicklesworthstone",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4"
-    }
-  },
-  {
     "name": "qufei1993/skills-hub",
     "url": "https://github.com/qufei1993/skills-hub",
     "description": "A cross-platform desktop app to manage Agent Skills in one place and sync them to multiple AI coding tools’ global skills directories — “Install once, sync everywhere”.",
-    "stars": 315,
+    "stars": 325,
     "forks": 39,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-25T03:31:21Z",
-    "updated_at": "2026-02-03T03:47:37Z",
+    "updated_at": "2026-02-04T03:52:52Z",
     "owner": {
       "name": "qufei1993",
       "avatar_url": "https://avatars.githubusercontent.com/u/17956058?v=4"
+    }
+  },
+  {
+    "name": "owu/wsl-dashboard",
+    "url": "https://github.com/owu/wsl-dashboard",
+    "description": "A modern, high-performance, and lightweight WSL instance management dashboard. A GUI manager for WSL.",
+    "stars": 289,
+    "forks": 14,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-01-18T05:30:02Z",
+    "updated_at": "2026-02-04T00:46:26Z",
+    "owner": {
+      "name": "owu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16047778?v=4"
+    }
+  },
+  {
+    "name": "lynaghk/vibe",
+    "url": "https://github.com/lynaghk/vibe",
+    "description": "Easy Linux virtual machine on MacOS to sandbox LLM agents.",
+    "stars": 283,
+    "forks": 7,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-28T13:04:55Z",
+    "updated_at": "2026-02-04T04:07:47Z",
+    "owner": {
+      "name": "lynaghk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/147919?v=4"
     }
   },
   {
@@ -493,39 +552,23 @@
     "name": "tanaer/WindowsClear",
     "url": "https://github.com/tanaer/WindowsClear",
     "description": "Windows C盘清理工具/C盘瘦身工具，还你Appdata的大量硬盘空间 | Windows System disk cleanup, returning a large amount of hard drive space from your Appdata",
-    "stars": 275,
+    "stars": 280,
     "forks": 10,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-24T09:12:25Z",
-    "updated_at": "2026-02-03T00:58:59Z",
+    "updated_at": "2026-02-04T03:46:54Z",
     "owner": {
       "name": "tanaer",
       "avatar_url": "https://avatars.githubusercontent.com/u/3828685?v=4"
     }
   },
   {
-    "name": "owu/wsl-dashboard",
-    "url": "https://github.com/owu/wsl-dashboard",
-    "description": "A modern, high-performance, and lightweight WSL instance management dashboard. A GUI manager for WSL.",
-    "stars": 270,
-    "forks": 13,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-01-18T05:30:02Z",
-    "updated_at": "2026-02-03T00:26:16Z",
-    "owner": {
-      "name": "owu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16047778?v=4"
-    }
-  },
-  {
     "name": "Mygod/slipstream-rust",
     "url": "https://github.com/Mygod/slipstream-rust",
     "description": "High-performance multi-path covert channel over DNS in Rust with vibe coding",
-    "stars": 258,
+    "stars": 260,
     "forks": 63,
     "language": "Rust",
     "topics": [
@@ -539,23 +582,43 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-01-09T04:27:07Z",
-    "updated_at": "2026-02-02T21:35:27Z",
+    "updated_at": "2026-02-03T10:36:15Z",
     "owner": {
       "name": "Mygod",
       "avatar_url": "https://avatars.githubusercontent.com/u/3511321?v=4"
     }
   },
   {
+    "name": "jordond/jolt",
+    "url": "https://github.com/jordond/jolt",
+    "description": "⚡️A terminal-based battery and energy monitor for macOS and Linux.",
+    "stars": 256,
+    "forks": 8,
+    "language": "Rust",
+    "topics": [
+      "battery",
+      "battery-monitor",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-06T02:08:19Z",
+    "updated_at": "2026-02-04T03:58:40Z",
+    "owner": {
+      "name": "jordond",
+      "avatar_url": "https://avatars.githubusercontent.com/u/528792?v=4"
+    }
+  },
+  {
     "name": "alecthomas/t",
     "url": "https://github.com/alecthomas/t",
     "description": "`t` is a concise language for manipulating text, replacing common usage patterns of Unix utilities like grep, sed, cut, awk, sort, and uniq.",
-    "stars": 241,
+    "stars": 245,
     "forks": 5,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-26T08:06:43Z",
-    "updated_at": "2026-02-02T13:42:53Z",
+    "updated_at": "2026-02-03T19:59:54Z",
     "owner": {
       "name": "alecthomas",
       "avatar_url": "https://avatars.githubusercontent.com/u/41767?v=4"
@@ -565,7 +628,7 @@
     "name": "agavra/tuicr",
     "url": "https://github.com/agavra/tuicr",
     "description": "A human-in-the-loop code review TUI for AI-generated changes.",
-    "stars": 230,
+    "stars": 232,
     "forks": 24,
     "language": "Rust",
     "topics": [
@@ -576,7 +639,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-08T04:55:34Z",
-    "updated_at": "2026-02-03T00:18:01Z",
+    "updated_at": "2026-02-03T17:24:01Z",
     "owner": {
       "name": "agavra",
       "avatar_url": "https://avatars.githubusercontent.com/u/3172405?v=4"
@@ -618,13 +681,13 @@
     "name": "ecto/vcad",
     "url": "https://github.com/ecto/vcad",
     "description": "Parametric CAD in Rust — CSG modeling with multi-format export",
-    "stars": 219,
+    "stars": 220,
     "forks": 8,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-27T18:00:14Z",
-    "updated_at": "2026-02-03T02:57:25Z",
+    "updated_at": "2026-02-04T00:57:28Z",
     "owner": {
       "name": "ecto",
       "avatar_url": "https://avatars.githubusercontent.com/u/387820?v=4"
@@ -634,7 +697,7 @@
     "name": "embedding-shapes/one-agent-one-browser",
     "url": "https://github.com/embedding-shapes/one-agent-one-browser",
     "description": "One from scratch browser built by one human and one agent, working hand in hand",
-    "stars": 204,
+    "stars": 208,
     "forks": 5,
     "language": "Rust",
     "topics": [
@@ -646,7 +709,7 @@
     ],
     "license": "No license",
     "created_at": "2026-01-26T21:29:52Z",
-    "updated_at": "2026-02-03T02:37:52Z",
+    "updated_at": "2026-02-03T15:11:56Z",
     "owner": {
       "name": "embedding-shapes",
       "avatar_url": "https://avatars.githubusercontent.com/u/239044793?v=4"
@@ -672,7 +735,7 @@
     "name": "wlswo/xray",
     "url": "https://github.com/wlswo/xray",
     "description": "A simple, intuitive, and light universal UI capture and inspection tool for macOS",
-    "stars": 197,
+    "stars": 198,
     "forks": 10,
     "language": "Rust",
     "topics": [
@@ -683,49 +746,69 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-01-14T05:09:45Z",
-    "updated_at": "2026-02-03T01:49:29Z",
+    "updated_at": "2026-02-04T02:43:00Z",
     "owner": {
       "name": "wlswo",
       "avatar_url": "https://avatars.githubusercontent.com/u/103496262?v=4"
     }
   },
   {
-    "name": "Mist-kail/polymarket-arb-trading-bot",
-    "url": "https://github.com/Mist-kail/polymarket-arb-trading-bot",
-    "description": " Polymarket trading bot. polymarket trading bot . polymarket trading bot. polymarket arbitrage trading bot. polymarket arbitrage trading bot. This project is a Polymarket Arbitrage Trading Bot that allows users to automatically arbitrage trades from a selected trader on Polymarket. ",
-    "stars": 188,
-    "forks": 190,
+    "name": "thesSmartApe/polymarket-copy-trading-bot-rust",
+    "url": "https://github.com/thesSmartApe/polymarket-copy-trading-bot-rust",
+    "description": "polymarket rust copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot",
+    "stars": 196,
+    "forks": 87,
     "language": "Rust",
     "topics": [
-      "bot",
-      "poly-trading-bot",
-      "polymarket",
-      "polymarket-arbitrage",
-      "polymarket-arbitrage-bot",
-      "polymarket-trading",
+      "polymarket-bot",
+      "polymarket-copy-trading-bot",
+      "polymarket-copy-tradingbot",
+      "polymarket-copytrading-bot",
+      "polymarket-rust-copy-trading-bot",
       "polymarket-trading-bot",
-      "trading",
-      "trading-bot"
+      "polymarket-tradingbot"
     ],
     "license": "No license",
-    "created_at": "2026-01-19T08:57:23Z",
-    "updated_at": "2026-01-21T03:21:55Z",
+    "created_at": "2026-01-29T08:00:05Z",
+    "updated_at": "2026-02-04T03:38:21Z",
     "owner": {
-      "name": "Mist-kail",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45954860?v=4"
+      "name": "thesSmartApe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72080260?v=4"
+    }
+  },
+  {
+    "name": "lukehinds/nono",
+    "url": "https://github.com/lukehinds/nono",
+    "description": "A secure, kernel-enforced capability sandbox for AI agents",
+    "stars": 194,
+    "forks": 11,
+    "language": "Rust",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "isolation",
+      "sandbox",
+      "security"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-31T09:25:45Z",
+    "updated_at": "2026-02-04T03:20:31Z",
+    "owner": {
+      "name": "lukehinds",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7058938?v=4"
     }
   },
   {
     "name": "xM0kht4r/AV-EDR-Killer",
     "url": "https://github.com/xM0kht4r/AV-EDR-Killer",
     "description": "AV/EDR processes termination by exploiting a vulnerable driver (BYOVD)",
-    "stars": 185,
+    "stars": 189,
     "forks": 29,
     "language": "Rust",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-01-10T22:42:42Z",
-    "updated_at": "2026-02-03T03:19:59Z",
+    "updated_at": "2026-02-03T15:40:58Z",
     "owner": {
       "name": "xM0kht4r",
       "avatar_url": "https://avatars.githubusercontent.com/u/26775853?v=4"
@@ -745,22 +828,6 @@
     "owner": {
       "name": "Handfish",
       "avatar_url": "https://avatars.githubusercontent.com/u/7737624?v=4"
-    }
-  },
-  {
-    "name": "lynaghk/vibe",
-    "url": "https://github.com/lynaghk/vibe",
-    "description": "Easy Linux virtual machine on MacOS to sandbox LLM agents.",
-    "stars": 179,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-28T13:04:55Z",
-    "updated_at": "2026-02-03T03:47:55Z",
-    "owner": {
-      "name": "lynaghk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/147919?v=4"
     }
   },
   {
@@ -841,30 +908,6 @@
     "owner": {
       "name": "ubugeeei",
       "avatar_url": "https://avatars.githubusercontent.com/u/71201308?v=4"
-    }
-  },
-  {
-    "name": "thesSmartApe/polymarket-copy-trading-bot-rust",
-    "url": "https://github.com/thesSmartApe/polymarket-copy-trading-bot-rust",
-    "description": "polymarket rust copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot polymarket copy trading bot",
-    "stars": 165,
-    "forks": 45,
-    "language": "Rust",
-    "topics": [
-      "polymarket-bot",
-      "polymarket-copy-trading-bot",
-      "polymarket-copy-tradingbot",
-      "polymarket-copytrading-bot",
-      "polymarket-rust-copy-trading-bot",
-      "polymarket-trading-bot",
-      "polymarket-tradingbot"
-    ],
-    "license": "No license",
-    "created_at": "2026-01-29T08:00:05Z",
-    "updated_at": "2026-02-03T03:57:48Z",
-    "owner": {
-      "name": "thesSmartApe",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72080260?v=4"
     }
   },
   {
