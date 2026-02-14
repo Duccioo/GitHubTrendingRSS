@@ -3,13 +3,13 @@
     "name": "xai-org/x-algorithm",
     "url": "https://github.com/xai-org/x-algorithm",
     "description": "Algorithm powering the For You feed on X",
-    "stars": 15377,
-    "forks": 2697,
+    "stars": 15405,
+    "forks": 2700,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-01-19T23:12:35Z",
-    "updated_at": "2026-02-13T03:34:54Z",
+    "updated_at": "2026-02-14T04:06:46Z",
     "owner": {
       "name": "xai-org",
       "avatar_url": "https://avatars.githubusercontent.com/u/130314967?v=4"
@@ -19,13 +19,13 @@
     "name": "lucasgelfond/zerobrew",
     "url": "https://github.com/lucasgelfond/zerobrew",
     "description": "A drop-in, 5-20x faster, experimental Homebrew alternative",
-    "stars": 6145,
-    "forks": 143,
+    "stars": 6214,
+    "forks": 140,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-01-19T12:42:04Z",
-    "updated_at": "2026-02-13T04:07:47Z",
+    "updated_at": "2026-02-14T03:52:00Z",
     "owner": {
       "name": "lucasgelfond",
       "avatar_url": "https://avatars.githubusercontent.com/u/8399069?v=4"
@@ -35,13 +35,13 @@
     "name": "anthropics/claudes-c-compiler",
     "url": "https://github.com/anthropics/claudes-c-compiler",
     "description": "Claude Opus 4.6 wrote a dependency-free C compiler in Rust, with backends targeting x86 (64- and 32-bit), ARM, and RISC-V, capable of compiling a booting Linux kernel.",
-    "stars": 2107,
-    "forks": 127,
+    "stars": 2125,
+    "forks": 129,
     "language": "Rust",
     "topics": [],
     "license": "Creative Commons Zero v1.0 Universal",
     "created_at": "2026-02-04T22:42:22Z",
-    "updated_at": "2026-02-13T04:00:44Z",
+    "updated_at": "2026-02-13T22:51:21Z",
     "owner": {
       "name": "anthropics",
       "avatar_url": "https://avatars.githubusercontent.com/u/76263028?v=4"
@@ -67,7 +67,7 @@
     "name": "sheeki03/tirith",
     "url": "https://github.com/sheeki03/tirith",
     "description": "Your browser catches homograph attacks. Your terminal doesn't. Tirith guards the gate — intercepts suspicious URLs, ANSI injection, and pipe-to-shell attacks before they execute.",
-    "stars": 1715,
+    "stars": 1731,
     "forks": 53,
     "language": "Rust",
     "topics": [
@@ -84,18 +84,50 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-02-02T04:33:47Z",
-    "updated_at": "2026-02-13T02:50:32Z",
+    "updated_at": "2026-02-14T01:17:45Z",
     "owner": {
       "name": "sheeki03",
       "avatar_url": "https://avatars.githubusercontent.com/u/36009418?v=4"
     }
   },
   {
+    "name": "tw93/Kaku",
+    "url": "https://github.com/tw93/Kaku",
+    "description": "🎃 A fast, out-of-the-box terminal built for AI coding.",
+    "stars": 1059,
+    "forks": 40,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-02-07T13:00:49Z",
+    "updated_at": "2026-02-14T04:03:52Z",
+    "owner": {
+      "name": "tw93",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8736212?v=4"
+    }
+  },
+  {
+    "name": "nearai/ironclaw",
+    "url": "https://github.com/nearai/ironclaw",
+    "description": "IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security",
+    "stars": 950,
+    "forks": 99,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-02-03T06:57:10Z",
+    "updated_at": "2026-02-14T04:06:14Z",
+    "owner": {
+      "name": "nearai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29134221?v=4"
+    }
+  },
+  {
     "name": "1jehuang/mermaid-rs-renderer",
     "url": "https://github.com/1jehuang/mermaid-rs-renderer",
     "description": "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli.",
-    "stars": 929,
-    "forks": 28,
+    "stars": 933,
+    "forks": 27,
     "language": "Rust",
     "topics": [
       "cli",
@@ -107,66 +139,56 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-22T06:18:34Z",
-    "updated_at": "2026-02-12T22:38:03Z",
+    "updated_at": "2026-02-14T03:11:11Z",
     "owner": {
       "name": "1jehuang",
       "avatar_url": "https://avatars.githubusercontent.com/u/94247773?v=4"
     }
   },
   {
-    "name": "zs1083339604/FaceWinUnlock-Tauri",
-    "url": "https://github.com/zs1083339604/FaceWinUnlock-Tauri",
-    "description": "一款基于 Tauri 框架开发的现代化 Windows 面容识别解锁增强软件。它通过自定义 Credential Provider (DLL) 注入 Windows 登录界面，结合前端 Vue 3 和后端 OpenCV 人脸识别算法，为用户提供类似 Windows Hello 的解锁体验。",
-    "stars": 926,
-    "forks": 49,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-02T06:12:06Z",
-    "updated_at": "2026-01-31T03:32:52Z",
-    "owner": {
-      "name": "zs1083339604",
-      "avatar_url": "https://avatars.githubusercontent.com/u/41194731?v=4"
-    }
-  },
-  {
     "name": "localgpt-app/localgpt",
     "url": "https://github.com/localgpt-app/localgpt",
     "description": null,
-    "stars": 867,
+    "stars": 896,
     "forks": 66,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-02-01T17:32:52Z",
-    "updated_at": "2026-02-13T04:11:06Z",
+    "updated_at": "2026-02-14T03:59:40Z",
     "owner": {
       "name": "localgpt-app",
       "avatar_url": "https://avatars.githubusercontent.com/u/127809204?v=4"
     }
   },
   {
-    "name": "tw93/Kaku",
-    "url": "https://github.com/tw93/Kaku",
-    "description": "🎃 A fast, out-of-the-box terminal built for AI coding.",
-    "stars": 836,
-    "forks": 37,
+    "name": "Veirt/weathr",
+    "url": "https://github.com/Veirt/weathr",
+    "description": "a terminal weather app with ascii animation",
+    "stars": 893,
+    "forks": 29,
     "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-02-07T13:00:49Z",
-    "updated_at": "2026-02-13T04:15:46Z",
+    "topics": [
+      "cli",
+      "rust-lang",
+      "terminal",
+      "tui",
+      "weather"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-02-08T17:52:29Z",
+    "updated_at": "2026-02-14T04:00:05Z",
     "owner": {
-      "name": "tw93",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8736212?v=4"
+      "name": "Veirt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55097092?v=4"
     }
   },
   {
     "name": "rivet-dev/sandbox-agent",
     "url": "https://github.com/rivet-dev/sandbox-agent",
     "description": "Run Coding Agents in Sandboxes. Control Them Over HTTP. Supports Claude Code, Codex, OpenCode, and Amp.",
-    "stars": 800,
-    "forks": 55,
+    "stars": 811,
+    "forks": 54,
     "language": "Rust",
     "topics": [
       "agent",
@@ -182,7 +204,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-01-25T10:03:02Z",
-    "updated_at": "2026-02-13T03:27:04Z",
+    "updated_at": "2026-02-14T03:40:25Z",
     "owner": {
       "name": "rivet-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/57733614?v=4"
@@ -220,38 +242,16 @@
     }
   },
   {
-    "name": "Veirt/weathr",
-    "url": "https://github.com/Veirt/weathr",
-    "description": "a terminal weather app with ascii animation",
-    "stars": 723,
-    "forks": 23,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "rust-lang",
-      "terminal",
-      "tui",
-      "weather"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-08T17:52:29Z",
-    "updated_at": "2026-02-13T03:58:25Z",
-    "owner": {
-      "name": "Veirt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55097092?v=4"
-    }
-  },
-  {
     "name": "lynaghk/vibe",
     "url": "https://github.com/lynaghk/vibe",
     "description": "Easy Linux virtual machine on MacOS to sandbox LLM agents.",
-    "stars": 702,
-    "forks": 31,
+    "stars": 708,
+    "forks": 30,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-28T13:04:55Z",
-    "updated_at": "2026-02-13T01:28:10Z",
+    "updated_at": "2026-02-14T00:32:18Z",
     "owner": {
       "name": "lynaghk",
       "avatar_url": "https://avatars.githubusercontent.com/u/147919?v=4"
@@ -282,6 +282,29 @@
     "owner": {
       "name": "yesnotrader",
       "avatar_url": "https://avatars.githubusercontent.com/u/150507969?v=4"
+    }
+  },
+  {
+    "name": "TrevorS/voxtral-mini-realtime-rs",
+    "url": "https://github.com/TrevorS/voxtral-mini-realtime-rs",
+    "description": "Streaming speech recognition running natively and in the browser. A pure Rust implementation of Mistral's Voxtral Mini 4B Realtime model using the Burn ML framework.",
+    "stars": 592,
+    "forks": 23,
+    "language": "Rust",
+    "topics": [
+      "asr",
+      "burn",
+      "mistral",
+      "rust",
+      "voxtral-mini-realtime",
+      "wasm"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-02-04T23:22:00Z",
+    "updated_at": "2026-02-14T02:59:22Z",
+    "owner": {
+      "name": "TrevorS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1251005?v=4"
     }
   },
   {
@@ -317,29 +340,6 @@
     }
   },
   {
-    "name": "TrevorS/voxtral-mini-realtime-rs",
-    "url": "https://github.com/TrevorS/voxtral-mini-realtime-rs",
-    "description": "Streaming speech recognition running natively and in the browser. A pure Rust implementation of Mistral's Voxtral Mini 4B Realtime model using the Burn ML framework.",
-    "stars": 576,
-    "forks": 21,
-    "language": "Rust",
-    "topics": [
-      "asr",
-      "burn",
-      "mistral",
-      "rust",
-      "voxtral-mini-realtime",
-      "wasm"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-02-04T23:22:00Z",
-    "updated_at": "2026-02-13T03:45:13Z",
-    "owner": {
-      "name": "TrevorS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1251005?v=4"
-    }
-  },
-  {
     "name": "yesnotrader/polymarket-trading-bot-telegram-ui",
     "url": "https://github.com/yesnotrader/polymarket-trading-bot-telegram-ui",
     "description": "🚀polymarket copy trading bot polymarket arbitrage bot polymarket market maker bot polymarket copy trading bot polymarket copy trading bot polymarket trading bot polymarket copy trading bot polymarket arbitrage bot polymarket trading bot polymarket copy trading bot polymarket arbitrage bot",
@@ -370,7 +370,7 @@
     "name": "Dicklesworthstone/beads_rust",
     "url": "https://github.com/Dicklesworthstone/beads_rust",
     "description": "Fast Rust port of Steve Yegge's beads: local-first, non-invasive issue tracker storing tasks in SQLite with JSONL export for git collaboration",
-    "stars": 524,
+    "stars": 530,
     "forks": 38,
     "language": "Rust",
     "topics": [
@@ -382,50 +382,47 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-18T19:19:59Z",
-    "updated_at": "2026-02-13T03:10:48Z",
+    "updated_at": "2026-02-14T03:21:12Z",
     "owner": {
       "name": "Dicklesworthstone",
       "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4"
     }
   },
   {
-    "name": "nearai/ironclaw",
-    "url": "https://github.com/nearai/ironclaw",
-    "description": "IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security",
-    "stars": 523,
-    "forks": 73,
+    "name": "moltis-org/moltis",
+    "url": "https://github.com/moltis-org/moltis",
+    "description": "A personal AI assistant built in Rust. Single binary, multi-provider LLMs, long-term memory, sandboxed execution, voice, MCP tools, and multi-channel access (web, Telegram, API).",
+    "stars": 520,
+    "forks": 38,
     "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-02-03T06:57:10Z",
-    "updated_at": "2026-02-13T04:15:14Z",
-    "owner": {
-      "name": "nearai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29134221?v=4"
-    }
-  },
-  {
-    "name": "davidbeesley/claude-chill",
-    "url": "https://github.com/davidbeesley/claude-chill",
-    "description": null,
-    "stars": 478,
-    "forks": 17,
-    "language": "Rust",
-    "topics": [],
+    "topics": [
+      "ai-agent",
+      "ai-assistant",
+      "clawdbot",
+      "llm",
+      "mcp",
+      "openclaw",
+      "rust",
+      "sandbox",
+      "self-hosted",
+      "single-binary",
+      "telegram-bot",
+      "voice-assistant"
+    ],
     "license": "MIT License",
-    "created_at": "2026-01-17T03:08:54Z",
-    "updated_at": "2026-02-13T01:20:35Z",
+    "created_at": "2026-01-29T19:36:31Z",
+    "updated_at": "2026-02-14T04:03:30Z",
     "owner": {
-      "name": "davidbeesley",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37917398?v=4"
+      "name": "moltis-org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/258745078?v=4"
     }
   },
   {
     "name": "jlcodes99/cockpit-tools",
     "url": "https://github.com/jlcodes99/cockpit-tools",
     "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf，多账号切换、配额监控、自动唤醒与多开实例管理。  🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf, with multi-account switching, quota monitoring, wake-up automation, and multi-instance management.",
-    "stars": 460,
-    "forks": 37,
+    "stars": 492,
+    "forks": 38,
     "language": "Rust",
     "topics": [
       "account-manager",
@@ -437,23 +434,39 @@
     ],
     "license": "No license",
     "created_at": "2026-01-16T07:09:32Z",
-    "updated_at": "2026-02-13T02:51:51Z",
+    "updated_at": "2026-02-14T03:03:48Z",
     "owner": {
       "name": "jlcodes99",
       "avatar_url": "https://avatars.githubusercontent.com/u/224477852?v=4"
     }
   },
   {
+    "name": "davidbeesley/claude-chill",
+    "url": "https://github.com/davidbeesley/claude-chill",
+    "description": null,
+    "stars": 479,
+    "forks": 16,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-17T03:08:54Z",
+    "updated_at": "2026-02-13T09:17:55Z",
+    "owner": {
+      "name": "davidbeesley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37917398?v=4"
+    }
+  },
+  {
     "name": "owu/wsl-dashboard",
     "url": "https://github.com/owu/wsl-dashboard",
     "description": "A modern, high-performance, and lightweight WSL instance management dashboard. A GUI manager for WSL.",
-    "stars": 459,
+    "stars": 473,
     "forks": 24,
     "language": "Rust",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-01-18T05:30:02Z",
-    "updated_at": "2026-02-13T02:59:52Z",
+    "updated_at": "2026-02-14T03:56:23Z",
     "owner": {
       "name": "owu",
       "avatar_url": "https://avatars.githubusercontent.com/u/16047778?v=4"
@@ -463,32 +476,46 @@
     "name": "kuse-ai/kuse_cowork",
     "url": "https://github.com/kuse-ai/kuse_cowork",
     "description": "Open-source Alternative to Claude Cowork Desktop App By Kuse",
-    "stars": 446,
+    "stars": 450,
     "forks": 51,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-17T17:42:35Z",
-    "updated_at": "2026-02-13T02:04:17Z",
+    "updated_at": "2026-02-14T03:49:56Z",
     "owner": {
       "name": "kuse-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/147392345?v=4"
     }
   },
   {
-    "name": "NORMAL-EX/LetRecovery",
-    "url": "https://github.com/NORMAL-EX/LetRecovery",
-    "description": "一款免费开源的 Windows 系统重装工具",
-    "stars": 425,
-    "forks": 44,
+    "name": "rtk-ai/rtk",
+    "url": "https://github.com/rtk-ai/rtk",
+    "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+    "stars": 420,
+    "forks": 33,
     "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-01-02T15:58:14Z",
-    "updated_at": "2026-01-31T02:42:00Z",
+    "topics": [
+      "agentic-coding",
+      "ai-coding",
+      "anthropic",
+      "claude-code",
+      "cli",
+      "command-line-tool",
+      "cost-reduction",
+      "developer-tools",
+      "llm",
+      "open-source",
+      "productivity",
+      "rust",
+      "token-optimization"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-22T16:54:16Z",
+    "updated_at": "2026-02-14T03:53:01Z",
     "owner": {
-      "name": "NORMAL-EX",
-      "avatar_url": "https://avatars.githubusercontent.com/u/198231480?v=4"
+      "name": "rtk-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/258253854?v=4"
     }
   },
   {
@@ -531,13 +558,13 @@
     "name": "tanaer/WindowsClear",
     "url": "https://github.com/tanaer/WindowsClear",
     "description": "Windows C盘清理工具/C盘瘦身工具，还你Appdata的大量硬盘空间 | Windows System disk cleanup, returning a large amount of hard drive space from your Appdata",
-    "stars": 397,
+    "stars": 398,
     "forks": 13,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-24T09:12:25Z",
-    "updated_at": "2026-02-13T03:47:52Z",
+    "updated_at": "2026-02-13T17:38:28Z",
     "owner": {
       "name": "tanaer",
       "avatar_url": "https://avatars.githubusercontent.com/u/3828685?v=4"
@@ -547,13 +574,13 @@
     "name": "qufei1993/skills-hub",
     "url": "https://github.com/qufei1993/skills-hub",
     "description": "A cross-platform desktop app to manage Agent Skills in one place and sync them to multiple AI coding tools’ global skills directories — “Install once, sync everywhere”.",
-    "stars": 387,
-    "forks": 46,
+    "stars": 389,
+    "forks": 45,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-25T03:31:21Z",
-    "updated_at": "2026-02-13T02:06:38Z",
+    "updated_at": "2026-02-14T02:48:24Z",
     "owner": {
       "name": "qufei1993",
       "avatar_url": "https://avatars.githubusercontent.com/u/17956058?v=4"
@@ -564,15 +591,51 @@
     "url": "https://github.com/samvallad33/vestige",
     "description": "Cognitive memory MCP server for Claude - FSRS-6, spreading activation, synaptic tagging, and 130 years of memory research",
     "stars": 361,
-    "forks": 30,
+    "forks": 29,
     "language": "Rust",
     "topics": [],
     "license": "Other",
     "created_at": "2026-01-25T07:31:09Z",
-    "updated_at": "2026-02-12T23:25:15Z",
+    "updated_at": "2026-02-13T19:06:43Z",
     "owner": {
       "name": "samvallad33",
       "avatar_url": "https://avatars.githubusercontent.com/u/143034159?v=4"
+    }
+  },
+  {
+    "name": "always-further/nono",
+    "url": "https://github.com/always-further/nono",
+    "description": "Secure, kernel-enforced sandbox for AI agents, MCP and LLM workloads. Capability-based isolation with secure key management and blocking of destructive actions in a zero-trust environment.",
+    "stars": 345,
+    "forks": 20,
+    "language": "Rust",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "ai-agent-security",
+      "ai-agents",
+      "ai-security",
+      "code-execution",
+      "cybersecurity",
+      "isolation",
+      "linux-security",
+      "llm",
+      "mcp",
+      "open-source",
+      "prompt-injection",
+      "runtime-security",
+      "sandbox",
+      "security",
+      "sigstore",
+      "supply-chain-security",
+      "zero-trust"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-31T09:25:45Z",
+    "updated_at": "2026-02-13T22:41:02Z",
+    "owner": {
+      "name": "always-further",
+      "avatar_url": "https://avatars.githubusercontent.com/u/236770005?v=4"
     }
   },
   {
@@ -642,42 +705,6 @@
     "owner": {
       "name": "karpathy",
       "avatar_url": "https://avatars.githubusercontent.com/u/241138?v=4"
-    }
-  },
-  {
-    "name": "always-further/nono",
-    "url": "https://github.com/always-further/nono",
-    "description": "Secure, kernel-enforced sandbox for AI agents, MCP and LLM workloads. Capability-based isolation with secure key management and blocking of destructive actions in a zero-trust environment.",
-    "stars": 331,
-    "forks": 20,
-    "language": "Rust",
-    "topics": [
-      "agent",
-      "agentic-ai",
-      "ai-agent-security",
-      "ai-agents",
-      "ai-security",
-      "code-execution",
-      "cybersecurity",
-      "isolation",
-      "linux-security",
-      "llm",
-      "mcp",
-      "open-source",
-      "prompt-injection",
-      "runtime-security",
-      "sandbox",
-      "security",
-      "sigstore",
-      "supply-chain-security",
-      "zero-trust"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-31T09:25:45Z",
-    "updated_at": "2026-02-13T03:26:21Z",
-    "owner": {
-      "name": "always-further",
-      "avatar_url": "https://avatars.githubusercontent.com/u/236770005?v=4"
     }
   },
   {
@@ -774,36 +801,6 @@
     }
   },
   {
-    "name": "rtk-ai/rtk",
-    "url": "https://github.com/rtk-ai/rtk",
-    "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-    "stars": 259,
-    "forks": 20,
-    "language": "Rust",
-    "topics": [
-      "agentic-coding",
-      "ai-coding",
-      "anthropic",
-      "claude-code",
-      "cli",
-      "command-line-tool",
-      "cost-reduction",
-      "developer-tools",
-      "llm",
-      "open-source",
-      "productivity",
-      "rust",
-      "token-optimization"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-22T16:54:16Z",
-    "updated_at": "2026-02-13T04:08:33Z",
-    "owner": {
-      "name": "rtk-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/258253854?v=4"
-    }
-  },
-  {
     "name": "jordond/jolt",
     "url": "https://github.com/jordond/jolt",
     "description": "⚡️A terminal-based battery and energy monitor for macOS and Linux.",
@@ -827,16 +824,56 @@
     "name": "alecthomas/t",
     "url": "https://github.com/alecthomas/t",
     "description": "`t` is a concise language for manipulating text, replacing common usage patterns of Unix utilities like grep, sed, cut, awk, sort, and uniq.",
-    "stars": 249,
-    "forks": 5,
+    "stars": 250,
+    "forks": 4,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-26T08:06:43Z",
-    "updated_at": "2026-02-12T17:50:15Z",
+    "updated_at": "2026-02-13T23:38:11Z",
     "owner": {
       "name": "alecthomas",
       "avatar_url": "https://avatars.githubusercontent.com/u/41767?v=4"
+    }
+  },
+  {
+    "name": "lance0/xfr",
+    "url": "https://github.com/lance0/xfr",
+    "description": "A modern iperf3 alternative with a live TUI, multi-client server, and QUIC support. Built in Rust.",
+    "stars": 249,
+    "forks": 10,
+    "language": "Rust",
+    "topics": [
+      "bandwidth",
+      "benchmark",
+      "cli",
+      "iperf",
+      "network",
+      "rust",
+      "tui"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-31T23:43:42Z",
+    "updated_at": "2026-02-14T03:32:36Z",
+    "owner": {
+      "name": "lance0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3323861?v=4"
+    }
+  },
+  {
+    "name": "strongdm/cxdb",
+    "url": "https://github.com/strongdm/cxdb",
+    "description": null,
+    "stars": 242,
+    "forks": 21,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-01-30T18:37:34Z",
+    "updated_at": "2026-02-14T00:05:40Z",
+    "owner": {
+      "name": "strongdm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11929133?v=4"
     }
   },
   {
@@ -861,30 +898,6 @@
     }
   },
   {
-    "name": "lance0/xfr",
-    "url": "https://github.com/lance0/xfr",
-    "description": "A modern iperf3 alternative with a live TUI, multi-client server, and QUIC support. Built in Rust.",
-    "stars": 240,
-    "forks": 11,
-    "language": "Rust",
-    "topics": [
-      "bandwidth",
-      "benchmark",
-      "cli",
-      "iperf",
-      "network",
-      "rust",
-      "tui"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-31T23:43:42Z",
-    "updated_at": "2026-02-12T23:58:50Z",
-    "owner": {
-      "name": "lance0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3323861?v=4"
-    }
-  },
-  {
     "name": "ecto/vcad",
     "url": "https://github.com/ecto/vcad",
     "description": "Parametric CAD in Rust — CSG modeling with multi-format export",
@@ -898,22 +911,6 @@
     "owner": {
       "name": "ecto",
       "avatar_url": "https://avatars.githubusercontent.com/u/387820?v=4"
-    }
-  },
-  {
-    "name": "strongdm/cxdb",
-    "url": "https://github.com/strongdm/cxdb",
-    "description": null,
-    "stars": 231,
-    "forks": 21,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-30T18:37:34Z",
-    "updated_at": "2026-02-13T02:44:53Z",
-    "owner": {
-      "name": "strongdm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11929133?v=4"
     }
   },
   {
@@ -942,8 +939,8 @@
     "name": "SIGNIAINDEX/SIGNIA",
     "url": "https://github.com/SIGNIAINDEX/SIGNIA",
     "description": "Compiling real-world structures into verifiable on-chain forms.",
-    "stars": 207,
-    "forks": 21,
+    "stars": 206,
+    "forks": 20,
     "language": "Rust",
     "topics": [
       "ai",
@@ -964,7 +961,7 @@
     ],
     "license": "Other",
     "created_at": "2026-01-18T15:32:45Z",
-    "updated_at": "2026-02-04T21:35:09Z",
+    "updated_at": "2026-02-14T01:38:38Z",
     "owner": {
       "name": "SIGNIAINDEX",
       "avatar_url": "https://avatars.githubusercontent.com/u/255679795?v=4"
@@ -1024,6 +1021,22 @@
     }
   },
   {
+    "name": "dmmulroy/overseer",
+    "url": "https://github.com/dmmulroy/overseer",
+    "description": "CLI & Codemode MCP server for agent task management",
+    "stars": 198,
+    "forks": 9,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-01-26T15:22:59Z",
+    "updated_at": "2026-02-13T19:27:19Z",
+    "owner": {
+      "name": "dmmulroy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2755722?v=4"
+    }
+  },
+  {
     "name": "Handfish/talos-pilot",
     "url": "https://github.com/Handfish/talos-pilot",
     "description": "Talos TUI for real-time node monitoring, log streaming, etcd health, and diagnostics",
@@ -1037,22 +1050,6 @@
     "owner": {
       "name": "Handfish",
       "avatar_url": "https://avatars.githubusercontent.com/u/7737624?v=4"
-    }
-  },
-  {
-    "name": "dmmulroy/overseer",
-    "url": "https://github.com/dmmulroy/overseer",
-    "description": "CLI & Codemode MCP server for agent task management",
-    "stars": 190,
-    "forks": 7,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-26T15:22:59Z",
-    "updated_at": "2026-02-10T02:42:45Z",
-    "owner": {
-      "name": "dmmulroy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2755722?v=4"
     }
   },
   {
