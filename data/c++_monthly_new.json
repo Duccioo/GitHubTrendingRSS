@@ -41,16 +41,39 @@
     }
   },
   {
+    "name": "memovai/mimiclaw",
+    "url": "https://github.com/memovai/mimiclaw",
+    "description": "MimiClaw: Run OpenClaw on a $5 chip. No OS(Linux). No Node.js. No Mac mini. No Raspberry Pi. No VPS.😗Local-first memory. Shareable. Portable. Privacy-first. Smarter than PicoClaw.",
+    "stars": 1938,
+    "forks": 247,
+    "language": "C",
+    "topics": [
+      "ai",
+      "assistant",
+      "clawdbot",
+      "edge-ai-agents",
+      "memory",
+      "openclaw"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-02-04T04:25:33Z",
+    "updated_at": "2026-02-16T04:08:34Z",
+    "owner": {
+      "name": "memovai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/220203124?v=4"
+    }
+  },
+  {
     "name": "antirez/iris.c",
     "url": "https://github.com/antirez/iris.c",
     "description": "Flux 2 image generation model pure C inference",
-    "stars": 1819,
+    "stars": 1829,
     "forks": 123,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-18T17:55:48Z",
-    "updated_at": "2026-02-15T03:26:33Z",
+    "updated_at": "2026-02-15T20:25:20Z",
     "owner": {
       "name": "antirez",
       "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
@@ -73,39 +96,16 @@
     }
   },
   {
-    "name": "memovai/mimiclaw",
-    "url": "https://github.com/memovai/mimiclaw",
-    "description": "MimiClaw: Run OpenClaw on a $5 chip. No OS(Linux). No Node.js. No Mac mini. No Raspberry Pi. No VPS.😗Local-first memory. Shareable. Portable. Privacy-first. Smarter than PicoClaw.",
-    "stars": 1789,
-    "forks": 227,
-    "language": "C",
-    "topics": [
-      "ai",
-      "assistant",
-      "clawdbot",
-      "edge-ai-agents",
-      "memory",
-      "openclaw"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-04T04:25:33Z",
-    "updated_at": "2026-02-15T04:12:44Z",
-    "owner": {
-      "name": "memovai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/220203124?v=4"
-    }
-  },
-  {
     "name": "antirez/voxtral.c",
     "url": "https://github.com/antirez/voxtral.c",
     "description": "Pure C inference of Mistral Voxtral Realtime 4B speech to text model",
-    "stars": 1261,
-    "forks": 72,
+    "stars": 1286,
+    "forks": 75,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-02-05T16:59:02Z",
-    "updated_at": "2026-02-15T04:12:54Z",
+    "updated_at": "2026-02-16T02:08:28Z",
     "owner": {
       "name": "antirez",
       "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
@@ -154,16 +154,32 @@
     "name": "torvalds/HunspellColorize",
     "url": "https://github.com/torvalds/HunspellColorize",
     "description": "Wrapper around 'less' to colorize spelling mistakes using Hunspell",
-    "stars": 299,
+    "stars": 300,
     "forks": 11,
     "language": "C",
     "topics": [],
     "license": "GNU General Public License v2.0",
     "created_at": "2026-01-18T19:57:03Z",
-    "updated_at": "2026-02-14T21:09:44Z",
+    "updated_at": "2026-02-16T01:30:50Z",
     "owner": {
       "name": "torvalds",
       "avatar_url": "https://avatars.githubusercontent.com/u/1024025?v=4"
+    }
+  },
+  {
+    "name": "antirez/qwen-asr",
+    "url": "https://github.com/antirez/qwen-asr",
+    "description": "C inference for Qwen3-ASR 0.6b and 1.7b transcriptions models",
+    "stars": 290,
+    "forks": 22,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-12T15:04:28Z",
+    "updated_at": "2026-02-16T03:53:15Z",
+    "owner": {
+      "name": "antirez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
     }
   },
   {
@@ -186,45 +202,29 @@
     "name": "RainbowDynamix/GhostKatz",
     "url": "https://github.com/RainbowDynamix/GhostKatz",
     "description": "Dump LSASS via physical memory read primitives in vulnerable kernel drivers",
-    "stars": 254,
-    "forks": 26,
+    "stars": 255,
+    "forks": 27,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-21T17:28:00Z",
-    "updated_at": "2026-02-14T02:19:45Z",
+    "updated_at": "2026-02-16T00:33:11Z",
     "owner": {
       "name": "RainbowDynamix",
       "avatar_url": "https://avatars.githubusercontent.com/u/35946373?v=4"
     }
   },
   {
-    "name": "antirez/qwen-asr",
-    "url": "https://github.com/antirez/qwen-asr",
-    "description": "C inference for Qwen3-ASR 0.6b and 1.7b transcriptions models",
-    "stars": 247,
-    "forks": 18,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-12T15:04:28Z",
-    "updated_at": "2026-02-15T03:12:06Z",
-    "owner": {
-      "name": "antirez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
-    }
-  },
-  {
     "name": "valdanylchuk/breezydemo",
     "url": "https://github.com/valdanylchuk/breezydemo",
     "description": "BreezyBox shell demo for esp32s3",
-    "stars": 227,
+    "stars": 228,
     "forks": 5,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-01-26T15:32:58Z",
-    "updated_at": "2026-02-15T00:29:49Z",
+    "updated_at": "2026-02-15T21:19:52Z",
     "owner": {
       "name": "valdanylchuk",
       "avatar_url": "https://avatars.githubusercontent.com/u/621005?v=4"
@@ -234,7 +234,7 @@
     "name": "mitjafelicijan/xdgctl",
     "url": "https://github.com/mitjafelicijan/xdgctl",
     "description": "TUI for managing XDG default applications",
-    "stars": 204,
+    "stars": 205,
     "forks": 5,
     "language": "C",
     "topics": [
@@ -245,7 +245,7 @@
     ],
     "license": "BSD 2-Clause \"Simplified\" License",
     "created_at": "2026-01-25T11:03:23Z",
-    "updated_at": "2026-02-08T23:46:20Z",
+    "updated_at": "2026-02-15T10:15:07Z",
     "owner": {
       "name": "mitjafelicijan",
       "avatar_url": "https://avatars.githubusercontent.com/u/296714?v=4"
@@ -255,13 +255,13 @@
     "name": "antirez/tgterm",
     "url": "https://github.com/antirez/tgterm",
     "description": "Control your MacOS terminals via Telegram, for fun coding agents interaction and profit",
-    "stars": 196,
-    "forks": 10,
+    "stars": 198,
+    "forks": 11,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-02-03T10:43:20Z",
-    "updated_at": "2026-02-14T12:17:23Z",
+    "updated_at": "2026-02-15T14:29:09Z",
     "owner": {
       "name": "antirez",
       "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
@@ -277,7 +277,7 @@
     "topics": [],
     "license": "GNU Lesser General Public License v2.1",
     "created_at": "2026-01-18T15:08:36Z",
-    "updated_at": "2026-02-14T00:00:40Z",
+    "updated_at": "2026-02-15T09:29:12Z",
     "owner": {
       "name": "hoshinolina",
       "avatar_url": "https://avatars.githubusercontent.com/u/102031928?v=4"
@@ -303,8 +303,8 @@
     "name": "21cncstudio/project_aura",
     "url": "https://github.com/21cncstudio/project_aura",
     "description": "ESP32‑S3 air‑quality station with LVGL UI, MQTT, Home Assistant",
-    "stars": 168,
-    "forks": 14,
+    "stars": 179,
+    "forks": 15,
     "language": "C",
     "topics": [
       "3d-printing",
@@ -330,7 +330,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-01-22T18:25:52Z",
-    "updated_at": "2026-02-15T01:03:28Z",
+    "updated_at": "2026-02-16T03:18:09Z",
     "owner": {
       "name": "21cncstudio",
       "avatar_url": "https://avatars.githubusercontent.com/u/256629203?v=4"
@@ -356,13 +356,13 @@
     "name": "rbouteiller/airplay-esp32",
     "url": "https://github.com/rbouteiller/airplay-esp32",
     "description": null,
-    "stars": 157,
+    "stars": 160,
     "forks": 11,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-01-22T21:56:56Z",
-    "updated_at": "2026-02-14T22:41:49Z",
+    "updated_at": "2026-02-16T00:29:51Z",
     "owner": {
       "name": "rbouteiller",
       "avatar_url": "https://avatars.githubusercontent.com/u/50409352?v=4"
@@ -407,6 +407,26 @@
     }
   },
   {
+    "name": "datavorous/sameshi",
+    "url": "https://github.com/datavorous/sameshi",
+    "description": "a ~1200 Elo chess engine that fits within 2KB",
+    "stars": 149,
+    "forks": 5,
+    "language": "C",
+    "topics": [
+      "chess",
+      "chess-engine",
+      "demoscene"
+    ],
+    "license": "No license",
+    "created_at": "2026-02-14T04:04:35Z",
+    "updated_at": "2026-02-16T03:43:59Z",
+    "owner": {
+      "name": "datavorous",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70896212?v=4"
+    }
+  },
+  {
     "name": "MayerDaniel/the-one-wsl-bof",
     "url": "https://github.com/MayerDaniel/the-one-wsl-bof",
     "description": "One WSL BOF to rule them all",
@@ -443,11 +463,27 @@
     }
   },
   {
+    "name": "ushironoko/octorus",
+    "url": "https://github.com/ushironoko/octorus",
+    "description": "TUI PR review tool for GitHub",
+    "stars": 129,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-01-20T05:44:19Z",
+    "updated_at": "2026-02-16T01:24:35Z",
+    "owner": {
+      "name": "ushironoko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30229874?v=4"
+    }
+  },
+  {
     "name": "anonvector/SlipNet",
     "url": "https://github.com/anonvector/SlipNet",
     "description": "Android VPN client with DNS tunneling (DNSTT & Slipstream), SSH, Tor, and DoH support — featuring a built-in DNS scanner",
-    "stars": 124,
-    "forks": 6,
+    "stars": 128,
+    "forks": 8,
     "language": "C",
     "topics": [
       "android",
@@ -458,26 +494,42 @@
     ],
     "license": "Other",
     "created_at": "2026-02-01T22:36:34Z",
-    "updated_at": "2026-02-15T00:32:48Z",
+    "updated_at": "2026-02-16T03:53:29Z",
     "owner": {
       "name": "anonvector",
       "avatar_url": "https://avatars.githubusercontent.com/u/258689915?v=4"
     }
   },
   {
-    "name": "ushironoko/octorus",
-    "url": "https://github.com/ushironoko/octorus",
-    "description": "TUI PR review tool for GitHub",
-    "stars": 124,
-    "forks": 2,
+    "name": "EricEsquivel/CobaltStrike-Linux-Beacon",
+    "url": "https://github.com/EricEsquivel/CobaltStrike-Linux-Beacon",
+    "description": "Proof of Concept (PoC) implant for creating custom Cobalt Strike Beacons",
+    "stars": 126,
+    "forks": 21,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-01-20T05:44:19Z",
-    "updated_at": "2026-02-15T03:59:48Z",
+    "created_at": "2026-02-11T21:06:43Z",
+    "updated_at": "2026-02-16T03:55:30Z",
     "owner": {
-      "name": "ushironoko",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30229874?v=4"
+      "name": "EricEsquivel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109621757?v=4"
+    }
+  },
+  {
+    "name": "TheSuperPixel/Embedded_Core_Boards",
+    "url": "https://github.com/TheSuperPixel/Embedded_Core_Boards",
+    "description": null,
+    "stars": 123,
+    "forks": 30,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-02-05T01:07:44Z",
+    "updated_at": "2026-02-16T02:34:24Z",
+    "owner": {
+      "name": "TheSuperPixel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87701939?v=4"
     }
   },
   {
@@ -501,22 +553,6 @@
     "owner": {
       "name": "bigbag",
       "avatar_url": "https://avatars.githubusercontent.com/u/1251437?v=4"
-    }
-  },
-  {
-    "name": "TheSuperPixel/Embedded_Core_Boards",
-    "url": "https://github.com/TheSuperPixel/Embedded_Core_Boards",
-    "description": null,
-    "stars": 118,
-    "forks": 27,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-05T01:07:44Z",
-    "updated_at": "2026-02-15T03:15:45Z",
-    "owner": {
-      "name": "TheSuperPixel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/87701939?v=4"
     }
   },
   {
@@ -549,59 +585,23 @@
     "name": "antirez/whisperbot",
     "url": "https://github.com/antirez/whisperbot",
     "description": "Telegram bot that transcribes audio messages via whisper.cpp",
-    "stars": 115,
+    "stars": 116,
     "forks": 6,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-01-27T19:09:40Z",
-    "updated_at": "2026-02-14T12:17:20Z",
+    "updated_at": "2026-02-15T20:31:16Z",
     "owner": {
       "name": "antirez",
       "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
     }
   },
   {
-    "name": "EricEsquivel/CobaltStrike-Linux-Beacon",
-    "url": "https://github.com/EricEsquivel/CobaltStrike-Linux-Beacon",
-    "description": "Proof of Concept (PoC) implant for creating custom Cobalt Strike Beacons",
-    "stars": 114,
-    "forks": 21,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-11T21:06:43Z",
-    "updated_at": "2026-02-15T00:54:39Z",
-    "owner": {
-      "name": "EricEsquivel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109621757?v=4"
-    }
-  },
-  {
-    "name": "datavorous/sameshi",
-    "url": "https://github.com/datavorous/sameshi",
-    "description": "a ~1200 Elo chess engine that fits within 2KB",
-    "stars": 109,
-    "forks": 4,
-    "language": "C",
-    "topics": [
-      "chess",
-      "chess-engine",
-      "demoscene"
-    ],
-    "license": "No license",
-    "created_at": "2026-02-14T04:04:35Z",
-    "updated_at": "2026-02-15T03:55:53Z",
-    "owner": {
-      "name": "datavorous",
-      "avatar_url": "https://avatars.githubusercontent.com/u/70896212?v=4"
-    }
-  },
-  {
     "name": "robitec97/gemma3.c",
     "url": "https://github.com/robitec97/gemma3.c",
     "description": "Gemma 3 pure inference in C",
-    "stars": 104,
+    "stars": 106,
     "forks": 4,
     "language": "C",
     "topics": [
@@ -612,10 +612,40 @@
     ],
     "license": "No license",
     "created_at": "2026-01-19T07:39:57Z",
-    "updated_at": "2026-02-13T15:35:51Z",
+    "updated_at": "2026-02-15T20:48:55Z",
     "owner": {
       "name": "robitec97",
       "avatar_url": "https://avatars.githubusercontent.com/u/45318540?v=4"
+    }
+  },
+  {
+    "name": "0xsh3llf1r3/ColdWer",
+    "url": "https://github.com/0xsh3llf1r3/ColdWer",
+    "description": "Cobalt Strike BOF to freeze EDR/AV processes and dump LSASS using WerFaultSecure.exe PPL bypass",
+    "stars": 105,
+    "forks": 19,
+    "language": "C",
+    "topics": [
+      "av-bypass",
+      "beacon-object-file",
+      "bof",
+      "cobalt-strike",
+      "credential-dumping",
+      "edr-bypass",
+      "edr-evasion",
+      "edr-freeze",
+      "lsass-dump",
+      "offensive-security",
+      "ppl-bypass",
+      "red-team",
+      "windows-security"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-29T10:41:30Z",
+    "updated_at": "2026-02-15T21:18:35Z",
+    "owner": {
+      "name": "0xsh3llf1r3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/257633558?v=4"
     }
   },
   {
@@ -651,36 +681,6 @@
     }
   },
   {
-    "name": "0xsh3llf1r3/ColdWer",
-    "url": "https://github.com/0xsh3llf1r3/ColdWer",
-    "description": "Cobalt Strike BOF to freeze EDR/AV processes and dump LSASS using WerFaultSecure.exe PPL bypass",
-    "stars": 102,
-    "forks": 18,
-    "language": "C",
-    "topics": [
-      "av-bypass",
-      "beacon-object-file",
-      "bof",
-      "cobalt-strike",
-      "credential-dumping",
-      "edr-bypass",
-      "edr-evasion",
-      "edr-freeze",
-      "lsass-dump",
-      "offensive-security",
-      "ppl-bypass",
-      "red-team",
-      "windows-security"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-29T10:41:30Z",
-    "updated_at": "2026-02-12T07:11:22Z",
-    "owner": {
-      "name": "0xsh3llf1r3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/257633558?v=4"
-    }
-  },
-  {
     "name": "banteg/crimson",
     "url": "https://github.com/banteg/crimson",
     "description": "a faithful rewrite of crimsonland 1.9.93 from 2003",
@@ -694,6 +694,22 @@
     "owner": {
       "name": "banteg",
       "avatar_url": "https://avatars.githubusercontent.com/u/4562643?v=4"
+    }
+  },
+  {
+    "name": "shirokhorshid/shirokhorshid-android",
+    "url": "https://github.com/shirokhorshid/shirokhorshid-android",
+    "description": "Independently maintained, community fork of Psiphon Android client",
+    "stars": 101,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-02-07T23:47:55Z",
+    "updated_at": "2026-02-16T03:47:00Z",
+    "owner": {
+      "name": "shirokhorshid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/259962070?v=4"
     }
   },
   {
@@ -729,26 +745,10 @@
     }
   },
   {
-    "name": "shirokhorshid/shirokhorshid-android",
-    "url": "https://github.com/shirokhorshid/shirokhorshid-android",
-    "description": "Independently maintained, community fork of Psiphon Android client",
-    "stars": 96,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-07T23:47:55Z",
-    "updated_at": "2026-02-15T04:09:53Z",
-    "owner": {
-      "name": "shirokhorshid",
-      "avatar_url": "https://avatars.githubusercontent.com/u/259962070?v=4"
-    }
-  },
-  {
     "name": "NativePHP/mobile-air",
     "url": "https://github.com/NativePHP/mobile-air",
     "description": "Create mobile applications with PHP",
-    "stars": 96,
+    "stars": 97,
     "forks": 19,
     "language": "C",
     "topics": [
@@ -762,10 +762,35 @@
     ],
     "license": "MIT License",
     "created_at": "2026-01-20T16:38:45Z",
-    "updated_at": "2026-02-14T07:45:48Z",
+    "updated_at": "2026-02-16T03:33:16Z",
     "owner": {
       "name": "NativePHP",
       "avatar_url": "https://avatars.githubusercontent.com/u/130286900?v=4"
+    }
+  },
+  {
+    "name": "vixhal-baraiya/microgpt-c",
+    "url": "https://github.com/vixhal-baraiya/microgpt-c",
+    "description": "The most atomic way to train and inference a GPT in pure, dependency-free C",
+    "stars": 95,
+    "forks": 16,
+    "language": "C",
+    "topics": [
+      "artificial-intelligence",
+      "c",
+      "c-programming",
+      "deep-learning",
+      "gpt",
+      "llm",
+      "machine-learning",
+      "microgpt"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-02-14T17:29:50Z",
+    "updated_at": "2026-02-16T03:57:26Z",
+    "owner": {
+      "name": "vixhal-baraiya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/248433309?v=4"
     }
   },
   {
@@ -798,6 +823,22 @@
     "owner": {
       "name": "CodeXTF2",
       "avatar_url": "https://avatars.githubusercontent.com/u/29991665?v=4"
+    }
+  },
+  {
+    "name": "RogueMaster/ProtoPirate",
+    "url": "https://github.com/RogueMaster/ProtoPirate",
+    "description": "Flipper Zero Protocol Pirate - work in progress by RocketGod",
+    "stars": 91,
+    "forks": 17,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-01-30T23:04:03Z",
+    "updated_at": "2026-02-16T02:30:10Z",
+    "owner": {
+      "name": "RogueMaster",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20751479?v=4"
     }
   },
   {
