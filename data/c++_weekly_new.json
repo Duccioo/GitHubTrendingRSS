@@ -42,16 +42,38 @@
     "name": "antirez/qwen-asr",
     "url": "https://github.com/antirez/qwen-asr",
     "description": "C inference for Qwen3-ASR 0.6b and 1.7b transcriptions models",
-    "stars": 333,
-    "forks": 24,
+    "stars": 343,
+    "forks": 25,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-02-12T15:04:28Z",
-    "updated_at": "2026-02-17T02:26:38Z",
+    "updated_at": "2026-02-18T00:32:13Z",
     "owner": {
       "name": "antirez",
       "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
+    }
+  },
+  {
+    "name": "Zaneham/BarraCUDA",
+    "url": "https://github.com/Zaneham/BarraCUDA",
+    "description": "Open-source CUDA compiler targeting AMD GPUs (and more in the future!). Compiles .cu to GFX11 machine code.",
+    "stars": 224,
+    "forks": 7,
+    "language": "C",
+    "topics": [
+      "c99",
+      "compiler",
+      "cuda",
+      "gpu",
+      "ml"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-02-16T10:46:52Z",
+    "updated_at": "2026-02-18T04:10:16Z",
+    "owner": {
+      "name": "Zaneham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/222171382?v=4"
     }
   },
   {
@@ -71,31 +93,11 @@
     }
   },
   {
-    "name": "datavorous/sameshi",
-    "url": "https://github.com/datavorous/sameshi",
-    "description": "a ~1200 Elo chess engine that fits within 2KB",
-    "stars": 164,
-    "forks": 6,
-    "language": "C",
-    "topics": [
-      "chess",
-      "chess-engine",
-      "demoscene"
-    ],
-    "license": "No license",
-    "created_at": "2026-02-14T04:04:35Z",
-    "updated_at": "2026-02-16T18:48:38Z",
-    "owner": {
-      "name": "datavorous",
-      "avatar_url": "https://avatars.githubusercontent.com/u/70896212?v=4"
-    }
-  },
-  {
     "name": "vixhal-baraiya/microgpt-c",
     "url": "https://github.com/vixhal-baraiya/microgpt-c",
     "description": "The most atomic way to train and inference a GPT in pure, dependency-free C",
-    "stars": 161,
-    "forks": 31,
+    "stars": 175,
+    "forks": 32,
     "language": "C",
     "topics": [
       "artificial-intelligence",
@@ -109,10 +111,30 @@
     ],
     "license": "MIT License",
     "created_at": "2026-02-14T17:29:50Z",
-    "updated_at": "2026-02-17T03:38:45Z",
+    "updated_at": "2026-02-18T03:15:46Z",
     "owner": {
       "name": "vixhal-baraiya",
       "avatar_url": "https://avatars.githubusercontent.com/u/248433309?v=4"
+    }
+  },
+  {
+    "name": "datavorous/sameshi",
+    "url": "https://github.com/datavorous/sameshi",
+    "description": "a ~1200 Elo chess engine that fits within 2KB",
+    "stars": 166,
+    "forks": 6,
+    "language": "C",
+    "topics": [
+      "chess",
+      "chess-engine",
+      "demoscene"
+    ],
+    "license": "No license",
+    "created_at": "2026-02-14T04:04:35Z",
+    "updated_at": "2026-02-17T21:21:02Z",
+    "owner": {
+      "name": "datavorous",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70896212?v=4"
     }
   },
   {
@@ -171,13 +193,13 @@
     "name": "abdimoallim/vdb",
     "url": "https://github.com/abdimoallim/vdb",
     "description": "A header-only C vector database library",
-    "stars": 85,
+    "stars": 89,
     "forks": 2,
     "language": "C",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-02-14T16:35:33Z",
-    "updated_at": "2026-02-16T12:39:59Z",
+    "updated_at": "2026-02-17T19:34:09Z",
     "owner": {
       "name": "abdimoallim",
       "avatar_url": "https://avatars.githubusercontent.com/u/208303604?v=4"
@@ -232,33 +254,35 @@
     }
   },
   {
-    "name": "0xsh3llf1r3/ColdWer",
-    "url": "https://github.com/0xsh3llf1r3/ColdWer",
-    "description": "Cobalt Strike BOF to freeze EDR/AV processes and dump LSASS using WerFaultSecure.exe PPL bypass",
-    "stars": 62,
-    "forks": 9,
+    "name": "Monstatek/M1",
+    "url": "https://github.com/Monstatek/M1",
+    "description": "Monstatek M1 Open Source Repository.",
+    "stars": 69,
+    "forks": 10,
     "language": "C",
-    "topics": [
-      "av-bypass",
-      "beacon-object-file",
-      "bof",
-      "cobalt-strike",
-      "credential-dumping",
-      "edr-bypass",
-      "edr-evasion",
-      "edr-freeze",
-      "lsass-dump",
-      "offensive-security",
-      "ppl-bypass",
-      "red-team",
-      "windows-security"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-29T10:41:30Z",
-    "updated_at": "2026-02-04T03:11:30Z",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-02-14T16:17:29Z",
+    "updated_at": "2026-02-18T04:06:18Z",
     "owner": {
-      "name": "0xsh3llf1r3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/257633558?v=4"
+      "name": "Monstatek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158362025?v=4"
+    }
+  },
+  {
+    "name": "enjector/microgpt-c",
+    "url": "https://github.com/enjector/microgpt-c",
+    "description": null,
+    "stars": 63,
+    "forks": 4,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-16T21:08:15Z",
+    "updated_at": "2026-02-17T22:13:26Z",
+    "owner": {
+      "name": "enjector",
+      "avatar_url": "https://avatars.githubusercontent.com/u/570940?v=4"
     }
   },
   {
@@ -330,22 +354,6 @@
     }
   },
   {
-    "name": "Monstatek/M1",
-    "url": "https://github.com/Monstatek/M1",
-    "description": "Monstatek M1 Open Source Repository.",
-    "stars": 55,
-    "forks": 7,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-14T16:17:29Z",
-    "updated_at": "2026-02-16T23:11:12Z",
-    "owner": {
-      "name": "Monstatek",
-      "avatar_url": "https://avatars.githubusercontent.com/u/158362025?v=4"
-    }
-  },
-  {
     "name": "Thasfiqa/student-record-system-c",
     "url": "https://github.com/Thasfiqa/student-record-system-c",
     "description": "A simple Student Record Management System written in C using file handling.",
@@ -378,6 +386,29 @@
     }
   },
   {
+    "name": "MatheuZSecurity/ksentinel",
+    "url": "https://github.com/MatheuZSecurity/ksentinel",
+    "description": "Linux kernel integrity monitor for detecting syscall hooking",
+    "stars": 48,
+    "forks": 4,
+    "language": "C",
+    "topics": [
+      "defense",
+      "ftrace",
+      "integrity",
+      "linux",
+      "rootkit",
+      "syscalls"
+    ],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-02-15T23:54:06Z",
+    "updated_at": "2026-02-18T03:28:12Z",
+    "owner": {
+      "name": "MatheuZSecurity",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88067225?v=4"
+    }
+  },
+  {
     "name": "anonvector/SlipNet",
     "url": "https://github.com/anonvector/SlipNet",
     "description": "Android DNS Tunneling Client for DNSTT & Slipstream with a Built-in DNS Scanner",
@@ -400,19 +431,24 @@
     }
   },
   {
-    "name": "enjector/microgpt-c",
-    "url": "https://github.com/enjector/microgpt-c",
-    "description": null,
+    "name": "davidmonterocrespo24/esp32s3-arcade-3d",
+    "url": "https://github.com/davidmonterocrespo24/esp32s3-arcade-3d",
+    "description": "An OutRun-style pseudo-3D racing game for the ESP32-S3 microcontroller with an ILI9341 320×240 SPI display. The same source compiles for both ESP32 hardware and Windows (via a Raylib-based emulator).",
     "stars": 42,
-    "forks": 2,
+    "forks": 1,
     "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-16T21:08:15Z",
-    "updated_at": "2026-02-17T03:50:55Z",
+    "topics": [
+      "3d",
+      "arduino",
+      "esp32",
+      "game"
+    ],
+    "license": "No license",
+    "created_at": "2026-02-13T14:19:05Z",
+    "updated_at": "2026-02-18T02:56:45Z",
     "owner": {
-      "name": "enjector",
-      "avatar_url": "https://avatars.githubusercontent.com/u/570940?v=4"
+      "name": "davidmonterocrespo24",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47928504?v=4"
     }
   },
   {
@@ -432,24 +468,24 @@
     }
   },
   {
-    "name": "davidmonterocrespo24/esp32s3-arcade-3d",
-    "url": "https://github.com/davidmonterocrespo24/esp32s3-arcade-3d",
-    "description": "An OutRun-style pseudo-3D racing game for the ESP32-S3 microcontroller with an ILI9341 320×240 SPI display. The same source compiles for both ESP32 hardware and Windows (via a Raylib-based emulator).",
-    "stars": 33,
-    "forks": 1,
+    "name": "beelzebub-labs/azazel",
+    "url": "https://github.com/beelzebub-labs/azazel",
+    "description": "Linux Runtime Security and Forensics using eBPF",
+    "stars": 32,
+    "forks": 3,
     "language": "C",
     "topics": [
-      "3d",
-      "arduino",
-      "esp32",
-      "game"
+      "ebpf",
+      "forensics",
+      "malware-analysis",
+      "runtime"
     ],
-    "license": "No license",
-    "created_at": "2026-02-13T14:19:05Z",
-    "updated_at": "2026-02-17T01:45:25Z",
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-02-14T18:42:31Z",
+    "updated_at": "2026-02-18T01:43:37Z",
     "owner": {
-      "name": "davidmonterocrespo24",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47928504?v=4"
+      "name": "beelzebub-labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/224001860?v=4"
     }
   },
   {
@@ -482,6 +518,22 @@
     }
   },
   {
+    "name": "kozmer/dcsync-bof",
+    "url": "https://github.com/kozmer/dcsync-bof",
+    "description": "dcsync bof",
+    "stars": 31,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-02-12T17:59:49Z",
+    "updated_at": "2026-02-17T20:55:52Z",
+    "owner": {
+      "name": "kozmer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87979263?v=4"
+    }
+  },
+  {
     "name": "lsecqt/PortForwarder",
     "url": "https://github.com/lsecqt/PortForwarder",
     "description": "TCP Port Forwarding Utility on C",
@@ -498,76 +550,16 @@
     }
   },
   {
-    "name": "MatheuZSecurity/ksentinel",
-    "url": "https://github.com/MatheuZSecurity/ksentinel",
-    "description": "Linux kernel integrity monitor for detecting syscall hooking",
-    "stars": 30,
-    "forks": 3,
-    "language": "C",
-    "topics": [
-      "defense",
-      "ftrace",
-      "integrity",
-      "linux",
-      "rootkit",
-      "syscalls"
-    ],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-02-15T23:54:06Z",
-    "updated_at": "2026-02-17T03:47:58Z",
-    "owner": {
-      "name": "MatheuZSecurity",
-      "avatar_url": "https://avatars.githubusercontent.com/u/88067225?v=4"
-    }
-  },
-  {
-    "name": "beelzebub-labs/azazel",
-    "url": "https://github.com/beelzebub-labs/azazel",
-    "description": "Linux Runtime Security and Forensics using eBPF",
-    "stars": 29,
-    "forks": 2,
-    "language": "C",
-    "topics": [
-      "ebpf",
-      "forensics",
-      "malware-analysis",
-      "runtime"
-    ],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-02-14T18:42:31Z",
-    "updated_at": "2026-02-16T18:20:36Z",
-    "owner": {
-      "name": "beelzebub-labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/224001860?v=4"
-    }
-  },
-  {
-    "name": "kozmer/dcsync-bof",
-    "url": "https://github.com/kozmer/dcsync-bof",
-    "description": "dcsync bof",
-    "stars": 27,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-12T17:59:49Z",
-    "updated_at": "2026-02-17T01:04:37Z",
-    "owner": {
-      "name": "kozmer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/87979263?v=4"
-    }
-  },
-  {
     "name": "loretoparisi/microgpt.c",
     "url": "https://github.com/loretoparisi/microgpt.c",
     "description": "microgpt.py in C",
-    "stars": 26,
-    "forks": 5,
+    "stars": 28,
+    "forks": 6,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-02-12T00:27:28Z",
-    "updated_at": "2026-02-17T02:01:16Z",
+    "updated_at": "2026-02-17T12:21:28Z",
     "owner": {
       "name": "loretoparisi",
       "avatar_url": "https://avatars.githubusercontent.com/u/163333?v=4"
@@ -728,6 +720,22 @@
     }
   },
   {
+    "name": "alphafox02/iridium-sniffer",
+    "url": "https://github.com/alphafox02/iridium-sniffer",
+    "description": "Standalone Iridium satellite burst detector and demodulator in C",
+    "stars": 18,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-02-15T17:02:26Z",
+    "updated_at": "2026-02-18T02:35:44Z",
+    "owner": {
+      "name": "alphafox02",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44436101?v=4"
+    }
+  },
+  {
     "name": "EchoStretch/kstuff-lite",
     "url": "https://github.com/EchoStretch/kstuff-lite",
     "description": null,
@@ -741,29 +749,6 @@
     "owner": {
       "name": "EchoStretch",
       "avatar_url": "https://avatars.githubusercontent.com/u/98502641?v=4"
-    }
-  },
-  {
-    "name": "ankit-chaubey/ciph",
-    "url": "https://github.com/ankit-chaubey/ciph",
-    "description": "Fast, streaming file encryption for large media files and cloud uploads using modern cryptography.",
-    "stars": 18,
-    "forks": 10,
-    "language": "C",
-    "topics": [
-      "aes",
-      "chacha20",
-      "cloud-security",
-      "cryptography",
-      "encryption-decryption",
-      "file-encryption"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-01-30T23:02:55Z",
-    "updated_at": "2026-02-03T07:17:12Z",
-    "owner": {
-      "name": "ankit-chaubey",
-      "avatar_url": "https://avatars.githubusercontent.com/u/70747360?v=4"
     }
   },
   {
@@ -875,7 +860,7 @@
     "url": "https://github.com/benoitc/erlang-python",
     "description": "Execute Python from Erlang using dirty NIFs with GIL-aware execution, rate limiting, and free-threading support",
     "stars": 13,
-    "forks": 1,
+    "forks": 2,
     "language": "C",
     "topics": [
       "ai",
@@ -891,7 +876,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-02-14T10:22:09Z",
-    "updated_at": "2026-02-17T00:06:15Z",
+    "updated_at": "2026-02-18T03:26:09Z",
     "owner": {
       "name": "benoitc",
       "avatar_url": "https://avatars.githubusercontent.com/u/14498?v=4"
@@ -974,19 +959,40 @@
     }
   },
   {
-    "name": "FrenkelS/Build286",
-    "url": "https://github.com/FrenkelS/Build286",
-    "description": "Ken Silverman's Build Engine for 16-bit DOS computers",
-    "stars": 13,
+    "name": "seregonwar/zftpd",
+    "url": "https://github.com/seregonwar/zftpd",
+    "description": "Zero-copy FTP Daemon compatible with all POSIX systems",
+    "stars": 12,
     "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-29T16:54:01Z",
-    "updated_at": "2026-02-03T22:18:38Z",
+    "license": "MIT License",
+    "created_at": "2026-02-13T15:55:53Z",
+    "updated_at": "2026-02-17T19:02:21Z",
     "owner": {
-      "name": "FrenkelS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73123197?v=4"
+      "name": "seregonwar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109359355?v=4"
+    }
+  },
+  {
+    "name": "abdullaabdullazade/mt7902_driver",
+    "url": "https://github.com/abdullaabdullazade/mt7902_driver",
+    "description": " Linux driver for MediaTek MT7902 — WiFi + Bluetooth in one package.",
+    "stars": 12,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "linux",
+      "linux-driver",
+      "linux-drivers",
+      "mt7902"
+    ],
+    "license": "No license",
+    "created_at": "2026-02-15T15:11:22Z",
+    "updated_at": "2026-02-17T14:21:52Z",
+    "owner": {
+      "name": "abdullaabdullazade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89068450?v=4"
     }
   },
   {
@@ -1102,22 +1108,6 @@
     }
   },
   {
-    "name": "MichMich/esp-idf-wifi-provisioner",
-    "url": "https://github.com/MichMich/esp-idf-wifi-provisioner",
-    "description": null,
-    "stars": 12,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-01-29T15:11:16Z",
-    "updated_at": "2026-02-03T08:28:28Z",
-    "owner": {
-      "name": "MichMich",
-      "avatar_url": "https://avatars.githubusercontent.com/u/210954?v=4"
-    }
-  },
-  {
     "name": "Informal061/ManasPDF",
     "url": "https://github.com/Informal061/ManasPDF",
     "description": null,
@@ -1150,44 +1140,6 @@
     }
   },
   {
-    "name": "Zaneham/BarraCUDA",
-    "url": "https://github.com/Zaneham/BarraCUDA",
-    "description": "Open-source CUDA compiler targeting AMD GPUs (and more in the future!). Compiles .cu to GFX11 machine code.",
-    "stars": 11,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "c99",
-      "compiler",
-      "cuda",
-      "gpu",
-      "ml"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-02-16T10:46:52Z",
-    "updated_at": "2026-02-17T04:02:37Z",
-    "owner": {
-      "name": "Zaneham",
-      "avatar_url": "https://avatars.githubusercontent.com/u/222171382?v=4"
-    }
-  },
-  {
-    "name": "seregonwar/zftpd",
-    "url": "https://github.com/seregonwar/zftpd",
-    "description": "Zero-copy FTP Daemon compatible with all POSIX systems",
-    "stars": 11,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-13T15:55:53Z",
-    "updated_at": "2026-02-16T17:29:58Z",
-    "owner": {
-      "name": "seregonwar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109359355?v=4"
-    }
-  },
-  {
     "name": "VectorSophie/doom-on-github",
     "url": "https://github.com/VectorSophie/doom-on-github",
     "description": null,
@@ -1217,46 +1169,6 @@
     "owner": {
       "name": "SvenGDK",
       "avatar_url": "https://avatars.githubusercontent.com/u/84620?v=4"
-    }
-  },
-  {
-    "name": "DreamMaoMao/wswitch",
-    "url": "https://github.com/DreamMaoMao/wswitch",
-    "description": "alt-tab switch window for wayland compositor",
-    "stars": 11,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "alt-tab-switcher",
-      "wayland"
-    ],
-    "license": "No license",
-    "created_at": "2026-01-29T14:35:39Z",
-    "updated_at": "2026-02-04T03:36:44Z",
-    "owner": {
-      "name": "DreamMaoMao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30348075?v=4"
-    }
-  },
-  {
-    "name": "abdullaabdullazade/mt7902_driver",
-    "url": "https://github.com/abdullaabdullazade/mt7902_driver",
-    "description": " Linux driver for MediaTek MT7902 — WiFi + Bluetooth in one package.",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "linux",
-      "linux-driver",
-      "linux-drivers",
-      "mt7902"
-    ],
-    "license": "No license",
-    "created_at": "2026-02-15T15:11:22Z",
-    "updated_at": "2026-02-16T10:01:17Z",
-    "owner": {
-      "name": "abdullaabdullazade",
-      "avatar_url": "https://avatars.githubusercontent.com/u/89068450?v=4"
     }
   },
   {
@@ -1354,38 +1266,6 @@
     "owner": {
       "name": "RtlZeroMemory",
       "avatar_url": "https://avatars.githubusercontent.com/u/58250858?v=4"
-    }
-  },
-  {
-    "name": "drougas/xkb-monitor",
-    "url": "https://github.com/drougas/xkb-monitor",
-    "description": "A lightweight utility that monitors keyboard state on Wayland compositors. Works nicely with Labwc + Waybar",
-    "stars": 10,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-01-31T19:10:24Z",
-    "updated_at": "2026-02-03T19:59:19Z",
-    "owner": {
-      "name": "drougas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1014041?v=4"
-    }
-  },
-  {
-    "name": "upiir/sharp_memory_display_xiao_esp32s3",
-    "url": "https://github.com/upiir/sharp_memory_display_xiao_esp32s3",
-    "description": "Sharp Memory Display with Seeed Xiao ESP32S3",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-01-29T12:34:41Z",
-    "updated_at": "2026-02-03T15:24:55Z",
-    "owner": {
-      "name": "upiir",
-      "avatar_url": "https://avatars.githubusercontent.com/u/117754156?v=4"
     }
   }
 ]
