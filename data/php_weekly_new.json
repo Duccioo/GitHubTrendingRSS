@@ -57,7 +57,7 @@
     "name": "noctud/collection",
     "url": "https://github.com/noctud/collection",
     "description": "🗺️ Type-safe, mutable/immutable, sortable and key-preserving collections for PHP 8.4+",
-    "stars": 38,
+    "stars": 39,
     "forks": 0,
     "language": "PHP",
     "topics": [
@@ -70,7 +70,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-02-15T17:34:46Z",
-    "updated_at": "2026-02-20T01:27:26Z",
+    "updated_at": "2026-02-20T18:15:50Z",
     "owner": {
       "name": "noctud",
       "avatar_url": "https://avatars.githubusercontent.com/u/167575668?v=4"
@@ -80,7 +80,7 @@
     "name": "spatie/laravel-markdown-response",
     "url": "https://github.com/spatie/laravel-markdown-response",
     "description": "Serve markdown versions of your HTML pages to AI agents and bots",
-    "stars": 37,
+    "stars": 39,
     "forks": 2,
     "language": "PHP",
     "topics": [
@@ -91,7 +91,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-02-16T21:07:55Z",
-    "updated_at": "2026-02-19T19:54:50Z",
+    "updated_at": "2026-02-20T16:15:01Z",
     "owner": {
       "name": "spatie",
       "avatar_url": "https://avatars.githubusercontent.com/u/7535935?v=4"
@@ -200,16 +200,41 @@
     "name": "epic-64/elem",
     "url": "https://github.com/epic-64/elem",
     "description": "a functional html api",
-    "stars": 22,
+    "stars": 23,
     "forks": 0,
     "language": "PHP",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-02-15T17:26:47Z",
-    "updated_at": "2026-02-18T21:21:23Z",
+    "updated_at": "2026-02-20T23:36:28Z",
     "owner": {
       "name": "epic-64",
       "avatar_url": "https://avatars.githubusercontent.com/u/105014007?v=4"
+    }
+  },
+  {
+    "name": "moneo/laravel-usage-limiter",
+    "url": "https://github.com/moneo/laravel-usage-limiter",
+    "description": "A concurrency-safe, prepaid-ready usage metering and limit enforcement engine for Laravel. Built for hard limits, atomic billing, and zero-leakage financial flows.",
+    "stars": 22,
+    "forks": 3,
+    "language": "PHP",
+    "topics": [
+      "billing",
+      "laravel",
+      "php",
+      "quota",
+      "rate-limiting",
+      "saas",
+      "usage-metering",
+      "usage-tracking"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-02-15T22:43:30Z",
+    "updated_at": "2026-02-20T22:46:41Z",
+    "owner": {
+      "name": "moneo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40037649?v=4"
     }
   },
   {
@@ -226,31 +251,6 @@
     "owner": {
       "name": "venlacy0",
       "avatar_url": "https://avatars.githubusercontent.com/u/245550007?v=4"
-    }
-  },
-  {
-    "name": "moneo/laravel-usage-limiter",
-    "url": "https://github.com/moneo/laravel-usage-limiter",
-    "description": "A concurrency-safe, prepaid-ready usage metering and limit enforcement engine for Laravel. Built for hard limits, atomic billing, and zero-leakage financial flows.",
-    "stars": 20,
-    "forks": 2,
-    "language": "PHP",
-    "topics": [
-      "billing",
-      "laravel",
-      "php",
-      "quota",
-      "rate-limiting",
-      "saas",
-      "usage-metering",
-      "usage-tracking"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-15T22:43:30Z",
-    "updated_at": "2026-02-19T14:04:22Z",
-    "owner": {
-      "name": "moneo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40037649?v=4"
     }
   },
   {
@@ -283,6 +283,22 @@
     "owner": {
       "name": "xedeline",
       "avatar_url": "https://avatars.githubusercontent.com/u/58417839?v=4"
+    }
+  },
+  {
+    "name": "zencefilefendi/zerdecalistops",
+    "url": "https://github.com/zencefilefendi/zerdecalistops",
+    "description": null,
+    "stars": 18,
+    "forks": 5,
+    "language": "PHP",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-02-17T23:59:55Z",
+    "updated_at": "2026-02-20T23:07:03Z",
+    "owner": {
+      "name": "zencefilefendi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132235527?v=4"
     }
   },
   {
@@ -321,22 +337,6 @@
     "owner": {
       "name": "eznix86",
       "avatar_url": "https://avatars.githubusercontent.com/u/26553194?v=4"
-    }
-  },
-  {
-    "name": "zencefilefendi/zerdecalistops",
-    "url": "https://github.com/zencefilefendi/zerdecalistops",
-    "description": null,
-    "stars": 17,
-    "forks": 5,
-    "language": "PHP",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-02-17T23:59:55Z",
-    "updated_at": "2026-02-19T14:06:54Z",
-    "owner": {
-      "name": "zencefilefendi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/132235527?v=4"
     }
   },
   {
@@ -570,6 +570,22 @@
     }
   },
   {
+    "name": "PipraPay/PipraPay",
+    "url": "https://github.com/PipraPay/PipraPay",
+    "description": "Empower your payment operations with PipraPay, the free and open-source, plugin-based platform for automated payments and full workflow control.",
+    "stars": 11,
+    "forks": 4,
+    "language": "PHP",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-02-16T13:37:36Z",
+    "updated_at": "2026-02-20T23:41:00Z",
+    "owner": {
+      "name": "PipraPay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218202412?v=4"
+    }
+  },
+  {
     "name": "aminiyt1/X-UI-Telegram-Bot",
     "url": "https://github.com/aminiyt1/X-UI-Telegram-Bot",
     "description": "ربات استعلام حجم و زمان کانفیگ برای پنل X-UI",
@@ -618,19 +634,19 @@
     }
   },
   {
-    "name": "PipraPay/PipraPay",
-    "url": "https://github.com/PipraPay/PipraPay",
-    "description": "Empower your payment operations with PipraPay, the free and open-source, plugin-based platform for automated payments and full workflow control.",
+    "name": "Jane0908H/laravel-react-mongodb",
+    "url": "https://github.com/Jane0908H/laravel-react-mongodb",
+    "description": null,
     "stars": 10,
-    "forks": 4,
+    "forks": 0,
     "language": "PHP",
     "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-02-16T13:37:36Z",
-    "updated_at": "2026-02-19T14:41:45Z",
+    "license": "No license",
+    "created_at": "2026-02-20T23:02:05Z",
+    "updated_at": "2026-02-21T02:09:28Z",
     "owner": {
-      "name": "PipraPay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/218202412?v=4"
+      "name": "Jane0908H",
+      "avatar_url": "https://avatars.githubusercontent.com/u/262155451?v=4"
     }
   },
   {
@@ -650,7 +666,7 @@
     ],
     "license": "No license",
     "created_at": "2026-02-17T16:51:14Z",
-    "updated_at": "2026-02-20T04:01:33Z",
+    "updated_at": "2026-02-21T02:49:03Z",
     "owner": {
       "name": "mwakidenis",
       "avatar_url": "https://avatars.githubusercontent.com/u/182089390?v=4"

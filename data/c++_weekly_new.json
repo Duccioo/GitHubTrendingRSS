@@ -2,9 +2,9 @@
   {
     "name": "Zaneham/BarraCUDA",
     "url": "https://github.com/Zaneham/BarraCUDA",
-    "description": "Open-source CUDA compiler targeting AMD GPUs (and more in the future!). Compiles .cu to GFX11 machine code.",
-    "stars": 1101,
-    "forks": 35,
+    "description": "Open-source CUDA compiler targeting AMD GPUs (and more in the future!). Compiles .cu to GFX11/12 machine code.",
+    "stars": 1221,
+    "forks": 44,
     "language": "C",
     "topics": [
       "c99",
@@ -15,7 +15,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-02-16T10:46:52Z",
-    "updated_at": "2026-02-20T04:02:04Z",
+    "updated_at": "2026-02-21T03:45:34Z",
     "owner": {
       "name": "Zaneham",
       "avatar_url": "https://avatars.githubusercontent.com/u/222171382?v=4"
@@ -58,6 +58,32 @@
     "owner": {
       "name": "memovai",
       "avatar_url": "https://avatars.githubusercontent.com/u/220203124?v=4"
+    }
+  },
+  {
+    "name": "RightNow-AI/picolm",
+    "url": "https://github.com/RightNow-AI/picolm",
+    "description": "Run a 1-billion parameter LLM on a $10 board with 256MB RAM",
+    "stars": 406,
+    "forks": 48,
+    "language": "C",
+    "topics": [
+      "arm",
+      "embedded",
+      "inference",
+      "llm",
+      "openclaw",
+      "picoclaw",
+      "quantization",
+      "raspberry-pi",
+      "risc-v"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-02-19T01:07:10Z",
+    "updated_at": "2026-02-21T03:59:59Z",
+    "owner": {
+      "name": "RightNow-AI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/226207176?v=4"
     }
   },
   {
@@ -118,32 +144,6 @@
     }
   },
   {
-    "name": "RightNow-AI/picolm",
-    "url": "https://github.com/RightNow-AI/picolm",
-    "description": "Run a 1-billion parameter LLM on a $10 board with 256MB RAM",
-    "stars": 175,
-    "forks": 27,
-    "language": "C",
-    "topics": [
-      "arm",
-      "embedded",
-      "inference",
-      "llm",
-      "openclaw",
-      "picoclaw",
-      "quantization",
-      "raspberry-pi",
-      "risc-v"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-19T01:07:10Z",
-    "updated_at": "2026-02-20T03:47:14Z",
-    "owner": {
-      "name": "RightNow-AI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/226207176?v=4"
-    }
-  },
-  {
     "name": "datavorous/sameshi",
     "url": "https://github.com/datavorous/sameshi",
     "description": "a ~1200 Elo chess engine that fits within 2KB",
@@ -177,26 +177,6 @@
     "owner": {
       "name": "EricEsquivel",
       "avatar_url": "https://avatars.githubusercontent.com/u/109621757?v=4"
-    }
-  },
-  {
-    "name": "tompftampffern/polyseed-monero",
-    "url": "https://github.com/tompftampffern/polyseed-monero",
-    "description": "Polyseed Monero",
-    "stars": 129,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "hacks",
-      "polyseed-monero",
-      "software-development"
-    ],
-    "license": "GNU Lesser General Public License v3.0",
-    "created_at": "2026-02-03T14:00:55Z",
-    "updated_at": "2026-02-06T23:25:11Z",
-    "owner": {
-      "name": "tompftampffern",
-      "avatar_url": "https://avatars.githubusercontent.com/u/187872574?v=4"
     }
   },
   {
@@ -282,14 +262,14 @@
   {
     "name": "enjector/microgpt-c",
     "url": "https://github.com/enjector/microgpt-c",
-    "description": null,
-    "stars": 68,
+    "description": "Zero-dependency C99 GPT-2 engine for edge AI. Sub-1M parameter models train on-device in seconds. Organelle Pipeline Architecture (OPA) coordinates specialised micro-models — 91% win rates on 11 logic games with 30K–160K parameters. Composition beats capacity.",
+    "stars": 70,
     "forks": 5,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-02-16T21:08:15Z",
-    "updated_at": "2026-02-19T23:13:23Z",
+    "updated_at": "2026-02-21T01:28:57Z",
     "owner": {
       "name": "enjector",
       "avatar_url": "https://avatars.githubusercontent.com/u/570940?v=4"
@@ -367,7 +347,7 @@
     "name": "MatheuZSecurity/ksentinel",
     "url": "https://github.com/MatheuZSecurity/ksentinel",
     "description": "Linux kernel integrity monitor for detecting syscall hooking",
-    "stars": 53,
+    "stars": 55,
     "forks": 4,
     "language": "C",
     "topics": [
@@ -380,7 +360,7 @@
     ],
     "license": "GNU General Public License v2.0",
     "created_at": "2026-02-15T23:54:06Z",
-    "updated_at": "2026-02-19T23:08:16Z",
+    "updated_at": "2026-02-20T21:42:27Z",
     "owner": {
       "name": "MatheuZSecurity",
       "avatar_url": "https://avatars.githubusercontent.com/u/88067225?v=4"
@@ -461,28 +441,6 @@
     }
   },
   {
-    "name": "anonvector/SlipNet",
-    "url": "https://github.com/anonvector/SlipNet",
-    "description": "Android DNS Tunneling Client for DNSTT & Slipstream with a Built-in DNS Scanner",
-    "stars": 43,
-    "forks": 4,
-    "language": "C",
-    "topics": [
-      "android",
-      "dnstt",
-      "kotlin",
-      "slipstream",
-      "tunneling"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-01T22:36:34Z",
-    "updated_at": "2026-02-06T12:03:36Z",
-    "owner": {
-      "name": "anonvector",
-      "avatar_url": "https://avatars.githubusercontent.com/u/258689915?v=4"
-    }
-  },
-  {
     "name": "h41th/Simple-Crystal-Palace-RDLL-template-for-Adaptix",
     "url": "https://github.com/h41th/Simple-Crystal-Palace-RDLL-template-for-Adaptix",
     "description": null,
@@ -560,6 +518,44 @@
     }
   },
   {
+    "name": "littlefly365/Netbase",
+    "url": "https://github.com/littlefly365/Netbase",
+    "description": "A port of the netbsd utilities for linux(and may be another unix like operating systems)",
+    "stars": 30,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "linux",
+      "netbsd",
+      "unix-commands",
+      "unix-like",
+      "userland"
+    ],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "created_at": "2026-02-16T19:18:47Z",
+    "updated_at": "2026-02-21T01:00:11Z",
+    "owner": {
+      "name": "littlefly365",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195168930?v=4"
+    }
+  },
+  {
+    "name": "alphafox02/iridium-sniffer",
+    "url": "https://github.com/alphafox02/iridium-sniffer",
+    "description": "Standalone Iridium satellite burst detector and demodulator in C",
+    "stars": 29,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-02-15T17:02:26Z",
+    "updated_at": "2026-02-21T02:01:40Z",
+    "owner": {
+      "name": "alphafox02",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44436101?v=4"
+    }
+  },
+  {
     "name": "loretoparisi/microgpt.c",
     "url": "https://github.com/loretoparisi/microgpt.c",
     "description": "microgpt.py in C",
@@ -576,19 +572,19 @@
     }
   },
   {
-    "name": "alphafox02/iridium-sniffer",
-    "url": "https://github.com/alphafox02/iridium-sniffer",
-    "description": "Standalone Iridium satellite burst detector and demodulator in C",
+    "name": "Saddytech/elgato4k60sp-linux",
+    "url": "https://github.com/Saddytech/elgato4k60sp-linux",
+    "description": "Unofficial Linux kernel driver for the Elgato Game Capture 4K60 S+",
     "stars": 27,
     "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-15T17:02:26Z",
-    "updated_at": "2026-02-19T11:50:22Z",
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-02-16T13:44:37Z",
+    "updated_at": "2026-02-21T00:41:07Z",
     "owner": {
-      "name": "alphafox02",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44436101?v=4"
+      "name": "Saddytech",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184221551?v=4"
     }
   },
   {
@@ -621,28 +617,6 @@
     "owner": {
       "name": "p0358",
       "avatar_url": "https://avatars.githubusercontent.com/u/5182588?v=4"
-    }
-  },
-  {
-    "name": "littlefly365/Netbase",
-    "url": "https://github.com/littlefly365/Netbase",
-    "description": "A port of the netbsd utilities for linux(and may be another unix like operating systems)",
-    "stars": 23,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "linux",
-      "netbsd",
-      "unix-commands",
-      "unix-like",
-      "userland"
-    ],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2026-02-16T19:18:47Z",
-    "updated_at": "2026-02-20T03:34:07Z",
-    "owner": {
-      "name": "littlefly365",
-      "avatar_url": "https://avatars.githubusercontent.com/u/195168930?v=4"
     }
   },
   {
@@ -736,6 +710,27 @@
     }
   },
   {
+    "name": "abdullaabdullazade/mt7902_driver",
+    "url": "https://github.com/abdullaabdullazade/mt7902_driver",
+    "description": " Linux driver for MediaTek MT7902 — WiFi + Bluetooth in one package.",
+    "stars": 18,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "linux",
+      "linux-driver",
+      "linux-drivers",
+      "mt7902"
+    ],
+    "license": "No license",
+    "created_at": "2026-02-15T15:11:22Z",
+    "updated_at": "2026-02-20T09:21:41Z",
+    "owner": {
+      "name": "abdullaabdullazade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89068450?v=4"
+    }
+  },
+  {
     "name": "haeli05/seaclaw",
     "url": "https://github.com/haeli05/seaclaw",
     "description": "OpenClaw rewritten in C. Single static binary, <2MB, <50ms cold start.",
@@ -779,27 +774,6 @@
     }
   },
   {
-    "name": "abdullaabdullazade/mt7902_driver",
-    "url": "https://github.com/abdullaabdullazade/mt7902_driver",
-    "description": " Linux driver for MediaTek MT7902 — WiFi + Bluetooth in one package.",
-    "stars": 17,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "linux",
-      "linux-driver",
-      "linux-drivers",
-      "mt7902"
-    ],
-    "license": "No license",
-    "created_at": "2026-02-15T15:11:22Z",
-    "updated_at": "2026-02-19T19:36:19Z",
-    "owner": {
-      "name": "abdullaabdullazade",
-      "avatar_url": "https://avatars.githubusercontent.com/u/89068450?v=4"
-    }
-  },
-  {
     "name": "cccAboy/esp32-led-matrix",
     "url": "https://github.com/cccAboy/esp32-led-matrix",
     "description": "ESP32 驱动 WS2812 16×16 矩阵，算法实现像素灯效（硬件在 hardware/，文档在 docs/）ESP32 + WS2812 16×16 LED matrix with simulation. Hardware & docs included.",
@@ -829,6 +803,22 @@
     "owner": {
       "name": "thinkelastic",
       "avatar_url": "https://avatars.githubusercontent.com/u/13565450?v=4"
+    }
+  },
+  {
+    "name": "alphafox02/tetra-rtlsdr",
+    "url": "https://github.com/alphafox02/tetra-rtlsdr",
+    "description": "RTL-SDR front-end for TETRA/telive - replaces GnuRadio with a single C binary",
+    "stars": 15,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-02-19T22:20:00Z",
+    "updated_at": "2026-02-21T02:21:33Z",
+    "owner": {
+      "name": "alphafox02",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44436101?v=4"
     }
   },
   {
@@ -905,6 +895,22 @@
     }
   },
   {
+    "name": "nmatt0/magiquest-wand",
+    "url": "https://github.com/nmatt0/magiquest-wand",
+    "description": "Flipper Zero app for cloning and replaying MagiQuest wand signals",
+    "stars": 12,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-02-15T20:30:23Z",
+    "updated_at": "2026-02-20T13:53:16Z",
+    "owner": {
+      "name": "nmatt0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7366332?v=4"
+    }
+  },
+  {
     "name": "site-u2023/openwrt-connect",
     "url": "https://github.com/site-u2023/openwrt-connect",
     "description": "Windows SSH tool for OpenWrt routers with automatic gateway detection and key-based authentication",
@@ -921,7 +927,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-02-16T04:17:18Z",
-    "updated_at": "2026-02-19T14:31:23Z",
+    "updated_at": "2026-02-21T01:57:16Z",
     "owner": {
       "name": "site-u2023",
       "avatar_url": "https://avatars.githubusercontent.com/u/140032047?v=4"
@@ -1040,22 +1046,6 @@
     }
   },
   {
-    "name": "Zyara-1ot/VM-in-C",
-    "url": "https://github.com/Zyara-1ot/VM-in-C",
-    "description": "virtual machine in C",
-    "stars": 12,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-02T13:10:23Z",
-    "updated_at": "2026-02-06T17:01:38Z",
-    "owner": {
-      "name": "Zyara-1ot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/212849500?v=4"
-    }
-  },
-  {
     "name": "Informal061/ManasPDF",
     "url": "https://github.com/Informal061/ManasPDF",
     "description": null,
@@ -1088,22 +1078,6 @@
     }
   },
   {
-    "name": "nmatt0/magiquest-wand",
-    "url": "https://github.com/nmatt0/magiquest-wand",
-    "description": "Flipper Zero app for cloning and replaying MagiQuest wand signals",
-    "stars": 11,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-15T20:30:23Z",
-    "updated_at": "2026-02-19T02:52:11Z",
-    "owner": {
-      "name": "nmatt0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7366332?v=4"
-    }
-  },
-  {
     "name": "SAMS0N1TE/ZeroMesh",
     "url": "https://github.com/SAMS0N1TE/ZeroMesh",
     "description": "A simple Meshtastic app for the Flipper Zero",
@@ -1117,6 +1091,38 @@
     "owner": {
       "name": "SAMS0N1TE",
       "avatar_url": "https://avatars.githubusercontent.com/u/115175137?v=4"
+    }
+  },
+  {
+    "name": "jmlago/subzeroclaw",
+    "url": "https://github.com/jmlago/subzeroclaw",
+    "description": null,
+    "stars": 11,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-16T15:37:40Z",
+    "updated_at": "2026-02-20T20:57:43Z",
+    "owner": {
+      "name": "jmlago",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26024537?v=4"
+    }
+  },
+  {
+    "name": "tnm/zclaw",
+    "url": "https://github.com/tnm/zclaw",
+    "description": "Your personal AI assistant in 888kb, running on an ESP32",
+    "stars": 11,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-16T19:52:01Z",
+    "updated_at": "2026-02-21T03:40:30Z",
+    "owner": {
+      "name": "tnm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126905?v=4"
     }
   },
   {
@@ -1149,6 +1155,38 @@
     "owner": {
       "name": "minad",
       "avatar_url": "https://avatars.githubusercontent.com/u/50754?v=4"
+    }
+  },
+  {
+    "name": "pnsk-lab/benzyna",
+    "url": "https://github.com/pnsk-lab/benzyna",
+    "description": "Scratch execution environment in C",
+    "stars": 10,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "created_at": "2026-02-15T03:11:26Z",
+    "updated_at": "2026-02-21T00:10:52Z",
+    "owner": {
+      "name": "pnsk-lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/170870713?v=4"
+    }
+  },
+  {
+    "name": "hackboxguy/attiny85-hid-rotary-knob",
+    "url": "https://github.com/hackboxguy/attiny85-hid-rotary-knob",
+    "description": "Turn your digispark attiny85 usb dongle into an USB volume control knob for PCs",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-02-18T10:28:23Z",
+    "updated_at": "2026-02-20T21:43:18Z",
+    "owner": {
+      "name": "hackboxguy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1315947?v=4"
     }
   },
   {
@@ -1229,39 +1267,6 @@
     "owner": {
       "name": "kinsleykajiva",
       "avatar_url": "https://avatars.githubusercontent.com/u/8996252?v=4"
-    }
-  },
-  {
-    "name": "RtlZeroMemory/Zireael",
-    "url": "https://github.com/RtlZeroMemory/Zireael",
-    "description": "Deterministic terminal UI core engine in C (FFI/ABI backend for Zireael-UI).",
-    "stars": 10,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "abi",
-      "ansi",
-      "c",
-      "cross-platform",
-      "deterministic",
-      "ffi",
-      "golang",
-      "performance",
-      "posix",
-      "renderer",
-      "terminal",
-      "tui",
-      "typescript",
-      "unicode",
-      "windows",
-      "zireael-ui"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-02-01T16:59:34Z",
-    "updated_at": "2026-02-06T12:01:06Z",
-    "owner": {
-      "name": "RtlZeroMemory",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58250858?v=4"
     }
   }
 ]
