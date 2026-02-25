@@ -40,13 +40,13 @@
     "name": "joshcirre/tweakflux",
     "url": "https://github.com/joshcirre/tweakflux",
     "description": "A customizable template generator for Livewire Flux UI ",
-    "stars": 79,
-    "forks": 2,
+    "stars": 80,
+    "forks": 3,
     "language": "PHP",
     "topics": [],
     "license": "No license",
     "created_at": "2026-02-11T09:32:40Z",
-    "updated_at": "2026-02-24T03:08:25Z",
+    "updated_at": "2026-02-24T18:11:43Z",
     "owner": {
       "name": "joshcirre",
       "avatar_url": "https://avatars.githubusercontent.com/u/8452303?v=4"
@@ -116,7 +116,7 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-02-02T07:16:16Z",
-    "updated_at": "2026-02-23T20:12:55Z",
+    "updated_at": "2026-02-24T16:14:37Z",
     "owner": {
       "name": "LaravelDaily",
       "avatar_url": "https://avatars.githubusercontent.com/u/15341846?v=4"
@@ -157,6 +157,25 @@
     "owner": {
       "name": "iRaziul",
       "avatar_url": "https://avatars.githubusercontent.com/u/51883557?v=4"
+    }
+  },
+  {
+    "name": "spatie/php-attribute-reader",
+    "url": "https://github.com/spatie/php-attribute-reader",
+    "description": "A clean API for working with PHP attributes",
+    "stars": 52,
+    "forks": 1,
+    "language": "PHP",
+    "topics": [
+      "attributes",
+      "php"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-02-22T13:33:10Z",
+    "updated_at": "2026-02-24T22:49:35Z",
+    "owner": {
+      "name": "spatie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7535935?v=4"
     }
   },
   {
@@ -245,25 +264,6 @@
     }
   },
   {
-    "name": "spatie/php-attribute-reader",
-    "url": "https://github.com/spatie/php-attribute-reader",
-    "description": "A clean API for working with PHP attributes",
-    "stars": 40,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [
-      "attributes",
-      "php"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-22T13:33:10Z",
-    "updated_at": "2026-02-24T01:11:32Z",
-    "owner": {
-      "name": "spatie",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7535935?v=4"
-    }
-  },
-  {
     "name": "noctud/collection",
     "url": "https://github.com/noctud/collection",
     "description": "🗺️ Type-safe, mutable/immutable, sortable and key-preserving collections for PHP 8.4+",
@@ -290,7 +290,7 @@
     "name": "RegionallyFamous/wp-pinch",
     "url": "https://github.com/RegionallyFamous/wp-pinch",
     "description": "The AI agent plugin that grabs your WordPress site with both claws.",
-    "stars": 36,
+    "stars": 37,
     "forks": 1,
     "language": "PHP",
     "topics": [
@@ -299,10 +299,28 @@
     ],
     "license": "GNU General Public License v2.0",
     "created_at": "2026-02-10T20:55:57Z",
-    "updated_at": "2026-02-24T02:22:32Z",
+    "updated_at": "2026-02-24T20:00:41Z",
     "owner": {
       "name": "RegionallyFamous",
       "avatar_url": "https://avatars.githubusercontent.com/u/226379330?v=4"
+    }
+  },
+  {
+    "name": "nicobleiler/php-passphrase",
+    "url": "https://github.com/nicobleiler/php-passphrase",
+    "description": "Passphrase generator with Laravel integration, inspired by Bitwarden. Uses the EFF long word list by default with support for custom wordlists.",
+    "stars": 35,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "passphrase"
+    ],
+    "license": "Other",
+    "created_at": "2026-02-12T15:53:24Z",
+    "updated_at": "2026-02-24T16:28:38Z",
+    "owner": {
+      "name": "nicobleiler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29607555?v=4"
     }
   },
   {
@@ -322,21 +340,36 @@
     }
   },
   {
-    "name": "nicobleiler/php-passphrase",
-    "url": "https://github.com/nicobleiler/php-passphrase",
-    "description": "Passphrase generator with Laravel integration, inspired by Bitwarden. Uses the EFF long word list by default with support for custom wordlists.",
+    "name": "dknauss/wp-sudo",
+    "url": "https://github.com/dknauss/wp-sudo",
+    "description": "Sudo for WordPress. 🥪 Dangerous actions — activating plugins, deleting users, changing critical settings — are gated by a required reauthentication step, regardless of user role. Time-bounded sessions, 2FA support, rate limiting, and configurable policies for REST, WP-CLI, Cron, and XML-RPC. No role escalation, no new permissions — just a gate. ⛩️",
     "stars": 32,
-    "forks": 0,
+    "forks": 2,
     "language": "PHP",
     "topics": [
-      "passphrase"
+      "access-control",
+      "capabilities",
+      "least-privilege",
+      "principle-of-least-privilege",
+      "sudo",
+      "user",
+      "wordpress",
+      "wordpress-admin-backend",
+      "wordpress-admin-panel",
+      "wordpress-administrators",
+      "wordpress-multisite-compatible",
+      "wordpress-plugins",
+      "wordpress-security",
+      "wordpress-security-plugin",
+      "wordpress-users",
+      "zero-trust"
     ],
-    "license": "Other",
-    "created_at": "2026-02-12T15:53:24Z",
-    "updated_at": "2026-02-23T22:49:53Z",
+    "license": "No license",
+    "created_at": "2026-02-11T01:48:12Z",
+    "updated_at": "2026-02-24T18:27:32Z",
     "owner": {
-      "name": "nicobleiler",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29607555?v=4"
+      "name": "dknauss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/273554?v=4"
     }
   },
   {
@@ -346,10 +379,19 @@
     "stars": 32,
     "forks": 0,
     "language": "PHP",
-    "topics": [],
+    "topics": [
+      "backup",
+      "backup-manager",
+      "borg-backup",
+      "borgbackup",
+      "borgbackup-gui",
+      "borgbackup-web-ui",
+      "self-hosted",
+      "web-gui"
+    ],
     "license": "Other",
     "created_at": "2026-01-29T04:16:44Z",
-    "updated_at": "2026-02-24T02:59:46Z",
+    "updated_at": "2026-02-24T21:18:32Z",
     "owner": {
       "name": "marcpope",
       "avatar_url": "https://avatars.githubusercontent.com/u/11093841?v=4"
@@ -388,36 +430,19 @@
     }
   },
   {
-    "name": "dknauss/wp-sudo",
-    "url": "https://github.com/dknauss/wp-sudo",
-    "description": "Sudo for WordPress. 🥪 Dangerous actions — activating plugins, deleting users, changing critical settings — are gated by a required reauthentication step, regardless of user role. Time-bounded sessions, 2FA support, rate limiting, and configurable policies for REST, WP-CLI, Cron, and XML-RPC. No role escalation, no new permissions — just a gate. ⾨ ",
-    "stars": 30,
-    "forks": 2,
+    "name": "epic-64/elem",
+    "url": "https://github.com/epic-64/elem",
+    "description": "a functional html api",
+    "stars": 28,
+    "forks": 0,
     "language": "PHP",
-    "topics": [
-      "access-control",
-      "capabilities",
-      "least-privilege",
-      "principle-of-least-privilege",
-      "sudo",
-      "user",
-      "wordpress",
-      "wordpress-admin-backend",
-      "wordpress-admin-panel",
-      "wordpress-administrators",
-      "wordpress-multisite-compatible",
-      "wordpress-plugins",
-      "wordpress-security",
-      "wordpress-security-plugin",
-      "wordpress-users",
-      "zero-trust"
-    ],
-    "license": "No license",
-    "created_at": "2026-02-11T01:48:12Z",
-    "updated_at": "2026-02-23T21:22:25Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-15T17:26:47Z",
+    "updated_at": "2026-02-24T19:46:06Z",
     "owner": {
-      "name": "dknauss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/273554?v=4"
+      "name": "epic-64",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105014007?v=4"
     }
   },
   {
@@ -476,7 +501,7 @@
     ],
     "license": "No license",
     "created_at": "2026-02-07T01:30:38Z",
-    "updated_at": "2026-02-20T21:56:35Z",
+    "updated_at": "2026-02-24T12:53:45Z",
     "owner": {
       "name": "laxmariappan",
       "avatar_url": "https://avatars.githubusercontent.com/u/22427070?v=4"
@@ -502,22 +527,6 @@
     "owner": {
       "name": "hasinhayder",
       "avatar_url": "https://avatars.githubusercontent.com/u/490779?v=4"
-    }
-  },
-  {
-    "name": "epic-64/elem",
-    "url": "https://github.com/epic-64/elem",
-    "description": "a functional html api",
-    "stars": 26,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-15T17:26:47Z",
-    "updated_at": "2026-02-24T02:46:24Z",
-    "owner": {
-      "name": "epic-64",
-      "avatar_url": "https://avatars.githubusercontent.com/u/105014007?v=4"
     }
   },
   {
@@ -569,6 +578,28 @@
     }
   },
   {
+    "name": "mayaramyadav/laravel-ocr",
+    "url": "https://github.com/mayaramyadav/laravel-ocr",
+    "description": "Laravel OCR & Document Data Extractor – A powerful OCR and document parsing engine for Laravel. It provides intelligent text extraction, structured data parsing, and AI-powered cleanup for documents like invoices, receipts, and PDFs.",
+    "stars": 25,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "laravel",
+      "laravel-package",
+      "ocr",
+      "ocr-text-reader",
+      "php"
+    ],
+    "license": "No license",
+    "created_at": "2026-02-13T08:19:45Z",
+    "updated_at": "2026-02-23T22:23:20Z",
+    "owner": {
+      "name": "mayaramyadav",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91020912?v=4"
+    }
+  },
+  {
     "name": "Mayaramyadav/laravel-ocr",
     "url": "https://github.com/Mayaramyadav/laravel-ocr",
     "description": "Laravel OCR & Document Data Extractor – A powerful OCR and document parsing engine for Laravel. It provides intelligent text extraction, structured data parsing, and AI-powered cleanup for documents like invoices, receipts, and PDFs.",
@@ -616,26 +647,10 @@
     }
   },
   {
-    "name": "wenteris/PixelChain",
-    "url": "https://github.com/wenteris/PixelChain",
-    "description": "Self-adaptive, blockchain-secured clusters autonomously synchronize and self-heal, ensuring seamless data integrity across a scalable transaction fabric.",
-    "stars": 24,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-07T01:59:59Z",
-    "updated_at": "2026-02-20T21:51:06Z",
-    "owner": {
-      "name": "wenteris",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58634785?v=4"
-    }
-  },
-  {
     "name": "subhashladumor1/laravel-ai-guard",
     "url": "https://github.com/subhashladumor1/laravel-ai-guard",
     "description": "Laravel AI Guard 🛡️💰🤖 -  Control and optimize AI costs in Laravel AI SDK applications 🚀 Track OpenAI & LLM token usage 📊, estimate AI costs before execution ⚠️, enforce AI budgets 🧾, and prevent unexpected billing spikes in production 💥.",
-    "stars": 23,
+    "stars": 24,
     "forks": 0,
     "language": "PHP",
     "topics": [
@@ -661,17 +676,57 @@
     ],
     "license": "MIT License",
     "created_at": "2026-02-08T06:06:48Z",
-    "updated_at": "2026-02-20T04:15:38Z",
+    "updated_at": "2026-02-24T09:20:03Z",
     "owner": {
       "name": "subhashladumor1",
       "avatar_url": "https://avatars.githubusercontent.com/u/79623012?v=4"
     }
   },
   {
+    "name": "wenteris/PixelChain",
+    "url": "https://github.com/wenteris/PixelChain",
+    "description": "Self-adaptive, blockchain-secured clusters autonomously synchronize and self-heal, ensuring seamless data integrity across a scalable transaction fabric.",
+    "stars": 24,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-07T01:59:59Z",
+    "updated_at": "2026-02-20T21:51:06Z",
+    "owner": {
+      "name": "wenteris",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58634785?v=4"
+    }
+  },
+  {
+    "name": "spatie/laravel-openapi-cli",
+    "url": "https://github.com/spatie/laravel-openapi-cli",
+    "description": "Create a Laravel command for your OpenAPI specs",
+    "stars": 23,
+    "forks": 1,
+    "language": "PHP",
+    "topics": [
+      "ai",
+      "api",
+      "cli",
+      "laravel",
+      "openapi",
+      "php",
+      "specs"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-01-28T21:02:11Z",
+    "updated_at": "2026-02-24T22:47:32Z",
+    "owner": {
+      "name": "spatie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7535935?v=4"
+    }
+  },
+  {
     "name": "eznix86/laravel-ai-memory",
     "url": "https://github.com/eznix86/laravel-ai-memory",
     "description": "Make your Agent Remember Things",
-    "stars": 22,
+    "stars": 23,
     "forks": 2,
     "language": "PHP",
     "topics": [
@@ -683,7 +738,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-02-06T11:47:52Z",
-    "updated_at": "2026-02-16T15:54:01Z",
+    "updated_at": "2026-02-24T22:12:47Z",
     "owner": {
       "name": "eznix86",
       "avatar_url": "https://avatars.githubusercontent.com/u/26553194?v=4"
@@ -703,6 +758,22 @@
     "owner": {
       "name": "venlacy0",
       "avatar_url": "https://avatars.githubusercontent.com/u/245550007?v=4"
+    }
+  },
+  {
+    "name": "laravel/sentinel",
+    "url": "https://github.com/laravel/sentinel",
+    "description": null,
+    "stars": 20,
+    "forks": 1,
+    "language": "PHP",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-02-10T05:15:24Z",
+    "updated_at": "2026-02-24T18:41:37Z",
+    "owner": {
+      "name": "laravel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/958072?v=4"
     }
   },
   {
@@ -738,30 +809,6 @@
     }
   },
   {
-    "name": "spatie/laravel-openapi-cli",
-    "url": "https://github.com/spatie/laravel-openapi-cli",
-    "description": "Create a Laravel command for your OpenAPI specs",
-    "stars": 19,
-    "forks": 1,
-    "language": "PHP",
-    "topics": [
-      "ai",
-      "api",
-      "cli",
-      "laravel",
-      "openapi",
-      "php",
-      "specs"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-01-28T21:02:11Z",
-    "updated_at": "2026-02-23T14:19:05Z",
-    "owner": {
-      "name": "spatie",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7535935?v=4"
-    }
-  },
-  {
     "name": "rafoabbas/api-docs",
     "url": "https://github.com/rafoabbas/api-docs",
     "description": "Generate API documentation (Postman collections & OpenAPI specs) from PHP attributes and YAML files",
@@ -791,22 +838,6 @@
     "owner": {
       "name": "xedeline",
       "avatar_url": "https://avatars.githubusercontent.com/u/58417839?v=4"
-    }
-  },
-  {
-    "name": "laravel/sentinel",
-    "url": "https://github.com/laravel/sentinel",
-    "description": null,
-    "stars": 18,
-    "forks": 1,
-    "language": "PHP",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-10T05:15:24Z",
-    "updated_at": "2026-02-13T17:55:29Z",
-    "owner": {
-      "name": "laravel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/958072?v=4"
     }
   },
   {
