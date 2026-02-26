@@ -1,5 +1,7 @@
 # 🚀 GitHub Trending RSS
 
+![GitHub Trending RSS](banner.jpg)
+
 A Python tool that generates RSS/Atom feeds for GitHub trending repositories.
 
 ## 📋 Overview
