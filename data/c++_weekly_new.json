@@ -293,22 +293,6 @@
     }
   },
   {
-    "name": "kyxiaxiang/360WFP_Exploit",
-    "url": "https://github.com/kyxiaxiang/360WFP_Exploit",
-    "description": "BYOVD: Use 360 ​​WFP driver to block EDR/XDR network connection.",
-    "stars": 60,
-    "forks": 12,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-10T16:58:09Z",
-    "updated_at": "2026-02-16T03:53:51Z",
-    "owner": {
-      "name": "kyxiaxiang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/102843981?v=4"
-    }
-  },
-  {
     "name": "t3tra-dev/zerocast",
     "url": "https://github.com/t3tra-dev/zerocast",
     "description": "\"zerocast\" is a lossy compression technology boasting the highest compression ratio in history.",
@@ -364,6 +348,27 @@
     }
   },
   {
+    "name": "j3h4ck/UnknownKiller",
+    "url": "https://github.com/j3h4ck/UnknownKiller",
+    "description": "PoC exploit for the vulnerable (eb.sys or UnknownKiller.sys) – weaponized to kill protected EDR/AV processes via BYOVD.",
+    "stars": 51,
+    "forks": 13,
+    "language": "C",
+    "topics": [
+      "byovd",
+      "edr",
+      "edr-bypass",
+      "edr-evasion"
+    ],
+    "license": "No license",
+    "created_at": "2026-02-27T11:50:17Z",
+    "updated_at": "2026-03-01T21:40:03Z",
+    "owner": {
+      "name": "j3h4ck",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107075824?v=4"
+    }
+  },
+  {
     "name": "Inokinoki/attesor",
     "url": "https://github.com/Inokinoki/attesor",
     "description": "AI-powered reverse-engineering of Rosetta (2 for Linux). Disclaimer: due to the user agreement, I will not touch the code. All is done by AI, so there might be messy implementation.",
@@ -377,27 +382,6 @@
     "owner": {
       "name": "Inokinoki",
       "avatar_url": "https://avatars.githubusercontent.com/u/8311300?v=4"
-    }
-  },
-  {
-    "name": "j3h4ck/UnknownKiller",
-    "url": "https://github.com/j3h4ck/UnknownKiller",
-    "description": "PoC exploit for the vulnerable (eb.sys or UnknownKiller.sys) – weaponized to kill protected EDR/AV processes via BYOVD.",
-    "stars": 49,
-    "forks": 12,
-    "language": "C",
-    "topics": [
-      "byovd",
-      "edr",
-      "edr-bypass",
-      "edr-evasion"
-    ],
-    "license": "No license",
-    "created_at": "2026-02-27T11:50:17Z",
-    "updated_at": "2026-03-01T01:17:25Z",
-    "owner": {
-      "name": "j3h4ck",
-      "avatar_url": "https://avatars.githubusercontent.com/u/107075824?v=4"
     }
   },
   {
@@ -523,19 +507,30 @@
     }
   },
   {
-    "name": "h41th/Simple-Crystal-Palace-RDLL-template-for-Adaptix",
-    "url": "https://github.com/h41th/Simple-Crystal-Palace-RDLL-template-for-Adaptix",
-    "description": null,
-    "stars": 34,
-    "forks": 6,
+    "name": "lubluniky/bs-p",
+    "url": "https://github.com/lubluniky/bs-p",
+    "description": "Ultra-low latency AVX-512 Polymarket market-making kernel (Logit Jump-Diffusion + Avellaneda-Stoikov in logit space)",
+    "stars": 33,
+    "forks": 3,
     "language": "C",
-    "topics": [],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2026-02-12T12:09:07Z",
-    "updated_at": "2026-02-16T01:38:04Z",
+    "topics": [
+      "avx512",
+      "c",
+      "core",
+      "hft",
+      "market-making",
+      "polymarket",
+      "prediction-markets",
+      "quantitative-finance",
+      "rust",
+      "simd"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-02-24T23:50:50Z",
+    "updated_at": "2026-03-01T23:52:06Z",
     "owner": {
-      "name": "h41th",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19416295?v=4"
+      "name": "lubluniky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/102585380?v=4"
     }
   },
   {
@@ -571,46 +566,19 @@
     }
   },
   {
-    "name": "lsecqt/PortForwarder",
-    "url": "https://github.com/lsecqt/PortForwarder",
-    "description": "TCP Port Forwarding Utility on C",
-    "stars": 31,
-    "forks": 8,
+    "name": "TheRealClarity/Trigon-Legacy",
+    "url": "https://github.com/TheRealClarity/Trigon-Legacy",
+    "description": "Deterministic iOS 7-9 64-bit Kernel Exploit",
+    "stars": 29,
+    "forks": 2,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-02-11T11:23:17Z",
-    "updated_at": "2026-02-16T03:58:36Z",
+    "created_at": "2026-02-28T12:08:23Z",
+    "updated_at": "2026-03-01T22:10:45Z",
     "owner": {
-      "name": "lsecqt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/102690672?v=4"
-    }
-  },
-  {
-    "name": "lubluniky/bs-p",
-    "url": "https://github.com/lubluniky/bs-p",
-    "description": "Ultra-low latency AVX-512 Polymarket market-making kernel (Logit Jump-Diffusion + Avellaneda-Stoikov in logit space)",
-    "stars": 30,
-    "forks": 3,
-    "language": "C",
-    "topics": [
-      "avx512",
-      "c",
-      "core",
-      "hft",
-      "market-making",
-      "polymarket",
-      "prediction-markets",
-      "quantitative-finance",
-      "rust",
-      "simd"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-24T23:50:50Z",
-    "updated_at": "2026-03-01T01:55:22Z",
-    "owner": {
-      "name": "lubluniky",
-      "avatar_url": "https://avatars.githubusercontent.com/u/102585380?v=4"
+      "name": "TheRealClarity",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68876810?v=4"
     }
   },
   {
@@ -710,22 +678,6 @@
     }
   },
   {
-    "name": "p0358/usb_oc-dkms",
-    "url": "https://github.com/p0358/usb_oc-dkms",
-    "description": "USB overclock Linux kernel module (equivalent of hidusbf on Windows)",
-    "stars": 25,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-02-10T21:06:20Z",
-    "updated_at": "2026-02-16T01:47:49Z",
-    "owner": {
-      "name": "p0358",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5182588?v=4"
-    }
-  },
-  {
     "name": "nagibator-bradpittx94/CS2-Cheat-2026",
     "url": "https://github.com/nagibator-bradpittx94/CS2-Cheat-2026",
     "description": "CS2 cheat provides real-time aim assistance, recoil compensation, and configurable wallhacks for Counter-Strike 2. It includes triggerbot, ESP showing player locations and health, customizable keybinds, and a client that runs with the game without altering files.",
@@ -752,6 +704,22 @@
     }
   },
   {
+    "name": "dylanaraps/dfm",
+    "url": "https://github.com/dylanaraps/dfm",
+    "description": "Dylan's File Manager",
+    "stars": 22,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-27T13:34:51Z",
+    "updated_at": "2026-03-01T19:35:38Z",
+    "owner": {
+      "name": "dylanaraps",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6799467?v=4"
+    }
+  },
+  {
     "name": "hackerschoice/team-teso",
     "url": "https://github.com/hackerschoice/team-teso",
     "description": null,
@@ -768,22 +736,6 @@
     }
   },
   {
-    "name": "dylanaraps/dfm",
-    "url": "https://github.com/dylanaraps/dfm",
-    "description": "Dylan's File Manager",
-    "stars": 21,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-27T13:34:51Z",
-    "updated_at": "2026-03-01T03:53:09Z",
-    "owner": {
-      "name": "dylanaraps",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6799467?v=4"
-    }
-  },
-  {
     "name": "alphafox02/tetra-rtlsdr",
     "url": "https://github.com/alphafox02/tetra-rtlsdr",
     "description": "RTL-SDR front-end for TETRA/telive - replaces GnuRadio with a single C binary",
@@ -797,6 +749,22 @@
     "owner": {
       "name": "alphafox02",
       "avatar_url": "https://avatars.githubusercontent.com/u/44436101?v=4"
+    }
+  },
+  {
+    "name": "newtonsart/synclyr2metadata",
+    "url": "https://github.com/newtonsart/synclyr2metadata",
+    "description": null,
+    "stars": 20,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-02-24T11:21:42Z",
+    "updated_at": "2026-03-02T04:01:56Z",
+    "owner": {
+      "name": "newtonsart",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46087344?v=4"
     }
   },
   {
@@ -832,19 +800,40 @@
     }
   },
   {
-    "name": "TheRealClarity/Trigon-Legacy",
-    "url": "https://github.com/TheRealClarity/Trigon-Legacy",
-    "description": "Deterministic iOS 7-9 64-bit Kernel Exploit",
+    "name": "metalsiliconyt/code-from-videos",
+    "url": "https://github.com/metalsiliconyt/code-from-videos",
+    "description": "The code from each of my youtube videos",
+    "stars": 18,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-27T22:31:52Z",
+    "updated_at": "2026-03-02T00:20:23Z",
+    "owner": {
+      "name": "metalsiliconyt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/264516321?v=4"
+    }
+  },
+  {
+    "name": "mmozeiko/hello-world-winui3-c",
+    "url": "https://github.com/mmozeiko/hello-world-winui3-c",
+    "description": "Hello World with WinUI3 in plain C",
     "stars": 18,
     "forks": 1,
     "language": "C",
-    "topics": [],
+    "topics": [
+      "c",
+      "windows",
+      "winui",
+      "winui3"
+    ],
     "license": "No license",
-    "created_at": "2026-02-28T12:08:23Z",
-    "updated_at": "2026-03-01T04:09:41Z",
+    "created_at": "2026-02-27T07:14:27Z",
+    "updated_at": "2026-03-01T14:45:58Z",
     "owner": {
-      "name": "TheRealClarity",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68876810?v=4"
+      "name": "mmozeiko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1665010?v=4"
     }
   },
   {
@@ -944,40 +933,19 @@
     }
   },
   {
-    "name": "mmozeiko/hello-world-winui3-c",
-    "url": "https://github.com/mmozeiko/hello-world-winui3-c",
-    "description": "Hello World with WinUI3 in plain C",
+    "name": "rubymonolith/enclave",
+    "url": "https://github.com/rubymonolith/enclave",
+    "description": "Sandboxed Ruby for AI agents",
     "stars": 17,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "c",
-      "windows",
-      "winui",
-      "winui3"
-    ],
-    "license": "No license",
-    "created_at": "2026-02-27T07:14:27Z",
-    "updated_at": "2026-02-28T19:55:17Z",
-    "owner": {
-      "name": "mmozeiko",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1665010?v=4"
-    }
-  },
-  {
-    "name": "newtonsart/synclyr2metadata",
-    "url": "https://github.com/newtonsart/synclyr2metadata",
-    "description": null,
-    "stars": 17,
-    "forks": 2,
+    "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-24T11:21:42Z",
-    "updated_at": "2026-02-28T21:58:11Z",
+    "license": "No license",
+    "created_at": "2026-02-27T02:04:11Z",
+    "updated_at": "2026-03-01T21:03:53Z",
     "owner": {
-      "name": "newtonsart",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46087344?v=4"
+      "name": "rubymonolith",
+      "avatar_url": "https://avatars.githubusercontent.com/u/118844134?v=4"
     }
   },
   {
@@ -1061,6 +1029,22 @@
     }
   },
   {
+    "name": "Patoke/4JLibs",
+    "url": "https://github.com/Patoke/4JLibs",
+    "description": null,
+    "stars": 15,
+    "forks": 5,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-27T04:43:58Z",
+    "updated_at": "2026-03-02T02:23:41Z",
+    "owner": {
+      "name": "Patoke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51339266?v=4"
+    }
+  },
+  {
     "name": "yobibyte/ansigpt",
     "url": "https://github.com/yobibyte/ansigpt",
     "description": "microgpt in ANSI C",
@@ -1077,6 +1061,28 @@
     }
   },
   {
+    "name": "DatriiKS/dtrx_hashmap",
+    "url": "https://github.com/DatriiKS/dtrx_hashmap",
+    "description": "A single header-file library written in C99 that implements a generic, high-level-like hashmap.",
+    "stars": 13,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "c",
+      "guide",
+      "hashmap",
+      "small",
+      "tutorial"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-02-25T20:37:00Z",
+    "updated_at": "2026-03-01T18:52:35Z",
+    "owner": {
+      "name": "DatriiKS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110266869?v=4"
+    }
+  },
+  {
     "name": "DarksBlackSk/EDR-Enum-BOF",
     "url": "https://github.com/DarksBlackSk/EDR-Enum-BOF",
     "description": "EDR-Enum-BOF AdaptixC2",
@@ -1086,7 +1092,7 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-02-24T05:02:01Z",
-    "updated_at": "2026-02-27T03:14:23Z",
+    "updated_at": "2026-03-01T23:01:55Z",
     "owner": {
       "name": "DarksBlackSk",
       "avatar_url": "https://avatars.githubusercontent.com/u/175671296?v=4"
@@ -1112,73 +1118,41 @@
     }
   },
   {
-    "name": "DatriiKS/dtrx_hashmap",
-    "url": "https://github.com/DatriiKS/dtrx_hashmap",
-    "description": "A single header-file library written in C99 that implements a generic, high-level-like hashmap.",
-    "stars": 12,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "c",
-      "guide",
-      "hashmap",
-      "small",
-      "tutorial"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-25T20:37:00Z",
-    "updated_at": "2026-02-28T22:06:07Z",
-    "owner": {
-      "name": "DatriiKS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/110266869?v=4"
-    }
-  },
-  {
     "name": "oceanthunder/Principia",
     "url": "https://github.com/oceanthunder/Principia",
     "description": "Playing Prince of Persia (1989) using Reinforcement Learning.",
     "stars": 12,
-    "forks": 0,
+    "forks": 1,
     "language": "C",
-    "topics": [],
+    "topics": [
+      "gymnasium",
+      "prince-of-persia",
+      "proximal-policy-optimization",
+      "reinforcement-learning",
+      "stable-baselines3"
+    ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-02-27T09:06:26Z",
-    "updated_at": "2026-02-28T19:07:42Z",
+    "updated_at": "2026-03-01T12:09:44Z",
     "owner": {
       "name": "oceanthunder",
       "avatar_url": "https://avatars.githubusercontent.com/u/139825271?v=4"
     }
   },
   {
-    "name": "metalsiliconyt/code-from-videos",
-    "url": "https://github.com/metalsiliconyt/code-from-videos",
-    "description": "The code from each of my youtube videos",
-    "stars": 12,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-27T22:31:52Z",
-    "updated_at": "2026-02-28T20:40:09Z",
-    "owner": {
-      "name": "metalsiliconyt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/264516321?v=4"
-    }
-  },
-  {
-    "name": "rubymonolith/enclave",
-    "url": "https://github.com/rubymonolith/enclave",
-    "description": "Sandboxed Ruby for AI agents",
+    "name": "tylertms/vkrt",
+    "url": "https://github.com/tylertms/vkrt",
+    "description": "Cross-platform hardware pathtracer in C using Vulkan.",
     "stars": 12,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-02-27T02:04:11Z",
-    "updated_at": "2026-03-01T01:32:06Z",
+    "created_at": "2026-02-25T06:17:19Z",
+    "updated_at": "2026-03-02T00:19:16Z",
     "owner": {
-      "name": "rubymonolith",
-      "avatar_url": "https://avatars.githubusercontent.com/u/118844134?v=4"
+      "name": "tylertms",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74526874?v=4"
     }
   },
   {
@@ -1253,22 +1227,6 @@
     }
   },
   {
-    "name": "swizardlv/botdrop_phonectl",
-    "url": "https://github.com/swizardlv/botdrop_phonectl",
-    "description": "BotDrop 的辅助工具，可以控制 Android 手机。不需要 root 权限 不需要 开启\"USB调试（安全设置）\"",
-    "stars": 12,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-10T08:42:28Z",
-    "updated_at": "2026-02-15T17:28:36Z",
-    "owner": {
-      "name": "swizardlv",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10117682?v=4"
-    }
-  },
-  {
     "name": "Foundations-of-HPC/High-Performance-Computing-at_UniTS",
     "url": "https://github.com/Foundations-of-HPC/High-Performance-Computing-at_UniTS",
     "description": "This repository contains the updated slides and materials for the course \"Basic HPC at University of Trieste\".",
@@ -1278,26 +1236,56 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-02-25T08:26:04Z",
-    "updated_at": "2026-02-27T17:46:57Z",
+    "updated_at": "2026-03-02T00:20:22Z",
     "owner": {
       "name": "Foundations-of-HPC",
       "avatar_url": "https://avatars.githubusercontent.com/u/72095002?v=4"
     }
   },
   {
-    "name": "tylertms/vkrt",
-    "url": "https://github.com/tylertms/vkrt",
-    "description": "Cross-platform hardware pathtracer in C using Vulkan.",
+    "name": "Scottcjn/legend-of-elya-n64",
+    "url": "https://github.com/Scottcjn/legend-of-elya-n64",
+    "description": "Legend of Elya — N64 game with a real 819K-parameter transformer running on the VR4300 MIPS III CPU. Zelda-style dungeon, AI NPCs, byte-level inference at 60 tok/s. Built with libdragon SDK.",
+    "stars": 11,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "ai",
+      "game-dev",
+      "homebrew",
+      "libdragon",
+      "llm",
+      "machine-learning",
+      "mips",
+      "n64",
+      "nintendo-64",
+      "retro-gaming",
+      "rustchain",
+      "transformer",
+      "zelda"
+    ],
+    "license": "No license",
+    "created_at": "2026-02-27T21:22:07Z",
+    "updated_at": "2026-03-02T02:48:25Z",
+    "owner": {
+      "name": "Scottcjn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121303252?v=4"
+    }
+  },
+  {
+    "name": "Whispergate/berlin",
+    "url": "https://github.com/Whispergate/berlin",
+    "description": "Cross-platform CPU-based virtual machine detection framework for modern offensive security.",
     "stars": 11,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-02-25T06:17:19Z",
-    "updated_at": "2026-03-01T02:15:01Z",
+    "created_at": "2026-02-28T01:55:37Z",
+    "updated_at": "2026-03-02T01:58:48Z",
     "owner": {
-      "name": "tylertms",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74526874?v=4"
+      "name": "Whispergate",
+      "avatar_url": "https://avatars.githubusercontent.com/u/143597543?v=4"
     }
   },
   {
@@ -1443,6 +1431,22 @@
     }
   },
   {
+    "name": "sunuhwang748-prog/Linked-List",
+    "url": "https://github.com/sunuhwang748-prog/Linked-List",
+    "description": "I made Linked List.",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-02-28T09:28:59Z",
+    "updated_at": "2026-03-01T04:25:01Z",
+    "owner": {
+      "name": "sunuhwang748-prog",
+      "avatar_url": "https://avatars.githubusercontent.com/u/258412514?v=4"
+    }
+  },
+  {
     "name": "camenduru/klein.c",
     "url": "https://github.com/camenduru/klein.c",
     "description": "klein.c is a compressed pure C implementation of iris.c for text-to-image generation using FLUX.2 Klein transformer models. Built specifically for Windows with native Win32 GUI support.",
@@ -1552,22 +1556,6 @@
     "owner": {
       "name": "Kashif-Siddiqui-code",
       "avatar_url": "https://avatars.githubusercontent.com/u/79792184?v=4"
-    }
-  },
-  {
-    "name": "rh1tech/frankos",
-    "url": "https://github.com/rh1tech/frankos",
-    "description": "FRANK OS - The RP2350 Operating System",
-    "stars": 10,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-10T15:23:22Z",
-    "updated_at": "2026-02-15T19:46:59Z",
-    "owner": {
-      "name": "rh1tech",
-      "avatar_url": "https://avatars.githubusercontent.com/u/202868145?v=4"
     }
   }
 ]
