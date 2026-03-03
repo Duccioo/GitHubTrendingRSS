@@ -112,8 +112,8 @@
     "name": "3DCF-Labs/safepilot",
     "url": "https://github.com/3DCF-Labs/safepilot",
     "description": "AI assistant that executes real work, safely.",
-    "stars": 378,
-    "forks": 9,
+    "stars": 381,
+    "forks": 7,
     "language": "Rust",
     "topics": [
       "ai",
@@ -126,10 +126,26 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-02-25T09:16:58Z",
-    "updated_at": "2026-03-01T18:49:06Z",
+    "updated_at": "2026-03-03T01:39:03Z",
     "owner": {
       "name": "3DCF-Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/246549109?v=4"
+    }
+  },
+  {
+    "name": "flamestro/deff",
+    "url": "https://github.com/flamestro/deff",
+    "description": "interactive, side-by-side file review for git diffs with per-file navigation, vertical and horizontal scrolling, syntax highlighting, and added/deleted line tinting",
+    "stars": 363,
+    "forks": 9,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-25T14:39:39Z",
+    "updated_at": "2026-03-03T03:42:56Z",
+    "owner": {
+      "name": "flamestro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23012283?v=4"
     }
   },
   {
@@ -168,7 +184,7 @@
     "name": "Sectionnaenumerate/Polymarket-Kalshi-btc-arbitrage-tool",
     "url": "https://github.com/Sectionnaenumerate/Polymarket-Kalshi-btc-arbitrage-tool",
     "description": null,
-    "stars": 343,
+    "stars": 342,
     "forks": 0,
     "language": "Rust",
     "topics": [
@@ -176,25 +192,26 @@
       "15min-crypto-polymarket-trading-bot",
       "15min-markets-trading-bot",
       "abitrage-bot",
-      "arbitrage",
-      "arbitrage-detection",
       "arbitrage-opportunity",
       "arbitrage-scanner",
       "bitcoin-arbitrage",
-      "bitcoin-trading",
       "bot-trading",
-      "btc",
       "bybit-bot",
+      "clob-client",
       "kalshi",
       "kalshi-api",
+      "polymarket-copytrade",
       "polymarket-kalshi-arbitrage-trading-bot",
+      "polymarket-kalshi-bot",
+      "polymarket-market-maker",
+      "polymarket-python-copy-trading-bot",
       "prediciton-markets",
       "prediction-markets",
-      "transaction-decoder"
+      "trading-and-supply"
     ],
     "license": "MIT License",
     "created_at": "2026-02-27T23:41:27Z",
-    "updated_at": "2026-03-02T04:03:44Z",
+    "updated_at": "2026-03-03T03:44:36Z",
     "owner": {
       "name": "Sectionnaenumerate",
       "avatar_url": "https://avatars.githubusercontent.com/u/258351642?v=4"
@@ -220,22 +237,6 @@
     "owner": {
       "name": "Daniel-Dias001",
       "avatar_url": "https://avatars.githubusercontent.com/u/94090454?v=4"
-    }
-  },
-  {
-    "name": "flamestro/deff",
-    "url": "https://github.com/flamestro/deff",
-    "description": "interactive, side-by-side file review for git diffs with per-file navigation, vertical and horizontal scrolling, syntax highlighting, and added/deleted line tinting",
-    "stars": 336,
-    "forks": 8,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-25T14:39:39Z",
-    "updated_at": "2026-03-02T02:26:57Z",
-    "owner": {
-      "name": "flamestro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23012283?v=4"
     }
   },
   {
@@ -298,6 +299,32 @@
     }
   },
   {
+    "name": "Nuzair46/Monarch",
+    "url": "https://github.com/Nuzair46/Monarch",
+    "description": "Detach, restore, and switch monitor layouts without touching cables.",
+    "stars": 280,
+    "forks": 7,
+    "language": "Rust",
+    "topics": [
+      "display",
+      "display-manager",
+      "displays",
+      "monitor",
+      "multimonitor",
+      "multimonitortool",
+      "ultraw",
+      "ultrawide-monitors",
+      "windows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-02-25T02:58:07Z",
+    "updated_at": "2026-03-03T03:59:13Z",
+    "owner": {
+      "name": "Nuzair46",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38219313?v=4"
+    }
+  },
+  {
     "name": "qhkm/zeptoclaw",
     "url": "https://github.com/qhkm/zeptoclaw",
     "description": "Final form of claw family (Wannabe)",
@@ -316,32 +343,6 @@
     "owner": {
       "name": "qhkm",
       "avatar_url": "https://avatars.githubusercontent.com/u/25919652?v=4"
-    }
-  },
-  {
-    "name": "Nuzair46/Monarch",
-    "url": "https://github.com/Nuzair46/Monarch",
-    "description": "Detach, restore, and switch monitor layouts without touching cables.",
-    "stars": 230,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [
-      "display",
-      "display-manager",
-      "displays",
-      "monitor",
-      "multimonitor",
-      "multimonitortool",
-      "ultraw",
-      "ultrawide-monitors",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-25T02:58:07Z",
-    "updated_at": "2026-03-02T03:16:07Z",
-    "owner": {
-      "name": "Nuzair46",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38219313?v=4"
     }
   },
   {
@@ -396,27 +397,44 @@
     }
   },
   {
-    "name": "0xsouravm/oxichrome",
-    "url": "https://github.com/0xsouravm/oxichrome",
-    "description": "Framework to build browser extensions entirely in Rust with proc macros, type-safe Chrome API bindings, and Leptos for reactive UI. Compiles to WebAssembly with zero hand-written JavaScript.",
-    "stars": 175,
-    "forks": 4,
+    "name": "ierror/synaps-cad",
+    "url": "https://github.com/ierror/synaps-cad",
+    "description": "The AI-powered 3D CAD IDE — edit code, visualize in 3D, and reshape your designs with natural language.",
+    "stars": 176,
+    "forks": 5,
     "language": "Rust",
     "topics": [
-      "cargo-oxichrome",
-      "chrome-extension",
-      "cli",
-      "leptos-rs",
-      "wasm",
-      "wasm-bindgen",
-      "web-extension"
+      "3d-modeling",
+      "3d-models",
+      "3d-printing",
+      "claude",
+      "gemini",
+      "generative-ai",
+      "openai",
+      "rust"
     ],
-    "license": "MIT License",
-    "created_at": "2026-02-11T19:25:10Z",
-    "updated_at": "2026-02-17T00:53:36Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-02-27T11:50:15Z",
+    "updated_at": "2026-03-03T03:31:13Z",
     "owner": {
-      "name": "0xsouravm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31289693?v=4"
+      "name": "ierror",
+      "avatar_url": "https://avatars.githubusercontent.com/u/844375?v=4"
+    }
+  },
+  {
+    "name": "acedef/SynthAPT",
+    "url": "https://github.com/acedef/SynthAPT",
+    "description": "Generate malware with AI",
+    "stars": 158,
+    "forks": 35,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-02-25T21:12:33Z",
+    "updated_at": "2026-03-03T03:53:19Z",
+    "owner": {
+      "name": "acedef",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109249453?v=4"
     }
   },
   {
@@ -438,22 +456,6 @@
     "owner": {
       "name": "Follow-Gabagool22",
       "avatar_url": "https://avatars.githubusercontent.com/u/262084132?v=4"
-    }
-  },
-  {
-    "name": "acedef/SynthAPT",
-    "url": "https://github.com/acedef/SynthAPT",
-    "description": "Generate malware with AI",
-    "stars": 146,
-    "forks": 33,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-25T21:12:33Z",
-    "updated_at": "2026-03-02T03:20:09Z",
-    "owner": {
-      "name": "acedef",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109249453?v=4"
     }
   },
   {
@@ -546,6 +548,22 @@
     }
   },
   {
+    "name": "Lethalchip/SpaceChatDB",
+    "url": "https://github.com/Lethalchip/SpaceChatDB",
+    "description": null,
+    "stars": 117,
+    "forks": 27,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-02-26T22:49:37Z",
+    "updated_at": "2026-03-03T01:22:43Z",
+    "owner": {
+      "name": "Lethalchip",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36650721?v=4"
+    }
+  },
+  {
     "name": "postrv/forgemax",
     "url": "https://github.com/postrv/forgemax",
     "description": "Code Mode inspired local sandboxed MCP Gateway - collapses N servers x M tools into 2 tools (~1,000 tokens)",
@@ -576,7 +594,7 @@
     "name": "3-JonWallis1993/HyperLiquid-Claw",
     "url": "https://github.com/3-JonWallis1993/HyperLiquid-Claw",
     "description": null,
-    "stars": 112,
+    "stars": 114,
     "forks": 0,
     "language": "Rust",
     "topics": [
@@ -603,26 +621,10 @@
     ],
     "license": "MIT License",
     "created_at": "2026-02-27T21:39:31Z",
-    "updated_at": "2026-03-01T23:27:11Z",
+    "updated_at": "2026-03-03T04:08:42Z",
     "owner": {
       "name": "3-JonWallis1993",
       "avatar_url": "https://avatars.githubusercontent.com/u/241706672?v=4"
-    }
-  },
-  {
-    "name": "Lethalchip/SpaceChatDB",
-    "url": "https://github.com/Lethalchip/SpaceChatDB",
-    "description": null,
-    "stars": 111,
-    "forks": 21,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-26T22:49:37Z",
-    "updated_at": "2026-03-02T03:35:50Z",
-    "owner": {
-      "name": "Lethalchip",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36650721?v=4"
     }
   },
   {
@@ -678,6 +680,22 @@
     }
   },
   {
+    "name": "170-carry/codex-tools",
+    "url": "https://github.com/170-carry/codex-tools",
+    "description": "快捷切换codex 账号以及监控codex用量的工具",
+    "stars": 103,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-27T04:31:27Z",
+    "updated_at": "2026-03-03T04:04:30Z",
+    "owner": {
+      "name": "170-carry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/257216834?v=4"
+    }
+  },
+  {
     "name": "brwse/earl",
     "url": "https://github.com/brwse/earl",
     "description": "AI-safe CLI for AI agents",
@@ -691,27 +709,6 @@
     "owner": {
       "name": "brwse",
       "avatar_url": "https://avatars.githubusercontent.com/u/211193204?v=4"
-    }
-  },
-  {
-    "name": "joaoviictorti/rustbof",
-    "url": "https://github.com/joaoviictorti/rustbof",
-    "description": "A Rust template for writing Beacon Object Files (BOFs)",
-    "stars": 95,
-    "forks": 10,
-    "language": "Rust",
-    "topics": [
-      "beacon",
-      "red-team",
-      "rust",
-      "windows"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-02-11T16:19:21Z",
-    "updated_at": "2026-02-16T23:43:38Z",
-    "owner": {
-      "name": "joaoviictorti",
-      "avatar_url": "https://avatars.githubusercontent.com/u/85838827?v=4"
     }
   },
   {
@@ -744,6 +741,22 @@
     "owner": {
       "name": "Rodrigodd",
       "avatar_url": "https://avatars.githubusercontent.com/u/51273772?v=4"
+    }
+  },
+  {
+    "name": "rust-multiplatform/rmp",
+    "url": "https://github.com/rust-multiplatform/rmp",
+    "description": null,
+    "stars": 81,
+    "forks": 9,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-02-27T02:15:27Z",
+    "updated_at": "2026-03-02T05:03:15Z",
+    "owner": {
+      "name": "rust-multiplatform",
+      "avatar_url": "https://avatars.githubusercontent.com/u/264329045?v=4"
     }
   },
   {
@@ -781,22 +794,6 @@
     "owner": {
       "name": "samurmaykrr",
       "avatar_url": "https://avatars.githubusercontent.com/u/57793061?v=4"
-    }
-  },
-  {
-    "name": "rust-multiplatform/rmp",
-    "url": "https://github.com/rust-multiplatform/rmp",
-    "description": null,
-    "stars": 80,
-    "forks": 9,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-27T02:15:27Z",
-    "updated_at": "2026-03-01T16:43:36Z",
-    "owner": {
-      "name": "rust-multiplatform",
-      "avatar_url": "https://avatars.githubusercontent.com/u/264329045?v=4"
     }
   },
   {
@@ -852,26 +849,6 @@
     "owner": {
       "name": "yashksaini-coder",
       "avatar_url": "https://avatars.githubusercontent.com/u/115717039?v=4"
-    }
-  },
-  {
-    "name": "ayanchavand/FiTui",
-    "url": "https://github.com/ayanchavand/FiTui",
-    "description": "Terminal-based personal finance tracker ",
-    "stars": 72,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [
-      "personal-finance",
-      "ratatui",
-      "tui"
-    ],
-    "license": "No license",
-    "created_at": "2026-02-11T06:48:59Z",
-    "updated_at": "2026-02-16T23:28:20Z",
-    "owner": {
-      "name": "ayanchavand",
-      "avatar_url": "https://avatars.githubusercontent.com/u/71554089?v=4"
     }
   },
   {
@@ -1008,47 +985,6 @@
     }
   },
   {
-    "name": "xuy/langextract-rs",
-    "url": "https://github.com/xuy/langextract-rs",
-    "description": null,
-    "stars": 55,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-12T03:31:48Z",
-    "updated_at": "2026-02-16T17:17:20Z",
-    "owner": {
-      "name": "xuy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1151720?v=4"
-    }
-  },
-  {
-    "name": "ierror/synaps-cad",
-    "url": "https://github.com/ierror/synaps-cad",
-    "description": "The AI-powered 3D CAD IDE — edit code, visualize in 3D, and reshape your designs with natural language.",
-    "stars": 53,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [
-      "3d-modeling",
-      "3d-models",
-      "3d-printing",
-      "claude",
-      "gemini",
-      "generative-ai",
-      "openai",
-      "rust"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-27T11:50:15Z",
-    "updated_at": "2026-03-02T04:08:56Z",
-    "owner": {
-      "name": "ierror",
-      "avatar_url": "https://avatars.githubusercontent.com/u/844375?v=4"
-    }
-  },
-  {
     "name": "nclamvn/oneclaw",
     "url": "https://github.com/nclamvn/oneclaw",
     "description": "AI Agent Kernel for Edge/IoT — 5-layer Rust runtime with 6 LLM providers",
@@ -1089,6 +1025,51 @@
     }
   },
   {
+    "name": "FrogSnot/Concryptor",
+    "url": "https://github.com/FrogSnot/Concryptor",
+    "description": "    A gigabyte-per-second, multi-threaded file encryption engine. Achieves extreme throughput using a lock-free, triple-buffered io_uring pipeline, Rayon parallel chunking, and hardware-accelerated AEADs (AES-256-GCM / ChaCha20).",
+    "stars": 50,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "aead",
+      "aes-gcm",
+      "argon2",
+      "chacha20-poly1305",
+      "cli-tool",
+      "cryptography",
+      "encryption",
+      "io-uring",
+      "performance",
+      "rust",
+      "security",
+      "zero-copy"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-02-27T04:45:35Z",
+    "updated_at": "2026-03-02T23:16:44Z",
+    "owner": {
+      "name": "FrogSnot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173699467?v=4"
+    }
+  },
+  {
+    "name": "lianwusuoai/ai-search-mcp",
+    "url": "https://github.com/lianwusuoai/ai-search-mcp",
+    "description": "通用 AI 搜索 MCP 服务器,支持任何兼容 OpenAI API 格式的 AI 模型进行联网搜索",
+    "stars": 50,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-27T19:19:25Z",
+    "updated_at": "2026-03-02T19:11:11Z",
+    "owner": {
+      "name": "lianwusuoai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87284545?v=4"
+    }
+  },
+  {
     "name": "CyberSecurityUP/ironclaw",
     "url": "https://github.com/CyberSecurityUP/ironclaw",
     "description": "Your own personal AI assistant. But with security by design. Support for numerous operating systems. Any platform.",
@@ -1112,22 +1093,6 @@
     "owner": {
       "name": "CyberSecurityUP",
       "avatar_url": "https://avatars.githubusercontent.com/u/34966120?v=4"
-    }
-  },
-  {
-    "name": "lianwusuoai/ai-search-mcp",
-    "url": "https://github.com/lianwusuoai/ai-search-mcp",
-    "description": "通用 AI 搜索 MCP 服务器,支持任何兼容 OpenAI API 格式的 AI 模型进行联网搜索",
-    "stars": 48,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-27T19:19:25Z",
-    "updated_at": "2026-03-02T01:47:49Z",
-    "owner": {
-      "name": "lianwusuoai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/87284545?v=4"
     }
   },
   {
@@ -1161,22 +1126,6 @@
     }
   },
   {
-    "name": "170-carry/codex-tools",
-    "url": "https://github.com/170-carry/codex-tools",
-    "description": "快捷切换codex 账号以及监控codex用量的工具",
-    "stars": 47,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-27T04:31:27Z",
-    "updated_at": "2026-03-02T03:40:50Z",
-    "owner": {
-      "name": "170-carry",
-      "avatar_url": "https://avatars.githubusercontent.com/u/257216834?v=4"
-    }
-  },
-  {
     "name": "illegal-instruction-co/rememex",
     "url": "https://github.com/illegal-instruction-co/rememex",
     "description": "semantic search for your local files find by meaning, not keywords. 120+ file types, OCR, MCP server for AI agents. 100% private.",
@@ -1206,32 +1155,28 @@
     }
   },
   {
-    "name": "FrogSnot/Concryptor",
-    "url": "https://github.com/FrogSnot/Concryptor",
-    "description": "    A gigabyte-per-second, multi-threaded file encryption engine. Achieves extreme throughput using a lock-free, triple-buffered io_uring pipeline, Rayon parallel chunking, and hardware-accelerated AEADs (AES-256-GCM / ChaCha20).",
-    "stars": 45,
-    "forks": 1,
+    "name": "Chleba/ollamaMQ",
+    "url": "https://github.com/Chleba/ollamaMQ",
+    "description": "High-performance Ollama proxy with per-user fair-share queuing, round-robin scheduling, and a real-time TUI dashboard. Built in Rust.",
+    "stars": 46,
+    "forks": 4,
     "language": "Rust",
     "topics": [
-      "aead",
-      "aes-gcm",
-      "argon2",
-      "chacha20-poly1305",
-      "cli-tool",
-      "cryptography",
-      "encryption",
-      "io-uring",
-      "performance",
+      "fair-share",
+      "llm-ops",
+      "message-queue",
+      "ollama",
+      "openai-compatible",
+      "proxy",
       "rust",
-      "security",
-      "zero-copy"
+      "tui"
     ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-02-27T04:45:35Z",
-    "updated_at": "2026-03-02T03:32:30Z",
+    "license": "MIT License",
+    "created_at": "2026-02-27T00:13:13Z",
+    "updated_at": "2026-03-03T03:46:46Z",
     "owner": {
-      "name": "FrogSnot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/173699467?v=4"
+      "name": "Chleba",
+      "avatar_url": "https://avatars.githubusercontent.com/u/202436?v=4"
     }
   },
   {
@@ -1251,6 +1196,22 @@
     }
   },
   {
+    "name": "euaziel/WiFi-CSI-Human-Pose-Detection",
+    "url": "https://github.com/euaziel/WiFi-CSI-Human-Pose-Detection",
+    "description": "Human pose estimation using WiFi Channel State Information (CSI) and deep learning — enabling camera-free sensing through walls.",
+    "stars": 44,
+    "forks": 20,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-03-01T23:12:17Z",
+    "updated_at": "2026-03-03T01:54:02Z",
+    "owner": {
+      "name": "euaziel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210557268?v=4"
+    }
+  },
+  {
     "name": "AnonMiraj/Tanin",
     "url": "https://github.com/AnonMiraj/Tanin",
     "description": "A simple TUI noise generator",
@@ -1266,22 +1227,6 @@
     "owner": {
       "name": "AnonMiraj",
       "avatar_url": "https://avatars.githubusercontent.com/u/54112754?v=4"
-    }
-  },
-  {
-    "name": "fand/ratride",
-    "url": "https://github.com/fand/ratride",
-    "description": "A tiny CLI presentation tool",
-    "stars": 42,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-11T00:58:47Z",
-    "updated_at": "2026-02-17T03:42:33Z",
-    "owner": {
-      "name": "fand",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1403842?v=4"
     }
   },
   {
@@ -1373,6 +1318,38 @@
     }
   },
   {
+    "name": "qfeuilla/Webfurl",
+    "url": "https://github.com/qfeuilla/Webfurl",
+    "description": "A browser use AI agent that uses a compressed unfoldable representation of HTML for high token efficiency",
+    "stars": 36,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-03-01T03:20:21Z",
+    "updated_at": "2026-03-03T01:04:27Z",
+    "owner": {
+      "name": "qfeuilla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58710693?v=4"
+    }
+  },
+  {
+    "name": "DegenSugarBoo/OpenBook",
+    "url": "https://github.com/DegenSugarBoo/OpenBook",
+    "description": null,
+    "stars": 35,
+    "forks": 9,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-02T19:20:02Z",
+    "updated_at": "2026-03-03T04:05:41Z",
+    "owner": {
+      "name": "DegenSugarBoo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104623636?v=4"
+    }
+  },
+  {
     "name": "BitYoungjae/ChalKak",
     "url": "https://github.com/BitYoungjae/ChalKak",
     "description": "Preview-first screenshot tool for Wayland + Hyprland  with a lightweight built-in annotation editor.",
@@ -1437,6 +1414,22 @@
     }
   },
   {
+    "name": "map-A/sina-real-time",
+    "url": "https://github.com/map-A/sina-real-time",
+    "description": null,
+    "stars": 33,
+    "forks": 8,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-02T11:47:04Z",
+    "updated_at": "2026-03-03T02:21:19Z",
+    "owner": {
+      "name": "map-A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19721918?v=4"
+    }
+  },
+  {
     "name": "clawshell/clawshell",
     "url": "https://github.com/clawshell/clawshell",
     "description": "The Security Layer for OpenClaw, the essential safety harness for PII & sensitive credentials protection.",
@@ -1480,6 +1473,41 @@
     }
   },
   {
+    "name": "dollspace-gay/ripsed",
+    "url": "https://github.com/dollspace-gay/ripsed",
+    "description": "Improved and oxidized version of sed",
+    "stars": 32,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "sed"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-01T17:57:12Z",
+    "updated_at": "2026-03-02T22:15:01Z",
+    "owner": {
+      "name": "dollspace-gay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190305670?v=4"
+    }
+  },
+  {
+    "name": "akitaonrails/ai-jail",
+    "url": "https://github.com/akitaonrails/ai-jail",
+    "description": "Multi-OS sandbox to run AI agents with better constraints (it is not 100% secure, but enough)",
+    "stars": 32,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-03-01T17:44:23Z",
+    "updated_at": "2026-03-03T03:09:05Z",
+    "owner": {
+      "name": "akitaonrails",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2840?v=4"
+    }
+  },
+  {
     "name": "rishiskhare/parrot",
     "url": "https://github.com/rishiskhare/parrot",
     "description": "A free, offline, private AI text-to-speech desktop app built on Rust 🦜",
@@ -1500,6 +1528,31 @@
     "owner": {
       "name": "rishiskhare",
       "avatar_url": "https://avatars.githubusercontent.com/u/30673002?v=4"
+    }
+  },
+  {
+    "name": "Eatgrapes/WinIsland",
+    "url": "https://github.com/Eatgrapes/WinIsland",
+    "description": null,
+    "stars": 31,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "dynamic-island",
+      "gui",
+      "ios",
+      "rust",
+      "rust-lang",
+      "skia",
+      "win32",
+      "windows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-02-28T14:23:57Z",
+    "updated_at": "2026-03-03T03:55:31Z",
+    "owner": {
+      "name": "Eatgrapes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193054206?v=4"
     }
   },
   {
@@ -1573,6 +1626,22 @@
     }
   },
   {
+    "name": "samuelkriegerbonini-dev/AstroBurst",
+    "url": "https://github.com/samuelkriegerbonini-dev/AstroBurst",
+    "description": "This is the first astronomical image processor built on the Rust/Tauri/WebGPU stack, delivering near-native performance with a fraction of the memory footprint of legacy tools.",
+    "stars": 29,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-02-28T06:06:05Z",
+    "updated_at": "2026-03-03T03:34:23Z",
+    "owner": {
+      "name": "samuelkriegerbonini-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/264570738?v=4"
+    }
+  },
+  {
     "name": "jackwener/crabclaw",
     "url": "https://github.com/jackwener/crabclaw",
     "description": "Rust implementation of AI assistant",
@@ -1634,19 +1703,19 @@
     }
   },
   {
-    "name": "exchanges-lab/view",
-    "url": "https://github.com/exchanges-lab/view",
-    "description": "Self-hosted view.",
-    "stars": 28,
-    "forks": 5,
+    "name": "StanMarek/ghost-complete",
+    "url": "https://github.com/StanMarek/ghost-complete",
+    "description": "Terminal-native autocomplete engine using PTY proxying. Inspired by Fig (RIP), built for Ghostty.",
+    "stars": 27,
+    "forks": 1,
     "language": "Rust",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-12T03:58:24Z",
-    "updated_at": "2026-02-17T03:30:00Z",
+    "license": "MIT License",
+    "created_at": "2026-03-01T19:41:27Z",
+    "updated_at": "2026-03-03T03:39:23Z",
     "owner": {
-      "name": "exchanges-lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/247717352?v=4"
+      "name": "StanMarek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58403683?v=4"
     }
   },
   {
@@ -1698,42 +1767,6 @@
     }
   },
   {
-    "name": "flipbit03/lineark",
-    "url": "https://github.com/flipbit03/lineark",
-    "description": "Unofficial Linear CLI, for humans and LLMs",
-    "stars": 26,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "issue-tracker",
-      "linear",
-      "sdk"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-11T16:56:41Z",
-    "updated_at": "2026-02-17T04:06:31Z",
-    "owner": {
-      "name": "flipbit03",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5620032?v=4"
-    }
-  },
-  {
-    "name": "euaziel/WiFi-CSI-Human-Pose-Detection",
-    "url": "https://github.com/euaziel/WiFi-CSI-Human-Pose-Detection",
-    "description": "Human pose estimation using WiFi Channel State Information (CSI) and deep learning — enabling camera-free sensing through walls.",
-    "stars": 25,
-    "forks": 13,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-03-01T23:12:17Z",
-    "updated_at": "2026-03-02T03:42:26Z",
-    "owner": {
-      "name": "euaziel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/210557268?v=4"
-    }
-  },
-  {
     "name": "AmazingAng/rbtc",
     "url": "https://github.com/AmazingAng/rbtc",
     "description": "Bitcoin Core rewritten in Rust — consensus layer + P2P networking",
@@ -1743,51 +1776,54 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-02-25T02:40:28Z",
-    "updated_at": "2026-03-01T20:12:47Z",
+    "updated_at": "2026-03-02T07:42:33Z",
     "owner": {
       "name": "AmazingAng",
       "avatar_url": "https://avatars.githubusercontent.com/u/14728591?v=4"
     }
   },
   {
-    "name": "qfeuilla/Webfurl",
-    "url": "https://github.com/qfeuilla/Webfurl",
-    "description": "A browser use AI agent that uses a compressed unfoldable representation of HTML for high token efficiency",
+    "name": "rohansx/workz",
+    "url": "https://github.com/rohansx/workz",
+    "description": "zoxide for Git worktrees ✨",
+    "stars": 25,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "command-line",
+      "developer-tools",
+      "devtools",
+      "fuzzy-finder",
+      "git-worktree",
+      "productivity",
+      "rust",
+      "terminal",
+      "worktree",
+      "zoxide"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-02-25T04:49:04Z",
+    "updated_at": "2026-03-02T14:29:52Z",
+    "owner": {
+      "name": "rohansx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33249782?v=4"
+    }
+  },
+  {
+    "name": "zhalice2011/api-manager",
+    "url": "https://github.com/zhalice2011/api-manager",
+    "description": "公益站的统一代理与管理工具, 支持从`All API Hub`插件一键导入账户信息",
     "stars": 25,
     "forks": 2,
     "language": "Rust",
     "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-03-01T03:20:21Z",
-    "updated_at": "2026-03-02T03:31:28Z",
+    "license": "No license",
+    "created_at": "2026-03-01T15:15:39Z",
+    "updated_at": "2026-03-03T02:12:16Z",
     "owner": {
-      "name": "qfeuilla",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58710693?v=4"
-    }
-  },
-  {
-    "name": "Chleba/ollamaMQ",
-    "url": "https://github.com/Chleba/ollamaMQ",
-    "description": "High-performance Ollama proxy with per-user fair-share queuing, round-robin scheduling, and a real-time TUI dashboard. Built in Rust.",
-    "stars": 25,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [
-      "fair-share",
-      "llm-ops",
-      "message-queue",
-      "ollama",
-      "openai-compatible",
-      "proxy",
-      "rust",
-      "tui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-27T00:13:13Z",
-    "updated_at": "2026-03-02T04:08:47Z",
-    "owner": {
-      "name": "Chleba",
-      "avatar_url": "https://avatars.githubusercontent.com/u/202436?v=4"
+      "name": "zhalice2011",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24289349?v=4"
     }
   },
   {
@@ -1859,7 +1895,7 @@
     "url": "https://github.com/FiendCorporateLog/polymarket-arbitrage-bot-btc-sol-15m",
     "description": "🚀 Execute profitable trades with this Rust-based arbitrage bot for Polymarket, monitoring BTC and SOL 15-minute price prediction markets.",
     "stars": 24,
-    "forks": 0,
+    "forks": 1,
     "language": "Rust",
     "topics": [
       "bitcoin",
@@ -1951,6 +1987,28 @@
     }
   },
   {
+    "name": "arjtriv/dark_solver",
+    "url": "https://github.com/arjtriv/dark_solver",
+    "description": "EVM contract auditing via symbolic execution and Z3",
+    "stars": 23,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "audit",
+      "evm",
+      "formal-methods",
+      "symbolic-execution",
+      "z3"
+    ],
+    "license": "No license",
+    "created_at": "2026-02-25T21:49:42Z",
+    "updated_at": "2026-03-02T20:31:52Z",
+    "owner": {
+      "name": "arjtriv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13616422?v=4"
+    }
+  },
+  {
     "name": "anthonysgro/nanospinner",
     "url": "https://github.com/anthonysgro/nanospinner",
     "description": "⠋ nanospinner — a minimal, zero-dependency terminal spinner for Rust CLI applications",
@@ -1993,79 +2051,25 @@
     }
   },
   {
-    "name": "tonhowtf/omniget",
-    "url": "https://github.com/tonhowtf/omniget",
-    "description": "Free, open source media downloader. Hotmart, YouTube, Instagram, TikTok, Twitter/X and more. Built with Tauri + Rust.",
-    "stars": 23,
-    "forks": 0,
+    "name": "bjn7/passkeyd",
+    "url": "https://github.com/bjn7/passkeyd",
+    "description": "An Opinionated WebAuthn Authenticator Backed by a TPM",
+    "stars": 22,
+    "forks": 1,
     "language": "Rust",
     "topics": [
-      "desktop-app",
-      "download-manager",
-      "downloader",
-      "hotmart-downloader",
-      "instagram-downloader",
-      "media-downloader",
-      "open-source",
-      "reddit-downloader",
-      "rust",
-      "svelte",
-      "tauri",
-      "tiktok-downloader",
-      "twitter-downloader",
-      "video-downloader",
-      "youtube-downloader"
+      "2fa",
+      "linux",
+      "passkey",
+      "tpm",
+      "webauthn"
     ],
     "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-11T22:44:56Z",
-    "updated_at": "2026-02-17T01:47:59Z",
+    "created_at": "2026-02-25T14:36:08Z",
+    "updated_at": "2026-03-02T16:57:04Z",
     "owner": {
-      "name": "tonhowtf",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58658417?v=4"
-    }
-  },
-  {
-    "name": "rohansx/workz",
-    "url": "https://github.com/rohansx/workz",
-    "description": "zoxide for Git worktrees ✨",
-    "stars": 22,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "command-line",
-      "developer-tools",
-      "devtools",
-      "fuzzy-finder",
-      "git-worktree",
-      "productivity",
-      "rust",
-      "terminal",
-      "worktree",
-      "zoxide"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-25T04:49:04Z",
-    "updated_at": "2026-03-01T15:50:03Z",
-    "owner": {
-      "name": "rohansx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33249782?v=4"
-    }
-  },
-  {
-    "name": "paradigmxyz/stateless",
-    "url": "https://github.com/paradigmxyz/stateless",
-    "description": "Stateless Ethereum block validation",
-    "stars": 22,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-02-12T11:18:11Z",
-    "updated_at": "2026-02-17T02:05:37Z",
-    "owner": {
-      "name": "paradigmxyz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97369466?v=4"
+      "name": "bjn7",
+      "avatar_url": "https://avatars.githubusercontent.com/u/176130409?v=4"
     }
   },
   {
@@ -2082,25 +2086,6 @@
     "owner": {
       "name": "illegal-instruction-co",
       "avatar_url": "https://avatars.githubusercontent.com/u/79029454?v=4"
-    }
-  },
-  {
-    "name": "dollspace-gay/ripsed",
-    "url": "https://github.com/dollspace-gay/ripsed",
-    "description": "Improved and oxidized version of sed",
-    "stars": 21,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "sed"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-01T17:57:12Z",
-    "updated_at": "2026-03-02T01:38:02Z",
-    "owner": {
-      "name": "dollspace-gay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/190305670?v=4"
     }
   },
   {
@@ -2162,76 +2147,19 @@
     }
   },
   {
-    "name": "askidmobile/RustASR",
-    "url": "https://github.com/askidmobile/RustASR",
-    "description": null,
-    "stars": 21,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-11T08:20:27Z",
-    "updated_at": "2026-02-17T02:31:57Z",
-    "owner": {
-      "name": "askidmobile",
-      "avatar_url": "https://avatars.githubusercontent.com/u/39857876?v=4"
-    }
-  },
-  {
-    "name": "arjtriv/dark_solver",
-    "url": "https://github.com/arjtriv/dark_solver",
-    "description": "EVM contract auditing via symbolic execution and Z3",
+    "name": "dreamyoungs/trex",
+    "url": "https://github.com/dreamyoungs/trex",
+    "description": "🦖 Lightweight Rust engine for extracting tables from PDFs — zero external dependencies, single binary.",
     "stars": 20,
     "forks": 1,
     "language": "Rust",
-    "topics": [
-      "audit",
-      "evm",
-      "formal-methods",
-      "symbolic-execution",
-      "z3"
-    ],
-    "license": "No license",
-    "created_at": "2026-02-25T21:49:42Z",
-    "updated_at": "2026-03-01T23:15:09Z",
-    "owner": {
-      "name": "arjtriv",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13616422?v=4"
-    }
-  },
-  {
-    "name": "zhalice2011/api-manager",
-    "url": "https://github.com/zhalice2011/api-manager",
-    "description": "公益站的统一代理与管理工具, 支持从`All API Hub`插件一键导入账户信息",
-    "stars": 19,
-    "forks": 1,
-    "language": "Rust",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-01T15:15:39Z",
-    "updated_at": "2026-03-02T03:51:04Z",
+    "license": "Other",
+    "created_at": "2026-02-28T09:21:31Z",
+    "updated_at": "2026-03-03T00:00:51Z",
     "owner": {
-      "name": "zhalice2011",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24289349?v=4"
-    }
-  },
-  {
-    "name": "bjn7/passkeyd",
-    "url": "https://github.com/bjn7/passkeyd",
-    "description": "An Opinionated WebAuthn Authenticator Backed by a TPM",
-    "stars": 19,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "passkey",
-      "webauthn"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-25T14:36:08Z",
-    "updated_at": "2026-03-02T04:04:54Z",
-    "owner": {
-      "name": "bjn7",
-      "avatar_url": "https://avatars.githubusercontent.com/u/176130409?v=4"
+      "name": "dreamyoungs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26653796?v=4"
     }
   },
   {
@@ -2251,22 +2179,6 @@
     }
   },
   {
-    "name": "samuelkriegerbonini-dev/AstroBurst",
-    "url": "https://github.com/samuelkriegerbonini-dev/AstroBurst",
-    "description": "This is the first astronomical image processor built on the Rust/Tauri/WebGPU stack, delivering near-native performance with a fraction of the memory footprint of legacy tools.",
-    "stars": 18,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-28T06:06:05Z",
-    "updated_at": "2026-03-02T03:33:39Z",
-    "owner": {
-      "name": "samuelkriegerbonini-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/264570738?v=4"
-    }
-  },
-  {
     "name": "shiguredo/toml-rs",
     "url": "https://github.com/shiguredo/toml-rs",
     "description": "TOML Library",
@@ -2280,28 +2192,6 @@
     "owner": {
       "name": "shiguredo",
       "avatar_url": "https://avatars.githubusercontent.com/u/2549434?v=4"
-    }
-  },
-  {
-    "name": "Eatgrapes/WinIsland",
-    "url": "https://github.com/Eatgrapes/WinIsland",
-    "description": null,
-    "stars": 18,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "dynamic-island",
-      "ios",
-      "rust",
-      "rust-lang",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-28T14:23:57Z",
-    "updated_at": "2026-03-02T03:54:39Z",
-    "owner": {
-      "name": "Eatgrapes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/193054206?v=4"
     }
   },
   {
@@ -2331,22 +2221,6 @@
     "owner": {
       "name": "mpecan",
       "avatar_url": "https://avatars.githubusercontent.com/u/1810099?v=4"
-    }
-  },
-  {
-    "name": "dreamyoungs/trex",
-    "url": "https://github.com/dreamyoungs/trex",
-    "description": "🦖 Lightweight Rust engine for extracting tables from PDFs — zero external dependencies, single binary.",
-    "stars": 17,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-02-28T09:21:31Z",
-    "updated_at": "2026-03-02T02:42:36Z",
-    "owner": {
-      "name": "dreamyoungs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26653796?v=4"
     }
   },
   {
@@ -2805,22 +2679,6 @@
     "owner": {
       "name": "jbingen",
       "avatar_url": "https://avatars.githubusercontent.com/u/190308091?v=4"
-    }
-  },
-  {
-    "name": "cavemanloverboy/gobble",
-    "url": "https://github.com/cavemanloverboy/gobble",
-    "description": null,
-    "stars": 12,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-02-15T00:21:53Z",
-    "updated_at": "2026-02-16T07:14:19Z",
-    "owner": {
-      "name": "cavemanloverboy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93507302?v=4"
     }
   },
   {
