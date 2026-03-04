@@ -64,22 +64,6 @@
     }
   },
   {
-    "name": "antirez/qwen-asr",
-    "url": "https://github.com/antirez/qwen-asr",
-    "description": "C inference for Qwen3-ASR 0.6b and 1.7b transcriptions models",
-    "stars": 343,
-    "forks": 25,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-12T15:04:28Z",
-    "updated_at": "2026-02-18T00:32:13Z",
-    "owner": {
-      "name": "antirez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
-    }
-  },
-  {
     "name": "dazzyddos/lsawhisper-bof",
     "url": "https://github.com/dazzyddos/lsawhisper-bof",
     "description": "A Beacon Object File (BOF) that talks directly to Windows authentication packages through the LSA untrusted/trusted client interface, without touching LSASS process memory.",
@@ -293,6 +277,27 @@
     }
   },
   {
+    "name": "j3h4ck/UnknownKiller",
+    "url": "https://github.com/j3h4ck/UnknownKiller",
+    "description": "PoC exploit for the vulnerable (eb.sys or UnknownKiller.sys) – weaponized to kill protected EDR/AV processes via BYOVD.",
+    "stars": 55,
+    "forks": 13,
+    "language": "C",
+    "topics": [
+      "byovd",
+      "edr",
+      "edr-bypass",
+      "edr-evasion"
+    ],
+    "license": "No license",
+    "created_at": "2026-02-27T11:50:17Z",
+    "updated_at": "2026-03-03T23:43:22Z",
+    "owner": {
+      "name": "j3h4ck",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107075824?v=4"
+    }
+  },
+  {
     "name": "MatheuZSecurity/ksentinel",
     "url": "https://github.com/MatheuZSecurity/ksentinel",
     "description": "Linux kernel integrity monitor for detecting syscall hooking",
@@ -316,24 +321,26 @@
     }
   },
   {
-    "name": "j3h4ck/UnknownKiller",
-    "url": "https://github.com/j3h4ck/UnknownKiller",
-    "description": "PoC exploit for the vulnerable (eb.sys or UnknownKiller.sys) – weaponized to kill protected EDR/AV processes via BYOVD.",
+    "name": "Patoke/4JLibs",
+    "url": "https://github.com/Patoke/4JLibs",
+    "description": "A decompilation project and expansion project for the 4J libraries used in games like Minecraft: Legacy Console Edition aiming at replicating functionality and expanding upon it",
     "stars": 53,
-    "forks": 13,
+    "forks": 10,
     "language": "C",
     "topics": [
-      "byovd",
-      "edr",
-      "edr-bypass",
-      "edr-evasion"
+      "4j",
+      "4j-studios",
+      "decomp",
+      "decompilation",
+      "minecraft",
+      "minecraft-lce"
     ],
-    "license": "No license",
-    "created_at": "2026-02-27T11:50:17Z",
-    "updated_at": "2026-03-02T15:35:29Z",
+    "license": "MIT License",
+    "created_at": "2026-02-27T04:43:58Z",
+    "updated_at": "2026-03-04T03:51:17Z",
     "owner": {
-      "name": "j3h4ck",
-      "avatar_url": "https://avatars.githubusercontent.com/u/107075824?v=4"
+      "name": "Patoke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51339266?v=4"
     }
   },
   {
@@ -390,29 +397,6 @@
     }
   },
   {
-    "name": "Patoke/4JLibs",
-    "url": "https://github.com/Patoke/4JLibs",
-    "description": "A decompilation project and expansion project for the 4J libraries used in games like Minecraft: Legacy Console Edition aiming at replicating functionality and expanding upon it",
-    "stars": 43,
-    "forks": 8,
-    "language": "C",
-    "topics": [
-      "4j",
-      "4j-studios",
-      "decomp",
-      "decompilation",
-      "minecraft",
-      "minecraft-lce"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-27T04:43:58Z",
-    "updated_at": "2026-03-03T03:49:04Z",
-    "owner": {
-      "name": "Patoke",
-      "avatar_url": "https://avatars.githubusercontent.com/u/51339266?v=4"
-    }
-  },
-  {
     "name": "beelzebub-labs/azazel",
     "url": "https://github.com/beelzebub-labs/azazel",
     "description": "Linux Runtime Security and Forensics using eBPF",
@@ -456,6 +440,22 @@
     }
   },
   {
+    "name": "earthonion/garlic-savemgr",
+    "url": "https://github.com/earthonion/garlic-savemgr",
+    "description": "A Local Save Manager for your PS5",
+    "stars": 38,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-01T19:24:02Z",
+    "updated_at": "2026-03-04T00:08:45Z",
+    "owner": {
+      "name": "earthonion",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3332298?v=4"
+    }
+  },
+  {
     "name": "andrew/gitgres",
     "url": "https://github.com/andrew/gitgres",
     "description": "Store git objects and refs in PostgreSQL tables. Standard git push/clone work against the database through a libgit2-based backend.",
@@ -469,6 +469,22 @@
     "owner": {
       "name": "andrew",
       "avatar_url": "https://avatars.githubusercontent.com/u/1060?v=4"
+    }
+  },
+  {
+    "name": "vustagc/pianoterm",
+    "url": "https://github.com/vustagc/pianoterm",
+    "description": "Linux CLI tool to assign shell commands to keys on a USB MIDI Keyboard",
+    "stars": 34,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-02T20:24:17Z",
+    "updated_at": "2026-03-04T02:54:33Z",
+    "owner": {
+      "name": "vustagc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121897259?v=4"
     }
   },
   {
@@ -557,19 +573,35 @@
     }
   },
   {
-    "name": "kozmer/dcsync-bof",
-    "url": "https://github.com/kozmer/dcsync-bof",
-    "description": "dcsync bof",
-    "stars": 31,
-    "forks": 1,
+    "name": "metalsiliconyt/code-from-videos",
+    "url": "https://github.com/metalsiliconyt/code-from-videos",
+    "description": "The code from each of my youtube videos",
+    "stars": 29,
+    "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-12T17:59:49Z",
-    "updated_at": "2026-02-17T20:55:52Z",
+    "license": "MIT License",
+    "created_at": "2026-02-27T22:31:52Z",
+    "updated_at": "2026-03-04T02:30:57Z",
     "owner": {
-      "name": "kozmer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/87979263?v=4"
+      "name": "metalsiliconyt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/264516321?v=4"
+    }
+  },
+  {
+    "name": "dylanaraps/dfm",
+    "url": "https://github.com/dylanaraps/dfm",
+    "description": "Dylan's File Manager",
+    "stars": 29,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-27T13:34:51Z",
+    "updated_at": "2026-03-03T07:17:45Z",
+    "owner": {
+      "name": "dylanaraps",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6799467?v=4"
     }
   },
   {
@@ -605,35 +637,19 @@
     }
   },
   {
-    "name": "loretoparisi/microgpt.c",
-    "url": "https://github.com/loretoparisi/microgpt.c",
-    "description": "microgpt.py in C",
-    "stars": 28,
-    "forks": 6,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-12T00:27:28Z",
-    "updated_at": "2026-02-17T12:21:28Z",
-    "owner": {
-      "name": "loretoparisi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/163333?v=4"
-    }
-  },
-  {
-    "name": "dylanaraps/dfm",
-    "url": "https://github.com/dylanaraps/dfm",
-    "description": "Dylan's File Manager",
+    "name": "Whispergate/berlin",
+    "url": "https://github.com/Whispergate/berlin",
+    "description": "Cross-platform CPU-based virtual machine detection framework for modern offensive security.",
     "stars": 27,
-    "forks": 2,
+    "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-27T13:34:51Z",
-    "updated_at": "2026-03-03T00:06:00Z",
+    "license": "No license",
+    "created_at": "2026-02-28T01:55:37Z",
+    "updated_at": "2026-03-04T02:28:49Z",
     "owner": {
-      "name": "dylanaraps",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6799467?v=4"
+      "name": "Whispergate",
+      "avatar_url": "https://avatars.githubusercontent.com/u/143597543?v=4"
     }
   },
   {
@@ -650,22 +666,6 @@
     "owner": {
       "name": "sophiaeagent-beep",
       "avatar_url": "https://avatars.githubusercontent.com/u/245112282?v=4"
-    }
-  },
-  {
-    "name": "vustagc/pianoterm",
-    "url": "https://github.com/vustagc/pianoterm",
-    "description": "Linux CLI tool to assign shell commands to keys on a USB MIDI Keyboard",
-    "stars": 26,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-02T20:24:17Z",
-    "updated_at": "2026-03-03T04:08:03Z",
-    "owner": {
-      "name": "vustagc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/121897259?v=4"
     }
   },
   {
@@ -701,22 +701,6 @@
     }
   },
   {
-    "name": "metalsiliconyt/code-from-videos",
-    "url": "https://github.com/metalsiliconyt/code-from-videos",
-    "description": "The code from each of my youtube videos",
-    "stars": 24,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-27T22:31:52Z",
-    "updated_at": "2026-03-03T02:53:57Z",
-    "owner": {
-      "name": "metalsiliconyt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/264516321?v=4"
-    }
-  },
-  {
     "name": "nagibator-bradpittx94/CS2-Cheat-2026",
     "url": "https://github.com/nagibator-bradpittx94/CS2-Cheat-2026",
     "description": "CS2 cheat provides real-time aim assistance, recoil compensation, and configurable wallhacks for Counter-Strike 2. It includes triggerbot, ESP showing player locations and health, customizable keybinds, and a client that runs with the game without altering files.",
@@ -743,19 +727,19 @@
     }
   },
   {
-    "name": "earthonion/garlic-savemgr",
-    "url": "https://github.com/earthonion/garlic-savemgr",
-    "description": "A Local Save Manager for your PS5",
+    "name": "mobydeck/atch",
+    "url": "https://github.com/mobydeck/atch",
+    "description": "atch lets you attach and detach terminal sessions",
     "stars": 21,
-    "forks": 2,
+    "forks": 0,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-03-01T19:24:02Z",
-    "updated_at": "2026-03-03T00:29:56Z",
+    "created_at": "2026-03-01T03:10:52Z",
+    "updated_at": "2026-03-04T03:29:00Z",
     "owner": {
-      "name": "earthonion",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3332298?v=4"
+      "name": "mobydeck",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43487231?v=4"
     }
   },
   {
@@ -791,6 +775,27 @@
     }
   },
   {
+    "name": "mmozeiko/hello-world-winui3-c",
+    "url": "https://github.com/mmozeiko/hello-world-winui3-c",
+    "description": "Hello World with WinUI3 in plain C",
+    "stars": 20,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "c",
+      "windows",
+      "winui",
+      "winui3"
+    ],
+    "license": "No license",
+    "created_at": "2026-02-27T07:14:27Z",
+    "updated_at": "2026-03-03T18:39:23Z",
+    "owner": {
+      "name": "mmozeiko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1665010?v=4"
+    }
+  },
+  {
     "name": "newtonsart/synclyr2metadata",
     "url": "https://github.com/newtonsart/synclyr2metadata",
     "description": null,
@@ -823,27 +828,6 @@
     }
   },
   {
-    "name": "mmozeiko/hello-world-winui3-c",
-    "url": "https://github.com/mmozeiko/hello-world-winui3-c",
-    "description": "Hello World with WinUI3 in plain C",
-    "stars": 19,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "c",
-      "windows",
-      "winui",
-      "winui3"
-    ],
-    "license": "No license",
-    "created_at": "2026-02-27T07:14:27Z",
-    "updated_at": "2026-03-02T05:33:58Z",
-    "owner": {
-      "name": "mmozeiko",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1665010?v=4"
-    }
-  },
-  {
     "name": "xecaz/BLE-Analyzer-pro-linux-capture",
     "url": "https://github.com/xecaz/BLE-Analyzer-pro-linux-capture",
     "description": "I reverse engineered the BLE Analyzer pro USB and created a linux capturing tool.",
@@ -857,6 +841,52 @@
     "owner": {
       "name": "xecaz",
       "avatar_url": "https://avatars.githubusercontent.com/u/4457147?v=4"
+    }
+  },
+  {
+    "name": "Scottcjn/legend-of-elya-n64",
+    "url": "https://github.com/Scottcjn/legend-of-elya-n64",
+    "description": "Legend of Elya — N64 game with a real 819K-parameter transformer running on the VR4300 MIPS III CPU. Zelda-style dungeon, AI NPCs, byte-level inference at 60 tok/s. Built with libdragon SDK.",
+    "stars": 18,
+    "forks": 2,
+    "language": "C",
+    "topics": [
+      "ai",
+      "game-dev",
+      "homebrew",
+      "libdragon",
+      "llm",
+      "machine-learning",
+      "mips",
+      "n64",
+      "nintendo-64",
+      "retro-gaming",
+      "rustchain",
+      "transformer",
+      "zelda"
+    ],
+    "license": "No license",
+    "created_at": "2026-02-27T21:22:07Z",
+    "updated_at": "2026-03-04T02:26:01Z",
+    "owner": {
+      "name": "Scottcjn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121303252?v=4"
+    }
+  },
+  {
+    "name": "rubymonolith/enclave",
+    "url": "https://github.com/rubymonolith/enclave",
+    "description": "Sandboxed Ruby for AI agents",
+    "stars": 18,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-02-27T02:04:11Z",
+    "updated_at": "2026-03-03T20:36:33Z",
+    "owner": {
+      "name": "rubymonolith",
+      "avatar_url": "https://avatars.githubusercontent.com/u/118844134?v=4"
     }
   },
   {
@@ -940,19 +970,19 @@
     }
   },
   {
-    "name": "rubymonolith/enclave",
-    "url": "https://github.com/rubymonolith/enclave",
-    "description": "Sandboxed Ruby for AI agents",
+    "name": "Naridon-Inc/aura",
+    "url": "https://github.com/Naridon-Inc/aura",
+    "description": "The Semantic Time Machine & Orchestrator for AI-Generated Code.",
     "stars": 17,
     "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-27T02:04:11Z",
-    "updated_at": "2026-03-01T21:03:53Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-02-28T22:46:39Z",
+    "updated_at": "2026-03-03T21:35:59Z",
     "owner": {
-      "name": "rubymonolith",
-      "avatar_url": "https://avatars.githubusercontent.com/u/118844134?v=4"
+      "name": "Naridon-Inc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/264695014?v=4"
     }
   },
   {
@@ -1020,19 +1050,25 @@
     }
   },
   {
-    "name": "Whispergate/berlin",
-    "url": "https://github.com/Whispergate/berlin",
-    "description": "Cross-platform CPU-based virtual machine detection framework for modern offensive security.",
+    "name": "oceanthunder/Principia",
+    "url": "https://github.com/oceanthunder/Principia",
+    "description": "Playing Prince of Persia (1989) using Reinforcement Learning.",
     "stars": 14,
-    "forks": 0,
+    "forks": 1,
     "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-28T01:55:37Z",
-    "updated_at": "2026-03-02T15:30:03Z",
+    "topics": [
+      "gymnasium",
+      "prince-of-persia",
+      "proximal-policy-optimization",
+      "reinforcement-learning",
+      "stable-baselines3"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-02-27T09:06:26Z",
+    "updated_at": "2026-03-03T15:27:16Z",
     "owner": {
-      "name": "Whispergate",
-      "avatar_url": "https://avatars.githubusercontent.com/u/143597543?v=4"
+      "name": "oceanthunder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139825271?v=4"
     }
   },
   {
@@ -1071,58 +1107,6 @@
     "owner": {
       "name": "DatriiKS",
       "avatar_url": "https://avatars.githubusercontent.com/u/110266869?v=4"
-    }
-  },
-  {
-    "name": "oceanthunder/Principia",
-    "url": "https://github.com/oceanthunder/Principia",
-    "description": "Playing Prince of Persia (1989) using Reinforcement Learning.",
-    "stars": 13,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "gymnasium",
-      "prince-of-persia",
-      "proximal-policy-optimization",
-      "reinforcement-learning",
-      "stable-baselines3"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-27T09:06:26Z",
-    "updated_at": "2026-03-02T10:51:51Z",
-    "owner": {
-      "name": "oceanthunder",
-      "avatar_url": "https://avatars.githubusercontent.com/u/139825271?v=4"
-    }
-  },
-  {
-    "name": "Scottcjn/legend-of-elya-n64",
-    "url": "https://github.com/Scottcjn/legend-of-elya-n64",
-    "description": "Legend of Elya — N64 game with a real 819K-parameter transformer running on the VR4300 MIPS III CPU. Zelda-style dungeon, AI NPCs, byte-level inference at 60 tok/s. Built with libdragon SDK.",
-    "stars": 13,
-    "forks": 2,
-    "language": "C",
-    "topics": [
-      "ai",
-      "game-dev",
-      "homebrew",
-      "libdragon",
-      "llm",
-      "machine-learning",
-      "mips",
-      "n64",
-      "nintendo-64",
-      "retro-gaming",
-      "rustchain",
-      "transformer",
-      "zelda"
-    ],
-    "license": "No license",
-    "created_at": "2026-02-27T21:22:07Z",
-    "updated_at": "2026-03-03T01:46:42Z",
-    "owner": {
-      "name": "Scottcjn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/121303252?v=4"
     }
   },
   {
@@ -1248,22 +1232,6 @@
     }
   },
   {
-    "name": "Foundations-of-HPC/High-Performance-Computing-at_UniTS",
-    "url": "https://github.com/Foundations-of-HPC/High-Performance-Computing-at_UniTS",
-    "description": "This repository contains the updated slides and materials for the course \"Basic HPC at University of Trieste\".",
-    "stars": 11,
-    "forks": 4,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-25T08:26:04Z",
-    "updated_at": "2026-03-02T17:05:00Z",
-    "owner": {
-      "name": "Foundations-of-HPC",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72095002?v=4"
-    }
-  },
-  {
     "name": "sunuhwang748-prog/Linked-List",
     "url": "https://github.com/sunuhwang748-prog/Linked-List",
     "description": "I made Linked List.",
@@ -1293,6 +1261,22 @@
     "owner": {
       "name": "camenduru",
       "avatar_url": "https://avatars.githubusercontent.com/u/54370274?v=4"
+    }
+  },
+  {
+    "name": "Foundations-of-HPC/High-Performance-Computing-at_UniTS",
+    "url": "https://github.com/Foundations-of-HPC/High-Performance-Computing-at_UniTS",
+    "description": "This repository contains the updated slides and materials for the course \"Basic HPC at University of Trieste\".",
+    "stars": 11,
+    "forks": 4,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-02-25T08:26:04Z",
+    "updated_at": "2026-03-02T17:05:00Z",
+    "owner": {
+      "name": "Foundations-of-HPC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72095002?v=4"
     }
   },
   {
