@@ -26,13 +26,13 @@
     "name": "tnm/zclaw",
     "url": "https://github.com/tnm/zclaw",
     "description": "Your personal AI assistant at all-in 888KiB (~35KB in app code). Running on an ESP32. GPIO, cron, custom tools, memory, and more.",
-    "stars": 1838,
-    "forks": 151,
+    "stars": 1874,
+    "forks": 153,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-02-16T19:52:01Z",
-    "updated_at": "2026-03-10T03:31:14Z",
+    "updated_at": "2026-03-11T03:26:16Z",
     "owner": {
       "name": "tnm",
       "avatar_url": "https://avatars.githubusercontent.com/u/126905?v=4"
@@ -42,7 +42,7 @@
     "name": "Zaneham/BarraCUDA",
     "url": "https://github.com/Zaneham/BarraCUDA",
     "description": "Open-source CUDA compiler targeting multiple GPU architectures. Compiles .cu to AMD and Tenstorrent GPU's",
-    "stars": 1485,
+    "stars": 1486,
     "forks": 59,
     "language": "C",
     "topics": [
@@ -54,7 +54,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-02-16T10:46:52Z",
-    "updated_at": "2026-03-09T21:10:22Z",
+    "updated_at": "2026-03-10T23:14:19Z",
     "owner": {
       "name": "Zaneham",
       "avatar_url": "https://avatars.githubusercontent.com/u/222171382?v=4"
@@ -80,8 +80,8 @@
     "name": "RightNow-AI/picolm",
     "url": "https://github.com/RightNow-AI/picolm",
     "description": "Run a 1-billion parameter LLM on a $10 board with 256MB RAM",
-    "stars": 1331,
-    "forks": 149,
+    "stars": 1344,
+    "forks": 151,
     "language": "C",
     "topics": [
       "arm",
@@ -96,7 +96,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-02-19T01:07:10Z",
-    "updated_at": "2026-03-10T03:23:28Z",
+    "updated_at": "2026-03-11T02:25:30Z",
     "owner": {
       "name": "RightNow-AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/226207176?v=4"
@@ -106,29 +106,60 @@
     "name": "hicode002/qualcomm_gbl_exploit_poc",
     "url": "https://github.com/hicode002/qualcomm_gbl_exploit_poc",
     "description": "Unlocking qualcomm bootloader via gbl exploit.",
-    "stars": 647,
-    "forks": 223,
+    "stars": 684,
+    "forks": 240,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-04T12:35:32Z",
-    "updated_at": "2026-03-10T03:48:46Z",
+    "updated_at": "2026-03-11T03:51:02Z",
     "owner": {
       "name": "hicode002",
       "avatar_url": "https://avatars.githubusercontent.com/u/105335451?v=4"
     }
   },
   {
+    "name": "DeusData/codebase-memory-mcp",
+    "url": "https://github.com/DeusData/codebase-memory-mcp",
+    "description": "MCP server that indexes your codebase into a persistent knowledge graph. 64 languages, sub-ms queries, 99% fewer tokens than grep. Single Go binary, no Docker, no API keys.",
+    "stars": 538,
+    "forks": 54,
+    "language": "C",
+    "topics": [
+      "claude-code",
+      "code-analysis",
+      "code-intelligence",
+      "codex",
+      "cursor",
+      "developer-tools",
+      "golang",
+      "knowledge-graph",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "sqlite",
+      "tree-sitter",
+      "windsurf"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-02-24T22:01:00Z",
+    "updated_at": "2026-03-11T03:49:31Z",
+    "owner": {
+      "name": "DeusData",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81762164?v=4"
+    }
+  },
+  {
     "name": "antirez/qwen-asr",
     "url": "https://github.com/antirez/qwen-asr",
     "description": "C inference for Qwen3-ASR 0.6b and 1.7b transcriptions models",
-    "stars": 454,
-    "forks": 44,
+    "stars": 458,
+    "forks": 45,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-02-12T15:04:28Z",
-    "updated_at": "2026-03-09T12:50:33Z",
+    "updated_at": "2026-03-11T03:06:09Z",
     "owner": {
       "name": "antirez",
       "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
@@ -157,47 +188,16 @@
     }
   },
   {
-    "name": "DeusData/codebase-memory-mcp",
-    "url": "https://github.com/DeusData/codebase-memory-mcp",
-    "description": "MCP server that indexes your codebase into a persistent knowledge graph. 64 languages, sub-ms queries, 99% fewer tokens than grep. Single Go binary, no Docker, no API keys.",
-    "stars": 290,
-    "forks": 32,
-    "language": "C",
-    "topics": [
-      "claude-code",
-      "code-analysis",
-      "code-intelligence",
-      "codex",
-      "cursor",
-      "developer-tools",
-      "golang",
-      "knowledge-graph",
-      "mcp",
-      "mcp-server",
-      "model-context-protocol",
-      "sqlite",
-      "tree-sitter",
-      "windsurf"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-24T22:01:00Z",
-    "updated_at": "2026-03-10T03:57:07Z",
-    "owner": {
-      "name": "DeusData",
-      "avatar_url": "https://avatars.githubusercontent.com/u/81762164?v=4"
-    }
-  },
-  {
     "name": "unjs/md4x",
     "url": "https://github.com/unjs/md4x",
     "description": "📄 Fast and small markdown parser and renderer",
-    "stars": 272,
-    "forks": 8,
+    "stars": 284,
+    "forks": 9,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-02-19T10:51:41Z",
-    "updated_at": "2026-03-09T21:23:10Z",
+    "updated_at": "2026-03-11T02:19:53Z",
     "owner": {
       "name": "unjs",
       "avatar_url": "https://avatars.githubusercontent.com/u/80154025?v=4"
@@ -207,13 +207,13 @@
     "name": "dazzyddos/lsawhisper-bof",
     "url": "https://github.com/dazzyddos/lsawhisper-bof",
     "description": "A Beacon Object File (BOF) that talks directly to Windows authentication packages through the LSA untrusted/trusted client interface, without touching LSASS process memory.",
-    "stars": 269,
+    "stars": 270,
     "forks": 31,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-02-21T15:07:14Z",
-    "updated_at": "2026-03-09T10:41:49Z",
+    "updated_at": "2026-03-11T01:42:04Z",
     "owner": {
       "name": "dazzyddos",
       "avatar_url": "https://avatars.githubusercontent.com/u/25081660?v=4"
@@ -223,7 +223,7 @@
     "name": "vixhal-baraiya/microgpt-c",
     "url": "https://github.com/vixhal-baraiya/microgpt-c",
     "description": "The most atomic way to train and inference a GPT in pure, dependency-free C",
-    "stars": 232,
+    "stars": 233,
     "forks": 44,
     "language": "C",
     "topics": [
@@ -238,7 +238,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-02-14T17:29:50Z",
-    "updated_at": "2026-03-08T22:24:33Z",
+    "updated_at": "2026-03-11T01:19:16Z",
     "owner": {
       "name": "vixhal-baraiya",
       "avatar_url": "https://avatars.githubusercontent.com/u/248433309?v=4"
@@ -296,13 +296,13 @@
     "name": "Monstatek/M1",
     "url": "https://github.com/Monstatek/M1",
     "description": "Monstatek M1 Open Source Repository.",
-    "stars": 182,
+    "stars": 183,
     "forks": 29,
     "language": "C",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-02-14T16:17:29Z",
-    "updated_at": "2026-03-09T22:00:04Z",
+    "updated_at": "2026-03-11T02:03:26Z",
     "owner": {
       "name": "Monstatek",
       "avatar_url": "https://avatars.githubusercontent.com/u/158362025?v=4"
@@ -332,7 +332,7 @@
     "name": "datavorous/sameshi",
     "url": "https://github.com/datavorous/sameshi",
     "description": "a ~1200 Elo chess engine that fits within 2KB",
-    "stars": 179,
+    "stars": 178,
     "forks": 7,
     "language": "C",
     "topics": [
@@ -342,7 +342,7 @@
     ],
     "license": "No license",
     "created_at": "2026-02-14T04:04:35Z",
-    "updated_at": "2026-03-01T08:35:15Z",
+    "updated_at": "2026-03-10T07:40:52Z",
     "owner": {
       "name": "datavorous",
       "avatar_url": "https://avatars.githubusercontent.com/u/70896212?v=4"
@@ -352,13 +352,13 @@
     "name": "vladich/pg_jitter",
     "url": "https://github.com/vladich/pg_jitter",
     "description": "Better JIT for Postgres",
-    "stars": 167,
+    "stars": 171,
     "forks": 2,
     "language": "C",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-02-23T05:11:48Z",
-    "updated_at": "2026-03-10T03:56:00Z",
+    "updated_at": "2026-03-11T03:03:20Z",
     "owner": {
       "name": "vladich",
       "avatar_url": "https://avatars.githubusercontent.com/u/1085964?v=4"
@@ -391,6 +391,22 @@
     }
   },
   {
+    "name": "rh1tech/frankos",
+    "url": "https://github.com/rh1tech/frankos",
+    "description": "FRANK OS - The RP2350 Operating System",
+    "stars": 149,
+    "forks": 18,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-02-10T15:23:22Z",
+    "updated_at": "2026-03-11T03:01:58Z",
+    "owner": {
+      "name": "rh1tech",
+      "avatar_url": "https://avatars.githubusercontent.com/u/202868145?v=4"
+    }
+  },
+  {
     "name": "shirokhorshid/shirokhorshid-android",
     "url": "https://github.com/shirokhorshid/shirokhorshid-android",
     "description": "Independently maintained, community fork of Psiphon Android client",
@@ -410,45 +426,29 @@
     "name": "vixhal-baraiya/16bit-cpu",
     "url": "https://github.com/vixhal-baraiya/16bit-cpu",
     "description": "16-bit CPU emulator from scratch in pure C",
-    "stars": 132,
+    "stars": 134,
     "forks": 12,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-02-23T15:28:20Z",
-    "updated_at": "2026-03-09T20:10:29Z",
+    "updated_at": "2026-03-11T02:09:54Z",
     "owner": {
       "name": "vixhal-baraiya",
       "avatar_url": "https://avatars.githubusercontent.com/u/248433309?v=4"
     }
   },
   {
-    "name": "rh1tech/frankos",
-    "url": "https://github.com/rh1tech/frankos",
-    "description": "FRANK OS - The RP2350 Operating System",
-    "stars": 128,
-    "forks": 12,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-10T15:23:22Z",
-    "updated_at": "2026-03-10T03:50:04Z",
-    "owner": {
-      "name": "rh1tech",
-      "avatar_url": "https://avatars.githubusercontent.com/u/202868145?v=4"
-    }
-  },
-  {
     "name": "flywhale-666/whaleclaw",
     "url": "https://github.com/flywhale-666/whaleclaw",
     "description": null,
-    "stars": 127,
-    "forks": 24,
+    "stars": 130,
+    "forks": 25,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-02-22T18:36:42Z",
-    "updated_at": "2026-03-10T03:02:58Z",
+    "updated_at": "2026-03-11T00:24:16Z",
     "owner": {
       "name": "flywhale-666",
       "avatar_url": "https://avatars.githubusercontent.com/u/136772759?v=4"
@@ -475,7 +475,7 @@
     "url": "https://github.com/jmlago/subzeroclaw",
     "description": null,
     "stars": 112,
-    "forks": 14,
+    "forks": 13,
     "language": "C",
     "topics": [],
     "license": "MIT License",
@@ -506,8 +506,8 @@
     "name": "lubluniky/bs-p",
     "url": "https://github.com/lubluniky/bs-p",
     "description": "Ultra-low latency AVX-512 Polymarket market-making kernel (Logit Jump-Diffusion + Avellaneda-Stoikov in logit space)",
-    "stars": 103,
-    "forks": 22,
+    "stars": 106,
+    "forks": 23,
     "language": "C",
     "topics": [
       "avx512",
@@ -523,7 +523,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-02-24T23:50:50Z",
-    "updated_at": "2026-03-10T03:33:21Z",
+    "updated_at": "2026-03-10T22:33:13Z",
     "owner": {
       "name": "lubluniky",
       "avatar_url": "https://avatars.githubusercontent.com/u/102585380?v=4"
@@ -546,11 +546,43 @@
     }
   },
   {
+    "name": "abdimoallim/jit",
+    "url": "https://github.com/abdimoallim/jit",
+    "description": "A header-only, cross-platform JIT compiler library in C—targets i386, x86-64, ARM32, ARM64, RISC-V 64",
+    "stars": 101,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-02-22T13:51:20Z",
+    "updated_at": "2026-03-10T09:22:39Z",
+    "owner": {
+      "name": "abdimoallim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/208303604?v=4"
+    }
+  },
+  {
+    "name": "abdimoallim/vdb",
+    "url": "https://github.com/abdimoallim/vdb",
+    "description": "A header-only C vector database library",
+    "stars": 101,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-02-14T16:35:33Z",
+    "updated_at": "2026-03-10T11:55:45Z",
+    "owner": {
+      "name": "abdimoallim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/208303604?v=4"
+    }
+  },
+  {
     "name": "aweeri/TLEscope",
     "url": "https://github.com/aweeri/TLEscope",
     "description": "A modern and interactive 3D/2D satellite position tracker based on real TLE data.",
     "stars": 100,
-    "forks": 18,
+    "forks": 19,
     "language": "C",
     "topics": [
       "2d",
@@ -566,42 +598,10 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-02-16T20:51:08Z",
-    "updated_at": "2026-03-09T22:58:51Z",
+    "updated_at": "2026-03-10T17:48:18Z",
     "owner": {
       "name": "aweeri",
       "avatar_url": "https://avatars.githubusercontent.com/u/147880431?v=4"
-    }
-  },
-  {
-    "name": "abdimoallim/jit",
-    "url": "https://github.com/abdimoallim/jit",
-    "description": "A header-only, cross-platform JIT compiler library in C—targets i386, x86-64, ARM32, ARM64, RISC-V 64",
-    "stars": 100,
-    "forks": 3,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-02-22T13:51:20Z",
-    "updated_at": "2026-03-08T14:24:56Z",
-    "owner": {
-      "name": "abdimoallim",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208303604?v=4"
-    }
-  },
-  {
-    "name": "abdimoallim/vdb",
-    "url": "https://github.com/abdimoallim/vdb",
-    "description": "A header-only C vector database library",
-    "stars": 100,
-    "forks": 3,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-02-14T16:35:33Z",
-    "updated_at": "2026-03-07T13:00:49Z",
-    "owner": {
-      "name": "abdimoallim",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208303604?v=4"
     }
   },
   {
@@ -621,19 +621,19 @@
     }
   },
   {
-    "name": "CodeXTF2/OpenMalleableC2",
-    "url": "https://github.com/CodeXTF2/OpenMalleableC2",
-    "description": "Open Source Implementation of Cobalt Strike's Malleable C2",
+    "name": "mobydeck/atch",
+    "url": "https://github.com/mobydeck/atch",
+    "description": "atch lets you attach and detach terminal sessions",
     "stars": 93,
-    "forks": 12,
+    "forks": 4,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-01-27T09:23:22Z",
-    "updated_at": "2026-02-24T08:50:32Z",
+    "created_at": "2026-03-01T03:10:52Z",
+    "updated_at": "2026-03-11T03:30:31Z",
     "owner": {
-      "name": "CodeXTF2",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29991665?v=4"
+      "name": "mobydeck",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43487231?v=4"
     }
   },
   {
@@ -650,22 +650,6 @@
     "owner": {
       "name": "yxsra",
       "avatar_url": "https://avatars.githubusercontent.com/u/49748345?v=4"
-    }
-  },
-  {
-    "name": "mobydeck/atch",
-    "url": "https://github.com/mobydeck/atch",
-    "description": "atch lets you attach and detach terminal sessions",
-    "stars": 85,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-01T03:10:52Z",
-    "updated_at": "2026-03-09T19:41:50Z",
-    "owner": {
-      "name": "mobydeck",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43487231?v=4"
     }
   },
   {
@@ -701,6 +685,29 @@
     }
   },
   {
+    "name": "Patoke/4JLibs",
+    "url": "https://github.com/Patoke/4JLibs",
+    "description": "A decompilation project and expansion project for the 4J libraries used in games like Minecraft: Legacy Console Edition aiming at replicating functionality and expanding upon it",
+    "stars": 82,
+    "forks": 16,
+    "language": "C",
+    "topics": [
+      "4j",
+      "4j-studios",
+      "decomp",
+      "decompilation",
+      "minecraft",
+      "minecraft-lce"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-02-27T04:43:58Z",
+    "updated_at": "2026-03-10T13:32:30Z",
+    "owner": {
+      "name": "Patoke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51339266?v=4"
+    }
+  },
+  {
     "name": "beelzebub-labs/azazel",
     "url": "https://github.com/beelzebub-labs/azazel",
     "description": "eBPF-powered silent observer for containerized runtimes, built for malware analysis sandboxes and Agentic AI monitoring.",
@@ -716,33 +723,10 @@
     ],
     "license": "GNU General Public License v2.0",
     "created_at": "2026-02-14T18:42:31Z",
-    "updated_at": "2026-03-09T11:44:24Z",
+    "updated_at": "2026-03-10T11:59:16Z",
     "owner": {
       "name": "beelzebub-labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/224001860?v=4"
-    }
-  },
-  {
-    "name": "Patoke/4JLibs",
-    "url": "https://github.com/Patoke/4JLibs",
-    "description": "A decompilation project and expansion project for the 4J libraries used in games like Minecraft: Legacy Console Edition aiming at replicating functionality and expanding upon it",
-    "stars": 81,
-    "forks": 15,
-    "language": "C",
-    "topics": [
-      "4j",
-      "4j-studios",
-      "decomp",
-      "decompilation",
-      "minecraft",
-      "minecraft-lce"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-27T04:43:58Z",
-    "updated_at": "2026-03-09T16:10:31Z",
-    "owner": {
-      "name": "Patoke",
-      "avatar_url": "https://avatars.githubusercontent.com/u/51339266?v=4"
     }
   },
   {
@@ -765,7 +749,7 @@
     "name": "MatheuZSecurity/ksentinel",
     "url": "https://github.com/MatheuZSecurity/ksentinel",
     "description": "Linux kernel integrity monitor for detecting syscall hooking",
-    "stars": 76,
+    "stars": 77,
     "forks": 7,
     "language": "C",
     "topics": [
@@ -778,7 +762,7 @@
     ],
     "license": "GNU General Public License v2.0",
     "created_at": "2026-02-15T23:54:06Z",
-    "updated_at": "2026-03-07T14:13:44Z",
+    "updated_at": "2026-03-10T16:38:25Z",
     "owner": {
       "name": "MatheuZSecurity",
       "avatar_url": "https://avatars.githubusercontent.com/u/88067225?v=4"
