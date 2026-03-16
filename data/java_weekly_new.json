@@ -19,29 +19,49 @@
     "name": "iflytek/skillhub",
     "url": "https://github.com/iflytek/skillhub",
     "description": "Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy   on-premise with Docker or Kubernetes.",
-    "stars": 142,
-    "forks": 43,
+    "stars": 192,
+    "forks": 94,
     "language": "Java",
-    "topics": [],
+    "topics": [
+      "openclaw",
+      "openclaw-skills",
+      "skill"
+    ],
     "license": "Apache License 2.0",
     "created_at": "2026-03-11T12:17:05Z",
-    "updated_at": "2026-03-15T04:24:58Z",
+    "updated_at": "2026-03-16T04:14:55Z",
     "owner": {
       "name": "iflytek",
       "avatar_url": "https://avatars.githubusercontent.com/u/26786495?v=4"
     }
   },
   {
+    "name": "andforce/Andclaw",
+    "url": "https://github.com/andforce/Andclaw",
+    "description": "无需ROOT，无需连电脑，像Openclaw控制电脑一样，让Andclaw控制你的安卓手机",
+    "stars": 131,
+    "forks": 26,
+    "language": "Java",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-14T08:24:55Z",
+    "updated_at": "2026-03-16T04:29:04Z",
+    "owner": {
+      "name": "andforce",
+      "avatar_url": "https://avatars.githubusercontent.com/u/512972?v=4"
+    }
+  },
+  {
     "name": "dawdadsd/Bluetooth-headset-location-software",
     "url": "https://github.com/dawdadsd/Bluetooth-headset-location-software",
     "description": "因为本人蓝牙耳机比较小，也没买保护壳，导致蓝牙耳机总是莫名其妙忘记带或者遗落，所以做了一个关于这个蓝牙和耳机的定位扫描器，因为各个厂商其实对于贵的耳机都是能有相应的APP定位的，但是本人的耳机是华为Freeclip2，但是本人手机是小米17Pro。无法找到，所以做了这个App，用于监听蓝牙断开时间，记录断开蓝牙时耳机的最后已知的位置，然后在家以外的地方弹出遗落提醒，回到现场之后可以通过蓝牙做近距离搜索",
-    "stars": 52,
+    "stars": 56,
     "forks": 0,
     "language": "Java",
     "topics": [],
     "license": "No license",
     "created_at": "2026-03-10T03:56:02Z",
-    "updated_at": "2026-03-14T17:28:39Z",
+    "updated_at": "2026-03-16T03:03:42Z",
     "owner": {
       "name": "dawdadsd",
       "avatar_url": "https://avatars.githubusercontent.com/u/147328505?v=4"
@@ -89,22 +109,6 @@
     }
   },
   {
-    "name": "andforce/Andclaw",
-    "url": "https://github.com/andforce/Andclaw",
-    "description": "无需ROOT，无需连电脑，像Openclaw控制电脑一样，让Andclaw控制你的安卓手机",
-    "stars": 42,
-    "forks": 15,
-    "language": "Java",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-14T08:24:55Z",
-    "updated_at": "2026-03-15T04:02:20Z",
-    "owner": {
-      "name": "andforce",
-      "avatar_url": "https://avatars.githubusercontent.com/u/512972?v=4"
-    }
-  },
-  {
     "name": "KXJ-WQL/Vision4JPC",
     "url": "https://github.com/KXJ-WQL/Vision4JPC",
     "description": "Vision4JPC是一款基于SpringBoot、Vue3、Electron、Quasar的本地桌面应用开发脚手架，拥有前后端模板，支持快速二次开发与模块扩展🚀",
@@ -137,6 +141,22 @@
     }
   },
   {
+    "name": "Open-lore/Pagemark",
+    "url": "https://github.com/Open-lore/Pagemark",
+    "description": "Pagemark is a hard fork of Booklore wiht some changes",
+    "stars": 32,
+    "forks": 0,
+    "language": "Java",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-03-12T21:32:38Z",
+    "updated_at": "2026-03-15T16:21:10Z",
+    "owner": {
+      "name": "Open-lore",
+      "avatar_url": "https://avatars.githubusercontent.com/u/267772089?v=4"
+    }
+  },
+  {
     "name": "aabishe/CampusActivityManagement",
     "url": "https://github.com/aabishe/CampusActivityManagement",
     "description": "校园活动管理系统_管理系统_毕业设计源码",
@@ -150,22 +170,6 @@
     "owner": {
       "name": "aabishe",
       "avatar_url": "https://avatars.githubusercontent.com/u/263864827?v=4"
-    }
-  },
-  {
-    "name": "Open-lore/Pagemark",
-    "url": "https://github.com/Open-lore/Pagemark",
-    "description": "Pagemark is a hard fork of Booklore wiht some changes",
-    "stars": 28,
-    "forks": 0,
-    "language": "Java",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-03-12T21:32:38Z",
-    "updated_at": "2026-03-15T01:14:41Z",
-    "owner": {
-      "name": "Open-lore",
-      "avatar_url": "https://avatars.githubusercontent.com/u/267772089?v=4"
     }
   },
   {
@@ -1257,6 +1261,54 @@
     }
   },
   {
+    "name": "lmemory123/Valkey-QueryDSL",
+    "url": "https://github.com/lmemory123/Valkey-QueryDSL",
+    "description": "面向 Java 17 与 Spring Boot 的 Valkey Search 类型安全查询框架。",
+    "stars": 26,
+    "forks": 2,
+    "language": "Java",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-12T08:22:35Z",
+    "updated_at": "2026-03-16T02:09:30Z",
+    "owner": {
+      "name": "lmemory123",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100342133?v=4"
+    }
+  },
+  {
+    "name": "chawdamrunal/JWTLens",
+    "url": "https://github.com/chawdamrunal/JWTLens",
+    "description": "JWTLens - Burp Suite extension for automated JWT security testing. 62 checks:   passive scanning, algorithm confusion, signature bypass, KID injection, weak secret brute force, and a built-in JWT Forge tab. Works automatically as you   browse.",
+    "stars": 24,
+    "forks": 6,
+    "language": "Java",
+    "topics": [
+      "bug-bounty",
+      "burp-extensions",
+      "burpsuite",
+      "cybersecurity",
+      "jwt",
+      "jwt-decode",
+      "jwt-security",
+      "jwtlens",
+      "owasp",
+      "security-scanner",
+      "security-tools",
+      "token-security",
+      "vulnerability",
+      "vulnerability-scanners",
+      "web-security"
+    ],
+    "license": "No license",
+    "created_at": "2026-03-10T09:39:09Z",
+    "updated_at": "2026-03-15T10:41:24Z",
+    "owner": {
+      "name": "chawdamrunal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32319538?v=4"
+    }
+  },
+  {
     "name": "marconi-prog/fintech-payment-api",
     "url": "https://github.com/marconi-prog/fintech-payment-api",
     "description": "Event-driven payment API built with Spring Boot, RabbitMQ, PostgreSQL and Docker.",
@@ -1297,38 +1349,6 @@
     "owner": {
       "name": "aabishe",
       "avatar_url": "https://avatars.githubusercontent.com/u/263864827?v=4"
-    }
-  },
-  {
-    "name": "chawdamrunal/JWTLens",
-    "url": "https://github.com/chawdamrunal/JWTLens",
-    "description": "JWTLens - Burp Suite extension for automated JWT security testing. 62 checks:   passive scanning, algorithm confusion, signature bypass, KID injection, weak secret brute force, and a built-in JWT Forge tab. Works automatically as you   browse.",
-    "stars": 23,
-    "forks": 5,
-    "language": "Java",
-    "topics": [
-      "bug-bounty",
-      "burp-extensions",
-      "burpsuite",
-      "cybersecurity",
-      "jwt",
-      "jwt-decode",
-      "jwt-security",
-      "jwtlens",
-      "owasp",
-      "security-scanner",
-      "security-tools",
-      "token-security",
-      "vulnerability",
-      "vulnerability-scanners",
-      "web-security"
-    ],
-    "license": "No license",
-    "created_at": "2026-03-10T09:39:09Z",
-    "updated_at": "2026-03-14T17:41:41Z",
-    "owner": {
-      "name": "chawdamrunal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32319538?v=4"
     }
   },
   {
@@ -1738,13 +1758,13 @@
     "name": "unclebob/crap4java",
     "url": "https://github.com/unclebob/crap4java",
     "description": "Crap analyzer for my java projects.  ",
-    "stars": 17,
+    "stars": 18,
     "forks": 4,
     "language": "Java",
     "topics": [],
     "license": "No license",
     "created_at": "2026-03-13T20:19:45Z",
-    "updated_at": "2026-03-14T17:45:55Z",
+    "updated_at": "2026-03-15T07:09:08Z",
     "owner": {
       "name": "unclebob",
       "avatar_url": "https://avatars.githubusercontent.com/u/36901?v=4"
@@ -1802,6 +1822,22 @@
     "owner": {
       "name": "eooce",
       "avatar_url": "https://avatars.githubusercontent.com/u/142894633?v=4"
+    }
+  },
+  {
+    "name": "unclebob/mutate4java",
+    "url": "https://github.com/unclebob/mutate4java",
+    "description": "Mutation testing tool for my java projects.",
+    "stars": 15,
+    "forks": 6,
+    "language": "Java",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-13T20:20:26Z",
+    "updated_at": "2026-03-15T14:26:34Z",
+    "owner": {
+      "name": "unclebob",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36901?v=4"
     }
   },
   {
@@ -1914,38 +1950,6 @@
     "owner": {
       "name": "aabishe",
       "avatar_url": "https://avatars.githubusercontent.com/u/263864827?v=4"
-    }
-  },
-  {
-    "name": "lmemory123/Valkey-QueryDSL",
-    "url": "https://github.com/lmemory123/Valkey-QueryDSL",
-    "description": "面向 Java 17 与 Spring Boot 的 Valkey Search 类型安全查询框架。",
-    "stars": 13,
-    "forks": 2,
-    "language": "Java",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-12T08:22:35Z",
-    "updated_at": "2026-03-15T02:49:28Z",
-    "owner": {
-      "name": "lmemory123",
-      "avatar_url": "https://avatars.githubusercontent.com/u/100342133?v=4"
-    }
-  },
-  {
-    "name": "unclebob/mutate4java",
-    "url": "https://github.com/unclebob/mutate4java",
-    "description": "Mutation testing tool for my java projects.",
-    "stars": 13,
-    "forks": 6,
-    "language": "Java",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-13T20:20:26Z",
-    "updated_at": "2026-03-15T03:58:39Z",
-    "owner": {
-      "name": "unclebob",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36901?v=4"
     }
   },
   {
@@ -2115,6 +2119,41 @@
     }
   },
   {
+    "name": "Xposed-Modules-Repo/io.github.zensu357.camswap",
+    "url": "https://github.com/Xposed-Modules-Repo/io.github.zensu357.camswap",
+    "description": "CamSwap 虚拟摄像头",
+    "stars": 12,
+    "forks": 0,
+    "language": "Java",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-03-13T19:18:18Z",
+    "updated_at": "2026-03-16T03:10:05Z",
+    "owner": {
+      "name": "Xposed-Modules-Repo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78217009?v=4"
+    }
+  },
+  {
+    "name": "aikavvak12una/ForbidAd4TieBa",
+    "url": "https://github.com/aikavvak12una/ForbidAd4TieBa",
+    "description": "xposed模块，用于屏蔽贴吧广告",
+    "stars": 12,
+    "forks": 0,
+    "language": "Java",
+    "topics": [
+      "lsposed",
+      "xposed"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-14T07:56:59Z",
+    "updated_at": "2026-03-16T02:51:51Z",
+    "owner": {
+      "name": "aikavvak12una",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42039733?v=4"
+    }
+  },
+  {
     "name": "Viremox/Salute",
     "url": "https://github.com/Viremox/Salute",
     "description": "A Minecraft plugin that renders custom images in your server list MOTD using player head tiles",
@@ -2176,6 +2215,29 @@
     "owner": {
       "name": "aabishe",
       "avatar_url": "https://avatars.githubusercontent.com/u/263864827?v=4"
+    }
+  },
+  {
+    "name": "nuwax-ai/nuwax-backend",
+    "url": "https://github.com/nuwax-ai/nuwax-backend",
+    "description": "Enterprise-grade AI Agent Development and Operation Platform - Providing a complete solution for agent creation and distribution, knowledge base management, model proxy, memory system, and plugin ecosystem.",
+    "stars": 11,
+    "forks": 1,
+    "language": "Java",
+    "topics": [
+      "agent",
+      "chatbot",
+      "claw",
+      "rag",
+      "skills",
+      "workflow"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-14T11:18:58Z",
+    "updated_at": "2026-03-16T03:49:37Z",
+    "owner": {
+      "name": "nuwax-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/220066786?v=4"
     }
   },
   {
