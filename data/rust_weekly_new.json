@@ -36,16 +36,74 @@
     "name": "Infatoshi/OpenSquirrel",
     "url": "https://github.com/Infatoshi/OpenSquirrel",
     "description": "For people who get distracted by agents. A native Rust/GPUI control plane for running Claude Code, Codex, Cursor, and OpenCode side by side — because if you're going to be squirrely, you might as well optimize for it.",
-    "stars": 1097,
-    "forks": 69,
+    "stars": 1137,
+    "forks": 71,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-15T21:54:35Z",
-    "updated_at": "2026-03-19T04:18:12Z",
+    "updated_at": "2026-03-20T01:59:25Z",
     "owner": {
       "name": "Infatoshi",
       "avatar_url": "https://avatars.githubusercontent.com/u/59771030?v=4"
+    }
+  },
+  {
+    "name": "zerobootdev/zeroboot",
+    "url": "https://github.com/zerobootdev/zeroboot",
+    "description": "Sub-millisecond VM sandboxes for AI agents via copy-on-write forking",
+    "stars": 848,
+    "forks": 31,
+    "language": "Rust",
+    "topics": [
+      "ai-agents",
+      "code-execution",
+      "copy-on-write",
+      "firecracker",
+      "kvm",
+      "rust",
+      "sandbox",
+      "virtual-machine",
+      "vm"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-15T21:49:32Z",
+    "updated_at": "2026-03-20T04:01:17Z",
+    "owner": {
+      "name": "zerobootdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/269425771?v=4"
+    }
+  },
+  {
+    "name": "rzru/nightingale",
+    "url": "https://github.com/rzru/nightingale",
+    "description": "Machine learning powered Karaoke app (with scores!) ",
+    "stars": 663,
+    "forks": 31,
+    "language": "Rust",
+    "topics": [
+      "ai",
+      "bevy",
+      "bevy-engine",
+      "demucs",
+      "karaoke",
+      "karaoke-application",
+      "karaoke-game",
+      "machine-learning",
+      "machine-learning-algorithms",
+      "ml",
+      "party",
+      "rust",
+      "whisper",
+      "whisper-ai",
+      "whisperx"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-03-15T14:48:09Z",
+    "updated_at": "2026-03-20T03:40:08Z",
+    "owner": {
+      "name": "rzru",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91018799?v=4"
     }
   },
   {
@@ -88,38 +146,6 @@
     "owner": {
       "name": "jshachm",
       "avatar_url": "https://avatars.githubusercontent.com/u/17266513?v=4"
-    }
-  },
-  {
-    "name": "rzru/nightingale",
-    "url": "https://github.com/rzru/nightingale",
-    "description": "Machine learning powered Karaoke app (with scores!) ",
-    "stars": 516,
-    "forks": 15,
-    "language": "Rust",
-    "topics": [
-      "ai",
-      "bevy",
-      "bevy-engine",
-      "demucs",
-      "karaoke",
-      "karaoke-application",
-      "karaoke-game",
-      "machine-learning",
-      "machine-learning-algorithms",
-      "ml",
-      "party",
-      "rust",
-      "whisper",
-      "whisper-ai",
-      "whisperx"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-03-15T14:48:09Z",
-    "updated_at": "2026-03-19T04:11:28Z",
-    "owner": {
-      "name": "rzru",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91018799?v=4"
     }
   },
   {
@@ -253,6 +279,33 @@
     }
   },
   {
+    "name": "peters/horizon",
+    "url": "https://github.com/peters/horizon",
+    "description": "GPU-accelerated spatial terminal observatory — manage terminals, AI agents, and dev tools on an infinite canvas",
+    "stars": 265,
+    "forks": 8,
+    "language": "Rust",
+    "topics": [
+      "ai-agents",
+      "claude",
+      "codex",
+      "developer-tools",
+      "egui",
+      "gpu",
+      "rust",
+      "terminal",
+      "terminal-emulator",
+      "wgpu"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-15T15:30:53Z",
+    "updated_at": "2026-03-20T03:45:57Z",
+    "owner": {
+      "name": "peters",
+      "avatar_url": "https://avatars.githubusercontent.com/u/869?v=4"
+    }
+  },
+  {
     "name": "openwalrus/walrus",
     "url": "https://github.com/openwalrus/walrus",
     "description": "The composable agent runtime.",
@@ -293,33 +346,6 @@
     }
   },
   {
-    "name": "peters/horizon",
-    "url": "https://github.com/peters/horizon",
-    "description": "GPU-accelerated spatial terminal observatory — manage terminals, AI agents, and dev tools on an infinite canvas",
-    "stars": 221,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [
-      "ai-agents",
-      "claude",
-      "codex",
-      "developer-tools",
-      "egui",
-      "gpu",
-      "rust",
-      "terminal",
-      "terminal-emulator",
-      "wgpu"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-15T15:30:53Z",
-    "updated_at": "2026-03-19T03:54:38Z",
-    "owner": {
-      "name": "peters",
-      "avatar_url": "https://avatars.githubusercontent.com/u/869?v=4"
-    }
-  },
-  {
     "name": "blurrer/Polymarket-Sports-Market-Auto-Trading-Script",
     "url": "https://github.com/blurrer/Polymarket-Sports-Market-Auto-Trading-Script",
     "description": "Open-source Rust bot for automated Polymarket sports market trading with trailing-stop strategy. Simulation and live modes.",
@@ -351,10 +377,38 @@
     }
   },
   {
+    "name": "dev-protocol/Polymarket-Trading-Bot-with-Synth-AI",
+    "url": "https://github.com/dev-protocol/Polymarket-Trading-Bot-with-Synth-AI",
+    "description": "Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot",
+    "stars": 191,
+    "forks": 144,
+    "language": "Rust",
+    "topics": [
+      "bot",
+      "polymarket",
+      "polymarket-arbitrage-bot",
+      "polymarket-arbitrage-trading-bot",
+      "polymarket-copytrade",
+      "polymarket-market-maker",
+      "polymarket-trade-bot",
+      "polymarket-trading-bot",
+      "polymarket-tradingbot",
+      "polymarkettradingbot",
+      "trading"
+    ],
+    "license": "No license",
+    "created_at": "2026-03-16T16:53:13Z",
+    "updated_at": "2026-03-20T01:24:40Z",
+    "owner": {
+      "name": "dev-protocol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49816297?v=4"
+    }
+  },
+  {
     "name": "lux-db/lux",
     "url": "https://github.com/lux-db/lux",
-    "description": "A Redis-compatable key-value store. 2-7x faster. Native vector support.",
-    "stars": 184,
+    "description": "A Redis-compatable key-value store. Up to 10x faster. Native vector support.",
+    "stars": 185,
     "forks": 10,
     "language": "Rust",
     "topics": [
@@ -367,7 +421,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-15T18:07:32Z",
-    "updated_at": "2026-03-19T02:50:18Z",
+    "updated_at": "2026-03-20T03:59:35Z",
     "owner": {
       "name": "lux-db",
       "avatar_url": "https://avatars.githubusercontent.com/u/268421784?v=4"
@@ -423,10 +477,50 @@
     }
   },
   {
+    "name": "dev-protocol/polymarket-trading-bot-new",
+    "url": "https://github.com/dev-protocol/polymarket-trading-bot-new",
+    "description": "Polymarket trading bot,Polymarket trading bot, Polymarket trading bot, Polymarket trading bot, Polymarket trading bot, Polymarket trading bot, Polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot,Polymarket trading bot,Polymarket trading bot, Polymarket trading bot, Polymarket trading bot, Polymarket tradin",
+    "stars": 175,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "polymarket",
+      "polymarket-bot",
+      "polymarket-copytrade",
+      "polymarket-rust-copy-trading-bot",
+      "polymarket-rust-trading-bot",
+      "polymarket-trading",
+      "polymarket-trading-bot"
+    ],
+    "license": "No license",
+    "created_at": "2026-03-04T15:10:52Z",
+    "updated_at": "2026-03-10T04:02:26Z",
+    "owner": {
+      "name": "dev-protocol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49816297?v=4"
+    }
+  },
+  {
+    "name": "Gustavo1900/bevy-atmosphere",
+    "url": "https://github.com/Gustavo1900/bevy-atmosphere",
+    "description": null,
+    "stars": 166,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-18T17:29:14Z",
+    "updated_at": "2026-03-20T02:35:16Z",
+    "owner": {
+      "name": "Gustavo1900",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86673742?v=4"
+    }
+  },
+  {
     "name": "deepcon3/Binance-Claw",
     "url": "https://github.com/deepcon3/Binance-Claw",
     "description": "Binance-Claw Lightning-fast Binance price sniper, real-time monitor & OpenClaw skill — written in Rust",
-    "stars": 176,
+    "stars": 165,
     "forks": 1,
     "language": "Rust",
     "topics": [
@@ -452,34 +546,10 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-16T17:04:50Z",
-    "updated_at": "2026-03-19T01:26:59Z",
+    "updated_at": "2026-03-19T23:58:59Z",
     "owner": {
       "name": "deepcon3",
       "avatar_url": "https://avatars.githubusercontent.com/u/125387581?v=4"
-    }
-  },
-  {
-    "name": "dev-protocol/polymarket-trading-bot-new",
-    "url": "https://github.com/dev-protocol/polymarket-trading-bot-new",
-    "description": "Polymarket trading bot,Polymarket trading bot, Polymarket trading bot, Polymarket trading bot, Polymarket trading bot, Polymarket trading bot, Polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot,Polymarket trading bot,Polymarket trading bot, Polymarket trading bot, Polymarket trading bot, Polymarket tradin",
-    "stars": 175,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "polymarket",
-      "polymarket-bot",
-      "polymarket-copytrade",
-      "polymarket-rust-copy-trading-bot",
-      "polymarket-rust-trading-bot",
-      "polymarket-trading",
-      "polymarket-trading-bot"
-    ],
-    "license": "No license",
-    "created_at": "2026-03-04T15:10:52Z",
-    "updated_at": "2026-03-10T04:02:26Z",
-    "owner": {
-      "name": "dev-protocol",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49816297?v=4"
     }
   },
   {
@@ -544,34 +614,6 @@
     }
   },
   {
-    "name": "dev-protocol/Polymarket-Trading-Bot-with-Synth-AI",
-    "url": "https://github.com/dev-protocol/Polymarket-Trading-Bot-with-Synth-AI",
-    "description": "Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot",
-    "stars": 157,
-    "forks": 94,
-    "language": "Rust",
-    "topics": [
-      "bot",
-      "polymarket",
-      "polymarket-arbitrage-bot",
-      "polymarket-arbitrage-trading-bot",
-      "polymarket-copytrade",
-      "polymarket-market-maker",
-      "polymarket-trade-bot",
-      "polymarket-trading-bot",
-      "polymarket-tradingbot",
-      "polymarkettradingbot",
-      "trading"
-    ],
-    "license": "No license",
-    "created_at": "2026-03-16T16:53:13Z",
-    "updated_at": "2026-03-19T04:06:45Z",
-    "owner": {
-      "name": "dev-protocol",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49816297?v=4"
-    }
-  },
-  {
     "name": "friendlymatthew/gabagool",
     "url": "https://github.com/friendlymatthew/gabagool",
     "description": "Snapshotable WebAssembly interpreter from scratch. Includes a time travel debugger",
@@ -594,40 +636,6 @@
     "owner": {
       "name": "friendlymatthew",
       "avatar_url": "https://avatars.githubusercontent.com/u/38759997?v=4"
-    }
-  },
-  {
-    "name": "Krypto-Hashers-Community/polymarket-copytrading-bot-rust-sport-crypto",
-    "url": "https://github.com/Krypto-Hashers-Community/polymarket-copytrading-bot-rust-sport-crypto",
-    "description": "The ultimate Polymarket CopyTrading Bot in Rust. AI-powered Polymarket CopyTrading Bot for smarter trades. Self-hosted Polymarket CopyTrading Bot with dashboard. Real-time Polymarket CopyTrading Bot for top traders. Reliable Polymarket CopyTrading Bot for prediction markets. Fast Polymarket CopyTrading Bot. Try Polymarket CopyTrading Bot now.",
-    "stars": 150,
-    "forks": 24,
-    "language": "Rust",
-    "topics": [
-      "agent",
-      "ai",
-      "bot",
-      "copy-bot",
-      "copytrading-bot",
-      "polymarket",
-      "polymarket-copy-trading-bot",
-      "polymarket-crypto-copytrading-bot",
-      "polymarket-politics-copytrading-bot",
-      "polymarket-trading-bot",
-      "prediction-markets",
-      "rust-copytrading-bot",
-      "sport-copy-trading-bot",
-      "sports-copytrading-bot",
-      "top-trader",
-      "trading",
-      "weather-trading-bot"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-15T15:10:51Z",
-    "updated_at": "2026-03-19T03:48:49Z",
-    "owner": {
-      "name": "Krypto-Hashers-Community",
-      "avatar_url": "https://avatars.githubusercontent.com/u/195281081?v=4"
     }
   },
   {
@@ -657,6 +665,40 @@
     "owner": {
       "name": "sentrux",
       "avatar_url": "https://avatars.githubusercontent.com/u/267439205?v=4"
+    }
+  },
+  {
+    "name": "Krypto-Hashers-Community/polymarket-copytrading-bot-rust-sport-crypto",
+    "url": "https://github.com/Krypto-Hashers-Community/polymarket-copytrading-bot-rust-sport-crypto",
+    "description": "The ultimate Polymarket CopyTrading Bot in Rust. AI-powered Polymarket CopyTrading Bot for smarter trades. Self-hosted Polymarket CopyTrading Bot with dashboard. Real-time Polymarket CopyTrading Bot for top traders. Reliable Polymarket CopyTrading Bot for prediction markets. Fast Polymarket CopyTrading Bot. Try Polymarket CopyTrading Bot now.",
+    "stars": 149,
+    "forks": 23,
+    "language": "Rust",
+    "topics": [
+      "agent",
+      "ai",
+      "bot",
+      "copy-bot",
+      "copytrading-bot",
+      "polymarket",
+      "polymarket-copy-trading-bot",
+      "polymarket-crypto-copytrading-bot",
+      "polymarket-politics-copytrading-bot",
+      "polymarket-trading-bot",
+      "prediction-markets",
+      "rust-copytrading-bot",
+      "sport-copy-trading-bot",
+      "sports-copytrading-bot",
+      "top-trader",
+      "trading",
+      "weather-trading-bot"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-15T15:10:51Z",
+    "updated_at": "2026-03-20T01:47:28Z",
+    "owner": {
+      "name": "Krypto-Hashers-Community",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195281081?v=4"
     }
   },
   {
@@ -692,19 +734,19 @@
     }
   },
   {
-    "name": "Gustavo1900/bevy-atmosphere",
-    "url": "https://github.com/Gustavo1900/bevy-atmosphere",
+    "name": "Brunofancy/polymarket-copy-trading-bot-agent",
+    "url": "https://github.com/Brunofancy/polymarket-copy-trading-bot-agent",
     "description": null,
-    "stars": 127,
+    "stars": 128,
     "forks": 0,
     "language": "Rust",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-18T17:29:14Z",
-    "updated_at": "2026-03-19T04:18:23Z",
+    "license": "MIT License",
+    "created_at": "2026-03-18T11:59:56Z",
+    "updated_at": "2026-03-20T03:59:14Z",
     "owner": {
-      "name": "Gustavo1900",
-      "avatar_url": "https://avatars.githubusercontent.com/u/86673742?v=4"
+      "name": "Brunofancy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/267252782?v=4"
     }
   },
   {
@@ -795,6 +837,26 @@
     }
   },
   {
+    "name": "traccar/traccar-geocoder",
+    "url": "https://github.com/traccar/traccar-geocoder",
+    "description": "Traccar reverse geocoding service",
+    "stars": 116,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [
+      "geocoding-api",
+      "gps-tracking",
+      "reverse-geocoding"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-14T22:43:36Z",
+    "updated_at": "2026-03-20T03:46:04Z",
+    "owner": {
+      "name": "traccar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37892282?v=4"
+    }
+  },
+  {
     "name": "DegenSugarBoo/OpenBook",
     "url": "https://github.com/DegenSugarBoo/OpenBook",
     "description": "Real-time Crypto Futures depth heatmap in Rust (egui/eframe) with live order flow and trade tape.",
@@ -818,16 +880,32 @@
     "name": "gavraz/recon",
     "url": "https://github.com/gavraz/recon",
     "description": "tmux-native dashboard for managing Claude Code agents",
-    "stars": 108,
-    "forks": 12,
+    "stars": 112,
+    "forks": 13,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-14T12:39:15Z",
-    "updated_at": "2026-03-19T00:01:34Z",
+    "updated_at": "2026-03-19T21:52:47Z",
     "owner": {
       "name": "gavraz",
       "avatar_url": "https://avatars.githubusercontent.com/u/8331212?v=4"
+    }
+  },
+  {
+    "name": "orinimron123/DriverExplorer",
+    "url": "https://github.com/orinimron123/DriverExplorer",
+    "description": "A Windows kernel driver viewer and manager built in Rust — real-time enumeration, signature verification, SCM   operations, and multi-format exports with a modern dark-themed GUI.",
+    "stars": 109,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-03-15T18:41:08Z",
+    "updated_at": "2026-03-19T16:42:35Z",
+    "owner": {
+      "name": "orinimron123",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56004200?v=4"
     }
   },
   {
@@ -844,22 +922,6 @@
     "owner": {
       "name": "level1techs",
       "avatar_url": "https://avatars.githubusercontent.com/u/266795053?v=4"
-    }
-  },
-  {
-    "name": "orinimron123/DriverExplorer",
-    "url": "https://github.com/orinimron123/DriverExplorer",
-    "description": "A Windows kernel driver viewer and manager built in Rust — real-time enumeration, signature verification, SCM   operations, and multi-format exports with a modern dark-themed GUI.",
-    "stars": 106,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-03-15T18:41:08Z",
-    "updated_at": "2026-03-19T00:45:40Z",
-    "owner": {
-      "name": "orinimron123",
-      "avatar_url": "https://avatars.githubusercontent.com/u/56004200?v=4"
     }
   },
   {
@@ -945,6 +1007,22 @@
     "owner": {
       "name": "lasect",
       "avatar_url": "https://avatars.githubusercontent.com/u/260724343?v=4"
+    }
+  },
+  {
+    "name": "Augani/atlas",
+    "url": "https://github.com/Augani/atlas",
+    "description": null,
+    "stars": 85,
+    "forks": 27,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-16T10:24:24Z",
+    "updated_at": "2026-03-19T19:42:49Z",
+    "owner": {
+      "name": "Augani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13237525?v=4"
     }
   },
   {
@@ -1045,22 +1123,6 @@
     }
   },
   {
-    "name": "Augani/atlas",
-    "url": "https://github.com/Augani/atlas",
-    "description": null,
-    "stars": 79,
-    "forks": 26,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-16T10:24:24Z",
-    "updated_at": "2026-03-19T00:49:53Z",
-    "owner": {
-      "name": "Augani",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13237525?v=4"
-    }
-  },
-  {
     "name": "wm94i/Work_Review",
     "url": "https://github.com/wm94i/Work_Review",
     "description": "帮你自动记录一天中使用了哪些应用、浏览了哪些网页、在每个应用上花了多少时间",
@@ -1096,7 +1158,7 @@
     "name": "susanudgzf/Aave-Claw",
     "url": "https://github.com/susanudgzf/Aave-Claw",
     "description": "Aave Protocol V2 Openclaw Skill for Aave",
-    "stars": 78,
+    "stars": 77,
     "forks": 1,
     "language": "Rust",
     "topics": [
@@ -1119,7 +1181,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-14T14:04:08Z",
-    "updated_at": "2026-03-18T16:30:32Z",
+    "updated_at": "2026-03-19T12:12:06Z",
     "owner": {
       "name": "susanudgzf",
       "avatar_url": "https://avatars.githubusercontent.com/u/243029504?v=4"
@@ -1212,6 +1274,22 @@
     }
   },
   {
+    "name": "qiu7824/zsclip",
+    "url": "https://github.com/qiu7824/zsclip",
+    "description": "面向 系统ui 的轻量级 Rust 剪贴板管理器",
+    "stars": 67,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-03-14T14:10:26Z",
+    "updated_at": "2026-03-20T03:57:51Z",
+    "owner": {
+      "name": "qiu7824",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30194382?v=4"
+    }
+  },
+  {
     "name": "Superagentsys/novalclaw",
     "url": "https://github.com/Superagentsys/novalclaw",
     "description": "novalclaw is next generation AI format",
@@ -1225,22 +1303,6 @@
     "owner": {
       "name": "Superagentsys",
       "avatar_url": "https://avatars.githubusercontent.com/u/196589323?v=4"
-    }
-  },
-  {
-    "name": "okx/onchainos-skills",
-    "url": "https://github.com/okx/onchainos-skills",
-    "description": "Skills for AI agents to integrate with the OKX OnchainOS API — Wallet, token discovery, market data, DEX swap, and transaction broadcasting.",
-    "stars": 64,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-28T08:41:21Z",
-    "updated_at": "2026-03-06T03:31:15Z",
-    "owner": {
-      "name": "okx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/120148534?v=4"
     }
   },
   {
@@ -1260,27 +1322,11 @@
     }
   },
   {
-    "name": "qiu7824/zsclip",
-    "url": "https://github.com/qiu7824/zsclip",
-    "description": "面向 系统ui 的轻量级 Rust 剪贴板管理器",
-    "stars": 61,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-03-14T14:10:26Z",
-    "updated_at": "2026-03-19T03:20:34Z",
-    "owner": {
-      "name": "qiu7824",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30194382?v=4"
-    }
-  },
-  {
     "name": "Ashutosh0x/rust-finance",
     "url": "https://github.com/Ashutosh0x/rust-finance",
     "description": "A high-performance, ultra low-latency trading terminal and AI-infused daemon built completely in Rust.",
-    "stars": 59,
-    "forks": 15,
+    "stars": 60,
+    "forks": 20,
     "language": "Rust",
     "topics": [
       "ai",
@@ -1294,7 +1340,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-14T19:40:59Z",
-    "updated_at": "2026-03-19T03:27:45Z",
+    "updated_at": "2026-03-19T17:28:01Z",
     "owner": {
       "name": "Ashutosh0x",
       "avatar_url": "https://avatars.githubusercontent.com/u/161562995?v=4"
@@ -1314,6 +1360,32 @@
     "owner": {
       "name": "nik-rev",
       "avatar_url": "https://avatars.githubusercontent.com/u/154856872?v=4"
+    }
+  },
+  {
+    "name": "5c0/metropolis",
+    "url": "https://github.com/5c0/metropolis",
+    "description": "A cyberpunk system monitor that transforms kernel metrics into a living terminal skyline. Built with Rust & Ratatui.",
+    "stars": 58,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "cyberpunk",
+      "ratatui",
+      "retro",
+      "rust",
+      "system-monitor",
+      "terminal-graphics",
+      "tui",
+      "visualization"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-16T04:53:45Z",
+    "updated_at": "2026-03-20T03:55:31Z",
+    "owner": {
+      "name": "5c0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93293719?v=4"
     }
   },
   {
@@ -1385,36 +1457,11 @@
     }
   },
   {
-    "name": "Eatgrapes/WinIsland",
-    "url": "https://github.com/Eatgrapes/WinIsland",
-    "description": null,
-    "stars": 58,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "dynamic-island",
-      "gui",
-      "ios",
-      "rust",
-      "rust-lang",
-      "skia",
-      "win32",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-28T14:23:57Z",
-    "updated_at": "2026-03-06T01:44:26Z",
-    "owner": {
-      "name": "Eatgrapes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/193054206?v=4"
-    }
-  },
-  {
     "name": "memN0ps/doublepulsar-rs",
     "url": "https://github.com/memN0ps/doublepulsar-rs",
     "description": "Rusty DoublePulsar - Cobalt Strike User-Defined Reflective Loader (UDRL) in Rust (Codename: DoublePulsar)",
-    "stars": 55,
-    "forks": 6,
+    "stars": 56,
+    "forks": 7,
     "language": "Rust",
     "topics": [
       "cobalt-strike",
@@ -1432,7 +1479,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-15T01:16:16Z",
-    "updated_at": "2026-03-18T17:43:15Z",
+    "updated_at": "2026-03-19T22:47:44Z",
     "owner": {
       "name": "memN0ps",
       "avatar_url": "https://avatars.githubusercontent.com/u/89628341?v=4"
@@ -1506,6 +1553,83 @@
     }
   },
   {
+    "name": "Gloom-Team/ReadyPC",
+    "url": "https://github.com/Gloom-Team/ReadyPC",
+    "description": "Free open-source Windows optimizer and debloater for gaming, performance, privacy, and a cleaner PC experience. Made with Rust.",
+    "stars": 52,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [
+      "debloat",
+      "desktop-app",
+      "gaming-optimizer",
+      "gaming-performance",
+      "open-source",
+      "pc-optimizer",
+      "pc-performance",
+      "privacy",
+      "react",
+      "rust",
+      "system-optimizer",
+      "system-tweaks",
+      "system-utility",
+      "tauri",
+      "windows-debloat",
+      "windows-optimizer",
+      "windows-performance",
+      "windows-privacy",
+      "windows-tweaks",
+      "windows-utility"
+    ],
+    "license": "No license",
+    "created_at": "2026-03-14T22:23:53Z",
+    "updated_at": "2026-03-19T20:06:30Z",
+    "owner": {
+      "name": "Gloom-Team",
+      "avatar_url": "https://avatars.githubusercontent.com/u/268256282?v=4"
+    }
+  },
+  {
+    "name": "memN0ps/armory-rs",
+    "url": "https://github.com/memN0ps/armory-rs",
+    "description": "Rusty Armory - Beacon Object Files (BOFs) in Rust (Codename: Armory)",
+    "stars": 51,
+    "forks": 7,
+    "language": "Rust",
+    "topics": [
+      "beacon-object-files",
+      "bof",
+      "cobalt-strike",
+      "coff",
+      "common-object-file-format",
+      "rust",
+      "windows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-14T06:45:02Z",
+    "updated_at": "2026-03-19T08:58:22Z",
+    "owner": {
+      "name": "memN0ps",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89628341?v=4"
+    }
+  },
+  {
+    "name": "mat-1/slopcheck",
+    "url": "https://github.com/mat-1/slopcheck",
+    "description": "Check for indicators of AI code in a project and dependencies.",
+    "stars": 50,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-14T22:16:22Z",
+    "updated_at": "2026-03-19T22:58:57Z",
+    "owner": {
+      "name": "mat-1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27899617?v=4"
+    }
+  },
+  {
     "name": "001TMF/ProteinView",
     "url": "https://github.com/001TMF/ProteinView",
     "description": "Terminal protein structure viewer — interactive 3D visualization of PDB/mmCIF structures with cartoon ribbons, braille rendering, and Sixel/Kitty graphics",
@@ -1567,67 +1691,6 @@
     }
   },
   {
-    "name": "Gloom-Team/ReadyPC",
-    "url": "https://github.com/Gloom-Team/ReadyPC",
-    "description": "Free open-source Windows optimizer and debloater for gaming, performance, privacy, and a cleaner PC experience. Made with Rust.",
-    "stars": 49,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "debloat",
-      "desktop-app",
-      "gaming-optimizer",
-      "gaming-performance",
-      "open-source",
-      "pc-optimizer",
-      "pc-performance",
-      "privacy",
-      "react",
-      "rust",
-      "system-optimizer",
-      "system-tweaks",
-      "system-utility",
-      "tauri",
-      "windows-debloat",
-      "windows-optimizer",
-      "windows-performance",
-      "windows-privacy",
-      "windows-tweaks",
-      "windows-utility"
-    ],
-    "license": "No license",
-    "created_at": "2026-03-14T22:23:53Z",
-    "updated_at": "2026-03-19T03:03:09Z",
-    "owner": {
-      "name": "Gloom-Team",
-      "avatar_url": "https://avatars.githubusercontent.com/u/268256282?v=4"
-    }
-  },
-  {
-    "name": "memN0ps/armory-rs",
-    "url": "https://github.com/memN0ps/armory-rs",
-    "description": "Rusty Armory - Beacon Object Files (BOFs) in Rust (Codename: Armory)",
-    "stars": 48,
-    "forks": 7,
-    "language": "Rust",
-    "topics": [
-      "beacon-object-files",
-      "bof",
-      "cobalt-strike",
-      "coff",
-      "common-object-file-format",
-      "rust",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-14T06:45:02Z",
-    "updated_at": "2026-03-18T22:50:37Z",
-    "owner": {
-      "name": "memN0ps",
-      "avatar_url": "https://avatars.githubusercontent.com/u/89628341?v=4"
-    }
-  },
-  {
     "name": "nimhar/imptokens",
     "url": "https://github.com/nimhar/imptokens",
     "description": "Compress input tokens, save time and money",
@@ -1678,48 +1741,6 @@
     "owner": {
       "name": "AbdelStark",
       "avatar_url": "https://avatars.githubusercontent.com/u/45264458?v=4"
-    }
-  },
-  {
-    "name": "mat-1/slopcheck",
-    "url": "https://github.com/mat-1/slopcheck",
-    "description": "Check for indicators of AI code in a project and dependencies.",
-    "stars": 47,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-14T22:16:22Z",
-    "updated_at": "2026-03-19T00:36:29Z",
-    "owner": {
-      "name": "mat-1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/27899617?v=4"
-    }
-  },
-  {
-    "name": "5c0/metropolis",
-    "url": "https://github.com/5c0/metropolis",
-    "description": "A cyberpunk system monitor that transforms kernel metrics into a living terminal skyline. Built with Rust & Ratatui.",
-    "stars": 47,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "cyberpunk",
-      "ratatui",
-      "retro",
-      "rust",
-      "system-monitor",
-      "terminal-graphics",
-      "tui",
-      "visualization"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-16T04:53:45Z",
-    "updated_at": "2026-03-19T01:08:45Z",
-    "owner": {
-      "name": "5c0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93293719?v=4"
     }
   },
   {
@@ -1987,19 +2008,51 @@
     }
   },
   {
-    "name": "samuelkriegerbonini-dev/AstroBurst",
-    "url": "https://github.com/samuelkriegerbonini-dev/AstroBurst",
-    "description": "This is the first astronomical image processor built on the Rust/Tauri/WebGPU stack, delivering near-native performance with a fraction of the memory footprint of legacy tools.",
-    "stars": 41,
+    "name": "nullpo-head/sutatikku",
+    "url": "https://github.com/nullpo-head/sutatikku",
+    "description": "Turn any executables to a single binary ELF application",
+    "stars": 40,
     "forks": 1,
     "language": "Rust",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-28T06:06:05Z",
-    "updated_at": "2026-03-05T21:09:11Z",
+    "license": "No license",
+    "created_at": "2026-03-20T01:32:02Z",
+    "updated_at": "2026-03-20T04:03:34Z",
     "owner": {
-      "name": "samuelkriegerbonini-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/264570738?v=4"
+      "name": "nullpo-head",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2311662?v=4"
+    }
+  },
+  {
+    "name": "ddmoyu/javm",
+    "url": "https://github.com/ddmoyu/javm",
+    "description": null,
+    "stars": 38,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-15T16:04:21Z",
+    "updated_at": "2026-03-20T02:56:14Z",
+    "owner": {
+      "name": "ddmoyu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97585153?v=4"
+    }
+  },
+  {
+    "name": "Frankcastleauditor/Solana-Audit-Arena",
+    "url": "https://github.com/Frankcastleauditor/Solana-Audit-Arena",
+    "description": "Weekly Solana smart contract security competition — audit AI-generated programs, find bugs, and build your on-chain security track record.",
+    "stars": 38,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-16T23:12:50Z",
+    "updated_at": "2026-03-19T19:42:03Z",
+    "owner": {
+      "name": "Frankcastleauditor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/134559450?v=4"
     }
   },
   {
@@ -2032,38 +2085,6 @@
     "owner": {
       "name": "itsbalamurali",
       "avatar_url": "https://avatars.githubusercontent.com/u/1926303?v=4"
-    }
-  },
-  {
-    "name": "ddmoyu/javm",
-    "url": "https://github.com/ddmoyu/javm",
-    "description": null,
-    "stars": 37,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-15T16:04:21Z",
-    "updated_at": "2026-03-19T02:44:04Z",
-    "owner": {
-      "name": "ddmoyu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97585153?v=4"
-    }
-  },
-  {
-    "name": "Frankcastleauditor/Solana-Audit-Arena",
-    "url": "https://github.com/Frankcastleauditor/Solana-Audit-Arena",
-    "description": "Weekly Solana smart contract security competition — audit AI-generated programs, find bugs, and build your on-chain security track record.",
-    "stars": 36,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-16T23:12:50Z",
-    "updated_at": "2026-03-18T20:00:47Z",
-    "owner": {
-      "name": "Frankcastleauditor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/134559450?v=4"
     }
   },
   {
@@ -2116,6 +2137,22 @@
     }
   },
   {
+    "name": "missuo/remodex-relay",
+    "url": "https://github.com/missuo/remodex-relay",
+    "description": "A high-performance Remodex WebSocket relay rewritten in Rust with Docker support",
+    "stars": 35,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-16T21:36:20Z",
+    "updated_at": "2026-03-19T05:11:42Z",
+    "owner": {
+      "name": "missuo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55200481?v=4"
+    }
+  },
+  {
     "name": "adamgell/cmtraceopen",
     "url": "https://github.com/adamgell/cmtraceopen",
     "description": "An open-source log viewer inspired by Microsoft's CMTrace.exe.",
@@ -2132,22 +2169,6 @@
     "owner": {
       "name": "adamgell",
       "avatar_url": "https://avatars.githubusercontent.com/u/27519?v=4"
-    }
-  },
-  {
-    "name": "missuo/remodex-relay",
-    "url": "https://github.com/missuo/remodex-relay",
-    "description": "A high-performance Remodex WebSocket relay rewritten in Rust with Docker support",
-    "stars": 34,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-16T21:36:20Z",
-    "updated_at": "2026-03-18T22:45:22Z",
-    "owner": {
-      "name": "missuo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55200481?v=4"
     }
   },
   {
@@ -2383,19 +2404,34 @@
     }
   },
   {
-    "name": "zhalice2011/api-manager",
-    "url": "https://github.com/zhalice2011/api-manager",
-    "description": "公益站的统一代理与管理工具, 支持从`All API Hub`插件一键导入账户信息",
-    "stars": 29,
-    "forks": 1,
+    "name": "STVR393/helius-personal-finance-tracker",
+    "url": "https://github.com/STVR393/helius-personal-finance-tracker",
+    "description": "Local-first personal finance tracker for Windows with a Rust CLI/TUI, SQLite ledger, budgets, recurring bills, reconciliation, and cash-flow forecasting.",
+    "stars": 28,
+    "forks": 5,
     "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-01T15:15:39Z",
-    "updated_at": "2026-03-05T06:23:30Z",
+    "topics": [
+      "budget-tracker",
+      "budgets",
+      "cash-flow",
+      "expenses",
+      "finance-tracker",
+      "finances",
+      "financial",
+      "money",
+      "personal-finance",
+      "reconciliation",
+      "recurring-bills",
+      "rust",
+      "sqlite",
+      "tui"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-03-17T10:46:34Z",
+    "updated_at": "2026-03-20T01:44:43Z",
     "owner": {
-      "name": "zhalice2011",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24289349?v=4"
+      "name": "STVR393",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156544318?v=4"
     }
   },
   {
@@ -2480,6 +2516,42 @@
     }
   },
   {
+    "name": "avelino/mcp",
+    "url": "https://github.com/avelino/mcp",
+    "description": "CLI that turns MCP servers into terminal commands, single binary",
+    "stars": 27,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "mcp",
+      "mcp-server"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-15T21:15:30Z",
+    "updated_at": "2026-03-19T19:03:34Z",
+    "owner": {
+      "name": "avelino",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31996?v=4"
+    }
+  },
+  {
+    "name": "ruihanglix/zoro",
+    "url": "https://github.com/ruihanglix/zoro",
+    "description": "Read papers in your language. Let AI manage your library. | 用母语读论文，让 AI 管理文献库。",
+    "stars": 27,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-03-18T02:25:00Z",
+    "updated_at": "2026-03-20T03:22:41Z",
+    "owner": {
+      "name": "ruihanglix",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162420497?v=4"
+    }
+  },
+  {
     "name": "Altor-lab/altor-vec",
     "url": "https://github.com/Altor-lab/altor-vec",
     "description": "Client-side vector search powered by HNSW. 54KB gzipped WASM. Sub-millisecond latency.",
@@ -2530,42 +2602,6 @@
     "owner": {
       "name": "slaveOftime",
       "avatar_url": "https://avatars.githubusercontent.com/u/71069004?v=4"
-    }
-  },
-  {
-    "name": "Brunofancy/polymarket-copy-trading-bot-agent",
-    "url": "https://github.com/Brunofancy/polymarket-copy-trading-bot-agent",
-    "description": null,
-    "stars": 26,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-18T11:59:56Z",
-    "updated_at": "2026-03-19T04:16:46Z",
-    "owner": {
-      "name": "Brunofancy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/267252782?v=4"
-    }
-  },
-  {
-    "name": "coast-guard/coasts",
-    "url": "https://github.com/coast-guard/coasts",
-    "description": "Localhost service isolation and orchestration for git worktrees.",
-    "stars": 26,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "infrastructure",
-      "localhost",
-      "parallel-programming"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-02-28T13:59:30Z",
-    "updated_at": "2026-03-05T23:24:12Z",
-    "owner": {
-      "name": "coast-guard",
-      "avatar_url": "https://avatars.githubusercontent.com/u/263468388?v=4"
     }
   },
   {
@@ -2626,26 +2662,6 @@
     "owner": {
       "name": "marcbrooker",
       "avatar_url": "https://avatars.githubusercontent.com/u/11185086?v=4"
-    }
-  },
-  {
-    "name": "avelino/mcp",
-    "url": "https://github.com/avelino/mcp",
-    "description": "CLI that turns MCP servers into terminal commands, single binary",
-    "stars": 23,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "mcp",
-      "mcp-server"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-15T21:15:30Z",
-    "updated_at": "2026-03-18T12:01:58Z",
-    "owner": {
-      "name": "avelino",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31996?v=4"
     }
   },
   {
