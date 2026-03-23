@@ -24,8 +24,8 @@
     "name": "googleworkspace/cli",
     "url": "https://github.com/googleworkspace/cli",
     "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
-    "stars": 21944,
-    "forks": 1036,
+    "stars": 22114,
+    "forks": 1045,
     "language": "Rust",
     "topics": [
       "agent-skills",
@@ -47,7 +47,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-03-02T19:46:06Z",
-    "updated_at": "2026-03-22T04:13:39Z",
+    "updated_at": "2026-03-23T04:21:46Z",
     "owner": {
       "name": "googleworkspace",
       "avatar_url": "https://avatars.githubusercontent.com/u/3708359?v=4"
@@ -77,8 +77,8 @@
     "name": "RightNow-AI/openfang",
     "url": "https://github.com/RightNow-AI/openfang",
     "description": "Open-source Agent Operating System",
-    "stars": 15191,
-    "forks": 1835,
+    "stars": 15274,
+    "forks": 1845,
     "language": "Rust",
     "topics": [
       "agent-framework",
@@ -92,7 +92,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-02-24T23:12:38Z",
-    "updated_at": "2026-03-22T04:14:11Z",
+    "updated_at": "2026-03-23T03:29:51Z",
     "owner": {
       "name": "RightNow-AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/226207176?v=4"
@@ -102,54 +102,58 @@
     "name": "NVIDIA/OpenShell",
     "url": "https://github.com/NVIDIA/OpenShell",
     "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-    "stars": 2960,
-    "forks": 292,
+    "stars": 3186,
+    "forks": 316,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-02-24T22:52:22Z",
-    "updated_at": "2026-03-22T04:12:15Z",
+    "updated_at": "2026-03-23T04:20:19Z",
     "owner": {
       "name": "NVIDIA",
       "avatar_url": "https://avatars.githubusercontent.com/u/1728152?v=4"
     }
   },
   {
-    "name": "Veirt/weathr",
-    "url": "https://github.com/Veirt/weathr",
-    "description": "a terminal weather app with ascii animation",
-    "stars": 2487,
-    "forks": 86,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "rust-lang",
-      "terminal",
-      "tui",
-      "weather"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-02-08T17:52:29Z",
-    "updated_at": "2026-03-09T03:52:39Z",
-    "owner": {
-      "name": "Veirt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55097092?v=4"
-    }
-  },
-  {
     "name": "Polymarket/polymarket-cli",
     "url": "https://github.com/Polymarket/polymarket-cli",
     "description": null,
-    "stars": 1813,
-    "forks": 185,
+    "stars": 1825,
+    "forks": 186,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2026-02-24T13:41:46Z",
-    "updated_at": "2026-03-22T02:47:25Z",
+    "updated_at": "2026-03-23T03:55:04Z",
     "owner": {
       "name": "Polymarket",
       "avatar_url": "https://avatars.githubusercontent.com/u/31669764?v=4"
+    }
+  },
+  {
+    "name": "zerobootdev/zeroboot",
+    "url": "https://github.com/zerobootdev/zeroboot",
+    "description": "Sub-millisecond VM sandboxes for AI agents via copy-on-write forking",
+    "stars": 1768,
+    "forks": 81,
+    "language": "Rust",
+    "topics": [
+      "ai-agents",
+      "code-execution",
+      "copy-on-write",
+      "firecracker",
+      "kvm",
+      "rust",
+      "sandbox",
+      "virtual-machine",
+      "vm"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-15T21:49:32Z",
+    "updated_at": "2026-03-23T03:54:12Z",
+    "owner": {
+      "name": "zerobootdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/269425771?v=4"
     }
   },
   {
@@ -177,32 +181,6 @@
     }
   },
   {
-    "name": "zerobootdev/zeroboot",
-    "url": "https://github.com/zerobootdev/zeroboot",
-    "description": "Sub-millisecond VM sandboxes for AI agents via copy-on-write forking",
-    "stars": 1692,
-    "forks": 76,
-    "language": "Rust",
-    "topics": [
-      "ai-agents",
-      "code-execution",
-      "copy-on-write",
-      "firecracker",
-      "kvm",
-      "rust",
-      "sandbox",
-      "virtual-machine",
-      "vm"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-15T21:49:32Z",
-    "updated_at": "2026-03-22T03:34:19Z",
-    "owner": {
-      "name": "zerobootdev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/269425771?v=4"
-    }
-  },
-  {
     "name": "golutra/golutra",
     "url": "https://github.com/golutra/golutra",
     "description": null,
@@ -222,29 +200,61 @@
     "name": "Infatoshi/OpenSquirrel",
     "url": "https://github.com/Infatoshi/OpenSquirrel",
     "description": "For people who get distracted by agents. A native Rust/GPUI control plane for running Claude Code, Codex, Cursor, and OpenCode side by side — because if you're going to be squirrely, you might as well optimize for it.",
-    "stars": 1242,
-    "forks": 76,
+    "stars": 1271,
+    "forks": 78,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-15T21:54:35Z",
-    "updated_at": "2026-03-22T04:13:25Z",
+    "updated_at": "2026-03-23T02:33:22Z",
     "owner": {
       "name": "Infatoshi",
       "avatar_url": "https://avatars.githubusercontent.com/u/59771030?v=4"
     }
   },
   {
+    "name": "rzru/nightingale",
+    "url": "https://github.com/rzru/nightingale",
+    "description": "Machine learning powered Karaoke app (with scores!) ",
+    "stars": 829,
+    "forks": 49,
+    "language": "Rust",
+    "topics": [
+      "ai",
+      "bevy",
+      "bevy-engine",
+      "demucs",
+      "karaoke",
+      "karaoke-application",
+      "karaoke-game",
+      "machine-learning",
+      "machine-learning-algorithms",
+      "ml",
+      "party",
+      "rust",
+      "whisper",
+      "whisper-ai",
+      "whisperx"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-03-15T14:48:09Z",
+    "updated_at": "2026-03-23T03:56:04Z",
+    "owner": {
+      "name": "rzru",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91018799?v=4"
+    }
+  },
+  {
     "name": "Superagentsys/novalclaw",
     "url": "https://github.com/Superagentsys/novalclaw",
     "description": "novalclaw is next generation AI format",
-    "stars": 775,
-    "forks": 40,
+    "stars": 792,
+    "forks": 43,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2026-03-04T14:23:13Z",
-    "updated_at": "2026-03-22T03:07:20Z",
+    "updated_at": "2026-03-23T00:52:55Z",
     "owner": {
       "name": "Superagentsys",
       "avatar_url": "https://avatars.githubusercontent.com/u/196589323?v=4"
@@ -286,48 +296,16 @@
     }
   },
   {
-    "name": "rzru/nightingale",
-    "url": "https://github.com/rzru/nightingale",
-    "description": "Machine learning powered Karaoke app (with scores!) ",
-    "stars": 739,
-    "forks": 37,
-    "language": "Rust",
-    "topics": [
-      "ai",
-      "bevy",
-      "bevy-engine",
-      "demucs",
-      "karaoke",
-      "karaoke-application",
-      "karaoke-game",
-      "machine-learning",
-      "machine-learning-algorithms",
-      "ml",
-      "party",
-      "rust",
-      "whisper",
-      "whisper-ai",
-      "whisperx"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-03-15T14:48:09Z",
-    "updated_at": "2026-03-22T02:58:43Z",
-    "owner": {
-      "name": "rzru",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91018799?v=4"
-    }
-  },
-  {
     "name": "yologdev/yoyo-evolve",
     "url": "https://github.com/yologdev/yoyo-evolve",
     "description": "A coding agent that evolves itself. One commit per day.",
-    "stars": 660,
-    "forks": 47,
+    "stars": 659,
+    "forks": 48,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-01T00:25:19Z",
-    "updated_at": "2026-03-22T02:14:14Z",
+    "updated_at": "2026-03-23T02:19:41Z",
     "owner": {
       "name": "yologdev",
       "avatar_url": "https://avatars.githubusercontent.com/u/237869261?v=4"
@@ -389,6 +367,22 @@
     }
   },
   {
+    "name": "170-carry/codex-tools",
+    "url": "https://github.com/170-carry/codex-tools",
+    "description": "代理,快捷切换codex 账号, 监控codex用量的工具,以及对codex进行api反代 , 支持多语言",
+    "stars": 558,
+    "forks": 47,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-27T04:31:27Z",
+    "updated_at": "2026-03-23T04:13:31Z",
+    "owner": {
+      "name": "170-carry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/257216834?v=4"
+    }
+  },
+  {
     "name": "superhq-ai/shuru",
     "url": "https://github.com/superhq-ai/shuru",
     "description": "A local-first microVM sandbox for running AI agents safely on macOS",
@@ -437,19 +431,35 @@
     }
   },
   {
-    "name": "170-carry/codex-tools",
-    "url": "https://github.com/170-carry/codex-tools",
-    "description": "代理,快捷切换codex 账号, 监控codex用量的工具,以及对codex进行api反代 , 支持多语言",
+    "name": "AlpinDale/parsync",
+    "url": "https://github.com/AlpinDale/parsync",
+    "description": "Parallel rsync-like pull sync over SSH with resume",
     "stars": 545,
-    "forks": 47,
+    "forks": 18,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-02-27T04:31:27Z",
-    "updated_at": "2026-03-22T03:01:56Z",
+    "created_at": "2026-03-05T09:14:03Z",
+    "updated_at": "2026-03-23T04:10:34Z",
     "owner": {
-      "name": "170-carry",
-      "avatar_url": "https://avatars.githubusercontent.com/u/257216834?v=4"
+      "name": "AlpinDale",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52078762?v=4"
+    }
+  },
+  {
+    "name": "fabro-sh/fabro",
+    "url": "https://github.com/fabro-sh/fabro",
+    "description": "⚒️ The open source dark software factory for expert engineers.",
+    "stars": 543,
+    "forks": 43,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-13T22:48:18Z",
+    "updated_at": "2026-03-23T02:58:05Z",
+    "owner": {
+      "name": "fabro-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/266531437?v=4"
     }
   },
   {
@@ -474,48 +484,16 @@
     }
   },
   {
-    "name": "fabro-sh/fabro",
-    "url": "https://github.com/fabro-sh/fabro",
-    "description": "⚒️ The open source dark software factory for expert engineers.",
-    "stars": 530,
-    "forks": 40,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-13T22:48:18Z",
-    "updated_at": "2026-03-22T02:22:15Z",
-    "owner": {
-      "name": "fabro-sh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266531437?v=4"
-    }
-  },
-  {
-    "name": "AlpinDale/parsync",
-    "url": "https://github.com/AlpinDale/parsync",
-    "description": "Parallel rsync-like pull sync over SSH with resume",
-    "stars": 527,
-    "forks": 18,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-05T09:14:03Z",
-    "updated_at": "2026-03-21T13:15:34Z",
-    "owner": {
-      "name": "AlpinDale",
-      "avatar_url": "https://avatars.githubusercontent.com/u/52078762?v=4"
-    }
-  },
-  {
     "name": "jshachm/pi-rs",
     "url": "https://github.com/jshachm/pi-rs",
     "description": "基于pi-mono，rust轻量化版本",
-    "stars": 511,
-    "forks": 47,
+    "stars": 523,
+    "forks": 48,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-04T02:03:51Z",
-    "updated_at": "2026-03-22T04:06:04Z",
+    "updated_at": "2026-03-23T04:23:54Z",
     "owner": {
       "name": "jshachm",
       "avatar_url": "https://avatars.githubusercontent.com/u/17266513?v=4"
@@ -535,6 +513,27 @@
     "owner": {
       "name": "frank-vpl",
       "avatar_url": "https://avatars.githubusercontent.com/u/91052736?v=4"
+    }
+  },
+  {
+    "name": "joaoh82/rustunnel",
+    "url": "https://github.com/joaoh82/rustunnel",
+    "description": "**Rustunnel** is a open-source tunnel service written in Rust that replicates the core functionality of ngrok. It exposes local services running behind NAT/firewalls to the public internet through a relay server self-hosted or our managed service.",
+    "stars": 502,
+    "forks": 38,
+    "language": "Rust",
+    "topics": [
+      "api-gateway",
+      "reverse-proxy",
+      "rust",
+      "rustunnel"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-03-10T21:25:25Z",
+    "updated_at": "2026-03-23T02:10:06Z",
+    "owner": {
+      "name": "joaoh82",
+      "avatar_url": "https://avatars.githubusercontent.com/u/208517?v=4"
     }
   },
   {
@@ -575,27 +574,6 @@
     }
   },
   {
-    "name": "joaoh82/rustunnel",
-    "url": "https://github.com/joaoh82/rustunnel",
-    "description": "**Rustunnel** is a open-source tunnel service written in Rust that replicates the core functionality of ngrok. It exposes local services running behind NAT/firewalls to the public internet through a relay server self-hosted or our managed service.",
-    "stars": 458,
-    "forks": 37,
-    "language": "Rust",
-    "topics": [
-      "api-gateway",
-      "reverse-proxy",
-      "rust",
-      "rustunnel"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-03-10T21:25:25Z",
-    "updated_at": "2026-03-22T04:04:37Z",
-    "owner": {
-      "name": "joaoh82",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208517?v=4"
-    }
-  },
-  {
     "name": "stellarlinkco/codex",
     "url": "https://github.com/stellarlinkco/codex",
     "description": "The open source coding agent. openai anthropic gemini",
@@ -633,13 +611,13 @@
     "name": "CleverCloud/mdr",
     "url": "https://github.com/CleverCloud/mdr",
     "description": "a very light rust based markdown reader with support of mermaid (web, native, TUI). vibe coded ",
-    "stars": 411,
+    "stars": 412,
     "forks": 20,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2026-02-22T12:37:58Z",
-    "updated_at": "2026-03-21T16:37:04Z",
+    "updated_at": "2026-03-22T21:43:57Z",
     "owner": {
       "name": "CleverCloud",
       "avatar_url": "https://avatars.githubusercontent.com/u/357022?v=4"
@@ -697,13 +675,13 @@
     "name": "penso/arbor",
     "url": "https://github.com/penso/arbor",
     "description": "Run agentic coding workflows in a fully native desktop app for Git worktrees, terminals, and diffs.",
-    "stars": 386,
+    "stars": 390,
     "forks": 20,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-04T08:33:26Z",
-    "updated_at": "2026-03-22T02:07:30Z",
+    "updated_at": "2026-03-23T02:42:45Z",
     "owner": {
       "name": "penso",
       "avatar_url": "https://avatars.githubusercontent.com/u/7703?v=4"
@@ -737,7 +715,7 @@
     "name": "Nuzair46/Monarch",
     "url": "https://github.com/Nuzair46/Monarch",
     "description": "Detach, restore, and switch monitor layouts without touching cables.",
-    "stars": 373,
+    "stars": 376,
     "forks": 8,
     "language": "Rust",
     "topics": [
@@ -753,84 +731,18 @@
     ],
     "license": "MIT License",
     "created_at": "2026-02-25T02:58:07Z",
-    "updated_at": "2026-03-22T01:20:30Z",
+    "updated_at": "2026-03-23T03:00:58Z",
     "owner": {
       "name": "Nuzair46",
       "avatar_url": "https://avatars.githubusercontent.com/u/38219313?v=4"
     }
   },
   {
-    "name": "temm1e-labs/temm1e",
-    "url": "https://github.com/temm1e-labs/temm1e",
-    "description": "We do what we must, because we can.",
-    "stars": 359,
-    "forks": 80,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-08T01:15:21Z",
-    "updated_at": "2026-03-22T02:44:48Z",
-    "owner": {
-      "name": "temm1e-labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/269339946?v=4"
-    }
-  },
-  {
-    "name": "fynnfluegge/agtx",
-    "url": "https://github.com/fynnfluegge/agtx",
-    "description": "Multi-session AI coding terminal manager - orchestrate Claude, Codex, Gemini and more in a single TUI",
-    "stars": 357,
-    "forks": 24,
-    "language": "Rust",
-    "topics": [
-      "claude-code",
-      "codex-cli",
-      "gemini-cli",
-      "opencode",
-      "spec-driven-development"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-02-08T10:24:00Z",
-    "updated_at": "2026-03-09T02:15:54Z",
-    "owner": {
-      "name": "fynnfluegge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16321871?v=4"
-    }
-  },
-  {
-    "name": "dev-protocol/polymarket-ai-synth-trading-bot-telegram",
-    "url": "https://github.com/dev-protocol/polymarket-ai-synth-trading-bot-telegram",
-    "description": "polymarket trading bot polymarket copy trading bot polymarket copytrading bot polymarket arbitrage bot polymarket trading bot polymarket bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot",
-    "stars": 349,
-    "forks": 283,
-    "language": "Rust",
-    "topics": [
-      "bot-polymarket",
-      "polymarket",
-      "polymarket-arbitrage-bot",
-      "polymarket-copy-bot",
-      "polymarket-copy-trading-bot",
-      "polymarket-copytrading",
-      "polymarket-copytradingbot",
-      "polymarket-market-maker-bot",
-      "polymarket-trading-bot",
-      "polymarketbot",
-      "telegram-bot"
-    ],
-    "license": "No license",
-    "created_at": "2026-02-14T13:33:56Z",
-    "updated_at": "2026-03-08T21:30:24Z",
-    "owner": {
-      "name": "dev-protocol",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49816297?v=4"
-    }
-  },
-  {
     "name": "peters/horizon",
     "url": "https://github.com/peters/horizon",
     "description": "GPU-accelerated spatial terminal observatory — manage terminals, AI agents, and dev tools on an infinite canvas",
-    "stars": 348,
-    "forks": 13,
+    "stars": 375,
+    "forks": 17,
     "language": "Rust",
     "topics": [
       "ai-agents",
@@ -838,31 +750,65 @@
       "codex",
       "developer-tools",
       "egui",
+      "gemeni-cli",
       "gpu",
+      "kilocode-cli",
+      "opencode",
       "rust",
       "terminal",
-      "terminal-emulator",
-      "wgpu"
+      "terminal-emulator"
     ],
     "license": "MIT License",
     "created_at": "2026-03-15T15:30:53Z",
-    "updated_at": "2026-03-22T03:53:59Z",
+    "updated_at": "2026-03-23T03:49:14Z",
     "owner": {
       "name": "peters",
       "avatar_url": "https://avatars.githubusercontent.com/u/869?v=4"
     }
   },
   {
+    "name": "temm1e-labs/temm1e",
+    "url": "https://github.com/temm1e-labs/temm1e",
+    "description": "We do what we must, because we can.",
+    "stars": 365,
+    "forks": 81,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-08T01:15:21Z",
+    "updated_at": "2026-03-23T01:46:44Z",
+    "owner": {
+      "name": "temm1e-labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/269339946?v=4"
+    }
+  },
+  {
+    "name": "xingkongliang/skills-manager",
+    "url": "https://github.com/xingkongliang/skills-manager",
+    "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 15+ coding tools — Cursor, Claude Code, Codex, Copilot, and more.",
+    "stars": 349,
+    "forks": 24,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-02T00:38:18Z",
+    "updated_at": "2026-03-23T03:50:09Z",
+    "owner": {
+      "name": "xingkongliang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8827798?v=4"
+    }
+  },
+  {
     "name": "xM0kht4r/VEN0m-Ransomware",
     "url": "https://github.com/xM0kht4r/VEN0m-Ransomware",
     "description": "Fully undetectable and evasive ransomware written in Rust, leveraging a BYOVD technique to disable AV/EDR solutions on the infected systems.",
-    "stars": 339,
-    "forks": 86,
+    "stars": 340,
+    "forks": 87,
     "language": "Rust",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-02-23T12:22:57Z",
-    "updated_at": "2026-03-19T17:29:37Z",
+    "updated_at": "2026-03-23T03:45:35Z",
     "owner": {
       "name": "xM0kht4r",
       "avatar_url": "https://avatars.githubusercontent.com/u/26775853?v=4"
@@ -920,6 +866,33 @@
     }
   },
   {
+    "name": "loongclaw-ai/loongclaw",
+    "url": "https://github.com/loongclaw-ai/loongclaw",
+    "description": "Lightweight, clear, and fully extensible AI agent infrastructure — learn easily, customize anything 🐉",
+    "stars": 331,
+    "forks": 43,
+    "language": "Rust",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "assistant",
+      "framework",
+      "loongclaw",
+      "openclaw",
+      "rust",
+      "rust-lang"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-05T12:45:59Z",
+    "updated_at": "2026-03-23T01:09:18Z",
+    "owner": {
+      "name": "loongclaw-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/265799221?v=4"
+    }
+  },
+  {
     "name": "lay2dev/clawpal",
     "url": "https://github.com/lay2dev/clawpal",
     "description": "ClawPal - Manage OpenClaw agents, models, and configs with a visual interface. Stop editing JSON by hand.",
@@ -955,6 +928,22 @@
     }
   },
   {
+    "name": "opendev-to/opendev",
+    "url": "https://github.com/opendev-to/opendev",
+    "description": "Open-Source Coding Agent in the terminal",
+    "stars": 327,
+    "forks": 36,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-04T20:13:44Z",
+    "updated_at": "2026-03-23T03:36:57Z",
+    "owner": {
+      "name": "opendev-to",
+      "avatar_url": "https://avatars.githubusercontent.com/u/236156178?v=4"
+    }
+  },
+  {
     "name": "SeaLantern-Studio/SeaLantern",
     "url": "https://github.com/SeaLantern-Studio/SeaLantern",
     "description": "一款由B站社区共创的客制化Minecraft开服器，它的模样，由你来决定",
@@ -973,37 +962,10 @@
     }
   },
   {
-    "name": "loongclaw-ai/loongclaw",
-    "url": "https://github.com/loongclaw-ai/loongclaw",
-    "description": "Lightweight, clear, and fully extensible AI agent infrastructure — learn easily, customize anything 🐉",
-    "stars": 326,
-    "forks": 43,
-    "language": "Rust",
-    "topics": [
-      "agent",
-      "agentic-ai",
-      "agents",
-      "ai",
-      "assistant",
-      "framework",
-      "loongclaw",
-      "openclaw",
-      "rust",
-      "rust-lang"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-05T12:45:59Z",
-    "updated_at": "2026-03-22T02:37:53Z",
-    "owner": {
-      "name": "loongclaw-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/265799221?v=4"
-    }
-  },
-  {
     "name": "crabtalk/crabtalk",
     "url": "https://github.com/crabtalk/crabtalk",
-    "description": "The composable agent runtime.",
-    "stars": 312,
+    "description": "Agents without the bloat",
+    "stars": 323,
     "forks": 45,
     "language": "Rust",
     "topics": [
@@ -1017,33 +979,33 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-11T04:41:33Z",
-    "updated_at": "2026-03-22T01:19:18Z",
+    "updated_at": "2026-03-23T01:05:27Z",
     "owner": {
       "name": "crabtalk",
       "avatar_url": "https://avatars.githubusercontent.com/u/247084450?v=4"
     }
   },
   {
-    "name": "opendev-to/opendev",
-    "url": "https://github.com/opendev-to/opendev",
-    "description": "Open-Source Coding Agent in the terminal",
-    "stars": 311,
-    "forks": 35,
+    "name": "Gustavo1900/bevy-atmosphere",
+    "url": "https://github.com/Gustavo1900/bevy-atmosphere",
+    "description": null,
+    "stars": 315,
+    "forks": 0,
     "language": "Rust",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-04T20:13:44Z",
-    "updated_at": "2026-03-22T02:40:07Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-18T17:29:14Z",
+    "updated_at": "2026-03-23T03:58:42Z",
     "owner": {
-      "name": "opendev-to",
-      "avatar_url": "https://avatars.githubusercontent.com/u/236156178?v=4"
+      "name": "Gustavo1900",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86673742?v=4"
     }
   },
   {
     "name": "sentrux/sentrux",
     "url": "https://github.com/sentrux/sentrux",
     "description": "Real-time architectural sensor that helps AI agents close the feedback loop, enabling recursive self-improvement of code quality. Pure Rust.",
-    "stars": 309,
+    "stars": 312,
     "forks": 30,
     "language": "Rust",
     "topics": [
@@ -1062,7 +1024,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-11T20:01:43Z",
-    "updated_at": "2026-03-21T23:23:25Z",
+    "updated_at": "2026-03-22T22:07:19Z",
     "owner": {
       "name": "sentrux",
       "avatar_url": "https://avatars.githubusercontent.com/u/267439205?v=4"
@@ -1144,7 +1106,7 @@
     "name": "ierror/synaps-cad",
     "url": "https://github.com/ierror/synaps-cad",
     "description": "The AI-powered 3D CAD IDE — edit code, visualize in 3D, and reshape your designs with natural language.",
-    "stars": 261,
+    "stars": 262,
     "forks": 8,
     "language": "Rust",
     "topics": [
@@ -1159,7 +1121,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-02-27T11:50:15Z",
-    "updated_at": "2026-03-21T20:39:46Z",
+    "updated_at": "2026-03-22T06:58:03Z",
     "owner": {
       "name": "ierror",
       "avatar_url": "https://avatars.githubusercontent.com/u/844375?v=4"

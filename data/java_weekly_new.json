@@ -71,8 +71,8 @@
     "name": "jobrunr/JavaClaw",
     "url": "https://github.com/jobrunr/JavaClaw",
     "description": "JavaClaw, a Java version of OpenClaw built on Spring Boot, Spring AI and JobRunr",
-    "stars": 140,
-    "forks": 18,
+    "stars": 180,
+    "forks": 30,
     "language": "Java",
     "topics": [
       "java",
@@ -81,10 +81,34 @@
     ],
     "license": "GNU Lesser General Public License v3.0",
     "created_at": "2026-03-17T15:55:23Z",
-    "updated_at": "2026-03-22T03:42:04Z",
+    "updated_at": "2026-03-23T01:55:22Z",
     "owner": {
       "name": "jobrunr",
       "avatar_url": "https://avatars.githubusercontent.com/u/63067767?v=4"
+    }
+  },
+  {
+    "name": "openmemind/memind",
+    "url": "https://github.com/openmemind/memind",
+    "description": "Self-evolving cognitive memory for AI agents in Java. Empowering 24/7 proactive agents like OpenClaw with understanding.",
+    "stars": 65,
+    "forks": 0,
+    "language": "Java",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "java",
+      "memory",
+      "openclaw",
+      "spring-ai"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-19T07:43:53Z",
+    "updated_at": "2026-03-23T03:25:05Z",
+    "owner": {
+      "name": "openmemind",
+      "avatar_url": "https://avatars.githubusercontent.com/u/268502819?v=4"
     }
   },
   {
@@ -101,30 +125,6 @@
     "owner": {
       "name": "dawdadsd",
       "avatar_url": "https://avatars.githubusercontent.com/u/147328505?v=4"
-    }
-  },
-  {
-    "name": "openmemind/memind",
-    "url": "https://github.com/openmemind/memind",
-    "description": "Self-evolving cognitive memory for AI agents in Java. Empowering 24/7 proactive agents like OpenClaw with understanding.",
-    "stars": 53,
-    "forks": 0,
-    "language": "Java",
-    "topics": [
-      "ai",
-      "ai-agent",
-      "ai-agents",
-      "java",
-      "memory",
-      "openclaw",
-      "spring-ai"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-19T07:43:53Z",
-    "updated_at": "2026-03-22T03:59:53Z",
-    "owner": {
-      "name": "openmemind",
-      "avatar_url": "https://avatars.githubusercontent.com/u/268502819?v=4"
     }
   },
   {
@@ -224,6 +224,29 @@
     }
   },
   {
+    "name": "jar-analyzer/jar-analyzer-engine",
+    "url": "https://github.com/jar-analyzer/jar-analyzer-engine",
+    "description": "Java bytecode analysis engine built on ASM, extracts method call graphs, inheritance trees, Spring routes, and string constants from JAR/WAR into SQLite. AI-friendly output for security auditing.",
+    "stars": 29,
+    "forks": 2,
+    "language": "Java",
+    "topics": [
+      "bytecode",
+      "call-graph",
+      "code-audit",
+      "java-asm",
+      "java-bytecode",
+      "static-analysis"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-19T13:44:01Z",
+    "updated_at": "2026-03-23T03:25:08Z",
+    "owner": {
+      "name": "jar-analyzer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/147261835?v=4"
+    }
+  },
+  {
     "name": "chawdamrunal/JWTLens",
     "url": "https://github.com/chawdamrunal/JWTLens",
     "description": "JWTLens - Burp Suite extension for automated JWT security testing. 62 checks:   passive scanning, algorithm confusion, signature bypass, KID injection, weak secret brute force, and a built-in JWT Forge tab. Works automatically as you   browse.",
@@ -253,56 +276,6 @@
     "owner": {
       "name": "chawdamrunal",
       "avatar_url": "https://avatars.githubusercontent.com/u/32319538?v=4"
-    }
-  },
-  {
-    "name": "marconi-prog/fintech-payment-api",
-    "url": "https://github.com/marconi-prog/fintech-payment-api",
-    "description": "Event-driven payment API built with Spring Boot, RabbitMQ, PostgreSQL and Docker.",
-    "stars": 24,
-    "forks": 1,
-    "language": "Java",
-    "topics": [
-      "docker",
-      "event-driven",
-      "fintech",
-      "java",
-      "jpa-hibernate",
-      "microservices",
-      "postgresql",
-      "rabbitmq",
-      "rest-api",
-      "spring-boot"
-    ],
-    "license": "No license",
-    "created_at": "2026-03-04T19:59:35Z",
-    "updated_at": "2026-03-08T19:05:13Z",
-    "owner": {
-      "name": "marconi-prog",
-      "avatar_url": "https://avatars.githubusercontent.com/u/205594655?v=4"
-    }
-  },
-  {
-    "name": "jar-analyzer/jar-analyzer-engine",
-    "url": "https://github.com/jar-analyzer/jar-analyzer-engine",
-    "description": "Java bytecode analysis engine built on ASM, extracts method call graphs, inheritance trees, Spring routes, and string constants from JAR/WAR into SQLite. AI-friendly output for security auditing.",
-    "stars": 23,
-    "forks": 2,
-    "language": "Java",
-    "topics": [
-      "bytecode",
-      "call-graph",
-      "code-audit",
-      "java-asm",
-      "java-bytecode",
-      "static-analysis"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-19T13:44:01Z",
-    "updated_at": "2026-03-21T16:02:48Z",
-    "owner": {
-      "name": "jar-analyzer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/147261835?v=4"
     }
   },
   {
@@ -338,6 +311,22 @@
     }
   },
   {
+    "name": "shanqiu127/Warehouse-Management-System-",
+    "url": "https://github.com/shanqiu127/Warehouse-Management-System-",
+    "description": " 2026 届毕业设计作品：仓库管理系统。项目采用前后端分离架构，前端基于 Vue 3 + Vite，后端基于 Spring Boot + MyBatis-Plus，数据库使用 MySQL。系统围绕实际仓储业务场景，完成了用户与权限管理、基础资料维护、进销退存流程、统计分析与可视化展示，具备完整的开发、部署与演示能力。",
+    "stars": 20,
+    "forks": 6,
+    "language": "Java",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-18T14:11:24Z",
+    "updated_at": "2026-03-23T03:16:01Z",
+    "owner": {
+      "name": "shanqiu127",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200551824?v=4"
+    }
+  },
+  {
     "name": "6source/Escape-The-Cave",
     "url": "https://github.com/6source/Escape-The-Cave",
     "description": null,
@@ -354,6 +343,22 @@
     }
   },
   {
+    "name": "smartcmd/claude-your-gpt",
+    "url": "https://github.com/smartcmd/claude-your-gpt",
+    "description": "Make GPT code like Claude.",
+    "stars": 18,
+    "forks": 1,
+    "language": "Java",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-19T20:14:53Z",
+    "updated_at": "2026-03-23T03:54:33Z",
+    "owner": {
+      "name": "smartcmd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60499296?v=4"
+    }
+  },
+  {
     "name": "elder-plinius/V3SP3R",
     "url": "https://github.com/elder-plinius/V3SP3R",
     "description": "AI Flipper control",
@@ -367,22 +372,6 @@
     "owner": {
       "name": "elder-plinius",
       "avatar_url": "https://avatars.githubusercontent.com/u/133052465?v=4"
-    }
-  },
-  {
-    "name": "shanqiu127/Warehouse-Management-System-",
-    "url": "https://github.com/shanqiu127/Warehouse-Management-System-",
-    "description": " 2026 届毕业设计作品：仓库管理系统。项目采用前后端分离架构，前端基于 Vue 3 + Vite，后端基于 Spring Boot + MyBatis-Plus，数据库使用 MySQL。系统围绕实际仓储业务场景，完成了用户与权限管理、基础资料维护、进销退存流程、统计分析与可视化展示，具备完整的开发、部署与演示能力。",
-    "stars": 16,
-    "forks": 6,
-    "language": "Java",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-18T14:11:24Z",
-    "updated_at": "2026-03-22T03:53:43Z",
-    "owner": {
-      "name": "shanqiu127",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200551824?v=4"
     }
   },
   {
@@ -615,6 +604,38 @@
     }
   },
   {
+    "name": "e982b1/BeforeDawnPro",
+    "url": "https://github.com/e982b1/BeforeDawnPro",
+    "description": "BeforeDawn 漏洞管理平台 - 支持批量导入漏洞",
+    "stars": 10,
+    "forks": 0,
+    "language": "Java",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-20T03:11:52Z",
+    "updated_at": "2026-03-23T03:32:14Z",
+    "owner": {
+      "name": "e982b1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17266868?v=4"
+    }
+  },
+  {
+    "name": "miqu3iasg/banking-mvp",
+    "url": "https://github.com/miqu3iasg/banking-mvp",
+    "description": null,
+    "stars": 10,
+    "forks": 2,
+    "language": "Java",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-19T21:11:43Z",
+    "updated_at": "2026-03-22T22:18:25Z",
+    "owner": {
+      "name": "miqu3iasg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/147787560?v=4"
+    }
+  },
+  {
     "name": "MaSTERmIKK/CorsoJava_Marzo",
     "url": "https://github.com/MaSTERmIKK/CorsoJava_Marzo",
     "description": "Campari Mirko - campari.mirko@gmail.com",
@@ -644,22 +665,6 @@
     "owner": {
       "name": "Braffolk",
       "avatar_url": "https://avatars.githubusercontent.com/u/7544836?v=4"
-    }
-  },
-  {
-    "name": "omersusin/StorageFixer",
-    "url": "https://github.com/omersusin/StorageFixer",
-    "description": null,
-    "stars": 10,
-    "forks": 0,
-    "language": "Java",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-06T08:08:14Z",
-    "updated_at": "2026-03-09T03:07:53Z",
-    "owner": {
-      "name": "omersusin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/86467497?v=4"
     }
   }
 ]

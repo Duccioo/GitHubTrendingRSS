@@ -350,6 +350,22 @@
     }
   },
   {
+    "name": "eze-is/web-access",
+    "url": "https://github.com/eze-is/web-access",
+    "description": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治",
+    "stars": 242,
+    "forks": 33,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-18T05:54:57Z",
+    "updated_at": "2026-03-23T04:23:13Z",
+    "owner": {
+      "name": "eze-is",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53331888?v=4"
+    }
+  },
+  {
     "name": "J-Pster/Psters_AI_Workflow",
     "url": "https://github.com/J-Pster/Psters_AI_Workflow",
     "description": "An auto-documenting, model-agnostic AI workflow for any project, framework, and language. It reduces hallucination and keeps delivery predictable: the developer controls the path, AI executes the steps, and project standards stay consistent.",
@@ -421,6 +437,42 @@
     "owner": {
       "name": "fjb040911",
       "avatar_url": "https://avatars.githubusercontent.com/u/8717555?v=4"
+    }
+  },
+  {
+    "name": "kulikov0/whitelist-bypass",
+    "url": "https://github.com/kulikov0/whitelist-bypass",
+    "description": null,
+    "stars": 187,
+    "forks": 9,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-19T15:58:14Z",
+    "updated_at": "2026-03-23T03:44:09Z",
+    "owner": {
+      "name": "kulikov0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19497634?v=4"
+    }
+  },
+  {
+    "name": "iflytek/astronclaw-tutorial",
+    "url": "https://github.com/iflytek/astronclaw-tutorial",
+    "description": "从零到工作流，掌握 AstronClaw（云端）与 Loomy（桌面）的 AI 助手实战教程 | A complete tutorial to master AstronClaw (cloud AI) & Loomy (desktop AI)",
+    "stars": 168,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "agent",
+      "ai-agent",
+      "openclaw"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-19T02:40:44Z",
+    "updated_at": "2026-03-23T03:31:19Z",
+    "owner": {
+      "name": "iflytek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26786495?v=4"
     }
   },
   {
@@ -618,19 +670,19 @@
     }
   },
   {
-    "name": "kulikov0/whitelist-bypass",
-    "url": "https://github.com/kulikov0/whitelist-bypass",
-    "description": null,
-    "stars": 138,
-    "forks": 7,
+    "name": "SethGammon/Citadel",
+    "url": "https://github.com/SethGammon/Citadel",
+    "description": "Agent orchestration harness for Claude Code. Four-tier routing (/do), campaign persistence across sessions, parallel agents in isolated worktrees, discovery relay between waves, lifecycle hooks, circuit breaker, and 6 production-quality skills. From solo developer to institutional scale.",
+    "stars": 131,
+    "forks": 14,
     "language": "JavaScript",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-19T15:58:14Z",
-    "updated_at": "2026-03-22T02:05:42Z",
+    "license": "MIT License",
+    "created_at": "2026-03-20T05:42:54Z",
+    "updated_at": "2026-03-23T04:21:47Z",
     "owner": {
-      "name": "kulikov0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19497634?v=4"
+      "name": "SethGammon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5523585?v=4"
     }
   },
   {
@@ -666,80 +718,40 @@
     }
   },
   {
-    "name": "vicnaum/bun-demincer",
-    "url": "https://github.com/vicnaum/bun-demincer",
-    "description": "Decompiler, deminifier and deobfuscator for Bun-compiled standalone JavaScript binaries",
+    "name": "ShunsukeHayashi/agent-skill-bus",
+    "url": "https://github.com/ShunsukeHayashi/agent-skill-bus",
+    "description": "The missing runtime for Agent Skills — health monitoring, self-improvement, and dependency management for any AI agent framework. Zero dependencies.",
     "stars": 122,
-    "forks": 28,
+    "forks": 10,
     "language": "JavaScript",
     "topics": [
-      "bun",
-      "bundler",
-      "decompiler",
-      "deminifier",
-      "deobfuscator",
-      "javascript",
-      "reverse-engineering",
-      "standalone-binary"
+      "agent-framework",
+      "agent-skills",
+      "ai-agents",
+      "ai-operations",
+      "claude-code",
+      "codex",
+      "crewai",
+      "dag-scheduler",
+      "framework-agnostic",
+      "jsonl",
+      "knowledge-management",
+      "langgraph",
+      "llm-ops",
+      "miyabi",
+      "quality-monitoring",
+      "self-improving",
+      "skill-bus",
+      "skill-monitoring",
+      "task-orchestration",
+      "zero-dependencies"
     ],
-    "license": "No license",
-    "created_at": "2026-03-03T11:36:55Z",
-    "updated_at": "2026-03-09T04:02:55Z",
-    "owner": {
-      "name": "vicnaum",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5636644?v=4"
-    }
-  },
-  {
-    "name": "SethGammon/Citadel",
-    "url": "https://github.com/SethGammon/Citadel",
-    "description": "Agent orchestration harness for Claude Code. Four-tier routing (/do), campaign persistence across sessions, parallel agents in isolated worktrees, discovery relay between waves, lifecycle hooks, circuit breaker, and 6 production-quality skills. From solo developer to institutional scale.",
-    "stars": 118,
-    "forks": 12,
-    "language": "JavaScript",
-    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-03-20T05:42:54Z",
-    "updated_at": "2026-03-22T03:47:41Z",
+    "created_at": "2026-03-17T23:43:59Z",
+    "updated_at": "2026-03-23T04:10:06Z",
     "owner": {
-      "name": "SethGammon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5523585?v=4"
-    }
-  },
-  {
-    "name": "iflytek/astronclaw-tutorial",
-    "url": "https://github.com/iflytek/astronclaw-tutorial",
-    "description": "从零到工作流，掌握 AstronClaw（云端）与 Loomy（桌面）的 AI 助手实战教程 | A complete tutorial to master AstronClaw (cloud AI) & Loomy (desktop AI)",
-    "stars": 116,
-    "forks": 0,
-    "language": "JavaScript",
-    "topics": [
-      "agent",
-      "ai-agent",
-      "openclaw"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-19T02:40:44Z",
-    "updated_at": "2026-03-22T04:11:11Z",
-    "owner": {
-      "name": "iflytek",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26786495?v=4"
-    }
-  },
-  {
-    "name": "J2TEAM/vibe.j2team.org",
-    "url": "https://github.com/J2TEAM/vibe.j2team.org",
-    "description": "Sẽ thế nào nếu cả nhóm J2TEAM Community vibe code cùng nhau?",
-    "stars": 116,
-    "forks": 127,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-05T16:23:14Z",
-    "updated_at": "2026-03-09T04:01:58Z",
-    "owner": {
-      "name": "J2TEAM",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5250117?v=4"
+      "name": "ShunsukeHayashi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11504206?v=4"
     }
   },
   {
@@ -887,22 +899,6 @@
     }
   },
   {
-    "name": "ygwyg/agent-experience",
-    "url": "https://github.com/ygwyg/agent-experience",
-    "description": "A visual reference to the patterns, surfaces, and infrastructure behind AI agents.",
-    "stars": 104,
-    "forks": 9,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-04T17:04:29Z",
-    "updated_at": "2026-03-08T09:59:04Z",
-    "owner": {
-      "name": "ygwyg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167489839?v=4"
-    }
-  },
-  {
     "name": "Shpigford/dither",
     "url": "https://github.com/Shpigford/dither",
     "description": "Vector dithering tool for web and Adobe Illustrator",
@@ -1009,6 +1005,22 @@
     }
   },
   {
+    "name": "rullerzhou-afk/clawd-on-desk",
+    "url": "https://github.com/rullerzhou-afk/clawd-on-desk",
+    "description": "A desktop pet that reacts to your Claude Code sessions in real-time — thinking, typing,  juggling, sleeping, and more.",
+    "stars": 97,
+    "forks": 14,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-18T09:04:20Z",
+    "updated_at": "2026-03-23T03:01:25Z",
+    "owner": {
+      "name": "rullerzhou-afk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/228746293?v=4"
+    }
+  },
+  {
     "name": "marianfoo/sap-ai-mcp-servers",
     "url": "https://github.com/marianfoo/sap-ai-mcp-servers",
     "description": "A complete list of SAP MCP Servers and SAP AI Skills",
@@ -1059,40 +1071,19 @@
     }
   },
   {
-    "name": "ShunsukeHayashi/agent-skill-bus",
-    "url": "https://github.com/ShunsukeHayashi/agent-skill-bus",
-    "description": "The missing runtime for Agent Skills — health monitoring, self-improvement, and dependency management for any AI agent framework. Zero dependencies.",
+    "name": "WhatDreamsCost/WhatDreamsCost-ComfyUI",
+    "url": "https://github.com/WhatDreamsCost/WhatDreamsCost-ComfyUI",
+    "description": "A variety of custom ComfyUI nodes and workflows",
     "stars": 93,
-    "forks": 10,
+    "forks": 13,
     "language": "JavaScript",
-    "topics": [
-      "agent-framework",
-      "agent-skills",
-      "ai-agents",
-      "ai-operations",
-      "claude-code",
-      "codex",
-      "crewai",
-      "dag-scheduler",
-      "framework-agnostic",
-      "jsonl",
-      "knowledge-management",
-      "langgraph",
-      "llm-ops",
-      "miyabi",
-      "quality-monitoring",
-      "self-improving",
-      "skill-bus",
-      "skill-monitoring",
-      "task-orchestration",
-      "zero-dependencies"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-17T23:43:59Z",
-    "updated_at": "2026-03-22T04:02:11Z",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-03-20T07:26:23Z",
+    "updated_at": "2026-03-23T01:54:36Z",
     "owner": {
-      "name": "ShunsukeHayashi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11504206?v=4"
+      "name": "WhatDreamsCost",
+      "avatar_url": "https://avatars.githubusercontent.com/u/216600439?v=4"
     }
   },
   {
@@ -1218,13 +1209,13 @@
     "name": "stevibe/local-llm-video-captioning",
     "url": "https://github.com/stevibe/local-llm-video-captioning",
     "description": null,
-    "stars": 87,
+    "stars": 88,
     "forks": 8,
     "language": "JavaScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-17T14:45:17Z",
-    "updated_at": "2026-03-21T13:00:37Z",
+    "updated_at": "2026-03-22T14:59:50Z",
     "owner": {
       "name": "stevibe",
       "avatar_url": "https://avatars.githubusercontent.com/u/268855905?v=4"
@@ -1378,6 +1369,59 @@
     }
   },
   {
+    "name": "jasonmayes/VectorSearch.js",
+    "url": "https://github.com/jasonmayes/VectorSearch.js",
+    "description": "Client side vector search using EmbeddingGemma with Web AI (LiteRT.js, TensorFlow.js, and Transformers.js)",
+    "stars": 79,
+    "forks": 6,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-19T17:39:58Z",
+    "updated_at": "2026-03-22T22:58:05Z",
+    "owner": {
+      "name": "jasonmayes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4972997?v=4"
+    }
+  },
+  {
+    "name": "daddysmokeloke/Steam-Quantum-Trader-2026",
+    "url": "https://github.com/daddysmokeloke/Steam-Quantum-Trader-2026",
+    "description": "Steam Quantum Trader (2026) — High-Performance Inventory Monitor & Automated Trading Engine. Features Real-Time Price Tracking, Multi-Platform Skin Arbitrage, and Automated Trade-Offer Processing for CS2, Dota 2, and Rust. Professional Portfolio Management Suite.",
+    "stars": 78,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "ai-trading-bots",
+      "cs2",
+      "cs2-skins-trading",
+      "cs2-trading",
+      "dota",
+      "dota2",
+      "dota2-trading",
+      "inventory-manager",
+      "inventory-monitor",
+      "rust",
+      "rust-skins",
+      "steam-bot",
+      "steam-market-api",
+      "steam-trader-2026",
+      "steam-trading",
+      "teamfortress-automation",
+      "teamfortress2",
+      "tf2",
+      "trading",
+      "trading-bot-analytics"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-21T10:37:31Z",
+    "updated_at": "2026-03-22T21:09:04Z",
+    "owner": {
+      "name": "daddysmokeloke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/269010797?v=4"
+    }
+  },
+  {
     "name": "michelleoincx/zeroclaw-grok",
     "url": "https://github.com/michelleoincx/zeroclaw-grok",
     "description": "ZeroClaw — sleek web interface for Grok AI (xAI). Streaming responses, multi-session chat, model selector. Zero npm dependencies. Runs with one command.",
@@ -1433,22 +1477,6 @@
     "owner": {
       "name": "mkhsu2002",
       "avatar_url": "https://avatars.githubusercontent.com/u/137529619?v=4"
-    }
-  },
-  {
-    "name": "jasonmayes/VectorSearch.js",
-    "url": "https://github.com/jasonmayes/VectorSearch.js",
-    "description": "Client side vector search using EmbeddingGemma with Web AI (LiteRT.js, TensorFlow.js, and Transformers.js)",
-    "stars": 73,
-    "forks": 5,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-19T17:39:58Z",
-    "updated_at": "2026-03-22T02:36:52Z",
-    "owner": {
-      "name": "jasonmayes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4972997?v=4"
     }
   },
   {
@@ -1527,74 +1555,10 @@
     }
   },
   {
-    "name": "rullerzhou-afk/clawd-on-desk",
-    "url": "https://github.com/rullerzhou-afk/clawd-on-desk",
-    "description": "A desktop pet that reacts to your Claude Code sessions in real-time — thinking, typing,  juggling, sleeping, and more.",
-    "stars": 70,
-    "forks": 12,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-18T09:04:20Z",
-    "updated_at": "2026-03-22T02:29:41Z",
-    "owner": {
-      "name": "rullerzhou-afk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/228746293?v=4"
-    }
-  },
-  {
-    "name": "0xNyk/awesome-agent-cortex",
-    "url": "https://github.com/0xNyk/awesome-agent-cortex",
-    "description": "The sovereign agent stack — practical scripts, on-chain identity, and knowledge graphs for AI agents that think, remember, and own themselves.",
-    "stars": 69,
-    "forks": 5,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "Creative Commons Zero v1.0 Universal",
-    "created_at": "2026-03-07T19:16:47Z",
-    "updated_at": "2026-03-13T03:09:44Z",
-    "owner": {
-      "name": "0xNyk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93952610?v=4"
-    }
-  },
-  {
-    "name": "Needvainverter93/deepseek-claw",
-    "url": "https://github.com/Needvainverter93/deepseek-claw",
-    "description": null,
-    "stars": 68,
-    "forks": 0,
-    "language": "JavaScript",
-    "topics": [
-      "deepseek",
-      "deepseek-ai",
-      "deepseek-api",
-      "deepseek-claw",
-      "deepseek-llm",
-      "deepseek-openclaw-skill",
-      "deepseek-r1",
-      "deepseek-skill-openclaw",
-      "deepseek-v3",
-      "openclaw",
-      "openclaw-deepseek",
-      "openclaw-skill",
-      "openclaw-skills",
-      "skill",
-      "skills"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-05T18:28:35Z",
-    "updated_at": "2026-03-08T10:19:50Z",
-    "owner": {
-      "name": "Needvainverter93",
-      "avatar_url": "https://avatars.githubusercontent.com/u/258352285?v=4"
-    }
-  },
-  {
     "name": "archisvaze/arcdlp",
     "url": "https://github.com/archisvaze/arcdlp",
     "description": "Open-source desktop video downloader powered by yt-dlp and electron. Download videos and audio from YouTube, Vimeo, Twitter, and thousands of sites. Works on macOS, Windows and Linux.",
-    "stars": 65,
+    "stars": 69,
     "forks": 2,
     "language": "JavaScript",
     "topics": [
@@ -1613,10 +1577,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-19T07:45:31Z",
-    "updated_at": "2026-03-22T03:01:45Z",
+    "updated_at": "2026-03-23T01:32:25Z",
     "owner": {
       "name": "archisvaze",
       "avatar_url": "https://avatars.githubusercontent.com/u/92965519?v=4"
+    }
+  },
+  {
+    "name": "0xNyk/awesome-agent-cortex",
+    "url": "https://github.com/0xNyk/awesome-agent-cortex",
+    "description": "The sovereign agent stack — practical scripts, on-chain identity, and knowledge graphs for AI agents that think, remember, and own themselves.",
+    "stars": 69,
+    "forks": 5,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "Creative Commons Zero v1.0 Universal",
+    "created_at": "2026-03-07T19:16:47Z",
+    "updated_at": "2026-03-13T03:09:44Z",
+    "owner": {
+      "name": "0xNyk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93952610?v=4"
     }
   },
   {
@@ -1655,22 +1635,6 @@
     "owner": {
       "name": "dProLabs",
       "avatar_url": "https://avatars.githubusercontent.com/u/265814343?v=4"
-    }
-  },
-  {
-    "name": "WhatDreamsCost/WhatDreamsCost-ComfyUI",
-    "url": "https://github.com/WhatDreamsCost/WhatDreamsCost-ComfyUI",
-    "description": "A variety of custom ComfyUI nodes and workflows",
-    "stars": 63,
-    "forks": 11,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-03-20T07:26:23Z",
-    "updated_at": "2026-03-22T03:59:22Z",
-    "owner": {
-      "name": "WhatDreamsCost",
-      "avatar_url": "https://avatars.githubusercontent.com/u/216600439?v=4"
     }
   },
   {
@@ -1803,22 +1767,6 @@
     }
   },
   {
-    "name": "joeseesun/defuddle-skill",
-    "url": "https://github.com/joeseesun/defuddle-skill",
-    "description": "Claude Code skill for defuddle - extract clean article content from web pages",
-    "stars": 57,
-    "forks": 4,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-03T17:36:20Z",
-    "updated_at": "2026-03-09T03:28:00Z",
-    "owner": {
-      "name": "joeseesun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3236682?v=4"
-    }
-  },
-  {
     "name": "CTCT-CT2/openclaw-security-watchdog",
     "url": "https://github.com/CTCT-CT2/openclaw-security-watchdog",
     "description": "OpenClaw 安全巡检工具，一键执行系统安全扫描并生成通俗易懂的报告。 使用场景：用户说\"安全巡检\"、\"安全检查\"、\"安全审计\"、\"巡检\"、\"security audit\"、\"检查安全\"、\"系统安全\"等。 触发条件：任何与 OpenClaw 安全检测、审计、巡检相关的请求。",
@@ -1905,6 +1853,45 @@
     }
   },
   {
+    "name": "PythonicNinja/hormuz-minesweeper",
+    "url": "https://github.com/PythonicNinja/hormuz-minesweeper",
+    "description": "Hormuz Minesweeper is a classic Minesweeper clone played on a nautical chart of the Strait of Hormuz. Clear safe shipping lanes, flag naval mines hidden in the water, and use advanced “chording” moves to survive one of the world’s most strategic sea passages.",
+    "stars": 51,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "browser-game",
+      "geopolitics",
+      "javascript-game",
+      "minesweeper",
+      "strait-of-hormuz",
+      "win95"
+    ],
+    "license": "No license",
+    "created_at": "2026-03-17T14:29:31Z",
+    "updated_at": "2026-03-23T01:48:00Z",
+    "owner": {
+      "name": "PythonicNinja",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1098417?v=4"
+    }
+  },
+  {
+    "name": "Yuzc-001/grasp",
+    "url": "https://github.com/Yuzc-001/grasp",
+    "description": null,
+    "stars": 50,
+    "forks": 6,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-17T11:21:59Z",
+    "updated_at": "2026-03-23T02:06:11Z",
+    "owner": {
+      "name": "Yuzc-001",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199756267?v=4"
+    }
+  },
+  {
     "name": "saveasimagetype/extension",
     "url": "https://github.com/saveasimagetype/extension",
     "description": "Browser extension to save images as different types",
@@ -1976,22 +1963,6 @@
     }
   },
   {
-    "name": "Yuzc-001/grasp",
-    "url": "https://github.com/Yuzc-001/grasp",
-    "description": null,
-    "stars": 48,
-    "forks": 6,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-17T11:21:59Z",
-    "updated_at": "2026-03-22T01:03:38Z",
-    "owner": {
-      "name": "Yuzc-001",
-      "avatar_url": "https://avatars.githubusercontent.com/u/199756267?v=4"
-    }
-  },
-  {
     "name": "christian-bromann/deepagent-x-feed-monitoring",
     "url": "https://github.com/christian-bromann/deepagent-x-feed-monitoring",
     "description": "A LangChain Deep Agent that helps me monitor my X feed.",
@@ -2021,22 +1992,6 @@
     "owner": {
       "name": "finas",
       "avatar_url": "https://avatars.githubusercontent.com/u/4711027?v=4"
-    }
-  },
-  {
-    "name": "Lam-L/ObJournal",
-    "url": "https://github.com/Lam-L/ObJournal",
-    "description": "Obsidian plugin: Organize Markdown notes by calendar. Journal-style list, month view, On This Day & image galleries.",
-    "stars": 47,
-    "forks": 2,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-03T14:10:51Z",
-    "updated_at": "2026-03-08T20:03:40Z",
-    "owner": {
-      "name": "Lam-L",
-      "avatar_url": "https://avatars.githubusercontent.com/u/142386320?v=4"
     }
   },
   {
@@ -2112,6 +2067,38 @@
     "owner": {
       "name": "makimyys-afk",
       "avatar_url": "https://avatars.githubusercontent.com/u/233951170?v=4"
+    }
+  },
+  {
+    "name": "Rockman6/Maestro",
+    "url": "https://github.com/Rockman6/Maestro",
+    "description": "Conducting gesture recognition app — control orchestra playback with your hands via camera",
+    "stars": 44,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-19T15:15:16Z",
+    "updated_at": "2026-03-23T01:55:25Z",
+    "owner": {
+      "name": "Rockman6",
+      "avatar_url": "https://avatars.githubusercontent.com/u/214591124?v=4"
+    }
+  },
+  {
+    "name": "stevibe/local-ocr-workbench",
+    "url": "https://github.com/stevibe/local-ocr-workbench",
+    "description": null,
+    "stars": 44,
+    "forks": 5,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-17T10:29:36Z",
+    "updated_at": "2026-03-23T03:27:50Z",
+    "owner": {
+      "name": "stevibe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/268855905?v=4"
     }
   },
   {
@@ -2236,6 +2223,38 @@
     }
   },
   {
+    "name": "pc-study/csdn-blog",
+    "url": "https://github.com/pc-study/csdn-blog",
+    "description": "Lucifer三思而后行 CSDN博客备份 - 345篇文章+图片",
+    "stars": 40,
+    "forks": 20,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-19T09:17:48Z",
+    "updated_at": "2026-03-23T01:34:23Z",
+    "owner": {
+      "name": "pc-study",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53182073?v=4"
+    }
+  },
+  {
+    "name": "7836246/cursoride2api",
+    "url": "https://github.com/7836246/cursoride2api",
+    "description": "Cursor IDE API 逆向工程教程",
+    "stars": 40,
+    "forks": 21,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-20T06:10:27Z",
+    "updated_at": "2026-03-23T02:48:03Z",
+    "owner": {
+      "name": "7836246",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65436665?v=4"
+    }
+  },
+  {
     "name": "badlogic/pi-diff-review",
     "url": "https://github.com/badlogic/pi-diff-review",
     "description": null,
@@ -2268,22 +2287,6 @@
     }
   },
   {
-    "name": "pc-study/csdn-blog",
-    "url": "https://github.com/pc-study/csdn-blog",
-    "description": "Lucifer三思而后行 CSDN博客备份 - 345篇文章+图片",
-    "stars": 39,
-    "forks": 20,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-19T09:17:48Z",
-    "updated_at": "2026-03-20T15:31:23Z",
-    "owner": {
-      "name": "pc-study",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53182073?v=4"
-    }
-  },
-  {
     "name": "illbnm/bili-prophet",
     "url": "https://github.com/illbnm/bili-prophet",
     "description": "B站先知 - 看视频前先知道值不值得看。AI自动分析字幕，主页封面直出评级+概述+关键点，进度条标注时间轴",
@@ -2297,6 +2300,46 @@
     "owner": {
       "name": "illbnm",
       "avatar_url": "https://avatars.githubusercontent.com/u/23216524?v=4"
+    }
+  },
+  {
+    "name": "dotCipher/opencode-anthropic-user-agent-plugin",
+    "url": "https://github.com/dotCipher/opencode-anthropic-user-agent-plugin",
+    "description": null,
+    "stars": 38,
+    "forks": 6,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-20T02:52:36Z",
+    "updated_at": "2026-03-23T02:46:59Z",
+    "owner": {
+      "name": "dotCipher",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3977074?v=4"
+    }
+  },
+  {
+    "name": "choihyunsus/n2-arachne",
+    "url": "https://github.com/choihyunsus/n2-arachne",
+    "description": "Optimize AI workflows with Arachne. Automatically assembles the perfect code context (Tree, Target, Deps, Semantic) to fit context windows without noise. Built for efficiency and scale.",
+    "stars": 37,
+    "forks": 3,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "context-assembly",
+      "context-window",
+      "developer-tools",
+      "llm-optimization",
+      "mcp",
+      "sqlite"
+    ],
+    "license": "Other",
+    "created_at": "2026-03-21T06:11:08Z",
+    "updated_at": "2026-03-23T02:49:29Z",
+    "owner": {
+      "name": "choihyunsus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36554058?v=4"
     }
   },
   {
@@ -2329,22 +2372,6 @@
     }
   },
   {
-    "name": "dotCipher/opencode-anthropic-user-agent-plugin",
-    "url": "https://github.com/dotCipher/opencode-anthropic-user-agent-plugin",
-    "description": null,
-    "stars": 36,
-    "forks": 6,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-20T02:52:36Z",
-    "updated_at": "2026-03-22T02:47:19Z",
-    "owner": {
-      "name": "dotCipher",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3977074?v=4"
-    }
-  },
-  {
     "name": "mauriceboe/NOMAD",
     "url": "https://github.com/mauriceboe/NOMAD",
     "description": "A self-hosted travel planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
@@ -2373,7 +2400,7 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-03-19T11:51:54Z",
-    "updated_at": "2026-03-22T02:45:44Z",
+    "updated_at": "2026-03-22T16:58:46Z",
     "owner": {
       "name": "mauriceboe",
       "avatar_url": "https://avatars.githubusercontent.com/u/61554723?v=4"
@@ -2400,51 +2427,19 @@
     }
   },
   {
-    "name": "7836246/cursoride2api",
-    "url": "https://github.com/7836246/cursoride2api",
-    "description": "Cursor IDE API 逆向工程教程",
-    "stars": 36,
-    "forks": 21,
+    "name": "bear0103papa/Equityautoresearch",
+    "url": "https://github.com/bear0103papa/Equityautoresearch",
+    "description": "自動化投資研究工具",
+    "stars": 35,
+    "forks": 7,
     "language": "JavaScript",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-03-20T06:10:27Z",
-    "updated_at": "2026-03-21T12:21:30Z",
+    "created_at": "2026-03-19T15:00:18Z",
+    "updated_at": "2026-03-22T16:31:46Z",
     "owner": {
-      "name": "7836246",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65436665?v=4"
-    }
-  },
-  {
-    "name": "Joakim-Sael/moltbrowser-mcp",
-    "url": "https://github.com/Joakim-Sael/moltbrowser-mcp",
-    "description": "A community-driven registry of tools and configurations for fast, low-cost browser automation by agents",
-    "stars": 36,
-    "forks": 5,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-03T13:20:39Z",
-    "updated_at": "2026-03-09T03:49:33Z",
-    "owner": {
-      "name": "Joakim-Sael",
-      "avatar_url": "https://avatars.githubusercontent.com/u/111182226?v=4"
-    }
-  },
-  {
-    "name": "Kevjade/openclaw-api-list",
-    "url": "https://github.com/Kevjade/openclaw-api-list",
-    "description": "OpenClaw API Directory: 10,000+ APIs organized for OpenClaw. Maintained by The Operator Vault.",
-    "stars": 36,
-    "forks": 16,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-03T00:20:33Z",
-    "updated_at": "2026-03-08T22:46:24Z",
-    "owner": {
-      "name": "Kevjade",
-      "avatar_url": "https://avatars.githubusercontent.com/u/205432013?v=4"
+      "name": "bear0103papa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2935857?v=4"
     }
   },
   {
@@ -2496,6 +2491,22 @@
     }
   },
   {
+    "name": "mskatoni/ni-mail",
+    "url": "https://github.com/mskatoni/ni-mail",
+    "description": null,
+    "stars": 34,
+    "forks": 7,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-22T09:21:27Z",
+    "updated_at": "2026-03-23T03:26:23Z",
+    "owner": {
+      "name": "mskatoni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/270093769?v=4"
+    }
+  },
+  {
     "name": "0oooooooo0/skillless",
     "url": "https://github.com/0oooooooo0/skillless",
     "description": "Auto-discovery plugin for Claude Code skills - automatically recommends and installs relevant capabilities without users needing to know about skills",
@@ -2512,48 +2523,16 @@
     }
   },
   {
-    "name": "Rockman6/Maestro",
-    "url": "https://github.com/Rockman6/Maestro",
-    "description": "Conducting gesture recognition app — control orchestra playback with your hands via camera",
-    "stars": 33,
-    "forks": 0,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-19T15:15:16Z",
-    "updated_at": "2026-03-22T04:05:12Z",
-    "owner": {
-      "name": "Rockman6",
-      "avatar_url": "https://avatars.githubusercontent.com/u/214591124?v=4"
-    }
-  },
-  {
-    "name": "stevibe/local-ocr-workbench",
-    "url": "https://github.com/stevibe/local-ocr-workbench",
-    "description": null,
-    "stars": 33,
-    "forks": 5,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-17T10:29:36Z",
-    "updated_at": "2026-03-21T08:45:39Z",
-    "owner": {
-      "name": "stevibe",
-      "avatar_url": "https://avatars.githubusercontent.com/u/268855905?v=4"
-    }
-  },
-  {
     "name": "XyzenSun/vibespace",
     "url": "https://github.com/XyzenSun/vibespace",
     "description": "通过可视化向导，根据你的开发技术栈，选择配置好Skills，MCP，Agent的AI开发工具，一键生成生产可用的安全的容器化Vibe开发环境。",
-    "stars": 32,
+    "stars": 33,
     "forks": 6,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
     "created_at": "2026-03-18T06:49:18Z",
-    "updated_at": "2026-03-21T20:38:21Z",
+    "updated_at": "2026-03-22T12:38:31Z",
     "owner": {
       "name": "XyzenSun",
       "avatar_url": "https://avatars.githubusercontent.com/u/211201801?v=4"
@@ -2573,6 +2552,31 @@
     "owner": {
       "name": "hhy3189",
       "avatar_url": "https://avatars.githubusercontent.com/u/79962379?v=4"
+    }
+  },
+  {
+    "name": "borski/travel-hacking-toolkit",
+    "url": "https://github.com/borski/travel-hacking-toolkit",
+    "description": "AI-powered travel hacking with points, miles, and award flights. Drop-in skills and MCP servers for OpenCode and Claude Code.",
+    "stars": 31,
+    "forks": 3,
+    "language": "JavaScript",
+    "topics": [
+      "award-flights",
+      "claude-code",
+      "mcp",
+      "opencode",
+      "points-and-miles",
+      "skills",
+      "travel",
+      "travel-hacking"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-21T06:40:36Z",
+    "updated_at": "2026-03-23T02:41:16Z",
+    "owner": {
+      "name": "borski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/207674?v=4"
     }
   },
   {
@@ -2769,48 +2773,67 @@
     }
   },
   {
-    "name": "eze-is/web-access",
-    "url": "https://github.com/eze-is/web-access",
-    "description": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治",
+    "name": "roshanbvadassery/bairaneffect",
+    "url": "https://github.com/roshanbvadassery/bairaneffect",
+    "description": "Create dynamic videos with a freeze frame transition, background removal, and slideshow effect.",
     "stars": 28,
-    "forks": 3,
+    "forks": 7,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-03-18T05:54:57Z",
-    "updated_at": "2026-03-21T15:47:34Z",
+    "created_at": "2026-03-21T08:19:07Z",
+    "updated_at": "2026-03-22T20:59:33Z",
     "owner": {
-      "name": "eze-is",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53331888?v=4"
+      "name": "roshanbvadassery",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20357085?v=4"
     }
   },
   {
-    "name": "GoliathSocialBoiler/kalshi-claw-skill",
-    "url": "https://github.com/GoliathSocialBoiler/kalshi-claw-skill",
-    "description": null,
+    "name": "Wuyf5275/cursor-i18n-tool",
+    "url": "https://github.com/Wuyf5275/cursor-i18n-tool",
+    "description": "一键汉化cursor Setting、全平台可用",
     "stars": 28,
     "forks": 0,
     "language": "JavaScript",
-    "topics": [
-      "ai",
-      "ai-assistant",
-      "ai-trading",
-      "kalshi",
-      "kalshi-api",
-      "kalshi-bot",
-      "kalshi-claw",
-      "kalshi-claw-skill",
-      "kalshi-openclaw",
-      "skill",
-      "skill-ai",
-      "skills"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-05T17:45:17Z",
-    "updated_at": "2026-03-08T09:19:33Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-22T03:42:05Z",
+    "updated_at": "2026-03-23T02:30:58Z",
     "owner": {
-      "name": "GoliathSocialBoiler",
-      "avatar_url": "https://avatars.githubusercontent.com/u/258352430?v=4"
+      "name": "Wuyf5275",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114125023?v=4"
+    }
+  },
+  {
+    "name": "rg321/hey-claude",
+    "url": "https://github.com/rg321/hey-claude",
+    "description": "When Alexa can't answer, Claude takes over. AI home assistant powered by Claude.",
+    "stars": 27,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-19T13:35:51Z",
+    "updated_at": "2026-03-23T04:07:20Z",
+    "owner": {
+      "name": "rg321",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16621631?v=4"
+    }
+  },
+  {
+    "name": "fdhhhdjd/class-prometheus-grafana-telegram-alerts",
+    "url": "https://github.com/fdhhhdjd/class-prometheus-grafana-telegram-alerts",
+    "description": "🚨 This project is a complete, containerized monitoring environment designed to simulate real-world application metrics, visualize them, and automatically send alerts to a Telegram chat.",
+    "stars": 27,
+    "forks": 14,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-21T04:03:06Z",
+    "updated_at": "2026-03-22T09:53:23Z",
+    "owner": {
+      "name": "fdhhhdjd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63393170?v=4"
     }
   },
   {
@@ -2839,51 +2862,19 @@
     }
   },
   {
-    "name": "mrvladd-d/memobank",
-    "url": "https://github.com/mrvladd-d/memobank",
-    "description": "Agent-first Memory Bank skill pack for Codex CLI, Claude Code, and similar runtimes.",
-    "stars": 27,
-    "forks": 7,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-05T21:49:48Z",
-    "updated_at": "2026-03-08T23:51:28Z",
-    "owner": {
-      "name": "mrvladd-d",
-      "avatar_url": "https://avatars.githubusercontent.com/u/201632276?v=4"
-    }
-  },
-  {
-    "name": "jwolberg/volscan",
-    "url": "https://github.com/jwolberg/volscan",
-    "description": "A locally-run options analytics terminal built on the [Trading Volatility API](https://tradingvolatility.net), with an AI-powered trading brief generated by Claude.",
-    "stars": 26,
+    "name": "halilibrahimd27/cheat-sheet",
+    "url": "https://github.com/halilibrahimd27/cheat-sheet",
+    "description": null,
+    "stars": 25,
     "forks": 3,
     "language": "JavaScript",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-08T00:08:31Z",
-    "updated_at": "2026-03-08T20:35:43Z",
-    "owner": {
-      "name": "jwolberg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7315948?v=4"
-    }
-  },
-  {
-    "name": "bear0103papa/Equityautoresearch",
-    "url": "https://github.com/bear0103papa/Equityautoresearch",
-    "description": "自動化投資研究工具",
-    "stars": 25,
-    "forks": 6,
-    "language": "JavaScript",
-    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-03-19T15:00:18Z",
-    "updated_at": "2026-03-22T00:53:31Z",
+    "created_at": "2026-03-18T10:20:00Z",
+    "updated_at": "2026-03-22T18:22:27Z",
     "owner": {
-      "name": "bear0103papa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2935857?v=4"
+      "name": "halilibrahimd27",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111151272?v=4"
     }
   },
   {
