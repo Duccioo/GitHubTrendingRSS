@@ -3,13 +3,13 @@
     "name": "NVIDIA/NemoClaw",
     "url": "https://github.com/NVIDIA/NemoClaw",
     "description": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference",
-    "stars": 16418,
-    "forks": 1763,
+    "stars": 16795,
+    "forks": 1855,
     "language": "JavaScript",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-03-15T17:04:09Z",
-    "updated_at": "2026-03-25T04:09:34Z",
+    "updated_at": "2026-03-26T04:25:04Z",
     "owner": {
       "name": "NVIDIA",
       "avatar_url": "https://avatars.githubusercontent.com/u/1728152?v=4"
@@ -19,8 +19,8 @@
     "name": "calesthio/Crucix",
     "url": "https://github.com/calesthio/Crucix",
     "description": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.",
-    "stars": 6678,
-    "forks": 1024,
+    "stars": 6903,
+    "forks": 1057,
     "language": "JavaScript",
     "topics": [
       "ai",
@@ -29,7 +29,7 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-03-14T07:33:06Z",
-    "updated_at": "2026-03-25T04:02:20Z",
+    "updated_at": "2026-03-26T03:53:20Z",
     "owner": {
       "name": "calesthio",
       "avatar_url": "https://avatars.githubusercontent.com/u/213189893?v=4"
@@ -67,13 +67,13 @@
     "name": "pasky/chrome-cdp-skill",
     "url": "https://github.com/pasky/chrome-cdp-skill",
     "description": "Give your AI agent access to your live Chrome session — works out of the box, connects to tabs you already have open",
-    "stars": 2638,
+    "stars": 2666,
     "forks": 150,
     "language": "JavaScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-13T00:35:39Z",
-    "updated_at": "2026-03-25T03:55:06Z",
+    "updated_at": "2026-03-26T04:22:50Z",
     "owner": {
       "name": "pasky",
       "avatar_url": "https://avatars.githubusercontent.com/u/18439?v=4"
@@ -83,8 +83,8 @@
     "name": "qingchencloud/clawpanel",
     "url": "https://github.com/qingchencloud/clawpanel",
     "description": "🦞 OpenClaw 可视化管理面板 — 内置 AI 助手（工具调用 + 图片识别 + 多模态），一键安装 | Visual management panel with built-in AI assistant (tool calling + vision + multimodal + i18n(11))",
-    "stars": 1595,
-    "forks": 196,
+    "stars": 1629,
+    "forks": 200,
     "language": "JavaScript",
     "topics": [
       "admin-panel",
@@ -110,18 +110,34 @@
     ],
     "license": "Other",
     "created_at": "2026-02-26T13:37:07Z",
-    "updated_at": "2026-03-25T03:57:58Z",
+    "updated_at": "2026-03-26T03:46:02Z",
     "owner": {
       "name": "qingchencloud",
       "avatar_url": "https://avatars.githubusercontent.com/u/42165103?v=4"
     }
   },
   {
+    "name": "eze-is/web-access",
+    "url": "https://github.com/eze-is/web-access",
+    "description": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治",
+    "stars": 1481,
+    "forks": 132,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-18T05:54:57Z",
+    "updated_at": "2026-03-26T04:27:11Z",
+    "owner": {
+      "name": "eze-is",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53331888?v=4"
+    }
+  },
+  {
     "name": "datawhalechina/hello-claw",
     "url": "https://github.com/datawhalechina/hello-claw",
     "description": "哈喽！龙虾 🙋‍♀️，首个体系化 openclaw 中文开源教程 ｜ Adopt from scratch and build your first claw 🦞 来领养你的第一只龙虾！",
-    "stars": 1284,
-    "forks": 128,
+    "stars": 1353,
+    "forks": 138,
     "language": "JavaScript",
     "topics": [
       "ai",
@@ -136,26 +152,10 @@
     ],
     "license": "No license",
     "created_at": "2026-03-04T03:04:38Z",
-    "updated_at": "2026-03-25T04:08:28Z",
+    "updated_at": "2026-03-26T04:16:26Z",
     "owner": {
       "name": "datawhalechina",
       "avatar_url": "https://avatars.githubusercontent.com/u/46047812?v=4"
-    }
-  },
-  {
-    "name": "eze-is/web-access",
-    "url": "https://github.com/eze-is/web-access",
-    "description": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治",
-    "stars": 1076,
-    "forks": 111,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-18T05:54:57Z",
-    "updated_at": "2026-03-25T04:11:59Z",
-    "owner": {
-      "name": "eze-is",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53331888?v=4"
     }
   },
   {
@@ -175,10 +175,48 @@
     }
   },
   {
+    "name": "fjb040911/ai-rules",
+    "url": "https://github.com/fjb040911/ai-rules",
+    "description": "ai-rules is a governance framework designed to solve \"Architectural Decay\" in AI-driven development. It forces AI Agents (Cursor, Windsurf, Copilot) to respect your project's boundaries, UI libraries, and design patterns.",
+    "stars": 898,
+    "forks": 18,
+    "language": "JavaScript",
+    "topics": [
+      "ai-code-review",
+      "ai-coding",
+      "code-review",
+      "code-rules",
+      "repair-prompt"
+    ],
+    "license": "No license",
+    "created_at": "2026-03-06T08:07:15Z",
+    "updated_at": "2026-03-26T04:25:25Z",
+    "owner": {
+      "name": "fjb040911",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8717555?v=4"
+    }
+  },
+  {
+    "name": "zarazhangrui/follow-builders",
+    "url": "https://github.com/zarazhangrui/follow-builders",
+    "description": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
+    "stars": 894,
+    "forks": 77,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-14T16:28:39Z",
+    "updated_at": "2026-03-26T04:28:19Z",
+    "owner": {
+      "name": "zarazhangrui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153693696?v=4"
+    }
+  },
+  {
     "name": "chrysb/alphaclaw",
     "url": "https://github.com/chrysb/alphaclaw",
     "description": "The ultimate setup harness for OpenClaw. Deploy in minutes. Stay running for months. No CLI required.",
-    "stars": 856,
+    "stars": 860,
     "forks": 109,
     "language": "JavaScript",
     "topics": [
@@ -191,32 +229,10 @@
     ],
     "license": "MIT License",
     "created_at": "2026-02-25T05:15:58Z",
-    "updated_at": "2026-03-25T00:20:20Z",
+    "updated_at": "2026-03-25T21:42:42Z",
     "owner": {
       "name": "chrysb",
       "avatar_url": "https://avatars.githubusercontent.com/u/120388?v=4"
-    }
-  },
-  {
-    "name": "fjb040911/ai-rules",
-    "url": "https://github.com/fjb040911/ai-rules",
-    "description": "ai-rules is a governance framework designed to solve \"Architectural Decay\" in AI-driven development. It forces AI Agents (Cursor, Windsurf, Copilot) to respect your project's boundaries, UI libraries, and design patterns.",
-    "stars": 847,
-    "forks": 17,
-    "language": "JavaScript",
-    "topics": [
-      "ai-code-review",
-      "ai-coding",
-      "code-review",
-      "code-rules",
-      "repair-prompt"
-    ],
-    "license": "No license",
-    "created_at": "2026-03-06T08:07:15Z",
-    "updated_at": "2026-03-25T04:09:29Z",
-    "owner": {
-      "name": "fjb040911",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8717555?v=4"
     }
   },
   {
@@ -263,6 +279,22 @@
     "owner": {
       "name": "dimartarmizi",
       "avatar_url": "https://avatars.githubusercontent.com/u/124131559?v=4"
+    }
+  },
+  {
+    "name": "OpenLAIR/dr-claw",
+    "url": "https://github.com/OpenLAIR/dr-claw",
+    "description": "A Super AI Lab with massive AI Doctors as Assistants. Best IDE for Research via AI Power",
+    "stars": 679,
+    "forks": 58,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-02-26T05:03:51Z",
+    "updated_at": "2026-03-26T04:22:24Z",
+    "owner": {
+      "name": "OpenLAIR",
+      "avatar_url": "https://avatars.githubusercontent.com/u/263098388?v=4"
     }
   },
   {
@@ -314,27 +346,11 @@
     }
   },
   {
-    "name": "OpenLAIR/dr-claw",
-    "url": "https://github.com/OpenLAIR/dr-claw",
-    "description": "A Super AI Lab with massive AI Doctors as Assistants. Best IDE for Research via AI Power",
-    "stars": 661,
-    "forks": 56,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-02-26T05:03:51Z",
-    "updated_at": "2026-03-25T03:24:30Z",
-    "owner": {
-      "name": "OpenLAIR",
-      "avatar_url": "https://avatars.githubusercontent.com/u/263098388?v=4"
-    }
-  },
-  {
     "name": "phuc-nt/my-translator",
     "url": "https://github.com/phuc-nt/my-translator",
     "description": "Real-time speech translation — macOS & Windows, free TTS, no server, your API keys only",
-    "stars": 616,
-    "forks": 231,
+    "stars": 630,
+    "forks": 236,
     "language": "JavaScript",
     "topics": [
       "macos",
@@ -350,7 +366,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-13T11:07:44Z",
-    "updated_at": "2026-03-25T02:56:28Z",
+    "updated_at": "2026-03-26T01:10:58Z",
     "owner": {
       "name": "phuc-nt",
       "avatar_url": "https://avatars.githubusercontent.com/u/17255682?v=4"
@@ -387,8 +403,8 @@
     "name": "es617/claude-replay",
     "url": "https://github.com/es617/claude-replay",
     "description": "Convert AI coding agent sessions (Claude Code, Cursor, Codex) into self-contained, embeddable HTML  replays",
-    "stars": 566,
-    "forks": 32,
+    "stars": 572,
+    "forks": 33,
     "language": "JavaScript",
     "topics": [
       "agents",
@@ -398,17 +414,49 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-02T05:40:03Z",
-    "updated_at": "2026-03-24T14:07:39Z",
+    "updated_at": "2026-03-25T22:48:06Z",
     "owner": {
       "name": "es617",
       "avatar_url": "https://avatars.githubusercontent.com/u/64611135?v=4"
     }
   },
   {
+    "name": "dashersw/gea",
+    "url": "https://github.com/dashersw/gea",
+    "description": null,
+    "stars": 572,
+    "forks": 21,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-18T08:21:45Z",
+    "updated_at": "2026-03-26T03:48:02Z",
+    "owner": {
+      "name": "dashersw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/698308?v=4"
+    }
+  },
+  {
+    "name": "liliMozi/openhanako",
+    "url": "https://github.com/liliMozi/openhanako",
+    "description": "A personal AI agent with memory, personality, and autonomy — built on Electron.",
+    "stars": 556,
+    "forks": 66,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-15T07:01:45Z",
+    "updated_at": "2026-03-26T02:45:18Z",
+    "owner": {
+      "name": "liliMozi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/266472116?v=4"
+    }
+  },
+  {
     "name": "KeyID-AI/agent-kit",
     "url": "https://github.com/KeyID-AI/agent-kit",
     "description": "Give Claude/Cursor email powers. 27 MCP tools — inbox, send, reply, contacts, search. Free, no signup.",
-    "stars": 548,
+    "stars": 552,
     "forks": 8,
     "language": "JavaScript",
     "topics": [
@@ -424,66 +472,18 @@
     ],
     "license": "No license",
     "created_at": "2026-03-13T01:55:26Z",
-    "updated_at": "2026-03-23T01:14:17Z",
+    "updated_at": "2026-03-26T04:10:07Z",
     "owner": {
       "name": "KeyID-AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/267736604?v=4"
     }
   },
   {
-    "name": "zarazhangrui/follow-builders",
-    "url": "https://github.com/zarazhangrui/follow-builders",
-    "description": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-    "stars": 533,
-    "forks": 56,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-14T16:28:39Z",
-    "updated_at": "2026-03-25T03:58:25Z",
-    "owner": {
-      "name": "zarazhangrui",
-      "avatar_url": "https://avatars.githubusercontent.com/u/153693696?v=4"
-    }
-  },
-  {
-    "name": "liliMozi/openhanako",
-    "url": "https://github.com/liliMozi/openhanako",
-    "description": "A personal AI agent with memory, personality, and autonomy — built on Electron.",
-    "stars": 531,
-    "forks": 63,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-15T07:01:45Z",
-    "updated_at": "2026-03-25T03:31:16Z",
-    "owner": {
-      "name": "liliMozi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266472116?v=4"
-    }
-  },
-  {
-    "name": "BillionsNetwork/verified-agent-identity",
-    "url": "https://github.com/BillionsNetwork/verified-agent-identity",
-    "description": null,
-    "stars": 502,
-    "forks": 5537,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-20T11:23:34Z",
-    "updated_at": "2026-03-20T18:09:45Z",
-    "owner": {
-      "name": "BillionsNetwork",
-      "avatar_url": "https://avatars.githubusercontent.com/u/246507321?v=4"
-    }
-  },
-  {
     "name": "cosmiciron/vmprint",
     "url": "https://github.com/cosmiciron/vmprint",
     "description": "What if your documents could react to their own layout? VMPrint is a patent-pending spatialtemporal layout engine. It's tiny, fast and pure JavaScript — It runs on anything, be it the edge, a mobile phone, or embedded entirely in a static HTML page. Desktop publishing power without a headless browser in sight.",
-    "stars": 488,
-    "forks": 10,
+    "stars": 524,
+    "forks": 9,
     "language": "JavaScript",
     "topics": [
       "canvas",
@@ -503,39 +503,55 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-03-01T11:29:14Z",
-    "updated_at": "2026-03-25T03:10:44Z",
+    "updated_at": "2026-03-26T03:10:28Z",
     "owner": {
       "name": "cosmiciron",
       "avatar_url": "https://avatars.githubusercontent.com/u/4078554?v=4"
     }
   },
   {
-    "name": "dashersw/gea",
-    "url": "https://github.com/dashersw/gea",
+    "name": "BillionsNetwork/verified-agent-identity",
+    "url": "https://github.com/BillionsNetwork/verified-agent-identity",
     "description": null,
-    "stars": 482,
-    "forks": 18,
+    "stars": 502,
+    "forks": 5537,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-02-20T11:23:34Z",
+    "updated_at": "2026-03-20T18:09:45Z",
+    "owner": {
+      "name": "BillionsNetwork",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246507321?v=4"
+    }
+  },
+  {
+    "name": "wasmerio/edgejs",
+    "url": "https://github.com/wasmerio/edgejs",
+    "description": "Edge.js is a secure JavaScript runtime, designed for Edge computing and AI workloads",
+    "stars": 473,
+    "forks": 15,
     "language": "JavaScript",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-03-18T08:21:45Z",
-    "updated_at": "2026-03-25T03:45:11Z",
+    "created_at": "2026-03-01T06:30:52Z",
+    "updated_at": "2026-03-26T00:57:55Z",
     "owner": {
-      "name": "dashersw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/698308?v=4"
+      "name": "wasmerio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44205449?v=4"
     }
   },
   {
     "name": "vasilytrofimchuk/domainsearcher-app",
     "url": "https://github.com/vasilytrofimchuk/domainsearcher-app",
     "description": "Score and choose the best domain name for your startup — AI-powered generation, real-time availability, and multi-dimensional scoring (LEN, PRO, MEM, BRD, FIT). Free, no signup.",
-    "stars": 472,
+    "stars": 471,
     "forks": 10,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
     "created_at": "2026-03-11T19:22:52Z",
-    "updated_at": "2026-03-24T07:45:53Z",
+    "updated_at": "2026-03-25T17:47:31Z",
     "owner": {
       "name": "vasilytrofimchuk",
       "avatar_url": "https://avatars.githubusercontent.com/u/1506641?v=4"
@@ -558,22 +574,6 @@
     }
   },
   {
-    "name": "wasmerio/edgejs",
-    "url": "https://github.com/wasmerio/edgejs",
-    "description": "Edge.js is a secure JavaScript runtime, designed for Edge computing and AI workloads",
-    "stars": 464,
-    "forks": 15,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-01T06:30:52Z",
-    "updated_at": "2026-03-25T01:20:22Z",
-    "owner": {
-      "name": "wasmerio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44205449?v=4"
-    }
-  },
-  {
     "name": "Kail-Fu/InterviewOS",
     "url": "https://github.com/Kail-Fu/InterviewOS",
     "description": "Replace coding puzzles with real-work simulations.",
@@ -593,8 +593,8 @@
     "name": "gradenGnostic/LegacyLauncher",
     "url": "https://github.com/gradenGnostic/LegacyLauncher",
     "description": "A custom launcher for Minecraft LCE.",
-    "stars": 443,
-    "forks": 29,
+    "stars": 446,
+    "forks": 30,
     "language": "JavaScript",
     "topics": [
       "minecraft",
@@ -606,7 +606,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-04T17:44:07Z",
-    "updated_at": "2026-03-24T21:04:41Z",
+    "updated_at": "2026-03-26T02:33:00Z",
     "owner": {
       "name": "gradenGnostic",
       "avatar_url": "https://avatars.githubusercontent.com/u/254755644?v=4"
@@ -632,13 +632,13 @@
     "name": "Kilted-Kraken/-RohanKar-Launcher",
     "url": "https://github.com/Kilted-Kraken/-RohanKar-Launcher",
     "description": null,
-    "stars": 430,
+    "stars": 436,
     "forks": 19,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
     "created_at": "2026-03-08T04:42:09Z",
-    "updated_at": "2026-03-25T00:34:14Z",
+    "updated_at": "2026-03-25T21:53:54Z",
     "owner": {
       "name": "Kilted-Kraken",
       "avatar_url": "https://avatars.githubusercontent.com/u/253845106?v=4"
@@ -661,34 +661,19 @@
     }
   },
   {
-    "name": "mruniquehacker/KnightBot-Mini",
-    "url": "https://github.com/mruniquehacker/KnightBot-Mini",
-    "description": "Your Bot. Your Rules.",
-    "stars": 419,
-    "forks": 828,
+    "name": "khanhduytran0/coruna",
+    "url": "https://github.com/khanhduytran0/coruna",
+    "description": "The leaked exploit toolkit for various iOS versions",
+    "stars": 394,
+    "forks": 84,
     "language": "JavaScript",
-    "topics": [
-      "baileys-bot-md",
-      "knight-bot-mini",
-      "knightbot",
-      "knightbot-mini",
-      "knightbotmini",
-      "mini",
-      "mruniquehacker",
-      "whatsapp-bot",
-      "whatsapp-bot-github-topics",
-      "whatsapp-bot-md",
-      "whatsapp-latest-bot",
-      "whatsappbot",
-      "whatsappbot-md",
-      "whatsappbotmd"
-    ],
+    "topics": [],
     "license": "No license",
-    "created_at": "2026-02-11T13:16:55Z",
-    "updated_at": "2026-03-11T23:51:03Z",
+    "created_at": "2026-03-07T06:06:02Z",
+    "updated_at": "2026-03-25T18:24:32Z",
     "owner": {
-      "name": "mruniquehacker",
-      "avatar_url": "https://avatars.githubusercontent.com/u/182342456?v=4"
+      "name": "khanhduytran0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40482367?v=4"
     }
   },
   {
@@ -708,19 +693,19 @@
     }
   },
   {
-    "name": "khanhduytran0/coruna",
-    "url": "https://github.com/khanhduytran0/coruna",
-    "description": "The leaked exploit toolkit for various iOS versions",
-    "stars": 388,
-    "forks": 77,
+    "name": "pexoai/pexo-skills",
+    "url": "https://github.com/pexoai/pexo-skills",
+    "description": "A collection of open-source Agent Skills for content creation — images, audio, and video.",
+    "stars": 383,
+    "forks": 18,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-03-07T06:06:02Z",
-    "updated_at": "2026-03-25T00:19:03Z",
+    "created_at": "2026-03-04T11:45:06Z",
+    "updated_at": "2026-03-26T03:46:24Z",
     "owner": {
-      "name": "khanhduytran0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40482367?v=4"
+      "name": "pexoai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/265463178?v=4"
     }
   },
   {
@@ -758,22 +743,6 @@
     }
   },
   {
-    "name": "pexoai/pexo-skills",
-    "url": "https://github.com/pexoai/pexo-skills",
-    "description": "A collection of open-source Agent Skills for content creation — images, audio, and video.",
-    "stars": 369,
-    "forks": 18,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-04T11:45:06Z",
-    "updated_at": "2026-03-25T03:38:53Z",
-    "owner": {
-      "name": "pexoai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/265463178?v=4"
-    }
-  },
-  {
     "name": "AnInsomniacy/motrix-next",
     "url": "https://github.com/AnInsomniacy/motrix-next",
     "description": "A full-featured download manager — rebuilt from the ground up",
@@ -790,26 +759,10 @@
     }
   },
   {
-    "name": "weiesky/cc-viewer",
-    "url": "https://github.com/weiesky/cc-viewer",
-    "description": "A request monitoring system for Claude Code that captures and visualizes all API requests and responses in real time. Helps developers monitor their Context for reviewing and debugging during Vibe Coding.",
-    "stars": 354,
-    "forks": 45,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-17T13:57:27Z",
-    "updated_at": "2026-03-18T02:12:06Z",
-    "owner": {
-      "name": "weiesky",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3365650?v=4"
-    }
-  },
-  {
     "name": "f/agentlytics",
     "url": "https://github.com/f/agentlytics",
     "description": "Comprehensive analytics dashboard for AI coding agents — Cursor, Windsurf, Claude Code, VS Code Copilot, Zed, Antigravity, OpenCode, Command Code",
-    "stars": 353,
+    "stars": 355,
     "forks": 37,
     "language": "JavaScript",
     "topics": [
@@ -831,10 +784,26 @@
     ],
     "license": "No license",
     "created_at": "2026-03-07T01:39:41Z",
-    "updated_at": "2026-03-24T19:14:30Z",
+    "updated_at": "2026-03-25T12:18:01Z",
     "owner": {
       "name": "f",
       "avatar_url": "https://avatars.githubusercontent.com/u/196477?v=4"
+    }
+  },
+  {
+    "name": "weiesky/cc-viewer",
+    "url": "https://github.com/weiesky/cc-viewer",
+    "description": "A request monitoring system for Claude Code that captures and visualizes all API requests and responses in real time. Helps developers monitor their Context for reviewing and debugging during Vibe Coding.",
+    "stars": 354,
+    "forks": 45,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-02-17T13:57:27Z",
+    "updated_at": "2026-03-18T02:12:06Z",
+    "owner": {
+      "name": "weiesky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3365650?v=4"
     }
   },
   {
@@ -854,6 +823,59 @@
     }
   },
   {
+    "name": "epiral/bb-sites",
+    "url": "https://github.com/epiral/bb-sites",
+    "description": "Community fetch recipes for bb-browser — pre-built adapters for Reddit, Twitter, GitHub, and more",
+    "stars": 338,
+    "forks": 59,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-14T08:48:30Z",
+    "updated_at": "2026-03-26T03:42:51Z",
+    "owner": {
+      "name": "epiral",
+      "avatar_url": "https://avatars.githubusercontent.com/u/259771830?v=4"
+    }
+  },
+  {
+    "name": "SethGammon/Citadel",
+    "url": "https://github.com/SethGammon/Citadel",
+    "description": "Agent orchestration harness for Claude Code. Four-tier routing (/do), campaign persistence across sessions, parallel agents in isolated worktrees, discovery relay between waves, lifecycle hooks, circuit breaker, and 6 production-quality skills. From solo developer to institutional scale.",
+    "stars": 330,
+    "forks": 36,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-20T05:42:54Z",
+    "updated_at": "2026-03-26T04:22:10Z",
+    "owner": {
+      "name": "SethGammon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5523585?v=4"
+    }
+  },
+  {
+    "name": "0ran/wallpaper-engine-download-web",
+    "url": "https://github.com/0ran/wallpaper-engine-download-web",
+    "description": "Download all wallpapers for Wallpaper Engine without logging in.",
+    "stars": 317,
+    "forks": 62,
+    "language": "JavaScript",
+    "topics": [
+      "downloader",
+      "video-wallpaper",
+      "wallpaper",
+      "wallpaper-engine"
+    ],
+    "license": "No license",
+    "created_at": "2026-03-04T09:32:31Z",
+    "updated_at": "2026-03-26T04:21:13Z",
+    "owner": {
+      "name": "0ran",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45210448?v=4"
+    }
+  },
+  {
     "name": "linlay/zenmind",
     "url": "https://github.com/linlay/zenmind",
     "description": "宅在家里的电脑，努力做一个openclaw",
@@ -867,27 +889,6 @@
     "owner": {
       "name": "linlay",
       "avatar_url": "https://avatars.githubusercontent.com/u/15024385?v=4"
-    }
-  },
-  {
-    "name": "0ran/wallpaper-engine-download-web",
-    "url": "https://github.com/0ran/wallpaper-engine-download-web",
-    "description": "Download all wallpapers for Wallpaper Engine without logging in.",
-    "stars": 313,
-    "forks": 60,
-    "language": "JavaScript",
-    "topics": [
-      "downloader",
-      "video-wallpaper",
-      "wallpaper",
-      "wallpaper-engine"
-    ],
-    "license": "No license",
-    "created_at": "2026-03-04T09:32:31Z",
-    "updated_at": "2026-03-25T02:29:50Z",
-    "owner": {
-      "name": "0ran",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45210448?v=4"
     }
   },
   {
@@ -907,19 +908,26 @@
     }
   },
   {
-    "name": "SethGammon/Citadel",
-    "url": "https://github.com/SethGammon/Citadel",
-    "description": "Agent orchestration harness for Claude Code. Four-tier routing (/do), campaign persistence across sessions, parallel agents in isolated worktrees, discovery relay between waves, lifecycle hooks, circuit breaker, and 6 production-quality skills. From solo developer to institutional scale.",
-    "stars": 307,
-    "forks": 33,
+    "name": "AnnaSuSu/TechSpar",
+    "url": "https://github.com/AnnaSuSu/TechSpar",
+    "description": "带长期记忆的 AI 面试教练，持续追踪薄弱点与掌握度，自动生成更精准的技术面试题。",
+    "stars": 300,
+    "forks": 35,
     "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-20T05:42:54Z",
-    "updated_at": "2026-03-25T04:13:57Z",
+    "topics": [
+      "ai-interview",
+      "ai-interview-questions",
+      "interview-coach",
+      "long-term-memory",
+      "mock-interview",
+      "personalized-learning"
+    ],
+    "license": "No license",
+    "created_at": "2026-03-16T20:32:18Z",
+    "updated_at": "2026-03-26T04:13:30Z",
     "owner": {
-      "name": "SethGammon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5523585?v=4"
+      "name": "AnnaSuSu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64579968?v=4"
     }
   },
   {
@@ -960,19 +968,19 @@
     }
   },
   {
-    "name": "epiral/bb-sites",
-    "url": "https://github.com/epiral/bb-sites",
-    "description": "Community fetch recipes for bb-browser — pre-built adapters for Reddit, Twitter, GitHub, and more",
-    "stars": 283,
-    "forks": 54,
+    "name": "kulikov0/whitelist-bypass",
+    "url": "https://github.com/kulikov0/whitelist-bypass",
+    "description": null,
+    "stars": 284,
+    "forks": 14,
     "language": "JavaScript",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-14T08:48:30Z",
-    "updated_at": "2026-03-24T14:52:54Z",
+    "license": "MIT License",
+    "created_at": "2026-03-19T15:58:14Z",
+    "updated_at": "2026-03-25T22:02:17Z",
     "owner": {
-      "name": "epiral",
-      "avatar_url": "https://avatars.githubusercontent.com/u/259771830?v=4"
+      "name": "kulikov0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19497634?v=4"
     }
   },
   {
@@ -1088,43 +1096,6 @@
     }
   },
   {
-    "name": "ancsemi/Haven",
-    "url": "https://github.com/ancsemi/Haven",
-    "description": "Self-hosted private chat — No cloud, no telemetry, no Big Tech. Discord alternative that runs on your own machine.",
-    "stars": 268,
-    "forks": 17,
-    "language": "JavaScript",
-    "topics": [
-      "android-application",
-      "browser",
-      "chat",
-      "discord",
-      "discord-alternative",
-      "docker",
-      "encryption",
-      "homelab",
-      "linux",
-      "messaging",
-      "nodejs",
-      "picture-in-picture",
-      "privacy",
-      "self-hosted",
-      "selfhosted",
-      "server",
-      "soundcloud",
-      "streaming",
-      "voice-chat",
-      "youtube"
-    ],
-    "license": "Other",
-    "created_at": "2026-02-11T05:16:20Z",
-    "updated_at": "2026-03-12T03:36:03Z",
-    "owner": {
-      "name": "ancsemi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/249465243?v=4"
-    }
-  },
-  {
     "name": "FinPyromancerLog/xcode-claw",
     "url": "https://github.com/FinPyromancerLog/xcode-claw",
     "description": null,
@@ -1211,43 +1182,6 @@
     "owner": {
       "name": "maile456",
       "avatar_url": "https://avatars.githubusercontent.com/u/144443965?v=4"
-    }
-  },
-  {
-    "name": "virtengine/bosun",
-    "url": "https://github.com/virtengine/bosun",
-    "description": "Autonomous Engineering",
-    "stars": 226,
-    "forks": 16,
-    "language": "JavaScript",
-    "topics": [
-      "agents",
-      "automation",
-      "chatgpt",
-      "claude",
-      "claude-code",
-      "codex",
-      "coding",
-      "copilot",
-      "development",
-      "engineering",
-      "gemini",
-      "gpt",
-      "human-in-the-loop",
-      "llm",
-      "machine-learning",
-      "n8n",
-      "ollama",
-      "opencode",
-      "software-engineering",
-      "voice-assistant"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-02-19T07:52:11Z",
-    "updated_at": "2026-03-12T03:23:36Z",
-    "owner": {
-      "name": "virtengine",
-      "avatar_url": "https://avatars.githubusercontent.com/u/21952623?v=4"
     }
   }
 ]
