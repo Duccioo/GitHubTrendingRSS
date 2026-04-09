@@ -3,13 +3,13 @@
     "name": "0din-ai/ai-scanner",
     "url": "https://github.com/0din-ai/ai-scanner",
     "description": "AI model safety scanner built on NVIDIA garak",
-    "stars": 400,
-    "forks": 71,
+    "stars": 402,
+    "forks": 73,
     "language": "Ruby",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-03-19T21:41:41Z",
-    "updated_at": "2026-04-08T01:27:18Z",
+    "updated_at": "2026-04-09T00:09:59Z",
     "owner": {
       "name": "0din-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/176250804?v=4"
@@ -36,7 +36,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-13T08:34:02Z",
-    "updated_at": "2026-04-07T13:50:16Z",
+    "updated_at": "2026-04-09T02:00:36Z",
     "owner": {
       "name": "smgdkngt",
       "avatar_url": "https://avatars.githubusercontent.com/u/834991?v=4"
@@ -62,13 +62,13 @@
     "name": "akitaonrails/frank_investigator",
     "url": "https://github.com/akitaonrails/frank_investigator",
     "description": "An attempt at a news audit system to analyze biased or even fake journalism",
-    "stars": 119,
+    "stars": 120,
     "forks": 16,
     "language": "Ruby",
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-03-25T16:22:03Z",
-    "updated_at": "2026-04-07T22:12:03Z",
+    "updated_at": "2026-04-08T10:57:31Z",
     "owner": {
       "name": "akitaonrails",
       "avatar_url": "https://avatars.githubusercontent.com/u/2840?v=4"
@@ -77,15 +77,19 @@
   {
     "name": "crisnahine/rails-ai-context",
     "url": "https://github.com/crisnahine/rails-ai-context",
-    "description": "Auto-introspect your Rails app and expose it to AI assistants. 38 tools, zero config, works with Claude, Cursor, Copilot, and any MCP client.",
-    "stars": 109,
+    "description": "38 MCP tools that give AI agents live access to your Rails schema, models, routes & conventions. Works with Claude Code, Cursor, Copilot, OpenCode, Codex CLI. Zero config.",
+    "stars": 110,
     "forks": 9,
     "language": "Ruby",
     "topics": [
       "ai",
       "ai-coding",
       "claude",
+      "codex",
+      "codex-cli",
       "copilot",
+      "copilot-chat",
+      "copilot-cli",
       "cursor",
       "developer-tools",
       "introspection",
@@ -101,7 +105,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-18T05:54:18Z",
-    "updated_at": "2026-04-07T17:05:17Z",
+    "updated_at": "2026-04-09T03:23:45Z",
     "owner": {
       "name": "crisnahine",
       "avatar_url": "https://avatars.githubusercontent.com/u/80492222?v=4"
@@ -140,27 +144,6 @@
     }
   },
   {
-    "name": "thoughtbot/test_budget",
-    "url": "https://github.com/thoughtbot/test_budget",
-    "description": "Prevent slow tests from creeping into your suite.",
-    "stars": 43,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [
-      "linter",
-      "performance",
-      "ruby",
-      "testing"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-05T18:02:02Z",
-    "updated_at": "2026-03-25T21:33:01Z",
-    "owner": {
-      "name": "thoughtbot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6183?v=4"
-    }
-  },
-  {
     "name": "Scottcjn/homebrew-tap",
     "url": "https://github.com/Scottcjn/homebrew-tap",
     "description": "Homebrew tap for Elyan Labs tools (grazer, beacon, clawrtc)",
@@ -177,19 +160,19 @@
     }
   },
   {
-    "name": "raullenchai/homebrew-rapid-mlx",
-    "url": "https://github.com/raullenchai/homebrew-rapid-mlx",
-    "description": "Homebrew tap for Rapid-MLX — AI inference for Apple Silicon",
-    "stars": 28,
-    "forks": 24,
+    "name": "MatthewSuttles/rubyn-code",
+    "url": "https://github.com/MatthewSuttles/rubyn-code",
+    "description": "Ruby & Rails agentic coding assistant powered by Claude. 28 tools, 112 skills, 16-layer architecture.",
+    "stars": 25,
+    "forks": 3,
     "language": "Ruby",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-20T19:21:12Z",
-    "updated_at": "2026-04-07T20:50:42Z",
+    "license": "MIT License",
+    "created_at": "2026-04-02T18:25:00Z",
+    "updated_at": "2026-04-09T00:17:58Z",
     "owner": {
-      "name": "raullenchai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/989846?v=4"
+      "name": "MatthewSuttles",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8780804?v=4"
     }
   },
   {
@@ -227,22 +210,6 @@
     "owner": {
       "name": "peterc",
       "avatar_url": "https://avatars.githubusercontent.com/u/118?v=4"
-    }
-  },
-  {
-    "name": "MatthewSuttles/rubyn-code",
-    "url": "https://github.com/MatthewSuttles/rubyn-code",
-    "description": "Ruby & Rails agentic coding assistant powered by Claude. 28 tools, 112 skills, 16-layer architecture.",
-    "stars": 22,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-02T18:25:00Z",
-    "updated_at": "2026-04-08T01:04:03Z",
-    "owner": {
-      "name": "MatthewSuttles",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8780804?v=4"
     }
   },
   {
@@ -303,6 +270,22 @@
     "owner": {
       "name": "justi",
       "avatar_url": "https://avatars.githubusercontent.com/u/1021614?v=4"
+    }
+  },
+  {
+    "name": "raullenchai/homebrew-rapid-mlx",
+    "url": "https://github.com/raullenchai/homebrew-rapid-mlx",
+    "description": "Homebrew tap for Rapid-MLX — AI inference for Apple Silicon",
+    "stars": 20,
+    "forks": 17,
+    "language": "Ruby",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-20T19:21:12Z",
+    "updated_at": "2026-04-08T06:27:12Z",
+    "owner": {
+      "name": "raullenchai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/989846?v=4"
     }
   },
   {
@@ -370,6 +353,22 @@
     }
   },
   {
+    "name": "zarpay/manceps",
+    "url": "https://github.com/zarpay/manceps",
+    "description": "Ruby client for the Model Context Protocol (MCP). Latin: one who takes in hand.",
+    "stars": 17,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-03T20:23:33Z",
+    "updated_at": "2026-04-08T08:38:56Z",
+    "owner": {
+      "name": "zarpay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/165514085?v=4"
+    }
+  },
+  {
     "name": "mhenrixon/pgbus",
     "url": "https://github.com/mhenrixon/pgbus",
     "description": "PostgreSQL-native job processing and event bus for Rails, built on PGMQ",
@@ -379,58 +378,10 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-29T23:15:16Z",
-    "updated_at": "2026-04-08T04:34:01Z",
+    "updated_at": "2026-04-08T20:04:52Z",
     "owner": {
       "name": "mhenrixon",
       "avatar_url": "https://avatars.githubusercontent.com/u/106795?v=4"
-    }
-  },
-  {
-    "name": "bborn/claude_console",
-    "url": "https://github.com/bborn/claude_console",
-    "description": null,
-    "stars": 17,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-02-27T02:53:14Z",
-    "updated_at": "2026-03-25T14:01:08Z",
-    "owner": {
-      "name": "bborn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3760?v=4"
-    }
-  },
-  {
-    "name": "Alexey-Lukin/silken_net",
-    "url": "https://github.com/Alexey-Lukin/silken_net",
-    "description": "Silken Net: A decentralized Nature-as-a-Service (NaaS) platform. Bridges edge computing IoT sensors in forests with Polygon blockchain via an Oracle to mint Carbon and Forest Coins based on real-time biological telemetry and Lorentz attractor homeostasis.",
-    "stars": 17,
-    "forks": 2,
-    "language": "Ruby",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-02-26T15:14:23Z",
-    "updated_at": "2026-03-25T07:44:16Z",
-    "owner": {
-      "name": "Alexey-Lukin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/619149?v=4"
-    }
-  },
-  {
-    "name": "zarpay/manceps",
-    "url": "https://github.com/zarpay/manceps",
-    "description": "Ruby client for the Model Context Protocol (MCP). Latin: one who takes in hand.",
-    "stars": 16,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-03T20:23:33Z",
-    "updated_at": "2026-04-07T17:42:15Z",
-    "owner": {
-      "name": "zarpay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/165514085?v=4"
     }
   },
   {
@@ -521,6 +472,33 @@
     "owner": {
       "name": "faraquet",
       "avatar_url": "https://avatars.githubusercontent.com/u/16462639?v=4"
+    }
+  },
+  {
+    "name": "fberrez/blurt.sh",
+    "url": "https://github.com/fberrez/blurt.sh",
+    "description": "The simplest way to publish on the web: push markdown, send an email, or just write. Your blog is live.",
+    "stars": 10,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [
+      "astro",
+      "blogging",
+      "cloudflare",
+      "developer-tools",
+      "email",
+      "markdown",
+      "open-source",
+      "posterous",
+      "publishing",
+      "static-site"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-18T20:48:16Z",
+    "updated_at": "2026-04-08T13:52:37Z",
+    "owner": {
+      "name": "fberrez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25006376?v=4"
     }
   },
   {
