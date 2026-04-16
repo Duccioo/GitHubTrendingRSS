@@ -47,8 +47,8 @@
   {
     "name": "retlehs/quien",
     "url": "https://github.com/retlehs/quien",
-    "description": "A better WHOIS lookup tool",
-    "stars": 526,
+    "description": "A better whois and domain intelligence toolkit",
+    "stars": 560,
     "forks": 13,
     "language": "Go",
     "topics": [
@@ -75,7 +75,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-10T02:53:42Z",
-    "updated_at": "2026-04-15T04:23:21Z",
+    "updated_at": "2026-04-16T04:42:23Z",
     "owner": {
       "name": "retlehs",
       "avatar_url": "https://avatars.githubusercontent.com/u/115911?v=4"
@@ -95,6 +95,27 @@
     "owner": {
       "name": "karpathy",
       "avatar_url": "https://avatars.githubusercontent.com/u/241138?v=4"
+    }
+  },
+  {
+    "name": "xataio/xata",
+    "url": "https://github.com/xataio/xata",
+    "description": "Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero",
+    "stars": 340,
+    "forks": 14,
+    "language": "Go",
+    "topics": [
+      "branching",
+      "kubernetes",
+      "postgresql",
+      "scale-to-zero"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-15T08:49:42Z",
+    "updated_at": "2026-04-16T04:41:51Z",
+    "owner": {
+      "name": "xataio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74420131?v=4"
     }
   },
   {
@@ -236,13 +257,13 @@
     "name": "wh0amitz/TailVNC",
     "url": "https://github.com/wh0amitz/TailVNC",
     "description": "Tailscale-based Windows VNC persistence tool with Session 0 isolation bypass, embedding a full WireGuard peer and RFB server into a single drop-in binary.",
-    "stars": 198,
-    "forks": 20,
+    "stars": 213,
+    "forks": 23,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-04-11T16:13:15Z",
-    "updated_at": "2026-04-15T01:31:24Z",
+    "updated_at": "2026-04-16T03:04:33Z",
     "owner": {
       "name": "wh0amitz",
       "avatar_url": "https://avatars.githubusercontent.com/u/60350435?v=4"
@@ -325,22 +346,6 @@
     }
   },
   {
-    "name": "isboyjc/GoProxy",
-    "url": "https://github.com/isboyjc/GoProxy",
-    "description": "GoProxy 从多个公开代理源自动抓取 HTTP/SOCKS5 代理，通过严格验证（出口 IP + 位置 + 延迟）后加入智能代理池，对外提供 HTTP 和 SOCKS5 双协议代理服务。系统采用质量分级、智能补充、自动优化等机制，确保代理池始终保持高质量和稳定性。",
-    "stars": 136,
-    "forks": 54,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-27T15:11:41Z",
-    "updated_at": "2026-04-02T01:32:29Z",
-    "owner": {
-      "name": "isboyjc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42193415?v=4"
-    }
-  },
-  {
     "name": "lemire/constmap",
     "url": "https://github.com/lemire/constmap",
     "description": null,
@@ -377,6 +382,35 @@
     }
   },
   {
+    "name": "Nyarime/NRUP",
+    "url": "https://github.com/Nyarime/NRUP",
+    "description": "🥤 NRUP - A reliable encrypted UDP transport protocol built on DTLS",
+    "stars": 128,
+    "forks": 11,
+    "language": "Go",
+    "topics": [
+      "ack",
+      "arq",
+      "bbr",
+      "dtls",
+      "fec",
+      "go",
+      "low-latency",
+      "protocol",
+      "quic",
+      "rtt",
+      "tunnel",
+      "udp"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-10T20:53:07Z",
+    "updated_at": "2026-04-15T18:06:58Z",
+    "owner": {
+      "name": "Nyarime",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49052765?v=4"
+    }
+  },
+  {
     "name": "codeany-ai/open-agent-sdk-go",
     "url": "https://github.com/codeany-ai/open-agent-sdk-go",
     "description": null,
@@ -409,55 +443,26 @@
     }
   },
   {
-    "name": "Nyarime/NRUP",
-    "url": "https://github.com/Nyarime/NRUP",
-    "description": "🥤 NRUP - A reliable encrypted UDP transport protocol built on nDTLS",
-    "stars": 119,
-    "forks": 10,
-    "language": "Go",
-    "topics": [
-      "ack",
-      "arq",
-      "bbr",
-      "dtls",
-      "fec",
-      "go",
-      "low-latency",
-      "protocol",
-      "quic",
-      "rtt",
-      "tunnel",
-      "udp"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-10T20:53:07Z",
-    "updated_at": "2026-04-15T03:57:19Z",
-    "owner": {
-      "name": "Nyarime",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49052765?v=4"
-    }
-  },
-  {
-    "name": "ErikHellman/unified-android-cli",
-    "url": "https://github.com/ErikHellman/unified-android-cli",
-    "description": "A unified CLI for everything related to Android Development",
-    "stars": 101,
-    "forks": 0,
+    "name": "vavallee/bindery",
+    "url": "https://github.com/vavallee/bindery",
+    "description": "Automated book download manager for Usenet. Monitor authors, search indexers, download via SABnzbd, and organize your library. The modern replacement for Readarr.",
+    "stars": 105,
+    "forks": 1,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-03-27T07:41:54Z",
-    "updated_at": "2026-04-01T14:59:07Z",
+    "created_at": "2026-04-11T21:40:44Z",
+    "updated_at": "2026-04-16T02:05:55Z",
     "owner": {
-      "name": "ErikHellman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72444?v=4"
+      "name": "vavallee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75899046?v=4"
     }
   },
   {
     "name": "mitchellh/go-libghostty",
     "url": "https://github.com/mitchellh/go-libghostty",
     "description": "Go bindings for libghostty-vt.",
-    "stars": 96,
+    "stars": 97,
     "forks": 4,
     "language": "Go",
     "topics": [
@@ -466,26 +471,10 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-10T15:39:00Z",
-    "updated_at": "2026-04-15T04:19:50Z",
+    "updated_at": "2026-04-16T02:48:50Z",
     "owner": {
       "name": "mitchellh",
       "avatar_url": "https://avatars.githubusercontent.com/u/1299?v=4"
-    }
-  },
-  {
-    "name": "vavallee/bindery",
-    "url": "https://github.com/vavallee/bindery",
-    "description": "Automated book download manager for Usenet. Monitor authors, search indexers, download via SABnzbd, and organize your library. The modern replacement for Readarr.",
-    "stars": 92,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-11T21:40:44Z",
-    "updated_at": "2026-04-15T04:33:58Z",
-    "owner": {
-      "name": "vavallee",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75899046?v=4"
     }
   },
   {
@@ -502,6 +491,24 @@
     "owner": {
       "name": "rvitorper",
       "avatar_url": "https://avatars.githubusercontent.com/u/7038285?v=4"
+    }
+  },
+  {
+    "name": "dgr8akki/nano-ffmpeg",
+    "url": "https://github.com/dgr8akki/nano-ffmpeg",
+    "description": "nano-ffmpeg wraps the full power of ffmpeg in a beautiful, keyboard-driven terminal dashboard. No more googling flags. Browse your files, pick what you want to do, tweak settings with presets, and watch a live progress bar while it encodes.",
+    "stars": 83,
+    "forks": 3,
+    "language": "Go",
+    "topics": [
+      "ffmpeg"
+    ],
+    "license": "No license",
+    "created_at": "2026-04-11T17:34:33Z",
+    "updated_at": "2026-04-16T00:31:02Z",
+    "owner": {
+      "name": "dgr8akki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17708157?v=4"
     }
   },
   {
@@ -571,21 +578,35 @@
     }
   },
   {
-    "name": "dgr8akki/nano-ffmpeg",
-    "url": "https://github.com/dgr8akki/nano-ffmpeg",
-    "description": "nano-ffmpeg wraps the full power of ffmpeg in a beautiful, keyboard-driven terminal dashboard. No more googling flags. Browse your files, pick what you want to do, tweak settings with presets, and watch a live progress bar while it encodes.",
-    "stars": 76,
-    "forks": 3,
+    "name": "joao-zanutto/easydocker",
+    "url": "https://github.com/joao-zanutto/easydocker",
+    "description": null,
+    "stars": 66,
+    "forks": 2,
     "language": "Go",
-    "topics": [
-      "ffmpeg"
-    ],
+    "topics": [],
     "license": "No license",
-    "created_at": "2026-04-11T17:34:33Z",
-    "updated_at": "2026-04-15T02:04:47Z",
+    "created_at": "2026-04-12T01:02:32Z",
+    "updated_at": "2026-04-16T04:06:27Z",
     "owner": {
-      "name": "dgr8akki",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17708157?v=4"
+      "name": "joao-zanutto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11475695?v=4"
+    }
+  },
+  {
+    "name": "PechenyeRU/FakeSNI",
+    "url": "https://github.com/PechenyeRU/FakeSNI",
+    "description": "A fake SNI injector for linux, written in pure golang",
+    "stars": 62,
+    "forks": 19,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-13T20:48:39Z",
+    "updated_at": "2026-04-15T19:18:58Z",
+    "owner": {
+      "name": "PechenyeRU",
+      "avatar_url": "https://avatars.githubusercontent.com/u/274735446?v=4"
     }
   },
   {
@@ -614,19 +635,22 @@
     }
   },
   {
-    "name": "PechenyeRU/FakeSNI",
-    "url": "https://github.com/PechenyeRU/FakeSNI",
-    "description": "A fake SNI injector for linux, written in pure golang",
-    "stars": 58,
-    "forks": 18,
+    "name": "AzozzALFiras/Nullhand",
+    "url": "https://github.com/AzozzALFiras/Nullhand",
+    "description": "Nullhand — a self-hosted macOS agent that lets you remotely control your Mac via Telegram using natural language. Supports local AI for full privacy, 40+ automation recipes, and zero external dependencies.",
+    "stars": 57,
+    "forks": 6,
     "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-13T20:48:39Z",
-    "updated_at": "2026-04-14T16:44:51Z",
+    "topics": [
+      "ai-agents",
+      "golang"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-11T09:21:38Z",
+    "updated_at": "2026-04-15T15:25:51Z",
     "owner": {
-      "name": "PechenyeRU",
-      "avatar_url": "https://avatars.githubusercontent.com/u/274735446?v=4"
+      "name": "AzozzALFiras",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33958581?v=4"
     }
   },
   {
@@ -643,6 +667,22 @@
     "owner": {
       "name": "leookun",
       "avatar_url": "https://avatars.githubusercontent.com/u/131544788?v=4"
+    }
+  },
+  {
+    "name": "selfishblackberry177/sni-spoof",
+    "url": "https://github.com/selfishblackberry177/sni-spoof",
+    "description": "Go port of @patterniha's SNI spoofing / DPI bypass TCP forwarder (Linux)",
+    "stars": 54,
+    "forks": 10,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-13T20:00:57Z",
+    "updated_at": "2026-04-16T01:39:06Z",
+    "owner": {
+      "name": "selfishblackberry177",
+      "avatar_url": "https://avatars.githubusercontent.com/u/255408031?v=4"
     }
   },
   {
@@ -705,22 +745,6 @@
     }
   },
   {
-    "name": "selfishblackberry177/sni-spoof",
-    "url": "https://github.com/selfishblackberry177/sni-spoof",
-    "description": "Go port of @patterniha's SNI spoofing / DPI bypass TCP forwarder (Linux)",
-    "stars": 52,
-    "forks": 10,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-13T20:00:57Z",
-    "updated_at": "2026-04-15T01:04:13Z",
-    "owner": {
-      "name": "selfishblackberry177",
-      "avatar_url": "https://avatars.githubusercontent.com/u/255408031?v=4"
-    }
-  },
-  {
     "name": "honeybadge-labs/virtui",
     "url": "https://github.com/honeybadge-labs/virtui",
     "description": "tui automation kit for agents, like playwright for the terminal",
@@ -769,25 +793,6 @@
     }
   },
   {
-    "name": "AzozzALFiras/Nullhand",
-    "url": "https://github.com/AzozzALFiras/Nullhand",
-    "description": "Nullhand — a self-hosted macOS agent that lets you remotely control your Mac via Telegram using natural language. Supports local AI for full privacy, 40+ automation recipes, and zero external dependencies.",
-    "stars": 46,
-    "forks": 6,
-    "language": "Go",
-    "topics": [
-      "ai-agents",
-      "golang"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-11T09:21:38Z",
-    "updated_at": "2026-04-14T22:41:10Z",
-    "owner": {
-      "name": "AzozzALFiras",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33958581?v=4"
-    }
-  },
-  {
     "name": "PlayerYK/dmcheck",
     "url": "https://github.com/PlayerYK/dmcheck",
     "description": "Free domain availability checker",
@@ -826,32 +831,16 @@
     }
   },
   {
-    "name": "joao-zanutto/easydocker",
-    "url": "https://github.com/joao-zanutto/easydocker",
-    "description": null,
-    "stars": 44,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-12T01:02:32Z",
-    "updated_at": "2026-04-15T04:09:01Z",
-    "owner": {
-      "name": "joao-zanutto",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11475695?v=4"
-    }
-  },
-  {
     "name": "zenghongtu/paseo-relay",
     "url": "https://github.com/zenghongtu/paseo-relay",
     "description": "A lightweight self-hosted relay server for Paseo.",
-    "stars": 42,
+    "stars": 43,
     "forks": 4,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-04-11T08:56:22Z",
-    "updated_at": "2026-04-14T11:44:31Z",
+    "updated_at": "2026-04-15T18:21:22Z",
     "owner": {
       "name": "zenghongtu",
       "avatar_url": "https://avatars.githubusercontent.com/u/25629121?v=4"
@@ -1011,6 +1000,42 @@
     }
   },
   {
+    "name": "cushycush/qml-language-server",
+    "url": "https://github.com/cushycush/qml-language-server",
+    "description": null,
+    "stars": 32,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-13T05:18:33Z",
+    "updated_at": "2026-04-16T01:32:39Z",
+    "owner": {
+      "name": "cushycush",
+      "avatar_url": "https://avatars.githubusercontent.com/u/267179900?v=4"
+    }
+  },
+  {
+    "name": "visiongaiatechnology/sshdashboard",
+    "url": "https://github.com/visiongaiatechnology/sshdashboard",
+    "description": "A compiled Go binary that renders a full Tactical Intelligence HUD directly in your terminal on every SSH login — concurrent data extraction, kernel-level syscalls, zero external dependencies beyond the Go standard library.",
+    "stars": 32,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "dashboard-templates",
+      "ssh",
+      "visiongaiatechnology"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-10T15:52:36Z",
+    "updated_at": "2026-04-15T18:32:30Z",
+    "owner": {
+      "name": "visiongaiatechnology",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31537456?v=4"
+    }
+  },
+  {
     "name": "Cladamos/solcl",
     "url": "https://github.com/Cladamos/solcl",
     "description": "solar system visualization tui",
@@ -1046,7 +1071,7 @@
     "name": "ikuaidev/ikuai-cli",
     "url": "https://github.com/ikuaidev/ikuai-cli",
     "description": "CLI tool for managing iKuai routers — network, VPN, firewall, users, QoS and more from the terminal.   AI-agent ready.",
-    "stars": 29,
+    "stars": 30,
     "forks": 2,
     "language": "Go",
     "topics": [
@@ -1054,7 +1079,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-10T19:41:37Z",
-    "updated_at": "2026-04-15T01:49:06Z",
+    "updated_at": "2026-04-15T19:58:40Z",
     "owner": {
       "name": "ikuaidev",
       "avatar_url": "https://avatars.githubusercontent.com/u/272501240?v=4"
@@ -1087,6 +1112,30 @@
     }
   },
   {
+    "name": "igor-php/igor-php",
+    "url": "https://github.com/igor-php/igor-php",
+    "description": "Static analysis and state mutation auditor specifically designed for FrankenPHP's Worker Mode.",
+    "stars": 27,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "frankenphp",
+      "linter",
+      "php",
+      "state-mutations",
+      "static-analysis",
+      "symfony",
+      "worker-mode"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-10T15:28:25Z",
+    "updated_at": "2026-04-15T13:07:28Z",
+    "owner": {
+      "name": "igor-php",
+      "avatar_url": "https://avatars.githubusercontent.com/u/275661608?v=4"
+    }
+  },
+  {
     "name": "unlucas-br/noisecloud",
     "url": "https://github.com/unlucas-br/noisecloud",
     "description": "Para detalhes consulte: https://unlucas-br.github.io/noisecloud/",
@@ -1100,6 +1149,61 @@
     "owner": {
       "name": "unlucas-br",
       "avatar_url": "https://avatars.githubusercontent.com/u/27302189?v=4"
+    }
+  },
+  {
+    "name": "chojs23/lazyagent",
+    "url": "https://github.com/chojs23/lazyagent",
+    "description": "TUI for to watch all your AI coding agents(claude, codex, opencode)",
+    "stars": 26,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "cli",
+      "codex",
+      "golang",
+      "lazyagent",
+      "observability",
+      "opencode",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-12T13:44:21Z",
+    "updated_at": "2026-04-16T04:10:53Z",
+    "owner": {
+      "name": "chojs23",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55792153?v=4"
+    }
+  },
+  {
+    "name": "asynkor/asynkor",
+    "url": "https://github.com/asynkor/asynkor",
+    "description": "File leasing for AI agent teams. One MCP server. Any IDE. Zero merge conflicts.",
+    "stars": 26,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "coordination",
+      "cursor",
+      "developer-tools",
+      "file-leasing",
+      "golang",
+      "mcp",
+      "redis",
+      "team-collaboration"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-13T08:39:20Z",
+    "updated_at": "2026-04-16T04:22:11Z",
+    "owner": {
+      "name": "asynkor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/275283903?v=4"
     }
   },
   {
@@ -1151,6 +1255,22 @@
     }
   },
   {
+    "name": "ugurkocde/IntuneQL",
+    "url": "https://github.com/ugurkocde/IntuneQL",
+    "description": "Keyboard-driven terminal workspace for Intune administration. Query the Microsoft Graph API visually, browse 100+ built-in queries across 102 Intune resources, export as CSV/JSON/PowerShell/cURL, run remediation actions, and generate queries from natural language using local AI. Install from PowerShell Gallery with Install-Module IntuneQL.",
+    "stars": 25,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-12T12:55:52Z",
+    "updated_at": "2026-04-16T04:11:16Z",
+    "owner": {
+      "name": "ugurkocde",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43906965?v=4"
+    }
+  },
+  {
     "name": "Microck/tailstick",
     "url": "https://github.com/Microck/tailstick",
     "description": "USB-delivered Tailscale enrollment tool with session/timed leases & autonomous cleanup",
@@ -1177,30 +1297,6 @@
     "owner": {
       "name": "Microck",
       "avatar_url": "https://avatars.githubusercontent.com/u/45483921?v=4"
-    }
-  },
-  {
-    "name": "igor-php/igor-php",
-    "url": "https://github.com/igor-php/igor-php",
-    "description": "Static analysis and state mutation auditor specifically designed for FrankenPHP's Worker Mode.",
-    "stars": 25,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "frankenphp",
-      "linter",
-      "php",
-      "state-mutations",
-      "static-analysis",
-      "symfony",
-      "worker-mode"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-10T15:28:25Z",
-    "updated_at": "2026-04-14T21:23:50Z",
-    "owner": {
-      "name": "igor-php",
-      "avatar_url": "https://avatars.githubusercontent.com/u/275661608?v=4"
     }
   },
   {
@@ -1283,22 +1379,6 @@
     "owner": {
       "name": "compozy",
       "avatar_url": "https://avatars.githubusercontent.com/u/205107042?v=4"
-    }
-  },
-  {
-    "name": "ugurkocde/IntuneQL",
-    "url": "https://github.com/ugurkocde/IntuneQL",
-    "description": "Keyboard-driven terminal workspace for Intune administration. Query the Microsoft Graph API visually, browse 100+ built-in queries across 102 Intune resources, export as CSV/JSON/PowerShell/cURL, run remediation actions, and generate queries from natural language using local AI. Install from PowerShell Gallery with Install-Module IntuneQL.",
-    "stars": 24,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-12T12:55:52Z",
-    "updated_at": "2026-04-14T04:36:55Z",
-    "owner": {
-      "name": "ugurkocde",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43906965?v=4"
     }
   },
   {
@@ -1446,19 +1526,60 @@
     }
   },
   {
-    "name": "Gsy-allen/emby-reverse-proxy-go",
-    "url": "https://github.com/Gsy-allen/emby-reverse-proxy-go",
-    "description": "通用 Emby 反向代理工具，不需配置推流，后端自动识别并进行反代",
-    "stars": 23,
-    "forks": 2,
+    "name": "zhf883680/clash-traffic-monitor",
+    "url": "https://github.com/zhf883680/clash-traffic-monitor",
+    "description": "一个 clash 流量监控工具  适配 mihomo 内核 go 语言编写",
+    "stars": 22,
+    "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-03-27T09:29:55Z",
-    "updated_at": "2026-04-02T04:13:11Z",
+    "created_at": "2026-04-14T07:33:28Z",
+    "updated_at": "2026-04-16T04:23:10Z",
     "owner": {
-      "name": "Gsy-allen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22109488?v=4"
+      "name": "zhf883680",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23031238?v=4"
+    }
+  },
+  {
+    "name": "Agent-FM/agentfm-core",
+    "url": "https://github.com/Agent-FM/agentfm-core",
+    "description": "AgentFM is a peer-to-peer network that turns everyday computers into a decentralized AI supercomputer. AgentFM lets you run massive AI workloads directly across a global mesh of idle CPUs and GPUs.",
+    "stars": 22,
+    "forks": 4,
+    "language": "Go",
+    "topics": [
+      "agents",
+      "decentralized",
+      "generative-ai",
+      "go",
+      "gpu",
+      "llm",
+      "p2p",
+      "python"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-11T17:16:34Z",
+    "updated_at": "2026-04-15T22:14:52Z",
+    "owner": {
+      "name": "Agent-FM",
+      "avatar_url": "https://avatars.githubusercontent.com/u/275336554?v=4"
+    }
+  },
+  {
+    "name": "mrinalxdev/gominio-utils",
+    "url": "https://github.com/mrinalxdev/gominio-utils",
+    "description": "utility repository for storing all my minio and go usage learnings",
+    "stars": 22,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-13T23:38:38Z",
+    "updated_at": "2026-04-15T11:36:23Z",
+    "owner": {
+      "name": "mrinalxdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99001768?v=4"
     }
   },
   {
@@ -1520,6 +1641,22 @@
     }
   },
   {
+    "name": "kooixh/bolehlang",
+    "url": "https://github.com/kooixh/bolehlang",
+    "description": null,
+    "stars": 21,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-11T09:32:33Z",
+    "updated_at": "2026-04-15T12:41:47Z",
+    "owner": {
+      "name": "kooixh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26245283?v=4"
+    }
+  },
+  {
     "name": "abbasovdev/essential-go",
     "url": "https://github.com/abbasovdev/essential-go",
     "description": "Essential Go is an interactive guide to learning Go. Each topic keeps the reading short and focuses on writing more code. Along the way, you build a CLI word analytics tool (Grolyze) that improves with every chapter. Join Community: ",
@@ -1562,47 +1699,39 @@
     }
   },
   {
-    "name": "chojs23/lazyagent",
-    "url": "https://github.com/chojs23/lazyagent",
-    "description": "Watch your coding agents and sessions in terminal",
+    "name": "DASungta/trae-proxy",
+    "url": "https://github.com/DASungta/trae-proxy",
+    "description": "爆锤Trae不支持自定义模型接入。通过Trae Proxy，可以支持在trae中接入并切换任意上游中转服务、不在服务列表中的coding plan等等。不影响codex、claude code正常使用。Trae proxy and switch",
     "stars": 20,
-    "forks": 2,
+    "forks": 3,
     "language": "Go",
     "topics": [
-      "ai",
-      "ai-agents",
-      "claude",
       "claude-code",
-      "cli",
       "codex",
-      "golang",
-      "lazyagent",
-      "observability",
-      "opencode",
-      "tui"
+      "trae"
     ],
     "license": "No license",
-    "created_at": "2026-04-12T13:44:21Z",
-    "updated_at": "2026-04-14T15:40:45Z",
+    "created_at": "2026-04-11T07:38:04Z",
+    "updated_at": "2026-04-16T02:02:29Z",
     "owner": {
-      "name": "chojs23",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55792153?v=4"
+      "name": "DASungta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8896967?v=4"
     }
   },
   {
-    "name": "kooixh/bolehlang",
-    "url": "https://github.com/kooixh/bolehlang",
+    "name": "Hacktus/jmx2rce",
+    "url": "https://github.com/Hacktus/jmx2rce",
     "description": null,
     "stars": 20,
-    "forks": 0,
+    "forks": 4,
     "language": "Go",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-11T09:32:33Z",
-    "updated_at": "2026-04-15T01:15:15Z",
+    "license": "No license",
+    "created_at": "2026-04-14T15:25:51Z",
+    "updated_at": "2026-04-16T03:58:20Z",
     "owner": {
-      "name": "kooixh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26245283?v=4"
+      "name": "Hacktus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126244304?v=4"
     }
   },
   {
@@ -1647,6 +1776,32 @@
     }
   },
   {
+    "name": "heartleo/zlib",
+    "url": "https://github.com/heartleo/zlib",
+    "description": "A command line for Z-Library. Search, download and send to Kindle.",
+    "stars": 19,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "book",
+      "cli",
+      "command-line",
+      "ebook",
+      "go",
+      "golang",
+      "kindle",
+      "z-library",
+      "zlibrary"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-10T02:20:43Z",
+    "updated_at": "2026-04-15T10:31:12Z",
+    "owner": {
+      "name": "heartleo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37259172?v=4"
+    }
+  },
+  {
     "name": "glincker/stacklit",
     "url": "https://github.com/glincker/stacklit",
     "description": "One command gives AI agents instant codebase context. ~250 tokens replaces 50,000+ tokens of exploration. Auto-configures Claude Code, Cursor, Aider.",
@@ -1681,22 +1836,6 @@
     "owner": {
       "name": "glincker",
       "avatar_url": "https://avatars.githubusercontent.com/u/126224820?v=4"
-    }
-  },
-  {
-    "name": "mrinalxdev/gominio-utils",
-    "url": "https://github.com/mrinalxdev/gominio-utils",
-    "description": "utility repository for storing all my minio and go usage learnings",
-    "stars": 19,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-13T23:38:38Z",
-    "updated_at": "2026-04-14T21:39:57Z",
-    "owner": {
-      "name": "mrinalxdev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/99001768?v=4"
     }
   },
   {
@@ -1764,64 +1903,6 @@
     "owner": {
       "name": "rpgeeganage",
       "avatar_url": "https://avatars.githubusercontent.com/u/10336353?v=4"
-    }
-  },
-  {
-    "name": "rarebek/wt",
-    "url": "https://github.com/rarebek/wt",
-    "description": "High-level WebTransport framework for Go — routing, middleware, rooms, codecs, and more",
-    "stars": 19,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-28T21:50:17Z",
-    "updated_at": "2026-04-01T09:37:58Z",
-    "owner": {
-      "name": "rarebek",
-      "avatar_url": "https://avatars.githubusercontent.com/u/129874807?v=4"
-    }
-  },
-  {
-    "name": "qncosfh/Audit_Platform",
-    "url": "https://github.com/qncosfh/Audit_Platform",
-    "description": "AI Automated code auditing platform",
-    "stars": 19,
-    "forks": 4,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-27T07:38:52Z",
-    "updated_at": "2026-04-02T00:36:05Z",
-    "owner": {
-      "name": "qncosfh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96825334?v=4"
-    }
-  },
-  {
-    "name": "heartleo/zlib",
-    "url": "https://github.com/heartleo/zlib",
-    "description": "A command line for Z-Library. Search, download and send to Kindle.",
-    "stars": 18,
-    "forks": 2,
-    "language": "Go",
-    "topics": [
-      "book",
-      "cli",
-      "command-line",
-      "ebook",
-      "go",
-      "golang",
-      "kindle",
-      "z-library",
-      "zlibrary"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-10T02:20:43Z",
-    "updated_at": "2026-04-13T06:01:59Z",
-    "owner": {
-      "name": "heartleo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37259172?v=4"
     }
   },
   {
@@ -1917,43 +1998,6 @@
     }
   },
   {
-    "name": "MobAI-App/iosbox",
-    "url": "https://github.com/MobAI-App/iosbox",
-    "description": "Build iOS apps in Docker — works wherever Docker runs. Extract the iOS SDK from Xcode.xip, cross-compile Flutter projects with SwiftPM and ld64.lld, and produce unsigned .ipa files ready for signing and deployment",
-    "stars": 18,
-    "forks": 4,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-30T21:34:23Z",
-    "updated_at": "2026-04-01T16:27:47Z",
-    "owner": {
-      "name": "MobAI-App",
-      "avatar_url": "https://avatars.githubusercontent.com/u/262997908?v=4"
-    }
-  },
-  {
-    "name": "azu/dockerfile-pin",
-    "url": "https://github.com/azu/dockerfile-pin",
-    "description": "A CLI tool that adds @sha256:<digest> to FROM lines in Dockerfiles and image fields in docker-compose.yml to prevent supply chain attacks.",
-    "stars": 18,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "docker",
-      "docker-compose",
-      "security",
-      "tools"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-27T04:21:07Z",
-    "updated_at": "2026-04-02T03:46:51Z",
-    "owner": {
-      "name": "azu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19714?v=4"
-    }
-  },
-  {
     "name": "bubblefish-tech/nexus",
     "url": "https://github.com/bubblefish-tech/nexus",
     "description": "Nexis is THE Governed AI Control Plane.",
@@ -2031,53 +2075,6 @@
     "owner": {
       "name": "phantom-offensive",
       "avatar_url": "https://avatars.githubusercontent.com/u/271686251?v=4"
-    }
-  },
-  {
-    "name": "asynkor/asynkor",
-    "url": "https://github.com/asynkor/asynkor",
-    "description": "File leasing for AI agent teams. One MCP server. Any IDE. Zero merge conflicts.",
-    "stars": 16,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "ai-agents",
-      "claude-code",
-      "coordination",
-      "cursor",
-      "developer-tools",
-      "file-leasing",
-      "golang",
-      "mcp",
-      "redis",
-      "team-collaboration"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-13T08:39:20Z",
-    "updated_at": "2026-04-14T19:16:44Z",
-    "owner": {
-      "name": "asynkor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/275283903?v=4"
-    }
-  },
-  {
-    "name": "DASungta/trae-proxy",
-    "url": "https://github.com/DASungta/trae-proxy",
-    "description": "爆锤Trae不支持自定义模型接入。通过Trae Proxy，可以支持在trae中接入并切换任意上游中转服务、不在服务列表中的coding plan等等。不影响codex、claude code正常使用。Trae proxy and switch",
-    "stars": 16,
-    "forks": 2,
-    "language": "Go",
-    "topics": [
-      "claude-code",
-      "codex",
-      "trae"
-    ],
-    "license": "No license",
-    "created_at": "2026-04-11T07:38:04Z",
-    "updated_at": "2026-04-14T11:07:19Z",
-    "owner": {
-      "name": "DASungta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8896967?v=4"
     }
   },
   {
@@ -2197,31 +2194,6 @@
     "owner": {
       "name": "whchoi98",
       "avatar_url": "https://avatars.githubusercontent.com/u/11262759?v=4"
-    }
-  },
-  {
-    "name": "smallnest/imclaw",
-    "url": "https://github.com/smallnest/imclaw",
-    "description": "acp skill for openclaw, claude cc, codex, gemini cli, pi and others",
-    "stars": 14,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "acp",
-      "acpx",
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini-cli",
-      "openclaw",
-      "pi-coding-agent"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-31T01:43:57Z",
-    "updated_at": "2026-04-02T02:12:47Z",
-    "owner": {
-      "name": "smallnest",
-      "avatar_url": "https://avatars.githubusercontent.com/u/865763?v=4"
     }
   },
   {
@@ -2373,22 +2345,6 @@
     "owner": {
       "name": "trycatchkamal",
       "avatar_url": "https://avatars.githubusercontent.com/u/6428994?v=4"
-    }
-  },
-  {
-    "name": "lvshp/ReadCLI",
-    "url": "https://github.com/lvshp/ReadCLI",
-    "description": "ReadCLI：一个支持 EPUB、书架、搜索与伪装主题的终端书籍、小说阅读器。",
-    "stars": 13,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-31T03:36:12Z",
-    "updated_at": "2026-04-02T02:17:37Z",
-    "owner": {
-      "name": "lvshp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40985757?v=4"
     }
   },
   {
