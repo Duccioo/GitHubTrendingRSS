@@ -29,22 +29,6 @@
     }
   },
   {
-    "name": "openai/codex-plugin-cc",
-    "url": "https://github.com/openai/codex-plugin-cc",
-    "description": "Use Codex from Claude Code to review code or delegate tasks.",
-    "stars": 11678,
-    "forks": 611,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-30T15:29:52Z",
-    "updated_at": "2026-04-05T04:32:11Z",
-    "owner": {
-      "name": "openai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4"
-    }
-  },
-  {
     "name": "xixu-me/awesome-persona-distill-skills",
     "url": "https://github.com/xixu-me/awesome-persona-distill-skills",
     "description": "同事.skill, 女娲.skill, 前任.skill… Curated list of Agent Skills centered on people, relationships, commemorative scenes, and methodological perspectives",
@@ -84,30 +68,35 @@
   {
     "name": "Manavarya09/design-extract",
     "url": "https://github.com/Manavarya09/design-extract",
-    "description": "Extract the complete design language from any website — colors, typography, spacing, shadows, and more. npx CLI + Claude Code plugin.",
-    "stars": 892,
-    "forks": 71,
+    "description": "Extract any website's complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP server for Claude Code/Cursor/Windsurf, multi-platform emitters (iOS SwiftUI, Android Compose, Flutter, WordPress), Tailwind v4, Figma variables, shadcn/ui, CSS health audit, WCAG remediation, Chrome extension. MIT, Playwright, Node 20+.",
+    "stars": 1017,
+    "forks": 81,
     "language": "JavaScript",
     "topics": [
+      "accessibility",
       "agent-skill",
-      "agent-skills",
       "ai",
+      "chrome-extension",
       "claude-code-plugin",
       "cli",
-      "colors",
       "css",
+      "cursor",
       "design-system",
+      "design-to-code",
       "design-tokens",
+      "dtcg",
+      "figma",
+      "mcp-server",
       "npx",
       "playwright",
+      "shadcn-ui",
       "skills-sh",
       "tailwind",
-      "typography",
       "web-scraping"
     ],
     "license": "MIT License",
     "created_at": "2026-04-15T10:11:22Z",
-    "updated_at": "2026-04-18T04:00:43Z",
+    "updated_at": "2026-04-19T04:17:41Z",
     "owner": {
       "name": "Manavarya09",
       "avatar_url": "https://avatars.githubusercontent.com/u/144777973?v=4"
@@ -149,16 +138,43 @@
     "name": "andrewjiang/palantir-for-family-trips",
     "url": "https://github.com/andrewjiang/palantir-for-family-trips",
     "description": "A Palantir-ish dashboard for family trip planning.",
-    "stars": 607,
-    "forks": 110,
+    "stars": 636,
+    "forks": 123,
     "language": "JavaScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-04-13T07:45:24Z",
-    "updated_at": "2026-04-18T02:24:07Z",
+    "updated_at": "2026-04-19T04:09:06Z",
     "owner": {
       "name": "andrewjiang",
       "avatar_url": "https://avatars.githubusercontent.com/u/906752?v=4"
+    }
+  },
+  {
+    "name": "bergside/design-md-chrome",
+    "url": "https://github.com/bergside/design-md-chrome",
+    "description": "Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI",
+    "stars": 430,
+    "forks": 54,
+    "language": "JavaScript",
+    "topics": [
+      "ai",
+      "chrome",
+      "chrome-extension",
+      "design-md",
+      "design-skills",
+      "extension",
+      "open-source",
+      "skills",
+      "skills-ai",
+      "typeui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-14T14:10:22Z",
+    "updated_at": "2026-04-19T03:56:46Z",
+    "owner": {
+      "name": "bergside",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109292896?v=4"
     }
   },
   {
@@ -178,46 +194,19 @@
     }
   },
   {
-    "name": "hellowind777/hello2cc",
-    "url": "https://github.com/hellowind777/hello2cc",
-    "description": "Native-first Claude Code plugin for third-party models with silent Agent model injection and output styles.",
-    "stars": 411,
-    "forks": 41,
+    "name": "assai-id/nemesis",
+    "url": "https://github.com/assai-id/nemesis",
+    "description": null,
+    "stars": 381,
+    "forks": 177,
     "language": "JavaScript",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-30T14:21:24Z",
-    "updated_at": "2026-04-05T01:45:24Z",
+    "license": "No license",
+    "created_at": "2026-04-16T07:00:13Z",
+    "updated_at": "2026-04-19T04:46:37Z",
     "owner": {
-      "name": "hellowind777",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67744274?v=4"
-    }
-  },
-  {
-    "name": "bergside/design-md-chrome",
-    "url": "https://github.com/bergside/design-md-chrome",
-    "description": "Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI",
-    "stars": 374,
-    "forks": 47,
-    "language": "JavaScript",
-    "topics": [
-      "ai",
-      "chrome",
-      "chrome-extension",
-      "design-md",
-      "design-skills",
-      "extension",
-      "open-source",
-      "skills",
-      "skills-ai",
-      "typeui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-14T14:10:22Z",
-    "updated_at": "2026-04-18T04:11:30Z",
-    "owner": {
-      "name": "bergside",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109292896?v=4"
+      "name": "assai-id",
+      "avatar_url": "https://avatars.githubusercontent.com/u/275414185?v=4"
     }
   },
   {
@@ -250,22 +239,6 @@
     "owner": {
       "name": "iZiTTMarvin",
       "avatar_url": "https://avatars.githubusercontent.com/u/151484362?v=4"
-    }
-  },
-  {
-    "name": "assai-id/nemesis",
-    "url": "https://github.com/assai-id/nemesis",
-    "description": null,
-    "stars": 310,
-    "forks": 138,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-16T07:00:13Z",
-    "updated_at": "2026-04-18T04:17:11Z",
-    "owner": {
-      "name": "assai-id",
-      "avatar_url": "https://avatars.githubusercontent.com/u/275414185?v=4"
     }
   },
   {
@@ -365,6 +338,26 @@
     }
   },
   {
+    "name": "activetheory/activeframe",
+    "url": "https://github.com/activetheory/activeframe",
+    "description": "Custom .af video format for WebCodecs: frame-accurate playback without a video tag or third-party decoders.",
+    "stars": 264,
+    "forks": 10,
+    "language": "JavaScript",
+    "topics": [
+      "decoder",
+      "video",
+      "webcodec"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-15T22:40:52Z",
+    "updated_at": "2026-04-18T21:16:56Z",
+    "owner": {
+      "name": "activetheory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1118248?v=4"
+    }
+  },
+  {
     "name": "cporter202/agentic-ai-apis",
     "url": "https://github.com/cporter202/agentic-ai-apis",
     "description": "The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.",
@@ -391,26 +384,6 @@
     "owner": {
       "name": "cporter202",
       "avatar_url": "https://avatars.githubusercontent.com/u/163957687?v=4"
-    }
-  },
-  {
-    "name": "activetheory/activeframe",
-    "url": "https://github.com/activetheory/activeframe",
-    "description": "Custom .af video format for WebCodecs: frame-accurate playback without a video tag or third-party decoders.",
-    "stars": 255,
-    "forks": 10,
-    "language": "JavaScript",
-    "topics": [
-      "decoder",
-      "video",
-      "webcodec"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-15T22:40:52Z",
-    "updated_at": "2026-04-18T04:03:23Z",
-    "owner": {
-      "name": "activetheory",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1118248?v=4"
     }
   },
   {
@@ -565,22 +538,6 @@
     }
   },
   {
-    "name": "codespar/mcp-dev-brasil",
-    "url": "https://github.com/codespar/mcp-dev-brasil",
-    "description": "MCP servers for Brazilian services — payments, fiscal, banking, communication. Generated by CodeSpar.",
-    "stars": 181,
-    "forks": 27,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-30T23:44:31Z",
-    "updated_at": "2026-04-05T04:03:19Z",
-    "owner": {
-      "name": "codespar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/269058982?v=4"
-    }
-  },
-  {
     "name": "WenXiaoWendy/cyberboss",
     "url": "https://github.com/WenXiaoWendy/cyberboss",
     "description": null,
@@ -600,32 +557,16 @@
     "name": "shaom/svg-hand-drawn-skill",
     "url": "https://github.com/shaom/svg-hand-drawn-skill",
     "description": null,
-    "stars": 167,
+    "stars": 168,
     "forks": 26,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
     "created_at": "2026-04-13T00:51:13Z",
-    "updated_at": "2026-04-17T07:26:41Z",
+    "updated_at": "2026-04-19T01:40:03Z",
     "owner": {
       "name": "shaom",
       "avatar_url": "https://avatars.githubusercontent.com/u/2596224?v=4"
-    }
-  },
-  {
-    "name": "vladartym/always-fit-resume",
-    "url": "https://github.com/vladartym/always-fit-resume",
-    "description": "A resume builder that auto-scales font size and line spacing to always fit on one page. Powered by pretext for instant, DOM-free text measurement.",
-    "stars": 167,
-    "forks": 17,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-30T05:19:43Z",
-    "updated_at": "2026-04-04T21:26:49Z",
-    "owner": {
-      "name": "vladartym",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11331341?v=4"
     }
   },
   {
@@ -853,23 +794,19 @@
     }
   },
   {
-    "name": "Webba-Creative-Technologies/vice",
-    "url": "https://github.com/Webba-Creative-Technologies/vice",
-    "description": "VICE - Security auditing CLI for web applications",
-    "stars": 107,
-    "forks": 8,
+    "name": "Web3CZ/Web3Hermes",
+    "url": "https://github.com/Web3CZ/Web3Hermes",
+    "description": "【Hermes WebUI】Hermes-Agent 中文版 WebUI，便于中国用户使用",
+    "stars": 105,
+    "forks": 21,
     "language": "JavaScript",
-    "topics": [
-      "ai-agents",
-      "security",
-      "security-tools"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-03-30T00:44:25Z",
-    "updated_at": "2026-04-04T11:07:42Z",
+    "created_at": "2026-04-13T00:04:57Z",
+    "updated_at": "2026-04-19T01:49:13Z",
     "owner": {
-      "name": "Webba-Creative-Technologies",
-      "avatar_url": "https://avatars.githubusercontent.com/u/104107268?v=4"
+      "name": "Web3CZ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/118263377?v=4"
     }
   },
   {
@@ -934,22 +871,6 @@
     "owner": {
       "name": "fengshao1227",
       "avatar_url": "https://avatars.githubusercontent.com/u/177014058?v=4"
-    }
-  },
-  {
-    "name": "Web3CZ/Web3Hermes",
-    "url": "https://github.com/Web3CZ/Web3Hermes",
-    "description": "【Hermes WebUI】Hermes-Agent 中文版 WebUI，便于中国用户使用",
-    "stars": 98,
-    "forks": 20,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-13T00:04:57Z",
-    "updated_at": "2026-04-18T01:49:41Z",
-    "owner": {
-      "name": "Web3CZ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/118263377?v=4"
     }
   },
   {
@@ -1247,6 +1168,22 @@
     }
   },
   {
+    "name": "haruharo101/BOJ-memory",
+    "url": "https://github.com/haruharo101/BOJ-memory",
+    "description": "BOJ 서비스 종료 이전까지의 자신의 정보를 요약해서 볼 수 있는 서비스",
+    "stars": 73,
+    "forks": 1,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-16T06:01:12Z",
+    "updated_at": "2026-04-19T04:25:45Z",
+    "owner": {
+      "name": "haruharo101",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83638053?v=4"
+    }
+  },
+  {
     "name": "QuinnAho/claudemap",
     "url": "https://github.com/QuinnAho/claudemap",
     "description": "google maps for vibecoders.",
@@ -1340,6 +1277,22 @@
     }
   },
   {
+    "name": "mo-tunn/OpenGuider",
+    "url": "https://github.com/mo-tunn/OpenGuider",
+    "description": "An AI companion that lives on your desktop - OpenGuider watches your screen, listens to your voice, and guides every step with clear actions.",
+    "stars": 66,
+    "forks": 5,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-15T15:12:12Z",
+    "updated_at": "2026-04-18T19:13:55Z",
+    "owner": {
+      "name": "mo-tunn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79705009?v=4"
+    }
+  },
+  {
     "name": "ithiria894/claude-code-buddy-reroll",
     "url": "https://github.com/ithiria894/claude-code-buddy-reroll",
     "description": "Reroll your Claude Code /buddy companion — brute-force for any species + rarity, with accountUuid trap fix for Team/Pro users",
@@ -1353,22 +1306,6 @@
     "owner": {
       "name": "ithiria894",
       "avatar_url": "https://avatars.githubusercontent.com/u/63032496?v=4"
-    }
-  },
-  {
-    "name": "haruharo101/BOJ-memory",
-    "url": "https://github.com/haruharo101/BOJ-memory",
-    "description": "BOJ 서비스 종료 이전까지의 자신의 정보를 요약해서 볼 수 있는 서비스",
-    "stars": 65,
-    "forks": 1,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-16T06:01:12Z",
-    "updated_at": "2026-04-18T04:24:45Z",
-    "owner": {
-      "name": "haruharo101",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83638053?v=4"
     }
   },
   {
@@ -1526,22 +1463,6 @@
     }
   },
   {
-    "name": "mo-tunn/OpenGuider",
-    "url": "https://github.com/mo-tunn/OpenGuider",
-    "description": "An AI companion that lives on your desktop - OpenGuider watches your screen, listens to your voice, and guides every step with clear actions.",
-    "stars": 59,
-    "forks": 4,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-15T15:12:12Z",
-    "updated_at": "2026-04-17T20:36:14Z",
-    "owner": {
-      "name": "mo-tunn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79705009?v=4"
-    }
-  },
-  {
     "name": "haixiong1997/Bilibili-Obsidian-Clipper",
     "url": "https://github.com/haixiong1997/Bilibili-Obsidian-Clipper",
     "description": "在 B 站视频页抓取字幕，预览后可复制 Markdown、下载字幕文件，并一键写入 Obsidian（Local REST API）。",
@@ -1590,6 +1511,22 @@
     }
   },
   {
+    "name": "zhaleff/Awesome-Dotfiles",
+    "url": "https://github.com/zhaleff/Awesome-Dotfiles",
+    "description": null,
+    "stars": 56,
+    "forks": 2,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-17T23:23:06Z",
+    "updated_at": "2026-04-19T04:22:57Z",
+    "owner": {
+      "name": "zhaleff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/203539898?v=4"
+    }
+  },
+  {
     "name": "REALMWTH/Discord-The-Last-Meadow-Auto-Script",
     "url": "https://github.com/REALMWTH/Discord-The-Last-Meadow-Auto-Script",
     "description": "Automation script for The Last Meadow mini-games inside Discord.",
@@ -1611,6 +1548,22 @@
     }
   },
   {
+    "name": "V-IOLE-T/tab-harbor",
+    "url": "https://github.com/V-IOLE-T/tab-harbor",
+    "description": "一个更安静的新标签页工作台，把打开中的标签、快捷链接、待读和轻量待办收进同一个顺手的空间里。",
+    "stars": 54,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-16T16:47:37Z",
+    "updated_at": "2026-04-19T02:44:50Z",
+    "owner": {
+      "name": "V-IOLE-T",
+      "avatar_url": "https://avatars.githubusercontent.com/u/168922623?v=4"
+    }
+  },
+  {
     "name": "Msg-Lbo/MSRegFlow",
     "url": "https://github.com/Msg-Lbo/MSRegFlow",
     "description": "把 Codex / OpenAI OAuth 注册、收码、授权和导入流程塞进一个 Chrome 扩展里，点点按钮就能一路跑完。",
@@ -1624,6 +1577,22 @@
     "owner": {
       "name": "Msg-Lbo",
       "avatar_url": "https://avatars.githubusercontent.com/u/63098778?v=4"
+    }
+  },
+  {
+    "name": "Masterjx9/OpenPostings",
+    "url": "https://github.com/Masterjx9/OpenPostings",
+    "description": "The OpenSource ATS Aggregator",
+    "stars": 53,
+    "forks": 12,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-13T03:00:40Z",
+    "updated_at": "2026-04-19T00:59:49Z",
+    "owner": {
+      "name": "Masterjx9",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82799287?v=4"
     }
   },
   {
@@ -1695,22 +1664,6 @@
     "owner": {
       "name": "LittleYier",
       "avatar_url": "https://avatars.githubusercontent.com/u/153109197?v=4"
-    }
-  },
-  {
-    "name": "Masterjx9/OpenPostings",
-    "url": "https://github.com/Masterjx9/OpenPostings",
-    "description": "The OpenSource ATS Aggregator",
-    "stars": 51,
-    "forks": 11,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-13T03:00:40Z",
-    "updated_at": "2026-04-17T17:49:09Z",
-    "owner": {
-      "name": "Masterjx9",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82799287?v=4"
     }
   },
   {
@@ -1834,22 +1787,6 @@
     }
   },
   {
-    "name": "jtydhr88/ComfyUI-PascalEditor",
-    "url": "https://github.com/jtydhr88/ComfyUI-PascalEditor",
-    "description": "A ComfyUI plugin that integrates [Pascal Editor](https://github.com/pascalorg/editor) — a full-featured 3D architectural editor — directly into your ComfyUI workflow.",
-    "stars": 46,
-    "forks": 7,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-30T20:57:54Z",
-    "updated_at": "2026-04-04T23:58:36Z",
-    "owner": {
-      "name": "jtydhr88",
-      "avatar_url": "https://avatars.githubusercontent.com/u/860985?v=4"
-    }
-  },
-  {
     "name": "ZhangHanDong/pi-book",
     "url": "https://github.com/ZhangHanDong/pi-book",
     "description": "Pi mono Book",
@@ -1863,22 +1800,6 @@
     "owner": {
       "name": "ZhangHanDong",
       "avatar_url": "https://avatars.githubusercontent.com/u/27893?v=4"
-    }
-  },
-  {
-    "name": "Aimagine-life/gemini-unblock",
-    "url": "https://github.com/Aimagine-life/gemini-unblock",
-    "description": "Chromium extension that routes AI services through your own proxy. Bypass geo-restrictions for Gemini, AI Studio, Google Labs, ChatGPT, Claude, YouTube and others.",
-    "stars": 44,
-    "forks": 5,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-12T09:33:54Z",
-    "updated_at": "2026-04-17T23:27:54Z",
-    "owner": {
-      "name": "Aimagine-life",
-      "avatar_url": "https://avatars.githubusercontent.com/u/169819248?v=4"
     }
   },
   {
@@ -1898,10 +1819,42 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-16T06:27:28Z",
-    "updated_at": "2026-04-17T16:19:15Z",
+    "updated_at": "2026-04-18T18:35:10Z",
     "owner": {
       "name": "KarryViber",
       "avatar_url": "https://avatars.githubusercontent.com/u/223777671?v=4"
+    }
+  },
+  {
+    "name": "highagency/pencil-scripts",
+    "url": "https://github.com/highagency/pencil-scripts",
+    "description": "Pencil.dev script node demos",
+    "stars": 44,
+    "forks": 2,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-15T15:46:20Z",
+    "updated_at": "2026-04-19T03:13:35Z",
+    "owner": {
+      "name": "highagency",
+      "avatar_url": "https://avatars.githubusercontent.com/u/222391204?v=4"
+    }
+  },
+  {
+    "name": "Aimagine-life/gemini-unblock",
+    "url": "https://github.com/Aimagine-life/gemini-unblock",
+    "description": "Chromium extension that routes AI services through your own proxy. Bypass geo-restrictions for Gemini, AI Studio, Google Labs, ChatGPT, Claude, YouTube and others.",
+    "stars": 44,
+    "forks": 5,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-12T09:33:54Z",
+    "updated_at": "2026-04-17T23:27:54Z",
+    "owner": {
+      "name": "Aimagine-life",
+      "avatar_url": "https://avatars.githubusercontent.com/u/169819248?v=4"
     }
   },
   {
@@ -1949,42 +1902,10 @@
     }
   },
   {
-    "name": "highagency/pencil-scripts",
-    "url": "https://github.com/highagency/pencil-scripts",
-    "description": "Pencil.dev script node demos",
-    "stars": 43,
-    "forks": 2,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-15T15:46:20Z",
-    "updated_at": "2026-04-18T02:12:16Z",
-    "owner": {
-      "name": "highagency",
-      "avatar_url": "https://avatars.githubusercontent.com/u/222391204?v=4"
-    }
-  },
-  {
-    "name": "xuqian-git/GetQClawAPIKey",
-    "url": "https://github.com/xuqian-git/GetQClawAPIKey",
-    "description": null,
-    "stars": 43,
-    "forks": 19,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-10T06:27:46Z",
-    "updated_at": "2026-04-16T02:55:00Z",
-    "owner": {
-      "name": "xuqian-git",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36322165?v=4"
-    }
-  },
-  {
     "name": "vontanne/nodris",
     "url": "https://github.com/vontanne/nodris",
     "description": "Terminal Tetris built with pure Node.js. Lightweight, cross-platform, no dependencies 🎮",
-    "stars": 42,
+    "stars": 43,
     "forks": 7,
     "language": "JavaScript",
     "topics": [
@@ -2001,10 +1922,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-14T11:32:19Z",
-    "updated_at": "2026-04-17T14:04:06Z",
+    "updated_at": "2026-04-18T09:24:44Z",
     "owner": {
       "name": "vontanne",
       "avatar_url": "https://avatars.githubusercontent.com/u/247956544?v=4"
+    }
+  },
+  {
+    "name": "xuqian-git/GetQClawAPIKey",
+    "url": "https://github.com/xuqian-git/GetQClawAPIKey",
+    "description": null,
+    "stars": 43,
+    "forks": 19,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-10T06:27:46Z",
+    "updated_at": "2026-04-16T02:55:00Z",
+    "owner": {
+      "name": "xuqian-git",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36322165?v=4"
     }
   },
   {
@@ -2053,22 +1990,6 @@
     "owner": {
       "name": "lengyi2030",
       "avatar_url": "https://avatars.githubusercontent.com/u/252131966?v=4"
-    }
-  },
-  {
-    "name": "V-IOLE-T/tab-harbor",
-    "url": "https://github.com/V-IOLE-T/tab-harbor",
-    "description": "一个更安静的新标签页工作台，把打开中的标签、快捷链接、待读和轻量待办收进同一个顺手的空间里。",
-    "stars": 38,
-    "forks": 0,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-16T16:47:37Z",
-    "updated_at": "2026-04-18T03:22:16Z",
-    "owner": {
-      "name": "V-IOLE-T",
-      "avatar_url": "https://avatars.githubusercontent.com/u/168922623?v=4"
     }
   },
   {
@@ -2125,6 +2046,22 @@
     "owner": {
       "name": "PaRaN01a-hash",
       "avatar_url": "https://avatars.githubusercontent.com/u/85213026?v=4"
+    }
+  },
+  {
+    "name": "Harzva/codex-managed-agent",
+    "url": "https://github.com/Harzva/codex-managed-agent",
+    "description": null,
+    "stars": 37,
+    "forks": 12,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-13T14:39:15Z",
+    "updated_at": "2026-04-18T19:37:58Z",
+    "owner": {
+      "name": "Harzva",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49864959?v=4"
     }
   },
   {
@@ -2390,6 +2327,59 @@
     }
   },
   {
+    "name": "SakanaAI/digital-ecosystem",
+    "url": "https://github.com/SakanaAI/digital-ecosystem",
+    "description": "Interactive multi-agent NCA ecosystem simulation",
+    "stars": 29,
+    "forks": 5,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-13T06:38:45Z",
+    "updated_at": "2026-04-19T04:41:35Z",
+    "owner": {
+      "name": "SakanaAI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/140988036?v=4"
+    }
+  },
+  {
+    "name": "miamirabella66721427201/Stream-Metrics-Auditor-GUI",
+    "url": "https://github.com/miamirabella66721427201/Stream-Metrics-Auditor-GUI",
+    "description": "Professional Desktop GUI for distributed stream stress-testing and metric auditing. Features a real-time dashboard for browser cluster management, visual traffic analytics, and automated proxy orchestration.",
+    "stars": 29,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "algorithm-research",
+      "bots",
+      "headless-browser",
+      "load-balancing",
+      "puppeteer-cluster",
+      "selenium-bot",
+      "selenium-youtube",
+      "streaming-analytics",
+      "traffic-simulation",
+      "view-booster",
+      "viewbot",
+      "watch-youtube-videos",
+      "youtube",
+      "youtube-analytics",
+      "youtube-bot",
+      "youtube-bot-view",
+      "youtube-live",
+      "youtube-livestream",
+      "youtube-player",
+      "youtube-stream"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-17T11:03:09Z",
+    "updated_at": "2026-04-18T21:12:29Z",
+    "owner": {
+      "name": "miamirabella66721427201",
+      "avatar_url": "https://avatars.githubusercontent.com/u/276071906?v=4"
+    }
+  },
+  {
     "name": "KI-OS-org/ki-os-community",
     "url": "https://github.com/KI-OS-org/ki-os-community",
     "description": "KI Operating System — Community Edition",
@@ -2406,11 +2396,63 @@
     }
   },
   {
+    "name": "fedes1to/distrodle",
+    "url": "https://github.com/fedes1to/distrodle",
+    "description": "website where you can try to choose a linux distro",
+    "stars": 26,
+    "forks": 11,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-04-14T16:52:17Z",
+    "updated_at": "2026-04-19T00:32:16Z",
+    "owner": {
+      "name": "fedes1to",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49609909?v=4"
+    }
+  },
+  {
+    "name": "Shamnick/SmartCS",
+    "url": "https://github.com/Shamnick/SmartCS",
+    "description": "基于 Spring AI + LangChain4j + DeepSeek + Milvus 的企业智能客服系统，通过 RAG（检索增强生成）技术实现企业知识的自动化、精准化问答。",
+    "stars": 26,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-16T07:33:06Z",
+    "updated_at": "2026-04-19T00:10:07Z",
+    "owner": {
+      "name": "Shamnick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131834928?v=4"
+    }
+  },
+  {
+    "name": "Laskewitz/inventory-report",
+    "url": "https://github.com/Laskewitz/inventory-report",
+    "description": "Inventory API Skills",
+    "stars": 25,
+    "forks": 3,
+    "language": "JavaScript",
+    "topics": [
+      "admin",
+      "inventory-api",
+      "power-platform"
+    ],
+    "license": "No license",
+    "created_at": "2026-04-13T13:08:17Z",
+    "updated_at": "2026-04-18T20:36:46Z",
+    "owner": {
+      "name": "Laskewitz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3766843?v=4"
+    }
+  },
+  {
     "name": "princechouhan19/OpenCometAI",
     "url": "https://github.com/princechouhan19/OpenCometAI",
     "description": "Open Comet is an autonomous AI agent integrated into your Chrome browser. It enables safe, transparent, and multi-modal web automation—allowing AI models to browse, research, and interact with the web just like a human.",
-    "stars": 24,
-    "forks": 4,
+    "stars": 25,
+    "forks": 5,
     "language": "JavaScript",
     "topics": [
       "ai-agents",
@@ -2427,7 +2469,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-13T12:49:56Z",
-    "updated_at": "2026-04-16T14:15:49Z",
+    "updated_at": "2026-04-18T14:18:41Z",
     "owner": {
       "name": "princechouhan19",
       "avatar_url": "https://avatars.githubusercontent.com/u/138236874?v=4"
@@ -2489,23 +2531,19 @@
     }
   },
   {
-    "name": "Laskewitz/inventory-report",
-    "url": "https://github.com/Laskewitz/inventory-report",
-    "description": "Inventory API Skills",
-    "stars": 22,
-    "forks": 3,
+    "name": "OpenMOSS/MOSS-TTS-Nano-Reader",
+    "url": "https://github.com/OpenMOSS/MOSS-TTS-Nano-Reader",
+    "description": null,
+    "stars": 20,
+    "forks": 1,
     "language": "JavaScript",
-    "topics": [
-      "admin",
-      "inventory-api",
-      "power-platform"
-    ],
+    "topics": [],
     "license": "No license",
-    "created_at": "2026-04-13T13:08:17Z",
-    "updated_at": "2026-04-18T00:34:00Z",
+    "created_at": "2026-04-13T10:03:10Z",
+    "updated_at": "2026-04-19T02:08:17Z",
     "owner": {
-      "name": "Laskewitz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3766843?v=4"
+      "name": "OpenMOSS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156300419?v=4"
     }
   },
   {
@@ -2525,35 +2563,60 @@
     }
   },
   {
-    "name": "Shamnick/SmartCS",
-    "url": "https://github.com/Shamnick/SmartCS",
-    "description": "基于 Spring AI + LangChain4j + DeepSeek + Milvus 的企业智能客服系统，通过 RAG（检索增强生成）技术实现企业知识的自动化、精准化问答。",
-    "stars": 19,
-    "forks": 0,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-16T07:33:06Z",
-    "updated_at": "2026-04-18T04:26:54Z",
-    "owner": {
-      "name": "Shamnick",
-      "avatar_url": "https://avatars.githubusercontent.com/u/131834928?v=4"
-    }
-  },
-  {
-    "name": "OpenMOSS/MOSS-TTS-Nano-Reader",
-    "url": "https://github.com/OpenMOSS/MOSS-TTS-Nano-Reader",
-    "description": null,
+    "name": "OPS-COM/open-ezdown",
+    "url": "https://github.com/OPS-COM/open-ezdown",
+    "description": "A modern Electron-based media downloader with browser extension support, powered by yt-dlp and FFmpeg for seamless high-quality video and audio downloads.",
     "stars": 19,
     "forks": 1,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-04-13T10:03:10Z",
-    "updated_at": "2026-04-17T13:49:21Z",
+    "created_at": "2026-04-13T18:58:24Z",
+    "updated_at": "2026-04-18T13:02:34Z",
     "owner": {
-      "name": "OpenMOSS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/156300419?v=4"
+      "name": "OPS-COM",
+      "avatar_url": "https://avatars.githubusercontent.com/u/275630976?v=4"
+    }
+  },
+  {
+    "name": "Azkun/ShareMii",
+    "url": "https://github.com/Azkun/ShareMii",
+    "description": "A web-based tool for editing Mii data for Tomodachi Life: Living the Dream!. It allows users to edit the Miis of their save files, and export single Miis to be used in other save files.",
+    "stars": 19,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "nintendo",
+      "tomodachi-life"
+    ],
+    "license": "No license",
+    "created_at": "2026-04-16T15:02:27Z",
+    "updated_at": "2026-04-19T04:38:13Z",
+    "owner": {
+      "name": "Azkun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35082633?v=4"
+    }
+  },
+  {
+    "name": "gavogavogavo/claude-sbox",
+    "url": "https://github.com/gavogavogavo/claude-sbox",
+    "description": "Claude Code skill for s&box game development. Schema-verified API reference, 10 runnable examples, zero Unity hallucinations",
+    "stars": 19,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "claude-code",
+      "claude-skill",
+      "game-development",
+      "sbox",
+      "source2"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-14T22:47:55Z",
+    "updated_at": "2026-04-17T19:44:26Z",
+    "owner": {
+      "name": "gavogavogavo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/164381624?v=4"
     }
   }
 ]
