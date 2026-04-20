@@ -32,13 +32,13 @@
     "name": "larksuite/cli",
     "url": "https://github.com/larksuite/cli",
     "description": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
-    "stars": 8188,
-    "forks": 526,
+    "stars": 8246,
+    "forks": 532,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-25T07:13:30Z",
-    "updated_at": "2026-04-19T04:44:57Z",
+    "updated_at": "2026-04-20T04:47:20Z",
     "owner": {
       "name": "larksuite",
       "avatar_url": "https://avatars.githubusercontent.com/u/54944174?v=4"
@@ -48,13 +48,13 @@
     "name": "maaslalani/sheets",
     "url": "https://github.com/maaslalani/sheets",
     "description": "Terminal based spreadsheet tool",
-    "stars": 2017,
+    "stars": 2023,
     "forks": 56,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-04-01T08:20:07Z",
-    "updated_at": "2026-04-19T03:29:46Z",
+    "updated_at": "2026-04-20T01:32:03Z",
     "owner": {
       "name": "maaslalani",
       "avatar_url": "https://avatars.githubusercontent.com/u/42545625?v=4"
@@ -80,7 +80,7 @@
     "name": "fastclaw-ai/weclaw",
     "url": "https://github.com/fastclaw-ai/weclaw",
     "description": "Connect to any agents with WeChat ClawBot.",
-    "stars": 1291,
+    "stars": 1295,
     "forks": 154,
     "language": "Go",
     "topics": [
@@ -93,7 +93,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-22T14:52:35Z",
-    "updated_at": "2026-04-19T03:35:20Z",
+    "updated_at": "2026-04-20T02:36:02Z",
     "owner": {
       "name": "fastclaw-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/260873402?v=4"
@@ -139,8 +139,8 @@
     "name": "openilink/openilink-hub",
     "url": "https://github.com/openilink/openilink-hub",
     "description": "开源微信 Bot 管理平台 + App 应用市场 | Self-hosted WeChat Bot Platform with App Marketplace | Lark · Slack · Discord · DingTalk · GitHub · Notion · 20+ Apps | AI Tools | 7 Language SDKs",
-    "stars": 1129,
-    "forks": 72,
+    "stars": 1134,
+    "forks": 73,
     "language": "Go",
     "topics": [
       "ai-chatbot",
@@ -163,7 +163,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-22T03:39:57Z",
-    "updated_at": "2026-04-18T17:29:22Z",
+    "updated_at": "2026-04-20T04:16:43Z",
     "owner": {
       "name": "openilink",
       "avatar_url": "https://avatars.githubusercontent.com/u/270050004?v=4"
@@ -189,13 +189,13 @@
     "name": "james-6-23/codex2api",
     "url": "https://github.com/james-6-23/codex2api",
     "description": null,
-    "stars": 656,
-    "forks": 132,
+    "stars": 662,
+    "forks": 133,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-03-24T00:07:29Z",
-    "updated_at": "2026-04-19T04:38:20Z",
+    "updated_at": "2026-04-20T00:37:38Z",
     "owner": {
       "name": "james-6-23",
       "avatar_url": "https://avatars.githubusercontent.com/u/117309869?v=4"
@@ -234,11 +234,53 @@
     }
   },
   {
+    "name": "xataio/xata",
+    "url": "https://github.com/xataio/xata",
+    "description": "Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero",
+    "stars": 639,
+    "forks": 28,
+    "language": "Go",
+    "topics": [
+      "branching",
+      "kubernetes",
+      "postgresql",
+      "scale-to-zero"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-15T08:49:42Z",
+    "updated_at": "2026-04-20T01:18:31Z",
+    "owner": {
+      "name": "xataio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74420131?v=4"
+    }
+  },
+  {
+    "name": "cloudflare/artifact-fs",
+    "url": "https://github.com/cloudflare/artifact-fs",
+    "description": "ArtifactFS is a filesystem driver designed to mount large git repos as quickly as possible, hydrating file contents on-the-fly instead of blocking on the initial clone. It's ideal for agents, sandboxes, containers and other use-cases where startup time is critical.",
+    "stars": 625,
+    "forks": 24,
+    "language": "Go",
+    "topics": [
+      "cloudflare",
+      "filesystem",
+      "fuse",
+      "git"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-29T23:02:49Z",
+    "updated_at": "2026-04-20T04:37:33Z",
+    "owner": {
+      "name": "cloudflare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4"
+    }
+  },
+  {
     "name": "vkhanhqui/figma-mcp-go",
     "url": "https://github.com/vkhanhqui/figma-mcp-go",
     "description": "Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code",
-    "stars": 615,
-    "forks": 120,
+    "stars": 621,
+    "forks": 123,
     "language": "Go",
     "topics": [
       "agent",
@@ -251,31 +293,47 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-26T11:06:26Z",
-    "updated_at": "2026-04-18T19:58:04Z",
+    "updated_at": "2026-04-20T03:33:01Z",
     "owner": {
       "name": "vkhanhqui",
       "avatar_url": "https://avatars.githubusercontent.com/u/64468109?v=4"
     }
   },
   {
-    "name": "xataio/xata",
-    "url": "https://github.com/xataio/xata",
-    "description": "Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero",
-    "stars": 613,
-    "forks": 25,
+    "name": "retlehs/quien",
+    "url": "https://github.com/retlehs/quien",
+    "description": "A better whois and domain intelligence toolkit",
+    "stars": 608,
+    "forks": 12,
     "language": "Go",
     "topics": [
-      "branching",
-      "kubernetes",
-      "postgresql",
-      "scale-to-zero"
+      "asn",
+      "bgp",
+      "bimi",
+      "cli",
+      "core-web-vitals",
+      "cwv",
+      "dkim",
+      "dmarc",
+      "dns",
+      "domain",
+      "golang",
+      "ip-lookup",
+      "nameservers",
+      "peeringdb",
+      "quien",
+      "rdap",
+      "seo",
+      "spf",
+      "tls",
+      "whois"
     ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-15T08:49:42Z",
-    "updated_at": "2026-04-19T04:43:24Z",
+    "license": "MIT License",
+    "created_at": "2026-04-10T02:53:42Z",
+    "updated_at": "2026-04-20T00:34:13Z",
     "owner": {
-      "name": "xataio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74420131?v=4"
+      "name": "retlehs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115911?v=4"
     }
   },
   {
@@ -311,92 +369,34 @@
     }
   },
   {
-    "name": "retlehs/quien",
-    "url": "https://github.com/retlehs/quien",
-    "description": "A better whois and domain intelligence toolkit",
-    "stars": 595,
-    "forks": 12,
-    "language": "Go",
-    "topics": [
-      "asn",
-      "bgp",
-      "bimi",
-      "cli",
-      "core-web-vitals",
-      "cwv",
-      "dkim",
-      "dmarc",
-      "dns",
-      "domain",
-      "golang",
-      "ip-lookup",
-      "nameservers",
-      "peeringdb",
-      "quien",
-      "rdap",
-      "seo",
-      "spf",
-      "tls",
-      "whois"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-10T02:53:42Z",
-    "updated_at": "2026-04-19T03:35:01Z",
-    "owner": {
-      "name": "retlehs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/115911?v=4"
-    }
-  },
-  {
     "name": "ProjectBarks/gopher-code",
     "url": "https://github.com/ProjectBarks/gopher-code",
     "description": "Claude Code, rewritten from scratch in Go. Zero Node.js. Zero Electron. One binary.",
-    "stars": 587,
-    "forks": 17,
+    "stars": 585,
+    "forks": 18,
     "language": "Go",
     "topics": [
       "go"
     ],
     "license": "No license",
     "created_at": "2026-04-02T06:10:04Z",
-    "updated_at": "2026-04-19T04:28:38Z",
+    "updated_at": "2026-04-20T04:29:50Z",
     "owner": {
       "name": "ProjectBarks",
       "avatar_url": "https://avatars.githubusercontent.com/u/4194371?v=4"
     }
   },
   {
-    "name": "cloudflare/artifact-fs",
-    "url": "https://github.com/cloudflare/artifact-fs",
-    "description": "ArtifactFS is a filesystem driver designed to mount large git repos as quickly as possible, hydrating file contents on-the-fly instead of blocking on the initial clone. It's ideal for agents, sandboxes, containers and other use-cases where startup time is critical.",
-    "stars": 530,
-    "forks": 23,
-    "language": "Go",
-    "topics": [
-      "cloudflare",
-      "filesystem",
-      "fuse",
-      "git"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-29T23:02:49Z",
-    "updated_at": "2026-04-19T04:10:04Z",
-    "owner": {
-      "name": "cloudflare",
-      "avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4"
-    }
-  },
-  {
     "name": "compozy/compozy",
     "url": "https://github.com/compozy/compozy",
     "description": "Drive the full lifecycle of AI-assisted development — from idea to shipped code.",
-    "stars": 506,
+    "stars": 508,
     "forks": 54,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-28T05:24:12Z",
-    "updated_at": "2026-04-19T03:07:56Z",
+    "updated_at": "2026-04-19T22:33:51Z",
     "owner": {
       "name": "compozy",
       "avatar_url": "https://avatars.githubusercontent.com/u/205107042?v=4"
@@ -406,13 +406,13 @@
     "name": "cisco-ai-defense/defenseclaw",
     "url": "https://github.com/cisco-ai-defense/defenseclaw",
     "description": "Security Governance for Agentic AI",
-    "stars": 484,
+    "stars": 490,
     "forks": 76,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-03-23T00:51:19Z",
-    "updated_at": "2026-04-19T03:46:40Z",
+    "updated_at": "2026-04-20T00:44:28Z",
     "owner": {
       "name": "cisco-ai-defense",
       "avatar_url": "https://avatars.githubusercontent.com/u/220944709?v=4"
@@ -519,23 +519,66 @@
     "name": "xoai/sage-wiki",
     "url": "https://github.com/xoai/sage-wiki",
     "description": "An LLM-compiled personal knowledge base.  Drop in your papers, articles, and notes. sage-wiki compiles them into a structured, interlinked wiki — with concepts extracted, cross-references discovered, and everything searchable.",
-    "stars": 424,
-    "forks": 70,
+    "stars": 429,
+    "forks": 72,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-04-04T09:19:03Z",
-    "updated_at": "2026-04-19T02:25:49Z",
+    "updated_at": "2026-04-20T04:53:14Z",
     "owner": {
       "name": "xoai",
       "avatar_url": "https://avatars.githubusercontent.com/u/126380?v=4"
     }
   },
   {
+    "name": "mandiant/gopacket",
+    "url": "https://github.com/mandiant/gopacket",
+    "description": "Gopacket is a clean Go implementation of Impacket, a library intended for working with network protocols.",
+    "stars": 371,
+    "forks": 31,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-10T18:57:01Z",
+    "updated_at": "2026-04-20T02:43:29Z",
+    "owner": {
+      "name": "mandiant",
+      "avatar_url": "https://avatars.githubusercontent.com/u/331209?v=4"
+    }
+  },
+  {
+    "name": "moabukar/miniblue",
+    "url": "https://github.com/moabukar/miniblue",
+    "description": "Local Azure development. One binary. No account needed. 25+ emulated services for testing, CI and local dev.",
+    "stars": 356,
+    "forks": 42,
+    "language": "Go",
+    "topics": [
+      "azure",
+      "azure-emulator",
+      "ci-cd",
+      "cloud",
+      "developer-tools",
+      "devops",
+      "golang",
+      "localstack",
+      "terraform",
+      "testing"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-03T23:14:09Z",
+    "updated_at": "2026-04-20T04:08:49Z",
+    "owner": {
+      "name": "moabukar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76791648?v=4"
+    }
+  },
+  {
     "name": "openlibrecommunity/olcrtc",
     "url": "https://github.com/openlibrecommunity/olcrtc",
     "description": "olc - implementation of BB22, using side channels to access web outside the whitelist",
-    "stars": 352,
+    "stars": 355,
     "forks": 24,
     "language": "Go",
     "topics": [
@@ -544,7 +587,7 @@
     ],
     "license": "Do What The F*ck You Want To Public License",
     "created_at": "2026-04-04T21:18:39Z",
-    "updated_at": "2026-04-18T20:47:29Z",
+    "updated_at": "2026-04-20T03:05:56Z",
     "owner": {
       "name": "openlibrecommunity",
       "avatar_url": "https://avatars.githubusercontent.com/u/274402647?v=4"
@@ -567,30 +610,19 @@
     }
   },
   {
-    "name": "moabukar/miniblue",
-    "url": "https://github.com/moabukar/miniblue",
-    "description": "Local Azure development. One binary. No account needed. 25+ emulated services for testing, CI and local dev.",
-    "stars": 346,
-    "forks": 42,
+    "name": "Quorinex/Freebuff2API",
+    "url": "https://github.com/Quorinex/Freebuff2API",
+    "description": "🚀 OpenAI-compatible Freebuff proxy with dynamic free-agent tracking, token rotation, and ready-to-use Docker deployment.",
+    "stars": 342,
+    "forks": 56,
     "language": "Go",
-    "topics": [
-      "azure",
-      "azure-emulator",
-      "ci-cd",
-      "cloud",
-      "developer-tools",
-      "devops",
-      "golang",
-      "localstack",
-      "terraform",
-      "testing"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-04-03T23:14:09Z",
-    "updated_at": "2026-04-19T02:37:12Z",
+    "created_at": "2026-04-18T01:08:34Z",
+    "updated_at": "2026-04-20T04:46:23Z",
     "owner": {
-      "name": "moabukar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76791648?v=4"
+      "name": "Quorinex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/257893540?v=4"
     }
   },
   {
@@ -619,26 +651,10 @@
     }
   },
   {
-    "name": "isboyjc/GoProxy",
-    "url": "https://github.com/isboyjc/GoProxy",
-    "description": "GoProxy 从多个公开代理源自动抓取 HTTP/SOCKS5 代理，通过严格验证（出口 IP + 位置 + 延迟）后加入智能代理池，对外提供 HTTP 和 SOCKS5 双协议代理服务。系统采用质量分级、智能补充、自动优化等机制，确保代理池始终保持高质量和稳定性。",
-    "stars": 315,
-    "forks": 96,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-27T15:11:41Z",
-    "updated_at": "2026-04-17T06:28:34Z",
-    "owner": {
-      "name": "isboyjc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42193415?v=4"
-    }
-  },
-  {
     "name": "umputun/revdiff",
     "url": "https://github.com/umputun/revdiff",
     "description": "TUI for reviewing diffs, files, and documents with inline annotations",
-    "stars": 311,
+    "stars": 318,
     "forks": 29,
     "language": "Go",
     "topics": [
@@ -650,10 +666,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-01T07:59:06Z",
-    "updated_at": "2026-04-18T08:33:27Z",
+    "updated_at": "2026-04-19T22:36:43Z",
     "owner": {
       "name": "umputun",
       "avatar_url": "https://avatars.githubusercontent.com/u/535880?v=4"
+    }
+  },
+  {
+    "name": "isboyjc/GoProxy",
+    "url": "https://github.com/isboyjc/GoProxy",
+    "description": "GoProxy 从多个公开代理源自动抓取 HTTP/SOCKS5 代理，通过严格验证（出口 IP + 位置 + 延迟）后加入智能代理池，对外提供 HTTP 和 SOCKS5 双协议代理服务。系统采用质量分级、智能补充、自动优化等机制，确保代理池始终保持高质量和稳定性。",
+    "stars": 315,
+    "forks": 97,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-03-27T15:11:41Z",
+    "updated_at": "2026-04-20T02:24:50Z",
+    "owner": {
+      "name": "isboyjc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42193415?v=4"
     }
   },
   {
@@ -722,22 +754,6 @@
     }
   },
   {
-    "name": "mandiant/gopacket",
-    "url": "https://github.com/mandiant/gopacket",
-    "description": "Gopacket is a clean Go implementation of Impacket, a library intended for working with network protocols.",
-    "stars": 292,
-    "forks": 22,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-10T18:57:01Z",
-    "updated_at": "2026-04-19T04:19:18Z",
-    "owner": {
-      "name": "mandiant",
-      "avatar_url": "https://avatars.githubusercontent.com/u/331209?v=4"
-    }
-  },
-  {
     "name": "textfuel/lazyjira",
     "url": "https://github.com/textfuel/lazyjira",
     "description": "Lazygit but for Jira",
@@ -782,32 +798,16 @@
     }
   },
   {
-    "name": "black-ant/Ant-Browser",
-    "url": "https://github.com/black-ant/Ant-Browser",
-    "description": "指纹浏览器",
-    "stars": 267,
-    "forks": 50,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-03-08T15:28:35Z",
-    "updated_at": "2026-04-06T01:41:25Z",
-    "owner": {
-      "name": "black-ant",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26599473?v=4"
-    }
-  },
-  {
     "name": "wh0amitz/TailVNC",
     "url": "https://github.com/wh0amitz/TailVNC",
     "description": "Tailscale-based Windows VNC persistence tool with Session 0 isolation bypass, embedding a full WireGuard peer and RFB server into a single drop-in binary.",
-    "stars": 250,
-    "forks": 24,
+    "stars": 258,
+    "forks": 25,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-04-11T16:13:15Z",
-    "updated_at": "2026-04-19T01:55:55Z",
+    "updated_at": "2026-04-20T03:31:31Z",
     "owner": {
       "name": "wh0amitz",
       "avatar_url": "https://avatars.githubusercontent.com/u/60350435?v=4"
@@ -868,26 +868,10 @@
     }
   },
   {
-    "name": "crmne/hyprmoncfg",
-    "url": "https://github.com/crmne/hyprmoncfg",
-    "description": "Terminal-first monitor configurator and daemon for Hyprland",
-    "stars": 234,
-    "forks": 6,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-25T10:15:42Z",
-    "updated_at": "2026-04-18T16:48:45Z",
-    "owner": {
-      "name": "crmne",
-      "avatar_url": "https://avatars.githubusercontent.com/u/106617?v=4"
-    }
-  },
-  {
     "name": "EvolutionAPI/evolution-go",
     "url": "https://github.com/EvolutionAPI/evolution-go",
     "description": "Evolution API / Evolution Go is an open-source WhatsApp integration API",
-    "stars": 233,
+    "stars": 237,
     "forks": 115,
     "language": "Go",
     "topics": [
@@ -905,10 +889,51 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-03-25T14:43:56Z",
-    "updated_at": "2026-04-19T02:10:55Z",
+    "updated_at": "2026-04-20T01:25:09Z",
     "owner": {
       "name": "EvolutionAPI",
       "avatar_url": "https://avatars.githubusercontent.com/u/136080052?v=4"
+    }
+  },
+  {
+    "name": "crmne/hyprmoncfg",
+    "url": "https://github.com/crmne/hyprmoncfg",
+    "description": "Terminal-first monitor configurator and daemon for Hyprland",
+    "stars": 236,
+    "forks": 6,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-03-25T10:15:42Z",
+    "updated_at": "2026-04-20T03:29:54Z",
+    "owner": {
+      "name": "crmne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106617?v=4"
+    }
+  },
+  {
+    "name": "veyliss/ai-localbase",
+    "url": "https://github.com/veyliss/ai-localbase",
+    "description": "一个本地优先的AI知识库系统（RAG），用于把本地文档接入辅导搜索与大模型对话流程。目前支持md、txt、pdf（文本）、xlsx、cvs类型。支持mcp服务",
+    "stars": 235,
+    "forks": 31,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "go",
+      "knowledge-base",
+      "mcp",
+      "ollama",
+      "qdrant",
+      "rag",
+      "react"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-25T03:42:43Z",
+    "updated_at": "2026-04-20T03:36:34Z",
+    "owner": {
+      "name": "veyliss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105643199?v=4"
     }
   },
   {
@@ -928,41 +953,16 @@
     }
   },
   {
-    "name": "veyliss/ai-localbase",
-    "url": "https://github.com/veyliss/ai-localbase",
-    "description": "一个本地优先的AI知识库系统（RAG），用于把本地文档接入辅导搜索与大模型对话流程。目前支持md、txt、pdf（文本）、xlsx、cvs类型。支持mcp服务",
-    "stars": 232,
-    "forks": 31,
-    "language": "Go",
-    "topics": [
-      "ai",
-      "go",
-      "knowledge-base",
-      "mcp",
-      "ollama",
-      "qdrant",
-      "rag",
-      "react"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-25T03:42:43Z",
-    "updated_at": "2026-04-19T02:03:27Z",
-    "owner": {
-      "name": "veyliss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/105643199?v=4"
-    }
-  },
-  {
     "name": "remoteoss/dexter",
     "url": "https://github.com/remoteoss/dexter",
     "description": "A fast, full-featured Elixir LSP optimized for large codebases.",
-    "stars": 229,
+    "stars": 231,
     "forks": 13,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-04-07T20:27:28Z",
-    "updated_at": "2026-04-18T23:00:12Z",
+    "updated_at": "2026-04-19T14:03:55Z",
     "owner": {
       "name": "remoteoss",
       "avatar_url": "https://avatars.githubusercontent.com/u/88157212?v=4"
@@ -985,24 +985,19 @@
     }
   },
   {
-    "name": "solod-dev/solod",
-    "url": "https://github.com/solod-dev/solod",
-    "description": "A subset of Go that translates to C",
-    "stars": 223,
-    "forks": 5,
+    "name": "atoms-co/splitter",
+    "url": "https://github.com/atoms-co/splitter",
+    "description": "Coordinator for stateful sharded services",
+    "stars": 222,
+    "forks": 16,
     "language": "Go",
-    "topics": [
-      "c",
-      "go",
-      "language",
-      "transpiler"
-    ],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2026-03-08T18:50:05Z",
-    "updated_at": "2026-04-06T01:51:29Z",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-01T19:49:01Z",
+    "updated_at": "2026-04-19T14:03:16Z",
     "owner": {
-      "name": "solod-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/269650213?v=4"
+      "name": "atoms-co",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20524811?v=4"
     }
   },
   {
@@ -1026,19 +1021,21 @@
     }
   },
   {
-    "name": "atoms-co/splitter",
-    "url": "https://github.com/atoms-co/splitter",
-    "description": "Coordinator for stateful sharded services",
-    "stars": 220,
-    "forks": 16,
+    "name": "dgr8akki/nano-ffmpeg",
+    "url": "https://github.com/dgr8akki/nano-ffmpeg",
+    "description": "nano-ffmpeg wraps the full power of ffmpeg in a beautiful, keyboard-driven terminal dashboard. No more googling flags. Browse your files, pick what you want to do, tweak settings with presets, and watch a live progress bar while it encodes.",
+    "stars": 219,
+    "forks": 10,
     "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-01T19:49:01Z",
-    "updated_at": "2026-04-19T02:16:53Z",
+    "topics": [
+      "ffmpeg"
+    ],
+    "license": "No license",
+    "created_at": "2026-04-11T17:34:33Z",
+    "updated_at": "2026-04-20T04:43:22Z",
     "owner": {
-      "name": "atoms-co",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20524811?v=4"
+      "name": "dgr8akki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17708157?v=4"
     }
   },
   {
