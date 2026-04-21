@@ -1,44 +1,15 @@
 [
   {
-    "name": "santifer/career-ops",
-    "url": "https://github.com/santifer/career-ops",
-    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-    "stars": 12074,
-    "forks": 2251,
-    "language": "Go",
-    "topics": [
-      "ai-agent",
-      "anthropic",
-      "automation",
-      "career",
-      "claude",
-      "claude-code",
-      "cli",
-      "golang",
-      "interview-prep",
-      "job-search",
-      "open-source",
-      "resume"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-04T18:21:18Z",
-    "updated_at": "2026-04-07T04:28:36Z",
-    "owner": {
-      "name": "santifer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/256850418?v=4"
-    }
-  },
-  {
     "name": "larksuite/cli",
     "url": "https://github.com/larksuite/cli",
     "description": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
-    "stars": 8246,
-    "forks": 532,
+    "stars": 8343,
+    "forks": 539,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-25T07:13:30Z",
-    "updated_at": "2026-04-20T04:47:20Z",
+    "updated_at": "2026-04-21T04:38:53Z",
     "owner": {
       "name": "larksuite",
       "avatar_url": "https://avatars.githubusercontent.com/u/54944174?v=4"
@@ -48,13 +19,13 @@
     "name": "maaslalani/sheets",
     "url": "https://github.com/maaslalani/sheets",
     "description": "Terminal based spreadsheet tool",
-    "stars": 2023,
+    "stars": 2032,
     "forks": 56,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-04-01T08:20:07Z",
-    "updated_at": "2026-04-20T01:32:03Z",
+    "updated_at": "2026-04-21T04:09:37Z",
     "owner": {
       "name": "maaslalani",
       "avatar_url": "https://avatars.githubusercontent.com/u/42545625?v=4"
@@ -186,16 +157,58 @@
     }
   },
   {
+    "name": "xataio/xata",
+    "url": "https://github.com/xataio/xata",
+    "description": "Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero",
+    "stars": 690,
+    "forks": 32,
+    "language": "Go",
+    "topics": [
+      "branching",
+      "kubernetes",
+      "postgresql",
+      "scale-to-zero"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-15T08:49:42Z",
+    "updated_at": "2026-04-21T03:41:51Z",
+    "owner": {
+      "name": "xataio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74420131?v=4"
+    }
+  },
+  {
+    "name": "cloudflare/artifact-fs",
+    "url": "https://github.com/cloudflare/artifact-fs",
+    "description": "ArtifactFS is a filesystem driver designed to mount large git repos as quickly as possible, hydrating file contents on-the-fly instead of blocking on the initial clone. It's ideal for agents, sandboxes, containers and other use-cases where startup time is critical.",
+    "stars": 675,
+    "forks": 27,
+    "language": "Go",
+    "topics": [
+      "cloudflare",
+      "filesystem",
+      "fuse",
+      "git"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-03-29T23:02:49Z",
+    "updated_at": "2026-04-21T03:54:32Z",
+    "owner": {
+      "name": "cloudflare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4"
+    }
+  },
+  {
     "name": "james-6-23/codex2api",
     "url": "https://github.com/james-6-23/codex2api",
     "description": null,
-    "stars": 662,
-    "forks": 133,
+    "stars": 667,
+    "forks": 134,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-03-24T00:07:29Z",
-    "updated_at": "2026-04-20T00:37:38Z",
+    "updated_at": "2026-04-21T02:45:56Z",
     "owner": {
       "name": "james-6-23",
       "avatar_url": "https://avatars.githubusercontent.com/u/117309869?v=4"
@@ -234,53 +247,11 @@
     }
   },
   {
-    "name": "xataio/xata",
-    "url": "https://github.com/xataio/xata",
-    "description": "Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero",
-    "stars": 639,
-    "forks": 28,
-    "language": "Go",
-    "topics": [
-      "branching",
-      "kubernetes",
-      "postgresql",
-      "scale-to-zero"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-15T08:49:42Z",
-    "updated_at": "2026-04-20T01:18:31Z",
-    "owner": {
-      "name": "xataio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74420131?v=4"
-    }
-  },
-  {
-    "name": "cloudflare/artifact-fs",
-    "url": "https://github.com/cloudflare/artifact-fs",
-    "description": "ArtifactFS is a filesystem driver designed to mount large git repos as quickly as possible, hydrating file contents on-the-fly instead of blocking on the initial clone. It's ideal for agents, sandboxes, containers and other use-cases where startup time is critical.",
-    "stars": 625,
-    "forks": 24,
-    "language": "Go",
-    "topics": [
-      "cloudflare",
-      "filesystem",
-      "fuse",
-      "git"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-03-29T23:02:49Z",
-    "updated_at": "2026-04-20T04:37:33Z",
-    "owner": {
-      "name": "cloudflare",
-      "avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4"
-    }
-  },
-  {
     "name": "vkhanhqui/figma-mcp-go",
     "url": "https://github.com/vkhanhqui/figma-mcp-go",
     "description": "Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code",
-    "stars": 621,
-    "forks": 123,
+    "stars": 634,
+    "forks": 124,
     "language": "Go",
     "topics": [
       "agent",
@@ -293,7 +264,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-26T11:06:26Z",
-    "updated_at": "2026-04-20T03:33:01Z",
+    "updated_at": "2026-04-20T16:28:10Z",
     "owner": {
       "name": "vkhanhqui",
       "avatar_url": "https://avatars.githubusercontent.com/u/64468109?v=4"
@@ -303,8 +274,8 @@
     "name": "retlehs/quien",
     "url": "https://github.com/retlehs/quien",
     "description": "A better whois and domain intelligence toolkit",
-    "stars": 608,
-    "forks": 12,
+    "stars": 619,
+    "forks": 13,
     "language": "Go",
     "topics": [
       "asn",
@@ -330,7 +301,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-10T02:53:42Z",
-    "updated_at": "2026-04-20T00:34:13Z",
+    "updated_at": "2026-04-21T03:16:53Z",
     "owner": {
       "name": "retlehs",
       "avatar_url": "https://avatars.githubusercontent.com/u/115911?v=4"
@@ -372,7 +343,7 @@
     "name": "ProjectBarks/gopher-code",
     "url": "https://github.com/ProjectBarks/gopher-code",
     "description": "Claude Code, rewritten from scratch in Go. Zero Node.js. Zero Electron. One binary.",
-    "stars": 585,
+    "stars": 597,
     "forks": 18,
     "language": "Go",
     "topics": [
@@ -380,7 +351,7 @@
     ],
     "license": "No license",
     "created_at": "2026-04-02T06:10:04Z",
-    "updated_at": "2026-04-20T04:29:50Z",
+    "updated_at": "2026-04-21T03:31:25Z",
     "owner": {
       "name": "ProjectBarks",
       "avatar_url": "https://avatars.githubusercontent.com/u/4194371?v=4"
@@ -390,13 +361,13 @@
     "name": "compozy/compozy",
     "url": "https://github.com/compozy/compozy",
     "description": "Drive the full lifecycle of AI-assisted development — from idea to shipped code.",
-    "stars": 508,
+    "stars": 512,
     "forks": 54,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-28T05:24:12Z",
-    "updated_at": "2026-04-19T22:33:51Z",
+    "updated_at": "2026-04-21T01:36:17Z",
     "owner": {
       "name": "compozy",
       "avatar_url": "https://avatars.githubusercontent.com/u/205107042?v=4"
@@ -406,32 +377,16 @@
     "name": "cisco-ai-defense/defenseclaw",
     "url": "https://github.com/cisco-ai-defense/defenseclaw",
     "description": "Security Governance for Agentic AI",
-    "stars": 490,
-    "forks": 76,
+    "stars": 496,
+    "forks": 78,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-03-23T00:51:19Z",
-    "updated_at": "2026-04-20T00:44:28Z",
+    "updated_at": "2026-04-21T01:58:46Z",
     "owner": {
       "name": "cisco-ai-defense",
       "avatar_url": "https://avatars.githubusercontent.com/u/220944709?v=4"
-    }
-  },
-  {
-    "name": "fastclaw-ai/fastclaw",
-    "url": "https://github.com/fastclaw-ai/fastclaw",
-    "description": "Faster and better openclaw alternative",
-    "stars": 484,
-    "forks": 68,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-03-09T09:07:00Z",
-    "updated_at": "2026-04-07T02:35:35Z",
-    "owner": {
-      "name": "fastclaw-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/260873402?v=4"
     }
   },
   {
@@ -488,6 +443,22 @@
     }
   },
   {
+    "name": "xoai/sage-wiki",
+    "url": "https://github.com/xoai/sage-wiki",
+    "description": "An LLM-compiled personal knowledge base.  Drop in your papers, articles, and notes. sage-wiki compiles them into a structured, interlinked wiki — with concepts extracted, cross-references discovered, and everything searchable.",
+    "stars": 439,
+    "forks": 74,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-04T09:19:03Z",
+    "updated_at": "2026-04-21T03:18:57Z",
+    "owner": {
+      "name": "xoai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126380?v=4"
+    }
+  },
+  {
     "name": "phlx0/drift",
     "url": "https://github.com/phlx0/drift",
     "description": "Terminal screensaver that activates when you're idle — constellations, rain, particles & more. Press any key to resume. Just drift away!",
@@ -516,42 +487,42 @@
     }
   },
   {
-    "name": "xoai/sage-wiki",
-    "url": "https://github.com/xoai/sage-wiki",
-    "description": "An LLM-compiled personal knowledge base.  Drop in your papers, articles, and notes. sage-wiki compiles them into a structured, interlinked wiki — with concepts extracted, cross-references discovered, and everything searchable.",
-    "stars": 429,
-    "forks": 72,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-04T09:19:03Z",
-    "updated_at": "2026-04-20T04:53:14Z",
-    "owner": {
-      "name": "xoai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/126380?v=4"
-    }
-  },
-  {
     "name": "mandiant/gopacket",
     "url": "https://github.com/mandiant/gopacket",
     "description": "Gopacket is a clean Go implementation of Impacket, a library intended for working with network protocols.",
-    "stars": 371,
-    "forks": 31,
+    "stars": 421,
+    "forks": 34,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-04-10T18:57:01Z",
-    "updated_at": "2026-04-20T02:43:29Z",
+    "updated_at": "2026-04-21T03:00:38Z",
     "owner": {
       "name": "mandiant",
       "avatar_url": "https://avatars.githubusercontent.com/u/331209?v=4"
     }
   },
   {
+    "name": "Quorinex/Freebuff2API",
+    "url": "https://github.com/Quorinex/Freebuff2API",
+    "description": "🚀 OpenAI-compatible Freebuff proxy with dynamic free-agent tracking, token rotation, and ready-to-use Docker deployment.",
+    "stars": 364,
+    "forks": 59,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-18T01:08:34Z",
+    "updated_at": "2026-04-21T03:55:42Z",
+    "owner": {
+      "name": "Quorinex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/257893540?v=4"
+    }
+  },
+  {
     "name": "moabukar/miniblue",
     "url": "https://github.com/moabukar/miniblue",
     "description": "Local Azure development. One binary. No account needed. 25+ emulated services for testing, CI and local dev.",
-    "stars": 356,
+    "stars": 360,
     "forks": 42,
     "language": "Go",
     "topics": [
@@ -568,7 +539,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-03T23:14:09Z",
-    "updated_at": "2026-04-20T04:08:49Z",
+    "updated_at": "2026-04-20T11:50:49Z",
     "owner": {
       "name": "moabukar",
       "avatar_url": "https://avatars.githubusercontent.com/u/76791648?v=4"
@@ -578,8 +549,8 @@
     "name": "openlibrecommunity/olcrtc",
     "url": "https://github.com/openlibrecommunity/olcrtc",
     "description": "olc - implementation of BB22, using side channels to access web outside the whitelist",
-    "stars": 355,
-    "forks": 24,
+    "stars": 360,
+    "forks": 26,
     "language": "Go",
     "topics": [
       "webrtc",
@@ -587,7 +558,7 @@
     ],
     "license": "Do What The F*ck You Want To Public License",
     "created_at": "2026-04-04T21:18:39Z",
-    "updated_at": "2026-04-20T03:05:56Z",
+    "updated_at": "2026-04-20T23:00:57Z",
     "owner": {
       "name": "openlibrecommunity",
       "avatar_url": "https://avatars.githubusercontent.com/u/274402647?v=4"
@@ -607,22 +578,6 @@
     "owner": {
       "name": "QQ3221197721",
       "avatar_url": "https://avatars.githubusercontent.com/u/252306653?v=4"
-    }
-  },
-  {
-    "name": "Quorinex/Freebuff2API",
-    "url": "https://github.com/Quorinex/Freebuff2API",
-    "description": "🚀 OpenAI-compatible Freebuff proxy with dynamic free-agent tracking, token rotation, and ready-to-use Docker deployment.",
-    "stars": 342,
-    "forks": 56,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-18T01:08:34Z",
-    "updated_at": "2026-04-20T04:46:23Z",
-    "owner": {
-      "name": "Quorinex",
-      "avatar_url": "https://avatars.githubusercontent.com/u/257893540?v=4"
     }
   },
   {
@@ -654,7 +609,7 @@
     "name": "umputun/revdiff",
     "url": "https://github.com/umputun/revdiff",
     "description": "TUI for reviewing diffs, files, and documents with inline annotations",
-    "stars": 318,
+    "stars": 323,
     "forks": 29,
     "language": "Go",
     "topics": [
@@ -666,7 +621,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-01T07:59:06Z",
-    "updated_at": "2026-04-19T22:36:43Z",
+    "updated_at": "2026-04-20T19:48:55Z",
     "owner": {
       "name": "umputun",
       "avatar_url": "https://avatars.githubusercontent.com/u/535880?v=4"
@@ -682,7 +637,7 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-03-27T15:11:41Z",
-    "updated_at": "2026-04-20T02:24:50Z",
+    "updated_at": "2026-04-20T11:17:20Z",
     "owner": {
       "name": "isboyjc",
       "avatar_url": "https://avatars.githubusercontent.com/u/42193415?v=4"
@@ -692,13 +647,13 @@
     "name": "ironsh/iron-proxy",
     "url": "https://github.com/ironsh/iron-proxy",
     "description": "An egress firewall for untrusted workloads.",
-    "stars": 309,
+    "stars": 313,
     "forks": 11,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-04-01T17:40:30Z",
-    "updated_at": "2026-04-18T22:00:37Z",
+    "updated_at": "2026-04-20T20:28:39Z",
     "owner": {
       "name": "ironsh",
       "avatar_url": "https://avatars.githubusercontent.com/u/232963428?v=4"
@@ -754,6 +709,26 @@
     }
   },
   {
+    "name": "tanviet12/chat-quality-agent",
+    "url": "https://github.com/tanviet12/chat-quality-agent",
+    "description": "Chat Quality Agent - Agent phân tích chất lượng CSKH bằng AI",
+    "stars": 275,
+    "forks": 266,
+    "language": "Go",
+    "topics": [
+      "ai-agent",
+      "facebook-messenger",
+      "zalo"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-23T16:04:28Z",
+    "updated_at": "2026-04-21T03:39:33Z",
+    "owner": {
+      "name": "tanviet12",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2985601?v=4"
+    }
+  },
+  {
     "name": "textfuel/lazyjira",
     "url": "https://github.com/textfuel/lazyjira",
     "description": "Lazygit but for Jira",
@@ -778,36 +753,16 @@
     }
   },
   {
-    "name": "tanviet12/chat-quality-agent",
-    "url": "https://github.com/tanviet12/chat-quality-agent",
-    "description": "Chat Quality Agent - Agent phân tích chất lượng CSKH bằng AI",
-    "stars": 272,
-    "forks": 265,
-    "language": "Go",
-    "topics": [
-      "ai-agent",
-      "facebook-messenger",
-      "zalo"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-23T16:04:28Z",
-    "updated_at": "2026-04-16T00:07:04Z",
-    "owner": {
-      "name": "tanviet12",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2985601?v=4"
-    }
-  },
-  {
     "name": "wh0amitz/TailVNC",
     "url": "https://github.com/wh0amitz/TailVNC",
     "description": "Tailscale-based Windows VNC persistence tool with Session 0 isolation bypass, embedding a full WireGuard peer and RFB server into a single drop-in binary.",
-    "stars": 258,
-    "forks": 25,
+    "stars": 261,
+    "forks": 26,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-04-11T16:13:15Z",
-    "updated_at": "2026-04-20T03:31:31Z",
+    "updated_at": "2026-04-20T15:25:50Z",
     "owner": {
       "name": "wh0amitz",
       "avatar_url": "https://avatars.githubusercontent.com/u/60350435?v=4"
@@ -846,6 +801,31 @@
     }
   },
   {
+    "name": "veyliss/ai-localbase",
+    "url": "https://github.com/veyliss/ai-localbase",
+    "description": "一个本地优先的AI知识库系统（RAG），用于把本地文档接入辅导搜索与大模型对话流程。目前支持md、txt、pdf（文本）、xlsx、cvs类型。支持mcp服务",
+    "stars": 242,
+    "forks": 31,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "go",
+      "knowledge-base",
+      "mcp",
+      "ollama",
+      "qdrant",
+      "rag",
+      "react"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-03-25T03:42:43Z",
+    "updated_at": "2026-04-21T04:42:20Z",
+    "owner": {
+      "name": "veyliss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105643199?v=4"
+    }
+  },
+  {
     "name": "JuliusBrussee/cavekit",
     "url": "https://github.com/JuliusBrussee/cavekit",
     "description": "A Claude Code plugin that turns natural language into blueprints, blueprints into parallel build plans, and build plans into working software with automated iteration, validation, and cross-model peer review.",
@@ -871,8 +851,8 @@
     "name": "EvolutionAPI/evolution-go",
     "url": "https://github.com/EvolutionAPI/evolution-go",
     "description": "Evolution API / Evolution Go is an open-source WhatsApp integration API",
-    "stars": 237,
-    "forks": 115,
+    "stars": 239,
+    "forks": 118,
     "language": "Go",
     "topics": [
       "baileys",
@@ -889,51 +869,60 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-03-25T14:43:56Z",
-    "updated_at": "2026-04-20T01:25:09Z",
+    "updated_at": "2026-04-20T14:18:53Z",
     "owner": {
       "name": "EvolutionAPI",
       "avatar_url": "https://avatars.githubusercontent.com/u/136080052?v=4"
     }
   },
   {
+    "name": "remoteoss/dexter",
+    "url": "https://github.com/remoteoss/dexter",
+    "description": "A fast, full-featured Elixir LSP optimized for large codebases.",
+    "stars": 238,
+    "forks": 13,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-07T20:27:28Z",
+    "updated_at": "2026-04-21T02:48:57Z",
+    "owner": {
+      "name": "remoteoss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88157212?v=4"
+    }
+  },
+  {
     "name": "crmne/hyprmoncfg",
     "url": "https://github.com/crmne/hyprmoncfg",
     "description": "Terminal-first monitor configurator and daemon for Hyprland",
-    "stars": 236,
+    "stars": 237,
     "forks": 6,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-03-25T10:15:42Z",
-    "updated_at": "2026-04-20T03:29:54Z",
+    "updated_at": "2026-04-20T15:33:53Z",
     "owner": {
       "name": "crmne",
       "avatar_url": "https://avatars.githubusercontent.com/u/106617?v=4"
     }
   },
   {
-    "name": "veyliss/ai-localbase",
-    "url": "https://github.com/veyliss/ai-localbase",
-    "description": "一个本地优先的AI知识库系统（RAG），用于把本地文档接入辅导搜索与大模型对话流程。目前支持md、txt、pdf（文本）、xlsx、cvs类型。支持mcp服务",
-    "stars": 235,
-    "forks": 31,
+    "name": "dgr8akki/nano-ffmpeg",
+    "url": "https://github.com/dgr8akki/nano-ffmpeg",
+    "description": "nano-ffmpeg wraps the full power of ffmpeg in a beautiful, keyboard-driven terminal dashboard. No more googling flags. Browse your files, pick what you want to do, tweak settings with presets, and watch a live progress bar while it encodes.",
+    "stars": 234,
+    "forks": 11,
     "language": "Go",
     "topics": [
-      "ai",
-      "go",
-      "knowledge-base",
-      "mcp",
-      "ollama",
-      "qdrant",
-      "rag",
-      "react"
+      "ffmpeg"
     ],
-    "license": "MIT License",
-    "created_at": "2026-03-25T03:42:43Z",
-    "updated_at": "2026-04-20T03:36:34Z",
+    "license": "No license",
+    "created_at": "2026-04-11T17:34:33Z",
+    "updated_at": "2026-04-20T20:35:29Z",
     "owner": {
-      "name": "veyliss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/105643199?v=4"
+      "name": "dgr8akki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17708157?v=4"
     }
   },
   {
@@ -953,19 +942,23 @@
     }
   },
   {
-    "name": "remoteoss/dexter",
-    "url": "https://github.com/remoteoss/dexter",
-    "description": "A fast, full-featured Elixir LSP optimized for large codebases.",
+    "name": "432539/gpt2api",
+    "url": "https://github.com/432539/gpt2api",
+    "description": "基于 chatgpt.com 逆向的 OpenAI 兼容 SaaS 网关 · IMG2 灰度 · 批量出图 · 多账号池 · 高并发调度 · 积分计费 · 技术交流QQ 群 382446",
     "stars": 231,
-    "forks": 13,
+    "forks": 70,
     "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-07T20:27:28Z",
-    "updated_at": "2026-04-19T14:03:55Z",
+    "topics": [
+      "chatgpt",
+      "gpt-image-2",
+      "openai"
+    ],
+    "license": "Other",
+    "created_at": "2026-04-18T06:02:44Z",
+    "updated_at": "2026-04-21T04:36:07Z",
     "owner": {
-      "name": "remoteoss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/88157212?v=4"
+      "name": "432539",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22024444?v=4"
     }
   },
   {
@@ -988,13 +981,13 @@
     "name": "atoms-co/splitter",
     "url": "https://github.com/atoms-co/splitter",
     "description": "Coordinator for stateful sharded services",
-    "stars": 222,
+    "stars": 225,
     "forks": 16,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-04-01T19:49:01Z",
-    "updated_at": "2026-04-19T14:03:16Z",
+    "updated_at": "2026-04-21T02:08:07Z",
     "owner": {
       "name": "atoms-co",
       "avatar_url": "https://avatars.githubusercontent.com/u/20524811?v=4"
@@ -1021,28 +1014,36 @@
     }
   },
   {
-    "name": "dgr8akki/nano-ffmpeg",
-    "url": "https://github.com/dgr8akki/nano-ffmpeg",
-    "description": "nano-ffmpeg wraps the full power of ffmpeg in a beautiful, keyboard-driven terminal dashboard. No more googling flags. Browse your files, pick what you want to do, tweak settings with presets, and watch a live progress bar while it encodes.",
+    "name": "bhope/hedge",
+    "url": "https://github.com/bhope/hedge",
+    "description": "Adaptive hedged requests for Go. Cut your p99 latency with zero configuration. Based on Google's \"The Tail at Scale\" paper.",
     "stars": 219,
-    "forks": 10,
+    "forks": 4,
     "language": "Go",
     "topics": [
-      "ffmpeg"
+      "concurrency",
+      "go",
+      "golang",
+      "golang-library",
+      "grpc",
+      "hedging",
+      "microservices",
+      "performance",
+      "tail-latency"
     ],
-    "license": "No license",
-    "created_at": "2026-04-11T17:34:33Z",
-    "updated_at": "2026-04-20T04:43:22Z",
+    "license": "MIT License",
+    "created_at": "2026-03-25T07:54:54Z",
+    "updated_at": "2026-04-21T03:40:21Z",
     "owner": {
-      "name": "dgr8akki",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17708157?v=4"
+      "name": "bhope",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7515346?v=4"
     }
   },
   {
     "name": "maxigo-web/maxigo-client",
     "url": "https://github.com/maxigo-web/maxigo-client",
     "description": "Idiomatic Go HTTP client for Max Bot API — zero dependencies, context support, structured errors",
-    "stars": 214,
+    "stars": 215,
     "forks": 0,
     "language": "Go",
     "topics": [
@@ -1069,7 +1070,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-03-29T01:45:05Z",
-    "updated_at": "2026-04-11T10:22:33Z",
+    "updated_at": "2026-04-21T02:58:38Z",
     "owner": {
       "name": "maxigo-web",
       "avatar_url": "https://avatars.githubusercontent.com/u/271871749?v=4"
@@ -1149,32 +1150,6 @@
     "owner": {
       "name": "pion",
       "avatar_url": "https://avatars.githubusercontent.com/u/38192892?v=4"
-    }
-  },
-  {
-    "name": "bhope/hedge",
-    "url": "https://github.com/bhope/hedge",
-    "description": "Adaptive hedged requests for Go. Cut your p99 latency with zero configuration. Based on Google's \"The Tail at Scale\" paper.",
-    "stars": 170,
-    "forks": 2,
-    "language": "Go",
-    "topics": [
-      "concurrency",
-      "go",
-      "golang",
-      "golang-library",
-      "grpc",
-      "hedging",
-      "microservices",
-      "performance",
-      "tail-latency"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-03-25T07:54:54Z",
-    "updated_at": "2026-04-13T02:10:10Z",
-    "owner": {
-      "name": "bhope",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7515346?v=4"
     }
   },
   {
