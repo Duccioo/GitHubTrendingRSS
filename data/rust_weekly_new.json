@@ -43,27 +43,11 @@
     }
   },
   {
-    "name": "obdev/littlesnitch-linux",
-    "url": "https://github.com/obdev/littlesnitch-linux",
-    "description": "Open Source components of Little Snitch for Linux",
-    "stars": 653,
-    "forks": 21,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-04-08T13:07:47Z",
-    "updated_at": "2026-04-14T04:35:41Z",
-    "owner": {
-      "name": "obdev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2912473?v=4"
-    }
-  },
-  {
     "name": "therealaleph/MasterHttpRelayVPN-RUST",
     "url": "https://github.com/therealaleph/MasterHttpRelayVPN-RUST",
     "description": "Rust port of @masterking32's MasterHttpRelayVPN — all credit to @masterking32 for the original idea and Python implementation. Free DPI bypass via a Google Apps Script relay with TLS SNI concealment. CLI + cross-platform desktop UI, HTTP + SOCKS5 proxy, no runtime deps.",
-    "stars": 646,
-    "forks": 62,
+    "stars": 757,
+    "forks": 87,
     "language": "Rust",
     "topics": [
       "anti-censorship",
@@ -86,10 +70,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-21T14:46:31Z",
-    "updated_at": "2026-04-26T04:35:40Z",
+    "updated_at": "2026-04-27T05:12:14Z",
     "owner": {
       "name": "therealaleph",
       "avatar_url": "https://avatars.githubusercontent.com/u/67456590?v=4"
+    }
+  },
+  {
+    "name": "obdev/littlesnitch-linux",
+    "url": "https://github.com/obdev/littlesnitch-linux",
+    "description": "Open Source components of Little Snitch for Linux",
+    "stars": 653,
+    "forks": 21,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-04-08T13:07:47Z",
+    "updated_at": "2026-04-14T04:35:41Z",
+    "owner": {
+      "name": "obdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2912473?v=4"
     }
   },
   {
@@ -357,6 +357,27 @@
     }
   },
   {
+    "name": "limitless-org/crypto-engine",
+    "url": "https://github.com/limitless-org/crypto-engine",
+    "description": "Crypto Engine",
+    "stars": 141,
+    "forks": 304,
+    "language": "Rust",
+    "topics": [
+      "bot",
+      "profitable",
+      "trading",
+      "typescript"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-25T15:33:36Z",
+    "updated_at": "2026-04-27T05:17:13Z",
+    "owner": {
+      "name": "limitless-org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279280489?v=4"
+    }
+  },
+  {
     "name": "vmi-rs/ephemera",
     "url": "https://github.com/vmi-rs/ephemera",
     "description": "Multiplatform MEMORY.DMP analysis tool with a WinDbg flavor",
@@ -448,45 +469,10 @@
     }
   },
   {
-    "name": "ZhangHanDong/mempal",
-    "url": "https://github.com/ZhangHanDong/mempal",
-    "description": "AI Agent Memory",
-    "stars": 88,
-    "forks": 8,
-    "language": "Rust",
-    "topics": [
-      "agent",
-      "memory-management"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-07T23:13:19Z",
-    "updated_at": "2026-04-13T04:18:55Z",
-    "owner": {
-      "name": "ZhangHanDong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/27893?v=4"
-    }
-  },
-  {
-    "name": "kkodecs/livrarr",
-    "url": "https://github.com/kkodecs/livrarr",
-    "description": null,
-    "stars": 78,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-04-07T09:57:48Z",
-    "updated_at": "2026-04-13T04:33:10Z",
-    "owner": {
-      "name": "kkodecs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/273890000?v=4"
-    }
-  },
-  {
     "name": "jhartquist/resonators",
     "url": "https://github.com/jhartquist/resonators",
     "description": "Rust implementation of the Resonate algorithm for low-latency spectral analysis, with Python and WebAssembly bindings",
-    "stars": 76,
+    "stars": 77,
     "forks": 5,
     "language": "Rust",
     "topics": [
@@ -502,7 +488,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-04-21T00:06:26Z",
-    "updated_at": "2026-04-25T22:56:58Z",
+    "updated_at": "2026-04-26T12:53:47Z",
     "owner": {
       "name": "jhartquist",
       "avatar_url": "https://avatars.githubusercontent.com/u/1100780?v=4"
@@ -522,6 +508,27 @@
     "owner": {
       "name": "TheScienceElf",
       "avatar_url": "https://avatars.githubusercontent.com/u/97303660?v=4"
+    }
+  },
+  {
+    "name": "penberg/betelgeuse",
+    "url": "https://github.com/penberg/betelgeuse",
+    "description": "Completion-based I/O for Rust. No runtime, no hidden tasks.",
+    "stars": 67,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "async",
+      "deterministic-simulation",
+      "io",
+      "rust"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-22T11:07:53Z",
+    "updated_at": "2026-04-26T14:16:35Z",
+    "owner": {
+      "name": "penberg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81939?v=4"
     }
   },
   {
@@ -553,24 +560,19 @@
     }
   },
   {
-    "name": "penberg/betelgeuse",
-    "url": "https://github.com/penberg/betelgeuse",
-    "description": "Completion-based I/O for Rust. No runtime, no hidden tasks.",
-    "stars": 65,
+    "name": "by-scott/cortex",
+    "url": "https://github.com/by-scott/cortex",
+    "description": "Cognitive runtime for language models with memory, metacognition, multimodal channels, native plugins, and a self-evolving Executive.",
+    "stars": 63,
     "forks": 2,
     "language": "Rust",
-    "topics": [
-      "async",
-      "deterministic-simulation",
-      "io",
-      "rust"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-04-22T11:07:53Z",
-    "updated_at": "2026-04-25T22:53:26Z",
+    "created_at": "2026-04-22T14:02:59Z",
+    "updated_at": "2026-04-27T04:51:30Z",
     "owner": {
-      "name": "penberg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/81939?v=4"
+      "name": "by-scott",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63074534?v=4"
     }
   },
   {
@@ -612,6 +614,27 @@
     "owner": {
       "name": "the-unknown",
       "avatar_url": "https://avatars.githubusercontent.com/u/856536?v=4"
+    }
+  },
+  {
+    "name": "lydiaaam/llm-ui-coord-benchmark",
+    "url": "https://github.com/lydiaaam/llm-ui-coord-benchmark",
+    "description": "A comprehensive benchmark suite for evaluating LLM reasoning on UI coordinate tasks",
+    "stars": 59,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "benchmarking",
+      "llm-evaluation",
+      "rust",
+      "ui-coordinates"
+    ],
+    "license": "No license",
+    "created_at": "2026-04-24T20:45:00Z",
+    "updated_at": "2026-04-27T04:17:34Z",
+    "owner": {
+      "name": "lydiaaam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115728847?v=4"
     }
   },
   {
@@ -751,6 +774,46 @@
     }
   },
   {
+    "name": "mendrik-private/sqv",
+    "url": "https://github.com/mendrik-private/sqv",
+    "description": "sqlite3 viewer",
+    "stars": 54,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "database",
+      "debian",
+      "rust-lang",
+      "sqlite",
+      "tui",
+      "ubuntu",
+      "viewer"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-22T20:09:11Z",
+    "updated_at": "2026-04-27T05:08:42Z",
+    "owner": {
+      "name": "mendrik-private",
+      "avatar_url": "https://avatars.githubusercontent.com/u/262438142?v=4"
+    }
+  },
+  {
+    "name": "aeroxy/ast-outline",
+    "url": "https://github.com/aeroxy/ast-outline",
+    "description": "Fast, AST-based structural outline for source files. Built for LLM coding agents and humans.",
+    "stars": 53,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-25T17:25:51Z",
+    "updated_at": "2026-04-27T04:57:59Z",
+    "owner": {
+      "name": "aeroxy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2761307?v=4"
+    }
+  },
+  {
     "name": "arc53/fast-ebook",
     "url": "https://github.com/arc53/fast-ebook",
     "description": "fast, rust based epub library for python",
@@ -764,32 +827,6 @@
     "owner": {
       "name": "arc53",
       "avatar_url": "https://avatars.githubusercontent.com/u/103419759?v=4"
-    }
-  },
-  {
-    "name": "Maxiinreanimate/Percolate",
-    "url": "https://github.com/Maxiinreanimate/Percolate",
-    "description": "The first and only multichain permissionless perpetual futures DEX.",
-    "stars": 52,
-    "forks": 8,
-    "language": "Rust",
-    "topics": [
-      "anchor",
-      "evm",
-      "foundry",
-      "multichain",
-      "percolator",
-      "perpetuals",
-      "rust",
-      "solana",
-      "solidity"
-    ],
-    "license": "Other",
-    "created_at": "2026-04-07T11:54:54Z",
-    "updated_at": "2026-04-12T05:17:42Z",
-    "owner": {
-      "name": "Maxiinreanimate",
-      "avatar_url": "https://avatars.githubusercontent.com/u/267376165?v=4"
     }
   },
   {
@@ -901,40 +938,38 @@
     }
   },
   {
-    "name": "lydiaaam/llm-ui-coord-benchmark",
-    "url": "https://github.com/lydiaaam/llm-ui-coord-benchmark",
-    "description": "A comprehensive benchmark suite for evaluating LLM reasoning on UI coordinate tasks",
-    "stars": 43,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "benchmarking",
-      "llm-evaluation",
-      "rust",
-      "ui-coordinates"
-    ],
-    "license": "No license",
-    "created_at": "2026-04-24T20:45:00Z",
-    "updated_at": "2026-04-26T01:52:12Z",
-    "owner": {
-      "name": "lydiaaam",
-      "avatar_url": "https://avatars.githubusercontent.com/u/115728847?v=4"
-    }
-  },
-  {
-    "name": "by-scott/cortex",
-    "url": "https://github.com/by-scott/cortex",
-    "description": "Cognitive runtime for language models with memory, metacognition, multimodal channels, native plugins, and a self-evolving Executive.",
-    "stars": 42,
+    "name": "sermuns/ratatypst",
+    "url": "https://github.com/sermuns/ratatypst",
+    "description": "PoC Typst package to render Ratatui apps",
+    "stars": 44,
     "forks": 0,
     "language": "Rust",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-22T14:02:59Z",
-    "updated_at": "2026-04-26T04:43:09Z",
+    "license": "The Unlicense",
+    "created_at": "2026-04-21T13:14:59Z",
+    "updated_at": "2026-04-27T05:06:43Z",
     "owner": {
-      "name": "by-scott",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63074534?v=4"
+      "name": "sermuns",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30374440?v=4"
+    }
+  },
+  {
+    "name": "GetSmallAI/SmallHarness",
+    "url": "https://github.com/GetSmallAI/SmallHarness",
+    "description": "A harness for small llms",
+    "stars": 42,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "harness",
+      "llms"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-25T17:04:09Z",
+    "updated_at": "2026-04-27T04:52:11Z",
+    "owner": {
+      "name": "GetSmallAI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/278519274?v=4"
     }
   },
   {
@@ -1016,22 +1051,6 @@
     "owner": {
       "name": "Mattdgn",
       "avatar_url": "https://avatars.githubusercontent.com/u/124098493?v=4"
-    }
-  },
-  {
-    "name": "sermuns/ratatypst",
-    "url": "https://github.com/sermuns/ratatypst",
-    "description": "PoC Typst package to render Ratatui apps",
-    "stars": 39,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "The Unlicense",
-    "created_at": "2026-04-21T13:14:59Z",
-    "updated_at": "2026-04-26T03:28:48Z",
-    "owner": {
-      "name": "sermuns",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30374440?v=4"
     }
   },
   {
@@ -1119,30 +1138,6 @@
     "owner": {
       "name": "iamzhihuix",
       "avatar_url": "https://avatars.githubusercontent.com/u/188819461?v=4"
-    }
-  },
-  {
-    "name": "bunkerlab-net/mempalace",
-    "url": "https://github.com/bunkerlab-net/mempalace",
-    "description": "A Rust reimplementation of milla-jovovich/mempalace",
-    "stars": 36,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [
-      "ai",
-      "llm",
-      "mcp",
-      "memory",
-      "rust",
-      "sqlite",
-      "turso"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-07T14:49:20Z",
-    "updated_at": "2026-04-12T08:10:37Z",
-    "owner": {
-      "name": "bunkerlab-net",
-      "avatar_url": "https://avatars.githubusercontent.com/u/182930946?v=4"
     }
   },
   {
@@ -1338,6 +1333,22 @@
     }
   },
   {
+    "name": "Keyboard-Lord/Rasputin-Coder",
+    "url": "https://github.com/Keyboard-Lord/Rasputin-Coder",
+    "description": "Rasputin is a terminal-native, local autonomous software engineering agent powered by Qwen-Coder. It plans, executes, validates, and self-heals code changes with a deterministic audit trail, checkpoint recovery, and zero cloud dependency — a true “Codex at home.”",
+    "stars": 28,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-23T05:45:00Z",
+    "updated_at": "2026-04-26T07:22:36Z",
+    "owner": {
+      "name": "Keyboard-Lord",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71049267?v=4"
+    }
+  },
+  {
     "name": "raulk/omnifs",
     "url": "https://github.com/raulk/omnifs",
     "description": "the universe, mounted on your filesystem  🪐",
@@ -1367,38 +1378,6 @@
     "owner": {
       "name": "GAME-OVER-op",
       "avatar_url": "https://avatars.githubusercontent.com/u/152814129?v=4"
-    }
-  },
-  {
-    "name": "okhsunrog/vpnhide",
-    "url": "https://github.com/okhsunrog/vpnhide",
-    "description": "Hide active VPN from selected Android apps (kernel module + LSPosed + Zygisk)",
-    "stars": 28,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-09T21:43:44Z",
-    "updated_at": "2026-04-13T04:31:56Z",
-    "owner": {
-      "name": "okhsunrog",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42293787?v=4"
-    }
-  },
-  {
-    "name": "Keyboard-Lord/Rasputin-Coder",
-    "url": "https://github.com/Keyboard-Lord/Rasputin-Coder",
-    "description": "Rasputin is a terminal-native, local autonomous software engineering agent powered by Qwen-Coder. It plans, executes, validates, and self-heals code changes with a deterministic audit trail, checkpoint recovery, and zero cloud dependency — a true “Codex at home.”",
-    "stars": 27,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-23T05:45:00Z",
-    "updated_at": "2026-04-25T12:35:33Z",
-    "owner": {
-      "name": "Keyboard-Lord",
-      "avatar_url": "https://avatars.githubusercontent.com/u/71049267?v=4"
     }
   },
   {
@@ -1516,6 +1495,22 @@
     }
   },
   {
+    "name": "ztalarick/ryzelang",
+    "url": "https://github.com/ztalarick/ryzelang",
+    "description": "Ryzelang is an esoteric, Turing-complete, functional stack-based programming language modeled after the gameplay mechanics of the League of Legends champion, Ryze.",
+    "stars": 23,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-21T00:43:32Z",
+    "updated_at": "2026-04-26T23:43:01Z",
+    "owner": {
+      "name": "ztalarick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31807984?v=4"
+    }
+  },
+  {
     "name": "coignard/o2",
     "url": "https://github.com/coignard/o2",
     "description": "Rust port of the ORCΛ esoteric programming language and terminal livecoding environment",
@@ -1545,22 +1540,6 @@
     "owner": {
       "name": "spicylemonade",
       "avatar_url": "https://avatars.githubusercontent.com/u/84095175?v=4"
-    }
-  },
-  {
-    "name": "ztalarick/ryzelang",
-    "url": "https://github.com/ztalarick/ryzelang",
-    "description": "Ryzelang is an esoteric, Turing-complete, functional stack-based programming language modeled after the gameplay mechanics of the League of Legends champion, Ryze.",
-    "stars": 22,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-21T00:43:32Z",
-    "updated_at": "2026-04-24T19:12:46Z",
-    "owner": {
-      "name": "ztalarick",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31807984?v=4"
     }
   },
   {
@@ -1661,6 +1640,22 @@
     "owner": {
       "name": "lucifer1004",
       "avatar_url": "https://avatars.githubusercontent.com/u/13583761?v=4"
+    }
+  },
+  {
+    "name": "by-scott/cortex-plugin-dev",
+    "url": "https://github.com/by-scott/cortex-plugin-dev",
+    "description": "Official Cortex development plugin with native coding tools, workflow skills, project analysis, and git-aware automation.",
+    "stars": 20,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-22T14:04:22Z",
+    "updated_at": "2026-04-27T04:34:29Z",
+    "owner": {
+      "name": "by-scott",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63074534?v=4"
     }
   },
   {
@@ -1794,6 +1789,22 @@
     }
   },
   {
+    "name": "LordAizen1/scamp-cat",
+    "url": "https://github.com/LordAizen1/scamp-cat",
+    "description": "A small pixel-art cat that wanders, naps, and washes her paws in your terminal.",
+    "stars": 18,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-04-25T12:25:20Z",
+    "updated_at": "2026-04-27T03:03:13Z",
+    "owner": {
+      "name": "LordAizen1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119096690?v=4"
+    }
+  },
+  {
     "name": "P4nda0s/elf-dump-fixer",
     "url": "https://github.com/P4nda0s/elf-dump-fixer",
     "description": "Android ELF .so memory dumper and fixer for rebuilding dumped libraries into analyzable ELF files.",
@@ -1887,35 +1898,19 @@
     }
   },
   {
-    "name": "kirinonakar/ocr_trans",
-    "url": "https://github.com/kirinonakar/ocr_trans",
-    "description": "ocr_trans",
-    "stars": 17,
-    "forks": 4,
+    "name": "mladenpop-oss/vibe-index",
+    "url": "https://github.com/mladenpop-oss/vibe-index",
+    "description": "Roaring Bitmap positional phrase matching for low-latency LLM context retrieval.",
+    "stars": 16,
+    "forks": 1,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-04-07T04:41:09Z",
-    "updated_at": "2026-04-13T04:26:14Z",
+    "created_at": "2026-04-24T03:06:34Z",
+    "updated_at": "2026-04-27T05:12:52Z",
     "owner": {
-      "name": "kirinonakar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/198420124?v=4"
-    }
-  },
-  {
-    "name": "jtdowney/queso",
-    "url": "https://github.com/jtdowney/queso",
-    "description": ":cheese: Package Gleam apps into single native executables",
-    "stars": 17,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-08T03:01:54Z",
-    "updated_at": "2026-04-12T21:29:23Z",
-    "owner": {
-      "name": "jtdowney",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44654?v=4"
+      "name": "mladenpop-oss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/257344130?v=4"
     }
   },
   {
@@ -1992,19 +1987,19 @@
     }
   },
   {
-    "name": "alihaskar/gap-mm",
-    "url": "https://github.com/alihaskar/gap-mm",
+    "name": "wang1970/API-Switch",
+    "url": "https://github.com/wang1970/API-Switch",
     "description": null,
     "stars": 15,
-    "forks": 10,
+    "forks": 3,
     "language": "Rust",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-20T06:53:05Z",
-    "updated_at": "2026-04-23T19:30:30Z",
+    "license": "No license",
+    "created_at": "2026-04-23T12:47:26Z",
+    "updated_at": "2026-04-26T15:34:53Z",
     "owner": {
-      "name": "alihaskar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26202651?v=4"
+      "name": "wang1970",
+      "avatar_url": "https://avatars.githubusercontent.com/u/221713391?v=4"
     }
   },
   {
@@ -2030,6 +2025,47 @@
     "owner": {
       "name": "caldempsey",
       "avatar_url": "https://avatars.githubusercontent.com/u/8885269?v=4"
+    }
+  },
+  {
+    "name": "proffesor-for-testing/nagual-qe",
+    "url": "https://github.com/proffesor-for-testing/nagual-qe",
+    "description": "Self-learning knowledge system for quality engineering. Rust, SQLite + optional PostgreSQL, ONNX embeddings, hybrid retrieval, Bayesian quality scoring.",
+    "stars": 15,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "agentic-qe",
+      "ai-agents",
+      "knowledge-management",
+      "quality-engineering",
+      "reasoning-bank",
+      "rust",
+      "self-learning",
+      "testing"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-21T12:28:51Z",
+    "updated_at": "2026-04-26T11:15:30Z",
+    "owner": {
+      "name": "proffesor-for-testing",
+      "avatar_url": "https://avatars.githubusercontent.com/u/214853444?v=4"
+    }
+  },
+  {
+    "name": "alihaskar/gap-mm",
+    "url": "https://github.com/alihaskar/gap-mm",
+    "description": null,
+    "stars": 15,
+    "forks": 10,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-20T06:53:05Z",
+    "updated_at": "2026-04-23T19:30:30Z",
+    "owner": {
+      "name": "alihaskar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26202651?v=4"
     }
   },
   {
@@ -2069,22 +2105,6 @@
     }
   },
   {
-    "name": "linkyourbin/npnp",
-    "url": "https://github.com/linkyourbin/npnp",
-    "description": "Normalize Pin Net Pad (npnp) is a pure Rust LCEDA/EasyEDA downloader and Altium library exporter.",
-    "stars": 14,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-20T07:00:03Z",
-    "updated_at": "2026-04-25T07:33:56Z",
-    "owner": {
-      "name": "linkyourbin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/221034089?v=4"
-    }
-  },
-  {
     "name": "at264939-ctrl/Heisenberg",
     "url": "https://github.com/at264939-ctrl/Heisenberg",
     "description": null,
@@ -2101,28 +2121,19 @@
     }
   },
   {
-    "name": "proffesor-for-testing/nagual-qe",
-    "url": "https://github.com/proffesor-for-testing/nagual-qe",
-    "description": "Self-learning knowledge system for quality engineering. Rust, SQLite + optional PostgreSQL, ONNX embeddings, hybrid retrieval, Bayesian quality scoring.",
+    "name": "linkyourbin/npnp",
+    "url": "https://github.com/linkyourbin/npnp",
+    "description": "Normalize Pin Net Pad (npnp) is a pure Rust LCEDA/EasyEDA downloader and Altium library exporter.",
     "stars": 14,
-    "forks": 2,
+    "forks": 1,
     "language": "Rust",
-    "topics": [
-      "agentic-qe",
-      "ai-agents",
-      "knowledge-management",
-      "quality-engineering",
-      "reasoning-bank",
-      "rust",
-      "self-learning",
-      "testing"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-21T12:28:51Z",
-    "updated_at": "2026-04-25T16:28:12Z",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-04-20T07:00:03Z",
+    "updated_at": "2026-04-25T07:33:56Z",
     "owner": {
-      "name": "proffesor-for-testing",
-      "avatar_url": "https://avatars.githubusercontent.com/u/214853444?v=4"
+      "name": "linkyourbin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/221034089?v=4"
     }
   },
   {
@@ -2212,19 +2223,46 @@
     }
   },
   {
-    "name": "wang1970/API-Switch",
-    "url": "https://github.com/wang1970/API-Switch",
-    "description": null,
+    "name": "sermuns/dualboot-bt-link-keys",
+    "url": "https://github.com/sermuns/dualboot-bt-link-keys",
+    "description": "Copy Bluetooth link keys from Windows to Linux",
     "stars": 13,
-    "forks": 1,
+    "forks": 0,
     "language": "Rust",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-23T12:47:26Z",
-    "updated_at": "2026-04-26T04:11:40Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-04-24T20:40:59Z",
+    "updated_at": "2026-04-27T00:30:05Z",
     "owner": {
-      "name": "wang1970",
-      "avatar_url": "https://avatars.githubusercontent.com/u/221713391?v=4"
+      "name": "sermuns",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30374440?v=4"
+    }
+  },
+  {
+    "name": "planetf1/otelite",
+    "url": "https://github.com/planetf1/otelite",
+    "description": "Lightweight OpenTelemetry receiver and local dashboard for LLM development — single binary, zero dependencies",
+    "stars": 13,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "developer-tools",
+      "genai",
+      "llm",
+      "local-development",
+      "observability",
+      "opentelemetry",
+      "otlp",
+      "rust",
+      "sqlite",
+      "terminal-ui"
+    ],
+    "license": "Other",
+    "created_at": "2026-04-22T09:12:34Z",
+    "updated_at": "2026-04-26T06:10:16Z",
+    "owner": {
+      "name": "planetf1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7292002?v=4"
     }
   },
   {
@@ -2299,33 +2337,6 @@
     }
   },
   {
-    "name": "planetf1/otelite",
-    "url": "https://github.com/planetf1/otelite",
-    "description": "Lightweight OpenTelemetry receiver and local dashboard for LLM development — single binary, zero dependencies",
-    "stars": 12,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "developer-tools",
-      "genai",
-      "llm",
-      "local-development",
-      "observability",
-      "opentelemetry",
-      "otlp",
-      "rust",
-      "sqlite",
-      "terminal-ui"
-    ],
-    "license": "Other",
-    "created_at": "2026-04-22T09:12:34Z",
-    "updated_at": "2026-04-25T14:30:49Z",
-    "owner": {
-      "name": "planetf1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7292002?v=4"
-    }
-  },
-  {
     "name": "aabolfazl/android-perf",
     "url": "https://github.com/aabolfazl/android-perf",
     "description": "A fast, btop-style terminal UI for monitoring Android device and per-app performance in real time, over ADB, no root required.",
@@ -2339,6 +2350,22 @@
     "owner": {
       "name": "aabolfazl",
       "avatar_url": "https://avatars.githubusercontent.com/u/33707955?v=4"
+    }
+  },
+  {
+    "name": "ultraworkers/hbackup",
+    "url": "https://github.com/ultraworkers/hbackup",
+    "description": "Backup and restore tool for Hermes Agent + OpenClaw installations",
+    "stars": 11,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-27T00:34:02Z",
+    "updated_at": "2026-04-27T05:08:45Z",
+    "owner": {
+      "name": "ultraworkers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272961631?v=4"
     }
   },
   {
@@ -2372,26 +2399,10 @@
     ],
     "license": "No license",
     "created_at": "2026-04-23T07:08:00Z",
-    "updated_at": "2026-04-25T16:34:53Z",
+    "updated_at": "2026-04-26T13:07:32Z",
     "owner": {
       "name": "isakfm",
       "avatar_url": "https://avatars.githubusercontent.com/u/6936115?v=4"
-    }
-  },
-  {
-    "name": "Mic92/cache-shootout",
-    "url": "https://github.com/Mic92/cache-shootout",
-    "description": "A benchmark comparing nix binary cache solutions",
-    "stars": 11,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-20T06:21:08Z",
-    "updated_at": "2026-04-25T03:37:57Z",
-    "owner": {
-      "name": "Mic92",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96200?v=4"
     }
   },
   {
@@ -2411,19 +2422,19 @@
     }
   },
   {
-    "name": "by-scott/cortex-plugin-dev",
-    "url": "https://github.com/by-scott/cortex-plugin-dev",
-    "description": "Official Cortex development plugin with native coding tools, workflow skills, project analysis, and git-aware automation.",
+    "name": "Mic92/cache-shootout",
+    "url": "https://github.com/Mic92/cache-shootout",
+    "description": "A benchmark comparing nix binary cache solutions",
     "stars": 11,
     "forks": 0,
     "language": "Rust",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-22T14:04:22Z",
-    "updated_at": "2026-04-26T03:06:04Z",
+    "license": "No license",
+    "created_at": "2026-04-20T06:21:08Z",
+    "updated_at": "2026-04-25T03:37:57Z",
     "owner": {
-      "name": "by-scott",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63074534?v=4"
+      "name": "Mic92",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96200?v=4"
     }
   },
   {
@@ -2510,7 +2521,7 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-04-21T21:37:31Z",
-    "updated_at": "2026-04-25T23:50:50Z",
+    "updated_at": "2026-04-26T10:22:31Z",
     "owner": {
       "name": "agent-axiom",
       "avatar_url": "https://avatars.githubusercontent.com/u/271846029?v=4"
