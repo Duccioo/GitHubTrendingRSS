@@ -1,18 +1,18 @@
 [
   {
-    "name": "incursi0n/GodPotatoBOF",
-    "url": "https://github.com/incursi0n/GodPotatoBOF",
-    "description": "Cobalt Strike BOF used to perform privilege escalation by exploiting the SeImpersonate privilege. Based on the original GodPotato PoC by BeichenDream.",
-    "stars": 186,
-    "forks": 20,
+    "name": "ps5-linux/ps5-linux-loader",
+    "url": "https://github.com/ps5-linux/ps5-linux-loader",
+    "description": "Linux payload implementing the HV exploit and a custom bootloader",
+    "stars": 586,
+    "forks": 34,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-10T17:33:37Z",
-    "updated_at": "2026-04-16T03:04:13Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-04-24T13:19:30Z",
+    "updated_at": "2026-04-30T05:09:17Z",
     "owner": {
-      "name": "incursi0n",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55942774?v=4"
+      "name": "ps5-linux",
+      "avatar_url": "https://avatars.githubusercontent.com/u/278984012?v=4"
     }
   },
   {
@@ -80,22 +80,6 @@
     }
   },
   {
-    "name": "ps5-linux/ps5-linux-loader",
-    "url": "https://github.com/ps5-linux/ps5-linux-loader",
-    "description": "Linux payload implementing the HV exploit and a custom bootloader",
-    "stars": 122,
-    "forks": 5,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-04-24T13:19:30Z",
-    "updated_at": "2026-04-29T05:17:45Z",
-    "owner": {
-      "name": "ps5-linux",
-      "avatar_url": "https://avatars.githubusercontent.com/u/278984012?v=4"
-    }
-  },
-  {
     "name": "jakobfriedl/tgt-monitor-bof",
     "url": "https://github.com/jakobfriedl/tgt-monitor-bof",
     "description": "Async BOF implementation of 'Rubeus monitor' to detect and automatically extract Kerberos TGTs as they appear on a target system. ",
@@ -147,13 +131,13 @@
     "name": "sailay1996/vss-fr2system",
     "url": "https://github.com/sailay1996/vss-fr2system",
     "description": "test",
-    "stars": 92,
-    "forks": 17,
+    "stars": 93,
+    "forks": 18,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-04-25T09:20:13Z",
-    "updated_at": "2026-04-28T21:54:57Z",
+    "updated_at": "2026-04-29T15:48:22Z",
     "owner": {
       "name": "sailay1996",
       "avatar_url": "https://avatars.githubusercontent.com/u/16739401?v=4"
@@ -342,13 +326,13 @@
     "name": "rasta-mouse/atomic-bofs",
     "url": "https://github.com/rasta-mouse/atomic-bofs",
     "description": "Atomic test units for BOF execution",
-    "stars": 35,
-    "forks": 3,
+    "stars": 37,
+    "forks": 4,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-04-25T12:52:41Z",
-    "updated_at": "2026-04-29T03:20:57Z",
+    "updated_at": "2026-04-29T12:40:35Z",
     "owner": {
       "name": "rasta-mouse",
       "avatar_url": "https://avatars.githubusercontent.com/u/7346521?v=4"
@@ -445,6 +429,22 @@
     }
   },
   {
+    "name": "dcherrera/CrossLuaReader",
+    "url": "https://github.com/dcherrera/CrossLuaReader",
+    "description": "Lua-powered e-reader runtime for the Xteink X4. C runtime + Lua plugin architecture.",
+    "stars": 23,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-04-25T03:05:32Z",
+    "updated_at": "2026-04-30T05:09:16Z",
+    "owner": {
+      "name": "dcherrera",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12970008?v=4"
+    }
+  },
+  {
     "name": "vinz-ux/VinZ",
     "url": "https://github.com/vinz-ux/VinZ",
     "description": "A highly interactive, true-color, 3D raymarching, procedural graphics engine for the terminal.",
@@ -477,19 +477,19 @@
     }
   },
   {
-    "name": "dcherrera/CrossLuaReader",
-    "url": "https://github.com/dcherrera/CrossLuaReader",
-    "description": "Lua-powered e-reader runtime for the Xteink X4. C runtime + Lua plugin architecture.",
+    "name": "woodyst/rockchip-vaapi",
+    "url": "https://github.com/woodyst/rockchip-vaapi",
+    "description": "VA-API driver for Rockchip RK3588 via MPP",
     "stars": 21,
     "forks": 2,
     "language": "C",
     "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-25T03:05:32Z",
-    "updated_at": "2026-04-29T02:58:25Z",
+    "license": "GNU Lesser General Public License v2.1",
+    "created_at": "2026-04-26T08:53:26Z",
+    "updated_at": "2026-04-29T21:29:02Z",
     "owner": {
-      "name": "dcherrera",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12970008?v=4"
+      "name": "woodyst",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3288125?v=4"
     }
   },
   {
@@ -525,19 +525,32 @@
     }
   },
   {
-    "name": "woodyst/rockchip-vaapi",
-    "url": "https://github.com/woodyst/rockchip-vaapi",
-    "description": "VA-API driver for Rockchip RK3588 via MPP",
+    "name": "tgies/copy-fail-c",
+    "url": "https://github.com/tgies/copy-fail-c",
+    "description": "Cross-platform C port of the Copy Fail Linux LPE (CVE-2026-31431). Disclosed 2026-04-29 by Theori / Xint.",
     "stars": 20,
-    "forks": 1,
+    "forks": 7,
     "language": "C",
-    "topics": [],
-    "license": "GNU Lesser General Public License v2.1",
-    "created_at": "2026-04-26T08:53:26Z",
-    "updated_at": "2026-04-28T23:58:44Z",
+    "topics": [
+      "af-alg",
+      "copy-fail",
+      "cve-2026-31431",
+      "exploit",
+      "kernel-exploit",
+      "linux-kernel",
+      "local-privilege-escalation",
+      "nolibc",
+      "portable-c",
+      "privilege-escalation",
+      "proof-of-concept",
+      "security-research"
+    ],
+    "license": "Other",
+    "created_at": "2026-04-29T23:29:14Z",
+    "updated_at": "2026-04-30T05:23:35Z",
     "owner": {
-      "name": "woodyst",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3288125?v=4"
+      "name": "tgies",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1594352?v=4"
     }
   },
   {
@@ -589,6 +602,31 @@
     }
   },
   {
+    "name": "SrihariLegend/rig",
+    "url": "https://github.com/SrihariLegend/rig",
+    "description": "AI coding agent in C. Single binary, zero runtime deps, every major LLM provider. Early stage — contributions welcome.",
+    "stars": 19,
+    "forks": 4,
+    "language": "C",
+    "topics": [
+      "ai",
+      "c",
+      "cli",
+      "coding-agent",
+      "developer-tools",
+      "llm",
+      "lua",
+      "terminal"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-27T19:10:19Z",
+    "updated_at": "2026-04-29T19:53:45Z",
+    "owner": {
+      "name": "SrihariLegend",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119381156?v=4"
+    }
+  },
+  {
     "name": "kasnria001/qualcomm_noavb_exploit_common",
     "url": "https://github.com/kasnria001/qualcomm_noavb_exploit_common",
     "description": "Unlocking Bootloader via noavb exploit (still in progress)",
@@ -618,6 +656,22 @@
     "owner": {
       "name": "OpenSteam001",
       "avatar_url": "https://avatars.githubusercontent.com/u/248184252?v=4"
+    }
+  },
+  {
+    "name": "i12bp8/wmbuster",
+    "url": "https://github.com/i12bp8/wmbuster",
+    "description": "Passive Wireless M-Bus listener for the Flipper Zero — T1/C1/T+C/S1, AES-128 mode 5, OMS DIF/VIF, manufacturer drivers. RX-only.",
+    "stars": 18,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-29T19:46:32Z",
+    "updated_at": "2026-04-30T04:28:49Z",
+    "owner": {
+      "name": "i12bp8",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57963363?v=4"
     }
   },
   {
@@ -736,6 +790,22 @@
     }
   },
   {
+    "name": "kimchiman52/sonic-mania-mister",
+    "url": "https://github.com/kimchiman52/sonic-mania-mister",
+    "description": "Experimental port of Sonic Mania to MiSTer FPGA",
+    "stars": 16,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-04-28T14:23:12Z",
+    "updated_at": "2026-04-29T22:25:45Z",
+    "owner": {
+      "name": "kimchiman52",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1047900?v=4"
+    }
+  },
+  {
     "name": "wadadawadada/melody_machine",
     "url": "https://github.com/wadadawadada/melody_machine",
     "description": "MP3 player and internet radio firmware for the LilyGO T-LoRa Pager (ESP32-S3)",
@@ -768,7 +838,7 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-04-27T07:08:07Z",
-    "updated_at": "2026-04-29T04:42:11Z",
+    "updated_at": "2026-04-29T06:19:14Z",
     "owner": {
       "name": "niqiuqiux",
       "avatar_url": "https://avatars.githubusercontent.com/u/110472841?v=4"
@@ -803,19 +873,19 @@
     }
   },
   {
-    "name": "ATOMNFT/Rogue-Radar",
-    "url": "https://github.com/ATOMNFT/Rogue-Radar",
-    "description": "Rogue Radar is a handheld ESP32-S3 firmware built for the LilyGO T-Embed (non CC1101) that combines multiple wireless and utility tools into one rotary-driven interface. ",
-    "stars": 15,
-    "forks": 3,
+    "name": "mengzeli-sdu/bike",
+    "url": "https://github.com/mengzeli-sdu/bike",
+    "description": null,
+    "stars": 14,
+    "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-10T19:30:15Z",
-    "updated_at": "2026-04-15T15:55:20Z",
+    "license": "No license",
+    "created_at": "2026-04-27T09:01:45Z",
+    "updated_at": "2026-04-30T01:27:38Z",
     "owner": {
-      "name": "ATOMNFT",
-      "avatar_url": "https://avatars.githubusercontent.com/u/984424?v=4"
+      "name": "mengzeli-sdu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/266227261?v=4"
     }
   },
   {
@@ -883,13 +953,13 @@
     "name": "tachijuan/hvi",
     "url": "https://github.com/tachijuan/hvi",
     "description": "CP/M Minimal VI Clone in HiTech-C",
-    "stars": 12,
+    "stars": 13,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-04-24T02:25:20Z",
-    "updated_at": "2026-04-28T12:40:32Z",
+    "updated_at": "2026-04-29T17:46:01Z",
     "owner": {
       "name": "tachijuan",
       "avatar_url": "https://avatars.githubusercontent.com/u/167389?v=4"
@@ -970,31 +1040,6 @@
     }
   },
   {
-    "name": "SrihariLegend/rig",
-    "url": "https://github.com/SrihariLegend/rig",
-    "description": "AI coding agent in C. Single binary, zero runtime deps, every major LLM provider. Early stage — contributions welcome.",
-    "stars": 11,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "ai",
-      "c",
-      "cli",
-      "coding-agent",
-      "developer-tools",
-      "llm",
-      "lua",
-      "terminal"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-27T19:10:19Z",
-    "updated_at": "2026-04-29T00:28:13Z",
-    "owner": {
-      "name": "SrihariLegend",
-      "avatar_url": "https://avatars.githubusercontent.com/u/119381156?v=4"
-    }
-  },
-  {
     "name": "SuperrSonic/Better-Nintendont",
     "url": "https://github.com/SuperrSonic/Better-Nintendont",
     "description": "Personal version of Nintendont.",
@@ -1072,22 +1117,6 @@
     }
   },
   {
-    "name": "ngx3hhh/openairinterface5g-XnAP",
-    "url": "https://github.com/ngx3hhh/openairinterface5g-XnAP",
-    "description": "OAI平台上Xn切换的扩展实现",
-    "stars": 11,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-11T21:38:35Z",
-    "updated_at": "2026-04-15T08:03:14Z",
-    "owner": {
-      "name": "ngx3hhh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/191092745?v=4"
-    }
-  },
-  {
     "name": "sgiammori/NootedGreen",
     "url": "https://github.com/sgiammori/NootedGreen",
     "description": "Lilu plugin for Intel iGPU acceleration on macOS — Haswell through Raptor Lake, via Tiger Lake driver spoofing.",
@@ -1120,35 +1149,19 @@
     }
   },
   {
-    "name": "mengzeli-sdu/bike",
-    "url": "https://github.com/mengzeli-sdu/bike",
-    "description": null,
+    "name": "animetosho/animetosho-setup",
+    "url": "https://github.com/animetosho/animetosho-setup",
+    "description": "Anime Tosho server setup scripts",
     "stars": 10,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-04-27T09:01:45Z",
-    "updated_at": "2026-04-29T04:11:01Z",
+    "created_at": "2026-04-26T10:30:14Z",
+    "updated_at": "2026-04-29T17:58:12Z",
     "owner": {
-      "name": "mengzeli-sdu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266227261?v=4"
-    }
-  },
-  {
-    "name": "kimchiman52/sonic-mania-mister",
-    "url": "https://github.com/kimchiman52/sonic-mania-mister",
-    "description": "Experimental port of Sonic Mania to MiSTer FPGA",
-    "stars": 10,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-28T14:23:12Z",
-    "updated_at": "2026-04-29T04:59:14Z",
-    "owner": {
-      "name": "kimchiman52",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1047900?v=4"
+      "name": "animetosho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12937885?v=4"
     }
   },
   {
