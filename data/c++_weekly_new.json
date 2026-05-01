@@ -48,6 +48,35 @@
     }
   },
   {
+    "name": "tgies/copy-fail-c",
+    "url": "https://github.com/tgies/copy-fail-c",
+    "description": "Cross-platform C port of the Copy Fail Linux LPE (CVE-2026-31431). Disclosed 2026-04-29 by Theori / Xint.",
+    "stars": 149,
+    "forks": 38,
+    "language": "C",
+    "topics": [
+      "af-alg",
+      "copy-fail",
+      "cve-2026-31431",
+      "exploit",
+      "kernel-exploit",
+      "linux-kernel",
+      "local-privilege-escalation",
+      "nolibc",
+      "portable-c",
+      "privilege-escalation",
+      "proof-of-concept",
+      "security-research"
+    ],
+    "license": "Other",
+    "created_at": "2026-04-29T23:29:14Z",
+    "updated_at": "2026-05-01T05:33:27Z",
+    "owner": {
+      "name": "tgies",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1594352?v=4"
+    }
+  },
+  {
     "name": "incursi0n/BlueSAM",
     "url": "https://github.com/incursi0n/BlueSAM",
     "description": "A Cobalt Strike Beacon Object File that exploits the BlueHammer vulnerability that to obtain a copy of the SAM database.",
@@ -112,6 +141,40 @@
     }
   },
   {
+    "name": "facex-engine/facex",
+    "url": "https://github.com/facex-engine/facex",
+    "description": "Face verification in the browser. 74 KB WebAssembly. No server, no cloud, no dependencies. Also runs native at 3ms on CPU.",
+    "stars": 101,
+    "forks": 12,
+    "language": "C",
+    "topics": [
+      "avx-512",
+      "avx2",
+      "biometrics",
+      "c99",
+      "computer-vision",
+      "cpu-inference",
+      "deep-learning",
+      "edge-ai",
+      "embedded-ai",
+      "face-embedding",
+      "face-recognition",
+      "face-verification",
+      "low-latency",
+      "onnx-runtime",
+      "production-ready",
+      "simd",
+      "zero-dependencies"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-25T12:49:25Z",
+    "updated_at": "2026-05-01T05:12:55Z",
+    "owner": {
+      "name": "facex-engine",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279251688?v=4"
+    }
+  },
+  {
     "name": "P4nda0s/kpm-panda-hide",
     "url": "https://github.com/P4nda0s/kpm-panda-hide",
     "description": "(kpm) (for Android hackers)Hide your frida and debuggers",
@@ -144,62 +207,19 @@
     }
   },
   {
-    "name": "facex-engine/facex",
-    "url": "https://github.com/facex-engine/facex",
-    "description": "Face verification in the browser. 74 KB WebAssembly. No server, no cloud, no dependencies. Also runs native at 3ms on CPU.",
-    "stars": 87,
-    "forks": 10,
+    "name": "i12bp8/wmbuster",
+    "url": "https://github.com/i12bp8/wmbuster",
+    "description": "Passive Wireless M-Bus listener for the Flipper Zero — T1/C1/T+C/S1, AES-128 mode 5, OMS DIF/VIF, manufacturer drivers. RX-only.",
+    "stars": 64,
+    "forks": 0,
     "language": "C",
-    "topics": [
-      "avx-512",
-      "avx2",
-      "biometrics",
-      "c99",
-      "computer-vision",
-      "cpu-inference",
-      "deep-learning",
-      "edge-ai",
-      "embedded-ai",
-      "face-embedding",
-      "face-recognition",
-      "face-verification",
-      "low-latency",
-      "onnx-runtime",
-      "production-ready",
-      "simd",
-      "zero-dependencies"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-25T12:49:25Z",
-    "updated_at": "2026-04-29T05:14:48Z",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-04-29T19:46:32Z",
+    "updated_at": "2026-05-01T04:32:58Z",
     "owner": {
-      "name": "facex-engine",
-      "avatar_url": "https://avatars.githubusercontent.com/u/279251688?v=4"
-    }
-  },
-  {
-    "name": "likeablob/cydintosh",
-    "url": "https://github.com/likeablob/cydintosh",
-    "description": "Cydintosh: Little 68k Brother is watching your Smart Home 👀",
-    "stars": 70,
-    "forks": 5,
-    "language": "C",
-    "topics": [
-      "cheap-yellow-display",
-      "cyd",
-      "emulator",
-      "esp32",
-      "home-assistant",
-      "macintosh",
-      "mqtt",
-      "platformio"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-11T10:09:42Z",
-    "updated_at": "2026-04-17T04:43:03Z",
-    "owner": {
-      "name": "likeablob",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46628917?v=4"
+      "name": "i12bp8",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57963363?v=4"
     }
   },
   {
@@ -232,30 +252,6 @@
     "owner": {
       "name": "7west",
       "avatar_url": "https://avatars.githubusercontent.com/u/33707859?v=4"
-    }
-  },
-  {
-    "name": "Sycorlax/Meowdo",
-    "url": "https://github.com/Sycorlax/Meowdo",
-    "description": "meowdo is a cute, keyboard-driven todo list with a cat sidekick. It lives in your terminal, supports tags, search, pinning, and remembers everything in ~/.local/share/meowdo/todos.txt",
-    "stars": 56,
-    "forks": 3,
-    "language": "C",
-    "topics": [
-      "c",
-      "cli",
-      "linux",
-      "meow",
-      "ncurses",
-      "terminal",
-      "todolist"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-04-11T16:20:46Z",
-    "updated_at": "2026-04-16T23:45:34Z",
-    "owner": {
-      "name": "Sycorlax",
-      "avatar_url": "https://avatars.githubusercontent.com/u/114692357?v=4"
     }
   },
   {
@@ -326,13 +322,13 @@
     "name": "rasta-mouse/atomic-bofs",
     "url": "https://github.com/rasta-mouse/atomic-bofs",
     "description": "Atomic test units for BOF execution",
-    "stars": 37,
+    "stars": 38,
     "forks": 4,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-04-25T12:52:41Z",
-    "updated_at": "2026-04-29T12:40:35Z",
+    "updated_at": "2026-04-30T10:00:52Z",
     "owner": {
       "name": "rasta-mouse",
       "avatar_url": "https://avatars.githubusercontent.com/u/7346521?v=4"
@@ -352,6 +348,22 @@
     "owner": {
       "name": "spektre-labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/251571980?v=4"
+    }
+  },
+  {
+    "name": "dcherrera/CrossLuaReader",
+    "url": "https://github.com/dcherrera/CrossLuaReader",
+    "description": "Lua-powered e-reader runtime for the Xteink X4. C runtime + Lua plugin architecture.",
+    "stars": 27,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-04-25T03:05:32Z",
+    "updated_at": "2026-05-01T02:45:15Z",
+    "owner": {
+      "name": "dcherrera",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12970008?v=4"
     }
   },
   {
@@ -429,19 +441,34 @@
     }
   },
   {
-    "name": "dcherrera/CrossLuaReader",
-    "url": "https://github.com/dcherrera/CrossLuaReader",
-    "description": "Lua-powered e-reader runtime for the Xteink X4. C runtime + Lua plugin architecture.",
-    "stars": 23,
-    "forks": 2,
+    "name": "MinorGlitch/zerofido",
+    "url": "https://github.com/MinorGlitch/zerofido",
+    "description": "Passkey and security-key app for Flipper Zero with WebAuthn, FIDO2, U2F, USB HID, and NFC support.",
+    "stars": 22,
+    "forks": 0,
     "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-25T03:05:32Z",
-    "updated_at": "2026-04-30T05:09:16Z",
+    "topics": [
+      "authenticator",
+      "ctap2",
+      "embedded-c",
+      "fap",
+      "fido2",
+      "fido2-authenticator",
+      "fido2-webauth",
+      "flipper-zero",
+      "flipperzero",
+      "passkeys",
+      "security-key",
+      "u2f",
+      "usb-hid",
+      "webauthn"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-04-29T15:08:48Z",
+    "updated_at": "2026-04-30T22:58:09Z",
     "owner": {
-      "name": "dcherrera",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12970008?v=4"
+      "name": "MinorGlitch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28191524?v=4"
     }
   },
   {
@@ -493,6 +520,47 @@
     }
   },
   {
+    "name": "SilentisVox/DoomSyscalls",
+    "url": "https://github.com/SilentisVox/DoomSyscalls",
+    "description": "Clean Indirect Syscalls with Hook Evasion & Return Address Spoofing.",
+    "stars": 21,
+    "forks": 6,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-29T16:53:03Z",
+    "updated_at": "2026-05-01T04:39:55Z",
+    "owner": {
+      "name": "SilentisVox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/165338136?v=4"
+    }
+  },
+  {
+    "name": "SrihariLegend/rig",
+    "url": "https://github.com/SrihariLegend/rig",
+    "description": "AI coding agent in C. Single binary, zero runtime deps, every major LLM provider. Early stage — contributions welcome.",
+    "stars": 21,
+    "forks": 4,
+    "language": "C",
+    "topics": [
+      "ai",
+      "c",
+      "cli",
+      "coding-agent",
+      "developer-tools",
+      "llm",
+      "lua",
+      "terminal"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-27T19:10:19Z",
+    "updated_at": "2026-04-30T22:58:17Z",
+    "owner": {
+      "name": "SrihariLegend",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119381156?v=4"
+    }
+  },
+  {
     "name": "Hosokawa-t/regoshi-c-compiler",
     "url": "https://github.com/Hosokawa-t/regoshi-c-compiler",
     "description": null,
@@ -525,32 +593,35 @@
     }
   },
   {
-    "name": "tgies/copy-fail-c",
-    "url": "https://github.com/tgies/copy-fail-c",
-    "description": "Cross-platform C port of the Copy Fail Linux LPE (CVE-2026-31431). Disclosed 2026-04-29 by Theori / Xint.",
+    "name": "mengzeli-sdu/bike",
+    "url": "https://github.com/mengzeli-sdu/bike",
+    "description": null,
     "stars": 20,
-    "forks": 7,
+    "forks": 0,
     "language": "C",
-    "topics": [
-      "af-alg",
-      "copy-fail",
-      "cve-2026-31431",
-      "exploit",
-      "kernel-exploit",
-      "linux-kernel",
-      "local-privilege-escalation",
-      "nolibc",
-      "portable-c",
-      "privilege-escalation",
-      "proof-of-concept",
-      "security-research"
-    ],
-    "license": "Other",
-    "created_at": "2026-04-29T23:29:14Z",
-    "updated_at": "2026-04-30T05:23:35Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-27T09:01:45Z",
+    "updated_at": "2026-05-01T04:56:16Z",
     "owner": {
-      "name": "tgies",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1594352?v=4"
+      "name": "mengzeli-sdu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/266227261?v=4"
+    }
+  },
+  {
+    "name": "kimchiman52/sonic-mania-mister",
+    "url": "https://github.com/kimchiman52/sonic-mania-mister",
+    "description": "Experimental port of Sonic Mania to MiSTer FPGA",
+    "stars": 20,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-04-28T14:23:12Z",
+    "updated_at": "2026-04-30T20:37:17Z",
+    "owner": {
+      "name": "kimchiman52",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1047900?v=4"
     }
   },
   {
@@ -602,31 +673,6 @@
     }
   },
   {
-    "name": "SrihariLegend/rig",
-    "url": "https://github.com/SrihariLegend/rig",
-    "description": "AI coding agent in C. Single binary, zero runtime deps, every major LLM provider. Early stage — contributions welcome.",
-    "stars": 19,
-    "forks": 4,
-    "language": "C",
-    "topics": [
-      "ai",
-      "c",
-      "cli",
-      "coding-agent",
-      "developer-tools",
-      "llm",
-      "lua",
-      "terminal"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-27T19:10:19Z",
-    "updated_at": "2026-04-29T19:53:45Z",
-    "owner": {
-      "name": "SrihariLegend",
-      "avatar_url": "https://avatars.githubusercontent.com/u/119381156?v=4"
-    }
-  },
-  {
     "name": "kasnria001/qualcomm_noavb_exploit_common",
     "url": "https://github.com/kasnria001/qualcomm_noavb_exploit_common",
     "description": "Unlocking Bootloader via noavb exploit (still in progress)",
@@ -656,22 +702,6 @@
     "owner": {
       "name": "OpenSteam001",
       "avatar_url": "https://avatars.githubusercontent.com/u/248184252?v=4"
-    }
-  },
-  {
-    "name": "i12bp8/wmbuster",
-    "url": "https://github.com/i12bp8/wmbuster",
-    "description": "Passive Wireless M-Bus listener for the Flipper Zero — T1/C1/T+C/S1, AES-128 mode 5, OMS DIF/VIF, manufacturer drivers. RX-only.",
-    "stars": 18,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-29T19:46:32Z",
-    "updated_at": "2026-04-30T04:28:49Z",
-    "owner": {
-      "name": "i12bp8",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57963363?v=4"
     }
   },
   {
@@ -742,6 +772,22 @@
     }
   },
   {
+    "name": "niqiuqiux/arm64_kernel_hook",
+    "url": "https://github.com/niqiuqiux/arm64_kernel_hook",
+    "description": "arm64 kernel inline hook form KernelPatch",
+    "stars": 17,
+    "forks": 6,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-27T07:08:07Z",
+    "updated_at": "2026-04-30T14:52:20Z",
+    "owner": {
+      "name": "niqiuqiux",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110472841?v=4"
+    }
+  },
+  {
     "name": "willmanduran/phonedrop",
     "url": "https://github.com/willmanduran/phonedrop",
     "description": "Transfer files to your phone via QR over a local network. Ultra thin and fast.",
@@ -774,35 +820,47 @@
     }
   },
   {
-    "name": "cabelo/libzupt",
-    "url": "https://github.com/cabelo/libzupt",
-    "description": "A library that provides encryption and decryption of files and binary data in memory using post-quantum hybrid cryptography **ML-KEM-768 + X25519** in various languages.",
-    "stars": 17,
-    "forks": 6,
+    "name": "0xShe/CVE-2026-31431",
+    "url": "https://github.com/0xShe/CVE-2026-31431",
+    "description": null,
+    "stars": 16,
+    "forks": 10,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-11T01:38:35Z",
-    "updated_at": "2026-04-16T19:55:22Z",
+    "license": "No license",
+    "created_at": "2026-04-30T07:09:23Z",
+    "updated_at": "2026-05-01T01:46:59Z",
     "owner": {
-      "name": "cabelo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/675645?v=4"
+      "name": "0xShe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89628734?v=4"
     }
   },
   {
-    "name": "kimchiman52/sonic-mania-mister",
-    "url": "https://github.com/kimchiman52/sonic-mania-mister",
-    "description": "Experimental port of Sonic Mania to MiSTer FPGA",
+    "name": "miguelsotobaez/neostation-frontend",
+    "url": "https://github.com/miguelsotobaez/neostation-frontend",
+    "description": "The Multiplatform Emulation Frontend.",
     "stars": 16,
-    "forks": 1,
+    "forks": 2,
     "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-28T14:23:12Z",
-    "updated_at": "2026-04-29T22:25:45Z",
+    "topics": [
+      "android",
+      "dart",
+      "emulation",
+      "flutter",
+      "frontend-app",
+      "handheld-devices",
+      "linux",
+      "macos",
+      "retroachievements",
+      "screenscraper",
+      "windows"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-04-28T04:22:56Z",
+    "updated_at": "2026-05-01T05:34:28Z",
     "owner": {
-      "name": "kimchiman52",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1047900?v=4"
+      "name": "miguelsotobaez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3828247?v=4"
     }
   },
   {
@@ -826,22 +884,6 @@
     "owner": {
       "name": "wadadawadada",
       "avatar_url": "https://avatars.githubusercontent.com/u/97312279?v=4"
-    }
-  },
-  {
-    "name": "niqiuqiux/arm64_kernel_hook",
-    "url": "https://github.com/niqiuqiux/arm64_kernel_hook",
-    "description": "arm64 kernel inline hook form KernelPatch",
-    "stars": 15,
-    "forks": 5,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-27T07:08:07Z",
-    "updated_at": "2026-04-29T06:19:14Z",
-    "owner": {
-      "name": "niqiuqiux",
-      "avatar_url": "https://avatars.githubusercontent.com/u/110472841?v=4"
     }
   },
   {
@@ -873,19 +915,19 @@
     }
   },
   {
-    "name": "mengzeli-sdu/bike",
-    "url": "https://github.com/mengzeli-sdu/bike",
+    "name": "Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC",
+    "url": "https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC",
     "description": null,
     "stars": 14,
-    "forks": 0,
+    "forks": 8,
     "language": "C",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-27T09:01:45Z",
-    "updated_at": "2026-04-30T01:27:38Z",
+    "license": "Other",
+    "created_at": "2026-04-30T11:33:22Z",
+    "updated_at": "2026-05-01T05:05:26Z",
     "owner": {
-      "name": "mengzeli-sdu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266227261?v=4"
+      "name": "Percivalll",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59213644?v=4"
     }
   },
   {
@@ -950,6 +992,29 @@
     }
   },
   {
+    "name": "wgnet/wg.copyfail.patch",
+    "url": "https://github.com/wgnet/wg.copyfail.patch",
+    "description": "CVE-2026-31431 eBPF fix",
+    "stars": 13,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "copy-fail",
+      "cve-2026-31431",
+      "ebpf",
+      "fix",
+      "lsm",
+      "workaround"
+    ],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-04-30T13:55:25Z",
+    "updated_at": "2026-05-01T00:28:31Z",
+    "owner": {
+      "name": "wgnet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7723999?v=4"
+    }
+  },
+  {
     "name": "tachijuan/hvi",
     "url": "https://github.com/tachijuan/hvi",
     "description": "CP/M Minimal VI Clone in HiTech-C",
@@ -966,6 +1031,22 @@
     }
   },
   {
+    "name": "ps5-linux/ps5-linux-tools",
+    "url": "https://github.com/ps5-linux/ps5-linux-tools",
+    "description": "Linux tools for PS5",
+    "stars": 12,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-28T19:54:39Z",
+    "updated_at": "2026-04-30T21:25:33Z",
+    "owner": {
+      "name": "ps5-linux",
+      "avatar_url": "https://avatars.githubusercontent.com/u/278984012?v=4"
+    }
+  },
+  {
     "name": "brianbruff/openhpsdr-zeus",
     "url": "https://github.com/brianbruff/openhpsdr-zeus",
     "description": null,
@@ -979,32 +1060,6 @@
     "owner": {
       "name": "brianbruff",
       "avatar_url": "https://avatars.githubusercontent.com/u/753297?v=4"
-    }
-  },
-  {
-    "name": "k1ng0fn0th1ng/reflectra",
-    "url": "https://github.com/k1ng0fn0th1ng/reflectra",
-    "description": "Modular User-Defined Reflective Loader (UDRL) built on Crystal Palace for controlled DLL execution and evasion research.",
-    "stars": 12,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "assembly",
-      "c",
-      "mingw",
-      "pe-loader",
-      "red-team",
-      "reflective-loader",
-      "research",
-      "udrl",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-14T13:47:49Z",
-    "updated_at": "2026-04-17T02:36:09Z",
-    "owner": {
-      "name": "k1ng0fn0th1ng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/222845505?v=4"
     }
   },
   {
@@ -1037,6 +1092,22 @@
     "owner": {
       "name": "moze30",
       "avatar_url": "https://avatars.githubusercontent.com/u/165124056?v=4"
+    }
+  },
+  {
+    "name": "animetosho/animetosho-setup",
+    "url": "https://github.com/animetosho/animetosho-setup",
+    "description": "Anime Tosho server setup scripts",
+    "stars": 11,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-26T10:30:14Z",
+    "updated_at": "2026-04-30T20:03:23Z",
+    "owner": {
+      "name": "animetosho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12937885?v=4"
     }
   },
   {
@@ -1117,19 +1188,35 @@
     }
   },
   {
-    "name": "sgiammori/NootedGreen",
-    "url": "https://github.com/sgiammori/NootedGreen",
-    "description": "Lilu plugin for Intel iGPU acceleration on macOS — Haswell through Raptor Lake, via Tiger Lake driver spoofing.",
-    "stars": 11,
+    "name": "dorser/trace-ktls",
+    "url": "https://github.com/dorser/trace-ktls",
+    "description": null,
+    "stars": 10,
     "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-11T12:27:42Z",
-    "updated_at": "2026-04-16T21:12:03Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-27T19:54:53Z",
+    "updated_at": "2026-05-01T04:57:40Z",
     "owner": {
-      "name": "sgiammori",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13152282?v=4"
+      "name": "dorser",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20969462?v=4"
+    }
+  },
+  {
+    "name": "harkaitz/c-scal",
+    "url": "https://github.com/harkaitz/c-scal",
+    "description": "A program to print colored calendars to the terminal.",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-04-27T13:41:23Z",
+    "updated_at": "2026-04-30T20:59:04Z",
+    "owner": {
+      "name": "harkaitz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31321862?v=4"
     }
   },
   {
@@ -1146,38 +1233,6 @@
     "owner": {
       "name": "MikeWuPing",
       "avatar_url": "https://avatars.githubusercontent.com/u/18527141?v=4"
-    }
-  },
-  {
-    "name": "animetosho/animetosho-setup",
-    "url": "https://github.com/animetosho/animetosho-setup",
-    "description": "Anime Tosho server setup scripts",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-26T10:30:14Z",
-    "updated_at": "2026-04-29T17:58:12Z",
-    "owner": {
-      "name": "animetosho",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12937885?v=4"
-    }
-  },
-  {
-    "name": "erkin-io/espServoBlind",
-    "url": "https://github.com/erkin-io/espServoBlind",
-    "description": null,
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-12T03:23:41Z",
-    "updated_at": "2026-04-16T13:27:28Z",
-    "owner": {
-      "name": "erkin-io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9297263?v=4"
     }
   }
 ]
