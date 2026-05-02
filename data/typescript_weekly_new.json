@@ -2,38 +2,54 @@
   {
     "name": "nexu-io/open-design",
     "url": "https://github.com/nexu-io/open-design",
-    "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems · 🖼️ sandboxed preview · 📦 HTML/PDF/PPTX export. 🤖 Runs on Claude Code / Codex / Cursor / Gemini CLI / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
-    "stars": 8850,
-    "forks": 986,
+    "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
+    "stars": 12460,
+    "forks": 1421,
     "language": "TypeScript",
     "topics": [
+      "agent-skills",
       "ai-agents",
       "ai-design",
-      "anthropic",
       "byok",
       "claude",
-      "claude-code",
+      "claude-code-for-design",
       "claude-design",
-      "codex",
       "coding-agents",
-      "cursor",
-      "design",
       "design-systems",
       "design-tools",
-      "gemini-cli",
+      "desktop-app",
+      "figma-alternative",
       "generative-ai",
       "hermes-agent",
       "local-first",
-      "react",
-      "skills",
-      "typescript"
+      "nextjs",
+      "no-code",
+      "prototyping",
+      "ui-generator",
+      "vibe-coding"
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-04-28T04:25:20Z",
-    "updated_at": "2026-05-01T05:40:11Z",
+    "updated_at": "2026-05-02T04:58:12Z",
     "owner": {
       "name": "nexu-io",
       "avatar_url": "https://avatars.githubusercontent.com/u/263625318?v=4"
+    }
+  },
+  {
+    "name": "cursor/cookbook",
+    "url": "https://github.com/cursor/cookbook",
+    "description": null,
+    "stars": 2989,
+    "forks": 346,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-27T08:27:12Z",
+    "updated_at": "2026-05-02T04:33:15Z",
+    "owner": {
+      "name": "cursor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126759922?v=4"
     }
   },
   {
@@ -61,49 +77,6 @@
     "owner": {
       "name": "getagentseal",
       "avatar_url": "https://avatars.githubusercontent.com/u/277308000?v=4"
-    }
-  },
-  {
-    "name": "cursor/cookbook",
-    "url": "https://github.com/cursor/cookbook",
-    "description": null,
-    "stars": 2698,
-    "forks": 303,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-27T08:27:12Z",
-    "updated_at": "2026-05-01T05:39:19Z",
-    "owner": {
-      "name": "cursor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/126759922?v=4"
-    }
-  },
-  {
-    "name": "AgentSeal/codeburn",
-    "url": "https://github.com/AgentSeal/codeburn",
-    "description": "See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability.",
-    "stars": 2604,
-    "forks": 179,
-    "language": "TypeScript",
-    "topics": [
-      "ai-coding",
-      "claude-code",
-      "cli",
-      "codex",
-      "cost-tracking",
-      "cursor-ide",
-      "developer-tools",
-      "observability",
-      "terminal-ui",
-      "token-usage"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-13T22:11:53Z",
-    "updated_at": "2026-04-18T04:21:32Z",
-    "owner": {
-      "name": "AgentSeal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/265224789?v=4"
     }
   },
   {
@@ -160,33 +133,6 @@
     }
   },
   {
-    "name": "Mouseww/anything-analyzer",
-    "url": "https://github.com/Mouseww/anything-analyzer",
-    "description": "全能协议分析工具：浏览器抓包 + MITM 代理 + 指纹伪装 + AI 分析 + MCP Server 无缝对接 AI Agent/IDE   |  All-in-one protocol analysis toolkit — built-in browser capture, MITM proxy, JS hooks, fingerprint spoofing, AI analysis & MCP server for agent integration",
-    "stars": 1292,
-    "forks": 298,
-    "language": "TypeScript",
-    "topics": [
-      "2api",
-      "ai-tools",
-      "analysis-cli",
-      "api-analysis",
-      "automation-tools",
-      "blackbox-testing",
-      "network-analysis",
-      "protocol-analysis",
-      "reverse-engineering",
-      "traffic-analysis"
-    ],
-    "license": "No license",
-    "created_at": "2026-04-12T09:12:57Z",
-    "updated_at": "2026-04-18T04:25:16Z",
-    "owner": {
-      "name": "Mouseww",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28473201?v=4"
-    }
-  },
-  {
     "name": "cosmicstack-labs/mercury-agent",
     "url": "https://github.com/cosmicstack-labs/mercury-agent",
     "description": "Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access. Runs 24/7 from CLI or Telegram.",
@@ -204,6 +150,22 @@
     "owner": {
       "name": "cosmicstack-labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/277752932?v=4"
+    }
+  },
+  {
+    "name": "willchen96/mike",
+    "url": "https://github.com/willchen96/mike",
+    "description": "OSS AI Legal Platform",
+    "stars": 1127,
+    "forks": 285,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-04-29T17:41:12Z",
+    "updated_at": "2026-05-02T04:58:19Z",
+    "owner": {
+      "name": "willchen96",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85235185?v=4"
     }
   },
   {
@@ -239,32 +201,32 @@
     }
   },
   {
-    "name": "willchen96/mike",
-    "url": "https://github.com/willchen96/mike",
-    "description": "OSS AI Legal Platform",
-    "stars": 818,
-    "forks": 196,
+    "name": "b-nnett/codex-plusplus",
+    "url": "https://github.com/b-nnett/codex-plusplus",
+    "description": "Codex++ tweak system for the Codex desktop app",
+    "stars": 774,
+    "forks": 36,
     "language": "TypeScript",
     "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-04-29T17:41:12Z",
-    "updated_at": "2026-05-01T05:33:11Z",
+    "license": "MIT License",
+    "created_at": "2026-04-28T10:35:16Z",
+    "updated_at": "2026-05-02T04:53:23Z",
     "owner": {
-      "name": "willchen96",
-      "avatar_url": "https://avatars.githubusercontent.com/u/85235185?v=4"
+      "name": "b-nnett",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62760393?v=4"
     }
   },
   {
     "name": "GENEXIS-AI/chromex",
     "url": "https://github.com/GENEXIS-AI/chromex",
     "description": "A Codex-powered Chrome side-panel assistant for page context, tabs, voice, and image workflows.",
-    "stars": 703,
-    "forks": 57,
+    "stars": 740,
+    "forks": 61,
     "language": "TypeScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-04-28T11:08:06Z",
-    "updated_at": "2026-05-01T04:59:27Z",
+    "updated_at": "2026-05-02T02:52:19Z",
     "owner": {
       "name": "GENEXIS-AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/131945398?v=4"
@@ -287,22 +249,6 @@
     }
   },
   {
-    "name": "b-nnett/codex-plusplus",
-    "url": "https://github.com/b-nnett/codex-plusplus",
-    "description": "Codex++ tweak system for the Codex desktop app",
-    "stars": 584,
-    "forks": 22,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-28T10:35:16Z",
-    "updated_at": "2026-05-01T05:38:07Z",
-    "owner": {
-      "name": "b-nnett",
-      "avatar_url": "https://avatars.githubusercontent.com/u/62760393?v=4"
-    }
-  },
-  {
     "name": "tashfeenahmed/freellmapi",
     "url": "https://github.com/tashfeenahmed/freellmapi",
     "description": "OpenAI-compatible proxy that aggregates free-tier keys from ~14 AI providers with automatic failover. For personal experimentation only.",
@@ -316,29 +262,6 @@
     "owner": {
       "name": "tashfeenahmed",
       "avatar_url": "https://avatars.githubusercontent.com/u/9307356?v=4"
-    }
-  },
-  {
-    "name": "Jakubantalik/border-beam",
-    "url": "https://github.com/Jakubantalik/border-beam",
-    "description": "Animated border beam effect for React",
-    "stars": 509,
-    "forks": 28,
-    "language": "TypeScript",
-    "topics": [
-      "beam",
-      "design",
-      "effect",
-      "glow",
-      "motion",
-      "product"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-12T17:27:34Z",
-    "updated_at": "2026-04-18T03:14:03Z",
-    "owner": {
-      "name": "Jakubantalik",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14873517?v=4"
     }
   },
   {
@@ -445,6 +368,38 @@
     "owner": {
       "name": "drasimwagan",
       "avatar_url": "https://avatars.githubusercontent.com/u/87940632?v=4"
+    }
+  },
+  {
+    "name": "mattpocock/dictionary-of-ai-coding",
+    "url": "https://github.com/mattpocock/dictionary-of-ai-coding",
+    "description": "AI coding jargon, explained in plain English.",
+    "stars": 425,
+    "forks": 78,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-01T10:17:05Z",
+    "updated_at": "2026-05-02T04:58:19Z",
+    "owner": {
+      "name": "mattpocock",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28293365?v=4"
+    }
+  },
+  {
+    "name": "EvanBacon/serve-sim",
+    "url": "https://github.com/EvanBacon/serve-sim",
+    "description": "The `npx serve` of Apple Simulators.",
+    "stars": 399,
+    "forks": 23,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-29T20:23:12Z",
+    "updated_at": "2026-05-02T04:49:03Z",
+    "owner": {
+      "name": "EvanBacon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9664363?v=4"
     }
   },
   {
@@ -669,13 +624,13 @@
     "name": "CatsJuice/medal-forge",
     "url": "https://github.com/CatsJuice/medal-forge",
     "description": null,
-    "stars": 239,
+    "stars": 241,
     "forks": 27,
     "language": "TypeScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-04-27T14:37:02Z",
-    "updated_at": "2026-04-30T09:57:35Z",
+    "updated_at": "2026-05-01T19:09:52Z",
     "owner": {
       "name": "CatsJuice",
       "avatar_url": "https://avatars.githubusercontent.com/u/39363750?v=4"
@@ -701,22 +656,6 @@
     "owner": {
       "name": "AlgoInfraTech",
       "avatar_url": "https://avatars.githubusercontent.com/u/278041461?v=4"
-    }
-  },
-  {
-    "name": "EvanBacon/serve-sim",
-    "url": "https://github.com/EvanBacon/serve-sim",
-    "description": "The `npx serve` of Apple Simulators.",
-    "stars": 227,
-    "forks": 13,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-29T20:23:12Z",
-    "updated_at": "2026-05-01T05:26:14Z",
-    "owner": {
-      "name": "EvanBacon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9664363?v=4"
     }
   },
   {
@@ -766,13 +705,13 @@
     "name": "sweriko/ai4anim-webgpu",
     "url": "https://github.com/sweriko/ai4anim-webgpu",
     "description": null,
-    "stars": 214,
+    "stars": 217,
     "forks": 19,
     "language": "TypeScript",
     "topics": [],
     "license": "Other",
     "created_at": "2026-04-26T17:35:08Z",
-    "updated_at": "2026-05-01T03:43:55Z",
+    "updated_at": "2026-05-02T02:27:28Z",
     "owner": {
       "name": "sweriko",
       "avatar_url": "https://avatars.githubusercontent.com/u/123819471?v=4"
@@ -905,6 +844,79 @@
     }
   },
   {
+    "name": "ForecastForge/coinbase-trading-bot",
+    "url": "https://github.com/ForecastForge/coinbase-trading-bot",
+    "description": "coinbase trading bot, coinbase bot, AI/automated crypto trading, Coinbase Advanced Trade/Pro, spot and futures, grid DCA scalping arbitrage, copy and signal bots, strategy setup tutorial guide automation",
+    "stars": 189,
+    "forks": 190,
+    "language": "TypeScript",
+    "topics": [
+      "algorithmic-trading",
+      "automated-trading",
+      "bitcoin",
+      "coinbase",
+      "coinbase-advanced-trade",
+      "crypto-bot",
+      "crypto-trading",
+      "cryptocurrency",
+      "dca",
+      "defi",
+      "ethereum",
+      "fintech",
+      "grid-trading",
+      "nodejs",
+      "open-source",
+      "spot-trading",
+      "trading-automation",
+      "trading-bot",
+      "trading-strategy",
+      "typescript"
+    ],
+    "license": "No license",
+    "created_at": "2026-04-27T18:35:31Z",
+    "updated_at": "2026-05-02T02:51:02Z",
+    "owner": {
+      "name": "ForecastForge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279487494?v=4"
+    }
+  },
+  {
+    "name": "AI4FinanceFoundation/coinbase-trading-bot",
+    "url": "https://github.com/AI4FinanceFoundation/coinbase-trading-bot",
+    "description": "coinbase coinbase-api coinbase-bot advanced-trade cdp-api coinbase-pro trading-bot ema-crossover atr trend-filter paper-trading market-ioc typescript btc eth sol crypto algorithmic-trading automated-trading automated-crypto quant fintech risk-sizing zod nodejs esm open-source institutional retail spot hft api-keys portfolio tracker legacy-hmac",
+    "stars": 189,
+    "forks": 242,
+    "language": "TypeScript",
+    "topics": [
+      "algorithmic-trading",
+      "atr",
+      "automated-trading",
+      "btc",
+      "coinbase",
+      "coinbase-advanced-trade",
+      "coinbase-api",
+      "cryptocurrency",
+      "defi",
+      "ema",
+      "eth",
+      "fintech",
+      "market-orders",
+      "nodejs",
+      "open-source",
+      "paper-trading",
+      "quantitative-trading",
+      "trading-bot",
+      "typescript"
+    ],
+    "license": "No license",
+    "created_at": "2026-04-29T08:02:56Z",
+    "updated_at": "2026-05-02T02:50:36Z",
+    "owner": {
+      "name": "AI4FinanceFoundation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/280129687?v=4"
+    }
+  },
+  {
     "name": "dashkit-protocol/polymarket-arbitrage-bot",
     "url": "https://github.com/dashkit-protocol/polymarket-arbitrage-bot",
     "description": "polymarket arbitrage bot, polymarket arbitrage bot, polymarket arbitrage bot, polymarket arbitrage bot, polymarket arbitrage bot, polymarket arbitrage bot, polymarket arbitrage bot, polymarket arbitrage bot, polymarket arbitrage bot, polymarket arbitrage bot, polymarket arbitrage bot, polymarket arbitrage bot, polymarket arbitrage bot",
@@ -927,22 +939,6 @@
     }
   },
   {
-    "name": "clawvader-tech/hermes-telegram-miniapp",
-    "url": "https://github.com/clawvader-tech/hermes-telegram-miniapp",
-    "description": "React SPA dashboard for Telegram Mini App v2.0 — 10-page mobile-first UI. Runs locally.",
-    "stars": 187,
-    "forks": 18,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-12T14:28:27Z",
-    "updated_at": "2026-04-18T03:34:10Z",
-    "owner": {
-      "name": "clawvader-tech",
-      "avatar_url": "https://avatars.githubusercontent.com/u/269794846?v=4"
-    }
-  },
-  {
     "name": "GRVYDEV/marky",
     "url": "https://github.com/GRVYDEV/marky",
     "description": "A lightweight easy to use markdown viewer",
@@ -956,22 +952,6 @@
     "owner": {
       "name": "GRVYDEV",
       "avatar_url": "https://avatars.githubusercontent.com/u/35381942?v=4"
-    }
-  },
-  {
-    "name": "Ansub/wiki-os",
-    "url": "https://github.com/Ansub/wiki-os",
-    "description": "UI Layer for Karpathy's LLM Wiki",
-    "stars": 186,
-    "forks": 18,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-12T10:26:53Z",
-    "updated_at": "2026-04-18T02:10:57Z",
-    "owner": {
-      "name": "Ansub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12985873?v=4"
     }
   },
   {
@@ -997,10 +977,47 @@
     }
   },
   {
+    "name": "endless-sky-team/ai-trading-agent",
+    "url": "https://github.com/endless-sky-team/ai-trading-agent",
+    "description": "llm trading bot ai agent crypto bitcoin ethereum perpetuals openrouter lighter algorithmic automated quant typescript react postgres bun fintech defi machine-learning open-source crypto-bot signals",
+    "stars": 176,
+    "forks": 161,
+    "language": "TypeScript",
+    "topics": [
+      "ai-trading",
+      "algorithmic-trading",
+      "automated-trading",
+      "bitcoin",
+      "bun",
+      "crypto-bot",
+      "cryptocurrency",
+      "defi",
+      "ethereum",
+      "fintech",
+      "lighter",
+      "llm",
+      "machine-learning",
+      "open-source",
+      "openrouter",
+      "postgresql",
+      "quantitative-finance",
+      "react",
+      "trading-bot",
+      "typescript"
+    ],
+    "license": "No license",
+    "created_at": "2026-04-29T21:48:01Z",
+    "updated_at": "2026-05-02T04:36:45Z",
+    "owner": {
+      "name": "endless-sky-team",
+      "avatar_url": "https://avatars.githubusercontent.com/u/280324364?v=4"
+    }
+  },
+  {
     "name": "SignalBot-Labs/aster-bot",
     "url": "https://github.com/SignalBot-Labs/aster-bot",
     "description": "asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp tra",
-    "stars": 178,
+    "stars": 175,
     "forks": 191,
     "language": "TypeScript",
     "topics": [
@@ -1027,7 +1044,7 @@
     ],
     "license": "No license",
     "created_at": "2026-04-26T16:32:56Z",
-    "updated_at": "2026-05-01T03:39:55Z",
+    "updated_at": "2026-05-02T02:54:50Z",
     "owner": {
       "name": "SignalBot-Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/278741890?v=4"
@@ -1079,76 +1096,35 @@
     }
   },
   {
-    "name": "ForecastForge/coinbase-trading-bot",
-    "url": "https://github.com/ForecastForge/coinbase-trading-bot",
-    "description": "coinbase trading bot, coinbase bot, AI/automated crypto trading, Coinbase Advanced Trade/Pro, spot and futures, grid DCA scalping arbitrage, copy and signal bots, strategy setup tutorial guide automation",
-    "stars": 174,
-    "forks": 190,
+    "name": "bedriyan/medkit-app",
+    "url": "https://github.com/bedriyan/medkit-app",
+    "description": "A voice-first AI patient simulator bringing the future of medical education to your browser, built with Claude Opus 4.7.",
+    "stars": 173,
+    "forks": 40,
     "language": "TypeScript",
-    "topics": [
-      "algorithmic-trading",
-      "automated-trading",
-      "bitcoin",
-      "coinbase",
-      "coinbase-advanced-trade",
-      "crypto-bot",
-      "crypto-trading",
-      "cryptocurrency",
-      "dca",
-      "defi",
-      "ethereum",
-      "fintech",
-      "grid-trading",
-      "nodejs",
-      "open-source",
-      "spot-trading",
-      "trading-automation",
-      "trading-bot",
-      "trading-strategy",
-      "typescript"
-    ],
+    "topics": [],
     "license": "No license",
-    "created_at": "2026-04-27T18:35:31Z",
-    "updated_at": "2026-05-01T05:14:59Z",
+    "created_at": "2026-04-26T00:40:36Z",
+    "updated_at": "2026-05-02T01:24:26Z",
     "owner": {
-      "name": "ForecastForge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/279487494?v=4"
+      "name": "bedriyan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30783228?v=4"
     }
   },
   {
-    "name": "AI4FinanceFoundation/coinbase-trading-bot",
-    "url": "https://github.com/AI4FinanceFoundation/coinbase-trading-bot",
-    "description": "coinbase coinbase-api coinbase-bot advanced-trade cdp-api coinbase-pro trading-bot ema-crossover atr trend-filter paper-trading market-ioc typescript btc eth sol crypto algorithmic-trading automated-trading automated-crypto quant fintech risk-sizing zod nodejs esm open-source institutional retail spot hft api-keys portfolio tracker legacy-hmac",
-    "stars": 174,
-    "forks": 242,
+    "name": "Dhravya/webpull",
+    "url": "https://github.com/Dhravya/webpull",
+    "description": "instantly pull a website down as a clean directory locally",
+    "stars": 166,
+    "forks": 13,
     "language": "TypeScript",
-    "topics": [
-      "algorithmic-trading",
-      "atr",
-      "automated-trading",
-      "btc",
-      "coinbase",
-      "coinbase-advanced-trade",
-      "coinbase-api",
-      "cryptocurrency",
-      "defi",
-      "ema",
-      "eth",
-      "fintech",
-      "market-orders",
-      "nodejs",
-      "open-source",
-      "paper-trading",
-      "quantitative-trading",
-      "trading-bot",
-      "typescript"
-    ],
-    "license": "No license",
-    "created_at": "2026-04-29T08:02:56Z",
-    "updated_at": "2026-05-01T05:14:59Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-28T00:09:31Z",
+    "updated_at": "2026-05-02T04:12:47Z",
     "owner": {
-      "name": "AI4FinanceFoundation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/280129687?v=4"
+      "name": "Dhravya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63950637?v=4"
     }
   },
   {
@@ -1202,22 +1178,6 @@
     }
   },
   {
-    "name": "Dhravya/webpull",
-    "url": "https://github.com/Dhravya/webpull",
-    "description": "instantly pull a website down as a clean directory locally",
-    "stars": 160,
-    "forks": 12,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-28T00:09:31Z",
-    "updated_at": "2026-05-01T05:13:14Z",
-    "owner": {
-      "name": "Dhravya",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63950637?v=4"
-    }
-  },
-  {
     "name": "alefinvest/polymarket-copy-bot",
     "url": "https://github.com/alefinvest/polymarket-copy-bot",
     "description": "polymarket copy trading bot polymarket copy bot polymarket trading bot polymarket copy trading bot polymarket copy bot polymarket trading bot polymarket copy trading bot polymarket copy bot polymarket trading bot polymarket copy trading bot polymarket copy bot polymarket trading bot polymarket copy trading bot polymarket copy bot polymarket trading",
@@ -1231,22 +1191,6 @@
     "owner": {
       "name": "alefinvest",
       "avatar_url": "https://avatars.githubusercontent.com/u/67728595?v=4"
-    }
-  },
-  {
-    "name": "bedriyan/medkit-app",
-    "url": "https://github.com/bedriyan/medkit-app",
-    "description": "A voice-first AI patient simulator bringing the future of medical education to your browser, built with Claude Opus 4.7.",
-    "stars": 159,
-    "forks": 35,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-26T00:40:36Z",
-    "updated_at": "2026-05-01T02:42:35Z",
-    "owner": {
-      "name": "bedriyan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30783228?v=4"
     }
   },
   {
@@ -1316,43 +1260,6 @@
     }
   },
   {
-    "name": "endless-sky-team/ai-trading-agent",
-    "url": "https://github.com/endless-sky-team/ai-trading-agent",
-    "description": "llm trading bot ai agent crypto bitcoin ethereum perpetuals openrouter lighter algorithmic automated quant typescript react postgres bun fintech defi machine-learning open-source crypto-bot signals",
-    "stars": 151,
-    "forks": 160,
-    "language": "TypeScript",
-    "topics": [
-      "ai-trading",
-      "algorithmic-trading",
-      "automated-trading",
-      "bitcoin",
-      "bun",
-      "crypto-bot",
-      "cryptocurrency",
-      "defi",
-      "ethereum",
-      "fintech",
-      "lighter",
-      "llm",
-      "machine-learning",
-      "open-source",
-      "openrouter",
-      "postgresql",
-      "quantitative-finance",
-      "react",
-      "trading-bot",
-      "typescript"
-    ],
-    "license": "No license",
-    "created_at": "2026-04-29T21:48:01Z",
-    "updated_at": "2026-05-01T05:14:59Z",
-    "owner": {
-      "name": "endless-sky-team",
-      "avatar_url": "https://avatars.githubusercontent.com/u/280324364?v=4"
-    }
-  },
-  {
     "name": "devsealva/Hyperliquid-Trading-Bot",
     "url": "https://github.com/devsealva/Hyperliquid-Trading-Bot",
     "description": "Hyperliquid Trading Bot Hyperliquid CopyTrading Bot Hyperliquid Copy Bot Hyperliquid Copy Trading Bot Hyperliquid Copy-Trading Bot Hyperliquid Arbitrage Bot Hyperliquid Bot Hyperliquid Trading Bot Hyperliquid Trading Bot Hyperliquid Trading Bot Hyperliquid Trading Bot Hyperliquid Trading Bot Hyperliquid Trading Bot Hyperliquid Trading Bot",
@@ -1394,10 +1301,26 @@
     }
   },
   {
+    "name": "sean-brydon/devl.dev",
+    "url": "https://github.com/sean-brydon/devl.dev",
+    "description": null,
+    "stars": 145,
+    "forks": 10,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-27T19:10:08Z",
+    "updated_at": "2026-05-01T06:30:30Z",
+    "owner": {
+      "name": "sean-brydon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55134778?v=4"
+    }
+  },
+  {
     "name": "Udacity-ai/pumpfun-ai-trading-bot",
     "url": "https://github.com/Udacity-ai/pumpfun-ai-trading-bot",
     "description": "OpenAI-powered Pump.fun comment automation on Solana. Thread engagement, proxy support, wallet modes, and local data.json comment bank. ISC. ai trading bot, pumpfun trading bot, trading bot, pumfun ai trading bot,ai trading bot, pumpfun trading bot, trading bot, pumfun ai trading bot,ai trading bot, pumpfun trading bot, trading bot, pumfun trading",
-    "stars": 146,
+    "stars": 144,
     "forks": 237,
     "language": "TypeScript",
     "topics": [
@@ -1415,26 +1338,10 @@
     ],
     "license": "No license",
     "created_at": "2026-04-27T09:57:22Z",
-    "updated_at": "2026-05-01T03:20:32Z",
+    "updated_at": "2026-05-01T08:55:43Z",
     "owner": {
       "name": "Udacity-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/279669069?v=4"
-    }
-  },
-  {
-    "name": "sean-brydon/devl.dev",
-    "url": "https://github.com/sean-brydon/devl.dev",
-    "description": null,
-    "stars": 144,
-    "forks": 10,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-27T19:10:08Z",
-    "updated_at": "2026-04-30T17:40:19Z",
-    "owner": {
-      "name": "sean-brydon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55134778?v=4"
     }
   },
   {
@@ -1486,6 +1393,43 @@
     }
   },
   {
+    "name": "warpdot-dev/composio",
+    "url": "https://github.com/warpdot-dev/composio",
+    "description": "typescript python sdk ai-agents anthropic openapi langchain openai-agents llamaindex mastra vercel-ai mcp oauth saas llm integrations agent-tools automation cloudflare google-gemini tooling rag multi-provider developer-sdk composable-actions webhook-triggers",
+    "stars": 139,
+    "forks": 80,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "automation",
+      "cloudflare",
+      "devtools",
+      "google-gemini",
+      "integrations",
+      "langchain",
+      "langgraph",
+      "llamaindex",
+      "llm",
+      "mcp",
+      "model-context-protocol",
+      "oauth",
+      "openai-agents",
+      "python",
+      "saas",
+      "sdk",
+      "typescript",
+      "vercel-ai"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-01T07:19:17Z",
+    "updated_at": "2026-05-02T04:45:16Z",
+    "owner": {
+      "name": "warpdot-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/280644856?v=4"
+    }
+  },
+  {
     "name": "unicircle-finance/polymarket-arbitrage-bot",
     "url": "https://github.com/unicircle-finance/polymarket-arbitrage-bot",
     "description": "polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot ",
@@ -1505,6 +1449,22 @@
     "owner": {
       "name": "unicircle-finance",
       "avatar_url": "https://avatars.githubusercontent.com/u/278114606?v=4"
+    }
+  },
+  {
+    "name": "hoquanghai/Auto-Create-Video",
+    "url": "https://github.com/hoquanghai/Auto-Create-Video",
+    "description": null,
+    "stars": 134,
+    "forks": 81,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-29T08:41:34Z",
+    "updated_at": "2026-05-02T04:50:31Z",
+    "owner": {
+      "name": "hoquanghai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62106658?v=4"
     }
   },
   {
@@ -1623,6 +1583,26 @@
     }
   },
   {
+    "name": "mrslimslim/gpt-image-canvas",
+    "url": "https://github.com/mrslimslim/gpt-image-canvas",
+    "description": "Local professional AI canvas built with tldraw.",
+    "stars": 126,
+    "forks": 19,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-tools",
+      "aiimagegenerator"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-28T07:26:43Z",
+    "updated_at": "2026-05-02T03:55:34Z",
+    "owner": {
+      "name": "mrslimslim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18644338?v=4"
+    }
+  },
+  {
     "name": "Axion-Trading-Labs/polymarket-trading-bot",
     "url": "https://github.com/Axion-Trading-Labs/polymarket-trading-bot",
     "description": "polymarket trading bot polymarket copy trading bot polymarket trading bot polymarket copy trading bot polymarket trading bot polymarket copy trading bot polymarket trading bot polymarket copy trading bot polymarket trading bot polymarket copy trading bot polymarket trading bot polymarket copy trading bot ",
@@ -1680,6 +1660,26 @@
     "owner": {
       "name": "earendil-works",
       "avatar_url": "https://avatars.githubusercontent.com/u/207902832?v=4"
+    }
+  },
+  {
+    "name": "millionco/spawn-agent",
+    "url": "https://github.com/millionco/spawn-agent",
+    "description": "Spawn available local agents on a user's computer",
+    "stars": 117,
+    "forks": 6,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "local",
+      "spawn-agent"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-26T00:20:23Z",
+    "updated_at": "2026-05-02T03:42:23Z",
+    "owner": {
+      "name": "millionco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85101781?v=4"
     }
   },
   {
@@ -1837,6 +1837,59 @@
     }
   },
   {
+    "name": "arvohealth-ai/OpenVitals",
+    "url": "https://github.com/arvohealth-ai/OpenVitals",
+    "description": "Your health never sleeps.",
+    "stars": 105,
+    "forks": 20,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-04-26T21:41:41Z",
+    "updated_at": "2026-05-01T18:33:02Z",
+    "owner": {
+      "name": "arvohealth-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/275087791?v=4"
+    }
+  },
+  {
+    "name": "6551-Team/bybit-trading-bot",
+    "url": "https://github.com/6551-Team/bybit-trading-bot",
+    "description": "Bybit trading bot & Bybit bot: AI, automated & auto crypto trading, futures, spot & grid, exchange strategies, algorithmic trading, cryptocurrency bot for Bybit.",
+    "stars": 105,
+    "forks": 181,
+    "language": "TypeScript",
+    "topics": [
+      "algorithmic-trading",
+      "automated-trading",
+      "bot",
+      "bybit",
+      "bybit-api",
+      "crypto-bot",
+      "crypto-trading",
+      "cryptocurrency",
+      "exchange-api",
+      "fintech",
+      "futures-trading",
+      "grid-trading",
+      "nodejs",
+      "open-source",
+      "quantitative-trading",
+      "spot-trading",
+      "trading-automation",
+      "trading-bot",
+      "trading-strategies",
+      "typescript"
+    ],
+    "license": "No license",
+    "created_at": "2026-04-27T17:51:53Z",
+    "updated_at": "2026-05-01T16:06:04Z",
+    "owner": {
+      "name": "6551-Team",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279671200?v=4"
+    }
+  },
+  {
     "name": "esengine/reasonix",
     "url": "https://github.com/esengine/reasonix",
     "description": "DeepSeek-native agent framework: Cache-First Loop, R1 Thought Harvesting, Tool-Call Repair. TypeScript + Ink TUI.",
@@ -1864,60 +1917,30 @@
     }
   },
   {
-    "name": "millionco/spawn-agent",
-    "url": "https://github.com/millionco/spawn-agent",
-    "description": "Spawn available local agents on a user's computer",
-    "stars": 104,
-    "forks": 5,
+    "name": "ForecastForge/binance-trading-bot",
+    "url": "https://github.com/ForecastForge/binance-trading-bot",
+    "description": "binance trading bot · binance bot · binance AI trading bot · binance automated trading bot · binance auto trading bot · binance crypto trading bot · binance futures trading bot · binance spot trading bot · binance grid trading bot · binance bot strategy",
+    "stars": 102,
+    "forks": 188,
     "language": "TypeScript",
     "topics": [
-      "agent",
-      "local",
-      "spawn-agent"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-26T00:20:23Z",
-    "updated_at": "2026-05-01T04:27:04Z",
-    "owner": {
-      "name": "millionco",
-      "avatar_url": "https://avatars.githubusercontent.com/u/85101781?v=4"
-    }
-  },
-  {
-    "name": "6551-Team/bybit-trading-bot",
-    "url": "https://github.com/6551-Team/bybit-trading-bot",
-    "description": "Bybit trading bot & Bybit bot: AI, automated & auto crypto trading, futures, spot & grid, exchange strategies, algorithmic trading, cryptocurrency bot for Bybit.",
-    "stars": 103,
-    "forks": 181,
-    "language": "TypeScript",
-    "topics": [
-      "algorithmic-trading",
-      "automated-trading",
-      "bot",
-      "bybit",
-      "bybit-api",
-      "crypto-bot",
-      "crypto-trading",
-      "cryptocurrency",
-      "exchange-api",
-      "fintech",
-      "futures-trading",
-      "grid-trading",
-      "nodejs",
-      "open-source",
-      "quantitative-trading",
-      "spot-trading",
-      "trading-automation",
-      "trading-bot",
-      "trading-strategies",
-      "typescript"
+      "binance-ai-trading-bot",
+      "binance-arbitrage-bot",
+      "binance-auto-trader",
+      "binance-dca-bot",
+      "binance-futures-trading-bot",
+      "binance-grid-trading-bot",
+      "binance-market-making-bot",
+      "binance-scalping-bot",
+      "binance-spot-trading-bot",
+      "binance-trading-bot"
     ],
     "license": "No license",
-    "created_at": "2026-04-27T17:51:53Z",
-    "updated_at": "2026-05-01T05:14:59Z",
+    "created_at": "2026-04-27T17:21:15Z",
+    "updated_at": "2026-05-01T16:06:27Z",
     "owner": {
-      "name": "6551-Team",
-      "avatar_url": "https://avatars.githubusercontent.com/u/279671200?v=4"
+      "name": "ForecastForge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279487494?v=4"
     }
   },
   {
@@ -1958,30 +1981,27 @@
     }
   },
   {
-    "name": "ForecastForge/binance-trading-bot",
-    "url": "https://github.com/ForecastForge/binance-trading-bot",
-    "description": "binance trading bot · binance bot · binance AI trading bot · binance automated trading bot · binance auto trading bot · binance crypto trading bot · binance futures trading bot · binance spot trading bot · binance grid trading bot · binance bot strategy",
-    "stars": 101,
-    "forks": 188,
+    "name": "maria-rcks/clawd.rip",
+    "url": "https://github.com/maria-rcks/clawd.rip",
+    "description": "Everything that *went* wrong with Claude.",
+    "stars": 100,
+    "forks": 13,
     "language": "TypeScript",
     "topics": [
-      "binance-ai-trading-bot",
-      "binance-arbitrage-bot",
-      "binance-auto-trader",
-      "binance-dca-bot",
-      "binance-futures-trading-bot",
-      "binance-grid-trading-bot",
-      "binance-market-making-bot",
-      "binance-scalping-bot",
-      "binance-spot-trading-bot",
-      "binance-trading-bot"
+      "agent",
+      "ai",
+      "anthropic",
+      "claude",
+      "claudecode",
+      "llm",
+      "theprimeagen"
     ],
-    "license": "No license",
-    "created_at": "2026-04-27T17:21:15Z",
-    "updated_at": "2026-05-01T05:14:59Z",
+    "license": "MIT License",
+    "created_at": "2026-04-27T04:18:39Z",
+    "updated_at": "2026-05-01T23:05:53Z",
     "owner": {
-      "name": "ForecastForge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/279487494?v=4"
+      "name": "maria-rcks",
+      "avatar_url": "https://avatars.githubusercontent.com/u/254055478?v=4"
     }
   },
   {
@@ -2071,59 +2091,24 @@
     }
   },
   {
-    "name": "arvohealth-ai/OpenVitals",
-    "url": "https://github.com/arvohealth-ai/OpenVitals",
-    "description": "Your health never sleeps.",
-    "stars": 97,
-    "forks": 20,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-26T21:41:41Z",
-    "updated_at": "2026-04-29T16:10:59Z",
-    "owner": {
-      "name": "arvohealth-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/275087791?v=4"
-    }
-  },
-  {
-    "name": "maria-rcks/clawd.rip",
-    "url": "https://github.com/maria-rcks/clawd.rip",
-    "description": "Everything that *went* wrong with Claude.",
-    "stars": 96,
-    "forks": 12,
+    "name": "zhouxiyu1997/friendmaker",
+    "url": "https://github.com/zhouxiyu1997/friendmaker",
+    "description": "Friend Maker is a macOS/Windows toolkit for turning images into pixel grids and ESP32 controller scripts, enabling automatic drawing on Nintendo Switch in Tomodachi Life and related workflows.",
+    "stars": 94,
+    "forks": 8,
     "language": "TypeScript",
     "topics": [
-      "agent",
-      "ai",
-      "anthropic",
-      "claude",
-      "claudecode",
-      "llm",
-      "theprimeagen"
+      "esp32",
+      "nintendo-switch",
+      "pro-controller-emulator",
+      "tomodachi-life"
     ],
-    "license": "MIT License",
-    "created_at": "2026-04-27T04:18:39Z",
-    "updated_at": "2026-04-30T23:04:33Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-04-27T12:40:57Z",
+    "updated_at": "2026-05-02T04:31:47Z",
     "owner": {
-      "name": "maria-rcks",
-      "avatar_url": "https://avatars.githubusercontent.com/u/254055478?v=4"
-    }
-  },
-  {
-    "name": "mrslimslim/gpt-image-canvas",
-    "url": "https://github.com/mrslimslim/gpt-image-canvas",
-    "description": "gpt-image-canvas",
-    "stars": 96,
-    "forks": 18,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-28T07:26:43Z",
-    "updated_at": "2026-05-01T05:36:42Z",
-    "owner": {
-      "name": "mrslimslim",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18644338?v=4"
+      "name": "zhouxiyu1997",
+      "avatar_url": "https://avatars.githubusercontent.com/u/138791332?v=4"
     }
   },
   {
@@ -2257,32 +2242,26 @@
     }
   },
   {
-    "name": "keezxc1223/locwarp",
-    "url": "https://github.com/keezxc1223/locwarp",
-    "description": "iPhone GPS simulator for Windows with USB/WiFi Tunnel, route simulation, joystick control, and dual-device sync.",
-    "stars": 90,
-    "forks": 14,
+    "name": "tradebothub/hyperliquid-copy-trading-bot-v2",
+    "url": "https://github.com/tradebothub/hyperliquid-copy-trading-bot-v2",
+    "description": "hyperliquid copy trading bot hyperliquid copy trading bot hyperliquid copy trading bot hyperliquid copy trading bot hyperliquid copy trading bot hyperliquid copy trading bot hyperliquid copy trading bot hyperliquid copy trading bot hyperliquid copy trading bot hyperliquid copy trading bot hyperliquid copy trading bot hyperliquid copy trading bot ",
+    "stars": 87,
+    "forks": 81,
     "language": "TypeScript",
     "topics": [
-      "fakegps",
-      "gps",
-      "gps-spoofing",
-      "ios",
-      "iphone-location",
-      "location-simulator",
-      "location-spoof",
-      "location-spoofing",
-      "pikmin-bloom",
-      "pokemon-go",
-      "pymobiledevice3",
-      "windows"
+      "copy-trading-bot",
+      "hyperliquid-copy-trading",
+      "hyperliquid-copy-trading-bot",
+      "hyperliquid-trading-bot",
+      "perp-copy-trading-bot",
+      "perp-trading-bot"
     ],
-    "license": "MIT License",
-    "created_at": "2026-04-12T07:56:08Z",
-    "updated_at": "2026-04-18T04:25:39Z",
+    "license": "No license",
+    "created_at": "2026-04-28T09:58:06Z",
+    "updated_at": "2026-05-01T09:46:19Z",
     "owner": {
-      "name": "keezxc1223",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53375409?v=4"
+      "name": "tradebothub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279980688?v=4"
     }
   },
   {
@@ -2395,6 +2374,22 @@
     }
   },
   {
+    "name": "lucianaib0318/GeoMind",
+    "url": "https://github.com/lucianaib0318/GeoMind",
+    "description": "🌍 GeoMind：基于飞书 CLI + 腾讯位置的科研与产业地理情报可视化 Skill",
+    "stars": 84,
+    "forks": 4,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-27T08:49:23Z",
+    "updated_at": "2026-05-02T04:33:48Z",
+    "owner": {
+      "name": "lucianaib0318",
+      "avatar_url": "https://avatars.githubusercontent.com/u/266953785?v=4"
+    }
+  },
+  {
     "name": "OpenWonderLabs/switchbot-openapi-cli",
     "url": "https://github.com/OpenWonderLabs/switchbot-openapi-cli",
     "description": "Command-line interface for the SwitchBot API v1.1",
@@ -2436,7 +2431,7 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-04-27T02:59:16Z",
-    "updated_at": "2026-05-01T01:24:16Z",
+    "updated_at": "2026-05-01T17:44:45Z",
     "owner": {
       "name": "Christopher0129",
       "avatar_url": "https://avatars.githubusercontent.com/u/183305815?v=4"
@@ -2566,22 +2561,6 @@
     "owner": {
       "name": "pixel-point",
       "avatar_url": "https://avatars.githubusercontent.com/u/29034027?v=4"
-    }
-  },
-  {
-    "name": "lucianaib0318/GeoMind",
-    "url": "https://github.com/lucianaib0318/GeoMind",
-    "description": "🌍 GeoMind：基于飞书 CLI + 腾讯位置的科研与产业地理情报可视化 Skill",
-    "stars": 75,
-    "forks": 4,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-27T08:49:23Z",
-    "updated_at": "2026-05-01T03:37:20Z",
-    "owner": {
-      "name": "lucianaib0318",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266953785?v=4"
     }
   },
   {
@@ -2831,22 +2810,6 @@
     }
   },
   {
-    "name": "wong2/vibe-ring",
-    "url": "https://github.com/wong2/vibe-ring",
-    "description": "Map Nintendo Ring-Con squeeze/pull to macOS keyboard input (Fn/Enter)",
-    "stars": 61,
-    "forks": 3,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-12T10:24:19Z",
-    "updated_at": "2026-04-17T15:08:48Z",
-    "owner": {
-      "name": "wong2",
-      "avatar_url": "https://avatars.githubusercontent.com/u/321947?v=4"
-    }
-  },
-  {
     "name": "Alpha63/rote-mappe",
     "url": "https://github.com/Alpha63/rote-mappe",
     "description": "rote-mappe",
@@ -2876,27 +2839,6 @@
     "owner": {
       "name": "cadeneo996",
       "avatar_url": "https://avatars.githubusercontent.com/u/275598237?v=4"
-    }
-  },
-  {
-    "name": "ShivaBhattacharjee/KeyZen",
-    "url": "https://github.com/ShivaBhattacharjee/KeyZen",
-    "description": "A typing test with a keychron keyboard with audiofeedback inspired by Monkeytype",
-    "stars": 57,
-    "forks": 8,
-    "language": "TypeScript",
-    "topics": [
-      "design",
-      "nextjs16",
-      "typing-game",
-      "ui"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-12T06:39:04Z",
-    "updated_at": "2026-04-17T20:06:40Z",
-    "owner": {
-      "name": "ShivaBhattacharjee",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95211406?v=4"
     }
   },
   {
