@@ -19,8 +19,8 @@
     "name": "tgies/copy-fail-c",
     "url": "https://github.com/tgies/copy-fail-c",
     "description": "Cross-platform C port of the Copy Fail Linux LPE (CVE-2026-31431). Disclosed 2026-04-29 by Theori / Xint.",
-    "stars": 203,
-    "forks": 57,
+    "stars": 240,
+    "forks": 64,
     "language": "C",
     "topics": [
       "af-alg",
@@ -38,7 +38,7 @@
     ],
     "license": "Other",
     "created_at": "2026-04-29T23:29:14Z",
-    "updated_at": "2026-05-02T04:51:10Z",
+    "updated_at": "2026-05-03T05:20:49Z",
     "owner": {
       "name": "tgies",
       "avatar_url": "https://avatars.githubusercontent.com/u/1594352?v=4"
@@ -93,22 +93,6 @@
     }
   },
   {
-    "name": "Octoberfest7/SilentHarvest_BOF",
-    "url": "https://github.com/Octoberfest7/SilentHarvest_BOF",
-    "description": "A Cobalt Strike BOF implementation of the SilentHarvest registry dumping technique",
-    "stars": 136,
-    "forks": 12,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-13T21:27:50Z",
-    "updated_at": "2026-04-18T21:11:22Z",
-    "owner": {
-      "name": "Octoberfest7",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91164728?v=4"
-    }
-  },
-  {
     "name": "jakobfriedl/tgt-monitor-bof",
     "url": "https://github.com/jakobfriedl/tgt-monitor-bof",
     "description": "Async BOF implementation of 'Rubeus monitor' to detect and automatically extract Kerberos TGTs as they appear on a target system. ",
@@ -122,22 +106,6 @@
     "owner": {
       "name": "jakobfriedl",
       "avatar_url": "https://avatars.githubusercontent.com/u/71284620?v=4"
-    }
-  },
-  {
-    "name": "areofyl/fetch",
-    "url": "https://github.com/areofyl/fetch",
-    "description": "An animated 3D fetch tool for your terminal. Takes your distro's ASCII logo, turns it into a spinning 3D object, and displays system info alongside it.",
-    "stars": 106,
-    "forks": 5,
-    "language": "C",
-    "topics": [],
-    "license": "ISC License",
-    "created_at": "2026-04-13T16:47:39Z",
-    "updated_at": "2026-04-19T00:59:00Z",
-    "owner": {
-      "name": "areofyl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/212789410?v=4"
     }
   },
   {
@@ -191,6 +159,22 @@
     }
   },
   {
+    "name": "i12bp8/wmbuster",
+    "url": "https://github.com/i12bp8/wmbuster",
+    "description": "Passive Wireless M-Bus listener for the Flipper Zero — T1/C1/T+C/S1, AES-128 mode 5, OMS DIF/VIF, manufacturer drivers. RX-only.",
+    "stars": 95,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-04-29T19:46:32Z",
+    "updated_at": "2026-05-03T02:28:37Z",
+    "owner": {
+      "name": "i12bp8",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57963363?v=4"
+    }
+  },
+  {
     "name": "sailay1996/vss-fr2system",
     "url": "https://github.com/sailay1996/vss-fr2system",
     "description": "test",
@@ -204,22 +188,6 @@
     "owner": {
       "name": "sailay1996",
       "avatar_url": "https://avatars.githubusercontent.com/u/16739401?v=4"
-    }
-  },
-  {
-    "name": "i12bp8/wmbuster",
-    "url": "https://github.com/i12bp8/wmbuster",
-    "description": "Passive Wireless M-Bus listener for the Flipper Zero — T1/C1/T+C/S1, AES-128 mode 5, OMS DIF/VIF, manufacturer drivers. RX-only.",
-    "stars": 81,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-04-29T19:46:32Z",
-    "updated_at": "2026-05-02T03:02:39Z",
-    "owner": {
-      "name": "i12bp8",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57963363?v=4"
     }
   },
   {
@@ -239,19 +207,24 @@
     }
   },
   {
-    "name": "7west/PicoTop",
-    "url": "https://github.com/7west/PicoTop",
-    "description": "A very basic computer & OS based on the RP2350 microcontroller",
-    "stars": 57,
-    "forks": 2,
+    "name": "SilentisVox/DoomSyscalls",
+    "url": "https://github.com/SilentisVox/DoomSyscalls",
+    "description": "Clean Indirect Syscalls with Hook Evasion & Return Address Spoofing.",
+    "stars": 60,
+    "forks": 11,
     "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-13T12:13:35Z",
-    "updated_at": "2026-04-18T22:58:45Z",
+    "topics": [
+      "av-evasion",
+      "edr-evasion",
+      "indirect-syscall",
+      "rop-gadgets"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-29T16:53:03Z",
+    "updated_at": "2026-05-03T05:01:19Z",
     "owner": {
-      "name": "7west",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33707859?v=4"
+      "name": "SilentisVox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/165338136?v=4"
     }
   },
   {
@@ -271,6 +244,22 @@
     }
   },
   {
+    "name": "AlexCheema/talos-vs-macbook",
+    "url": "https://github.com/AlexCheema/talos-vs-macbook",
+    "description": "microGPT benchmarks: a single M4 Max MacBook Pro P-core in C runs Karpathy's 4192-parameter transformer at ~71x the throughput of TALOS-V2's FPGA implementation.",
+    "stars": 53,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-02T22:32:17Z",
+    "updated_at": "2026-05-03T05:23:20Z",
+    "owner": {
+      "name": "AlexCheema",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41707476?v=4"
+    }
+  },
+  {
     "name": "ctabuyo/ols-parser",
     "url": "https://github.com/ctabuyo/ols-parser",
     "description": "A small, zero-dependency C parser for WinOLS `.ols` project files.",
@@ -284,6 +273,34 @@
     "owner": {
       "name": "ctabuyo",
       "avatar_url": "https://avatars.githubusercontent.com/u/13765677?v=4"
+    }
+  },
+  {
+    "name": "miguelsotobaez/neostation-frontend",
+    "url": "https://github.com/miguelsotobaez/neostation-frontend",
+    "description": "The Multiplatform Emulation Frontend.",
+    "stars": 45,
+    "forks": 2,
+    "language": "C",
+    "topics": [
+      "android",
+      "dart",
+      "emulation",
+      "flutter",
+      "frontend-app",
+      "handheld-devices",
+      "linux",
+      "macos",
+      "retroachievements",
+      "screenscraper",
+      "windows"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-04-28T04:22:56Z",
+    "updated_at": "2026-05-03T01:53:48Z",
+    "owner": {
+      "name": "miguelsotobaez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3828247?v=4"
     }
   },
   {
@@ -319,47 +336,67 @@
     }
   },
   {
-    "name": "SilentisVox/DoomSyscalls",
-    "url": "https://github.com/SilentisVox/DoomSyscalls",
-    "description": "Clean Indirect Syscalls with Hook Evasion & Return Address Spoofing.",
-    "stars": 37,
-    "forks": 7,
+    "name": "Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC",
+    "url": "https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC",
+    "description": null,
+    "stars": 34,
+    "forks": 11,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-29T16:53:03Z",
-    "updated_at": "2026-05-02T04:10:27Z",
+    "license": "Other",
+    "created_at": "2026-04-30T11:33:22Z",
+    "updated_at": "2026-05-03T04:57:25Z",
     "owner": {
-      "name": "SilentisVox",
-      "avatar_url": "https://avatars.githubusercontent.com/u/165338136?v=4"
+      "name": "Percivalll",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59213644?v=4"
     }
   },
   {
-    "name": "miguelsotobaez/neostation-frontend",
-    "url": "https://github.com/miguelsotobaez/neostation-frontend",
-    "description": "The Multiplatform Emulation Frontend.",
-    "stars": 35,
-    "forks": 2,
+    "name": "waryas/xign_poc_april_2026",
+    "url": "https://github.com/waryas/xign_poc_april_2026",
+    "description": "Use XIGNCODE3 driver to cheat",
+    "stars": 30,
+    "forks": 6,
     "language": "C",
-    "topics": [
-      "android",
-      "dart",
-      "emulation",
-      "flutter",
-      "frontend-app",
-      "handheld-devices",
-      "linux",
-      "macos",
-      "retroachievements",
-      "screenscraper",
-      "windows"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-04-28T04:22:56Z",
-    "updated_at": "2026-05-02T03:32:59Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-01T06:02:25Z",
+    "updated_at": "2026-05-03T02:22:14Z",
     "owner": {
-      "name": "miguelsotobaez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3828247?v=4"
+      "name": "waryas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20681600?v=4"
+    }
+  },
+  {
+    "name": "mengzeli-sdu/bike",
+    "url": "https://github.com/mengzeli-sdu/bike",
+    "description": null,
+    "stars": 29,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-27T09:01:45Z",
+    "updated_at": "2026-05-03T04:39:18Z",
+    "owner": {
+      "name": "mengzeli-sdu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/266227261?v=4"
+    }
+  },
+  {
+    "name": "kimchiman52/sonic-mania-mister",
+    "url": "https://github.com/kimchiman52/sonic-mania-mister",
+    "description": "Experimental port of Sonic Mania to MiSTer FPGA",
+    "stars": 28,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-04-28T14:23:12Z",
+    "updated_at": "2026-05-03T01:08:21Z",
+    "owner": {
+      "name": "kimchiman52",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1047900?v=4"
     }
   },
   {
@@ -379,22 +416,6 @@
     }
   },
   {
-    "name": "kimchiman52/sonic-mania-mister",
-    "url": "https://github.com/kimchiman52/sonic-mania-mister",
-    "description": "Experimental port of Sonic Mania to MiSTer FPGA",
-    "stars": 27,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-28T14:23:12Z",
-    "updated_at": "2026-05-02T03:42:48Z",
-    "owner": {
-      "name": "kimchiman52",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1047900?v=4"
-    }
-  },
-  {
     "name": "dcherrera/CrossLuaReader",
     "url": "https://github.com/dcherrera/CrossLuaReader",
     "description": "Lua-powered e-reader runtime for the Xteink X4. C runtime + Lua plugin architecture.",
@@ -408,22 +429,6 @@
     "owner": {
       "name": "dcherrera",
       "avatar_url": "https://avatars.githubusercontent.com/u/12970008?v=4"
-    }
-  },
-  {
-    "name": "Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC",
-    "url": "https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC",
-    "description": null,
-    "stars": 26,
-    "forks": 10,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-30T11:33:22Z",
-    "updated_at": "2026-05-02T03:12:52Z",
-    "owner": {
-      "name": "Percivalll",
-      "avatar_url": "https://avatars.githubusercontent.com/u/59213644?v=4"
     }
   },
   {
@@ -501,26 +506,10 @@
     }
   },
   {
-    "name": "mengzeli-sdu/bike",
-    "url": "https://github.com/mengzeli-sdu/bike",
-    "description": null,
-    "stars": 23,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-27T09:01:45Z",
-    "updated_at": "2026-05-02T03:57:10Z",
-    "owner": {
-      "name": "mengzeli-sdu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266227261?v=4"
-    }
-  },
-  {
     "name": "MinorGlitch/zerofido",
     "url": "https://github.com/MinorGlitch/zerofido",
     "description": "Passkey and security-key app for Flipper Zero with WebAuthn, FIDO2, U2F, USB HID, and NFC support.",
-    "stars": 22,
+    "stars": 24,
     "forks": 0,
     "language": "C",
     "topics": [
@@ -541,7 +530,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-04-29T15:08:48Z",
-    "updated_at": "2026-05-01T15:32:19Z",
+    "updated_at": "2026-05-02T19:44:09Z",
     "owner": {
       "name": "MinorGlitch",
       "avatar_url": "https://avatars.githubusercontent.com/u/28191524?v=4"
@@ -580,22 +569,6 @@
     }
   },
   {
-    "name": "woodyst/rockchip-vaapi",
-    "url": "https://github.com/woodyst/rockchip-vaapi",
-    "description": "VA-API driver for Rockchip RK3588 via MPP",
-    "stars": 21,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "GNU Lesser General Public License v2.1",
-    "created_at": "2026-04-26T08:53:26Z",
-    "updated_at": "2026-04-29T21:29:02Z",
-    "owner": {
-      "name": "woodyst",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3288125?v=4"
-    }
-  },
-  {
     "name": "SrihariLegend/rig",
     "url": "https://github.com/SrihariLegend/rig",
     "description": "AI coding agent in C. Single binary, zero runtime deps, every major LLM provider. Early stage — contributions welcome.",
@@ -621,35 +594,35 @@
     }
   },
   {
-    "name": "Hosokawa-t/regoshi-c-compiler",
-    "url": "https://github.com/Hosokawa-t/regoshi-c-compiler",
-    "description": null,
+    "name": "woodyst/rockchip-vaapi",
+    "url": "https://github.com/woodyst/rockchip-vaapi",
+    "description": "VA-API driver for Rockchip RK3588 via MPP",
     "stars": 21,
     "forks": 2,
     "language": "C",
     "topics": [],
     "license": "GNU Lesser General Public License v2.1",
-    "created_at": "2026-04-14T02:08:24Z",
-    "updated_at": "2026-04-18T14:22:46Z",
+    "created_at": "2026-04-26T08:53:26Z",
+    "updated_at": "2026-04-29T21:29:02Z",
     "owner": {
-      "name": "Hosokawa-t",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91241637?v=4"
+      "name": "woodyst",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3288125?v=4"
     }
   },
   {
-    "name": "maurokenny/esp32-WeatherPortal-EPD",
-    "url": "https://github.com/maurokenny/esp32-WeatherPortal-EPD",
-    "description": "Low-power ESP32 weather display utilizing E-ink panel and the Open-Meteo API. Keyless configuration for personal hobbyist projects",
-    "stars": 21,
-    "forks": 3,
+    "name": "niqiuqiux/arm64_kernel_hook",
+    "url": "https://github.com/niqiuqiux/arm64_kernel_hook",
+    "description": "arm64 kernel inline hook form KernelPatch",
+    "stars": 20,
+    "forks": 8,
     "language": "C",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-04-13T18:53:45Z",
-    "updated_at": "2026-04-18T16:43:12Z",
+    "license": "No license",
+    "created_at": "2026-04-27T07:08:07Z",
+    "updated_at": "2026-05-02T15:22:39Z",
     "owner": {
-      "name": "maurokenny",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2873617?v=4"
+      "name": "niqiuqiux",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110472841?v=4"
     }
   },
   {
@@ -701,19 +674,19 @@
     }
   },
   {
-    "name": "waryas/xign_poc_april_2026",
-    "url": "https://github.com/waryas/xign_poc_april_2026",
-    "description": "Use XIGNCODE3 driver to cheat",
+    "name": "0xShe/CVE-2026-31431",
+    "url": "https://github.com/0xShe/CVE-2026-31431",
+    "description": null,
     "stars": 19,
-    "forks": 4,
+    "forks": 11,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-05-01T06:02:25Z",
-    "updated_at": "2026-05-02T04:44:37Z",
+    "created_at": "2026-04-30T07:09:23Z",
+    "updated_at": "2026-05-02T11:45:10Z",
     "owner": {
-      "name": "waryas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20681600?v=4"
+      "name": "0xShe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89628734?v=4"
     }
   },
   {
@@ -749,19 +722,26 @@
     }
   },
   {
-    "name": "0xShe/CVE-2026-31431",
-    "url": "https://github.com/0xShe/CVE-2026-31431",
-    "description": null,
+    "name": "wgnet/wg.copyfail.patch",
+    "url": "https://github.com/wgnet/wg.copyfail.patch",
+    "description": "CVE-2026-31431 eBPF fix",
     "stars": 18,
-    "forks": 11,
+    "forks": 3,
     "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-30T07:09:23Z",
-    "updated_at": "2026-05-01T17:09:59Z",
+    "topics": [
+      "copy-fail",
+      "cve-2026-31431",
+      "ebpf",
+      "fix",
+      "lsm",
+      "workaround"
+    ],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-04-30T13:55:25Z",
+    "updated_at": "2026-05-03T03:45:48Z",
     "owner": {
-      "name": "0xShe",
-      "avatar_url": "https://avatars.githubusercontent.com/u/89628734?v=4"
+      "name": "wgnet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7723999?v=4"
     }
   },
   {
@@ -800,22 +780,6 @@
     }
   },
   {
-    "name": "niqiuqiux/arm64_kernel_hook",
-    "url": "https://github.com/niqiuqiux/arm64_kernel_hook",
-    "description": "arm64 kernel inline hook form KernelPatch",
-    "stars": 17,
-    "forks": 7,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-27T07:08:07Z",
-    "updated_at": "2026-04-30T14:52:20Z",
-    "owner": {
-      "name": "niqiuqiux",
-      "avatar_url": "https://avatars.githubusercontent.com/u/110472841?v=4"
-    }
-  },
-  {
     "name": "willmanduran/phonedrop",
     "url": "https://github.com/willmanduran/phonedrop",
     "description": "Transfer files to your phone via QR over a local network. Ultra thin and fast.",
@@ -845,29 +809,6 @@
     "owner": {
       "name": "Gusbtc",
       "avatar_url": "https://avatars.githubusercontent.com/u/97497384?v=4"
-    }
-  },
-  {
-    "name": "wgnet/wg.copyfail.patch",
-    "url": "https://github.com/wgnet/wg.copyfail.patch",
-    "description": "CVE-2026-31431 eBPF fix",
-    "stars": 16,
-    "forks": 2,
-    "language": "C",
-    "topics": [
-      "copy-fail",
-      "cve-2026-31431",
-      "ebpf",
-      "fix",
-      "lsm",
-      "workaround"
-    ],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-04-30T13:55:25Z",
-    "updated_at": "2026-05-01T22:53:46Z",
-    "owner": {
-      "name": "wgnet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7723999?v=4"
     }
   },
   {
@@ -903,7 +844,7 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-04-28T19:54:39Z",
-    "updated_at": "2026-05-01T18:15:19Z",
+    "updated_at": "2026-05-02T18:09:36Z",
     "owner": {
       "name": "ps5-linux",
       "avatar_url": "https://avatars.githubusercontent.com/u/278984012?v=4"
@@ -1018,22 +959,6 @@
     }
   },
   {
-    "name": "moze30/winlator-glibc",
-    "url": "https://github.com/moze30/winlator-glibc",
-    "description": "Android application for running Windows applications with Wine and Box64",
-    "stars": 12,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-04-13T12:30:06Z",
-    "updated_at": "2026-04-18T08:45:12Z",
-    "owner": {
-      "name": "moze30",
-      "avatar_url": "https://avatars.githubusercontent.com/u/165124056?v=4"
-    }
-  },
-  {
     "name": "SuperrSonic/Better-Nintendont",
     "url": "https://github.com/SuperrSonic/Better-Nintendont",
     "description": "Personal version of Nintendont.",
@@ -1075,39 +1000,6 @@
     "owner": {
       "name": "Szymdows",
       "avatar_url": "https://avatars.githubusercontent.com/u/183852166?v=4"
-    }
-  },
-  {
-    "name": "AnboPeng/Anbo-L4s5-App",
-    "url": "https://github.com/AnboPeng/Anbo-L4s5-App",
-    "description": "Lightweight async Event-driven microkernel for the B-L4S5I-IOT01A development board (STM32L4S5VITx, Cortex-M4F).",
-    "stars": 11,
-    "forks": 2,
-    "language": "C",
-    "topics": [
-      "b-l4s5i-iot01a",
-      "ceedling",
-      "cmake",
-      "cmock",
-      "cooperative-multitasking",
-      "embedded-c",
-      "event-driven",
-      "imu",
-      "imu-sensor",
-      "lsm6dsl",
-      "microkernel",
-      "object-oriented-c",
-      "stm32l4",
-      "stm32l4-discovery-kit-iot",
-      "tdd",
-      "unity"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-13T07:49:32Z",
-    "updated_at": "2026-04-18T22:21:49Z",
-    "owner": {
-      "name": "AnboPeng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/272138069?v=4"
     }
   },
   {
