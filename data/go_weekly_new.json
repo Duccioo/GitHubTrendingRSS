@@ -206,6 +206,24 @@
     }
   },
   {
+    "name": "openclaw/crabbox",
+    "url": "https://github.com/openclaw/crabbox",
+    "description": "Crabbox: warm a box, sync the diff, run the suite.",
+    "stars": 158,
+    "forks": 20,
+    "language": "Go",
+    "topics": [
+      "remote-test-runner"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-30T14:31:48Z",
+    "updated_at": "2026-05-04T04:53:43Z",
+    "owner": {
+      "name": "openclaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/252820863?v=4"
+    }
+  },
+  {
     "name": "sartoopjj/vpn-over-github",
     "url": "https://github.com/sartoopjj/vpn-over-github",
     "description": "Tunnels TCP connections through GitHub. Supports gist and git transports ( Too slow. Not usable.)",
@@ -222,21 +240,46 @@
     }
   },
   {
-    "name": "openclaw/crabbox",
-    "url": "https://github.com/openclaw/crabbox",
-    "description": "Crabbox: warm a box, sync the diff, run the suite.",
-    "stars": 130,
-    "forks": 14,
+    "name": "Hidden-Node/GooseRelayVPN-AndroidClient",
+    "url": "https://github.com/Hidden-Node/GooseRelayVPN-AndroidClient",
+    "description": "GooseRelayVPN Android client: a SOCKS5 VPN with profile-based setup, live logs, and JSON import/export that tunnels raw TCP   through Google Apps Script to your VPS exit server (AES-256-GCM, domain-fronted).",
+    "stars": 127,
+    "forks": 5,
     "language": "Go",
     "topics": [
-      "remote-test-runner"
+      "aes-gcm",
+      "http-proxy",
+      "mitm",
+      "proxy",
+      "sni",
+      "socks5",
+      "tunnel",
+      "tunneling",
+      "vpn",
+      "vpn-client"
     ],
     "license": "MIT License",
-    "created_at": "2026-04-30T14:31:48Z",
-    "updated_at": "2026-05-03T05:11:45Z",
+    "created_at": "2026-04-28T22:33:54Z",
+    "updated_at": "2026-05-04T04:54:00Z",
     "owner": {
-      "name": "openclaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/252820863?v=4"
+      "name": "Hidden-Node",
+      "avatar_url": "https://avatars.githubusercontent.com/u/263162787?v=4"
+    }
+  },
+  {
+    "name": "benqi-finance/legalmarkdown",
+    "url": "https://github.com/benqi-finance/legalmarkdown",
+    "description": "Eris Legal Markdown -- Putting the Contract in Smart Contracts",
+    "stars": 122,
+    "forks": 1061,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-29T17:27:27Z",
+    "updated_at": "2026-05-03T16:38:37Z",
+    "owner": {
+      "name": "benqi-finance",
+      "avatar_url": "https://avatars.githubusercontent.com/u/280476892?v=4"
     }
   },
   {
@@ -264,22 +307,6 @@
     "owner": {
       "name": "kiwifs",
       "avatar_url": "https://avatars.githubusercontent.com/u/279152261?v=4"
-    }
-  },
-  {
-    "name": "benqi-finance/legalmarkdown",
-    "url": "https://github.com/benqi-finance/legalmarkdown",
-    "description": "Eris Legal Markdown -- Putting the Contract in Smart Contracts",
-    "stars": 118,
-    "forks": 814,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-29T17:27:27Z",
-    "updated_at": "2026-05-03T04:03:27Z",
-    "owner": {
-      "name": "benqi-finance",
-      "avatar_url": "https://avatars.githubusercontent.com/u/280476892?v=4"
     }
   },
   {
@@ -311,24 +338,26 @@
     "forks": 0,
     "language": "Go",
     "topics": [
-      "cloud-native",
-      "cpu-scheduling",
-      "deep-learning",
-      "golang",
+      "amd-epyc",
+      "bare-metal",
+      "dag",
+      "hardware-topology",
+      "high-performance-computing",
+      "hpc",
       "hpc-clusters",
-      "iac",
+      "hpc-systems",
+      "hugepages",
       "k3s",
       "k8s",
       "kubernetes",
       "kubernetes-cluster",
-      "kubernetes-operator",
-      "linux-kernel",
-      "llm-inference",
-      "openshift"
+      "linux-performance",
+      "numa",
+      "slurm"
     ],
     "license": "No license",
     "created_at": "2026-05-01T06:31:35Z",
-    "updated_at": "2026-05-03T00:37:26Z",
+    "updated_at": "2026-05-03T09:24:10Z",
     "owner": {
       "name": "marchinthesun",
       "avatar_url": "https://avatars.githubusercontent.com/u/279914012?v=4"
@@ -348,33 +377,6 @@
     "owner": {
       "name": "steipete",
       "avatar_url": "https://avatars.githubusercontent.com/u/58493?v=4"
-    }
-  },
-  {
-    "name": "Hidden-Node/GooseRelayVPN-AndroidClient",
-    "url": "https://github.com/Hidden-Node/GooseRelayVPN-AndroidClient",
-    "description": "GooseRelayVPN Android client: a SOCKS5 VPN with profile-based setup, live logs, and JSON import/export that tunnels raw TCP   through Google Apps Script to your VPS exit server (AES-256-GCM, domain-fronted).",
-    "stars": 103,
-    "forks": 4,
-    "language": "Go",
-    "topics": [
-      "aes-gcm",
-      "http-proxy",
-      "mitm",
-      "proxy",
-      "sni",
-      "socks5",
-      "tunnel",
-      "tunneling",
-      "vpn",
-      "vpn-client"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-28T22:33:54Z",
-    "updated_at": "2026-05-03T01:17:24Z",
-    "owner": {
-      "name": "Hidden-Node",
-      "avatar_url": "https://avatars.githubusercontent.com/u/263162787?v=4"
     }
   },
   {
@@ -461,6 +463,22 @@
     }
   },
   {
+    "name": "ryan-wong-coder/trustdb",
+    "url": "https://github.com/ryan-wong-coder/trustdb",
+    "description": "高可信的存证系统",
+    "stars": 55,
+    "forks": 4,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-04-28T07:00:10Z",
+    "updated_at": "2026-05-04T05:26:00Z",
+    "owner": {
+      "name": "ryan-wong-coder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61351497?v=4"
+    }
+  },
+  {
     "name": "badsectorlabs/copyfail-go",
     "url": "https://github.com/badsectorlabs/copyfail-go",
     "description": "A Go implementation of copyfail (CVE-2026-31431)",
@@ -504,35 +522,19 @@
     }
   },
   {
-    "name": "zhf883680/clash-traffic-monitor",
-    "url": "https://github.com/zhf883680/clash-traffic-monitor",
-    "description": "一个 clash 流量监控工具  适配 mihomo 内核 go 语言编写",
+    "name": "soub4i/gh-relay",
+    "url": "https://github.com/soub4i/gh-relay",
+    "description": "Share a private GitHub repo with anyone, no collaborator invite, no paid seat, no cleanup.",
     "stars": 52,
-    "forks": 2,
+    "forks": 8,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-04-14T07:33:28Z",
-    "updated_at": "2026-04-20T04:48:08Z",
+    "created_at": "2026-05-01T12:07:03Z",
+    "updated_at": "2026-05-04T05:03:52Z",
     "owner": {
-      "name": "zhf883680",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23031238?v=4"
-    }
-  },
-  {
-    "name": "tranhaonguyendev/Za-go",
-    "url": "https://github.com/tranhaonguyendev/Za-go",
-    "description": "Unofficial Zalo API for Golang",
-    "stars": 51,
-    "forks": 37,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-15T05:47:28Z",
-    "updated_at": "2026-04-20T05:26:31Z",
-    "owner": {
-      "name": "tranhaonguyendev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/244822761?v=4"
+      "name": "soub4i",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11523791?v=4"
     }
   },
   {
@@ -619,26 +621,10 @@
     }
   },
   {
-    "name": "ryan-wong-coder/trustdb",
-    "url": "https://github.com/ryan-wong-coder/trustdb",
-    "description": "高可信的存证系统",
-    "stars": 39,
-    "forks": 3,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-04-28T07:00:10Z",
-    "updated_at": "2026-05-03T03:08:53Z",
-    "owner": {
-      "name": "ryan-wong-coder",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61351497?v=4"
-    }
-  },
-  {
     "name": "CCCpan/ai-api-integration",
     "url": "https://github.com/CCCpan/ai-api-integration",
     "description": "GPT-5 / Claude Opus 4.7 / Gemini 3.1 / Sora 2 / Suno / DeepSeek / Kimi - AI API integration cookbook for Cursor, Cline, Claude Code, ChatBox, Dify. 大模型 API 接入实战教程",
-    "stars": 37,
+    "stars": 39,
     "forks": 0,
     "language": "Go",
     "topics": [
@@ -665,7 +651,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-28T08:23:59Z",
-    "updated_at": "2026-05-02T01:30:34Z",
+    "updated_at": "2026-05-03T16:20:38Z",
     "owner": {
       "name": "CCCpan",
       "avatar_url": "https://avatars.githubusercontent.com/u/19424465?v=4"
@@ -717,22 +703,6 @@
     "owner": {
       "name": "olucasandrade",
       "avatar_url": "https://avatars.githubusercontent.com/u/64823667?v=4"
-    }
-  },
-  {
-    "name": "soub4i/gh-relay",
-    "url": "https://github.com/soub4i/gh-relay",
-    "description": "Share a private GitHub repo with anyone, no collaborator invite, no paid seat, no cleanup.",
-    "stars": 34,
-    "forks": 6,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-01T12:07:03Z",
-    "updated_at": "2026-05-03T00:03:36Z",
-    "owner": {
-      "name": "soub4i",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11523791?v=4"
     }
   },
   {
@@ -832,22 +802,6 @@
     "owner": {
       "name": "fr0der1c",
       "avatar_url": "https://avatars.githubusercontent.com/u/16500161?v=4"
-    }
-  },
-  {
-    "name": "Hacktus/jmx2rce",
-    "url": "https://github.com/Hacktus/jmx2rce",
-    "description": null,
-    "stars": 28,
-    "forks": 7,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-14T15:25:51Z",
-    "updated_at": "2026-04-19T08:39:31Z",
-    "owner": {
-      "name": "Hacktus",
-      "avatar_url": "https://avatars.githubusercontent.com/u/126244304?v=4"
     }
   },
   {
@@ -951,6 +905,38 @@
     }
   },
   {
+    "name": "dingdingpw/monitor",
+    "url": "https://github.com/dingdingpw/monitor",
+    "description": "Monitor Party 是一个轻量级 VPS / 服务器监控面板，包含中心端 `vps-server` 和采集端 `vps-agent`。中心端提供公开监控面板、管理员后台、Agent 安装命令生成、节点管理、购买信息展示和 Agent 二进制下载；Agent 负责上报 CPU、内存、硬盘、网络、负载和在线状态",
+    "stars": 25,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-02T08:41:19Z",
+    "updated_at": "2026-05-04T03:50:19Z",
+    "owner": {
+      "name": "dingdingpw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/266325238?v=4"
+    }
+  },
+  {
+    "name": "Meow-Calculations/DeepSeek_Web_To_API",
+    "url": "https://github.com/Meow-Calculations/DeepSeek_Web_To_API",
+    "description": null,
+    "stars": 25,
+    "forks": 4,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-05-03T03:21:01Z",
+    "updated_at": "2026-05-04T03:23:49Z",
+    "owner": {
+      "name": "Meow-Calculations",
+      "avatar_url": "https://avatars.githubusercontent.com/u/262847175?v=4"
+    }
+  },
+  {
     "name": "nutcas3/lets-bet",
     "url": "https://github.com/nutcas3/lets-bet",
     "description": null,
@@ -1010,6 +996,22 @@
     }
   },
   {
+    "name": "compozy/codex-loop",
+    "url": "https://github.com/compozy/codex-loop",
+    "description": "Keep Codex tasks running until they meet a time or round-based completion target.",
+    "stars": 23,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-02T14:55:55Z",
+    "updated_at": "2026-05-03T22:21:11Z",
+    "owner": {
+      "name": "compozy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/205107042?v=4"
+    }
+  },
+  {
     "name": "PoemMisty/CFData-WEB",
     "url": "https://github.com/PoemMisty/CFData-WEB",
     "description": "CFData-Web 是一个基于 Go 开发的 Cloudflare IP 测试与筛选工具",
@@ -1039,6 +1041,26 @@
     "owner": {
       "name": "notsnakesilent",
       "avatar_url": "https://avatars.githubusercontent.com/u/69158149?v=4"
+    }
+  },
+  {
+    "name": "Domenez-dev/lazy-chron",
+    "url": "https://github.com/Domenez-dev/lazy-chron",
+    "description": "A fast, keyboard-driven terminal UI cron job manager for Linux. Built with Go + charmbracelet/bubbletea.",
+    "stars": 21,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "cron",
+      "golang",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-28T21:40:45Z",
+    "updated_at": "2026-05-03T14:07:32Z",
+    "owner": {
+      "name": "Domenez-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126860751?v=4"
     }
   },
   {
@@ -1128,19 +1150,19 @@
     }
   },
   {
-    "name": "compozy/codex-loop",
-    "url": "https://github.com/compozy/codex-loop",
-    "description": "Keep Codex tasks running until they meet a time or round-based completion target.",
+    "name": "daishuge/playful-proxy-api-panel",
+    "url": "https://github.com/daishuge/playful-proxy-api-panel",
+    "description": "CLIProxyAPI-compatible fork with restored usage statistics and open-source bundled management panel frontend.",
     "stars": 19,
-    "forks": 0,
+    "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-05-02T14:55:55Z",
-    "updated_at": "2026-05-03T04:47:40Z",
+    "created_at": "2026-05-02T04:20:33Z",
+    "updated_at": "2026-05-04T04:34:19Z",
     "owner": {
-      "name": "compozy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/205107042?v=4"
+      "name": "daishuge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/122254868?v=4"
     }
   },
   {
@@ -1189,45 +1211,6 @@
     "owner": {
       "name": "seven7763",
       "avatar_url": "https://avatars.githubusercontent.com/u/246023385?v=4"
-    }
-  },
-  {
-    "name": "dingdingpw/monitor",
-    "url": "https://github.com/dingdingpw/monitor",
-    "description": "Monitor Party 是一个轻量级 VPS / 服务器监控面板，包含中心端 `vps-server` 和采集端 `vps-agent`。中心端提供公开监控面板、管理员后台、Agent 安装命令生成、节点管理、购买信息展示和 Agent 二进制下载；Agent 负责上报 CPU、内存、硬盘、网络、负载和在线状态",
-    "stars": 18,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-02T08:41:19Z",
-    "updated_at": "2026-05-03T05:06:07Z",
-    "owner": {
-      "name": "dingdingpw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266325238?v=4"
-    }
-  },
-  {
-    "name": "ravichandra-eluri/golang-engineering-lab",
-    "url": "https://github.com/ravichandra-eluri/golang-engineering-lab",
-    "description": "A curated collection of Golang engineering projects, real-world backend concepts, concurrency patterns, system design examples, cloud-native solutions, and production-ready code for learning and professional growth.",
-    "stars": 18,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "backend",
-      "concurrency",
-      "gin",
-      "golang",
-      "microservices",
-      "postgresql"
-    ],
-    "license": "No license",
-    "created_at": "2026-04-18T16:07:45Z",
-    "updated_at": "2026-04-19T18:17:28Z",
-    "owner": {
-      "name": "ravichandra-eluri",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73862155?v=4"
     }
   },
   {
@@ -1311,55 +1294,26 @@
     }
   },
   {
-    "name": "Domenez-dev/lazy-chron",
-    "url": "https://github.com/Domenez-dev/lazy-chron",
-    "description": "A fast, keyboard-driven terminal UI cron job manager for Linux. Built with Go + charmbracelet/bubbletea.",
-    "stars": 15,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "cron",
-      "golang",
-      "tui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-28T21:40:45Z",
-    "updated_at": "2026-05-03T04:02:13Z",
-    "owner": {
-      "name": "Domenez-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/126860751?v=4"
-    }
-  },
-  {
-    "name": "daishuge/playful-proxy-api-panel",
-    "url": "https://github.com/daishuge/playful-proxy-api-panel",
-    "description": "CLIProxyAPI-compatible fork with restored usage statistics and open-source bundled management panel frontend.",
+    "name": "sky22333/netboot",
+    "url": "https://github.com/sky22333/netboot",
+    "description": "开箱即用的PXE网络装机服务，原生跨平台（Windows / Linux / macOS），无需繁琐的环境配置。",
     "stars": 15,
     "forks": 2,
     "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-02T04:20:33Z",
-    "updated_at": "2026-05-03T03:46:53Z",
+    "topics": [
+      "dhcp",
+      "ipxe",
+      "netboot",
+      "netbootxyz",
+      "pxe",
+      "tftp"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-04-28T03:33:28Z",
+    "updated_at": "2026-05-03T09:37:40Z",
     "owner": {
-      "name": "daishuge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/122254868?v=4"
-    }
-  },
-  {
-    "name": "Meow-Calculations/DeepSeek_Web_To_API",
-    "url": "https://github.com/Meow-Calculations/DeepSeek_Web_To_API",
-    "description": null,
-    "stars": 15,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-05-03T03:21:01Z",
-    "updated_at": "2026-05-03T05:14:58Z",
-    "owner": {
-      "name": "Meow-Calculations",
-      "avatar_url": "https://avatars.githubusercontent.com/u/262847175?v=4"
+      "name": "sky22333",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115192496?v=4"
     }
   },
   {
@@ -1379,26 +1333,35 @@
     }
   },
   {
-    "name": "sky22333/netboot",
-    "url": "https://github.com/sky22333/netboot",
-    "description": "开箱即用的PXE网络装机服务，原生跨平台（Windows / Linux / macOS），无需繁琐的环境配置。",
+    "name": "MMMchou/ashforge",
+    "url": "https://github.com/MMMchou/ashforge",
+    "description": "One-command local LLM deployment with automatic hardware probing, GGUF model matching, KV cache tuning, warmup benchmarking, and OpenAI-compatible API gateway. 一条命令启动本地 LLM：自动硬件检测、模型匹配、KV cache 选型、上下文长度探测、warmup 调参，并暴露 OpenAI-compatible API。",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-30T07:50:07Z",
+    "updated_at": "2026-05-04T05:19:20Z",
+    "owner": {
+      "name": "MMMchou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106759929?v=4"
+    }
+  },
+  {
+    "name": "denuitt1/mhr-cfw-go",
+    "url": "https://github.com/denuitt1/mhr-cfw-go",
+    "description": null,
     "stars": 14,
     "forks": 2,
     "language": "Go",
-    "topics": [
-      "dhcp",
-      "ipxe",
-      "netboot",
-      "netbootxyz",
-      "pxe",
-      "tftp"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-04-28T03:33:28Z",
-    "updated_at": "2026-05-03T05:24:59Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-01T15:46:05Z",
+    "updated_at": "2026-05-03T21:42:11Z",
     "owner": {
-      "name": "sky22333",
-      "avatar_url": "https://avatars.githubusercontent.com/u/115192496?v=4"
+      "name": "denuitt1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279854002?v=4"
     }
   },
   {
@@ -1564,22 +1527,6 @@
     }
   },
   {
-    "name": "roman-16/proton-cli",
-    "url": "https://github.com/roman-16/proton-cli",
-    "description": "An unofficial command-line tool for Proton — Mail, Drive, Calendar, Contacts, and Pass from your terminal.",
-    "stars": 13,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-14T20:36:47Z",
-    "updated_at": "2026-04-19T22:27:51Z",
-    "owner": {
-      "name": "roman-16",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15262665?v=4"
-    }
-  },
-  {
     "name": "cch123/open-agent-room",
     "url": "https://github.com/cch123/open-agent-room",
     "description": null,
@@ -1593,6 +1540,22 @@
     "owner": {
       "name": "cch123",
       "avatar_url": "https://avatars.githubusercontent.com/u/384546?v=4"
+    }
+  },
+  {
+    "name": "almonk/tui-pets",
+    "url": "https://github.com/almonk/tui-pets",
+    "description": null,
+    "stars": 12,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-02T17:42:27Z",
+    "updated_at": "2026-05-03T23:55:04Z",
+    "owner": {
+      "name": "almonk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51724?v=4"
     }
   },
   {
@@ -1628,38 +1591,6 @@
     }
   },
   {
-    "name": "tianchangNorth/curlmgr",
-    "url": "https://github.com/tianchangNorth/curlmgr",
-    "description": null,
-    "stars": 12,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-15T09:53:45Z",
-    "updated_at": "2026-04-19T13:53:04Z",
-    "owner": {
-      "name": "tianchangNorth",
-      "avatar_url": "https://avatars.githubusercontent.com/u/116717451?v=4"
-    }
-  },
-  {
-    "name": "Vozec/Flarex",
-    "url": "https://github.com/Vozec/Flarex",
-    "description": "SOCKS5 / HTTP CONNECT proxy that load-balances outbound traffic across a pool of dynamically deployed Cloudflare Workers",
-    "stars": 12,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-15T17:46:19Z",
-    "updated_at": "2026-04-19T22:26:06Z",
-    "owner": {
-      "name": "Vozec",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61807609?v=4"
-    }
-  },
-  {
     "name": "Euphie/anthropic-proxy",
     "url": "https://github.com/Euphie/anthropic-proxy",
     "description": "面向国内京东、百度等 Anthropic / OpenAI 兼容的 Coding Plan API 的轻量级反向代理。在上游服务过载时可自动等待并重试，确保 Claude Code 等客户端不会因接口报错而中断任务。",
@@ -1673,6 +1604,22 @@
     "owner": {
       "name": "Euphie",
       "avatar_url": "https://avatars.githubusercontent.com/u/5369481?v=4"
+    }
+  },
+  {
+    "name": "17ovo17/AI-WorkBench",
+    "url": "https://github.com/17ovo17/AI-WorkBench",
+    "description": null,
+    "stars": 11,
+    "forks": 4,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-01T12:20:17Z",
+    "updated_at": "2026-05-04T05:21:58Z",
+    "owner": {
+      "name": "17ovo17",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279919495?v=4"
     }
   },
   {
@@ -1697,22 +1644,6 @@
     "owner": {
       "name": "hoangnecon",
       "avatar_url": "https://avatars.githubusercontent.com/u/153882024?v=4"
-    }
-  },
-  {
-    "name": "denuitt1/mhr-cfw-go",
-    "url": "https://github.com/denuitt1/mhr-cfw-go",
-    "description": null,
-    "stars": 11,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-01T15:46:05Z",
-    "updated_at": "2026-05-02T22:08:50Z",
-    "owner": {
-      "name": "denuitt1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/279854002?v=4"
     }
   },
   {
@@ -1894,35 +1825,19 @@
     }
   },
   {
-    "name": "GIN-SYSTEMS/Cipher21",
-    "url": "https://github.com/GIN-SYSTEMS/Cipher21",
-    "description": "Terminal-based Blackjack with SHA-256 fair-play and financial dashboard.",
-    "stars": 11,
+    "name": "ircfspace/teleFeed",
+    "url": "https://github.com/ircfspace/teleFeed",
+    "description": "A Go application that fetches posts from public Telegram channels and exports them as structured JSON files with automatic GitHub Actions integration.",
+    "stars": 10,
     "forks": 3,
     "language": "Go",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-04-15T11:11:41Z",
-    "updated_at": "2026-04-19T19:33:56Z",
-    "owner": {
-      "name": "GIN-SYSTEMS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/239045120?v=4"
-    }
-  },
-  {
-    "name": "17ovo17/AI-WorkBench",
-    "url": "https://github.com/17ovo17/AI-WorkBench",
-    "description": null,
-    "stars": 10,
-    "forks": 4,
-    "language": "Go",
-    "topics": [],
     "license": "No license",
-    "created_at": "2026-05-01T12:20:17Z",
-    "updated_at": "2026-05-02T10:26:20Z",
+    "created_at": "2026-05-03T06:10:34Z",
+    "updated_at": "2026-05-03T23:44:58Z",
     "owner": {
-      "name": "17ovo17",
-      "avatar_url": "https://avatars.githubusercontent.com/u/279919495?v=4"
+      "name": "ircfspace",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128790947?v=4"
     }
   },
   {
@@ -2102,22 +2017,6 @@
     "owner": {
       "name": "spongehah",
       "avatar_url": "https://avatars.githubusercontent.com/u/114657596?v=4"
-    }
-  },
-  {
-    "name": "alptekinsunnetci/netplotter",
-    "url": "https://github.com/alptekinsunnetci/netplotter",
-    "description": "netplotter",
-    "stars": 10,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-14T07:25:56Z",
-    "updated_at": "2026-04-19T19:25:02Z",
-    "owner": {
-      "name": "alptekinsunnetci",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19623031?v=4"
     }
   }
 ]
