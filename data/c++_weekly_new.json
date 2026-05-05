@@ -19,8 +19,8 @@
     "name": "tgies/copy-fail-c",
     "url": "https://github.com/tgies/copy-fail-c",
     "description": "Cross-platform C port of the Copy Fail Linux LPE (CVE-2026-31431). Disclosed 2026-04-29 by Theori / Xint.",
-    "stars": 267,
-    "forks": 74,
+    "stars": 285,
+    "forks": 79,
     "language": "C",
     "topics": [
       "af-alg",
@@ -38,7 +38,7 @@
     ],
     "license": "Other",
     "created_at": "2026-04-29T23:29:14Z",
-    "updated_at": "2026-05-04T04:37:42Z",
+    "updated_at": "2026-05-05T04:08:35Z",
     "owner": {
       "name": "tgies",
       "avatar_url": "https://avatars.githubusercontent.com/u/1594352?v=4"
@@ -77,19 +77,19 @@
     }
   },
   {
-    "name": "incursi0n/BlueSAM",
-    "url": "https://github.com/incursi0n/BlueSAM",
-    "description": "A Cobalt Strike Beacon Object File that exploits the BlueHammer vulnerability that to obtain a copy of the SAM database.",
-    "stars": 137,
-    "forks": 19,
+    "name": "i12bp8/wmbuster",
+    "url": "https://github.com/i12bp8/wmbuster",
+    "description": "Passive Wireless M-Bus listener for the Flipper Zero — T1/C1/T+C/S1, AES-128 mode 5, OMS DIF/VIF, manufacturer drivers. RX-only.",
+    "stars": 111,
+    "forks": 2,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-15T12:07:33Z",
-    "updated_at": "2026-04-21T01:51:11Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-04-29T19:46:32Z",
+    "updated_at": "2026-05-04T22:28:06Z",
     "owner": {
-      "name": "incursi0n",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55942774?v=4"
+      "name": "i12bp8",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57963363?v=4"
     }
   },
   {
@@ -106,22 +106,6 @@
     "owner": {
       "name": "jakobfriedl",
       "avatar_url": "https://avatars.githubusercontent.com/u/71284620?v=4"
-    }
-  },
-  {
-    "name": "i12bp8/wmbuster",
-    "url": "https://github.com/i12bp8/wmbuster",
-    "description": "Passive Wireless M-Bus listener for the Flipper Zero — T1/C1/T+C/S1, AES-128 mode 5, OMS DIF/VIF, manufacturer drivers. RX-only.",
-    "stars": 103,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-04-29T19:46:32Z",
-    "updated_at": "2026-05-03T23:13:00Z",
-    "owner": {
-      "name": "i12bp8",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57963363?v=4"
     }
   },
   {
@@ -194,7 +178,7 @@
     "name": "SilentisVox/DoomSyscalls",
     "url": "https://github.com/SilentisVox/DoomSyscalls",
     "description": "Clean Indirect Syscalls with Hook Evasion & Return Address Spoofing.",
-    "stars": 68,
+    "stars": 73,
     "forks": 11,
     "language": "C",
     "topics": [
@@ -205,10 +189,31 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-29T16:53:03Z",
-    "updated_at": "2026-05-04T01:14:10Z",
+    "updated_at": "2026-05-05T00:04:25Z",
     "owner": {
       "name": "SilentisVox",
       "avatar_url": "https://avatars.githubusercontent.com/u/165338136?v=4"
+    }
+  },
+  {
+    "name": "lsferreira42/nfsdiag",
+    "url": "https://github.com/lsferreira42/nfsdiag",
+    "description": "A nfs doctor application",
+    "stars": 68,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "nfs",
+      "nfs-client",
+      "nfs-server",
+      "rpcbind"
+    ],
+    "license": "No license",
+    "created_at": "2026-04-30T23:35:02Z",
+    "updated_at": "2026-05-05T04:32:53Z",
+    "owner": {
+      "name": "lsferreira42",
+      "avatar_url": "https://avatars.githubusercontent.com/u/974024?v=4"
     }
   },
   {
@@ -288,6 +293,22 @@
     }
   },
   {
+    "name": "waryas/xign_poc_april_2026",
+    "url": "https://github.com/waryas/xign_poc_april_2026",
+    "description": "Use XIGNCODE3 driver to cheat",
+    "stars": 43,
+    "forks": 9,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-01T06:02:25Z",
+    "updated_at": "2026-05-05T03:06:44Z",
+    "owner": {
+      "name": "waryas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20681600?v=4"
+    }
+  },
+  {
     "name": "jakobfriedl/keelog-bof",
     "url": "https://github.com/jakobfriedl/keelog-bof",
     "description": "Async BOF to capture KeePass master passwords by detecting and keylogging locked database windows.",
@@ -304,6 +325,22 @@
     }
   },
   {
+    "name": "Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC",
+    "url": "https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC",
+    "description": null,
+    "stars": 39,
+    "forks": 13,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-04-30T11:33:22Z",
+    "updated_at": "2026-05-04T23:10:20Z",
+    "owner": {
+      "name": "Percivalll",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59213644?v=4"
+    }
+  },
+  {
     "name": "rasta-mouse/atomic-bofs",
     "url": "https://github.com/rasta-mouse/atomic-bofs",
     "description": "Atomic test units for BOF execution",
@@ -317,38 +354,6 @@
     "owner": {
       "name": "rasta-mouse",
       "avatar_url": "https://avatars.githubusercontent.com/u/7346521?v=4"
-    }
-  },
-  {
-    "name": "waryas/xign_poc_april_2026",
-    "url": "https://github.com/waryas/xign_poc_april_2026",
-    "description": "Use XIGNCODE3 driver to cheat",
-    "stars": 37,
-    "forks": 7,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-01T06:02:25Z",
-    "updated_at": "2026-05-03T21:58:02Z",
-    "owner": {
-      "name": "waryas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20681600?v=4"
-    }
-  },
-  {
-    "name": "Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC",
-    "url": "https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC",
-    "description": null,
-    "stars": 35,
-    "forks": 12,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-30T11:33:22Z",
-    "updated_at": "2026-05-03T14:49:50Z",
-    "owner": {
-      "name": "Percivalll",
-      "avatar_url": "https://avatars.githubusercontent.com/u/59213644?v=4"
     }
   },
   {
@@ -384,22 +389,6 @@
     }
   },
   {
-    "name": "spektre-labs/creation-os",
-    "url": "https://github.com/spektre-labs/creation-os",
-    "description": "Creation OS - Cognitive Architecture",
-    "stars": 28,
-    "forks": 9,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-04-15T13:58:13Z",
-    "updated_at": "2026-04-21T03:19:25Z",
-    "owner": {
-      "name": "spektre-labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/251571980?v=4"
-    }
-  },
-  {
     "name": "dcherrera/CrossLuaReader",
     "url": "https://github.com/dcherrera/CrossLuaReader",
     "description": "Lua-powered e-reader runtime for the Xteink X4. C runtime + Lua plugin architecture.",
@@ -413,6 +402,61 @@
     "owner": {
       "name": "dcherrera",
       "avatar_url": "https://avatars.githubusercontent.com/u/12970008?v=4"
+    }
+  },
+  {
+    "name": "sysprog21/elfuse",
+    "url": "https://github.com/sysprog21/elfuse",
+    "description": "Run Arm64/Linux ELF binaries on macOS Apple Silicon",
+    "stars": 26,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "arm64",
+      "darwin-kernel",
+      "hypervisor-framework",
+      "linux-compatibility",
+      "linux-syscall",
+      "macos",
+      "virtualization"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-04T10:21:48Z",
+    "updated_at": "2026-05-05T04:31:11Z",
+    "owner": {
+      "name": "sysprog21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22310129?v=4"
+    }
+  },
+  {
+    "name": "MinorGlitch/zerofido",
+    "url": "https://github.com/MinorGlitch/zerofido",
+    "description": "Passkey and security-key app for Flipper Zero with WebAuthn, FIDO2, U2F, USB HID, and NFC support.",
+    "stars": 26,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "authenticator",
+      "ctap2",
+      "embedded-c",
+      "fap",
+      "fido2",
+      "fido2-authenticator",
+      "fido2-webauth",
+      "flipper-zero",
+      "flipperzero",
+      "passkeys",
+      "security-key",
+      "u2f",
+      "usb-hid",
+      "webauthn"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-04-29T15:08:48Z",
+    "updated_at": "2026-05-04T13:22:47Z",
+    "owner": {
+      "name": "MinorGlitch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28191524?v=4"
     }
   },
   {
@@ -464,37 +508,6 @@
     "owner": {
       "name": "yo3gnd",
       "avatar_url": "https://avatars.githubusercontent.com/u/142456071?v=4"
-    }
-  },
-  {
-    "name": "MinorGlitch/zerofido",
-    "url": "https://github.com/MinorGlitch/zerofido",
-    "description": "Passkey and security-key app for Flipper Zero with WebAuthn, FIDO2, U2F, USB HID, and NFC support.",
-    "stars": 25,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "authenticator",
-      "ctap2",
-      "embedded-c",
-      "fap",
-      "fido2",
-      "fido2-authenticator",
-      "fido2-webauth",
-      "flipper-zero",
-      "flipperzero",
-      "passkeys",
-      "security-key",
-      "u2f",
-      "usb-hid",
-      "webauthn"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-04-29T15:08:48Z",
-    "updated_at": "2026-05-04T00:54:19Z",
-    "owner": {
-      "name": "MinorGlitch",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28191524?v=4"
     }
   },
   {
@@ -610,6 +623,29 @@
     }
   },
   {
+    "name": "wgnet/wg.copyfail.patch",
+    "url": "https://github.com/wgnet/wg.copyfail.patch",
+    "description": "CVE-2026-31431 eBPF fix",
+    "stars": 20,
+    "forks": 3,
+    "language": "C",
+    "topics": [
+      "copy-fail",
+      "cve-2026-31431",
+      "ebpf",
+      "fix",
+      "lsm",
+      "workaround"
+    ],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-04-30T13:55:25Z",
+    "updated_at": "2026-05-04T20:32:29Z",
+    "owner": {
+      "name": "wgnet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7723999?v=4"
+    }
+  },
+  {
     "name": "niqiuqiux/arm64_kernel_hook",
     "url": "https://github.com/niqiuqiux/arm64_kernel_hook",
     "description": "arm64 kernel inline hook form KernelPatch",
@@ -671,29 +707,6 @@
     "owner": {
       "name": "0xShe",
       "avatar_url": "https://avatars.githubusercontent.com/u/89628734?v=4"
-    }
-  },
-  {
-    "name": "wgnet/wg.copyfail.patch",
-    "url": "https://github.com/wgnet/wg.copyfail.patch",
-    "description": "CVE-2026-31431 eBPF fix",
-    "stars": 19,
-    "forks": 3,
-    "language": "C",
-    "topics": [
-      "copy-fail",
-      "cve-2026-31431",
-      "ebpf",
-      "fix",
-      "lsm",
-      "workaround"
-    ],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-04-30T13:55:25Z",
-    "updated_at": "2026-05-03T16:33:58Z",
-    "owner": {
-      "name": "wgnet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7723999?v=4"
     }
   },
   {
@@ -764,6 +777,22 @@
     }
   },
   {
+    "name": "loveucifer/gevurah",
+    "url": "https://github.com/loveucifer/gevurah",
+    "description": "software rasterizer",
+    "stars": 17,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-04-30T06:27:23Z",
+    "updated_at": "2026-05-04T18:13:11Z",
+    "owner": {
+      "name": "loveucifer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/134506987?v=4"
+    }
+  },
+  {
     "name": "willmanduran/phonedrop",
     "url": "https://github.com/willmanduran/phonedrop",
     "description": "Transfer files to your phone via QR over a local network. Ultra thin and fast.",
@@ -796,22 +825,6 @@
     }
   },
   {
-    "name": "loveucifer/gevurah",
-    "url": "https://github.com/loveucifer/gevurah",
-    "description": "software rasterizer",
-    "stars": 16,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-30T06:27:23Z",
-    "updated_at": "2026-05-04T01:14:00Z",
-    "owner": {
-      "name": "loveucifer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/134506987?v=4"
-    }
-  },
-  {
     "name": "wadadawadada/melody_machine",
     "url": "https://github.com/wadadawadada/melody_machine",
     "description": "MP3 player and internet radio firmware for the LilyGO T-LoRa Pager (ESP32-S3)",
@@ -832,6 +845,38 @@
     "owner": {
       "name": "wadadawadada",
       "avatar_url": "https://avatars.githubusercontent.com/u/97312279?v=4"
+    }
+  },
+  {
+    "name": "MikeWuPing/UEFI_SuperMario",
+    "url": "https://github.com/MikeWuPing/UEFI_SuperMario",
+    "description": "将红白机（NES）《超级马力欧兄弟》（Super Mario Bros）移植到 **UEFI Shell** 环境下运行。图形输出使用 UEFI GOP（Graphics Output Protocol），纯软件渲染，无音频依赖。可在 QEMU + OVMF 或真机 UEFI Shell 下运行。A port of the NES classic \"Super Mario Bros\" to the **UEFI Shell** environment. Uses UEFI GOP for graphics, pure software rendering, no audio. Runs on QEMU + OVMF or bare-metal UEFI systems.",
+    "stars": 15,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-03T09:10:10Z",
+    "updated_at": "2026-05-04T07:45:41Z",
+    "owner": {
+      "name": "MikeWuPing",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18527141?v=4"
+    }
+  },
+  {
+    "name": "Zuhaitz-dev/b-compiler-x64",
+    "url": "https://github.com/Zuhaitz-dev/b-compiler-x64",
+    "description": "A compiler for Ken Thompson's 1969 B programming language, targeting native x86-64 Linux.",
+    "stars": 15,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-03T19:08:44Z",
+    "updated_at": "2026-05-04T20:30:53Z",
+    "owner": {
+      "name": "Zuhaitz-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200231861?v=4"
     }
   },
   {
@@ -943,19 +988,35 @@
     }
   },
   {
-    "name": "MikeWuPing/UEFI_SuperMario",
-    "url": "https://github.com/MikeWuPing/UEFI_SuperMario",
-    "description": "将红白机（NES）《超级马力欧兄弟》（Super Mario Bros）移植到 **UEFI Shell** 环境下运行。图形输出使用 UEFI GOP（Graphics Output Protocol），纯软件渲染，无音频依赖。可在 QEMU + OVMF 或真机 UEFI Shell 下运行。A port of the NES classic \"Super Mario Bros\" to the **UEFI Shell** environment. Uses UEFI GOP for graphics, pure software rendering, no audio. Runs on QEMU + OVMF or bare-metal UEFI systems.",
+    "name": "marceld23/Pixel-Pets",
+    "url": "https://github.com/marceld23/Pixel-Pets",
+    "description": "Pixel-Pets: A local, open-source virtual pet ecosystem on M5Stack. 100% AI-authored C++ (Claude) by a 10yo maker. Includes Muffin (LLM), Visu & Goo-Goo variants + companion device Pip. Built for privacy, education, and offline play.",
     "stars": 11,
-    "forks": 1,
+    "forks": 0,
     "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-03T09:10:10Z",
-    "updated_at": "2026-05-04T04:44:44Z",
+    "topics": [
+      "digital-pet",
+      "embedded",
+      "esp-now",
+      "esp32",
+      "iot",
+      "kids",
+      "m5stack",
+      "maker",
+      "offline-ai",
+      "open-source",
+      "platformio",
+      "qwen",
+      "tamagotchi",
+      "virtual-pet",
+      "whisper"
+    ],
+    "license": "Other",
+    "created_at": "2026-05-02T14:00:32Z",
+    "updated_at": "2026-05-04T22:36:03Z",
     "owner": {
-      "name": "MikeWuPing",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18527141?v=4"
+      "name": "marceld23",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76117295?v=4"
     }
   },
   {
@@ -1024,6 +1085,37 @@
     "owner": {
       "name": "Szymdows",
       "avatar_url": "https://avatars.githubusercontent.com/u/183852166?v=4"
+    }
+  },
+  {
+    "name": "xiaocaip/aperture",
+    "url": "https://github.com/xiaocaip/aperture",
+    "description": "Arm64 linux KVM introspection hypervisor via stage 2 translation traps & vcpu exit tracing",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "aarch64",
+      "arm64",
+      "el2",
+      "hypervisor",
+      "kvm",
+      "linux",
+      "linux-kernel",
+      "security",
+      "systems-programming",
+      "vcpu",
+      "virtual-machine-introspection",
+      "virtualization",
+      "vm-exit",
+      "vmi"
+    ],
+    "license": "No license",
+    "created_at": "2026-05-04T15:05:33Z",
+    "updated_at": "2026-05-05T04:24:52Z",
+    "owner": {
+      "name": "xiaocaip",
+      "avatar_url": "https://avatars.githubusercontent.com/u/281676989?v=4"
     }
   },
   {
