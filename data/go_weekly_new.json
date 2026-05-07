@@ -105,22 +105,6 @@
     }
   },
   {
-    "name": "brexhq/CrabTrap",
-    "url": "https://github.com/brexhq/CrabTrap",
-    "description": "An LLM-as-a-judge HTTP proxy to secure agents in production ",
-    "stars": 322,
-    "forks": 26,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-17T18:47:45Z",
-    "updated_at": "2026-04-23T04:44:35Z",
-    "owner": {
-      "name": "brexhq",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26666889?v=4"
-    }
-  },
-  {
     "name": "NV404/gova",
     "url": "https://github.com/NV404/gova",
     "description": "declarative GUI framework for Go",
@@ -171,6 +155,22 @@
     }
   },
   {
+    "name": "ajavadinezhad/zyrln",
+    "url": "https://github.com/ajavadinezhad/zyrln",
+    "description": "Domain-fronting relay that routes traffic through Google infrastructure to bypass DPI-based censorship,  Android VPN    app + desktop proxy",
+    "stars": 213,
+    "forks": 31,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-04T17:25:03Z",
+    "updated_at": "2026-05-07T04:24:30Z",
+    "owner": {
+      "name": "ajavadinezhad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23430715?v=4"
+    }
+  },
+  {
     "name": "val1813/kaiwu",
     "url": "https://github.com/val1813/kaiwu",
     "description": "本地开源模型部署器，一键部署，支持各类系统，主流模型。",
@@ -184,6 +184,29 @@
     "owner": {
       "name": "val1813",
       "avatar_url": "https://avatars.githubusercontent.com/u/265172612?v=4"
+    }
+  },
+  {
+    "name": "ThisIsDara/mhr-cfw-go",
+    "url": "https://github.com/ThisIsDara/mhr-cfw-go",
+    "description": "A local proxy that runs on your machine and forwards traffic through Google.",
+    "stars": 195,
+    "forks": 19,
+    "language": "Go",
+    "topics": [
+      "domain-fronting",
+      "dpi-bypass",
+      "http",
+      "proxy",
+      "sni",
+      "vpn"
+    ],
+    "license": "No license",
+    "created_at": "2026-05-04T04:24:15Z",
+    "updated_at": "2026-05-07T05:03:25Z",
+    "owner": {
+      "name": "ThisIsDara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93939156?v=4"
     }
   },
   {
@@ -241,29 +264,6 @@
     }
   },
   {
-    "name": "ThisIsDara/mhr-cfw-go",
-    "url": "https://github.com/ThisIsDara/mhr-cfw-go",
-    "description": "A local proxy that runs on your machine and forwards traffic through Google.",
-    "stars": 128,
-    "forks": 11,
-    "language": "Go",
-    "topics": [
-      "domain-fronting",
-      "dpi-bypass",
-      "http",
-      "proxy",
-      "sni",
-      "vpn"
-    ],
-    "license": "No license",
-    "created_at": "2026-05-04T04:24:15Z",
-    "updated_at": "2026-05-06T05:10:22Z",
-    "owner": {
-      "name": "ThisIsDara",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93939156?v=4"
-    }
-  },
-  {
     "name": "Hidden-Node/GooseRelayVPN-AndroidClient",
     "url": "https://github.com/Hidden-Node/GooseRelayVPN-AndroidClient",
     "description": "GooseRelayVPN Android client: a SOCKS5 VPN with profile-based setup, live logs, and JSON import/export that tunnels raw TCP   through Google Apps Script to your VPS exit server (AES-256-GCM, domain-fronted).",
@@ -288,22 +288,6 @@
     "owner": {
       "name": "Hidden-Node",
       "avatar_url": "https://avatars.githubusercontent.com/u/263162787?v=4"
-    }
-  },
-  {
-    "name": "ajavadinezhad/zyrln",
-    "url": "https://github.com/ajavadinezhad/zyrln",
-    "description": "Domain-fronting relay that routes traffic through Google infrastructure to bypass DPI-based censorship,  Android VPN    app + desktop proxy",
-    "stars": 125,
-    "forks": 20,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-04T17:25:03Z",
-    "updated_at": "2026-05-06T05:09:51Z",
-    "owner": {
-      "name": "ajavadinezhad",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23430715?v=4"
     }
   },
   {
@@ -350,24 +334,29 @@
     }
   },
   {
-    "name": "londek/ipadecrypt",
-    "url": "https://github.com/londek/ipadecrypt",
-    "description": "🔓 ipadecrypt is an open-source tool for downloading, patching and decrypting .ipa's with minimal user intervention.",
-    "stars": 115,
-    "forks": 15,
+    "name": "gofsnotify/fsnotify",
+    "url": "https://github.com/gofsnotify/fsnotify",
+    "description": "Cross-platform file system notifications for Go.",
+    "stars": 119,
+    "forks": 4,
     "language": "Go",
     "topics": [
-      "decryption",
-      "fairplay",
-      "ios",
-      "jailbreaking"
+      "file-watcher",
+      "filesystem",
+      "fsnotify",
+      "go",
+      "gofsnotify",
+      "golang",
+      "inotify",
+      "kqueue",
+      "readdirectorychangesw"
     ],
     "license": "MIT License",
-    "created_at": "2026-04-17T22:42:33Z",
-    "updated_at": "2026-04-23T04:40:42Z",
+    "created_at": "2026-05-06T08:16:29Z",
+    "updated_at": "2026-05-07T05:22:31Z",
     "owner": {
-      "name": "londek",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48859717?v=4"
+      "name": "gofsnotify",
+      "avatar_url": "https://avatars.githubusercontent.com/u/282187993?v=4"
     }
   },
   {
@@ -474,16 +463,41 @@
     "name": "soub4i/gh-relay",
     "url": "https://github.com/soub4i/gh-relay",
     "description": "Share a private GitHub repo with anyone, no collaborator invite, no paid seat, no cleanup.",
-    "stars": 73,
+    "stars": 74,
     "forks": 10,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-01T12:07:03Z",
-    "updated_at": "2026-05-05T23:24:57Z",
+    "updated_at": "2026-05-06T22:20:25Z",
     "owner": {
       "name": "soub4i",
       "avatar_url": "https://avatars.githubusercontent.com/u/11523791?v=4"
+    }
+  },
+  {
+    "name": "nyarime/gho",
+    "url": "https://github.com/nyarime/gho",
+    "description": "Pure Go Norton Ghost GHO disk image parser — no CGo, single binary",
+    "stars": 72,
+    "forks": 5,
+    "language": "Go",
+    "topics": [
+      "disk-image",
+      "firmware",
+      "forensics",
+      "gho",
+      "ghost",
+      "golang",
+      "norton-ghost",
+      "reverse-engineering"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-05T23:05:55Z",
+    "updated_at": "2026-05-07T01:28:58Z",
+    "owner": {
+      "name": "nyarime",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49052765?v=4"
     }
   },
   {
@@ -519,6 +533,38 @@
     }
   },
   {
+    "name": "ridgelinecyberdefence/vanguard",
+    "url": "https://github.com/ridgelinecyberdefence/vanguard",
+    "description": null,
+    "stars": 67,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-03T12:27:13Z",
+    "updated_at": "2026-05-07T02:50:29Z",
+    "owner": {
+      "name": "ridgelinecyberdefence",
+      "avatar_url": "https://avatars.githubusercontent.com/u/252557331?v=4"
+    }
+  },
+  {
+    "name": "denuitt1/mhr-cfw-go",
+    "url": "https://github.com/denuitt1/mhr-cfw-go",
+    "description": "Go port of https://github.com/denuitt1/mhr-cfw. A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI.",
+    "stars": 67,
+    "forks": 6,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-01T15:46:05Z",
+    "updated_at": "2026-05-07T04:26:42Z",
+    "owner": {
+      "name": "denuitt1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279854002?v=4"
+    }
+  },
+  {
     "name": "wesm/kata",
     "url": "https://github.com/wesm/kata",
     "description": "Local-first issue tracking for AI-assisted software work, with an agent-friendly CLI and human-facing TUI",
@@ -538,13 +584,13 @@
     "name": "Meow-Calculations/DeepSeek_Web_To_API",
     "url": "https://github.com/Meow-Calculations/DeepSeek_Web_To_API",
     "description": null,
-    "stars": 57,
+    "stars": 61,
     "forks": 7,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-03T03:21:01Z",
-    "updated_at": "2026-05-06T05:13:52Z",
+    "updated_at": "2026-05-07T02:43:57Z",
     "owner": {
       "name": "Meow-Calculations",
       "avatar_url": "https://avatars.githubusercontent.com/u/262847175?v=4"
@@ -610,22 +656,6 @@
     }
   },
   {
-    "name": "ridgelinecyberdefence/vanguard",
-    "url": "https://github.com/ridgelinecyberdefence/vanguard",
-    "description": null,
-    "stars": 52,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-03T12:27:13Z",
-    "updated_at": "2026-05-06T04:19:38Z",
-    "owner": {
-      "name": "ridgelinecyberdefence",
-      "avatar_url": "https://avatars.githubusercontent.com/u/252557331?v=4"
-    }
-  },
-  {
     "name": "ethical-buddy/VX6",
     "url": "https://github.com/ethical-buddy/VX6",
     "description": "A decentralized IPv6-native self-hosting fabric that eliminates the need for tunnels, relays, and centralized infrastructure.",
@@ -642,22 +672,6 @@
     }
   },
   {
-    "name": "s-zx/crest",
-    "url": "https://github.com/s-zx/crest",
-    "description": "An open source, AI-native terminal.",
-    "stars": 48,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-18T10:48:28Z",
-    "updated_at": "2026-04-22T22:04:17Z",
-    "owner": {
-      "name": "s-zx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72348999?v=4"
-    }
-  },
-  {
     "name": "SamNet-dev/snix",
     "url": "https://github.com/SamNet-dev/snix",
     "description": "Cross-platform SNI-spoofing DPI-bypass proxy. Single binary, no cgo. Go rewrite of patterniha/SNI-Spoofing.",
@@ -671,25 +685,6 @@
     "owner": {
       "name": "SamNet-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/243033894?v=4"
-    }
-  },
-  {
-    "name": "pomclaw/pomclaw",
-    "url": "https://github.com/pomclaw/pomclaw",
-    "description": "Enterprise AI Agent Platform: Distributed memory storage + SSH sandbox execution,    serve unlimited agents with minimal cloud infrastructure",
-    "stars": 42,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "openclaw",
-      "postgresql"
-    ],
-    "license": "Other",
-    "created_at": "2026-04-17T13:06:02Z",
-    "updated_at": "2026-04-22T09:57:59Z",
-    "owner": {
-      "name": "pomclaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/272097636?v=4"
     }
   },
   {
@@ -746,6 +741,29 @@
     }
   },
   {
+    "name": "nyarime/cuocuo",
+    "url": "https://github.com/nyarime/cuocuo",
+    "description": "Encrypted tunnel relay (XChaCha20-Poly1305 + Protobuf)",
+    "stars": 36,
+    "forks": 11,
+    "language": "Go",
+    "topics": [
+      "encryption",
+      "golang",
+      "proxy",
+      "relay",
+      "tunnel",
+      "xchacha20"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-05-04T16:44:28Z",
+    "updated_at": "2026-05-07T00:49:45Z",
+    "owner": {
+      "name": "nyarime",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49052765?v=4"
+    }
+  },
+  {
     "name": "axiom0x0/bifrost",
     "url": "https://github.com/axiom0x0/bifrost",
     "description": "Bridge files between your computer and and phone via QR code.",
@@ -794,63 +812,32 @@
     }
   },
   {
-    "name": "samueltuyizere/oc-go-cc",
-    "url": "https://github.com/samueltuyizere/oc-go-cc",
-    "description": "Use your OpenCode Go subscription with Claude Code.",
+    "name": "MiChongs/karpov-gateway",
+    "url": "https://github.com/MiChongs/karpov-gateway",
+    "description": "Karpov Gateway — REST API gateway + Next.js console. Go (Gin+gRPC) + PostgreSQL + Redis + OAuth2 (Linux.do) + TOTP 2FA + encrypted credential pool",
     "stars": 33,
-    "forks": 3,
+    "forks": 4,
     "language": "Go",
-    "topics": [
-      "claude",
-      "claude-code",
-      "claude-code-cli",
-      "opencode",
-      "opencode-ai",
-      "opencode-go",
-      "opencode-zen"
-    ],
-    "license": "No license",
-    "created_at": "2026-04-17T00:55:43Z",
-    "updated_at": "2026-04-23T00:54:13Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-04T06:32:38Z",
+    "updated_at": "2026-05-07T05:24:28Z",
     "owner": {
-      "name": "samueltuyizere",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32623492?v=4"
-    }
-  },
-  {
-    "name": "nyarime/cuocuo",
-    "url": "https://github.com/nyarime/cuocuo",
-    "description": "Encrypted tunnel relay (XChaCha20-Poly1305 + Protobuf)",
-    "stars": 32,
-    "forks": 10,
-    "language": "Go",
-    "topics": [
-      "encryption",
-      "golang",
-      "proxy",
-      "relay",
-      "tunnel",
-      "xchacha20"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-05-04T16:44:28Z",
-    "updated_at": "2026-05-06T03:16:52Z",
-    "owner": {
-      "name": "nyarime",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49052765?v=4"
+      "name": "MiChongs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77006751?v=4"
     }
   },
   {
     "name": "dingdingpw/monitor",
     "url": "https://github.com/dingdingpw/monitor",
     "description": "Monitor Party 是一个轻量级 VPS / 服务器监控面板，包含中心端 `vps-server` 和采集端 `vps-agent`。中心端提供公开监控面板、管理员后台、Agent 安装命令生成、节点管理、购买信息展示和 Agent 二进制下载；Agent 负责上报 CPU、内存、硬盘、网络、负载和在线状态",
-    "stars": 30,
-    "forks": 0,
+    "stars": 32,
+    "forks": 1,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-05-02T08:41:19Z",
-    "updated_at": "2026-05-05T15:27:21Z",
+    "updated_at": "2026-05-07T02:31:25Z",
     "owner": {
       "name": "dingdingpw",
       "avatar_url": "https://avatars.githubusercontent.com/u/266325238?v=4"
@@ -900,31 +887,6 @@
     }
   },
   {
-    "name": "nyarime/gho",
-    "url": "https://github.com/nyarime/gho",
-    "description": "Pure Go Norton Ghost GHO disk image parser — no CGo, single binary",
-    "stars": 28,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "disk-image",
-      "firmware",
-      "forensics",
-      "gho",
-      "ghost",
-      "golang",
-      "norton-ghost",
-      "reverse-engineering"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-05T23:05:55Z",
-    "updated_at": "2026-05-06T04:41:14Z",
-    "owner": {
-      "name": "nyarime",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49052765?v=4"
-    }
-  },
-  {
     "name": "fr0der1c/tgtldr",
     "url": "https://github.com/fr0der1c/tgtldr",
     "description": "TL;DR AI summarizer for telegram groups",
@@ -938,6 +900,38 @@
     "owner": {
       "name": "fr0der1c",
       "avatar_url": "https://avatars.githubusercontent.com/u/16500161?v=4"
+    }
+  },
+  {
+    "name": "compozy/codex-loop",
+    "url": "https://github.com/compozy/codex-loop",
+    "description": "Keep Codex tasks running until they meet a time or round-based completion target.",
+    "stars": 27,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-02T14:55:55Z",
+    "updated_at": "2026-05-06T17:21:45Z",
+    "owner": {
+      "name": "compozy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/205107042?v=4"
+    }
+  },
+  {
+    "name": "daishuge/playful-proxy-api-panel",
+    "url": "https://github.com/daishuge/playful-proxy-api-panel",
+    "description": "CLIProxyAPI-compatible fork with restored usage statistics and open-source bundled management panel frontend.",
+    "stars": 27,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-02T04:20:33Z",
+    "updated_at": "2026-05-06T08:42:39Z",
+    "owner": {
+      "name": "daishuge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/122254868?v=4"
     }
   },
   {
@@ -957,38 +951,6 @@
     }
   },
   {
-    "name": "compozy/codex-loop",
-    "url": "https://github.com/compozy/codex-loop",
-    "description": "Keep Codex tasks running until they meet a time or round-based completion target.",
-    "stars": 26,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-02T14:55:55Z",
-    "updated_at": "2026-05-05T16:23:24Z",
-    "owner": {
-      "name": "compozy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/205107042?v=4"
-    }
-  },
-  {
-    "name": "daishuge/playful-proxy-api-panel",
-    "url": "https://github.com/daishuge/playful-proxy-api-panel",
-    "description": "CLIProxyAPI-compatible fork with restored usage statistics and open-source bundled management panel frontend.",
-    "stars": 26,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-02T04:20:33Z",
-    "updated_at": "2026-05-06T02:58:52Z",
-    "owner": {
-      "name": "daishuge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/122254868?v=4"
-    }
-  },
-  {
     "name": "KilimcininKorOglu/Google-Finance-Api",
     "url": "https://github.com/KilimcininKorOglu/Google-Finance-Api",
     "description": "Google Finance'ın dahili RPC endpoint'ini sarmalayan, sıfır bağımlılıklı Go REST API.  API anahtarı gerektirmez. Tek bir HTTP isteği ile fiyat, şirket bilgisi, grafik, haber, finansal tablo ve piyasa verileri getirir.",
@@ -1002,6 +964,22 @@
     "owner": {
       "name": "KilimcininKorOglu",
       "avatar_url": "https://avatars.githubusercontent.com/u/229108989?v=4"
+    }
+  },
+  {
+    "name": "wnc-replay/replay-tool",
+    "url": "https://github.com/wnc-replay/replay-tool",
+    "description": null,
+    "stars": 24,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-04T15:58:09Z",
+    "updated_at": "2026-05-06T22:42:40Z",
+    "owner": {
+      "name": "wnc-replay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193803974?v=4"
     }
   },
   {
@@ -1021,42 +999,26 @@
     ],
     "license": "Other",
     "created_at": "2026-05-04T10:54:46Z",
-    "updated_at": "2026-05-05T17:18:07Z",
+    "updated_at": "2026-05-06T12:40:11Z",
     "owner": {
       "name": "consi",
       "avatar_url": "https://avatars.githubusercontent.com/u/2004210?v=4"
     }
   },
   {
-    "name": "wnc-replay/replay-tool",
-    "url": "https://github.com/wnc-replay/replay-tool",
+    "name": "openclaw/crawlkit",
+    "url": "https://github.com/openclaw/crawlkit",
     "description": null,
-    "stars": 22,
-    "forks": 0,
+    "stars": 23,
+    "forks": 3,
     "language": "Go",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-04T15:58:09Z",
-    "updated_at": "2026-05-05T22:23:26Z",
+    "license": "MIT License",
+    "created_at": "2026-05-01T15:47:28Z",
+    "updated_at": "2026-05-07T04:46:55Z",
     "owner": {
-      "name": "wnc-replay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/193803974?v=4"
-    }
-  },
-  {
-    "name": "denuitt1/mhr-cfw-go",
-    "url": "https://github.com/denuitt1/mhr-cfw-go",
-    "description": null,
-    "stars": 22,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-01T15:46:05Z",
-    "updated_at": "2026-05-05T18:59:25Z",
-    "owner": {
-      "name": "denuitt1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/279854002?v=4"
+      "name": "openclaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/252820863?v=4"
     }
   },
   {
@@ -1073,22 +1035,6 @@
     "owner": {
       "name": "PoemMisty",
       "avatar_url": "https://avatars.githubusercontent.com/u/167159446?v=4"
-    }
-  },
-  {
-    "name": "notsnakesilent/VMPStatic",
-    "url": "https://github.com/notsnakesilent/VMPStatic",
-    "description": "A static VMProtect unpacker for PE files, supports VMProtect 1.x–3.x and rebuilding unpacked PE images",
-    "stars": 22,
-    "forks": 4,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-17T03:28:38Z",
-    "updated_at": "2026-04-23T03:20:35Z",
-    "owner": {
-      "name": "notsnakesilent",
-      "avatar_url": "https://avatars.githubusercontent.com/u/69158149?v=4"
     }
   },
   {
@@ -1186,22 +1132,6 @@
     }
   },
   {
-    "name": "nxdp/sniper",
-    "url": "https://github.com/nxdp/sniper",
-    "description": "SNI Scanner",
-    "stars": 20,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-17T11:24:02Z",
-    "updated_at": "2026-04-22T11:12:07Z",
-    "owner": {
-      "name": "nxdp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/262976478?v=4"
-    }
-  },
-  {
     "name": "NorskHelsenett/copy-fail-destroyer",
     "url": "https://github.com/NorskHelsenett/copy-fail-destroyer",
     "description": null,
@@ -1270,31 +1200,15 @@
     "url": "https://github.com/ircfspace/teleFeed",
     "description": "A Go application that fetches posts from public Telegram channels and exports them as structured JSON files with automatic GitHub Actions integration.",
     "stars": 18,
-    "forks": 8,
+    "forks": 11,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-05-03T06:10:34Z",
-    "updated_at": "2026-05-06T05:01:53Z",
+    "updated_at": "2026-05-06T15:57:59Z",
     "owner": {
       "name": "ircfspace",
       "avatar_url": "https://avatars.githubusercontent.com/u/128790947?v=4"
-    }
-  },
-  {
-    "name": "openclaw/crawlkit",
-    "url": "https://github.com/openclaw/crawlkit",
-    "description": null,
-    "stars": 18,
-    "forks": 3,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-01T15:47:28Z",
-    "updated_at": "2026-05-06T02:17:38Z",
-    "owner": {
-      "name": "openclaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/252820863?v=4"
     }
   },
   {
@@ -1385,6 +1299,22 @@
     }
   },
   {
+    "name": "qi4L/CVE-2026-31431-Container-Escape",
+    "url": "https://github.com/qi4L/CVE-2026-31431-Container-Escape",
+    "description": "CVE-2026-31431 容器逃逸",
+    "stars": 14,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-02T03:13:02Z",
+    "updated_at": "2026-05-06T07:25:32Z",
+    "owner": {
+      "name": "qi4L",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75202638?v=4"
+    }
+  },
+  {
     "name": "Hhz0823/Oiwest-core",
     "url": "https://github.com/Hhz0823/Oiwest-core",
     "description": null,
@@ -1449,27 +1379,11 @@
     }
   },
   {
-    "name": "qi4L/CVE-2026-31431-Container-Escape",
-    "url": "https://github.com/qi4L/CVE-2026-31431-Container-Escape",
-    "description": "CVE-2026-31431 容器逃逸",
-    "stars": 13,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-02T03:13:02Z",
-    "updated_at": "2026-05-06T03:11:04Z",
-    "owner": {
-      "name": "qi4L",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75202638?v=4"
-    }
-  },
-  {
     "name": "17ovo17/AI-WorkBench",
     "url": "https://github.com/17ovo17/AI-WorkBench",
     "description": null,
     "stars": 13,
-    "forks": 4,
+    "forks": 5,
     "language": "Go",
     "topics": [],
     "license": "No license",
@@ -1478,6 +1392,22 @@
     "owner": {
       "name": "17ovo17",
       "avatar_url": "https://avatars.githubusercontent.com/u/279919495?v=4"
+    }
+  },
+  {
+    "name": "OpceanAI/Doki",
+    "url": "https://github.com/OpceanAI/Doki",
+    "description": "Doki — universal containers, zero friction. Docker & Podman compatible. Rootless. Runs anywhere",
+    "stars": 13,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-04T13:34:31Z",
+    "updated_at": "2026-05-06T22:27:45Z",
+    "owner": {
+      "name": "OpceanAI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/227894459?v=4"
     }
   },
   {
@@ -1612,6 +1542,59 @@
     }
   },
   {
+    "name": "luoyuctl/agenttrace",
+    "url": "https://github.com/luoyuctl/agenttrace",
+    "description": "TUI observability for AI coding agents: trace cost, tokens, tool failures, latency, anomalies, health, diffs, and CI gates across Claude Code, Codex CLI, Gemini CLI, Aider, Cursor exports, and more.",
+    "stars": 11,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "ai-agent-monitoring",
+      "ai-agent-observability",
+      "ai-agents",
+      "ai-coding",
+      "ai-cost-tracking",
+      "ai-observability",
+      "aider",
+      "claude-code",
+      "cli",
+      "codex-cli",
+      "cost-tracking",
+      "cursor",
+      "developer-tools",
+      "gemini-cli",
+      "llm-observability",
+      "llmops",
+      "observability",
+      "terminal",
+      "token-usage",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-01T04:29:32Z",
+    "updated_at": "2026-05-06T13:13:42Z",
+    "owner": {
+      "name": "luoyuctl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51604064?v=4"
+    }
+  },
+  {
+    "name": "databus23/kubectl-diff-watch",
+    "url": "https://github.com/databus23/kubectl-diff-watch",
+    "description": "A kubectl plugin that watches Kubernetes resources and shows colored diffs when they change",
+    "stars": 11,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-01T14:49:27Z",
+    "updated_at": "2026-05-06T19:33:29Z",
+    "owner": {
+      "name": "databus23",
+      "avatar_url": "https://avatars.githubusercontent.com/u/439223?v=4"
+    }
+  },
+  {
     "name": "dygo-dev/dygo",
     "url": "https://github.com/dygo-dev/dygo",
     "description": "An agent-first framework for building stable, structured business applications without sacrificing speed.",
@@ -1626,7 +1609,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-01T17:22:27Z",
-    "updated_at": "2026-05-05T16:59:07Z",
+    "updated_at": "2026-05-06T12:14:05Z",
     "owner": {
       "name": "dygo-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/281007393?v=4"
@@ -1803,22 +1786,6 @@
     }
   },
   {
-    "name": "huoji120/mcp-research",
-    "url": "https://github.com/huoji120/mcp-research",
-    "description": null,
-    "stars": 11,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-18T17:53:29Z",
-    "updated_at": "2026-04-23T03:34:11Z",
-    "owner": {
-      "name": "huoji120",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12996294?v=4"
-    }
-  },
-  {
     "name": "brian-pratama-putra/go-finance-goal-api",
     "url": "https://github.com/brian-pratama-putra/go-finance-goal-api",
     "description": null,
@@ -1848,6 +1815,34 @@
     "owner": {
       "name": "brian-pratama-putra",
       "avatar_url": "https://avatars.githubusercontent.com/u/108443300?v=4"
+    }
+  },
+  {
+    "name": "Hossiy21/razify",
+    "url": "https://github.com/Hossiy21/razify",
+    "description": "A developer CLI tool that manages .env files, detects secret leaks, syncs env drift across teammates, and validates environment parity between local/staging/prod  all from your terminal. Written in Go.",
+    "stars": 10,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "cli",
+      "developer-tools",
+      "devops",
+      "dotenv",
+      "env",
+      "environment-variables",
+      "golang",
+      "razify",
+      "secret-detection",
+      "secrets",
+      "security"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-03T19:16:20Z",
+    "updated_at": "2026-05-06T19:18:35Z",
+    "owner": {
+      "name": "Hossiy21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199234379?v=4"
     }
   },
   {
@@ -2011,22 +2006,6 @@
     "owner": {
       "name": "Basekick-Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/236404230?v=4"
-    }
-  },
-  {
-    "name": "Vedant-Gandhi/How-containers-work",
-    "url": "https://github.com/Vedant-Gandhi/How-containers-work",
-    "description": "This repository implements the internals of container in an emulation way to help understand how docker container actually works.",
-    "stars": 10,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-18T10:47:06Z",
-    "updated_at": "2026-04-22T14:45:55Z",
-    "owner": {
-      "name": "Vedant-Gandhi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45504169?v=4"
     }
   }
 ]
