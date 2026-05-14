@@ -3,8 +3,8 @@
     "name": "crmne/kamal-backup",
     "url": "https://github.com/crmne/kamal-backup",
     "description": "Scheduled backups for Rails apps deployed with Kamal",
-    "stars": 72,
-    "forks": 3,
+    "stars": 73,
+    "forks": 4,
     "language": "Ruby",
     "topics": [
       "active-storage",
@@ -18,7 +18,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-22T14:32:41Z",
-    "updated_at": "2026-05-13T04:37:17Z",
+    "updated_at": "2026-05-13T21:05:12Z",
     "owner": {
       "name": "crmne",
       "avatar_url": "https://avatars.githubusercontent.com/u/106617?v=4"
@@ -124,26 +124,10 @@
     }
   },
   {
-    "name": "palkan/require-profiler",
-    "url": "https://github.com/palkan/require-profiler",
-    "description": "Profiler for Ruby #require/etc calls",
-    "stars": 17,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-21T18:06:18Z",
-    "updated_at": "2026-05-08T22:57:33Z",
-    "owner": {
-      "name": "palkan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1516722?v=4"
-    }
-  },
-  {
     "name": "jcflorville/rails-tanstack-starter",
     "url": "https://github.com/jcflorville/rails-tanstack-starter",
     "description": "Production-ready monorepo template: Rails 8 API + Vite/React/TypeScript/TanStack Router & Query + Tailwind + Kamal 2 deploy",
-    "stars": 16,
+    "stars": 17,
     "forks": 1,
     "language": "Ruby",
     "topics": [
@@ -164,7 +148,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-06T01:04:32Z",
-    "updated_at": "2026-05-12T23:10:14Z",
+    "updated_at": "2026-05-13T15:43:34Z",
     "owner": {
       "name": "jcflorville",
       "avatar_url": "https://avatars.githubusercontent.com/u/1355252?v=4"
@@ -174,7 +158,7 @@
     "name": "sergey-homenko/llm_cost_tracker",
     "url": "https://github.com/sergey-homenko/llm_cost_tracker",
     "description": "Rails-native LLM cost ledger: track spend by provider, model, and feature with self-hosted storage and budget guardrails.",
-    "stars": 16,
+    "stars": 17,
     "forks": 0,
     "language": "Ruby",
     "topics": [
@@ -196,10 +180,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-16T19:53:59Z",
-    "updated_at": "2026-05-13T05:23:36Z",
+    "updated_at": "2026-05-13T18:40:12Z",
     "owner": {
       "name": "sergey-homenko",
       "avatar_url": "https://avatars.githubusercontent.com/u/876346?v=4"
+    }
+  },
+  {
+    "name": "palkan/require-profiler",
+    "url": "https://github.com/palkan/require-profiler",
+    "description": "Profiler for Ruby #require/etc calls",
+    "stars": 17,
+    "forks": 1,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-21T18:06:18Z",
+    "updated_at": "2026-05-08T22:57:33Z",
+    "owner": {
+      "name": "palkan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1516722?v=4"
     }
   },
   {
@@ -251,24 +251,43 @@
     }
   },
   {
-    "name": "mubix/saas-enum",
-    "url": "https://github.com/mubix/saas-enum",
-    "description": "SaaS based enumeration based on DNS TXT records",
-    "stars": 12,
-    "forks": 1,
+    "name": "amatsuda/rvim",
+    "url": "https://github.com/amatsuda/rvim",
+    "description": "Pure Ruby NeoVim",
+    "stars": 11,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-04T11:12:12Z",
+    "updated_at": "2026-05-13T17:32:39Z",
+    "owner": {
+      "name": "amatsuda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11493?v=4"
+    }
+  },
+  {
+    "name": "usetrmnl/trmnl-agent-skills",
+    "url": "https://github.com/usetrmnl/trmnl-agent-skills",
+    "description": "trmnl.com template writer agent's prompts and skills",
+    "stars": 11,
+    "forks": 0,
     "language": "Ruby",
     "topics": [
-      "enumeration",
-      "osint",
-      "redteam",
-      "saas"
+      "ai-agents",
+      "claude-code",
+      "cursor",
+      "plugin",
+      "skills",
+      "trmnl",
+      "trmnl-plugin"
     ],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2026-04-09T22:37:41Z",
-    "updated_at": "2026-04-30T05:00:55Z",
+    "license": "MIT License",
+    "created_at": "2026-05-12T11:07:43Z",
+    "updated_at": "2026-05-13T20:18:29Z",
     "owner": {
-      "name": "mubix",
-      "avatar_url": "https://avatars.githubusercontent.com/u/679319?v=4"
+      "name": "usetrmnl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/150061407?v=4"
     }
   },
   {
@@ -301,22 +320,6 @@
     "owner": {
       "name": "supaicy",
       "avatar_url": "https://avatars.githubusercontent.com/u/143978573?v=4"
-    }
-  },
-  {
-    "name": "amatsuda/rvim",
-    "url": "https://github.com/amatsuda/rvim",
-    "description": "Pure Ruby NeoVim",
-    "stars": 10,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-04T11:12:12Z",
-    "updated_at": "2026-05-12T18:44:23Z",
-    "owner": {
-      "name": "amatsuda",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11493?v=4"
     }
   },
   {
@@ -359,6 +362,27 @@
     "owner": {
       "name": "AliOsm",
       "avatar_url": "https://avatars.githubusercontent.com/u/7662492?v=4"
+    }
+  },
+  {
+    "name": "josephschito/rubyduino",
+    "url": "https://github.com/josephschito/rubyduino",
+    "description": "Rubyduino compiles Ruby code for Arduino UNO boards and uploads the generated firmware.",
+    "stars": 10,
+    "forks": 1,
+    "language": "Ruby",
+    "topics": [
+      "arduino",
+      "artoo",
+      "rad",
+      "ruby"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-08T11:42:53Z",
+    "updated_at": "2026-05-13T20:02:36Z",
+    "owner": {
+      "name": "josephschito",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4095923?v=4"
     }
   }
 ]
