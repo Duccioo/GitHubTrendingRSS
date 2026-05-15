@@ -16,22 +16,6 @@
     }
   },
   {
-    "name": "ultraworkers/claw-code-parity",
-    "url": "https://github.com/ultraworkers/claw-code-parity",
-    "description": "Join Discord: https://discord.gg/5TUQKqFWd /  claw-code Rust port parity work - it is temporary work while claw-code repo is doing migration",
-    "stars": 6687,
-    "forks": 5415,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-02T05:39:02Z",
-    "updated_at": "2026-05-01T03:32:43Z",
-    "owner": {
-      "name": "ultraworkers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/272961631?v=4"
-    }
-  },
-  {
     "name": "TencentCloud/CubeSandbox",
     "url": "https://github.com/TencentCloud/CubeSandbox",
     "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
@@ -55,8 +39,8 @@
     "name": "therealaleph/MasterHttpRelayVPN-RUST",
     "url": "https://github.com/therealaleph/MasterHttpRelayVPN-RUST",
     "description": "Rust port of @masterking32's MasterHttpRelayVPN — all credit to @masterking32 for the original idea and Python implementation. Free DPI bypass via a Google Apps Script relay with TLS SNI concealment. CLI + cross-platform desktop UI, HTTP + SOCKS5 proxy, no runtime deps.",
-    "stars": 2738,
-    "forks": 459,
+    "stars": 2800,
+    "forks": 478,
     "language": "Rust",
     "topics": [
       "anti-censorship",
@@ -79,7 +63,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-21T14:46:31Z",
-    "updated_at": "2026-05-14T05:29:24Z",
+    "updated_at": "2026-05-15T05:51:20Z",
     "owner": {
       "name": "therealaleph",
       "avatar_url": "https://avatars.githubusercontent.com/u/67456590?v=4"
@@ -89,50 +73,24 @@
     "name": "jackwener/wx-cli",
     "url": "https://github.com/jackwener/wx-cli",
     "description": "WeChat local data CLI with daemon architecture",
-    "stars": 1792,
-    "forks": 848,
+    "stars": 2122,
+    "forks": 900,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-04-16T01:08:18Z",
-    "updated_at": "2026-05-14T05:43:28Z",
+    "updated_at": "2026-05-15T05:49:07Z",
     "owner": {
       "name": "jackwener",
       "avatar_url": "https://avatars.githubusercontent.com/u/30525741?v=4"
     }
   },
   {
-    "name": "NVlabs/cuda-oxide",
-    "url": "https://github.com/NVlabs/cuda-oxide",
-    "description": "cuda-oxide is an experimental Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
-    "stars": 1765,
-    "forks": 97,
-    "language": "Rust",
-    "topics": [
-      "async",
-      "compiler-backend",
-      "cuda",
-      "gpu",
-      "heterogeneous-computing",
-      "high-performance-computing",
-      "nvidia",
-      "programming-languages",
-      "rust"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-22T17:03:09Z",
-    "updated_at": "2026-05-14T05:14:13Z",
-    "owner": {
-      "name": "NVlabs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2695301?v=4"
-    }
-  },
-  {
     "name": "orhun/ratty",
     "url": "https://github.com/orhun/ratty",
     "description": "A GPU-rendered terminal emulator with inline 3D graphics 🐀🧀 ",
-    "stars": 1658,
-    "forks": 35,
+    "stars": 1859,
+    "forks": 40,
     "language": "Rust",
     "topics": [
       "3d",
@@ -152,10 +110,36 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-20T21:22:09Z",
-    "updated_at": "2026-05-14T05:43:57Z",
+    "updated_at": "2026-05-15T05:34:58Z",
     "owner": {
       "name": "orhun",
       "avatar_url": "https://avatars.githubusercontent.com/u/24392180?v=4"
+    }
+  },
+  {
+    "name": "NVlabs/cuda-oxide",
+    "url": "https://github.com/NVlabs/cuda-oxide",
+    "description": "cuda-oxide is an experimental Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
+    "stars": 1810,
+    "forks": 104,
+    "language": "Rust",
+    "topics": [
+      "async",
+      "compiler-backend",
+      "cuda",
+      "gpu",
+      "heterogeneous-computing",
+      "high-performance-computing",
+      "nvidia",
+      "programming-languages",
+      "rust"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-22T17:03:09Z",
+    "updated_at": "2026-05-15T05:51:14Z",
+    "owner": {
+      "name": "NVlabs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2695301?v=4"
     }
   },
   {
@@ -178,13 +162,13 @@
     "name": "endevco/aube",
     "url": "https://github.com/endevco/aube",
     "description": "A fast Node.js package manager",
-    "stars": 1054,
-    "forks": 22,
+    "stars": 1071,
+    "forks": 24,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-04-18T18:06:49Z",
-    "updated_at": "2026-05-14T04:36:15Z",
+    "updated_at": "2026-05-15T04:13:49Z",
     "owner": {
       "name": "endevco",
       "avatar_url": "https://avatars.githubusercontent.com/u/263159590?v=4"
@@ -221,8 +205,8 @@
     "name": "thClaws/thClaws",
     "url": "https://github.com/thClaws/thClaws",
     "description": "Open-source agent harness platform. Native Rust, multi-provider, runs on your own machine. Sovereign by design.",
-    "stars": 885,
-    "forks": 125,
+    "stars": 913,
+    "forks": 130,
     "language": "Rust",
     "topics": [
       "agent-harness",
@@ -243,7 +227,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-04-20T01:27:39Z",
-    "updated_at": "2026-05-14T05:12:17Z",
+    "updated_at": "2026-05-15T05:16:22Z",
     "owner": {
       "name": "thClaws",
       "avatar_url": "https://avatars.githubusercontent.com/u/277590170?v=4"
@@ -305,32 +289,6 @@
     }
   },
   {
-    "name": "ThinkWatchProject/ThinkWatch",
-    "url": "https://github.com/ThinkWatchProject/ThinkWatch",
-    "description": "Enterprise AI bastion host for secure AI API and MCP access, with unified proxying, RBAC, audit logs, rate limiting, and cost tracking across OpenAI, Anthropic, Gemini, and self-hosted LLMs.",
-    "stars": 578,
-    "forks": 11,
-    "language": "Rust",
-    "topics": [
-      "ai",
-      "ai-gateway",
-      "ai-security",
-      "ai-tools",
-      "mcp",
-      "mcp-gateway",
-      "mcp-security",
-      "mcp-server",
-      "security"
-    ],
-    "license": "Other",
-    "created_at": "2026-04-02T15:29:52Z",
-    "updated_at": "2026-05-01T03:10:40Z",
-    "owner": {
-      "name": "ThinkWatchProject",
-      "avatar_url": "https://avatars.githubusercontent.com/u/273144823?v=4"
-    }
-  },
-  {
     "name": "mpiorowski/late-sh",
     "url": "https://github.com/mpiorowski/late-sh",
     "description": "A cozy terminal clubhouse for developers. Lofi beats, casual games, chat, and tech news, all via SSH.",
@@ -372,8 +330,8 @@
     "name": "PentHertz/LUKSbox",
     "url": "https://github.com/PentHertz/LUKSbox",
     "description": "Store sensitive files in the cloud, or on shared media without trusting the host. LUKSbox is a Rust-based encrypted-container tool with passphrase, FIDO2 (YubiKey, Titan, Nitrokey, Windows Hello), TPM 2.0, and hybrid post-quantum (ML-KEM-768 / 1024) keyslots. Mounts as a real drive on Linux, macOS, and Windows.",
-    "stars": 481,
-    "forks": 40,
+    "stars": 491,
+    "forks": 41,
     "language": "Rust",
     "topics": [
       "encryption",
@@ -384,10 +342,38 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-05-06T21:47:11Z",
-    "updated_at": "2026-05-14T04:56:35Z",
+    "updated_at": "2026-05-15T05:20:46Z",
     "owner": {
       "name": "PentHertz",
       "avatar_url": "https://avatars.githubusercontent.com/u/59710120?v=4"
+    }
+  },
+  {
+    "name": "ChristianJR19/p-peg",
+    "url": "https://github.com/ChristianJR19/p-peg",
+    "description": "pinocchio peg stability module + on-chain creature engine.",
+    "stars": 467,
+    "forks": 131,
+    "language": "Rust",
+    "topics": [
+      "creatures",
+      "defi",
+      "no-std",
+      "on-chain",
+      "p-token",
+      "pinocchio",
+      "rust",
+      "solana",
+      "stablecoin",
+      "typescript",
+      "zero-copy"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-09T04:18:30Z",
+    "updated_at": "2026-05-15T05:51:45Z",
+    "owner": {
+      "name": "ChristianJR19",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9389563?v=4"
     }
   },
   {
@@ -400,7 +386,7 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-02T03:18:06Z",
-    "updated_at": "2026-05-13T01:58:25Z",
+    "updated_at": "2026-05-14T23:16:39Z",
     "owner": {
       "name": "matthart1983",
       "avatar_url": "https://avatars.githubusercontent.com/u/13101478?v=4"
@@ -436,6 +422,30 @@
     "owner": {
       "name": "openabdev",
       "avatar_url": "https://avatars.githubusercontent.com/u/274127192?v=4"
+    }
+  },
+  {
+    "name": "r1n7aro/Locus",
+    "url": "https://github.com/r1n7aro/Locus",
+    "description": "The open source Unity Dev Agent",
+    "stars": 374,
+    "forks": 50,
+    "language": "Rust",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "codex",
+      "gamedev",
+      "llm",
+      "rust",
+      "unity"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-04-22T02:05:38Z",
+    "updated_at": "2026-05-15T05:50:05Z",
+    "owner": {
+      "name": "r1n7aro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42139518?v=4"
     }
   },
   {
@@ -488,27 +498,29 @@
     }
   },
   {
-    "name": "r1n7aro/Locus",
-    "url": "https://github.com/r1n7aro/Locus",
-    "description": "The open source Unity Dev Agent",
-    "stars": 352,
-    "forks": 49,
+    "name": "chojs23/concord",
+    "url": "https://github.com/chojs23/concord",
+    "description": "A feature-rich TUI client for Discord, written in Rust.",
+    "stars": 343,
+    "forks": 17,
     "language": "Rust",
     "topics": [
-      "ai",
-      "ai-agent",
-      "codex",
-      "gamedev",
-      "llm",
+      "chat-client",
+      "cli",
+      "discord",
+      "discord-client",
+      "ratatui",
       "rust",
-      "unity"
+      "terminal",
+      "terminal-ui",
+      "tui"
     ],
     "license": "GNU General Public License v3.0",
-    "created_at": "2026-04-22T02:05:38Z",
-    "updated_at": "2026-05-14T05:42:55Z",
+    "created_at": "2026-05-08T15:51:03Z",
+    "updated_at": "2026-05-15T01:29:19Z",
     "owner": {
-      "name": "r1n7aro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42139518?v=4"
+      "name": "chojs23",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55792153?v=4"
     }
   },
   {
@@ -530,32 +542,6 @@
     "owner": {
       "name": "gordonmurray",
       "avatar_url": "https://avatars.githubusercontent.com/u/56556?v=4"
-    }
-  },
-  {
-    "name": "chojs23/concord",
-    "url": "https://github.com/chojs23/concord",
-    "description": "A feature-rich TUI client for Discord, written in Rust.",
-    "stars": 326,
-    "forks": 18,
-    "language": "Rust",
-    "topics": [
-      "chat-client",
-      "cli",
-      "discord",
-      "discord-client",
-      "ratatui",
-      "rust",
-      "terminal",
-      "terminal-ui",
-      "tui"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-05-08T15:51:03Z",
-    "updated_at": "2026-05-14T05:26:10Z",
-    "owner": {
-      "name": "chojs23",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55792153?v=4"
     }
   },
   {
@@ -594,8 +580,8 @@
     "name": "Avarok-Cybersecurity/atlas",
     "url": "https://github.com/Avarok-Cybersecurity/atlas",
     "description": "Pure Rust Inference Engine",
-    "stars": 306,
-    "forks": 32,
+    "stars": 310,
+    "forks": 35,
     "language": "Rust",
     "topics": [
       "cuda",
@@ -613,7 +599,7 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-05-05T16:59:33Z",
-    "updated_at": "2026-05-14T03:41:23Z",
+    "updated_at": "2026-05-15T01:15:23Z",
     "owner": {
       "name": "Avarok-Cybersecurity",
       "avatar_url": "https://avatars.githubusercontent.com/u/96390941?v=4"
@@ -636,28 +622,19 @@
     }
   },
   {
-    "name": "pacifio/cersei",
-    "url": "https://github.com/pacifio/cersei",
-    "description": "The Rust SDK for building coding agents. Tool execution, LLM streaming, graph memory, sub-agent orchestration, MCP — as composable library functions.",
+    "name": "statewright/statewright",
+    "url": "https://github.com/statewright/statewright",
+    "description": "State machine guardrails for AI agents",
     "stars": 281,
-    "forks": 56,
+    "forks": 4,
     "language": "Rust",
-    "topics": [
-      "agent",
-      "antrophic",
-      "claude-code",
-      "codex",
-      "coding-agent",
-      "openai",
-      "opencode",
-      "rust"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-02T16:35:42Z",
-    "updated_at": "2026-05-01T04:32:39Z",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-05-03T16:27:38Z",
+    "updated_at": "2026-05-15T04:42:42Z",
     "owner": {
-      "name": "pacifio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32670628?v=4"
+      "name": "statewright",
+      "avatar_url": "https://avatars.githubusercontent.com/u/278623102?v=4"
     }
   },
   {
@@ -735,32 +712,16 @@
     }
   },
   {
-    "name": "statewright/statewright",
-    "url": "https://github.com/statewright/statewright",
-    "description": "State machine guardrails for AI agents",
-    "stars": 249,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-05-03T16:27:38Z",
-    "updated_at": "2026-05-14T05:43:53Z",
-    "owner": {
-      "name": "statewright",
-      "avatar_url": "https://avatars.githubusercontent.com/u/278623102?v=4"
-    }
-  },
-  {
     "name": "PiNetwork/SmartContracts",
     "url": "https://github.com/PiNetwork/SmartContracts",
     "description": null,
-    "stars": 248,
+    "stars": 251,
     "forks": 40,
     "language": "Rust",
     "topics": [],
     "license": "Other",
     "created_at": "2026-04-17T01:37:36Z",
-    "updated_at": "2026-05-14T02:18:25Z",
+    "updated_at": "2026-05-14T20:01:10Z",
     "owner": {
       "name": "PiNetwork",
       "avatar_url": "https://avatars.githubusercontent.com/u/161206999?v=4"
@@ -844,22 +805,6 @@
     }
   },
   {
-    "name": "superhq-ai/superhq",
-    "url": "https://github.com/superhq-ai/superhq",
-    "description": "Sandboxed AI agent orchestration platform",
-    "stars": 229,
-    "forks": 15,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-04-04T19:16:27Z",
-    "updated_at": "2026-04-30T22:21:32Z",
-    "owner": {
-      "name": "superhq-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/219734521?v=4"
-    }
-  },
-  {
     "name": "zhitongblog/solomd",
     "url": "https://github.com/zhitongblog/solomd",
     "description": "A markdown editor — and the bridge to your LLM. Local-first, MIT, ~15 MB. Bundled MCP server lets Claude Code / Codex / Cursor drive your vault directly. 14 AI providers BYOK.",
@@ -873,6 +818,30 @@
     "owner": {
       "name": "zhitongblog",
       "avatar_url": "https://avatars.githubusercontent.com/u/257219176?v=4"
+    }
+  },
+  {
+    "name": "wojtczyk/trust",
+    "url": "https://github.com/wojtczyk/trust",
+    "description": "TRUST – Coding Rust like it's 1989",
+    "stars": 220,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [
+      "cargo",
+      "ide",
+      "ratatui",
+      "retro",
+      "rust",
+      "terminal",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-07T05:43:49Z",
+    "updated_at": "2026-05-14T14:33:14Z",
+    "owner": {
+      "name": "wojtczyk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1031513?v=4"
     }
   },
   {
@@ -906,30 +875,6 @@
     "owner": {
       "name": "ojuschugh1",
       "avatar_url": "https://avatars.githubusercontent.com/u/79078267?v=4"
-    }
-  },
-  {
-    "name": "wojtczyk/trust",
-    "url": "https://github.com/wojtczyk/trust",
-    "description": "TRUST – Coding Rust like it's 1989",
-    "stars": 218,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [
-      "cargo",
-      "ide",
-      "ratatui",
-      "retro",
-      "rust",
-      "terminal",
-      "tui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-07T05:43:49Z",
-    "updated_at": "2026-05-14T01:00:28Z",
-    "owner": {
-      "name": "wojtczyk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1031513?v=4"
     }
   },
   {
@@ -1104,13 +1049,13 @@
     "name": "reakjra/omikuji",
     "url": "https://github.com/reakjra/omikuji",
     "description": "Qt/QML based game launcher for Linux",
-    "stars": 180,
+    "stars": 184,
     "forks": 7,
     "language": "Rust",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-05-06T00:56:45Z",
-    "updated_at": "2026-05-13T23:14:34Z",
+    "updated_at": "2026-05-15T02:09:40Z",
     "owner": {
       "name": "reakjra",
       "avatar_url": "https://avatars.githubusercontent.com/u/85903730?v=4"
@@ -1136,13 +1081,13 @@
     "name": "aeroxy/ast-outline",
     "url": "https://github.com/aeroxy/ast-outline",
     "description": "Fast, AST-based code-navigation toolkit for source files — surface the shape of a file (signatures with line numbers, no method bodies), the true public API of a package, the dependency graph between files, the call graph between symbols, and search the repo by symbol or behaviour.",
-    "stars": 170,
+    "stars": 171,
     "forks": 11,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-04-25T17:25:51Z",
-    "updated_at": "2026-05-14T00:24:28Z",
+    "updated_at": "2026-05-14T10:37:26Z",
     "owner": {
       "name": "aeroxy",
       "avatar_url": "https://avatars.githubusercontent.com/u/2761307?v=4"
@@ -1212,6 +1157,58 @@
     }
   },
   {
+    "name": "openlake-project/openlake",
+    "url": "https://github.com/openlake-project/openlake",
+    "description": "Hyper efficient storage for GPU workloads. Feed your GPUs at blazing fast speeds.",
+    "stars": 161,
+    "forks": 15,
+    "language": "Rust",
+    "topics": [
+      "blackwell",
+      "gpt",
+      "gpu",
+      "high-performance",
+      "llm",
+      "llm-training",
+      "model-serving",
+      "rdma",
+      "rust",
+      "storage",
+      "throughput"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-04-27T04:07:33Z",
+    "updated_at": "2026-05-15T05:49:53Z",
+    "owner": {
+      "name": "openlake-project",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279600308?v=4"
+    }
+  },
+  {
+    "name": "mendrik-private/sqv",
+    "url": "https://github.com/mendrik-private/sqv",
+    "description": "sqlite3 viewer",
+    "stars": 153,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [
+      "database",
+      "debian",
+      "rust-lang",
+      "sqlite",
+      "tui",
+      "ubuntu",
+      "viewer"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-22T20:09:11Z",
+    "updated_at": "2026-05-14T21:30:57Z",
+    "owner": {
+      "name": "mendrik-private",
+      "avatar_url": "https://avatars.githubusercontent.com/u/262438142?v=4"
+    }
+  },
+  {
     "name": "k4cper-g/agent-ctrl",
     "url": "https://github.com/k4cper-g/agent-ctrl",
     "description": "Desktop automation CLI for AI agents. Fast native Rust CLI.",
@@ -1230,30 +1227,6 @@
     "owner": {
       "name": "k4cper-g",
       "avatar_url": "https://avatars.githubusercontent.com/u/93160987?v=4"
-    }
-  },
-  {
-    "name": "mendrik-private/sqv",
-    "url": "https://github.com/mendrik-private/sqv",
-    "description": "sqlite3 viewer",
-    "stars": 151,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [
-      "database",
-      "debian",
-      "rust-lang",
-      "sqlite",
-      "tui",
-      "ubuntu",
-      "viewer"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-22T20:09:11Z",
-    "updated_at": "2026-05-13T10:59:25Z",
-    "owner": {
-      "name": "mendrik-private",
-      "avatar_url": "https://avatars.githubusercontent.com/u/262438142?v=4"
     }
   },
   {
@@ -1276,8 +1249,8 @@
     "name": "finch-xu/cc-router",
     "url": "https://github.com/finch-xu/cc-router",
     "description": "订阅买多了 Claude Code 却只能用一家？cc-router 本地运行的智能路由把 DeepSeek、Qwen、Kimi、MiMo、MiniMax、GLM、Claude、openai codex、kiro 的 Token Plan、Coding Plan、API 额度合并成一个虚拟 Plan，任意搭配 opus / sonnet / haiku 三槽位，按顺序或轮询调度，限流、失败自动切换——充分使用每一份额度。",
-    "stars": 143,
-    "forks": 10,
+    "stars": 145,
+    "forks": 9,
     "language": "Rust",
     "topics": [
       "agentic-ai",
@@ -1295,10 +1268,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-04-24T04:23:25Z",
-    "updated_at": "2026-05-14T04:01:24Z",
+    "updated_at": "2026-05-14T16:26:41Z",
     "owner": {
       "name": "finch-xu",
       "avatar_url": "https://avatars.githubusercontent.com/u/39703270?v=4"
+    }
+  },
+  {
+    "name": "chrismoos/1xbts",
+    "url": "https://github.com/chrismoos/1xbts",
+    "description": "CDMA2000 Open Source Cellular Network ",
+    "stars": 143,
+    "forks": 16,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-06T04:56:59Z",
+    "updated_at": "2026-05-15T03:23:59Z",
+    "owner": {
+      "name": "chrismoos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/175192?v=4"
     }
   },
   {
@@ -1329,32 +1318,16 @@
     }
   },
   {
-    "name": "chrismoos/1xbts",
-    "url": "https://github.com/chrismoos/1xbts",
-    "description": "CDMA2000 Open Source Cellular Network ",
-    "stars": 138,
-    "forks": 13,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-06T04:56:59Z",
-    "updated_at": "2026-05-14T03:09:41Z",
-    "owner": {
-      "name": "chrismoos",
-      "avatar_url": "https://avatars.githubusercontent.com/u/175192?v=4"
-    }
-  },
-  {
     "name": "ThatXliner/rust-but-lisp",
     "url": "https://github.com/ThatXliner/rust-but-lisp",
     "description": "Rust but LISP",
-    "stars": 133,
-    "forks": 0,
+    "stars": 136,
+    "forks": 1,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2026-05-09T15:09:45Z",
-    "updated_at": "2026-05-14T00:25:37Z",
+    "updated_at": "2026-05-15T05:12:00Z",
     "owner": {
       "name": "ThatXliner",
       "avatar_url": "https://avatars.githubusercontent.com/u/66848002?v=4"
@@ -1376,10 +1349,33 @@
     ],
     "license": "BSD 3-Clause \"New\" or \"Revised\" License",
     "created_at": "2026-04-19T16:03:59Z",
-    "updated_at": "2026-05-13T21:33:25Z",
+    "updated_at": "2026-05-14T09:12:38Z",
     "owner": {
       "name": "neneodonkor",
       "avatar_url": "https://avatars.githubusercontent.com/u/38510646?v=4"
+    }
+  },
+  {
+    "name": "manyougz/velotype",
+    "url": "https://github.com/manyougz/velotype",
+    "description": "Write at the speed of thought – Velotype is a high-performance native Markdown editor built with Rust and GPUI.⚡",
+    "stars": 132,
+    "forks": 9,
+    "language": "Rust",
+    "topics": [
+      "editor",
+      "gpui",
+      "markdown",
+      "native-ui",
+      "rust-lang",
+      "wysiwyg"
+    ],
+    "license": "Other",
+    "created_at": "2026-05-09T10:40:48Z",
+    "updated_at": "2026-05-15T05:15:47Z",
+    "owner": {
+      "name": "manyougz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70322689?v=4"
     }
   }
 ]
