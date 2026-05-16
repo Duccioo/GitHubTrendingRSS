@@ -124,6 +124,22 @@
     }
   },
   {
+    "name": "rubymonolith/tcp_user_timeout",
+    "url": "https://github.com/rubymonolith/tcp_user_timeout",
+    "description": "Kernel-enforced socket deadlines on Linux via TCP_USER_TIMEOUT",
+    "stars": 19,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-28T21:40:20Z",
+    "updated_at": "2026-05-15T11:35:13Z",
+    "owner": {
+      "name": "rubymonolith",
+      "avatar_url": "https://avatars.githubusercontent.com/u/118844134?v=4"
+    }
+  },
+  {
     "name": "jcflorville/rails-tanstack-starter",
     "url": "https://github.com/jcflorville/rails-tanstack-starter",
     "description": "Production-ready monorepo template: Rails 8 API + Vite/React/TypeScript/TanStack Router & Query + Tailwind + Kamal 2 deploy",
@@ -152,6 +168,22 @@
     "owner": {
       "name": "jcflorville",
       "avatar_url": "https://avatars.githubusercontent.com/u/1355252?v=4"
+    }
+  },
+  {
+    "name": "palkan/require-profiler",
+    "url": "https://github.com/palkan/require-profiler",
+    "description": "Profiler for Ruby #require/etc calls",
+    "stars": 17,
+    "forks": 1,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-21T18:06:18Z",
+    "updated_at": "2026-05-08T22:57:33Z",
+    "owner": {
+      "name": "palkan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1516722?v=4"
     }
   },
   {
@@ -187,38 +219,6 @@
     }
   },
   {
-    "name": "palkan/require-profiler",
-    "url": "https://github.com/palkan/require-profiler",
-    "description": "Profiler for Ruby #require/etc calls",
-    "stars": 17,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-21T18:06:18Z",
-    "updated_at": "2026-05-08T22:57:33Z",
-    "owner": {
-      "name": "palkan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1516722?v=4"
-    }
-  },
-  {
-    "name": "rubymonolith/tcp_user_timeout",
-    "url": "https://github.com/rubymonolith/tcp_user_timeout",
-    "description": "Kernel-enforced socket deadlines on Linux via TCP_USER_TIMEOUT",
-    "stars": 14,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-28T21:40:20Z",
-    "updated_at": "2026-05-15T01:59:10Z",
-    "owner": {
-      "name": "rubymonolith",
-      "avatar_url": "https://avatars.githubusercontent.com/u/118844134?v=4"
-    }
-  },
-  {
     "name": "mperham/asynq",
     "url": "https://github.com/mperham/asynq",
     "description": "A lightweight sidekiq client",
@@ -248,6 +248,27 @@
     "owner": {
       "name": "tenderlove",
       "avatar_url": "https://avatars.githubusercontent.com/u/3124?v=4"
+    }
+  },
+  {
+    "name": "AliOsm/ruby-rules",
+    "url": "https://github.com/AliOsm/ruby-rules",
+    "description": "Collection of Ruby/Rails focused rules extracted from books I'm reading",
+    "stars": 12,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [
+      "clean-code",
+      "rails",
+      "ruby",
+      "rules"
+    ],
+    "license": "No license",
+    "created_at": "2026-04-23T13:13:14Z",
+    "updated_at": "2026-05-15T19:29:15Z",
+    "owner": {
+      "name": "AliOsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7662492?v=4"
     }
   },
   {
@@ -307,6 +328,22 @@
     }
   },
   {
+    "name": "OriPekelman/tep",
+    "url": "https://github.com/OriPekelman/tep",
+    "description": "A Sinatra-flavoured web framework that compiles to a native binary via Spinel",
+    "stars": 11,
+    "forks": 2,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-08T15:00:29Z",
+    "updated_at": "2026-05-15T18:16:03Z",
+    "owner": {
+      "name": "OriPekelman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/138636?v=4"
+    }
+  },
+  {
     "name": "nateberkopec/yamiochi",
     "url": "https://github.com/nateberkopec/yamiochi",
     "description": "Minimal RFC-compliant Ruby Rack HTTP/1.1 server",
@@ -360,27 +397,6 @@
     }
   },
   {
-    "name": "AliOsm/ruby-rules",
-    "url": "https://github.com/AliOsm/ruby-rules",
-    "description": "Collection of Ruby/Rails focused rules extracted from books I'm reading",
-    "stars": 10,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [
-      "clean-code",
-      "rails",
-      "ruby",
-      "rules"
-    ],
-    "license": "No license",
-    "created_at": "2026-04-23T13:13:14Z",
-    "updated_at": "2026-05-04T03:23:17Z",
-    "owner": {
-      "name": "AliOsm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7662492?v=4"
-    }
-  },
-  {
     "name": "josephschito/rubyduino",
     "url": "https://github.com/josephschito/rubyduino",
     "description": "Rubyduino compiles Ruby code for Arduino UNO boards and uploads the generated firmware.",
@@ -399,22 +415,6 @@
     "owner": {
       "name": "josephschito",
       "avatar_url": "https://avatars.githubusercontent.com/u/4095923?v=4"
-    }
-  },
-  {
-    "name": "OriPekelman/tep",
-    "url": "https://github.com/OriPekelman/tep",
-    "description": "A Sinatra-flavoured web framework that compiles to a native binary via Spinel",
-    "stars": 10,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-08T15:00:29Z",
-    "updated_at": "2026-05-15T00:30:29Z",
-    "owner": {
-      "name": "OriPekelman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/138636?v=4"
     }
   }
 ]
