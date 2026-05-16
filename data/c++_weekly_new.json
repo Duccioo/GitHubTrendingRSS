@@ -35,13 +35,13 @@
     "name": "HermannBjorgvin/Clawdmeter",
     "url": "https://github.com/HermannBjorgvin/Clawdmeter",
     "description": "ESP32 desk dashboard that shows Claude Code usage",
-    "stars": 903,
-    "forks": 70,
+    "stars": 1021,
+    "forks": 91,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-05-11T03:07:49Z",
-    "updated_at": "2026-05-15T05:31:16Z",
+    "updated_at": "2026-05-16T05:18:15Z",
     "owner": {
       "name": "HermannBjorgvin",
       "avatar_url": "https://avatars.githubusercontent.com/u/5817854?v=4"
@@ -51,16 +51,32 @@
     "name": "v12-security/pocs",
     "url": "https://github.com/v12-security/pocs",
     "description": "poc it like it's hot",
-    "stars": 332,
-    "forks": 65,
+    "stars": 424,
+    "forks": 79,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-05-13T08:17:58Z",
-    "updated_at": "2026-05-15T04:55:03Z",
+    "updated_at": "2026-05-16T04:53:10Z",
     "owner": {
       "name": "v12-security",
       "avatar_url": "https://avatars.githubusercontent.com/u/231959414?v=4"
+    }
+  },
+  {
+    "name": "0xdeadbeefnetwork/ssh-keysign-pwn",
+    "url": "https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn",
+    "description": "Steal SSH host private keys and /etc/shadow via the ptrace_may_access mm-NULL bypass + pidfd_getfd. Pre-31e62c2ebbfd kernels.",
+    "stars": 379,
+    "forks": 48,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-14T22:44:21Z",
+    "updated_at": "2026-05-16T05:06:40Z",
+    "owner": {
+      "name": "0xdeadbeefnetwork",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93794938?v=4"
     }
   },
   {
@@ -106,6 +122,22 @@
     "owner": {
       "name": "tgies",
       "avatar_url": "https://avatars.githubusercontent.com/u/1594352?v=4"
+    }
+  },
+  {
+    "name": "vercel-labs/zero",
+    "url": "https://github.com/vercel-labs/zero",
+    "description": "The programming language for agents",
+    "stars": 280,
+    "forks": 7,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-15T16:55:16Z",
+    "updated_at": "2026-05-16T05:20:23Z",
+    "owner": {
+      "name": "vercel-labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108547162?v=4"
     }
   },
   {
@@ -298,13 +330,13 @@
     "name": "maxbrito500/esp32-c5-deauth",
     "url": "https://github.com/maxbrito500/esp32-c5-deauth",
     "description": "A deauth with nuker for 2.4Ghz and 5Ghz controlled by BLE with Android app",
-    "stars": 55,
+    "stars": 56,
     "forks": 6,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-05-10T20:19:04Z",
-    "updated_at": "2026-05-14T13:23:46Z",
+    "updated_at": "2026-05-15T15:48:04Z",
     "owner": {
       "name": "maxbrito500",
       "avatar_url": "https://avatars.githubusercontent.com/u/49025386?v=4"
@@ -382,19 +414,19 @@
     }
   },
   {
-    "name": "0xdeadbeefnetwork/ssh-keysign-pwn",
-    "url": "https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn",
-    "description": "Steal SSH host private keys and /etc/shadow via the ptrace_may_access mm-NULL bypass + pidfd_getfd. Pre-31e62c2ebbfd kernels.",
-    "stars": 45,
-    "forks": 3,
+    "name": "maddiedreese/gbc-transformer",
+    "url": "https://github.com/maddiedreese/gbc-transformer",
+    "description": null,
+    "stars": 47,
+    "forks": 1,
     "language": "C",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-14T22:44:21Z",
-    "updated_at": "2026-05-15T05:40:34Z",
+    "license": "MIT License",
+    "created_at": "2026-05-10T03:57:20Z",
+    "updated_at": "2026-05-15T15:52:40Z",
     "owner": {
-      "name": "0xdeadbeefnetwork",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93794938?v=4"
+      "name": "maddiedreese",
+      "avatar_url": "https://avatars.githubusercontent.com/u/217513513?v=4"
     }
   },
   {
@@ -414,19 +446,32 @@
     }
   },
   {
-    "name": "maddiedreese/gbc-transformer",
-    "url": "https://github.com/maddiedreese/gbc-transformer",
-    "description": null,
-    "stars": 43,
-    "forks": 1,
+    "name": "kavishka-dot/libminerva",
+    "url": "https://github.com/kavishka-dot/libminerva",
+    "description": "MINERVA - Minimal Inference Engine for Robust, Verifiable, and Authenticated ML. Encrypted, integrity-verified neural network inference for MCUs down to ATmega328P.",
+    "stars": 39,
+    "forks": 3,
     "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-10T03:57:20Z",
-    "updated_at": "2026-05-15T03:12:11Z",
+    "topics": [
+      "arduino",
+      "atmega",
+      "avr",
+      "c",
+      "embedded-ml",
+      "inference-engine",
+      "iot",
+      "machine-learning",
+      "microcontroller",
+      "neural-network",
+      "security",
+      "tiny-ml"
+    ],
+    "license": "No license",
+    "created_at": "2026-05-10T12:17:14Z",
+    "updated_at": "2026-05-16T05:08:24Z",
     "owner": {
-      "name": "maddiedreese",
-      "avatar_url": "https://avatars.githubusercontent.com/u/217513513?v=4"
+      "name": "kavishka-dot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82282978?v=4"
     }
   },
   {
@@ -462,39 +507,10 @@
     }
   },
   {
-    "name": "kavishka-dot/libminerva",
-    "url": "https://github.com/kavishka-dot/libminerva",
-    "description": "MINERVA - Minimal Inference Engine for Robust, Verifiable, and Authenticated ML. Encrypted, integrity-verified neural network inference for MCUs down to ATmega328P.",
-    "stars": 37,
-    "forks": 3,
-    "language": "C",
-    "topics": [
-      "arduino",
-      "atmega",
-      "avr",
-      "c",
-      "embedded-ml",
-      "inference-engine",
-      "iot",
-      "machine-learning",
-      "microcontroller",
-      "neural-network",
-      "security",
-      "tiny-ml"
-    ],
-    "license": "No license",
-    "created_at": "2026-05-10T12:17:14Z",
-    "updated_at": "2026-05-14T00:30:24Z",
-    "owner": {
-      "name": "kavishka-dot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82282978?v=4"
-    }
-  },
-  {
     "name": "radareorg/r2garlic",
     "url": "https://github.com/radareorg/r2garlic",
     "description": "The world's fastest Android/DEX decompiler meets radare2",
-    "stars": 36,
+    "stars": 37,
     "forks": 4,
     "language": "C",
     "topics": [
@@ -504,7 +520,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-12T20:14:02Z",
-    "updated_at": "2026-05-15T02:11:41Z",
+    "updated_at": "2026-05-15T20:32:02Z",
     "owner": {
       "name": "radareorg",
       "avatar_url": "https://avatars.githubusercontent.com/u/2842539?v=4"
@@ -656,6 +672,22 @@
     }
   },
   {
+    "name": "OpenSourcereR-dev/ps5debug-NG",
+    "url": "https://github.com/OpenSourcereR-dev/ps5debug-NG",
+    "description": "PS5 debugger payload — userland TCP wire-protocol server hosted inside SceShellCore. GPL-3.",
+    "stars": 27,
+    "forks": 6,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-05-14T06:43:02Z",
+    "updated_at": "2026-05-16T01:19:14Z",
+    "owner": {
+      "name": "OpenSourcereR-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45182707?v=4"
+    }
+  },
+  {
     "name": "kavishka-dot/filum",
     "url": "https://github.com/kavishka-dot/filum",
     "description": "Pure-C federated learning library for MCU-class edge devices over LoRa. STM32 + SX1276.",
@@ -775,6 +807,22 @@
     }
   },
   {
+    "name": "GYGKHD/ESP32-MC",
+    "url": "https://github.com/GYGKHD/ESP32-MC",
+    "description": "一个跑在 ESP32 上的极简 Minecraft Java 服务器。  项目现在主要面向 Arduino ESP32，协议版本是 `26.1.2 / 775`。核心逻辑基本都还是 C，网络层用一层兼容代码接到 `WiFiServer / WiFiClient` 上。",
+    "stars": 24,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-12T13:37:43Z",
+    "updated_at": "2026-05-15T15:04:01Z",
+    "owner": {
+      "name": "GYGKHD",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63219229?v=4"
+    }
+  },
+  {
     "name": "openshift/block-copyfail",
     "url": "https://github.com/openshift/block-copyfail",
     "description": null,
@@ -891,22 +939,6 @@
     "owner": {
       "name": "niqiuqiux",
       "avatar_url": "https://avatars.githubusercontent.com/u/110472841?v=4"
-    }
-  },
-  {
-    "name": "GYGKHD/ESP32-MC",
-    "url": "https://github.com/GYGKHD/ESP32-MC",
-    "description": "一个跑在 ESP32 上的极简 Minecraft Java 服务器。  项目现在主要面向 Arduino ESP32，协议版本是 `26.1.2 / 775`。核心逻辑基本都还是 C，网络层用一层兼容代码接到 `WiFiServer / WiFiClient` 上。",
-    "stars": 19,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-12T13:37:43Z",
-    "updated_at": "2026-05-15T00:01:14Z",
-    "owner": {
-      "name": "GYGKHD",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63219229?v=4"
     }
   },
   {
@@ -1070,6 +1102,38 @@
     }
   },
   {
+    "name": "seregonwar/EAPDumper",
+    "url": "https://github.com/seregonwar/EAPDumper",
+    "description": "PS4 payload that backs up the HDD EAP key from kernel memory.",
+    "stars": 16,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-13T20:08:36Z",
+    "updated_at": "2026-05-15T19:03:37Z",
+    "owner": {
+      "name": "seregonwar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109359355?v=4"
+    }
+  },
+  {
+    "name": "jakobfriedl/usb-monitor-bof",
+    "url": "https://github.com/jakobfriedl/usb-monitor-bof",
+    "description": "Async BOF that monitors USB device connect/disconnect events, reports device information and performs actions on connected USB storage volumes.",
+    "stars": 16,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "created_at": "2026-05-14T10:48:15Z",
+    "updated_at": "2026-05-16T05:14:35Z",
+    "owner": {
+      "name": "jakobfriedl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71284620?v=4"
+    }
+  },
+  {
     "name": "ckolivas/ckpool",
     "url": "https://github.com/ckolivas/ckpool",
     "description": "Official mirror of ckpool repository",
@@ -1144,22 +1208,6 @@
     "owner": {
       "name": "WorkhorseComputing",
       "avatar_url": "https://avatars.githubusercontent.com/u/282329776?v=4"
-    }
-  },
-  {
-    "name": "OpenSourcereR-dev/ps5debug-NG",
-    "url": "https://github.com/OpenSourcereR-dev/ps5debug-NG",
-    "description": "PS5 debugger payload — userland TCP wire-protocol server hosted inside SceShellCore. GPL-3.",
-    "stars": 15,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-05-14T06:43:02Z",
-    "updated_at": "2026-05-15T03:52:31Z",
-    "owner": {
-      "name": "OpenSourcereR-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45182707?v=4"
     }
   },
   {
@@ -1398,38 +1446,6 @@
     }
   },
   {
-    "name": "animetosho/animetosho-setup",
-    "url": "https://github.com/animetosho/animetosho-setup",
-    "description": "Anime Tosho server setup scripts",
-    "stars": 14,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-04-26T10:30:14Z",
-    "updated_at": "2026-05-02T00:04:49Z",
-    "owner": {
-      "name": "animetosho",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12937885?v=4"
-    }
-  },
-  {
-    "name": "seregonwar/EAPDumper",
-    "url": "https://github.com/seregonwar/EAPDumper",
-    "description": "PS4 payload that backs up the HDD EAP key from kernel memory.",
-    "stars": 12,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-13T20:08:36Z",
-    "updated_at": "2026-05-15T03:16:24Z",
-    "owner": {
-      "name": "seregonwar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109359355?v=4"
-    }
-  },
-  {
     "name": "Luxotick/pspalatro",
     "url": "https://github.com/Luxotick/pspalatro",
     "description": null,
@@ -1443,6 +1459,22 @@
     "owner": {
       "name": "Luxotick",
       "avatar_url": "https://avatars.githubusercontent.com/u/76044365?v=4"
+    }
+  },
+  {
+    "name": "FelipeAlme/DVS-Wireless-DIY-DJ-System",
+    "url": "https://github.com/FelipeAlme/DVS-Wireless-DIY-DJ-System",
+    "description": "This repository is a cheap alternative to Phase DJ.",
+    "stars": 12,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-05-11T05:23:00Z",
+    "updated_at": "2026-05-16T00:26:11Z",
+    "owner": {
+      "name": "FelipeAlme",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25764533?v=4"
     }
   },
   {
@@ -1475,6 +1507,32 @@
     "owner": {
       "name": "philfry",
       "avatar_url": "https://avatars.githubusercontent.com/u/1649785?v=4"
+    }
+  },
+  {
+    "name": "kavishka-dot/vulcan-os",
+    "url": "https://github.com/kavishka-dot/vulcan-os",
+    "description": "Minimal real-time OS for STM32H7, built from scratch for edge ML inference and on-device training",
+    "stars": 11,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "assembly",
+      "bare-metal",
+      "cortex-m7",
+      "edge-ai",
+      "embedded-systems",
+      "iot",
+      "machine-learning",
+      "rtos",
+      "stm32"
+    ],
+    "license": "No license",
+    "created_at": "2026-05-12T09:25:02Z",
+    "updated_at": "2026-05-15T10:59:33Z",
+    "owner": {
+      "name": "kavishka-dot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82282978?v=4"
     }
   },
   {
@@ -1563,6 +1621,29 @@
     }
   },
   {
+    "name": "nordstjernen-web/nordstjernen",
+    "url": "https://github.com/nordstjernen-web/nordstjernen",
+    "description": "Nordstjernen web browser",
+    "stars": 10,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "browser",
+      "css",
+      "html",
+      "javascript",
+      "nordstjernen",
+      "web"
+    ],
+    "license": "Other",
+    "created_at": "2026-05-11T15:56:15Z",
+    "updated_at": "2026-05-16T04:43:44Z",
+    "owner": {
+      "name": "nordstjernen-web",
+      "avatar_url": "https://avatars.githubusercontent.com/u/281040725?v=4"
+    }
+  },
+  {
     "name": "lat-opensource/liblasx2lsx",
     "url": "https://github.com/lat-opensource/liblasx2lsx",
     "description": null,
@@ -1576,48 +1657,6 @@
     "owner": {
       "name": "lat-opensource",
       "avatar_url": "https://avatars.githubusercontent.com/u/204977708?v=4"
-    }
-  },
-  {
-    "name": "kavishka-dot/vulcan-os",
-    "url": "https://github.com/kavishka-dot/vulcan-os",
-    "description": "Minimal real-time OS for STM32H7, built from scratch for edge ML inference and on-device training",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "assembly",
-      "bare-metal",
-      "cortex-m7",
-      "edge-ai",
-      "embedded-systems",
-      "iot",
-      "machine-learning",
-      "rtos",
-      "stm32"
-    ],
-    "license": "No license",
-    "created_at": "2026-05-12T09:25:02Z",
-    "updated_at": "2026-05-15T03:48:12Z",
-    "owner": {
-      "name": "kavishka-dot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82282978?v=4"
-    }
-  },
-  {
-    "name": "FelipeAlme/DVS-Wireless-DIY-DJ-System",
-    "url": "https://github.com/FelipeAlme/DVS-Wireless-DIY-DJ-System",
-    "description": "This repository is a cheap alternative to Phase DJ.",
-    "stars": 10,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-05-11T05:23:00Z",
-    "updated_at": "2026-05-14T22:43:08Z",
-    "owner": {
-      "name": "FelipeAlme",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25764533?v=4"
     }
   },
   {
@@ -1671,22 +1710,6 @@
     "owner": {
       "name": "Lemper29",
       "avatar_url": "https://avatars.githubusercontent.com/u/147098068?v=4"
-    }
-  },
-  {
-    "name": "harkaitz/c-scal",
-    "url": "https://github.com/harkaitz/c-scal",
-    "description": "A program to print colored calendars to the terminal.",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-04-27T13:41:23Z",
-    "updated_at": "2026-05-01T19:53:44Z",
-    "owner": {
-      "name": "harkaitz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31321862?v=4"
     }
   }
 ]
