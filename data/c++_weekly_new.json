@@ -159,13 +159,13 @@
     "name": "sander110419/lightroom-cc-on-linux",
     "url": "https://github.com/sander110419/lightroom-cc-on-linux",
     "description": "Reproducible recipe for running Adobe Lightroom CC on Linux via Wine 11.8 staging. Researched and verified end-to-end by Claude Opus 4.7.",
-    "stars": 138,
+    "stars": 147,
     "forks": 4,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-05-17T09:17:14Z",
-    "updated_at": "2026-05-20T23:53:15Z",
+    "updated_at": "2026-05-21T20:04:24Z",
     "owner": {
       "name": "sander110419",
       "avatar_url": "https://avatars.githubusercontent.com/u/13721836?v=4"
@@ -201,6 +201,30 @@
     "owner": {
       "name": "Anonymous376c1d0cf28",
       "avatar_url": "https://avatars.githubusercontent.com/u/282803730?v=4"
+    }
+  },
+  {
+    "name": "Unclecheng-li/poc-lab",
+    "url": "https://github.com/Unclecheng-li/poc-lab",
+    "description": "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more.",
+    "stars": 92,
+    "forks": 10,
+    "language": "C",
+    "topics": [
+      "c",
+      "cybersecurity",
+      "linux",
+      "poc",
+      "python",
+      "python3",
+      "vulnerability"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-20T13:31:52Z",
+    "updated_at": "2026-05-22T05:55:31Z",
+    "owner": {
+      "name": "Unclecheng-li",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55303635?v=4"
     }
   },
   {
@@ -493,6 +517,22 @@
     }
   },
   {
+    "name": "DreamFekk/Andriod-AutoUEDump-GUI",
+    "url": "https://github.com/DreamFekk/Andriod-AutoUEDump-GUI",
+    "description": null,
+    "stars": 36,
+    "forks": 11,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-18T14:32:42Z",
+    "updated_at": "2026-05-22T05:04:12Z",
+    "owner": {
+      "name": "DreamFekk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95064332?v=4"
+    }
+  },
+  {
     "name": "kavishka-dot/cvcl",
     "url": "https://github.com/kavishka-dot/cvcl",
     "description": "High-performance computer vision primitives in pure C99. Zero dependencies, pluggable allocator, SIMD-ready layout. Built for edge deployment and FFI.",
@@ -533,50 +573,6 @@
     "owner": {
       "name": "ZhaoChengBo",
       "avatar_url": "https://avatars.githubusercontent.com/u/47273880?v=4"
-    }
-  },
-  {
-    "name": "DreamFekk/Andriod-AutoUEDump-GUI",
-    "url": "https://github.com/DreamFekk/Andriod-AutoUEDump-GUI",
-    "description": null,
-    "stars": 35,
-    "forks": 11,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-18T14:32:42Z",
-    "updated_at": "2026-05-20T16:19:33Z",
-    "owner": {
-      "name": "DreamFekk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95064332?v=4"
-    }
-  },
-  {
-    "name": "k1ng0fn0th1ng/CrystalForge",
-    "url": "https://github.com/k1ng0fn0th1ng/CrystalForge",
-    "description": "AdaptixC2 default beacon agent extended to support Crystal Palace loaders.",
-    "stars": 32,
-    "forks": 5,
-    "language": "C",
-    "topics": [
-      "adaptixc2",
-      "assembly",
-      "c",
-      "crystal-palace",
-      "mingw",
-      "pe-loader",
-      "red-team",
-      "reflective-loader",
-      "research",
-      "udrl",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-02T11:24:09Z",
-    "updated_at": "2026-05-08T02:07:45Z",
-    "owner": {
-      "name": "k1ng0fn0th1ng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/222845505?v=4"
     }
   },
   {
@@ -695,6 +691,32 @@
     }
   },
   {
+    "name": "nettitude/CLR-Stomp",
+    "url": "https://github.com/nettitude/CLR-Stomp",
+    "description": ".NET CLR-Stomping",
+    "stars": 26,
+    "forks": 3,
+    "language": "C",
+    "topics": [
+      "beacon",
+      "beacon-object-file",
+      "bof",
+      "cobalt-strike",
+      "execute-assembly",
+      "red-team",
+      "red-team-tools",
+      "redteam",
+      "redteaming"
+    ],
+    "license": "No license",
+    "created_at": "2026-05-20T12:25:37Z",
+    "updated_at": "2026-05-22T05:06:37Z",
+    "owner": {
+      "name": "nettitude",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11998401?v=4"
+    }
+  },
+  {
     "name": "dPhoeniixx/dexhound",
     "url": "https://github.com/dPhoeniixx/dexhound",
     "description": "Dump DEX files from a running Android process without instrumentation",
@@ -740,37 +762,6 @@
     "owner": {
       "name": "HandsomeMJZ",
       "avatar_url": "https://avatars.githubusercontent.com/u/62696913?v=4"
-    }
-  },
-  {
-    "name": "monomorphized/aperture",
-    "url": "https://github.com/monomorphized/aperture",
-    "description": "Arm64 linux KVM introspection hypervisor via stage 2 translation traps & vcpu exit tracing",
-    "stars": 25,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "aarch64",
-      "arm64",
-      "el2",
-      "hypervisor",
-      "kvm",
-      "linux",
-      "linux-kernel",
-      "security",
-      "systems-programming",
-      "vcpu",
-      "virtual-machine-introspection",
-      "virtualization",
-      "vm-exit",
-      "vmi"
-    ],
-    "license": "No license",
-    "created_at": "2026-05-04T15:05:33Z",
-    "updated_at": "2026-05-07T15:03:39Z",
-    "owner": {
-      "name": "monomorphized",
-      "avatar_url": "https://avatars.githubusercontent.com/u/281676989?v=4"
     }
   },
   {
@@ -838,43 +829,11 @@
     }
   },
   {
-    "name": "marceld23/Pixel-Pets",
-    "url": "https://github.com/marceld23/Pixel-Pets",
-    "description": "Pixel-Pets: A local, open-source virtual pet ecosystem on M5Stack. 100% AI-authored C++ (Claude) by a 10yo maker. Includes Muffin (LLM), Visu & Goo-Goo variants + companion device Pip. Built for privacy, education, and offline play.",
-    "stars": 19,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "digital-pet",
-      "embedded",
-      "esp-now",
-      "esp32",
-      "iot",
-      "kids",
-      "m5stack",
-      "maker",
-      "offline-ai",
-      "open-source",
-      "platformio",
-      "qwen",
-      "tamagotchi",
-      "virtual-pet",
-      "whisper"
-    ],
-    "license": "Other",
-    "created_at": "2026-05-02T14:00:32Z",
-    "updated_at": "2026-05-07T20:39:07Z",
-    "owner": {
-      "name": "marceld23",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76117295?v=4"
-    }
-  },
-  {
     "name": "rockylabs-dev/TrollInstallerDark",
     "url": "https://github.com/rockylabs-dev/TrollInstallerDark",
     "description": "TrollInstallerDark is a modification of Alfie's TrollInstallerX to use the DarkSword kernel exploit.",
     "stars": 18,
-    "forks": 3,
+    "forks": 4,
     "language": "C",
     "topics": [],
     "license": "MIT License",
@@ -883,6 +842,54 @@
     "owner": {
       "name": "rockylabs-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/285314363?v=4"
+    }
+  },
+  {
+    "name": "0xBlackash/CVE-2026-46333",
+    "url": "https://github.com/0xBlackash/CVE-2026-46333",
+    "description": "CVE-2026-46333",
+    "stars": 18,
+    "forks": 4,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-17T10:14:44Z",
+    "updated_at": "2026-05-22T04:02:23Z",
+    "owner": {
+      "name": "0xBlackash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/259905299?v=4"
+    }
+  },
+  {
+    "name": "tcantenot/bento",
+    "url": "https://github.com/tcantenot/bento",
+    "description": "A simple flexbox layout C library",
+    "stars": 18,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-16T14:26:02Z",
+    "updated_at": "2026-05-21T21:58:30Z",
+    "owner": {
+      "name": "tcantenot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3785988?v=4"
+    }
+  },
+  {
+    "name": "zarazaex69/m",
+    "url": "https://github.com/zarazaex69/m",
+    "description": null,
+    "stars": 18,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-05-16T21:13:07Z",
+    "updated_at": "2026-05-21T07:34:59Z",
+    "owner": {
+      "name": "zarazaex69",
+      "avatar_url": "https://avatars.githubusercontent.com/u/231401743?v=4"
     }
   },
   {
@@ -934,22 +941,6 @@
     }
   },
   {
-    "name": "tcantenot/bento",
-    "url": "https://github.com/tcantenot/bento",
-    "description": "A simple flexbox layout C library",
-    "stars": 17,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-16T14:26:02Z",
-    "updated_at": "2026-05-19T09:19:49Z",
-    "owner": {
-      "name": "tcantenot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3785988?v=4"
-    }
-  },
-  {
     "name": "jakobfriedl/asyncscan-bof",
     "url": "https://github.com/jakobfriedl/asyncscan-bof",
     "description": "Async port scanner BOF. Supports IP/port ranges, CIDR notation and hostnames. ",
@@ -975,26 +966,10 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-17T05:56:55Z",
-    "updated_at": "2026-05-20T18:55:59Z",
+    "updated_at": "2026-05-21T17:23:31Z",
     "owner": {
       "name": "ufm42",
       "avatar_url": "https://avatars.githubusercontent.com/u/220887183?v=4"
-    }
-  },
-  {
-    "name": "zarazaex69/m",
-    "url": "https://github.com/zarazaex69/m",
-    "description": null,
-    "stars": 17,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-05-16T21:13:07Z",
-    "updated_at": "2026-05-21T04:54:25Z",
-    "owner": {
-      "name": "zarazaex69",
-      "avatar_url": "https://avatars.githubusercontent.com/u/231401743?v=4"
     }
   },
   {
@@ -1162,19 +1137,35 @@
     }
   },
   {
-    "name": "meridi4n/vmpstatic",
-    "url": "https://github.com/meridi4n/vmpstatic",
-    "description": "PE tool for vmprotect binaries",
-    "stars": 15,
-    "forks": 4,
+    "name": "venglin/setcred",
+    "url": "https://github.com/venglin/setcred",
+    "description": "CVE-2026-45250 - FreeBSD 14.x LPE",
+    "stars": 14,
+    "forks": 2,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-05-07T03:40:28Z",
-    "updated_at": "2026-05-07T21:51:10Z",
+    "created_at": "2026-05-21T04:40:37Z",
+    "updated_at": "2026-05-22T04:04:38Z",
     "owner": {
-      "name": "meridi4n",
-      "avatar_url": "https://avatars.githubusercontent.com/u/282032199?v=4"
+      "name": "venglin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42781581?v=4"
+    }
+  },
+  {
+    "name": "ekomsSavior/Green_plasma_ctf",
+    "url": "https://github.com/ekomsSavior/Green_plasma_ctf",
+    "description": "Solving green plasma",
+    "stars": 14,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-17T13:12:07Z",
+    "updated_at": "2026-05-22T02:44:10Z",
+    "owner": {
+      "name": "ekomsSavior",
+      "avatar_url": "https://avatars.githubusercontent.com/u/161806886?v=4"
     }
   },
   {
@@ -1284,72 +1275,35 @@
     }
   },
   {
-    "name": "monomorphized/counter",
-    "url": "https://github.com/monomorphized/counter",
-    "description": "VMExit reason correlation/L2 guest behavior profiling for KVM nested virtualization environments",
-    "stars": 14,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "correlation",
-      "environment",
-      "guest",
-      "kernel",
-      "kvm",
-      "l2",
-      "nested",
-      "profiling",
-      "security",
-      "virtual-machine",
-      "virtualization",
-      "vm",
-      "vmexit"
-    ],
-    "license": "No license",
-    "created_at": "2026-05-06T10:45:15Z",
-    "updated_at": "2026-05-07T15:08:00Z",
-    "owner": {
-      "name": "monomorphized",
-      "avatar_url": "https://avatars.githubusercontent.com/u/281676989?v=4"
-    }
-  },
-  {
-    "name": "GAIR-NLP/AcademiClaw",
-    "url": "https://github.com/GAIR-NLP/AcademiClaw",
-    "description": "AcademiClaw: When Students Set Challenges for AI Agents — a bilingual benchmark of 80 university student-sourced academic tasks.",
-    "stars": 14,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "academic",
-      "ai",
-      "benchmark",
-      "evaluation",
-      "llm",
-      "openclaw"
-    ],
-    "license": "Other",
-    "created_at": "2026-05-02T10:29:45Z",
-    "updated_at": "2026-05-07T19:01:05Z",
-    "owner": {
-      "name": "GAIR-NLP",
-      "avatar_url": "https://avatars.githubusercontent.com/u/121574224?v=4"
-    }
-  },
-  {
-    "name": "0xBlackash/CVE-2026-46333",
-    "url": "https://github.com/0xBlackash/CVE-2026-46333",
-    "description": "CVE-2026-46333",
+    "name": "sgkdev/ptrace_may_dream",
+    "url": "https://github.com/sgkdev/ptrace_may_dream",
+    "description": "CVE-2026-31431-killed page-cache exploit — code exec into containers sharing the same image layer",
     "stars": 13,
-    "forks": 3,
+    "forks": 2,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-05-17T10:14:44Z",
-    "updated_at": "2026-05-21T00:34:44Z",
+    "created_at": "2026-05-20T04:37:35Z",
+    "updated_at": "2026-05-22T01:20:58Z",
     "owner": {
-      "name": "0xBlackash",
-      "avatar_url": "https://avatars.githubusercontent.com/u/259905299?v=4"
+      "name": "sgkdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42553321?v=4"
+    }
+  },
+  {
+    "name": "atc1441/ATC_RTL_BLE_OEPL",
+    "url": "https://github.com/atc1441/ATC_RTL_BLE_OEPL",
+    "description": "Custom E-Paper Firmware for the RTL8762ESL an RTL8752H",
+    "stars": 13,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-16T13:56:10Z",
+    "updated_at": "2026-05-22T01:27:08Z",
+    "owner": {
+      "name": "atc1441",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1102694?v=4"
     }
   },
   {
@@ -1430,22 +1384,6 @@
     "owner": {
       "name": "psmx",
       "avatar_url": "https://avatars.githubusercontent.com/u/261090929?v=4"
-    }
-  },
-  {
-    "name": "atc1441/ATC_RTL_BLE_OEPL",
-    "url": "https://github.com/atc1441/ATC_RTL_BLE_OEPL",
-    "description": "Custom E-Paper Firmware for the RTL8762ESL an RTL8752H",
-    "stars": 12,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-16T13:56:10Z",
-    "updated_at": "2026-05-20T10:47:39Z",
-    "owner": {
-      "name": "atc1441",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1102694?v=4"
     }
   },
   {
@@ -1594,22 +1532,6 @@
     }
   },
   {
-    "name": "salehahmed99/opengl-tutorials",
-    "url": "https://github.com/salehahmed99/opengl-tutorials",
-    "description": "Modern OpenGL 3.3 Core Profile C++ tutorials and examples, covering everything from fundamental rendering to advanced lighting and shadows.",
-    "stars": 11,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-03T21:18:59Z",
-    "updated_at": "2026-05-07T06:25:09Z",
-    "owner": {
-      "name": "salehahmed99",
-      "avatar_url": "https://avatars.githubusercontent.com/u/143952982?v=4"
-    }
-  },
-  {
     "name": "FaceElderAmend/Lossless-Scaling-Desktop-2026",
     "url": "https://github.com/FaceElderAmend/Lossless-Scaling-Desktop-2026",
     "description": "⭐️ Lossless Scaling Desktop 2026 | Setup Installer v1.0 | Patch Activator Keygen | License Key Pre-Activated | Full Version Latest Build Pro | Optimize Resolution Scaling | Enhance Performance Graphics | Get Desktop App Windows 10/11 PC | Direct Genuine Original x64 | Download Install Loader Mod ⭐️",
@@ -1631,10 +1553,26 @@
     ],
     "license": "Other",
     "created_at": "2026-05-20T11:40:24Z",
-    "updated_at": "2026-05-20T23:58:51Z",
+    "updated_at": "2026-05-21T23:38:12Z",
     "owner": {
       "name": "FaceElderAmend",
       "avatar_url": "https://avatars.githubusercontent.com/u/279140730?v=4"
+    }
+  },
+  {
+    "name": "alonsovm44/tc-lang",
+    "url": "https://github.com/alonsovm44/tc-lang",
+    "description": "A minimalistic portable assembly lenguage",
+    "stars": 10,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-22T01:39:17Z",
+    "updated_at": "2026-05-22T05:59:51Z",
+    "owner": {
+      "name": "alonsovm44",
+      "avatar_url": "https://avatars.githubusercontent.com/u/179742993?v=4"
     }
   },
   {
