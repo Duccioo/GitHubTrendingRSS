@@ -145,35 +145,6 @@
     }
   },
   {
-    "name": "Avarok-Cybersecurity/atlas",
-    "url": "https://github.com/Avarok-Cybersecurity/atlas",
-    "description": "Pure Rust Inference Engine",
-    "stars": 227,
-    "forks": 24,
-    "language": "Rust",
-    "topics": [
-      "cuda",
-      "dgx",
-      "dgx-spark",
-      "gb10",
-      "llm-inference",
-      "mamba",
-      "nvfp4",
-      "openai-api",
-      "rust",
-      "speculative-decoding",
-      "ssm",
-      "transformers"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-05-05T16:59:33Z",
-    "updated_at": "2026-05-11T05:18:13Z",
-    "owner": {
-      "name": "Avarok-Cybersecurity",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96390941?v=4"
-    }
-  },
-  {
     "name": "wojtczyk/trust",
     "url": "https://github.com/wojtczyk/trust",
     "description": "TRUST – Coding Rust like it's 1989",
@@ -222,6 +193,28 @@
     }
   },
   {
+    "name": "tonbo-io/ursula",
+    "url": "https://github.com/tonbo-io/ursula",
+    "description": "Distributed event stream server over HTTP, backed by S3.",
+    "stars": 175,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "distributed",
+      "http",
+      "raft",
+      "rust",
+      "streaming"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-19T03:25:09Z",
+    "updated_at": "2026-05-25T01:30:55Z",
+    "owner": {
+      "name": "tonbo-io",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177188058?v=4"
+    }
+  },
+  {
     "name": "reakjra/omikuji",
     "url": "https://github.com/reakjra/omikuji",
     "description": "Qt/QML based game launcher for Linux",
@@ -238,25 +231,19 @@
     }
   },
   {
-    "name": "tonbo-io/ursula",
-    "url": "https://github.com/tonbo-io/ursula",
-    "description": "Distributed event stream server over HTTP, backed by S3.",
-    "stars": 170,
-    "forks": 4,
+    "name": "akitaonrails/ai-memory",
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+    "stars": 166,
+    "forks": 9,
     "language": "Rust",
-    "topics": [
-      "distributed",
-      "http",
-      "raft",
-      "rust",
-      "streaming"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-19T03:25:09Z",
-    "updated_at": "2026-05-23T23:14:57Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-21T23:23:51Z",
+    "updated_at": "2026-05-25T04:21:24Z",
     "owner": {
-      "name": "tonbo-io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/177188058?v=4"
+      "name": "akitaonrails",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2840?v=4"
     }
   },
   {
@@ -509,22 +496,6 @@
     }
   },
   {
-    "name": "akitaonrails/ai-memory",
-    "url": "https://github.com/akitaonrails/ai-memory",
-    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-    "stars": 93,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-21T23:23:51Z",
-    "updated_at": "2026-05-24T04:44:30Z",
-    "owner": {
-      "name": "akitaonrails",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2840?v=4"
-    }
-  },
-  {
     "name": "johunsang/semble_rs",
     "url": "https://github.com/johunsang/semble_rs",
     "description": "Fast, AI-agent-native code search in Rust — hybrid BM25 + semantic, Tree-sitter AST chunking, dependency & impact analysis. Drop-in replacement for grep/cat/read/ls in Claude Code, Codex, Cursor, Aider, OpenHands.",
@@ -701,16 +672,53 @@
     "name": "c4pt0r/pie",
     "url": "https://github.com/c4pt0r/pie",
     "description": "Rust port of the pi agent harness — coding agent + LLM runtime stack",
-    "stars": 59,
-    "forks": 3,
+    "stars": 66,
+    "forks": 4,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-21T04:44:04Z",
-    "updated_at": "2026-05-24T05:56:27Z",
+    "updated_at": "2026-05-25T06:20:01Z",
     "owner": {
       "name": "c4pt0r",
       "avatar_url": "https://avatars.githubusercontent.com/u/773853?v=4"
+    }
+  },
+  {
+    "name": "elliotgao2/handsets",
+    "url": "https://github.com/elliotgao2/handsets",
+    "description": "A high-performance Android control CLI, built for agents and humans",
+    "stars": 66,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "ai-agents",
+      "android",
+      "cli",
+      "rust"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-21T06:33:33Z",
+    "updated_at": "2026-05-25T06:13:38Z",
+    "owner": {
+      "name": "elliotgao2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15275188?v=4"
+    }
+  },
+  {
+    "name": "cesarferreira/tmux.expose",
+    "url": "https://github.com/cesarferreira/tmux.expose",
+    "description": "Mission Control-style tmux session switcher with live terminal previews",
+    "stars": 61,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-19T17:49:56Z",
+    "updated_at": "2026-05-25T03:23:45Z",
+    "owner": {
+      "name": "cesarferreira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/277426?v=4"
     }
   },
   {
@@ -730,19 +738,19 @@
     }
   },
   {
-    "name": "cesarferreira/tmux.expose",
-    "url": "https://github.com/cesarferreira/tmux.expose",
-    "description": "Mission Control-style tmux session switcher with live terminal previews",
-    "stars": 56,
-    "forks": 0,
+    "name": "ZyphrZero/kiro.rs",
+    "url": "https://github.com/ZyphrZero/kiro.rs",
+    "description": "A Kiro Client in Rust",
+    "stars": 57,
+    "forks": 8,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-05-19T17:49:56Z",
-    "updated_at": "2026-05-23T10:21:45Z",
+    "created_at": "2026-05-21T02:44:07Z",
+    "updated_at": "2026-05-25T06:15:34Z",
     "owner": {
-      "name": "cesarferreira",
-      "avatar_url": "https://avatars.githubusercontent.com/u/277426?v=4"
+      "name": "ZyphrZero",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133507172?v=4"
     }
   },
   {
@@ -778,6 +786,26 @@
     }
   },
   {
+    "name": "restsend/pipa",
+    "url": "https://github.com/restsend/pipa",
+    "description": "A fast, minimal ES2023 JavaScript runtime built in Rust.",
+    "stars": 50,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "javascript",
+      "rust-library",
+      "script-engine"
+    ],
+    "license": "No license",
+    "created_at": "2026-05-20T06:20:50Z",
+    "updated_at": "2026-05-24T23:53:57Z",
+    "owner": {
+      "name": "restsend",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82350773?v=4"
+    }
+  },
+  {
     "name": "Devolutions/psign",
     "url": "https://github.com/Devolutions/psign",
     "description": "Portable code signing tool",
@@ -789,7 +817,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-20T12:48:26Z",
-    "updated_at": "2026-05-24T02:51:15Z",
+    "updated_at": "2026-05-24T10:42:29Z",
     "owner": {
       "name": "Devolutions",
       "avatar_url": "https://avatars.githubusercontent.com/u/6097418?v=4"
@@ -857,26 +885,6 @@
     }
   },
   {
-    "name": "restsend/pipa",
-    "url": "https://github.com/restsend/pipa",
-    "description": "A fast, minimal ES2023 JavaScript runtime built in Rust.",
-    "stars": 49,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "javascript",
-      "rust-library",
-      "script-engine"
-    ],
-    "license": "No license",
-    "created_at": "2026-05-20T06:20:50Z",
-    "updated_at": "2026-05-24T02:22:52Z",
-    "owner": {
-      "name": "restsend",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82350773?v=4"
-    }
-  },
-  {
     "name": "facebookresearch/sira",
     "url": "https://github.com/facebookresearch/sira",
     "description": "Superintelligent Retrieval Agent (SIRA)",
@@ -890,41 +898,6 @@
     "owner": {
       "name": "facebookresearch",
       "avatar_url": "https://avatars.githubusercontent.com/u/16943930?v=4"
-    }
-  },
-  {
-    "name": "ruuda/deptool",
-    "url": "https://github.com/ruuda/deptool",
-    "description": "A declarative configuration deployment tool",
-    "stars": 47,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "configuration-management",
-      "deployment"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-06T11:02:34Z",
-    "updated_at": "2026-05-10T18:37:59Z",
-    "owner": {
-      "name": "ruuda",
-      "avatar_url": "https://avatars.githubusercontent.com/u/506953?v=4"
-    }
-  },
-  {
-    "name": "ZyphrZero/kiro.rs",
-    "url": "https://github.com/ZyphrZero/kiro.rs",
-    "description": "A Kiro Client in Rust",
-    "stars": 46,
-    "forks": 7,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-21T02:44:07Z",
-    "updated_at": "2026-05-23T14:03:20Z",
-    "owner": {
-      "name": "ZyphrZero",
-      "avatar_url": "https://avatars.githubusercontent.com/u/133507172?v=4"
     }
   },
   {
@@ -991,49 +964,6 @@
     "owner": {
       "name": "sbhattap",
       "avatar_url": "https://avatars.githubusercontent.com/u/33515885?v=4"
-    }
-  },
-  {
-    "name": "kaezrr/steamer",
-    "url": "https://github.com/kaezrr/steamer",
-    "description": "A CLI tool to automatically download assets for your non-steam games.",
-    "stars": 43,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-05T17:41:23Z",
-    "updated_at": "2026-05-10T14:24:49Z",
-    "owner": {
-      "name": "kaezrr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/107052359?v=4"
-    }
-  },
-  {
-    "name": "mac119/ssh_proxy",
-    "url": "https://github.com/mac119/ssh_proxy",
-    "description": "🛡️ A high-performance SSH proxy gateway built in Rust — unified authentication, per-user access control (ACL), full session audit logging, and terminal replay. Secure your infrastructure without modifying target servers.",
-    "stars": 41,
-    "forks": 8,
-    "language": "Rust",
-    "topics": [
-      "access-control",
-      "audit-log",
-      "bastion-host",
-      "gateway",
-      "proxy",
-      "rust",
-      "security",
-      "session-recording",
-      "ssh",
-      "tokio"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-05T07:28:21Z",
-    "updated_at": "2026-05-10T17:09:20Z",
-    "owner": {
-      "name": "mac119",
-      "avatar_url": "https://avatars.githubusercontent.com/u/935574?v=4"
     }
   },
   {
@@ -1122,22 +1052,6 @@
     }
   },
   {
-    "name": "elliotgao2/handsets",
-    "url": "https://github.com/elliotgao2/handsets",
-    "description": "A high-performance Android control CLI, built for agents and humans",
-    "stars": 34,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-21T06:33:33Z",
-    "updated_at": "2026-05-24T05:55:36Z",
-    "owner": {
-      "name": "elliotgao2",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15275188?v=4"
-    }
-  },
-  {
     "name": "hunhee98/pluck",
     "url": "https://github.com/hunhee98/pluck",
     "description": "MCP-native code retrieval for AI agents — 84-88% fewer read tokens, BM25F + semantic search, AST chunks, session dedup",
@@ -1198,6 +1112,31 @@
     }
   },
   {
+    "name": "Yesh-02/psleep",
+    "url": "https://github.com/Yesh-02/psleep",
+    "description": "A tiny, fast CLI utility written in Rust that works just like sleep but shows a live progress bar. Supports human-friendly durations (psleep 1m30s), multiple animation styles (bar, spinner, dots, blocks), and is configurable via flags or environment variables. Never stare at a blank terminal wondering \"is this thing still going?\" again.",
+    "stars": 33,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "command-line",
+      "cross-platform",
+      "progress-bar",
+      "rust",
+      "sleep",
+      "terminal",
+      "unix-tools"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-20T04:04:43Z",
+    "updated_at": "2026-05-24T23:46:36Z",
+    "owner": {
+      "name": "Yesh-02",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6501990?v=4"
+    }
+  },
+  {
     "name": "mirkobozzetto/flowflow",
     "url": "https://github.com/mirkobozzetto/flowflow",
     "description": "Mobile voice notes app — 100% Rust, Dioxus iOS, local-first (SQLite + LanceDB + RIG)",
@@ -1214,6 +1153,22 @@
     }
   },
   {
+    "name": "Moore-developers/grok-cli",
+    "url": "https://github.com/Moore-developers/grok-cli",
+    "description": "OAuth-first CLI for Grok and xAI capabilities",
+    "stars": 32,
+    "forks": 9,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-20T16:35:04Z",
+    "updated_at": "2026-05-24T16:37:45Z",
+    "owner": {
+      "name": "Moore-developers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/189973447?v=4"
+    }
+  },
+  {
     "name": "ccpopy/cc-sessions",
     "url": "https://github.com/ccpopy/cc-sessions",
     "description": "提供codex不同提供商会话修复，支持会话备份以及会话分支，支持claude会话管理，以及统计",
@@ -1227,6 +1182,45 @@
     "owner": {
       "name": "ccpopy",
       "avatar_url": "https://avatars.githubusercontent.com/u/169009560?v=4"
+    }
+  },
+  {
+    "name": "hl9565/CodexPilot",
+    "url": "https://github.com/hl9565/CodexPilot",
+    "description": "让 Codex 的本地使用更可控、更顺手。A local companion for a more controllable and comfortable Codex experience.",
+    "stars": 31,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "codex",
+      "codex-app",
+      "desktop-app",
+      "rust",
+      "session-management",
+      "tauri"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-20T02:12:20Z",
+    "updated_at": "2026-05-25T06:13:36Z",
+    "owner": {
+      "name": "hl9565",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34439315?v=4"
+    }
+  },
+  {
+    "name": "thomasjohn77/solana-escrow",
+    "url": "https://github.com/thomasjohn77/solana-escrow",
+    "description": null,
+    "stars": 31,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-20T11:19:26Z",
+    "updated_at": "2026-05-24T14:09:12Z",
+    "owner": {
+      "name": "thomasjohn77",
+      "avatar_url": "https://avatars.githubusercontent.com/u/263609140?v=4"
     }
   },
   {
@@ -1275,51 +1269,19 @@
     }
   },
   {
-    "name": "hl9565/CodexPilot",
-    "url": "https://github.com/hl9565/CodexPilot",
-    "description": "让 Codex 的本地使用更可控、更顺手。A local companion for a more controllable and comfortable Codex experience.",
+    "name": "killop/codedb-mcp",
+    "url": "https://github.com/killop/codedb-mcp",
+    "description": "fast code databse mcp",
     "stars": 30,
-    "forks": 2,
+    "forks": 3,
     "language": "Rust",
-    "topics": [
-      "codex",
-      "codex-app",
-      "desktop-app",
-      "rust",
-      "session-management",
-      "tauri"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-20T02:12:20Z",
-    "updated_at": "2026-05-23T14:59:15Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-22T08:54:31Z",
+    "updated_at": "2026-05-25T05:50:45Z",
     "owner": {
-      "name": "hl9565",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34439315?v=4"
-    }
-  },
-  {
-    "name": "Yesh-02/psleep",
-    "url": "https://github.com/Yesh-02/psleep",
-    "description": "A tiny, fast CLI utility written in Rust that works just like sleep but shows a live progress bar. Supports human-friendly durations (psleep 1m30s), multiple animation styles (bar, spinner, dots, blocks), and is configurable via flags or environment variables. Never stare at a blank terminal wondering \"is this thing still going?\" again.",
-    "stars": 30,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "command-line",
-      "cross-platform",
-      "progress-bar",
-      "rust",
-      "sleep",
-      "terminal",
-      "unix-tools"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-20T04:04:43Z",
-    "updated_at": "2026-05-24T01:58:46Z",
-    "owner": {
-      "name": "Yesh-02",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6501990?v=4"
+      "name": "killop",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4494721?v=4"
     }
   },
   {
@@ -1424,22 +1386,6 @@
     }
   },
   {
-    "name": "Moore-developers/grok-cli",
-    "url": "https://github.com/Moore-developers/grok-cli",
-    "description": "OAuth-first CLI for Grok and xAI capabilities",
-    "stars": 28,
-    "forks": 7,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-20T16:35:04Z",
-    "updated_at": "2026-05-24T02:13:56Z",
-    "owner": {
-      "name": "Moore-developers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/189973447?v=4"
-    }
-  },
-  {
     "name": "hellangleZ/zspark",
     "url": "https://github.com/hellangleZ/zspark",
     "description": "codex shell",
@@ -1474,6 +1420,22 @@
     "owner": {
       "name": "tivris",
       "avatar_url": "https://avatars.githubusercontent.com/u/163727302?v=4"
+    }
+  },
+  {
+    "name": "akitaonrails/ai-usagebar",
+    "url": "https://github.com/akitaonrails/ai-usagebar",
+    "description": "Rust-based waybar widget to monitor status of Claude, GPT, GLM, OpenRouter plans/credits - inspired by claudebar/codexbar",
+    "stars": 26,
+    "forks": 7,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-24T00:29:51Z",
+    "updated_at": "2026-05-25T03:17:02Z",
+    "owner": {
+      "name": "akitaonrails",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2840?v=4"
     }
   },
   {
@@ -1533,6 +1495,22 @@
     }
   },
   {
+    "name": "jake-stewart/tuie",
+    "url": "https://github.com/jake-stewart/tuie",
+    "description": "A rich, performant TUI library for Rust.",
+    "stars": 25,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-24T16:00:45Z",
+    "updated_at": "2026-05-25T06:16:01Z",
+    "owner": {
+      "name": "jake-stewart",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83528263?v=4"
+    }
+  },
+  {
     "name": "GNITOAHC/remote-ssh.nvim",
     "url": "https://github.com/GNITOAHC/remote-ssh.nvim",
     "description": "The effortless Neovim remote development experience.",
@@ -1545,43 +1523,23 @@
     ],
     "license": "No license",
     "created_at": "2026-05-19T09:34:22Z",
-    "updated_at": "2026-05-23T21:43:57Z",
+    "updated_at": "2026-05-24T16:16:17Z",
     "owner": {
       "name": "GNITOAHC",
       "avatar_url": "https://avatars.githubusercontent.com/u/91186819?v=4"
     }
   },
   {
-    "name": "marlkiller/rust-desk-light",
-    "url": "https://github.com/marlkiller/rust-desk-light",
-    "description": "Lightweight Rust remote administration toolkit with GUI-based device management, remote desktop, file transfer, terminal access, camera viewing, and local-first control features.",
-    "stars": 25,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "rat",
-      "remote-admin-trojan",
-      "rust"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-13T23:33:07Z",
-    "updated_at": "2026-05-19T05:50:20Z",
-    "owner": {
-      "name": "marlkiller",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25897113?v=4"
-    }
-  },
-  {
     "name": "pashpashpash/schwab-cli",
     "url": "https://github.com/pashpashpash/schwab-cli",
     "description": "agent first cli with full schwab api parity",
-    "stars": 24,
+    "stars": 25,
     "forks": 3,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-21T14:39:07Z",
-    "updated_at": "2026-05-22T17:47:17Z",
+    "updated_at": "2026-05-24T17:04:52Z",
     "owner": {
       "name": "pashpashpash",
       "avatar_url": "https://avatars.githubusercontent.com/u/20898225?v=4"
@@ -1591,8 +1549,8 @@
     "name": "NiiightmareXD/golab",
     "url": "https://github.com/NiiightmareXD/golab",
     "description": "Goofy, cartoonish, open-source multiplayer shooter written in Rust with Bevy 👻",
-    "stars": 24,
-    "forks": 3,
+    "stars": 25,
+    "forks": 4,
     "language": "Rust",
     "topics": [
       "3d",
@@ -1617,42 +1575,78 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-21T07:17:56Z",
-    "updated_at": "2026-05-23T09:05:03Z",
+    "updated_at": "2026-05-25T02:28:24Z",
     "owner": {
       "name": "NiiightmareXD",
       "avatar_url": "https://avatars.githubusercontent.com/u/90005793?v=4"
     }
   },
   {
-    "name": "killop/codedb-mcp",
-    "url": "https://github.com/killop/codedb-mcp",
-    "description": "fast code databse mcp",
-    "stars": 24,
+    "name": "marlkiller/rust-desk-light",
+    "url": "https://github.com/marlkiller/rust-desk-light",
+    "description": "Lightweight Rust remote administration toolkit with GUI-based device management, remote desktop, file transfer, terminal access, camera viewing, and local-first control features.",
+    "stars": 25,
     "forks": 3,
     "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-22T08:54:31Z",
-    "updated_at": "2026-05-24T02:20:27Z",
+    "topics": [
+      "rat",
+      "remote-admin-trojan",
+      "rust"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-13T23:33:07Z",
+    "updated_at": "2026-05-19T05:50:20Z",
     "owner": {
-      "name": "killop",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4494721?v=4"
+      "name": "marlkiller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25897113?v=4"
     }
   },
   {
-    "name": "thomasjohn77/solana-escrow",
-    "url": "https://github.com/thomasjohn77/solana-escrow",
-    "description": null,
+    "name": "TX230/winproc-tui",
+    "url": "https://github.com/TX230/winproc-tui",
+    "description": "Rust/Ratatui TUI for Windows 11 process investigation with live metrics, time-series graphs, A/B comparison, recording.",
     "stars": 24,
-    "forks": 0,
+    "forks": 4,
     "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-20T11:19:26Z",
-    "updated_at": "2026-05-23T17:01:32Z",
+    "topics": [
+      "monitoring-tool",
+      "ratatui-rs",
+      "rust",
+      "system-monitoring"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-24T08:41:28Z",
+    "updated_at": "2026-05-25T06:21:44Z",
     "owner": {
-      "name": "thomasjohn77",
-      "avatar_url": "https://avatars.githubusercontent.com/u/263609140?v=4"
+      "name": "TX230",
+      "avatar_url": "https://avatars.githubusercontent.com/u/129147498?v=4"
+    }
+  },
+  {
+    "name": "IvanWng97/ascii-agents",
+    "url": "https://github.com/IvanWng97/ascii-agents",
+    "description": "Terminal pixel-art office for AI coding agents — watch your Claude Code sessions type, walk, and nap in a coworking lounge. Half-block rendering, A* pathfinding, per-tool monitor glow. Pure Rust, runs over SSH.",
+    "stars": 24,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "ai-agents",
+      "ascii-art",
+      "claude-code",
+      "cli",
+      "pixel-art",
+      "ratatui",
+      "rust",
+      "terminal",
+      "tui",
+      "visualization"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-21T06:05:19Z",
+    "updated_at": "2026-05-25T04:56:09Z",
+    "owner": {
+      "name": "IvanWng97",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39482599?v=4"
     }
   },
   {
@@ -1720,6 +1714,22 @@
     }
   },
   {
+    "name": "guozijn/agentd",
+    "url": "https://github.com/guozijn/agentd",
+    "description": "State Machine Daemon designed specifically to orchestrate and persist the state of AI agents",
+    "stars": 22,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-22T01:57:10Z",
+    "updated_at": "2026-05-25T05:26:24Z",
+    "owner": {
+      "name": "guozijn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26135520?v=4"
+    }
+  },
+  {
     "name": "ppXD/petpet",
     "url": "https://github.com/ppXD/petpet",
     "description": "A desktop pet that lives with you and grows alongside your AI work — every prompt is XP, every level a new form. 🥚→🦄🐒🦍",
@@ -1749,22 +1759,6 @@
     "owner": {
       "name": "originsec",
       "avatar_url": "https://avatars.githubusercontent.com/u/257582680?v=4"
-    }
-  },
-  {
-    "name": "guozijn/agentd",
-    "url": "https://github.com/guozijn/agentd",
-    "description": "State Machine Daemon designed specifically to orchestrate and persist the state of AI agents",
-    "stars": 21,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-22T01:57:10Z",
-    "updated_at": "2026-05-24T05:43:33Z",
-    "owner": {
-      "name": "guozijn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26135520?v=4"
     }
   },
   {
@@ -1813,6 +1807,44 @@
     "owner": {
       "name": "mitkox",
       "avatar_url": "https://avatars.githubusercontent.com/u/43349905?v=4"
+    }
+  },
+  {
+    "name": "hongmaple0820/maple-os",
+    "url": "https://github.com/hongmaple0820/maple-os",
+    "description": "MapleOS 不是又一个 AI Chat，不是又一个 AI IDE，不是又一个自动化工具。  它是一个 AI Operating System — 面向个人与团队的新一代智能工作站：  多 Agent 协作中枢 — 不是单 AI，而是 AI Team 工作流自动化编排 — Prompt + Tools + Logic 的融合系统 Local-first 本地优先 — 隐私与离线能力，数据永远属于你 可自我进化 — 系统越用越聪明，长期资产沉淀 Rust Runtime — 性能级 Agent OS，本地跑，云端跑，都能跑",
+    "stars": 20,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-21T06:37:26Z",
+    "updated_at": "2026-05-25T06:02:04Z",
+    "owner": {
+      "name": "hongmaple0820",
+      "avatar_url": "https://avatars.githubusercontent.com/u/163822263?v=4"
+    }
+  },
+  {
+    "name": "codeprakhar25/inspect",
+    "url": "https://github.com/codeprakhar25/inspect",
+    "description": "Get to know about commands before you execute them",
+    "stars": 20,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "commands",
+      "linux",
+      "macos",
+      "wsl2"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-21T18:11:06Z",
+    "updated_at": "2026-05-25T03:04:35Z",
+    "owner": {
+      "name": "codeprakhar25",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103585489?v=4"
     }
   },
   {
@@ -1923,6 +1955,38 @@
     "owner": {
       "name": "luizferreira-io",
       "avatar_url": "https://avatars.githubusercontent.com/u/37213257?v=4"
+    }
+  },
+  {
+    "name": "e10b/light",
+    "url": "https://github.com/e10b/light",
+    "description": null,
+    "stars": 18,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-22T12:42:35Z",
+    "updated_at": "2026-05-25T05:38:42Z",
+    "owner": {
+      "name": "e10b",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71327806?v=4"
+    }
+  },
+  {
+    "name": "codag-megalith/codag-drain",
+    "url": "https://github.com/codag-megalith/codag-drain",
+    "description": null,
+    "stars": 18,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-05-22T19:58:17Z",
+    "updated_at": "2026-05-25T06:18:51Z",
+    "owner": {
+      "name": "codag-megalith",
+      "avatar_url": "https://avatars.githubusercontent.com/u/257897986?v=4"
     }
   },
   {
@@ -2054,26 +2118,44 @@
     }
   },
   {
-    "name": "d-khomenko/clipboard-history-mcp",
-    "url": "https://github.com/d-khomenko/clipboard-history-mcp",
-    "description": "Type-aware, secret-safe clipboard history for Claude via MCP. Rust binary, macOS + Linux. Ships as .mcpb.",
-    "stars": 18,
-    "forks": 0,
+    "name": "nhodges/yt-dlv",
+    "url": "https://github.com/nhodges/yt-dlv",
+    "description": "A vibe-coded, feature-rich command-line audio/video downloader",
+    "stars": 17,
+    "forks": 1,
     "language": "Rust",
     "topics": [
-      "anthropic",
-      "claude",
-      "clipboard",
-      "macos",
-      "mcp",
-      "rust"
+      "cli",
+      "downloader",
+      "quickjs",
+      "rust",
+      "video",
+      "youtube",
+      "youtube-dl",
+      "yt-dlp"
     ],
-    "license": "MIT License",
-    "created_at": "2026-05-05T09:39:48Z",
-    "updated_at": "2026-05-10T18:13:34Z",
+    "license": "The Unlicense",
+    "created_at": "2026-05-23T10:04:36Z",
+    "updated_at": "2026-05-24T18:27:13Z",
     "owner": {
-      "name": "d-khomenko",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45741736?v=4"
+      "name": "nhodges",
+      "avatar_url": "https://avatars.githubusercontent.com/u/371516?v=4"
+    }
+  },
+  {
+    "name": "pop-os/cosmic-monitor",
+    "url": "https://github.com/pop-os/cosmic-monitor",
+    "description": "COSMIC System Monitor",
+    "stars": 17,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-05-23T02:36:27Z",
+    "updated_at": "2026-05-24T22:02:14Z",
+    "owner": {
+      "name": "pop-os",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33131755?v=4"
     }
   },
   {
@@ -2220,22 +2302,6 @@
     "owner": {
       "name": "theoxfaber",
       "avatar_url": "https://avatars.githubusercontent.com/u/167290171?v=4"
-    }
-  },
-  {
-    "name": "pop-os/cosmic-monitor",
-    "url": "https://github.com/pop-os/cosmic-monitor",
-    "description": "COSMIC System Monitor",
-    "stars": 15,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-05-23T02:36:27Z",
-    "updated_at": "2026-05-23T23:11:07Z",
-    "owner": {
-      "name": "pop-os",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33131755?v=4"
     }
   },
   {
@@ -2399,31 +2465,6 @@
     "owner": {
       "name": "RaCzKoViC",
       "avatar_url": "https://avatars.githubusercontent.com/u/68975492?v=4"
-    }
-  },
-  {
-    "name": "nhodges/yt-dlv",
-    "url": "https://github.com/nhodges/yt-dlv",
-    "description": "A vibe-coded, feature-rich command-line audio/video downloader",
-    "stars": 13,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "downloader",
-      "quickjs",
-      "rust",
-      "video",
-      "youtube",
-      "youtube-dl",
-      "yt-dlp"
-    ],
-    "license": "The Unlicense",
-    "created_at": "2026-05-23T10:04:36Z",
-    "updated_at": "2026-05-24T02:44:44Z",
-    "owner": {
-      "name": "nhodges",
-      "avatar_url": "https://avatars.githubusercontent.com/u/371516?v=4"
     }
   },
   {
