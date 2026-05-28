@@ -3,8 +3,8 @@
     "name": "perplexityai/bumblebee",
     "url": "https://github.com/perplexityai/bumblebee",
     "description": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
-    "stars": 3251,
-    "forks": 264,
+    "stars": 3638,
+    "forks": 307,
     "language": "Go",
     "topics": [
       "golang",
@@ -13,7 +13,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-05-20T18:11:37Z",
-    "updated_at": "2026-05-27T06:12:24Z",
+    "updated_at": "2026-05-28T05:47:13Z",
     "owner": {
       "name": "perplexityai",
       "avatar_url": "https://avatars.githubusercontent.com/u/185426709?v=4"
@@ -64,37 +64,16 @@
     }
   },
   {
-    "name": "xataio/xata",
-    "url": "https://github.com/xataio/xata",
-    "description": "Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero",
-    "stars": 835,
-    "forks": 41,
-    "language": "Go",
-    "topics": [
-      "branching",
-      "kubernetes",
-      "postgresql",
-      "scale-to-zero"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-04-15T08:49:42Z",
-    "updated_at": "2026-05-14T04:40:42Z",
-    "owner": {
-      "name": "xataio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74420131?v=4"
-    }
-  },
-  {
     "name": "ShahabSL/Skirk",
     "url": "https://github.com/ShahabSL/Skirk",
     "description": "Socks over Google Drive.",
-    "stars": 744,
-    "forks": 90,
+    "stars": 752,
+    "forks": 91,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-02T14:25:45Z",
-    "updated_at": "2026-05-27T06:01:28Z",
+    "updated_at": "2026-05-28T02:30:12Z",
     "owner": {
       "name": "ShahabSL",
       "avatar_url": "https://avatars.githubusercontent.com/u/122942441?v=4"
@@ -104,13 +83,13 @@
     "name": "ajavadinezhad/zyrln",
     "url": "https://github.com/ajavadinezhad/zyrln",
     "description": "Domain-fronting relay that routes traffic through Google infrastructure to bypass DPI-based censorship,  Android VPN    app + desktop proxy  https://t.me/z_yrln  | https://t.me/z_yrln_channel",
-    "stars": 701,
+    "stars": 703,
     "forks": 110,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-04T17:25:03Z",
-    "updated_at": "2026-05-26T18:57:41Z",
+    "updated_at": "2026-05-27T21:44:17Z",
     "owner": {
       "name": "ajavadinezhad",
       "avatar_url": "https://avatars.githubusercontent.com/u/23430715?v=4"
@@ -181,7 +160,7 @@
     "name": "regent-vcs/re_gent",
     "url": "https://github.com/regent-vcs/re_gent",
     "description": "Version-Control for AI coding agents.",
-    "stars": 623,
+    "stars": 630,
     "forks": 44,
     "language": "Go",
     "topics": [
@@ -194,7 +173,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-04-30T09:09:41Z",
-    "updated_at": "2026-05-27T02:18:42Z",
+    "updated_at": "2026-05-28T06:01:22Z",
     "owner": {
       "name": "regent-vcs",
       "avatar_url": "https://avatars.githubusercontent.com/u/280647561?v=4"
@@ -204,13 +183,13 @@
     "name": "openai/openai-cli",
     "url": "https://github.com/openai/openai-cli",
     "description": "Official CLI for the OpenAI API",
-    "stars": 616,
-    "forks": 26,
+    "stars": 619,
+    "forks": 27,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-05-01T16:40:05Z",
-    "updated_at": "2026-05-25T15:16:21Z",
+    "updated_at": "2026-05-28T03:13:20Z",
     "owner": {
       "name": "openai",
       "avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4"
@@ -233,6 +212,24 @@
     }
   },
   {
+    "name": "openclaw/crabbox",
+    "url": "https://github.com/openclaw/crabbox",
+    "description": "Crabbox: warm a box, sync the diff, run the suite.",
+    "stars": 535,
+    "forks": 61,
+    "language": "Go",
+    "topics": [
+      "remote-test-runner"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-04-30T14:31:48Z",
+    "updated_at": "2026-05-28T05:25:44Z",
+    "owner": {
+      "name": "openclaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/252820863?v=4"
+    }
+  },
+  {
     "name": "Willxup/cpa-usage-keeper",
     "url": "https://github.com/Willxup/cpa-usage-keeper",
     "description": "独立的 Cli-Proxy-API用量追踪与展示服务，内置 SQLite 持久化和 Dashboard / Standalone Cli-Proxy-API usage tracker with SQLite persistence and built-in dashboard.",
@@ -246,24 +243,6 @@
     "owner": {
       "name": "Willxup",
       "avatar_url": "https://avatars.githubusercontent.com/u/51990395?v=4"
-    }
-  },
-  {
-    "name": "openclaw/crabbox",
-    "url": "https://github.com/openclaw/crabbox",
-    "description": "Crabbox: warm a box, sync the diff, run the suite.",
-    "stars": 520,
-    "forks": 57,
-    "language": "Go",
-    "topics": [
-      "remote-test-runner"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-30T14:31:48Z",
-    "updated_at": "2026-05-27T05:54:14Z",
-    "owner": {
-      "name": "openclaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/252820863?v=4"
     }
   },
   {
@@ -297,7 +276,7 @@
     "name": "ThisIsDara/mhr-cfw-go",
     "url": "https://github.com/ThisIsDara/mhr-cfw-go",
     "description": "A local proxy that runs on your machine and forwards traffic through Google.",
-    "stars": 499,
+    "stars": 503,
     "forks": 50,
     "language": "Go",
     "topics": [
@@ -310,7 +289,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-04T04:24:15Z",
-    "updated_at": "2026-05-26T20:34:42Z",
+    "updated_at": "2026-05-28T03:08:27Z",
     "owner": {
       "name": "ThisIsDara",
       "avatar_url": "https://avatars.githubusercontent.com/u/93939156?v=4"
@@ -405,6 +384,22 @@
     }
   },
   {
+    "name": "agent-substrate/substrate",
+    "url": "https://github.com/agent-substrate/substrate",
+    "description": "Agent Substrate: the core system",
+    "stars": 325,
+    "forks": 61,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-13T19:02:38Z",
+    "updated_at": "2026-05-28T05:51:51Z",
+    "owner": {
+      "name": "agent-substrate",
+      "avatar_url": "https://avatars.githubusercontent.com/u/280516639?v=4"
+    }
+  },
+  {
     "name": "systalyze/utilyze",
     "url": "https://github.com/systalyze/utilyze",
     "description": null,
@@ -442,22 +437,6 @@
     "owner": {
       "name": "londek",
       "avatar_url": "https://avatars.githubusercontent.com/u/48859717?v=4"
-    }
-  },
-  {
-    "name": "agent-substrate/substrate",
-    "url": "https://github.com/agent-substrate/substrate",
-    "description": "Agent Substrate: the core system",
-    "stars": 305,
-    "forks": 58,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-13T19:02:38Z",
-    "updated_at": "2026-05-27T03:32:39Z",
-    "owner": {
-      "name": "agent-substrate",
-      "avatar_url": "https://avatars.githubusercontent.com/u/280516639?v=4"
     }
   },
   {
@@ -524,6 +503,46 @@
     }
   },
   {
+    "name": "boratanrikulu/gobee",
+    "url": "https://github.com/boratanrikulu/gobee",
+    "description": "Write your BPF programs in Go, not C. gobee transpiles a Go subset to BPF C and generates typed cilium/ebpf bindings.",
+    "stars": 260,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "bpf",
+      "cilium-ebpf",
+      "ebpf",
+      "golang",
+      "kernel",
+      "linux",
+      "transpiler"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-01T11:07:49Z",
+    "updated_at": "2026-05-28T00:47:14Z",
+    "owner": {
+      "name": "boratanrikulu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20258973?v=4"
+    }
+  },
+  {
+    "name": "tidwall/btype",
+    "url": "https://github.com/tidwall/btype",
+    "description": "B-tree based collection types for Go",
+    "stars": 259,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-10T13:52:32Z",
+    "updated_at": "2026-05-28T01:23:53Z",
+    "owner": {
+      "name": "tidwall",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1156077?v=4"
+    }
+  },
+  {
     "name": "jeremiah-masters/dlht",
     "url": "https://github.com/jeremiah-masters/dlht",
     "description": "High-performance, lock-free concurrent hash table in Go, based on DLHT, with cooperative resizing and cache-efficient buckets.",
@@ -546,22 +565,6 @@
     "owner": {
       "name": "jeremiah-masters",
       "avatar_url": "https://avatars.githubusercontent.com/u/168492100?v=4"
-    }
-  },
-  {
-    "name": "tidwall/btype",
-    "url": "https://github.com/tidwall/btype",
-    "description": "B-tree based collection types for Go",
-    "stars": 258,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-10T13:52:32Z",
-    "updated_at": "2026-05-27T02:56:01Z",
-    "owner": {
-      "name": "tidwall",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1156077?v=4"
     }
   },
   {
@@ -611,27 +614,19 @@
     }
   },
   {
-    "name": "boratanrikulu/gobee",
-    "url": "https://github.com/boratanrikulu/gobee",
-    "description": "Write your BPF programs in Go, not C. gobee transpiles a Go subset to BPF C and generates typed cilium/ebpf bindings.",
-    "stars": 243,
-    "forks": 1,
+    "name": "walkingddd/CPA-Helper",
+    "url": "https://github.com/walkingddd/CPA-Helper",
+    "description": "CPA-Helper 是面向 CLIProxyAPI 用户的本地自托管多用户管理面板，支持多用户独立 API Key、用量隔离统计、请求明细追踪、模型价格维护、可用模型查询、管理员账号管控与 Codex 账号巡检。",
+    "stars": 244,
+    "forks": 20,
     "language": "Go",
-    "topics": [
-      "bpf",
-      "cilium-ebpf",
-      "ebpf",
-      "golang",
-      "kernel",
-      "linux",
-      "transpiler"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-05-01T11:07:49Z",
-    "updated_at": "2026-05-27T05:00:54Z",
+    "created_at": "2026-05-13T09:27:53Z",
+    "updated_at": "2026-05-28T04:49:55Z",
     "owner": {
-      "name": "boratanrikulu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20258973?v=4"
+      "name": "walkingddd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80940444?v=4"
     }
   },
   {
@@ -664,6 +659,33 @@
     "owner": {
       "name": "rockorager",
       "avatar_url": "https://avatars.githubusercontent.com/u/476352?v=4"
+    }
+  },
+  {
+    "name": "usewhale/DeepSeek-Code-Whale",
+    "url": "https://github.com/usewhale/DeepSeek-Code-Whale",
+    "description": "Terminal AI coding agent built for DeepSeek. Features: MCP tool integration, Skills extension system, prefix-cache optimization for 97% live   hit   rate, 1M context window.",
+    "stars": 234,
+    "forks": 14,
+    "language": "Go",
+    "topics": [
+      "coding-agent",
+      "deepseek",
+      "deepseek-agent",
+      "deepseek-cli",
+      "deepseek-coding-agent",
+      "go",
+      "llm",
+      "mcp",
+      "skills",
+      "terminal"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-06T07:01:36Z",
+    "updated_at": "2026-05-28T05:35:23Z",
+    "owner": {
+      "name": "usewhale",
+      "avatar_url": "https://avatars.githubusercontent.com/u/282163618?v=4"
     }
   },
   {
@@ -731,30 +753,19 @@
     }
   },
   {
-    "name": "usewhale/DeepSeek-Code-Whale",
-    "url": "https://github.com/usewhale/DeepSeek-Code-Whale",
-    "description": "Terminal AI coding agent built for DeepSeek. Features: MCP tool integration, Skills extension system, prefix-cache optimization for 97% live   hit   rate, 1M context window.",
-    "stars": 228,
-    "forks": 14,
+    "name": "kenn-io/kata",
+    "url": "https://github.com/kenn-io/kata",
+    "description": "Local-first issue tracking for AI-assisted software work, with an agent-friendly CLI and human-facing TUI",
+    "stars": 227,
+    "forks": 13,
     "language": "Go",
-    "topics": [
-      "coding-agent",
-      "deepseek",
-      "deepseek-agent",
-      "deepseek-cli",
-      "deepseek-coding-agent",
-      "go",
-      "llm",
-      "mcp",
-      "skills",
-      "terminal"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-05-06T07:01:36Z",
-    "updated_at": "2026-05-27T05:23:28Z",
+    "created_at": "2026-04-30T01:44:15Z",
+    "updated_at": "2026-05-28T04:32:02Z",
     "owner": {
-      "name": "usewhale",
-      "avatar_url": "https://avatars.githubusercontent.com/u/282163618?v=4"
+      "name": "kenn-io",
+      "avatar_url": "https://avatars.githubusercontent.com/u/259885253?v=4"
     }
   },
   {
@@ -785,95 +796,27 @@
     }
   },
   {
-    "name": "walkingddd/CPA-Helper",
-    "url": "https://github.com/walkingddd/CPA-Helper",
-    "description": "CPA-Helper 是面向 CLIProxyAPI 用户的本地自托管多用户管理面板，支持多用户独立 API Key、用量隔离统计、请求明细追踪、模型价格维护、可用模型查询、管理员账号管控与 Codex 账号巡检。",
-    "stars": 224,
-    "forks": 19,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-13T09:27:53Z",
-    "updated_at": "2026-05-27T04:04:24Z",
-    "owner": {
-      "name": "walkingddd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/80940444?v=4"
-    }
-  },
-  {
     "name": "openai/openai-realtime-meeting-assistant",
     "url": "https://github.com/openai/openai-realtime-meeting-assistant",
     "description": "Example of using Realtime API as a meeting assistant to manage a Kanban Board",
-    "stars": 222,
-    "forks": 37,
+    "stars": 223,
+    "forks": 38,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-04-29T22:54:59Z",
-    "updated_at": "2026-05-27T03:46:21Z",
+    "updated_at": "2026-05-28T00:34:59Z",
     "owner": {
       "name": "openai",
       "avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4"
     }
   },
   {
-    "name": "kenn-io/kata",
-    "url": "https://github.com/kenn-io/kata",
-    "description": "Local-first issue tracking for AI-assisted software work, with an agent-friendly CLI and human-facing TUI",
-    "stars": 221,
-    "forks": 13,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-30T01:44:15Z",
-    "updated_at": "2026-05-26T21:24:59Z",
-    "owner": {
-      "name": "kenn-io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/259885253?v=4"
-    }
-  },
-  {
-    "name": "programmersd21/kairo",
-    "url": "https://github.com/programmersd21/kairo",
-    "description": "🤩 Kairo is a fast, keyboard-first terminal task manager in Go 🐹 with offline-first SQLite, Git sync 🔁, fuzzy search 🔍 & Lua plugins 🧩",
-    "stars": 215,
-    "forks": 17,
-    "language": "Go",
-    "topics": [
-      "bubbletea",
-      "command-palette",
-      "cross-platform",
-      "developer-tools",
-      "fuzzy-search",
-      "git",
-      "go",
-      "golang",
-      "lipgloss",
-      "lua",
-      "minimal-ui",
-      "offline",
-      "open-source",
-      "plugin-system",
-      "productivity",
-      "sqlite",
-      "task-manager",
-      "terminal",
-      "tui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-15T09:46:34Z",
-    "updated_at": "2026-05-13T18:48:46Z",
-    "owner": {
-      "name": "programmersd21",
-      "avatar_url": "https://avatars.githubusercontent.com/u/192335465?v=4"
-    }
-  },
-  {
     "name": "fswatcher/fswatcher",
     "url": "https://github.com/fswatcher/fswatcher",
     "description": "Cross-platform file system notifications for Go.",
-    "stars": 210,
-    "forks": 9,
+    "stars": 212,
+    "forks": 10,
     "language": "Go",
     "topics": [
       "file-watcher",
@@ -888,7 +831,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-06T08:16:29Z",
-    "updated_at": "2026-05-26T04:55:39Z",
+    "updated_at": "2026-05-27T21:42:33Z",
     "owner": {
       "name": "fswatcher",
       "avatar_url": "https://avatars.githubusercontent.com/u/283655578?v=4"
@@ -937,32 +880,16 @@
     }
   },
   {
-    "name": "TheAirBlow/Turnable",
-    "url": "https://github.com/TheAirBlow/Turnable",
-    "description": "VPN core for stealthy tunneling through TURN or via SFU",
-    "stars": 187,
-    "forks": 7,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-04-15T11:31:57Z",
-    "updated_at": "2026-05-13T10:47:07Z",
-    "owner": {
-      "name": "TheAirBlow",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68467762?v=4"
-    }
-  },
-  {
     "name": "DEEIX-AI/DEEIX-Chat",
     "url": "https://github.com/DEEIX-AI/DEEIX-Chat",
     "description": "An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations.",
-    "stars": 166,
-    "forks": 21,
+    "stars": 175,
+    "forks": 22,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-05-21T08:57:01Z",
-    "updated_at": "2026-05-26T22:18:13Z",
+    "updated_at": "2026-05-28T04:50:59Z",
     "owner": {
       "name": "DEEIX-AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/282221413?v=4"
@@ -1009,26 +936,40 @@
     }
   },
   {
-    "name": "denuitt1/mhr-cfw-go",
-    "url": "https://github.com/denuitt1/mhr-cfw-go",
-    "description": "Go port of https://github.com/denuitt1/mhr-cfw. A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI.",
-    "stars": 153,
-    "forks": 9,
+    "name": "officecli/officedex",
+    "url": "https://github.com/officecli/officedex",
+    "description": "OfficeDex is the first Al-Native VibeOfficing platform  for documents, slides, and spreadsheets",
+    "stars": 157,
+    "forks": 32,
     "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-01T15:46:05Z",
-    "updated_at": "2026-05-26T16:52:19Z",
+    "topics": [
+      "ai",
+      "desktop-app",
+      "document-generation",
+      "docx",
+      "golang",
+      "notion",
+      "office",
+      "officedex",
+      "pptx",
+      "react",
+      "typescript",
+      "wails",
+      "xlsx"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-05-18T03:04:37Z",
+    "updated_at": "2026-05-28T05:03:25Z",
     "owner": {
-      "name": "denuitt1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/279854002?v=4"
+      "name": "officecli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272195876?v=4"
     }
   },
   {
     "name": "ngaut/agent-git-service",
     "url": "https://github.com/ngaut/agent-git-service",
     "description": "Reimplement GitHub for Agents.",
-    "stars": 151,
+    "stars": 156,
     "forks": 4,
     "language": "Go",
     "topics": [
@@ -1037,10 +978,26 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-05-09T04:46:31Z",
-    "updated_at": "2026-05-27T03:14:08Z",
+    "updated_at": "2026-05-28T04:10:38Z",
     "owner": {
       "name": "ngaut",
       "avatar_url": "https://avatars.githubusercontent.com/u/878009?v=4"
+    }
+  },
+  {
+    "name": "denuitt1/mhr-cfw-go",
+    "url": "https://github.com/denuitt1/mhr-cfw-go",
+    "description": "Go port of https://github.com/denuitt1/mhr-cfw. A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI.",
+    "stars": 154,
+    "forks": 9,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-01T15:46:05Z",
+    "updated_at": "2026-05-27T06:14:19Z",
+    "owner": {
+      "name": "denuitt1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279854002?v=4"
     }
   },
   {
@@ -1057,6 +1014,28 @@
     "owner": {
       "name": "vadimsemenykv",
       "avatar_url": "https://avatars.githubusercontent.com/u/8122660?v=4"
+    }
+  },
+  {
+    "name": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "description": "Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "stars": 149,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "agent",
+      "code-review",
+      "code-review-assistant",
+      "harness",
+      "repository-level-context"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-18T02:16:36Z",
+    "updated_at": "2026-05-28T06:02:44Z",
+    "owner": {
+      "name": "alibaba",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4"
     }
   },
   {
@@ -1092,33 +1071,19 @@
     }
   },
   {
-    "name": "officecli/officedex",
-    "url": "https://github.com/officecli/officedex",
-    "description": "OfficeDex is the first Al-Native VibeOfficing platform  for documents, slides, and spreadsheets",
-    "stars": 144,
-    "forks": 30,
+    "name": "MiChongs/karpov-gateway",
+    "url": "https://github.com/MiChongs/karpov-gateway",
+    "description": "Karpov Gateway — REST API gateway + Next.js console. Go (Gin+gRPC) + PostgreSQL + Redis + OAuth2 (Linux.do) + TOTP 2FA + encrypted credential pool",
+    "stars": 145,
+    "forks": 24,
     "language": "Go",
-    "topics": [
-      "ai",
-      "desktop-app",
-      "document-generation",
-      "docx",
-      "golang",
-      "notion",
-      "office",
-      "officedex",
-      "pptx",
-      "react",
-      "typescript",
-      "wails",
-      "xlsx"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-05-18T03:04:37Z",
-    "updated_at": "2026-05-27T05:26:54Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-04T06:32:38Z",
+    "updated_at": "2026-05-28T03:42:17Z",
     "owner": {
-      "name": "officecli",
-      "avatar_url": "https://avatars.githubusercontent.com/u/272195876?v=4"
+      "name": "MiChongs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77006751?v=4"
     }
   },
   {
@@ -1170,27 +1135,11 @@
     }
   },
   {
-    "name": "MiChongs/karpov-gateway",
-    "url": "https://github.com/MiChongs/karpov-gateway",
-    "description": "Karpov Gateway — REST API gateway + Next.js console. Go (Gin+gRPC) + PostgreSQL + Redis + OAuth2 (Linux.do) + TOTP 2FA + encrypted credential pool",
-    "stars": 142,
-    "forks": 24,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-04T06:32:38Z",
-    "updated_at": "2026-05-27T01:48:27Z",
-    "owner": {
-      "name": "MiChongs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/77006751?v=4"
-    }
-  },
-  {
     "name": "kulikov0/whitelist-bypass-iran",
     "url": "https://github.com/kulikov0/whitelist-bypass-iran",
     "description": null,
     "stars": 141,
-    "forks": 34,
+    "forks": 35,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
@@ -1231,48 +1180,23 @@
     "name": "unclebob/Acceptance-Pipeline-Specification",
     "url": "https://github.com/unclebob/Acceptance-Pipeline-Specification",
     "description": "Portable acceptance pipeline specification",
-    "stars": 134,
+    "stars": 135,
     "forks": 7,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-05-13T18:20:32Z",
-    "updated_at": "2026-05-26T14:21:35Z",
+    "updated_at": "2026-05-28T03:04:08Z",
     "owner": {
       "name": "unclebob",
       "avatar_url": "https://avatars.githubusercontent.com/u/36901?v=4"
     }
   },
   {
-    "name": "ridgelinecyberdefence/vanguard",
-    "url": "https://github.com/ridgelinecyberdefence/vanguard",
-    "description": "Cross-platform incident response toolkit. 28 pre-built use cases, single binary, zero install. Memory, disk, network, and cloud collection with automated timeline generation.",
-    "stars": 128,
-    "forks": 5,
-    "language": "Go",
-    "topics": [
-      "blue-team",
-      "cybersecurity",
-      "dfir",
-      "forensics",
-      "incident-response-management",
-      "memory-forensics",
-      "threat-hunting",
-      "velociraptor"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-03T12:27:13Z",
-    "updated_at": "2026-05-24T12:43:34Z",
-    "owner": {
-      "name": "ridgelinecyberdefence",
-      "avatar_url": "https://avatars.githubusercontent.com/u/252557331?v=4"
-    }
-  },
-  {
     "name": "venkatkrishna07/mkdev",
     "url": "https://github.com/venkatkrishna07/mkdev",
     "description": "Trusted localhost HTTPS — local CA, /etc/hosts, mDNS LAN sharing, reverse proxy. Maps https://name.local →    localhost:port",
-    "stars": 128,
+    "stars": 130,
     "forks": 15,
     "language": "Go",
     "topics": [
@@ -1288,17 +1212,42 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-12T06:28:18Z",
-    "updated_at": "2026-05-26T02:25:53Z",
+    "updated_at": "2026-05-27T18:13:07Z",
     "owner": {
       "name": "venkatkrishna07",
       "avatar_url": "https://avatars.githubusercontent.com/u/40173356?v=4"
     }
   },
   {
+    "name": "ridgelinecyberdefence/vanguard",
+    "url": "https://github.com/ridgelinecyberdefence/vanguard",
+    "description": "Cross-platform incident response toolkit. 28 pre-built use cases, single binary, zero install. Memory, disk, network, and cloud collection with automated timeline generation.",
+    "stars": 129,
+    "forks": 6,
+    "language": "Go",
+    "topics": [
+      "blue-team",
+      "cybersecurity",
+      "dfir",
+      "forensics",
+      "incident-response-management",
+      "memory-forensics",
+      "threat-hunting",
+      "velociraptor"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-03T12:27:13Z",
+    "updated_at": "2026-05-27T21:07:09Z",
+    "owner": {
+      "name": "ridgelinecyberdefence",
+      "avatar_url": "https://avatars.githubusercontent.com/u/252557331?v=4"
+    }
+  },
+  {
     "name": "aymanhs/nanotdb",
     "url": "https://github.com/aymanhs/nanotdb",
     "description": "Single-binary observability, time-series database, and built-in dashboard for Raspberry Pi, edge devices, and local metrics.",
-    "stars": 118,
+    "stars": 121,
     "forks": 2,
     "language": "Go",
     "topics": [
@@ -1310,7 +1259,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-14T06:00:30Z",
-    "updated_at": "2026-05-25T04:47:36Z",
+    "updated_at": "2026-05-27T15:31:07Z",
     "owner": {
       "name": "aymanhs",
       "avatar_url": "https://avatars.githubusercontent.com/u/18005165?v=4"
