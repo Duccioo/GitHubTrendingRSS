@@ -135,8 +135,8 @@
     "name": "AmmarkoV/SAM3DBody-cpp",
     "url": "https://github.com/AmmarkoV/SAM3DBody-cpp",
     "description": "Real-time 3D full-body reconstruction from a single camera, Multiperson BVH output, Pure C++ runtime, ONNX + ggml, 70-joint skeleton with hands.",
-    "stars": 296,
-    "forks": 38,
+    "stars": 347,
+    "forks": 42,
     "language": "C",
     "topics": [
       "3d-human-pose",
@@ -157,7 +157,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-24T08:12:55Z",
-    "updated_at": "2026-05-29T06:02:24Z",
+    "updated_at": "2026-05-30T05:17:38Z",
     "owner": {
       "name": "AmmarkoV",
       "avatar_url": "https://avatars.githubusercontent.com/u/97630?v=4"
@@ -253,13 +253,13 @@
     "name": "Irfanlesnar/PS2-Launcher",
     "url": "https://github.com/Irfanlesnar/PS2-Launcher",
     "description": "A modern PlayStation 2 launcher based on Open PS2 Loader with a redesigned interface, visual improvements, cover art support, and enhanced browsing experience.",
-    "stars": 88,
+    "stars": 89,
     "forks": 3,
     "language": "C",
     "topics": [],
     "license": "Academic Free License v3.0",
     "created_at": "2026-05-24T18:24:53Z",
-    "updated_at": "2026-05-28T16:42:48Z",
+    "updated_at": "2026-05-29T22:25:30Z",
     "owner": {
       "name": "Irfanlesnar",
       "avatar_url": "https://avatars.githubusercontent.com/u/48024052?v=4"
@@ -269,7 +269,7 @@
     "name": "X-3306/Project-Onyx",
     "url": "https://github.com/X-3306/Project-Onyx",
     "description": "Advanced EDR Evasion via AI Telemetry Spoofing & WASM Sandboxing. Project Onyx is a PoC Red Team pipeline designed to demonstrate advanced evasion techniques against modern EDR systems. It shifts away from traditional signature-based obfuscation towards behavioral camouflage and strict environmental keying.",
-    "stars": 87,
+    "stars": 89,
     "forks": 11,
     "language": "C",
     "topics": [
@@ -294,7 +294,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-05-24T20:14:02Z",
-    "updated_at": "2026-05-29T02:05:53Z",
+    "updated_at": "2026-05-29T12:32:13Z",
     "owner": {
       "name": "X-3306",
       "avatar_url": "https://avatars.githubusercontent.com/u/75887512?v=4"
@@ -304,13 +304,13 @@
     "name": "nfzerox/NanoApps",
     "url": "https://github.com/nfzerox/NanoApps",
     "description": "NanoApps: Run custom homebrew apps on iPod nano 7th generation. Early developer preview for hobbyists and tinkerers. Try Paint, Notes, WAV Player, and Homebrew Launcher on nano today.",
-    "stars": 87,
+    "stars": 88,
     "forks": 2,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-24T22:08:15Z",
-    "updated_at": "2026-05-28T18:09:03Z",
+    "updated_at": "2026-05-29T19:33:29Z",
     "owner": {
       "name": "nfzerox",
       "avatar_url": "https://avatars.githubusercontent.com/u/186503464?v=4"
@@ -333,19 +333,25 @@
     }
   },
   {
-    "name": "maxbrito500/esp32-c5-deauth",
-    "url": "https://github.com/maxbrito500/esp32-c5-deauth",
-    "description": "A deauth with nuker for 2.4Ghz and 5Ghz controlled by BLE with Android app",
-    "stars": 56,
-    "forks": 6,
+    "name": "redteamfortress/PPLShade",
+    "url": "https://github.com/redteamfortress/PPLShade",
+    "description": "BYOVD tool for manipulating Windows Protected Process Light (PPL) protection at the kernel level.",
+    "stars": 53,
+    "forks": 15,
     "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-05-10T20:19:04Z",
-    "updated_at": "2026-05-15T15:48:04Z",
+    "topics": [
+      "byovd",
+      "edr",
+      "edr-bypass",
+      "edr-evasion",
+      "kernel-driver"
+    ],
+    "license": "No license",
+    "created_at": "2026-05-25T09:10:17Z",
+    "updated_at": "2026-05-30T04:36:42Z",
     "owner": {
-      "name": "maxbrito500",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49025386?v=4"
+      "name": "redteamfortress",
+      "avatar_url": "https://avatars.githubusercontent.com/u/285915761?v=4"
     }
   },
   {
@@ -365,28 +371,6 @@
     }
   },
   {
-    "name": "redteamfortress/PPLShade",
-    "url": "https://github.com/redteamfortress/PPLShade",
-    "description": "BYOVD tool for manipulating Windows Protected Process Light (PPL) protection at the kernel level.",
-    "stars": 50,
-    "forks": 14,
-    "language": "C",
-    "topics": [
-      "byovd",
-      "edr",
-      "edr-bypass",
-      "edr-evasion",
-      "kernel-driver"
-    ],
-    "license": "No license",
-    "created_at": "2026-05-25T09:10:17Z",
-    "updated_at": "2026-05-29T04:52:59Z",
-    "owner": {
-      "name": "redteamfortress",
-      "avatar_url": "https://avatars.githubusercontent.com/u/285915761?v=4"
-    }
-  },
-  {
     "name": "jakobfriedl/usb-monitor-bof",
     "url": "https://github.com/jakobfriedl/usb-monitor-bof",
     "description": "Async BOF that monitors USB device connect/disconnect events, reports device information and performs actions on connected USB storage volumes.",
@@ -403,32 +387,16 @@
     }
   },
   {
-    "name": "maddiedreese/gbc-transformer",
-    "url": "https://github.com/maddiedreese/gbc-transformer",
-    "description": null,
-    "stars": 47,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-10T03:57:20Z",
-    "updated_at": "2026-05-15T15:52:40Z",
-    "owner": {
-      "name": "maddiedreese",
-      "avatar_url": "https://avatars.githubusercontent.com/u/217513513?v=4"
-    }
-  },
-  {
     "name": "mntorankusu/N64-SwapDumper",
     "url": "https://github.com/mntorankusu/N64-SwapDumper",
     "description": "Cartridge dumper for N64 games, requiring only a flash cart.",
-    "stars": 40,
+    "stars": 41,
     "forks": 1,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-05-24T18:03:18Z",
-    "updated_at": "2026-05-29T03:09:09Z",
+    "updated_at": "2026-05-29T21:04:42Z",
     "owner": {
       "name": "mntorankusu",
       "avatar_url": "https://avatars.githubusercontent.com/u/13548364?v=4"
@@ -471,45 +439,16 @@
     }
   },
   {
-    "name": "kavishka-dot/libminerva",
-    "url": "https://github.com/kavishka-dot/libminerva",
-    "description": "MINERVA - Minimal Inference Engine for Robust, Verifiable, and Authenticated ML. Encrypted, integrity-verified neural network inference for MCUs down to ATmega328P.",
-    "stars": 39,
-    "forks": 3,
-    "language": "C",
-    "topics": [
-      "arduino",
-      "atmega",
-      "avr",
-      "c",
-      "embedded-ml",
-      "inference-engine",
-      "iot",
-      "machine-learning",
-      "microcontroller",
-      "neural-network",
-      "security",
-      "tiny-ml"
-    ],
-    "license": "No license",
-    "created_at": "2026-05-10T12:17:14Z",
-    "updated_at": "2026-05-16T05:08:24Z",
-    "owner": {
-      "name": "kavishka-dot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82282978?v=4"
-    }
-  },
-  {
     "name": "satchfunky/CVE-2026-41096-POC",
     "url": "https://github.com/satchfunky/CVE-2026-41096-POC",
     "description": "windows api bug",
-    "stars": 37,
+    "stars": 38,
     "forks": 7,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-05-24T00:46:09Z",
-    "updated_at": "2026-05-27T12:43:06Z",
+    "updated_at": "2026-05-30T04:53:19Z",
     "owner": {
       "name": "satchfunky",
       "avatar_url": "https://avatars.githubusercontent.com/u/287332190?v=4"
@@ -551,13 +490,13 @@
     "name": "illusionyy/ps5-fw-spoof",
     "url": "https://github.com/illusionyy/ps5-fw-spoof",
     "description": "Patch PS4 SDK + PS5 Update version in kernel data to `99.99` without hardcoded offsets.",
-    "stars": 32,
+    "stars": 35,
     "forks": 2,
     "language": "C",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-05-27T08:59:23Z",
-    "updated_at": "2026-05-29T03:43:56Z",
+    "updated_at": "2026-05-30T01:42:59Z",
     "owner": {
       "name": "illusionyy",
       "avatar_url": "https://avatars.githubusercontent.com/u/37698908?v=4"
@@ -701,6 +640,51 @@
     }
   },
   {
+    "name": "yiyifred/Cloud-Phone",
+    "url": "https://github.com/yiyifred/Cloud-Phone",
+    "description": "A project for online screen mirroring of mobile phones.",
+    "stars": 23,
+    "forks": 4,
+    "language": "C",
+    "topics": [
+      "android",
+      "cloud",
+      "cloud-phone",
+      "cloudphone",
+      "control",
+      "phone",
+      "remote-screen",
+      "remote-screen-control",
+      "scrcpy",
+      "screen-capture",
+      "screen-control",
+      "screen-copy"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-27T06:11:11Z",
+    "updated_at": "2026-05-30T01:09:10Z",
+    "owner": {
+      "name": "yiyifred",
+      "avatar_url": "https://avatars.githubusercontent.com/u/124337092?v=4"
+    }
+  },
+  {
+    "name": "xefinity/MonetLoaderOSS",
+    "url": "https://github.com/xefinity/MonetLoaderOSS",
+    "description": "MonetLoader - a Lua script loader for GTA: San Andreas (and SAMP) on Android",
+    "stars": 22,
+    "forks": 5,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-05-25T16:25:17Z",
+    "updated_at": "2026-05-29T01:27:19Z",
+    "owner": {
+      "name": "xefinity",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75137480?v=4"
+    }
+  },
+  {
     "name": "joelewis012/RF_Rosetta",
     "url": "https://github.com/joelewis012/RF_Rosetta",
     "description": "RF Multi Tool for flipper zero",
@@ -730,51 +714,6 @@
     "owner": {
       "name": "atc1441",
       "avatar_url": "https://avatars.githubusercontent.com/u/1102694?v=4"
-    }
-  },
-  {
-    "name": "xefinity/MonetLoaderOSS",
-    "url": "https://github.com/xefinity/MonetLoaderOSS",
-    "description": "MonetLoader - a Lua script loader for GTA: San Andreas (and SAMP) on Android",
-    "stars": 22,
-    "forks": 5,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-05-25T16:25:17Z",
-    "updated_at": "2026-05-29T01:27:19Z",
-    "owner": {
-      "name": "xefinity",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75137480?v=4"
-    }
-  },
-  {
-    "name": "yiyifred/Cloud-Phone",
-    "url": "https://github.com/yiyifred/Cloud-Phone",
-    "description": "A project for online screen mirroring of mobile phones.",
-    "stars": 21,
-    "forks": 4,
-    "language": "C",
-    "topics": [
-      "android",
-      "cloud",
-      "cloud-phone",
-      "cloudphone",
-      "control",
-      "phone",
-      "remote-screen",
-      "remote-screen-control",
-      "scrcpy",
-      "screen-capture",
-      "screen-control",
-      "screen-copy"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-27T06:11:11Z",
-    "updated_at": "2026-05-29T01:04:53Z",
-    "owner": {
-      "name": "yiyifred",
-      "avatar_url": "https://avatars.githubusercontent.com/u/124337092?v=4"
     }
   },
   {
@@ -839,6 +778,22 @@
     "owner": {
       "name": "venglin",
       "avatar_url": "https://avatars.githubusercontent.com/u/42781581?v=4"
+    }
+  },
+  {
+    "name": "ianhan/picograph",
+    "url": "https://github.com/ianhan/picograph",
+    "description": "PicoGraph is a Pi Pico 2 ISA video card that supports several PC graphics standards using DisplayLink",
+    "stars": 19,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-05-27T22:54:31Z",
+    "updated_at": "2026-05-30T00:59:00Z",
+    "owner": {
+      "name": "ianhan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6833412?v=4"
     }
   },
   {
@@ -1010,6 +965,22 @@
     }
   },
   {
+    "name": "JoelBeja2000/OveNotesDs",
+    "url": "https://github.com/JoelBeja2000/OveNotesDs",
+    "description": null,
+    "stars": 17,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-27T18:48:58Z",
+    "updated_at": "2026-05-30T04:03:25Z",
+    "owner": {
+      "name": "JoelBeja2000",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52301371?v=4"
+    }
+  },
+  {
     "name": "gonefunctor/poppy",
     "url": "https://github.com/gonefunctor/poppy",
     "description": "ELF loader that uses unmodified binaries without execve()",
@@ -1084,19 +1055,19 @@
     }
   },
   {
-    "name": "JoelBeja2000/OveNotesDs",
-    "url": "https://github.com/JoelBeja2000/OveNotesDs",
-    "description": null,
+    "name": "GirlandDragon/MaskMyScene",
+    "url": "https://github.com/GirlandDragon/MaskMyScene",
+    "description": "LKM 端口隐藏模块 - 比 eBPF 更彻底的端口隐藏方案",
     "stars": 15,
-    "forks": 0,
+    "forks": 2,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-27T18:48:58Z",
-    "updated_at": "2026-05-29T04:34:03Z",
+    "license": "No license",
+    "created_at": "2026-05-25T14:16:13Z",
+    "updated_at": "2026-05-30T05:00:18Z",
     "owner": {
-      "name": "JoelBeja2000",
-      "avatar_url": "https://avatars.githubusercontent.com/u/52301371?v=4"
+      "name": "GirlandDragon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/262142272?v=4"
     }
   },
   {
@@ -1132,6 +1103,22 @@
     }
   },
   {
+    "name": "illusionyy/ps5-y2jb-appdb-fixup",
+    "url": "https://github.com/illusionyy/ps5-y2jb-appdb-fixup",
+    "description": "On console attempt to workaround YouTube from softlocking when using Y2JB.",
+    "stars": 13,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-24T08:24:01Z",
+    "updated_at": "2026-05-26T02:14:18Z",
+    "owner": {
+      "name": "illusionyy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37698908?v=4"
+    }
+  },
+  {
     "name": "xdqi/anyfs",
     "url": "https://github.com/xdqi/anyfs",
     "description": null,
@@ -1152,22 +1139,6 @@
     "owner": {
       "name": "xdqi",
       "avatar_url": "https://avatars.githubusercontent.com/u/3365420?v=4"
-    }
-  },
-  {
-    "name": "illusionyy/ps5-y2jb-appdb-fixup",
-    "url": "https://github.com/illusionyy/ps5-y2jb-appdb-fixup",
-    "description": "On console attempt to workaround YouTube from softlocking when using Y2JB.",
-    "stars": 13,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-24T08:24:01Z",
-    "updated_at": "2026-05-26T02:14:18Z",
-    "owner": {
-      "name": "illusionyy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37698908?v=4"
     }
   },
   {
@@ -1412,22 +1383,6 @@
     }
   },
   {
-    "name": "linkzenic/2ship2harkinian-Android",
-    "url": "https://github.com/linkzenic/2ship2harkinian-Android",
-    "description": "Unofficial Android fork of 2 Ship 2 Harkinian",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "Creative Commons Zero v1.0 Universal",
-    "created_at": "2026-05-23T03:45:34Z",
-    "updated_at": "2026-05-29T06:01:51Z",
-    "owner": {
-      "name": "linkzenic",
-      "avatar_url": "https://avatars.githubusercontent.com/u/270810195?v=4"
-    }
-  },
-  {
     "name": "controlpaths/cryptoliteICE",
     "url": "https://github.com/controlpaths/cryptoliteICE",
     "description": "FPGA based usb stick true random number generator (TRNG)",
@@ -1441,6 +1396,22 @@
     "owner": {
       "name": "controlpaths",
       "avatar_url": "https://avatars.githubusercontent.com/u/6756769?v=4"
+    }
+  },
+  {
+    "name": "linkzenic/2ship2harkinian-Android",
+    "url": "https://github.com/linkzenic/2ship2harkinian-Android",
+    "description": "Unofficial Android fork of 2 Ship 2 Harkinian",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "Creative Commons Zero v1.0 Universal",
+    "created_at": "2026-05-23T03:45:34Z",
+    "updated_at": "2026-05-29T06:01:51Z",
+    "owner": {
+      "name": "linkzenic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/270810195?v=4"
     }
   },
   {

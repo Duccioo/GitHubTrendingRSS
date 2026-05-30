@@ -3,8 +3,8 @@
     "name": "perplexityai/bumblebee",
     "url": "https://github.com/perplexityai/bumblebee",
     "description": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
-    "stars": 3809,
-    "forks": 327,
+    "stars": 3927,
+    "forks": 337,
     "language": "Go",
     "topics": [
       "golang",
@@ -13,7 +13,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-05-20T18:11:37Z",
-    "updated_at": "2026-05-29T05:56:58Z",
+    "updated_at": "2026-05-30T05:14:17Z",
     "owner": {
       "name": "perplexityai",
       "avatar_url": "https://avatars.githubusercontent.com/u/185426709?v=4"
@@ -67,13 +67,13 @@
     "name": "ShahabSL/Skirk",
     "url": "https://github.com/ShahabSL/Skirk",
     "description": "Socks over Google Drive.",
-    "stars": 761,
+    "stars": 766,
     "forks": 92,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-02T14:25:45Z",
-    "updated_at": "2026-05-28T23:04:11Z",
+    "updated_at": "2026-05-29T18:47:53Z",
     "owner": {
       "name": "ShahabSL",
       "avatar_url": "https://avatars.githubusercontent.com/u/122942441?v=4"
@@ -83,13 +83,13 @@
     "name": "ajavadinezhad/zyrln",
     "url": "https://github.com/ajavadinezhad/zyrln",
     "description": "Domain-fronting relay that routes traffic through Google infrastructure to bypass DPI-based censorship,  Android VPN    app + desktop proxy  https://t.me/z_yrln  | https://t.me/z_yrln_channel",
-    "stars": 707,
+    "stars": 712,
     "forks": 112,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-04T17:25:03Z",
-    "updated_at": "2026-05-28T23:40:36Z",
+    "updated_at": "2026-05-30T05:42:32Z",
     "owner": {
       "name": "ajavadinezhad",
       "avatar_url": "https://avatars.githubusercontent.com/u/23430715?v=4"
@@ -214,26 +214,10 @@
     }
   },
   {
-    "name": "Willxup/cpa-usage-keeper",
-    "url": "https://github.com/Willxup/cpa-usage-keeper",
-    "description": "独立的 Cli-Proxy-API用量追踪与展示服务，内置 SQLite 持久化和 Dashboard / Standalone Cli-Proxy-API usage tracker with SQLite persistence and built-in dashboard.",
-    "stars": 521,
-    "forks": 55,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-17T17:46:30Z",
-    "updated_at": "2026-05-16T03:07:34Z",
-    "owner": {
-      "name": "Willxup",
-      "avatar_url": "https://avatars.githubusercontent.com/u/51990395?v=4"
-    }
-  },
-  {
     "name": "ThisIsDara/mhr-cfw-go",
     "url": "https://github.com/ThisIsDara/mhr-cfw-go",
     "description": "A local proxy that runs on your machine and forwards traffic through Google.",
-    "stars": 512,
+    "stars": 516,
     "forks": 51,
     "language": "Go",
     "topics": [
@@ -246,7 +230,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-04T04:24:15Z",
-    "updated_at": "2026-05-28T21:35:10Z",
+    "updated_at": "2026-05-30T02:28:07Z",
     "owner": {
       "name": "ThisIsDara",
       "avatar_url": "https://avatars.githubusercontent.com/u/93939156?v=4"
@@ -296,27 +280,25 @@
     }
   },
   {
-    "name": "samueltuyizere/oc-go-cc",
-    "url": "https://github.com/samueltuyizere/oc-go-cc",
-    "description": "Use your OpenCode Go subscription with Claude Code.",
-    "stars": 412,
-    "forks": 47,
+    "name": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "description": "Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "stars": 426,
+    "forks": 14,
     "language": "Go",
     "topics": [
-      "claude",
-      "claude-code",
-      "claude-code-cli",
-      "opencode",
-      "opencode-ai",
-      "opencode-go",
-      "opencode-zen"
+      "agent",
+      "code-review",
+      "code-review-assistant",
+      "harness",
+      "repository-level-context"
     ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-04-17T00:55:43Z",
-    "updated_at": "2026-05-16T05:18:29Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-18T02:16:36Z",
+    "updated_at": "2026-05-30T04:56:25Z",
     "owner": {
-      "name": "samueltuyizere",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32623492?v=4"
+      "name": "alibaba",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4"
     }
   },
   {
@@ -333,6 +315,22 @@
     "owner": {
       "name": "peiyizhi0724",
       "avatar_url": "https://avatars.githubusercontent.com/u/278168632?v=4"
+    }
+  },
+  {
+    "name": "MatinSenPai/SenPaiScanner",
+    "url": "https://github.com/MatinSenPai/SenPaiScanner",
+    "description": "A light-weight scanner for Cloudflare IPs, written in Golang",
+    "stars": 377,
+    "forks": 32,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-28T17:02:54Z",
+    "updated_at": "2026-05-30T05:32:56Z",
+    "owner": {
+      "name": "MatinSenPai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4"
     }
   },
   {
@@ -355,38 +353,16 @@
     "name": "agent-substrate/substrate",
     "url": "https://github.com/agent-substrate/substrate",
     "description": "Agent Substrate: the core system",
-    "stars": 356,
-    "forks": 65,
+    "stars": 369,
+    "forks": 67,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-05-13T19:02:38Z",
-    "updated_at": "2026-05-29T04:27:48Z",
+    "updated_at": "2026-05-30T04:49:34Z",
     "owner": {
       "name": "agent-substrate",
       "avatar_url": "https://avatars.githubusercontent.com/u/280516639?v=4"
-    }
-  },
-  {
-    "name": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
-    "description": "Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "stars": 353,
-    "forks": 10,
-    "language": "Go",
-    "topics": [
-      "agent",
-      "code-review",
-      "code-review-assistant",
-      "harness",
-      "repository-level-context"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-18T02:16:36Z",
-    "updated_at": "2026-05-29T06:00:03Z",
-    "owner": {
-      "name": "alibaba",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4"
     }
   },
   {
@@ -419,30 +395,6 @@
     "owner": {
       "name": "systalyze",
       "avatar_url": "https://avatars.githubusercontent.com/u/193085166?v=4"
-    }
-  },
-  {
-    "name": "londek/ipadecrypt",
-    "url": "https://github.com/londek/ipadecrypt",
-    "description": "🔓 ipadecrypt is an open-source tool for downloading, patching and decrypting .ipa's with minimal user intervention on palera1n and dopamine jailbreaks",
-    "stars": 312,
-    "forks": 35,
-    "language": "Go",
-    "topics": [
-      "decryption",
-      "dopamine",
-      "fairplay",
-      "ios",
-      "ipa",
-      "jailbreaking",
-      "palera1n"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-04-17T22:42:33Z",
-    "updated_at": "2026-05-15T14:59:37Z",
-    "owner": {
-      "name": "londek",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48859717?v=4"
     }
   },
   {
@@ -484,7 +436,7 @@
     "name": "boratanrikulu/gobee",
     "url": "https://github.com/boratanrikulu/gobee",
     "description": "Write your BPF programs in Go, not C. gobee transpiles a Go subset to BPF C and generates typed cilium/ebpf bindings.",
-    "stars": 275,
+    "stars": 284,
     "forks": 1,
     "language": "Go",
     "topics": [
@@ -498,10 +450,37 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-01T11:07:49Z",
-    "updated_at": "2026-05-29T05:12:05Z",
+    "updated_at": "2026-05-30T05:36:23Z",
     "owner": {
       "name": "boratanrikulu",
       "avatar_url": "https://avatars.githubusercontent.com/u/20258973?v=4"
+    }
+  },
+  {
+    "name": "usewhale/DeepSeek-Code-Whale",
+    "url": "https://github.com/usewhale/DeepSeek-Code-Whale",
+    "description": "Terminal AI coding agent built for DeepSeek. Features: MCP tool integration, Skills extension system, prefix-cache optimization for 97% live   hit   rate, 1M context window.",
+    "stars": 274,
+    "forks": 17,
+    "language": "Go",
+    "topics": [
+      "coding-agent",
+      "deepseek",
+      "deepseek-agent",
+      "deepseek-cli",
+      "deepseek-coding-agent",
+      "go",
+      "llm",
+      "mcp",
+      "skills",
+      "terminal"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-06T07:01:36Z",
+    "updated_at": "2026-05-30T05:40:17Z",
+    "owner": {
+      "name": "usewhale",
+      "avatar_url": "https://avatars.githubusercontent.com/u/282163618?v=4"
     }
   },
   {
@@ -536,13 +515,13 @@
     "name": "tidwall/btype",
     "url": "https://github.com/tidwall/btype",
     "description": "B-tree based collection types for Go",
-    "stars": 265,
+    "stars": 268,
     "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-10T13:52:32Z",
-    "updated_at": "2026-05-28T22:13:19Z",
+    "updated_at": "2026-05-29T18:33:16Z",
     "owner": {
       "name": "tidwall",
       "avatar_url": "https://avatars.githubusercontent.com/u/1156077?v=4"
@@ -574,6 +553,22 @@
     }
   },
   {
+    "name": "walkingddd/CPA-Helper",
+    "url": "https://github.com/walkingddd/CPA-Helper",
+    "description": "CPA-Helper 是面向 CLIProxyAPI 用户的本地自托管多用户管理面板，支持多用户独立 API Key、用量隔离统计、请求明细追踪、模型价格维护、可用模型查询、管理员账号管控与 Codex 账号巡检。",
+    "stars": 254,
+    "forks": 21,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-13T09:27:53Z",
+    "updated_at": "2026-05-29T21:48:52Z",
+    "owner": {
+      "name": "walkingddd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80940444?v=4"
+    }
+  },
+  {
     "name": "val1813/kaiwu",
     "url": "https://github.com/val1813/kaiwu",
     "description": "本地开源模型部署器，一键部署，支持各类系统，主流模型。",
@@ -587,22 +582,6 @@
     "owner": {
       "name": "val1813",
       "avatar_url": "https://avatars.githubusercontent.com/u/265172612?v=4"
-    }
-  },
-  {
-    "name": "walkingddd/CPA-Helper",
-    "url": "https://github.com/walkingddd/CPA-Helper",
-    "description": "CPA-Helper 是面向 CLIProxyAPI 用户的本地自托管多用户管理面板，支持多用户独立 API Key、用量隔离统计、请求明细追踪、模型价格维护、可用模型查询、管理员账号管控与 Codex 账号巡检。",
-    "stars": 250,
-    "forks": 21,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-13T09:27:53Z",
-    "updated_at": "2026-05-29T04:43:46Z",
-    "owner": {
-      "name": "walkingddd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/80940444?v=4"
     }
   },
   {
@@ -665,49 +644,6 @@
     "owner": {
       "name": "rockorager",
       "avatar_url": "https://avatars.githubusercontent.com/u/476352?v=4"
-    }
-  },
-  {
-    "name": "usewhale/DeepSeek-Code-Whale",
-    "url": "https://github.com/usewhale/DeepSeek-Code-Whale",
-    "description": "Terminal AI coding agent built for DeepSeek. Features: MCP tool integration, Skills extension system, prefix-cache optimization for 97% live   hit   rate, 1M context window.",
-    "stars": 236,
-    "forks": 14,
-    "language": "Go",
-    "topics": [
-      "coding-agent",
-      "deepseek",
-      "deepseek-agent",
-      "deepseek-cli",
-      "deepseek-coding-agent",
-      "go",
-      "llm",
-      "mcp",
-      "skills",
-      "terminal"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-06T07:01:36Z",
-    "updated_at": "2026-05-29T05:50:12Z",
-    "owner": {
-      "name": "usewhale",
-      "avatar_url": "https://avatars.githubusercontent.com/u/282163618?v=4"
-    }
-  },
-  {
-    "name": "MatinSenPai/SenPaiScanner",
-    "url": "https://github.com/MatinSenPai/SenPaiScanner",
-    "description": "A light-weight scanner for Cloudflare IPs, written in Golang",
-    "stars": 235,
-    "forks": 13,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-28T17:02:54Z",
-    "updated_at": "2026-05-29T06:05:40Z",
-    "owner": {
-      "name": "MatinSenPai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/99926753?v=4"
     }
   },
   {
@@ -837,7 +773,7 @@
     "name": "fswatcher/fswatcher",
     "url": "https://github.com/fswatcher/fswatcher",
     "description": "Cross-platform file system notifications for Go.",
-    "stars": 212,
+    "stars": 213,
     "forks": 10,
     "language": "Go",
     "topics": [
@@ -853,7 +789,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-06T08:16:29Z",
-    "updated_at": "2026-05-27T21:42:33Z",
+    "updated_at": "2026-05-29T13:37:06Z",
     "owner": {
       "name": "fswatcher",
       "avatar_url": "https://avatars.githubusercontent.com/u/283655578?v=4"
@@ -879,16 +815,32 @@
     "name": "DEEIX-AI/DEEIX-Chat",
     "url": "https://github.com/DEEIX-AI/DEEIX-Chat",
     "description": "An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations.",
-    "stars": 190,
+    "stars": 195,
     "forks": 25,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-05-21T08:57:01Z",
-    "updated_at": "2026-05-29T04:53:01Z",
+    "updated_at": "2026-05-29T17:32:00Z",
     "owner": {
       "name": "DEEIX-AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/282221413?v=4"
+    }
+  },
+  {
+    "name": "nianzhibai/91",
+    "url": "https://github.com/nianzhibai/91",
+    "description": "nine one",
+    "stars": 190,
+    "forks": 74,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-10T08:58:49Z",
+    "updated_at": "2026-05-30T05:36:43Z",
+    "owner": {
+      "name": "nianzhibai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177086871?v=4"
     }
   },
   {
@@ -921,8 +873,8 @@
     "name": "officecli/officedex",
     "url": "https://github.com/officecli/officedex",
     "description": "OfficeDex is the first Al-Native VibeOfficing platform  for documents, slides, and spreadsheets",
-    "stars": 176,
-    "forks": 32,
+    "stars": 188,
+    "forks": 36,
     "language": "Go",
     "topics": [
       "ai",
@@ -941,7 +893,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-05-18T03:04:37Z",
-    "updated_at": "2026-05-29T06:05:28Z",
+    "updated_at": "2026-05-30T01:42:28Z",
     "owner": {
       "name": "officecli",
       "avatar_url": "https://avatars.githubusercontent.com/u/272195876?v=4"
@@ -969,6 +921,25 @@
     }
   },
   {
+    "name": "ngaut/agent-git-service",
+    "url": "https://github.com/ngaut/agent-git-service",
+    "description": "Reimplement GitHub for Agents.",
+    "stars": 158,
+    "forks": 4,
+    "language": "Go",
+    "topics": [
+      "agents",
+      "github"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-09T04:46:31Z",
+    "updated_at": "2026-05-29T20:07:03Z",
+    "owner": {
+      "name": "ngaut",
+      "avatar_url": "https://avatars.githubusercontent.com/u/878009?v=4"
+    }
+  },
+  {
     "name": "gammons/slk",
     "url": "https://github.com/gammons/slk",
     "description": "A blazingly fast Slack TUI",
@@ -988,35 +959,16 @@
     }
   },
   {
-    "name": "ngaut/agent-git-service",
-    "url": "https://github.com/ngaut/agent-git-service",
-    "description": "Reimplement GitHub for Agents.",
-    "stars": 157,
-    "forks": 4,
-    "language": "Go",
-    "topics": [
-      "agents",
-      "github"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-09T04:46:31Z",
-    "updated_at": "2026-05-29T05:54:59Z",
-    "owner": {
-      "name": "ngaut",
-      "avatar_url": "https://avatars.githubusercontent.com/u/878009?v=4"
-    }
-  },
-  {
     "name": "denuitt1/mhr-cfw-go",
     "url": "https://github.com/denuitt1/mhr-cfw-go",
     "description": "Go port of https://github.com/denuitt1/mhr-cfw. A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI.",
-    "stars": 155,
+    "stars": 156,
     "forks": 9,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-01T15:46:05Z",
-    "updated_at": "2026-05-28T18:07:07Z",
+    "updated_at": "2026-05-29T15:42:40Z",
     "owner": {
       "name": "denuitt1",
       "avatar_url": "https://avatars.githubusercontent.com/u/279854002?v=4"
@@ -1042,13 +994,13 @@
     "name": "MiChongs/karpov-gateway",
     "url": "https://github.com/MiChongs/karpov-gateway",
     "description": "Karpov Gateway — REST API gateway + Next.js console. Go (Gin+gRPC) + PostgreSQL + Redis + OAuth2 (Linux.do) + TOTP 2FA + encrypted credential pool",
-    "stars": 146,
+    "stars": 148,
     "forks": 24,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-04T06:32:38Z",
-    "updated_at": "2026-05-28T07:56:40Z",
+    "updated_at": "2026-05-29T09:22:43Z",
     "owner": {
       "name": "MiChongs",
       "avatar_url": "https://avatars.githubusercontent.com/u/77006751?v=4"
@@ -1103,22 +1055,6 @@
     }
   },
   {
-    "name": "tomurashigaraki22/watchup-agent-v2",
-    "url": "https://github.com/tomurashigaraki22/watchup-agent-v2",
-    "description": null,
-    "stars": 143,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-04-30T16:24:27Z",
-    "updated_at": "2026-05-26T09:23:35Z",
-    "owner": {
-      "name": "tomurashigaraki22",
-      "avatar_url": "https://avatars.githubusercontent.com/u/125347750?v=4"
-    }
-  },
-  {
     "name": "imShire/xu-shop",
     "url": "https://github.com/imShire/xu-shop",
     "description": null,
@@ -1135,16 +1071,32 @@
     }
   },
   {
+    "name": "tomurashigaraki22/watchup-agent-v2",
+    "url": "https://github.com/tomurashigaraki22/watchup-agent-v2",
+    "description": null,
+    "stars": 143,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-04-30T16:24:27Z",
+    "updated_at": "2026-05-26T09:23:35Z",
+    "owner": {
+      "name": "tomurashigaraki22",
+      "avatar_url": "https://avatars.githubusercontent.com/u/125347750?v=4"
+    }
+  },
+  {
     "name": "kulikov0/whitelist-bypass-iran",
     "url": "https://github.com/kulikov0/whitelist-bypass-iran",
     "description": null,
-    "stars": 141,
+    "stars": 142,
     "forks": 35,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-11T19:49:16Z",
-    "updated_at": "2026-05-26T18:56:50Z",
+    "updated_at": "2026-05-30T05:31:29Z",
     "owner": {
       "name": "kulikov0",
       "avatar_url": "https://avatars.githubusercontent.com/u/19497634?v=4"
@@ -1180,13 +1132,13 @@
     "name": "unclebob/Acceptance-Pipeline-Specification",
     "url": "https://github.com/unclebob/Acceptance-Pipeline-Specification",
     "description": "Portable acceptance pipeline specification",
-    "stars": 137,
+    "stars": 138,
     "forks": 7,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-05-13T18:20:32Z",
-    "updated_at": "2026-05-28T20:39:24Z",
+    "updated_at": "2026-05-29T20:11:50Z",
     "owner": {
       "name": "unclebob",
       "avatar_url": "https://avatars.githubusercontent.com/u/36901?v=4"
@@ -1196,7 +1148,7 @@
     "name": "venkatkrishna07/mkdev",
     "url": "https://github.com/venkatkrishna07/mkdev",
     "description": "Trusted localhost HTTPS — local CA, /etc/hosts, mDNS LAN sharing, reverse proxy. Maps https://name.local →    localhost:port",
-    "stars": 132,
+    "stars": 133,
     "forks": 15,
     "language": "Go",
     "topics": [
@@ -1212,7 +1164,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-12T06:28:18Z",
-    "updated_at": "2026-05-29T03:58:14Z",
+    "updated_at": "2026-05-29T09:43:38Z",
     "owner": {
       "name": "venkatkrishna07",
       "avatar_url": "https://avatars.githubusercontent.com/u/40173356?v=4"
@@ -1222,7 +1174,7 @@
     "name": "ridgelinecyberdefence/vanguard",
     "url": "https://github.com/ridgelinecyberdefence/vanguard",
     "description": "Cross-platform incident response toolkit. 28 pre-built use cases, single binary, zero install. Memory, disk, network, and cloud collection with automated timeline generation.",
-    "stars": 130,
+    "stars": 132,
     "forks": 6,
     "language": "Go",
     "topics": [
@@ -1237,10 +1189,32 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-03T12:27:13Z",
-    "updated_at": "2026-05-28T20:10:03Z",
+    "updated_at": "2026-05-30T00:07:08Z",
     "owner": {
       "name": "ridgelinecyberdefence",
       "avatar_url": "https://avatars.githubusercontent.com/u/252557331?v=4"
+    }
+  },
+  {
+    "name": "aymanhs/nanotdb",
+    "url": "https://github.com/aymanhs/nanotdb",
+    "description": "Single-binary observability, time-series database, and built-in dashboard for Raspberry Pi, edge devices, and local metrics.",
+    "stars": 122,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "golang",
+      "observability",
+      "raspberry-pi",
+      "raspberrypi",
+      "time-series"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-14T06:00:30Z",
+    "updated_at": "2026-05-30T02:52:44Z",
+    "owner": {
+      "name": "aymanhs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18005165?v=4"
     }
   },
   {
@@ -1271,25 +1245,41 @@
     }
   },
   {
-    "name": "aymanhs/nanotdb",
-    "url": "https://github.com/aymanhs/nanotdb",
-    "description": "Single-binary observability, time-series database, and built-in dashboard for Raspberry Pi, edge devices, and local metrics.",
+    "name": "ozontech/testo",
+    "url": "https://github.com/ozontech/testo",
+    "description": "Modular testing framework for Go. Featuring plugins, suites, parallel tests and much more!",
     "stars": 121,
-    "forks": 2,
+    "forks": 4,
     "language": "Go",
     "topics": [
-      "golang",
-      "observability",
-      "raspberry-pi",
-      "raspberrypi",
-      "time-series"
+      "framework",
+      "go",
+      "plugins",
+      "testing",
+      "testo"
     ],
-    "license": "MIT License",
-    "created_at": "2026-05-14T06:00:30Z",
-    "updated_at": "2026-05-27T15:31:07Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-07T12:46:59Z",
+    "updated_at": "2026-05-29T16:22:45Z",
     "owner": {
-      "name": "aymanhs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18005165?v=4"
+      "name": "ozontech",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95622872?v=4"
+    }
+  },
+  {
+    "name": "openclaw/clickclack",
+    "url": "https://github.com/openclaw/clickclack",
+    "description": "ClickClackClaw - The chat app with claws.",
+    "stars": 112,
+    "forks": 30,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-08T03:11:04Z",
+    "updated_at": "2026-05-30T05:16:37Z",
+    "owner": {
+      "name": "openclaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/252820863?v=4"
     }
   }
 ]
