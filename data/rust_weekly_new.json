@@ -1,21 +1,5 @@
 [
   {
-    "name": "gi-dellav/zerostack",
-    "url": "https://github.com/gi-dellav/zerostack",
-    "description": "Minimalistic coding agent written in Rust, optimized for memory footprint and performance",
-    "stars": 576,
-    "forks": 41,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-05-12T19:31:49Z",
-    "updated_at": "2026-05-18T06:07:39Z",
-    "owner": {
-      "name": "gi-dellav",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61155988?v=4"
-    }
-  },
-  {
     "name": "akitaonrails/ai-memory",
     "url": "https://github.com/akitaonrails/ai-memory",
     "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
@@ -162,6 +146,22 @@
     }
   },
   {
+    "name": "anomalyco/rift",
+    "url": "https://github.com/anomalyco/rift",
+    "description": null,
+    "stars": 120,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-31T18:09:30Z",
+    "updated_at": "2026-06-01T06:42:45Z",
+    "owner": {
+      "name": "anomalyco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66570915?v=4"
+    }
+  },
+  {
     "name": "tuchg/Lucarne",
     "url": "https://github.com/tuchg/Lucarne",
     "description": "Stop babysitting local AI agents. 0-Intrusion mobile control via Telegram/WeChat.   No hooks, no skills, no MCP. Just sync, approve, and resume your Codex,Pi, or Claude sessions anywhere.",
@@ -258,13 +258,13 @@
     "name": "Chlience/yt-dlp-tauri",
     "url": "https://github.com/Chlience/yt-dlp-tauri",
     "description": "A minimal Windows desktop downloader powered by yt-dlp and Tauri 2. / 基于 yt-dlp 和 Tauri 2 的轻量 Windows 桌面下载器。",
-    "stars": 105,
+    "stars": 106,
     "forks": 7,
     "language": "Rust",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-05-26T13:26:58Z",
-    "updated_at": "2026-05-31T04:46:34Z",
+    "updated_at": "2026-05-31T08:43:33Z",
     "owner": {
       "name": "Chlience",
       "avatar_url": "https://avatars.githubusercontent.com/u/22586392?v=4"
@@ -274,13 +274,13 @@
     "name": "Aimino-Tech/opendocswork-mcp",
     "url": "https://github.com/Aimino-Tech/opendocswork-mcp",
     "description": "Rust-native MCP server for Office document processing (Excel, Word, PowerPoint). Sub-millisecond, local-first, open source.",
-    "stars": 100,
-    "forks": 7,
+    "stars": 101,
+    "forks": 8,
     "language": "Rust",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-05-26T13:30:19Z",
-    "updated_at": "2026-05-30T22:29:11Z",
+    "updated_at": "2026-06-01T06:33:19Z",
     "owner": {
       "name": "Aimino-Tech",
       "avatar_url": "https://avatars.githubusercontent.com/u/115795675?v=4"
@@ -385,43 +385,6 @@
     }
   },
   {
-    "name": "johunsang/semble_rs",
-    "url": "https://github.com/johunsang/semble_rs",
-    "description": "Fast, AI-agent-native code search in Rust — hybrid BM25 + semantic, Tree-sitter AST chunking, dependency & impact analysis. Drop-in replacement for grep/cat/read/ls in Claude Code, Codex, Cursor, Aider, OpenHands.",
-    "stars": 87,
-    "forks": 11,
-    "language": "Rust",
-    "topics": [
-      "ai-agent",
-      "bm25",
-      "claude-code",
-      "cli",
-      "code-search",
-      "codex",
-      "coding-assistant",
-      "cursor",
-      "dependency-graph",
-      "developer-tools",
-      "embeddings",
-      "grep-replacement",
-      "hybrid-search",
-      "impact-analysis",
-      "llm",
-      "rag",
-      "rust",
-      "semantic-search",
-      "token-optimization",
-      "tree-sitter"
-    ],
-    "license": "No license",
-    "created_at": "2026-05-12T13:07:42Z",
-    "updated_at": "2026-05-18T01:46:04Z",
-    "owner": {
-      "name": "johunsang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10287714?v=4"
-    }
-  },
-  {
     "name": "lq-259/legado_flutter",
     "url": "https://github.com/lq-259/legado_flutter",
     "description": null,
@@ -435,6 +398,22 @@
     "owner": {
       "name": "lq-259",
       "avatar_url": "https://avatars.githubusercontent.com/u/60541200?v=4"
+    }
+  },
+  {
+    "name": "kitlangton/cellshot",
+    "url": "https://github.com/kitlangton/cellshot",
+    "description": null,
+    "stars": 82,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-30T03:10:16Z",
+    "updated_at": "2026-06-01T05:51:15Z",
+    "owner": {
+      "name": "kitlangton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7587245?v=4"
     }
   },
   {
@@ -496,32 +475,16 @@
     }
   },
   {
-    "name": "kitlangton/cellshot",
-    "url": "https://github.com/kitlangton/cellshot",
-    "description": null,
-    "stars": 72,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-30T03:10:16Z",
-    "updated_at": "2026-05-31T04:29:01Z",
-    "owner": {
-      "name": "kitlangton",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7587245?v=4"
-    }
-  },
-  {
     "name": "Trystan-SA/rproc",
     "url": "https://github.com/Trystan-SA/rproc",
     "description": " A Linux resource & process monitor inspired by Windows 11's Task Manager. Written in Rust with egui.",
-    "stars": 71,
+    "stars": 76,
     "forks": 6,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-26T12:25:46Z",
-    "updated_at": "2026-05-30T13:54:24Z",
+    "updated_at": "2026-06-01T05:36:11Z",
     "owner": {
       "name": "Trystan-SA",
       "avatar_url": "https://avatars.githubusercontent.com/u/43876044?v=4"
@@ -672,6 +635,22 @@
     }
   },
   {
+    "name": "sverrejb/slint-kindle-backend",
+    "url": "https://github.com/sverrejb/slint-kindle-backend",
+    "description": "Slint backend for jailbroken Kindles.",
+    "stars": 59,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-26T14:34:58Z",
+    "updated_at": "2026-05-31T20:36:44Z",
+    "owner": {
+      "name": "sverrejb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3786663?v=4"
+    }
+  },
+  {
     "name": "doggy8088/leak-hunter",
     "url": "https://github.com/doggy8088/leak-hunter",
     "description": null,
@@ -685,22 +664,6 @@
     "owner": {
       "name": "doggy8088",
       "avatar_url": "https://avatars.githubusercontent.com/u/88981?v=4"
-    }
-  },
-  {
-    "name": "sverrejb/slint-kindle-backend",
-    "url": "https://github.com/sverrejb/slint-kindle-backend",
-    "description": "Slint backend for jailbroken Kindles.",
-    "stars": 57,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-26T14:34:58Z",
-    "updated_at": "2026-05-30T21:54:38Z",
-    "owner": {
-      "name": "sverrejb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3786663?v=4"
     }
   },
   {
@@ -736,6 +699,51 @@
     }
   },
   {
+    "name": "psiini/israeli-alloc",
+    "url": "https://github.com/psiini/israeli-alloc",
+    "description": "Allocate memory on a innocent victim programs address space, just like the IDF intended.",
+    "stars": 52,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "BSD 2-Clause \"Simplified\" License",
+    "created_at": "2026-05-26T05:56:56Z",
+    "updated_at": "2026-05-31T21:36:25Z",
+    "owner": {
+      "name": "psiini",
+      "avatar_url": "https://avatars.githubusercontent.com/u/142697762?v=4"
+    }
+  },
+  {
+    "name": "deusjin/subforge",
+    "url": "https://github.com/deusjin/subforge",
+    "description": "Rust CLI for AI subtitle workflows: transcribe, segment, translate, evaluate, and burn or mux subtitles.",
+    "stars": 52,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "faster-whisper",
+      "ffmpeg",
+      "llm",
+      "openai",
+      "rust",
+      "speech-recognition",
+      "subtitle-translation",
+      "subtitles",
+      "translation",
+      "video-processing",
+      "whisper"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-29T08:00:23Z",
+    "updated_at": "2026-06-01T06:30:06Z",
+    "owner": {
+      "name": "deusjin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/284919489?v=4"
+    }
+  },
+  {
     "name": "restsend/pipa",
     "url": "https://github.com/restsend/pipa",
     "description": "A fast, minimal ES2023 JavaScript runtime built in Rust.",
@@ -756,22 +764,6 @@
     }
   },
   {
-    "name": "psiini/israeli-alloc",
-    "url": "https://github.com/psiini/israeli-alloc",
-    "description": "Allocate memory on a innocent victim programs address space, just like the IDF intended.",
-    "stars": 51,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "BSD 2-Clause \"Simplified\" License",
-    "created_at": "2026-05-26T05:56:56Z",
-    "updated_at": "2026-05-30T13:25:35Z",
-    "owner": {
-      "name": "psiini",
-      "avatar_url": "https://avatars.githubusercontent.com/u/142697762?v=4"
-    }
-  },
-  {
     "name": "Devolutions/psign",
     "url": "https://github.com/Devolutions/psign",
     "description": "Portable code signing tool",
@@ -787,6 +779,33 @@
     "owner": {
       "name": "Devolutions",
       "avatar_url": "https://avatars.githubusercontent.com/u/6097418?v=4"
+    }
+  },
+  {
+    "name": "duncatzat/vigils",
+    "url": "https://github.com/duncatzat/vigils",
+    "description": "A local control plane for AI agents — see what they do, approve what matters, keep secrets out. Rust + Tauri + Chrome MV3.",
+    "stars": 50,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [
+      "agent-security",
+      "ai-agents",
+      "audit-log",
+      "desktop",
+      "llm",
+      "local-first",
+      "pii",
+      "rust",
+      "sandbox",
+      "tauri"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-31T15:45:25Z",
+    "updated_at": "2026-06-01T06:50:36Z",
+    "owner": {
+      "name": "duncatzat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/208989317?v=4"
     }
   },
   {
@@ -1130,6 +1149,38 @@
     }
   },
   {
+    "name": "Nonanti/narwhal",
+    "url": "https://github.com/Nonanti/narwhal",
+    "description": "TUI database client with a built-in MCP server. Five databases (postgres, mysql, sqlite, duckdb, clickhouse), vim editing, Lua plugins.",
+    "stars": 31,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "clickhouse",
+      "database",
+      "duckdb",
+      "mcp",
+      "model-context-protocol",
+      "mysql",
+      "postgres",
+      "ratatui",
+      "rust",
+      "sql",
+      "sqlite",
+      "terminal",
+      "tui",
+      "vim"
+    ],
+    "license": "Other",
+    "created_at": "2026-05-27T10:59:58Z",
+    "updated_at": "2026-06-01T02:16:41Z",
+    "owner": {
+      "name": "Nonanti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45326482?v=4"
+    }
+  },
+  {
     "name": "codeprakhar25/inspect",
     "url": "https://github.com/codeprakhar25/inspect",
     "description": "Get to know about commands before you execute them",
@@ -1209,6 +1260,22 @@
     }
   },
   {
+    "name": "zzp1221/claude-code-pet",
+    "url": "https://github.com/zzp1221/claude-code-pet",
+    "description": "让你像在codex中一样拥有或制作一款属于你的跟宠",
+    "stars": 29,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-26T12:52:28Z",
+    "updated_at": "2026-06-01T03:19:13Z",
+    "owner": {
+      "name": "zzp1221",
+      "avatar_url": "https://avatars.githubusercontent.com/u/248639846?v=4"
+    }
+  },
+  {
     "name": "msitarzewski/brew-browser",
     "url": "https://github.com/msitarzewski/brew-browser",
     "description": "Homebrew is the standard package manager on macOS. brew-browser gives it a real native GUI.",
@@ -1278,54 +1345,6 @@
     }
   },
   {
-    "name": "reekta92/pinstar",
-    "url": "https://github.com/reekta92/pinstar",
-    "description": "Canvas file editor compatible with Obsidian .canvas files.",
-    "stars": 29,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-05-12T19:42:10Z",
-    "updated_at": "2026-05-18T04:44:48Z",
-    "owner": {
-      "name": "reekta92",
-      "avatar_url": "https://avatars.githubusercontent.com/u/170321834?v=4"
-    }
-  },
-  {
-    "name": "Nonanti/narwhal",
-    "url": "https://github.com/Nonanti/narwhal",
-    "description": "TUI database client with a built-in MCP server. Five databases (postgres, mysql, sqlite, duckdb, clickhouse), vim editing, Lua plugins.",
-    "stars": 28,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "clickhouse",
-      "database",
-      "duckdb",
-      "mcp",
-      "model-context-protocol",
-      "mysql",
-      "postgres",
-      "ratatui",
-      "rust",
-      "sql",
-      "sqlite",
-      "terminal",
-      "tui",
-      "vim"
-    ],
-    "license": "Other",
-    "created_at": "2026-05-27T10:59:58Z",
-    "updated_at": "2026-05-31T01:35:46Z",
-    "owner": {
-      "name": "Nonanti",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45326482?v=4"
-    }
-  },
-  {
     "name": "e10b/light",
     "url": "https://github.com/e10b/light",
     "description": null,
@@ -1351,7 +1370,7 @@
     "topics": [],
     "license": "Other",
     "created_at": "2026-05-27T05:15:31Z",
-    "updated_at": "2026-05-30T22:43:59Z",
+    "updated_at": "2026-05-31T07:40:46Z",
     "owner": {
       "name": "manic-systems",
       "avatar_url": "https://avatars.githubusercontent.com/u/287464793?v=4"
@@ -1500,19 +1519,35 @@
     }
   },
   {
-    "name": "zzp1221/claude-code-pet",
-    "url": "https://github.com/zzp1221/claude-code-pet",
-    "description": "让你像在codex中一样拥有或制作一款属于你的跟宠",
+    "name": "d10n/tui-globe",
+    "url": "https://github.com/d10n/tui-globe",
+    "description": "3D globe ratatui widget rendered with braille",
     "stars": 23,
-    "forks": 3,
+    "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-05-26T12:52:28Z",
-    "updated_at": "2026-05-31T06:00:56Z",
+    "created_at": "2026-05-29T23:05:54Z",
+    "updated_at": "2026-06-01T05:49:05Z",
     "owner": {
-      "name": "zzp1221",
-      "avatar_url": "https://avatars.githubusercontent.com/u/248639846?v=4"
+      "name": "d10n",
+      "avatar_url": "https://avatars.githubusercontent.com/u/395175?v=4"
+    }
+  },
+  {
+    "name": "zaidmukaddam/robocpp",
+    "url": "https://github.com/zaidmukaddam/robocpp",
+    "description": "RoBoC++ is an Open-source IEC 61131-3 PLC compiler",
+    "stars": 23,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-26T18:02:59Z",
+    "updated_at": "2026-06-01T05:57:01Z",
+    "owner": {
+      "name": "zaidmukaddam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76097144?v=4"
     }
   },
   {
@@ -1651,6 +1686,28 @@
     }
   },
   {
+    "name": "atelico/gdstyle",
+    "url": "https://github.com/atelico/gdstyle",
+    "description": "A fast, opinionated linter and formatter for GDScript (Godot 4.x), in Rust.",
+    "stars": 20,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "formatter",
+      "gdscript",
+      "godot",
+      "linter",
+      "rust"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-28T22:47:22Z",
+    "updated_at": "2026-05-31T22:19:18Z",
+    "owner": {
+      "name": "atelico",
+      "avatar_url": "https://avatars.githubusercontent.com/u/168492946?v=4"
+    }
+  },
+  {
     "name": "qianzii2/rockduck",
     "url": "https://github.com/qianzii2/rockduck",
     "description": "HTAP embedded database: transactional DeltaStore + columnar Vortex storage + DuckDB SQL engine",
@@ -1731,22 +1788,6 @@
     }
   },
   {
-    "name": "ikwerre-dev/Pxxl-Proxy-System",
-    "url": "https://github.com/ikwerre-dev/Pxxl-Proxy-System",
-    "description": "idk man, its a proxy system",
-    "stars": 20,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-12T17:59:52Z",
-    "updated_at": "2026-05-17T17:53:34Z",
-    "owner": {
-      "name": "ikwerre-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/117399956?v=4"
-    }
-  },
-  {
     "name": "hase9awa/termtypist",
     "url": "https://github.com/hase9awa/termtypist",
     "description": null,
@@ -1776,22 +1817,6 @@
     "owner": {
       "name": "luizferreira-io",
       "avatar_url": "https://avatars.githubusercontent.com/u/37213257?v=4"
-    }
-  },
-  {
-    "name": "d10n/tui-globe",
-    "url": "https://github.com/d10n/tui-globe",
-    "description": "3D globe ratatui widget rendered with braille",
-    "stars": 18,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-29T23:05:54Z",
-    "updated_at": "2026-05-31T01:45:55Z",
-    "owner": {
-      "name": "d10n",
-      "avatar_url": "https://avatars.githubusercontent.com/u/395175?v=4"
     }
   },
   {
@@ -1906,19 +1931,19 @@
     }
   },
   {
-    "name": "Ataraxy-Labs/lazydiff",
-    "url": "https://github.com/Ataraxy-Labs/lazydiff",
-    "description": "A fast terminal UI for reviewing Git diffs",
-    "stars": 18,
+    "name": "zkldi/lr2ir-dataset",
+    "url": "https://github.com/zkldi/lr2ir-dataset",
+    "description": "All datasets from LR2IR from 29th May 2026.",
+    "stars": 17,
     "forks": 0,
     "language": "Rust",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-12T09:24:33Z",
-    "updated_at": "2026-05-17T10:58:08Z",
+    "license": "The Unlicense",
+    "created_at": "2026-05-29T04:39:13Z",
+    "updated_at": "2026-06-01T03:12:49Z",
     "owner": {
-      "name": "Ataraxy-Labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/235773868?v=4"
+      "name": "zkldi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20380519?v=4"
     }
   },
   {
@@ -1935,44 +1960,6 @@
     "owner": {
       "name": "supermemoryai",
       "avatar_url": "https://avatars.githubusercontent.com/u/171979587?v=4"
-    }
-  },
-  {
-    "name": "atelico/gdstyle",
-    "url": "https://github.com/atelico/gdstyle",
-    "description": "A fast, opinionated linter and formatter for GDScript (Godot 4.x), in Rust.",
-    "stars": 17,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "formatter",
-      "gdscript",
-      "godot",
-      "linter",
-      "rust"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-28T22:47:22Z",
-    "updated_at": "2026-05-30T22:36:41Z",
-    "owner": {
-      "name": "atelico",
-      "avatar_url": "https://avatars.githubusercontent.com/u/168492946?v=4"
-    }
-  },
-  {
-    "name": "zaidmukaddam/robocpp",
-    "url": "https://github.com/zaidmukaddam/robocpp",
-    "description": "RoBoC++ is an Open-source IEC 61131-3 PLC compiler",
-    "stars": 17,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-26T18:02:59Z",
-    "updated_at": "2026-05-31T05:27:20Z",
-    "owner": {
-      "name": "zaidmukaddam",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76097144?v=4"
     }
   },
   {
@@ -2049,19 +2036,19 @@
     }
   },
   {
-    "name": "jiangtaovan/tdxrs",
-    "url": "https://github.com/jiangtaovan/tdxrs",
-    "description": "tdxrs 是通达信 (TDX) 行情数据解析库的 Rust 高性能实现，通过 PyO3/maturin 提供原生 Python 接口。它无缝兼容 [tdxpy] 的 API，并将核心解析引擎以 Rust 重构，从而实现数量级的本地解析性能提升，尤其在海量历史数据处理场景下优势显著。",
-    "stars": 17,
-    "forks": 2,
+    "name": "dotnet-7/thread-sentry",
+    "url": "https://github.com/dotnet-7/thread-sentry",
+    "description": "High-performance deadlock & race condition detector for Rust with <5% overhead. Production-ready, zero-intrusion monitoring.",
+    "stars": 16,
+    "forks": 1,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-05-12T09:27:28Z",
-    "updated_at": "2026-05-18T00:47:25Z",
+    "created_at": "2026-05-30T02:56:42Z",
+    "updated_at": "2026-06-01T06:11:16Z",
     "owner": {
-      "name": "jiangtaovan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7577850?v=4"
+      "name": "dotnet-7",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57525824?v=4"
     }
   },
   {
@@ -2141,6 +2128,56 @@
     "owner": {
       "name": "Live-CTF",
       "avatar_url": "https://avatars.githubusercontent.com/u/111250118?v=4"
+    }
+  },
+  {
+    "name": "psylsph/givenergy-local",
+    "url": "https://github.com/psylsph/givenergy-local",
+    "description": "Desktop app for monitoring and controlling GivEnergy solar inverters over your local network — no cloud account needed",
+    "stars": 14,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "battery",
+      "energy-monitoring",
+      "givenergy",
+      "home-automation",
+      "inverter",
+      "modbus",
+      "solar",
+      "tauri"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-28T19:18:02Z",
+    "updated_at": "2026-05-31T20:18:03Z",
+    "owner": {
+      "name": "psylsph",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34341003?v=4"
+    }
+  },
+  {
+    "name": "mustang6139/sdrtop",
+    "url": "https://github.com/mustang6139/sdrtop",
+    "description": "Terminal monitor for SDR hardware - written in Rust. Early development.",
+    "stars": 14,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "hackrf",
+      "portapack",
+      "radio",
+      "ratatui",
+      "rust",
+      "sdr",
+      "terminal",
+      "tui"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-05-27T13:52:10Z",
+    "updated_at": "2026-06-01T06:10:22Z",
+    "owner": {
+      "name": "mustang6139",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126951369?v=4"
     }
   },
   {
@@ -2293,19 +2330,19 @@
     }
   },
   {
-    "name": "lily-protocol/lily-contracts",
-    "url": "https://github.com/lily-protocol/lily-contracts",
-    "description": "Production-oriented Soroban smart contracts for Lily Protocol on Stellar.",
-    "stars": 13,
+    "name": "vestafederation/vesta",
+    "url": "https://github.com/vestafederation/vesta",
+    "description": "federated compute daemon",
+    "stars": 12,
     "forks": 0,
     "language": "Rust",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-16T14:27:21Z",
-    "updated_at": "2026-05-18T05:42:29Z",
+    "license": "Other",
+    "created_at": "2026-05-31T19:08:28Z",
+    "updated_at": "2026-06-01T06:26:16Z",
     "owner": {
-      "name": "lily-protocol",
-      "avatar_url": "https://avatars.githubusercontent.com/u/212861085?v=4"
+      "name": "vestafederation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/289480390?v=4"
     }
   },
   {
@@ -2394,6 +2431,38 @@
     "owner": {
       "name": "nvk",
       "avatar_url": "https://avatars.githubusercontent.com/u/797193?v=4"
+    }
+  },
+  {
+    "name": "devrelopers/hackernews-mcp",
+    "url": "https://github.com/devrelopers/hackernews-mcp",
+    "description": "A Rust MCP server exposing Hacker News to AI assistants over stdio. Read the front page and Ask/Show/job stories, walk full comment trees with depth control, fetch user profiles, and run full-text search. Backed by the official Firebase and Algolia APIs — no keys, no auth.",
+    "stars": 11,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-29T18:43:48Z",
+    "updated_at": "2026-05-31T23:22:13Z",
+    "owner": {
+      "name": "devrelopers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48575518?v=4"
+    }
+  },
+  {
+    "name": "akitaonrails/frank_mangaplus",
+    "url": "https://github.com/akitaonrails/frank_mangaplus",
+    "description": "Simple desktop app to read Manga Plus titles. Originally it's only available on smartphones, now it's on PC",
+    "stars": 11,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-29T21:56:52Z",
+    "updated_at": "2026-06-01T03:12:43Z",
+    "owner": {
+      "name": "akitaonrails",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2840?v=4"
     }
   },
   {
@@ -2497,6 +2566,60 @@
     "owner": {
       "name": "mnemosyne-systems",
       "avatar_url": "https://avatars.githubusercontent.com/u/259235466?v=4"
+    }
+  },
+  {
+    "name": "RustedBytes/manifold-knn",
+    "url": "https://github.com/RustedBytes/manifold-knn",
+    "description": "Manifold  k-NN: Accelerated k-NN Queries for Manifold Point Clouds",
+    "stars": 10,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "geometry",
+      "knn",
+      "manifold",
+      "nearest-neighbor",
+      "point-cloud"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-05-29T04:26:14Z",
+    "updated_at": "2026-06-01T01:28:21Z",
+    "owner": {
+      "name": "RustedBytes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/224568696?v=4"
+    }
+  },
+  {
+    "name": "arsfeld/nix-du",
+    "url": "https://github.com/arsfeld/nix-du",
+    "description": "ncdu-like TUI for exploring Nix store derivation sizes",
+    "stars": 10,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-28T15:01:53Z",
+    "updated_at": "2026-05-31T09:04:05Z",
+    "owner": {
+      "name": "arsfeld",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44174?v=4"
+    }
+  },
+  {
+    "name": "minibear2021/rustshell",
+    "url": "https://github.com/minibear2021/rustshell",
+    "description": null,
+    "stars": 10,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-28T15:30:42Z",
+    "updated_at": "2026-05-31T14:14:16Z",
+    "owner": {
+      "name": "minibear2021",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82202402?v=4"
     }
   },
   {
