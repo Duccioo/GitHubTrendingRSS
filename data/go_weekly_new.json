@@ -39,8 +39,8 @@
     "name": "tastyeffectco/sandboxes",
     "url": "https://github.com/tastyeffectco/sandboxes",
     "description": "Self-hosted dev sandboxes with preview URLs. One command. No Kubernetes, perfect for coding agents and Saas factories",
-    "stars": 440,
-    "forks": 8,
+    "stars": 475,
+    "forks": 10,
     "language": "Go",
     "topics": [
       "ai",
@@ -55,7 +55,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-03T18:55:02Z",
-    "updated_at": "2026-06-06T04:55:29Z",
+    "updated_at": "2026-06-07T05:54:12Z",
     "owner": {
       "name": "tastyeffectco",
       "avatar_url": "https://avatars.githubusercontent.com/u/205345397?v=4"
@@ -130,6 +130,22 @@
     }
   },
   {
+    "name": "FengZi1221/proxy-installer",
+    "url": "https://github.com/FengZi1221/proxy-installer",
+    "description": "一个面向新手的 Windows 桌面工具，通过 SSH 连接 VPS，自动检测环境并部署 Hysteria2、VMess、VLESS Reality、Trojan、Shadowsocks 节点。全自动安装节点的工具，并且自动生成适用于小火箭/Clash Meta/Sing-Box/V2rayNG的订阅链接",
+    "stars": 128,
+    "forks": 15,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-04T19:05:37Z",
+    "updated_at": "2026-06-06T12:37:52Z",
+    "owner": {
+      "name": "FengZi1221",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95153092?v=4"
+    }
+  },
+  {
     "name": "pood1e/wa-app",
     "url": "https://github.com/pood1e/wa-app",
     "description": null,
@@ -143,22 +159,6 @@
     "owner": {
       "name": "pood1e",
       "avatar_url": "https://avatars.githubusercontent.com/u/44490561?v=4"
-    }
-  },
-  {
-    "name": "FengZi1221/proxy-installer",
-    "url": "https://github.com/FengZi1221/proxy-installer",
-    "description": "一个面向新手的 Windows 桌面工具，通过 SSH 连接 VPS，自动检测环境并部署 Hysteria2、VMess、VLESS Reality、Trojan、Shadowsocks 节点。全自动安装节点的工具，并且自动生成适用于小火箭/Clash Meta/Sing-Box/V2rayNG的订阅链接",
-    "stars": 123,
-    "forks": 15,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-04T19:05:37Z",
-    "updated_at": "2026-06-06T03:09:36Z",
-    "owner": {
-      "name": "FengZi1221",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95153092?v=4"
     }
   },
   {
@@ -204,6 +204,22 @@
     }
   },
   {
+    "name": "iampedii/WhiteDNS-Wizard",
+    "url": "https://github.com/iampedii/WhiteDNS-Wizard",
+    "description": "Cloudflare-first WhiteDNS CLI/TUI for provisioning a managed 3x-ui/Xray VPN stack over SSH, with DNS, certificates, client import links, Tor-routed profiles, diagnostics, backups, and repair/reset flows.",
+    "stars": 86,
+    "forks": 5,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-05T07:34:28Z",
+    "updated_at": "2026-06-07T06:00:22Z",
+    "owner": {
+      "name": "iampedii",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7813872?v=4"
+    }
+  },
+  {
     "name": "HotRiceNoodles/CrossLink",
     "url": "https://github.com/HotRiceNoodles/CrossLink",
     "description": "Unified large model proxy gateway, providing load balancing, fault transfer, current limiting, budget management, content auditing, caching, and MCP gateway capabilities.",
@@ -243,19 +259,58 @@
     }
   },
   {
-    "name": "iampedii/WhiteDNS-Wizard",
-    "url": "https://github.com/iampedii/WhiteDNS-Wizard",
-    "description": "Cloudflare-first WhiteDNS CLI/TUI for provisioning a managed 3x-ui/Xray VPN stack over SSH, with DNS, certificates, client import links, Tor-routed profiles, diagnostics, backups, and repair/reset flows.",
-    "stars": 64,
-    "forks": 4,
+    "name": "realrenatto/take-over",
+    "url": "https://github.com/realrenatto/take-over",
+    "description": "Take-Over is a Go-based tool designed to detect subdomain takeover vulnerabilities across different Cloud Service Providers (CSPs).",
+    "stars": 57,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-06T18:55:03Z",
+    "updated_at": "2026-06-06T23:15:17Z",
+    "owner": {
+      "name": "realrenatto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200254256?v=4"
+    }
+  },
+  {
+    "name": "baidu/nettools",
+    "url": "https://github.com/baidu/nettools",
+    "description": "A physical network blackbox monitoring toolkit with diagnostic and probing capabilities for link quality, path tracing, packet modification detection, loss localization, and bandwidth measurement, enabling end-to-end reliability in large-scale data centers.",
+    "stars": 52,
+    "forks": 8,
+    "language": "Go",
+    "topics": [
+      "cloud",
+      "idc",
+      "monitor",
+      "nettools",
+      "network",
+      "pingmesh"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-02T08:03:10Z",
+    "updated_at": "2026-06-07T05:00:55Z",
+    "owner": {
+      "name": "baidu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13245940?v=4"
+    }
+  },
+  {
+    "name": "TryHarder-L/NiniMenu",
+    "url": "https://github.com/TryHarder-L/NiniMenu",
+    "description": "一款温馨的情侣家庭每日菜单推荐与食谱管理应用，告别\"今天吃什么\"的纠结。",
+    "stars": 48,
+    "forks": 7,
     "language": "Go",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-06-05T07:34:28Z",
-    "updated_at": "2026-06-06T05:44:53Z",
+    "created_at": "2026-06-05T15:33:26Z",
+    "updated_at": "2026-06-07T05:15:14Z",
     "owner": {
-      "name": "iampedii",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7813872?v=4"
+      "name": "TryHarder-L",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50231875?v=4"
     }
   },
   {
@@ -275,26 +330,19 @@
     }
   },
   {
-    "name": "baidu/nettools",
-    "url": "https://github.com/baidu/nettools",
-    "description": "A physical network blackbox monitoring toolkit with diagnostic and probing capabilities for link quality, path tracing, packet modification detection, loss localization, and bandwidth measurement, enabling end-to-end reliability in large-scale data centers.",
-    "stars": 47,
-    "forks": 7,
+    "name": "DsThakurRawat/Backend-from-first-Principle",
+    "url": "https://github.com/DsThakurRawat/Backend-from-first-Principle",
+    "description": null,
+    "stars": 46,
+    "forks": 1,
     "language": "Go",
-    "topics": [
-      "cloud",
-      "idc",
-      "monitor",
-      "nettools",
-      "network",
-      "pingmesh"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-02T08:03:10Z",
-    "updated_at": "2026-06-06T03:07:38Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-03T14:38:21Z",
+    "updated_at": "2026-06-06T19:46:30Z",
     "owner": {
-      "name": "baidu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13245940?v=4"
+      "name": "DsThakurRawat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186957976?v=4"
     }
   },
   {
@@ -311,22 +359,6 @@
     "owner": {
       "name": "mberneti",
       "avatar_url": "https://avatars.githubusercontent.com/u/3443365?v=4"
-    }
-  },
-  {
-    "name": "DsThakurRawat/Backend-from-first-Principle",
-    "url": "https://github.com/DsThakurRawat/Backend-from-first-Principle",
-    "description": null,
-    "stars": 45,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-03T14:38:21Z",
-    "updated_at": "2026-06-06T03:57:48Z",
-    "owner": {
-      "name": "DsThakurRawat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/186957976?v=4"
     }
   },
   {
@@ -391,30 +423,6 @@
     "owner": {
       "name": "79E",
       "avatar_url": "https://avatars.githubusercontent.com/u/71202421?v=4"
-    }
-  },
-  {
-    "name": "aaron-kidwell/goLoL",
-    "url": "https://github.com/aaron-kidwell/goLoL",
-    "description": "goLoL is a Windows host scanner that finds an always up to date listing of LOLBAS binaries present on the current machine and lists techniques you can run at your current privilege level with MITRE ATT&CK mappings and example commands.",
-    "stars": 41,
-    "forks": 5,
-    "language": "Go",
-    "topics": [
-      "ctf-tools",
-      "cybersecurity-tools",
-      "go",
-      "golang",
-      "living-off-the-land",
-      "lolbas",
-      "penetration-testing-tools"
-    ],
-    "license": "No license",
-    "created_at": "2026-05-18T21:25:07Z",
-    "updated_at": "2026-05-23T23:58:43Z",
-    "owner": {
-      "name": "aaron-kidwell",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82623017?v=4"
     }
   },
   {
@@ -857,6 +865,38 @@
     }
   },
   {
+    "name": "MengMengCode/CLICD",
+    "url": "https://github.com/MengMengCode/CLICD",
+    "description": "CLICD 是一个面向 LXC 的轻量容器管理面板，提供 Web 控制台、CLI、批量任务、镜像管理、NAT 端口、IPv6 分配、WebSSH、资源限制、流量限制和安全告警能力。它适合用来管理小型 VPS 上的 LXC 容器，也适合需要批量创建和分发子用户管理链接的场景。",
+    "stars": 30,
+    "forks": 13,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-05T11:27:26Z",
+    "updated_at": "2026-06-07T05:25:46Z",
+    "owner": {
+      "name": "MengMengCode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/227010654?v=4"
+    }
+  },
+  {
+    "name": "smallnest/agent-wrapper",
+    "url": "https://github.com/smallnest/agent-wrapper",
+    "description": "a wrapper framework for agent runtimes",
+    "stars": 28,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-02T00:27:44Z",
+    "updated_at": "2026-06-07T04:02:57Z",
+    "owner": {
+      "name": "smallnest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/865763?v=4"
+    }
+  },
+  {
     "name": "tatanakots/FuckPrivateClient",
     "url": "https://github.com/tatanakots/FuckPrivateClient",
     "description": "Obtain the configuration file from the private proxy client.",
@@ -941,19 +981,19 @@
     }
   },
   {
-    "name": "smallnest/agent-wrapper",
-    "url": "https://github.com/smallnest/agent-wrapper",
-    "description": "a wrapper framework for agent runtimes",
+    "name": "elyelysiox/recaptcha-botguard",
+    "url": "https://github.com/elyelysiox/recaptcha-botguard",
+    "description": "Reverse Engineered OLD reCAPTCHA Botguard + Token Generator",
     "stars": 26,
-    "forks": 0,
+    "forks": 5,
     "language": "Go",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-02T00:27:44Z",
-    "updated_at": "2026-06-05T10:08:18Z",
+    "license": "No license",
+    "created_at": "2026-06-04T22:23:57Z",
+    "updated_at": "2026-06-06T22:28:01Z",
     "owner": {
-      "name": "smallnest",
-      "avatar_url": "https://avatars.githubusercontent.com/u/865763?v=4"
+      "name": "elyelysiox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108831238?v=4"
     }
   },
   {
@@ -1025,7 +1065,7 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-02T16:51:40Z",
-    "updated_at": "2026-06-06T03:21:24Z",
+    "updated_at": "2026-06-07T06:03:06Z",
     "owner": {
       "name": "tmdgusya",
       "avatar_url": "https://avatars.githubusercontent.com/u/57784077?v=4"
@@ -1120,19 +1160,39 @@
     }
   },
   {
-    "name": "elyelysiox/recaptcha-botguard",
-    "url": "https://github.com/elyelysiox/recaptcha-botguard",
-    "description": "Reverse Engineered OLD reCAPTCHA Botguard + Token Generator",
+    "name": "prof-faustus/triple-entry-bsv-sql",
+    "url": "https://github.com/prof-faustus/triple-entry-bsv-sql",
+    "description": "Tokenised commercial system on BSV: forked-PostgreSQL triple-entry ledger + tokenisation + EDI/logistics, regtest e2e. Research.",
     "stars": 20,
     "forks": 5,
     "language": "Go",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-06-04T22:23:57Z",
-    "updated_at": "2026-06-05T20:32:31Z",
+    "created_at": "2026-06-01T08:23:37Z",
+    "updated_at": "2026-06-06T14:40:52Z",
     "owner": {
-      "name": "elyelysiox",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108831238?v=4"
+      "name": "prof-faustus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27856945?v=4"
+    }
+  },
+  {
+    "name": "pivanov/ctx-wire",
+    "url": "https://github.com/pivanov/ctx-wire",
+    "description": "ctx-wire runs your commands, compresses the output with declarative filters, scrubs secrets, and hands your agent a short result. The full log stays on disk for when something actually fails. Cut the noise on the wire. ",
+    "stars": 20,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "claude",
+      "codex",
+      "cursor"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-05T03:50:50Z",
+    "updated_at": "2026-06-07T05:53:30Z",
+    "owner": {
+      "name": "pivanov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/191504?v=4"
     }
   },
   {
@@ -1165,22 +1225,6 @@
     "owner": {
       "name": "kleimer",
       "avatar_url": "https://avatars.githubusercontent.com/u/10291973?v=4"
-    }
-  },
-  {
-    "name": "prof-faustus/triple-entry-bsv-sql",
-    "url": "https://github.com/prof-faustus/triple-entry-bsv-sql",
-    "description": "Tokenised commercial system on BSV: forked-PostgreSQL triple-entry ledger + tokenisation + EDI/logistics, regtest e2e. Research.",
-    "stars": 19,
-    "forks": 5,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-01T08:23:37Z",
-    "updated_at": "2026-06-04T10:27:11Z",
-    "owner": {
-      "name": "prof-faustus",
-      "avatar_url": "https://avatars.githubusercontent.com/u/27856945?v=4"
     }
   },
   {
@@ -1406,6 +1450,22 @@
     }
   },
   {
+    "name": "hadihonarvar/flock",
+    "url": "https://github.com/hadihonarvar/flock",
+    "description": "Local LLM Orchestrator",
+    "stars": 16,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-05T03:06:23Z",
+    "updated_at": "2026-06-07T02:06:46Z",
+    "owner": {
+      "name": "hadihonarvar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10359872?v=4"
+    }
+  },
+  {
     "name": "srijanmukherjee/gomupdf",
     "url": "https://github.com/srijanmukherjee/gomupdf",
     "description": "The fast, idiomatic way to read, render, and write PDFs in Go.",
@@ -1497,31 +1557,11 @@
     }
   },
   {
-    "name": "pivanov/ctx-wire",
-    "url": "https://github.com/pivanov/ctx-wire",
-    "description": "ctx-wire runs your commands, compresses the output with declarative filters, scrubs secrets, and hands your agent a short result. The full log stays on disk for when something actually fails. Cut the noise on the wire. ",
-    "stars": 15,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "claude",
-      "codex",
-      "cursor"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-05T03:50:50Z",
-    "updated_at": "2026-06-06T03:34:36Z",
-    "owner": {
-      "name": "pivanov",
-      "avatar_url": "https://avatars.githubusercontent.com/u/191504?v=4"
-    }
-  },
-  {
     "name": "ThisIsDara/SSHT",
     "url": "https://github.com/ThisIsDara/SSHT",
     "description": "SSH Tunnel",
     "stars": 15,
-    "forks": 1,
+    "forks": 2,
     "language": "Go",
     "topics": [
       "ssh",
@@ -1780,6 +1820,22 @@
     }
   },
   {
+    "name": "royp888/sola-bot",
+    "url": "https://github.com/royp888/sola-bot",
+    "description": "Open-source Telegram operations platform with Go + Vue, including bot, admin panel, points, moderation, scheduled posts, and lottery.",
+    "stars": 13,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-01T16:09:14Z",
+    "updated_at": "2026-06-07T04:36:02Z",
+    "owner": {
+      "name": "royp888",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86124268?v=4"
+    }
+  },
+  {
     "name": "prashar32/riskkernel",
     "url": "https://github.com/prashar32/riskkernel",
     "description": "Deterministic cost / loop / time budgets · full observability · crash-resumable runs · human-approval gates · a memory you own. Self-hosted. Your keys. No telemetry. Point it at your existing agents - one env var.",
@@ -1857,27 +1913,11 @@
     }
   },
   {
-    "name": "zephyraoss/haitatsu",
-    "url": "https://github.com/zephyraoss/haitatsu",
-    "description": "A simple, fully-featured, single executable email server built for platforms.",
-    "stars": 13,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-05-21T23:50:04Z",
-    "updated_at": "2026-05-23T10:28:43Z",
-    "owner": {
-      "name": "zephyraoss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/129367433?v=4"
-    }
-  },
-  {
     "name": "chatbotkit/rook",
     "url": "https://github.com/chatbotkit/rook",
     "description": "AI bug hunting harness",
     "stars": 12,
-    "forks": 0,
+    "forks": 1,
     "language": "Go",
     "topics": [
       "ai",
@@ -1890,6 +1930,38 @@
     "owner": {
       "name": "chatbotkit",
       "avatar_url": "https://avatars.githubusercontent.com/u/121095414?v=4"
+    }
+  },
+  {
+    "name": "home-operations/konflate",
+    "url": "https://github.com/home-operations/konflate",
+    "description": "A read-only pull request tool for Flate",
+    "stars": 12,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-06-05T00:33:40Z",
+    "updated_at": "2026-06-07T02:18:22Z",
+    "owner": {
+      "name": "home-operations",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152294696?v=4"
+    }
+  },
+  {
+    "name": "pluginmd/lark-mcp-cli",
+    "url": "https://github.com/pluginmd/lark-mcp-cli",
+    "description": null,
+    "stars": 12,
+    "forks": 8,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-06T03:56:00Z",
+    "updated_at": "2026-06-07T04:11:08Z",
+    "owner": {
+      "name": "pluginmd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/249755733?v=4"
     }
   },
   {
@@ -1918,22 +1990,6 @@
     "owner": {
       "name": "townsendmerino",
       "avatar_url": "https://avatars.githubusercontent.com/u/620372?v=4"
-    }
-  },
-  {
-    "name": "Candratama/tamagosh",
-    "url": "https://github.com/Candratama/tamagosh",
-    "description": "Simple Terminal SSH/SFTP Manager written with Go",
-    "stars": 12,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-18T17:58:43Z",
-    "updated_at": "2026-05-24T03:09:39Z",
-    "owner": {
-      "name": "Candratama",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33493513?v=4"
     }
   },
   {
@@ -2067,43 +2123,6 @@
     "owner": {
       "name": "shuijiao1",
       "avatar_url": "https://avatars.githubusercontent.com/u/74536735?v=4"
-    }
-  },
-  {
-    "name": "zoharbabin/web-researcher-mcp",
-    "url": "https://github.com/zoharbabin/web-researcher-mcp",
-    "description": "MCP server (Go) for AI assistants: web search, content extraction, academic/patent/news research. Multi-provider routing, 4-tier scraping, search lenses. Works with Claude, Cursor, and any MCP client.",
-    "stars": 11,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "ai",
-      "ai-agent",
-      "ai-tools",
-      "brave-search",
-      "claude",
-      "claude-code",
-      "claude-desktop",
-      "content-extraction",
-      "copilot",
-      "cursor",
-      "go",
-      "golang",
-      "llm",
-      "mcp",
-      "mcp-server",
-      "model-context-protocol",
-      "research",
-      "searxng",
-      "web-scraping",
-      "web-search"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-18T14:27:02Z",
-    "updated_at": "2026-05-24T00:27:47Z",
-    "owner": {
-      "name": "zoharbabin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/150514?v=4"
     }
   },
   {
