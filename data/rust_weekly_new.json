@@ -35,13 +35,13 @@
     "name": "jeff141/meatshell",
     "url": "https://github.com/jeff141/meatshell",
     "description": "一个轻量级、低内存占用的 SSH / 终端客户端（A lightweight, low-memory SSH / terminal client）",
-    "stars": 399,
+    "stars": 438,
     "forks": 48,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2026-06-04T07:13:39Z",
-    "updated_at": "2026-06-08T06:30:21Z",
+    "updated_at": "2026-06-09T06:04:12Z",
     "owner": {
       "name": "jeff141",
       "avatar_url": "https://avatars.githubusercontent.com/u/44336086?v=4"
@@ -194,6 +194,29 @@
     }
   },
   {
+    "name": "xqnode/codex-helper",
+    "url": "https://github.com/xqnode/codex-helper",
+    "description": "Windows / macOS 轻量托盘·菜单栏代理，让 Codex Desktop 一键切换 DeepSeek、千问、智谱、Kimi、MiniMax 等国产大模型。本地 Responses↔Chat 转译，开箱即用。",
+    "stars": 124,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "codex",
+      "deepseek",
+      "macos",
+      "proxy",
+      "rust",
+      "windows"
+    ],
+    "license": "Other",
+    "created_at": "2026-06-03T10:05:10Z",
+    "updated_at": "2026-06-09T04:26:26Z",
+    "owner": {
+      "name": "xqnode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56817038?v=4"
+    }
+  },
+  {
     "name": "akitaonrails/ai-usagebar",
     "url": "https://github.com/akitaonrails/ai-usagebar",
     "description": "Rust-based waybar widget to monitor status of Claude, GPT, GLM, OpenRouter plans/credits - inspired by claudebar/codexbar",
@@ -207,29 +230,6 @@
     "owner": {
       "name": "akitaonrails",
       "avatar_url": "https://avatars.githubusercontent.com/u/2840?v=4"
-    }
-  },
-  {
-    "name": "xqnode/codex-helper",
-    "url": "https://github.com/xqnode/codex-helper",
-    "description": "Windows / macOS 轻量托盘·菜单栏代理，让 Codex Desktop 一键切换 DeepSeek、千问、智谱、Kimi、MiniMax 等国产大模型。本地 Responses↔Chat 转译，开箱即用。",
-    "stars": 113,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "codex",
-      "deepseek",
-      "macos",
-      "proxy",
-      "rust",
-      "windows"
-    ],
-    "license": "Other",
-    "created_at": "2026-06-03T10:05:10Z",
-    "updated_at": "2026-06-08T00:21:41Z",
-    "owner": {
-      "name": "xqnode",
-      "avatar_url": "https://avatars.githubusercontent.com/u/56817038?v=4"
     }
   },
   {
@@ -543,6 +543,29 @@
     }
   },
   {
+    "name": "lucifer1004/VeloQ",
+    "url": "https://github.com/lucifer1004/VeloQ",
+    "description": "Agent-friendly GPU profile-query CLI",
+    "stars": 62,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "cli",
+      "cuda",
+      "gpu",
+      "ncu",
+      "nsys",
+      "profiling"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-05T01:14:24Z",
+    "updated_at": "2026-06-09T06:00:32Z",
+    "owner": {
+      "name": "lucifer1004",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13583761?v=4"
+    }
+  },
+  {
     "name": "TX230/winproc-tui",
     "url": "https://github.com/TX230/winproc-tui",
     "description": "Rust/Ratatui TUI for Windows 11 process investigation with live metrics, time-series graphs, A/B comparison, recording.",
@@ -580,29 +603,6 @@
     }
   },
   {
-    "name": "lucifer1004/VeloQ",
-    "url": "https://github.com/lucifer1004/VeloQ",
-    "description": "Agent-friendly GPU profile-query CLI",
-    "stars": 58,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "cuda",
-      "gpu",
-      "ncu",
-      "nsys",
-      "profiling"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-05T01:14:24Z",
-    "updated_at": "2026-06-08T03:59:43Z",
-    "owner": {
-      "name": "lucifer1004",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13583761?v=4"
-    }
-  },
-  {
     "name": "lifuyue/patchbay-cli",
     "url": "https://github.com/lifuyue/patchbay-cli",
     "description": null,
@@ -635,6 +635,38 @@
     }
   },
   {
+    "name": "pandorafuture/wx-cli",
+    "url": "https://github.com/pandorafuture/wx-cli",
+    "description": "WeChat macOS database decryption and query tool",
+    "stars": 52,
+    "forks": 40,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-04T15:07:25Z",
+    "updated_at": "2026-06-08T16:06:52Z",
+    "owner": {
+      "name": "pandorafuture",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157389297?v=4"
+    }
+  },
+  {
+    "name": "xqnode/claude-code-helper",
+    "url": "https://github.com/xqnode/claude-code-helper",
+    "description": "Windows tray proxy: route Claude Code desktop (Code + Cowork) to DeepSeek, Qwen, and other domestic LLM APIs.",
+    "stars": 52,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-05T09:36:08Z",
+    "updated_at": "2026-06-09T01:12:29Z",
+    "owner": {
+      "name": "xqnode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56817038?v=4"
+    }
+  },
+  {
     "name": "psiini/israeli-alloc",
     "url": "https://github.com/psiini/israeli-alloc",
     "description": "Allocate memory on a innocent victim programs address space, just like the IDF intended.",
@@ -648,44 +680,6 @@
     "owner": {
       "name": "psiini",
       "avatar_url": "https://avatars.githubusercontent.com/u/142697762?v=4"
-    }
-  },
-  {
-    "name": "restsend/pipa",
-    "url": "https://github.com/restsend/pipa",
-    "description": "A fast, minimal ES2023 JavaScript runtime built in Rust.",
-    "stars": 52,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "javascript",
-      "rust-library",
-      "script-engine"
-    ],
-    "license": "No license",
-    "created_at": "2026-05-20T06:20:50Z",
-    "updated_at": "2026-05-26T05:57:26Z",
-    "owner": {
-      "name": "restsend",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82350773?v=4"
-    }
-  },
-  {
-    "name": "Devolutions/psign",
-    "url": "https://github.com/Devolutions/psign",
-    "description": "Portable code signing tool",
-    "stars": 51,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "architecture"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-20T12:48:26Z",
-    "updated_at": "2026-05-26T02:49:53Z",
-    "owner": {
-      "name": "Devolutions",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6097418?v=4"
     }
   },
   {
@@ -705,19 +699,29 @@
     }
   },
   {
-    "name": "pandorafuture/wx-cli",
-    "url": "https://github.com/pandorafuture/wx-cli",
-    "description": "WeChat macOS database decryption and query tool",
-    "stars": 46,
-    "forks": 39,
+    "name": "axocoatl/axocoatl",
+    "url": "https://github.com/axocoatl/axocoatl",
+    "description": "Agentic runtime in Rust — persistent, supervised agents. Self-hosted, local-first, zero telemetry. Apache 2.0.",
+    "stars": 45,
+    "forks": 7,
     "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-04T15:07:25Z",
-    "updated_at": "2026-06-07T13:40:22Z",
+    "topics": [
+      "agentic",
+      "agents",
+      "ai",
+      "llm",
+      "local-first",
+      "mcp",
+      "runtime",
+      "rust",
+      "self-hosted"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-04T05:24:13Z",
+    "updated_at": "2026-06-09T05:41:13Z",
     "owner": {
-      "name": "pandorafuture",
-      "avatar_url": "https://avatars.githubusercontent.com/u/157389297?v=4"
+      "name": "axocoatl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272660081?v=4"
     }
   },
   {
@@ -737,6 +741,22 @@
     }
   },
   {
+    "name": "RainyMarks/DeepX",
+    "url": "https://github.com/RainyMarks/DeepX",
+    "description": "An AI agent workspace",
+    "stars": 42,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-06-07T02:30:08Z",
+    "updated_at": "2026-06-09T05:34:58Z",
+    "owner": {
+      "name": "RainyMarks",
+      "avatar_url": "https://avatars.githubusercontent.com/u/197760511?v=4"
+    }
+  },
+  {
     "name": "Joyi-code/DeepSeekMonitorWindows",
     "url": "https://github.com/Joyi-code/DeepSeekMonitorWindows",
     "description": "Windows desktop monitor for DeepSeek balance and usage, built with Tauri, React and Rust.",
@@ -753,22 +773,6 @@
     }
   },
   {
-    "name": "xqnode/claude-code-helper",
-    "url": "https://github.com/xqnode/claude-code-helper",
-    "description": "Windows tray proxy: route Claude Code desktop (Code + Cowork) to DeepSeek, Qwen, and other domestic LLM APIs.",
-    "stars": 42,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-05T09:36:08Z",
-    "updated_at": "2026-06-08T04:15:07Z",
-    "owner": {
-      "name": "xqnode",
-      "avatar_url": "https://avatars.githubusercontent.com/u/56817038?v=4"
-    }
-  },
-  {
     "name": "happy-loki/codex-remote",
     "url": "https://github.com/happy-loki/codex-remote",
     "description": "Bridge local Codex CLI sessions with Feishu IM",
@@ -782,6 +786,22 @@
     "owner": {
       "name": "happy-loki",
       "avatar_url": "https://avatars.githubusercontent.com/u/280211211?v=4"
+    }
+  },
+  {
+    "name": "pine-org/thornwood",
+    "url": "https://github.com/pine-org/thornwood",
+    "description": "Pine-maintained Rust cryptography workspace and C-free rustls crypto provider.",
+    "stars": 41,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-06T05:29:55Z",
+    "updated_at": "2026-06-08T16:46:29Z",
+    "owner": {
+      "name": "pine-org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/286556883?v=4"
     }
   },
   {
@@ -842,100 +862,26 @@
     }
   },
   {
-    "name": "thomasjohn77/solana-escrow",
-    "url": "https://github.com/thomasjohn77/solana-escrow",
-    "description": null,
+    "name": "maximecb/bebelm",
+    "url": "https://github.com/maximecb/bebelm",
+    "description": "CPU-only, pure-Rust implementation of LiquidAI's LFM2.5-8B-A1B LLM",
     "stars": 35,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-20T11:19:26Z",
-    "updated_at": "2026-05-26T04:15:06Z",
-    "owner": {
-      "name": "thomasjohn77",
-      "avatar_url": "https://avatars.githubusercontent.com/u/263609140?v=4"
-    }
-  },
-  {
-    "name": "hl9565/CodexPilot",
-    "url": "https://github.com/hl9565/CodexPilot",
-    "description": "让 Codex 的本地使用更可控、更顺手。A local companion for a more controllable and comfortable Codex experience.",
-    "stars": 34,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "codex",
-      "codex-app",
-      "desktop-app",
-      "rust",
-      "session-management",
-      "tauri"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-20T02:12:20Z",
-    "updated_at": "2026-05-26T03:50:00Z",
-    "owner": {
-      "name": "hl9565",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34439315?v=4"
-    }
-  },
-  {
-    "name": "Storagezurdetach58/Adobe-Acrobat-Pro-Full-Download",
-    "url": "https://github.com/Storagezurdetach58/Adobe-Acrobat-Pro-Full-Download",
-    "description": "Adobe Acrobat Pro DC Full Version Download | v26.1.21563 Installer with Patch & Keygen | Pre-Activated License Key Setup",
-    "stars": 34,
     "forks": 1,
     "language": "Rust",
     "topics": [
-      "acrobat",
-      "acrobat-full",
-      "acrobat-live",
-      "acrobat-sign",
-      "acrobat-unleashed",
-      "acrobat-unstoppable",
-      "acrobat-utility",
-      "acrobat-windows",
-      "adobe-acrobat",
-      "document-signing",
-      "javascript",
-      "js",
-      "pdf-editor",
-      "pdf-react-edit",
-      "pdf-tools",
-      "secure-documents"
+      "cpu",
+      "inference",
+      "llm",
+      "local-ai",
+      "local-llm",
+      "rust"
     ],
     "license": "MIT License",
-    "created_at": "2026-05-25T14:15:58Z",
-    "updated_at": "2026-05-26T05:23:41Z",
+    "created_at": "2026-06-04T13:19:28Z",
+    "updated_at": "2026-06-09T01:25:38Z",
     "owner": {
-      "name": "Storagezurdetach58",
-      "avatar_url": "https://avatars.githubusercontent.com/u/274336842?v=4"
-    }
-  },
-  {
-    "name": "Yesh-02/psleep",
-    "url": "https://github.com/Yesh-02/psleep",
-    "description": "A tiny, fast CLI utility written in Rust that works just like sleep but shows a live progress bar. Supports human-friendly durations (psleep 1m30s), multiple animation styles (bar, spinner, dots, blocks), and is configurable via flags or environment variables. Never stare at a blank terminal wondering \"is this thing still going?\" again.",
-    "stars": 34,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "command-line",
-      "cross-platform",
-      "progress-bar",
-      "rust",
-      "sleep",
-      "terminal",
-      "unix-tools"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-20T04:04:43Z",
-    "updated_at": "2026-05-25T22:35:16Z",
-    "owner": {
-      "name": "Yesh-02",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6501990?v=4"
+      "name": "maximecb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/713766?v=4"
     }
   },
   {
@@ -1003,45 +949,6 @@
     }
   },
   {
-    "name": "Moore-developers/grok-cli",
-    "url": "https://github.com/Moore-developers/grok-cli",
-    "description": "OAuth-first CLI for Grok and xAI capabilities",
-    "stars": 33,
-    "forks": 9,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-20T16:35:04Z",
-    "updated_at": "2026-05-26T04:00:24Z",
-    "owner": {
-      "name": "Moore-developers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/189973447?v=4"
-    }
-  },
-  {
-    "name": "maximecb/bebelm",
-    "url": "https://github.com/maximecb/bebelm",
-    "description": "CPU-only, pure-Rust implementation of LiquidAI's LFM2.5-8B-A1B",
-    "stars": 32,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "cpu",
-      "inference",
-      "llm",
-      "local-ai",
-      "local-llm",
-      "rust"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-04T13:19:28Z",
-    "updated_at": "2026-06-08T05:49:08Z",
-    "owner": {
-      "name": "maximecb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/713766?v=4"
-    }
-  },
-  {
     "name": "Nonanti/narwhal",
     "url": "https://github.com/Nonanti/narwhal",
     "description": "TUI database client with a built-in MCP server. Five databases (postgres, mysql, sqlite, duckdb, clickhouse), vim editing, Lua plugins.",
@@ -1093,6 +1000,41 @@
     "owner": {
       "name": "codeprakhar25",
       "avatar_url": "https://avatars.githubusercontent.com/u/103585489?v=4"
+    }
+  },
+  {
+    "name": "CodeBendKit/codeseek",
+    "url": "https://github.com/CodeBendKit/codeseek",
+    "description": "Rust-powered code intelligence CLI for AI coding agents. Builds call graphs and hybrid semantic search indexes (Dense + Sparse + RRF + Reranker) across 7 languages. Ships as native MCP tools for Claude Code and Codex CLI.",
+    "stars": 30,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [
+      "bm25",
+      "c-li",
+      "call-graph",
+      "claude-code",
+      "cli",
+      "code-analysis",
+      "code-intelligence",
+      "cross-encoder",
+      "embedding",
+      "hybrid-search",
+      "lancedb",
+      "mcp",
+      "q-wen",
+      "qwen",
+      "reranker",
+      "rust",
+      "semantic-search",
+      "tree-sitter"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-03T05:41:22Z",
+    "updated_at": "2026-06-09T04:32:20Z",
+    "owner": {
+      "name": "CodeBendKit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/290254801?v=4"
     }
   },
   {
@@ -1302,32 +1244,16 @@
     }
   },
   {
-    "name": "RainyMarks/DeepX",
-    "url": "https://github.com/RainyMarks/DeepX",
-    "description": "An AI agent workspace",
-    "stars": 27,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-06-07T02:30:08Z",
-    "updated_at": "2026-06-08T06:21:26Z",
-    "owner": {
-      "name": "RainyMarks",
-      "avatar_url": "https://avatars.githubusercontent.com/u/197760511?v=4"
-    }
-  },
-  {
     "name": "123hi123/qwen2api-rs",
     "url": "https://github.com/123hi123/qwen2api-rs",
     "description": "Rust 重寫的 qwen2API 網關：把 Qwen Web 偽裝成 OpenAI / Anthropic / Gemini 相容介面。axum + tokio + reqwest，單一靜態 binary。Fork & rewrite of YuJunZhiXue/qwen2API.",
-    "stars": 26,
-    "forks": 8,
+    "stars": 27,
+    "forks": 9,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-05T09:53:16Z",
-    "updated_at": "2026-06-08T06:11:59Z",
+    "updated_at": "2026-06-08T06:51:45Z",
     "owner": {
       "name": "123hi123",
       "avatar_url": "https://avatars.githubusercontent.com/u/36217117?v=4"
@@ -1366,24 +1292,51 @@
     }
   },
   {
-    "name": "tivris/scinet-queue",
-    "url": "https://github.com/tivris/scinet-queue",
-    "description": "A small CLI for managing Sci-Net paper requests.",
+    "name": "ZingerLittleBee/next-socks5",
+    "url": "https://github.com/ZingerLittleBee/next-socks5",
+    "description": "Fast, lightweight SOCKS5 server in Rust — TUI dashboard, headless mode, secure by default.",
     "stars": 25,
-    "forks": 2,
+    "forks": 8,
     "language": "Rust",
     "topics": [
       "cli",
-      "doi",
-      "research-tools",
-      "sci-net"
+      "docker",
+      "musl",
+      "networking",
+      "proxy",
+      "proxy-server",
+      "ratatui",
+      "rust",
+      "self-hosted",
+      "socks5",
+      "socks5-proxy",
+      "socks5-server",
+      "tokio",
+      "tui",
+      "udp-associate"
     ],
     "license": "MIT License",
-    "created_at": "2026-05-20T15:21:10Z",
-    "updated_at": "2026-05-25T13:51:17Z",
+    "created_at": "2026-06-03T09:57:04Z",
+    "updated_at": "2026-06-09T04:47:41Z",
     "owner": {
-      "name": "tivris",
-      "avatar_url": "https://avatars.githubusercontent.com/u/163727302?v=4"
+      "name": "ZingerLittleBee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33377263?v=4"
+    }
+  },
+  {
+    "name": "dollspace-gay/Thermite",
+    "url": "https://github.com/dollspace-gay/Thermite",
+    "description": "Agentic language built on rust",
+    "stars": 24,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-04T17:39:36Z",
+    "updated_at": "2026-06-09T03:43:46Z",
+    "owner": {
+      "name": "dollspace-gay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190305670?v=4"
     }
   },
   {
@@ -1433,32 +1386,6 @@
     "owner": {
       "name": "atelico",
       "avatar_url": "https://avatars.githubusercontent.com/u/168492946?v=4"
-    }
-  },
-  {
-    "name": "axocoatl/axocoatl",
-    "url": "https://github.com/axocoatl/axocoatl",
-    "description": "Agentic runtime in Rust — persistent, supervised agents. Self-hosted, local-first, zero telemetry. Apache 2.0.",
-    "stars": 23,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "agentic",
-      "agents",
-      "ai",
-      "llm",
-      "local-first",
-      "mcp",
-      "runtime",
-      "rust",
-      "self-hosted"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-06-04T05:24:13Z",
-    "updated_at": "2026-06-08T05:15:37Z",
-    "owner": {
-      "name": "axocoatl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/272660081?v=4"
     }
   },
   {
@@ -1662,6 +1589,33 @@
     }
   },
   {
+    "name": "athxrvx/Spear",
+    "url": "https://github.com/athxrvx/Spear",
+    "description": "A Libadwaita-based Launcher for the Gnome Desktop",
+    "stars": 20,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "adwaita",
+      "applauncher",
+      "gnome",
+      "gnome-desktop",
+      "gnome-shell",
+      "launcher",
+      "libadwaita",
+      "libadwaita-rs",
+      "raycast",
+      "rust"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-04T18:24:28Z",
+    "updated_at": "2026-06-08T12:10:04Z",
+    "owner": {
+      "name": "athxrvx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68412503?v=4"
+    }
+  },
+  {
     "name": "hoangpm96/ai-switcher",
     "url": "https://github.com/hoangpm96/ai-switcher",
     "description": "A native macOS app to manage and switch between multiple accounts for AI coding tools — Claude Code, Codex, and Antigravity IDE — from one place.",
@@ -1675,38 +1629,6 @@
     "owner": {
       "name": "hoangpm96",
       "avatar_url": "https://avatars.githubusercontent.com/u/22195067?v=4"
-    }
-  },
-  {
-    "name": "pine-org/thornwood",
-    "url": "https://github.com/pine-org/thornwood",
-    "description": "Pine-maintained Rust cryptography workspace and C-free rustls crypto provider.",
-    "stars": 20,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-06-06T05:29:55Z",
-    "updated_at": "2026-06-08T04:19:46Z",
-    "owner": {
-      "name": "pine-org",
-      "avatar_url": "https://avatars.githubusercontent.com/u/286556883?v=4"
-    }
-  },
-  {
-    "name": "dollspace-gay/Thermite",
-    "url": "https://github.com/dollspace-gay/Thermite",
-    "description": "Agentic language built on rust",
-    "stars": 20,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-04T17:39:36Z",
-    "updated_at": "2026-06-08T04:35:17Z",
-    "owner": {
-      "name": "dollspace-gay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/190305670?v=4"
     }
   },
   {
@@ -1755,33 +1677,6 @@
     "owner": {
       "name": "akitaonrails",
       "avatar_url": "https://avatars.githubusercontent.com/u/2840?v=4"
-    }
-  },
-  {
-    "name": "athxrvx/Spear",
-    "url": "https://github.com/athxrvx/Spear",
-    "description": "A Libadwaita-based Launcher for the Gnome Desktop",
-    "stars": 19,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "adwaita",
-      "applauncher",
-      "gnome",
-      "gnome-desktop",
-      "gnome-shell",
-      "launcher",
-      "libadwaita",
-      "libadwaita-rs",
-      "raycast",
-      "rust"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-04T18:24:28Z",
-    "updated_at": "2026-06-08T05:38:01Z",
-    "owner": {
-      "name": "athxrvx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68412503?v=4"
     }
   },
   {
@@ -2002,6 +1897,22 @@
     }
   },
   {
+    "name": "trailofbits/trailmix",
+    "url": "https://github.com/trailofbits/trailmix",
+    "description": null,
+    "stars": 17,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-05T19:01:55Z",
+    "updated_at": "2026-06-08T19:47:34Z",
+    "owner": {
+      "name": "trailofbits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2314423?v=4"
+    }
+  },
+  {
     "name": "LeoKemp223/ai-light",
     "url": "https://github.com/LeoKemp223/ai-light",
     "description": "Cross-platform desktop traffic light widget for monitoring AI coding assistants (Claude Code, Codex).",
@@ -2107,6 +2018,22 @@
     }
   },
   {
+    "name": "rust-kotlin/ashell",
+    "url": "https://github.com/rust-kotlin/ashell",
+    "description": "ashell is a modern, GPUI Component-based desktop terminal client written in Rust.",
+    "stars": 16,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-06-08T07:17:51Z",
+    "updated_at": "2026-06-09T06:01:12Z",
+    "owner": {
+      "name": "rust-kotlin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105690584?v=4"
+    }
+  },
+  {
     "name": "tranhuuhuy297/cliccy",
     "url": "https://github.com/tranhuuhuy297/cliccy",
     "description": "Keyboard-driven clipboard history for Linux — text and images",
@@ -2187,38 +2114,26 @@
     }
   },
   {
-    "name": "CodeBendKit/codeseek",
-    "url": "https://github.com/CodeBendKit/codeseek",
-    "description": "Rust-powered code intelligence CLI for AI coding agents. Builds call graphs and hybrid semantic search indexes (Dense + Sparse + RRF + Reranker) across 7 languages. Ships as native MCP tools for Claude Code and Codex CLI.",
+    "name": "FerroxLabs/wayland-core",
+    "url": "https://github.com/FerroxLabs/wayland-core",
+    "description": "Multi-provider AI agent CLI written in Rust",
     "stars": 15,
-    "forks": 2,
+    "forks": 1,
     "language": "Rust",
     "topics": [
-      "bm25",
-      "c-li",
-      "call-graph",
-      "claude-code",
+      "agent",
+      "ai-agent",
       "cli",
-      "code-analysis",
-      "code-intelligence",
-      "cross-encoder",
-      "embedding",
-      "hybrid-search",
-      "lancedb",
+      "llm",
       "mcp",
-      "q-wen",
-      "qwen",
-      "reranker",
-      "rust",
-      "semantic-search",
-      "tree-sitter"
+      "rust"
     ],
-    "license": "MIT License",
-    "created_at": "2026-06-03T05:41:22Z",
-    "updated_at": "2026-06-08T05:48:21Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-08T05:13:09Z",
+    "updated_at": "2026-06-09T05:59:53Z",
     "owner": {
-      "name": "CodeBendKit",
-      "avatar_url": "https://avatars.githubusercontent.com/u/290254801?v=4"
+      "name": "FerroxLabs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/282419864?v=4"
     }
   },
   {
@@ -2342,6 +2257,54 @@
     }
   },
   {
+    "name": "vanbanana/Coco",
+    "url": "https://github.com/vanbanana/Coco",
+    "description": "Coco desktop AI agent client demo",
+    "stars": 13,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-05T06:15:09Z",
+    "updated_at": "2026-06-08T14:24:58Z",
+    "owner": {
+      "name": "vanbanana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54699962?v=4"
+    }
+  },
+  {
+    "name": "Crash0v3rrid3/obscura",
+    "url": "https://github.com/Crash0v3rrid3/obscura",
+    "description": "Rust port of javascript-obfuscator. 21 transforms, ~700× faster, byte-deterministic, ships as crate/CLI/Node-addon/WASM.",
+    "stars": 13,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-06T07:41:00Z",
+    "updated_at": "2026-06-08T05:46:21Z",
+    "owner": {
+      "name": "Crash0v3rrid3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43724509?v=4"
+    }
+  },
+  {
+    "name": "nju-cli/nju-cli",
+    "url": "https://github.com/nju-cli/nju-cli",
+    "description": "让Agent帮你读通知、看文件、走流程！",
+    "stars": 13,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-06-05T04:19:30Z",
+    "updated_at": "2026-06-09T01:18:33Z",
+    "owner": {
+      "name": "nju-cli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/290945942?v=4"
+    }
+  },
+  {
     "name": "t-kalinowski/ir",
     "url": "https://github.com/t-kalinowski/ir",
     "description": null,
@@ -2427,6 +2390,38 @@
     }
   },
   {
+    "name": "akitaonrails/ratatui-bubbletea",
+    "url": "https://github.com/akitaonrails/ratatui-bubbletea",
+    "description": "Charm's BubbleTea look and feel ported to Ratatui",
+    "stars": 12,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-08T13:34:51Z",
+    "updated_at": "2026-06-09T04:04:40Z",
+    "owner": {
+      "name": "akitaonrails",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2840?v=4"
+    }
+  },
+  {
+    "name": "tttzof351/theseus-shell",
+    "url": "https://github.com/tttzof351/theseus-shell",
+    "description": null,
+    "stars": 12,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-05T20:22:58Z",
+    "updated_at": "2026-06-08T21:29:54Z",
+    "owner": {
+      "name": "tttzof351",
+      "avatar_url": "https://avatars.githubusercontent.com/u/692328?v=4"
+    }
+  },
+  {
     "name": "arsfeld/nix-du",
     "url": "https://github.com/arsfeld/nix-du",
     "description": "ncdu-like TUI for exploring Nix store derivation sizes",
@@ -2507,51 +2502,67 @@
     }
   },
   {
-    "name": "ZingerLittleBee/next-socks5",
-    "url": "https://github.com/ZingerLittleBee/next-socks5",
-    "description": "Fast, lightweight SOCKS5 server in Rust — TUI dashboard, headless mode, secure by default.",
+    "name": "CodNoob100/null-drift",
+    "url": "https://github.com/CodNoob100/null-drift",
+    "description": null,
     "stars": 11,
-    "forks": 5,
+    "forks": 2,
     "language": "Rust",
-    "topics": [
-      "cli",
-      "docker",
-      "musl",
-      "networking",
-      "proxy",
-      "proxy-server",
-      "ratatui",
-      "rust",
-      "self-hosted",
-      "socks5",
-      "socks5-proxy",
-      "socks5-server",
-      "tokio",
-      "tui",
-      "udp-associate"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-03T09:57:04Z",
-    "updated_at": "2026-06-05T18:18:54Z",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-06-06T14:31:37Z",
+    "updated_at": "2026-06-08T09:07:49Z",
     "owner": {
-      "name": "ZingerLittleBee",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33377263?v=4"
+      "name": "CodNoob100",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87256706?v=4"
     }
   },
   {
-    "name": "trailofbits/trailmix",
-    "url": "https://github.com/trailofbits/trailmix",
-    "description": null,
+    "name": "geraldolsribeiro/lazyfossil",
+    "url": "https://github.com/geraldolsribeiro/lazyfossil",
+    "description": "A lazygit-inspired terminal UI for Fossil SCM.",
     "stars": 11,
-    "forks": 1,
+    "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-06-05T19:01:55Z",
-    "updated_at": "2026-06-06T20:06:19Z",
+    "created_at": "2026-06-05T17:35:40Z",
+    "updated_at": "2026-06-08T22:19:03Z",
     "owner": {
-      "name": "trailofbits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2314423?v=4"
+      "name": "geraldolsribeiro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3185022?v=4"
+    }
+  },
+  {
+    "name": "bsoc-bitbyte/rustats",
+    "url": "https://github.com/bsoc-bitbyte/rustats",
+    "description": "Rust library crate for statistical and mathematical functions",
+    "stars": 11,
+    "forks": 12,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-05T14:48:37Z",
+    "updated_at": "2026-06-09T04:19:11Z",
+    "owner": {
+      "name": "bsoc-bitbyte",
+      "avatar_url": "https://avatars.githubusercontent.com/u/134281962?v=4"
+    }
+  },
+  {
+    "name": "akitaonrails/google-calendar-tui",
+    "url": "https://github.com/akitaonrails/google-calendar-tui",
+    "description": "Simple TUI to list upcoming google calendar appointments in the terminal (integrates with gnome online accounts)",
+    "stars": 11,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-07T03:41:55Z",
+    "updated_at": "2026-06-09T01:27:11Z",
+    "owner": {
+      "name": "akitaonrails",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2840?v=4"
     }
   },
   {
@@ -2612,6 +2623,38 @@
     "owner": {
       "name": "manic-systems",
       "avatar_url": "https://avatars.githubusercontent.com/u/287464793?v=4"
+    }
+  },
+  {
+    "name": "djanogly/fast-android-file-manager",
+    "url": "https://github.com/djanogly/fast-android-file-manager",
+    "description": null,
+    "stars": 10,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-06-04T09:37:29Z",
+    "updated_at": "2026-06-06T16:06:38Z",
+    "owner": {
+      "name": "djanogly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45178753?v=4"
+    }
+  },
+  {
+    "name": "oablab/ecsctl",
+    "url": "https://github.com/oablab/ecsctl",
+    "description": "An agent-first CLI that gives you a kubectl-like experience on Amazon ECS. Built for deploying and managing AI agent workloads — OpenClaw, Hermes, OpenAB, and any containerized agent — as easily as generic ECS services.",
+    "stars": 10,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-05T19:12:57Z",
+    "updated_at": "2026-06-08T11:03:48Z",
+    "owner": {
+      "name": "oablab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/285054928?v=4"
     }
   },
   {
