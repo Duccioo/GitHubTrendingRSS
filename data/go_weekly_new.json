@@ -1,25 +1,5 @@
 [
   {
-    "name": "perplexityai/bumblebee",
-    "url": "https://github.com/perplexityai/bumblebee",
-    "description": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
-    "stars": 2633,
-    "forks": 209,
-    "language": "Go",
-    "topics": [
-      "golang",
-      "package-inventory",
-      "supply-chain-security"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-20T18:11:37Z",
-    "updated_at": "2026-05-26T05:58:48Z",
-    "owner": {
-      "name": "perplexityai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/185426709?v=4"
-    }
-  },
-  {
     "name": "MatinSenPai/SenPaiScanner",
     "url": "https://github.com/MatinSenPai/SenPaiScanner",
     "description": "A light-weight scanner for Cloudflare IPs, written in Golang",
@@ -39,8 +19,8 @@
     "name": "tastyeffectco/sandboxd",
     "url": "https://github.com/tastyeffectco/sandboxd",
     "description": "Self-hosted dev sandboxes with preview URLs. One command. No Kubernetes, perfect for coding agents and Saas factories",
-    "stars": 501,
-    "forks": 12,
+    "stars": 517,
+    "forks": 14,
     "language": "Go",
     "topics": [
       "ai",
@@ -56,7 +36,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-03T18:55:02Z",
-    "updated_at": "2026-06-08T06:22:29Z",
+    "updated_at": "2026-06-09T05:23:58Z",
     "owner": {
       "name": "tastyeffectco",
       "avatar_url": "https://avatars.githubusercontent.com/u/205345397?v=4"
@@ -160,16 +140,32 @@
     "name": "FengZi1221/proxy-installer",
     "url": "https://github.com/FengZi1221/proxy-installer",
     "description": "一个面向新手的 Windows 桌面工具，通过 SSH 连接 VPS，自动检测环境并部署 Hysteria2、VMess、VLESS Reality、Trojan、Shadowsocks 节点。全自动安装节点的工具，并且自动生成适用于小火箭/Clash Meta/Sing-Box/V2rayNG的订阅链接",
-    "stars": 130,
-    "forks": 18,
+    "stars": 157,
+    "forks": 19,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-04T19:05:37Z",
-    "updated_at": "2026-06-08T04:36:47Z",
+    "updated_at": "2026-06-09T04:54:50Z",
     "owner": {
       "name": "FengZi1221",
       "avatar_url": "https://avatars.githubusercontent.com/u/95153092?v=4"
+    }
+  },
+  {
+    "name": "iampedii/WhiteDNS-Wizard",
+    "url": "https://github.com/iampedii/WhiteDNS-Wizard",
+    "description": "Cloudflare-first WhiteDNS CLI/TUI for provisioning a managed 3x-ui/Xray VPN stack over SSH, with DNS, certificates, client import links, Tor-routed profiles, diagnostics, backups, and repair/reset flows.",
+    "stars": 134,
+    "forks": 10,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-05T07:34:28Z",
+    "updated_at": "2026-06-09T05:17:56Z",
+    "owner": {
+      "name": "iampedii",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7813872?v=4"
     }
   },
   {
@@ -189,6 +185,38 @@
     }
   },
   {
+    "name": "TryHarder-L/NiniMenu",
+    "url": "https://github.com/TryHarder-L/NiniMenu",
+    "description": "一款温馨的情侣家庭每日菜单推荐与食谱管理应用，告别\"今天吃什么\"的纠结。",
+    "stars": 118,
+    "forks": 16,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-05T15:33:26Z",
+    "updated_at": "2026-06-09T00:40:50Z",
+    "owner": {
+      "name": "TryHarder-L",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50231875?v=4"
+    }
+  },
+  {
+    "name": "MengMengCode/CLICD",
+    "url": "https://github.com/MengMengCode/CLICD",
+    "description": "CLICD 是一个面向 LXC/KVM 的轻量虚拟化管理面板，提供 Web 控制台、CLI、批量任务、镜像管理、NAT 端口、IPv6 分配、WebSSH、VNC、资源限制、流量限制和安全告警能力。它适合用来管理小型 VPS 上的 LXC 容器和 KVM 虚拟机，也适合需要批量创建和分发子用户管理链接的场景。",
+    "stars": 114,
+    "forks": 24,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-05T11:27:26Z",
+    "updated_at": "2026-06-09T05:50:53Z",
+    "owner": {
+      "name": "MengMengCode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/227010654?v=4"
+    }
+  },
+  {
     "name": "IRNova/NovaRadar",
     "url": "https://github.com/IRNova/NovaRadar",
     "description": "Nova Radar is a desktop IP scanner built with Go + React. It scans Cloudflare IP ranges from multiple selectable sources, performs real two-phase verification (TCP + TLS handshake), and outputs working IPs sorted by latency. Built by Nova Proxy Group.",
@@ -202,38 +230,6 @@
     "owner": {
       "name": "IRNova",
       "avatar_url": "https://avatars.githubusercontent.com/u/226289179?v=4"
-    }
-  },
-  {
-    "name": "iampedii/WhiteDNS-Wizard",
-    "url": "https://github.com/iampedii/WhiteDNS-Wizard",
-    "description": "Cloudflare-first WhiteDNS CLI/TUI for provisioning a managed 3x-ui/Xray VPN stack over SSH, with DNS, certificates, client import links, Tor-routed profiles, diagnostics, backups, and repair/reset flows.",
-    "stars": 104,
-    "forks": 7,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-05T07:34:28Z",
-    "updated_at": "2026-06-08T05:08:13Z",
-    "owner": {
-      "name": "iampedii",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7813872?v=4"
-    }
-  },
-  {
-    "name": "TryHarder-L/NiniMenu",
-    "url": "https://github.com/TryHarder-L/NiniMenu",
-    "description": "一款温馨的情侣家庭每日菜单推荐与食谱管理应用，告别\"今天吃什么\"的纠结。",
-    "stars": 101,
-    "forks": 13,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-05T15:33:26Z",
-    "updated_at": "2026-06-08T06:27:57Z",
-    "owner": {
-      "name": "TryHarder-L",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50231875?v=4"
     }
   },
   {
@@ -325,22 +321,6 @@
     }
   },
   {
-    "name": "MengMengCode/CLICD",
-    "url": "https://github.com/MengMengCode/CLICD",
-    "description": "CLICD 是一个面向 LXC 的轻量容器管理面板，提供 Web 控制台、CLI、批量任务、镜像管理、NAT 端口、IPv6 分配、WebSSH、资源限制、流量限制和安全告警能力。它适合用来管理小型 VPS 上的 LXC 容器，也适合需要批量创建和分发子用户管理链接的场景。",
-    "stars": 69,
-    "forks": 19,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-05T11:27:26Z",
-    "updated_at": "2026-06-08T04:40:26Z",
-    "owner": {
-      "name": "MengMengCode",
-      "avatar_url": "https://avatars.githubusercontent.com/u/227010654?v=4"
-    }
-  },
-  {
     "name": "realrenatto/take-over",
     "url": "https://github.com/realrenatto/take-over",
     "description": "Take-Over is a Go-based tool designed to detect subdomain takeover vulnerabilities across different Cloud Service Providers (CSPs).",
@@ -354,22 +334,6 @@
     "owner": {
       "name": "realrenatto",
       "avatar_url": "https://avatars.githubusercontent.com/u/200254256?v=4"
-    }
-  },
-  {
-    "name": "ninehills/pdf2md",
-    "url": "https://github.com/ninehills/pdf2md",
-    "description": "PDF to Markdown OCR tools",
-    "stars": 48,
-    "forks": 4,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-20T07:19:49Z",
-    "updated_at": "2026-05-26T02:14:51Z",
-    "owner": {
-      "name": "ninehills",
-      "avatar_url": "https://avatars.githubusercontent.com/u/270298?v=4"
     }
   },
   {
@@ -472,13 +436,13 @@
     "name": "volcengine/mediakit-cli",
     "url": "https://github.com/volcengine/mediakit-cli",
     "description": null,
-    "stars": 40,
+    "stars": 41,
     "forks": 1,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-03T09:50:04Z",
-    "updated_at": "2026-06-06T03:35:29Z",
+    "updated_at": "2026-06-08T12:20:41Z",
     "owner": {
       "name": "volcengine",
       "avatar_url": "https://avatars.githubusercontent.com/u/67365215?v=4"
@@ -570,173 +534,35 @@
     }
   },
   {
+    "name": "hadihonarvar/flock",
+    "url": "https://github.com/hadihonarvar/flock",
+    "description": "Local LLM Orchestrator",
+    "stars": 35,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-05T03:06:23Z",
+    "updated_at": "2026-06-09T05:01:29Z",
+    "owner": {
+      "name": "hadihonarvar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10359872?v=4"
+    }
+  },
+  {
     "name": "veteranbv/aicrawl",
     "url": "https://github.com/veteranbv/aicrawl",
     "description": null,
-    "stars": 34,
+    "stars": 35,
     "forks": 1,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-03T00:52:50Z",
-    "updated_at": "2026-06-04T15:29:05Z",
+    "updated_at": "2026-06-08T11:28:54Z",
     "owner": {
       "name": "veteranbv",
       "avatar_url": "https://avatars.githubusercontent.com/u/7597583?v=4"
-    }
-  },
-  {
-    "name": "Scalephodevastate/Nitro-PDF-Pro-14-43-Enterprise-Full",
-    "url": "https://github.com/Scalephodevastate/Nitro-PDF-Pro-14-43-Enterprise-Full",
-    "description": "Nitro PDF Pro Enterprise PDF Editing Download | v14.43.6.0 Installer with Patch & Keygen | Pre-Activated License Key Setup",
-    "stars": 34,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "amit",
-      "audio-recorder",
-      "codes",
-      "compress",
-      "discord-nitro",
-      "discord-scraper",
-      "excel",
-      "fluxer",
-      "foxit-pdf-editor-pro-for-teams",
-      "html-pdf-converter",
-      "nitro-generator",
-      "nitro-pro-pdf-review",
-      "nitro-team-pro-binding",
-      "pdf-editor",
-      "pdf-software",
-      "software-nitro-pro",
-      "strongbox",
-      "tool-kit",
-      "what-is-nitro-pro-software"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-25T14:17:04Z",
-    "updated_at": "2026-05-26T05:28:47Z",
-    "owner": {
-      "name": "Scalephodevastate",
-      "avatar_url": "https://avatars.githubusercontent.com/u/283505404?v=4"
-    }
-  },
-  {
-    "name": "Realilreveal/Lumion-Pro-2025-2-2-Full",
-    "url": "https://github.com/Realilreveal/Lumion-Pro-2025-2-2-Full",
-    "description": "Lumion Pro 2025.2.2 Photorealistic Architectural Rendering Download | v2025.2.2 Full Production Installer with Patch | Pre-Activated Premium Setup License",
-    "stars": 34,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "architectural-rendering",
-      "formit-plugin-recommended",
-      "free-download-lumion-12-2024",
-      "grasshopper3d"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-25T14:16:56Z",
-    "updated_at": "2026-05-26T05:28:50Z",
-    "owner": {
-      "name": "Realilreveal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/283505930?v=4"
-    }
-  },
-  {
-    "name": "SerpentPlanner/Topaz-Gigapixel-AI-Pro-v8-Full",
-    "url": "https://github.com/SerpentPlanner/Topaz-Gigapixel-AI-Pro-v8-Full",
-    "description": "Topaz Gigapixel AI Pro Image Upscaler Download | v8.4.4.1529 Installer with Patch & Keygen | Pre-Activated Pro License Setup",
-    "stars": 34,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "downsampling",
-      "electron",
-      "esrgan",
-      "h-bridge",
-      "histopathology-images",
-      "image",
-      "image-upscaling",
-      "maritime-surveillance",
-      "panorama",
-      "pattern-search",
-      "upscale",
-      "vite",
-      "weakly-supervised",
-      "wsi"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-25T14:17:05Z",
-    "updated_at": "2026-05-26T05:28:42Z",
-    "owner": {
-      "name": "SerpentPlanner",
-      "avatar_url": "https://avatars.githubusercontent.com/u/283506501?v=4"
-    }
-  },
-  {
-    "name": "Rubyzorslide/Adobe-Lightroom-Classic-15-3-Full",
-    "url": "https://github.com/Rubyzorslide/Adobe-Lightroom-Classic-15-3-Full",
-    "description": "Adobe Lightroom Classic Photo Editor Download | v15.3.0 Installer with Patch & Keygen | Pre-Activated Unlocked Setup for Windows",
-    "stars": 34,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "adobe-lightroom",
-      "ai-photo-editor",
-      "hdr-editing",
-      "lightroom",
-      "lightroom-2026",
-      "lightroom-beast",
-      "lightroom-full",
-      "photo-catalog",
-      "photo-enhancement",
-      "photography-workflow",
-      "portrait-retouching",
-      "raw-editor",
-      "raw-edtior"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-25T14:15:57Z",
-    "updated_at": "2026-05-26T05:29:36Z",
-    "owner": {
-      "name": "Rubyzorslide",
-      "avatar_url": "https://avatars.githubusercontent.com/u/283507026?v=4"
-    }
-  },
-  {
-    "name": "harborseaannihilate/WinRAR-Professional-7-22-Full",
-    "url": "https://github.com/harborseaannihilate/WinRAR-Professional-7-22-Full",
-    "description": "WinRAR Professional Download | v7.22 Installer with RegKey Lifetime License Patch | Pre-Activated Full Version Setup",
-    "stars": 34,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "7z",
-      "activator",
-      "archive-file-encryption-windows",
-      "auto-install",
-      "compressed-folder-management",
-      "file-integrity-windows-archives",
-      "password-unlocker",
-      "pdf-exploit",
-      "pdf-format",
-      "python-reverse",
-      "rarlab",
-      "rce-exploit",
-      "vs2022",
-      "winrar",
-      "winrar-720",
-      "winrar-compression-methods",
-      "winrar-file-integrity-check",
-      "winrar-folder-compression-tips",
-      "winrar-password-protection-files"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-25T14:17:16Z",
-    "updated_at": "2026-05-26T05:28:29Z",
-    "owner": {
-      "name": "harborseaannihilate",
-      "avatar_url": "https://avatars.githubusercontent.com/u/283506305?v=4"
     }
   },
   {
@@ -772,139 +598,39 @@
     }
   },
   {
-    "name": "FighterForce/Adobe-Substance-3D-Painter-12-0-3-Full",
-    "url": "https://github.com/FighterForce/Adobe-Substance-3D-Painter-12-0-3-Full",
-    "description": "Adobe Substance 3D Painter Full Version Download | v12.0.3.5408 PBR Texturing Suite with Patch & Keygen | Pre-Activated Setup License",
-    "stars": 33,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "3d-art",
-      "3d-texture-painting",
-      "allegorithmic-substance-designer-3",
-      "arnold",
-      "asset",
-      "blender",
-      "character-modeling",
-      "cryengine",
-      "game-assets",
-      "game-design",
-      "gameart",
-      "katana",
-      "mari",
-      "renderdoc",
-      "renderman-23",
-      "substance-abuse",
-      "substance-painter",
-      "surfacing",
-      "uv-mapping",
-      "zbrush"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-25T14:16:02Z",
-    "updated_at": "2026-05-25T20:49:18Z",
-    "owner": {
-      "name": "FighterForce",
-      "avatar_url": "https://avatars.githubusercontent.com/u/283507188?v=4"
-    }
-  },
-  {
-    "name": "CasterReflect/Autodesk-Inventor-Professional-2027-Full-Build",
-    "url": "https://github.com/CasterReflect/Autodesk-Inventor-Professional-2027-Full-Build",
-    "description": "Autodesk Inventor Professional 2027.0.1 Download | Mechanical Design Installer with Offline License Emulator Patch & Keygen | Pre-Activated Setup",
-    "stars": 33,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "3d-modelling",
-      "assembly-design",
-      "assembly-modeling",
-      "cad-software",
-      "content-center",
-      "data-management",
-      "design-automation",
-      "design-automation-inventor",
-      "drawingdocument",
-      "drawings",
-      "esp32-wrover",
-      "face-tracking",
-      "forge",
-      "forge-viewer",
-      "fusion360",
-      "inventor",
-      "inventor-automation",
-      "inventor-design",
-      "inventor-parts",
-      "robot-simulator"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-25T14:16:22Z",
-    "updated_at": "2026-05-25T20:49:36Z",
-    "owner": {
-      "name": "CasterReflect",
-      "avatar_url": "https://avatars.githubusercontent.com/u/283507354?v=4"
-    }
-  },
-  {
-    "name": "SilverCleric/Autodesk-Revit-2027-0-2-Full-Build",
-    "url": "https://github.com/SilverCleric/Autodesk-Revit-2027-0-2-Full-Build",
-    "description": "Autodesk Revit 2027.0.2 Professional Download | BIM Architecture Installer with Offline License Emulator Patch & Keygen | Pre-Activated Setup",
-    "stars": 33,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "bim-applications",
-      "bim-management",
-      "design-automation-revit",
-      "dynamorevit",
-      "ef-tools",
-      "fsharp-interactive",
-      "pyrevit-extensions",
-      "revit",
-      "revit-2024",
-      "revit-addin",
-      "revit-addins",
-      "revit-ai",
-      "revit-api",
-      "revit-files",
-      "revit-mcp",
-      "revit-mep",
-      "revit-plugin",
-      "revit-project",
-      "revit-server",
-      "revit2026"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-25T14:16:28Z",
-    "updated_at": "2026-05-25T20:49:51Z",
-    "owner": {
-      "name": "SilverCleric",
-      "avatar_url": "https://avatars.githubusercontent.com/u/283505302?v=4"
-    }
-  },
-  {
-    "name": "aasixh/devgrep",
-    "url": "https://github.com/aasixh/devgrep",
-    "description": "Fast recursive command search CLI tool built for developers.",
+    "name": "pivanov/ctx-wire",
+    "url": "https://github.com/pivanov/ctx-wire",
+    "description": "ctx-wire runs your commands, compresses the output with declarative filters, scrubs secrets, and hands your agent a short result. The full log stays on disk for when something actually fails. Cut the noise on the wire. ",
     "stars": 31,
-    "forks": 16,
+    "forks": 0,
     "language": "Go",
     "topics": [
-      "cli",
-      "code-search",
-      "devloper-tools",
-      "go",
-      "golang",
-      "grep",
-      "search",
-      "terminal"
+      "claude",
+      "codex",
+      "cursor"
     ],
     "license": "MIT License",
-    "created_at": "2026-05-22T03:09:29Z",
-    "updated_at": "2026-05-26T05:56:42Z",
+    "created_at": "2026-06-05T03:50:50Z",
+    "updated_at": "2026-06-08T23:20:52Z",
     "owner": {
-      "name": "aasixh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/134841467?v=4"
+      "name": "pivanov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/191504?v=4"
+    }
+  },
+  {
+    "name": "elyelysiox/recaptcha-botguard",
+    "url": "https://github.com/elyelysiox/recaptcha-botguard",
+    "description": "Reverse Engineered OLD reCAPTCHA Botguard + Token Generator",
+    "stars": 30,
+    "forks": 6,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-04T22:23:57Z",
+    "updated_at": "2026-06-08T22:51:08Z",
+    "owner": {
+      "name": "elyelysiox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108831238?v=4"
     }
   },
   {
@@ -962,38 +688,6 @@
     "owner": {
       "name": "tatanakots",
       "avatar_url": "https://avatars.githubusercontent.com/u/158820592?v=4"
-    }
-  },
-  {
-    "name": "elyelysiox/recaptcha-botguard",
-    "url": "https://github.com/elyelysiox/recaptcha-botguard",
-    "description": "Reverse Engineered OLD reCAPTCHA Botguard + Token Generator",
-    "stars": 27,
-    "forks": 5,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-04T22:23:57Z",
-    "updated_at": "2026-06-07T12:17:32Z",
-    "owner": {
-      "name": "elyelysiox",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108831238?v=4"
-    }
-  },
-  {
-    "name": "hadihonarvar/flock",
-    "url": "https://github.com/hadihonarvar/flock",
-    "description": "Local LLM Orchestrator",
-    "stars": 27,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-06-05T03:06:23Z",
-    "updated_at": "2026-06-08T06:28:43Z",
-    "owner": {
-      "name": "hadihonarvar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10359872?v=4"
     }
   },
   {
@@ -1115,26 +809,6 @@
     }
   },
   {
-    "name": "pivanov/ctx-wire",
-    "url": "https://github.com/pivanov/ctx-wire",
-    "description": "ctx-wire runs your commands, compresses the output with declarative filters, scrubs secrets, and hands your agent a short result. The full log stays on disk for when something actually fails. Cut the noise on the wire. ",
-    "stars": 22,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "claude",
-      "codex",
-      "cursor"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-05T03:50:50Z",
-    "updated_at": "2026-06-08T06:15:21Z",
-    "owner": {
-      "name": "pivanov",
-      "avatar_url": "https://avatars.githubusercontent.com/u/191504?v=4"
-    }
-  },
-  {
     "name": "genz27/FlowMusic2API",
     "url": "https://github.com/genz27/FlowMusic2API",
     "description": null,
@@ -1196,6 +870,22 @@
     "owner": {
       "name": "SuperCoolPencil",
       "avatar_url": "https://avatars.githubusercontent.com/u/88665456?v=4"
+    }
+  },
+  {
+    "name": "amirhosssein0/k8s-gitops-lab",
+    "url": "https://github.com/amirhosssein0/k8s-gitops-lab",
+    "description": "GitOps workflow with Helm & ArgoCD on Kubernetes",
+    "stars": 21,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-04T08:33:02Z",
+    "updated_at": "2026-06-08T14:13:26Z",
+    "owner": {
+      "name": "amirhosssein0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195568080?v=4"
     }
   },
   {
@@ -1268,38 +958,6 @@
     "owner": {
       "name": "chenhg5",
       "avatar_url": "https://avatars.githubusercontent.com/u/4344486?v=4"
-    }
-  },
-  {
-    "name": "kleimer/vpn_over_ssh",
-    "url": "https://github.com/kleimer/vpn_over_ssh",
-    "description": null,
-    "stars": 20,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-20T12:27:09Z",
-    "updated_at": "2026-05-25T09:23:24Z",
-    "owner": {
-      "name": "kleimer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10291973?v=4"
-    }
-  },
-  {
-    "name": "amirhosssein0/k8s-gitops-lab",
-    "url": "https://github.com/amirhosssein0/k8s-gitops-lab",
-    "description": "GitOps workflow with Helm & ArgoCD on Kubernetes",
-    "stars": 19,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-04T08:33:02Z",
-    "updated_at": "2026-06-07T17:17:15Z",
-    "owner": {
-      "name": "amirhosssein0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/195568080?v=4"
     }
   },
   {
@@ -1605,6 +1263,28 @@
     }
   },
   {
+    "name": "soulteary/otterio",
+    "url": "https://github.com/soulteary/otterio",
+    "description": "A lightweight S3-compatible object storage service derived from the Apache-licensed MinIO codebase.",
+    "stars": 15,
+    "forks": 3,
+    "language": "Go",
+    "topics": [
+      "minio",
+      "s3",
+      "s3-backup",
+      "s3-compatible",
+      "s3-storage"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-03T19:26:49Z",
+    "updated_at": "2026-06-09T04:29:45Z",
+    "owner": {
+      "name": "soulteary",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1500781?v=4"
+    }
+  },
+  {
     "name": "wintermi/sigma",
     "url": "https://github.com/wintermi/sigma",
     "description": "sigma is a Go package for provider-neutral AI model calls.",
@@ -1689,29 +1369,74 @@
     }
   },
   {
-    "name": "leehainuo/coco",
-    "url": "https://github.com/leehainuo/coco",
-    "description": "Coco is an elegant and beautiful OpenAPI UI library for Go",
-    "stars": 15,
+    "name": "glodb/keel",
+    "url": "https://github.com/glodb/keel",
+    "description": "A framework for golang developers",
+    "stars": 14,
     "forks": 0,
     "language": "Go",
-    "topics": [
-      "api-docs",
-      "api-documentation",
-      "go",
-      "golang",
-      "openapi",
-      "swagger",
-      "swagger-ui",
-      "tailwindcss",
-      "vue3"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-05-20T06:11:19Z",
-    "updated_at": "2026-05-26T05:47:20Z",
+    "created_at": "2026-06-04T12:06:15Z",
+    "updated_at": "2026-06-08T17:13:10Z",
     "owner": {
-      "name": "leehainuo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/182531394?v=4"
+      "name": "glodb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/143581305?v=4"
+    }
+  },
+  {
+    "name": "stemps/treehouse",
+    "url": "https://github.com/stemps/treehouse",
+    "description": null,
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-06T10:07:49Z",
+    "updated_at": "2026-06-08T18:05:58Z",
+    "owner": {
+      "name": "stemps",
+      "avatar_url": "https://avatars.githubusercontent.com/u/630990?v=4"
+    }
+  },
+  {
+    "name": "home-operations/konflate",
+    "url": "https://github.com/home-operations/konflate",
+    "description": "A read-only pull request tool for Flate",
+    "stars": 14,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "0ver",
+      "flate",
+      "fluxcd",
+      "helmrelease",
+      "kubernetes",
+      "kustomize"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-06-05T00:33:40Z",
+    "updated_at": "2026-06-09T01:59:34Z",
+    "owner": {
+      "name": "home-operations",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152294696?v=4"
+    }
+  },
+  {
+    "name": "dfradehubs/agentgram",
+    "url": "https://github.com/dfradehubs/agentgram",
+    "description": "A single front door for all your AI agents and MCPs",
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-03T06:56:30Z",
+    "updated_at": "2026-06-08T21:42:01Z",
+    "owner": {
+      "name": "dfradehubs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/171810295?v=4"
     }
   },
   {
@@ -1735,29 +1460,6 @@
     "owner": {
       "name": "ory",
       "avatar_url": "https://avatars.githubusercontent.com/u/25334553?v=4"
-    }
-  },
-  {
-    "name": "home-operations/konflate",
-    "url": "https://github.com/home-operations/konflate",
-    "description": "A read-only pull request tool for Flate",
-    "stars": 14,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "0ver",
-      "flate",
-      "fluxcd",
-      "helmrelease",
-      "kubernetes",
-      "kustomize"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-06-05T00:33:40Z",
-    "updated_at": "2026-06-08T01:12:12Z",
-    "owner": {
-      "name": "home-operations",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152294696?v=4"
     }
   },
   {
@@ -1870,19 +1572,19 @@
     }
   },
   {
-    "name": "glodb/keel",
-    "url": "https://github.com/glodb/keel",
-    "description": "A framework for golang developers",
+    "name": "malaohu/jikeqingpan",
+    "url": "https://github.com/malaohu/jikeqingpan",
+    "description": null,
     "stars": 13,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-04T12:06:15Z",
-    "updated_at": "2026-06-08T06:23:43Z",
+    "license": "No license",
+    "created_at": "2026-06-03T03:33:51Z",
+    "updated_at": "2026-06-09T05:56:23Z",
     "owner": {
-      "name": "glodb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/143581305?v=4"
+      "name": "malaohu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5143704?v=4"
     }
   },
   {
@@ -1979,19 +1681,50 @@
     }
   },
   {
-    "name": "stemps/treehouse",
-    "url": "https://github.com/stemps/treehouse",
+    "name": "jiyoutech/DSMPASS",
+    "url": "https://github.com/jiyoutech/DSMPASS",
     "description": null,
     "stars": 12,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-06T10:07:49Z",
-    "updated_at": "2026-06-07T13:54:27Z",
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-06-04T06:35:48Z",
+    "updated_at": "2026-06-08T23:53:43Z",
     "owner": {
-      "name": "stemps",
-      "avatar_url": "https://avatars.githubusercontent.com/u/630990?v=4"
+      "name": "jiyoutech",
+      "avatar_url": "https://avatars.githubusercontent.com/u/273265463?v=4"
+    }
+  },
+  {
+    "name": "melancholictheory/wellcake",
+    "url": "https://github.com/melancholictheory/wellcake",
+    "description": "A Kubernetes operator for Valkey — Standalone / Replication / Sentinel / Cluster, operator-driven failover, proactive zero-downtime rolling restarts, Atomic Slot Migration, S3 backups, multi-region replication.",
+    "stars": 12,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "cache",
+      "cloud-native",
+      "controller-runtime",
+      "database",
+      "golang",
+      "helm",
+      "high-availability",
+      "kubebuilder",
+      "kubernetes",
+      "kubernetes-operator",
+      "operator",
+      "redis",
+      "sentinel",
+      "valkey"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-07T08:12:52Z",
+    "updated_at": "2026-06-08T13:32:22Z",
+    "owner": {
+      "name": "melancholictheory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61789920?v=4"
     }
   },
   {
@@ -2031,34 +1764,19 @@
     }
   },
   {
-    "name": "melancholictheory/wellcake",
-    "url": "https://github.com/melancholictheory/wellcake",
-    "description": "A Kubernetes operator for Valkey — Standalone / Replication / Sentinel / Cluster, operator-driven failover, proactive zero-downtime rolling restarts, Atomic Slot Migration, S3 backups, multi-region replication.",
+    "name": "andrey-vk/wdbgp",
+    "url": "https://github.com/andrey-vk/wdbgp",
+    "description": "A service that collects lists of prefixes from feeds and distributes them via BGP",
     "stars": 11,
     "forks": 0,
     "language": "Go",
-    "topics": [
-      "cache",
-      "cloud-native",
-      "controller-runtime",
-      "database",
-      "golang",
-      "helm",
-      "high-availability",
-      "kubebuilder",
-      "kubernetes",
-      "kubernetes-operator",
-      "operator",
-      "redis",
-      "sentinel",
-      "valkey"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-06-07T08:12:52Z",
-    "updated_at": "2026-06-07T19:17:48Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-04T18:53:15Z",
+    "updated_at": "2026-06-08T17:35:24Z",
     "owner": {
-      "name": "melancholictheory",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61789920?v=4"
+      "name": "andrey-vk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11324706?v=4"
     }
   },
   {
@@ -2136,26 +1854,6 @@
     }
   },
   {
-    "name": "huey1in/KiroX_Cli",
-    "url": "https://github.com/huey1in/KiroX_Cli",
-    "description": "Kiro 协议注册机 | AWS Builder ID 批量自动注册工具",
-    "stars": 11,
-    "forks": 8,
-    "language": "Go",
-    "topics": [
-      "aws",
-      "golang",
-      "kiro"
-    ],
-    "license": "Other",
-    "created_at": "2026-05-22T05:05:24Z",
-    "updated_at": "2026-05-25T09:14:38Z",
-    "owner": {
-      "name": "huey1in",
-      "avatar_url": "https://avatars.githubusercontent.com/u/143839232?v=4"
-    }
-  },
-  {
     "name": "TheOutdoorProgrammer/crate",
     "url": "https://github.com/TheOutdoorProgrammer/crate",
     "description": "Self-hosted music manager. Search, watch, and download your music library via Deezer/MusicBrainz + slskd.",
@@ -2169,29 +1867,6 @@
     "owner": {
       "name": "TheOutdoorProgrammer",
       "avatar_url": "https://avatars.githubusercontent.com/u/13936290?v=4"
-    }
-  },
-  {
-    "name": "shuijiao1/DockUP",
-    "url": "https://github.com/shuijiao1/DockUP",
-    "description": "轻量 Telegram Docker 管理工具：自动检测容器更新，支持 Docker / Compose 项目状态查看、按钮确认更新和常用管理操作",
-    "stars": 11,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "docker",
-      "docker-update",
-      "ghcr",
-      "golang",
-      "self-hosted",
-      "telegram-bot"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-21T13:37:52Z",
-    "updated_at": "2026-05-25T14:35:00Z",
-    "owner": {
-      "name": "shuijiao1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74536735?v=4"
     }
   },
   {
@@ -2212,6 +1887,35 @@
     "owner": {
       "name": "pzhenzhou",
       "avatar_url": "https://avatars.githubusercontent.com/u/99641009?v=4"
+    }
+  },
+  {
+    "name": "dimasma0305/wp-taint-scan",
+    "url": "https://github.com/dimasma0305/wp-taint-scan",
+    "description": "Go static taint-analysis engine that finds vulnerabilities in WordPress plugins — WordPress-aware (capability tiers, nonce≠authz, REST/AJAX entrypoints). Detects SQLi, XSS, IDOR, privesc, RCE. Built on php-parser-go.",
+    "stars": 10,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "appsec",
+      "bug-bounty",
+      "golang",
+      "php",
+      "sast",
+      "security",
+      "security-tools",
+      "static-analysis",
+      "taint-analysis",
+      "vulnerability-scanner",
+      "wordpress",
+      "wordpress-plugin"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-06T07:56:42Z",
+    "updated_at": "2026-06-08T10:08:47Z",
+    "owner": {
+      "name": "dimasma0305",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92920739?v=4"
     }
   },
   {
@@ -2247,6 +1951,22 @@
     "owner": {
       "name": "9904099",
       "avatar_url": "https://avatars.githubusercontent.com/u/42631567?v=4"
+    }
+  },
+  {
+    "name": "KarthikeyanPegasus/syncal",
+    "url": "https://github.com/KarthikeyanPegasus/syncal",
+    "description": "Calendar Integration made easy. ",
+    "stars": 10,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-06T05:25:05Z",
+    "updated_at": "2026-06-08T11:57:20Z",
+    "owner": {
+      "name": "KarthikeyanPegasus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62192093?v=4"
     }
   },
   {
@@ -2332,22 +2052,6 @@
     "owner": {
       "name": "Silo-Server",
       "avatar_url": "https://avatars.githubusercontent.com/u/287058192?v=4"
-    }
-  },
-  {
-    "name": "irchaosclub/FANGS",
-    "url": "https://github.com/irchaosclub/FANGS",
-    "description": null,
-    "stars": 10,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-22T05:51:23Z",
-    "updated_at": "2026-05-25T20:40:11Z",
-    "owner": {
-      "name": "irchaosclub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/235909511?v=4"
     }
   }
 ]
