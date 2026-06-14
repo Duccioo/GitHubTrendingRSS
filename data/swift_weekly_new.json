@@ -19,13 +19,13 @@
     "name": "apple/coreai-models",
     "url": "https://github.com/apple/coreai-models",
     "description": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
-    "stars": 842,
-    "forks": 61,
+    "stars": 877,
+    "forks": 64,
     "language": "Swift",
     "topics": [],
     "license": "BSD 3-Clause \"New\" or \"Revised\" License",
     "created_at": "2026-06-08T04:32:27Z",
-    "updated_at": "2026-06-13T05:58:16Z",
+    "updated_at": "2026-06-14T06:08:55Z",
     "owner": {
       "name": "apple",
       "avatar_url": "https://avatars.githubusercontent.com/u/10639145?v=4"
@@ -94,16 +94,45 @@
     "name": "apple/foundation-models-utilities",
     "url": "https://github.com/apple/foundation-models-utilities",
     "description": "Emerging and experimental patterns for building with the Foundation Models framework",
-    "stars": 113,
+    "stars": 117,
     "forks": 5,
     "language": "Swift",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-06-08T04:40:53Z",
-    "updated_at": "2026-06-13T01:15:48Z",
+    "updated_at": "2026-06-14T05:28:57Z",
     "owner": {
       "name": "apple",
       "avatar_url": "https://avatars.githubusercontent.com/u/10639145?v=4"
+    }
+  },
+  {
+    "name": "john-rocky/coreai-model-zoo",
+    "url": "https://github.com/john-rocky/coreai-model-zoo",
+    "description": "Community model zoo + knowledge base for Apple Core AI (iOS/macOS 27): Qwen3.5 & Gemma 4 converted end-to-end, verified on-device (iPhone 17 Pro GPU/ANE), conversion gotchas, custom Metal kernels, Swift runner",
+    "stars": 109,
+    "forks": 6,
+    "language": "Swift",
+    "topics": [
+      "ai",
+      "apple-silicon",
+      "coreai",
+      "gemma4",
+      "granite",
+      "ios",
+      "iphone",
+      "lfm",
+      "llm",
+      "local-llm",
+      "macos",
+      "qwen"
+    ],
+    "license": "Other",
+    "created_at": "2026-06-10T05:21:10Z",
+    "updated_at": "2026-06-14T06:25:29Z",
+    "owner": {
+      "name": "john-rocky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23278992?v=4"
     }
   },
   {
@@ -150,6 +179,81 @@
     }
   },
   {
+    "name": "apple/truetype-hinting-interpreter-example",
+    "url": "https://github.com/apple/truetype-hinting-interpreter-example",
+    "description": "Swift TrueType Interpreter",
+    "stars": 92,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-11T21:45:47Z",
+    "updated_at": "2026-06-14T03:47:26Z",
+    "owner": {
+      "name": "apple",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10639145?v=4"
+    }
+  },
+  {
+    "name": "oomol-lab/LockIME",
+    "url": "https://github.com/oomol-lab/LockIME",
+    "description": "A native macOS menu-bar app that keeps your keyboard input source locked — global, per-app, and per-URL.",
+    "stars": 89,
+    "forks": 6,
+    "language": "Swift",
+    "topics": [
+      "apple-silicon",
+      "input-method",
+      "input-source",
+      "keyboard",
+      "liquid-glass",
+      "macos",
+      "macos-app",
+      "menu-bar",
+      "producitivity",
+      "sparkle",
+      "swift",
+      "swiftui",
+      "tahoe"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-06-10T08:59:10Z",
+    "updated_at": "2026-06-14T05:34:42Z",
+    "owner": {
+      "name": "oomol-lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/146153906?v=4"
+    }
+  },
+  {
+    "name": "privatenumber/mac-ocr",
+    "url": "https://github.com/privatenumber/mac-ocr",
+    "description": "macOS CLI for OCR and searchable PDFs using Apple's Vision framework.",
+    "stars": 89,
+    "forks": 6,
+    "language": "Swift",
+    "topics": [
+      "apple-vision",
+      "cli",
+      "command-line-tool",
+      "image-to-text",
+      "macos",
+      "nodejs",
+      "ocr",
+      "pdf",
+      "searchable-pdf",
+      "swift",
+      "text-recognition",
+      "vision-framework"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-13T13:49:56Z",
+    "updated_at": "2026-06-14T05:31:43Z",
+    "owner": {
+      "name": "privatenumber",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1075694?v=4"
+    }
+  },
+  {
     "name": "iliyami/MacClean",
     "url": "https://github.com/iliyami/MacClean",
     "description": "The open-source Mac cleaner, optimizer, and malware scanner. A free alternative to CleanMyMac — built with Swift 6 and SwiftUI.",
@@ -187,49 +291,60 @@
     }
   },
   {
-    "name": "oomol-lab/LockIME",
-    "url": "https://github.com/oomol-lab/LockIME",
-    "description": "A native macOS menu-bar app that keeps your keyboard input source locked — global, per-app, and per-URL.",
-    "stars": 86,
-    "forks": 6,
-    "language": "Swift",
-    "topics": [
-      "apple-silicon",
-      "input-method",
-      "input-source",
-      "keyboard",
-      "liquid-glass",
-      "macos",
-      "macos-app",
-      "menu-bar",
-      "producitivity",
-      "sparkle",
-      "swift",
-      "swiftui",
-      "tahoe"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-06-10T08:59:10Z",
-    "updated_at": "2026-06-13T03:15:19Z",
-    "owner": {
-      "name": "oomol-lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/146153906?v=4"
-    }
-  },
-  {
     "name": "joeseesun/QMPrompter",
     "url": "https://github.com/joeseesun/QMPrompter",
     "description": null,
-    "stars": 85,
-    "forks": 23,
+    "stars": 87,
+    "forks": 24,
     "language": "Swift",
     "topics": [],
     "license": "No license",
     "created_at": "2026-06-09T20:39:35Z",
-    "updated_at": "2026-06-13T05:27:19Z",
+    "updated_at": "2026-06-14T02:36:31Z",
     "owner": {
       "name": "joeseesun",
       "avatar_url": "https://avatars.githubusercontent.com/u/3236682?v=4"
+    }
+  },
+  {
+    "name": "easychen/markmark",
+    "url": "https://github.com/easychen/markmark",
+    "description": "AI 时代审批 Markdown 已经成为日常，你需要支持批注的 Markdown viewer ",
+    "stars": 84,
+    "forks": 3,
+    "language": "Swift",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-09T13:09:17Z",
+    "updated_at": "2026-06-14T04:08:15Z",
+    "owner": {
+      "name": "easychen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1294760?v=4"
+    }
+  },
+  {
+    "name": "thebriangao/pebble",
+    "url": "https://github.com/thebriangao/pebble",
+    "description": "The open-source alternative to Minecraft: Java Edition, a complete block-survival game in ~45,000 lines of Swift + Metal. Zero dependencies, fully deterministic, singleplayer for now. Not affiliated with Mojang or Microsoft. We lowkey need y'all to submit bug reports cuz there are so many 😭",
+    "stars": 81,
+    "forks": 18,
+    "language": "Swift",
+    "topics": [
+      "game",
+      "macos",
+      "metal",
+      "minecraft-alternative",
+      "open-source",
+      "singleplayer",
+      "swift",
+      "voxel"
+    ],
+    "license": "Other",
+    "created_at": "2026-06-12T20:56:17Z",
+    "updated_at": "2026-06-14T05:12:49Z",
+    "owner": {
+      "name": "thebriangao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/211872763?v=4"
     }
   },
   {
@@ -257,22 +372,6 @@
     "owner": {
       "name": "robzilla1738",
       "avatar_url": "https://avatars.githubusercontent.com/u/135086771?v=4"
-    }
-  },
-  {
-    "name": "easychen/markmark",
-    "url": "https://github.com/easychen/markmark",
-    "description": "AI 时代审批 Markdown 已经成为日常，你需要支持批注的 Markdown viewer ",
-    "stars": 72,
-    "forks": 2,
-    "language": "Swift",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-09T13:09:17Z",
-    "updated_at": "2026-06-13T05:35:57Z",
-    "owner": {
-      "name": "easychen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1294760?v=4"
     }
   },
   {
@@ -308,6 +407,33 @@
     }
   },
   {
+    "name": "Nanako0129/TokenBar",
+    "url": "https://github.com/Nanako0129/TokenBar",
+    "description": "AI token usage & quota monitor for the macOS menu bar — native Swift, Liquid Glass, 3D contribution graph. Tracks Claude Code, Codex, Cursor, OpenCode & 25+ agents locally.",
+    "stars": 62,
+    "forks": 6,
+    "language": "Swift",
+    "topics": [
+      "ai-usage",
+      "claude-code",
+      "codex",
+      "liquid-glass",
+      "macos",
+      "menu-bar",
+      "rust",
+      "sparkle",
+      "swiftui",
+      "token-tracking"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-10T05:08:47Z",
+    "updated_at": "2026-06-14T06:14:32Z",
+    "owner": {
+      "name": "Nanako0129",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44753291?v=4"
+    }
+  },
+  {
     "name": "ShahzaibAli02/Fanny-MacOs-FanControl",
     "url": "https://github.com/ShahzaibAli02/Fanny-MacOs-FanControl",
     "description": null,
@@ -321,35 +447,6 @@
     "owner": {
       "name": "ShahzaibAli02",
       "avatar_url": "https://avatars.githubusercontent.com/u/47250175?v=4"
-    }
-  },
-  {
-    "name": "john-rocky/coreai-model-zoo",
-    "url": "https://github.com/john-rocky/coreai-model-zoo",
-    "description": "Community model zoo + knowledge base for Apple Core AI (iOS/macOS 27): Qwen3.5 & Gemma 4 converted end-to-end, verified on-device (iPhone 17 Pro GPU/ANE), conversion gotchas, custom Metal kernels, Swift runner",
-    "stars": 61,
-    "forks": 2,
-    "language": "Swift",
-    "topics": [
-      "ai",
-      "apple-silicon",
-      "coreai",
-      "gemma4",
-      "granite",
-      "ios",
-      "iphone",
-      "lfm",
-      "llm",
-      "local-llm",
-      "macos",
-      "qwen"
-    ],
-    "license": "Other",
-    "created_at": "2026-06-10T05:21:10Z",
-    "updated_at": "2026-06-13T04:02:53Z",
-    "owner": {
-      "name": "john-rocky",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23278992?v=4"
     }
   },
   {
@@ -401,22 +498,6 @@
     }
   },
   {
-    "name": "apple/truetype-hinting-interpreter-example",
-    "url": "https://github.com/apple/truetype-hinting-interpreter-example",
-    "description": "Swift TrueType Interpreter",
-    "stars": 51,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-11T21:45:47Z",
-    "updated_at": "2026-06-13T06:08:11Z",
-    "owner": {
-      "name": "apple",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10639145?v=4"
-    }
-  },
-  {
     "name": "p-x9/swift-asm-macro",
     "url": "https://github.com/p-x9/swift-asm-macro",
     "description": "A Swift macro that lets you write inline assembly and implement a Swift function.",
@@ -433,30 +514,27 @@
     }
   },
   {
-    "name": "Nanako0129/TokenBar",
-    "url": "https://github.com/Nanako0129/TokenBar",
-    "description": "AI token usage & quota monitor for the macOS menu bar — native Swift, Liquid Glass, 3D contribution graph. Tracks Claude Code, Codex, Cursor, OpenCode & 25+ agents locally.",
+    "name": "kellyvv/OpenReshot",
+    "url": "https://github.com/kellyvv/OpenReshot",
+    "description": "A native iOS app for re-shooting regular photos from different angles.",
     "stars": 50,
-    "forks": 5,
+    "forks": 3,
     "language": "Swift",
     "topics": [
-      "ai-usage",
-      "claude-code",
-      "codex",
-      "liquid-glass",
-      "macos",
-      "menu-bar",
-      "rust",
-      "sparkle",
-      "swiftui",
-      "token-tracking"
+      "3d-gaussian-splatting",
+      "coreml",
+      "generative-ai",
+      "ios",
+      "openreshoot",
+      "photo-editing",
+      "swiftui"
     ],
-    "license": "MIT License",
-    "created_at": "2026-06-10T05:08:47Z",
-    "updated_at": "2026-06-13T02:37:11Z",
+    "license": "Other",
+    "created_at": "2026-06-10T15:58:42Z",
+    "updated_at": "2026-06-14T04:42:10Z",
     "owner": {
-      "name": "Nanako0129",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44753291?v=4"
+      "name": "kellyvv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/129767595?v=4"
     }
   },
   {
@@ -487,6 +565,22 @@
     }
   },
   {
+    "name": "pixdeo/editxr",
+    "url": "https://github.com/pixdeo/editxr",
+    "description": "A Fast WYSIWYG Markdown Terminal Editor In Swift.",
+    "stars": 41,
+    "forks": 4,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-09T01:49:52Z",
+    "updated_at": "2026-06-13T22:05:55Z",
+    "owner": {
+      "name": "pixdeo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/291958868?v=4"
+    }
+  },
+  {
     "name": "repoprompt/repoprompt-classic",
     "url": "https://github.com/repoprompt/repoprompt-classic",
     "description": "Archived educational snapshot of the Repo Prompt app",
@@ -500,30 +594,6 @@
     "owner": {
       "name": "repoprompt",
       "avatar_url": "https://avatars.githubusercontent.com/u/289327073?v=4"
-    }
-  },
-  {
-    "name": "kellyvv/OpenReshot",
-    "url": "https://github.com/kellyvv/OpenReshot",
-    "description": "A native iOS app for re-shooting regular photos from different angles.",
-    "stars": 40,
-    "forks": 2,
-    "language": "Swift",
-    "topics": [
-      "3d-gaussian-splatting",
-      "coreml",
-      "generative-ai",
-      "ios",
-      "openreshoot",
-      "photo-editing",
-      "swiftui"
-    ],
-    "license": "Other",
-    "created_at": "2026-06-10T15:58:42Z",
-    "updated_at": "2026-06-13T03:58:08Z",
-    "owner": {
-      "name": "kellyvv",
-      "avatar_url": "https://avatars.githubusercontent.com/u/129767595?v=4"
     }
   },
   {
@@ -657,22 +727,6 @@
     }
   },
   {
-    "name": "pixdeo/editxr",
-    "url": "https://github.com/pixdeo/editxr",
-    "description": "A Fast WYSIWYG Markdown Terminal Editor In Swift.",
-    "stars": 37,
-    "forks": 3,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-09T01:49:52Z",
-    "updated_at": "2026-06-13T01:49:55Z",
-    "owner": {
-      "name": "pixdeo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/291958868?v=4"
-    }
-  },
-  {
     "name": "arinltte/LUCE",
     "url": "https://github.com/arinltte/LUCE",
     "description": "Keyboard Cleaning for MacOS",
@@ -742,6 +796,22 @@
     }
   },
   {
+    "name": "kiraa-ai/project-onyx",
+    "url": "https://github.com/kiraa-ai/project-onyx",
+    "description": "Project Onyx ",
+    "stars": 33,
+    "forks": 9,
+    "language": "Swift",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-06-12T09:10:10Z",
+    "updated_at": "2026-06-14T04:16:39Z",
+    "owner": {
+      "name": "kiraa-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/233921371?v=4"
+    }
+  },
+  {
     "name": "sapsaldog/open-caffeine",
     "url": "https://github.com/sapsaldog/open-caffeine",
     "description": null,
@@ -777,6 +847,22 @@
     "owner": {
       "name": "whatsinlab",
       "avatar_url": "https://avatars.githubusercontent.com/u/112938407?v=4"
+    }
+  },
+  {
+    "name": "verback2308/YTLite",
+    "url": "https://github.com/verback2308/YTLite",
+    "description": "A lightweight, privacy-focused YouTube client for iOS built entirely with UIKit. No ads, no tracking, no dependencies.",
+    "stars": 30,
+    "forks": 4,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-10T17:36:27Z",
+    "updated_at": "2026-06-14T06:15:42Z",
+    "owner": {
+      "name": "verback2308",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1249954?v=4"
     }
   },
   {
@@ -822,6 +908,33 @@
     "owner": {
       "name": "riddleling",
       "avatar_url": "https://avatars.githubusercontent.com/u/854397?v=4"
+    }
+  },
+  {
+    "name": "aymandakir-gh/gh-notch",
+    "url": "https://github.com/aymandakir-gh/gh-notch",
+    "description": "Free open-source macOS notch utility with AI command bar. Media controls, calendar, file shelf, battery HUD — all in your notch. MIT license.",
+    "stars": 28,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "ai-command-bar",
+      "macos",
+      "macos-app",
+      "menu-bar",
+      "notch",
+      "notch-app",
+      "open-source",
+      "productivity",
+      "swift",
+      "swiftui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-09T10:15:57Z",
+    "updated_at": "2026-06-14T03:30:46Z",
+    "owner": {
+      "name": "aymandakir-gh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/285670385?v=4"
     }
   },
   {
@@ -897,6 +1010,60 @@
     }
   },
   {
+    "name": "rryam/RelatoKit",
+    "url": "https://github.com/rryam/RelatoKit",
+    "description": "Local-first Swift CLI for preparing and submitting Apple Feedback Assistant reports through the native macOS app.",
+    "stars": 26,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "apple",
+      "apple-feedback",
+      "automation",
+      "cli",
+      "command-line-tool",
+      "developer-tools",
+      "feedback",
+      "feedback-assistant",
+      "macos",
+      "swift",
+      "swift-cli",
+      "swift-package",
+      "xcode"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-10T23:32:01Z",
+    "updated_at": "2026-06-13T19:18:17Z",
+    "owner": {
+      "name": "rryam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91619485?v=4"
+    }
+  },
+  {
+    "name": "maitrungduc1410/react-native-shared-hero",
+    "url": "https://github.com/maitrungduc1410/react-native-shared-hero",
+    "description": "🌠 High-performance native shared element (hero) transitions for React Native, router-agnostic",
+    "stars": 26,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [
+      "expo",
+      "hero-transition",
+      "react-native",
+      "react-navigation",
+      "shared-element",
+      "shared-element-transition",
+      "shared-transition"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-08T15:21:10Z",
+    "updated_at": "2026-06-14T01:09:08Z",
+    "owner": {
+      "name": "maitrungduc1410",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16630193?v=4"
+    }
+  },
+  {
     "name": "jomeswang/agnes-ai-skill",
     "url": "https://github.com/jomeswang/agnes-ai-skill",
     "description": "Agnes AI skill for text, image, and video APIs with persistent auth and OpenAI-style workflows",
@@ -924,60 +1091,6 @@
     }
   },
   {
-    "name": "rryam/RelatoKit",
-    "url": "https://github.com/rryam/RelatoKit",
-    "description": "Local-first Swift CLI for preparing and submitting Apple Feedback Assistant reports through the native macOS app.",
-    "stars": 25,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [
-      "apple",
-      "apple-feedback",
-      "automation",
-      "cli",
-      "command-line-tool",
-      "developer-tools",
-      "feedback",
-      "feedback-assistant",
-      "macos",
-      "swift",
-      "swift-cli",
-      "swift-package",
-      "xcode"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-10T23:32:01Z",
-    "updated_at": "2026-06-13T00:36:34Z",
-    "owner": {
-      "name": "rryam",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91619485?v=4"
-    }
-  },
-  {
-    "name": "maitrungduc1410/react-native-shared-hero",
-    "url": "https://github.com/maitrungduc1410/react-native-shared-hero",
-    "description": "🌠 High-performance native shared element (hero) transitions for React Native, router-agnostic",
-    "stars": 24,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [
-      "expo",
-      "hero-transition",
-      "react-native",
-      "react-navigation",
-      "shared-element",
-      "shared-element-transition",
-      "shared-transition"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-08T15:21:10Z",
-    "updated_at": "2026-06-13T02:48:18Z",
-    "owner": {
-      "name": "maitrungduc1410",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16630193?v=4"
-    }
-  },
-  {
     "name": "augstai/workerflow",
     "url": "https://github.com/augstai/workerflow",
     "description": null,
@@ -991,6 +1104,22 @@
     "owner": {
       "name": "augstai",
       "avatar_url": "https://avatars.githubusercontent.com/u/110227047?v=4"
+    }
+  },
+  {
+    "name": "samhenrigold/AgentCanvasDemoViewHarness",
+    "url": "https://github.com/samhenrigold/AgentCanvasDemoViewHarness",
+    "description": null,
+    "stars": 23,
+    "forks": 8,
+    "language": "Swift",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-11T02:30:20Z",
+    "updated_at": "2026-06-13T13:21:17Z",
+    "owner": {
+      "name": "samhenrigold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49251320?v=4"
     }
   },
   {
@@ -1066,49 +1195,6 @@
     "owner": {
       "name": "suntreee",
       "avatar_url": "https://avatars.githubusercontent.com/u/154804124?v=4"
-    }
-  },
-  {
-    "name": "aymandakir-gh/gh-notch",
-    "url": "https://github.com/aymandakir-gh/gh-notch",
-    "description": "Free open-source macOS notch utility with AI command bar. Media controls, calendar, file shelf, battery HUD — all in your notch. MIT license.",
-    "stars": 22,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [
-      "ai-command-bar",
-      "macos",
-      "macos-app",
-      "menu-bar",
-      "notch",
-      "notch-app",
-      "open-source",
-      "productivity",
-      "swift",
-      "swiftui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-09T10:15:57Z",
-    "updated_at": "2026-06-13T00:13:39Z",
-    "owner": {
-      "name": "aymandakir-gh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/285670385?v=4"
-    }
-  },
-  {
-    "name": "samhenrigold/AgentCanvasDemoViewHarness",
-    "url": "https://github.com/samhenrigold/AgentCanvasDemoViewHarness",
-    "description": null,
-    "stars": 22,
-    "forks": 8,
-    "language": "Swift",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-11T02:30:20Z",
-    "updated_at": "2026-06-13T05:18:30Z",
-    "owner": {
-      "name": "samhenrigold",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49251320?v=4"
     }
   },
   {
@@ -1200,6 +1286,22 @@
     }
   },
   {
+    "name": "migueldeicaza/AgenticSwift",
+    "url": "https://github.com/migueldeicaza/AgenticSwift",
+    "description": "Tired of having to write Swift code like an animal?  Let the AI macro do the work for you.",
+    "stars": 21,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-10T21:55:40Z",
+    "updated_at": "2026-06-13T07:14:24Z",
+    "owner": {
+      "name": "migueldeicaza",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36863?v=4"
+    }
+  },
+  {
     "name": "ChanningYuan/usageBar",
     "url": "https://github.com/ChanningYuan/usageBar",
     "description": "macOS 菜单栏工具，聚合显示多个 AI 编程/Agent工具（Claude Code / Codex / Cursor / Qoder / 悟空/ Workbuddy 等）的 token 用量，全本地直读零配置",
@@ -1243,22 +1345,6 @@
     "owner": {
       "name": "jolleyDesign",
       "avatar_url": "https://avatars.githubusercontent.com/u/108022961?v=4"
-    }
-  },
-  {
-    "name": "migueldeicaza/AgenticSwift",
-    "url": "https://github.com/migueldeicaza/AgenticSwift",
-    "description": "Tired of having to write Swift code like an animal?  Let the AI macro do the work for you.",
-    "stars": 20,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-10T21:55:40Z",
-    "updated_at": "2026-06-12T19:00:14Z",
-    "owner": {
-      "name": "migueldeicaza",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36863?v=4"
     }
   },
   {
@@ -1324,22 +1410,6 @@
     }
   },
   {
-    "name": "Dai-Ski/LYRA",
-    "url": "https://github.com/Dai-Ski/LYRA",
-    "description": "Lyra — Menu bar companion that brings real-time Spotify lyrics to life on your macOS menu bar",
-    "stars": 19,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-25T03:10:17Z",
-    "updated_at": "2026-05-31T00:04:57Z",
-    "owner": {
-      "name": "Dai-Ski",
-      "avatar_url": "https://avatars.githubusercontent.com/u/238849327?v=4"
-    }
-  },
-  {
     "name": "semantic-craft/iOS-vibebuddy",
     "url": "https://github.com/semantic-craft/iOS-vibebuddy",
     "description": null,
@@ -1356,28 +1426,19 @@
     }
   },
   {
-    "name": "thebriangao/pebble",
-    "url": "https://github.com/thebriangao/pebble",
-    "description": "The open-source alternative to Minecraft: Java Edition, a complete block-survival game in ~45,000 lines of Swift + Metal. Zero dependencies, fully deterministic, singleplayer for now. Not affiliated with Mojang or Microsoft. We lowkey need y'all to submit bug reports cuz there are so many 😭",
+    "name": "kuaoaoaoao/coolRun",
+    "url": "https://github.com/kuaoaoaoao/coolRun",
+    "description": "一个旋转的金币，实时监控金价的cpu，内容监控小软件",
     "stars": 17,
-    "forks": 3,
+    "forks": 1,
     "language": "Swift",
-    "topics": [
-      "game",
-      "macos",
-      "metal",
-      "minecraft-alternative",
-      "open-source",
-      "singleplayer",
-      "swift",
-      "voxel"
-    ],
-    "license": "Other",
-    "created_at": "2026-06-12T20:56:17Z",
-    "updated_at": "2026-06-13T06:10:23Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-08T08:38:18Z",
+    "updated_at": "2026-06-13T07:51:54Z",
     "owner": {
-      "name": "thebriangao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/211872763?v=4"
+      "name": "kuaoaoaoao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73115654?v=4"
     }
   },
   {
@@ -1424,22 +1485,6 @@
     }
   },
   {
-    "name": "kiraa-ai/project-onyx",
-    "url": "https://github.com/kiraa-ai/project-onyx",
-    "description": "Project Onyx ",
-    "stars": 16,
-    "forks": 5,
-    "language": "Swift",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-06-12T09:10:10Z",
-    "updated_at": "2026-06-13T04:55:48Z",
-    "owner": {
-      "name": "kiraa-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/233921371?v=4"
-    }
-  },
-  {
     "name": "yangliu-1995/MorphingDemo",
     "url": "https://github.com/yangliu-1995/MorphingDemo",
     "description": null,
@@ -1453,6 +1498,22 @@
     "owner": {
       "name": "yangliu-1995",
       "avatar_url": "https://avatars.githubusercontent.com/u/95995778?v=4"
+    }
+  },
+  {
+    "name": "aahonarmand/NetICU",
+    "url": "https://github.com/aahonarmand/NetICU",
+    "description": "Live internet-quality and server-performance monitor for macOS — ping, jitter, packet loss, DNS/TCP/TLS/TTFB breakdown, menu-bar gauge.",
+    "stars": 16,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-11T12:12:48Z",
+    "updated_at": "2026-06-14T01:51:55Z",
+    "owner": {
+      "name": "aahonarmand",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9524602?v=4"
     }
   },
   {
@@ -1479,19 +1540,19 @@
     }
   },
   {
-    "name": "kuaoaoaoao/coolRun",
-    "url": "https://github.com/kuaoaoaoao/coolRun",
-    "description": "一个旋转的金币，实时监控金价的cpu，内容监控小软件",
+    "name": "StewartLynch/SQLiteER",
+    "url": "https://github.com/StewartLynch/SQLiteER",
+    "description": null,
     "stars": 15,
-    "forks": 1,
+    "forks": 0,
     "language": "Swift",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-08T08:38:18Z",
-    "updated_at": "2026-06-13T06:06:44Z",
+    "license": "No license",
+    "created_at": "2026-06-13T04:20:27Z",
+    "updated_at": "2026-06-14T05:06:06Z",
     "owner": {
-      "name": "kuaoaoaoao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73115654?v=4"
+      "name": "StewartLynch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2940924?v=4"
     }
   },
   {
@@ -1561,6 +1622,30 @@
     "owner": {
       "name": "valeriy777-ua",
       "avatar_url": "https://avatars.githubusercontent.com/u/57828642?v=4"
+    }
+  },
+  {
+    "name": "hunters1431/MACKey",
+    "url": "https://github.com/hunters1431/MACKey",
+    "description": "一站式 macOS 快捷键中心：速查系统快捷键、为任意程序自定义快捷键、程序坞一键启动 · All-in-one macOS keyboard-shortcut hub",
+    "stars": 14,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "hotkeys",
+      "keyboard-shortcuts",
+      "macos",
+      "menubar",
+      "productivity",
+      "swift",
+      "swiftui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-12T11:07:17Z",
+    "updated_at": "2026-06-13T22:56:04Z",
+    "owner": {
+      "name": "hunters1431",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32182135?v=4"
     }
   },
   {
@@ -1673,6 +1758,26 @@
     }
   },
   {
+    "name": "kkdai/gemini-live-translate-macos",
+    "url": "https://github.com/kkdai/gemini-live-translate-macos",
+    "description": "基於 macOS ScreenCaptureKit 與 Gemini 3.5 Live Translate API 的會議即時語音口譯與字幕翻譯工具 (Swift/SwiftUI)。",
+    "stars": 13,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "gemini-live-api",
+      "gemini-live-translate",
+      "swiftui"
+    ],
+    "license": "No license",
+    "created_at": "2026-06-10T06:54:37Z",
+    "updated_at": "2026-06-14T01:36:02Z",
+    "owner": {
+      "name": "kkdai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2252691?v=4"
+    }
+  },
+  {
     "name": "a9eelsh/HelioCore",
     "url": "https://github.com/a9eelsh/HelioCore",
     "description": "An open-source biometric data extractor and local pipeline for the Helio Smart Strap, leveraging BLE to enable offline-first health tracking",
@@ -1729,22 +1834,6 @@
     "owner": {
       "name": "Eilgnaw",
       "avatar_url": "https://avatars.githubusercontent.com/u/12029922?v=4"
-    }
-  },
-  {
-    "name": "PhoneNumberKit/PhoneNumberKit",
-    "url": "https://github.com/PhoneNumberKit/PhoneNumberKit",
-    "description": "Swift framework for parsing, formatting and validating international phone numbers.",
-    "stars": 13,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-25T19:58:20Z",
-    "updated_at": "2026-05-30T21:42:48Z",
-    "owner": {
-      "name": "PhoneNumberKit",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53028631?v=4"
     }
   },
   {
@@ -1828,22 +1917,6 @@
     }
   },
   {
-    "name": "JosephRedfern/plonk",
-    "url": "https://github.com/JosephRedfern/plonk",
-    "description": "Python interpreter at your fingertips ",
-    "stars": 12,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-25T11:18:23Z",
-    "updated_at": "2026-05-30T20:56:44Z",
-    "owner": {
-      "name": "JosephRedfern",
-      "avatar_url": "https://avatars.githubusercontent.com/u/861949?v=4"
-    }
-  },
-  {
     "name": "margox/SwiftGlow",
     "url": "https://github.com/margox/SwiftGlow",
     "description": null,
@@ -1857,26 +1930,6 @@
     "owner": {
       "name": "margox",
       "avatar_url": "https://avatars.githubusercontent.com/u/7866354?v=4"
-    }
-  },
-  {
-    "name": "kkdai/gemini-live-translate-macos",
-    "url": "https://github.com/kkdai/gemini-live-translate-macos",
-    "description": "基於 macOS ScreenCaptureKit 與 Gemini 3.5 Live Translate API 的會議即時語音口譯與字幕翻譯工具 (Swift/SwiftUI)。",
-    "stars": 11,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [
-      "gemini-live-api",
-      "gemini-live-translate",
-      "swiftui"
-    ],
-    "license": "No license",
-    "created_at": "2026-06-10T06:54:37Z",
-    "updated_at": "2026-06-11T15:06:40Z",
-    "owner": {
-      "name": "kkdai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2252691?v=4"
     }
   },
   {
