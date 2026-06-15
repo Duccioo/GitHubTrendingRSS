@@ -3,13 +3,13 @@
     "name": "pewdiepie-archdaemon/odysseus",
     "url": "https://github.com/pewdiepie-archdaemon/odysseus",
     "description": "Self-hosted AI workspace. ",
-    "stars": 70280,
-    "forks": 8925,
+    "stars": 71180,
+    "forks": 9062,
     "language": "Python",
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-05-31T14:05:51Z",
-    "updated_at": "2026-06-14T06:24:46Z",
+    "updated_at": "2026-06-15T07:08:24Z",
     "owner": {
       "name": "pewdiepie-archdaemon",
       "avatar_url": "https://avatars.githubusercontent.com/u/229018391?v=4"
@@ -48,35 +48,84 @@
     }
   },
   {
-    "name": "unicity-astrid/sdk-js",
-    "url": "https://github.com/unicity-astrid/sdk-js",
-    "description": "JavaScript / TypeScript SDK for building Astrid OS capsules. Companion to unicity-astrid/sdk-rust.",
-    "stars": 8256,
-    "forks": 36,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-18T10:47:45Z",
-    "updated_at": "2026-06-13T21:01:32Z",
+    "name": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "stars": 9628,
+    "forks": 409,
+    "language": "JavaScript",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "cursor-rules",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "yagni"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-12T00:52:37Z",
+    "updated_at": "2026-06-15T07:09:30Z",
     "owner": {
-      "name": "unicity-astrid",
-      "avatar_url": "https://avatars.githubusercontent.com/u/261740341?v=4"
+      "name": "DietrichGebert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/137048761?v=4"
     }
   },
   {
     "name": "XiaomiMiMo/MiMo-Code",
     "url": "https://github.com/XiaomiMiMo/MiMo-Code",
     "description": null,
-    "stars": 8041,
-    "forks": 671,
+    "stars": 8666,
+    "forks": 743,
     "language": "TypeScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-10T11:52:41Z",
-    "updated_at": "2026-06-14T06:18:48Z",
+    "updated_at": "2026-06-15T07:09:14Z",
     "owner": {
       "name": "XiaomiMiMo",
       "avatar_url": "https://avatars.githubusercontent.com/u/208276378?v=4"
+    }
+  },
+  {
+    "name": "unicity-astrid/sdk-js",
+    "url": "https://github.com/unicity-astrid/sdk-js",
+    "description": "JavaScript / TypeScript SDK for building Astrid OS capsules. Companion to unicity-astrid/sdk-rust.",
+    "stars": 8257,
+    "forks": 36,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-18T10:47:45Z",
+    "updated_at": "2026-06-14T09:40:36Z",
+    "owner": {
+      "name": "unicity-astrid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/261740341?v=4"
+    }
+  },
+  {
+    "name": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "stars": 7113,
+    "forks": 413,
+    "language": "Go",
+    "topics": [
+      "agent",
+      "code-review",
+      "code-review-assistant",
+      "harness",
+      "repository-level-context"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-18T02:16:36Z",
+    "updated_at": "2026-06-15T07:06:53Z",
+    "owner": {
+      "name": "alibaba",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4"
     }
   },
   {
@@ -93,28 +142,6 @@
     "owner": {
       "name": "FULU-Foundation",
       "avatar_url": "https://avatars.githubusercontent.com/u/223959643?v=4"
-    }
-  },
-  {
-    "name": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
-    "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "stars": 6672,
-    "forks": 377,
-    "language": "Go",
-    "topics": [
-      "agent",
-      "code-review",
-      "code-review-assistant",
-      "harness",
-      "repository-level-context"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-18T02:16:36Z",
-    "updated_at": "2026-06-14T06:26:04Z",
-    "owner": {
-      "name": "alibaba",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4"
     }
   },
   {
@@ -158,15 +185,15 @@
     "name": "anthropics/defending-code-reference-harness",
     "url": "https://github.com/anthropics/defending-code-reference-harness",
     "description": "Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
-    "stars": 5814,
-    "forks": 422,
+    "stars": 5921,
+    "forks": 428,
     "language": "Python",
     "topics": [
       "security"
     ],
     "license": "Other",
     "created_at": "2026-05-22T16:00:56Z",
-    "updated_at": "2026-06-14T06:04:24Z",
+    "updated_at": "2026-06-15T06:56:07Z",
     "owner": {
       "name": "anthropics",
       "avatar_url": "https://avatars.githubusercontent.com/u/76263028?v=4"
@@ -224,26 +251,10 @@
     }
   },
   {
-    "name": "V4bel/dirtyfrag",
-    "url": "https://github.com/V4bel/dirtyfrag",
-    "description": null,
-    "stars": 4817,
-    "forks": 773,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-07T18:18:28Z",
-    "updated_at": "2026-06-05T03:45:37Z",
-    "owner": {
-      "name": "V4bel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42788779?v=4"
-    }
-  },
-  {
     "name": "AprilNEA/OpenLogi",
     "url": "https://github.com/AprilNEA/OpenLogi",
     "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-    "stars": 4810,
+    "stars": 4853,
     "forks": 92,
     "language": "Rust",
     "topics": [
@@ -263,54 +274,34 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-05-24T10:10:36Z",
-    "updated_at": "2026-06-14T06:05:59Z",
+    "updated_at": "2026-06-15T07:09:15Z",
     "owner": {
       "name": "AprilNEA",
       "avatar_url": "https://avatars.githubusercontent.com/u/37977109?v=4"
     }
   },
   {
-    "name": "perplexityai/bumblebee",
-    "url": "https://github.com/perplexityai/bumblebee",
-    "description": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
-    "stars": 4429,
-    "forks": 403,
-    "language": "Go",
-    "topics": [
-      "golang",
-      "package-inventory",
-      "supply-chain-security"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-20T18:11:37Z",
-    "updated_at": "2026-06-14T04:33:18Z",
-    "owner": {
-      "name": "perplexityai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/185426709?v=4"
-    }
-  },
-  {
-    "name": "zgwl/chinese-buy-us-stock-guide",
-    "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
-    "description": "美股指南",
-    "stars": 4306,
-    "forks": 662,
-    "language": null,
+    "name": "V4bel/dirtyfrag",
+    "url": "https://github.com/V4bel/dirtyfrag",
+    "description": null,
+    "stars": 4817,
+    "forks": 773,
+    "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-05-30T04:27:25Z",
-    "updated_at": "2026-06-14T05:47:03Z",
+    "created_at": "2026-05-07T18:18:28Z",
+    "updated_at": "2026-06-05T03:45:37Z",
     "owner": {
-      "name": "zgwl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6014068?v=4"
+      "name": "V4bel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42788779?v=4"
     }
   },
   {
     "name": "helloianneo/ian-xiaohei-illustrations",
     "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
     "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
-    "stars": 4303,
-    "forks": 451,
+    "stars": 4565,
+    "forks": 494,
     "language": null,
     "topics": [
       "ai-agent",
@@ -323,10 +314,78 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-27T22:47:56Z",
-    "updated_at": "2026-06-14T06:18:53Z",
+    "updated_at": "2026-06-15T07:03:38Z",
     "owner": {
       "name": "helloianneo",
       "avatar_url": "https://avatars.githubusercontent.com/u/89686060?v=4"
+    }
+  },
+  {
+    "name": "shadcn/improve",
+    "url": "https://github.com/shadcn/improve",
+    "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+    "stars": 4521,
+    "forks": 159,
+    "language": null,
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-10T11:06:58Z",
+    "updated_at": "2026-06-15T07:09:20Z",
+    "owner": {
+      "name": "shadcn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/124599?v=4"
+    }
+  },
+  {
+    "name": "perplexityai/bumblebee",
+    "url": "https://github.com/perplexityai/bumblebee",
+    "description": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
+    "stars": 4453,
+    "forks": 403,
+    "language": "Go",
+    "topics": [
+      "golang",
+      "package-inventory",
+      "supply-chain-security"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-20T18:11:37Z",
+    "updated_at": "2026-06-15T07:01:48Z",
+    "owner": {
+      "name": "perplexityai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/185426709?v=4"
+    }
+  },
+  {
+    "name": "zgwl/chinese-buy-us-stock-guide",
+    "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
+    "description": "美股指南",
+    "stars": 4364,
+    "forks": 668,
+    "language": null,
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-30T04:27:25Z",
+    "updated_at": "2026-06-15T07:03:24Z",
+    "owner": {
+      "name": "zgwl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6014068?v=4"
+    }
+  },
+  {
+    "name": "KunAgent/Kun",
+    "url": "https://github.com/KunAgent/Kun",
+    "description": "AI agent workspace with Code and Write modes built into your application.",
+    "stars": 4201,
+    "forks": 368,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-05-21T13:22:06Z",
+    "updated_at": "2026-06-15T07:08:29Z",
+    "owner": {
+      "name": "KunAgent",
+      "avatar_url": "https://avatars.githubusercontent.com/u/292492812?v=4"
     }
   },
   {
@@ -343,22 +402,6 @@
     "owner": {
       "name": "vercel-labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/108547162?v=4"
-    }
-  },
-  {
-    "name": "KunAgent/Kun",
-    "url": "https://github.com/KunAgent/Kun",
-    "description": "AI agent workspace with Code and Write modes built into your application.",
-    "stars": 4063,
-    "forks": 355,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-05-21T13:22:06Z",
-    "updated_at": "2026-06-14T06:23:05Z",
-    "owner": {
-      "name": "KunAgent",
-      "avatar_url": "https://avatars.githubusercontent.com/u/292492812?v=4"
     }
   },
   {
@@ -385,8 +428,8 @@
     "name": "open-gsd/gsd-core",
     "url": "https://github.com/open-gsd/gsd-core",
     "description": "Git. Ship. Done - Core",
-    "stars": 3870,
-    "forks": 250,
+    "stars": 3986,
+    "forks": 259,
     "language": "JavaScript",
     "topics": [
       "claude-code",
@@ -396,7 +439,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-05-22T11:36:21Z",
-    "updated_at": "2026-06-14T06:20:18Z",
+    "updated_at": "2026-06-15T06:52:13Z",
     "owner": {
       "name": "open-gsd",
       "avatar_url": "https://avatars.githubusercontent.com/u/286935422?v=4"
@@ -406,13 +449,13 @@
     "name": "FoundZiGu/GuJumpgate",
     "url": "https://github.com/FoundZiGu/GuJumpgate",
     "description": null,
-    "stars": 3862,
-    "forks": 993,
+    "stars": 3878,
+    "forks": 998,
     "language": "JavaScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-19T11:52:52Z",
-    "updated_at": "2026-06-14T03:47:57Z",
+    "updated_at": "2026-06-15T05:34:03Z",
     "owner": {
       "name": "FoundZiGu",
       "avatar_url": "https://avatars.githubusercontent.com/u/98100115?v=4"
@@ -435,32 +478,16 @@
     }
   },
   {
-    "name": "shadcn/improve",
-    "url": "https://github.com/shadcn/improve",
-    "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
-    "stars": 3633,
-    "forks": 129,
-    "language": null,
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-10T11:06:58Z",
-    "updated_at": "2026-06-14T06:26:16Z",
-    "owner": {
-      "name": "shadcn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/124599?v=4"
-    }
-  },
-  {
     "name": "datawhalechina/Agent-Learning-Hub",
     "url": "https://github.com/datawhalechina/Agent-Learning-Hub",
     "description": "AI Agent 学习路线与资料库收集",
-    "stars": 3604,
-    "forks": 370,
+    "stars": 3659,
+    "forks": 380,
     "language": "HTML",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-05-17T06:41:12Z",
-    "updated_at": "2026-06-14T06:15:10Z",
+    "updated_at": "2026-06-15T06:59:40Z",
     "owner": {
       "name": "datawhalechina",
       "avatar_url": "https://avatars.githubusercontent.com/u/46047812?v=4"
@@ -470,8 +497,8 @@
     "name": "op7418/guizang-social-card-skill",
     "url": "https://github.com/op7418/guizang-social-card-skill",
     "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
-    "stars": 3468,
-    "forks": 312,
+    "stars": 3529,
+    "forks": 314,
     "language": "HTML",
     "topics": [
       "agent-skill",
@@ -492,7 +519,7 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-05-27T12:05:05Z",
-    "updated_at": "2026-06-14T06:24:41Z",
+    "updated_at": "2026-06-15T06:54:16Z",
     "owner": {
       "name": "op7418",
       "avatar_url": "https://avatars.githubusercontent.com/u/13505770?v=4"
@@ -518,13 +545,13 @@
     "name": "OpenBMB/PilotDeck",
     "url": "https://github.com/OpenBMB/PilotDeck",
     "description": "Task-oriented AI Agent productivity platform",
-    "stars": 3289,
-    "forks": 344,
+    "stars": 3352,
+    "forks": 348,
     "language": "TypeScript",
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-05-22T06:50:28Z",
-    "updated_at": "2026-06-14T06:04:32Z",
+    "updated_at": "2026-06-15T07:06:04Z",
     "owner": {
       "name": "OpenBMB",
       "avatar_url": "https://avatars.githubusercontent.com/u/89920203?v=4"
@@ -547,27 +574,11 @@
     }
   },
   {
-    "name": "WUBING2023/PaperSpine",
-    "url": "https://github.com/WUBING2023/PaperSpine",
-    "description": "PaperSpine is a motivation-driven skill for learning from strong academic papers, building a paper’s central argument, and rewriting manuscripts through evidence-aware blueprints, revision matrices, and LaTeX-safe audits.",
-    "stars": 3048,
-    "forks": 121,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-17T08:37:31Z",
-    "updated_at": "2026-06-14T06:05:49Z",
-    "owner": {
-      "name": "WUBING2023",
-      "avatar_url": "https://avatars.githubusercontent.com/u/242776933?v=4"
-    }
-  },
-  {
     "name": "nexu-io/html-video",
     "url": "https://github.com/nexu-io/html-video",
     "description": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
-    "stars": 3039,
-    "forks": 363,
+    "stars": 3118,
+    "forks": 371,
     "language": "HTML",
     "topics": [
       "ai-agent",
@@ -588,10 +599,26 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-05-27T02:08:11Z",
-    "updated_at": "2026-06-14T06:21:21Z",
+    "updated_at": "2026-06-15T06:30:16Z",
     "owner": {
       "name": "nexu-io",
       "avatar_url": "https://avatars.githubusercontent.com/u/263625318?v=4"
+    }
+  },
+  {
+    "name": "WUBING2023/PaperSpine",
+    "url": "https://github.com/WUBING2023/PaperSpine",
+    "description": "PaperSpine is a motivation-driven skill for learning from strong academic papers, building a paper’s central argument, and rewriting manuscripts through evidence-aware blueprints, revision matrices, and LaTeX-safe audits.",
+    "stars": 3100,
+    "forks": 124,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-17T08:37:31Z",
+    "updated_at": "2026-06-15T06:52:32Z",
+    "owner": {
+      "name": "WUBING2023",
+      "avatar_url": "https://avatars.githubusercontent.com/u/242776933?v=4"
     }
   },
   {
@@ -641,6 +668,22 @@
     }
   },
   {
+    "name": "MisoLabsAI/MisoTTS",
+    "url": "https://github.com/MisoLabsAI/MisoTTS",
+    "description": "Miso TTS is an 8 billion, highly emotive text-to-speech model",
+    "stars": 2822,
+    "forks": 269,
+    "language": "Python",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-05-20T10:04:01Z",
+    "updated_at": "2026-06-15T06:09:31Z",
+    "owner": {
+      "name": "MisoLabsAI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/276445684?v=4"
+    }
+  },
+  {
     "name": "opensquilla/opensquilla",
     "url": "https://github.com/opensquilla/opensquilla",
     "description": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
@@ -669,43 +712,59 @@
     }
   },
   {
-    "name": "MisoLabsAI/MisoTTS",
-    "url": "https://github.com/MisoLabsAI/MisoTTS",
-    "description": "Miso TTS is an 8 billion, highly emotive text-to-speech model",
-    "stars": 2790,
-    "forks": 259,
-    "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-05-20T10:04:01Z",
-    "updated_at": "2026-06-14T06:23:40Z",
-    "owner": {
-      "name": "MisoLabsAI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/276445684?v=4"
-    }
-  },
-  {
     "name": "thananon/9arm-skills",
     "url": "https://github.com/thananon/9arm-skills",
     "description": null,
-    "stars": 2776,
-    "forks": 377,
+    "stars": 2790,
+    "forks": 379,
     "language": "Shell",
     "topics": [],
     "license": "No license",
     "created_at": "2026-05-20T00:49:37Z",
-    "updated_at": "2026-06-14T02:58:06Z",
+    "updated_at": "2026-06-15T07:03:57Z",
     "owner": {
       "name": "thananon",
       "avatar_url": "https://avatars.githubusercontent.com/u/7318806?v=4"
     }
   },
   {
+    "name": "diffusionstudio/lottie",
+    "url": "https://github.com/diffusionstudio/lottie",
+    "description": "Generate production-ready Lottie animations with Claude Code or Codex",
+    "stars": 2753,
+    "forks": 148,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-04T13:39:32Z",
+    "updated_at": "2026-06-15T06:58:24Z",
+    "owner": {
+      "name": "diffusionstudio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/135729001?v=4"
+    }
+  },
+  {
+    "name": "Gloridust/WechatOnCloud",
+    "url": "https://github.com/Gloridust/WechatOnCloud",
+    "description": "云微WOC，云微信，自由连接",
+    "stars": 2737,
+    "forks": 682,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-05-29T06:14:13Z",
+    "updated_at": "2026-06-15T06:37:07Z",
+    "owner": {
+      "name": "Gloridust",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88082356?v=4"
+    }
+  },
+  {
     "name": "cpaczek/skylight",
     "url": "https://github.com/cpaczek/skylight",
     "description": "Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
-    "stars": 2655,
-    "forks": 294,
+    "stars": 2696,
+    "forks": 300,
     "language": "TypeScript",
     "topics": [
       "ads-b",
@@ -720,55 +779,23 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-02T23:40:28Z",
-    "updated_at": "2026-06-14T06:25:26Z",
+    "updated_at": "2026-06-15T06:23:38Z",
     "owner": {
       "name": "cpaczek",
       "avatar_url": "https://avatars.githubusercontent.com/u/25715982?v=4"
     }
   },
   {
-    "name": "Gloridust/WechatOnCloud",
-    "url": "https://github.com/Gloridust/WechatOnCloud",
-    "description": "云微WOC，云微信，自由连接",
-    "stars": 2581,
-    "forks": 666,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-05-29T06:14:13Z",
-    "updated_at": "2026-06-14T06:17:01Z",
-    "owner": {
-      "name": "Gloridust",
-      "avatar_url": "https://avatars.githubusercontent.com/u/88082356?v=4"
-    }
-  },
-  {
-    "name": "diffusionstudio/lottie",
-    "url": "https://github.com/diffusionstudio/lottie",
-    "description": "Generate production-ready Lottie animations with Claude Code or Codex",
-    "stars": 2575,
-    "forks": 137,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-04T13:39:32Z",
-    "updated_at": "2026-06-14T06:25:56Z",
-    "owner": {
-      "name": "diffusionstudio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/135729001?v=4"
-    }
-  },
-  {
     "name": "b-nnett/goose",
     "url": "https://github.com/b-nnett/goose",
     "description": "Goose Swift proof-of-concept README",
-    "stars": 2501,
-    "forks": 611,
+    "stars": 2518,
+    "forks": 615,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2026-06-02T12:16:37Z",
-    "updated_at": "2026-06-14T05:35:24Z",
+    "updated_at": "2026-06-15T06:19:05Z",
     "owner": {
       "name": "b-nnett",
       "avatar_url": "https://avatars.githubusercontent.com/u/62760393?v=4"
@@ -807,6 +834,22 @@
     }
   },
   {
+    "name": "MoonshotAI/kimi-code",
+    "url": "https://github.com/MoonshotAI/kimi-code",
+    "description": "Kimi Code CLI  —  The Starting Point for Next-Gen Agents",
+    "stars": 2398,
+    "forks": 275,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-22T08:02:03Z",
+    "updated_at": "2026-06-15T06:39:18Z",
+    "owner": {
+      "name": "MoonshotAI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/129152888?v=4"
+    }
+  },
+  {
     "name": "yaojingang/yao-open-prompts",
     "url": "https://github.com/yaojingang/yao-open-prompts",
     "description": "Yao Open Prompts：中文 AI 提示词库，覆盖工作、学习、内容、营销和生活场景",
@@ -829,58 +872,34 @@
     }
   },
   {
-    "name": "MoonshotAI/kimi-code",
-    "url": "https://github.com/MoonshotAI/kimi-code",
-    "description": "Kimi Code CLI  —  The Starting Point for Next-Gen Agents",
-    "stars": 2352,
-    "forks": 268,
+    "name": "butterbase-ai/butterbase",
+    "url": "https://github.com/butterbase-ai/butterbase",
+    "description": "Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP.",
+    "stars": 2203,
+    "forks": 146,
     "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-22T08:02:03Z",
-    "updated_at": "2026-06-14T05:36:05Z",
-    "owner": {
-      "name": "MoonshotAI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/129152888?v=4"
-    }
-  },
-  {
-    "name": "raiyanyahya/how-to-train-your-gpt",
-    "url": "https://github.com/raiyanyahya/how-to-train-your-gpt",
-    "description": "Build a modern LLM from scratch. Every line commented. Explained like we are five.",
-    "stars": 2175,
-    "forks": 279,
-    "language": "Jupyter Notebook",
     "topics": [
-      "attention-mechanism",
-      "deep-learning",
-      "educational",
-      "from-scratch",
-      "gpt",
-      "language-model",
-      "llama",
-      "llm",
-      "machine-learning",
-      "natural-language-processing",
-      "python",
-      "pytorch",
-      "tokenisation",
-      "transformers",
-      "tutorial"
+      "baas",
+      "backend-as-a-service",
+      "mcp",
+      "open-source",
+      "postgres",
+      "supabase-alternative",
+      "typescript"
     ],
-    "license": "MIT License",
-    "created_at": "2026-05-03T21:41:33Z",
-    "updated_at": "2026-06-01T06:08:10Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-05-20T00:06:03Z",
+    "updated_at": "2026-06-15T06:43:00Z",
     "owner": {
-      "name": "raiyanyahya",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23720340?v=4"
+      "name": "butterbase-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/274386375?v=4"
     }
   },
   {
     "name": "V0id-v2/Void-Tools-v2.0",
     "url": "https://github.com/V0id-v2/Void-Tools-v2.0",
     "description": "Python terminal multitool — OSINT, Discord, web & network utilities. Rich TUI, 13 themes, remote updates. Educational use only.",
-    "stars": 2104,
+    "stars": 2168,
     "forks": 23,
     "language": "Python",
     "topics": [
@@ -906,79 +925,39 @@
     ],
     "license": "No license",
     "created_at": "2026-05-30T21:57:30Z",
-    "updated_at": "2026-06-14T03:29:04Z",
+    "updated_at": "2026-06-15T06:21:36Z",
     "owner": {
       "name": "V0id-v2",
       "avatar_url": "https://avatars.githubusercontent.com/u/121522213?v=4"
     }
   },
   {
-    "name": "butterbase-ai/butterbase",
-    "url": "https://github.com/butterbase-ai/butterbase",
-    "description": "Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP.",
-    "stars": 2083,
-    "forks": 145,
-    "language": "TypeScript",
-    "topics": [
-      "baas",
-      "backend-as-a-service",
-      "mcp",
-      "open-source",
-      "postgres",
-      "supabase-alternative",
-      "typescript"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-05-20T00:06:03Z",
-    "updated_at": "2026-06-14T03:16:36Z",
-    "owner": {
-      "name": "butterbase-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/274386375?v=4"
-    }
-  },
-  {
     "name": "ideogram-oss/ideogram4",
     "url": "https://github.com/ideogram-oss/ideogram4",
     "description": "Ideogram 4: Open image model at the forefront of design",
-    "stars": 2015,
-    "forks": 195,
+    "stars": 2036,
+    "forks": 199,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-05-28T15:56:47Z",
-    "updated_at": "2026-06-14T05:37:32Z",
+    "updated_at": "2026-06-15T06:52:25Z",
     "owner": {
       "name": "ideogram-oss",
       "avatar_url": "https://avatars.githubusercontent.com/u/288687116?v=4"
     }
   },
   {
-    "name": "aattaran/deepclaude",
-    "url": "https://github.com/aattaran/deepclaude",
-    "description": "Use Claude Code's autonomous agent loop with DeepSeek V4 Pro, OpenRouter, or any Anthropic-compatible backend. Same UX, 17x cheaper.",
-    "stars": 2003,
-    "forks": 124,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-03T21:27:49Z",
-    "updated_at": "2026-06-01T06:43:42Z",
-    "owner": {
-      "name": "aattaran",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18339644?v=4"
-    }
-  },
-  {
     "name": "GordenSun/GordenPPTSkill",
     "url": "https://github.com/GordenSun/GordenPPTSkill",
     "description": "AI-friendly PPT builder skill: 17 hand-polished Chinese PPTX templates + non-destructive text-only editing tools (python-pptx based). Pick a template, write edits.json, build a real .pptx with the layout intact. Personal/research use only.",
-    "stars": 1991,
-    "forks": 182,
+    "stars": 2013,
+    "forks": 184,
     "language": "Python",
     "topics": [],
     "license": "Other",
     "created_at": "2026-05-27T10:25:58Z",
-    "updated_at": "2026-06-14T06:12:55Z",
+    "updated_at": "2026-06-15T05:16:21Z",
     "owner": {
       "name": "GordenSun",
       "avatar_url": "https://avatars.githubusercontent.com/u/3281492?v=4"
