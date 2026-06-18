@@ -3,7 +3,7 @@
     "name": "yaroslav/kino",
     "url": "https://github.com/yaroslav/kino",
     "description": "A high-performance Ractor web server for Ruby 4.0+: Rack 3-based, with a Rust Tokio/Hyper front-end and Ractor-parallel Ruby workers and threaded fallback mode.",
-    "stars": 76,
+    "stars": 96,
     "forks": 0,
     "language": "Ruby",
     "topics": [
@@ -22,7 +22,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-11T06:06:46Z",
-    "updated_at": "2026-06-17T06:17:26Z",
+    "updated_at": "2026-06-18T05:59:45Z",
     "owner": {
       "name": "yaroslav",
       "avatar_url": "https://avatars.githubusercontent.com/u/4277?v=4"
@@ -54,6 +54,22 @@
     }
   },
   {
+    "name": "firewalker06/tycho",
+    "url": "https://github.com/firewalker06/tycho",
+    "description": "Its Factorio for coding agents",
+    "stars": 33,
+    "forks": 1,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-23T01:58:17Z",
+    "updated_at": "2026-06-18T05:08:00Z",
+    "owner": {
+      "name": "firewalker06",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157515?v=4"
+    }
+  },
+  {
     "name": "unurgunite/irb-autosuggestions",
     "url": "https://github.com/unurgunite/irb-autosuggestions",
     "description": "Fish-like autosuggestions for irb",
@@ -75,32 +91,16 @@
     }
   },
   {
-    "name": "firewalker06/tycho",
-    "url": "https://github.com/firewalker06/tycho",
-    "description": "Its Factorio for coding agents",
-    "stars": 26,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-23T01:58:17Z",
-    "updated_at": "2026-06-16T10:42:04Z",
-    "owner": {
-      "name": "firewalker06",
-      "avatar_url": "https://avatars.githubusercontent.com/u/157515?v=4"
-    }
-  },
-  {
     "name": "afomera/apple-foundation-models-ruby-sdk",
     "url": "https://github.com/afomera/apple-foundation-models-ruby-sdk",
     "description": "Ruby bindings for Apple's on-device Foundation Models framework (Apple Intelligence) on macOS",
-    "stars": 23,
+    "stars": 24,
     "forks": 0,
     "language": "Ruby",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-06-10T02:45:58Z",
-    "updated_at": "2026-06-16T04:25:19Z",
+    "updated_at": "2026-06-17T15:55:45Z",
     "owner": {
       "name": "afomera",
       "avatar_url": "https://avatars.githubusercontent.com/u/1741179?v=4"
@@ -132,26 +132,10 @@
     }
   },
   {
-    "name": "sandeepmvl/rails-skills",
-    "url": "https://github.com/sandeepmvl/rails-skills",
-    "description": null,
-    "stars": 18,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-24T17:36:28Z",
-    "updated_at": "2026-06-13T06:57:02Z",
-    "owner": {
-      "name": "sandeepmvl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1792702?v=4"
-    }
-  },
-  {
     "name": "jibranusman95/http_decoy",
     "url": "https://github.com/jibranusman95/http_decoy",
     "description": "A real fake HTTP server for RSpec. No cassettes. No scattered stubs.",
-    "stars": 17,
+    "stars": 20,
     "forks": 1,
     "language": "Ruby",
     "topics": [
@@ -167,10 +151,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-02T15:34:04Z",
-    "updated_at": "2026-06-17T02:15:54Z",
+    "updated_at": "2026-06-17T18:55:01Z",
     "owner": {
       "name": "jibranusman95",
       "avatar_url": "https://avatars.githubusercontent.com/u/69146248?v=4"
+    }
+  },
+  {
+    "name": "sandeepmvl/rails-skills",
+    "url": "https://github.com/sandeepmvl/rails-skills",
+    "description": null,
+    "stars": 19,
+    "forks": 1,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-24T17:36:28Z",
+    "updated_at": "2026-06-17T14:13:46Z",
+    "owner": {
+      "name": "sandeepmvl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1792702?v=4"
     }
   },
   {
@@ -212,6 +212,22 @@
     }
   },
   {
+    "name": "palkan/sloprb",
+    "url": "https://github.com/palkan/sloprb",
+    "description": "Stop writing code, let LLMs slop it for you on load",
+    "stars": 13,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-29T10:51:17Z",
+    "updated_at": "2026-06-18T05:37:00Z",
+    "owner": {
+      "name": "palkan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1516722?v=4"
+    }
+  },
+  {
     "name": "prajjwalkumarpanzade/rails-autodoc",
     "url": "https://github.com/prajjwalkumarpanzade/rails-autodoc",
     "description": "Ruby gem that auto-generates and serves OpenAPI 3.0 specs from Rails routes, strong params, and db/schema.rb.",
@@ -241,22 +257,6 @@
     "owner": {
       "name": "baweaver",
       "avatar_url": "https://avatars.githubusercontent.com/u/979723?v=4"
-    }
-  },
-  {
-    "name": "palkan/sloprb",
-    "url": "https://github.com/palkan/sloprb",
-    "description": "Stop writing code, let LLMs slop it for you on load",
-    "stars": 11,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-29T10:51:17Z",
-    "updated_at": "2026-06-16T13:39:14Z",
-    "owner": {
-      "name": "palkan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1516722?v=4"
     }
   },
   {
