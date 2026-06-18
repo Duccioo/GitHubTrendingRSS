@@ -19,13 +19,13 @@
     "name": "EEliberto/IPA-Download",
     "url": "https://github.com/EEliberto/IPA-Download",
     "description": "一款用于安装 IPA 历史版本的工具，适用于获取旧版应用并自动捕获数据包。下载后，可直接通过 AirDrop 传输至 iPhone、iPad 上并安装并使用。",
-    "stars": 890,
-    "forks": 49,
+    "stars": 1037,
+    "forks": 56,
     "language": "Swift",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-06-13T08:32:39Z",
-    "updated_at": "2026-06-17T06:54:55Z",
+    "updated_at": "2026-06-18T06:42:59Z",
     "owner": {
       "name": "EEliberto",
       "avatar_url": "https://avatars.githubusercontent.com/u/74881807?v=4"
@@ -50,17 +50,46 @@
   {
     "name": "vorssaint/vorssaint-utils",
     "url": "https://github.com/vorssaint/vorssaint-utils",
-    "description": null,
-    "stars": 528,
-    "forks": 27,
+    "description": "Vorssaint macOS app",
+    "stars": 611,
+    "forks": 33,
     "language": "Swift",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-06-12T15:25:43Z",
-    "updated_at": "2026-06-17T06:44:57Z",
+    "updated_at": "2026-06-18T06:40:12Z",
     "owner": {
       "name": "vorssaint",
       "avatar_url": "https://avatars.githubusercontent.com/u/259901989?v=4"
+    }
+  },
+  {
+    "name": "privatenumber/mac-ocr",
+    "url": "https://github.com/privatenumber/mac-ocr",
+    "description": "macOS CLI for OCR and searchable PDFs using Apple's Vision framework.",
+    "stars": 311,
+    "forks": 15,
+    "language": "Swift",
+    "topics": [
+      "apple-vision",
+      "cli",
+      "command-line-tool",
+      "image-to-text",
+      "macos",
+      "nodejs",
+      "ocr",
+      "pdf",
+      "searchable-pdf",
+      "swift",
+      "text-recognition",
+      "vision-framework"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-13T13:49:56Z",
+    "updated_at": "2026-06-18T06:23:42Z",
+    "owner": {
+      "name": "privatenumber",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1075694?v=4"
     }
   },
   {
@@ -91,45 +120,16 @@
     }
   },
   {
-    "name": "privatenumber/mac-ocr",
-    "url": "https://github.com/privatenumber/mac-ocr",
-    "description": "macOS CLI for OCR and searchable PDFs using Apple's Vision framework.",
-    "stars": 263,
-    "forks": 15,
-    "language": "Swift",
-    "topics": [
-      "apple-vision",
-      "cli",
-      "command-line-tool",
-      "image-to-text",
-      "macos",
-      "nodejs",
-      "ocr",
-      "pdf",
-      "searchable-pdf",
-      "swift",
-      "text-recognition",
-      "vision-framework"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-13T13:49:56Z",
-    "updated_at": "2026-06-17T06:53:32Z",
-    "owner": {
-      "name": "privatenumber",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1075694?v=4"
-    }
-  },
-  {
     "name": "Jeidoban/Ironsmith",
     "url": "https://github.com/Jeidoban/Ironsmith",
     "description": "Create personal Mac apps instantly with a prompt. Supports on-device and cloud LLMs",
-    "stars": 201,
-    "forks": 14,
+    "stars": 223,
+    "forks": 16,
     "language": "Swift",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-06-14T00:11:35Z",
-    "updated_at": "2026-06-17T06:06:17Z",
+    "updated_at": "2026-06-18T06:07:54Z",
     "owner": {
       "name": "Jeidoban",
       "avatar_url": "https://avatars.githubusercontent.com/u/24860890?v=4"
@@ -168,11 +168,47 @@
     }
   },
   {
+    "name": "chen2he/orange-cloud",
+    "url": "https://github.com/chen2he/orange-cloud",
+    "description": "Open-source native Cloudflare client for iPhone, iPad & Apple Watch — sign in with OAuth, no API tokens to paste. Native Android app (Kotlin/Compose) in development.",
+    "stars": 164,
+    "forks": 17,
+    "language": "Swift",
+    "topics": [
+      "android",
+      "cloudflare",
+      "cloudflare-workers",
+      "d1",
+      "dns",
+      "ios",
+      "ios-app",
+      "jetpack-compose",
+      "kotlin",
+      "kv",
+      "mobile-app",
+      "oauth",
+      "open-source",
+      "pkce",
+      "r2",
+      "swift",
+      "swiftui",
+      "waf",
+      "watchos"
+    ],
+    "license": "Other",
+    "created_at": "2026-06-12T02:29:10Z",
+    "updated_at": "2026-06-18T06:47:40Z",
+    "owner": {
+      "name": "chen2he",
+      "avatar_url": "https://avatars.githubusercontent.com/u/290057470?v=4"
+    }
+  },
+  {
     "name": "thebriangao/pebble",
     "url": "https://github.com/thebriangao/pebble",
     "description": "The open-source alternative to Minecraft: Java Edition, a complete block-survival game in ~45,000 lines of Swift + Metal. Zero dependencies, fully deterministic, singleplayer for now. Not affiliated with Mojang or Microsoft. We lowkey need y'all to submit bug reports cuz there are so many 😭",
-    "stars": 159,
-    "forks": 31,
+    "stars": 164,
+    "forks": 32,
     "language": "Swift",
     "topics": [
       "game",
@@ -186,7 +222,7 @@
     ],
     "license": "Other",
     "created_at": "2026-06-12T20:56:17Z",
-    "updated_at": "2026-06-16T21:55:54Z",
+    "updated_at": "2026-06-18T01:20:05Z",
     "owner": {
       "name": "thebriangao",
       "avatar_url": "https://avatars.githubusercontent.com/u/211872763?v=4"
@@ -256,64 +292,27 @@
     }
   },
   {
-    "name": "bitoceango/civideo",
-    "url": "https://github.com/bitoceango/civideo",
-    "description": "家长可控的自建儿童视频流媒体播放器：无广告、无推荐流、封闭内容花园 · Self-hosted, ad-free kids video streaming player with parental controls — Cloudflare Workers + R2 and native SwiftUI (iOS / iPadOS / macOS)",
-    "stars": 113,
-    "forks": 5,
+    "name": "nico81/iContainer",
+    "url": "https://github.com/nico81/iContainer",
+    "description": "A native macOS app to manage Apple Container workloads, built with SwiftUI.",
+    "stars": 97,
+    "forks": 2,
     "language": "Swift",
     "topics": [
-      "ad-free",
-      "avplayer",
-      "children",
-      "cloudflare",
-      "cloudflare-r2",
-      "cloudflare-workers",
-      "education",
-      "family",
-      "ios",
-      "ipados",
-      "kids",
+      "apple-container",
+      "container-management",
+      "containers",
+      "developer-tools",
       "macos",
-      "media-server",
-      "parental-controls",
-      "screen-time",
-      "self-hosted",
-      "swift",
-      "swiftui",
-      "video-player",
-      "video-streaming"
+      "macos-app",
+      "swiftui"
     ],
     "license": "MIT License",
-    "created_at": "2026-06-13T06:18:44Z",
-    "updated_at": "2026-06-17T06:39:53Z",
+    "created_at": "2026-06-15T22:07:57Z",
+    "updated_at": "2026-06-17T20:02:58Z",
     "owner": {
-      "name": "bitoceango",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38564000?v=4"
-    }
-  },
-  {
-    "name": "chen2he/orange-cloud",
-    "url": "https://github.com/chen2he/orange-cloud",
-    "description": "A native iOS client for Cloudflare — sign in with OAuth",
-    "stars": 112,
-    "forks": 14,
-    "language": "Swift",
-    "topics": [
-      "cloudflare",
-      "d1",
-      "devops",
-      "dns",
-      "ios-app",
-      "mobile-app",
-      "r2"
-    ],
-    "license": "Other",
-    "created_at": "2026-06-12T02:29:10Z",
-    "updated_at": "2026-06-17T06:24:27Z",
-    "owner": {
-      "name": "chen2he",
-      "avatar_url": "https://avatars.githubusercontent.com/u/290057470?v=4"
+      "name": "nico81",
+      "avatar_url": "https://avatars.githubusercontent.com/u/813953?v=4"
     }
   },
   {
@@ -341,30 +340,6 @@
     "owner": {
       "name": "ntd4996",
       "avatar_url": "https://avatars.githubusercontent.com/u/46896275?v=4"
-    }
-  },
-  {
-    "name": "nico81/iContainer",
-    "url": "https://github.com/nico81/iContainer",
-    "description": "A native macOS app to manage Apple Container workloads, built with SwiftUI.",
-    "stars": 94,
-    "forks": 2,
-    "language": "Swift",
-    "topics": [
-      "apple-container",
-      "container-management",
-      "containers",
-      "developer-tools",
-      "macos",
-      "macos-app",
-      "swiftui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-15T22:07:57Z",
-    "updated_at": "2026-06-17T05:39:45Z",
-    "owner": {
-      "name": "nico81",
-      "avatar_url": "https://avatars.githubusercontent.com/u/813953?v=4"
     }
   },
   {
@@ -427,6 +402,22 @@
     "owner": {
       "name": "easychen",
       "avatar_url": "https://avatars.githubusercontent.com/u/1294760?v=4"
+    }
+  },
+  {
+    "name": "forel-app/forel",
+    "url": "https://github.com/forel-app/forel",
+    "description": "File automation for macOS. The Hazel alternative for macOS. Free and open source.",
+    "stars": 75,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-13T06:11:12Z",
+    "updated_at": "2026-06-18T05:56:45Z",
+    "owner": {
+      "name": "forel-app",
+      "avatar_url": "https://avatars.githubusercontent.com/u/294127105?v=4"
     }
   },
   {
@@ -561,6 +552,22 @@
     }
   },
   {
+    "name": "kiraa-ai/project-onyx",
+    "url": "https://github.com/kiraa-ai/project-onyx",
+    "description": "Project Onyx ",
+    "stars": 59,
+    "forks": 16,
+    "language": "Swift",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-06-12T09:10:10Z",
+    "updated_at": "2026-06-18T01:32:06Z",
+    "owner": {
+      "name": "kiraa-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/233921371?v=4"
+    }
+  },
+  {
     "name": "abgcto/hey-claude",
     "url": "https://github.com/abgcto/hey-claude",
     "description": "On-device, voice-activated launcher for Claude Code on macOS (unofficial / community project)",
@@ -574,22 +581,6 @@
     "owner": {
       "name": "abgcto",
       "avatar_url": "https://avatars.githubusercontent.com/u/287083664?v=4"
-    }
-  },
-  {
-    "name": "kiraa-ai/project-onyx",
-    "url": "https://github.com/kiraa-ai/project-onyx",
-    "description": "Project Onyx ",
-    "stars": 58,
-    "forks": 16,
-    "language": "Swift",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-06-12T09:10:10Z",
-    "updated_at": "2026-06-16T23:44:58Z",
-    "owner": {
-      "name": "kiraa-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/233921371?v=4"
     }
   },
   {
@@ -609,19 +600,40 @@
     }
   },
   {
-    "name": "p-x9/swift-asm-macro",
-    "url": "https://github.com/p-x9/swift-asm-macro",
-    "description": "A Swift macro that lets you write inline assembly and implement a Swift function.",
-    "stars": 51,
-    "forks": 0,
+    "name": "bitoceango/civideo",
+    "url": "https://github.com/bitoceango/civideo",
+    "description": "家长可控的自建儿童视频流媒体播放器：无广告、无推荐流、封闭内容花园 · Self-hosted, ad-free kids video streaming player with parental controls — Cloudflare Workers + R2 and native SwiftUI (iOS / iPadOS / macOS)",
+    "stars": 55,
+    "forks": 2,
     "language": "Swift",
-    "topics": [],
+    "topics": [
+      "ad-free",
+      "avplayer",
+      "children",
+      "cloudflare",
+      "cloudflare-r2",
+      "cloudflare-workers",
+      "education",
+      "family",
+      "ios",
+      "ipados",
+      "kids",
+      "macos",
+      "media-server",
+      "parental-controls",
+      "screen-time",
+      "self-hosted",
+      "swift",
+      "swiftui",
+      "video-player",
+      "video-streaming"
+    ],
     "license": "MIT License",
-    "created_at": "2026-05-29T15:12:33Z",
-    "updated_at": "2026-06-04T03:15:39Z",
+    "created_at": "2026-06-13T06:18:44Z",
+    "updated_at": "2026-06-17T14:48:10Z",
     "owner": {
-      "name": "p-x9",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50244599?v=4"
+      "name": "bitoceango",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38564000?v=4"
     }
   },
   {
@@ -668,6 +680,22 @@
     }
   },
   {
+    "name": "ZimengXiong/tabbed",
+    "url": "https://github.com/ZimengXiong/tabbed",
+    "description": null,
+    "stars": 41,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-16T00:09:37Z",
+    "updated_at": "2026-06-18T06:16:31Z",
+    "owner": {
+      "name": "ZimengXiong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83783148?v=4"
+    }
+  },
+  {
     "name": "repoprompt/repoprompt-classic",
     "url": "https://github.com/repoprompt/repoprompt-classic",
     "description": "Archived educational snapshot of the Repo Prompt app",
@@ -697,28 +725,6 @@
     "owner": {
       "name": "apple",
       "avatar_url": "https://avatars.githubusercontent.com/u/10639145?v=4"
-    }
-  },
-  {
-    "name": "robzilla1738/skillz-macos",
-    "url": "https://github.com/robzilla1738/skillz-macos",
-    "description": "macOS app for browsing and editing skills, MCP configs, and plugins across local AI tools",
-    "stars": 40,
-    "forks": 2,
-    "language": "Swift",
-    "topics": [
-      "ai-agents",
-      "codex",
-      "macos",
-      "skills",
-      "swiftui"
-    ],
-    "license": "No license",
-    "created_at": "2026-05-29T22:07:10Z",
-    "updated_at": "2026-06-04T06:30:21Z",
-    "owner": {
-      "name": "robzilla1738",
-      "avatar_url": "https://avatars.githubusercontent.com/u/135086771?v=4"
     }
   },
   {
@@ -837,43 +843,6 @@
     }
   },
   {
-    "name": "TY-teo/StayAwake",
-    "url": "https://github.com/TY-teo/StayAwake",
-    "description": "Native macOS menu bar app that keeps your MacBook awake for AI coding agents - Claude Code, OpenAI Codex, Cursor - even with the lid closed. Open source (MIT), IOPMAssertion + scoped sudoers rule for password-free pmset, timed auto-off, login item, crash-safe self-heal. Built for overnight agent runs and clamshell mode without an external display.",
-    "stars": 35,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [
-      "agentic-workflow",
-      "ai-agents",
-      "amphetamine-alternative",
-      "apple-silicon",
-      "caffeinate",
-      "clamshell-mode",
-      "claude-code",
-      "cursor",
-      "developer-tools",
-      "iopmassertion",
-      "lid-closed",
-      "macos",
-      "menu-bar-app",
-      "openai-codex",
-      "overnight",
-      "pmset",
-      "prevent-sleep",
-      "stay-awake",
-      "sudoers",
-      "swiftui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-31T03:25:02Z",
-    "updated_at": "2026-06-04T02:01:50Z",
-    "owner": {
-      "name": "TY-teo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108162553?v=4"
-    }
-  },
-  {
     "name": "StewartLynch/SQLiteER",
     "url": "https://github.com/StewartLynch/SQLiteER",
     "description": null,
@@ -914,38 +883,6 @@
     "owner": {
       "name": "aymandakir-gh",
       "avatar_url": "https://avatars.githubusercontent.com/u/285670385?v=4"
-    }
-  },
-  {
-    "name": "sapsaldog/open-caffeine",
-    "url": "https://github.com/sapsaldog/open-caffeine",
-    "description": null,
-    "stars": 33,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-29T04:10:47Z",
-    "updated_at": "2026-06-04T03:11:29Z",
-    "owner": {
-      "name": "sapsaldog",
-      "avatar_url": "https://avatars.githubusercontent.com/u/873280?v=4"
-    }
-  },
-  {
-    "name": "ZimengXiong/tabbed",
-    "url": "https://github.com/ZimengXiong/tabbed",
-    "description": null,
-    "stars": 31,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-16T00:09:37Z",
-    "updated_at": "2026-06-17T06:12:29Z",
-    "owner": {
-      "name": "ZimengXiong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83783148?v=4"
     }
   },
   {
@@ -1203,22 +1140,6 @@
     }
   },
   {
-    "name": "justinbaduaa/alt-tab-macos-free",
-    "url": "https://github.com/justinbaduaa/alt-tab-macos-free",
-    "description": null,
-    "stars": 23,
-    "forks": 3,
-    "language": "Swift",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-06-11T15:01:52Z",
-    "updated_at": "2026-06-16T18:44:47Z",
-    "owner": {
-      "name": "justinbaduaa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/181144849?v=4"
-    }
-  },
-  {
     "name": "LuckyIYI/avbd-metal",
     "url": "https://github.com/LuckyIYI/avbd-metal",
     "description": null,
@@ -1232,6 +1153,22 @@
     "owner": {
       "name": "LuckyIYI",
       "avatar_url": "https://avatars.githubusercontent.com/u/27976611?v=4"
+    }
+  },
+  {
+    "name": "justinbaduaa/alt-tab-macos-free",
+    "url": "https://github.com/justinbaduaa/alt-tab-macos-free",
+    "description": null,
+    "stars": 23,
+    "forks": 3,
+    "language": "Swift",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-06-11T15:01:52Z",
+    "updated_at": "2026-06-16T18:44:47Z",
+    "owner": {
+      "name": "justinbaduaa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/181144849?v=4"
     }
   },
   {
@@ -1307,6 +1244,99 @@
     "owner": {
       "name": "weiykong",
       "avatar_url": "https://avatars.githubusercontent.com/u/37834012?v=4"
+    }
+  },
+  {
+    "name": "Jimmi1e/StarChaser",
+    "url": "https://github.com/Jimmi1e/StarChaser",
+    "description": "An iOS app designed for astrophotography enthusiasts to view light pollution, check light pollution forecasts, and get recommended camera settings. 一款面向于星空摄影爱好者查看光污染、与预测光推荐相机参数的iOS软件",
+    "stars": 22,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-06-15T10:26:40Z",
+    "updated_at": "2026-06-18T06:07:57Z",
+    "owner": {
+      "name": "Jimmi1e",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144962751?v=4"
+    }
+  },
+  {
+    "name": "1amageek/swift-html",
+    "url": "https://github.com/1amageek/swift-html",
+    "description": "Framework-neutral declarative HTML engine for Swift applications",
+    "stars": 22,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "css",
+      "declarative-ui",
+      "html",
+      "html-dsl",
+      "hydration",
+      "server-side-swift",
+      "ssr",
+      "swift",
+      "swift-package",
+      "swiftpm",
+      "wasm",
+      "web-framework"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-16T06:52:09Z",
+    "updated_at": "2026-06-17T15:33:05Z",
+    "owner": {
+      "name": "1amageek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11146538?v=4"
+    }
+  },
+  {
+    "name": "Wunderlandmedia/HotkeyClash",
+    "url": "https://github.com/Wunderlandmedia/HotkeyClash",
+    "description": "Find where your keyboard shortcuts clash. A free, open-source macOS menu bar app that detects shortcut conflicts across apps, config tools, and system settings.",
+    "stars": 22,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [
+      "developer-tools",
+      "keyboard-shortcuts",
+      "macos",
+      "menu-bar",
+      "swift",
+      "swiftui"
+    ],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-06-14T15:25:18Z",
+    "updated_at": "2026-06-18T02:05:08Z",
+    "owner": {
+      "name": "Wunderlandmedia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104343552?v=4"
+    }
+  },
+  {
+    "name": "sembsa/ContainerDesktop",
+    "url": "https://github.com/sembsa/ContainerDesktop",
+    "description": "Native macOS GUI for Apple's container CLI — Docker Desktop-style, SwiftUI, free & open source",
+    "stars": 22,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "apple-container",
+      "apple-silicon",
+      "containers",
+      "docker-desktop",
+      "gui",
+      "macos",
+      "macos-app",
+      "swiftui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-12T07:09:53Z",
+    "updated_at": "2026-06-17T21:49:53Z",
+    "owner": {
+      "name": "sembsa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3901645?v=4"
     }
   },
   {
@@ -1406,6 +1436,22 @@
     }
   },
   {
+    "name": "LiruiYu33/Targie_TheSimilarVideosImagesFinder",
+    "url": "https://github.com/LiruiYu33/Targie_TheSimilarVideosImagesFinder",
+    "description": "Try Targie — native macOS app that finds duplicate and visually similar videos & images. Free & open source.",
+    "stars": 21,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-06-12T14:33:49Z",
+    "updated_at": "2026-06-18T05:29:49Z",
+    "owner": {
+      "name": "LiruiYu33",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128563231?v=4"
+    }
+  },
+  {
     "name": "migueldeicaza/AgenticSwift",
     "url": "https://github.com/migueldeicaza/AgenticSwift",
     "description": "Tired of having to write Swift code like an animal?  Let the AI macro do the work for you.",
@@ -1484,35 +1530,6 @@
     }
   },
   {
-    "name": "1amageek/swift-html",
-    "url": "https://github.com/1amageek/swift-html",
-    "description": "Framework-neutral declarative HTML engine for Swift applications",
-    "stars": 20,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [
-      "css",
-      "declarative-ui",
-      "html",
-      "html-dsl",
-      "hydration",
-      "server-side-swift",
-      "ssr",
-      "swift",
-      "swift-package",
-      "swiftpm",
-      "wasm",
-      "web-framework"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-16T06:52:09Z",
-    "updated_at": "2026-06-17T02:38:29Z",
-    "owner": {
-      "name": "1amageek",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11146538?v=4"
-    }
-  },
-  {
     "name": "aahonarmand/NetICU",
     "url": "https://github.com/aahonarmand/NetICU",
     "description": "Live internet-quality and server-performance monitor for macOS — ping, jitter, packet loss, DNS/TCP/TLS/TTFB breakdown, menu-bar gauge.",
@@ -1575,28 +1592,25 @@
     }
   },
   {
-    "name": "sembsa/ContainerDesktop",
-    "url": "https://github.com/sembsa/ContainerDesktop",
-    "description": "Native macOS GUI for Apple's container CLI — Docker Desktop-style, SwiftUI, free & open source",
+    "name": "leechild4/claude-session-widget",
+    "url": "https://github.com/leechild4/claude-session-widget",
+    "description": "A tiny macOS desktop widget for your Claude Code 5-hour usage window: live reset countdown and % used. Matches claude.ai.",
     "stars": 18,
-    "forks": 0,
+    "forks": 2,
     "language": "Swift",
     "topics": [
-      "apple-container",
-      "apple-silicon",
-      "containers",
-      "docker-desktop",
-      "gui",
+      "anthropic",
+      "claude",
+      "claude-code",
       "macos",
-      "macos-app",
-      "swiftui"
+      "widget"
     ],
     "license": "MIT License",
-    "created_at": "2026-06-12T07:09:53Z",
-    "updated_at": "2026-06-17T01:37:06Z",
+    "created_at": "2026-06-14T18:41:51Z",
+    "updated_at": "2026-06-17T17:40:59Z",
     "owner": {
-      "name": "sembsa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3901645?v=4"
+      "name": "leechild4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/189049891?v=4"
     }
   },
   {
@@ -1613,60 +1627,6 @@
     "owner": {
       "name": "semantic-craft",
       "avatar_url": "https://avatars.githubusercontent.com/u/14216877?v=4"
-    }
-  },
-  {
-    "name": "Jimmi1e/StarChaser",
-    "url": "https://github.com/Jimmi1e/StarChaser",
-    "description": "An iOS app designed for astrophotography enthusiasts to view light pollution, check light pollution forecasts, and get recommended camera settings. 一款面向于星空摄影爱好者查看光污染、与预测光推荐相机参数的iOS软件",
-    "stars": 17,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-06-15T10:26:40Z",
-    "updated_at": "2026-06-17T06:17:10Z",
-    "owner": {
-      "name": "Jimmi1e",
-      "avatar_url": "https://avatars.githubusercontent.com/u/144962751?v=4"
-    }
-  },
-  {
-    "name": "jadhvank/eclam",
-    "url": "https://github.com/jadhvank/eclam",
-    "description": "Keeps your Mac awake while it matters — and lets it sleep when it's safer to.",
-    "stars": 17,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-14T17:40:41Z",
-    "updated_at": "2026-06-17T06:25:06Z",
-    "owner": {
-      "name": "jadhvank",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11309219?v=4"
-    }
-  },
-  {
-    "name": "leechild4/claude-session-widget",
-    "url": "https://github.com/leechild4/claude-session-widget",
-    "description": "A tiny macOS desktop widget for your Claude Code 5-hour usage window: live reset countdown and % used. Matches claude.ai.",
-    "stars": 17,
-    "forks": 2,
-    "language": "Swift",
-    "topics": [
-      "anthropic",
-      "claude",
-      "claude-code",
-      "macos",
-      "widget"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-14T18:41:51Z",
-    "updated_at": "2026-06-17T07:04:51Z",
-    "owner": {
-      "name": "leechild4",
-      "avatar_url": "https://avatars.githubusercontent.com/u/189049891?v=4"
     }
   },
   {
@@ -1771,6 +1731,22 @@
     }
   },
   {
+    "name": "jadhvank/eclam",
+    "url": "https://github.com/jadhvank/eclam",
+    "description": "Keeps your Mac awake while it matters — and lets it sleep when it's safer to.",
+    "stars": 16,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-14T17:40:41Z",
+    "updated_at": "2026-06-17T14:01:22Z",
+    "owner": {
+      "name": "jadhvank",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11309219?v=4"
+    }
+  },
+  {
     "name": "yangliu-1995/MorphingDemo",
     "url": "https://github.com/yangliu-1995/MorphingDemo",
     "description": null,
@@ -1855,6 +1831,22 @@
     "owner": {
       "name": "Guria",
       "avatar_url": "https://avatars.githubusercontent.com/u/36270?v=4"
+    }
+  },
+  {
+    "name": "john-rocky/swift-litert-lm",
+    "url": "https://github.com/john-rocky/swift-litert-lm",
+    "description": "Run Gemma 4 (LiteRT-LM) on iPhone the easy way — and as an Apple Foundation Models backend. Metal GPU, multimodal, in-app download.",
+    "stars": 14,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-16T03:58:52Z",
+    "updated_at": "2026-06-18T01:13:44Z",
+    "owner": {
+      "name": "john-rocky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23278992?v=4"
     }
   },
   {
@@ -2002,19 +1994,51 @@
     }
   },
   {
-    "name": "liutaocode/Vibe_XASR",
-    "url": "https://github.com/liutaocode/Vibe_XASR",
-    "description": null,
-    "stars": 14,
+    "name": "MillerTechnologyPeru/swift-embedded-nds",
+    "url": "https://github.com/MillerTechnologyPeru/swift-embedded-nds",
+    "description": "Embedded Swift for Nintendo DS",
+    "stars": 13,
     "forks": 0,
     "language": "Swift",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-05-31T09:54:21Z",
-    "updated_at": "2026-06-03T15:43:51Z",
+    "created_at": "2026-06-17T13:20:03Z",
+    "updated_at": "2026-06-18T00:50:28Z",
     "owner": {
-      "name": "liutaocode",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91858374?v=4"
+      "name": "MillerTechnologyPeru",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36939903?v=4"
+    }
+  },
+  {
+    "name": "momoraul/Lupen",
+    "url": "https://github.com/momoraul/Lupen",
+    "description": "Itemized cost receipts for Claude Code and Codex — by turn, verified, local.",
+    "stars": 13,
+    "forks": 2,
+    "language": "Swift",
+    "topics": [
+      "ai",
+      "ai-coding",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "codex",
+      "cost-tracking",
+      "developer-tools",
+      "llm",
+      "macos",
+      "menubar",
+      "openai-codex",
+      "swift",
+      "token-usage",
+      "vibe-coding"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-17T17:38:25Z",
+    "updated_at": "2026-06-18T02:08:41Z",
+    "owner": {
+      "name": "momoraul",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25495386?v=4"
     }
   },
   {
@@ -2109,6 +2133,38 @@
     }
   },
   {
+    "name": "FlineDev/SiteKit",
+    "url": "https://github.com/FlineDev/SiteKit",
+    "description": "AI-first static site generator written in Swift",
+    "stars": 12,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-12T06:36:12Z",
+    "updated_at": "2026-06-17T18:09:45Z",
+    "owner": {
+      "name": "FlineDev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12431907?v=4"
+    }
+  },
+  {
+    "name": "Darlingyc/RDM-Apple-Silicon",
+    "url": "https://github.com/Darlingyc/RDM-Apple-Silicon",
+    "description": "RDM - Resolution Display Manager for macOS Apple Silicon modified version",
+    "stars": 12,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-14T10:33:38Z",
+    "updated_at": "2026-06-17T07:29:04Z",
+    "owner": {
+      "name": "Darlingyc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31425659?v=4"
+    }
+  },
+  {
     "name": "tlfares/RemoteGlass",
     "url": "https://github.com/tlfares/RemoteGlass",
     "description": "Simple remote app for Orange France TV decoders, with Liquid Glass design.",
@@ -2170,6 +2226,43 @@
     "owner": {
       "name": "yashashwi-s",
       "avatar_url": "https://avatars.githubusercontent.com/u/155887129?v=4"
+    }
+  },
+  {
+    "name": "Techopolis/AFM-Studio",
+    "url": "https://github.com/Techopolis/AFM-Studio",
+    "description": "Use many on device and cloud models with Apple's Foundation Models framework in iOS and macOS with a full chat experience.",
+    "stars": 11,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [
+      "ai",
+      "ai-chat",
+      "apple",
+      "apple-intelligence",
+      "benchmark",
+      "core-ai",
+      "coreai",
+      "foundation-models",
+      "gemma",
+      "ios",
+      "language-models",
+      "llm",
+      "local-llm",
+      "macos",
+      "on-device-ai",
+      "private-cloud-compute",
+      "swift",
+      "swiftdata",
+      "swiftui",
+      "xcode"
+    ],
+    "license": "No license",
+    "created_at": "2026-06-14T15:03:09Z",
+    "updated_at": "2026-06-17T21:55:03Z",
+    "owner": {
+      "name": "Techopolis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71575185?v=4"
     }
   },
   {
@@ -2242,6 +2335,22 @@
     }
   },
   {
+    "name": "Milktang0128/Dob",
+    "url": "https://github.com/Milktang0128/Dob",
+    "description": "Dob：过耳不忘的 AI 读写工具，让重要的信息经过你的大脑，留在你的电脑",
+    "stars": 10,
+    "forks": 3,
+    "language": "Swift",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-14T00:42:59Z",
+    "updated_at": "2026-06-17T14:32:20Z",
+    "owner": {
+      "name": "Milktang0128",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132126903?v=4"
+    }
+  },
+  {
     "name": "uk0/typeformic",
     "url": "https://github.com/uk0/typeformic",
     "description": null,
@@ -2309,22 +2418,6 @@
     "owner": {
       "name": "artp1ay",
       "avatar_url": "https://avatars.githubusercontent.com/u/8897084?v=4"
-    }
-  },
-  {
-    "name": "notatestuser/ds4-control",
-    "url": "https://github.com/notatestuser/ds4-control",
-    "description": "macOS menu bar control for DeepSeek V4 Pro/Flash via ds4. Start/stop/monitor ds4-server with mini resource widgets",
-    "stars": 10,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-29T15:41:13Z",
-    "updated_at": "2026-06-04T03:27:17Z",
-    "owner": {
-      "name": "notatestuser",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1255926?v=4"
     }
   }
 ]
