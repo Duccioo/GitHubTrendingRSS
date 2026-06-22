@@ -97,6 +97,27 @@
     }
   },
   {
+    "name": "overflowy/make-look-scanned",
+    "url": "https://github.com/overflowy/make-look-scanned",
+    "description": "Makes PDFs look scanned (CLI or in the browser via WASM)",
+    "stars": 272,
+    "forks": 10,
+    "language": "Go",
+    "topics": [
+      "go",
+      "pdf",
+      "scan",
+      "wasm"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-06-20T17:39:59Z",
+    "updated_at": "2026-06-22T07:06:19Z",
+    "owner": {
+      "name": "overflowy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98480250?v=4"
+    }
+  },
+  {
     "name": "bjarneo/kli",
     "url": "https://github.com/bjarneo/kli",
     "description": "A fast, keyboard-driven Kubernetes TUI. Browse any resource, edit objects, follow logs, and shell into pods. Inspired by k9s, Lens, and lazygit.",
@@ -165,27 +186,6 @@
     }
   },
   {
-    "name": "overflowy/make-look-scanned",
-    "url": "https://github.com/overflowy/make-look-scanned",
-    "description": "Makes PDFs look scanned (CLI or in the browser via WASM)",
-    "stars": 163,
-    "forks": 5,
-    "language": "Go",
-    "topics": [
-      "go",
-      "pdf",
-      "scan",
-      "wasm"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-06-20T17:39:59Z",
-    "updated_at": "2026-06-21T06:43:22Z",
-    "owner": {
-      "name": "overflowy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/98480250?v=4"
-    }
-  },
-  {
     "name": "FengZi1221/proxy-installer",
     "url": "https://github.com/FengZi1221/proxy-installer",
     "description": "一个面向新手的 Windows 桌面工具，通过 SSH 连接 VPS，自动检测环境并部署 Hysteria2、VMess、VLESS Reality、Trojan、Shadowsocks 节点。全自动安装节点的工具，并且自动生成适用于小火箭/Clash Meta/Sing-Box/V2rayNG的订阅链接",
@@ -250,57 +250,10 @@
     }
   },
   {
-    "name": "manticore-projects/aurscan",
-    "url": "https://github.com/manticore-projects/aurscan",
-    "description": "Automatically scan AUR packages for malware before installing using Claude LLM",
-    "stars": 79,
-    "forks": 7,
-    "language": "Go",
-    "topics": [
-      "archlinux",
-      "aur-packages",
-      "claude-ai",
-      "malware-detection",
-      "scanner",
-      "security",
-      "yay"
-    ],
-    "license": "Other",
-    "created_at": "2026-06-13T02:59:22Z",
-    "updated_at": "2026-06-19T00:10:38Z",
-    "owner": {
-      "name": "manticore-projects",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18080123?v=4"
-    }
-  },
-  {
-    "name": "baidu/nettools",
-    "url": "https://github.com/baidu/nettools",
-    "description": "A physical network blackbox monitoring toolkit with diagnostic and probing capabilities for link quality, path tracing, packet modification detection, loss localization, and bandwidth measurement, enabling end-to-end reliability in large-scale data centers.",
-    "stars": 78,
-    "forks": 12,
-    "language": "Go",
-    "topics": [
-      "cloud",
-      "idc",
-      "monitor",
-      "nettools",
-      "network",
-      "pingmesh"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-02T08:03:10Z",
-    "updated_at": "2026-06-08T06:23:01Z",
-    "owner": {
-      "name": "baidu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13245940?v=4"
-    }
-  },
-  {
     "name": "zyn26/minimax-m3-desktop-app-free-api",
     "url": "https://github.com/zyn26/minimax-m3-desktop-app-free-api",
     "description": "minimax m3 free model  ai model free  api  large language model llm 1m context window sparse attention msa architecture native multimodality computer use computer control autonomous coding assistant agentic ai framework swe bench pro software engineering workflow automation multi agent hugging face  api access local llm inference",
-    "stars": 74,
+    "stars": 111,
     "forks": 2,
     "language": "Go",
     "topics": [
@@ -327,10 +280,34 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-19T17:33:34Z",
-    "updated_at": "2026-06-21T04:15:43Z",
+    "updated_at": "2026-06-22T00:57:22Z",
     "owner": {
       "name": "zyn26",
       "avatar_url": "https://avatars.githubusercontent.com/u/95493060?v=4"
+    }
+  },
+  {
+    "name": "manticore-projects/aurscan",
+    "url": "https://github.com/manticore-projects/aurscan",
+    "description": "Automatically scan AUR packages for malware before installing using Claude LLM",
+    "stars": 79,
+    "forks": 7,
+    "language": "Go",
+    "topics": [
+      "archlinux",
+      "aur-packages",
+      "claude-ai",
+      "malware-detection",
+      "scanner",
+      "security",
+      "yay"
+    ],
+    "license": "Other",
+    "created_at": "2026-06-13T02:59:22Z",
+    "updated_at": "2026-06-19T00:10:38Z",
+    "owner": {
+      "name": "manticore-projects",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18080123?v=4"
     }
   },
   {
@@ -347,6 +324,22 @@
     "owner": {
       "name": "Sliverkiss",
       "avatar_url": "https://avatars.githubusercontent.com/u/70052878?v=4"
+    }
+  },
+  {
+    "name": "praetorian-inc/wasmforge",
+    "url": "https://github.com/praetorian-inc/wasmforge",
+    "description": "WasmForge — compile Go and C# programs to single-binary, WASM-sandboxed native executables with polymorphic output.",
+    "stars": 67,
+    "forks": 5,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-16T19:09:43Z",
+    "updated_at": "2026-06-21T15:03:27Z",
+    "owner": {
+      "name": "praetorian-inc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8173787?v=4"
     }
   },
   {
@@ -387,19 +380,28 @@
     }
   },
   {
-    "name": "praetorian-inc/wasmforge",
-    "url": "https://github.com/praetorian-inc/wasmforge",
-    "description": "WasmForge — compile Go and C# programs to single-binary, WASM-sandboxed native executables with polymorphic output.",
+    "name": "alvinunreal/lazyskills",
+    "url": "https://github.com/alvinunreal/lazyskills",
+    "description": "Mission control for agent skills",
     "stars": 61,
-    "forks": 4,
+    "forks": 0,
     "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-06-16T19:09:43Z",
-    "updated_at": "2026-06-21T00:27:55Z",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "cli",
+      "developer-tools",
+      "go",
+      "skill-management",
+      "terminal-ui",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-19T06:20:40Z",
+    "updated_at": "2026-06-22T06:55:46Z",
     "owner": {
-      "name": "praetorian-inc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8173787?v=4"
+      "name": "alvinunreal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/204474669?v=4"
     }
   },
   {
@@ -434,31 +436,6 @@
     }
   },
   {
-    "name": "alvinunreal/lazyskills",
-    "url": "https://github.com/alvinunreal/lazyskills",
-    "description": "Mission control for agent skills. ⭐ Star for a chance to win stickers.",
-    "stars": 53,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "agent-skills",
-      "ai-agents",
-      "cli",
-      "developer-tools",
-      "go",
-      "skill-management",
-      "terminal-ui",
-      "tui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-19T06:20:40Z",
-    "updated_at": "2026-06-20T22:58:53Z",
-    "owner": {
-      "name": "alvinunreal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/204474669?v=4"
-    }
-  },
-  {
     "name": "wtz44/mimo-free-api",
     "url": "https://github.com/wtz44/mimo-free-api",
     "description": null,
@@ -475,6 +452,27 @@
     }
   },
   {
+    "name": "ZHChen2000/qzone-history",
+    "url": "https://github.com/ZHChen2000/qzone-history",
+    "description": "QQ空间历史数据恢复工具：Qzone-History",
+    "stars": 51,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "backup",
+      "golang",
+      "qq",
+      "qzone"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-20T15:50:36Z",
+    "updated_at": "2026-06-22T03:50:42Z",
+    "owner": {
+      "name": "ZHChen2000",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104050742?v=4"
+    }
+  },
+  {
     "name": "npci/drunix",
     "url": "https://github.com/npci/drunix",
     "description": "Drunix is a custom-built private blockchain framework designed to deliver high scalability and optimized performance. Developed by re-engineering Hyperledger Fabric, Drunix introduces significant architectural changes that enable horizontal scaling—a capability that traditional Hyperledger Fabric lacks.",
@@ -488,22 +486,6 @@
     "owner": {
       "name": "npci",
       "avatar_url": "https://avatars.githubusercontent.com/u/142973479?v=4"
-    }
-  },
-  {
-    "name": "DsThakurRawat/Backend-from-first-Principle",
-    "url": "https://github.com/DsThakurRawat/Backend-from-first-Principle",
-    "description": null,
-    "stars": 47,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-03T14:38:21Z",
-    "updated_at": "2026-06-07T14:37:22Z",
-    "owner": {
-      "name": "DsThakurRawat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/186957976?v=4"
     }
   },
   {
@@ -693,6 +675,27 @@
     }
   },
   {
+    "name": "edaywalid/whook",
+    "url": "https://github.com/edaywalid/whook",
+    "description": "Self-hostable webhook gateway: durably capture, inspect, retry, and replay inbound webhooks. Single Go binary.",
+    "stars": 34,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "golang",
+      "self-hosted",
+      "webhook-gateway",
+      "webhooks"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-19T20:51:42Z",
+    "updated_at": "2026-06-22T06:18:54Z",
+    "owner": {
+      "name": "edaywalid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103851402?v=4"
+    }
+  },
+  {
     "name": "FanhuaCloud/go-sso",
     "url": "https://github.com/FanhuaCloud/go-sso",
     "description": null,
@@ -706,22 +709,6 @@
     "owner": {
       "name": "FanhuaCloud",
       "avatar_url": "https://avatars.githubusercontent.com/u/19590243?v=4"
-    }
-  },
-  {
-    "name": "huoji120/code_review_agent",
-    "url": "https://github.com/huoji120/code_review_agent",
-    "description": null,
-    "stars": 33,
-    "forks": 7,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-02T18:25:54Z",
-    "updated_at": "2026-06-07T13:56:49Z",
-    "owner": {
-      "name": "huoji120",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12996294?v=4"
     }
   },
   {
@@ -851,28 +838,19 @@
     }
   },
   {
-    "name": "ShieldNet-360/prompt-gate",
-    "url": "https://github.com/ShieldNet-360/prompt-gate",
-    "description": "Prompt Gate — privacy-first, on-device DLP for the AI era. Blocks unauthorized AI tools at the DNS layer and inspects content sent to approved tools for secrets/PII, entirely on-device.",
-    "stars": 28,
-    "forks": 1,
+    "name": "dinosn/leaklens",
+    "url": "https://github.com/dinosn/leaklens",
+    "description": "Web-aware secrets scanner for code, Git history, URLs, and JavaScript-heavy applications, with crawling and JS intelligence built in.",
+    "stars": 26,
+    "forks": 3,
     "language": "Go",
-    "topics": [
-      "ai-security",
-      "browser-extension",
-      "data-loss-prevention",
-      "dlp",
-      "endpoint-security",
-      "golang",
-      "privacy",
-      "secrets-detection"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-02T05:44:36Z",
-    "updated_at": "2026-06-08T06:29:45Z",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-20T11:20:08Z",
+    "updated_at": "2026-06-22T01:49:04Z",
     "owner": {
-      "name": "ShieldNet-360",
-      "avatar_url": "https://avatars.githubusercontent.com/u/276850807?v=4"
+      "name": "dinosn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3851678?v=4"
     }
   },
   {
@@ -963,22 +941,6 @@
     }
   },
   {
-    "name": "tmdgusya/roach-code",
-    "url": "https://github.com/tmdgusya/roach-code",
-    "description": "A config- and plugin-driven terminal AI coding agent (multi-model: DeepSeek, Codex/OpenAI, MiniMax, GLM). Multi-model rewrite of deepseek-reasonix.",
-    "stars": 24,
-    "forks": 3,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-02T16:51:40Z",
-    "updated_at": "2026-06-08T06:26:01Z",
-    "owner": {
-      "name": "tmdgusya",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57784077?v=4"
-    }
-  },
-  {
     "name": "dyngai/handoffkit",
     "url": "https://github.com/dyngai/handoffkit",
     "description": "CSP for AI coding agents",
@@ -1001,6 +963,22 @@
     "owner": {
       "name": "dyngai",
       "avatar_url": "https://avatars.githubusercontent.com/u/177663692?v=4"
+    }
+  },
+  {
+    "name": "Bhup-GitHUB/progressive-delivery-lab",
+    "url": "https://github.com/Bhup-GitHUB/progressive-delivery-lab",
+    "description": "local demo that explains how large-scale apps deploy without scheduled downtime by separating code deployment from feature activation.",
+    "stars": 22,
+    "forks": 7,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-20T08:27:54Z",
+    "updated_at": "2026-06-22T04:49:28Z",
+    "owner": {
+      "name": "Bhup-GitHUB",
+      "avatar_url": "https://avatars.githubusercontent.com/u/145711585?v=4"
     }
   },
   {
@@ -1106,27 +1084,6 @@
     }
   },
   {
-    "name": "edaywalid/whook",
-    "url": "https://github.com/edaywalid/whook",
-    "description": "Self-hostable webhook gateway: durably capture, inspect, retry, and replay inbound webhooks. Single Go binary.",
-    "stars": 20,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "golang",
-      "self-hosted",
-      "webhook-gateway",
-      "webhooks"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-19T20:51:42Z",
-    "updated_at": "2026-06-21T02:38:02Z",
-    "owner": {
-      "name": "edaywalid",
-      "avatar_url": "https://avatars.githubusercontent.com/u/103851402?v=4"
-    }
-  },
-  {
     "name": "thousandflowers/skillreaper",
     "url": "https://github.com/thousandflowers/skillreaper",
     "description": "Evidence-based pruning for your AI-agent stack — scan, report, and safely prune unused skills/MCP servers/agents using real transcript evidence",
@@ -1175,22 +1132,6 @@
     "owner": {
       "name": "Kiowx",
       "avatar_url": "https://avatars.githubusercontent.com/u/157085748?v=4"
-    }
-  },
-  {
-    "name": "dinosn/leaklens",
-    "url": "https://github.com/dinosn/leaklens",
-    "description": "Web-aware secrets scanner for code, Git history, URLs, and JavaScript-heavy applications, with crawling and JS intelligence built in.",
-    "stars": 19,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-06-20T11:20:08Z",
-    "updated_at": "2026-06-21T04:57:53Z",
-    "owner": {
-      "name": "dinosn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3851678?v=4"
     }
   },
   {
@@ -1264,10 +1205,26 @@
     ],
     "license": "No license",
     "created_at": "2026-06-19T10:31:44Z",
-    "updated_at": "2026-06-20T20:56:41Z",
+    "updated_at": "2026-06-21T20:31:20Z",
     "owner": {
       "name": "nktauserum",
       "avatar_url": "https://avatars.githubusercontent.com/u/145584656?v=4"
+    }
+  },
+  {
+    "name": "ArsalanDotMe/switchboard-go",
+    "url": "https://github.com/ArsalanDotMe/switchboard-go",
+    "description": "A simple proxy that makes it easy to use multiple opencode-go subscriptions",
+    "stars": 17,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-19T11:58:02Z",
+    "updated_at": "2026-06-21T08:02:22Z",
+    "owner": {
+      "name": "ArsalanDotMe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1993303?v=4"
     }
   },
   {
@@ -1330,22 +1287,6 @@
     }
   },
   {
-    "name": "ArsalanDotMe/switchboard-go",
-    "url": "https://github.com/ArsalanDotMe/switchboard-go",
-    "description": "A simple proxy that makes it easy to use multiple opencode-go subscriptions",
-    "stars": 16,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-19T11:58:02Z",
-    "updated_at": "2026-06-21T00:06:33Z",
-    "owner": {
-      "name": "ArsalanDotMe",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1993303?v=4"
-    }
-  },
-  {
     "name": "saheersk/lazymongo",
     "url": "https://github.com/saheersk/lazymongo",
     "description": "A fast, keyboard-driven terminal UI for MongoDB - like lazygit, but for Mongodb",
@@ -1401,19 +1342,26 @@
     }
   },
   {
-    "name": "Bhup-GitHUB/progressive-delivery-lab",
-    "url": "https://github.com/Bhup-GitHUB/progressive-delivery-lab",
-    "description": "local demo that explains how large-scale apps deploy without scheduled downtime by separating code deployment from feature activation.",
+    "name": "go-sqlex/sqlex",
+    "url": "https://github.com/go-sqlex/sqlex",
+    "description": "A drop-in modernization of jmoiron/sqlx that fixes lexer bugs, automates IN expansion, and adds pluggable hooks — built for Go 1.21+.",
     "stars": 15,
-    "forks": 4,
+    "forks": 0,
     "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-20T08:27:54Z",
-    "updated_at": "2026-06-21T05:17:35Z",
+    "topics": [
+      "databases",
+      "mysql",
+      "postgresql",
+      "sql",
+      "sqlserver",
+      "sqlx"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-16T12:59:26Z",
+    "updated_at": "2026-06-22T06:12:01Z",
     "owner": {
-      "name": "Bhup-GitHUB",
-      "avatar_url": "https://avatars.githubusercontent.com/u/145711585?v=4"
+      "name": "go-sqlex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/294181496?v=4"
     }
   },
   {
@@ -1500,6 +1448,22 @@
     "owner": {
       "name": "soulteary",
       "avatar_url": "https://avatars.githubusercontent.com/u/1500781?v=4"
+    }
+  },
+  {
+    "name": "mrgoonie/maskara",
+    "url": "https://github.com/mrgoonie/maskara",
+    "description": "Offline CLI for scanning and redacting secrets from coding-agent session logs",
+    "stars": 14,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-21T09:08:07Z",
+    "updated_at": "2026-06-22T06:25:32Z",
+    "owner": {
+      "name": "mrgoonie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6857382?v=4"
     }
   },
   {
@@ -1672,27 +1636,30 @@
     }
   },
   {
-    "name": "portbuster1337/ArachneC2",
-    "url": "https://github.com/portbuster1337/ArachneC2",
-    "description": "Decentralized C2 framework built on libp2p",
-    "stars": 14,
-    "forks": 5,
+    "name": "ParendumOU/Nexora-CLI",
+    "url": "https://github.com/ParendumOU/Nexora-CLI",
+    "description": "Terminal client for Nexora — streaming chat, agents, tasks & local tool execution from your shell. Single static Go binary (Bubble Tea TUI). Connects to any Nexora/NexoraCloud instance.",
+    "stars": 13,
+    "forks": 0,
     "language": "Go",
     "topics": [
-      "c2",
-      "command-and-control",
-      "decentralized",
+      "ai-agents",
+      "bubbletea",
+      "chat-client",
+      "cli",
+      "developer-tools",
       "golang",
-      "libp2p",
-      "p2p",
-      "red-team"
+      "llm",
+      "self-hosted",
+      "terminal",
+      "tui"
     ],
-    "license": "No license",
-    "created_at": "2026-06-02T14:18:03Z",
-    "updated_at": "2026-06-07T07:56:35Z",
+    "license": "MIT License",
+    "created_at": "2026-06-19T18:00:26Z",
+    "updated_at": "2026-06-21T21:26:49Z",
     "owner": {
-      "name": "portbuster1337",
-      "avatar_url": "https://avatars.githubusercontent.com/u/286772310?v=4"
+      "name": "ParendumOU",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295081442?v=4"
     }
   },
   {
@@ -1827,7 +1794,7 @@
     "url": "https://github.com/KabosuNeko/Futon",
     "description": "A blazingly fast, minimalist TUI manga reader written in Go",
     "stars": 12,
-    "forks": 0,
+    "forks": 1,
     "language": "Go",
     "topics": [
       "anime",
@@ -1858,26 +1825,51 @@
     }
   },
   {
-    "name": "go-sqlex/sqlex",
-    "url": "https://github.com/go-sqlex/sqlex",
-    "description": "A drop-in modernization of jmoiron/sqlx that fixes lexer bugs, automates IN expansion, and adds pluggable hooks — built for Go 1.21+.",
+    "name": "lcl-101/Proxy-Sync-Daemon",
+    "url": "https://github.com/lcl-101/Proxy-Sync-Daemon",
+    "description": "代理配置自动同步",
     "stars": 12,
     "forks": 0,
     "language": "Go",
-    "topics": [
-      "databases",
-      "mysql",
-      "postgresql",
-      "sql",
-      "sqlserver",
-      "sqlx"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-16T12:59:26Z",
-    "updated_at": "2026-06-21T04:32:10Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-17T03:02:47Z",
+    "updated_at": "2026-06-22T04:15:41Z",
     "owner": {
-      "name": "go-sqlex",
-      "avatar_url": "https://avatars.githubusercontent.com/u/294181496?v=4"
+      "name": "lcl-101",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13747322?v=4"
+    }
+  },
+  {
+    "name": "dondai1234/agent-browser",
+    "url": "https://github.com/dondai1234/agent-browser",
+    "description": "Token-efficient browser-automation MCP server for AI agents. One Go binary (Go + chromedp), no Playwright/Node. Stealth + delta snapshots.",
+    "stars": 12,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-19T06:57:30Z",
+    "updated_at": "2026-06-22T02:52:54Z",
+    "owner": {
+      "name": "dondai1234",
+      "avatar_url": "https://avatars.githubusercontent.com/u/220873966?v=4"
+    }
+  },
+  {
+    "name": "MisaghMomeniB/calculator-go",
+    "url": "https://github.com/MisaghMomeniB/calculator-go",
+    "description": "calculator-go",
+    "stars": 12,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-18T20:03:43Z",
+    "updated_at": "2026-06-21T10:20:48Z",
+    "owner": {
+      "name": "MisaghMomeniB",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166559069?v=4"
     }
   },
   {
@@ -1929,19 +1921,66 @@
     }
   },
   {
-    "name": "lcl-101/Proxy-Sync-Daemon",
-    "url": "https://github.com/lcl-101/Proxy-Sync-Daemon",
-    "description": "代理配置自动同步",
+    "name": "aristorinjuang/lesstruct",
+    "url": "https://github.com/aristorinjuang/lesstruct",
+    "description": "An open-source CMS powered by Go. Fast, configurable, customizable. Built for humans and AI agents, extended with WebAssembly plugins. One binary, no Docker required.",
     "stars": 11,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-17T03:02:47Z",
-    "updated_at": "2026-06-18T18:11:06Z",
+    "license": "MIT License",
+    "created_at": "2026-06-16T12:08:32Z",
+    "updated_at": "2026-06-22T06:02:50Z",
     "owner": {
-      "name": "lcl-101",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13747322?v=4"
+      "name": "aristorinjuang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4353174?v=4"
+    }
+  },
+  {
+    "name": "home-operations/chaski",
+    "url": "https://github.com/home-operations/chaski",
+    "description": "A small, stateless, webhook relay",
+    "stars": 11,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "apprise",
+      "cel",
+      "go-template",
+      "relay",
+      "webhook"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-06-20T20:11:09Z",
+    "updated_at": "2026-06-22T04:22:47Z",
+    "owner": {
+      "name": "home-operations",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152294696?v=4"
+    }
+  },
+  {
+    "name": "7anX/AgentScan",
+    "url": "https://github.com/7anX/AgentScan",
+    "description": "AI protocol scanner — discover exposed MCP servers, A2A Agent Cards, and open LLM APIs in one command. 一条命令盘点 MCP、A2A Agent Card 和 LLM 开放接口暴露面。",
+    "stars": 11,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "a2a",
+      "agent",
+      "ai-security",
+      "golang",
+      "llm",
+      "mcp",
+      "reconnaissance",
+      "security-scanner"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-17T04:37:14Z",
+    "updated_at": "2026-06-22T03:54:44Z",
+    "owner": {
+      "name": "7anX",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173973775?v=4"
     }
   },
   {
@@ -2130,46 +2169,48 @@
     }
   },
   {
-    "name": "ParendumOU/Nexora-CLI",
-    "url": "https://github.com/ParendumOU/Nexora-CLI",
-    "description": "Terminal client for Nexora — streaming chat, agents, tasks & local tool execution from your shell. Single static Go binary (Bubble Tea TUI). Connects to any Nexora/NexoraCloud instance.",
+    "name": "tamnd/yomi",
+    "url": "https://github.com/tamnd/yomi",
+    "description": "Read any web page, or a whole website, into clean Markdown",
     "stars": 10,
     "forks": 0,
     "language": "Go",
-    "topics": [
-      "ai-agents",
-      "bubbletea",
-      "chat-client",
-      "cli",
-      "developer-tools",
-      "golang",
-      "llm",
-      "self-hosted",
-      "terminal",
-      "tui"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-06-19T18:00:26Z",
-    "updated_at": "2026-06-21T01:38:31Z",
+    "created_at": "2026-06-17T12:54:34Z",
+    "updated_at": "2026-06-21T15:51:11Z",
     "owner": {
-      "name": "ParendumOU",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295081442?v=4"
+      "name": "tamnd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1218621?v=4"
     }
   },
   {
-    "name": "7anX/AgentScan",
-    "url": "https://github.com/7anX/AgentScan",
-    "description": null,
+    "name": "mainlink0435/warpbox",
+    "url": "https://github.com/mainlink0435/warpbox",
+    "description": "A high-performance WebDAV proxy for TorBox",
     "stars": 10,
     "forks": 1,
     "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-17T04:37:14Z",
-    "updated_at": "2026-06-20T20:18:11Z",
+    "topics": [
+      "debrid",
+      "emby",
+      "go",
+      "golang",
+      "jellyfin",
+      "plex",
+      "rclone",
+      "self-hosted",
+      "selfhosted",
+      "torbox",
+      "webdav-proxy",
+      "webdav-server"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-06-16T05:59:23Z",
+    "updated_at": "2026-06-22T00:31:12Z",
     "owner": {
-      "name": "7anX",
-      "avatar_url": "https://avatars.githubusercontent.com/u/173973775?v=4"
+      "name": "mainlink0435",
+      "avatar_url": "https://avatars.githubusercontent.com/u/687434?v=4"
     }
   },
   {
