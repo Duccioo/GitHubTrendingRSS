@@ -1,21 +1,5 @@
 [
   {
-    "name": "NoopApp/noop",
-    "url": "https://github.com/NoopApp/noop",
-    "description": "Offline WHOOP companion — pair your strap over Bluetooth, keep all data on your own device. No cloud, no account, no subscription.",
-    "stars": 1550,
-    "forks": 694,
-    "language": "Swift",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-06-07T17:03:02Z",
-    "updated_at": "2026-06-13T05:00:20Z",
-    "owner": {
-      "name": "NoopApp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/291537941?v=4"
-    }
-  },
-  {
     "name": "EEliberto/IPA-Download",
     "url": "https://github.com/EEliberto/IPA-Download",
     "description": "一款用于安装 IPA 历史版本的工具，适用于获取旧版应用并自动捕获数据包。下载后，可直接通过 AirDrop 传输至 iPhone、iPad 上并安装并使用。",
@@ -96,13 +80,13 @@
     "name": "m1ckc3s/claude-status-bar",
     "url": "https://github.com/m1ckc3s/claude-status-bar",
     "description": "A tiny macOS menu bar status indicator for Claude Code: animated icons, elapsed timer, and open/close lifecycle.",
-    "stars": 333,
-    "forks": 21,
+    "stars": 362,
+    "forks": 24,
     "language": "Swift",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-21T18:02:49Z",
-    "updated_at": "2026-06-26T05:49:29Z",
+    "updated_at": "2026-06-27T05:49:26Z",
     "owner": {
       "name": "m1ckc3s",
       "avatar_url": "https://avatars.githubusercontent.com/u/108453477?v=4"
@@ -272,6 +256,27 @@
     }
   },
   {
+    "name": "humblebanana/open-record-replay",
+    "url": "https://github.com/humblebanana/open-record-replay",
+    "description": "Open-source macOS record-and-replay workflow recorder for computer use agents. Captures mouse, keyboard, and UI events as structured traces so agents can learn, replay, and automate real desktop tasks.",
+    "stars": 114,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "agent",
+      "codex",
+      "computer-use-agent",
+      "skills"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-21T15:28:35Z",
+    "updated_at": "2026-06-26T07:09:59Z",
+    "owner": {
+      "name": "humblebanana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/150226686?v=4"
+    }
+  },
+  {
     "name": "StephenDev0/StikPair",
     "url": "https://github.com/StephenDev0/StikPair",
     "description": "A simple SwiftUI iOS app that creates a pairing file on-device.",
@@ -342,24 +347,30 @@
     }
   },
   {
-    "name": "humblebanana/open-record-replay",
-    "url": "https://github.com/humblebanana/open-record-replay",
-    "description": "Open-source macOS record-and-replay workflow recorder for computer use agents. Captures mouse, keyboard, and UI events as structured traces so agents can learn, replay, and automate real desktop tasks.",
+    "name": "satayutata/geniemax-core",
+    "url": "https://github.com/satayutata/geniemax-core",
+    "description": "Free, open, MIT health-analytics engine — recovery, sleep, HRV, strain, calories — no subscription. Currently reads WHOOP 5.0 / WHOOP MG sensors; iOS only (Android not yet). Golden-vector tested, pure Swift.",
     "stars": 89,
-    "forks": 0,
+    "forks": 35,
     "language": "Swift",
     "topics": [
-      "agent",
-      "codex",
-      "computer-use-agent",
-      "skills"
+      "e2ee",
+      "health",
+      "hrv",
+      "local-first",
+      "quantified-self",
+      "recovery",
+      "sleep-tracking",
+      "swift",
+      "swift-package",
+      "wearables"
     ],
     "license": "MIT License",
-    "created_at": "2026-06-21T15:28:35Z",
-    "updated_at": "2026-06-26T06:07:03Z",
+    "created_at": "2026-06-21T15:42:06Z",
+    "updated_at": "2026-06-26T13:09:33Z",
     "owner": {
-      "name": "humblebanana",
-      "avatar_url": "https://avatars.githubusercontent.com/u/150226686?v=4"
+      "name": "satayutata",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144505224?v=4"
     }
   },
   {
@@ -408,33 +419,6 @@
     "owner": {
       "name": "easychen",
       "avatar_url": "https://avatars.githubusercontent.com/u/1294760?v=4"
-    }
-  },
-  {
-    "name": "satayutata/geniemax-core",
-    "url": "https://github.com/satayutata/geniemax-core",
-    "description": "Free, open, MIT health-analytics engine — recovery, sleep, HRV, strain, calories — no subscription. Currently reads WHOOP 5.0 / WHOOP MG sensors; iOS only (Android not yet). Golden-vector tested, pure Swift.",
-    "stars": 86,
-    "forks": 33,
-    "language": "Swift",
-    "topics": [
-      "e2ee",
-      "health",
-      "hrv",
-      "local-first",
-      "quantified-self",
-      "recovery",
-      "sleep-tracking",
-      "swift",
-      "swift-package",
-      "wearables"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-21T15:42:06Z",
-    "updated_at": "2026-06-25T18:57:33Z",
-    "owner": {
-      "name": "satayutata",
-      "avatar_url": "https://avatars.githubusercontent.com/u/144505224?v=4"
     }
   },
   {
@@ -665,29 +649,6 @@
     }
   },
   {
-    "name": "Wentong-Liu/SayIt",
-    "url": "https://github.com/Wentong-Liu/SayIt",
-    "description": "FREE version of Typeless/Wisper/Monologue/闪电说 - no word limit, no subscription",
-    "stars": 39,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [
-      "dictation",
-      "macos",
-      "swift",
-      "typeless",
-      "vibe-coded",
-      "whisper-ai"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-07T14:54:38Z",
-    "updated_at": "2026-06-12T14:48:35Z",
-    "owner": {
-      "name": "Wentong-Liu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12538593?v=4"
-    }
-  },
-  {
     "name": "Pls-1q43/VibeCast",
     "url": "https://github.com/Pls-1q43/VibeCast",
     "description": "VibeCast is a mobile-first remote prompt input system for vibe coding. Use your Android keyboard's voice input to compose prompts on your phone, sync them to desktop apps in real time, and send them with one tap.",
@@ -878,26 +839,26 @@
     }
   },
   {
-    "name": "AndrewPrifer/swift-web-bridge",
-    "url": "https://github.com/AndrewPrifer/swift-web-bridge",
-    "description": null,
+    "name": "matyle/droidMirroring-mac",
+    "url": "https://github.com/matyle/droidMirroring-mac",
+    "description": "DroidMirroring for macOS like iPhone Mirroring",
     "stars": 29,
-    "forks": 0,
+    "forks": 1,
     "language": "Swift",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-19T01:34:14Z",
-    "updated_at": "2026-06-24T12:54:08Z",
+    "license": "Other",
+    "created_at": "2026-06-23T02:11:49Z",
+    "updated_at": "2026-06-27T02:34:17Z",
     "owner": {
-      "name": "AndrewPrifer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2991360?v=4"
+      "name": "matyle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27877040?v=4"
     }
   },
   {
     "name": "defcc/kidox.app",
     "url": "https://github.com/defcc/kidox.app",
     "description": "A Modern Launchpad Replacement for Mac",
-    "stars": 28,
+    "stars": 29,
     "forks": 3,
     "language": "Swift",
     "topics": [
@@ -911,10 +872,26 @@
     ],
     "license": "No license",
     "created_at": "2026-06-21T08:06:47Z",
-    "updated_at": "2026-06-26T05:31:03Z",
+    "updated_at": "2026-06-26T09:23:10Z",
     "owner": {
       "name": "defcc",
       "avatar_url": "https://avatars.githubusercontent.com/u/2603918?v=4"
+    }
+  },
+  {
+    "name": "AndrewPrifer/swift-web-bridge",
+    "url": "https://github.com/AndrewPrifer/swift-web-bridge",
+    "description": null,
+    "stars": 29,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-19T01:34:14Z",
+    "updated_at": "2026-06-24T12:54:08Z",
+    "owner": {
+      "name": "AndrewPrifer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2991360?v=4"
     }
   },
   {
@@ -980,6 +957,22 @@
     "owner": {
       "name": "rudrankriyam",
       "avatar_url": "https://avatars.githubusercontent.com/u/30552772?v=4"
+    }
+  },
+  {
+    "name": "ardabalkandev/claudemon",
+    "url": "https://github.com/ardabalkandev/claudemon",
+    "description": "Live Claude Code usage in your macOS menu bar — download the signed, notarized DMG from Releases. Requires Claude Code CLI + macOS 14+.",
+    "stars": 27,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-24T07:45:55Z",
+    "updated_at": "2026-06-26T22:12:12Z",
+    "owner": {
+      "name": "ardabalkandev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9656691?v=4"
     }
   },
   {
@@ -1081,6 +1074,33 @@
     }
   },
   {
+    "name": "lim-won/cmux-iphone",
+    "url": "https://github.com/lim-won/cmux-iphone",
+    "description": "Bridge your Claude Code / Codex / cmux sessions to your iPhone & Apple Watch — approve, prompt, and mirror live terminals on the go.",
+    "stars": 25,
+    "forks": 4,
+    "language": "Swift",
+    "topics": [
+      "bonjour",
+      "claude-code",
+      "cmux",
+      "codex",
+      "homebrew",
+      "ios",
+      "macos",
+      "server-sent-events",
+      "tailscale",
+      "watchos"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-22T08:03:15Z",
+    "updated_at": "2026-06-26T07:14:03Z",
+    "owner": {
+      "name": "lim-won",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200389150?v=4"
+    }
+  },
+  {
     "name": "hunters1431/MACKey",
     "url": "https://github.com/hunters1431/MACKey",
     "description": "一站式 macOS 快捷键中心：速查系统快捷键、为任意程序自定义快捷键、程序坞一键启动 · All-in-one macOS keyboard-shortcut hub",
@@ -1105,30 +1125,19 @@
     }
   },
   {
-    "name": "lim-won/cmux-iphone",
-    "url": "https://github.com/lim-won/cmux-iphone",
-    "description": "Bridge your Claude Code / Codex / cmux sessions to your iPhone & Apple Watch — approve, prompt, and mirror live terminals on the go.",
+    "name": "JOHN-decm/MacOS-TSKMGR",
+    "url": "https://github.com/JOHN-decm/MacOS-TSKMGR",
+    "description": "tskmgr, but macos",
     "stars": 24,
-    "forks": 4,
+    "forks": 3,
     "language": "Swift",
-    "topics": [
-      "bonjour",
-      "claude-code",
-      "cmux",
-      "codex",
-      "homebrew",
-      "ios",
-      "macos",
-      "server-sent-events",
-      "tailscale",
-      "watchos"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-22T08:03:15Z",
-    "updated_at": "2026-06-24T22:54:34Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-24T18:36:48Z",
+    "updated_at": "2026-06-27T03:12:54Z",
     "owner": {
-      "name": "lim-won",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200389150?v=4"
+      "name": "JOHN-decm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65145234?v=4"
     }
   },
   {
@@ -1363,22 +1372,6 @@
     }
   },
   {
-    "name": "matyle/droidMirroring-mac",
-    "url": "https://github.com/matyle/droidMirroring-mac",
-    "description": "DroidMirroring for macOS like iPhone Mirroring",
-    "stars": 20,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-06-23T02:11:49Z",
-    "updated_at": "2026-06-26T05:27:46Z",
-    "owner": {
-      "name": "matyle",
-      "avatar_url": "https://avatars.githubusercontent.com/u/27877040?v=4"
-    }
-  },
-  {
     "name": "leechild4/claude-session-widget",
     "url": "https://github.com/leechild4/claude-session-widget",
     "description": "A tiny macOS desktop widget for your Claude Code 5-hour usage window: live reset countdown and % used. Matches claude.ai.",
@@ -1459,19 +1452,31 @@
     }
   },
   {
-    "name": "saidsurucu/udf-quicklook-extension",
-    "url": "https://github.com/saidsurucu/udf-quicklook-extension",
-    "description": "macOS QuickLook (önizleme + küçük resim) ve salt-okunur görüntüleyici — UYAP .udf dosyaları için",
-    "stars": 20,
+    "name": "tdeverx/contained-app",
+    "url": "https://github.com/tdeverx/contained-app",
+    "description": "A native macOS app for Apple's Container CLI",
+    "stars": 19,
     "forks": 1,
     "language": "Swift",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-08T16:37:35Z",
-    "updated_at": "2026-06-12T20:13:14Z",
+    "topics": [
+      "apple-container",
+      "apple-silicon",
+      "containers",
+      "devtools",
+      "docker-alternative",
+      "liquid-glass",
+      "macos",
+      "sparkle",
+      "swift",
+      "swiftpm",
+      "swiftui"
+    ],
+    "license": "Other",
+    "created_at": "2026-06-25T22:02:07Z",
+    "updated_at": "2026-06-27T05:47:06Z",
     "owner": {
-      "name": "saidsurucu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/148570570?v=4"
+      "name": "tdeverx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44447832?v=4"
     }
   },
   {
@@ -1549,19 +1554,28 @@
     }
   },
   {
-    "name": "ardabalkandev/claudemon",
-    "url": "https://github.com/ardabalkandev/claudemon",
-    "description": "Live Claude Code usage in your macOS menu bar — download the signed, notarized DMG from Releases. Requires Claude Code CLI + macOS 14+.",
+    "name": "mangiapanejohn-dev/QuotaLens",
+    "url": "https://github.com/mangiapanejohn-dev/QuotaLens",
+    "description": "See your AI usage clearly — a macOS menu-bar gauge for Claude & Codex quotas.",
     "stars": 18,
     "forks": 0,
     "language": "Swift",
-    "topics": [],
+    "topics": [
+      "anthropic",
+      "claude",
+      "codex",
+      "macos",
+      "menu-bar",
+      "swift",
+      "swiftui",
+      "usage-monitor"
+    ],
     "license": "MIT License",
-    "created_at": "2026-06-24T07:45:55Z",
-    "updated_at": "2026-06-26T03:12:56Z",
+    "created_at": "2026-06-25T08:39:07Z",
+    "updated_at": "2026-06-27T04:38:59Z",
     "owner": {
-      "name": "ardabalkandev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9656691?v=4"
+      "name": "mangiapanejohn-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/239993596?v=4"
     }
   },
   {
@@ -1684,19 +1698,48 @@
     }
   },
   {
-    "name": "JOHN-decm/MacOS-TSKMGR",
-    "url": "https://github.com/JOHN-decm/MacOS-TSKMGR",
-    "description": "tskmgr, but macos",
+    "name": "jeffqiu1989/IcontainU",
+    "url": "https://github.com/jeffqiu1989/IcontainU",
+    "description": null,
     "stars": 16,
-    "forks": 2,
+    "forks": 0,
     "language": "Swift",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-24T18:36:48Z",
-    "updated_at": "2026-06-25T21:52:59Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-22T11:04:56Z",
+    "updated_at": "2026-06-27T02:10:03Z",
     "owner": {
-      "name": "JOHN-decm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65145234?v=4"
+      "name": "jeffqiu1989",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42633640?v=4"
+    }
+  },
+  {
+    "name": "HuangRunHua/LatteCam",
+    "url": "https://github.com/HuangRunHua/LatteCam",
+    "description": "Turn an old iPhone into a secure local HomeKit camera using SwiftUI, RTMPS, MediaMTX, Scrypted, and HomeKit.",
+    "stars": 16,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "cursor-skills",
+      "homekit",
+      "homekit-camera",
+      "ios",
+      "iphone-camera",
+      "local-first",
+      "mediamtx",
+      "rtmps",
+      "scrypted",
+      "security",
+      "smarthome",
+      "swiftui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-24T06:26:11Z",
+    "updated_at": "2026-06-26T17:15:54Z",
+    "owner": {
+      "name": "HuangRunHua",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45262463?v=4"
     }
   },
   {
@@ -1763,22 +1806,6 @@
     "owner": {
       "name": "tamibot",
       "avatar_url": "https://avatars.githubusercontent.com/u/204626942?v=4"
-    }
-  },
-  {
-    "name": "rudrankriyam/Core-AI-Framework-Lab",
-    "url": "https://github.com/rudrankriyam/Core-AI-Framework-Lab",
-    "description": "A practical lab for exploring Apple Core AI framework examples.",
-    "stars": 15,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-08T18:53:57Z",
-    "updated_at": "2026-06-13T05:41:16Z",
-    "owner": {
-      "name": "rudrankriyam",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30552772?v=4"
     }
   },
   {
@@ -1871,32 +1898,19 @@
     }
   },
   {
-    "name": "HuangRunHua/LatteCam",
-    "url": "https://github.com/HuangRunHua/LatteCam",
-    "description": "Turn an old iPhone into a secure local HomeKit camera using SwiftUI, RTMPS, MediaMTX, Scrypted, and HomeKit.",
+    "name": "SnapPlug/snap-teleprompter",
+    "url": "https://github.com/SnapPlug/snap-teleprompter",
+    "description": "macOS teleprompter app that displays scrolling text in the MacBook notch area",
     "stars": 13,
-    "forks": 0,
+    "forks": 2,
     "language": "Swift",
-    "topics": [
-      "cursor-skills",
-      "homekit",
-      "homekit-camera",
-      "ios",
-      "iphone-camera",
-      "local-first",
-      "mediamtx",
-      "rtmps",
-      "scrypted",
-      "security",
-      "smarthome",
-      "swiftui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-24T06:26:11Z",
-    "updated_at": "2026-06-25T23:19:00Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-24T22:07:48Z",
+    "updated_at": "2026-06-27T05:44:21Z",
     "owner": {
-      "name": "HuangRunHua",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45262463?v=4"
+      "name": "SnapPlug",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133688402?v=4"
     }
   },
   {
@@ -1964,19 +1978,35 @@
     }
   },
   {
-    "name": "SnapPlug/snap-teleprompter",
-    "url": "https://github.com/SnapPlug/snap-teleprompter",
-    "description": "macOS teleprompter app that displays scrolling text in the MacBook notch area",
+    "name": "annieversary/pet",
+    "url": "https://github.com/annieversary/pet",
+    "description": "lil computer pet",
     "stars": 12,
-    "forks": 2,
+    "forks": 1,
     "language": "Swift",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-06-24T22:07:48Z",
-    "updated_at": "2026-06-26T06:02:53Z",
+    "created_at": "2026-06-25T22:09:52Z",
+    "updated_at": "2026-06-26T22:02:19Z",
     "owner": {
-      "name": "SnapPlug",
-      "avatar_url": "https://avatars.githubusercontent.com/u/133688402?v=4"
+      "name": "annieversary",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99655811?v=4"
+    }
+  },
+  {
+    "name": "chandansgowda/posture-fix",
+    "url": "https://github.com/chandansgowda/posture-fix",
+    "description": "Menu-bar app that nudges your posture using AirPods motion sensors (macOS, Core Motion)",
+    "stars": 12,
+    "forks": 5,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-21T20:46:38Z",
+    "updated_at": "2026-06-26T16:18:14Z",
+    "owner": {
+      "name": "chandansgowda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41890434?v=4"
     }
   },
   {
@@ -2025,6 +2055,49 @@
     "owner": {
       "name": "FlineDev",
       "avatar_url": "https://avatars.githubusercontent.com/u/12431907?v=4"
+    }
+  },
+  {
+    "name": "huseyiniriss/flutter-gui-runner",
+    "url": "https://github.com/huseyiniriss/flutter-gui-runner",
+    "description": "Native macOS control panel for Flutter — for editors (Zed/Neovim/terminal) and agentic coding without a Flutter plugin",
+    "stars": 11,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "agentic",
+      "dart",
+      "developer-tools",
+      "flutter",
+      "flutter-tools",
+      "hot-reload",
+      "macos",
+      "neovim",
+      "swiftui",
+      "zed"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-22T23:06:06Z",
+    "updated_at": "2026-06-27T01:13:51Z",
+    "owner": {
+      "name": "huseyiniriss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13603852?v=4"
+    }
+  },
+  {
+    "name": "dripster82/ar_workspace_manager_for_xreal",
+    "url": "https://github.com/dripster82/ar_workspace_manager_for_xreal",
+    "description": "AR Workspace Manager for XREAL",
+    "stars": 11,
+    "forks": 3,
+    "language": "Swift",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-06-23T09:56:08Z",
+    "updated_at": "2026-06-26T22:17:50Z",
+    "owner": {
+      "name": "dripster82",
+      "avatar_url": "https://avatars.githubusercontent.com/u/408524?v=4"
     }
   },
   {
@@ -2113,22 +2186,6 @@
     }
   },
   {
-    "name": "margox/SwiftGlow",
-    "url": "https://github.com/margox/SwiftGlow",
-    "description": null,
-    "stars": 11,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-10T06:42:08Z",
-    "updated_at": "2026-06-12T12:38:22Z",
-    "owner": {
-      "name": "margox",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7866354?v=4"
-    }
-  },
-  {
     "name": "bahattinkoc/reflyzer",
     "url": "https://github.com/bahattinkoc/reflyzer",
     "description": "Scan unused property and func references",
@@ -2151,65 +2208,6 @@
     "owner": {
       "name": "bahattinkoc",
       "avatar_url": "https://avatars.githubusercontent.com/u/61124759?v=4"
-    }
-  },
-  {
-    "name": "huseyiniriss/flutter-gui-runner",
-    "url": "https://github.com/huseyiniriss/flutter-gui-runner",
-    "description": "Native macOS control panel for Flutter — for editors (Zed/Neovim/terminal) and agentic coding without a Flutter plugin",
-    "stars": 10,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [
-      "agentic",
-      "dart",
-      "developer-tools",
-      "flutter",
-      "flutter-tools",
-      "hot-reload",
-      "macos",
-      "neovim",
-      "swiftui",
-      "zed"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-22T23:06:06Z",
-    "updated_at": "2026-06-25T18:31:03Z",
-    "owner": {
-      "name": "huseyiniriss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13603852?v=4"
-    }
-  },
-  {
-    "name": "chandansgowda/posture-fix",
-    "url": "https://github.com/chandansgowda/posture-fix",
-    "description": "Menu-bar app that nudges your posture using AirPods motion sensors (macOS, Core Motion)",
-    "stars": 10,
-    "forks": 5,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-21T20:46:38Z",
-    "updated_at": "2026-06-25T08:41:20Z",
-    "owner": {
-      "name": "chandansgowda",
-      "avatar_url": "https://avatars.githubusercontent.com/u/41890434?v=4"
-    }
-  },
-  {
-    "name": "dripster82/ar_workspace_manager_for_xreal",
-    "url": "https://github.com/dripster82/ar_workspace_manager_for_xreal",
-    "description": "AR Workspace Manager for XREAL",
-    "stars": 10,
-    "forks": 3,
-    "language": "Swift",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-06-23T09:56:08Z",
-    "updated_at": "2026-06-25T23:33:46Z",
-    "owner": {
-      "name": "dripster82",
-      "avatar_url": "https://avatars.githubusercontent.com/u/408524?v=4"
     }
   },
   {
