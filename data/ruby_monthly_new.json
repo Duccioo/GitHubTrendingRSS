@@ -3,7 +3,7 @@
     "name": "yaroslav/kino",
     "url": "https://github.com/yaroslav/kino",
     "description": "A high-performance Ractor web server for Ruby 4.0+: Rack 3-based, with a Rust Tokio/Hyper front-end and Ractor-parallel Ruby workers and threaded fallback mode.",
-    "stars": 155,
+    "stars": 157,
     "forks": 3,
     "language": "Ruby",
     "topics": [
@@ -22,7 +22,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-11T06:06:46Z",
-    "updated_at": "2026-06-27T20:47:16Z",
+    "updated_at": "2026-06-28T11:40:36Z",
     "owner": {
       "name": "yaroslav",
       "avatar_url": "https://avatars.githubusercontent.com/u/4277?v=4"
@@ -114,7 +114,7 @@
     "name": "jibranusman95/http_decoy",
     "url": "https://github.com/jibranusman95/http_decoy",
     "description": "A real fake HTTP server for RSpec. No cassettes. No scattered stubs.",
-    "stars": 30,
+    "stars": 31,
     "forks": 1,
     "language": "Ruby",
     "topics": [
@@ -130,7 +130,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-02T15:34:04Z",
-    "updated_at": "2026-06-27T01:03:42Z",
+    "updated_at": "2026-06-28T11:41:43Z",
     "owner": {
       "name": "jibranusman95",
       "avatar_url": "https://avatars.githubusercontent.com/u/69146248?v=4"
@@ -194,6 +194,46 @@
     }
   },
   {
+    "name": "mhenrixon/phlex-reactive",
+    "url": "https://github.com/mhenrixon/phlex-reactive",
+    "description": "Reactive Phlex components for Rails — Livewire-style actions and live cross-tab updates, without Stimulus boilerplate.",
+    "stars": 15,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [
+      "hotwire",
+      "pgbus",
+      "phlex",
+      "rails",
+      "reactive",
+      "ruby",
+      "turbo"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-20T15:26:19Z",
+    "updated_at": "2026-06-29T05:38:24Z",
+    "owner": {
+      "name": "mhenrixon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106795?v=4"
+    }
+  },
+  {
+    "name": "baweaver/rivulet",
+    "url": "https://github.com/baweaver/rivulet",
+    "description": "Sliding window operations for Ruby collections. Fixed and variable-size windows with O(1)   incremental state and near-zero allocations.",
+    "stars": 15,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-01T02:05:12Z",
+    "updated_at": "2026-06-28T11:42:18Z",
+    "owner": {
+      "name": "baweaver",
+      "avatar_url": "https://avatars.githubusercontent.com/u/979723?v=4"
+    }
+  },
+  {
     "name": "eclectic-coding/rails_health_checks",
     "url": "https://github.com/eclectic-coding/rails_health_checks",
     "description": "Rails health check endpoints gem",
@@ -210,19 +250,19 @@
     }
   },
   {
-    "name": "baweaver/rivulet",
-    "url": "https://github.com/baweaver/rivulet",
-    "description": "Sliding window operations for Ruby collections. Fixed and variable-size windows with O(1)   incremental state and near-zero allocations.",
+    "name": "vitobotta/streamvault",
+    "url": "https://github.com/vitobotta/streamvault",
+    "description": null,
     "stars": 14,
-    "forks": 0,
+    "forks": 2,
     "language": "Ruby",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-01T02:05:12Z",
-    "updated_at": "2026-06-24T08:14:49Z",
+    "license": "No license",
+    "created_at": "2026-06-26T02:21:17Z",
+    "updated_at": "2026-06-28T23:11:32Z",
     "owner": {
-      "name": "baweaver",
-      "avatar_url": "https://avatars.githubusercontent.com/u/979723?v=4"
+      "name": "vitobotta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/283811?v=4"
     }
   },
   {
@@ -258,19 +298,19 @@
     }
   },
   {
-    "name": "vitobotta/streamvault",
-    "url": "https://github.com/vitobotta/streamvault",
-    "description": null,
+    "name": "crmne/archspec",
+    "url": "https://github.com/crmne/archspec",
+    "description": "Architecture checks for Ruby and Rails.",
     "stars": 11,
-    "forks": 0,
+    "forks": 1,
     "language": "Ruby",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-26T02:21:17Z",
-    "updated_at": "2026-06-28T04:33:40Z",
+    "license": "MIT License",
+    "created_at": "2026-06-02T17:07:29Z",
+    "updated_at": "2026-06-28T06:44:20Z",
     "owner": {
-      "name": "vitobotta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/283811?v=4"
+      "name": "crmne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106617?v=4"
     }
   },
   {
@@ -293,22 +333,6 @@
     "owner": {
       "name": "oxsean",
       "avatar_url": "https://avatars.githubusercontent.com/u/716461?v=4"
-    }
-  },
-  {
-    "name": "crmne/archspec",
-    "url": "https://github.com/crmne/archspec",
-    "description": "Architecture checks for Ruby and Rails.",
-    "stars": 10,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-02T17:07:29Z",
-    "updated_at": "2026-06-24T13:05:37Z",
-    "owner": {
-      "name": "crmne",
-      "avatar_url": "https://avatars.githubusercontent.com/u/106617?v=4"
     }
   },
   {
