@@ -3,7 +3,7 @@
     "name": "yaroslav/kino",
     "url": "https://github.com/yaroslav/kino",
     "description": "A high-performance Ractor web server for Ruby 4.0+: Rack 3-based, with a Rust Tokio/Hyper front-end and Ractor-parallel Ruby workers and threaded fallback mode.",
-    "stars": 157,
+    "stars": 159,
     "forks": 3,
     "language": "Ruby",
     "topics": [
@@ -22,7 +22,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-11T06:06:46Z",
-    "updated_at": "2026-06-28T11:40:36Z",
+    "updated_at": "2026-06-30T00:02:30Z",
     "owner": {
       "name": "yaroslav",
       "avatar_url": "https://avatars.githubusercontent.com/u/4277?v=4"
@@ -90,27 +90,6 @@
     }
   },
   {
-    "name": "unurgunite/irb-autosuggestions",
-    "url": "https://github.com/unurgunite/irb-autosuggestions",
-    "description": "Fish-like autosuggestions for irb",
-    "stars": 32,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [
-      "irb",
-      "rbs",
-      "reline",
-      "ruby"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-05-22T21:17:15Z",
-    "updated_at": "2026-06-16T04:24:53Z",
-    "owner": {
-      "name": "unurgunite",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49247588?v=4"
-    }
-  },
-  {
     "name": "jibranusman95/http_decoy",
     "url": "https://github.com/jibranusman95/http_decoy",
     "description": "A real fake HTTP server for RSpec. No cassettes. No scattered stubs.",
@@ -150,6 +129,30 @@
     "owner": {
       "name": "afomera",
       "avatar_url": "https://avatars.githubusercontent.com/u/1741179?v=4"
+    }
+  },
+  {
+    "name": "mhenrixon/phlex-reactive",
+    "url": "https://github.com/mhenrixon/phlex-reactive",
+    "description": "Reactive Phlex components for Rails — Livewire-style actions and live cross-tab updates, without Stimulus boilerplate.",
+    "stars": 21,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [
+      "hotwire",
+      "pgbus",
+      "phlex",
+      "rails",
+      "reactive",
+      "ruby",
+      "turbo"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-20T15:26:19Z",
+    "updated_at": "2026-06-30T05:30:34Z",
+    "owner": {
+      "name": "mhenrixon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106795?v=4"
     }
   },
   {
@@ -194,27 +197,19 @@
     }
   },
   {
-    "name": "mhenrixon/phlex-reactive",
-    "url": "https://github.com/mhenrixon/phlex-reactive",
-    "description": "Reactive Phlex components for Rails — Livewire-style actions and live cross-tab updates, without Stimulus boilerplate.",
-    "stars": 15,
-    "forks": 0,
+    "name": "vitobotta/streamvault",
+    "url": "https://github.com/vitobotta/streamvault",
+    "description": null,
+    "stars": 17,
+    "forks": 2,
     "language": "Ruby",
-    "topics": [
-      "hotwire",
-      "pgbus",
-      "phlex",
-      "rails",
-      "reactive",
-      "ruby",
-      "turbo"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-20T15:26:19Z",
-    "updated_at": "2026-06-29T05:38:24Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-26T02:21:17Z",
+    "updated_at": "2026-06-29T20:09:09Z",
     "owner": {
-      "name": "mhenrixon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/106795?v=4"
+      "name": "vitobotta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/283811?v=4"
     }
   },
   {
@@ -250,22 +245,6 @@
     }
   },
   {
-    "name": "vitobotta/streamvault",
-    "url": "https://github.com/vitobotta/streamvault",
-    "description": null,
-    "stars": 14,
-    "forks": 2,
-    "language": "Ruby",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-26T02:21:17Z",
-    "updated_at": "2026-06-28T23:11:32Z",
-    "owner": {
-      "name": "vitobotta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/283811?v=4"
-    }
-  },
-  {
     "name": "palkan/sloprb",
     "url": "https://github.com/palkan/sloprb",
     "description": "Stop writing code, let LLMs slop it for you on load",
@@ -279,22 +258,6 @@
     "owner": {
       "name": "palkan",
       "avatar_url": "https://avatars.githubusercontent.com/u/1516722?v=4"
-    }
-  },
-  {
-    "name": "stiller/ruby-agent",
-    "url": "https://github.com/stiller/ruby-agent",
-    "description": "A minimalist instructional agentic coding harness in plain Ruby",
-    "stars": 11,
-    "forks": 1,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-05-31T09:04:48Z",
-    "updated_at": "2026-06-25T11:08:59Z",
-    "owner": {
-      "name": "stiller",
-      "avatar_url": "https://avatars.githubusercontent.com/u/548535?v=4"
     }
   },
   {
@@ -314,6 +277,22 @@
     }
   },
   {
+    "name": "stiller/ruby-agent",
+    "url": "https://github.com/stiller/ruby-agent",
+    "description": "A minimalist instructional agentic coding harness in plain Ruby",
+    "stars": 11,
+    "forks": 1,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-05-31T09:04:48Z",
+    "updated_at": "2026-06-25T11:08:59Z",
+    "owner": {
+      "name": "stiller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/548535?v=4"
+    }
+  },
+  {
     "name": "oxsean/homebrew-ghcask",
     "url": "https://github.com/oxsean/homebrew-ghcask",
     "description": "Install any macOS apps from GitHub Releases or direct package URLs with Homebrew",
@@ -329,7 +308,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-06-03T13:35:06Z",
-    "updated_at": "2026-06-16T06:22:07Z",
+    "updated_at": "2026-06-30T05:56:16Z",
     "owner": {
       "name": "oxsean",
       "avatar_url": "https://avatars.githubusercontent.com/u/716461?v=4"
