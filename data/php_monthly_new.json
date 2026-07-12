@@ -147,8 +147,8 @@
     "name": "BlueprintFramework/hydrodactyl",
     "url": "https://github.com/BlueprintFramework/hydrodactyl",
     "description": "Formerly Pyrodactyl-oss. Hydrodactyl v6 out now!",
-    "stars": 82,
-    "forks": 10,
+    "stars": 83,
+    "forks": 12,
     "language": "PHP",
     "topics": [
       "game-panel",
@@ -158,7 +158,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-06-14T18:37:04Z",
-    "updated_at": "2026-07-10T22:12:50Z",
+    "updated_at": "2026-07-12T03:01:43Z",
     "owner": {
       "name": "BlueprintFramework",
       "avatar_url": "https://avatars.githubusercontent.com/u/123477919?v=4"
@@ -169,7 +169,7 @@
     "url": "https://github.com/nunomaduro/plack.app",
     "description": null,
     "stars": 79,
-    "forks": 40,
+    "forks": 41,
     "language": "PHP",
     "topics": [],
     "license": "No license",
@@ -274,7 +274,7 @@
     "name": "DirectoryTree/PrivacyFilter",
     "url": "https://github.com/DirectoryTree/PrivacyFilter",
     "description": "Install and use compiled privacy-filter.cpp binaries from Laravel applications.",
-    "stars": 55,
+    "stars": 54,
     "forks": 0,
     "language": "PHP",
     "topics": [
@@ -284,7 +284,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-17T20:52:47Z",
-    "updated_at": "2026-07-07T12:38:35Z",
+    "updated_at": "2026-07-11T21:20:21Z",
     "owner": {
       "name": "DirectoryTree",
       "avatar_url": "https://avatars.githubusercontent.com/u/49739287?v=4"
@@ -311,7 +311,7 @@
     "url": "https://github.com/dokejaker/TraceNova",
     "description": "Professional TraceNova framework with TraceNova-optimized intelligent-automation and enterprise scalable-architecture capabilities",
     "stars": 48,
-    "forks": 0,
+    "forks": 1,
     "language": "PHP",
     "topics": [],
     "license": "MIT License",
@@ -618,6 +618,31 @@
     }
   },
   {
+    "name": "promptphp/intercept",
+    "url": "https://github.com/promptphp/intercept",
+    "description": "A modular, drop-in middleware collection for Laravel AI SDK agents. Offers middleware across security, observability, performance and guidance.",
+    "stars": 33,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "ai",
+      "laravel",
+      "middleware",
+      "observability",
+      "pii-redaction",
+      "prompt-injection",
+      "security",
+      "security-tools"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-17T18:50:48Z",
+    "updated_at": "2026-07-11T17:31:21Z",
+    "owner": {
+      "name": "promptphp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/285245239?v=4"
+    }
+  },
+  {
     "name": "rollopack/mikrotik-wireguard",
     "url": "https://github.com/rollopack/mikrotik-wireguard",
     "description": "Lightweight PHP web dashboard for managing WireGuard peers on MikroTik RouterOS 7 CHR. Automatic IP allocation, X25519 key generation, client config export, DNAT port calculation, i18n",
@@ -639,31 +664,6 @@
     "owner": {
       "name": "rollopack",
       "avatar_url": "https://avatars.githubusercontent.com/u/2045052?v=4"
-    }
-  },
-  {
-    "name": "promptphp/intercept",
-    "url": "https://github.com/promptphp/intercept",
-    "description": "A modular, drop-in middleware collection for Laravel AI SDK agents. Offers middleware across security, observability, performance and guidance.",
-    "stars": 31,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [
-      "ai",
-      "laravel",
-      "middleware",
-      "observability",
-      "pii-redaction",
-      "prompt-injection",
-      "security",
-      "security-tools"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-17T18:50:48Z",
-    "updated_at": "2026-07-11T00:46:44Z",
-    "owner": {
-      "name": "promptphp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/285245239?v=4"
     }
   },
   {
@@ -715,26 +715,6 @@
     }
   },
   {
-    "name": "manticorephp/compiler",
-    "url": "https://github.com/manticorephp/compiler",
-    "description": "The PHP AOT Compiler written in pure PHP over the LLVM backend",
-    "stars": 27,
-    "forks": 1,
-    "language": "PHP",
-    "topics": [
-      "compiler",
-      "llvm",
-      "php"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-12T13:18:59Z",
-    "updated_at": "2026-07-07T14:22:59Z",
-    "owner": {
-      "name": "manticorephp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/293015169?v=4"
-    }
-  },
-  {
     "name": "tuolaji996/SignalOps-Status",
     "url": "https://github.com/tuolaji996/SignalOps-Status",
     "description": "PHP Based self-hosted status page for Discord bots, trading services, market-data APIs, and private server monitoring.",
@@ -764,6 +744,26 @@
     }
   },
   {
+    "name": "manticorephp/compiler",
+    "url": "https://github.com/manticorephp/compiler",
+    "description": "The PHP AOT Compiler written in pure PHP over the LLVM backend",
+    "stars": 27,
+    "forks": 1,
+    "language": "PHP",
+    "topics": [
+      "compiler",
+      "llvm",
+      "php"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-12T13:18:59Z",
+    "updated_at": "2026-07-07T14:22:59Z",
+    "owner": {
+      "name": "manticorephp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/293015169?v=4"
+    }
+  },
+  {
     "name": "rafael-fu2025/synapse_ag",
     "url": "https://github.com/rafael-fu2025/synapse_ag",
     "description": "Prototype",
@@ -777,6 +777,31 @@
     "owner": {
       "name": "rafael-fu2025",
       "avatar_url": "https://avatars.githubusercontent.com/u/211883736?v=4"
+    }
+  },
+  {
+    "name": "pushery/email-magic-link-for-laravel",
+    "url": "https://github.com/pushery/email-magic-link-for-laravel",
+    "description": "Passwordless email magic-link & OTP authentication for Laravel — standalone or with a correct, no-bypass Fortify 2FA handoff and scanner-safe link consumption.",
+    "stars": 26,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "email",
+      "laravel",
+      "laravel-framework",
+      "laravel-package",
+      "mail",
+      "passwordless",
+      "passwordless-authentication",
+      "passwordless-login"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-22T13:03:45Z",
+    "updated_at": "2026-07-12T03:35:27Z",
+    "owner": {
+      "name": "pushery",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272318911?v=4"
     }
   },
   {
@@ -799,32 +824,49 @@
     "name": "kynaderd/ApexAnchor",
     "url": "https://github.com/kynaderd/ApexAnchor",
     "description": "Professional ApexAnchor apexanchor-engine with ApexAnchor-optimized apexanchor-optimization and enterprise scalable-architecture capabilities",
-    "stars": 26,
+    "stars": 25,
     "forks": 0,
     "language": "PHP",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-22T14:54:10Z",
-    "updated_at": "2026-07-01T13:51:49Z",
+    "updated_at": "2026-07-08T12:44:35Z",
     "owner": {
       "name": "kynaderd",
       "avatar_url": "https://avatars.githubusercontent.com/u/85109209?v=4"
     }
   },
   {
-    "name": "iamjohnwhite/bricks-floating-panels",
-    "url": "https://github.com/iamjohnwhite/bricks-floating-panels",
-    "description": "A plugin that helps extend Bricks Builder into having a floating settings and structure editor while making page edits to help free up screen space.",
-    "stars": 25,
-    "forks": 2,
+    "name": "mralaminahamed/wp-dev-skills",
+    "url": "https://github.com/mralaminahamed/wp-dev-skills",
+    "description": "WordPress plugin development skills for AI coding agents — Claude Code, Gemini CLI, Cursor, Windsurf, Cline, Codex, Copilot, opencode, and more",
+    "stars": 24,
+    "forks": 3,
     "language": "PHP",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-06-03T16:01:03Z",
-    "updated_at": "2026-06-27T16:41:36Z",
+    "topics": [
+      "action-scheduler",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "developer-tools",
+      "freemius",
+      "gemini-cli",
+      "gemini-cli-extension",
+      "github",
+      "phpcs",
+      "phpstan",
+      "phpunit",
+      "woocommerce",
+      "wordpress",
+      "wordpress-plugin",
+      "wpcs"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-16T10:25:57Z",
+    "updated_at": "2026-07-04T16:15:14Z",
     "owner": {
-      "name": "iamjohnwhite",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42010706?v=4"
+      "name": "mralaminahamed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34349365?v=4"
     }
   },
   {

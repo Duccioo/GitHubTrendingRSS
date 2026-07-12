@@ -104,7 +104,7 @@
     "name": "olemeyer/rocketplaneIO",
     "url": "https://github.com/olemeyer/rocketplaneIO",
     "description": "Self-hosted AI SRE for Kubernetes — zero-instrumentation eBPF observability plus a copilot that fixes issues through guardrailed, self-verifying actions. BYO-LLM, air-gapped capable.",
-    "stars": 127,
+    "stars": 131,
     "forks": 2,
     "language": "Go",
     "topics": [
@@ -127,7 +127,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-07-06T11:24:01Z",
-    "updated_at": "2026-07-11T00:39:00Z",
+    "updated_at": "2026-07-12T01:28:31Z",
     "owner": {
       "name": "olemeyer",
       "avatar_url": "https://avatars.githubusercontent.com/u/12031071?v=4"
@@ -168,6 +168,32 @@
     "owner": {
       "name": "kdsuomi",
       "avatar_url": "https://avatars.githubusercontent.com/u/129815542?v=4"
+    }
+  },
+  {
+    "name": "GreyGunG/grokbuild-proxy",
+    "url": "https://github.com/GreyGunG/grokbuild-proxy",
+    "description": "本地自托管的 Grok Build → Claude Code / OpenAI 兼容代理 | Local self-hosted Grok Build compatibility proxy",
+    "stars": 103,
+    "forks": 35,
+    "language": "Go",
+    "topics": [
+      "anthropic",
+      "claude-code",
+      "golang",
+      "grok",
+      "grok-build",
+      "oauth",
+      "openai",
+      "proxy",
+      "self-hosted"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-09T23:28:51Z",
+    "updated_at": "2026-07-12T02:55:20Z",
+    "owner": {
+      "name": "GreyGunG",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6110905?v=4"
     }
   },
   {
@@ -265,6 +291,33 @@
     }
   },
   {
+    "name": "Foxemsx/riptide",
+    "url": "https://github.com/Foxemsx/riptide",
+    "description": "A polished terminal internet speed test and realtime bandwidth monitor written in Go. Riptide measures download, upload, and latency in a centered card UI with live progress, compact sparklines, smooth animation, and clean cross-platform output for Linux and Windows terminals.",
+    "stars": 87,
+    "forks": 3,
+    "language": "Go",
+    "topics": [
+      "bandwidth",
+      "bandwidth-monitor",
+      "bubbletea",
+      "cli",
+      "go",
+      "linux",
+      "network",
+      "speed-test",
+      "terminal",
+      "windows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-06T11:47:48Z",
+    "updated_at": "2026-07-12T04:59:54Z",
+    "owner": {
+      "name": "Foxemsx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133228093?v=4"
+    }
+  },
+  {
     "name": "raiyanyahya/llmaker",
     "url": "https://github.com/raiyanyahya/llmaker",
     "description": "Self-host the modern LLM stack.",
@@ -281,29 +334,19 @@
     }
   },
   {
-    "name": "GreyGunG/grokbuild-proxy",
-    "url": "https://github.com/GreyGunG/grokbuild-proxy",
-    "description": "本地自托管的 Grok Build → Claude Code / OpenAI 兼容代理 | Local self-hosted Grok Build compatibility proxy",
-    "stars": 76,
-    "forks": 22,
+    "name": "xiaozhou26/icloud-hme",
+    "url": "https://github.com/xiaozhou26/icloud-hme",
+    "description": null,
+    "stars": 73,
+    "forks": 28,
     "language": "Go",
-    "topics": [
-      "anthropic",
-      "claude-code",
-      "golang",
-      "grok",
-      "grok-build",
-      "oauth",
-      "openai",
-      "proxy",
-      "self-hosted"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-09T23:28:51Z",
-    "updated_at": "2026-07-11T04:08:44Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-08T11:04:56Z",
+    "updated_at": "2026-07-12T04:32:07Z",
     "owner": {
-      "name": "GreyGunG",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6110905?v=4"
+      "name": "xiaozhou26",
+      "avatar_url": "https://avatars.githubusercontent.com/u/122727418?v=4"
     }
   },
   {
@@ -339,13 +382,13 @@
     "name": "uf-hy/cpa-plugin-codexcomp",
     "url": "https://github.com/uf-hy/cpa-plugin-codexcomp",
     "description": "CLIProxyAPI plugin that detects and repairs gpt-5.5 reasoning truncation (518n−2 pattern) via encrypted_content replay and multi-round folding",
-    "stars": 65,
+    "stars": 68,
     "forks": 7,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-07-07T04:15:04Z",
-    "updated_at": "2026-07-10T17:05:08Z",
+    "updated_at": "2026-07-11T13:43:07Z",
     "owner": {
       "name": "uf-hy",
       "avatar_url": "https://avatars.githubusercontent.com/u/41638541?v=4"
@@ -400,62 +443,51 @@
     }
   },
   {
-    "name": "lxcshine/nexusbox",
-    "url": "https://github.com/lxcshine/nexusbox",
-    "description": "Secure sandbox for AI Agents — execute shell, file, code, and browser commands in isolation via MCP.",
-    "stars": 57,
-    "forks": 4,
+    "name": "henryswisvip/mirage",
+    "url": "https://github.com/henryswisvip/mirage",
+    "description": "A from-scratch, censorship-resistant tunnel protocol (Go, zero deps). AES-256-GCM AEAD, PSK auth, active-probe-resistant decoy fallback. Server + macOS SOCKS5 client in one binary.",
+    "stars": 55,
+    "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-06-24T06:58:39Z",
-    "updated_at": "2026-06-27T16:38:29Z",
+    "created_at": "2026-07-06T03:24:45Z",
+    "updated_at": "2026-07-12T04:45:11Z",
     "owner": {
-      "name": "lxcshine",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97235189?v=4"
-    }
-  },
-  {
-    "name": "Foxemsx/riptide",
-    "url": "https://github.com/Foxemsx/riptide",
-    "description": "A polished terminal internet speed test and realtime bandwidth monitor written in Go. Riptide measures download, upload, and latency in a centered card UI with live progress, compact sparklines, smooth animation, and clean cross-platform output for Linux and Windows terminals.",
-    "stars": 55,
-    "forks": 3,
-    "language": "Go",
-    "topics": [
-      "bandwidth",
-      "bandwidth-monitor",
-      "bubbletea",
-      "cli",
-      "go",
-      "linux",
-      "network",
-      "speed-test",
-      "terminal",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-06T11:47:48Z",
-    "updated_at": "2026-07-11T04:57:28Z",
-    "owner": {
-      "name": "Foxemsx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/133228093?v=4"
+      "name": "henryswisvip",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47855607?v=4"
     }
   },
   {
     "name": "Mr-In4inci3le/sliver-gui",
     "url": "https://github.com/Mr-In4inci3le/sliver-gui",
     "description": "A desktop operator console for Sliver C2, built with Wails. Provides a native, lightweight GUI interface for Sliver by directly interfacing with its gRPC service no proxies or protocol reimplementations required.",
-    "stars": 49,
+    "stars": 52,
     "forks": 5,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-07-07T15:01:31Z",
-    "updated_at": "2026-07-10T15:14:47Z",
+    "updated_at": "2026-07-11T23:44:13Z",
     "owner": {
       "name": "Mr-In4inci3le",
       "avatar_url": "https://avatars.githubusercontent.com/u/78592816?v=4"
+    }
+  },
+  {
+    "name": "melqtx/tork",
+    "url": "https://github.com/melqtx/tork",
+    "description": "cli for searching and downloading torrents",
+    "stars": 51,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-07T06:56:57Z",
+    "updated_at": "2026-07-11T16:09:10Z",
+    "owner": {
+      "name": "melqtx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105978905?v=4"
     }
   },
   {
@@ -517,32 +549,16 @@
     "name": "UruhaLushia/piko",
     "url": "https://github.com/UruhaLushia/piko",
     "description": null,
-    "stars": 43,
+    "stars": 44,
     "forks": 0,
     "language": "Go",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-07-08T16:10:21Z",
-    "updated_at": "2026-07-11T01:51:54Z",
+    "updated_at": "2026-07-11T21:58:17Z",
     "owner": {
       "name": "UruhaLushia",
       "avatar_url": "https://avatars.githubusercontent.com/u/262241714?v=4"
-    }
-  },
-  {
-    "name": "henryswisvip/mirage",
-    "url": "https://github.com/henryswisvip/mirage",
-    "description": "A from-scratch, censorship-resistant tunnel protocol (Go, zero deps). AES-256-GCM AEAD, PSK auth, active-probe-resistant decoy fallback. Server + macOS SOCKS5 client in one binary.",
-    "stars": 43,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-06T03:24:45Z",
-    "updated_at": "2026-07-11T02:55:39Z",
-    "owner": {
-      "name": "henryswisvip",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47855607?v=4"
     }
   },
   {
@@ -600,22 +616,6 @@
     "owner": {
       "name": "truefoundry",
       "avatar_url": "https://avatars.githubusercontent.com/u/93512441?v=4"
-    }
-  },
-  {
-    "name": "melqtx/tork",
-    "url": "https://github.com/melqtx/tork",
-    "description": "cli for searching and downloading torrents",
-    "stars": 35,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-07T06:56:57Z",
-    "updated_at": "2026-07-11T04:10:28Z",
-    "owner": {
-      "name": "melqtx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/105978905?v=4"
     }
   },
   {
@@ -756,7 +756,7 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-07-10T11:49:55Z",
-    "updated_at": "2026-07-11T03:09:41Z",
+    "updated_at": "2026-07-11T09:15:43Z",
     "owner": {
       "name": "intmian",
       "avatar_url": "https://avatars.githubusercontent.com/u/38103855?v=4"
@@ -843,6 +843,31 @@
     }
   },
   {
+    "name": "KKloudTarus/synapse-ce",
+    "url": "https://github.com/KKloudTarus/synapse-ce",
+    "description": "Synapse - a governed control plane for software composition analysis, recon, evidence, and reporting. Verify Everything. Trust Nothing.",
+    "stars": 26,
+    "forks": 7,
+    "language": "Go",
+    "topics": [
+      "cyclonedx",
+      "go",
+      "sast",
+      "sbom",
+      "sca",
+      "security",
+      "spdx",
+      "vulnerability-scanner"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-06T17:14:46Z",
+    "updated_at": "2026-07-12T04:40:53Z",
+    "owner": {
+      "name": "KKloudTarus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295318701?v=4"
+    }
+  },
+  {
     "name": "boa-z/vowifi-go",
     "url": "https://github.com/boa-z/vowifi-go",
     "description": "本项目基于 VoHive 原本依赖的闭源 vowifi 版本的公共接口进行开发，本项目与 VoHive 官方团队无任何关联，本项目功能尚未实现且处于实验阶段，仅个人学习使用",
@@ -875,28 +900,19 @@
     }
   },
   {
-    "name": "KKloudTarus/synapse-ce",
-    "url": "https://github.com/KKloudTarus/synapse-ce",
-    "description": "Synapse - a governed control plane for software composition analysis, recon, evidence, and reporting. Verify Everything. Trust Nothing.",
+    "name": "Negt-dev/Funcaptcha-Solve-RSA",
+    "url": "https://github.com/Negt-dev/Funcaptcha-Solve-RSA",
+    "description": "Fully decompiled source code for the Arkose Labs FunCaptcha VM",
     "stars": 25,
-    "forks": 5,
+    "forks": 15,
     "language": "Go",
-    "topics": [
-      "cyclonedx",
-      "go",
-      "sast",
-      "sbom",
-      "sca",
-      "security",
-      "spdx",
-      "vulnerability-scanner"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-06T17:14:46Z",
-    "updated_at": "2026-07-10T17:27:20Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-11T12:32:08Z",
+    "updated_at": "2026-07-12T05:02:51Z",
     "owner": {
-      "name": "KKloudTarus",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295318701?v=4"
+      "name": "Negt-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115378553?v=4"
     }
   },
   {
@@ -993,7 +1009,7 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-07-07T08:01:26Z",
-    "updated_at": "2026-07-10T19:12:25Z",
+    "updated_at": "2026-07-11T07:14:22Z",
     "owner": {
       "name": "thenativeweb",
       "avatar_url": "https://avatars.githubusercontent.com/u/2329903?v=4"
@@ -1032,19 +1048,40 @@
     }
   },
   {
-    "name": "aurora-develop/Claude2api",
-    "url": "https://github.com/aurora-develop/Claude2api",
-    "description": null,
+    "name": "Northwood-Systems/foreman",
+    "url": "https://github.com/Northwood-Systems/foreman",
+    "description": "Self-hosted LLM gateway. Cost effective, deterministic, and fast. Secure and private by default.",
     "stars": 21,
-    "forks": 10,
+    "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-09T11:12:13Z",
-    "updated_at": "2026-07-10T15:35:04Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-08T17:39:33Z",
+    "updated_at": "2026-07-11T23:49:15Z",
     "owner": {
-      "name": "aurora-develop",
-      "avatar_url": "https://avatars.githubusercontent.com/u/157781271?v=4"
+      "name": "Northwood-Systems",
+      "avatar_url": "https://avatars.githubusercontent.com/u/289809915?v=4"
+    }
+  },
+  {
+    "name": "D3-vin/GLM-ZAI-2API",
+    "url": "https://github.com/D3-vin/GLM-ZAI-2API",
+    "description": "OpenAI-compatible proxy for Z.AI (GLM models)",
+    "stars": 21,
+    "forks": 4,
+    "language": "Go",
+    "topics": [
+      "glm",
+      "openai",
+      "proxy",
+      "z-ai"
+    ],
+    "license": "No license",
+    "created_at": "2026-07-06T21:27:14Z",
+    "updated_at": "2026-07-12T00:59:01Z",
+    "owner": {
+      "name": "D3-vin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183905858?v=4"
     }
   },
   {
@@ -1064,19 +1101,35 @@
     }
   },
   {
-    "name": "Northwood-Systems/foreman",
-    "url": "https://github.com/Northwood-Systems/foreman",
-    "description": "Self-hosted LLM gateway. Cost effective, deterministic, and fast. Secure and private by default.",
+    "name": "xiaozhou26/tempmail",
+    "url": "https://github.com/xiaozhou26/tempmail",
+    "description": null,
     "stars": 20,
-    "forks": 0,
+    "forks": 4,
     "language": "Go",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-08T17:39:33Z",
-    "updated_at": "2026-07-10T23:43:36Z",
+    "license": "No license",
+    "created_at": "2026-07-10T13:56:49Z",
+    "updated_at": "2026-07-11T18:49:48Z",
     "owner": {
-      "name": "Northwood-Systems",
-      "avatar_url": "https://avatars.githubusercontent.com/u/289809915?v=4"
+      "name": "xiaozhou26",
+      "avatar_url": "https://avatars.githubusercontent.com/u/122727418?v=4"
+    }
+  },
+  {
+    "name": "aurora-develop/Claude2api",
+    "url": "https://github.com/aurora-develop/Claude2api",
+    "description": null,
+    "stars": 20,
+    "forks": 10,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-09T11:12:13Z",
+    "updated_at": "2026-07-11T16:07:56Z",
+    "owner": {
+      "name": "aurora-develop",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157781271?v=4"
     }
   },
   {
@@ -1144,6 +1197,22 @@
     }
   },
   {
+    "name": "klauspost/radsort",
+    "url": "https://github.com/klauspost/radsort",
+    "description": null,
+    "stars": 18,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-07-09T11:10:19Z",
+    "updated_at": "2026-07-11T13:37:31Z",
+    "owner": {
+      "name": "klauspost",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5663952?v=4"
+    }
+  },
+  {
     "name": "stacklok/modelith",
     "url": "https://github.com/stacklok/modelith",
     "description": "A set of tools for working with domain models",
@@ -1207,19 +1276,29 @@
     }
   },
   {
-    "name": "klauspost/radsort",
-    "url": "https://github.com/klauspost/radsort",
-    "description": null,
+    "name": "Agent-Hellboy/ltm",
+    "url": "https://github.com/Agent-Hellboy/ltm",
+    "description": "ltm is a machine-history debugger for Linux. It records process, file, network, memory, and block-I/O metadata via eBPF, then lets you query the timeline.",
     "stars": 17,
     "forks": 0,
     "language": "Go",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-07-09T11:10:19Z",
-    "updated_at": "2026-07-11T03:40:05Z",
+    "topics": [
+      "ebpf",
+      "ebpf-go",
+      "golang",
+      "kernal-dev",
+      "kernel",
+      "linux",
+      "oberservability",
+      "sysadmin",
+      "sysadmin-tool"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-08T06:25:49Z",
+    "updated_at": "2026-07-11T13:39:56Z",
     "owner": {
-      "name": "klauspost",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5663952?v=4"
+      "name": "Agent-Hellboy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31388347?v=4"
     }
   },
   {
@@ -1227,7 +1306,7 @@
     "url": "https://github.com/787a68/hubproxy",
     "description": "Docker 镜像、GitHub 文件、Hugging Face 文件下载加速。",
     "stars": 16,
-    "forks": 7,
+    "forks": 6,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
@@ -1259,27 +1338,6 @@
     "owner": {
       "name": "EclipseElips",
       "avatar_url": "https://avatars.githubusercontent.com/u/27274515?v=4"
-    }
-  },
-  {
-    "name": "D3-vin/GLM-ZAI-2API",
-    "url": "https://github.com/D3-vin/GLM-ZAI-2API",
-    "description": "OpenAI-compatible proxy for Z.AI (GLM models)",
-    "stars": 15,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "glm",
-      "openai",
-      "proxy",
-      "z-ai"
-    ],
-    "license": "No license",
-    "created_at": "2026-07-06T21:27:14Z",
-    "updated_at": "2026-07-11T04:48:19Z",
-    "owner": {
-      "name": "D3-vin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/183905858?v=4"
     }
   },
   {
@@ -1324,27 +1382,6 @@
     }
   },
   {
-    "name": "KikiProjecto/tuikkusu",
-    "url": "https://github.com/KikiProjecto/tuikkusu",
-    "description": "TUI based management tool and you can setup your favorite tweaks here",
-    "stars": 15,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "gamified",
-      "management-app",
-      "terminal-based",
-      "tui"
-    ],
-    "license": "No license",
-    "created_at": "2026-06-23T07:28:33Z",
-    "updated_at": "2026-06-27T20:16:39Z",
-    "owner": {
-      "name": "KikiProjecto",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207282107?v=4"
-    }
-  },
-  {
     "name": "qf-studio/grom",
     "url": "https://github.com/qf-studio/grom",
     "description": "grom — btop-style terminal dashboards for Prometheus & Grafana",
@@ -1354,10 +1391,46 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-07-07T16:23:21Z",
-    "updated_at": "2026-07-09T18:33:13Z",
+    "updated_at": "2026-07-11T13:24:28Z",
     "owner": {
       "name": "qf-studio",
       "avatar_url": "https://avatars.githubusercontent.com/u/259928782?v=4"
+    }
+  },
+  {
+    "name": "432539/image2api",
+    "url": "https://github.com/432539/image2api",
+    "description": "chatgpt-image2桌面 AI 生图 / 生视频工作台 —— 集**号池管理**、**自动注册**、**批量出图**于一体。QQ群382446",
+    "stars": 14,
+    "forks": 19,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-07T14:39:00Z",
+    "updated_at": "2026-07-11T12:40:08Z",
+    "owner": {
+      "name": "432539",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22024444?v=4"
+    }
+  },
+  {
+    "name": "berkayyytech/vortex",
+    "url": "https://github.com/berkayyytech/vortex",
+    "description": "VPS Manager for all of your VPS. ",
+    "stars": 14,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "management",
+      "terminal-based",
+      "utilities"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-11T00:35:53Z",
+    "updated_at": "2026-07-12T04:36:29Z",
+    "owner": {
+      "name": "berkayyytech",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106711577?v=4"
     }
   },
   {
@@ -1506,38 +1579,19 @@
     }
   },
   {
-    "name": "432539/image2api",
-    "url": "https://github.com/432539/image2api",
-    "description": "chatgpt-image2桌面 AI 生图 / 生视频工作台 —— 集**号池管理**、**自动注册**、**批量出图**于一体。QQ群382446",
-    "stars": 13,
-    "forks": 18,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-07T14:39:00Z",
-    "updated_at": "2026-07-10T08:13:48Z",
-    "owner": {
-      "name": "432539",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22024444?v=4"
-    }
-  },
-  {
-    "name": "Agent-Hellboy/ltm",
-    "url": "https://github.com/Agent-Hellboy/ltm",
-    "description": "ltm is a machine-history debugger for Linux. It records process, file, network, memory, and block-I/O metadata via eBPF, then lets you query the timeline.",
+    "name": "cinpol/argonaut",
+    "url": "https://github.com/cinpol/argonaut",
+    "description": "Argonaut is keyboard-driven Terminal UI for Ceph",
     "stars": 13,
     "forks": 0,
     "language": "Go",
-    "topics": [
-      "ebpf",
-      "ebpf-go"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-08T06:25:49Z",
-    "updated_at": "2026-07-11T04:36:45Z",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-11T11:40:39Z",
+    "updated_at": "2026-07-12T03:01:52Z",
     "owner": {
-      "name": "Agent-Hellboy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31388347?v=4"
+      "name": "cinpol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1501084?v=4"
     }
   },
   {
@@ -1586,22 +1640,6 @@
     "owner": {
       "name": "B022MC",
       "avatar_url": "https://avatars.githubusercontent.com/u/61958617?v=4"
-    }
-  },
-  {
-    "name": "reloadlife/cursor-account-switcher",
-    "url": "https://github.com/reloadlife/cursor-account-switcher",
-    "description": "CLI to switch between Cursor personal and work accounts",
-    "stars": 13,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-25T16:33:25Z",
-    "updated_at": "2026-06-27T11:29:15Z",
-    "owner": {
-      "name": "reloadlife",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22727144?v=4"
     }
   },
   {
@@ -1730,22 +1768,6 @@
     "owner": {
       "name": "cocoonstack",
       "avatar_url": "https://avatars.githubusercontent.com/u/272786924?v=4"
-    }
-  },
-  {
-    "name": "reka-ai/cs2-dem-renderer",
-    "url": "https://github.com/reka-ai/cs2-dem-renderer",
-    "description": "Tools used to convert counterstrike 2 demofiles to videos + annotations",
-    "stars": 12,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-22T15:51:08Z",
-    "updated_at": "2026-06-27T12:23:39Z",
-    "owner": {
-      "name": "reka-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109515370?v=4"
     }
   },
   {
@@ -1900,22 +1922,28 @@
     }
   },
   {
-    "name": "subhasundardass/tuix",
-    "url": "https://github.com/subhasundardass/tuix",
-    "description": "TUIX is a lightweight, component-driven framework for creating beautiful, interactive Terminal User Interfaces (TUIs) in Go.",
-    "stars": 11,
+    "name": "gagaltotal/CVE-2026-44825-Apache-Solr-Scanner",
+    "url": "https://github.com/gagaltotal/CVE-2026-44825-Apache-Solr-Scanner",
+    "description": "Apache Solr instances that may be affected by CVE-2026-44825, related to Velocity Template Remote Code Execution (RCE) conditions.",
+    "stars": 10,
     "forks": 1,
     "language": "Go",
     "topics": [
+      "apache",
+      "apache-solr",
+      "go",
       "golang",
-      "tui"
+      "golang-cli",
+      "golang-server",
+      "linux",
+      "linux-server"
     ],
-    "license": "MIT License",
-    "created_at": "2026-06-22T08:04:54Z",
-    "updated_at": "2026-06-28T00:06:57Z",
+    "license": "No license",
+    "created_at": "2026-07-08T16:51:16Z",
+    "updated_at": "2026-07-11T22:57:46Z",
     "owner": {
-      "name": "subhasundardass",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9314039?v=4"
+      "name": "gagaltotal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23299078?v=4"
     }
   },
   {
