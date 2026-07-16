@@ -119,7 +119,7 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-07-01T13:13:31Z",
-    "updated_at": "2026-07-13T03:05:32Z",
+    "updated_at": "2026-07-15T16:01:56Z",
     "owner": {
       "name": "nunomaduro",
       "avatar_url": "https://avatars.githubusercontent.com/u/5457236?v=4"
@@ -142,22 +142,6 @@
     }
   },
   {
-    "name": "DrMaxis/the-hugging-bay",
-    "url": "https://github.com/DrMaxis/the-hugging-bay",
-    "description": "The pirate bay for ai models",
-    "stars": 60,
-    "forks": 9,
-    "language": "PHP",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-02T17:05:53Z",
-    "updated_at": "2026-07-15T01:18:58Z",
-    "owner": {
-      "name": "DrMaxis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5355808?v=4"
-    }
-  },
-  {
     "name": "lattice-php/lattice",
     "url": "https://github.com/lattice-php/lattice",
     "description": "Server Driven UI with Laravel & React",
@@ -176,6 +160,42 @@
     "owner": {
       "name": "lattice-php",
       "avatar_url": "https://avatars.githubusercontent.com/u/292176377?v=4"
+    }
+  },
+  {
+    "name": "DrMaxis/the-hugging-bay",
+    "url": "https://github.com/DrMaxis/the-hugging-bay",
+    "description": "The pirate bay for ai models",
+    "stars": 59,
+    "forks": 9,
+    "language": "PHP",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-02T17:05:53Z",
+    "updated_at": "2026-07-15T09:29:00Z",
+    "owner": {
+      "name": "DrMaxis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5355808?v=4"
+    }
+  },
+  {
+    "name": "DirectoryTree/PrivacyFilter",
+    "url": "https://github.com/DirectoryTree/PrivacyFilter",
+    "description": "Install and use compiled privacy-filter.cpp binaries from Laravel applications.",
+    "stars": 56,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "classification",
+      "php",
+      "pii-detection"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-17T20:52:47Z",
+    "updated_at": "2026-07-15T07:58:07Z",
+    "owner": {
+      "name": "DirectoryTree",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49739287?v=4"
     }
   },
   {
@@ -216,23 +236,60 @@
     }
   },
   {
-    "name": "DirectoryTree/PrivacyFilter",
-    "url": "https://github.com/DirectoryTree/PrivacyFilter",
-    "description": "Install and use compiled privacy-filter.cpp binaries from Laravel applications.",
-    "stars": 55,
-    "forks": 0,
+    "name": "zaber-dev/laravel-quota",
+    "url": "https://github.com/zaber-dev/laravel-quota",
+    "description": "Application-level quota management for Laravel with calendar periods, Eloquent integration, middleware, and multiple storage backends.",
+    "stars": 52,
+    "forks": 3,
     "language": "PHP",
     "topics": [
-      "classification",
+      "calendar-periods",
+      "database",
+      "eloquent",
+      "laravel",
+      "laravel-11",
+      "laravel-12",
+      "laravel-13",
+      "laravel-package",
+      "middleware",
       "php",
-      "pii-detection"
+      "quota",
+      "rate-limiting",
+      "redis",
+      "usage-limits",
+      "usage-tracking"
     ],
     "license": "MIT License",
-    "created_at": "2026-06-17T20:52:47Z",
-    "updated_at": "2026-07-14T02:58:56Z",
+    "created_at": "2026-07-11T15:19:46Z",
+    "updated_at": "2026-07-16T01:05:36Z",
     "owner": {
-      "name": "DirectoryTree",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49739287?v=4"
+      "name": "zaber-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88625958?v=4"
+    }
+  },
+  {
+    "name": "promptphp/intercept",
+    "url": "https://github.com/promptphp/intercept",
+    "description": "A modular, drop-in middleware collection for Laravel AI SDK agents. Offers middleware across security, observability, performance and guidance.",
+    "stars": 50,
+    "forks": 2,
+    "language": "PHP",
+    "topics": [
+      "ai",
+      "laravel",
+      "middleware",
+      "observability",
+      "pii-redaction",
+      "prompt-injection",
+      "security",
+      "security-tools"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-17T18:50:48Z",
+    "updated_at": "2026-07-16T01:07:19Z",
+    "owner": {
+      "name": "promptphp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/285245239?v=4"
     }
   },
   {
@@ -249,31 +306,6 @@
     "owner": {
       "name": "hidankimi",
       "avatar_url": "https://avatars.githubusercontent.com/u/85106652?v=4"
-    }
-  },
-  {
-    "name": "promptphp/intercept",
-    "url": "https://github.com/promptphp/intercept",
-    "description": "A modular, drop-in middleware collection for Laravel AI SDK agents. Offers middleware across security, observability, performance and guidance.",
-    "stars": 48,
-    "forks": 1,
-    "language": "PHP",
-    "topics": [
-      "ai",
-      "laravel",
-      "middleware",
-      "observability",
-      "pii-redaction",
-      "prompt-injection",
-      "security",
-      "security-tools"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-17T18:50:48Z",
-    "updated_at": "2026-07-14T23:59:52Z",
-    "owner": {
-      "name": "promptphp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/285245239?v=4"
     }
   },
   {
@@ -454,6 +486,47 @@
     }
   },
   {
+    "name": "skvdhshuk-blip/hao-code",
+    "url": "https://github.com/skvdhshuk-blip/hao-code",
+    "description": "Framework-free PHP Agent SDK for Anthropic, OpenAI Responses, and Chat Completions-compatible APIs—with tools, skills, streaming, multi-agent teams, sandboxing, and structured output.",
+    "stars": 36,
+    "forks": 1,
+    "language": "PHP",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-03T08:58:55Z",
+    "updated_at": "2026-07-16T04:42:57Z",
+    "owner": {
+      "name": "skvdhshuk-blip",
+      "avatar_url": "https://avatars.githubusercontent.com/u/299455655?v=4"
+    }
+  },
+  {
+    "name": "pushery/email-magic-link-for-laravel",
+    "url": "https://github.com/pushery/email-magic-link-for-laravel",
+    "description": "Passwordless email magic-link & OTP authentication for Laravel — standalone or with a correct, no-bypass Fortify 2FA handoff and scanner-safe link consumption.",
+    "stars": 34,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "email",
+      "laravel",
+      "laravel-framework",
+      "laravel-package",
+      "mail",
+      "passwordless",
+      "passwordless-authentication",
+      "passwordless-login"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-22T13:03:45Z",
+    "updated_at": "2026-07-16T01:06:54Z",
+    "owner": {
+      "name": "pushery",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272318911?v=4"
+    }
+  },
+  {
     "name": "ghostcompiler/laravel-model-caching",
     "url": "https://github.com/ghostcompiler/laravel-model-caching",
     "description": "High-performance Eloquent model caching for Laravel with automatic cache invalidation, relationship-aware caching, query caching, cache tags, and Redis support.",
@@ -507,28 +580,19 @@
     }
   },
   {
-    "name": "pushery/email-magic-link-for-laravel",
-    "url": "https://github.com/pushery/email-magic-link-for-laravel",
-    "description": "Passwordless email magic-link & OTP authentication for Laravel — standalone or with a correct, no-bypass Fortify 2FA handoff and scanner-safe link consumption.",
+    "name": "illuminate/image",
+    "url": "https://github.com/illuminate/image",
+    "description": null,
     "stars": 32,
-    "forks": 0,
+    "forks": 2,
     "language": "PHP",
-    "topics": [
-      "email",
-      "laravel",
-      "laravel-framework",
-      "laravel-package",
-      "mail",
-      "passwordless",
-      "passwordless-authentication",
-      "passwordless-login"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-22T13:03:45Z",
-    "updated_at": "2026-07-15T03:12:21Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-07T23:45:57Z",
+    "updated_at": "2026-07-15T22:08:56Z",
     "owner": {
-      "name": "pushery",
-      "avatar_url": "https://avatars.githubusercontent.com/u/272318911?v=4"
+      "name": "illuminate",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1721772?v=4"
     }
   },
   {
@@ -556,19 +620,19 @@
     }
   },
   {
-    "name": "illuminate/image",
-    "url": "https://github.com/illuminate/image",
+    "name": "fatonh/symfony-skills",
+    "url": "https://github.com/fatonh/symfony-skills",
     "description": null,
     "stars": 30,
-    "forks": 2,
+    "forks": 3,
     "language": "PHP",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-07T23:45:57Z",
-    "updated_at": "2026-07-14T00:00:28Z",
+    "license": "MIT License",
+    "created_at": "2026-06-20T09:39:41Z",
+    "updated_at": "2026-07-15T07:00:13Z",
     "owner": {
-      "name": "illuminate",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1721772?v=4"
+      "name": "fatonh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3781157?v=4"
     }
   },
   {
@@ -585,83 +649,6 @@
     "owner": {
       "name": "LaravelDaily",
       "avatar_url": "https://avatars.githubusercontent.com/u/15341846?v=4"
-    }
-  },
-  {
-    "name": "zaber-dev/laravel-quota",
-    "url": "https://github.com/zaber-dev/laravel-quota",
-    "description": "Application-level quota management for Laravel with calendar periods, Eloquent integration, middleware, and multiple storage backends.",
-    "stars": 29,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [
-      "calendar-periods",
-      "database",
-      "eloquent",
-      "laravel",
-      "laravel-11",
-      "laravel-12",
-      "laravel-13",
-      "laravel-package",
-      "middleware",
-      "php",
-      "quota",
-      "rate-limiting",
-      "redis",
-      "usage-limits",
-      "usage-tracking"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-11T15:19:46Z",
-    "updated_at": "2026-07-15T04:30:16Z",
-    "owner": {
-      "name": "zaber-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/88625958?v=4"
-    }
-  },
-  {
-    "name": "fatonh/symfony-skills",
-    "url": "https://github.com/fatonh/symfony-skills",
-    "description": null,
-    "stars": 29,
-    "forks": 3,
-    "language": "PHP",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-20T09:39:41Z",
-    "updated_at": "2026-07-07T11:50:59Z",
-    "owner": {
-      "name": "fatonh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3781157?v=4"
-    }
-  },
-  {
-    "name": "tuolaji996/SignalOps-Status",
-    "url": "https://github.com/tuolaji996/SignalOps-Status",
-    "description": "PHP Based self-hosted status page for Discord bots, trading services, market-data APIs, and private server monitoring.",
-    "stars": 27,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [
-      "cloudflare",
-      "discord-bot",
-      "discord-monitoring",
-      "market-data",
-      "noc-dashboard",
-      "php",
-      "self-hosted",
-      "server-monitoring",
-      "status-page",
-      "tailscale",
-      "trading-bot",
-      "uptime-monitoring"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-16T18:56:50Z",
-    "updated_at": "2026-06-29T04:40:31Z",
-    "owner": {
-      "name": "tuolaji996",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14244000?v=4"
     }
   },
   {
@@ -701,6 +688,40 @@
     }
   },
   {
+    "name": "phpcpd-next/phpcpd",
+    "url": "https://github.com/phpcpd-next/phpcpd",
+    "description": " phpcpd-next is a token-based copy/paste (clone) detector for PHP 8.5+, a modernized, openly-licensed successor to Sebastian Bergmann's phpcpd",
+    "stars": 26,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "bug-detection",
+      "ci-cd",
+      "clone-detection",
+      "code-quality",
+      "code-smells",
+      "copy-paste-detector",
+      "dry",
+      "duplicate-code",
+      "laravel",
+      "php",
+      "php8",
+      "phpcpd",
+      "phpunit",
+      "refactoring",
+      "sarif",
+      "static-analysis",
+      "static-code-analysis"
+    ],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "created_at": "2026-06-27T22:21:42Z",
+    "updated_at": "2026-07-15T20:15:45Z",
+    "owner": {
+      "name": "phpcpd-next",
+      "avatar_url": "https://avatars.githubusercontent.com/u/297506095?v=4"
+    }
+  },
+  {
     "name": "LogicCrafter56/Notyx",
     "url": "https://github.com/LogicCrafter56/Notyx",
     "description": "A self-hosted, zero-knowledge, secure PHP notebook. Your notes, in your browser, on your server - every byte encrypted with AES-256 using a key only you know. No database, no cloud, no build step, no tracking.",
@@ -714,6 +735,22 @@
     "owner": {
       "name": "LogicCrafter56",
       "avatar_url": "https://avatars.githubusercontent.com/u/189998352?v=4"
+    }
+  },
+  {
+    "name": "kynaderd/ApexAnchor",
+    "url": "https://github.com/kynaderd/ApexAnchor",
+    "description": "Professional ApexAnchor apexanchor-engine with ApexAnchor-optimized apexanchor-optimization and enterprise scalable-architecture capabilities",
+    "stars": 25,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-22T14:54:10Z",
+    "updated_at": "2026-07-08T12:44:35Z",
+    "owner": {
+      "name": "kynaderd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85109209?v=4"
     }
   },
   {
@@ -747,56 +784,6 @@
     "owner": {
       "name": "mralaminahamed",
       "avatar_url": "https://avatars.githubusercontent.com/u/34349365?v=4"
-    }
-  },
-  {
-    "name": "kynaderd/ApexAnchor",
-    "url": "https://github.com/kynaderd/ApexAnchor",
-    "description": "Professional ApexAnchor apexanchor-engine with ApexAnchor-optimized apexanchor-optimization and enterprise scalable-architecture capabilities",
-    "stars": 25,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-22T14:54:10Z",
-    "updated_at": "2026-07-08T12:44:35Z",
-    "owner": {
-      "name": "kynaderd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/85109209?v=4"
-    }
-  },
-  {
-    "name": "phpcpd-next/phpcpd",
-    "url": "https://github.com/phpcpd-next/phpcpd",
-    "description": " phpcpd-next is a token-based copy/paste (clone) detector for PHP 8.5+, a modernized, openly-licensed successor to Sebastian Bergmann's phpcpd",
-    "stars": 25,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [
-      "bug-detection",
-      "ci-cd",
-      "clone-detection",
-      "code-quality",
-      "code-smells",
-      "copy-paste-detector",
-      "dry",
-      "duplicate-code",
-      "laravel",
-      "php",
-      "php8",
-      "phpcpd",
-      "phpunit",
-      "refactoring",
-      "sarif",
-      "static-analysis",
-      "static-code-analysis"
-    ],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2026-06-27T22:21:42Z",
-    "updated_at": "2026-07-14T12:10:23Z",
-    "owner": {
-      "name": "phpcpd-next",
-      "avatar_url": "https://avatars.githubusercontent.com/u/297506095?v=4"
     }
   },
   {
@@ -880,19 +867,19 @@
     }
   },
   {
-    "name": "skvdhshuk-blip/hao-code",
-    "url": "https://github.com/skvdhshuk-blip/hao-code",
-    "description": "Framework-free PHP Agent SDK for Anthropic, OpenAI Responses, and Chat Completions-compatible APIs—with tools, skills, streaming, multi-agent teams, sandboxing, and structured output.",
+    "name": "wallacemartinss/filament-onboarding",
+    "url": "https://github.com/wallacemartinss/filament-onboarding",
+    "description": "filament onboarding",
     "stars": 22,
-    "forks": 0,
+    "forks": 4,
     "language": "PHP",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-03T08:58:55Z",
-    "updated_at": "2026-07-15T04:15:29Z",
+    "license": "MIT License",
+    "created_at": "2026-07-12T20:55:51Z",
+    "updated_at": "2026-07-15T18:33:50Z",
     "owner": {
-      "name": "skvdhshuk-blip",
-      "avatar_url": "https://avatars.githubusercontent.com/u/299455655?v=4"
+      "name": "wallacemartinss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56648941?v=4"
     }
   },
   {
@@ -949,19 +936,35 @@
     }
   },
   {
-    "name": "mirainiki/ApexPillar",
-    "url": "https://github.com/mirainiki/ApexPillar",
-    "description": "Professional ApexPillar solution with ApexPillar-optimized apexpillar-optimization and enterprise enterprise-grade capabilities",
-    "stars": 19,
+    "name": "kabde/smart-redirect-pro",
+    "url": "https://github.com/kabde/smart-redirect-pro",
+    "description": "Professional WordPress URL redirect manager with click tracking, folders, tags, QR codes, and license system.",
+    "stars": 18,
+    "forks": 2,
+    "language": "PHP",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-20T20:03:07Z",
+    "updated_at": "2026-07-03T15:12:18Z",
+    "owner": {
+      "name": "kabde",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38768820?v=4"
+    }
+  },
+  {
+    "name": "shipmonk-rnd/passkeys",
+    "url": "https://github.com/shipmonk-rnd/passkeys",
+    "description": "zero dependency spec-compliant passkey library for php",
+    "stars": 18,
     "forks": 0,
     "language": "PHP",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-06-22T15:06:09Z",
-    "updated_at": "2026-07-01T08:50:30Z",
+    "created_at": "2026-07-06T20:15:37Z",
+    "updated_at": "2026-07-15T15:49:31Z",
     "owner": {
-      "name": "mirainiki",
-      "avatar_url": "https://avatars.githubusercontent.com/u/85108576?v=4"
+      "name": "shipmonk-rnd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89138759?v=4"
     }
   }
 ]
