@@ -19,16 +19,43 @@
     "name": "cosmtrek/mindwalk",
     "url": "https://github.com/cosmtrek/mindwalk",
     "description": "A visualization tool that replays coding-agent sessions on a 3D map of your codebase.",
-    "stars": 708,
-    "forks": 42,
+    "stars": 761,
+    "forks": 45,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-07-09T11:41:46Z",
-    "updated_at": "2026-07-16T04:43:38Z",
+    "updated_at": "2026-07-17T04:55:08Z",
     "owner": {
       "name": "cosmtrek",
       "avatar_url": "https://avatars.githubusercontent.com/u/8832222?v=4"
+    }
+  },
+  {
+    "name": "clawkwork/clawk",
+    "url": "https://github.com/clawkwork/clawk",
+    "description": "Give coding agents a disposable Linux VM, not your laptop",
+    "stars": 661,
+    "forks": 16,
+    "language": "Go",
+    "topics": [
+      "agent-sandbox",
+      "ai-agent-sandbox",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "codex",
+      "microvm",
+      "sandbox",
+      "virtualization",
+      "vm"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-06T21:30:38Z",
+    "updated_at": "2026-07-17T04:48:33Z",
+    "owner": {
+      "name": "clawkwork",
+      "avatar_url": "https://avatars.githubusercontent.com/u/261616134?v=4"
     }
   },
   {
@@ -79,33 +106,6 @@
     "owner": {
       "name": "overflowy",
       "avatar_url": "https://avatars.githubusercontent.com/u/98480250?v=4"
-    }
-  },
-  {
-    "name": "clawkwork/clawk",
-    "url": "https://github.com/clawkwork/clawk",
-    "description": "Give coding agents a disposable Linux VM, not your laptop",
-    "stars": 544,
-    "forks": 13,
-    "language": "Go",
-    "topics": [
-      "agent-sandbox",
-      "ai-agent-sandbox",
-      "ai-agents",
-      "claude",
-      "claude-code",
-      "codex",
-      "microvm",
-      "sandbox",
-      "virtualization",
-      "vm"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-06T21:30:38Z",
-    "updated_at": "2026-07-16T04:49:41Z",
-    "owner": {
-      "name": "clawkwork",
-      "avatar_url": "https://avatars.githubusercontent.com/u/261616134?v=4"
     }
   },
   {
@@ -166,23 +166,53 @@
     "name": "maaslalani/fast",
     "url": "https://github.com/maaslalani/fast",
     "description": "Internet speed test in your terminal",
-    "stars": 315,
+    "stars": 316,
     "forks": 22,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-28T03:07:02Z",
-    "updated_at": "2026-07-16T00:07:16Z",
+    "updated_at": "2026-07-16T08:12:20Z",
     "owner": {
       "name": "maaslalani",
       "avatar_url": "https://avatars.githubusercontent.com/u/42545625?v=4"
     }
   },
   {
+    "name": "vshulcz/deja-vu",
+    "url": "https://github.com/vshulcz/deja-vu",
+    "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex and opencode already write. One zero-dep binary.",
+    "stars": 311,
+    "forks": 12,
+    "language": "Go",
+    "topics": [
+      "agent-memory",
+      "ai-memory",
+      "claude",
+      "claude-code",
+      "cli",
+      "codex",
+      "coding-agents",
+      "developer-tools",
+      "golang",
+      "mcp",
+      "mcp-server",
+      "opencode",
+      "session-search"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-14T07:45:44Z",
+    "updated_at": "2026-07-17T04:56:57Z",
+    "owner": {
+      "name": "vshulcz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99616188?v=4"
+    }
+  },
+  {
     "name": "ivorpad/mercadona-cli",
     "url": "https://github.com/ivorpad/mercadona-cli",
     "description": "Unofficial, agent-friendly Mercadona shopping CLI (Go) — search products, read prices, build a cart and prepare checkout from the terminal. BYO credentials.",
-    "stars": 306,
+    "stars": 307,
     "forks": 27,
     "language": "Go",
     "topics": [
@@ -199,7 +229,7 @@
     ],
     "license": "No license",
     "created_at": "2026-06-26T06:22:39Z",
-    "updated_at": "2026-07-15T16:31:07Z",
+    "updated_at": "2026-07-16T07:12:23Z",
     "owner": {
       "name": "ivorpad",
       "avatar_url": "https://avatars.githubusercontent.com/u/52452?v=4"
@@ -222,44 +252,10 @@
     }
   },
   {
-    "name": "Nigh/show-me-the-story",
-    "url": "https://github.com/Nigh/show-me-the-story",
-    "description": "Self-hosted AI novel generator: single Go binary + web UI. OpenAI-compatible API → outline → chapter-by-chapter writing with review, foreshadowing, fact-check, and full-book polish. Chinese &  English.",
-    "stars": 284,
-    "forks": 25,
-    "language": "Go",
-    "topics": [
-      "agent",
-      "ai-writing",
-      "creative-writing",
-      "fiction-writing",
-      "foreshadowing",
-      "generative-ai",
-      "go",
-      "golang",
-      "llm",
-      "novel-generator",
-      "openai-compatible",
-      "self-hosted",
-      "single-binary",
-      "storytelling",
-      "svelte",
-      "web-novel",
-      "writing-assistant"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-03T04:26:27Z",
-    "updated_at": "2026-07-02T05:24:25Z",
-    "owner": {
-      "name": "Nigh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1407471?v=4"
-    }
-  },
-  {
     "name": "kerlenton/mcpsnoop",
     "url": "https://github.com/kerlenton/mcpsnoop",
     "description": "Wireshark for MCP. A transparent proxy that shows every real tool call between your AI client and your MCP servers, live in your terminal.",
-    "stars": 269,
+    "stars": 271,
     "forks": 18,
     "language": "Go",
     "topics": [
@@ -279,7 +275,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-27T10:25:09Z",
-    "updated_at": "2026-07-16T01:28:56Z",
+    "updated_at": "2026-07-16T21:30:51Z",
     "owner": {
       "name": "kerlenton",
       "avatar_url": "https://avatars.githubusercontent.com/u/51188729?v=4"
@@ -289,7 +285,7 @@
     "name": "michaelshimeles/boring-computers",
     "url": "https://github.com/michaelshimeles/boring-computers",
     "description": "On-demand Linux computers you can hand to an AI — real Firecracker microVMs with a browser, terminal, coding agents, and an AI that drives them.",
-    "stars": 262,
+    "stars": 264,
     "forks": 36,
     "language": "Go",
     "topics": [
@@ -304,7 +300,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-06-30T04:25:16Z",
-    "updated_at": "2026-07-15T11:22:17Z",
+    "updated_at": "2026-07-16T07:57:35Z",
     "owner": {
       "name": "michaelshimeles",
       "avatar_url": "https://avatars.githubusercontent.com/u/69605071?v=4"
@@ -314,39 +310,23 @@
     "name": "JotaDev66/WaCalls",
     "url": "https://github.com/JotaDev66/WaCalls",
     "description": null,
-    "stars": 259,
-    "forks": 109,
+    "stars": 261,
+    "forks": 110,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-24T05:33:17Z",
-    "updated_at": "2026-07-15T14:58:00Z",
+    "updated_at": "2026-07-16T21:07:30Z",
     "owner": {
       "name": "JotaDev66",
       "avatar_url": "https://avatars.githubusercontent.com/u/145607960?v=4"
     }
   },
   {
-    "name": "kentjuno/ainovel-cli",
-    "url": "https://github.com/kentjuno/ainovel-cli",
-    "description": "CLI sáng tác tiểu thuyết AI đa agent — Bản tiếng Việt của voocel/ainovel-cli",
-    "stars": 243,
-    "forks": 125,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-06-25T15:28:12Z",
-    "updated_at": "2026-07-15T13:54:20Z",
-    "owner": {
-      "name": "kentjuno",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2578731?v=4"
-    }
-  },
-  {
     "name": "programmersd21/flow",
     "url": "https://github.com/programmersd21/flow",
     "description": "🌊 see your network breathe",
-    "stars": 242,
+    "stars": 248,
     "forks": 7,
     "language": "Go",
     "topics": [
@@ -373,10 +353,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-04T10:09:41Z",
-    "updated_at": "2026-07-16T03:06:35Z",
+    "updated_at": "2026-07-17T00:07:05Z",
     "owner": {
       "name": "programmersd21",
       "avatar_url": "https://avatars.githubusercontent.com/u/192335465?v=4"
+    }
+  },
+  {
+    "name": "kentjuno/ainovel-cli",
+    "url": "https://github.com/kentjuno/ainovel-cli",
+    "description": "CLI sáng tác tiểu thuyết AI đa agent — Bản tiếng Việt của voocel/ainovel-cli",
+    "stars": 244,
+    "forks": 126,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-25T15:28:12Z",
+    "updated_at": "2026-07-16T19:13:19Z",
+    "owner": {
+      "name": "kentjuno",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2578731?v=4"
     }
   },
   {
@@ -398,33 +394,6 @@
     "owner": {
       "name": "saiyam1814",
       "avatar_url": "https://avatars.githubusercontent.com/u/8190114?v=4"
-    }
-  },
-  {
-    "name": "vshulcz/deja-vu",
-    "url": "https://github.com/vshulcz/deja-vu",
-    "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex and opencode already write. One zero-dep binary.",
-    "stars": 224,
-    "forks": 6,
-    "language": "Go",
-    "topics": [
-      "ai-agents",
-      "claude-code",
-      "cli",
-      "codex",
-      "developer-tools",
-      "go",
-      "mcp",
-      "memory",
-      "opencode",
-      "search"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-14T07:45:44Z",
-    "updated_at": "2026-07-16T04:44:25Z",
-    "owner": {
-      "name": "vshulcz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/99616188?v=4"
     }
   },
   {
@@ -453,6 +422,42 @@
     }
   },
   {
+    "name": "ktsoator/or",
+    "url": "https://github.com/ktsoator/or",
+    "description": "Choose the path from intent to action.",
+    "stars": 208,
+    "forks": 14,
+    "language": "Go",
+    "topics": [
+      "agent",
+      "llm",
+      "multi-provider"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-06-18T03:04:42Z",
+    "updated_at": "2026-07-17T03:47:36Z",
+    "owner": {
+      "name": "ktsoator",
+      "avatar_url": "https://avatars.githubusercontent.com/u/267864213?v=4"
+    }
+  },
+  {
+    "name": "Sophomoresty/mediago",
+    "url": "https://github.com/Sophomoresty/mediago",
+    "description": "Download videos from 90+ Chinese educational platforms. Single binary, yt-dlp style.",
+    "stars": 204,
+    "forks": 120,
+    "language": "Go",
+    "topics": [],
+    "license": "The Unlicense",
+    "created_at": "2026-06-26T05:33:14Z",
+    "updated_at": "2026-07-17T00:57:10Z",
+    "owner": {
+      "name": "Sophomoresty",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94944221?v=4"
+    }
+  },
+  {
     "name": "kernelstub/Ferrum",
     "url": "https://github.com/kernelstub/Ferrum",
     "description": "Windows security research toolkit for LPE, persistence, COM hijacking, and attack surface enumeration.",
@@ -475,62 +480,10 @@
     }
   },
   {
-    "name": "Sophomoresty/mediago",
-    "url": "https://github.com/Sophomoresty/mediago",
-    "description": "Download videos from 90+ Chinese educational platforms. Single binary, yt-dlp style.",
-    "stars": 202,
-    "forks": 119,
-    "language": "Go",
-    "topics": [],
-    "license": "The Unlicense",
-    "created_at": "2026-06-26T05:33:14Z",
-    "updated_at": "2026-07-14T22:40:23Z",
-    "owner": {
-      "name": "Sophomoresty",
-      "avatar_url": "https://avatars.githubusercontent.com/u/94944221?v=4"
-    }
-  },
-  {
-    "name": "wenyi401/ikik-api",
-    "url": "https://github.com/wenyi401/ikik-api",
-    "description": "基于 Sub2API 二开的 AI API 网关与订阅管理平台，包含共享私有账号池、拼车池、免费模型清单、让Claude、Openai、Gemini、Grok、Kiro 订阅统一接入，原生工具无缝使用。",
-    "stars": 198,
-    "forks": 14,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Lesser General Public License v3.0",
-    "created_at": "2026-06-25T07:15:41Z",
-    "updated_at": "2026-07-12T09:47:26Z",
-    "owner": {
-      "name": "wenyi401",
-      "avatar_url": "https://avatars.githubusercontent.com/u/90856372?v=4"
-    }
-  },
-  {
-    "name": "ktsoator/or",
-    "url": "https://github.com/ktsoator/or",
-    "description": "Choose the path from intent to action.",
-    "stars": 197,
-    "forks": 11,
-    "language": "Go",
-    "topics": [
-      "agent",
-      "llm",
-      "multi-provider"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-18T03:04:42Z",
-    "updated_at": "2026-07-16T03:27:43Z",
-    "owner": {
-      "name": "ktsoator",
-      "avatar_url": "https://avatars.githubusercontent.com/u/267864213?v=4"
-    }
-  },
-  {
     "name": "Google-Health-API/google-health-cli",
     "url": "https://github.com/Google-Health-API/google-health-cli",
     "description": "Google Health CLI — one command-line tool for the Google Health API. Includes AI agent skills.",
-    "stars": 194,
+    "stars": 196,
     "forks": 17,
     "language": "Go",
     "topics": [
@@ -547,7 +500,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-06-24T12:37:34Z",
-    "updated_at": "2026-07-15T16:20:49Z",
+    "updated_at": "2026-07-16T18:54:41Z",
     "owner": {
       "name": "Google-Health-API",
       "avatar_url": "https://avatars.githubusercontent.com/u/1039877?v=4"
@@ -573,8 +526,8 @@
     "name": "alvinunreal/lazyskills",
     "url": "https://github.com/alvinunreal/lazyskills",
     "description": "mission control for agent skills",
-    "stars": 185,
-    "forks": 12,
+    "stars": 192,
+    "forks": 11,
     "language": "Go",
     "topics": [
       "agent-skills",
@@ -600,7 +553,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-19T06:20:40Z",
-    "updated_at": "2026-07-16T03:20:21Z",
+    "updated_at": "2026-07-17T03:03:46Z",
     "owner": {
       "name": "alvinunreal",
       "avatar_url": "https://avatars.githubusercontent.com/u/204474669?v=4"
@@ -626,13 +579,13 @@
     "name": "px0-ai/px0",
     "url": "https://github.com/px0-ai/px0",
     "description": "px0 is an open-source prompt infrastructure toolkit that lets you version, update, and govern prompts in production without changing application code.",
-    "stars": 177,
+    "stars": 181,
     "forks": 19,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-24T13:03:11Z",
-    "updated_at": "2026-07-15T16:19:26Z",
+    "updated_at": "2026-07-17T04:55:07Z",
     "owner": {
       "name": "px0-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/296186638?v=4"
@@ -648,55 +601,23 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-19T03:30:55Z",
-    "updated_at": "2026-07-15T22:49:40Z",
+    "updated_at": "2026-07-16T21:26:32Z",
     "owner": {
       "name": "purpshell",
       "avatar_url": "https://avatars.githubusercontent.com/u/52720753?v=4"
     }
   },
   {
-    "name": "TryHarder-L/NiniMenu",
-    "url": "https://github.com/TryHarder-L/NiniMenu",
-    "description": "一款温馨的情侣家庭每日菜单推荐与食谱管理应用，告别\"今天吃什么\"的纠结。",
-    "stars": 175,
-    "forks": 26,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-05T15:33:26Z",
-    "updated_at": "2026-07-02T13:16:08Z",
-    "owner": {
-      "name": "TryHarder-L",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50231875?v=4"
-    }
-  },
-  {
-    "name": "FengZi1221/proxy-installer",
-    "url": "https://github.com/FengZi1221/proxy-installer",
-    "description": "一个面向新手的 Windows 桌面工具，通过 SSH 连接 VPS，自动检测环境并部署 Hysteria2、VMess、VLESS Reality、Trojan、Shadowsocks 节点。全自动安装节点的工具，并且自动生成适用于小火箭/Clash Meta/Sing-Box/V2rayNG的订阅链接",
-    "stars": 174,
-    "forks": 25,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-04T19:05:37Z",
-    "updated_at": "2026-07-02T14:19:05Z",
-    "owner": {
-      "name": "FengZi1221",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95153092?v=4"
-    }
-  },
-  {
     "name": "xiaozhou26/icloud-hme",
     "url": "https://github.com/xiaozhou26/icloud-hme",
     "description": null,
-    "stars": 163,
-    "forks": 54,
+    "stars": 174,
+    "forks": 57,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-07-08T11:04:56Z",
-    "updated_at": "2026-07-15T08:46:27Z",
+    "updated_at": "2026-07-16T18:38:03Z",
     "owner": {
       "name": "xiaozhou26",
       "avatar_url": "https://avatars.githubusercontent.com/u/122727418?v=4"
@@ -706,16 +627,42 @@
     "name": "deviseo/transit-hub",
     "url": "https://github.com/deviseo/transit-hub",
     "description": "A multi-upstream operations hub for self-hosted API services built with sub2api or new-api.",
-    "stars": 162,
+    "stars": 163,
     "forks": 16,
     "language": "Go",
     "topics": [],
     "license": "GNU Lesser General Public License v3.0",
     "created_at": "2026-07-03T09:56:31Z",
-    "updated_at": "2026-07-15T12:33:26Z",
+    "updated_at": "2026-07-16T09:44:14Z",
     "owner": {
       "name": "deviseo",
       "avatar_url": "https://avatars.githubusercontent.com/u/299360238?v=4"
+    }
+  },
+  {
+    "name": "mobazha/mobazha",
+    "url": "https://github.com/mobazha/mobazha",
+    "description": "Open-source peer-to-peer commerce platform for storefronts, marketplaces, orders, and crypto payments.",
+    "stars": 161,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "bitcoin",
+      "commerce",
+      "crypto-payments",
+      "ecommerce",
+      "golang",
+      "marketplace",
+      "mobazha",
+      "peer-to-peer",
+      "self-hosted"
+    ],
+    "license": "Mozilla Public License 2.0",
+    "created_at": "2026-06-29T02:37:12Z",
+    "updated_at": "2026-07-17T04:29:41Z",
+    "owner": {
+      "name": "mobazha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43689389?v=4"
     }
   },
   {
@@ -772,69 +719,38 @@
     }
   },
   {
-    "name": "mobazha/mobazha",
-    "url": "https://github.com/mobazha/mobazha",
-    "description": "Open-source peer-to-peer commerce platform for storefronts, marketplaces, orders, and crypto payments.",
+    "name": "Foxemsx/riptide",
+    "url": "https://github.com/Foxemsx/riptide",
+    "description": "A polished terminal internet speed test and realtime bandwidth monitor written in Go. Riptide measures download, upload, and latency in a centered card UI with live progress, compact sparklines, smooth animation, and clean cross-platform output for Linux and Windows terminals.",
     "stars": 149,
-    "forks": 1,
+    "forks": 5,
     "language": "Go",
     "topics": [
-      "bitcoin",
-      "commerce",
-      "crypto-payments",
-      "ecommerce",
-      "golang",
-      "marketplace",
-      "mobazha",
-      "peer-to-peer",
-      "self-hosted"
+      "bandwidth",
+      "bandwidth-monitor",
+      "bubbletea",
+      "cli",
+      "go",
+      "linux",
+      "network",
+      "speed-test",
+      "terminal",
+      "windows"
     ],
-    "license": "Mozilla Public License 2.0",
-    "created_at": "2026-06-29T02:37:12Z",
-    "updated_at": "2026-07-16T02:46:20Z",
-    "owner": {
-      "name": "mobazha",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43689389?v=4"
-    }
-  },
-  {
-    "name": "melqtx/tork",
-    "url": "https://github.com/melqtx/tork",
-    "description": "cli for searching and downloading torrents",
-    "stars": 146,
-    "forks": 3,
-    "language": "Go",
-    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-07-07T06:56:57Z",
-    "updated_at": "2026-07-16T01:06:22Z",
+    "created_at": "2026-07-06T11:47:48Z",
+    "updated_at": "2026-07-17T00:46:01Z",
     "owner": {
-      "name": "melqtx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/105978905?v=4"
-    }
-  },
-  {
-    "name": "aurora-develop/grok2api",
-    "url": "https://github.com/aurora-develop/grok2api",
-    "description": null,
-    "stars": 145,
-    "forks": 34,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-28T04:07:28Z",
-    "updated_at": "2026-07-16T02:31:28Z",
-    "owner": {
-      "name": "aurora-develop",
-      "avatar_url": "https://avatars.githubusercontent.com/u/157781271?v=4"
+      "name": "Foxemsx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133228093?v=4"
     }
   },
   {
     "name": "GreyGunG/grokbuild-proxy",
     "url": "https://github.com/GreyGunG/grokbuild-proxy",
     "description": "本地自托管的 Grok Build → Claude Code / OpenAI 兼容代理 | Local self-hosted Grok Build compatibility proxy",
-    "stars": 145,
-    "forks": 42,
+    "stars": 148,
+    "forks": 43,
     "language": "Go",
     "topics": [
       "anthropic",
@@ -849,10 +765,52 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-09T23:28:51Z",
-    "updated_at": "2026-07-16T04:00:32Z",
+    "updated_at": "2026-07-17T02:57:34Z",
     "owner": {
       "name": "GreyGunG",
       "avatar_url": "https://avatars.githubusercontent.com/u/6110905?v=4"
+    }
+  },
+  {
+    "name": "pax-beehive/paxm",
+    "url": "https://github.com/pax-beehive/paxm",
+    "description": "Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.",
+    "stars": 147,
+    "forks": 3,
+    "language": "Go",
+    "topics": [
+      "agent-memory",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "golang",
+      "local-first",
+      "mcp",
+      "opencode",
+      "sqlite"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-09T02:40:57Z",
+    "updated_at": "2026-07-17T04:51:15Z",
+    "owner": {
+      "name": "pax-beehive",
+      "avatar_url": "https://avatars.githubusercontent.com/u/292671531?v=4"
+    }
+  },
+  {
+    "name": "melqtx/tork",
+    "url": "https://github.com/melqtx/tork",
+    "description": "cli for searching and downloading torrents",
+    "stars": 147,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-07T06:56:57Z",
+    "updated_at": "2026-07-16T17:01:50Z",
+    "owner": {
+      "name": "melqtx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105978905?v=4"
     }
   },
   {
@@ -881,56 +839,19 @@
     }
   },
   {
-    "name": "Foxemsx/riptide",
-    "url": "https://github.com/Foxemsx/riptide",
-    "description": "A polished terminal internet speed test and realtime bandwidth monitor written in Go. Riptide measures download, upload, and latency in a centered card UI with live progress, compact sparklines, smooth animation, and clean cross-platform output for Linux and Windows terminals.",
-    "stars": 134,
-    "forks": 4,
+    "name": "aurora-develop/grok2api",
+    "url": "https://github.com/aurora-develop/grok2api",
+    "description": null,
+    "stars": 144,
+    "forks": 34,
     "language": "Go",
-    "topics": [
-      "bandwidth",
-      "bandwidth-monitor",
-      "bubbletea",
-      "cli",
-      "go",
-      "linux",
-      "network",
-      "speed-test",
-      "terminal",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-06T11:47:48Z",
-    "updated_at": "2026-07-16T03:40:57Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-06-28T04:07:28Z",
+    "updated_at": "2026-07-17T02:39:47Z",
     "owner": {
-      "name": "Foxemsx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/133228093?v=4"
-    }
-  },
-  {
-    "name": "pax-beehive/paxm",
-    "url": "https://github.com/pax-beehive/paxm",
-    "description": "Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.",
-    "stars": 132,
-    "forks": 3,
-    "language": "Go",
-    "topics": [
-      "agent-memory",
-      "ai-agents",
-      "claude-code",
-      "codex",
-      "golang",
-      "local-first",
-      "mcp",
-      "opencode",
-      "sqlite"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-09T02:40:57Z",
-    "updated_at": "2026-07-16T03:54:42Z",
-    "owner": {
-      "name": "pax-beehive",
-      "avatar_url": "https://avatars.githubusercontent.com/u/292671531?v=4"
+      "name": "aurora-develop",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157781271?v=4"
     }
   },
   {
@@ -970,8 +891,8 @@
     "name": "cynative/cynative",
     "url": "https://github.com/cynative/cynative",
     "description": "Deep cybersecurity research agent for your cloud, code and runtime - ask your infrastructure anything. Read-only, sandboxed.",
-    "stars": 115,
-    "forks": 20,
+    "stars": 128,
+    "forks": 24,
     "language": "Go",
     "topics": [
       "agentic-security",
@@ -997,10 +918,26 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-06-24T18:06:26Z",
-    "updated_at": "2026-07-16T04:51:32Z",
+    "updated_at": "2026-07-17T03:44:21Z",
     "owner": {
       "name": "cynative",
       "avatar_url": "https://avatars.githubusercontent.com/u/260118153?v=4"
+    }
+  },
+  {
+    "name": "wenyi401/ikik-api",
+    "url": "https://github.com/wenyi401/ikik-api",
+    "description": "基于 Sub2API 二开的 AI API 网关与订阅管理平台，包含共享私有账号池、拼车池、免费模型清单、让Claude、Openai、Gemini、Grok、Kiro 订阅统一接入，原生工具无缝使用。",
+    "stars": 123,
+    "forks": 14,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Lesser General Public License v3.0",
+    "created_at": "2026-06-25T07:15:41Z",
+    "updated_at": "2026-07-17T01:53:33Z",
+    "owner": {
+      "name": "wenyi401",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90856372?v=4"
     }
   },
   {
@@ -1242,22 +1179,6 @@
     "owner": {
       "name": "cybertec-postgresql",
       "avatar_url": "https://avatars.githubusercontent.com/u/9417356?v=4"
-    }
-  },
-  {
-    "name": "praetorian-inc/wasmforge",
-    "url": "https://github.com/praetorian-inc/wasmforge",
-    "description": "WasmForge — compile Go and C# programs to single-binary, WASM-sandboxed native executables with polymorphic output.",
-    "stars": 96,
-    "forks": 6,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-06-16T19:09:43Z",
-    "updated_at": "2026-07-02T19:36:57Z",
-    "owner": {
-      "name": "praetorian-inc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8173787?v=4"
     }
   },
   {

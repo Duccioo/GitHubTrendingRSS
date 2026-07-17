@@ -16,22 +16,6 @@
     }
   },
   {
-    "name": "ricccrd/dd",
-    "url": "https://github.com/ricccrd/dd",
-    "description": null,
-    "stars": 358,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-26T18:37:27Z",
-    "updated_at": "2026-07-02T05:50:34Z",
-    "owner": {
-      "name": "ricccrd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1809268?v=4"
-    }
-  },
-  {
     "name": "FractalFir/crustc",
     "url": "https://github.com/FractalFir/crustc",
     "description": "Entirety of `rustc`, translated to C. ",
@@ -51,43 +35,32 @@
     "name": "x-spy/CVE-2026-43499-popsicle",
     "url": "https://github.com/x-spy/CVE-2026-43499-popsicle",
     "description": "CVE-2026-43499 Implementation for 6.12.23-android16-5-g75e9b1c7ae7c-abogki463945075-4k",
-    "stars": 155,
-    "forks": 45,
+    "stars": 168,
+    "forks": 52,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-07-12T10:15:03Z",
-    "updated_at": "2026-07-16T03:56:22Z",
+    "updated_at": "2026-07-17T04:26:43Z",
     "owner": {
       "name": "x-spy",
       "avatar_url": "https://avatars.githubusercontent.com/u/127767602?v=4"
     }
   },
   {
-    "name": "mat-mgm/kb-prolog",
-    "url": "https://github.com/mat-mgm/kb-prolog",
-    "description": "A hyper-relational knowledge base with content-addressable storage, built on Prolog, SQLite, and C.",
-    "stars": 145,
+    "name": "shibco/ableton-linux",
+    "url": "https://github.com/shibco/ableton-linux",
+    "description": "Run Ableton 12 and Push on Linux",
+    "stars": 139,
     "forks": 4,
     "language": "C",
-    "topics": [
-      "cas",
-      "content-addressable-storage",
-      "knowledge-base",
-      "knowledge-graph",
-      "prolog",
-      "raylib",
-      "reification",
-      "sqlite",
-      "trealla",
-      "trealla-prolog"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-06-27T11:38:48Z",
-    "updated_at": "2026-07-02T23:28:14Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-14T11:40:27Z",
+    "updated_at": "2026-07-17T03:48:08Z",
     "owner": {
-      "name": "mat-mgm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/186027854?v=4"
+      "name": "shibco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/737950?v=4"
     }
   },
   {
@@ -123,32 +96,16 @@
     }
   },
   {
-    "name": "shibco/ableton-linux",
-    "url": "https://github.com/shibco/ableton-linux",
-    "description": "Run Ableton 12 and Push on Linux",
-    "stars": 88,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-14T11:40:27Z",
-    "updated_at": "2026-07-16T04:51:44Z",
-    "owner": {
-      "name": "shibco",
-      "avatar_url": "https://avatars.githubusercontent.com/u/737950?v=4"
-    }
-  },
-  {
     "name": "UIseries/ai-robot",
     "url": "https://github.com/UIseries/ai-robot",
     "description": "RK3506 Voice Robot An embedded AI voice assistant running on the Rockchip RK3506 development board. Pure C, single-threaded event loop, zero dynamic memory allocation.",
-    "stars": 84,
+    "stars": 87,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-07-13T06:40:48Z",
-    "updated_at": "2026-07-16T03:04:46Z",
+    "updated_at": "2026-07-16T19:12:00Z",
     "owner": {
       "name": "UIseries",
       "avatar_url": "https://avatars.githubusercontent.com/u/263308347?v=4"
@@ -168,6 +125,33 @@
     "owner": {
       "name": "Chaelsoo",
       "avatar_url": "https://avatars.githubusercontent.com/u/67665164?v=4"
+    }
+  },
+  {
+    "name": "sorryhumans/clawdmeter-plus",
+    "url": "https://github.com/sorryhumans/clawdmeter-plus",
+    "description": "A round AMOLED desk display for your live Claude Code usage, weather, background-agent health, and a daily voice greeting. ESP32-S3 + macOS BLE daemon. Fork of Clawdmeter.",
+    "stars": 81,
+    "forks": 5,
+    "language": "C",
+    "topics": [
+      "amoled",
+      "arduino",
+      "bluetooth-le",
+      "claude-code",
+      "desk-accessory",
+      "esp32",
+      "esp32-s3",
+      "lvgl",
+      "platformio",
+      "waveshare"
+    ],
+    "license": "Other",
+    "created_at": "2026-07-15T06:57:37Z",
+    "updated_at": "2026-07-17T03:34:59Z",
+    "owner": {
+      "name": "sorryhumans",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218936918?v=4"
     }
   },
   {
@@ -203,6 +187,55 @@
     }
   },
   {
+    "name": "Sizeable-Bingus/BingusLdr",
+    "url": "https://github.com/Sizeable-Bingus/BingusLdr",
+    "description": "BingusLdr is a DLL loader built with Crystal Palace that uses a CET compatible stack spoofing technique.",
+    "stars": 69,
+    "forks": 7,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-14T14:46:11Z",
+    "updated_at": "2026-07-17T03:31:07Z",
+    "owner": {
+      "name": "Sizeable-Bingus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55068604?v=4"
+    }
+  },
+  {
+    "name": "SyscallX-18113/Apkx-Hunter",
+    "url": "https://github.com/SyscallX-18113/Apkx-Hunter",
+    "description": "Apkx-Hunter is an Android Static Analysis Framework written entirely in C with OWASP MASVS scanning with 15 categories and 166 detection patterns for Android security assessments, reverse engineering, malware analysis, bug bounty hunting, and penetration testing. It features ML-based secret scoring, and advanced static security analysis.",
+    "stars": 64,
+    "forks": 5,
+    "language": "C",
+    "topics": [
+      "android",
+      "android-malware",
+      "android-pentesting",
+      "android-reverse-engineering",
+      "android-security",
+      "android-static-analysis",
+      "apk-analysis-",
+      "bug-bounty",
+      "cybersecurity",
+      "malware-analysis",
+      "mobile-security",
+      "mobile-security-framework",
+      "mobile-security-testing",
+      "owasp",
+      "owasp-masvs",
+      "penetration-testing"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-11T11:29:57Z",
+    "updated_at": "2026-07-17T01:27:18Z",
+    "owner": {
+      "name": "SyscallX-18113",
+      "avatar_url": "https://avatars.githubusercontent.com/u/248181380?v=4"
+    }
+  },
+  {
     "name": "xec412/XeraLdr",
     "url": "https://github.com/xec412/XeraLdr",
     "description": "A stealthy and modular Windows loader designed to bypass modern EDR solutions using Module Stomping, Stack Duplication, and Advanced Sleep Obfuscation.",
@@ -230,6 +263,22 @@
     }
   },
   {
+    "name": "realstrawhat/csakura",
+    "url": "https://github.com/realstrawhat/csakura",
+    "description": "A sakura tree with falling petals for your terminal",
+    "stars": 60,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-12T17:07:35Z",
+    "updated_at": "2026-07-17T04:51:01Z",
+    "owner": {
+      "name": "realstrawhat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84384404?v=4"
+    }
+  },
+  {
     "name": "ZyoungInc/xueersi-idf",
     "url": "https://github.com/ZyoungInc/xueersi-idf",
     "description": "modify Xueersi Xiaomiao from micro python to esp-idf environment",
@@ -246,22 +295,6 @@
     }
   },
   {
-    "name": "realstrawhat/csakura",
-    "url": "https://github.com/realstrawhat/csakura",
-    "description": "A sakura tree with falling petals for your terminal",
-    "stars": 56,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-12T17:07:35Z",
-    "updated_at": "2026-07-15T19:20:50Z",
-    "owner": {
-      "name": "realstrawhat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/84384404?v=4"
-    }
-  },
-  {
     "name": "DjVul/Extended-Kalman-Filter---STM32",
     "url": "https://github.com/DjVul/Extended-Kalman-Filter---STM32",
     "description": "Universal Extended Kalman Filter (EKF) in C for 6-DOF IMU (gyroscope + accelerometer).  Estimates Roll and Pitch with STM32 firmware and Python visualization.",
@@ -275,82 +308,6 @@
     "owner": {
       "name": "DjVul",
       "avatar_url": "https://avatars.githubusercontent.com/u/114070635?v=4"
-    }
-  },
-  {
-    "name": "SyscallX-18113/Apkx-Hunter",
-    "url": "https://github.com/SyscallX-18113/Apkx-Hunter",
-    "description": "Apkx-Hunter is an Android Static Analysis Framework written entirely in C with OWASP MASVS scanning with 15 categories and 166 detection patterns for Android security assessments, reverse engineering, malware analysis, bug bounty hunting, and penetration testing. It features ML-based secret scoring, and advanced static security analysis.",
-    "stars": 55,
-    "forks": 5,
-    "language": "C",
-    "topics": [
-      "android",
-      "android-malware",
-      "android-pentesting",
-      "android-reverse-engineering",
-      "android-security",
-      "android-static-analysis",
-      "apk-analysis-",
-      "bug-bounty",
-      "cybersecurity",
-      "malware-analysis",
-      "mobile-security",
-      "mobile-security-framework",
-      "mobile-security-testing",
-      "owasp",
-      "owasp-masvs",
-      "penetration-testing"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-11T11:29:57Z",
-    "updated_at": "2026-07-16T04:22:41Z",
-    "owner": {
-      "name": "SyscallX-18113",
-      "avatar_url": "https://avatars.githubusercontent.com/u/248181380?v=4"
-    }
-  },
-  {
-    "name": "sorryhumans/clawdmeter-plus",
-    "url": "https://github.com/sorryhumans/clawdmeter-plus",
-    "description": "A round AMOLED desk display for your live Claude Code usage, weather, background-agent health, and a daily voice greeting. ESP32-S3 + macOS BLE daemon. Fork of Clawdmeter.",
-    "stars": 54,
-    "forks": 5,
-    "language": "C",
-    "topics": [
-      "amoled",
-      "arduino",
-      "bluetooth-le",
-      "claude-code",
-      "desk-accessory",
-      "esp32",
-      "esp32-s3",
-      "lvgl",
-      "platformio",
-      "waveshare"
-    ],
-    "license": "Other",
-    "created_at": "2026-07-15T06:57:37Z",
-    "updated_at": "2026-07-16T03:51:54Z",
-    "owner": {
-      "name": "sorryhumans",
-      "avatar_url": "https://avatars.githubusercontent.com/u/218936918?v=4"
-    }
-  },
-  {
-    "name": "Sizeable-Bingus/BingusLdr",
-    "url": "https://github.com/Sizeable-Bingus/BingusLdr",
-    "description": "BingusLdr is a DLL loader built with Crystal Palace that uses a CET compatible stack spoofing technique.",
-    "stars": 52,
-    "forks": 6,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-14T14:46:11Z",
-    "updated_at": "2026-07-16T04:42:18Z",
-    "owner": {
-      "name": "Sizeable-Bingus",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55068604?v=4"
     }
   },
   {
@@ -383,6 +340,38 @@
     "owner": {
       "name": "sgkdev",
       "avatar_url": "https://avatars.githubusercontent.com/u/42553321?v=4"
+    }
+  },
+  {
+    "name": "ocfh/monocular-ranging-maixcam-stm32-tjc-screen",
+    "url": "https://github.com/ocfh/monocular-ranging-maixcam-stm32-tjc-screen",
+    "description": "📷 Python OpenCV Maixcam vision recognition, STM32 serial data parsing, TJC HMI screen display for monocular ranging",
+    "stars": 46,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-13T17:14:39Z",
+    "updated_at": "2026-07-17T02:09:23Z",
+    "owner": {
+      "name": "ocfh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157864245?v=4"
+    }
+  },
+  {
+    "name": "toneillcodes/UnwindRaven",
+    "url": "https://github.com/toneillcodes/UnwindRaven",
+    "description": null,
+    "stars": 45,
+    "forks": 4,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-07-11T02:31:43Z",
+    "updated_at": "2026-07-17T02:05:57Z",
+    "owner": {
+      "name": "toneillcodes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148013535?v=4"
     }
   },
   {
@@ -434,6 +423,30 @@
     }
   },
   {
+    "name": "deepanwadhwa/samosa-chat",
+    "url": "https://github.com/deepanwadhwa/samosa-chat",
+    "description": "Run Qwen3.6-35B-A3B locally on a 16 GB RAM machine",
+    "stars": 40,
+    "forks": 2,
+    "language": "C",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "llms",
+      "local-ai",
+      "local-first",
+      "local-llm",
+      "qwen3"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-12T22:25:41Z",
+    "updated_at": "2026-07-16T23:50:18Z",
+    "owner": {
+      "name": "deepanwadhwa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121407512?v=4"
+    }
+  },
+  {
     "name": "pengchujin/esp8266-ai",
     "url": "https://github.com/pengchujin/esp8266-ai",
     "description": null,
@@ -482,22 +495,6 @@
     }
   },
   {
-    "name": "ocfh/monocular-ranging-maixcam-stm32-tjc-screen",
-    "url": "https://github.com/ocfh/monocular-ranging-maixcam-stm32-tjc-screen",
-    "description": "📷 Python OpenCV Maixcam vision recognition, STM32 serial data parsing, TJC HMI screen display for monocular ranging",
-    "stars": 35,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-13T17:14:39Z",
-    "updated_at": "2026-07-16T01:56:11Z",
-    "owner": {
-      "name": "ocfh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/157864245?v=4"
-    }
-  },
-  {
     "name": "Mr-Emacs/coomer",
     "url": "https://github.com/Mr-Emacs/coomer",
     "description": null,
@@ -530,6 +527,31 @@
     }
   },
   {
+    "name": "GabeConway/OpenCrossing-Anbernic",
+    "url": "https://github.com/GabeConway/OpenCrossing-Anbernic",
+    "description": "OpenCrossing: Animal Crossing running natively at ~60 fps on Anbernic handhelds — no emulator. GameCube decomp port for the H700 family (RG-34XX/35XX/28XX) via PortMaster (muOS, Knulli).",
+    "stars": 31,
+    "forks": 3,
+    "language": "C",
+    "topics": [
+      "anbernic",
+      "animal-crossing",
+      "decompilation",
+      "gamecube",
+      "handheld",
+      "muos",
+      "opengl-es",
+      "portmaster"
+    ],
+    "license": "Other",
+    "created_at": "2026-07-13T02:29:51Z",
+    "updated_at": "2026-07-16T18:10:45Z",
+    "owner": {
+      "name": "GabeConway",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64233226?v=4"
+    }
+  },
+  {
     "name": "SansNope/UnleashedRecomp-Android",
     "url": "https://github.com/SansNope/UnleashedRecomp-Android",
     "description": "The port was created using Anthropic's Fable 5 AI model. It works EXCLUSIVELY on Adreno GPUs. A port for devices with Mali family GPUs is not planned. I don't understand the technical side myself; I just guided Fable 5 in the right direction, mixed the models, and performed the debugging. Artifacts, freezing, and audio issues are possible.",
@@ -546,30 +568,6 @@
     }
   },
   {
-    "name": "deepanwadhwa/samosa-chat",
-    "url": "https://github.com/deepanwadhwa/samosa-chat",
-    "description": "Run Qwen3.6-35B-A3B locally on a 16 GB RAM machine",
-    "stars": 30,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "ai",
-      "ai-agent",
-      "llms",
-      "local-ai",
-      "local-first",
-      "local-llm",
-      "qwen3"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-12T22:25:41Z",
-    "updated_at": "2026-07-16T04:14:04Z",
-    "owner": {
-      "name": "deepanwadhwa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/121407512?v=4"
-    }
-  },
-  {
     "name": "soeinova/Fantasi",
     "url": "https://github.com/soeinova/Fantasi",
     "description": "Fantasi firmware",
@@ -583,62 +581,6 @@
     "owner": {
       "name": "soeinova",
       "avatar_url": "https://avatars.githubusercontent.com/u/277386940?v=4"
-    }
-  },
-  {
-    "name": "MaorSabag/NaX",
-    "url": "https://github.com/MaorSabag/NaX",
-    "description": "Custom Adaptix-compatible C2 agent - PIC beacon + Stardust UDRL + Go extender plugins",
-    "stars": 30,
-    "forks": 5,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-28T13:47:30Z",
-    "updated_at": "2026-07-03T04:30:24Z",
-    "owner": {
-      "name": "MaorSabag",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75939197?v=4"
-    }
-  },
-  {
-    "name": "emir173/ESP32-Flight-Tracker",
-    "url": "https://github.com/emir173/ESP32-Flight-Tracker",
-    "description": "A near real-time, standalone ESP32-S3 Flight Tracker utilizing the OpenSky API",
-    "stars": 30,
-    "forks": 3,
-    "language": "C",
-    "topics": [
-      "arduino",
-      "aviation",
-      "esp32",
-      "esp32-s3",
-      "radar",
-      "tft-display",
-      "tracker"
-    ],
-    "license": "No license",
-    "created_at": "2026-06-27T16:40:31Z",
-    "updated_at": "2026-07-03T01:00:30Z",
-    "owner": {
-      "name": "emir173",
-      "avatar_url": "https://avatars.githubusercontent.com/u/197726011?v=4"
-    }
-  },
-  {
-    "name": "toneillcodes/UnwindRaven",
-    "url": "https://github.com/toneillcodes/UnwindRaven",
-    "description": null,
-    "stars": 28,
-    "forks": 3,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-07-11T02:31:43Z",
-    "updated_at": "2026-07-16T04:46:16Z",
-    "owner": {
-      "name": "toneillcodes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/148013535?v=4"
     }
   },
   {
@@ -674,6 +616,22 @@
     }
   },
   {
+    "name": "NirvanaOn/AntiVE-BehaviorWatch",
+    "url": "https://github.com/NirvanaOn/AntiVE-BehaviorWatch",
+    "description": "AntiVE-BehaviorWatch is an advanced behavioral analysis malware that detects automated analysis systems through real-time mouse movement pattern recognition. Leveraging GRU neural networks, it provides high-accuracy classification of user behavior while identifying potential virtual machine, sandbox, or emulation environments.",
+    "stars": 26,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-07-11T17:55:51Z",
+    "updated_at": "2026-07-16T12:07:53Z",
+    "owner": {
+      "name": "NirvanaOn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166973247?v=4"
+    }
+  },
+  {
     "name": "ysrdevs/goldeneye-metal",
     "url": "https://github.com/ysrdevs/goldeneye-metal",
     "description": "GoldenEye Metal is an experimental, source-only static recompilation project focused on a native Apple Silicon and Metal rendering path. This repository contains the runtime, toolchain, Metal backend, and game integration in one tree.",
@@ -687,47 +645,6 @@
     "owner": {
       "name": "ysrdevs",
       "avatar_url": "https://avatars.githubusercontent.com/u/32823553?v=4"
-    }
-  },
-  {
-    "name": "NirvanaOn/AntiVE-BehaviorWatch",
-    "url": "https://github.com/NirvanaOn/AntiVE-BehaviorWatch",
-    "description": "AntiVE-BehaviorWatch is an advanced behavioral analysis malware that detects automated analysis systems through real-time mouse movement pattern recognition. Leveraging GRU neural networks, it provides high-accuracy classification of user behavior while identifying potential virtual machine, sandbox, or emulation environments.",
-    "stars": 25,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-07-11T17:55:51Z",
-    "updated_at": "2026-07-16T02:10:05Z",
-    "owner": {
-      "name": "NirvanaOn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/166973247?v=4"
-    }
-  },
-  {
-    "name": "GabeConway/OpenCrossing-Anbernic",
-    "url": "https://github.com/GabeConway/OpenCrossing-Anbernic",
-    "description": "OpenCrossing: Animal Crossing running natively at ~60 fps on Anbernic handhelds — no emulator. GameCube decomp port for the H700 family (RG-34XX/35XX/28XX) via PortMaster (muOS, Knulli).",
-    "stars": 25,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "anbernic",
-      "animal-crossing",
-      "decompilation",
-      "gamecube",
-      "handheld",
-      "muos",
-      "opengl-es",
-      "portmaster"
-    ],
-    "license": "Other",
-    "created_at": "2026-07-13T02:29:51Z",
-    "updated_at": "2026-07-16T02:34:45Z",
-    "owner": {
-      "name": "GabeConway",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64233226?v=4"
     }
   },
   {
@@ -767,6 +684,22 @@
     }
   },
   {
+    "name": "ocfh/lvgl-seniverse-weather-screen-esp32",
+    "url": "https://github.com/ocfh/lvgl-seniverse-weather-screen-esp32",
+    "description": "🌦 LVGL weather screen running on ESP32 with FreeRTOS, auto locate city by IP and get weather data from Seniverse API",
+    "stars": 24,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-16T09:17:58Z",
+    "updated_at": "2026-07-17T03:47:50Z",
+    "owner": {
+      "name": "ocfh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157864245?v=4"
+    }
+  },
+  {
     "name": "emir173/esp32-console",
     "url": "https://github.com/emir173/esp32-console",
     "description": "Dual-screen ESP32-S3 handheld console with a dual-core OS, OTA launcher, and 15 native games.",
@@ -789,6 +722,22 @@
     "owner": {
       "name": "emir173",
       "avatar_url": "https://avatars.githubusercontent.com/u/197726011?v=4"
+    }
+  },
+  {
+    "name": "cocoonstack/scrcpy-rfb",
+    "url": "https://github.com/cocoonstack/scrcpy-rfb",
+    "description": "Bridge scrcpy H.264 video and control to one RFB/VNC port: Open H.264 passthrough for TigerVNC/noVNC, Tight/JPEG fallback for ordinary clients",
+    "stars": 23,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-07-16T07:02:25Z",
+    "updated_at": "2026-07-17T04:48:15Z",
+    "owner": {
+      "name": "cocoonstack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272786924?v=4"
     }
   },
   {
@@ -856,19 +805,67 @@
     }
   },
   {
-    "name": "cobra-r9/pomoc",
-    "url": "https://github.com/cobra-r9/pomoc",
-    "description": "A simple pomodoro for unix based systems. Integrate easily with any bar system.",
-    "stars": 23,
+    "name": "czu963889306-dev/-ros2-",
+    "url": "https://github.com/czu963889306-dev/-ros2-",
+    "description": null,
+    "stars": 22,
+    "forks": 4,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-11T02:02:09Z",
+    "updated_at": "2026-07-16T17:42:58Z",
+    "owner": {
+      "name": "czu963889306-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/227014692?v=4"
+    }
+  },
+  {
+    "name": "huobuilds/quadfs_flight_controller",
+    "url": "https://github.com/huobuilds/quadfs_flight_controller",
+    "description": null,
+    "stars": 21,
     "forks": 1,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-27T04:36:50Z",
-    "updated_at": "2026-07-02T11:53:32Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-07-15T17:54:08Z",
+    "updated_at": "2026-07-17T04:14:41Z",
     "owner": {
-      "name": "cobra-r9",
-      "avatar_url": "https://avatars.githubusercontent.com/u/277233813?v=4"
+      "name": "huobuilds",
+      "avatar_url": "https://avatars.githubusercontent.com/u/293356127?v=4"
+    }
+  },
+  {
+    "name": "Linuxoid-cn/CVE-2026-43499-Poc-Analysis",
+    "url": "https://github.com/Linuxoid-cn/CVE-2026-43499-Poc-Analysis",
+    "description": "Vulnerability analysis and Proof of Concept (PoC) for CVE-2026-43499 affecting Xiaomi devices. For educational and research purposes only.",
+    "stars": 21,
+    "forks": 10,
+    "language": "C",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-07-14T14:21:27Z",
+    "updated_at": "2026-07-17T02:53:42Z",
+    "owner": {
+      "name": "Linuxoid-cn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190095175?v=4"
+    }
+  },
+  {
+    "name": "weak1337/DetectTpmSpoofing",
+    "url": "https://github.com/weak1337/DetectTpmSpoofing",
+    "description": null,
+    "stars": 21,
+    "forks": 4,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-14T15:38:43Z",
+    "updated_at": "2026-07-16T17:17:40Z",
+    "owner": {
+      "name": "weak1337",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57501119?v=4"
     }
   },
   {
@@ -888,19 +885,26 @@
     }
   },
   {
-    "name": "czu963889306-dev/-ros2-",
-    "url": "https://github.com/czu963889306-dev/-ros2-",
-    "description": null,
+    "name": "JoinChang/ghostlock-oneplus",
+    "url": "https://github.com/JoinChang/ghostlock-oneplus",
+    "description": "GhostLock (CVE-2026-43499) kernel exploit for OnePlus devices with locked bootloader",
     "stars": 20,
-    "forks": 4,
+    "forks": 5,
     "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-11T02:02:09Z",
-    "updated_at": "2026-07-15T15:56:13Z",
+    "topics": [
+      "android",
+      "coloros",
+      "ghostlock",
+      "kernelsu",
+      "oneplus",
+      "root"
+    ],
+    "license": "No license",
+    "created_at": "2026-07-12T16:05:24Z",
+    "updated_at": "2026-07-17T03:23:10Z",
     "owner": {
-      "name": "czu963889306-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/227014692?v=4"
+      "name": "JoinChang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35451392?v=4"
     }
   },
   {
@@ -979,22 +983,6 @@
     }
   },
   {
-    "name": "weak1337/DetectTpmSpoofing",
-    "url": "https://github.com/weak1337/DetectTpmSpoofing",
-    "description": null,
-    "stars": 18,
-    "forks": 3,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-14T15:38:43Z",
-    "updated_at": "2026-07-16T04:22:51Z",
-    "owner": {
-      "name": "weak1337",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57501119?v=4"
-    }
-  },
-  {
     "name": "mitkox/ds4-zgx-gb10",
     "url": "https://github.com/mitkox/ds4-zgx-gb10",
     "description": "GLM-5.2 for ZGX GB10",
@@ -1008,6 +996,96 @@
     "owner": {
       "name": "mitkox",
       "avatar_url": "https://avatars.githubusercontent.com/u/43349905?v=4"
+    }
+  },
+  {
+    "name": "impost0r/Rie",
+    "url": "https://github.com/impost0r/Rie",
+    "description": "CVE-2026-43724 - Apple's published enough advisories about the issue, I'm not getting paid for any of my kernel bugs. ",
+    "stars": 17,
+    "forks": 4,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-13T22:38:54Z",
+    "updated_at": "2026-07-16T12:48:16Z",
+    "owner": {
+      "name": "impost0r",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16020669?v=4"
+    }
+  },
+  {
+    "name": "PySudo/QuantoScript",
+    "url": "https://github.com/PySudo/QuantoScript",
+    "description": "A modern, beginner-friendly scripting language written in C with an interpreter and bytecode virtual machine.",
+    "stars": 17,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "bytecode",
+      "c",
+      "c99",
+      "compiler",
+      "cross-platform",
+      "interpreter",
+      "language",
+      "language-runtime",
+      "opensource",
+      "programming-language",
+      "repl",
+      "scripting-language",
+      "virtual-machine",
+      "vm"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-11T23:05:46Z",
+    "updated_at": "2026-07-16T11:43:47Z",
+    "owner": {
+      "name": "PySudo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87206252?v=4"
+    }
+  },
+  {
+    "name": "P0gDog/PogOS",
+    "url": "https://github.com/P0gDog/PogOS",
+    "description": "Fully custom x86 operating system.",
+    "stars": 17,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-07-13T17:52:44Z",
+    "updated_at": "2026-07-16T20:36:17Z",
+    "owner": {
+      "name": "P0gDog",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121242106?v=4"
+    }
+  },
+  {
+    "name": "mcxiaochenn/TeeForge-CD",
+    "url": "https://github.com/mcxiaochenn/TeeForge-CD",
+    "description": "Android TEE 隐藏环境一体化工具模块（KernelSU / Magisk）",
+    "stars": 17,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "android",
+      "bootloader",
+      "kernelsu",
+      "keybox",
+      "magisk",
+      "ndk",
+      "play-integrity",
+      "root",
+      "tee",
+      "tricky-store"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-07-13T21:19:07Z",
+    "updated_at": "2026-07-17T01:14:38Z",
+    "owner": {
+      "name": "mcxiaochenn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130777336?v=4"
     }
   },
   {
@@ -1065,22 +1143,6 @@
     }
   },
   {
-    "name": "impost0r/Rie",
-    "url": "https://github.com/impost0r/Rie",
-    "description": "CVE-2026-43724 - Apple's published enough advisories about the issue, I'm not getting paid for any of my kernel bugs. ",
-    "stars": 16,
-    "forks": 4,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-13T22:38:54Z",
-    "updated_at": "2026-07-16T00:09:47Z",
-    "owner": {
-      "name": "impost0r",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16020669?v=4"
-    }
-  },
-  {
     "name": "out0fstep/LabzOS",
     "url": "https://github.com/out0fstep/LabzOS",
     "description": "Cardputer ADV build of toolz",
@@ -1124,37 +1186,6 @@
     }
   },
   {
-    "name": "PySudo/QuantoScript",
-    "url": "https://github.com/PySudo/QuantoScript",
-    "description": "A modern, beginner-friendly scripting language written in C with an interpreter and bytecode virtual machine.",
-    "stars": 15,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "bytecode",
-      "c",
-      "c99",
-      "compiler",
-      "cross-platform",
-      "interpreter",
-      "language",
-      "language-runtime",
-      "opensource",
-      "programming-language",
-      "repl",
-      "scripting-language",
-      "virtual-machine",
-      "vm"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-11T23:05:46Z",
-    "updated_at": "2026-07-15T11:23:06Z",
-    "owner": {
-      "name": "PySudo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/87206252?v=4"
-    }
-  },
-  {
     "name": "NaGaa95/gdash_nx",
     "url": "https://github.com/NaGaa95/gdash_nx",
     "description": "Port of Geometry Dash for Switch.",
@@ -1187,46 +1218,55 @@
     }
   },
   {
-    "name": "P0gDog/PogOS",
-    "url": "https://github.com/P0gDog/PogOS",
-    "description": "Fully custom x86 operating system.",
-    "stars": 14,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-07-13T17:52:44Z",
-    "updated_at": "2026-07-16T01:45:42Z",
-    "owner": {
-      "name": "P0gDog",
-      "avatar_url": "https://avatars.githubusercontent.com/u/121242106?v=4"
-    }
-  },
-  {
-    "name": "mcxiaochenn/TeeForge-CD",
-    "url": "https://github.com/mcxiaochenn/TeeForge-CD",
-    "description": "Android TEE 隐藏环境一体化工具模块（KernelSU / Magisk）",
+    "name": "vulnersCom/VulnCast",
+    "url": "https://github.com/vulnersCom/VulnCast",
+    "description": "Feels like 9.8. The internet's security forecast on your desk — a ~$40 ESP32-S3 e-paper gadget for live Vulners CVE / exploit / bug-bounty / news feeds.",
     "stars": 14,
     "forks": 0,
     "language": "C",
-    "topics": [
-      "android",
-      "bootloader",
-      "kernelsu",
-      "keybox",
-      "magisk",
-      "ndk",
-      "play-integrity",
-      "root",
-      "tee",
-      "tricky-store"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-07-13T21:19:07Z",
-    "updated_at": "2026-07-16T04:41:51Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-14T14:41:08Z",
+    "updated_at": "2026-07-17T01:04:44Z",
     "owner": {
-      "name": "mcxiaochenn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/130777336?v=4"
+      "name": "vulnersCom",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22376776?v=4"
+    }
+  },
+  {
+    "name": "MyNamesEMurray/LensLink",
+    "url": "https://github.com/MyNamesEMurray/LensLink",
+    "description": "iPhone/iPad camera for OBS Studio over Wi-Fi or USB — 4K60, screen mirroring, remote start, auto lip sync.",
+    "stars": 14,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "camera",
+      "facecam",
+      "hevc",
+      "ios",
+      "ios-app",
+      "ios-swift",
+      "linux",
+      "livestream",
+      "livestreaming",
+      "mac",
+      "macos",
+      "obs",
+      "obs-plugin",
+      "obs-studio",
+      "obs-studio-plugin",
+      "screen-mirroring",
+      "streaming",
+      "webcam",
+      "windows"
+    ],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-07-11T21:05:26Z",
+    "updated_at": "2026-07-17T04:48:40Z",
+    "owner": {
+      "name": "MyNamesEMurray",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8888913?v=4"
     }
   },
   {
@@ -1246,19 +1286,51 @@
     }
   },
   {
-    "name": "vulnersCom/VulnCast",
-    "url": "https://github.com/vulnersCom/VulnCast",
-    "description": "Feels like 9.8. The internet's security forecast on your desk — a ~$40 ESP32-S3 e-paper gadget for live Vulners CVE / exploit / bug-bounty / news feeds.",
+    "name": "loopj/usb-gamecube-controller-adapter",
+    "url": "https://github.com/loopj/usb-gamecube-controller-adapter",
+    "description": "Open-source 4-port USB GameCube Controller Adapter, a drop-in replacement for Nintendo's official adapter",
     "stars": 13,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-07-14T14:41:08Z",
-    "updated_at": "2026-07-15T15:33:07Z",
+    "created_at": "2026-07-14T19:56:25Z",
+    "updated_at": "2026-07-17T04:37:43Z",
     "owner": {
-      "name": "vulnersCom",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22376776?v=4"
+      "name": "loopj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104009?v=4"
+    }
+  },
+  {
+    "name": "Zadagast/ooze",
+    "url": "https://github.com/Zadagast/ooze",
+    "description": "My dream linux desktop. 🐸",
+    "stars": 13,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-12T00:09:20Z",
+    "updated_at": "2026-07-17T02:06:24Z",
+    "owner": {
+      "name": "Zadagast",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55211161?v=4"
+    }
+  },
+  {
+    "name": "am2r-android/AM2R-Autopatcher-Android",
+    "url": "https://github.com/am2r-android/AM2R-Autopatcher-Android",
+    "description": null,
+    "stars": 13,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-07-15T16:44:33Z",
+    "updated_at": "2026-07-16T23:08:10Z",
+    "owner": {
+      "name": "am2r-android",
+      "avatar_url": "https://avatars.githubusercontent.com/u/304722279?v=4"
     }
   },
   {
@@ -1342,22 +1414,6 @@
     }
   },
   {
-    "name": "Zadagast/ooze",
-    "url": "https://github.com/Zadagast/ooze",
-    "description": "My dream linux desktop. 🐸",
-    "stars": 12,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-12T00:09:20Z",
-    "updated_at": "2026-07-16T04:40:34Z",
-    "owner": {
-      "name": "Zadagast",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55211161?v=4"
-    }
-  },
-  {
     "name": "va3jfl/PCem-WebAssembly",
     "url": "https://github.com/va3jfl/PCem-WebAssembly",
     "description": "A port of the PCem PC emulator to the browser. The native wxWidgets/Qt front end is replaced by a headless Emscripten build of the emulation core and a single-page web app that recreates PCem's \"Systems\" workflow.",
@@ -1381,6 +1437,30 @@
     "owner": {
       "name": "va3jfl",
       "avatar_url": "https://avatars.githubusercontent.com/u/87234018?v=4"
+    }
+  },
+  {
+    "name": "asxeem/openaliro",
+    "url": "https://github.com/asxeem/openaliro",
+    "description": "aliro smart lock compatible with ios wallet with uwb ranging and tap to unlock working out the box",
+    "stars": 12,
+    "forks": 7,
+    "language": "C",
+    "topics": [
+      "aliro",
+      "crypto",
+      "ios",
+      "nfc",
+      "security",
+      "sts",
+      "uwb"
+    ],
+    "license": "Other",
+    "created_at": "2026-07-11T12:12:00Z",
+    "updated_at": "2026-07-17T04:16:09Z",
+    "owner": {
+      "name": "asxeem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/301571878?v=4"
     }
   },
   {
@@ -1445,30 +1525,6 @@
     "owner": {
       "name": "codemagic-ci-cd",
       "avatar_url": "https://avatars.githubusercontent.com/u/53334409?v=4"
-    }
-  },
-  {
-    "name": "asxeem/openaliro",
-    "url": "https://github.com/asxeem/openaliro",
-    "description": "aliro smart lock compatible with ios wallet with uwb ranging and tap to unlock working out the box",
-    "stars": 11,
-    "forks": 7,
-    "language": "C",
-    "topics": [
-      "aliro",
-      "crypto",
-      "ios",
-      "nfc",
-      "security",
-      "sts",
-      "uwb"
-    ],
-    "license": "Other",
-    "created_at": "2026-07-11T12:12:00Z",
-    "updated_at": "2026-07-16T02:22:59Z",
-    "owner": {
-      "name": "asxeem",
-      "avatar_url": "https://avatars.githubusercontent.com/u/301571878?v=4"
     }
   },
   {
@@ -1622,22 +1678,6 @@
     "owner": {
       "name": "Aziteee",
       "avatar_url": "https://avatars.githubusercontent.com/u/113450723?v=4"
-    }
-  },
-  {
-    "name": "loopj/usb-gamecube-controller-adapter",
-    "url": "https://github.com/loopj/usb-gamecube-controller-adapter",
-    "description": "Open-source 4-port USB GameCube Controller Adapter, a drop-in replacement for Nintendo's official adapter",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-14T19:56:25Z",
-    "updated_at": "2026-07-15T22:21:41Z",
-    "owner": {
-      "name": "loopj",
-      "avatar_url": "https://avatars.githubusercontent.com/u/104009?v=4"
     }
   },
   {
@@ -1817,22 +1857,6 @@
     "owner": {
       "name": "NaGaa95",
       "avatar_url": "https://avatars.githubusercontent.com/u/38852591?v=4"
-    }
-  },
-  {
-    "name": "impost0r/Cottou",
-    "url": "https://github.com/impost0r/Cottou",
-    "description": "dyld rebase out-of-bounds segment index ACE",
-    "stars": 10,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-29T22:16:34Z",
-    "updated_at": "2026-07-03T04:12:02Z",
-    "owner": {
-      "name": "impost0r",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16020669?v=4"
     }
   }
 ]
