@@ -19,13 +19,13 @@
     "name": "cosmtrek/mindwalk",
     "url": "https://github.com/cosmtrek/mindwalk",
     "description": "A visualization tool that replays coding-agent sessions on a 3D map of your codebase.",
-    "stars": 761,
-    "forks": 45,
+    "stars": 776,
+    "forks": 47,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-07-09T11:41:46Z",
-    "updated_at": "2026-07-17T04:55:08Z",
+    "updated_at": "2026-07-18T02:38:45Z",
     "owner": {
       "name": "cosmtrek",
       "avatar_url": "https://avatars.githubusercontent.com/u/8832222?v=4"
@@ -35,8 +35,8 @@
     "name": "clawkwork/clawk",
     "url": "https://github.com/clawkwork/clawk",
     "description": "Give coding agents a disposable Linux VM, not your laptop",
-    "stars": 661,
-    "forks": 16,
+    "stars": 697,
+    "forks": 20,
     "language": "Go",
     "topics": [
       "agent-sandbox",
@@ -52,7 +52,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-07-06T21:30:38Z",
-    "updated_at": "2026-07-17T04:48:33Z",
+    "updated_at": "2026-07-18T03:39:04Z",
     "owner": {
       "name": "clawkwork",
       "avatar_url": "https://avatars.githubusercontent.com/u/261616134?v=4"
@@ -102,7 +102,7 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-06-20T17:39:59Z",
-    "updated_at": "2026-07-15T23:13:09Z",
+    "updated_at": "2026-07-17T16:30:25Z",
     "owner": {
       "name": "overflowy",
       "avatar_url": "https://avatars.githubusercontent.com/u/98480250?v=4"
@@ -163,27 +163,11 @@
     }
   },
   {
-    "name": "maaslalani/fast",
-    "url": "https://github.com/maaslalani/fast",
-    "description": "Internet speed test in your terminal",
-    "stars": 316,
-    "forks": 22,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-28T03:07:02Z",
-    "updated_at": "2026-07-16T08:12:20Z",
-    "owner": {
-      "name": "maaslalani",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42545625?v=4"
-    }
-  },
-  {
     "name": "vshulcz/deja-vu",
     "url": "https://github.com/vshulcz/deja-vu",
-    "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex and opencode already write. One zero-dep binary.",
-    "stars": 311,
-    "forks": 12,
+    "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex, opencode, Cursor, Gemini CLI, aider, Antigravity, Grok Build and Qwen Code already write. One zero-dep binary.",
+    "stars": 340,
+    "forks": 16,
     "language": "Go",
     "topics": [
       "agent-memory",
@@ -202,10 +186,42 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-14T07:45:44Z",
-    "updated_at": "2026-07-17T04:56:57Z",
+    "updated_at": "2026-07-18T04:06:01Z",
     "owner": {
       "name": "vshulcz",
       "avatar_url": "https://avatars.githubusercontent.com/u/99616188?v=4"
+    }
+  },
+  {
+    "name": "maaslalani/fast",
+    "url": "https://github.com/maaslalani/fast",
+    "description": "Internet speed test in your terminal",
+    "stars": 317,
+    "forks": 22,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-28T03:07:02Z",
+    "updated_at": "2026-07-17T21:11:28Z",
+    "owner": {
+      "name": "maaslalani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42545625?v=4"
+    }
+  },
+  {
+    "name": "nethical6/conversation-steganography",
+    "url": "https://github.com/nethical6/conversation-steganography",
+    "description": "Use LLMS to hide secret messages inside normal-looking chat text",
+    "stars": 316,
+    "forks": 16,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-07-17T04:58:22Z",
+    "updated_at": "2026-07-18T04:32:39Z",
+    "owner": {
+      "name": "nethical6",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79095297?v=4"
     }
   },
   {
@@ -236,27 +252,11 @@
     }
   },
   {
-    "name": "WhiteDNS/WhiteDNS-Wizard",
-    "url": "https://github.com/WhiteDNS/WhiteDNS-Wizard",
-    "description": "Cloudflare-first WhiteDNS CLI/TUI for provisioning a managed 3x-ui/Xray VPN stack over SSH, with DNS, certificates, client import links, Tor-routed profiles, diagnostics, backups, and repair/reset flows.",
-    "stars": 292,
-    "forks": 23,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-06-05T07:34:28Z",
-    "updated_at": "2026-07-03T21:01:20Z",
-    "owner": {
-      "name": "WhiteDNS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/294980615?v=4"
-    }
-  },
-  {
     "name": "kerlenton/mcpsnoop",
     "url": "https://github.com/kerlenton/mcpsnoop",
     "description": "Wireshark for MCP. A transparent proxy that shows every real tool call between your AI client and your MCP servers, live in your terminal.",
-    "stars": 271,
-    "forks": 18,
+    "stars": 272,
+    "forks": 19,
     "language": "Go",
     "topics": [
       "bubbletea",
@@ -275,7 +275,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-27T10:25:09Z",
-    "updated_at": "2026-07-16T21:30:51Z",
+    "updated_at": "2026-07-17T18:28:18Z",
     "owner": {
       "name": "kerlenton",
       "avatar_url": "https://avatars.githubusercontent.com/u/51188729?v=4"
@@ -285,8 +285,8 @@
     "name": "michaelshimeles/boring-computers",
     "url": "https://github.com/michaelshimeles/boring-computers",
     "description": "On-demand Linux computers you can hand to an AI — real Firecracker microVMs with a browser, terminal, coding agents, and an AI that drives them.",
-    "stars": 264,
-    "forks": 36,
+    "stars": 265,
+    "forks": 37,
     "language": "Go",
     "topics": [
       "ai-agents",
@@ -300,7 +300,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-06-30T04:25:16Z",
-    "updated_at": "2026-07-16T07:57:35Z",
+    "updated_at": "2026-07-17T12:03:40Z",
     "owner": {
       "name": "michaelshimeles",
       "avatar_url": "https://avatars.githubusercontent.com/u/69605071?v=4"
@@ -310,13 +310,13 @@
     "name": "JotaDev66/WaCalls",
     "url": "https://github.com/JotaDev66/WaCalls",
     "description": null,
-    "stars": 261,
-    "forks": 110,
+    "stars": 262,
+    "forks": 113,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-06-24T05:33:17Z",
-    "updated_at": "2026-07-16T21:07:30Z",
+    "updated_at": "2026-07-17T16:28:17Z",
     "owner": {
       "name": "JotaDev66",
       "avatar_url": "https://avatars.githubusercontent.com/u/145607960?v=4"
@@ -326,7 +326,7 @@
     "name": "programmersd21/flow",
     "url": "https://github.com/programmersd21/flow",
     "description": "🌊 see your network breathe",
-    "stars": 248,
+    "stars": 249,
     "forks": 7,
     "language": "Go",
     "topics": [
@@ -353,7 +353,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-04T10:09:41Z",
-    "updated_at": "2026-07-17T00:07:05Z",
+    "updated_at": "2026-07-17T20:19:11Z",
     "owner": {
       "name": "programmersd21",
       "avatar_url": "https://avatars.githubusercontent.com/u/192335465?v=4"
@@ -363,13 +363,13 @@
     "name": "kentjuno/ainovel-cli",
     "url": "https://github.com/kentjuno/ainovel-cli",
     "description": "CLI sáng tác tiểu thuyết AI đa agent — Bản tiếng Việt của voocel/ainovel-cli",
-    "stars": 244,
+    "stars": 245,
     "forks": 126,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-06-25T15:28:12Z",
-    "updated_at": "2026-07-16T19:13:19Z",
+    "updated_at": "2026-07-17T11:42:29Z",
     "owner": {
       "name": "kentjuno",
       "avatar_url": "https://avatars.githubusercontent.com/u/2578731?v=4"
@@ -445,13 +445,13 @@
     "name": "Sophomoresty/mediago",
     "url": "https://github.com/Sophomoresty/mediago",
     "description": "Download videos from 90+ Chinese educational platforms. Single binary, yt-dlp style.",
-    "stars": 204,
+    "stars": 205,
     "forks": 120,
     "language": "Go",
     "topics": [],
     "license": "The Unlicense",
     "created_at": "2026-06-26T05:33:14Z",
-    "updated_at": "2026-07-17T00:57:10Z",
+    "updated_at": "2026-07-17T05:33:02Z",
     "owner": {
       "name": "Sophomoresty",
       "avatar_url": "https://avatars.githubusercontent.com/u/94944221?v=4"
@@ -483,7 +483,7 @@
     "name": "Google-Health-API/google-health-cli",
     "url": "https://github.com/Google-Health-API/google-health-cli",
     "description": "Google Health CLI — one command-line tool for the Google Health API. Includes AI agent skills.",
-    "stars": 196,
+    "stars": 197,
     "forks": 17,
     "language": "Go",
     "topics": [
@@ -500,33 +500,17 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-06-24T12:37:34Z",
-    "updated_at": "2026-07-16T18:54:41Z",
+    "updated_at": "2026-07-17T17:26:12Z",
     "owner": {
       "name": "Google-Health-API",
       "avatar_url": "https://avatars.githubusercontent.com/u/1039877?v=4"
     }
   },
   {
-    "name": "rogerai-fyi/roger",
-    "url": "https://github.com/rogerai-fyi/roger",
-    "description": "RogerAI - a two-way radio for GPUs: a marketplace for self-hosted LLMs (CLI + broker + site).",
-    "stars": 192,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-06-23T18:46:46Z",
-    "updated_at": "2026-07-15T16:34:04Z",
-    "owner": {
-      "name": "rogerai-fyi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/296235826?v=4"
-    }
-  },
-  {
     "name": "alvinunreal/lazyskills",
     "url": "https://github.com/alvinunreal/lazyskills",
     "description": "mission control for agent skills",
-    "stars": 192,
+    "stars": 195,
     "forks": 11,
     "language": "Go",
     "topics": [
@@ -553,10 +537,42 @@
     ],
     "license": "MIT License",
     "created_at": "2026-06-19T06:20:40Z",
-    "updated_at": "2026-07-17T03:03:46Z",
+    "updated_at": "2026-07-18T01:33:56Z",
     "owner": {
       "name": "alvinunreal",
       "avatar_url": "https://avatars.githubusercontent.com/u/204474669?v=4"
+    }
+  },
+  {
+    "name": "rogerai-fyi/roger",
+    "url": "https://github.com/rogerai-fyi/roger",
+    "description": "RogerAI - a two-way radio for GPUs: a marketplace for self-hosted LLMs (CLI + broker + site).",
+    "stars": 192,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-06-23T18:46:46Z",
+    "updated_at": "2026-07-15T16:34:04Z",
+    "owner": {
+      "name": "rogerai-fyi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/296235826?v=4"
+    }
+  },
+  {
+    "name": "px0-ai/px0",
+    "url": "https://github.com/px0-ai/px0",
+    "description": "px0 is an open-source prompt infrastructure toolkit that lets you version, update, and govern prompts in production without changing application code.",
+    "stars": 185,
+    "forks": 20,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-24T13:03:11Z",
+    "updated_at": "2026-07-18T04:03:03Z",
+    "owner": {
+      "name": "px0-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/296186638?v=4"
     }
   },
   {
@@ -576,74 +592,10 @@
     }
   },
   {
-    "name": "px0-ai/px0",
-    "url": "https://github.com/px0-ai/px0",
-    "description": "px0 is an open-source prompt infrastructure toolkit that lets you version, update, and govern prompts in production without changing application code.",
-    "stars": 181,
-    "forks": 19,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-24T13:03:11Z",
-    "updated_at": "2026-07-17T04:55:07Z",
-    "owner": {
-      "name": "px0-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/296186638?v=4"
-    }
-  },
-  {
-    "name": "purpshell/meowcaller",
-    "url": "https://github.com/purpshell/meowcaller",
-    "description": "WhatsApp VoIP Go library for whatsmeow",
-    "stars": 177,
-    "forks": 84,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-19T03:30:55Z",
-    "updated_at": "2026-07-16T21:26:32Z",
-    "owner": {
-      "name": "purpshell",
-      "avatar_url": "https://avatars.githubusercontent.com/u/52720753?v=4"
-    }
-  },
-  {
-    "name": "xiaozhou26/icloud-hme",
-    "url": "https://github.com/xiaozhou26/icloud-hme",
-    "description": null,
-    "stars": 174,
-    "forks": 57,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-08T11:04:56Z",
-    "updated_at": "2026-07-16T18:38:03Z",
-    "owner": {
-      "name": "xiaozhou26",
-      "avatar_url": "https://avatars.githubusercontent.com/u/122727418?v=4"
-    }
-  },
-  {
-    "name": "deviseo/transit-hub",
-    "url": "https://github.com/deviseo/transit-hub",
-    "description": "A multi-upstream operations hub for self-hosted API services built with sub2api or new-api.",
-    "stars": 163,
-    "forks": 16,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Lesser General Public License v3.0",
-    "created_at": "2026-07-03T09:56:31Z",
-    "updated_at": "2026-07-16T09:44:14Z",
-    "owner": {
-      "name": "deviseo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/299360238?v=4"
-    }
-  },
-  {
     "name": "mobazha/mobazha",
     "url": "https://github.com/mobazha/mobazha",
     "description": "Open-source peer-to-peer commerce platform for storefronts, marketplaces, orders, and crypto payments.",
-    "stars": 161,
+    "stars": 179,
     "forks": 1,
     "language": "Go",
     "topics": [
@@ -659,10 +611,58 @@
     ],
     "license": "Mozilla Public License 2.0",
     "created_at": "2026-06-29T02:37:12Z",
-    "updated_at": "2026-07-17T04:29:41Z",
+    "updated_at": "2026-07-18T02:06:28Z",
     "owner": {
       "name": "mobazha",
       "avatar_url": "https://avatars.githubusercontent.com/u/43689389?v=4"
+    }
+  },
+  {
+    "name": "purpshell/meowcaller",
+    "url": "https://github.com/purpshell/meowcaller",
+    "description": "WhatsApp VoIP Go library for whatsmeow",
+    "stars": 178,
+    "forks": 84,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-06-19T03:30:55Z",
+    "updated_at": "2026-07-17T13:50:45Z",
+    "owner": {
+      "name": "purpshell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52720753?v=4"
+    }
+  },
+  {
+    "name": "xiaozhou26/icloud-hme",
+    "url": "https://github.com/xiaozhou26/icloud-hme",
+    "description": null,
+    "stars": 177,
+    "forks": 58,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-08T11:04:56Z",
+    "updated_at": "2026-07-17T16:51:29Z",
+    "owner": {
+      "name": "xiaozhou26",
+      "avatar_url": "https://avatars.githubusercontent.com/u/122727418?v=4"
+    }
+  },
+  {
+    "name": "deviseo/transit-hub",
+    "url": "https://github.com/deviseo/transit-hub",
+    "description": "A multi-upstream operations hub for self-hosted API services built with sub2api or new-api.",
+    "stars": 164,
+    "forks": 18,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Lesser General Public License v3.0",
+    "created_at": "2026-07-03T09:56:31Z",
+    "updated_at": "2026-07-17T09:53:32Z",
+    "owner": {
+      "name": "deviseo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/299360238?v=4"
     }
   },
   {
@@ -687,42 +687,36 @@
     }
   },
   {
-    "name": "MAX-API-Next/MAX-API",
-    "url": "https://github.com/MAX-API-Next/MAX-API",
-    "description": "MAX API Next 社区是由来自科研机构和高校的 AGI 爱好者组织发起、维护和运营的研究驱动型技术社区，聚焦 AI Models 与 Agents 治理方向，致力于建设面向 AGI 应用时代的开放基础设施。社区关注多模型与多平台接入、国产模型持续适配、AgentOps 工程实践、成本审计、权限与安全边界、私有化部署和长期运营优化，目标是把模型服务、Agent 应用、用户组织和上游平台之间的共性治理问题沉淀为稳定、可复用、可持续演进的工程能力。",
-    "stars": 155,
-    "forks": 8,
+    "name": "pax-beehive/paxm",
+    "url": "https://github.com/pax-beehive/paxm",
+    "description": "Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.",
+    "stars": 156,
+    "forks": 4,
     "language": "Go",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-06-15T13:20:59Z",
-    "updated_at": "2026-07-13T16:08:12Z",
+    "topics": [
+      "agent-memory",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "golang",
+      "local-first",
+      "mcp",
+      "opencode",
+      "sqlite"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-09T02:40:57Z",
+    "updated_at": "2026-07-18T04:15:18Z",
     "owner": {
-      "name": "MAX-API-Next",
-      "avatar_url": "https://avatars.githubusercontent.com/u/290759680?v=4"
-    }
-  },
-  {
-    "name": "tamnd/ascii-gif",
-    "url": "https://github.com/tamnd/ascii-gif",
-    "description": "Turn a terminal session into a good-looking animated GIF. A vhs wrapper with an attractive default look.",
-    "stars": 155,
-    "forks": 3,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-14T13:19:11Z",
-    "updated_at": "2026-07-03T14:08:22Z",
-    "owner": {
-      "name": "tamnd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1218621?v=4"
+      "name": "pax-beehive",
+      "avatar_url": "https://avatars.githubusercontent.com/u/292671531?v=4"
     }
   },
   {
     "name": "Foxemsx/riptide",
     "url": "https://github.com/Foxemsx/riptide",
     "description": "A polished terminal internet speed test and realtime bandwidth monitor written in Go. Riptide measures download, upload, and latency in a centered card UI with live progress, compact sparklines, smooth animation, and clean cross-platform output for Linux and Windows terminals.",
-    "stars": 149,
+    "stars": 156,
     "forks": 5,
     "language": "Go",
     "topics": [
@@ -739,17 +733,33 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-06T11:47:48Z",
-    "updated_at": "2026-07-17T00:46:01Z",
+    "updated_at": "2026-07-17T19:44:47Z",
     "owner": {
       "name": "Foxemsx",
       "avatar_url": "https://avatars.githubusercontent.com/u/133228093?v=4"
     }
   },
   {
+    "name": "MAX-API-Next/MAX-API",
+    "url": "https://github.com/MAX-API-Next/MAX-API",
+    "description": "MAX API Next 社区是由来自科研机构和高校的 AGI 爱好者组织发起、维护和运营的研究驱动型技术社区，聚焦 AI Models 与 Agents 治理方向，致力于建设面向 AGI 应用时代的开放基础设施。社区关注多模型与多平台接入、国产模型持续适配、AgentOps 工程实践、成本审计、权限与安全边界、私有化部署和长期运营优化，目标是把模型服务、Agent 应用、用户组织和上游平台之间的共性治理问题沉淀为稳定、可复用、可持续演进的工程能力。",
+    "stars": 155,
+    "forks": 8,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-06-15T13:20:59Z",
+    "updated_at": "2026-07-13T16:08:12Z",
+    "owner": {
+      "name": "MAX-API-Next",
+      "avatar_url": "https://avatars.githubusercontent.com/u/290759680?v=4"
+    }
+  },
+  {
     "name": "GreyGunG/grokbuild-proxy",
     "url": "https://github.com/GreyGunG/grokbuild-proxy",
     "description": "本地自托管的 Grok Build → Claude Code / OpenAI 兼容代理 | Local self-hosted Grok Build compatibility proxy",
-    "stars": 148,
+    "stars": 150,
     "forks": 43,
     "language": "Go",
     "topics": [
@@ -765,36 +775,10 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-09T23:28:51Z",
-    "updated_at": "2026-07-17T02:57:34Z",
+    "updated_at": "2026-07-18T00:56:36Z",
     "owner": {
       "name": "GreyGunG",
       "avatar_url": "https://avatars.githubusercontent.com/u/6110905?v=4"
-    }
-  },
-  {
-    "name": "pax-beehive/paxm",
-    "url": "https://github.com/pax-beehive/paxm",
-    "description": "Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.",
-    "stars": 147,
-    "forks": 3,
-    "language": "Go",
-    "topics": [
-      "agent-memory",
-      "ai-agents",
-      "claude-code",
-      "codex",
-      "golang",
-      "local-first",
-      "mcp",
-      "opencode",
-      "sqlite"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-09T02:40:57Z",
-    "updated_at": "2026-07-17T04:51:15Z",
-    "owner": {
-      "name": "pax-beehive",
-      "avatar_url": "https://avatars.githubusercontent.com/u/292671531?v=4"
     }
   },
   {
@@ -842,16 +826,69 @@
     "name": "aurora-develop/grok2api",
     "url": "https://github.com/aurora-develop/grok2api",
     "description": null,
-    "stars": 144,
+    "stars": 143,
     "forks": 34,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-06-28T04:07:28Z",
-    "updated_at": "2026-07-17T02:39:47Z",
+    "updated_at": "2026-07-18T03:41:17Z",
     "owner": {
       "name": "aurora-develop",
       "avatar_url": "https://avatars.githubusercontent.com/u/157781271?v=4"
+    }
+  },
+  {
+    "name": "cynative/cynative",
+    "url": "https://github.com/cynative/cynative",
+    "description": "Deep cybersecurity research agent for your cloud, code and runtime - ask your infrastructure anything. Read-only, sandboxed.",
+    "stars": 137,
+    "forks": 24,
+    "language": "Go",
+    "topics": [
+      "agentic-security",
+      "ai-agent",
+      "application-security",
+      "aws-security",
+      "azure-security",
+      "cli-tool",
+      "cloud-security",
+      "container-security",
+      "cybersecurity",
+      "devsecops",
+      "gcp-security",
+      "product-security",
+      "read-only",
+      "runtime-security",
+      "security-automation",
+      "security-tools",
+      "sovereign-ai",
+      "threat-hunting",
+      "trust-boundary",
+      "vulnerability-management"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-06-24T18:06:26Z",
+    "updated_at": "2026-07-17T17:30:54Z",
+    "owner": {
+      "name": "cynative",
+      "avatar_url": "https://avatars.githubusercontent.com/u/260118153?v=4"
+    }
+  },
+  {
+    "name": "shibadogcap/dpgk",
+    "url": "https://github.com/shibadogcap/dpgk",
+    "description": "ドーパミン中毒のガキ専用、問答無用でターミナルを虹色にするやつ",
+    "stars": 137,
+    "forks": 6,
+    "language": "Go",
+    "topics": [],
+    "license": "Do What The F*ck You Want To Public License",
+    "created_at": "2026-07-15T14:10:03Z",
+    "updated_at": "2026-07-17T17:06:57Z",
+    "owner": {
+      "name": "shibadogcap",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132909895?v=4"
     }
   },
   {
@@ -885,43 +922,6 @@
     "owner": {
       "name": "olemeyer",
       "avatar_url": "https://avatars.githubusercontent.com/u/12031071?v=4"
-    }
-  },
-  {
-    "name": "cynative/cynative",
-    "url": "https://github.com/cynative/cynative",
-    "description": "Deep cybersecurity research agent for your cloud, code and runtime - ask your infrastructure anything. Read-only, sandboxed.",
-    "stars": 128,
-    "forks": 24,
-    "language": "Go",
-    "topics": [
-      "agentic-security",
-      "ai-agent",
-      "application-security",
-      "aws-security",
-      "azure-security",
-      "cli-tool",
-      "cloud-security",
-      "container-security",
-      "cybersecurity",
-      "devsecops",
-      "gcp-security",
-      "product-security",
-      "read-only",
-      "runtime-security",
-      "security-automation",
-      "security-tools",
-      "sovereign-ai",
-      "threat-hunting",
-      "trust-boundary",
-      "vulnerability-management"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-06-24T18:06:26Z",
-    "updated_at": "2026-07-17T03:44:21Z",
-    "owner": {
-      "name": "cynative",
-      "avatar_url": "https://avatars.githubusercontent.com/u/260118153?v=4"
     }
   },
   {
@@ -1195,43 +1195,6 @@
     "owner": {
       "name": "raiyanyahya",
       "avatar_url": "https://avatars.githubusercontent.com/u/23720340?v=4"
-    }
-  },
-  {
-    "name": "0xMassi/pocketdev",
-    "url": "https://github.com/0xMassi/pocketdev",
-    "description": "One command to run the AI coding CLI you already pay for (Claude Code, Codex, Cursor, Gemini, Grok, aider) on a Tailscale-only Hetzner box — code from your phone.",
-    "stars": 92,
-    "forks": 3,
-    "language": "Go",
-    "topics": [
-      "ai-coding",
-      "bubbletea",
-      "claude-code",
-      "cli",
-      "cloud-development-environment",
-      "cloud-init",
-      "coding-agent",
-      "devbox",
-      "developer-tools",
-      "golang",
-      "hetzner",
-      "hetzner-cloud",
-      "mosh",
-      "remote-development",
-      "self-hosted",
-      "ssh",
-      "tailscale",
-      "termius",
-      "tui",
-      "vps"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-06-29T14:03:44Z",
-    "updated_at": "2026-07-03T16:36:25Z",
-    "owner": {
-      "name": "0xMassi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/88933932?v=4"
     }
   }
 ]

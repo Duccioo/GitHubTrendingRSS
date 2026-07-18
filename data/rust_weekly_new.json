@@ -3,13 +3,13 @@
     "name": "xai-org/grok-build",
     "url": "https://github.com/xai-org/grok-build",
     "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
-    "stars": 13172,
-    "forks": 2368,
+    "stars": 16930,
+    "forks": 3106,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-07-14T20:04:23Z",
-    "updated_at": "2026-07-17T04:59:41Z",
+    "updated_at": "2026-07-18T04:44:34Z",
     "owner": {
       "name": "xai-org",
       "avatar_url": "https://avatars.githubusercontent.com/u/130314967?v=4"
@@ -35,13 +35,13 @@
     "name": "CluvexStudio/Aether",
     "url": "https://github.com/CluvexStudio/Aether",
     "description": null,
-    "stars": 946,
-    "forks": 45,
+    "stars": 1155,
+    "forks": 65,
     "language": "Rust",
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-07-14T14:20:44Z",
-    "updated_at": "2026-07-17T05:00:17Z",
+    "updated_at": "2026-07-18T04:42:26Z",
     "owner": {
       "name": "CluvexStudio",
       "avatar_url": "https://avatars.githubusercontent.com/u/125141320?v=4"
@@ -235,6 +235,30 @@
     }
   },
   {
+    "name": "ZethRise/Aethery",
+    "url": "https://github.com/ZethRise/Aethery",
+    "description": "One-click mobile GUI for the Aether censorship-circumvention tunnel — Kotlin & Rust",
+    "stars": 146,
+    "forks": 7,
+    "language": "Rust",
+    "topics": [
+      "aether",
+      "android",
+      "censorship",
+      "gui",
+      "kotlin",
+      "mobile-app",
+      "rust"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-07-15T16:30:13Z",
+    "updated_at": "2026-07-18T04:41:54Z",
+    "owner": {
+      "name": "ZethRise",
+      "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4"
+    }
+  },
+  {
     "name": "RongleCat/grok-go",
     "url": "https://github.com/RongleCat/grok-go",
     "description": "Local multi-account Grok gateway for Codex (API + MCP). 本地多账号 Grok 网关，面向 Codex。",
@@ -348,36 +372,6 @@
     }
   },
   {
-    "name": "SuperJJ007/CSswitch",
-    "url": "https://github.com/SuperJJ007/CSswitch",
-    "description": "让 Claude Science 的推理走自选的第三方 API（DeepSeek / 通义千问 / 任意 OpenAI 兼容端点），保留工具调用·Skill·MCP·代码执行，含本地虚拟登录跳过。macOS 菜单栏 app。仅供个人学习研究，使用者自负风险。",
-    "stars": 115,
-    "forks": 12,
-    "language": "Rust",
-    "topics": [
-      "anthropic",
-      "claude",
-      "claude-science",
-      "dashscope",
-      "deepseek",
-      "llm",
-      "macos",
-      "mcp",
-      "menubar",
-      "openai-compatible",
-      "proxy",
-      "qwen",
-      "tauri"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-02T16:46:56Z",
-    "updated_at": "2026-07-03T05:32:16Z",
-    "owner": {
-      "name": "SuperJJ007",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63803490?v=4"
-    }
-  },
-  {
     "name": "ActiveTK/VRAMDISK",
     "url": "https://github.com/ActiveTK/VRAMDISK",
     "description": "VRAMDISK: Create VRAM disk on Windows",
@@ -410,30 +404,6 @@
     }
   },
   {
-    "name": "ZethRise/Aethery",
-    "url": "https://github.com/ZethRise/Aethery",
-    "description": "One-click mobile GUI for the Aether censorship-circumvention tunnel — Kotlin & Rust",
-    "stars": 105,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [
-      "aether",
-      "android",
-      "censorship",
-      "gui",
-      "kotlin",
-      "mobile-app",
-      "rust"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-07-15T16:30:13Z",
-    "updated_at": "2026-07-17T02:58:40Z",
-    "owner": {
-      "name": "ZethRise",
-      "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4"
-    }
-  },
-  {
     "name": "Kuddev/nebula",
     "url": "https://github.com/Kuddev/nebula",
     "description": null,
@@ -447,29 +417,6 @@
     "owner": {
       "name": "Kuddev",
       "avatar_url": "https://avatars.githubusercontent.com/u/292709043?v=4"
-    }
-  },
-  {
-    "name": "Ray-Code-Svg/SuperNovaAgent",
-    "url": "https://github.com/Ray-Code-Svg/SuperNovaAgent",
-    "description": "SuperNova is a Windows-first desktop AI Workbench that turns chat into traceable tasks. It combines a Tauri + React Workbench, Rust Product Runtime, typed protocol, and Process Kernel so actions can produce visible artifacts, runtime receipts, replayable evidence, and controlled workspace execution.",
-    "stars": 94,
-    "forks": 41,
-    "language": "Rust",
-    "topics": [
-      "agent-framework",
-      "agent-orchestration",
-      "desktop-application",
-      "harness-engineering",
-      "harness-framework",
-      "windows"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-06-27T11:58:48Z",
-    "updated_at": "2026-07-03T05:42:22Z",
-    "owner": {
-      "name": "Ray-Code-Svg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/223134892?v=4"
     }
   },
   {
@@ -742,6 +689,31 @@
     }
   },
   {
+    "name": "articulite/BetterCopy",
+    "url": "https://github.com/articulite/BetterCopy",
+    "description": "Better copy utility for modern Windows computers",
+    "stars": 53,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "file-copy",
+      "files",
+      "nvme",
+      "open-source",
+      "parallel",
+      "rust",
+      "ssd",
+      "windows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-14T00:32:32Z",
+    "updated_at": "2026-07-18T00:11:11Z",
+    "owner": {
+      "name": "articulite",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6879392?v=4"
+    }
+  },
+  {
     "name": "timiil/traylnks",
     "url": "https://github.com/timiil/traylnks",
     "description": "TrayLnks — 轻量级 Windows 托盘链接启动器，文件系统即配置。指向一个文件夹，它就变成一个多级托盘菜单。",
@@ -779,31 +751,6 @@
     }
   },
   {
-    "name": "articulite/BetterCopy",
-    "url": "https://github.com/articulite/BetterCopy",
-    "description": "Better copy utility for modern Windows computers",
-    "stars": 50,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "file-copy",
-      "files",
-      "nvme",
-      "open-source",
-      "parallel",
-      "rust",
-      "ssd",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-14T00:32:32Z",
-    "updated_at": "2026-07-17T03:29:08Z",
-    "owner": {
-      "name": "articulite",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6879392?v=4"
-    }
-  },
-  {
     "name": "Incline-Developers/Incline",
     "url": "https://github.com/Incline-Developers/Incline",
     "description": "GPU-accelerated mine design software",
@@ -823,8 +770,8 @@
     "name": "giannisanni/pulsar",
     "url": "https://github.com/giannisanni/pulsar",
     "description": "SSD-streaming inference engine for giant MoE models (Rust + CUDA). GLM 5.2 743B at 2 tok/s and Hy3 295B at 7 tok/s on two consumer 16GB GPUs. Zero-config multi-GPU: measures PCIe bandwidth, places attention and hot experts where they fit.",
-    "stars": 42,
-    "forks": 4,
+    "stars": 43,
+    "forks": 5,
     "language": "Rust",
     "topics": [
       "cuda",
@@ -842,7 +789,7 @@
     ],
     "license": "Other",
     "created_at": "2026-07-13T04:08:14Z",
-    "updated_at": "2026-07-17T04:51:28Z",
+    "updated_at": "2026-07-18T03:44:29Z",
     "owner": {
       "name": "giannisanni",
       "avatar_url": "https://avatars.githubusercontent.com/u/115853836?v=4"
@@ -865,6 +812,22 @@
     }
   },
   {
+    "name": "MrTiz/CET-Enum-CallStack-Spoofer",
+    "url": "https://github.com/MrTiz/CET-Enum-CallStack-Spoofer",
+    "description": "A Proof of Concept demonstrating CET-compliant callstack spoofing in Rust. It leverages Windows Thread Pool and Enum Callback trampolining (e.g., EnumSystemLocalesEx) to forge a pristine, hardware-aligned call stack for indirect syscall evasion.",
+    "stars": 40,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-07-12T14:33:37Z",
+    "updated_at": "2026-07-17T21:16:55Z",
+    "owner": {
+      "name": "MrTiz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29025198?v=4"
+    }
+  },
+  {
     "name": "SK1PPR/broadsheet",
     "url": "https://github.com/SK1PPR/broadsheet",
     "description": null,
@@ -878,6 +841,38 @@
     "owner": {
       "name": "SK1PPR",
       "avatar_url": "https://avatars.githubusercontent.com/u/117133859?v=4"
+    }
+  },
+  {
+    "name": "nvrmnd-png/undo",
+    "url": "https://github.com/nvrmnd-png/undo",
+    "description": "Undo mv, rm, cp and more from your shell. Journaled to SQLite, deletions go to the trash, nothing gets lost.",
+    "stars": 38,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "bash",
+      "cli",
+      "coreutils",
+      "devtools",
+      "filesystem",
+      "fish-shell",
+      "gplv3",
+      "rust",
+      "shell",
+      "sqlite",
+      "terminal",
+      "trash",
+      "tui",
+      "undo",
+      "zsh"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-07-15T09:27:46Z",
+    "updated_at": "2026-07-18T00:36:56Z",
+    "owner": {
+      "name": "nvrmnd-png",
+      "avatar_url": "https://avatars.githubusercontent.com/u/226272600?v=4"
     }
   },
   {
@@ -908,28 +903,6 @@
     }
   },
   {
-    "name": "kapilpokhrel/regexplain",
-    "url": "https://github.com/kapilpokhrel/regexplain",
-    "description": "A terminal UI for explaining and visualizing regular expressions, kindof like regex101.",
-    "stars": 38,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "ratatui",
-      "regex",
-      "regex-explainer",
-      "regex-tester",
-      "rust"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-06-28T03:24:40Z",
-    "updated_at": "2026-07-04T04:38:15Z",
-    "owner": {
-      "name": "kapilpokhrel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/86480946?v=4"
-    }
-  },
-  {
     "name": "rndhouse/mixmod",
     "url": "https://github.com/rndhouse/mixmod",
     "description": "Reduce GPT-5.5 token usage 75.5% by supervising a 27B local model",
@@ -946,75 +919,27 @@
     }
   },
   {
-    "name": "BBALabs/athanor-lite",
-    "url": "https://github.com/BBALabs/athanor-lite",
-    "description": "Free GPU detection and local AI model manager. Scans your hardware, recommends compatible models, and handles download + launch in one click.",
-    "stars": 34,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-07-05T09:32:22Z",
-    "updated_at": "2026-07-10T21:18:40Z",
-    "owner": {
-      "name": "BBALabs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/258639616?v=4"
-    }
-  },
-  {
-    "name": "Kosthi/ipatool-rs",
-    "url": "https://github.com/Kosthi/ipatool-rs",
-    "description": "A terminal UI for searching, purchasing, and downloading iOS App Store IPA files, written in Rust.",
-    "stars": 34,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-28T11:54:30Z",
-    "updated_at": "2026-07-03T22:16:49Z",
-    "owner": {
-      "name": "Kosthi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30976463?v=4"
-    }
-  },
-  {
     "name": "solenovex/rust-ai-agent",
     "url": "https://github.com/solenovex/rust-ai-agent",
     "description": null,
-    "stars": 33,
+    "stars": 34,
     "forks": 2,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2026-07-13T05:46:47Z",
-    "updated_at": "2026-07-16T01:03:52Z",
+    "updated_at": "2026-07-17T10:28:05Z",
     "owner": {
       "name": "solenovex",
       "avatar_url": "https://avatars.githubusercontent.com/u/3320194?v=4"
     }
   },
   {
-    "name": "inclusionAI/Avernet",
-    "url": "https://github.com/inclusionAI/Avernet",
-    "description": null,
-    "stars": 32,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-06T03:52:54Z",
-    "updated_at": "2026-07-08T04:47:55Z",
-    "owner": {
-      "name": "inclusionAI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/199075982?v=4"
-    }
-  },
-  {
     "name": "bbarit/bbarit-agent-oss",
     "url": "https://github.com/bbarit/bbarit-agent-oss",
     "description": "Open-source AI coding agent for your terminal — one Rust binary, 15+ LLM providers, 1,000+ models. A self-hostable Claude Code / Codex CLI alternative (MIT).",
-    "stars": 31,
-    "forks": 9,
+    "stars": 34,
+    "forks": 10,
     "language": "Rust",
     "topics": [
       "agentic",
@@ -1040,10 +965,42 @@
     ],
     "license": "Other",
     "created_at": "2026-07-16T04:00:27Z",
-    "updated_at": "2026-07-17T00:15:42Z",
+    "updated_at": "2026-07-17T20:24:13Z",
     "owner": {
       "name": "bbarit",
       "avatar_url": "https://avatars.githubusercontent.com/u/276278028?v=4"
+    }
+  },
+  {
+    "name": "BBALabs/athanor-lite",
+    "url": "https://github.com/BBALabs/athanor-lite",
+    "description": "Free GPU detection and local AI model manager. Scans your hardware, recommends compatible models, and handles download + launch in one click.",
+    "stars": 34,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-07-05T09:32:22Z",
+    "updated_at": "2026-07-10T21:18:40Z",
+    "owner": {
+      "name": "BBALabs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/258639616?v=4"
+    }
+  },
+  {
+    "name": "inclusionAI/Avernet",
+    "url": "https://github.com/inclusionAI/Avernet",
+    "description": null,
+    "stars": 32,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-06T03:52:54Z",
+    "updated_at": "2026-07-08T04:47:55Z",
+    "owner": {
+      "name": "inclusionAI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199075982?v=4"
     }
   },
   {
@@ -1072,26 +1029,10 @@
     "topics": [],
     "license": "Other",
     "created_at": "2026-07-15T10:39:27Z",
-    "updated_at": "2026-07-17T04:44:46Z",
+    "updated_at": "2026-07-17T21:52:29Z",
     "owner": {
       "name": "jacksonjp0311-gif",
       "avatar_url": "https://avatars.githubusercontent.com/u/235741794?v=4"
-    }
-  },
-  {
-    "name": "MrTiz/CET-Enum-CallStack-Spoofer",
-    "url": "https://github.com/MrTiz/CET-Enum-CallStack-Spoofer",
-    "description": "A Proof of Concept demonstrating CET-compliant callstack spoofing in Rust. It leverages Windows Thread Pool and Enum Callback trampolining (e.g., EnumSystemLocalesEx) to forge a pristine, hardware-aligned call stack for indirect syscall evasion.",
-    "stars": 30,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-07-12T14:33:37Z",
-    "updated_at": "2026-07-17T00:27:58Z",
-    "owner": {
-      "name": "MrTiz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29025198?v=4"
     }
   },
   {
@@ -1133,6 +1074,50 @@
     "owner": {
       "name": "nexirdb",
       "avatar_url": "https://avatars.githubusercontent.com/u/289072440?v=4"
+    }
+  },
+  {
+    "name": "inbjo/MirrorProxy",
+    "url": "https://github.com/inbjo/MirrorProxy",
+    "description": "All-in-one mirror acceleration",
+    "stars": 29,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-15T05:51:24Z",
+    "updated_at": "2026-07-18T02:08:02Z",
+    "owner": {
+      "name": "inbjo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11854149?v=4"
+    }
+  },
+  {
+    "name": "ironic-org/ironic",
+    "url": "https://github.com/ironic-org/ironic",
+    "description": "A type-safe, modular Rust application framework. Batteries-included: DI, controllers, middleware, guards, pipes, WebSocket gateways, scheduling, caching, and OpenAPI.",
+    "stars": 29,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [
+      "api",
+      "backend-development",
+      "backend-framework",
+      "framework",
+      "frameworks",
+      "grahpql",
+      "mivroservices",
+      "restapis",
+      "rust",
+      "structure",
+      "websocket"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-13T06:14:00Z",
+    "updated_at": "2026-07-18T03:47:20Z",
+    "owner": {
+      "name": "ironic-org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/304294755?v=4"
     }
   },
   {
@@ -1280,66 +1265,6 @@
     }
   },
   {
-    "name": "ironic-org/ironic",
-    "url": "https://github.com/ironic-org/ironic",
-    "description": "A type-safe, modular Rust application framework. Batteries-included: DI, controllers, middleware, guards, pipes, WebSocket gateways, scheduling, caching, and OpenAPI.",
-    "stars": 27,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [
-      "api",
-      "backend-development",
-      "backend-framework",
-      "framework",
-      "frameworks",
-      "grahpql",
-      "mivroservices",
-      "restapis",
-      "rust",
-      "structure",
-      "websocket"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-13T06:14:00Z",
-    "updated_at": "2026-07-16T21:01:26Z",
-    "owner": {
-      "name": "ironic-org",
-      "avatar_url": "https://avatars.githubusercontent.com/u/304294755?v=4"
-    }
-  },
-  {
-    "name": "nvrmnd-png/undo",
-    "url": "https://github.com/nvrmnd-png/undo",
-    "description": "Undo mv, rm, cp and more from your shell. Journaled to SQLite, deletions go to the trash, nothing gets lost.",
-    "stars": 27,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "bash",
-      "cli",
-      "coreutils",
-      "devtools",
-      "filesystem",
-      "fish-shell",
-      "gplv3",
-      "rust",
-      "shell",
-      "sqlite",
-      "terminal",
-      "trash",
-      "tui",
-      "undo",
-      "zsh"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-07-15T09:27:46Z",
-    "updated_at": "2026-07-17T03:05:04Z",
-    "owner": {
-      "name": "nvrmnd-png",
-      "avatar_url": "https://avatars.githubusercontent.com/u/226272600?v=4"
-    }
-  },
-  {
     "name": "jasonsuhari/gridbash",
     "url": "https://github.com/jasonsuhari/gridbash",
     "description": "Windows-native terminal grid for running Codex, Claude, Gemini, and other CLI agents side by side.",
@@ -1390,6 +1315,22 @@
     "owner": {
       "name": "cianmcnally",
       "avatar_url": "https://avatars.githubusercontent.com/u/97746693?v=4"
+    }
+  },
+  {
+    "name": "luodaoyi/grok-bridge-rs",
+    "url": "https://github.com/luodaoyi/grok-bridge-rs",
+    "description": null,
+    "stars": 26,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-14T11:25:11Z",
+    "updated_at": "2026-07-17T15:23:55Z",
+    "owner": {
+      "name": "luodaoyi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12275765?v=4"
     }
   },
   {
@@ -1642,39 +1583,19 @@
     }
   },
   {
-    "name": "chrichuang218/claude-desktop-zh",
-    "url": "https://github.com/chrichuang218/claude-desktop-zh",
-    "description": "Claude Desktop Windows 中文补丁工具，支持简体中文、繁体中文和一键恢复",
-    "stars": 23,
-    "forks": 1,
+    "name": "tursodatabase/turso-vdbe-doom-example",
+    "url": "https://github.com/tursodatabase/turso-vdbe-doom-example",
+    "description": "Real Doom running on Turso's VDBE bytecode — a fork of Turso plus a small LLVM-IR-to-VDBE compiler (vdbecc).",
+    "stars": 22,
+    "forks": 2,
     "language": "Rust",
     "topics": [],
-    "license": "Other",
-    "created_at": "2026-06-29T13:26:54Z",
-    "updated_at": "2026-07-03T06:19:55Z",
+    "license": "MIT License",
+    "created_at": "2026-07-16T03:30:40Z",
+    "updated_at": "2026-07-18T04:19:16Z",
     "owner": {
-      "name": "chrichuang218",
-      "avatar_url": "https://avatars.githubusercontent.com/u/274725680?v=4"
-    }
-  },
-  {
-    "name": "cordx56/prepoly",
-    "url": "https://github.com/cordx56/prepoly",
-    "description": "The programming language utilizes JIT compilation and type inference",
-    "stars": 23,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "jit-compiler",
-      "programming-language",
-      "type-inference"
-    ],
-    "license": "Mozilla Public License 2.0",
-    "created_at": "2026-06-27T13:12:21Z",
-    "updated_at": "2026-07-03T05:32:24Z",
-    "owner": {
-      "name": "cordx56",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23298744?v=4"
+      "name": "tursodatabase",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139391156?v=4"
     }
   },
   {
@@ -1710,35 +1631,19 @@
     }
   },
   {
-    "name": "chi11321/CrabPort",
-    "url": "https://github.com/chi11321/CrabPort",
-    "description": null,
-    "stars": 22,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-06-28T19:43:46Z",
-    "updated_at": "2026-07-04T04:43:35Z",
-    "owner": {
-      "name": "chi11321",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65517712?v=4"
-    }
-  },
-  {
-    "name": "luodaoyi/grok-bridge-rs",
-    "url": "https://github.com/luodaoyi/grok-bridge-rs",
-    "description": null,
+    "name": "NFRohan/Deskemy",
+    "url": "https://github.com/NFRohan/Deskemy",
+    "description": "Offline course player for downloaded courses with progress tracking, resume, subtitle search, and native playback.",
     "stars": 21,
-    "forks": 5,
+    "forks": 1,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-07-14T11:25:11Z",
-    "updated_at": "2026-07-17T04:59:06Z",
+    "created_at": "2026-07-12T23:59:46Z",
+    "updated_at": "2026-07-18T01:56:56Z",
     "owner": {
-      "name": "luodaoyi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12275765?v=4"
+      "name": "NFRohan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81674173?v=4"
     }
   },
   {
@@ -1755,22 +1660,6 @@
     "owner": {
       "name": "cetanu",
       "avatar_url": "https://avatars.githubusercontent.com/u/2289018?v=4"
-    }
-  },
-  {
-    "name": "jolleyDesign/tudo",
-    "url": "https://github.com/jolleyDesign/tudo",
-    "description": "Fast, local, keyboard driven todo list TUI",
-    "stars": 21,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-06-28T22:14:13Z",
-    "updated_at": "2026-07-03T22:03:02Z",
-    "owner": {
-      "name": "jolleyDesign",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108022961?v=4"
     }
   },
   {
@@ -1837,6 +1726,22 @@
     }
   },
   {
+    "name": "BibekBhusal0/focusd",
+    "url": "https://github.com/BibekBhusal0/focusd",
+    "description": null,
+    "stars": 19,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-16T08:29:54Z",
+    "updated_at": "2026-07-17T21:35:14Z",
+    "owner": {
+      "name": "BibekBhusal0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/138126735?v=4"
+    }
+  },
+  {
     "name": "zed-industries/embedded_gpui",
     "url": "https://github.com/zed-industries/embedded_gpui",
     "description": "An experimental UI plugin API base for Zed",
@@ -1868,7 +1773,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-13T10:06:48Z",
-    "updated_at": "2026-07-16T17:27:32Z",
+    "updated_at": "2026-07-17T21:12:05Z",
     "owner": {
       "name": "jz315",
       "avatar_url": "https://avatars.githubusercontent.com/u/76777914?v=4"
@@ -1888,6 +1793,29 @@
     "owner": {
       "name": "taxideftis",
       "avatar_url": "https://avatars.githubusercontent.com/u/259588701?v=4"
+    }
+  },
+  {
+    "name": "slovx2/Codex-NN",
+    "url": "https://github.com/slovx2/Codex-NN",
+    "description": "Codex 暖暖：为官方 Codex Desktop 打造的跨平台可视化主题管理器",
+    "stars": 18,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "codex",
+      "desktop-app",
+      "macos",
+      "tauri",
+      "theme-manager",
+      "windows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-16T09:14:48Z",
+    "updated_at": "2026-07-18T02:06:51Z",
+    "owner": {
+      "name": "slovx2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2713715?v=4"
     }
   },
   {
@@ -2000,19 +1928,19 @@
     }
   },
   {
-    "name": "NFRohan/Deskemy",
-    "url": "https://github.com/NFRohan/Deskemy",
-    "description": "Offline course player for downloaded courses with progress tracking, resume, subtitle search, and native playback.",
+    "name": "marc-alexis-com/qr-swastika-avoider",
+    "url": "https://github.com/marc-alexis-com/qr-swastika-avoider",
+    "description": "Detect and avoid accidental hooked-cross (swastika) patterns in QR codes",
     "stars": 16,
     "forks": 0,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-07-12T23:59:46Z",
-    "updated_at": "2026-07-17T03:42:34Z",
+    "created_at": "2026-07-13T11:56:30Z",
+    "updated_at": "2026-07-17T12:43:30Z",
     "owner": {
-      "name": "NFRohan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/81674173?v=4"
+      "name": "marc-alexis-com",
+      "avatar_url": "https://avatars.githubusercontent.com/u/149798617?v=4"
     }
   },
   {
@@ -2056,19 +1984,19 @@
     }
   },
   {
-    "name": "marc-alexis-com/qr-swastika-avoider",
-    "url": "https://github.com/marc-alexis-com/qr-swastika-avoider",
-    "description": "Detect and avoid accidental hooked-cross (swastika) patterns in QR codes",
+    "name": "pathsim/fastsim",
+    "url": "https://github.com/pathsim/fastsim",
+    "description": "A fast, Rust-based drop-in replacement for pathsim",
     "stars": 15,
-    "forks": 0,
+    "forks": 2,
     "language": "Rust",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-13T11:56:30Z",
-    "updated_at": "2026-07-15T21:09:49Z",
+    "license": "Other",
+    "created_at": "2026-07-12T12:59:06Z",
+    "updated_at": "2026-07-17T16:36:47Z",
     "owner": {
-      "name": "marc-alexis-com",
-      "avatar_url": "https://avatars.githubusercontent.com/u/149798617?v=4"
+      "name": "pathsim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/240787570?v=4"
     }
   },
   {
@@ -2234,6 +2162,48 @@
     }
   },
   {
+    "name": "keros68/metrik",
+    "url": "https://github.com/keros68/metrik",
+    "description": "本地优先的 AI Agent 用量统计桌面应用：官方配额、本地 Token、估算成本三类事实分开呈现，读不到就说不可用",
+    "stars": 13,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "ai-agent",
+      "claude-code",
+      "codex",
+      "desktop-widget",
+      "local-first",
+      "react",
+      "rust",
+      "tauri",
+      "token-usage"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-14T03:28:09Z",
+    "updated_at": "2026-07-18T02:01:53Z",
+    "owner": {
+      "name": "keros68",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49635981?v=4"
+    }
+  },
+  {
+    "name": "HarryYCChou/lcx",
+    "url": "https://github.com/HarryYCChou/lcx",
+    "description": "LeetCode in your terminal",
+    "stars": 13,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-14T17:48:14Z",
+    "updated_at": "2026-07-18T00:54:50Z",
+    "owner": {
+      "name": "HarryYCChou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25545163?v=4"
+    }
+  },
+  {
     "name": "tkellogg/lanius",
     "url": "https://github.com/tkellogg/lanius",
     "description": null,
@@ -2334,6 +2304,22 @@
     "owner": {
       "name": "Karkas66",
       "avatar_url": "https://avatars.githubusercontent.com/u/25013261?v=4"
+    }
+  },
+  {
+    "name": "XVibeCoding/codex-provider-hub",
+    "url": "https://github.com/XVibeCoding/codex-provider-hub",
+    "description": "无论到哪个Provider，都能让 Codex 历史会话重新荣光",
+    "stars": 12,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-12T16:18:08Z",
+    "updated_at": "2026-07-18T04:17:37Z",
+    "owner": {
+      "name": "XVibeCoding",
+      "avatar_url": "https://avatars.githubusercontent.com/u/304094910?v=4"
     }
   },
   {
@@ -2453,29 +2439,6 @@
     "owner": {
       "name": "YetheSamartaka-Foxy",
       "avatar_url": "https://avatars.githubusercontent.com/u/298375110?v=4"
-    }
-  },
-  {
-    "name": "0xdea/ttyinject-rs",
-    "url": "https://github.com/0xdea/ttyinject-rs",
-    "description": "Linux local privilege escalation via TIOCSTI tty injection.",
-    "stars": 11,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "exploit",
-      "injection",
-      "ioctl",
-      "linux",
-      "tiocsti",
-      "tty"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-02T07:55:38Z",
-    "updated_at": "2026-07-04T00:58:37Z",
-    "owner": {
-      "name": "0xdea",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30093440?v=4"
     }
   },
   {
