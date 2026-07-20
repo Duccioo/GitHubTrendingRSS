@@ -3,8 +3,8 @@
     "name": "nethical6/conversation-steganography",
     "url": "https://github.com/nethical6/conversation-steganography",
     "description": "Use LLMs to hide messages inside normal looking conversations",
-    "stars": 724,
-    "forks": 41,
+    "stars": 830,
+    "forks": 48,
     "language": "Go",
     "topics": [
       "llm-tools",
@@ -12,7 +12,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-07-17T04:58:22Z",
-    "updated_at": "2026-07-19T05:12:23Z",
+    "updated_at": "2026-07-20T04:59:45Z",
     "owner": {
       "name": "nethical6",
       "avatar_url": "https://avatars.githubusercontent.com/u/79095297?v=4"
@@ -37,9 +37,9 @@
   {
     "name": "vshulcz/deja-vu",
     "url": "https://github.com/vshulcz/deja-vu",
-    "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex, opencode, Cursor, Gemini CLI, aider, Antigravity, Grok Build and Qwen Code already write. One zero-dep binary.",
-    "stars": 366,
-    "forks": 17,
+    "description": "Your agents already solved this. deja finds it — retroactive search and MCP recall over the session logs your coding agents already wrote. Cross-agent, SSH-portable, one zero-dep binary, fully local.",
+    "stars": 390,
+    "forks": 20,
     "language": "Go",
     "topics": [
       "agent-memory",
@@ -58,7 +58,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-14T07:45:44Z",
-    "updated_at": "2026-07-19T04:15:28Z",
+    "updated_at": "2026-07-20T05:32:12Z",
     "owner": {
       "name": "vshulcz",
       "avatar_url": "https://avatars.githubusercontent.com/u/99616188?v=4"
@@ -102,6 +102,22 @@
     }
   },
   {
+    "name": "shibadogcap/dpgk",
+    "url": "https://github.com/shibadogcap/dpgk",
+    "description": "ドーパミン中毒のガキ専用、問答無用でターミナルを虹色にするやつ",
+    "stars": 143,
+    "forks": 6,
+    "language": "Go",
+    "topics": [],
+    "license": "Do What The F*ck You Want To Public License",
+    "created_at": "2026-07-15T14:10:03Z",
+    "updated_at": "2026-07-20T04:46:29Z",
+    "owner": {
+      "name": "shibadogcap",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132909895?v=4"
+    }
+  },
+  {
     "name": "GreyGunG/grokbuild-proxy",
     "url": "https://github.com/GreyGunG/grokbuild-proxy",
     "description": "本地自托管的 Grok Build → Claude Code / OpenAI 兼容代理 | Local self-hosted Grok Build compatibility proxy",
@@ -125,22 +141,6 @@
     "owner": {
       "name": "GreyGunG",
       "avatar_url": "https://avatars.githubusercontent.com/u/6110905?v=4"
-    }
-  },
-  {
-    "name": "shibadogcap/dpgk",
-    "url": "https://github.com/shibadogcap/dpgk",
-    "description": "ドーパミン中毒のガキ専用、問答無用でターミナルを虹色にするやつ",
-    "stars": 139,
-    "forks": 6,
-    "language": "Go",
-    "topics": [],
-    "license": "Do What The F*ck You Want To Public License",
-    "created_at": "2026-07-15T14:10:03Z",
-    "updated_at": "2026-07-18T12:47:10Z",
-    "owner": {
-      "name": "shibadogcap",
-      "avatar_url": "https://avatars.githubusercontent.com/u/132909895?v=4"
     }
   },
   {
@@ -317,6 +317,22 @@
     }
   },
   {
+    "name": "scion-frontiers/farmtable",
+    "url": "https://github.com/scion-frontiers/farmtable",
+    "description": null,
+    "stars": 90,
+    "forks": 12,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-15T20:55:36Z",
+    "updated_at": "2026-07-20T04:13:44Z",
+    "owner": {
+      "name": "scion-frontiers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/291301694?v=4"
+    }
+  },
+  {
     "name": "Foxemsx/riptide",
     "url": "https://github.com/Foxemsx/riptide",
     "description": "A polished terminal internet speed test and realtime bandwidth monitor written in Go. Riptide measures download, upload, and latency in a centered card UI with live progress, compact sparklines, smooth animation, and clean cross-platform output for Linux and Windows terminals.",
@@ -357,22 +373,6 @@
     "owner": {
       "name": "ywddd",
       "avatar_url": "https://avatars.githubusercontent.com/u/36771198?v=4"
-    }
-  },
-  {
-    "name": "scion-frontiers/farmtable",
-    "url": "https://github.com/scion-frontiers/farmtable",
-    "description": null,
-    "stars": 70,
-    "forks": 12,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-15T20:55:36Z",
-    "updated_at": "2026-07-19T05:00:35Z",
-    "owner": {
-      "name": "scion-frontiers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/291301694?v=4"
     }
   },
   {
@@ -501,6 +501,30 @@
     "owner": {
       "name": "rengwu",
       "avatar_url": "https://avatars.githubusercontent.com/u/12826717?v=4"
+    }
+  },
+  {
+    "name": "baldaworks/callee",
+    "url": "https://github.com/baldaworks/callee",
+    "description": "Markdown-defined provider-backed agents and deterministic workflows for ACP runtimes.",
+    "stars": 57,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "acp",
+      "agents",
+      "ai-agents",
+      "developer-tools",
+      "golang",
+      "markdown",
+      "workflows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-14T08:26:23Z",
+    "updated_at": "2026-07-20T04:05:11Z",
+    "owner": {
+      "name": "baldaworks",
+      "avatar_url": "https://avatars.githubusercontent.com/u/301991855?v=4"
     }
   },
   {
@@ -633,30 +657,6 @@
     }
   },
   {
-    "name": "baldaworks/callee",
-    "url": "https://github.com/baldaworks/callee",
-    "description": "Markdown-defined provider-backed agents and deterministic workflows for ACP runtimes.",
-    "stars": 45,
-    "forks": 2,
-    "language": "Go",
-    "topics": [
-      "acp",
-      "agents",
-      "ai-agents",
-      "developer-tools",
-      "golang",
-      "markdown",
-      "workflows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-14T08:26:23Z",
-    "updated_at": "2026-07-19T02:19:55Z",
-    "owner": {
-      "name": "baldaworks",
-      "avatar_url": "https://avatars.githubusercontent.com/u/301991855?v=4"
-    }
-  },
-  {
     "name": "cloud-ru-tech/guardrails-llm-filter",
     "url": "https://github.com/cloud-ru-tech/guardrails-llm-filter",
     "description": "Прозрачный обратный прокси между вашими клиентами и LLM-провайдером: убирает чувствительные данные из запросов к модели и восстанавливает их в ответах.",
@@ -686,6 +686,24 @@
     "owner": {
       "name": "TizenryA",
       "avatar_url": "https://avatars.githubusercontent.com/u/255233716?v=4"
+    }
+  },
+  {
+    "name": "0xtbug/unofficial-pddikti-api",
+    "url": "https://github.com/0xtbug/unofficial-pddikti-api",
+    "description": "Reverse-engineered API for PDDIKTI — Indonesian Higher Education Database.  Provides access to universities, study programs, lecturers, and students data.",
+    "stars": 42,
+    "forks": 15,
+    "language": "Go",
+    "topics": [
+      "pddikti-api"
+    ],
+    "license": "No license",
+    "created_at": "2026-07-19T05:58:49Z",
+    "updated_at": "2026-07-20T05:28:02Z",
+    "owner": {
+      "name": "0xtbug",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54710482?v=4"
     }
   },
   {
@@ -762,6 +780,28 @@
     }
   },
   {
+    "name": "haxxm0nkey/credshound",
+    "url": "https://github.com/haxxm0nkey/credshound",
+    "description": "Nuclei-like credential surface scanner with BloodHound support. Audits local hosts for exposed secrets, cloud tokens, DevOps, and AI keys.",
+    "stars": 35,
+    "forks": 4,
+    "language": "Go",
+    "topics": [
+      "ai-security",
+      "bloodhound",
+      "lolcreds",
+      "pentest",
+      "redteam"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-17T06:49:37Z",
+    "updated_at": "2026-07-20T02:18:11Z",
+    "owner": {
+      "name": "haxxm0nkey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81935105?v=4"
+    }
+  },
+  {
     "name": "ahmdd4vd/K-12-reverse",
     "url": "https://github.com/ahmdd4vd/K-12-reverse",
     "description": "K12-Reverse ChatGPT Creator: Otomatisasi Registrasi Akun ChatGPT Skala Besar dengan Fitur K12 Invite dan Multi-Gmail IMAP.",
@@ -801,30 +841,6 @@
     "owner": {
       "name": "cloud-ru-tech",
       "avatar_url": "https://avatars.githubusercontent.com/u/145108281?v=4"
-    }
-  },
-  {
-    "name": "Moli13337/PokerFate-1.6",
-    "url": "https://github.com/Moli13337/PokerFate-1.6",
-    "description": "PokerFate private server.",
-    "stars": 32,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "gambling",
-      "gambling-game",
-      "hentai",
-      "poker",
-      "poker-fate",
-      "poker-game",
-      "private-server"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-06-30T12:43:00Z",
-    "updated_at": "2026-07-05T13:23:24Z",
-    "owner": {
-      "name": "Moli13337",
-      "avatar_url": "https://avatars.githubusercontent.com/u/265429627?v=4"
     }
   },
   {
@@ -885,6 +901,58 @@
     "owner": {
       "name": "xiaozhou26",
       "avatar_url": "https://avatars.githubusercontent.com/u/122727418?v=4"
+    }
+  },
+  {
+    "name": "uefi2333/m365-native",
+    "url": "https://github.com/uefi2333/m365-native",
+    "description": "M365 ChatHub OpenAI-compatible gateway",
+    "stars": 27,
+    "forks": 4,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-18T02:42:21Z",
+    "updated_at": "2026-07-20T04:04:56Z",
+    "owner": {
+      "name": "uefi2333",
+      "avatar_url": "https://avatars.githubusercontent.com/u/294961105?v=4"
+    }
+  },
+  {
+    "name": "2921323707/CPA_Orbit",
+    "url": "https://github.com/2921323707/CPA_Orbit",
+    "description": "From K12 price radar to CPA proxy operations: a local-first console for offers, subscriptions, quotas, GPT Plus, and SMS.",
+    "stars": 26,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "ai-accounts",
+      "ai-proxy",
+      "chatgpt",
+      "cli-proxy-api",
+      "codex",
+      "cpa",
+      "go",
+      "gpt-plus",
+      "k12",
+      "lxdp",
+      "openai-compatible",
+      "price-monitoring",
+      "price-tracker",
+      "priceai",
+      "self-hosted",
+      "sms-verification",
+      "subscription-manager",
+      "typescript",
+      "vue"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-18T15:42:12Z",
+    "updated_at": "2026-07-20T04:43:26Z",
+    "owner": {
+      "name": "2921323707",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184733054?v=4"
     }
   },
   {
@@ -990,22 +1058,6 @@
     "owner": {
       "name": "klauspost",
       "avatar_url": "https://avatars.githubusercontent.com/u/5663952?v=4"
-    }
-  },
-  {
-    "name": "uefi2333/m365-native",
-    "url": "https://github.com/uefi2333/m365-native",
-    "description": "M365 ChatHub OpenAI-compatible gateway",
-    "stars": 24,
-    "forks": 4,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-18T02:42:21Z",
-    "updated_at": "2026-07-19T03:50:53Z",
-    "owner": {
-      "name": "uefi2333",
-      "avatar_url": "https://avatars.githubusercontent.com/u/294961105?v=4"
     }
   },
   {
@@ -1184,7 +1236,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-16T07:49:11Z",
-    "updated_at": "2026-07-19T02:16:58Z",
+    "updated_at": "2026-07-20T01:19:49Z",
     "owner": {
       "name": "zen66ten",
       "avatar_url": "https://avatars.githubusercontent.com/u/37041718?v=4"
@@ -1238,6 +1290,22 @@
     }
   },
   {
+    "name": "celesnity/Embinder",
+    "url": "https://github.com/celesnity/Embinder",
+    "description": "Embinder makes the agent a resident of the app. Turn every traditional platform to AI-native platform",
+    "stars": 20,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-18T03:33:50Z",
+    "updated_at": "2026-07-20T05:14:39Z",
+    "owner": {
+      "name": "celesnity",
+      "avatar_url": "https://avatars.githubusercontent.com/u/245563688?v=4"
+    }
+  },
+  {
     "name": "0x4D31/stinger",
     "url": "https://github.com/0x4D31/stinger",
     "description": "Unprivileged endpoint deception for macOS and Linux workstations. Uses FIFO baits, other local traps, and protected sessions to detect secret collection as it happens.",
@@ -1283,22 +1351,6 @@
     "owner": {
       "name": "Bhup-GitHUB",
       "avatar_url": "https://avatars.githubusercontent.com/u/145711585?v=4"
-    }
-  },
-  {
-    "name": "celesnity/Embinder",
-    "url": "https://github.com/celesnity/Embinder",
-    "description": "Embinder makes the agent a resident of the app. Turn every traditional platform to AI-native platform",
-    "stars": 19,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-18T03:33:50Z",
-    "updated_at": "2026-07-18T17:41:24Z",
-    "owner": {
-      "name": "celesnity",
-      "avatar_url": "https://avatars.githubusercontent.com/u/245563688?v=4"
     }
   },
   {
@@ -1374,26 +1426,6 @@
     }
   },
   {
-    "name": "stacklok/modelith",
-    "url": "https://github.com/stacklok/modelith",
-    "description": "A set of tools for working with domain models",
-    "stars": 18,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "claude-plugin",
-      "domain-modeling",
-      "skill"
-    ],
-    "license": "Other",
-    "created_at": "2026-06-30T19:20:16Z",
-    "updated_at": "2026-07-05T14:56:45Z",
-    "owner": {
-      "name": "stacklok",
-      "avatar_url": "https://avatars.githubusercontent.com/u/110237746?v=4"
-    }
-  },
-  {
     "name": "owen891/grok2api",
     "url": "https://github.com/owen891/grok2api",
     "description": "二开版，新增注册机、聊天会话、生图与管理后台功能。",
@@ -1446,6 +1478,22 @@
     }
   },
   {
+    "name": "1296018244/grok-manager",
+    "url": "https://github.com/1296018244/grok-manager",
+    "description": "CLIProxyAPI plugin: xAI/Grok live-check, cleanup, autoban (public build, no SSO convert)",
+    "stars": 16,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-14T01:30:42Z",
+    "updated_at": "2026-07-19T11:47:08Z",
+    "owner": {
+      "name": "1296018244",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86280446?v=4"
+    }
+  },
+  {
     "name": "Evidlo/syncthingtui",
     "url": "https://github.com/Evidlo/syncthingtui",
     "description": "TUI for manipulating Syncthing",
@@ -1494,38 +1542,6 @@
     }
   },
   {
-    "name": "15515151/noblack",
-    "url": "https://github.com/15515151/noblack",
-    "description": "基于Go语言的敏感词系统 | 下方API目前无调用次数限制，可免费使用",
-    "stars": 15,
-    "forks": 3,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-07-13T13:31:19Z",
-    "updated_at": "2026-07-15T06:45:26Z",
-    "owner": {
-      "name": "15515151",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79360869?v=4"
-    }
-  },
-  {
-    "name": "1296018244/grok-manager",
-    "url": "https://github.com/1296018244/grok-manager",
-    "description": "CLIProxyAPI plugin: xAI/Grok live-check, cleanup, autoban (public build, no SSO convert)",
-    "stars": 15,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-14T01:30:42Z",
-    "updated_at": "2026-07-17T16:56:30Z",
-    "owner": {
-      "name": "1296018244",
-      "avatar_url": "https://avatars.githubusercontent.com/u/86280446?v=4"
-    }
-  },
-  {
     "name": "yaog6700-bit/Swell-Box",
     "url": "https://github.com/yaog6700-bit/Swell-Box",
     "description": null,
@@ -1539,6 +1555,54 @@
     "owner": {
       "name": "yaog6700-bit",
       "avatar_url": "https://avatars.githubusercontent.com/u/279611145?v=4"
+    }
+  },
+  {
+    "name": "vrxiaojie/xai-autoban",
+    "url": "https://github.com/vrxiaojie/xai-autoban",
+    "description": "用于自动隔离持续返回错误的 xAI OAuth 凭据，避免 CPA 在大号池中逐个重试无效账号而显著拉长首 token 时间",
+    "stars": 15,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-14T05:50:31Z",
+    "updated_at": "2026-07-20T05:30:14Z",
+    "owner": {
+      "name": "vrxiaojie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74085232?v=4"
+    }
+  },
+  {
+    "name": "freethinkel/fmc",
+    "url": "https://github.com/freethinkel/fmc",
+    "description": null,
+    "stars": 15,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-18T14:20:42Z",
+    "updated_at": "2026-07-20T00:12:35Z",
+    "owner": {
+      "name": "freethinkel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26553511?v=4"
+    }
+  },
+  {
+    "name": "15515151/noblack",
+    "url": "https://github.com/15515151/noblack",
+    "description": "基于Go语言的敏感词系统 | 下方API目前无调用次数限制，可免费使用",
+    "stars": 15,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-07-13T13:31:19Z",
+    "updated_at": "2026-07-15T06:45:26Z",
+    "owner": {
+      "name": "15515151",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79360869?v=4"
     }
   },
   {
@@ -1678,22 +1742,6 @@
     }
   },
   {
-    "name": "lajosnagyuk/ayfor",
-    "url": "https://github.com/lajosnagyuk/ayfor",
-    "description": null,
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-07-03T09:19:27Z",
-    "updated_at": "2026-07-05T13:09:59Z",
-    "owner": {
-      "name": "lajosnagyuk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68808449?v=4"
-    }
-  },
-  {
     "name": "6mb/vohive",
     "url": "https://github.com/6mb/vohive",
     "description": "Backup mirror of vohive source",
@@ -1726,25 +1774,19 @@
     }
   },
   {
-    "name": "haxxm0nkey/credshound",
-    "url": "https://github.com/haxxm0nkey/credshound",
-    "description": "Nuclei-like credential surface scanner with BloodHound support. Audits local hosts for exposed secrets, cloud tokens, DevOps, and AI keys.",
+    "name": "Mxucc/cpa-account-config-manager",
+    "url": "https://github.com/Mxucc/cpa-account-config-manager",
+    "description": "cpa-account-config-manager",
     "stars": 13,
-    "forks": 2,
+    "forks": 1,
     "language": "Go",
-    "topics": [
-      "ai-security",
-      "bloodhound",
-      "lolcreds",
-      "pentest",
-      "redteam"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-17T06:49:37Z",
-    "updated_at": "2026-07-18T20:47:22Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-15T00:53:35Z",
+    "updated_at": "2026-07-19T18:15:32Z",
     "owner": {
-      "name": "haxxm0nkey",
-      "avatar_url": "https://avatars.githubusercontent.com/u/81935105?v=4"
+      "name": "Mxucc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128977511?v=4"
     }
   },
   {
@@ -1778,7 +1820,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-14T15:12:51Z",
-    "updated_at": "2026-07-17T16:56:39Z",
+    "updated_at": "2026-07-20T03:17:32Z",
     "owner": {
       "name": "programmersd21",
       "avatar_url": "https://avatars.githubusercontent.com/u/192335465?v=4"
@@ -1849,19 +1891,44 @@
     }
   },
   {
-    "name": "Mxucc/cpa-account-config-manager",
-    "url": "https://github.com/Mxucc/cpa-account-config-manager",
-    "description": "cpa-account-config-manager",
+    "name": "arnaudcharles/iso-auto-downloader",
+    "url": "https://github.com/arnaudcharles/iso-auto-downloader",
+    "description": "Keeping your bootable ISOs up to date is often a manual and repetitive task. This app aims to make it simple",
     "stars": 12,
-    "forks": 1,
+    "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-15T00:53:35Z",
-    "updated_at": "2026-07-18T04:44:22Z",
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-07-15T08:48:52Z",
+    "updated_at": "2026-07-20T05:27:10Z",
     "owner": {
-      "name": "Mxucc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/128977511?v=4"
+      "name": "arnaudcharles",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78349703?v=4"
+    }
+  },
+  {
+    "name": "rohitkhatri1st/ghost-captcha",
+    "url": "https://github.com/rohitkhatri1st/ghost-captcha",
+    "description": "Animated Font and CAPTCHA library for Go — invisible in any single frame, only readable in motion. Resists OCR and AI vision models.",
+    "stars": 12,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "anti-bot",
+      "bot-detection",
+      "captcha",
+      "gif",
+      "go",
+      "golang",
+      "security",
+      "webassembly"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-16T07:25:09Z",
+    "updated_at": "2026-07-19T15:51:17Z",
+    "owner": {
+      "name": "rohitkhatri1st",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53299308?v=4"
     }
   },
   {
@@ -1981,6 +2048,38 @@
     }
   },
   {
+    "name": "kserksi/summeRain",
+    "url": "https://github.com/kserksi/summeRain",
+    "description": "A self-hosted image hosting and photo album service that provides image transcoding, watermarking, responsive resizing, multiple storage backends, and Web/device-side authentication.",
+    "stars": 11,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-15T02:17:22Z",
+    "updated_at": "2026-07-20T03:23:59Z",
+    "owner": {
+      "name": "kserksi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99547275?v=4"
+    }
+  },
+  {
+    "name": "flypigJ/Tailscale-OHOS",
+    "url": "https://github.com/flypigJ/Tailscale-OHOS",
+    "description": "Native HarmonyOS NEXT port of Tailscale",
+    "stars": 11,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-16T03:00:25Z",
+    "updated_at": "2026-07-19T07:28:26Z",
+    "owner": {
+      "name": "flypigJ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68471692?v=4"
+    }
+  },
+  {
     "name": "scvxzf1/CLIProxyAPI-local",
     "url": "https://github.com/scvxzf1/CLIProxyAPI-local",
     "description": "Local CLIProxyAPI fork with Grok free OAuth routing, usage-keeper embed, and auth list secret masking",
@@ -2072,22 +2171,6 @@
     }
   },
   {
-    "name": "awlx/packetyeeter",
-    "url": "https://github.com/awlx/packetyeeter",
-    "description": "PacketYeeter: eBPF-based DDoS protection and traffic filtering for Linux (XDP + TC)",
-    "stars": 11,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-07-02T09:24:18Z",
-    "updated_at": "2026-07-05T10:33:14Z",
-    "owner": {
-      "name": "awlx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6527744?v=4"
-    }
-  },
-  {
     "name": "openclaw/turnwire",
     "url": "https://github.com/openclaw/turnwire",
     "description": "Audited text-only MCP relay.",
@@ -2120,6 +2203,22 @@
     }
   },
   {
+    "name": "girginos/gpanel",
+    "url": "https://github.com/girginos/gpanel",
+    "description": "Ücretsiz plesk ve cpanel alternatif kendi amaçlalarınız için kullanacağınız panel",
+    "stars": 10,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-14T08:25:48Z",
+    "updated_at": "2026-07-20T00:17:07Z",
+    "owner": {
+      "name": "girginos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166291533?v=4"
+    }
+  },
+  {
     "name": "reloadlife/agents",
     "url": "https://github.com/reloadlife/agents",
     "description": "Remote TTY control plane for AI coding CLIs (Claude, Grok, Codex, OpenCode, Cursor)",
@@ -2133,22 +2232,6 @@
     "owner": {
       "name": "reloadlife",
       "avatar_url": "https://avatars.githubusercontent.com/u/22727144?v=4"
-    }
-  },
-  {
-    "name": "flypigJ/Tailscale-OHOS",
-    "url": "https://github.com/flypigJ/Tailscale-OHOS",
-    "description": "Native HarmonyOS NEXT port of Tailscale",
-    "stars": 10,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-16T03:00:25Z",
-    "updated_at": "2026-07-18T15:35:28Z",
-    "owner": {
-      "name": "flypigJ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68471692?v=4"
     }
   },
   {
