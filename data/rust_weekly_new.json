@@ -3,13 +3,13 @@
     "name": "xai-org/grok-build",
     "url": "https://github.com/xai-org/grok-build",
     "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
-    "stars": 19170,
-    "forks": 3457,
+    "stars": 20289,
+    "forks": 3697,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-07-14T20:04:23Z",
-    "updated_at": "2026-07-19T05:17:40Z",
+    "updated_at": "2026-07-20T05:35:45Z",
     "owner": {
       "name": "xai-org",
       "avatar_url": "https://avatars.githubusercontent.com/u/130314967?v=4"
@@ -35,13 +35,13 @@
     "name": "CluvexStudio/Aether",
     "url": "https://github.com/CluvexStudio/Aether",
     "description": null,
-    "stars": 1262,
-    "forks": 76,
+    "stars": 1322,
+    "forks": 78,
     "language": "Rust",
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-07-14T14:20:44Z",
-    "updated_at": "2026-07-19T05:17:49Z",
+    "updated_at": "2026-07-20T05:33:33Z",
     "owner": {
       "name": "CluvexStudio",
       "avatar_url": "https://avatars.githubusercontent.com/u/125141320?v=4"
@@ -203,6 +203,27 @@
     }
   },
   {
+    "name": "inbjo/MirrorProxy",
+    "url": "https://github.com/inbjo/MirrorProxy",
+    "description": "All-in-one mirror acceleration,The project uses an adapter-based proxy core and already ships adapters for GitHub, Docker/OCI, Composer, npm, PyPI, Cargo, Go modules, major language repositories, developer-tool distribution services, and operating system mirrors. ",
+    "stars": 173,
+    "forks": 9,
+    "language": "Rust",
+    "topics": [
+      "mirror",
+      "proxy",
+      "rust",
+      "self-hosted"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-15T05:51:24Z",
+    "updated_at": "2026-07-20T05:34:30Z",
+    "owner": {
+      "name": "inbjo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11854149?v=4"
+    }
+  },
+  {
     "name": "zerx-lab/FluxDown",
     "url": "https://github.com/zerx-lab/FluxDown",
     "description": "Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。",
@@ -272,22 +293,6 @@
     "owner": {
       "name": "RongleCat",
       "avatar_url": "https://avatars.githubusercontent.com/u/15684751?v=4"
-    }
-  },
-  {
-    "name": "inbjo/MirrorProxy",
-    "url": "https://github.com/inbjo/MirrorProxy",
-    "description": "All-in-one mirror acceleration",
-    "stars": 134,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-15T05:51:24Z",
-    "updated_at": "2026-07-19T05:08:04Z",
-    "owner": {
-      "name": "inbjo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11854149?v=4"
     }
   },
   {
@@ -420,6 +425,38 @@
     }
   },
   {
+    "name": "yc-duan/fastctx",
+    "url": "https://github.com/yc-duan/fastctx",
+    "description": "Fast, context-efficient repository tools for AI agents (MCP)",
+    "stars": 94,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-17T03:05:57Z",
+    "updated_at": "2026-07-20T04:54:58Z",
+    "owner": {
+      "name": "yc-duan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/205539026?v=4"
+    }
+  },
+  {
+    "name": "gakonst/nanocodex",
+    "url": "https://github.com/gakonst/nanocodex",
+    "description": null,
+    "stars": 80,
+    "forks": 9,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-15T22:46:14Z",
+    "updated_at": "2026-07-20T05:20:51Z",
+    "owner": {
+      "name": "gakonst",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17802178?v=4"
+    }
+  },
+  {
     "name": "aclfe/inertia",
     "url": "https://github.com/aclfe/inertia",
     "description": "A physics sandbox that runs in your terminal: rigid bodies, n-body gravity, cloth, and fluid, projected in 3D onto braille with no GPU.",
@@ -465,6 +502,31 @@
     "owner": {
       "name": "ellie",
       "avatar_url": "https://avatars.githubusercontent.com/u/53315310?v=4"
+    }
+  },
+  {
+    "name": "articulite/BetterCopy",
+    "url": "https://github.com/articulite/BetterCopy",
+    "description": "Better copy utility for modern Windows computers",
+    "stars": 70,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "file-copy",
+      "files",
+      "nvme",
+      "open-source",
+      "parallel",
+      "rust",
+      "ssd",
+      "windows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-14T00:32:32Z",
+    "updated_at": "2026-07-20T02:37:39Z",
+    "owner": {
+      "name": "articulite",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6879392?v=4"
     }
   },
   {
@@ -589,31 +651,6 @@
     "owner": {
       "name": "MingfengHong",
       "avatar_url": "https://avatars.githubusercontent.com/u/76680753?v=4"
-    }
-  },
-  {
-    "name": "articulite/BetterCopy",
-    "url": "https://github.com/articulite/BetterCopy",
-    "description": "Better copy utility for modern Windows computers",
-    "stars": 64,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "file-copy",
-      "files",
-      "nvme",
-      "open-source",
-      "parallel",
-      "rust",
-      "ssd",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-14T00:32:32Z",
-    "updated_at": "2026-07-18T16:01:54Z",
-    "owner": {
-      "name": "articulite",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6879392?v=4"
     }
   },
   {
@@ -747,6 +784,54 @@
     }
   },
   {
+    "name": "Ruisi-Lu/academic-literature-mining-skill",
+    "url": "https://github.com/Ruisi-Lu/academic-literature-mining-skill",
+    "description": "Citation-complete agent-assisted scholarly literature mining in Rust with NVIDIA Nemotron and Qdrant",
+    "stars": 48,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-18T17:34:00Z",
+    "updated_at": "2026-07-20T05:29:29Z",
+    "owner": {
+      "name": "Ruisi-Lu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34283364?v=4"
+    }
+  },
+  {
+    "name": "nvrmnd-png/undo",
+    "url": "https://github.com/nvrmnd-png/undo",
+    "description": "Undo mv, rm, cp and more from your shell. Journaled to SQLite, deletions go to the trash, nothing gets lost.",
+    "stars": 48,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "bash",
+      "cli",
+      "coreutils",
+      "devtools",
+      "filesystem",
+      "fish-shell",
+      "gplv3",
+      "rust",
+      "shell",
+      "sqlite",
+      "terminal",
+      "trash",
+      "tui",
+      "undo",
+      "zsh"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-07-15T09:27:46Z",
+    "updated_at": "2026-07-20T03:54:29Z",
+    "owner": {
+      "name": "nvrmnd-png",
+      "avatar_url": "https://avatars.githubusercontent.com/u/226272600?v=4"
+    }
+  },
+  {
     "name": "giannisanni/pulsar",
     "url": "https://github.com/giannisanni/pulsar",
     "description": "SSD-streaming inference engine for giant MoE models (Rust + CUDA). GLM 5.2 743B at 2 tok/s and Hy3 295B at 7 tok/s on two consumer 16GB GPUs. Zero-config multi-GPU: measures PCIe bandwidth, places attention and hot experts where they fit.",
@@ -773,54 +858,6 @@
     "owner": {
       "name": "giannisanni",
       "avatar_url": "https://avatars.githubusercontent.com/u/115853836?v=4"
-    }
-  },
-  {
-    "name": "nvrmnd-png/undo",
-    "url": "https://github.com/nvrmnd-png/undo",
-    "description": "Undo mv, rm, cp and more from your shell. Journaled to SQLite, deletions go to the trash, nothing gets lost.",
-    "stars": 45,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "bash",
-      "cli",
-      "coreutils",
-      "devtools",
-      "filesystem",
-      "fish-shell",
-      "gplv3",
-      "rust",
-      "shell",
-      "sqlite",
-      "terminal",
-      "trash",
-      "tui",
-      "undo",
-      "zsh"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-07-15T09:27:46Z",
-    "updated_at": "2026-07-19T02:57:14Z",
-    "owner": {
-      "name": "nvrmnd-png",
-      "avatar_url": "https://avatars.githubusercontent.com/u/226272600?v=4"
-    }
-  },
-  {
-    "name": "Incline-Developers/Incline",
-    "url": "https://github.com/Incline-Developers/Incline",
-    "description": "GPU-accelerated mine design software",
-    "stars": 44,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-06-30T01:01:01Z",
-    "updated_at": "2026-07-06T03:43:15Z",
-    "owner": {
-      "name": "Incline-Developers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/298081088?v=4"
     }
   },
   {
@@ -872,42 +909,36 @@
     }
   },
   {
-    "name": "rndhouse/mixmod",
-    "url": "https://github.com/rndhouse/mixmod",
-    "description": "Reduce GPT-5.5 token usage 75.5% by supervising a 27B local model",
-    "stars": 37,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-01T23:36:53Z",
-    "updated_at": "2026-07-06T23:40:00Z",
-    "owner": {
-      "name": "rndhouse",
-      "avatar_url": "https://avatars.githubusercontent.com/u/66678676?v=4"
-    }
-  },
-  {
-    "name": "solenovex/rust-ai-agent",
-    "url": "https://github.com/solenovex/rust-ai-agent",
-    "description": null,
-    "stars": 35,
+    "name": "Swarsel/pedantix",
+    "url": "https://github.com/Swarsel/pedantix",
+    "description": "The pedantic nix formatter",
+    "stars": 38,
     "forks": 2,
     "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-13T05:46:47Z",
-    "updated_at": "2026-07-18T08:22:02Z",
+    "topics": [
+      "formatter",
+      "formatting",
+      "nix",
+      "nix-formatter",
+      "nix-formatting",
+      "nixos",
+      "nixos-formatter",
+      "nixos-formatting",
+      "pedantic"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-15T15:18:10Z",
+    "updated_at": "2026-07-20T00:51:52Z",
     "owner": {
-      "name": "solenovex",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3320194?v=4"
+      "name": "Swarsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32304731?v=4"
     }
   },
   {
     "name": "bbarit/bbarit-agent-oss",
     "url": "https://github.com/bbarit/bbarit-agent-oss",
     "description": "Open-source AI coding agent for your terminal — one Rust binary, 15+ LLM providers, 1,000+ models. A self-hostable Claude Code / Codex CLI alternative (MIT).",
-    "stars": 35,
+    "stars": 38,
     "forks": 10,
     "language": "Rust",
     "topics": [
@@ -934,10 +965,74 @@
     ],
     "license": "Other",
     "created_at": "2026-07-16T04:00:27Z",
-    "updated_at": "2026-07-19T03:22:34Z",
+    "updated_at": "2026-07-20T03:44:24Z",
     "owner": {
       "name": "bbarit",
       "avatar_url": "https://avatars.githubusercontent.com/u/276278028?v=4"
+    }
+  },
+  {
+    "name": "rndhouse/mixmod",
+    "url": "https://github.com/rndhouse/mixmod",
+    "description": "Reduce GPT-5.5 token usage 75.5% by supervising a 27B local model",
+    "stars": 37,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-01T23:36:53Z",
+    "updated_at": "2026-07-06T23:40:00Z",
+    "owner": {
+      "name": "rndhouse",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66678676?v=4"
+    }
+  },
+  {
+    "name": "Blueturboguy07/WhimprFlow",
+    "url": "https://github.com/Blueturboguy07/WhimprFlow",
+    "description": "Local-first cross-platform voice dictation (proof of concept). macOS built & working; Windows built but untested.",
+    "stars": 36,
+    "forks": 8,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-18T00:51:54Z",
+    "updated_at": "2026-07-20T05:24:50Z",
+    "owner": {
+      "name": "Blueturboguy07",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114044325?v=4"
+    }
+  },
+  {
+    "name": "jacksonjp0311-gif/Perci",
+    "url": "https://github.com/jacksonjp0311-gif/Perci",
+    "description": "Compact, local-first neuro-symbolic assistant in Rust with a 200 MiB Bitwork cognitive model, exact reasoning tools, governed memory, and integer-only inference.",
+    "stars": 36,
+    "forks": 7,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-07-15T10:39:27Z",
+    "updated_at": "2026-07-20T04:48:28Z",
+    "owner": {
+      "name": "jacksonjp0311-gif",
+      "avatar_url": "https://avatars.githubusercontent.com/u/235741794?v=4"
+    }
+  },
+  {
+    "name": "solenovex/rust-ai-agent",
+    "url": "https://github.com/solenovex/rust-ai-agent",
+    "description": null,
+    "stars": 35,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-13T05:46:47Z",
+    "updated_at": "2026-07-18T08:22:02Z",
+    "owner": {
+      "name": "solenovex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3320194?v=4"
     }
   },
   {
@@ -957,22 +1052,6 @@
     }
   },
   {
-    "name": "jacksonjp0311-gif/Perci",
-    "url": "https://github.com/jacksonjp0311-gif/Perci",
-    "description": "Compact, local-first neuro-symbolic assistant in Rust with a 200 MiB Bitwork cognitive model, exact reasoning tools, governed memory, and integer-only inference.",
-    "stars": 33,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-07-15T10:39:27Z",
-    "updated_at": "2026-07-18T22:26:02Z",
-    "owner": {
-      "name": "jacksonjp0311-gif",
-      "avatar_url": "https://avatars.githubusercontent.com/u/235741794?v=4"
-    }
-  },
-  {
     "name": "inclusionAI/Avernet",
     "url": "https://github.com/inclusionAI/Avernet",
     "description": null,
@@ -986,6 +1065,22 @@
     "owner": {
       "name": "inclusionAI",
       "avatar_url": "https://avatars.githubusercontent.com/u/199075982?v=4"
+    }
+  },
+  {
+    "name": "BibekBhusal0/focusd",
+    "url": "https://github.com/BibekBhusal0/focusd",
+    "description": null,
+    "stars": 31,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-16T08:29:54Z",
+    "updated_at": "2026-07-20T02:13:32Z",
+    "owner": {
+      "name": "BibekBhusal0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/138126735?v=4"
     }
   },
   {
@@ -1074,19 +1169,19 @@
     }
   },
   {
-    "name": "Blueturboguy07/WhimprFlow",
-    "url": "https://github.com/Blueturboguy07/WhimprFlow",
-    "description": "Local-first cross-platform voice dictation (proof of concept). macOS built & working; Windows built but untested.",
+    "name": "NetizenNemo/Aether_OptExt",
+    "url": "https://github.com/NetizenNemo/Aether_OptExt",
+    "description": "A thread allocation extension module suitable for the Aether scheduler",
     "stars": 29,
-    "forks": 6,
+    "forks": 7,
     "language": "Rust",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-18T00:51:54Z",
-    "updated_at": "2026-07-19T05:09:06Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-07-17T16:19:16Z",
+    "updated_at": "2026-07-20T00:03:21Z",
     "owner": {
-      "name": "Blueturboguy07",
-      "avatar_url": "https://avatars.githubusercontent.com/u/114044325?v=4"
+      "name": "NetizenNemo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/214260405?v=4"
     }
   },
   {
@@ -1159,22 +1254,6 @@
     "owner": {
       "name": "luodaoyi",
       "avatar_url": "https://avatars.githubusercontent.com/u/12275765?v=4"
-    }
-  },
-  {
-    "name": "BibekBhusal0/focusd",
-    "url": "https://github.com/BibekBhusal0/focusd",
-    "description": null,
-    "stars": 28,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-16T08:29:54Z",
-    "updated_at": "2026-07-19T04:08:41Z",
-    "owner": {
-      "name": "BibekBhusal0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/138126735?v=4"
     }
   },
   {
@@ -1303,19 +1382,19 @@
     }
   },
   {
-    "name": "cianmcnally/YoutubeRecs-Neo4j",
-    "url": "https://github.com/cianmcnally/YoutubeRecs-Neo4j",
-    "description": "Crawls YouTube's related-videos sidebar into a Neo4j interest-space map",
-    "stars": 27,
-    "forks": 0,
+    "name": "RustCraftMC/RustCraft-Public",
+    "url": "https://github.com/RustCraftMC/RustCraft-Public",
+    "description": "Rust rewrite Minecraft with Java",
+    "stars": 26,
+    "forks": 1,
     "language": "Rust",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-02T12:40:03Z",
-    "updated_at": "2026-07-06T02:41:47Z",
+    "license": "Other",
+    "created_at": "2026-07-17T08:06:06Z",
+    "updated_at": "2026-07-20T05:24:42Z",
     "owner": {
-      "name": "cianmcnally",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97746693?v=4"
+      "name": "RustCraftMC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/304864399?v=4"
     }
   },
   {
@@ -1361,37 +1440,6 @@
     }
   },
   {
-    "name": "antgroup/Napaxi",
-    "url": "https://github.com/antgroup/Napaxi",
-    "description": "Mobile-native agent SDK for building on-device AI agents with sandboxed execution, extensible tools, and x-app / x-agent / x-channel connectivity.",
-    "stars": 26,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "agent-framework",
-      "ai",
-      "ai-agent",
-      "android",
-      "automation",
-      "flutter",
-      "ios",
-      "llm",
-      "mcp",
-      "mobile-agent",
-      "on-device-ai",
-      "rust",
-      "sandbox",
-      "sdk"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-07-01T02:45:48Z",
-    "updated_at": "2026-07-06T01:18:16Z",
-    "owner": {
-      "name": "antgroup",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37703784?v=4"
-    }
-  },
-  {
     "name": "tursodatabase/turso-vdbe-doom-example",
     "url": "https://github.com/tursodatabase/turso-vdbe-doom-example",
     "description": "Real Doom running on Turso's VDBE bytecode — a fork of Turso plus a small LLVM-IR-to-VDBE compiler (vdbecc).",
@@ -1405,22 +1453,6 @@
     "owner": {
       "name": "tursodatabase",
       "avatar_url": "https://avatars.githubusercontent.com/u/139391156?v=4"
-    }
-  },
-  {
-    "name": "NetizenNemo/Aether_OptExt",
-    "url": "https://github.com/NetizenNemo/Aether_OptExt",
-    "description": "A thread allocation extension module suitable for the Aether scheduler",
-    "stars": 25,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-07-17T16:19:16Z",
-    "updated_at": "2026-07-19T01:15:20Z",
-    "owner": {
-      "name": "NetizenNemo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/214260405?v=4"
     }
   },
   {
@@ -1560,27 +1592,6 @@
     "owner": {
       "name": "meistrari",
       "avatar_url": "https://avatars.githubusercontent.com/u/132233480?v=4"
-    }
-  },
-  {
-    "name": "colwill/ccc",
-    "url": "https://github.com/colwill/ccc",
-    "description": "ContextCodeCache generator",
-    "stars": 23,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "agent",
-      "cache",
-      "code-cache",
-      "llm"
-    ],
-    "license": "No license",
-    "created_at": "2026-07-01T17:30:15Z",
-    "updated_at": "2026-07-06T02:43:18Z",
-    "owner": {
-      "name": "colwill",
-      "avatar_url": "https://avatars.githubusercontent.com/u/62014134?v=4"
     }
   },
   {
@@ -1734,6 +1745,22 @@
     }
   },
   {
+    "name": "ZacharyZhang-NY/Kigi-CLI",
+    "url": "https://github.com/ZacharyZhang-NY/Kigi-CLI",
+    "description": "Kigi — unofficial Kimi Code CLI community build (Rust, based on Grok Build open source)",
+    "stars": 19,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-17T09:31:10Z",
+    "updated_at": "2026-07-20T03:59:38Z",
+    "owner": {
+      "name": "ZacharyZhang-NY",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18405598?v=4"
+    }
+  },
+  {
     "name": "jz315/SkyECS",
     "url": "https://github.com/jz315/SkyECS",
     "description": "High-performance typed chunk-based ECS for Rust",
@@ -1772,6 +1799,22 @@
     }
   },
   {
+    "name": "dalang-io/sso",
+    "url": "https://github.com/dalang-io/sso",
+    "description": "SSO Services",
+    "stars": 18,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-07-14T02:17:03Z",
+    "updated_at": "2026-07-20T04:03:25Z",
+    "owner": {
+      "name": "dalang-io",
+      "avatar_url": "https://avatars.githubusercontent.com/u/175088059?v=4"
+    }
+  },
+  {
     "name": "taxideftis/bathos",
     "url": "https://github.com/taxideftis/bathos",
     "description": "AI Workflow Agent method of overwhelming depth — 18 specialist roles, a 7-wave delivery pipeline, scale-adaptive routing, and hard quality gates, backed by a small Rust engine that makes the critical invariants deterministic instead of vibes.",
@@ -1788,19 +1831,45 @@
     }
   },
   {
-    "name": "dalang-io/sso",
-    "url": "https://github.com/dalang-io/sso",
-    "description": "SSO Services",
+    "name": "dandandujie/Grox",
+    "url": "https://github.com/dandandujie/Grox",
+    "description": "以 Grok Build 为核心打造的桌面端 Agent",
+    "stars": 17,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-18T17:56:07Z",
+    "updated_at": "2026-07-20T05:07:19Z",
+    "owner": {
+      "name": "dandandujie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/142396650?v=4"
+    }
+  },
+  {
+    "name": "keros68/metrik",
+    "url": "https://github.com/keros68/metrik",
+    "description": "本地优先的 AI Agent 用量统计桌面应用：官方配额、本地 Token、估算成本三类事实分开呈现，读不到就说不可用",
     "stars": 17,
     "forks": 1,
     "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-07-14T02:17:03Z",
-    "updated_at": "2026-07-17T04:32:12Z",
+    "topics": [
+      "ai-agent",
+      "claude-code",
+      "codex",
+      "desktop-widget",
+      "local-first",
+      "react",
+      "rust",
+      "tauri",
+      "token-usage"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-14T03:28:09Z",
+    "updated_at": "2026-07-19T09:41:48Z",
     "owner": {
-      "name": "dalang-io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/175088059?v=4"
+      "name": "keros68",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49635981?v=4"
     }
   },
   {
@@ -1868,6 +1937,30 @@
     }
   },
   {
+    "name": "ZtestAi/z-switch",
+    "url": "https://github.com/ZtestAi/z-switch",
+    "description": "Claude Code 与 Codex 的桌面供应商一键切换器：直连原子改写或本地代理热切换，内置官方账号卡片与供应商体检。One-click   provider switcher for Claude Code & Codex. 跨平台 · 开源 · 无广告 · 无返利链接 · Tauri + Rust.",
+    "stars": 16,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "ai-tools",
+      "api-proxy",
+      "cc-switch",
+      "claude",
+      "claude-code",
+      "codex",
+      "provider-switcher"
+    ],
+    "license": "Other",
+    "created_at": "2026-07-16T03:32:51Z",
+    "updated_at": "2026-07-20T01:50:27Z",
+    "owner": {
+      "name": "ZtestAi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/305685790?v=4"
+    }
+  },
+  {
     "name": "silly-tae/taetype",
     "url": "https://github.com/silly-tae/taetype",
     "description": "A font engine in Rust and WebAssembly: decode, instance, subset, and shape TTF, OTF, TTC, and WOFF2 fonts.",
@@ -1894,32 +1987,6 @@
     "owner": {
       "name": "silly-tae",
       "avatar_url": "https://avatars.githubusercontent.com/u/264327435?v=4"
-    }
-  },
-  {
-    "name": "keros68/metrik",
-    "url": "https://github.com/keros68/metrik",
-    "description": "本地优先的 AI Agent 用量统计桌面应用：官方配额、本地 Token、估算成本三类事实分开呈现，读不到就说不可用",
-    "stars": 16,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "ai-agent",
-      "claude-code",
-      "codex",
-      "desktop-widget",
-      "local-first",
-      "react",
-      "rust",
-      "tauri",
-      "token-usage"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-14T03:28:09Z",
-    "updated_at": "2026-07-19T04:38:05Z",
-    "owner": {
-      "name": "keros68",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49635981?v=4"
     }
   },
   {
@@ -1952,30 +2019,6 @@
     "owner": {
       "name": "oughtum",
       "avatar_url": "https://avatars.githubusercontent.com/u/89465527?v=4"
-    }
-  },
-  {
-    "name": "LeON-Nie-code/tmux-workbench",
-    "url": "https://github.com/LeON-Nie-code/tmux-workbench",
-    "description": "Terminal workspace memory manager for local and remote tmux sessions",
-    "stars": 16,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "rust",
-      "ssh",
-      "terminal",
-      "tmux",
-      "tui",
-      "workspace"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-01T10:43:17Z",
-    "updated_at": "2026-07-05T19:04:36Z",
-    "owner": {
-      "name": "LeON-Nie-code",
-      "avatar_url": "https://avatars.githubusercontent.com/u/118652405?v=4"
     }
   },
   {
@@ -2027,28 +2070,42 @@
     }
   },
   {
-    "name": "GMAC-pl/gmacFTP",
-    "url": "https://github.com/GMAC-pl/gmacFTP",
-    "description": "gmacFTP - Free, open-source dual-pane FTP/FTPS/SFTP client for macOS (Apple Silicon). Built in Rust with Slint. No Electron, no webview, no telemetry.",
-    "stars": 15,
+    "name": "lixiaobaivv/Codex-Skin",
+    "url": "https://github.com/lixiaobaivv/Codex-Skin",
+    "description": null,
+    "stars": 14,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-16T10:05:44Z",
+    "updated_at": "2026-07-20T03:15:33Z",
+    "owner": {
+      "name": "lixiaobaivv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39290771?v=4"
+    }
+  },
+  {
+    "name": "GreenScreen410/singularity",
+    "url": "https://github.com/GreenScreen410/singularity",
+    "description": "A drifting black hole that gravitationally lenses your desktop. Ray-traced Schwarzschild geodesics, live.",
+    "stars": 14,
     "forks": 1,
     "language": "Rust",
     "topics": [
-      "apple-silicon",
-      "ftp",
-      "ftp-client",
-      "homebrew",
-      "macos",
+      "blackhole",
       "rust",
-      "sftp",
-      "slint"
+      "screen-saver",
+      "shader",
+      "slang",
+      "wgsl"
     ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-06-30T10:36:07Z",
-    "updated_at": "2026-07-05T19:41:55Z",
+    "license": "MIT License",
+    "created_at": "2026-07-18T08:35:51Z",
+    "updated_at": "2026-07-19T15:54:39Z",
     "owner": {
-      "name": "GMAC-pl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/297830822?v=4"
+      "name": "GreenScreen410",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63690925?v=4"
     }
   },
   {
@@ -2125,22 +2182,6 @@
     }
   },
   {
-    "name": "friedrich-de/textractor-media-bridge",
-    "url": "https://github.com/friedrich-de/textractor-media-bridge",
-    "description": null,
-    "stars": 14,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-07-01T20:43:26Z",
-    "updated_at": "2026-07-05T13:27:27Z",
-    "owner": {
-      "name": "friedrich-de",
-      "avatar_url": "https://avatars.githubusercontent.com/u/59431934?v=4"
-    }
-  },
-  {
     "name": "HarryYCChou/lcx",
     "url": "https://github.com/HarryYCChou/lcx",
     "description": "LeetCode in your terminal",
@@ -2212,85 +2253,35 @@
     }
   },
   {
-    "name": "oxc-project/oxc-yaml-parser",
-    "url": "https://github.com/oxc-project/oxc-yaml-parser",
+    "name": "emoeem/voicefox",
+    "url": "https://github.com/emoeem/voicefox",
     "description": null,
-    "stars": 13,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-03T01:14:05Z",
-    "updated_at": "2026-07-05T16:17:23Z",
-    "owner": {
-      "name": "oxc-project",
-      "avatar_url": "https://avatars.githubusercontent.com/u/149946238?v=4"
-    }
-  },
-  {
-    "name": "saeedvaziry/skillsdash",
-    "url": "https://github.com/saeedvaziry/skillsdash",
-    "description": "Agent Skill Management TUI",
-    "stars": 13,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-01T18:32:46Z",
-    "updated_at": "2026-07-06T01:28:18Z",
-    "owner": {
-      "name": "saeedvaziry",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61919774?v=4"
-    }
-  },
-  {
-    "name": "Swarsel/pedantix",
-    "url": "https://github.com/Swarsel/pedantix",
-    "description": "The pedantic nix formatter",
     "stars": 12,
     "forks": 1,
     "language": "Rust",
-    "topics": [
-      "formatter",
-      "formatting",
-      "nix",
-      "nix-formatter",
-      "nix-formatting",
-      "nixos",
-      "nixos-formatter",
-      "nixos-formatting",
-      "pedantic"
-    ],
+    "topics": [],
     "license": "No license",
-    "created_at": "2026-07-15T15:18:10Z",
-    "updated_at": "2026-07-19T05:06:21Z",
+    "created_at": "2026-07-16T06:32:06Z",
+    "updated_at": "2026-07-19T15:49:54Z",
     "owner": {
-      "name": "Swarsel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32304731?v=4"
+      "name": "emoeem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/150005981?v=4"
     }
   },
   {
-    "name": "ZtestAi/z-switch",
-    "url": "https://github.com/ZtestAi/z-switch",
-    "description": "Claude Code 与 Codex 的桌面供应商一键切换器：直连原子改写或本地代理热切换，内置官方账号卡片与供应商体检。One-click   provider switcher for Claude Code & Codex. 跨平台 · 开源 · 无广告 · 无返利链接 · Tauri + Rust.",
+    "name": "codecnmc/codex-theme-inject",
+    "url": "https://github.com/codecnmc/codex-theme-inject",
+    "description": "CDP注入 包含生成主题以及注入主题功能  新增ikun和全新雨姐主题",
     "stars": 12,
     "forks": 0,
     "language": "Rust",
-    "topics": [
-      "ai-tools",
-      "api-proxy",
-      "cc-switch",
-      "claude",
-      "claude-code",
-      "codex",
-      "provider-switcher"
-    ],
-    "license": "Other",
-    "created_at": "2026-07-16T03:32:51Z",
-    "updated_at": "2026-07-19T04:48:28Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-17T15:19:12Z",
+    "updated_at": "2026-07-20T02:15:10Z",
     "owner": {
-      "name": "ZtestAi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/305685790?v=4"
+      "name": "codecnmc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96507488?v=4"
     }
   },
   {
@@ -2377,22 +2368,6 @@
     }
   },
   {
-    "name": "drmikesamy/p2p-tunnel",
-    "url": "https://github.com/drmikesamy/p2p-tunnel",
-    "description": null,
-    "stars": 12,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-03T22:03:56Z",
-    "updated_at": "2026-07-06T04:13:09Z",
-    "owner": {
-      "name": "drmikesamy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/39333925?v=4"
-    }
-  },
-  {
     "name": "tangf-ai/grokx",
     "url": "https://github.com/tangf-ai/grokx",
     "description": "A desktop application for Grok, offering AI conversations and intelligent coding. | Grok 桌面端应用，提供 AI 对话与智能编程体验。",
@@ -2402,7 +2377,7 @@
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-07-16T08:53:42Z",
-    "updated_at": "2026-07-18T02:58:15Z",
+    "updated_at": "2026-07-20T03:30:31Z",
     "owner": {
       "name": "tangf-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/8468837?v=4"
@@ -2429,6 +2404,22 @@
     "owner": {
       "name": "AlexDevFlow",
       "avatar_url": "https://avatars.githubusercontent.com/u/107987666?v=4"
+    }
+  },
+  {
+    "name": "hoodini/logan-cli",
+    "url": "https://github.com/hoodini/logan-cli",
+    "description": "Logan CLI - terminal AI coding agent by Yuval Avidani (YUV.AI). Fork of xAI Grok Build.",
+    "stars": 10,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-15T23:24:03Z",
+    "updated_at": "2026-07-19T14:55:56Z",
+    "owner": {
+      "name": "hoodini",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48050809?v=4"
     }
   },
   {
