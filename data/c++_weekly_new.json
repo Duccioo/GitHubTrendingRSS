@@ -103,19 +103,25 @@
     }
   },
   {
-    "name": "ZimengXiong/tinyTouch",
-    "url": "https://github.com/ZimengXiong/tinyTouch",
-    "description": "authenticate, sudo, login with your fingerprint wire(less)ly without having to spend $149 at the cost of some security",
-    "stars": 122,
-    "forks": 0,
+    "name": "theqkash/esp32flight",
+    "url": "https://github.com/theqkash/esp32flight",
+    "description": "A standalone desk flight radar on a single ESP32 board with a 7\" touchscreen. ",
+    "stars": 91,
+    "forks": 2,
     "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-05T13:43:52Z",
-    "updated_at": "2026-07-11T04:13:24Z",
+    "topics": [
+      "esp32",
+      "esp32-s3",
+      "flight",
+      "flights",
+      "waveshare-esp32-s3-touch-lcd-7b"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-22T15:43:59Z",
+    "updated_at": "2026-07-25T04:20:29Z",
     "owner": {
-      "name": "ZimengXiong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83783148?v=4"
+      "name": "theqkash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6078401?v=4"
     }
   },
   {
@@ -270,35 +276,19 @@
     }
   },
   {
-    "name": "ZyoungInc/xueersi-idf",
-    "url": "https://github.com/ZyoungInc/xueersi-idf",
-    "description": "modify Xueersi Xiaomiao from micro python to esp-idf environment",
-    "stars": 60,
-    "forks": 14,
+    "name": "NaGaa95/DrasticDS_nx",
+    "url": "https://github.com/NaGaa95/DrasticDS_nx",
+    "description": "Port of Drastic DS for Switch.",
+    "stars": 53,
+    "forks": 1,
     "language": "C",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-05T20:24:23Z",
-    "updated_at": "2026-07-11T02:35:02Z",
+    "license": "MIT License",
+    "created_at": "2026-07-23T03:13:23Z",
+    "updated_at": "2026-07-25T04:48:42Z",
     "owner": {
-      "name": "ZyoungInc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23631330?v=4"
-    }
-  },
-  {
-    "name": "DjVul/Extended-Kalman-Filter---STM32",
-    "url": "https://github.com/DjVul/Extended-Kalman-Filter---STM32",
-    "description": "Universal Extended Kalman Filter (EKF) in C for 6-DOF IMU (gyroscope + accelerometer).  Estimates Roll and Pitch with STM32 firmware and Python visualization.",
-    "stars": 56,
-    "forks": 10,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-05T20:56:56Z",
-    "updated_at": "2026-07-10T12:26:26Z",
-    "owner": {
-      "name": "DjVul",
-      "avatar_url": "https://avatars.githubusercontent.com/u/114070635?v=4"
+      "name": "NaGaa95",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38852591?v=4"
     }
   },
   {
@@ -350,28 +340,6 @@
     }
   },
   {
-    "name": "theqkash/esp32flight",
-    "url": "https://github.com/theqkash/esp32flight",
-    "description": "A standalone desk flight radar on a single ESP32 board with a 7\" touchscreen. ",
-    "stars": 48,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "esp32",
-      "esp32-s3",
-      "flight",
-      "flights",
-      "waveshare-esp32-s3-touch-lcd-7b"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-22T15:43:59Z",
-    "updated_at": "2026-07-24T02:36:05Z",
-    "owner": {
-      "name": "theqkash",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6078401?v=4"
-    }
-  },
-  {
     "name": "toneillcodes/UnwindRaven",
     "url": "https://github.com/toneillcodes/UnwindRaven",
     "description": null,
@@ -401,6 +369,22 @@
     "owner": {
       "name": "DarynOngera",
       "avatar_url": "https://avatars.githubusercontent.com/u/132561478?v=4"
+    }
+  },
+  {
+    "name": "ocfh/remote-car-line-track-obstacle-avoid-temperature-stc32g",
+    "url": "https://github.com/ocfh/remote-car-line-track-obstacle-avoid-temperature-stc32g",
+    "description": "🚘 Intelligent remote car based on STC32G with line tracking, obstacle avoidance and temperature detection",
+    "stars": 42,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-22T15:21:00Z",
+    "updated_at": "2026-07-25T04:53:35Z",
+    "owner": {
+      "name": "ocfh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157864245?v=4"
     }
   },
   {
@@ -460,19 +444,39 @@
     }
   },
   {
-    "name": "NaGaa95/DrasticDS_nx",
-    "url": "https://github.com/NaGaa95/DrasticDS_nx",
-    "description": "Port of Drastic DS for Switch.",
-    "stars": 36,
-    "forks": 0,
+    "name": "prayangshuuu/hummingbird",
+    "url": "https://github.com/prayangshuuu/hummingbird",
+    "description": "hummingbird is a lightweight, zero dependency runtime for massive open source Mixture of Experts (MoE) language models. It unifies SSD, RAM, and VRAM into a single intelligent memory hierarchy, enabling inference of models like GPT-OSS 120B, GLM, DeepSeek, Qwen, and more on consumer hardware",
+    "stars": 39,
+    "forks": 9,
     "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-23T03:13:23Z",
-    "updated_at": "2026-07-24T04:56:01Z",
+    "topics": [
+      "ai-inference",
+      "artificial-intelligence",
+      "c17",
+      "cross-platform",
+      "deepseek",
+      "glm",
+      "gpt-oss",
+      "high-performance-computing",
+      "inference-engine",
+      "large-language-models",
+      "llm",
+      "llm-runtime",
+      "memory-management",
+      "mixture-of-experts",
+      "open-source",
+      "qwen",
+      "sparse-moe",
+      "systems-programming",
+      "transformers"
+    ],
+    "license": "Other",
+    "created_at": "2026-07-21T14:30:08Z",
+    "updated_at": "2026-07-25T04:45:07Z",
     "owner": {
-      "name": "NaGaa95",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38852591?v=4"
+      "name": "prayangshuuu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68601984?v=4"
     }
   },
   {
@@ -489,6 +493,22 @@
     "owner": {
       "name": "tsoding",
       "avatar_url": "https://avatars.githubusercontent.com/u/18597647?v=4"
+    }
+  },
+  {
+    "name": "OptiJuegos/PvZ2Native",
+    "url": "https://github.com/OptiJuegos/PvZ2Native",
+    "description": null,
+    "stars": 34,
+    "forks": 4,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-23T18:54:34Z",
+    "updated_at": "2026-07-25T02:32:00Z",
+    "owner": {
+      "name": "OptiJuegos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/222511018?v=4"
     }
   },
   {
@@ -545,22 +565,6 @@
     "owner": {
       "name": "JoinChang",
       "avatar_url": "https://avatars.githubusercontent.com/u/35451392?v=4"
-    }
-  },
-  {
-    "name": "ocfh/remote-car-line-track-obstacle-avoid-temperature-stc32g",
-    "url": "https://github.com/ocfh/remote-car-line-track-obstacle-avoid-temperature-stc32g",
-    "description": "🚘 Intelligent remote car based on STC32G with line tracking, obstacle avoidance and temperature detection",
-    "stars": 32,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-22T15:21:00Z",
-    "updated_at": "2026-07-24T05:05:11Z",
-    "owner": {
-      "name": "ocfh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/157864245?v=4"
     }
   },
   {
@@ -685,22 +689,6 @@
     }
   },
   {
-    "name": "OptiJuegos/PvZ2Native",
-    "url": "https://github.com/OptiJuegos/PvZ2Native",
-    "description": null,
-    "stars": 26,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-23T18:54:34Z",
-    "updated_at": "2026-07-24T04:14:17Z",
-    "owner": {
-      "name": "OptiJuegos",
-      "avatar_url": "https://avatars.githubusercontent.com/u/222511018?v=4"
-    }
-  },
-  {
     "name": "weak1337/DetectTpmSpoofing",
     "url": "https://github.com/weak1337/DetectTpmSpoofing",
     "description": null,
@@ -822,6 +810,22 @@
     }
   },
   {
+    "name": "mentalfoundry/pokketstation",
+    "url": "https://github.com/mentalfoundry/pokketstation",
+    "description": "An open-source Sony PocketStation emulator core",
+    "stars": 23,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-07-20T10:24:29Z",
+    "updated_at": "2026-07-25T04:30:48Z",
+    "owner": {
+      "name": "mentalfoundry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28695343?v=4"
+    }
+  },
+  {
     "name": "initialised/ariel",
     "url": "https://github.com/initialised/ariel",
     "description": "aarch64 EL2 hypervisor for QEMU virt that boots at EL2 ",
@@ -851,70 +855,6 @@
     "owner": {
       "name": "5mukx",
       "avatar_url": "https://avatars.githubusercontent.com/u/300037635?v=4"
-    }
-  },
-  {
-    "name": "MAXXTANG/claude-stick-buddy",
-    "url": "https://github.com/MAXXTANG/claude-stick-buddy",
-    "description": "Claude Hardware Buddy on M5StickS3 — Clawd mascot, Traditional Chinese UI, real usage bars via BLE bridge (fork of p3ob7o/hwbuddy-notifier-S3)",
-    "stars": 23,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-07-07T06:02:07Z",
-    "updated_at": "2026-07-10T16:15:49Z",
-    "owner": {
-      "name": "MAXXTANG",
-      "avatar_url": "https://avatars.githubusercontent.com/u/150886462?v=4"
-    }
-  },
-  {
-    "name": "Carter54git/dethrace-ported-to-web",
-    "url": "https://github.com/Carter54git/dethrace-ported-to-web",
-    "description": "Reverse engineering the 1997 game \"Carmageddon\" ported to web browser",
-    "stars": 23,
-    "forks": 3,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-07-05T11:58:14Z",
-    "updated_at": "2026-07-10T18:41:43Z",
-    "owner": {
-      "name": "Carter54git",
-      "avatar_url": "https://avatars.githubusercontent.com/u/197393272?v=4"
-    }
-  },
-  {
-    "name": "commandprompt/plruby",
-    "url": "https://github.com/commandprompt/plruby",
-    "description": "PL/Ruby: Ruby as a procedural language for PostgreSQL (functions, triggers, SPI; PG 11-18)",
-    "stars": 23,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-05T18:41:43Z",
-    "updated_at": "2026-07-10T16:55:46Z",
-    "owner": {
-      "name": "commandprompt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/300191401?v=4"
-    }
-  },
-  {
-    "name": "mentalfoundry/pokketstation",
-    "url": "https://github.com/mentalfoundry/pokketstation",
-    "description": "An open-source Sony PocketStation emulator core",
-    "stars": 22,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-07-20T10:24:29Z",
-    "updated_at": "2026-07-23T11:25:29Z",
-    "owner": {
-      "name": "mentalfoundry",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28695343?v=4"
     }
   },
   {
@@ -985,7 +925,7 @@
     "name": "theshaneobrien/mister-disc-drive-support",
     "url": "https://github.com/theshaneobrien/mister-disc-drive-support",
     "description": "A custom MiSTer fork that can autoboot retail CD's into their respective cores.",
-    "stars": 19,
+    "stars": 20,
     "forks": 0,
     "language": "C",
     "topics": [
@@ -996,7 +936,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-07-20T23:56:53Z",
-    "updated_at": "2026-07-23T21:29:00Z",
+    "updated_at": "2026-07-24T13:05:06Z",
     "owner": {
       "name": "theshaneobrien",
       "avatar_url": "https://avatars.githubusercontent.com/u/40431366?v=4"
@@ -1276,11 +1216,27 @@
     }
   },
   {
+    "name": "0xdeadbeefnetwork/SteelSeriesGGLPE",
+    "url": "https://github.com/0xdeadbeefnetwork/SteelSeriesGGLPE",
+    "description": null,
+    "stars": 14,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-20T18:00:30Z",
+    "updated_at": "2026-07-24T09:58:30Z",
+    "owner": {
+      "name": "0xdeadbeefnetwork",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93794938?v=4"
+    }
+  },
+  {
     "name": "thaitop/esp32-claude-quota",
     "url": "https://github.com/thaitop/esp32-claude-quota",
     "description": "A desk display for Claude Code's two usage windows, plus a few ambient readouts, running on the \"Cheap Yellow Display\"",
     "stars": 14,
-    "forks": 1,
+    "forks": 2,
     "language": "C",
     "topics": [],
     "license": "No license",
@@ -1289,6 +1245,22 @@
     "owner": {
       "name": "thaitop",
       "avatar_url": "https://avatars.githubusercontent.com/u/39022830?v=4"
+    }
+  },
+  {
+    "name": "microsoft/VibeASR.cpp",
+    "url": "https://github.com/microsoft/VibeASR.cpp",
+    "description": null,
+    "stars": 14,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-23T06:09:54Z",
+    "updated_at": "2026-07-25T02:32:10Z",
+    "owner": {
+      "name": "microsoft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4"
     }
   },
   {
@@ -1341,22 +1313,6 @@
     "owner": {
       "name": "MyNamesEMurray",
       "avatar_url": "https://avatars.githubusercontent.com/u/8888913?v=4"
-    }
-  },
-  {
-    "name": "0xdeadbeefnetwork/SteelSeriesGGLPE",
-    "url": "https://github.com/0xdeadbeefnetwork/SteelSeriesGGLPE",
-    "description": null,
-    "stars": 13,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-20T18:00:30Z",
-    "updated_at": "2026-07-24T03:15:23Z",
-    "owner": {
-      "name": "0xdeadbeefnetwork",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93794938?v=4"
     }
   },
   {
@@ -1429,22 +1385,6 @@
     "owner": {
       "name": "FiveTechSoft",
       "avatar_url": "https://avatars.githubusercontent.com/u/10235217?v=4"
-    }
-  },
-  {
-    "name": "FoxFW/2.0",
-    "url": "https://github.com/FoxFW/2.0",
-    "description": "Fox Custom Firmware v2.0",
-    "stars": 13,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-07-05T00:36:16Z",
-    "updated_at": "2026-07-11T03:05:29Z",
-    "owner": {
-      "name": "FoxFW",
-      "avatar_url": "https://avatars.githubusercontent.com/u/294297302?v=4"
     }
   },
   {
@@ -1571,6 +1511,22 @@
     }
   },
   {
+    "name": "monokumakuki/2026TI_MPU6050_Yaw",
+    "url": "https://github.com/monokumakuki/2026TI_MPU6050_Yaw",
+    "description": "Can We win?",
+    "stars": 11,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-22T17:04:27Z",
+    "updated_at": "2026-07-25T00:41:21Z",
+    "owner": {
+      "name": "monokumakuki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/180978706?v=4"
+    }
+  },
+  {
     "name": "djr-747/nokia-dct3-emulator",
     "url": "https://github.com/djr-747/nokia-dct3-emulator",
     "description": "Open-source emulator + analysis toolkit for Nokia DCT3 phones (3310/3410/5210/8210/8250/8850…). Boots real firmware in the browser (WASM) and a native SDL GUI. Bring-your-own firmware — none included. GPL-2.",
@@ -1642,6 +1598,26 @@
     "owner": {
       "name": "ChanseyIsTheBest",
       "avatar_url": "https://avatars.githubusercontent.com/u/117623814?v=4"
+    }
+  },
+  {
+    "name": "Dere3046/ScreenOff",
+    "url": "https://github.com/Dere3046/ScreenOff",
+    "description": "CVE-2026-52910 kernel crash PoC. screen goes off.",
+    "stars": 10,
+    "forks": 5,
+    "language": "C",
+    "topics": [
+      "android",
+      "crash",
+      "cve-2026-52910"
+    ],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-07-21T04:26:16Z",
+    "updated_at": "2026-07-24T19:44:52Z",
+    "owner": {
+      "name": "Dere3046",
+      "avatar_url": "https://avatars.githubusercontent.com/u/211672594?v=4"
     }
   },
   {
@@ -1727,46 +1703,6 @@
     "owner": {
       "name": "douxxtech",
       "avatar_url": "https://avatars.githubusercontent.com/u/200964063?v=4"
-    }
-  },
-  {
-    "name": "1271258153/i.MX6ULL_GreenHouse",
-    "url": "https://github.com/1271258153/i.MX6ULL_GreenHouse",
-    "description": "基于 i.mx6ull 的智能温室系统",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-05T15:38:42Z",
-    "updated_at": "2026-07-10T13:42:40Z",
-    "owner": {
-      "name": "1271258153",
-      "avatar_url": "https://avatars.githubusercontent.com/u/185167059?v=4"
-    }
-  },
-  {
-    "name": "slibbinas/TinyMakerWifi",
-    "url": "https://github.com/slibbinas/TinyMakerWifi",
-    "description": "Modified original TinyMaker code, that enables model upload directly from PrusaSlicer via WiFi",
-    "stars": 10,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "3d-printer",
-      "esp32",
-      "firmware",
-      "open-source-hardware",
-      "platformio",
-      "tinymaker",
-      "wifi-module"
-    ],
-    "license": "Other",
-    "created_at": "2026-07-05T21:29:54Z",
-    "updated_at": "2026-07-11T03:21:32Z",
-    "owner": {
-      "name": "slibbinas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26309484?v=4"
     }
   }
 ]
