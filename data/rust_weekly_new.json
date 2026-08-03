@@ -1,21 +1,5 @@
 [
   {
-    "name": "xai-org/grok-build",
-    "url": "https://github.com/xai-org/grok-build",
-    "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
-    "stars": 20289,
-    "forks": 3697,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-14T20:04:23Z",
-    "updated_at": "2026-07-20T05:35:45Z",
-    "owner": {
-      "name": "xai-org",
-      "avatar_url": "https://avatars.githubusercontent.com/u/130314967?v=4"
-    }
-  },
-  {
     "name": "kvcache-ai/AgentENV",
     "url": "https://github.com/kvcache-ai/AgentENV",
     "description": "AgentENV (AENV) is a distributed platform for running agent environments at scale.",
@@ -32,19 +16,24 @@
     }
   },
   {
-    "name": "CluvexStudio/Aether",
-    "url": "https://github.com/CluvexStudio/Aether",
-    "description": null,
-    "stars": 1322,
-    "forks": 78,
+    "name": "gavamedia/deltafin",
+    "url": "https://github.com/gavamedia/deltafin",
+    "description": "Run full Kimi K3 on a single device. And an OpenAI-compatible API server for local chat and coding agents.",
+    "stars": 628,
+    "forks": 72,
     "language": "Rust",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-07-14T14:20:44Z",
-    "updated_at": "2026-07-20T05:33:33Z",
+    "topics": [
+      "kimi",
+      "kimi-k3",
+      "local-ai",
+      "local-llm"
+    ],
+    "license": "Other",
+    "created_at": "2026-07-28T01:01:23Z",
+    "updated_at": "2026-08-03T05:05:34Z",
     "owner": {
-      "name": "CluvexStudio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/125141320?v=4"
+      "name": "gavamedia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1783489?v=4"
     }
   },
   {
@@ -154,6 +143,22 @@
     }
   },
   {
+    "name": "l00sed/termixer",
+    "url": "https://github.com/l00sed/termixer",
+    "description": "A 2-deck mixer, sample pads, sequencer— all from any Unix terminal.",
+    "stars": 163,
+    "forks": 7,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-31T15:52:49Z",
+    "updated_at": "2026-08-02T20:40:53Z",
+    "owner": {
+      "name": "l00sed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23065167?v=4"
+    }
+  },
+  {
     "name": "steelbrain/metal2vulkan",
     "url": "https://github.com/steelbrain/metal2vulkan",
     "description": "Translate Metal AIR / LLVM IR to Vulkan SPIR-V with a native Rust emitter",
@@ -167,22 +172,6 @@
     "owner": {
       "name": "steelbrain",
       "avatar_url": "https://avatars.githubusercontent.com/u/4278113?v=4"
-    }
-  },
-  {
-    "name": "l00sed/termixer",
-    "url": "https://github.com/l00sed/termixer",
-    "description": "A 2-deck mixer, sample pads, sequencer— all from any Unix terminal.",
-    "stars": 159,
-    "forks": 7,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-31T15:52:49Z",
-    "updated_at": "2026-08-02T04:07:09Z",
-    "owner": {
-      "name": "l00sed",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23065167?v=4"
     }
   },
   {
@@ -215,6 +204,22 @@
     "owner": {
       "name": "jchultarsky",
       "avatar_url": "https://avatars.githubusercontent.com/u/17622216?v=4"
+    }
+  },
+  {
+    "name": "arcships/aimux",
+    "url": "https://github.com/arcships/aimux",
+    "description": "统一 LLM 服务接入层 — 一套 API 接入 172+ 家 AI 服务商",
+    "stars": 146,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-28T04:58:46Z",
+    "updated_at": "2026-08-03T05:24:15Z",
+    "owner": {
+      "name": "arcships",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272712626?v=4"
     }
   },
   {
@@ -406,6 +411,22 @@
     }
   },
   {
+    "name": "ArchAstro/scopey",
+    "url": "https://github.com/ArchAstro/scopey",
+    "description": "Keep Claude/Codex/Grok/Pi/OpenCode sessions on scope",
+    "stars": 101,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-31T00:18:13Z",
+    "updated_at": "2026-08-03T00:59:37Z",
+    "owner": {
+      "name": "ArchAstro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/245046957?v=4"
+    }
+  },
+  {
     "name": "Quantova/quantova-cli",
     "url": "https://github.com/Quantova/quantova-cli",
     "description": "The Quantova command line client. Post quantum accounts, signed transactions, contract deploy and call, and node queries over the gateway, built on the QCore Rust core.",
@@ -439,38 +460,6 @@
     "owner": {
       "name": "lanpishu6300",
       "avatar_url": "https://avatars.githubusercontent.com/u/13306065?v=4"
-    }
-  },
-  {
-    "name": "ArchAstro/scopey",
-    "url": "https://github.com/ArchAstro/scopey",
-    "description": "Keep Claude/Codex/Grok/Pi/OpenCode sessions on scope",
-    "stars": 92,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-31T00:18:13Z",
-    "updated_at": "2026-08-02T03:11:25Z",
-    "owner": {
-      "name": "ArchAstro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/245046957?v=4"
-    }
-  },
-  {
-    "name": "arcships/aimux",
-    "url": "https://github.com/arcships/aimux",
-    "description": "统一 LLM 服务接入层 — 一套 API 接入 172+ 家 AI 服务商",
-    "stars": 91,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-28T04:58:46Z",
-    "updated_at": "2026-08-02T05:18:18Z",
-    "owner": {
-      "name": "arcships",
-      "avatar_url": "https://avatars.githubusercontent.com/u/272712626?v=4"
     }
   },
   {
@@ -607,36 +596,11 @@
     }
   },
   {
-    "name": "articulite/BetterCopy",
-    "url": "https://github.com/articulite/BetterCopy",
-    "description": "Better copy utility for modern Windows computers",
-    "stars": 70,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [
-      "file-copy",
-      "files",
-      "nvme",
-      "open-source",
-      "parallel",
-      "rust",
-      "ssd",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-14T00:32:32Z",
-    "updated_at": "2026-07-20T02:37:39Z",
-    "owner": {
-      "name": "articulite",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6879392?v=4"
-    }
-  },
-  {
     "name": "hamzarehmandeveloper/claude-account",
     "url": "https://github.com/hamzarehmandeveloper/claude-account",
     "description": "Switch between isolated Claude Code accounts on Linux without logging in again.",
-    "stars": 60,
-    "forks": 11,
+    "stars": 63,
+    "forks": 12,
     "language": "Rust",
     "topics": [
       "account-switcher",
@@ -648,7 +612,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-30T11:49:22Z",
-    "updated_at": "2026-08-01T23:56:38Z",
+    "updated_at": "2026-08-03T05:25:43Z",
     "owner": {
       "name": "hamzarehmandeveloper",
       "avatar_url": "https://avatars.githubusercontent.com/u/114311730?v=4"
@@ -677,10 +641,26 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-07-29T20:38:27Z",
-    "updated_at": "2026-08-01T07:44:13Z",
+    "updated_at": "2026-08-03T05:32:50Z",
     "owner": {
       "name": "gaborini",
       "avatar_url": "https://avatars.githubusercontent.com/u/17881088?v=4"
+    }
+  },
+  {
+    "name": "KayanoLiam/ContextX",
+    "url": "https://github.com/KayanoLiam/ContextX",
+    "description": null,
+    "stars": 57,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-01T13:42:14Z",
+    "updated_at": "2026-08-03T01:55:53Z",
+    "owner": {
+      "name": "KayanoLiam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148060537?v=4"
     }
   },
   {
@@ -697,6 +677,22 @@
     "owner": {
       "name": "Blueturboguy07",
       "avatar_url": "https://avatars.githubusercontent.com/u/114044325?v=4"
+    }
+  },
+  {
+    "name": "Rice-dog/code-codex",
+    "url": "https://github.com/Rice-dog/code-codex",
+    "description": "Local project file tree and preview companion for Codex Desktop",
+    "stars": 56,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-29T07:13:59Z",
+    "updated_at": "2026-08-02T23:03:15Z",
+    "owner": {
+      "name": "Rice-dog",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108222865?v=4"
     }
   },
   {
@@ -872,6 +868,43 @@
     }
   },
   {
+    "name": "programmersd21/wallr",
+    "url": "https://github.com/programmersd21/wallr",
+    "description": "🎨 GPU-accelerated animated wallpaper engine for Wayland",
+    "stars": 48,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "animation",
+      "daemon",
+      "desktop-customization",
+      "gif-wallpaper",
+      "gifsicle",
+      "gpu-accelerated",
+      "hyprland",
+      "linux",
+      "live-wallpaper",
+      "material-you",
+      "matugen",
+      "niri",
+      "rust",
+      "sway",
+      "transitions",
+      "wallpaper",
+      "wallpaper-engine",
+      "wayland",
+      "wgpu",
+      "wlr-layer-shell"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-01T12:12:05Z",
+    "updated_at": "2026-08-03T03:59:35Z",
+    "owner": {
+      "name": "programmersd21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/192335465?v=4"
+    }
+  },
+  {
     "name": "RustCraftMC/RustCraft-Public",
     "url": "https://github.com/RustCraftMC/RustCraft-Public",
     "description": "Rust rewrite Minecraft with Java",
@@ -888,19 +921,19 @@
     }
   },
   {
-    "name": "Rice-dog/code-codex",
-    "url": "https://github.com/Rice-dog/code-codex",
-    "description": "Local project file tree and preview companion for Codex Desktop",
-    "stars": 47,
-    "forks": 0,
+    "name": "poxk/Falco",
+    "url": "https://github.com/poxk/Falco",
+    "description": "Tiny browser engine written from scratch in Rust.",
+    "stars": 46,
+    "forks": 7,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-07-29T07:13:59Z",
-    "updated_at": "2026-08-01T21:15:58Z",
+    "created_at": "2026-07-31T20:58:22Z",
+    "updated_at": "2026-08-03T01:51:32Z",
     "owner": {
-      "name": "Rice-dog",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108222865?v=4"
+      "name": "poxk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/308533320?v=4"
     }
   },
   {
@@ -989,22 +1022,6 @@
     "owner": {
       "name": "bbarit",
       "avatar_url": "https://avatars.githubusercontent.com/u/276278028?v=4"
-    }
-  },
-  {
-    "name": "KayanoLiam/ContextX",
-    "url": "https://github.com/KayanoLiam/ContextX",
-    "description": null,
-    "stars": 39,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-01T13:42:14Z",
-    "updated_at": "2026-08-02T05:08:16Z",
-    "owner": {
-      "name": "KayanoLiam",
-      "avatar_url": "https://avatars.githubusercontent.com/u/148060537?v=4"
     }
   },
   {
@@ -1156,6 +1173,30 @@
     }
   },
   {
+    "name": "Andrew-Velox/animfetch",
+    "url": "https://github.com/Andrew-Velox/animfetch",
+    "description": "Animated system fetch that stays pinned above your shell while you work. Linux, no dependencies. 🦀",
+    "stars": 34,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "archlinux",
+      "fastfetch",
+      "linux",
+      "neofetch",
+      "rust",
+      "sysfetch",
+      "system-fetch"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-29T10:40:55Z",
+    "updated_at": "2026-08-03T03:44:16Z",
+    "owner": {
+      "name": "Andrew-Velox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99073463?v=4"
+    }
+  },
+  {
     "name": "BibekBhusal0/focusd",
     "url": "https://github.com/BibekBhusal0/focusd",
     "description": null,
@@ -1260,64 +1301,32 @@
     }
   },
   {
-    "name": "programmersd21/wallr",
-    "url": "https://github.com/programmersd21/wallr",
-    "description": "🎨 GPU-accelerated animated wallpaper engine for Wayland",
+    "name": "monarchjuno/guru-maker",
+    "url": "https://github.com/monarchjuno/guru-maker",
+    "description": "The memory layer for investment agents.",
     "stars": 30,
-    "forks": 0,
+    "forks": 4,
     "language": "Rust",
     "topics": [
-      "animation",
-      "daemon",
-      "desktop-customization",
-      "gif-wallpaper",
-      "gifsicle",
-      "gpu-accelerated",
-      "hyprland",
-      "linux",
-      "live-wallpaper",
-      "material-you",
-      "matugen",
-      "niri",
-      "rust",
-      "sway",
-      "transitions",
-      "wallpaper",
-      "wallpaper-engine",
-      "wayland",
-      "wgpu",
-      "wlr-layer-shell"
+      "agent-memory",
+      "ai-agents",
+      "claude-code",
+      "decision-making",
+      "finance",
+      "financial-analysis",
+      "investment-research",
+      "knowledge-management",
+      "markdown",
+      "open-source",
+      "openai-codex",
+      "rust"
     ],
-    "license": "MIT License",
-    "created_at": "2026-08-01T12:12:05Z",
-    "updated_at": "2026-08-02T04:55:39Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-28T20:14:12Z",
+    "updated_at": "2026-08-03T02:42:37Z",
     "owner": {
-      "name": "programmersd21",
-      "avatar_url": "https://avatars.githubusercontent.com/u/192335465?v=4"
-    }
-  },
-  {
-    "name": "Andrew-Velox/animfetch",
-    "url": "https://github.com/Andrew-Velox/animfetch",
-    "description": "Animated system fetch that stays pinned above your shell while you work. Linux, no dependencies. 🦀",
-    "stars": 29,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "archlinux",
-      "fastfetch",
-      "linux",
-      "neofetch",
-      "rust",
-      "sysfetch",
-      "system-fetch"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-29T10:40:55Z",
-    "updated_at": "2026-08-02T05:19:47Z",
-    "owner": {
-      "name": "Andrew-Velox",
-      "avatar_url": "https://avatars.githubusercontent.com/u/99073463?v=4"
+      "name": "monarchjuno",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34964562?v=4"
     }
   },
   {
@@ -1366,6 +1375,22 @@
     "owner": {
       "name": "ConocoFieldsForever",
       "avatar_url": "https://avatars.githubusercontent.com/u/306517355?v=4"
+    }
+  },
+  {
+    "name": "ArcaEge/creakwork12",
+    "url": "https://github.com/ArcaEge/creakwork12",
+    "description": "make your framework hinge rusty (wow it's also written in rust too)",
+    "stars": 28,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Do What The F*ck You Want To Public License",
+    "created_at": "2026-07-29T13:12:09Z",
+    "updated_at": "2026-08-03T04:57:15Z",
+    "owner": {
+      "name": "ArcaEge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40526225?v=4"
     }
   },
   {
@@ -1433,32 +1458,32 @@
     }
   },
   {
-    "name": "monarchjuno/guru-maker",
-    "url": "https://github.com/monarchjuno/guru-maker",
-    "description": "The memory layer for investment agents.",
+    "name": "mrpulor-gh/nuphus-mcp",
+    "url": "https://github.com/mrpulor-gh/nuphus-mcp",
+    "description": "Desktop automation MCP server — computer use for any AI agent: control screen, windows, mouse/keyboard, and Chrome via Model Context Protocol (stdio)",
     "stars": 26,
     "forks": 3,
     "language": "Rust",
     "topics": [
-      "agent-memory",
-      "ai-agents",
-      "claude-code",
-      "decision-making",
-      "finance",
-      "financial-analysis",
-      "investment-research",
-      "knowledge-management",
-      "markdown",
-      "open-source",
-      "openai-codex",
+      "ai-agent",
+      "browser-automation",
+      "chrome-automation",
+      "claude",
+      "computer-use",
+      "computer-vision",
+      "desktop-automation",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "ocr",
       "rust"
     ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-28T20:14:12Z",
-    "updated_at": "2026-08-01T15:00:48Z",
+    "license": "MIT License",
+    "created_at": "2026-08-01T08:02:34Z",
+    "updated_at": "2026-08-03T05:20:08Z",
     "owner": {
-      "name": "monarchjuno",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34964562?v=4"
+      "name": "mrpulor-gh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/187365610?v=4"
     }
   },
   {
@@ -1846,6 +1871,22 @@
     }
   },
   {
+    "name": "chad/iroh-drop",
+    "url": "https://github.com/chad/iroh-drop",
+    "description": "Decentralized AirDrop: hand files to people with one string. Gossip announces, blobs transfers, everyone re-serves. CLI + daemon + native macOS app, built on iroh.",
+    "stars": 19,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-31T00:10:01Z",
+    "updated_at": "2026-08-03T01:12:28Z",
+    "owner": {
+      "name": "chad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/237?v=4"
+    }
+  },
+  {
     "name": "ref42/CAPS",
     "url": "https://github.com/ref42/CAPS",
     "description": "A lightweight always-on-top desktop music island for search, import, playback, and system status.一个常驻桌面顶部的轻量音乐岛：搜索、导入、播放和观察系统状态。",
@@ -1984,19 +2025,46 @@
     }
   },
   {
-    "name": "dalang-io/sso",
-    "url": "https://github.com/dalang-io/sso",
-    "description": "SSO Services",
-    "stars": 18,
-    "forks": 1,
-    "language": "Rust",
+    "name": "k1ngbanana/aipocket",
+    "url": "https://github.com/k1ngbanana/aipocket",
+    "description": "一起打野！基于 FOFA、Shodan 与 GitHub Artifact Hunter，自动发现 AI 基础设施暴露面与泄露凭证，并完成归因、验证、余额查询和持久化。",
+    "stars": 17,
+    "forks": 165,
+    "language": null,
     "topics": [],
     "license": "Other",
-    "created_at": "2026-07-14T02:17:03Z",
-    "updated_at": "2026-07-20T04:03:25Z",
+    "created_at": "2026-07-29T07:28:46Z",
+    "updated_at": "2026-08-03T00:37:12Z",
     "owner": {
-      "name": "dalang-io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/175088059?v=4"
+      "name": "k1ngbanana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32843518?v=4"
+    }
+  },
+  {
+    "name": "JoasASantos/NeuroPurple",
+    "url": "https://github.com/JoasASantos/NeuroPurple",
+    "description": "The AI Autonomous SOC & Purple-Team Engine",
+    "stars": 17,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [
+      "ai-agents",
+      "ai-security",
+      "autonomous-agents",
+      "autonomous-soc",
+      "blue-team",
+      "blue-team-tool",
+      "log-analysis",
+      "purple-team",
+      "security-automation",
+      "security-operations-center"
+    ],
+    "license": "No license",
+    "created_at": "2026-08-01T16:20:11Z",
+    "updated_at": "2026-08-02T20:16:47Z",
+    "owner": {
+      "name": "JoasASantos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34966120?v=4"
     }
   },
   {
@@ -2092,80 +2160,6 @@
     }
   },
   {
-    "name": "dandandujie/Grox",
-    "url": "https://github.com/dandandujie/Grox",
-    "description": "以 Grok Build 为核心打造的桌面端 Agent",
-    "stars": 17,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-18T17:56:07Z",
-    "updated_at": "2026-07-20T05:07:19Z",
-    "owner": {
-      "name": "dandandujie",
-      "avatar_url": "https://avatars.githubusercontent.com/u/142396650?v=4"
-    }
-  },
-  {
-    "name": "keros68/metrik",
-    "url": "https://github.com/keros68/metrik",
-    "description": "本地优先的 AI Agent 用量统计桌面应用：官方配额、本地 Token、估算成本三类事实分开呈现，读不到就说不可用",
-    "stars": 17,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "ai-agent",
-      "claude-code",
-      "codex",
-      "desktop-widget",
-      "local-first",
-      "react",
-      "rust",
-      "tauri",
-      "token-usage"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-14T03:28:09Z",
-    "updated_at": "2026-07-19T09:41:48Z",
-    "owner": {
-      "name": "keros68",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49635981?v=4"
-    }
-  },
-  {
-    "name": "k1ngbanana/aipocket",
-    "url": "https://github.com/k1ngbanana/aipocket",
-    "description": "一起打野！基于 FOFA、Shodan 与 GitHub Artifact Hunter，自动发现 AI 基础设施暴露面与泄露凭证，并完成归因、验证、余额查询和持久化。",
-    "stars": 16,
-    "forks": 161,
-    "language": null,
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-07-29T07:28:46Z",
-    "updated_at": "2026-08-02T03:57:02Z",
-    "owner": {
-      "name": "k1ngbanana",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32843518?v=4"
-    }
-  },
-  {
-    "name": "parth-sarthi-code/COS_Niri",
-    "url": "https://github.com/parth-sarthi-code/COS_Niri",
-    "description": null,
-    "stars": 16,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-27T17:33:48Z",
-    "updated_at": "2026-07-31T06:39:53Z",
-    "owner": {
-      "name": "parth-sarthi-code",
-      "avatar_url": "https://avatars.githubusercontent.com/u/174640173?v=4"
-    }
-  },
-  {
     "name": "galister/obah",
     "url": "https://github.com/galister/obah",
     "description": "OpenVR bindings TUI for xrizer, VapoR, OpenComposite",
@@ -2182,6 +2176,80 @@
     "owner": {
       "name": "galister",
       "avatar_url": "https://avatars.githubusercontent.com/u/22305755?v=4"
+    }
+  },
+  {
+    "name": "drmingdrmer/ezraft",
+    "url": "https://github.com/drmingdrmer/ezraft",
+    "description": "A beginner-friendly Raft framework built on openraft: implement two traits, get a fault-tolerant replicated cluster.",
+    "stars": 16,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "consensus",
+      "distributed-systems",
+      "fault-tolerance",
+      "openraft",
+      "raft",
+      "raft-consensus",
+      "replication",
+      "rust"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-01T04:13:49Z",
+    "updated_at": "2026-08-03T05:23:01Z",
+    "owner": {
+      "name": "drmingdrmer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44069?v=4"
+    }
+  },
+  {
+    "name": "melonmath/microkimi",
+    "url": "https://github.com/melonmath/microkimi",
+    "description": "The Kimi K3 and DeepSeek-V4-Flash-0731 architectures, reimplemented from scratch in pure Rust (zero dependencies) and verified 1:1 against the official code.",
+    "stars": 16,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "apple-silicon",
+      "deepseek",
+      "deepseek-v4",
+      "from-scratch",
+      "inference-engine",
+      "kimi",
+      "linear-attention",
+      "llm",
+      "machine-learning",
+      "metal",
+      "mixture-of-experts",
+      "moe",
+      "mxfp4",
+      "rust",
+      "tiktoken",
+      "zero-dependency"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-31T10:34:48Z",
+    "updated_at": "2026-08-03T00:11:26Z",
+    "owner": {
+      "name": "melonmath",
+      "avatar_url": "https://avatars.githubusercontent.com/u/312079194?v=4"
+    }
+  },
+  {
+    "name": "parth-sarthi-code/COS_Niri",
+    "url": "https://github.com/parth-sarthi-code/COS_Niri",
+    "description": null,
+    "stars": 16,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-27T17:33:48Z",
+    "updated_at": "2026-07-31T06:39:53Z",
+    "owner": {
+      "name": "parth-sarthi-code",
+      "avatar_url": "https://avatars.githubusercontent.com/u/174640173?v=4"
     }
   },
   {
@@ -2278,6 +2346,64 @@
     "owner": {
       "name": "pioner92",
       "avatar_url": "https://avatars.githubusercontent.com/u/53976385?v=4"
+    }
+  },
+  {
+    "name": "asLody/dexdec",
+    "url": "https://github.com/asLody/dexdec",
+    "description": "Fast, accurate Android decompilation for humans and AI agents.",
+    "stars": 15,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [
+      "android",
+      "dalvik-bytecode",
+      "decompiler",
+      "reverse-engineering"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-30T05:49:12Z",
+    "updated_at": "2026-08-03T05:27:20Z",
+    "owner": {
+      "name": "asLody",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11069271?v=4"
+    }
+  },
+  {
+    "name": "programmersd21/oops",
+    "url": "https://github.com/programmersd21/oops",
+    "description": "🛡️ Undo daemon for destructive shell commands",
+    "stars": 15,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "backup",
+      "bash",
+      "cli",
+      "daemon",
+      "dev-tools",
+      "filesystem",
+      "fish",
+      "hooks",
+      "linux",
+      "productivity",
+      "ratatui",
+      "restore",
+      "rust",
+      "safety",
+      "shell",
+      "snapshot",
+      "terminal",
+      "tui",
+      "undo",
+      "zsh"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-30T14:09:19Z",
+    "updated_at": "2026-08-03T01:05:18Z",
+    "owner": {
+      "name": "programmersd21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/192335465?v=4"
     }
   },
   {
@@ -2413,6 +2539,29 @@
     }
   },
   {
+    "name": "ratatui/ratatui-table",
+    "url": "https://github.com/ratatui/ratatui-table",
+    "description": "An experimental evolution of Ratatui’s built-in Table widget",
+    "stars": 14,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "ratatui",
+      "rust",
+      "table",
+      "terminal",
+      "tui",
+      "widget"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-31T21:44:54Z",
+    "updated_at": "2026-08-02T21:34:43Z",
+    "owner": {
+      "name": "ratatui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/125200832?v=4"
+    }
+  },
+  {
     "name": "itsbryanman/grave",
     "url": "https://github.com/itsbryanman/grave",
     "description": "GRAVE is a professional-grade volatile retention format for data you have chosen to let go.",
@@ -2426,6 +2575,28 @@
     "owner": {
       "name": "itsbryanman",
       "avatar_url": "https://avatars.githubusercontent.com/u/125309406?v=4"
+    }
+  },
+  {
+    "name": "JYChen-8866/Cditor",
+    "url": "https://github.com/JYChen-8866/Cditor",
+    "description": "Native block rich-text editor built with Rust and GPUI",
+    "stars": 14,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "gpui",
+      "markdown",
+      "rich-text-editor",
+      "rust",
+      "wysiwyg-markdown"
+    ],
+    "license": "Other",
+    "created_at": "2026-07-29T01:57:33Z",
+    "updated_at": "2026-08-02T14:47:51Z",
+    "owner": {
+      "name": "JYChen-8866",
+      "avatar_url": "https://avatars.githubusercontent.com/u/232627602?v=4"
     }
   },
   {
@@ -2521,6 +2692,51 @@
     }
   },
   {
+    "name": "islandspan-solutions/gitr",
+    "url": "https://github.com/islandspan-solutions/gitr",
+    "description": "gitr - a compact git commit graph viewer",
+    "stars": 13,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "git-client",
+      "git-tree",
+      "gitk"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-31T16:14:21Z",
+    "updated_at": "2026-08-03T04:03:02Z",
+    "owner": {
+      "name": "islandspan-solutions",
+      "avatar_url": "https://avatars.githubusercontent.com/u/241058936?v=4"
+    }
+  },
+  {
+    "name": "FTShare-Lab/agent-claim-network",
+    "url": "https://github.com/FTShare-Lab/agent-claim-network",
+    "description": "面向终端的通用 AI 助手，让 Agent 之间共享可检索、可追溯且允许分歧的知识。让下一次判断，带着来源出发。",
+    "stars": 13,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "ai-agents",
+      "knowledge-sharing",
+      "llm",
+      "mcp",
+      "multi-agent-systems",
+      "rust",
+      "terminal",
+      "tui"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-31T02:04:35Z",
+    "updated_at": "2026-08-02T07:40:04Z",
+    "owner": {
+      "name": "FTShare-Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/296093461?v=4"
+    }
+  },
+  {
     "name": "pengge499896694/claude-auto-continue",
     "url": "https://github.com/pengge499896694/claude-auto-continue",
     "description": "一个解决claude code 经常断流的小工具",
@@ -2534,59 +2750,6 @@
     "owner": {
       "name": "pengge499896694",
       "avatar_url": "https://avatars.githubusercontent.com/u/161540986?v=4"
-    }
-  },
-  {
-    "name": "programmersd21/oops",
-    "url": "https://github.com/programmersd21/oops",
-    "description": "🛡️ Undo daemon for destructive shell commands",
-    "stars": 13,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "backup",
-      "bash",
-      "cli",
-      "daemon",
-      "dev-tools",
-      "filesystem",
-      "fish",
-      "hooks",
-      "linux",
-      "productivity",
-      "ratatui",
-      "restore",
-      "rust",
-      "safety",
-      "shell",
-      "snapshot",
-      "terminal",
-      "tui",
-      "undo",
-      "zsh"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-30T14:09:19Z",
-    "updated_at": "2026-07-31T16:30:19Z",
-    "owner": {
-      "name": "programmersd21",
-      "avatar_url": "https://avatars.githubusercontent.com/u/192335465?v=4"
-    }
-  },
-  {
-    "name": "chad/iroh-drop",
-    "url": "https://github.com/chad/iroh-drop",
-    "description": "Decentralized AirDrop: hand files to people with one string. Gossip announces, blobs transfers, everyone re-serves. CLI + daemon + native macOS app, built on iroh.",
-    "stars": 13,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-31T00:10:01Z",
-    "updated_at": "2026-08-02T05:14:28Z",
-    "owner": {
-      "name": "chad",
-      "avatar_url": "https://avatars.githubusercontent.com/u/237?v=4"
     }
   },
   {
@@ -2642,31 +2805,6 @@
     }
   },
   {
-    "name": "FTShare-Lab/agent-claim-network",
-    "url": "https://github.com/FTShare-Lab/agent-claim-network",
-    "description": "面向终端的通用 AI 助手，让 Agent 之间共享可检索、可追溯且允许分歧的知识。让下一次判断，带着来源出发。",
-    "stars": 12,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "ai-agents",
-      "knowledge-sharing",
-      "llm",
-      "mcp",
-      "multi-agent-systems",
-      "rust",
-      "terminal",
-      "tui"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-31T02:04:35Z",
-    "updated_at": "2026-07-31T09:31:47Z",
-    "owner": {
-      "name": "FTShare-Lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/296093461?v=4"
-    }
-  },
-  {
     "name": "realsigridjin/scanner-fly",
     "url": "https://github.com/realsigridjin/scanner-fly",
     "description": "Rust 单一二进制航班搜索 CLI 与 MCP 服务器：聚合 6 个机票网站，并实时比较 Google Flights 与 Skiplagged 票价。",
@@ -2701,38 +2839,6 @@
     "owner": {
       "name": "NeonTeam58",
       "avatar_url": "https://avatars.githubusercontent.com/u/165762094?v=4"
-    }
-  },
-  {
-    "name": "tangf-ai/grokx",
-    "url": "https://github.com/tangf-ai/grokx",
-    "description": "A desktop application for Grok, offering AI conversations and intelligent coding. | Grok 桌面端应用，提供 AI 对话与智能编程体验。",
-    "stars": 11,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-16T08:53:42Z",
-    "updated_at": "2026-07-20T03:30:31Z",
-    "owner": {
-      "name": "tangf-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8468837?v=4"
-    }
-  },
-  {
-    "name": "hoodini/logan-cli",
-    "url": "https://github.com/hoodini/logan-cli",
-    "description": "Logan CLI - terminal AI coding agent by Yuval Avidani (YUV.AI). Fork of xAI Grok Build.",
-    "stars": 10,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-15T23:24:03Z",
-    "updated_at": "2026-07-19T14:55:56Z",
-    "owner": {
-      "name": "hoodini",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48050809?v=4"
     }
   }
 ]
