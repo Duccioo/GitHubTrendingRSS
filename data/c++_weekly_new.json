@@ -3,29 +3,66 @@
     "name": "sqliteai/waste",
     "url": "https://github.com/sqliteai/waste",
     "description": "Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
-    "stars": 710,
-    "forks": 69,
+    "stars": 1192,
+    "forks": 99,
     "language": "C",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-07-28T20:56:00Z",
-    "updated_at": "2026-08-02T05:17:50Z",
+    "updated_at": "2026-08-03T05:30:40Z",
     "owner": {
       "name": "sqliteai",
       "avatar_url": "https://avatars.githubusercontent.com/u/206516623?v=4"
     }
   },
   {
+    "name": "FareedKhan-dev/kimi-k3-in-c",
+    "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+    "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+    "stars": 366,
+    "forks": 46,
+    "language": "C",
+    "topics": [
+      "avx2",
+      "c99",
+      "cpu-inference",
+      "deep-learning",
+      "from-scratch",
+      "inference-engine",
+      "kimi-k3",
+      "linear-attention",
+      "llm",
+      "llm-inference",
+      "machine-learning",
+      "memory-efficient",
+      "mixture-of-experts",
+      "moe",
+      "mxfp4",
+      "quantization",
+      "simd",
+      "systems-programming",
+      "transformer",
+      "zero-dependencies"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-01T09:29:38Z",
+    "updated_at": "2026-08-03T05:33:56Z",
+    "owner": {
+      "name": "FareedKhan-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63067900?v=4"
+    }
+  },
+  {
     "name": "Infatoshi/netherite",
     "url": "https://github.com/Infatoshi/netherite",
     "description": null,
-    "stars": 303,
+    "stars": 307,
     "forks": 23,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-07-29T07:09:18Z",
-    "updated_at": "2026-08-02T04:00:06Z",
+    "updated_at": "2026-08-03T04:12:36Z",
     "owner": {
       "name": "Infatoshi",
       "avatar_url": "https://avatars.githubusercontent.com/u/59771030?v=4"
@@ -45,22 +82,6 @@
     "owner": {
       "name": "EstebanPdN",
       "avatar_url": "https://avatars.githubusercontent.com/u/72305261?v=4"
-    }
-  },
-  {
-    "name": "shibco/ableton-linux",
-    "url": "https://github.com/shibco/ableton-linux",
-    "description": "Run Ableton 12 and Push on Linux",
-    "stars": 200,
-    "forks": 11,
-    "language": "C",
-    "topics": [],
-    "license": "GNU Lesser General Public License v2.1",
-    "created_at": "2026-07-14T11:40:27Z",
-    "updated_at": "2026-07-20T05:12:02Z",
-    "owner": {
-      "name": "shibco",
-      "avatar_url": "https://avatars.githubusercontent.com/u/737950?v=4"
     }
   },
   {
@@ -125,22 +146,6 @@
     }
   },
   {
-    "name": "Sizeable-Bingus/BingusLdr",
-    "url": "https://github.com/Sizeable-Bingus/BingusLdr",
-    "description": "BingusLdr is a DLL loader built with Crystal Palace that uses a CET compatible stack spoofing technique.",
-    "stars": 88,
-    "forks": 8,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-14T14:46:11Z",
-    "updated_at": "2026-07-20T02:29:19Z",
-    "owner": {
-      "name": "Sizeable-Bingus",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55068604?v=4"
-    }
-  },
-  {
     "name": "sorryhumans/clawdmeter-plus",
     "url": "https://github.com/sorryhumans/clawdmeter-plus",
     "description": "A round AMOLED desk display for your live Claude Code usage, weather, background-agent health, and a daily voice greeting. ESP32-S3 + macOS BLE daemon. Fork of Clawdmeter.",
@@ -200,6 +205,22 @@
     }
   },
   {
+    "name": "akratch/goldenballoon",
+    "url": "https://github.com/akratch/goldenballoon",
+    "description": "Golden Balloon — a native + browser port of the 1997 Nintendo 64 kart racer, built from the decompilation. Bring your own ROM.",
+    "stars": 63,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-07-30T21:14:32Z",
+    "updated_at": "2026-08-03T04:55:11Z",
+    "owner": {
+      "name": "akratch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70729875?v=4"
+    }
+  },
+  {
     "name": "OptiJuegos/PvZ2Native",
     "url": "https://github.com/OptiJuegos/PvZ2Native",
     "description": null,
@@ -245,22 +266,6 @@
     "owner": {
       "name": "microsoft",
       "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4"
-    }
-  },
-  {
-    "name": "Linuxoid-cn/CVE-2026-43499-Poc-Analysis",
-    "url": "https://github.com/Linuxoid-cn/CVE-2026-43499-Poc-Analysis",
-    "description": "Vulnerability analysis and Proof of Concept (PoC) for CVE-2026-43499 affecting Xiaomi devices. For educational and research purposes only.",
-    "stars": 53,
-    "forks": 28,
-    "language": "C",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-07-14T14:21:27Z",
-    "updated_at": "2026-07-20T04:55:33Z",
-    "owner": {
-      "name": "Linuxoid-cn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/190095175?v=4"
     }
   },
   {
@@ -332,6 +337,34 @@
     }
   },
   {
+    "name": "moomdate/CYD-PromptPay-Terminal",
+    "url": "https://github.com/moomdate/CYD-PromptPay-Terminal",
+    "description": " A $6 PromptPay payment terminal — ESP32 + 2.8\" touch screen, powered by Stripe. Enter amount, show QR, beep when paid. Thai/English UI.",
+    "stars": 42,
+    "forks": 14,
+    "language": "C",
+    "topics": [
+      "arduino",
+      "cyd",
+      "esp32",
+      "payment-terminal",
+      "platformio",
+      "promptpay",
+      "qr-code",
+      "stripe",
+      "tft-espi",
+      "tft-espi-library",
+      "thailand"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-01T12:10:14Z",
+    "updated_at": "2026-08-03T04:56:41Z",
+    "owner": {
+      "name": "moomdate",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16360081?v=4"
+    }
+  },
+  {
     "name": "SoyBeanMilkx/dbi_detect",
     "url": "https://github.com/SoyBeanMilkx/dbi_detect",
     "description": " check whether important functions are being traced.",
@@ -361,6 +394,22 @@
     "owner": {
       "name": "ocfh",
       "avatar_url": "https://avatars.githubusercontent.com/u/157864245?v=4"
+    }
+  },
+  {
+    "name": "F-19-F/IonStackQuest3",
+    "url": "https://github.com/F-19-F/IonStackQuest3",
+    "description": "IonStack for Meta Quest3/3S",
+    "stars": 39,
+    "forks": 274,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-29T17:17:13Z",
+    "updated_at": "2026-08-03T04:13:35Z",
+    "owner": {
+      "name": "F-19-F",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58457605?v=4"
     }
   },
   {
@@ -413,19 +462,39 @@
     }
   },
   {
-    "name": "F-19-F/IonStackQuest3",
-    "url": "https://github.com/F-19-F/IonStackQuest3",
-    "description": "IonStack for Meta Quest3/3S",
+    "name": "wladimiravila/esp32s3-distributed-ai",
+    "url": "https://github.com/wladimiravila/esp32s3-distributed-ai",
+    "description": "Distributed 56M-parameter LLM inference across 3 ESP32-S3 boards via ESP-NOW , Split-PLE + KV cache, fully offline.",
     "stars": 33,
-    "forks": 209,
+    "forks": 4,
     "language": "C",
-    "topics": [],
+    "topics": [
+      "edge-ai",
+      "edge-ai-engineering",
+      "edge-ai-models",
+      "embedded",
+      "embedded-c",
+      "embedded-systems",
+      "esp32",
+      "esp32-s3",
+      "esp32s3",
+      "kv",
+      "llm",
+      "llm-inference",
+      "ondevice-ai",
+      "ondeviceai",
+      "ondevicemachinelearning",
+      "optimization",
+      "quantilization",
+      "transformer",
+      "transformers"
+    ],
     "license": "No license",
-    "created_at": "2026-07-29T17:17:13Z",
-    "updated_at": "2026-08-02T05:05:16Z",
+    "created_at": "2026-07-30T14:13:28Z",
+    "updated_at": "2026-08-03T03:34:14Z",
     "owner": {
-      "name": "F-19-F",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58457605?v=4"
+      "name": "wladimiravila",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1641715?v=4"
     }
   },
   {
@@ -493,39 +562,19 @@
     }
   },
   {
-    "name": "wladimiravila/esp32s3-distributed-ai",
-    "url": "https://github.com/wladimiravila/esp32s3-distributed-ai",
-    "description": "Distributed 56M-parameter LLM inference across 3 ESP32-S3 boards via ESP-NOW , Split-PLE + KV cache, fully offline.",
+    "name": "tsoding/r8",
+    "url": "https://github.com/tsoding/r8",
+    "description": "Fantasy console based on 6502 and rendered using Raylib",
     "stars": 27,
-    "forks": 3,
+    "forks": 1,
     "language": "C",
-    "topics": [
-      "edge-ai",
-      "edge-ai-engineering",
-      "edge-ai-models",
-      "embedded",
-      "embedded-c",
-      "embedded-systems",
-      "esp32",
-      "esp32-s3",
-      "esp32s3",
-      "kv",
-      "llm",
-      "llm-inference",
-      "ondevice-ai",
-      "ondeviceai",
-      "ondevicemachinelearning",
-      "optimization",
-      "quantilization",
-      "transformer",
-      "transformers"
-    ],
-    "license": "No license",
-    "created_at": "2026-07-30T14:13:28Z",
-    "updated_at": "2026-08-02T05:11:01Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-31T18:23:32Z",
+    "updated_at": "2026-08-03T03:12:31Z",
     "owner": {
-      "name": "wladimiravila",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1641715?v=4"
+      "name": "tsoding",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18597647?v=4"
     }
   },
   {
@@ -545,19 +594,19 @@
     }
   },
   {
-    "name": "weak1337/DetectTpmSpoofing",
-    "url": "https://github.com/weak1337/DetectTpmSpoofing",
-    "description": null,
+    "name": "0cyn/l41ka",
+    "url": "https://github.com/0cyn/l41ka",
+    "description": "experimental pongoOS-loading RP2350 firmware and bootkit for legacy A12/13 devices, aimed at security research",
     "stars": 26,
     "forks": 4,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-07-14T15:38:43Z",
-    "updated_at": "2026-07-20T04:12:37Z",
+    "created_at": "2026-08-01T00:47:02Z",
+    "updated_at": "2026-08-03T02:17:36Z",
     "owner": {
-      "name": "weak1337",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57501119?v=4"
+      "name": "0cyn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55725881?v=4"
     }
   },
   {
@@ -641,6 +690,22 @@
     }
   },
   {
+    "name": "rosbean/balatro-dualscreen",
+    "url": "https://github.com/rosbean/balatro-dualscreen",
+    "description": "Android mod of Balatro, optimised for dual screen devices and targeting and tested on the AYN Thor.",
+    "stars": 22,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-01T13:49:02Z",
+    "updated_at": "2026-08-03T03:29:55Z",
+    "owner": {
+      "name": "rosbean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82302849?v=4"
+    }
+  },
+  {
     "name": "espkvm/espkvm",
     "url": "https://github.com/espkvm/espkvm",
     "description": "IP-KVM on the ESP32-P4: HDMI capture, USB keyboard and mouse, and a browser console over HTTPS",
@@ -715,6 +780,32 @@
     }
   },
   {
+    "name": "nsdkinx/twell",
+    "url": "https://github.com/nsdkinx/twell",
+    "description": "A tiny physics-aware animation engine for remarkably fluid GUIs. Written in single-header C",
+    "stars": 20,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "2d-graphics",
+      "animation-library",
+      "coreanimation",
+      "graphics",
+      "graphics-engine",
+      "graphics-library",
+      "graphics-programming",
+      "gui",
+      "ios"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-07-28T04:18:23Z",
+    "updated_at": "2026-08-02T09:51:52Z",
+    "owner": {
+      "name": "nsdkinx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173375874?v=4"
+    }
+  },
+  {
     "name": "mochabyte0x/Morpheus",
     "url": "https://github.com/mochabyte0x/Morpheus",
     "description": "Sleep Obfuscation via CreateThreadpoolTimer",
@@ -731,52 +822,10 @@
     }
   },
   {
-    "name": "tsoding/r8",
-    "url": "https://github.com/tsoding/r8",
-    "description": "Fantasy console based on 6502 and rendered using Raylib",
-    "stars": 19,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-31T18:23:32Z",
-    "updated_at": "2026-08-02T02:04:56Z",
-    "owner": {
-      "name": "tsoding",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18597647?v=4"
-    }
-  },
-  {
-    "name": "nsdkinx/twell",
-    "url": "https://github.com/nsdkinx/twell",
-    "description": "A tiny physics-aware animation engine for remarkably fluid GUIs. Written in single-header C",
-    "stars": 19,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "2d-graphics",
-      "animation-library",
-      "coreanimation",
-      "graphics",
-      "graphics-engine",
-      "graphics-library",
-      "graphics-programming",
-      "gui",
-      "ios"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-28T04:18:23Z",
-    "updated_at": "2026-07-30T14:51:30Z",
-    "owner": {
-      "name": "nsdkinx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/173375874?v=4"
-    }
-  },
-  {
     "name": "lauren-alexandra/duet-xteink",
     "url": "https://github.com/lauren-alexandra/duet-xteink",
     "description": "Open-source reading-first firmware for the Xteink X3 and X4",
-    "stars": 18,
+    "stars": 19,
     "forks": 0,
     "language": "C",
     "topics": [
@@ -789,10 +838,58 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-29T00:06:14Z",
-    "updated_at": "2026-08-01T21:05:14Z",
+    "updated_at": "2026-08-02T07:38:33Z",
     "owner": {
       "name": "lauren-alexandra",
       "avatar_url": "https://avatars.githubusercontent.com/u/284394660?v=4"
+    }
+  },
+  {
+    "name": "Yassine-Jemi01/SmartFetch",
+    "url": "https://github.com/Yassine-Jemi01/SmartFetch",
+    "description": "SmartFetch is a fast, lightweight Linux system information fetch tool written in C. It displays system hardware, OS details, kernel, uptime, memory, and thermal stats alongside dynamic distribution ASCII art directly in your terminal.",
+    "stars": 19,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-29T14:27:45Z",
+    "updated_at": "2026-08-02T22:07:30Z",
+    "owner": {
+      "name": "Yassine-Jemi01",
+      "avatar_url": "https://avatars.githubusercontent.com/u/253760990?v=4"
+    }
+  },
+  {
+    "name": "JaimeJimenezG/Moonlight-ps4",
+    "url": "https://github.com/JaimeJimenezG/Moonlight-ps4",
+    "description": "A moonlight Client for PS4 ",
+    "stars": 18,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-31T01:27:38Z",
+    "updated_at": "2026-08-02T15:27:52Z",
+    "owner": {
+      "name": "JaimeJimenezG",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46894266?v=4"
+    }
+  },
+  {
+    "name": "OakRoller/3Danmu",
+    "url": "https://github.com/OakRoller/3Danmu",
+    "description": "Unofficial bilibili client for Nintendo 3DS — MVD hardware decoding, scrolling danmaku, stereoscopic 3D, built-in pinyin IME. Not affiliated with bilibili or Nintendo. For personal study only.",
+    "stars": 18,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-07-30T19:07:17Z",
+    "updated_at": "2026-08-03T01:22:32Z",
+    "owner": {
+      "name": "OakRoller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/159670890?v=4"
     }
   },
   {
@@ -809,22 +906,6 @@
     "owner": {
       "name": "Saul-Goodman6",
       "avatar_url": "https://avatars.githubusercontent.com/u/253760990?v=4"
-    }
-  },
-  {
-    "name": "0cyn/l41ka",
-    "url": "https://github.com/0cyn/l41ka",
-    "description": "experimental pongoOS-loading RP2350 firmware and bootkit for legacy A12/13 devices, aimed at security research",
-    "stars": 17,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-01T00:47:02Z",
-    "updated_at": "2026-08-02T05:18:50Z",
-    "owner": {
-      "name": "0cyn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55725881?v=4"
     }
   },
   {
@@ -866,22 +947,6 @@
     }
   },
   {
-    "name": "JaimeJimenezG/Moonlight-ps4",
-    "url": "https://github.com/JaimeJimenezG/Moonlight-ps4",
-    "description": "A moonlight Client for PS4 ",
-    "stars": 16,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-31T01:27:38Z",
-    "updated_at": "2026-08-01T18:29:21Z",
-    "owner": {
-      "name": "JaimeJimenezG",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46894266?v=4"
-    }
-  },
-  {
     "name": "Sichroteph/YACP",
     "url": "https://github.com/Sichroteph/YACP",
     "description": "Personal, opinionated Xteink firmware focused on battery life and rendering efficiency. Based on CrossInk and CrossPoint.",
@@ -897,7 +962,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-28T02:27:33Z",
-    "updated_at": "2026-08-01T18:28:49Z",
+    "updated_at": "2026-08-03T02:34:48Z",
     "owner": {
       "name": "Sichroteph",
       "avatar_url": "https://avatars.githubusercontent.com/u/16885275?v=4"
@@ -933,38 +998,6 @@
     "owner": {
       "name": "am2r-android",
       "avatar_url": "https://avatars.githubusercontent.com/u/304722279?v=4"
-    }
-  },
-  {
-    "name": "loopj/usb-gamecube-controller-adapter",
-    "url": "https://github.com/loopj/usb-gamecube-controller-adapter",
-    "description": "Open-source 4-port USB GameCube Controller Adapter, a drop-in replacement for Nintendo's official adapter",
-    "stars": 16,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-14T19:56:25Z",
-    "updated_at": "2026-07-19T15:32:32Z",
-    "owner": {
-      "name": "loopj",
-      "avatar_url": "https://avatars.githubusercontent.com/u/104009?v=4"
-    }
-  },
-  {
-    "name": "WolffsRoom/DeltaruneVita",
-    "url": "https://github.com/WolffsRoom/DeltaruneVita",
-    "description": "Deltarune (Chapters 1 to 5) Port to PSVita.",
-    "stars": 16,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "Mozilla Public License 2.0",
-    "created_at": "2026-07-14T17:52:03Z",
-    "updated_at": "2026-07-19T11:18:11Z",
-    "owner": {
-      "name": "WolffsRoom",
-      "avatar_url": "https://avatars.githubusercontent.com/u/286500227?v=4"
     }
   },
   {
@@ -1033,22 +1066,6 @@
     "owner": {
       "name": "thaitop",
       "avatar_url": "https://avatars.githubusercontent.com/u/39022830?v=4"
-    }
-  },
-  {
-    "name": "commandprompt/plx",
-    "url": "https://github.com/commandprompt/plx",
-    "description": "PostgreSQL extension: write stored functions in Ruby, PHP, JavaScript, or Python dialects that transpile to plpgsql.",
-    "stars": 15,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-14T23:38:34Z",
-    "updated_at": "2026-07-20T04:10:48Z",
-    "owner": {
-      "name": "commandprompt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/300191401?v=4"
     }
   },
   {
@@ -1128,6 +1145,22 @@
     }
   },
   {
+    "name": "NaGaa95/subwaysurfers_nx",
+    "url": "https://github.com/NaGaa95/subwaysurfers_nx",
+    "description": "Port of Subway Surfers for Switch.",
+    "stars": 13,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-31T04:36:52Z",
+    "updated_at": "2026-08-03T05:15:01Z",
+    "owner": {
+      "name": "NaGaa95",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38852591?v=4"
+    }
+  },
+  {
     "name": "orangeduck/GenoView-InverseKinematics",
     "url": "https://github.com/orangeduck/GenoView-InverseKinematics",
     "description": "Source code for the article Inverse Kinematics and Foot Locking",
@@ -1200,19 +1233,19 @@
     }
   },
   {
-    "name": "NaGaa95/subwaysurfers_nx",
-    "url": "https://github.com/NaGaa95/subwaysurfers_nx",
-    "description": "Port of Subway Surfers for Switch.",
+    "name": "OzzyIsNeko/QLIC",
+    "url": "https://github.com/OzzyIsNeko/QLIC",
+    "description": "QLIC (Quick Lossless Image Codec) is a lossless image format designed around mixing high speed with high file size reduction. ",
     "stars": 12,
-    "forks": 1,
+    "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-31T04:36:52Z",
-    "updated_at": "2026-08-01T18:09:47Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-29T22:52:29Z",
+    "updated_at": "2026-08-02T16:01:59Z",
     "owner": {
-      "name": "NaGaa95",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38852591?v=4"
+      "name": "OzzyIsNeko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/277050422?v=4"
     }
   },
   {
@@ -1321,19 +1354,19 @@
     }
   },
   {
-    "name": "machdyne/topaz",
-    "url": "https://github.com/machdyne/topaz",
-    "description": "Topaz Computer",
-    "stars": 12,
+    "name": "awemorris/linux-pc98",
+    "url": "https://github.com/awemorris/linux-pc98",
+    "description": "Linux/pc98: Linux for NEC PC-9800 series, integrated repository of kernels, toolchains, and Debian/pc98 port",
+    "stars": 11,
     "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "Other",
-    "created_at": "2026-07-15T12:06:05Z",
-    "updated_at": "2026-07-19T05:59:19Z",
+    "license": "No license",
+    "created_at": "2026-07-30T00:32:41Z",
+    "updated_at": "2026-08-03T03:02:40Z",
     "owner": {
-      "name": "machdyne",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97407671?v=4"
+      "name": "awemorris",
+      "avatar_url": "https://avatars.githubusercontent.com/u/191233509?v=4"
     }
   },
   {
@@ -1362,54 +1395,10 @@
     "topics": [],
     "license": "Other",
     "created_at": "2026-07-30T02:22:42Z",
-    "updated_at": "2026-08-01T14:29:25Z",
+    "updated_at": "2026-08-03T04:08:12Z",
     "owner": {
       "name": "sawanolin",
       "avatar_url": "https://avatars.githubusercontent.com/u/126675879?v=4"
-    }
-  },
-  {
-    "name": "moomdate/CYD-PromptPay-Terminal",
-    "url": "https://github.com/moomdate/CYD-PromptPay-Terminal",
-    "description": " A $6 PromptPay payment terminal — ESP32 + 2.8\" touch screen, powered by Stripe. Enter amount, show QR, beep when paid. Thai/English UI.",
-    "stars": 11,
-    "forks": 3,
-    "language": "C",
-    "topics": [
-      "arduino",
-      "cyd",
-      "esp32",
-      "payment-terminal",
-      "platformio",
-      "promptpay",
-      "qr-code",
-      "stripe",
-      "tft-espi",
-      "tft-espi-library",
-      "thailand"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-01T12:10:14Z",
-    "updated_at": "2026-08-02T05:07:46Z",
-    "owner": {
-      "name": "moomdate",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16360081?v=4"
-    }
-  },
-  {
-    "name": "OzzyIsNeko/QLIC",
-    "url": "https://github.com/OzzyIsNeko/QLIC",
-    "description": "QLIC (Quick Lossless Image Codec) is a lossless image format designed around mixing high speed with high file size reduction. ",
-    "stars": 11,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-29T22:52:29Z",
-    "updated_at": "2026-08-01T17:20:54Z",
-    "owner": {
-      "name": "OzzyIsNeko",
-      "avatar_url": "https://avatars.githubusercontent.com/u/277050422?v=4"
     }
   },
   {
@@ -1497,6 +1486,60 @@
     }
   },
   {
+    "name": "nanochess/Am29000",
+    "url": "https://github.com/nanochess/Am29000",
+    "description": "Am29000 emulator for homebrew computer G11 with windowed operating system disk image.",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-07-30T21:23:08Z",
+    "updated_at": "2026-08-02T21:41:46Z",
+    "owner": {
+      "name": "nanochess",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9663372?v=4"
+    }
+  },
+  {
+    "name": "zww666-creater/2026-NUEDC-H-Car-Firmware",
+    "url": "https://github.com/zww666-creater/2026-NUEDC-H-Car-Firmware",
+    "description": "2026年电赛H题小车部分代码工程｜全国大学生电子设计竞赛｜MSPM0G3507｜8路灰度循迹｜编码器停车｜OLED计时",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "2026-nuedc",
+      "mspm0g3507",
+      "nuedc",
+      "nuedc-2026",
+      "nuedc-h"
+    ],
+    "license": "No license",
+    "created_at": "2026-08-02T14:18:42Z",
+    "updated_at": "2026-08-03T05:08:40Z",
+    "owner": {
+      "name": "zww666-creater",
+      "avatar_url": "https://avatars.githubusercontent.com/u/240127287?v=4"
+    }
+  },
+  {
+    "name": "YuKongA/ghostlock-oplus",
+    "url": "https://github.com/YuKongA/ghostlock-oplus",
+    "description": "GhostLock for OPPO Find N5 / Find X8",
+    "stars": 10,
+    "forks": 9,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-07-29T05:04:25Z",
+    "updated_at": "2026-08-02T12:01:40Z",
+    "owner": {
+      "name": "YuKongA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70465933?v=4"
+    }
+  },
+  {
     "name": "Udayveer17/Timeroast-BOF",
     "url": "https://github.com/Udayveer17/Timeroast-BOF",
     "description": null,
@@ -1526,38 +1569,6 @@
     "owner": {
       "name": "kusesad-1122",
       "avatar_url": "https://avatars.githubusercontent.com/u/288296953?v=4"
-    }
-  },
-  {
-    "name": "Hinikaa/wisp",
-    "url": "https://github.com/Hinikaa/wisp",
-    "description": "A Lua-native Linux shell with real job control and structured (not text) pipelines",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-16T16:33:29Z",
-    "updated_at": "2026-07-19T12:48:54Z",
-    "owner": {
-      "name": "Hinikaa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/192247746?v=4"
-    }
-  },
-  {
-    "name": "pinchepasta/mostly-a-Flipper",
-    "url": "https://github.com/pinchepasta/mostly-a-Flipper",
-    "description": "This is a port of the Flipper Zero firmware for the Cardputer & Cardputer ADV",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-15T11:03:26Z",
-    "updated_at": "2026-07-19T16:09:12Z",
-    "owner": {
-      "name": "pinchepasta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/115706247?v=4"
     }
   }
 ]
