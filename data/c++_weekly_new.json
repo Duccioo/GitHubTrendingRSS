@@ -3,8 +3,8 @@
     "name": "FareedKhan-dev/kimi-k3-in-c",
     "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
     "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-    "stars": 2123,
-    "forks": 348,
+    "stars": 2621,
+    "forks": 436,
     "language": "C",
     "topics": [
       "avx2",
@@ -30,7 +30,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-08-01T09:29:38Z",
-    "updated_at": "2026-08-05T04:58:20Z",
+    "updated_at": "2026-08-06T04:56:29Z",
     "owner": {
       "name": "FareedKhan-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/63067900?v=4"
@@ -124,6 +124,22 @@
     }
   },
   {
+    "name": "ARMSX2/ARMSX1",
+    "url": "https://github.com/ARMSX2/ARMSX1",
+    "description": "New PS1 Emulator from the Founders of ARMSX2 ",
+    "stars": 109,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "GNU Lesser General Public License v3.0",
+    "created_at": "2026-08-01T12:48:11Z",
+    "updated_at": "2026-08-06T01:16:24Z",
+    "owner": {
+      "name": "ARMSX2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/225954912?v=4"
+    }
+  },
+  {
     "name": "theqkash/esp32flight",
     "url": "https://github.com/theqkash/esp32flight",
     "description": "A standalone desk flight radar on a single ESP32 board with a 7\" touchscreen. ",
@@ -143,22 +159,6 @@
     "owner": {
       "name": "theqkash",
       "avatar_url": "https://avatars.githubusercontent.com/u/6078401?v=4"
-    }
-  },
-  {
-    "name": "ARMSX2/ARMSX1",
-    "url": "https://github.com/ARMSX2/ARMSX1",
-    "description": "New PS1 Emulator from the Founders of ARMSX2 ",
-    "stars": 100,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "GNU Lesser General Public License v3.0",
-    "created_at": "2026-08-01T12:48:11Z",
-    "updated_at": "2026-08-05T04:09:32Z",
-    "owner": {
-      "name": "ARMSX2",
-      "avatar_url": "https://avatars.githubusercontent.com/u/225954912?v=4"
     }
   },
   {
@@ -194,6 +194,69 @@
     }
   },
   {
+    "name": "scavenrage/PCIe-PC-Power-Control-ESP32-H2",
+    "url": "https://github.com/scavenrage/PCIe-PC-Power-Control-ESP32-H2",
+    "description": "PCIe card with ESP32-H2 for remote PC power-on and reset via Home Assistant/Zigbee — powered from the PCIe 3.3Vaux rail, no extra cables.",
+    "stars": 73,
+    "forks": 7,
+    "language": "C",
+    "topics": [
+      "esp32-h2",
+      "homeassistant",
+      "pci-e",
+      "powercontrol",
+      "zigbee"
+    ],
+    "license": "CERN Open Hardware Licence Version 2 - Permissive",
+    "created_at": "2026-08-02T10:06:03Z",
+    "updated_at": "2026-08-05T21:16:55Z",
+    "owner": {
+      "name": "scavenrage",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22749827?v=4"
+    }
+  },
+  {
+    "name": "Carloscodix/qapla",
+    "url": "https://github.com/Carloscodix/qapla",
+    "description": "A char-level transformer trained from scratch on an $8 ESP32-S3. Not inference: the chip runs the full training loop, with backprop written by hand in C.",
+    "stars": 67,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-04T11:53:16Z",
+    "updated_at": "2026-08-06T01:12:09Z",
+    "owner": {
+      "name": "Carloscodix",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104160877?v=4"
+    }
+  },
+  {
+    "name": "antitree/nfc_canary",
+    "url": "https://github.com/antitree/nfc_canary",
+    "description": "Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibration",
+    "stars": 62,
+    "forks": 6,
+    "language": "C",
+    "topics": [
+      "embedded",
+      "fap",
+      "flipper-zero",
+      "flipperzero",
+      "nfc",
+      "privacy",
+      "rfid",
+      "security"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-03T14:54:26Z",
+    "updated_at": "2026-08-05T21:52:59Z",
+    "owner": {
+      "name": "antitree",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1119175?v=4"
+    }
+  },
+  {
     "name": "OptiJuegos/PvZ2Native",
     "url": "https://github.com/OptiJuegos/PvZ2Native",
     "description": null,
@@ -210,25 +273,19 @@
     }
   },
   {
-    "name": "scavenrage/PCIe-PC-Power-Control-ESP32-H2",
-    "url": "https://github.com/scavenrage/PCIe-PC-Power-Control-ESP32-H2",
-    "description": "PCIe card with ESP32-H2 for remote PC power-on and reset via Home Assistant/Zigbee — powered from the PCIe 3.3Vaux rail, no extra cables.",
-    "stars": 60,
+    "name": "Meowmycks/EkkoNtProtect",
+    "url": "https://github.com/Meowmycks/EkkoNtProtect",
+    "description": "Use NtProtectVirtualMemory in Ekko timers without needing to use stack pivoting or other RSP shifting tricks",
+    "stars": 58,
     "forks": 6,
     "language": "C",
-    "topics": [
-      "esp32-h2",
-      "homeassistant",
-      "pci-e",
-      "powercontrol",
-      "zigbee"
-    ],
-    "license": "CERN Open Hardware Licence Version 2 - Permissive",
-    "created_at": "2026-08-02T10:06:03Z",
-    "updated_at": "2026-08-05T04:00:24Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-03T19:41:41Z",
+    "updated_at": "2026-08-06T00:38:56Z",
     "owner": {
-      "name": "scavenrage",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22749827?v=4"
+      "name": "Meowmycks",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45502375?v=4"
     }
   },
   {
@@ -267,7 +324,7 @@
     "name": "moomdate/CYD-PromptPay-Terminal",
     "url": "https://github.com/moomdate/CYD-PromptPay-Terminal",
     "description": " A $6 PromptPay payment terminal — ESP32 + 2.8\" touch screen, powered by Stripe. Enter amount, show QR, beep when paid. Thai/English UI.",
-    "stars": 51,
+    "stars": 52,
     "forks": 17,
     "language": "C",
     "topics": [
@@ -285,7 +342,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-01T12:10:14Z",
-    "updated_at": "2026-08-05T03:19:46Z",
+    "updated_at": "2026-08-05T06:08:01Z",
     "owner": {
       "name": "moomdate",
       "avatar_url": "https://avatars.githubusercontent.com/u/16360081?v=4"
@@ -308,44 +365,19 @@
     }
   },
   {
-    "name": "Meowmycks/EkkoNtProtect",
-    "url": "https://github.com/Meowmycks/EkkoNtProtect",
-    "description": "Arbitrary NtProtectVirtualMemory calls from Ekko-style timer-based sleep obfuscation using internal ntdll functions",
-    "stars": 48,
-    "forks": 5,
+    "name": "tsoding/r8",
+    "url": "https://github.com/tsoding/r8",
+    "description": "Fantasy console based on 6502 and rendered using Raylib",
+    "stars": 46,
+    "forks": 1,
     "language": "C",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-03T19:41:41Z",
-    "updated_at": "2026-08-05T04:45:23Z",
-    "owner": {
-      "name": "Meowmycks",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45502375?v=4"
-    }
-  },
-  {
-    "name": "antitree/nfc_canary",
-    "url": "https://github.com/antitree/nfc_canary",
-    "description": "Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibration",
-    "stars": 46,
-    "forks": 5,
-    "language": "C",
-    "topics": [
-      "embedded",
-      "fap",
-      "flipper-zero",
-      "flipperzero",
-      "nfc",
-      "privacy",
-      "rfid",
-      "security"
-    ],
     "license": "MIT License",
-    "created_at": "2026-08-03T14:54:26Z",
-    "updated_at": "2026-08-05T04:57:39Z",
+    "created_at": "2026-07-31T18:23:32Z",
+    "updated_at": "2026-08-05T23:09:11Z",
     "owner": {
-      "name": "antitree",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1119175?v=4"
+      "name": "tsoding",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18597647?v=4"
     }
   },
   {
@@ -401,6 +433,29 @@
     }
   },
   {
+    "name": "xingji-studio/OpenXJ380",
+    "url": "https://github.com/xingji-studio/OpenXJ380",
+    "description": "The official open-source repository of XJ380OS, with the desktop environment.",
+    "stars": 41,
+    "forks": 13,
+    "language": "C",
+    "topics": [
+      "cpp",
+      "kernel",
+      "open-source",
+      "osdev",
+      "system",
+      "uefi"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-01T05:17:35Z",
+    "updated_at": "2026-08-06T04:49:01Z",
+    "owner": {
+      "name": "xingji-studio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131461087?v=4"
+    }
+  },
+  {
     "name": "SoyBeanMilkx/dbi_detect",
     "url": "https://github.com/SoyBeanMilkx/dbi_detect",
     "description": " check whether important functions are being traced.",
@@ -414,22 +469,6 @@
     "owner": {
       "name": "SoyBeanMilkx",
       "avatar_url": "https://avatars.githubusercontent.com/u/39391923?v=4"
-    }
-  },
-  {
-    "name": "tsoding/r8",
-    "url": "https://github.com/tsoding/r8",
-    "description": "Fantasy console based on 6502 and rendered using Raylib",
-    "stars": 40,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-31T18:23:32Z",
-    "updated_at": "2026-08-05T00:00:19Z",
-    "owner": {
-      "name": "tsoding",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18597647?v=4"
     }
   },
   {
@@ -485,62 +524,6 @@
     }
   },
   {
-    "name": "karollooool/CVE-2026-50416-writeup-and-poc",
-    "url": "https://github.com/karollooool/CVE-2026-50416-writeup-and-poc",
-    "description": "CVE-2026-50416: Windows 11 KASLR bypass",
-    "stars": 34,
-    "forks": 5,
-    "language": "C",
-    "topics": [
-      "cve",
-      "cve-2026-50416",
-      "information-disclosure",
-      "kaslr",
-      "kaslr-bypass",
-      "kernel",
-      "leak",
-      "msrc",
-      "poc",
-      "proof-of-concept",
-      "vulnerability",
-      "win32k",
-      "windows",
-      "windows-11",
-      "writeup",
-      "writeups"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-17T12:12:33Z",
-    "updated_at": "2026-07-23T00:19:54Z",
-    "owner": {
-      "name": "karollooool",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76046300?v=4"
-    }
-  },
-  {
-    "name": "xingji-studio/OpenXJ380",
-    "url": "https://github.com/xingji-studio/OpenXJ380",
-    "description": "The official open-source repository of XJ380OS, with the desktop environment.",
-    "stars": 33,
-    "forks": 12,
-    "language": "C",
-    "topics": [
-      "cpp",
-      "kernel",
-      "open-source",
-      "osdev",
-      "system",
-      "uefi"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-01T05:17:35Z",
-    "updated_at": "2026-08-05T04:13:37Z",
-    "owner": {
-      "name": "xingji-studio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/131461087?v=4"
-    }
-  },
-  {
     "name": "0cyn/l41ka",
     "url": "https://github.com/0cyn/l41ka",
     "description": "experimental pongoOS-loading RP2350 firmware and bootkit for legacy A12/13 devices, aimed at security research",
@@ -576,32 +559,38 @@
     "name": "rosbean/balatro-dualscreen",
     "url": "https://github.com/rosbean/balatro-dualscreen",
     "description": "Android mod of Balatro, optimised for dual screen devices and targeting and tested on the AYN Thor.",
-    "stars": 27,
+    "stars": 28,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-08-01T13:49:02Z",
-    "updated_at": "2026-08-04T16:24:21Z",
+    "updated_at": "2026-08-05T21:47:00Z",
     "owner": {
       "name": "rosbean",
       "avatar_url": "https://avatars.githubusercontent.com/u/82302849?v=4"
     }
   },
   {
-    "name": "BuSung-dev/Root-My-Galaxy-Payloads",
-    "url": "https://github.com/BuSung-dev/Root-My-Galaxy-Payloads",
-    "description": "Signed device profiles, mobile exploit payloads, and KernelSU artifacts for Root My Galaxy",
-    "stars": 27,
-    "forks": 19,
+    "name": "Ymsniper/anyr",
+    "url": "https://github.com/Ymsniper/anyr",
+    "description": "Linux recoil compensation script for FPS games using a virtual mouse via uinput, with per-weapon JSON patterns and a sensitivity calculator.",
+    "stars": 25,
+    "forks": 5,
     "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-17T14:12:14Z",
-    "updated_at": "2026-07-23T04:57:33Z",
+    "topics": [
+      "c",
+      "cjson",
+      "game-cheats-manager",
+      "recoil-compensation",
+      "recoil-control-engine"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-04T03:42:27Z",
+    "updated_at": "2026-08-05T22:15:03Z",
     "owner": {
-      "name": "BuSung-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/177005165?v=4"
+      "name": "Ymsniper",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190832399?v=4"
     }
   },
   {
@@ -637,25 +626,19 @@
     }
   },
   {
-    "name": "Ymsniper/anyr",
-    "url": "https://github.com/Ymsniper/anyr",
-    "description": "Linux recoil compensation script for FPS games using a virtual mouse via uinput, with per-weapon JSON patterns and a sensitivity calculator.",
-    "stars": 23,
+    "name": "alex193a/Root-My-Pixel-Payloads",
+    "url": "https://github.com/alex193a/Root-My-Pixel-Payloads",
+    "description": "Exploit payloads for Root My Pixel",
+    "stars": 22,
     "forks": 5,
     "language": "C",
-    "topics": [
-      "c",
-      "cjson",
-      "game-cheats-manager",
-      "recoil-compensation",
-      "recoil-control-engine"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-04T03:42:27Z",
-    "updated_at": "2026-08-05T01:38:00Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-02T17:16:02Z",
+    "updated_at": "2026-08-06T04:22:30Z",
     "owner": {
-      "name": "Ymsniper",
-      "avatar_url": "https://avatars.githubusercontent.com/u/190832399?v=4"
+      "name": "alex193a",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8174240?v=4"
     }
   },
   {
@@ -698,22 +681,6 @@
     "owner": {
       "name": "theshaneobrien",
       "avatar_url": "https://avatars.githubusercontent.com/u/40431366?v=4"
-    }
-  },
-  {
-    "name": "svkaiser/hexen-development-files",
-    "url": "https://github.com/svkaiser/hexen-development-files",
-    "description": "Original source of the ACS scripts for Hexen, DoomED source map files for Hexen and development tools such as HereticEd used for development of Hexen",
-    "stars": 22,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-19T18:39:07Z",
-    "updated_at": "2026-07-22T17:38:27Z",
-    "owner": {
-      "name": "svkaiser",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2289027?v=4"
     }
   },
   {
@@ -798,6 +765,22 @@
     }
   },
   {
+    "name": "JaimeJimenezG/Moonlight-ps4",
+    "url": "https://github.com/JaimeJimenezG/Moonlight-ps4",
+    "description": "A moonlight Client for PS4 ",
+    "stars": 19,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-07-31T01:27:38Z",
+    "updated_at": "2026-08-05T07:36:38Z",
+    "owner": {
+      "name": "JaimeJimenezG",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46894266?v=4"
+    }
+  },
+  {
     "name": "Yassine-Jemi01/SmartFetch",
     "url": "https://github.com/Yassine-Jemi01/SmartFetch",
     "description": "SmartFetch is a fast, lightweight Linux system information fetch tool written in C. It displays system hardware, OS details, kernel, uptime, memory, and thermal stats alongside dynamic distribution ASCII art directly in your terminal.",
@@ -814,19 +797,40 @@
     }
   },
   {
-    "name": "JaimeJimenezG/Moonlight-ps4",
-    "url": "https://github.com/JaimeJimenezG/Moonlight-ps4",
-    "description": "A moonlight Client for PS4 ",
+    "name": "wiringai/mod_earshot",
+    "url": "https://github.com/wiringai/mod_earshot",
+    "description": "FreeSWITCH module that streams live call audio to AI voice agents over WebSocket and plays their voice back — full-duplex.",
     "stars": 18,
-    "forks": 0,
+    "forks": 8,
     "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-31T01:27:38Z",
-    "updated_at": "2026-08-02T15:27:52Z",
+    "topics": [
+      "ai-voice",
+      "barge-in",
+      "conversational-ai",
+      "deepgram",
+      "elevenlabs",
+      "freeswitch",
+      "freeswitch-module",
+      "mod-audio-stream",
+      "openai-realtime",
+      "pipecat",
+      "pipecat-ai",
+      "realtime-audio",
+      "sip",
+      "speech-to-text",
+      "telephony",
+      "text-to-speech",
+      "voice-agent",
+      "voice-ai",
+      "voip",
+      "websocket"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-03T15:33:18Z",
+    "updated_at": "2026-08-06T04:54:29Z",
     "owner": {
-      "name": "JaimeJimenezG",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46894266?v=4"
+      "name": "wiringai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/312584438?v=4"
     }
   },
   {
@@ -846,19 +850,35 @@
     }
   },
   {
-    "name": "drdator/q3edit",
-    "url": "https://github.com/drdator/q3edit",
-    "description": "Browser-based Quake III Arena map editor with WebGL2 and client-side BSP compilation.",
-    "stars": 17,
-    "forks": 2,
+    "name": "drakmor/fan_target",
+    "url": "https://github.com/drakmor/fan_target",
+    "description": "PS5 fan controller",
+    "stars": 16,
+    "forks": 1,
     "language": "C",
     "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-07-18T10:24:23Z",
-    "updated_at": "2026-07-22T20:51:21Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-04T16:55:15Z",
+    "updated_at": "2026-08-05T23:56:14Z",
     "owner": {
-      "name": "drdator",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72999?v=4"
+      "name": "drakmor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1344732?v=4"
+    }
+  },
+  {
+    "name": "xoreaxeaxeax/schrodingers-toctou",
+    "url": "https://github.com/xoreaxeaxeax/schrodingers-toctou",
+    "description": "The binary you run is not the program you wrote.",
+    "stars": 16,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-05T14:09:45Z",
+    "updated_at": "2026-08-06T04:36:34Z",
+    "owner": {
+      "name": "xoreaxeaxeax",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12904366?v=4"
     }
   },
   {
@@ -1140,6 +1160,38 @@
     }
   },
   {
+    "name": "ThroatyMumbo/GameConsoleV2",
+    "url": "https://github.com/ThroatyMumbo/GameConsoleV2",
+    "description": "RP2350-based retro style game console",
+    "stars": 12,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-07-31T03:03:00Z",
+    "updated_at": "2026-08-06T01:05:22Z",
+    "owner": {
+      "name": "ThroatyMumbo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/220419266?v=4"
+    }
+  },
+  {
+    "name": "xlar54/PiCMD",
+    "url": "https://github.com/xlar54/PiCMD",
+    "description": null,
+    "stars": 12,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-02T01:11:28Z",
+    "updated_at": "2026-08-06T04:29:18Z",
+    "owner": {
+      "name": "xlar54",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1909642?v=4"
+    }
+  },
+  {
     "name": "woshimaniubi8/CVE-2026-43499-root-KernelSU",
     "url": "https://github.com/woshimaniubi8/CVE-2026-43499-root-KernelSU",
     "description": "基于内核漏洞CVE-2026-43499的本地提权适配，集成嵌入式 KernelSU.CVE-2026-43499+KernelSU越狱模式 ",
@@ -1245,19 +1297,35 @@
     }
   },
   {
-    "name": "ThroatyMumbo/GameConsoleV2",
-    "url": "https://github.com/ThroatyMumbo/GameConsoleV2",
-    "description": "RP2350-based retro style game console",
+    "name": "NaGaa95/angrybirds2_nx",
+    "url": "https://github.com/NaGaa95/angrybirds2_nx",
+    "description": "Port of Angry Birds 2 for Switch.",
     "stars": 11,
     "forks": 0,
     "language": "C",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-07-31T03:03:00Z",
-    "updated_at": "2026-08-04T11:42:20Z",
+    "created_at": "2026-08-01T05:26:49Z",
+    "updated_at": "2026-08-04T15:01:02Z",
     "owner": {
-      "name": "ThroatyMumbo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/220419266?v=4"
+      "name": "NaGaa95",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38852591?v=4"
+    }
+  },
+  {
+    "name": "Anime0t4ku/MiSTer_Hi-Fi",
+    "url": "https://github.com/Anime0t4ku/MiSTer_Hi-Fi",
+    "description": "A Music Player with lossless audio formats support for MiSTer FPGA",
+    "stars": 11,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-03T17:00:21Z",
+    "updated_at": "2026-08-06T00:41:42Z",
+    "owner": {
+      "name": "Anime0t4ku",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72316217?v=4"
     }
   },
   {
@@ -1290,54 +1358,6 @@
     "owner": {
       "name": "nanochess",
       "avatar_url": "https://avatars.githubusercontent.com/u/9663372?v=4"
-    }
-  },
-  {
-    "name": "NaGaa95/angrybirds2_nx",
-    "url": "https://github.com/NaGaa95/angrybirds2_nx",
-    "description": "Port of Angry Birds 2 for Switch.",
-    "stars": 11,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-01T05:26:49Z",
-    "updated_at": "2026-08-04T15:01:02Z",
-    "owner": {
-      "name": "NaGaa95",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38852591?v=4"
-    }
-  },
-  {
-    "name": "xlar54/PiCMD",
-    "url": "https://github.com/xlar54/PiCMD",
-    "description": null,
-    "stars": 11,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-02T01:11:28Z",
-    "updated_at": "2026-08-04T19:18:59Z",
-    "owner": {
-      "name": "xlar54",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1909642?v=4"
-    }
-  },
-  {
-    "name": "drakmor/fan_target",
-    "url": "https://github.com/drakmor/fan_target",
-    "description": "PS5 fan controller",
-    "stars": 11,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-04T16:55:15Z",
-    "updated_at": "2026-08-05T04:27:41Z",
-    "owner": {
-      "name": "drakmor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1344732?v=4"
     }
   },
   {
@@ -1473,6 +1493,92 @@
     }
   },
   {
+    "name": "harmansingh4163-ai/R-457",
+    "url": "https://github.com/harmansingh4163-ai/R-457",
+    "description": "First public release of R-457 — a 27M-parameter reasoning model running entirely offline across two ESP32-S3 boards.  **What it does:** answers questions from a 792-key knowledge bank on SD, calls on-chip tools for arithmetic and counting, refuses honestly when the facts don't support an answer, writes grounded paragraphs, and learns new facts. ",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-03T05:47:51Z",
+    "updated_at": "2026-08-05T10:23:06Z",
+    "owner": {
+      "name": "harmansingh4163-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/280861250?v=4"
+    }
+  },
+  {
+    "name": "makerjackie/onesend",
+    "url": "https://github.com/makerjackie/onesend",
+    "description": "OneSend · 扫传 — offline visual file transfer over animated QR and color codes. English and Chinese UI included.",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-01T05:53:11Z",
+    "updated_at": "2026-08-06T04:47:15Z",
+    "owner": {
+      "name": "makerjackie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18050469?v=4"
+    }
+  },
+  {
+    "name": "dadcapgamer/retroshellpsp",
+    "url": "https://github.com/dadcapgamer/retroshellpsp",
+    "description": null,
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-08-01T18:52:17Z",
+    "updated_at": "2026-08-05T05:00:07Z",
+    "owner": {
+      "name": "dadcapgamer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/311263164?v=4"
+    }
+  },
+  {
+    "name": "zww666-creater/2026-NUEDC-H-Car-Firmware",
+    "url": "https://github.com/zww666-creater/2026-NUEDC-H-Car-Firmware",
+    "description": "2026年电赛H题小车部分代码工程｜全国大学生电子设计竞赛｜MSPM0G3507｜8路灰度循迹｜编码器停车｜OLED计时",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "2026-nuedc",
+      "mspm0g3507",
+      "nuedc",
+      "nuedc-2026",
+      "nuedc-h"
+    ],
+    "license": "No license",
+    "created_at": "2026-08-02T14:18:42Z",
+    "updated_at": "2026-08-06T02:33:18Z",
+    "owner": {
+      "name": "zww666-creater",
+      "avatar_url": "https://avatars.githubusercontent.com/u/240127287?v=4"
+    }
+  },
+  {
+    "name": "boxiaolanya2008/CVE-2026-43499-Neo11Plus",
+    "url": "https://github.com/boxiaolanya2008/CVE-2026-43499-Neo11Plus",
+    "description": null,
+    "stars": 10,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-02T08:10:34Z",
+    "updated_at": "2026-08-04T15:00:25Z",
+    "owner": {
+      "name": "boxiaolanya2008",
+      "avatar_url": "https://avatars.githubusercontent.com/u/159523785?v=4"
+    }
+  },
+  {
     "name": "soroushalinia/shepherd",
     "url": "https://github.com/soroushalinia/shepherd",
     "description": "a Linux kernel module with a single opinionated sheep living in /proc/sheep",
@@ -1493,60 +1599,6 @@
     "owner": {
       "name": "soroushalinia",
       "avatar_url": "https://avatars.githubusercontent.com/u/199381946?v=4"
-    }
-  },
-  {
-    "name": "Carloscodix/qapla",
-    "url": "https://github.com/Carloscodix/qapla",
-    "description": "A char-level transformer trained from scratch on an $8 ESP32-S3. Not inference: the chip runs the full training loop, with backprop written by hand in C.",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-04T11:53:16Z",
-    "updated_at": "2026-08-05T04:36:17Z",
-    "owner": {
-      "name": "Carloscodix",
-      "avatar_url": "https://avatars.githubusercontent.com/u/104160877?v=4"
-    }
-  },
-  {
-    "name": "zww666-creater/2026-NUEDC-H-Car-Firmware",
-    "url": "https://github.com/zww666-creater/2026-NUEDC-H-Car-Firmware",
-    "description": "2026年电赛H题小车部分代码工程｜全国大学生电子设计竞赛｜MSPM0G3507｜8路灰度循迹｜编码器停车｜OLED计时",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "2026-nuedc",
-      "mspm0g3507",
-      "nuedc",
-      "nuedc-2026",
-      "nuedc-h"
-    ],
-    "license": "No license",
-    "created_at": "2026-08-02T14:18:42Z",
-    "updated_at": "2026-08-03T05:08:40Z",
-    "owner": {
-      "name": "zww666-creater",
-      "avatar_url": "https://avatars.githubusercontent.com/u/240127287?v=4"
-    }
-  },
-  {
-    "name": "boxiaolanya2008/CVE-2026-43499-Neo11Plus",
-    "url": "https://github.com/boxiaolanya2008/CVE-2026-43499-Neo11Plus",
-    "description": null,
-    "stars": 10,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-02T08:10:34Z",
-    "updated_at": "2026-08-04T15:00:25Z",
-    "owner": {
-      "name": "boxiaolanya2008",
-      "avatar_url": "https://avatars.githubusercontent.com/u/159523785?v=4"
     }
   },
   {
