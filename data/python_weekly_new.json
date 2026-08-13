@@ -1,5 +1,29 @@
 [
   {
+    "name": "guillaumemeyer/watermarks-remover",
+    "url": "https://github.com/guillaumemeyer/watermarks-remover",
+    "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+    "stars": 2742,
+    "forks": 268,
+    "language": "Python",
+    "topics": [
+      "agent-skill",
+      "ai",
+      "c2pa",
+      "claude",
+      "provenance",
+      "synthid",
+      "watermark"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-11T16:32:38Z",
+    "updated_at": "2026-08-13T04:04:44Z",
+    "owner": {
+      "name": "guillaumemeyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1385518?v=4"
+    }
+  },
+  {
     "name": "KKKKhazix/human-writing",
     "url": "https://github.com/KKKKhazix/human-writing",
     "description": "让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。",
@@ -21,27 +45,11 @@
     }
   },
   {
-    "name": "slvDev/esp32-ai",
-    "url": "https://github.com/slvDev/esp32-ai",
-    "description": null,
-    "stars": 2110,
-    "forks": 230,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-23T14:53:51Z",
-    "updated_at": "2026-07-29T05:00:11Z",
-    "owner": {
-      "name": "slvDev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15254847?v=4"
-    }
-  },
-  {
     "name": "ShawnPana/phone-harness",
     "url": "https://github.com/ShawnPana/phone-harness",
     "description": "let your agent control your phone",
-    "stars": 1525,
-    "forks": 130,
+    "stars": 1661,
+    "forks": 145,
     "language": "Python",
     "topics": [
       "agent",
@@ -51,7 +59,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-07T22:28:53Z",
-    "updated_at": "2026-08-12T03:56:47Z",
+    "updated_at": "2026-08-13T04:03:20Z",
     "owner": {
       "name": "ShawnPana",
       "avatar_url": "https://avatars.githubusercontent.com/u/129362299?v=4"
@@ -61,13 +69,13 @@
     "name": "oil-oil/oil-motion",
     "url": "https://github.com/oil-oil/oil-motion",
     "description": "Create smooth, responsive interactive web animations.",
-    "stars": 1492,
-    "forks": 117,
+    "stars": 1633,
+    "forks": 126,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-07T12:36:33Z",
-    "updated_at": "2026-08-12T03:50:10Z",
+    "updated_at": "2026-08-13T03:55:49Z",
     "owner": {
       "name": "oil-oil",
       "avatar_url": "https://avatars.githubusercontent.com/u/57465570?v=4"
@@ -87,22 +95,6 @@
     "owner": {
       "name": "Binaryify",
       "avatar_url": "https://avatars.githubusercontent.com/u/12221718?v=4"
-    }
-  },
-  {
-    "name": "mikiarlo3/ai-copywriter",
-    "url": "https://github.com/mikiarlo3/ai-copywriter",
-    "description": "An AI copywriter that uses real copywriting skills + real marketing knowledge with human tone.",
-    "stars": 1048,
-    "forks": 23,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-24T19:52:13Z",
-    "updated_at": "2026-07-30T03:07:02Z",
-    "owner": {
-      "name": "mikiarlo3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1715109?v=4"
     }
   },
   {
@@ -207,42 +199,6 @@
     }
   },
   {
-    "name": "mikehasa/agentacct",
-    "url": "https://github.com/mikehasa/agentacct",
-    "description": "See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files changed, tests run, time and tokens spent. Local-first dashboard for Claude Code, Codex, OpenCode, and more. No login, no telemetry.",
-    "stars": 532,
-    "forks": 68,
-    "language": "Python",
-    "topics": [
-      "agent-observability",
-      "ai-agents",
-      "analytics",
-      "claude-code",
-      "cli",
-      "codex",
-      "coding-agent",
-      "cost-tracking",
-      "dashboard",
-      "developer-tools",
-      "devtools",
-      "llm",
-      "llmops",
-      "local-first",
-      "mcp",
-      "observability",
-      "opencode",
-      "python",
-      "token-usage"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-24T16:28:06Z",
-    "updated_at": "2026-07-30T03:10:50Z",
-    "owner": {
-      "name": "mikehasa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91774998?v=4"
-    }
-  },
-  {
     "name": "AMAP-ML/LongHorizon-Harness",
     "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
     "description": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.",
@@ -292,19 +248,24 @@
     }
   },
   {
-    "name": "XYZ-AI-Lab/axrl",
-    "url": "https://github.com/XYZ-AI-Lab/axrl",
-    "description": "AxisRL is an agentic RL post-training framework built on SGLang rollout, Megatron training, and real-world agent workflows.",
-    "stars": 475,
-    "forks": 21,
+    "name": "NikoDemon80/ComfyUI-H3-Motion-Context",
+    "url": "https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context",
+    "description": "Clip chaining for MiniMax H3 in ComfyUI - motion and audio genuinely continue across joins",
+    "stars": 486,
+    "forks": 49,
     "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-23T06:07:23Z",
-    "updated_at": "2026-07-29T04:12:03Z",
+    "topics": [
+      "comfyui",
+      "comfyui-nodes",
+      "minimax",
+      "video-generation"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-07T01:18:37Z",
+    "updated_at": "2026-08-13T03:13:22Z",
     "owner": {
-      "name": "XYZ-AI-Lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/308220153?v=4"
+      "name": "NikoDemon80",
+      "avatar_url": "https://avatars.githubusercontent.com/u/262659861?v=4"
     }
   },
   {
@@ -321,27 +282,6 @@
     "owner": {
       "name": "SandAI-org",
       "avatar_url": "https://avatars.githubusercontent.com/u/208222005?v=4"
-    }
-  },
-  {
-    "name": "NikoDemon80/ComfyUI-H3-Motion-Context",
-    "url": "https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context",
-    "description": "Clip chaining for MiniMax H3 in ComfyUI - motion and audio genuinely continue across joins",
-    "stars": 421,
-    "forks": 39,
-    "language": "Python",
-    "topics": [
-      "comfyui",
-      "comfyui-nodes",
-      "minimax",
-      "video-generation"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-07T01:18:37Z",
-    "updated_at": "2026-08-12T03:48:03Z",
-    "owner": {
-      "name": "NikoDemon80",
-      "avatar_url": "https://avatars.githubusercontent.com/u/262659861?v=4"
     }
   },
   {
@@ -390,45 +330,6 @@
     "owner": {
       "name": "Larryvrh",
       "avatar_url": "https://avatars.githubusercontent.com/u/15991834?v=4"
-    }
-  },
-  {
-    "name": "XYZ-AI-Lab/AxisAgentic",
-    "url": "https://github.com/XYZ-AI-Lab/AxisAgentic",
-    "description": "AxisAgentic: An Extensible Runtime and Trajectory-Collection Framework for Long-Horizon Agents.",
-    "stars": 384,
-    "forks": 58,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-23T04:03:31Z",
-    "updated_at": "2026-07-29T05:04:51Z",
-    "owner": {
-      "name": "XYZ-AI-Lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/308220153?v=4"
-    }
-  },
-  {
-    "name": "daimon3332/OutlookRegister",
-    "url": "https://github.com/daimon3332/OutlookRegister",
-    "description": "Outlook/Hotmail account batch registration tool.                          Outlook / Hotmail 账号批量注册工具，支持自动获取 OAuth2 refresh_token",
-    "stars": 354,
-    "forks": 55,
-    "language": "Python",
-    "topics": [
-      "hotmail",
-      "mail",
-      "microservice",
-      "microsoft",
-      "outlook",
-      "register"
-    ],
-    "license": "Other",
-    "created_at": "2026-07-23T12:38:50Z",
-    "updated_at": "2026-07-29T05:16:21Z",
-    "owner": {
-      "name": "daimon3332",
-      "avatar_url": "https://avatars.githubusercontent.com/u/153618858?v=4"
     }
   },
   {
@@ -527,22 +428,6 @@
     "owner": {
       "name": "joeseesun",
       "avatar_url": "https://avatars.githubusercontent.com/u/3236682?v=4"
-    }
-  },
-  {
-    "name": "sunny-glow/Auto-BenchMax",
-    "url": "https://github.com/sunny-glow/Auto-BenchMax",
-    "description": null,
-    "stars": 323,
-    "forks": 27,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-23T04:13:21Z",
-    "updated_at": "2026-07-29T05:15:52Z",
-    "owner": {
-      "name": "sunny-glow",
-      "avatar_url": "https://avatars.githubusercontent.com/u/308224278?v=4"
     }
   },
   {
@@ -669,6 +554,22 @@
     }
   },
   {
+    "name": "JayJokerr/arknights-pixel-autofill",
+    "url": "https://github.com/JayJokerr/arknights-pixel-autofill",
+    "description": "明日方舟 24×24 像素画转换、手动编辑与自动填色工具",
+    "stars": 282,
+    "forks": 8,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-08T21:17:53Z",
+    "updated_at": "2026-08-13T02:23:36Z",
+    "owner": {
+      "name": "JayJokerr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/120120626?v=4"
+    }
+  },
+  {
     "name": "Anionex/codex-vision-proxy",
     "url": "https://github.com/Anionex/codex-vision-proxy",
     "description": "让纯文本模型在 Codex 中无障碍看图(view_image)的更优方案，附为纯文本 LLM 设计的视觉工具包&skill ｜  A superior approach for enabling text-only models to seamlessly use Codex’s built-in view_image, plus a vision toolkit & skill designed for pure-text LLMs.",
@@ -708,22 +609,6 @@
     "owner": {
       "name": "inspatio",
       "avatar_url": "https://avatars.githubusercontent.com/u/260828406?v=4"
-    }
-  },
-  {
-    "name": "JayJokerr/arknights-pixel-autofill",
-    "url": "https://github.com/JayJokerr/arknights-pixel-autofill",
-    "description": "明日方舟 24×24 像素画转换、手动编辑与自动填色工具",
-    "stars": 258,
-    "forks": 8,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-08T21:17:53Z",
-    "updated_at": "2026-08-12T03:58:21Z",
-    "owner": {
-      "name": "JayJokerr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/120120626?v=4"
     }
   },
   {
@@ -891,6 +776,22 @@
     }
   },
   {
+    "name": "Samin100/codex-ios-assistant",
+    "url": "https://github.com/Samin100/codex-ios-assistant",
+    "description": "Control and inspect an iPhone from Codex through iMessage and Shortcuts",
+    "stars": 227,
+    "forks": 30,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-07T02:11:57Z",
+    "updated_at": "2026-08-13T02:23:47Z",
+    "owner": {
+      "name": "Samin100",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13106423?v=4"
+    }
+  },
+  {
     "name": "AmazingAng/old-coder",
     "url": "https://github.com/AmazingAng/old-coder",
     "description": "An old coder's strategy for the agent era: don't read the code — make it run the gauntlet. Evidence-first development skill for coding agents, inspired by Uncle Bob.",
@@ -909,22 +810,6 @@
     "owner": {
       "name": "AmazingAng",
       "avatar_url": "https://avatars.githubusercontent.com/u/14728591?v=4"
-    }
-  },
-  {
-    "name": "Samin100/codex-ios-assistant",
-    "url": "https://github.com/Samin100/codex-ios-assistant",
-    "description": "Control and inspect an iPhone from Codex through iMessage and Shortcuts",
-    "stars": 217,
-    "forks": 29,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-07T02:11:57Z",
-    "updated_at": "2026-08-12T03:13:48Z",
-    "owner": {
-      "name": "Samin100",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13106423?v=4"
     }
   },
   {
@@ -1065,6 +950,34 @@
     }
   },
   {
+    "name": "CheshireMew/VoxWeave",
+    "url": "https://github.com/CheshireMew/VoxWeave",
+    "description": "Local-first high-quality offline RVC voice conversion workstation",
+    "stars": 202,
+    "forks": 40,
+    "language": "Python",
+    "topics": [
+      "audio-processing",
+      "cuda",
+      "ffmpeg",
+      "local-first",
+      "pyside6",
+      "qml",
+      "realtime-audio",
+      "rvc",
+      "voice-changer",
+      "voice-conversion",
+      "windows"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-08-09T15:43:51Z",
+    "updated_at": "2026-08-13T04:03:16Z",
+    "owner": {
+      "name": "CheshireMew",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156318350?v=4"
+    }
+  },
+  {
     "name": "kaibush/grok-register",
     "url": "https://github.com/kaibush/grok-register",
     "description": "GrokFree注册机 - 支持生成CPA、grok2api格式的json鉴权文件",
@@ -1140,40 +1053,6 @@
     "owner": {
       "name": "Evianis",
       "avatar_url": "https://avatars.githubusercontent.com/u/104435191?v=4"
-    }
-  },
-  {
-    "name": "i3T4AN/KADATH",
-    "url": "https://github.com/i3T4AN/KADATH",
-    "description": "Evolutionary multi-agent runtime that breeds, evaluates, and improves autonomous agents across reproducible epochs to converge on optimization of a goal.",
-    "stars": 188,
-    "forks": 3,
-    "language": "Python",
-    "topics": [
-      "agent-evaluation-tools",
-      "agent-framework",
-      "agent-swarms",
-      "agentic-ai",
-      "agents",
-      "ai",
-      "ai-agents",
-      "autonomous-agents",
-      "evolutionary-algorithms",
-      "generative-ai",
-      "genetic-algorithm",
-      "llm",
-      "llm-agents",
-      "llm-evaluation",
-      "multi-agent",
-      "multi-agent-systems",
-      "self-evolving-agents"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-08T15:49:55Z",
-    "updated_at": "2026-08-12T03:44:13Z",
-    "owner": {
-      "name": "i3T4AN",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67167910?v=4"
     }
   },
   {
@@ -1326,6 +1205,40 @@
     }
   },
   {
+    "name": "i3T4AN/KADATH",
+    "url": "https://github.com/i3T4AN/KADATH",
+    "description": "Evolutionary multi-agent runtime that breeds, evaluates, and improves autonomous agents across reproducible epochs to converge on optimization of a goal.",
+    "stars": 173,
+    "forks": 4,
+    "language": "Python",
+    "topics": [
+      "agent-evaluation-tools",
+      "agent-framework",
+      "agent-swarms",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-agents",
+      "autonomous-agents",
+      "evolutionary-algorithms",
+      "generative-ai",
+      "genetic-algorithm",
+      "llm",
+      "llm-agents",
+      "llm-evaluation",
+      "multi-agent",
+      "multi-agent-systems",
+      "self-evolving-agents"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-08T15:49:55Z",
+    "updated_at": "2026-08-13T04:03:00Z",
+    "owner": {
+      "name": "i3T4AN",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67167910?v=4"
+    }
+  },
+  {
     "name": "dboudreau00/NocTORnal",
     "url": "https://github.com/dboudreau00/NocTORnal",
     "description": "NocTORnal is a full-stack, Cybercrime specific investigative toolset from case to conviction. Including case-notes and communications evidence gathering, malware sample analysis and full stack RBAC for local host. Enabling law enforcement and vigilantes since 2022.",
@@ -1381,19 +1294,42 @@
     }
   },
   {
-    "name": "Liuziyu77/AnythingAtlas",
-    "url": "https://github.com/Liuziyu77/AnythingAtlas",
-    "description": "Map the best way into any topic. 规划任何主题的最佳学习路径。",
+    "name": "KiaBush/Persian-IPA-to-Speech-F5",
+    "url": "https://github.com/KiaBush/Persian-IPA-to-Speech-F5",
+    "description": "Simple Python API for Persian IPA-to-speech with F5-TTS",
     "stars": 164,
-    "forks": 20,
+    "forks": 0,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2026-07-23T05:29:27Z",
-    "updated_at": "2026-07-29T04:06:00Z",
+    "created_at": "2026-08-08T11:09:43Z",
+    "updated_at": "2026-08-12T22:26:27Z",
     "owner": {
-      "name": "Liuziyu77",
-      "avatar_url": "https://avatars.githubusercontent.com/u/113190597?v=4"
+      "name": "KiaBush",
+      "avatar_url": "https://avatars.githubusercontent.com/u/312119774?v=4"
+    }
+  },
+  {
+    "name": "swping999/scene-card-studio",
+    "url": "https://github.com/swping999/scene-card-studio",
+    "description": "AI visual director for turning personal photos into structured, editable visual narratives.",
+    "stars": 160,
+    "forks": 8,
+    "language": "Python",
+    "topics": [
+      "ai-tools",
+      "codex-skill",
+      "generative-ai",
+      "image-generation",
+      "photo-narrative",
+      "visual-storytelling"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-09T03:25:19Z",
+    "updated_at": "2026-08-13T02:36:36Z",
+    "owner": {
+      "name": "swping999",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12689139?v=4"
     }
   },
   {
@@ -1511,29 +1447,6 @@
     }
   },
   {
-    "name": "swping999/scene-card-studio",
-    "url": "https://github.com/swping999/scene-card-studio",
-    "description": "AI visual director for turning personal photos into structured, editable visual narratives.",
-    "stars": 148,
-    "forks": 6,
-    "language": "Python",
-    "topics": [
-      "ai-tools",
-      "codex-skill",
-      "generative-ai",
-      "image-generation",
-      "photo-narrative",
-      "visual-storytelling"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-09T03:25:19Z",
-    "updated_at": "2026-08-12T03:44:43Z",
-    "owner": {
-      "name": "swping999",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12689139?v=4"
-    }
-  },
-  {
     "name": "Jia-Ethan/grok-keysmith",
     "url": "https://github.com/Jia-Ethan/grok-keysmith",
     "description": "Preview-first Grok Build instruction deployment with compat and hook isolation, durable recovery, and layered uninstall.",
@@ -1641,22 +1554,6 @@
     }
   },
   {
-    "name": "KiaBush/Persian-IPA-to-Speech-F5",
-    "url": "https://github.com/KiaBush/Persian-IPA-to-Speech-F5",
-    "description": "Simple Python API for Persian IPA-to-speech with F5-TTS",
-    "stars": 143,
-    "forks": 0,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-08T11:09:43Z",
-    "updated_at": "2026-08-12T02:35:33Z",
-    "owner": {
-      "name": "KiaBush",
-      "avatar_url": "https://avatars.githubusercontent.com/u/312119774?v=4"
-    }
-  },
-  {
     "name": "sanjanvandijk/ZTech",
     "url": "https://github.com/sanjanvandijk/ZTech",
     "description": "Holistic data convergence catalyst, facilitating auto-scaling, real-time data processing, and intelligent decision-making across distributed systems infrastructure enabler.",
@@ -1705,6 +1602,38 @@
     }
   },
   {
+    "name": "YINGLINGH/limioryn",
+    "url": "https://github.com/YINGLINGH/limioryn",
+    "description": "High-level edge-cloud AI multi-agent framework for real devices, verifiable actuation and entropy-bounded recovery.",
+    "stars": 141,
+    "forks": 3,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-07T08:38:44Z",
+    "updated_at": "2026-08-12T20:35:23Z",
+    "owner": {
+      "name": "YINGLINGH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153068387?v=4"
+    }
+  },
+  {
+    "name": "swaroop2004/Proven-Viral-Content-System",
+    "url": "https://github.com/swaroop2004/Proven-Viral-Content-System",
+    "description": "Research, brainstorm, and generate viral video content for Instagram, YouTube, X, and TikTok",
+    "stars": 141,
+    "forks": 41,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-08T00:14:03Z",
+    "updated_at": "2026-08-13T03:31:38Z",
+    "owner": {
+      "name": "swaroop2004",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54409096?v=4"
+    }
+  },
+  {
     "name": "Loki200399/india-itr-copilot",
     "url": "https://github.com/Loki200399/india-itr-copilot",
     "description": null,
@@ -1718,22 +1647,6 @@
     "owner": {
       "name": "Loki200399",
       "avatar_url": "https://avatars.githubusercontent.com/u/183745085?v=4"
-    }
-  },
-  {
-    "name": "swaroop2004/Proven-Viral-Content-System",
-    "url": "https://github.com/swaroop2004/Proven-Viral-Content-System",
-    "description": "Research, brainstorm, and generate viral video content for Instagram, YouTube, X, and TikTok",
-    "stars": 139,
-    "forks": 41,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-08T00:14:03Z",
-    "updated_at": "2026-08-10T20:33:07Z",
-    "owner": {
-      "name": "swaroop2004",
-      "avatar_url": "https://avatars.githubusercontent.com/u/54409096?v=4"
     }
   },
   {
@@ -1769,19 +1682,67 @@
     }
   },
   {
-    "name": "YINGLINGH/limioryn",
-    "url": "https://github.com/YINGLINGH/limioryn",
-    "description": "High-level edge-cloud AI multi-agent framework for real devices, verifiable actuation and entropy-bounded recovery.",
-    "stars": 133,
-    "forks": 3,
+    "name": "MddIdd/mdd-sim-gateway",
+    "url": "https://github.com/MddIdd/mdd-sim-gateway",
+    "description": "Self-hosted multi-SIM communication gateway with public-edition safeguards",
+    "stars": 135,
+    "forks": 87,
+    "language": "Python",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-10T10:51:24Z",
+    "updated_at": "2026-08-13T03:31:17Z",
+    "owner": {
+      "name": "MddIdd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/311662126?v=4"
+    }
+  },
+  {
+    "name": "ModelTC/Minimax-H3-Turbo",
+    "url": "https://github.com/ModelTC/Minimax-H3-Turbo",
+    "description": "Distill Minimax-H3 into 4 steps",
+    "stars": 134,
+    "forks": 6,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2026-08-07T08:38:44Z",
-    "updated_at": "2026-08-12T01:33:39Z",
+    "created_at": "2026-08-07T13:06:12Z",
+    "updated_at": "2026-08-12T16:30:35Z",
     "owner": {
-      "name": "YINGLINGH",
-      "avatar_url": "https://avatars.githubusercontent.com/u/153068387?v=4"
+      "name": "ModelTC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69665675?v=4"
+    }
+  },
+  {
+    "name": "sosoj92/jarvis-assistant-vocal",
+    "url": "https://github.com/sosoj92/jarvis-assistant-vocal",
+    "description": "Assistant vocal local en francais : Claude ou Ollama (offline), domotique Hue, OBS, agenda, navigateur, appels Twilio, serveur MCP. Python.",
+    "stars": 132,
+    "forks": 22,
+    "language": "Python",
+    "topics": [
+      "anthropic-claude",
+      "browser-automation",
+      "home-automation",
+      "jarvis",
+      "local-ai",
+      "mcp",
+      "mcp-server",
+      "obs",
+      "ollama",
+      "philips-hue",
+      "playwright",
+      "python",
+      "twilio",
+      "voice-assistant",
+      "whisper"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-07T15:30:20Z",
+    "updated_at": "2026-08-13T00:57:11Z",
+    "owner": {
+      "name": "sosoj92",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195681327?v=4"
     }
   },
   {
@@ -1803,27 +1764,6 @@
     "owner": {
       "name": "FuDie0915",
       "avatar_url": "https://avatars.githubusercontent.com/u/181120637?v=4"
-    }
-  },
-  {
-    "name": "NanmiCoder/open-image-prompts",
-    "url": "https://github.com/NanmiCoder/open-image-prompts",
-    "description": "Open, local-first visual prompt archive with traceable prompt-image references and installable Agent Skills.",
-    "stars": 130,
-    "forks": 16,
-    "language": "Python",
-    "topics": [
-      "image-skill",
-      "imagesprompts",
-      "open-image-prompts",
-      "openimages"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-23T18:52:10Z",
-    "updated_at": "2026-07-29T04:48:47Z",
-    "owner": {
-      "name": "NanmiCoder",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47178017?v=4"
     }
   },
   {
@@ -1859,35 +1799,35 @@
     }
   },
   {
-    "name": "sosoj92/jarvis-assistant-vocal",
-    "url": "https://github.com/sosoj92/jarvis-assistant-vocal",
-    "description": "Assistant vocal local en francais : Claude ou Ollama (offline), domotique Hue, OBS, agenda, navigateur, appels Twilio, serveur MCP. Python.",
-    "stars": 125,
-    "forks": 21,
+    "name": "Kianzzz/book-sales-video",
+    "url": "https://github.com/Kianzzz/book-sales-video",
+    "description": "中文图书带货视频 Agent Skill：飞书取稿、书籍核验、配音、配图、双语字幕与 OpenChatCut 自动剪辑",
+    "stars": 126,
+    "forks": 29,
     "language": "Python",
-    "topics": [
-      "anthropic-claude",
-      "browser-automation",
-      "home-automation",
-      "jarvis",
-      "local-ai",
-      "mcp",
-      "mcp-server",
-      "obs",
-      "ollama",
-      "philips-hue",
-      "playwright",
-      "python",
-      "twilio",
-      "voice-assistant",
-      "whisper"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-08-07T15:30:20Z",
-    "updated_at": "2026-08-12T01:11:07Z",
+    "created_at": "2026-08-10T11:39:42Z",
+    "updated_at": "2026-08-13T03:31:35Z",
     "owner": {
-      "name": "sosoj92",
-      "avatar_url": "https://avatars.githubusercontent.com/u/195681327?v=4"
+      "name": "Kianzzz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126930443?v=4"
+    }
+  },
+  {
+    "name": "luvrix/fluxmend",
+    "url": "https://github.com/luvrix/fluxmend",
+    "description": "Streaming FSM validation + layered repair for LLM outputs with embedded structured components",
+    "stars": 125,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-08-09T02:04:24Z",
+    "updated_at": "2026-08-13T03:18:59Z",
+    "owner": {
+      "name": "luvrix",
+      "avatar_url": "https://avatars.githubusercontent.com/u/302042682?v=4"
     }
   },
   {
@@ -1958,6 +1898,22 @@
     }
   },
   {
+    "name": "3169657175/gpt-webcodex",
+    "url": "https://github.com/3169657175/gpt-webcodex",
+    "description": "可以通过一定的方式让chatgpt网页版实现操作桌面端的文件，读取创建以及修改",
+    "stars": 122,
+    "forks": 16,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-07T15:37:01Z",
+    "updated_at": "2026-08-12T15:15:20Z",
+    "owner": {
+      "name": "3169657175",
+      "avatar_url": "https://avatars.githubusercontent.com/u/149579461?v=4"
+    }
+  },
+  {
     "name": "RidgeRookPattern/comix-autoclipper",
     "url": "https://github.com/RidgeRookPattern/comix-autoclipper",
     "description": "Best Manga Downloader 2026: Fast GUI & CLI Comix Tool with PDF CBZ Export",
@@ -1998,22 +1954,6 @@
     }
   },
   {
-    "name": "3169657175/gpt-webcodex",
-    "url": "https://github.com/3169657175/gpt-webcodex",
-    "description": "可以通过一定的方式让chatgpt网页版实现操作桌面端的文件，读取创建以及修改",
-    "stars": 120,
-    "forks": 16,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-07T15:37:01Z",
-    "updated_at": "2026-08-11T20:25:19Z",
-    "owner": {
-      "name": "3169657175",
-      "avatar_url": "https://avatars.githubusercontent.com/u/149579461?v=4"
-    }
-  },
-  {
     "name": "zaoan0/funf-pro-relay",
     "url": "https://github.com/zaoan0/funf-pro-relay",
     "description": null,
@@ -2030,19 +1970,29 @@
     }
   },
   {
-    "name": "ModelTC/Minimax-H3-Turbo",
-    "url": "https://github.com/ModelTC/Minimax-H3-Turbo",
-    "description": "Distill Minimax-H3 into 4 steps",
-    "stars": 115,
-    "forks": 6,
+    "name": "bamboostrip/Handwriting-simulator",
+    "url": "https://github.com/bamboostrip/Handwriting-simulator",
+    "description": "把普通文本变成以假乱真的手写体图片：手写字体 + 信纸背景 + 字距/行距/笔画随机扰动。GUI（PyQt6）与 CLI 双入口，numpy/scipy 高性能渲染引擎。",
+    "stars": 116,
+    "forks": 18,
     "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-07T13:06:12Z",
-    "updated_at": "2026-08-12T03:19:51Z",
+    "topics": [
+      "cli",
+      "gui",
+      "handwriting",
+      "handwriting-simulation",
+      "image-generation",
+      "numpy",
+      "pyqt6",
+      "python",
+      "text-to-image"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-07T03:48:19Z",
+    "updated_at": "2026-08-13T00:46:38Z",
     "owner": {
-      "name": "ModelTC",
-      "avatar_url": "https://avatars.githubusercontent.com/u/69665675?v=4"
+      "name": "bamboostrip",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55238760?v=4"
     }
   },
   {
@@ -2111,63 +2061,6 @@
     }
   },
   {
-    "name": "sv-number/skills",
-    "url": "https://github.com/sv-number/skills",
-    "description": "Give your AI agent a phone number: order a private number in 200+ countries over the API, read the SMS verification code, hand the number back. The widest country coverage in the category, checkable with one API call.",
-    "stars": 113,
-    "forks": 0,
-    "language": "Python",
-    "topics": [
-      "agent-skill",
-      "agent-skills",
-      "ai-agents",
-      "anthropic",
-      "automation",
-      "claude",
-      "claude-code",
-      "claude-skill",
-      "codex",
-      "otp",
-      "phone-verification",
-      "sms",
-      "sms-verification",
-      "virtual-phone-number"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-07T08:14:34Z",
-    "updated_at": "2026-08-11T01:33:47Z",
-    "owner": {
-      "name": "sv-number",
-      "avatar_url": "https://avatars.githubusercontent.com/u/299902966?v=4"
-    }
-  },
-  {
-    "name": "bamboostrip/Handwriting-simulator",
-    "url": "https://github.com/bamboostrip/Handwriting-simulator",
-    "description": "把普通文本变成以假乱真的手写体图片：手写字体 + 信纸背景 + 字距/行距/笔画随机扰动。GUI（PyQt6）与 CLI 双入口，numpy/scipy 高性能渲染引擎。",
-    "stars": 111,
-    "forks": 17,
-    "language": "Python",
-    "topics": [
-      "cli",
-      "gui",
-      "handwriting",
-      "handwriting-simulation",
-      "image-generation",
-      "numpy",
-      "pyqt6",
-      "python",
-      "text-to-image"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-07T03:48:19Z",
-    "updated_at": "2026-08-12T03:34:39Z",
-    "owner": {
-      "name": "bamboostrip",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55238760?v=4"
-    }
-  },
-  {
     "name": "dahan6/siming",
     "url": "https://github.com/dahan6/siming",
     "description": "Behavioral Grammar: detecting adaptive malware via tiny language-model priors and second-order temporal analysis. 0.88M-param self-supervised HIDS — 93% detection vs adaptive adversarial agent at 3.84% onboarding FPR.",
@@ -2181,76 +2074,6 @@
     "owner": {
       "name": "dahan6",
       "avatar_url": "https://avatars.githubusercontent.com/u/254478631?v=4"
-    }
-  },
-  {
-    "name": "krishagarwal314/autodev-studio",
-    "url": "https://github.com/krishagarwal314/autodev-studio",
-    "description": "Autonomous multi-agent SDLC harness: describe a feature in plain English and AI agents scope, code, test, review, and open a PR — grounded in a one-time knowledge base of your repo.",
-    "stars": 111,
-    "forks": 19,
-    "language": "Python",
-    "topics": [
-      "agentic-ai",
-      "ai-agents",
-      "autonomous-agents",
-      "claude",
-      "code-generation",
-      "developer-tools",
-      "fastapi",
-      "groq",
-      "knowledge-base",
-      "llm",
-      "llm-agent",
-      "multi-agent",
-      "openai",
-      "python",
-      "rag",
-      "sdlc"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-24T09:55:46Z",
-    "updated_at": "2026-07-30T01:35:58Z",
-    "owner": {
-      "name": "krishagarwal314",
-      "avatar_url": "https://avatars.githubusercontent.com/u/155580679?v=4"
-    }
-  },
-  {
-    "name": "MiniMaxH3ComfyUI/MiniMax-H3-ComfyUI",
-    "url": "https://github.com/MiniMaxH3ComfyUI/MiniMax-H3-ComfyUI",
-    "description": "MiniMax H3 ComfyUI - Run MiniMax turbo lora H3 33B omni-modal AI model locally with ComfyUI workflow. Text-to-video, image-to-video, reference-to-video generation with native stereo audio. ComfyUI custom nodes, workflow templates (T2V, I2V, R2V), H3-VisualVAE and H3-AudioVAE decoders. ComfyUI v0.31.0 support. 4-15s video at 768p. github",
-    "stars": 110,
-    "forks": 0,
-    "language": "Python",
-    "topics": [
-      "comfyui-minimax-h3",
-      "mini-max-algorithm",
-      "minimax",
-      "minimax-h3-comfy-ui",
-      "minimax-h3-comfyui-workflow",
-      "minimax-h3-gguf-int8",
-      "minimax-h3-github-download",
-      "minimax-h3-huggingface",
-      "minimax-h3-local",
-      "minimax-h3-prompt-guide",
-      "minimax-h3-prompts",
-      "minimax-h3-reddit",
-      "minimax-h3-reference-video",
-      "minimax-h3-spectrum",
-      "minimax-h3-turbo-lora",
-      "minimax-h3-vram-requirements",
-      "minimax-m2",
-      "minimax-xo",
-      "minimaxq-learning",
-      "nvidia-nim-minimax"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-08T18:56:53Z",
-    "updated_at": "2026-08-12T02:34:51Z",
-    "owner": {
-      "name": "MiniMaxH3ComfyUI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97532292?v=4"
     }
   },
   {
@@ -2302,22 +2125,6 @@
     }
   },
   {
-    "name": "MoonshotAI/PerceptionBench",
-    "url": "https://github.com/MoonshotAI/PerceptionBench",
-    "description": "PerceptionBench: Evaluating Atomic Visual Perception in Multimodal Large Language Models",
-    "stars": 106,
-    "forks": 7,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-23T07:36:15Z",
-    "updated_at": "2026-07-29T05:01:29Z",
-    "owner": {
-      "name": "MoonshotAI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/129152888?v=4"
-    }
-  },
-  {
     "name": "yang13926151198-ai/AI-Photographer-Agent-ROCm",
     "url": "https://github.com/yang13926151198-ai/AI-Photographer-Agent-ROCm",
     "description": "Private local AI Photographer Agent on AMD Radeon and ROCm",
@@ -2356,6 +2163,22 @@
     }
   },
   {
+    "name": "adrianpunk/punk-ip-illustrations",
+    "url": "https://github.com/adrianpunk/punk-ip-illustrations",
+    "description": "Punk personal IP article illustration Agent Skill",
+    "stars": 103,
+    "forks": 12,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-08T17:55:39Z",
+    "updated_at": "2026-08-13T02:40:47Z",
+    "owner": {
+      "name": "adrianpunk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272800535?v=4"
+    }
+  },
+  {
     "name": "HezaoHezao/poirot",
     "url": "https://github.com/HezaoHezao/poirot",
     "description": "Poirot is a deep research agent kernel built for those who care about how agents are architected. ",
@@ -2382,6 +2205,59 @@
     "owner": {
       "name": "HezaoHezao",
       "avatar_url": "https://avatars.githubusercontent.com/u/170402671?v=4"
+    }
+  },
+  {
+    "name": "MiniMaxH3ComfyUI/MiniMax-H3-ComfyUI",
+    "url": "https://github.com/MiniMaxH3ComfyUI/MiniMax-H3-ComfyUI",
+    "description": "MiniMax H3 ComfyUI - Run MiniMax turbo lora H3 33B omni-modal AI model locally with ComfyUI workflow. Text-to-video, image-to-video, reference-to-video generation with native stereo audio. ComfyUI custom nodes, workflow templates (T2V, I2V, R2V), H3-VisualVAE and H3-AudioVAE decoders. ComfyUI v0.31.0 support. 4-15s video at 768p. github",
+    "stars": 101,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "comfyui-minimax-h3",
+      "mini-max-algorithm",
+      "minimax",
+      "minimax-h3-comfy-ui",
+      "minimax-h3-comfyui-workflow",
+      "minimax-h3-gguf-int8",
+      "minimax-h3-github-download",
+      "minimax-h3-huggingface",
+      "minimax-h3-local",
+      "minimax-h3-prompt-guide",
+      "minimax-h3-prompts",
+      "minimax-h3-reddit",
+      "minimax-h3-reference-video",
+      "minimax-h3-spectrum",
+      "minimax-h3-turbo-lora",
+      "minimax-h3-vram-requirements",
+      "minimax-m2",
+      "minimax-xo",
+      "minimaxq-learning",
+      "nvidia-nim-minimax"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-08T18:56:53Z",
+    "updated_at": "2026-08-13T01:34:10Z",
+    "owner": {
+      "name": "MiniMaxH3ComfyUI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97532292?v=4"
+    }
+  },
+  {
+    "name": "mikiane/claude-watermark-cleaner",
+    "url": "https://github.com/mikiane/claude-watermark-cleaner",
+    "description": "Démonstration critique et outil expérimental de perturbation des watermarks statistiques de Claude",
+    "stars": 99,
+    "forks": 15,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-11T10:52:11Z",
+    "updated_at": "2026-08-13T00:29:20Z",
+    "owner": {
+      "name": "mikiane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/513624?v=4"
     }
   },
   {
@@ -2570,19 +2446,40 @@
     }
   },
   {
-    "name": "CheshireMew/VoxWeave",
-    "url": "https://github.com/CheshireMew/VoxWeave",
-    "description": "Local-first high-quality offline RVC voice conversion workstation",
-    "stars": 89,
-    "forks": 19,
+    "name": "AOROM/paperreading",
+    "url": "https://github.com/AOROM/paperreading",
+    "description": "Evidence-grounded AI research workflow for traceable claims, explicit uncertainty, causal-language checks, and reviewable JSON, Markdown, and Excel exports.",
+    "stars": 91,
+    "forks": 2,
     "language": "Python",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-08-09T15:43:51Z",
-    "updated_at": "2026-08-12T03:47:23Z",
+    "topics": [
+      "academic-research",
+      "academic-workflow",
+      "agent-skills",
+      "ai-research",
+      "causal-inference",
+      "codex",
+      "codex-skills",
+      "command-line-tool",
+      "data-provenance",
+      "evidence-grounded",
+      "evidence-traceability",
+      "evidence-verification",
+      "excel",
+      "literature-review",
+      "pydantic",
+      "python",
+      "reproducible-research",
+      "research-integrity",
+      "research-tools",
+      "research-workflow"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-10T01:52:39Z",
+    "updated_at": "2026-08-13T03:31:12Z",
     "owner": {
-      "name": "CheshireMew",
-      "avatar_url": "https://avatars.githubusercontent.com/u/156318350?v=4"
+      "name": "AOROM",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92560592?v=4"
     }
   },
   {
@@ -2602,6 +2499,37 @@
     }
   },
   {
+    "name": "sv-number/skills",
+    "url": "https://github.com/sv-number/skills",
+    "description": "Give your AI agent a phone number: order a private number in 200+ countries over the API, read the SMS verification code, hand the number back. The widest country coverage in the category, checkable with one API call.",
+    "stars": 88,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agents",
+      "anthropic",
+      "automation",
+      "claude",
+      "claude-code",
+      "claude-skill",
+      "codex",
+      "otp",
+      "phone-verification",
+      "sms",
+      "sms-verification",
+      "virtual-phone-number"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-07T08:14:34Z",
+    "updated_at": "2026-08-13T01:35:55Z",
+    "owner": {
+      "name": "sv-number",
+      "avatar_url": "https://avatars.githubusercontent.com/u/299902966?v=4"
+    }
+  },
+  {
     "name": "Asterove/AsterMem",
     "url": "https://github.com/Asterove/AsterMem",
     "description": "Self-hosted memory service for AI assistants",
@@ -2615,6 +2543,31 @@
     "owner": {
       "name": "Asterove",
       "avatar_url": "https://avatars.githubusercontent.com/u/309437697?v=4"
+    }
+  },
+  {
+    "name": "laogou717/local-ops",
+    "url": "https://github.com/laogou717/local-ops",
+    "description": "macOS 本地服务与批处理任务的指挥台：一键启动、实时监测、日志与进程溯源。零依赖 Python 后端 + 原生前端。",
+    "stars": 86,
+    "forks": 12,
+    "language": "Python",
+    "topics": [
+      "dev-tools",
+      "developer-tools",
+      "localhost",
+      "macos",
+      "monitoring",
+      "process-manager",
+      "python",
+      "zero-dependency"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-08T11:48:54Z",
+    "updated_at": "2026-08-13T03:03:19Z",
+    "owner": {
+      "name": "laogou717",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128354383?v=4"
     }
   },
   {
@@ -2671,6 +2624,22 @@
     }
   },
   {
+    "name": "xz1915/flavor-structure-analyzer",
+    "url": "https://github.com/xz1915/flavor-structure-analyzer",
+    "description": "Evidence-aware flavor state modeling, molecule matching, and interaction network skill for Codex.",
+    "stars": 84,
+    "forks": 2,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-11T16:39:50Z",
+    "updated_at": "2026-08-13T02:25:58Z",
+    "owner": {
+      "name": "xz1915",
+      "avatar_url": "https://avatars.githubusercontent.com/u/315875633?v=4"
+    }
+  },
+  {
     "name": "yehyakin/codex-sol-control",
     "url": "https://github.com/yehyakin/codex-sol-control",
     "description": "Cost-aware Codex orchestration: Sol controls; Luna Max and Terra High execute bounded work",
@@ -2684,6 +2653,25 @@
     "owner": {
       "name": "yehyakin",
       "avatar_url": "https://avatars.githubusercontent.com/u/58543826?v=4"
+    }
+  },
+  {
+    "name": "p-e-w/lophius",
+    "url": "https://github.com/p-e-w/lophius",
+    "description": "A workbench for language model research",
+    "stars": 82,
+    "forks": 6,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "research"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-08-09T14:11:31Z",
+    "updated_at": "2026-08-12T21:36:05Z",
+    "owner": {
+      "name": "p-e-w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702526?v=4"
     }
   },
   {
@@ -2723,22 +2711,6 @@
     }
   },
   {
-    "name": "adrianpunk/punk-ip-illustrations",
-    "url": "https://github.com/adrianpunk/punk-ip-illustrations",
-    "description": "Punk personal IP article illustration Agent Skill",
-    "stars": 81,
-    "forks": 9,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-08T17:55:39Z",
-    "updated_at": "2026-08-12T00:58:20Z",
-    "owner": {
-      "name": "adrianpunk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/272800535?v=4"
-    }
-  },
-  {
     "name": "micky-li-hd/VideoCoCo",
     "url": "https://github.com/micky-li-hd/VideoCoCo",
     "description": "Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System",
@@ -2755,41 +2727,6 @@
     }
   },
   {
-    "name": "Kianzzz/book-sales-video",
-    "url": "https://github.com/Kianzzz/book-sales-video",
-    "description": "中文图书带货视频 Agent Skill：飞书取稿、书籍核验、配音、配图、双语字幕与 OpenChatCut 自动剪辑",
-    "stars": 80,
-    "forks": 20,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-10T11:39:42Z",
-    "updated_at": "2026-08-12T03:27:52Z",
-    "owner": {
-      "name": "Kianzzz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/126930443?v=4"
-    }
-  },
-  {
-    "name": "p-e-w/lophius",
-    "url": "https://github.com/p-e-w/lophius",
-    "description": "A workbench for language model research",
-    "stars": 80,
-    "forks": 5,
-    "language": "Python",
-    "topics": [
-      "llm",
-      "research"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-08-09T14:11:31Z",
-    "updated_at": "2026-08-12T00:15:29Z",
-    "owner": {
-      "name": "p-e-w",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2702526?v=4"
-    }
-  },
-  {
     "name": "alxgntv/substack-api-mcp",
     "url": "https://github.com/alxgntv/substack-api-mcp",
     "description": "MCP server for Substack posts (FastMCP + substack-api-client)",
@@ -2803,22 +2740,6 @@
     "owner": {
       "name": "alxgntv",
       "avatar_url": "https://avatars.githubusercontent.com/u/243579989?v=4"
-    }
-  },
-  {
-    "name": "kingenbomb/Nodes",
-    "url": "https://github.com/kingenbomb/Nodes",
-    "description": "节点注册机",
-    "stars": 80,
-    "forks": 58,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-24T03:34:18Z",
-    "updated_at": "2026-07-30T01:42:50Z",
-    "owner": {
-      "name": "kingenbomb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53939603?v=4"
     }
   },
   {
@@ -2862,6 +2783,22 @@
     "owner": {
       "name": "zju3dv",
       "avatar_url": "https://avatars.githubusercontent.com/u/48914724?v=4"
+    }
+  },
+  {
+    "name": "ADVICEsama/CivitaiFreeTool",
+    "url": "https://github.com/ADVICEsama/CivitaiFreeTool",
+    "description": "Civitai / HuggingFace 模型下载、管理、反向解析工具（免费全功能）",
+    "stars": 78,
+    "forks": 5,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-07T05:07:52Z",
+    "updated_at": "2026-08-13T01:02:19Z",
+    "owner": {
+      "name": "ADVICEsama",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246016949?v=4"
     }
   },
   {
@@ -2913,19 +2850,28 @@
     }
   },
   {
-    "name": "amnotyoung/slide-meme-inserter",
-    "url": "https://github.com/amnotyoung/slide-meme-inserter",
-    "description": "Plan, source, and insert recognizable memes into HTML slide decks for Claude Code and Codex.",
-    "stars": 75,
-    "forks": 2,
+    "name": "yaojingang/GEOHub",
+    "url": "https://github.com/yaojingang/GEOHub",
+    "description": "GEOHub: open, evidence-bounded GEO and SEO agent skills for AI Search, with research-grounded discovery, diagnosis, content, measurement, and one-line SEO planning.",
+    "stars": 74,
+    "forks": 12,
     "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-24T03:40:51Z",
-    "updated_at": "2026-07-30T02:49:13Z",
+    "topics": [
+      "agent-skills",
+      "ai-search",
+      "claude",
+      "codex",
+      "generative-engine-optimization",
+      "geo",
+      "python",
+      "seo"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-08-09T01:55:16Z",
+    "updated_at": "2026-08-13T03:12:37Z",
     "owner": {
-      "name": "amnotyoung",
-      "avatar_url": "https://avatars.githubusercontent.com/u/197346426?v=4"
+      "name": "yaojingang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/266242792?v=4"
     }
   },
   {
