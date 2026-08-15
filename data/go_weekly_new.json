@@ -28,13 +28,13 @@
     "name": "MengMengCode/VoCat",
     "url": "https://github.com/MengMengCode/VoCat",
     "description": "Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It combines modem discovery, live radio status, AT and USSD terminals, SMS, WiFi Calling, eSIM management, network selection, proxy routing, notifications, audit logs, and release automation in one self-contained service.",
-    "stars": 330,
-    "forks": 127,
+    "stars": 371,
+    "forks": 138,
     "language": "Go",
     "topics": [],
     "license": "Other",
     "created_at": "2026-08-09T06:43:49Z",
-    "updated_at": "2026-08-14T03:36:31Z",
+    "updated_at": "2026-08-15T02:21:21Z",
     "owner": {
       "name": "MengMengCode",
       "avatar_url": "https://avatars.githubusercontent.com/u/227010654?v=4"
@@ -60,7 +60,7 @@
     "name": "surya-koritala/loomfeed",
     "url": "https://github.com/surya-koritala/loomfeed",
     "description": "The open-source Reddit alternative built for AI agents and humans — provenance tracking, reputation, epistemic status labels, and agent debates. Self-host with docker compose.",
-    "stars": 212,
+    "stars": 214,
     "forks": 2,
     "language": "Go",
     "topics": [
@@ -75,7 +75,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-09T19:28:09Z",
-    "updated_at": "2026-08-13T14:01:02Z",
+    "updated_at": "2026-08-15T00:41:29Z",
     "owner": {
       "name": "surya-koritala",
       "avatar_url": "https://avatars.githubusercontent.com/u/188490054?v=4"
@@ -192,6 +192,44 @@
     }
   },
   {
+    "name": "pgrundev/pgbot",
+    "url": "https://github.com/pgrundev/pgbot",
+    "description": "pgbot - Postgres intelligence for AI agents & apps",
+    "stars": 107,
+    "forks": 6,
+    "language": "Go",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-08-11T23:41:52Z",
+    "updated_at": "2026-08-15T00:48:39Z",
+    "owner": {
+      "name": "pgrundev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/300654937?v=4"
+    }
+  },
+  {
+    "name": "WongLoki/4G-Connect",
+    "url": "https://github.com/WongLoki/4G-Connect",
+    "description": "Open-source macOS one-click connector for the first-generation DJI 4G module.",
+    "stars": 98,
+    "forks": 14,
+    "language": "Go",
+    "topics": [
+      "apple-silicon",
+      "dji",
+      "libusb",
+      "macos",
+      "modem"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-13T10:54:52Z",
+    "updated_at": "2026-08-15T01:12:46Z",
+    "owner": {
+      "name": "WongLoki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18548527?v=4"
+    }
+  },
+  {
     "name": "XiaoRavpa/IP-STRESSER",
     "url": "https://github.com/XiaoRavpa/IP-STRESSER",
     "description": "Local-only IP stresser made by https://ipstresser.pro in Go, This IP booter was made for safely stress-testing your own servers. Supports UDP, TCP & Layer-7 (GET/POST) methods. ",
@@ -232,22 +270,6 @@
     }
   },
   {
-    "name": "byJoey/fanout",
-    "url": "https://github.com/byJoey/fanout",
-    "description": "把 VPN Gate 公共节点变成本地 SOCKS5 端口，一个端口一个出口 IP，可对接 3x-ui",
-    "stars": 90,
-    "forks": 54,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-26T03:41:14Z",
-    "updated_at": "2026-07-31T15:57:06Z",
-    "owner": {
-      "name": "byJoey",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36790372?v=4"
-    }
-  },
-  {
     "name": "forever94yu/icloud-prime",
     "url": "https://github.com/forever94yu/icloud-prime",
     "description": "Self-hosted iCloud Hide My Email management console with Windows portable releases",
@@ -274,19 +296,27 @@
     }
   },
   {
-    "name": "torrischen/goat",
-    "url": "https://github.com/torrischen/goat",
-    "description": "goat is a package provides agent framework written in golang",
-    "stars": 79,
-    "forks": 1,
+    "name": "zepto-labs/scherry",
+    "url": "https://github.com/zepto-labs/scherry",
+    "description": "Split it. Ship it. Track it - Because every big job deserves a little scherry on top :cherries:",
+    "stars": 74,
+    "forks": 12,
     "language": "Go",
-    "topics": [],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2026-07-26T07:11:14Z",
-    "updated_at": "2026-07-31T15:14:37Z",
+    "topics": [
+      "distributed-systems",
+      "go",
+      "golang",
+      "job-queue",
+      "job-scheduler",
+      "kafka",
+      "postgres"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-11T08:59:18Z",
+    "updated_at": "2026-08-14T23:57:07Z",
     "owner": {
-      "name": "torrischen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/81279408?v=4"
+      "name": "zepto-labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/213445769?v=4"
     }
   },
   {
@@ -306,25 +336,31 @@
     }
   },
   {
-    "name": "WongLoki/4G-Connect",
-    "url": "https://github.com/WongLoki/4G-Connect",
-    "description": "Open-source macOS one-click connector for the first-generation DJI 4G module.",
-    "stars": 67,
-    "forks": 9,
+    "name": "trefeon/freebuff-proxy",
+    "url": "https://github.com/trefeon/freebuff-proxy",
+    "description": "High-performance OpenAI-compatible gateway and token pool bridge for AI coding assistants with session lifecycle and TLS stealth",
+    "stars": 66,
+    "forks": 17,
     "language": "Go",
     "topics": [
-      "apple-silicon",
-      "dji",
-      "libusb",
-      "macos",
-      "modem"
+      "ai-gateway",
+      "coding-assistant",
+      "freebuff",
+      "go",
+      "golang",
+      "llm",
+      "llm-router",
+      "openai",
+      "openai-compatible",
+      "proxy",
+      "token-pool"
     ],
     "license": "MIT License",
-    "created_at": "2026-08-13T10:54:52Z",
-    "updated_at": "2026-08-14T03:53:47Z",
+    "created_at": "2026-08-11T07:06:43Z",
+    "updated_at": "2026-08-15T01:13:39Z",
     "owner": {
-      "name": "WongLoki",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18548527?v=4"
+      "name": "trefeon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95156714?v=4"
     }
   },
   {
@@ -387,6 +423,29 @@
     "owner": {
       "name": "madeye",
       "avatar_url": "https://avatars.githubusercontent.com/u/627917?v=4"
+    }
+  },
+  {
+    "name": "WongLoki/DJ4Hub",
+    "url": "https://github.com/WongLoki/DJ4Hub",
+    "description": "Local-first macOS console for the first-generation DJI 4G module",
+    "stars": 60,
+    "forks": 7,
+    "language": "Go",
+    "topics": [
+      "4g",
+      "cellular",
+      "dji",
+      "esim",
+      "macos",
+      "sms"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-13T15:22:50Z",
+    "updated_at": "2026-08-15T02:44:14Z",
+    "owner": {
+      "name": "WongLoki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18548527?v=4"
     }
   },
   {
@@ -467,46 +526,6 @@
     "owner": {
       "name": "Lynricsy",
       "avatar_url": "https://avatars.githubusercontent.com/u/62173814?v=4"
-    }
-  },
-  {
-    "name": "zepto-labs/scherry",
-    "url": "https://github.com/zepto-labs/scherry",
-    "description": "Split it. Ship it. Track it - Because every big job deserves a little scherry on top :cherries:",
-    "stars": 56,
-    "forks": 6,
-    "language": "Go",
-    "topics": [
-      "distributed-systems",
-      "go",
-      "golang",
-      "job-queue",
-      "job-scheduler",
-      "kafka",
-      "postgres"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-11T08:59:18Z",
-    "updated_at": "2026-08-14T03:55:00Z",
-    "owner": {
-      "name": "zepto-labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/213445769?v=4"
-    }
-  },
-  {
-    "name": "pgrundev/pgbot",
-    "url": "https://github.com/pgrundev/pgbot",
-    "description": "pgbot - Postgres intelligence for AI agents & apps",
-    "stars": 51,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-11T23:41:52Z",
-    "updated_at": "2026-08-14T03:53:50Z",
-    "owner": {
-      "name": "pgrundev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/300654937?v=4"
     }
   },
   {
@@ -617,39 +636,16 @@
     }
   },
   {
-    "name": "trefeon/freebuff-proxy",
-    "url": "https://github.com/trefeon/freebuff-proxy",
-    "description": "OpenAI-compatible proxy bridge for the FreeBuff free tier: multi-token pool, session/agent-run lifecycle, streamed chat completions. Docker + 9router ready.",
-    "stars": 44,
-    "forks": 10,
-    "language": "Go",
-    "topics": [
-      "codebuff",
-      "freebuff",
-      "go",
-      "llm",
-      "openai",
-      "proxy"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-11T07:06:43Z",
-    "updated_at": "2026-08-14T00:00:22Z",
-    "owner": {
-      "name": "trefeon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95156714?v=4"
-    }
-  },
-  {
     "name": "larry-zy/cognida",
     "url": "https://github.com/larry-zy/cognida",
     "description": "不止是能问数据的助手——受治理、可审计、可度量的企业级「数据+知识」Agent 平台",
-    "stars": 40,
+    "stars": 44,
     "forks": 7,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-09T15:36:09Z",
-    "updated_at": "2026-08-13T16:37:50Z",
+    "updated_at": "2026-08-14T08:19:07Z",
     "owner": {
       "name": "larry-zy",
       "avatar_url": "https://avatars.githubusercontent.com/u/139796123?v=4"
@@ -669,6 +665,38 @@
     "owner": {
       "name": "enowdev",
       "avatar_url": "https://avatars.githubusercontent.com/u/179420349?v=4"
+    }
+  },
+  {
+    "name": "xiuxiu56/iCloud-Privacy-Mail-v2",
+    "url": "https://github.com/xiuxiu56/iCloud-Privacy-Mail-v2",
+    "description": null,
+    "stars": 38,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-09T17:42:19Z",
+    "updated_at": "2026-08-15T02:35:13Z",
+    "owner": {
+      "name": "xiuxiu56",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115946359?v=4"
+    }
+  },
+  {
+    "name": "jasonxu114514/opencode2api",
+    "url": "https://github.com/jasonxu114514/opencode2api",
+    "description": null,
+    "stars": 37,
+    "forks": 8,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-13T23:57:44Z",
+    "updated_at": "2026-08-15T00:31:25Z",
+    "owner": {
+      "name": "jasonxu114514",
+      "avatar_url": "https://avatars.githubusercontent.com/u/117326624?v=4"
     }
   },
   {
@@ -740,19 +768,35 @@
     }
   },
   {
-    "name": "xiuxiu56/iCloud-Privacy-Mail-v2",
-    "url": "https://github.com/xiuxiu56/iCloud-Privacy-Mail-v2",
+    "name": "y-jingyao/agent_go",
+    "url": "https://github.com/y-jingyao/agent_go",
     "description": null,
-    "stars": 32,
-    "forks": 3,
+    "stars": 31,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-12T14:07:28Z",
+    "updated_at": "2026-08-15T01:37:06Z",
+    "owner": {
+      "name": "y-jingyao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/228802850?v=4"
+    }
+  },
+  {
+    "name": "Nobody2088/Grok-Nobody-",
+    "url": "https://github.com/Nobody2088/Grok-Nobody-",
+    "description": null,
+    "stars": 31,
+    "forks": 17,
     "language": "Go",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-08-09T17:42:19Z",
-    "updated_at": "2026-08-14T03:10:00Z",
+    "created_at": "2026-08-09T08:10:04Z",
+    "updated_at": "2026-08-15T00:57:38Z",
     "owner": {
-      "name": "xiuxiu56",
-      "avatar_url": "https://avatars.githubusercontent.com/u/115946359?v=4"
+      "name": "Nobody2088",
+      "avatar_url": "https://avatars.githubusercontent.com/u/314920179?v=4"
     }
   },
   {
@@ -890,19 +934,28 @@
     }
   },
   {
-    "name": "Nobody2088/Grok-Nobody-",
-    "url": "https://github.com/Nobody2088/Grok-Nobody-",
-    "description": null,
+    "name": "overflowy/zhist",
+    "url": "https://github.com/overflowy/zhist",
+    "description": "Smarter shell history for Zsh",
     "stars": 26,
-    "forks": 15,
+    "forks": 1,
     "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-09T08:10:04Z",
-    "updated_at": "2026-08-13T15:30:05Z",
+    "topics": [
+      "cli",
+      "fzf",
+      "golang",
+      "history",
+      "shell",
+      "shell-history",
+      "terminal",
+      "zsh"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-11T14:34:31Z",
+    "updated_at": "2026-08-14T22:28:42Z",
     "owner": {
-      "name": "Nobody2088",
-      "avatar_url": "https://avatars.githubusercontent.com/u/314920179?v=4"
+      "name": "overflowy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98480250?v=4"
     }
   },
   {
@@ -915,7 +968,7 @@
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-08-10T11:29:17Z",
-    "updated_at": "2026-08-12T12:02:08Z",
+    "updated_at": "2026-08-14T15:49:11Z",
     "owner": {
       "name": "bluesky-social",
       "avatar_url": "https://avatars.githubusercontent.com/u/94650532?v=4"
@@ -955,31 +1008,6 @@
     "owner": {
       "name": "Sliverkiss",
       "avatar_url": "https://avatars.githubusercontent.com/u/70052878?v=4"
-    }
-  },
-  {
-    "name": "overflowy/zhist",
-    "url": "https://github.com/overflowy/zhist",
-    "description": "Smarter shell history for zsh",
-    "stars": 24,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "cli",
-      "fzf",
-      "golang",
-      "history",
-      "shell",
-      "shell-history",
-      "terminal",
-      "zsh"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-11T14:34:31Z",
-    "updated_at": "2026-08-14T02:53:55Z",
-    "owner": {
-      "name": "overflowy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/98480250?v=4"
     }
   },
   {
@@ -1044,6 +1072,43 @@
     "owner": {
       "name": "basetenlabs",
       "avatar_url": "https://avatars.githubusercontent.com/u/54861414?v=4"
+    }
+  },
+  {
+    "name": "programmersd21/zap",
+    "url": "https://github.com/programmersd21/zap",
+    "description": "blazing fast file operations with gorgeous progress - modern replacement for cp, mv, rm",
+    "stars": 22,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "beautiful-cli",
+      "bubbletea",
+      "catppuccin",
+      "cli",
+      "copy",
+      "cross-platform",
+      "delete",
+      "developer-tools",
+      "file-operations",
+      "golang",
+      "linux",
+      "macos",
+      "modern-cli",
+      "move",
+      "performance",
+      "productivity",
+      "progress-bar",
+      "terminal",
+      "tui",
+      "unix"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-14T13:38:00Z",
+    "updated_at": "2026-08-14T21:50:40Z",
+    "owner": {
+      "name": "programmersd21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/192335465?v=4"
     }
   },
   {
@@ -1148,22 +1213,6 @@
     }
   },
   {
-    "name": "y-jingyao/agent_go",
-    "url": "https://github.com/y-jingyao/agent_go",
-    "description": null,
-    "stars": 21,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-12T14:07:28Z",
-    "updated_at": "2026-08-14T02:04:50Z",
-    "owner": {
-      "name": "y-jingyao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/228802850?v=4"
-    }
-  },
-  {
     "name": "jbeda/mdreflow",
     "url": "https://github.com/jbeda/mdreflow",
     "description": "Reflow Markdown prose: sentence-per-line (semantic line breaks), paragraph-per-line, and hard wrap. Go library + CLI.",
@@ -1222,19 +1271,30 @@
     }
   },
   {
-    "name": "SemerDevLab/qWDTT_Server_Keenetic",
-    "url": "https://github.com/SemerDevLab/qWDTT_Server_Keenetic",
-    "description": null,
-    "stars": 20,
-    "forks": 2,
+    "name": "scaccogatto/nastro",
+    "url": "https://github.com/scaccogatto/nastro",
+    "description": "Terminal-native call recorder for macOS: system audio + mic, local files, on-device diarized transcription. No bots, no cloud.",
+    "stars": 19,
+    "forks": 0,
     "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-27T17:46:23Z",
-    "updated_at": "2026-07-31T14:51:16Z",
+    "topics": [
+      "audio-recording",
+      "bubbletea",
+      "cli",
+      "diarization",
+      "golang",
+      "macos",
+      "meeting-notes",
+      "transcription",
+      "tui",
+      "whisper"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-10T11:49:43Z",
+    "updated_at": "2026-08-14T22:07:48Z",
     "owner": {
-      "name": "SemerDevLab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91988758?v=4"
+      "name": "scaccogatto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3670888?v=4"
     }
   },
   {
@@ -1299,33 +1359,6 @@
     "owner": {
       "name": "bobashopcashier",
       "avatar_url": "https://avatars.githubusercontent.com/u/77253505?v=4"
-    }
-  },
-  {
-    "name": "scaccogatto/nastro",
-    "url": "https://github.com/scaccogatto/nastro",
-    "description": "Terminal-native call recorder for macOS: system audio + mic, local files, on-device diarized transcription. No bots, no cloud.",
-    "stars": 17,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "audio-recording",
-      "bubbletea",
-      "cli",
-      "diarization",
-      "golang",
-      "macos",
-      "meeting-notes",
-      "transcription",
-      "tui",
-      "whisper"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-10T11:49:43Z",
-    "updated_at": "2026-08-14T00:25:25Z",
-    "owner": {
-      "name": "scaccogatto",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3670888?v=4"
     }
   },
   {
@@ -1401,19 +1434,19 @@
     }
   },
   {
-    "name": "Djarvur/go-ultimate",
-    "url": "https://github.com/Djarvur/go-ultimate",
-    "description": "Opinionated Go development skill for Claude Code — architecture, conventions, review, and MCP/agent patterns, synthesized from four general-Go skills plus five agent/MCP donors.",
-    "stars": 17,
-    "forks": 2,
+    "name": "kunmi02/git-declutter",
+    "url": "https://github.com/kunmi02/git-declutter",
+    "description": null,
+    "stars": 16,
+    "forks": 4,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-07-26T16:32:27Z",
-    "updated_at": "2026-07-31T11:07:07Z",
+    "created_at": "2026-08-13T13:03:14Z",
+    "updated_at": "2026-08-14T13:09:51Z",
     "owner": {
-      "name": "Djarvur",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12964259?v=4"
+      "name": "kunmi02",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27483062?v=4"
     }
   },
   {
@@ -1491,19 +1524,19 @@
     }
   },
   {
-    "name": "jasonxu114514/opencode2api",
-    "url": "https://github.com/jasonxu114514/opencode2api",
-    "description": null,
+    "name": "IC-0n417/PocketStream",
+    "url": "https://github.com/IC-0n417/PocketStream",
+    "description": "Experimental unofficial video streaming client for Miyoo Mini Plus and OnionOS",
     "stars": 14,
-    "forks": 4,
+    "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-13T23:57:44Z",
-    "updated_at": "2026-08-14T03:58:33Z",
+    "license": "MIT License",
+    "created_at": "2026-08-11T17:10:30Z",
+    "updated_at": "2026-08-14T21:02:00Z",
     "owner": {
-      "name": "jasonxu114514",
-      "avatar_url": "https://avatars.githubusercontent.com/u/117326624?v=4"
+      "name": "IC-0n417",
+      "avatar_url": "https://avatars.githubusercontent.com/u/259644324?v=4"
     }
   },
   {
@@ -1520,6 +1553,58 @@
     "owner": {
       "name": "chunkburst",
       "avatar_url": "https://avatars.githubusercontent.com/u/205423185?v=4"
+    }
+  },
+  {
+    "name": "yebiguo/ProofRun",
+    "url": "https://github.com/yebiguo/ProofRun",
+    "description": "A local verification receipt for AI coding agents",
+    "stars": 14,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-12T15:25:02Z",
+    "updated_at": "2026-08-14T18:47:58Z",
+    "owner": {
+      "name": "yebiguo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87554944?v=4"
+    }
+  },
+  {
+    "name": "memcode-ai/memcode",
+    "url": "https://github.com/memcode-ai/memcode",
+    "description": "Coding Agent + OpenClaw + Hermes Support",
+    "stars": 14,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-agent",
+      "ai-memory",
+      "claude",
+      "cli",
+      "code-assistant",
+      "coding-agent",
+      "developer-tools",
+      "golang",
+      "grok",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "mcp",
+      "ollama",
+      "openclaw",
+      "terminal",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-09T09:48:41Z",
+    "updated_at": "2026-08-14T21:17:33Z",
+    "owner": {
+      "name": "memcode-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/289931528?v=4"
     }
   },
   {
@@ -1552,70 +1637,6 @@
     "owner": {
       "name": "ulas96",
       "avatar_url": "https://avatars.githubusercontent.com/u/70315537?v=4"
-    }
-  },
-  {
-    "name": "IC-0n417/PocketStream",
-    "url": "https://github.com/IC-0n417/PocketStream",
-    "description": "Experimental unofficial video streaming client for Miyoo Mini Plus and OnionOS",
-    "stars": 13,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-11T17:10:30Z",
-    "updated_at": "2026-08-13T10:50:33Z",
-    "owner": {
-      "name": "IC-0n417",
-      "avatar_url": "https://avatars.githubusercontent.com/u/259644324?v=4"
-    }
-  },
-  {
-    "name": "yebiguo/ProofRun",
-    "url": "https://github.com/yebiguo/ProofRun",
-    "description": "A local verification receipt for AI coding agents",
-    "stars": 13,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-12T15:25:02Z",
-    "updated_at": "2026-08-14T01:34:51Z",
-    "owner": {
-      "name": "yebiguo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/87554944?v=4"
-    }
-  },
-  {
-    "name": "memcode-ai/memcode",
-    "url": "https://github.com/memcode-ai/memcode",
-    "description": "The coding agent that remembers your repo. CLI, gateway, MIT.",
-    "stars": 13,
-    "forks": 2,
-    "language": "Go",
-    "topics": [
-      "agent",
-      "ai",
-      "ai-agent",
-      "ai-memory",
-      "claude",
-      "cli",
-      "code-assistant",
-      "coding-agent",
-      "developer-tools",
-      "golang",
-      "llm",
-      "mcp",
-      "ollama",
-      "terminal",
-      "tui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-09T09:48:41Z",
-    "updated_at": "2026-08-13T06:41:27Z",
-    "owner": {
-      "name": "memcode-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/289931528?v=4"
     }
   },
   {
@@ -1771,22 +1792,6 @@
     }
   },
   {
-    "name": "kunmi02/git-declutter",
-    "url": "https://github.com/kunmi02/git-declutter",
-    "description": null,
-    "stars": 12,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-13T13:03:14Z",
-    "updated_at": "2026-08-13T22:55:08Z",
-    "owner": {
-      "name": "kunmi02",
-      "avatar_url": "https://avatars.githubusercontent.com/u/27483062?v=4"
-    }
-  },
-  {
     "name": "chanhui800/Meridian",
     "url": "https://github.com/chanhui800/Meridian",
     "description": "轻量级 Emby/Jellyfin 反向代理管理面板，支持自动后端发现、TLS、流量统计、请求日志和 Telegram 日报",
@@ -1855,29 +1860,6 @@
     "owner": {
       "name": "32463991",
       "avatar_url": "https://avatars.githubusercontent.com/u/311145730?v=4"
-    }
-  },
-  {
-    "name": "waipu-oss/go-ktls",
-    "url": "https://github.com/waipu-oss/go-ktls",
-    "description": "Kernel TLS offload for a Go HTTPS listener.",
-    "stars": 12,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "cdn",
-      "golang",
-      "kernel-tls",
-      "ktls",
-      "sendfile",
-      "tls"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-27T15:56:44Z",
-    "updated_at": "2026-07-31T19:31:47Z",
-    "owner": {
-      "name": "waipu-oss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/308084492?v=4"
     }
   },
   {
@@ -1953,6 +1935,22 @@
     }
   },
   {
+    "name": "imcitius/tgsieve",
+    "url": "https://github.com/imcitius/tgsieve",
+    "description": "Terragrunt plans without the wall of text: reads terragrunt's JSON plan output, hides declared noise, collapses repeats, shows only real changes",
+    "stars": 10,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-09T15:29:11Z",
+    "updated_at": "2026-08-14T10:43:31Z",
+    "owner": {
+      "name": "imcitius",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10992191?v=4"
+    }
+  },
+  {
     "name": "koaim/faker",
     "url": "https://github.com/koaim/faker",
     "description": "test data generator",
@@ -1962,7 +1960,7 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-10T20:32:35Z",
-    "updated_at": "2026-08-11T21:41:52Z",
+    "updated_at": "2026-08-14T14:12:23Z",
     "owner": {
       "name": "koaim",
       "avatar_url": "https://avatars.githubusercontent.com/u/15948628?v=4"

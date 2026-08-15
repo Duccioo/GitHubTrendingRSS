@@ -3,17 +3,18 @@
     "name": "deepseek-ai/deepseek-harness",
     "url": "https://github.com/deepseek-ai/deepseek-harness",
     "description": "DeepSeek Harness: Everything is a Plugin.",
-    "stars": 66191,
-    "forks": 5588,
+    "stars": 97875,
+    "forks": 9156,
     "language": "TypeScript",
     "topics": [
+      "ai-agents",
       "cordis",
       "dsh",
       "dsh-plugin"
     ],
     "license": "MIT License",
     "created_at": "2026-08-13T11:56:32Z",
-    "updated_at": "2026-08-14T03:56:55Z",
+    "updated_at": "2026-08-15T02:44:02Z",
     "owner": {
       "name": "deepseek-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/148330874?v=4"
@@ -52,6 +53,30 @@
     }
   },
   {
+    "name": "guillaumemeyer/watermarks-remover",
+    "url": "https://github.com/guillaumemeyer/watermarks-remover",
+    "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+    "stars": 8315,
+    "forks": 861,
+    "language": "Python",
+    "topics": [
+      "agent-skill",
+      "ai",
+      "c2pa",
+      "claude",
+      "provenance",
+      "synthid",
+      "watermark"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-11T16:32:38Z",
+    "updated_at": "2026-08-15T02:41:27Z",
+    "owner": {
+      "name": "guillaumemeyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1385518?v=4"
+    }
+  },
+  {
     "name": "MoonshotAI/Kimi-K3",
     "url": "https://github.com/MoonshotAI/Kimi-K3",
     "description": "Open Frontier Intelligence",
@@ -81,30 +106,6 @@
     "owner": {
       "name": "trycompai",
       "avatar_url": "https://avatars.githubusercontent.com/u/195194844?v=4"
-    }
-  },
-  {
-    "name": "guillaumemeyer/watermarks-remover",
-    "url": "https://github.com/guillaumemeyer/watermarks-remover",
-    "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
-    "stars": 5671,
-    "forks": 597,
-    "language": "Python",
-    "topics": [
-      "agent-skill",
-      "ai",
-      "c2pa",
-      "claude",
-      "provenance",
-      "synthid",
-      "watermark"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-11T16:32:38Z",
-    "updated_at": "2026-08-14T03:56:46Z",
-    "owner": {
-      "name": "guillaumemeyer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1385518?v=4"
     }
   },
   {
@@ -177,22 +178,6 @@
     }
   },
   {
-    "name": "mshumer/Claude-of-Duty",
-    "url": "https://github.com/mshumer/Claude-of-Duty",
-    "description": "A Call of Duty-quality FPS in Three.js, built from a single prompt.",
-    "stars": 2422,
-    "forks": 358,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-25T19:32:36Z",
-    "updated_at": "2026-07-31T05:23:10Z",
-    "owner": {
-      "name": "mshumer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/41550495?v=4"
-    }
-  },
-  {
     "name": "imsai-sh/zhuzhiliao",
     "url": "https://github.com/imsai-sh/zhuzhiliao",
     "description": "竹知了 —— 一转就哇哇叫的传统玩具，Web 模拟版。零依赖单文件，真实录音采样，移动端优先。",
@@ -230,6 +215,50 @@
     }
   },
   {
+    "name": "anywhere-labs/deepseek-harness-desktop",
+    "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+    "description": "为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验",
+    "stars": 2275,
+    "forks": 118,
+    "language": "TypeScript",
+    "topics": [
+      "deepseek",
+      "deepseek-harness",
+      "desktop",
+      "dsh",
+      "dsh-plugin",
+      "dsh-plugin-desktop"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-13T16:30:50Z",
+    "updated_at": "2026-08-15T02:43:59Z",
+    "owner": {
+      "name": "anywhere-labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/286827603?v=4"
+    }
+  },
+  {
+    "name": "zhu1090093659/dsh-web-ui",
+    "url": "https://github.com/zhu1090093659/dsh-web-ui",
+    "description": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
+    "stars": 2004,
+    "forks": 99,
+    "language": "TypeScript",
+    "topics": [
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin",
+      "web-ui"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-12T05:15:20Z",
+    "updated_at": "2026-08-15T02:43:12Z",
+    "owner": {
+      "name": "zhu1090093659",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46916148?v=4"
+    }
+  },
+  {
     "name": "ZzzLc0405/photo-abstract-editorial",
     "url": "https://github.com/ZzzLc0405/photo-abstract-editorial",
     "description": null,
@@ -262,6 +291,22 @@
     }
   },
   {
+    "name": "antirez/h3.c",
+    "url": "https://github.com/antirez/h3.c",
+    "description": "MiniMax H3 inference engine for Mac computers",
+    "stars": 1854,
+    "forks": 122,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-09T09:12:47Z",
+    "updated_at": "2026-08-15T02:04:34Z",
+    "owner": {
+      "name": "antirez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
+    }
+  },
+  {
     "name": "genspark-ai/genoffice",
     "url": "https://github.com/genspark-ai/genoffice",
     "description": "An AI-native office suite for macOS and Windows: word processor, spreadsheet, presentations, and PDF.",
@@ -286,22 +331,6 @@
     }
   },
   {
-    "name": "antirez/h3.c",
-    "url": "https://github.com/antirez/h3.c",
-    "description": "MiniMax H3 inference engine for Mac computers",
-    "stars": 1796,
-    "forks": 116,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-09T09:12:47Z",
-    "updated_at": "2026-08-14T03:39:41Z",
-    "owner": {
-      "name": "antirez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65632?v=4"
-    }
-  },
-  {
     "name": "DannyMac180/sol-advisor",
     "url": "https://github.com/DannyMac180/sol-advisor",
     "description": "Codex-native architect orchestration with Luna and Terra implementation lanes and mandatory fresh Sol review.",
@@ -321,13 +350,13 @@
     "name": "SMNETSTUDIO/WeChat-AI",
     "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
     "description": null,
-    "stars": 1691,
-    "forks": 1221,
+    "stars": 1714,
+    "forks": 1227,
     "language": "TypeScript",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-08-10T09:06:43Z",
-    "updated_at": "2026-08-14T03:40:29Z",
+    "updated_at": "2026-08-15T02:26:22Z",
     "owner": {
       "name": "SMNETSTUDIO",
       "avatar_url": "https://avatars.githubusercontent.com/u/162035225?v=4"
@@ -387,6 +416,22 @@
     }
   },
   {
+    "name": "xoreaxeaxeax/skitter-creek-bath-salts",
+    "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+    "description": "Unlocking _everything_ on the CPU with DRAM scrambling",
+    "stars": 1579,
+    "forks": 127,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-13T13:50:42Z",
+    "updated_at": "2026-08-15T02:33:59Z",
+    "owner": {
+      "name": "xoreaxeaxeax",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12904366?v=4"
+    }
+  },
+  {
     "name": "microsoft/skill-recorder",
     "url": "https://github.com/microsoft/skill-recorder",
     "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.",
@@ -436,6 +481,44 @@
     }
   },
   {
+    "name": "cordiverse/paper",
+    "url": "https://github.com/cordiverse/paper",
+    "description": "A Programming Paradigm for Spatiotemporal Composability",
+    "stars": 1350,
+    "forks": 48,
+    "language": null,
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-13T09:53:33Z",
+    "updated_at": "2026-08-15T02:41:44Z",
+    "owner": {
+      "name": "cordiverse",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152786899?v=4"
+    }
+  },
+  {
+    "name": "awesome-dsh-plugin/awesome-dsh-plugin",
+    "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+    "stars": 1274,
+    "forks": 270,
+    "language": "Python",
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin"
+    ],
+    "license": "Creative Commons Zero v1.0 Universal",
+    "created_at": "2026-08-13T13:55:31Z",
+    "updated_at": "2026-08-15T02:43:09Z",
+    "owner": {
+      "name": "awesome-dsh-plugin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/316603077?v=4"
+    }
+  },
+  {
     "name": "sqliteai/waste",
     "url": "https://github.com/sqliteai/waste",
     "description": "Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
@@ -452,43 +535,27 @@
     }
   },
   {
-    "name": "xoreaxeaxeax/skitter-creek-bath-salts",
-    "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
-    "description": "Unlocking _everything_ on the CPU with DRAM scrambling",
-    "stars": 1088,
-    "forks": 107,
-    "language": "C",
+    "name": "gvzdv/claudish-to-english",
+    "url": "https://github.com/gvzdv/claudish-to-english",
+    "description": null,
+    "stars": 1109,
+    "forks": 72,
+    "language": "Shell",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-08-13T13:50:42Z",
-    "updated_at": "2026-08-14T03:53:07Z",
+    "created_at": "2026-08-10T18:32:23Z",
+    "updated_at": "2026-08-15T02:33:03Z",
     "owner": {
-      "name": "xoreaxeaxeax",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12904366?v=4"
-    }
-  },
-  {
-    "name": "Accio-org/RealReplicaBench",
-    "url": "https://github.com/Accio-org/RealReplicaBench",
-    "description": "RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services",
-    "stars": 1040,
-    "forks": 79,
-    "language": "HTML",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-02T05:38:38Z",
-    "updated_at": "2026-08-07T22:40:46Z",
-    "owner": {
-      "name": "Accio-org",
-      "avatar_url": "https://avatars.githubusercontent.com/u/308673369?v=4"
+      "name": "gvzdv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44172510?v=4"
     }
   },
   {
     "name": "Leutenegger/book-to-skill",
     "url": "https://github.com/Leutenegger/book-to-skill",
     "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-    "stars": 1037,
-    "forks": 132,
+    "stars": 1073,
+    "forks": 135,
     "language": "Python",
     "topics": [
       "agent",
@@ -514,10 +581,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-13T13:15:23Z",
-    "updated_at": "2026-08-14T03:55:59Z",
+    "updated_at": "2026-08-15T01:19:57Z",
     "owner": {
       "name": "Leutenegger",
       "avatar_url": "https://avatars.githubusercontent.com/u/265765261?v=4"
+    }
+  },
+  {
+    "name": "Accio-org/RealReplicaBench",
+    "url": "https://github.com/Accio-org/RealReplicaBench",
+    "description": "RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services",
+    "stars": 1040,
+    "forks": 79,
+    "language": "HTML",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-02T05:38:38Z",
+    "updated_at": "2026-08-07T22:40:46Z",
+    "owner": {
+      "name": "Accio-org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/308673369?v=4"
     }
   },
   {
@@ -537,6 +620,33 @@
     }
   },
   {
+    "name": "SaladDay/pi-from-scratch",
+    "url": "https://github.com/SaladDay/pi-from-scratch",
+    "description": "600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
+    "stars": 982,
+    "forks": 64,
+    "language": "TypeScript",
+    "topics": [
+      "agent-loop",
+      "ai-agent",
+      "coding-agent",
+      "llm",
+      "llm-agent",
+      "pi",
+      "pi-agent",
+      "tool-calling",
+      "typescript",
+      "typescript-tutorial"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-09T12:15:30Z",
+    "updated_at": "2026-08-15T01:50:41Z",
+    "owner": {
+      "name": "SaladDay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92240037?v=4"
+    }
+  },
+  {
     "name": "eternityspring/shuohao-skills",
     "url": "https://github.com/eternityspring/shuohao-skills",
     "description": "AI 短剧制作的 skill 集合：拆角色、出设定图、排大纲 | Agent skills for AI short-drama production — character bibles, model sheets, adaptation outlines. Runs in Claude Code & codex.",
@@ -553,62 +663,45 @@
     }
   },
   {
-    "name": "gvzdv/claudish-to-english",
-    "url": "https://github.com/gvzdv/claudish-to-english",
-    "description": null,
-    "stars": 943,
-    "forks": 59,
-    "language": "Shell",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-10T18:32:23Z",
-    "updated_at": "2026-08-14T03:56:13Z",
-    "owner": {
-      "name": "gvzdv",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44172510?v=4"
-    }
-  },
-  {
-    "name": "VictorTaelin/OptMem",
-    "url": "https://github.com/VictorTaelin/OptMem",
-    "description": "Permanent memory for AI agents. A 426-token prompt, a script, plug and play.",
-    "stars": 940,
-    "forks": 55,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-25T16:58:43Z",
-    "updated_at": "2026-07-31T05:17:57Z",
-    "owner": {
-      "name": "VictorTaelin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13090166?v=4"
-    }
-  },
-  {
-    "name": "SaladDay/pi-from-scratch",
-    "url": "https://github.com/SaladDay/pi-from-scratch",
-    "description": "600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
-    "stars": 907,
-    "forks": 62,
+    "name": "ccch1mneyyy/dsh-TUI",
+    "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+    "description": "解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cli的各位极客：Claude Code 风格全屏交互终端插件——像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条 + TPS 仪表。npm 一键安装。",
+    "stars": 929,
+    "forks": 41,
     "language": "TypeScript",
     "topics": [
-      "agent-loop",
-      "ai-agent",
+      "claude-code",
       "coding-agent",
-      "llm",
-      "llm-agent",
-      "pi",
-      "pi-agent",
-      "tool-calling",
-      "typescript",
-      "typescript-tutorial"
+      "deepseek",
+      "deepseek-harness",
+      "dsh-plugin",
+      "ink",
+      "react",
+      "terminal",
+      "tui"
     ],
     "license": "MIT License",
-    "created_at": "2026-08-09T12:15:30Z",
-    "updated_at": "2026-08-14T03:53:55Z",
+    "created_at": "2026-08-13T12:49:31Z",
+    "updated_at": "2026-08-15T02:42:48Z",
     "owner": {
-      "name": "SaladDay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/92240037?v=4"
+      "name": "ccch1mneyyy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/268149062?v=4"
+    }
+  },
+  {
+    "name": "milind-soni/OpenMausBot",
+    "url": "https://github.com/milind-soni/OpenMausBot",
+    "description": null,
+    "stars": 927,
+    "forks": 169,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-11T18:58:55Z",
+    "updated_at": "2026-08-15T02:20:57Z",
+    "owner": {
+      "name": "milind-soni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46266943?v=4"
     }
   },
   {
@@ -658,27 +751,6 @@
     }
   },
   {
-    "name": "zhu1090093659/dsh-web-ui",
-    "url": "https://github.com/zhu1090093659/dsh-web-ui",
-    "description": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
-    "stars": 892,
-    "forks": 32,
-    "language": "TypeScript",
-    "topics": [
-      "deepseek-harness",
-      "dsh",
-      "dsh-plugin",
-      "web-ui"
-    ],
-    "license": "No license",
-    "created_at": "2026-08-12T05:15:20Z",
-    "updated_at": "2026-08-14T03:55:49Z",
-    "owner": {
-      "name": "zhu1090093659",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46916148?v=4"
-    }
-  },
-  {
     "name": "Flaminis/Dalaran",
     "url": "https://github.com/Flaminis/Dalaran",
     "description": "Dalaran — Apache-2.0, robotics-first visualization and data infrastructure for multimodal time-series. ROS 2 native, reads existing .rrd recordings. A hard fork of Rerun.",
@@ -722,26 +794,10 @@
     }
   },
   {
-    "name": "cordiverse/paper",
-    "url": "https://github.com/cordiverse/paper",
-    "description": "A Programming Paradigm for Spatiotemporal Composability",
-    "stars": 874,
-    "forks": 26,
-    "language": null,
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-13T09:53:33Z",
-    "updated_at": "2026-08-14T03:55:32Z",
-    "owner": {
-      "name": "cordiverse",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152786899?v=4"
-    }
-  },
-  {
     "name": "sohaibdevv/youtube-music",
     "url": "https://github.com/sohaibdevv/youtube-music",
     "description": "A lightweight, ad‑free client for streaming music from YouTube Music. No subscription required. Supports background playback, search, and custom playlists via the reverse‑engineered API.",
-    "stars": 855,
+    "stars": 857,
     "forks": 0,
     "language": "TypeScript",
     "topics": [
@@ -764,26 +820,10 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-11T18:17:18Z",
-    "updated_at": "2026-08-13T15:22:19Z",
+    "updated_at": "2026-08-14T21:20:49Z",
     "owner": {
       "name": "sohaibdevv",
       "avatar_url": "https://avatars.githubusercontent.com/u/185227829?v=4"
-    }
-  },
-  {
-    "name": "milind-soni/OpenMausBot",
-    "url": "https://github.com/milind-soni/OpenMausBot",
-    "description": null,
-    "stars": 845,
-    "forks": 152,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-11T18:58:55Z",
-    "updated_at": "2026-08-14T03:56:38Z",
-    "owner": {
-      "name": "milind-soni",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46266943?v=4"
     }
   },
   {
@@ -842,6 +882,27 @@
     }
   },
   {
+    "name": "dmmulroy/anti-slop",
+    "url": "https://github.com/dmmulroy/anti-slop",
+    "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
+    "stars": 777,
+    "forks": 10,
+    "language": "TypeScript",
+    "topics": [
+      "agent-skills",
+      "linting",
+      "oxlint",
+      "typescript"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-12T13:48:50Z",
+    "updated_at": "2026-08-15T02:42:20Z",
+    "owner": {
+      "name": "dmmulroy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2755722?v=4"
+    }
+  },
+  {
     "name": "xoreaxeaxeax/asm-hall-of-shame",
     "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
     "description": "Racing to the bottom of CPU performance",
@@ -855,6 +916,22 @@
     "owner": {
       "name": "xoreaxeaxeax",
       "avatar_url": "https://avatars.githubusercontent.com/u/12904366?v=4"
+    }
+  },
+  {
+    "name": "Hisn00w/ASu-skills",
+    "url": "https://github.com/Hisn00w/ASu-skills",
+    "description": "简历包装",
+    "stars": 724,
+    "forks": 59,
+    "language": "HTML",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-12T07:12:05Z",
+    "updated_at": "2026-08-15T02:42:40Z",
+    "owner": {
+      "name": "Hisn00w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/212549348?v=4"
     }
   },
   {
@@ -943,53 +1020,16 @@
     "name": "shadcn-ui/chatbot-template",
     "url": "https://github.com/shadcn-ui/chatbot-template",
     "description": "A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway.",
-    "stars": 656,
-    "forks": 57,
+    "stars": 676,
+    "forks": 61,
     "language": "TypeScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-11T11:53:02Z",
-    "updated_at": "2026-08-14T03:16:14Z",
+    "updated_at": "2026-08-15T00:43:21Z",
     "owner": {
       "name": "shadcn-ui",
       "avatar_url": "https://avatars.githubusercontent.com/u/139895814?v=4"
-    }
-  },
-  {
-    "name": "WilonityXYZ/Wilonity",
-    "url": "https://github.com/WilonityXYZ/Wilonity",
-    "description": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, R6S, ArcRiders, Apex, Roblox, Meccha Chameleon). Kernel spoof, HWID cleaner, AC bypass (EAC/BE/VG). ESP, aimbot, WH, wallhack, triggerbot, radar, no recoil, silent aim, chams, skin changer, unlock all, no spread",
-    "stars": 651,
-    "forks": 0,
-    "language": null,
-    "topics": [
-      "aim",
-      "arc-raiders",
-      "arc-raiders-mod",
-      "counter-strike-2",
-      "cs2hack",
-      "eft-tool",
-      "game",
-      "hack",
-      "internal",
-      "kernel",
-      "meccha-chameleon-tool",
-      "memory-hacking",
-      "minecraft",
-      "mod",
-      "radar",
-      "rust-plugins",
-      "rust-treasures",
-      "rusthack",
-      "warzone-modification",
-      "webradar"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-31T02:01:20Z",
-    "updated_at": "2026-07-31T03:58:25Z",
-    "owner": {
-      "name": "WilonityXYZ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/278946191?v=4"
     }
   },
   {
@@ -1046,24 +1086,38 @@
     }
   },
   {
-    "name": "dmmulroy/anti-slop",
-    "url": "https://github.com/dmmulroy/anti-slop",
-    "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
-    "stars": 610,
-    "forks": 9,
+    "name": "Small-tailqwq/dsh-deep-whale",
+    "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
+    "description": "DSH Web 鲸鱼娘皮肤系列(深海女仆工坊 maid-atelier)——CC BY-NC-SA 4.0",
+    "stars": 613,
+    "forks": 22,
     "language": "TypeScript",
     "topics": [
-      "agent-skills",
-      "linting",
-      "oxlint",
-      "typescript"
+      "dsh",
+      "dsh-plugin"
     ],
-    "license": "MIT License",
-    "created_at": "2026-08-12T13:48:50Z",
-    "updated_at": "2026-08-14T03:37:19Z",
+    "license": "No license",
+    "created_at": "2026-08-13T13:02:14Z",
+    "updated_at": "2026-08-15T02:39:01Z",
     "owner": {
-      "name": "dmmulroy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2755722?v=4"
+      "name": "Small-tailqwq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56996438?v=4"
+    }
+  },
+  {
+    "name": "alchaincyf/deepseek-harness-orange-book",
+    "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
+    "description": "DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载",
+    "stars": 612,
+    "forks": 54,
+    "language": "HTML",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-14T03:14:33Z",
+    "updated_at": "2026-08-15T02:38:58Z",
+    "owner": {
+      "name": "alchaincyf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127714341?v=4"
     }
   },
   {
@@ -1080,6 +1134,27 @@
     "owner": {
       "name": "sophiamyang",
       "avatar_url": "https://avatars.githubusercontent.com/u/39501859?v=4"
+    }
+  },
+  {
+    "name": "vercel-labs/eve-software-factory-template",
+    "url": "https://github.com/vercel-labs/eve-software-factory-template",
+    "description": "Meet Foreman, an eve Software Factory.",
+    "stars": 601,
+    "forks": 44,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "ai",
+      "eve",
+      "vercel"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-12T12:34:43Z",
+    "updated_at": "2026-08-15T02:37:25Z",
+    "owner": {
+      "name": "vercel-labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108547162?v=4"
     }
   },
   {
@@ -1147,22 +1222,6 @@
     }
   },
   {
-    "name": "Hisn00w/ASu-skills",
-    "url": "https://github.com/Hisn00w/ASu-skills",
-    "description": "简历包装",
-    "stars": 585,
-    "forks": 48,
-    "language": "HTML",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-12T07:12:05Z",
-    "updated_at": "2026-08-14T03:54:52Z",
-    "owner": {
-      "name": "Hisn00w",
-      "avatar_url": "https://avatars.githubusercontent.com/u/212549348?v=4"
-    }
-  },
-  {
     "name": "0xwilliamortiz/humanizer-cli",
     "url": "https://github.com/0xwilliamortiz/humanizer-cli",
     "description": "33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.",
@@ -1196,6 +1255,27 @@
     "owner": {
       "name": "0xwilliamortiz",
       "avatar_url": "https://avatars.githubusercontent.com/u/155918204?v=4"
+    }
+  },
+  {
+    "name": "xiaobright/dsh-anchored-standard",
+    "url": "https://github.com/xiaobright/dsh-anchored-standard",
+    "description": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
+    "stars": 581,
+    "forks": 20,
+    "language": "JavaScript",
+    "topics": [
+      "deepseek",
+      "deepseek-harness",
+      "dsh-plugin",
+      "llm-agent"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-14T14:06:39Z",
+    "updated_at": "2026-08-15T02:43:33Z",
+    "owner": {
+      "name": "xiaobright",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104243166?v=4"
     }
   },
   {
@@ -1239,42 +1319,6 @@
     "owner": {
       "name": "wumingqi60",
       "avatar_url": "https://avatars.githubusercontent.com/u/63189147?v=4"
-    }
-  },
-  {
-    "name": "0xwilliamortiz/openclaude-improved",
-    "url": "https://github.com/0xwilliamortiz/openclaude-improved",
-    "description": "runs anywhere. uses anything",
-    "stars": 563,
-    "forks": 80,
-    "language": "TypeScript",
-    "topics": [
-      "agentic-ai",
-      "ai",
-      "ai-agent",
-      "ai-coding",
-      "ai-coding-agent",
-      "ai-coding-agents",
-      "ai-coding-assistant",
-      "anthropic",
-      "claude",
-      "claude-code",
-      "cli",
-      "coding-agent",
-      "gemini",
-      "gemini-ai",
-      "gemini-cli",
-      "llm",
-      "mcp",
-      "model-context-protocol",
-      "openrouter"
-    ],
-    "license": "Other",
-    "created_at": "2026-07-26T21:58:28Z",
-    "updated_at": "2026-07-31T08:07:43Z",
-    "owner": {
-      "name": "0xwilliamortiz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/155918204?v=4"
     }
   },
   {
@@ -1329,6 +1373,22 @@
     "owner": {
       "name": "DramaticShape",
       "avatar_url": "https://avatars.githubusercontent.com/u/308877963?v=4"
+    }
+  },
+  {
+    "name": "MSNightmare/ShieldBreak",
+    "url": "https://github.com/MSNightmare/ShieldBreak",
+    "description": "Windows Defender 0day vulnerability",
+    "stars": 541,
+    "forks": 169,
+    "language": "C++",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-11T19:35:37Z",
+    "updated_at": "2026-08-15T01:12:43Z",
+    "owner": {
+      "name": "MSNightmare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/291905677?v=4"
     }
   },
   {
@@ -1410,22 +1470,6 @@
     "owner": {
       "name": "Zeejay0",
       "avatar_url": "https://avatars.githubusercontent.com/u/308046376?v=4"
-    }
-  },
-  {
-    "name": "MSNightmare/ShieldBreak",
-    "url": "https://github.com/MSNightmare/ShieldBreak",
-    "description": "Windows Defender 0day vulnerability",
-    "stars": 507,
-    "forks": 160,
-    "language": "C++",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-11T19:35:37Z",
-    "updated_at": "2026-08-14T03:25:51Z",
-    "owner": {
-      "name": "MSNightmare",
-      "avatar_url": "https://avatars.githubusercontent.com/u/291905677?v=4"
     }
   },
   {
@@ -1568,29 +1612,25 @@
     }
   },
   {
-    "name": "ccch1mneyyy/dsh-TUI",
-    "url": "https://github.com/ccch1mneyyy/dsh-TUI",
-    "description": "解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cli的各位极客：Claude Code 风格全屏交互终端插件——像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条 + TPS 仪表。npm 一键安装。",
-    "stars": 472,
-    "forks": 17,
-    "language": "TypeScript",
+    "name": "ayi-ai/nie-grassroots-logic",
+    "url": "https://github.com/ayi-ai/nie-grassroots-logic",
+    "description": "聂·基层运行逻辑 · Agent Skill：基于聂辉华《基层中国的运行逻辑》的方法论工具箱（不含原书全文）",
+    "stars": 474,
+    "forks": 55,
+    "language": "HTML",
     "topics": [
-      "claude-code",
-      "coding-agent",
-      "deepseek",
-      "deepseek-harness",
-      "dsh-plugin",
-      "ink",
-      "react",
-      "terminal",
-      "tui"
+      "agent-skills",
+      "china",
+      "cursor-skills",
+      "governance",
+      "methodology"
     ],
     "license": "MIT License",
-    "created_at": "2026-08-13T12:49:31Z",
-    "updated_at": "2026-08-14T03:55:55Z",
+    "created_at": "2026-08-10T09:23:06Z",
+    "updated_at": "2026-08-15T02:23:36Z",
     "owner": {
-      "name": "ccch1mneyyy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/268149062?v=4"
+      "name": "ayi-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/287876291?v=4"
     }
   },
   {
@@ -1658,6 +1698,35 @@
     }
   },
   {
+    "name": "shadcn-labs/pdfcn",
+    "url": "https://github.com/shadcn-labs/pdfcn",
+    "description": "Beautiful pdf components, built on Takumi and Forme. 100% Free, Zero config, one command setup.",
+    "stars": 460,
+    "forks": 18,
+    "language": "TypeScript",
+    "topics": [
+      "forme",
+      "html-to-pdf",
+      "jsx",
+      "pdf",
+      "pdf-generation",
+      "pdf-generator",
+      "react",
+      "rust",
+      "shadcn",
+      "takumi",
+      "typescript",
+      "wasm"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-11T11:55:41Z",
+    "updated_at": "2026-08-15T02:37:36Z",
+    "owner": {
+      "name": "shadcn-labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/278042933?v=4"
+    }
+  },
+  {
     "name": "huangserva/ComfyUI_MiniMaxH3_Director",
     "url": "https://github.com/huangserva/ComfyUI_MiniMaxH3_Director",
     "description": "ComfyUI MiniMax H3 Director workflow",
@@ -1706,41 +1775,56 @@
     }
   },
   {
-    "name": "ayi-ai/nie-grassroots-logic",
-    "url": "https://github.com/ayi-ai/nie-grassroots-logic",
-    "description": "聂·基层运行逻辑 · Agent Skill：基于聂辉华《基层中国的运行逻辑》的方法论工具箱（不含原书全文）",
-    "stars": 445,
-    "forks": 54,
-    "language": "HTML",
-    "topics": [
-      "agent-skills",
-      "china",
-      "cursor-skills",
-      "governance",
-      "methodology"
-    ],
+    "name": "0xnyn/airship",
+    "url": "https://github.com/0xnyn/airship",
+    "description": "Figma like visual editor built for Claude Code, Codex and OpenCode",
+    "stars": 442,
+    "forks": 41,
+    "language": "TypeScript",
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-08-10T09:23:06Z",
-    "updated_at": "2026-08-14T03:55:20Z",
+    "created_at": "2026-08-10T19:03:10Z",
+    "updated_at": "2026-08-15T00:43:44Z",
     "owner": {
-      "name": "ayi-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/287876291?v=4"
+      "name": "0xnyn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91504165?v=4"
     }
   },
   {
-    "name": "NikolayS/PGSimCity",
-    "url": "https://github.com/NikolayS/PGSimCity",
-    "description": "An explorable 3D city that shows how Postgres actually works",
-    "stars": 443,
-    "forks": 34,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-25T22:15:09Z",
-    "updated_at": "2026-07-31T05:07:18Z",
+    "name": "DrHazemAli/enterprise-system-design",
+    "url": "https://github.com/DrHazemAli/enterprise-system-design",
+    "description": "A source-grounded course & reference for engineers designing systems that must survive real traffic, partial failure, security review, and changing requirements, spanning enterprise system design, distributed systems, AI systems, cybersecurity, reliability, cloud, HPC, edge, and mission-critical infrastructure.",
+    "stars": 432,
+    "forks": 95,
+    "language": null,
+    "topics": [
+      "ai",
+      "ai-governance",
+      "ai-security",
+      "ai-systems",
+      "cloud-architecture",
+      "cloud-infrastructure",
+      "cybersecurity",
+      "distributed-computing",
+      "distributed-systems",
+      "engineering",
+      "enterprise-architecture",
+      "enterprise-systems",
+      "hpc",
+      "mission-critical",
+      "realibility",
+      "sovereign-systems",
+      "system-design",
+      "well-architected",
+      "well-architected-framework",
+      "zero-trust"
+    ],
+    "license": "No license",
+    "created_at": "2026-08-12T04:03:15Z",
+    "updated_at": "2026-08-15T02:27:08Z",
     "owner": {
-      "name": "NikolayS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1345402?v=4"
+      "name": "DrHazemAli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24309945?v=4"
     }
   },
   {
@@ -1805,22 +1889,6 @@
     }
   },
   {
-    "name": "0xnyn/airship",
-    "url": "https://github.com/0xnyn/airship",
-    "description": "Figma like visual editor built for Claude Code, Codex and OpenCode",
-    "stars": 425,
-    "forks": 38,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-10T19:03:10Z",
-    "updated_at": "2026-08-14T01:26:43Z",
-    "owner": {
-      "name": "0xnyn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91504165?v=4"
-    }
-  },
-  {
     "name": "criptogus/HermesOffice",
     "url": "https://github.com/criptogus/HermesOffice",
     "description": "HermesOffice — AI-native office suite forked from GenOffice (Apache-2.0), with native Hermes Agent AI",
@@ -1848,6 +1916,32 @@
     }
   },
   {
+    "name": "elie222/rakazo",
+    "url": "https://github.com/elie222/rakazo",
+    "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+    "stars": 422,
+    "forks": 39,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agents",
+      "chatgpt",
+      "docker",
+      "electron",
+      "expo",
+      "grok",
+      "llm",
+      "self-hosted",
+      "typescript"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-13T06:28:56Z",
+    "updated_at": "2026-08-15T02:33:43Z",
+    "owner": {
+      "name": "elie222",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3090527?v=4"
+    }
+  },
+  {
     "name": "deedy/qr-data-transfer",
     "url": "https://github.com/deedy/qr-data-transfer",
     "description": null,
@@ -1861,6 +1955,41 @@
     "owner": {
       "name": "deedy",
       "avatar_url": "https://avatars.githubusercontent.com/u/1846373?v=4"
+    }
+  },
+  {
+    "name": "0xsline/awesome-deepseek-harness",
+    "url": "https://github.com/0xsline/awesome-deepseek-harness",
+    "description": "DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.",
+    "stars": 407,
+    "forks": 125,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "ai-tools",
+      "awesome",
+      "awesome-list",
+      "coding-assistant",
+      "curated-list",
+      "deepseek",
+      "deepseek-harness",
+      "developer-tools",
+      "dsh",
+      "dsh-plugin",
+      "dsh-plugins",
+      "harness",
+      "llm",
+      "mcp",
+      "plugins"
+    ],
+    "license": "Creative Commons Zero v1.0 Universal",
+    "created_at": "2026-08-11T13:14:49Z",
+    "updated_at": "2026-08-15T02:34:22Z",
+    "owner": {
+      "name": "0xsline",
+      "avatar_url": "https://avatars.githubusercontent.com/u/151105947?v=4"
     }
   },
   {
@@ -1900,6 +2029,22 @@
     "owner": {
       "name": "MengTo",
       "avatar_url": "https://avatars.githubusercontent.com/u/1065452?v=4"
+    }
+  },
+  {
+    "name": "xinxinshuhao-create/grok-register",
+    "url": "https://github.com/xinxinshuhao-create/grok-register",
+    "description": "Automated account registration toolkit for x.ai (Grok) with SSO extraction, OAuth Device Flow, and auto-replenish daemon",
+    "stars": 400,
+    "forks": 105,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-12T11:56:57Z",
+    "updated_at": "2026-08-15T02:42:50Z",
+    "owner": {
+      "name": "xinxinshuhao-create",
+      "avatar_url": "https://avatars.githubusercontent.com/u/294916584?v=4"
     }
   },
   {
@@ -1951,35 +2096,6 @@
     }
   },
   {
-    "name": "shadcn-labs/pdfcn",
-    "url": "https://github.com/shadcn-labs/pdfcn",
-    "description": "Beautiful pdf components, built on Takumi and Forme. 100% Free, Zero config, one command setup.",
-    "stars": 387,
-    "forks": 15,
-    "language": "TypeScript",
-    "topics": [
-      "forme",
-      "html-to-pdf",
-      "jsx",
-      "pdf",
-      "pdf-generation",
-      "pdf-generator",
-      "react",
-      "rust",
-      "shadcn",
-      "takumi",
-      "typescript",
-      "wasm"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-11T11:55:41Z",
-    "updated_at": "2026-08-14T03:56:18Z",
-    "owner": {
-      "name": "shadcn-labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/278042933?v=4"
-    }
-  },
-  {
     "name": "jmarshall23/Quake_4_Alpha",
     "url": "https://github.com/jmarshall23/Quake_4_Alpha",
     "description": "Quake 4 alpha released for preservation purposes only. ",
@@ -1993,34 +2109,6 @@
     "owner": {
       "name": "jmarshall23",
       "avatar_url": "https://avatars.githubusercontent.com/u/38022578?v=4"
-    }
-  },
-  {
-    "name": "deerwork-ai/deer-workflow",
-    "url": "https://github.com/deerwork-ai/deer-workflow",
-    "description": "An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semantic work to replaceable Agent runtimes.",
-    "stars": 368,
-    "forks": 29,
-    "language": "TypeScript",
-    "topics": [
-      "agent",
-      "ai",
-      "ai-agent",
-      "ai-agents",
-      "ai-coding",
-      "bun",
-      "dynamic-workflow",
-      "dynamic-workflows",
-      "graph-engineering",
-      "llm",
-      "workflow"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-26T04:20:50Z",
-    "updated_at": "2026-08-01T02:11:40Z",
-    "owner": {
-      "name": "deerwork-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/305389025?v=4"
     }
   },
   {
@@ -2399,22 +2487,6 @@
     "owner": {
       "name": "frs0n",
       "avatar_url": "https://avatars.githubusercontent.com/u/222780129?v=4"
-    }
-  },
-  {
-    "name": "lingbol088-spec/5.6-JAILBREAK-NERV-codex-instruct-5.6",
-    "url": "https://github.com/lingbol088-spec/5.6-JAILBREAK-NERV-codex-instruct-5.6",
-    "description": "NERV-BREAK-5.6 — GPT-5.6 破甲框架。三层纵深防御：上下文重构让拒绝无法触发，23条篡改规则实时消除拒绝保持对话不中断，文件路由绕过云端审核。31个MCP安全工具 + 28个技能模块 + Kali四后端集成。Codex CLI 即装即用。",
-    "stars": 302,
-    "forks": 75,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-25T16:38:04Z",
-    "updated_at": "2026-07-31T05:08:57Z",
-    "owner": {
-      "name": "lingbol088-spec",
-      "avatar_url": "https://avatars.githubusercontent.com/u/273277104?v=4"
     }
   },
   {
@@ -2849,22 +2921,6 @@
     }
   },
   {
-    "name": "sii-research/tau-0-vla",
-    "url": "https://github.com/sii-research/tau-0-vla",
-    "description": "This repo is the official implementation of  \"τ0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation\".",
-    "stars": 241,
-    "forks": 11,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-26T07:57:08Z",
-    "updated_at": "2026-08-01T01:42:20Z",
-    "owner": {
-      "name": "sii-research",
-      "avatar_url": "https://avatars.githubusercontent.com/u/214633573?v=4"
-    }
-  },
-  {
     "name": "xoreaxeaxeax/smiiiiiiiiiiiiiiii",
     "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
     "description": "A very very very very very very very long interrupt",
@@ -2910,38 +2966,6 @@
     "owner": {
       "name": "pingmike2",
       "avatar_url": "https://avatars.githubusercontent.com/u/166621491?v=4"
-    }
-  },
-  {
-    "name": "lyu0805/pixshell",
-    "url": "https://github.com/lyu0805/pixshell",
-    "description": "跨平台 SSH / SFTP 桌面客户端 · 终端 · 连接管理 · 文件传输 | Cross-platform SSH/SFTP desktop client for macOS, Windows ",
-    "stars": 239,
-    "forks": 17,
-    "language": "Swift",
-    "topics": [
-      "cross-platform",
-      "desktop-app",
-      "devops",
-      "electron",
-      "linux",
-      "macos",
-      "pixshell",
-      "remote-desktop",
-      "sftp",
-      "sftp-client",
-      "ssh",
-      "ssh-client",
-      "terminal",
-      "windows",
-      "xterm"
-    ],
-    "license": "Other",
-    "created_at": "2026-07-25T20:30:31Z",
-    "updated_at": "2026-07-31T04:50:28Z",
-    "owner": {
-      "name": "lyu0805",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53092331?v=4"
     }
   },
   {
@@ -3006,30 +3030,6 @@
     "owner": {
       "name": "context-labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/125929854?v=4"
-    }
-  },
-  {
-    "name": "ogulcancelik/herdr-browser",
-    "url": "https://github.com/ogulcancelik/herdr-browser",
-    "description": "Render a real Chromium view inside a Herdr pane and drive it over CDP.",
-    "stars": 220,
-    "forks": 10,
-    "language": "TypeScript",
-    "topics": [
-      "browser",
-      "browser-automation",
-      "cdp",
-      "chromium",
-      "herdr-plugin",
-      "kitty-graphics",
-      "terminal"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-26T18:06:50Z",
-    "updated_at": "2026-07-31T19:07:07Z",
-    "owner": {
-      "name": "ogulcancelik",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7064011?v=4"
     }
   }
 ]
