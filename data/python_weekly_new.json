@@ -3,8 +3,8 @@
     "name": "guillaumemeyer/watermarks-remover",
     "url": "https://github.com/guillaumemeyer/watermarks-remover",
     "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
-    "stars": 9819,
-    "forks": 1016,
+    "stars": 11801,
+    "forks": 1259,
     "language": "Python",
     "topics": [
       "agent-skill",
@@ -17,7 +17,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-11T16:32:38Z",
-    "updated_at": "2026-08-16T02:53:33Z",
+    "updated_at": "2026-08-17T02:55:05Z",
     "owner": {
       "name": "guillaumemeyer",
       "avatar_url": "https://avatars.githubusercontent.com/u/1385518?v=4"
@@ -27,8 +27,8 @@
     "name": "awesome-dsh-plugin/awesome-dsh-plugin",
     "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
     "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
-    "stars": 3130,
-    "forks": 634,
+    "stars": 5662,
+    "forks": 899,
     "language": "Python",
     "topics": [
       "awesome",
@@ -39,7 +39,7 @@
     ],
     "license": "Creative Commons Zero v1.0 Universal",
     "created_at": "2026-08-13T13:55:31Z",
-    "updated_at": "2026-08-16T02:54:39Z",
+    "updated_at": "2026-08-17T02:55:24Z",
     "owner": {
       "name": "awesome-dsh-plugin",
       "avatar_url": "https://avatars.githubusercontent.com/u/316603077?v=4"
@@ -123,8 +123,8 @@
     "name": "Leutenegger/book-to-skill",
     "url": "https://github.com/Leutenegger/book-to-skill",
     "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-    "stars": 1128,
-    "forks": 141,
+    "stars": 1157,
+    "forks": 142,
     "language": "Python",
     "topics": [
       "agent",
@@ -150,7 +150,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-13T13:15:23Z",
-    "updated_at": "2026-08-16T02:06:44Z",
+    "updated_at": "2026-08-17T02:27:40Z",
     "owner": {
       "name": "Leutenegger",
       "avatar_url": "https://avatars.githubusercontent.com/u/265765261?v=4"
@@ -173,24 +173,38 @@
     }
   },
   {
-    "name": "gavamedia/deltafin",
-    "url": "https://github.com/gavamedia/deltafin",
-    "description": "Run full Kimi K3 on a single device. And an OpenAI-compatible API server for local chat and coding agents.",
-    "stars": 596,
-    "forks": 67,
+    "name": "0xsline/awesome-deepseek-harness",
+    "url": "https://github.com/0xsline/awesome-deepseek-harness",
+    "description": "DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.",
+    "stars": 627,
+    "forks": 225,
     "language": "Python",
     "topics": [
-      "kimi",
-      "kimi-k3",
-      "local-ai",
-      "local-llm"
+      "agent",
+      "ai",
+      "ai-agents",
+      "ai-tools",
+      "awesome",
+      "awesome-list",
+      "coding-assistant",
+      "curated-list",
+      "deepseek",
+      "deepseek-harness",
+      "developer-tools",
+      "dsh",
+      "dsh-plugin",
+      "dsh-plugins",
+      "harness",
+      "llm",
+      "mcp",
+      "plugins"
     ],
-    "license": "Other",
-    "created_at": "2026-07-28T01:01:23Z",
-    "updated_at": "2026-08-02T05:22:28Z",
+    "license": "Creative Commons Zero v1.0 Universal",
+    "created_at": "2026-08-11T13:14:49Z",
+    "updated_at": "2026-08-17T02:54:00Z",
     "owner": {
-      "name": "gavamedia",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1783489?v=4"
+      "name": "0xsline",
+      "avatar_url": "https://avatars.githubusercontent.com/u/151105947?v=4"
     }
   },
   {
@@ -243,41 +257,6 @@
     }
   },
   {
-    "name": "0xsline/awesome-deepseek-harness",
-    "url": "https://github.com/0xsline/awesome-deepseek-harness",
-    "description": "DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.",
-    "stars": 503,
-    "forks": 184,
-    "language": "Python",
-    "topics": [
-      "agent",
-      "ai",
-      "ai-agents",
-      "ai-tools",
-      "awesome",
-      "awesome-list",
-      "coding-assistant",
-      "curated-list",
-      "deepseek",
-      "deepseek-harness",
-      "developer-tools",
-      "dsh",
-      "dsh-plugin",
-      "dsh-plugins",
-      "harness",
-      "llm",
-      "mcp",
-      "plugins"
-    ],
-    "license": "Creative Commons Zero v1.0 Universal",
-    "created_at": "2026-08-11T13:14:49Z",
-    "updated_at": "2026-08-16T02:54:37Z",
-    "owner": {
-      "name": "0xsline",
-      "avatar_url": "https://avatars.githubusercontent.com/u/151105947?v=4"
-    }
-  },
-  {
     "name": "disler/super-simple-software-factory",
     "url": "https://github.com/disler/super-simple-software-factory",
     "description": "Repeatable agents-plus-code workflows, packaged as one skill, stamped into any repo. Deterministic Python owns the graph; coding agents are bounded nodes inside it.",
@@ -318,13 +297,13 @@
     "name": "xinxinshuhao-create/grok-register",
     "url": "https://github.com/xinxinshuhao-create/grok-register",
     "description": "Automated account registration toolkit for x.ai (Grok) with SSO extraction, OAuth Device Flow, and auto-replenish daemon",
-    "stars": 435,
-    "forks": 111,
+    "stars": 443,
+    "forks": 115,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-12T11:56:57Z",
-    "updated_at": "2026-08-16T02:26:43Z",
+    "updated_at": "2026-08-16T23:39:42Z",
     "owner": {
       "name": "xinxinshuhao-create",
       "avatar_url": "https://avatars.githubusercontent.com/u/294916584?v=4"
@@ -398,13 +377,13 @@
     "name": "gfodor/legal-skills",
     "url": "https://github.com/gfodor/legal-skills",
     "description": "Replacing lawyers with markdown files",
-    "stars": 351,
+    "stars": 361,
     "forks": 41,
     "language": "Python",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-08-12T21:14:16Z",
-    "updated_at": "2026-08-16T00:30:55Z",
+    "updated_at": "2026-08-17T02:53:53Z",
     "owner": {
       "name": "gfodor",
       "avatar_url": "https://avatars.githubusercontent.com/u/220020?v=4"
@@ -650,6 +629,27 @@
     }
   },
   {
+    "name": "pemarine/cve-2026-41940-PoC",
+    "url": "https://github.com/pemarine/cve-2026-41940-PoC",
+    "description": "A cPanel and WHM authentication bypassing tool",
+    "stars": 277,
+    "forks": 13,
+    "language": "Python",
+    "topics": [
+      "cpanel",
+      "cve",
+      "cve-2026-41940",
+      "cve-2026-41940-poc"
+    ],
+    "license": "No license",
+    "created_at": "2026-08-13T16:03:48Z",
+    "updated_at": "2026-08-17T01:48:53Z",
+    "owner": {
+      "name": "pemarine",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152866198?v=4"
+    }
+  },
+  {
     "name": "Anionex/codex-vision-proxy",
     "url": "https://github.com/Anionex/codex-vision-proxy",
     "description": "让纯文本模型在 Codex 中无障碍看图(view_image)的更优方案，附为纯文本 LLM 设计的视觉工具包&skill ｜  A superior approach for enabling text-only models to seamlessly use Codex’s built-in view_image, plus a vision toolkit & skill designed for pure-text LLMs.",
@@ -673,27 +673,6 @@
     "owner": {
       "name": "Anionex",
       "avatar_url": "https://avatars.githubusercontent.com/u/123177548?v=4"
-    }
-  },
-  {
-    "name": "pemarine/cve-2026-41940-PoC",
-    "url": "https://github.com/pemarine/cve-2026-41940-PoC",
-    "description": "A cPanel and WHM authentication bypassing tool",
-    "stars": 272,
-    "forks": 12,
-    "language": "Python",
-    "topics": [
-      "cpanel",
-      "cve",
-      "cve-2026-41940",
-      "cve-2026-41940-poc"
-    ],
-    "license": "No license",
-    "created_at": "2026-08-13T16:03:48Z",
-    "updated_at": "2026-08-15T10:50:51Z",
-    "owner": {
-      "name": "pemarine",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152866198?v=4"
     }
   },
   {
@@ -861,6 +840,41 @@
     }
   },
   {
+    "name": "Carasibana/ComfyUI-H3-FaceRefine",
+    "url": "https://github.com/Carasibana/ComfyUI-H3-FaceRefine",
+    "description": "Refine and improve the quality of small faces in MiniMax H3 video. Per-frame face tracking, crop, refine with H3, stitch back.",
+    "stars": 228,
+    "forks": 13,
+    "language": "Python",
+    "topics": [
+      "ai-video",
+      "comfyui",
+      "comfyui-custom-node",
+      "comfyui-custom-nodes",
+      "comfyui-nodes",
+      "comfyui-video",
+      "diffusion-models",
+      "face-detection",
+      "face-enhancement",
+      "face-restoration",
+      "generative-ai",
+      "insightface",
+      "lipsync",
+      "minimax-h3",
+      "segment-anything",
+      "video-generation",
+      "video-processing",
+      "yolov8"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-12T11:18:15Z",
+    "updated_at": "2026-08-16T22:31:46Z",
+    "owner": {
+      "name": "Carasibana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/247009443?v=4"
+    }
+  },
+  {
     "name": "Samin100/codex-ios-assistant",
     "url": "https://github.com/Samin100/codex-ios-assistant",
     "description": "Control and inspect an iPhone from Codex through iMessage and Shortcuts",
@@ -905,31 +919,10 @@
     }
   },
   {
-    "name": "AmazingAng/old-coder",
-    "url": "https://github.com/AmazingAng/old-coder",
-    "description": "An old coder's strategy for the agent era: don't read the code — make it run the gauntlet. Evidence-first development skill for coding agents, inspired by Uncle Bob.",
-    "stars": 220,
-    "forks": 14,
-    "language": "Python",
-    "topics": [
-      "ai-agents",
-      "claude-code",
-      "skills",
-      "tdd"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-27T05:03:11Z",
-    "updated_at": "2026-08-02T02:59:17Z",
-    "owner": {
-      "name": "AmazingAng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14728591?v=4"
-    }
-  },
-  {
     "name": "wzchav/tokentab",
     "url": "https://github.com/wzchav/tokentab",
     "description": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
-    "stars": 217,
+    "stars": 219,
     "forks": 14,
     "language": "Python",
     "topics": [
@@ -943,45 +936,10 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-12T16:09:39Z",
-    "updated_at": "2026-08-16T02:08:24Z",
+    "updated_at": "2026-08-16T20:14:53Z",
     "owner": {
       "name": "wzchav",
       "avatar_url": "https://avatars.githubusercontent.com/u/133630262?v=4"
-    }
-  },
-  {
-    "name": "Carasibana/ComfyUI-H3-FaceRefine",
-    "url": "https://github.com/Carasibana/ComfyUI-H3-FaceRefine",
-    "description": "Refine and improve the quality of small faces in MiniMax H3 video. Per-frame face tracking, crop, refine with H3, stitch back.",
-    "stars": 217,
-    "forks": 12,
-    "language": "Python",
-    "topics": [
-      "ai-video",
-      "comfyui",
-      "comfyui-custom-node",
-      "comfyui-custom-nodes",
-      "comfyui-nodes",
-      "comfyui-video",
-      "diffusion-models",
-      "face-detection",
-      "face-enhancement",
-      "face-restoration",
-      "generative-ai",
-      "insightface",
-      "lipsync",
-      "minimax-h3",
-      "segment-anything",
-      "video-generation",
-      "video-processing",
-      "yolov8"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-12T11:18:15Z",
-    "updated_at": "2026-08-16T02:24:46Z",
-    "owner": {
-      "name": "Carasibana",
-      "avatar_url": "https://avatars.githubusercontent.com/u/247009443?v=4"
     }
   },
   {
@@ -1059,22 +1017,6 @@
     "owner": {
       "name": "KimGLee",
       "avatar_url": "https://avatars.githubusercontent.com/u/150593189?v=4"
-    }
-  },
-  {
-    "name": "bytec-ai/book-video-factory",
-    "url": "https://github.com/bytec-ai/book-video-factory",
-    "description": "通用、可移植的多账号图书短视频生产 Skill",
-    "stars": 207,
-    "forks": 50,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-27T07:58:43Z",
-    "updated_at": "2026-08-02T04:57:21Z",
-    "owner": {
-      "name": "bytec-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35858352?v=4"
     }
   },
   {
@@ -1308,6 +1250,22 @@
     }
   },
   {
+    "name": "Nervercc/gpt_nerver",
+    "url": "https://github.com/Nervercc/gpt_nerver",
+    "description": "ChatGPT Plus automation toolkit: PyQt6 desktop + JSON-RPC registration engine + card/CDK/PayPal/GCash flows",
+    "stars": 183,
+    "forks": 31,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-15T18:51:26Z",
+    "updated_at": "2026-08-17T02:50:29Z",
+    "owner": {
+      "name": "Nervercc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/298599018?v=4"
+    }
+  },
+  {
     "name": "Tr1dae/ComfyUI-MiniMaxH3_LatentUpscaler",
     "url": "https://github.com/Tr1dae/ComfyUI-MiniMaxH3_LatentUpscaler",
     "description": "MiniMaxH3_LatentUpscaler for ComfyUI",
@@ -1372,6 +1330,22 @@
     }
   },
   {
+    "name": "fellowgeek/mcp-memory",
+    "url": "https://github.com/fellowgeek/mcp-memory",
+    "description": "An OKF-backed Model Context Protocol (MCP) server delivering persistent long-term memory and SQLite FTS5 search for AI agents.",
+    "stars": 176,
+    "forks": 11,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-13T01:37:25Z",
+    "updated_at": "2026-08-17T01:26:48Z",
+    "owner": {
+      "name": "fellowgeek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3333580?v=4"
+    }
+  },
+  {
     "name": "MddIdd/mdd-sim-gateway",
     "url": "https://github.com/MddIdd/mdd-sim-gateway",
     "description": "Self-hosted SIM/eSIM gateway for VoWiFi calling, SMS, cellular data and isolated regional egress",
@@ -1403,19 +1377,19 @@
     }
   },
   {
-    "name": "fellowgeek/mcp-memory",
-    "url": "https://github.com/fellowgeek/mcp-memory",
-    "description": "An OKF-backed Model Context Protocol (MCP) server delivering persistent long-term memory and SQLite FTS5 search for AI agents.",
-    "stars": 172,
-    "forks": 10,
+    "name": "Rimagination/h3lite",
+    "url": "https://github.com/Rimagination/h3lite",
+    "description": "A hardware-aware Codex skill for local MiniMax H3 video generation through ComfyUI",
+    "stars": 175,
+    "forks": 24,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-08-13T01:37:25Z",
-    "updated_at": "2026-08-16T02:09:49Z",
+    "created_at": "2026-08-13T06:50:35Z",
+    "updated_at": "2026-08-17T02:29:58Z",
     "owner": {
-      "name": "fellowgeek",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3333580?v=4"
+      "name": "Rimagination",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57791834?v=4"
     }
   },
   {
@@ -1439,22 +1413,6 @@
     "owner": {
       "name": "crawfordxx",
       "avatar_url": "https://avatars.githubusercontent.com/u/59634664?v=4"
-    }
-  },
-  {
-    "name": "cherryand1112-creator/IPTV-JAPAN-M3U",
-    "url": "https://github.com/cherryand1112-creator/IPTV-JAPAN-M3U",
-    "description": "只为分享能够持续有效的日本电视台m3u直播源，尽我所能做到每月更新",
-    "stars": 166,
-    "forks": 5,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-27T10:31:08Z",
-    "updated_at": "2026-08-02T04:56:35Z",
-    "owner": {
-      "name": "cherryand1112-creator",
-      "avatar_url": "https://avatars.githubusercontent.com/u/259257742?v=4"
     }
   },
   {
@@ -1511,6 +1469,33 @@
     }
   },
   {
+    "name": "opaxial/CVE-2026-9830",
+    "url": "https://github.com/opaxial/CVE-2026-9830",
+    "description": "CVE-2026-9830 Proof of Concept",
+    "stars": 156,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "cve",
+      "cve-2026-9830",
+      "cvss",
+      "exploit",
+      "exploit-db",
+      "latest",
+      "poc",
+      "proof-of-concept",
+      "python",
+      "vulnerability"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-15T20:57:13Z",
+    "updated_at": "2026-08-17T02:39:07Z",
+    "owner": {
+      "name": "opaxial",
+      "avatar_url": "https://avatars.githubusercontent.com/u/316989449?v=4"
+    }
+  },
+  {
     "name": "mika50000/gpt-link",
     "url": "https://github.com/mika50000/gpt-link",
     "description": "Standalone ChatGPT Session/accessToken link extractor",
@@ -1524,6 +1509,30 @@
     "owner": {
       "name": "mika50000",
       "avatar_url": "https://avatars.githubusercontent.com/u/272958987?v=4"
+    }
+  },
+  {
+    "name": "icesixgod/codex-trajectory",
+    "url": "https://github.com/icesixgod/codex-trajectory",
+    "description": "Privacy-aware trajectory viewer for local Codex task logs",
+    "stars": 151,
+    "forks": 7,
+    "language": "Python",
+    "topics": [
+      "codex",
+      "codex-plugin",
+      "developer-tools",
+      "mcp",
+      "python",
+      "trajectory",
+      "uv"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-13T17:16:42Z",
+    "updated_at": "2026-08-16T18:52:28Z",
+    "owner": {
+      "name": "icesixgod",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84966189?v=4"
     }
   },
   {
@@ -1553,6 +1562,43 @@
     "owner": {
       "name": "xyaz1313",
       "avatar_url": "https://avatars.githubusercontent.com/u/197202025?v=4"
+    }
+  },
+  {
+    "name": "seyedehsanhadi/sloptrim",
+    "url": "https://github.com/seyedehsanhadi/sloptrim",
+    "description": "A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.",
+    "stars": 149,
+    "forks": 11,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "ai-slop",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugins-marketplace",
+      "claude-code-skills",
+      "de-slop",
+      "developer-tools",
+      "docx",
+      "humanizer",
+      "linter",
+      "llm",
+      "markdown",
+      "prose-linter",
+      "python",
+      "stylometry",
+      "text-analysis",
+      "writing-quality",
+      "writing-tools",
+      "zero-dependency"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-13T08:09:10Z",
+    "updated_at": "2026-08-17T01:49:57Z",
+    "owner": {
+      "name": "seyedehsanhadi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28573573?v=4"
     }
   },
   {
@@ -1617,22 +1663,6 @@
     "owner": {
       "name": "typewriter03",
       "avatar_url": "https://avatars.githubusercontent.com/u/149319214?v=4"
-    }
-  },
-  {
-    "name": "Anionex/codex-deepseek-vision",
-    "url": "https://github.com/Anionex/codex-deepseek-vision",
-    "description": "让纯文本模型在 Codex 中无障碍调用内置看图工具（view_image）的方案，附为纯文本 LLM 设计的视觉工具包 ｜  Let text-only models call Codex's built-in view_image seamlessly, plus a vision toolkit designed for text-only LLMs.",
-    "stars": 145,
-    "forks": 4,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-01T10:00:13Z",
-    "updated_at": "2026-08-02T05:20:28Z",
-    "owner": {
-      "name": "Anionex",
-      "avatar_url": "https://avatars.githubusercontent.com/u/123177548?v=4"
     }
   },
   {
@@ -1716,30 +1746,6 @@
     }
   },
   {
-    "name": "icesixgod/codex-trajectory",
-    "url": "https://github.com/icesixgod/codex-trajectory",
-    "description": "Privacy-aware trajectory viewer for local Codex task logs",
-    "stars": 142,
-    "forks": 6,
-    "language": "Python",
-    "topics": [
-      "codex",
-      "codex-plugin",
-      "developer-tools",
-      "mcp",
-      "python",
-      "trajectory",
-      "uv"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-13T17:16:42Z",
-    "updated_at": "2026-08-15T19:17:25Z",
-    "owner": {
-      "name": "icesixgod",
-      "avatar_url": "https://avatars.githubusercontent.com/u/84966189?v=4"
-    }
-  },
-  {
     "name": "swaroop2004/Proven-Viral-Content-System",
     "url": "https://github.com/swaroop2004/Proven-Viral-Content-System",
     "description": "Research, brainstorm, and generate viral video content for Instagram, YouTube, X, and TikTok",
@@ -1769,22 +1775,6 @@
     "owner": {
       "name": "YINGLINGH",
       "avatar_url": "https://avatars.githubusercontent.com/u/153068387?v=4"
-    }
-  },
-  {
-    "name": "Loki200399/india-itr-copilot",
-    "url": "https://github.com/Loki200399/india-itr-copilot",
-    "description": null,
-    "stars": 141,
-    "forks": 64,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-27T12:27:22Z",
-    "updated_at": "2026-08-02T04:19:22Z",
-    "owner": {
-      "name": "Loki200399",
-      "avatar_url": "https://avatars.githubusercontent.com/u/183745085?v=4"
     }
   },
   {
@@ -1836,6 +1826,29 @@
     }
   },
   {
+    "name": "loveisbl1nd/linksift",
+    "url": "https://github.com/loveisbl1nd/linksift",
+    "description": "Local-first, self-hosted media downloader powered by yt-dlp, Flask, Docker, and ffmpeg.",
+    "stars": 135,
+    "forks": 94,
+    "language": "Python",
+    "topics": [
+      "docker",
+      "ffmpeg",
+      "flask",
+      "media-downloader",
+      "self-hosted",
+      "yt-dlp"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-13T04:17:32Z",
+    "updated_at": "2026-08-16T16:46:26Z",
+    "owner": {
+      "name": "loveisbl1nd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101747313?v=4"
+    }
+  },
+  {
     "name": "ModelTC/Minimax-H3-Turbo",
     "url": "https://github.com/ModelTC/Minimax-H3-Turbo",
     "description": "Distill Minimax-H3 into 4 steps",
@@ -1852,19 +1865,19 @@
     }
   },
   {
-    "name": "Rimagination/h3lite",
-    "url": "https://github.com/Rimagination/h3lite",
-    "description": "A hardware-aware Codex skill for local MiniMax H3 video generation through ComfyUI",
-    "stars": 132,
+    "name": "mikiane/claude-watermark-cleaner",
+    "url": "https://github.com/mikiane/claude-watermark-cleaner",
+    "description": "Démonstration critique et outil expérimental de perturbation des watermarks statistiques de Claude",
+    "stars": 133,
     "forks": 21,
     "language": "Python",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-13T06:50:35Z",
-    "updated_at": "2026-08-16T02:51:18Z",
+    "license": "No license",
+    "created_at": "2026-08-11T10:52:11Z",
+    "updated_at": "2026-08-17T01:24:53Z",
     "owner": {
-      "name": "Rimagination",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57791834?v=4"
+      "name": "mikiane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/513624?v=4"
     }
   },
   {
@@ -1900,29 +1913,6 @@
     }
   },
   {
-    "name": "loveisbl1nd/linksift",
-    "url": "https://github.com/loveisbl1nd/linksift",
-    "description": "Local-first, self-hosted media downloader powered by yt-dlp, Flask, Docker, and ffmpeg.",
-    "stars": 130,
-    "forks": 93,
-    "language": "Python",
-    "topics": [
-      "docker",
-      "ffmpeg",
-      "flask",
-      "media-downloader",
-      "self-hosted",
-      "yt-dlp"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-13T04:17:32Z",
-    "updated_at": "2026-08-15T17:33:12Z",
-    "owner": {
-      "name": "loveisbl1nd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/101747313?v=4"
-    }
-  },
-  {
     "name": "FuDie0915/Super-Instruct-Codex-5.6",
     "url": "https://github.com/FuDie0915/Super-Instruct-Codex-5.6",
     "description": "针对GPT 5.6的破甲实验项目，基于Rust开发",
@@ -1944,38 +1934,6 @@
     }
   },
   {
-    "name": "mikiane/claude-watermark-cleaner",
-    "url": "https://github.com/mikiane/claude-watermark-cleaner",
-    "description": "Démonstration critique et outil expérimental de perturbation des watermarks statistiques de Claude",
-    "stars": 128,
-    "forks": 21,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-11T10:52:11Z",
-    "updated_at": "2026-08-15T23:31:13Z",
-    "owner": {
-      "name": "mikiane",
-      "avatar_url": "https://avatars.githubusercontent.com/u/513624?v=4"
-    }
-  },
-  {
-    "name": "qa10devteam/behive",
-    "url": "https://github.com/qa10devteam/behive",
-    "description": "Open-source deep research engine that builds structured knowledge graphs. MCP-native. avg 0.82+ quality.",
-    "stars": 127,
-    "forks": 14,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-28T09:25:03Z",
-    "updated_at": "2026-08-02T16:03:22Z",
-    "owner": {
-      "name": "qa10devteam",
-      "avatar_url": "https://avatars.githubusercontent.com/u/273328605?v=4"
-    }
-  },
-  {
     "name": "rw-r-r-0644/bc250-core-unlock",
     "url": "https://github.com/rw-r-r-0644/bc250-core-unlock",
     "description": "Unlock 2 extra cores on the AMD BC-250",
@@ -1989,6 +1947,29 @@
     "owner": {
       "name": "rw-r-r-0644",
       "avatar_url": "https://avatars.githubusercontent.com/u/18355947?v=4"
+    }
+  },
+  {
+    "name": "TencentARC/SCoPE",
+    "url": "https://github.com/TencentARC/SCoPE",
+    "description": "SCoPE: Sightline-Coordinate Positional Encoding for 3D-Aware Video Generation",
+    "stars": 124,
+    "forks": 9,
+    "language": "Python",
+    "topics": [
+      "3d",
+      "dit",
+      "novel-view-synthesis",
+      "video-diffusion",
+      "video-diffusion-model",
+      "world-models"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-12T02:04:25Z",
+    "updated_at": "2026-08-17T02:28:50Z",
+    "owner": {
+      "name": "TencentARC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83739826?v=4"
     }
   },
   {
@@ -2078,6 +2059,22 @@
     }
   },
   {
+    "name": "lensback940701/Evidence-Bound-Press-Conference-Revision-Skill",
+    "url": "https://github.com/lensback940701/Evidence-Bound-Press-Conference-Revision-Skill",
+    "description": "An evidence-bound academic revision skill for social science research. It reduces defensive prose without weakening scholarly caution, foregrounds core contributions, compresses repetitive qualifications and process narration, and preserves claim ceilings, evidence status, scope, boundaries, and rival explanations for auditable, traceable revision.",
+    "stars": 121,
+    "forks": 4,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-11T15:31:03Z",
+    "updated_at": "2026-08-17T01:54:57Z",
+    "owner": {
+      "name": "lensback940701",
+      "avatar_url": "https://avatars.githubusercontent.com/u/266205271?v=4"
+    }
+  },
+  {
     "name": "mufengyuan666/CodeMason",
     "url": "https://github.com/mufengyuan666/CodeMason",
     "description": null,
@@ -2159,6 +2156,66 @@
     }
   },
   {
+    "name": "scottmudge/ComfyUI_MinimaxH3HybridLoader",
+    "url": "https://github.com/scottmudge/ComfyUI_MinimaxH3HybridLoader",
+    "description": "A model hybridization loader to combine different layers/blocks of the fl2va and ref2va models",
+    "stars": 120,
+    "forks": 6,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-11T01:00:39Z",
+    "updated_at": "2026-08-17T02:23:46Z",
+    "owner": {
+      "name": "scottmudge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19617165?v=4"
+    }
+  },
+  {
+    "name": "1838904818/audit-repo",
+    "url": "https://github.com/1838904818/audit-repo",
+    "description": "A practical Codex skill for evidence-backed repository health audits",
+    "stars": 117,
+    "forks": 9,
+    "language": "Python",
+    "topics": [
+      "code-quality",
+      "codex",
+      "codex-skill",
+      "developer-tools",
+      "openai",
+      "python",
+      "repository-audit",
+      "repository-health",
+      "security-audit",
+      "static-analysis",
+      "technical-debt"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-11T08:52:31Z",
+    "updated_at": "2026-08-17T01:02:33Z",
+    "owner": {
+      "name": "1838904818",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113549269?v=4"
+    }
+  },
+  {
+    "name": "jerber/arc-code",
+    "url": "https://github.com/jerber/arc-code",
+    "description": null,
+    "stars": 116,
+    "forks": 14,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-11T05:45:34Z",
+    "updated_at": "2026-08-16T20:49:04Z",
+    "owner": {
+      "name": "jerber",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19958616?v=4"
+    }
+  },
+  {
     "name": "bamboostrip/Handwriting-simulator",
     "url": "https://github.com/bamboostrip/Handwriting-simulator",
     "description": "把普通文本变成以假乱真的手写体图片：手写字体 + 信纸背景 + 字距/行距/笔画随机扰动。GUI（PyQt6）与 CLI 双入口，numpy/scipy 高性能渲染引擎。",
@@ -2185,77 +2242,6 @@
     }
   },
   {
-    "name": "zairuilab/consulting-deck",
-    "url": "https://github.com/zairuilab/consulting-deck",
-    "description": "Evidence-first, chart-led, native-editable consulting PowerPoint Skill",
-    "stars": 115,
-    "forks": 4,
-    "language": "Python",
-    "topics": [
-      "agent-skill",
-      "consulting",
-      "data-visualization",
-      "powerpoint",
-      "pptx",
-      "presentations"
-    ],
-    "license": "Other",
-    "created_at": "2026-07-27T15:11:28Z",
-    "updated_at": "2026-08-02T03:47:32Z",
-    "owner": {
-      "name": "zairuilab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/230856160?v=4"
-    }
-  },
-  {
-    "name": "scottmudge/ComfyUI_MinimaxH3HybridLoader",
-    "url": "https://github.com/scottmudge/ComfyUI_MinimaxH3HybridLoader",
-    "description": "A model hybridization loader to combine different layers/blocks of the fl2va and ref2va models",
-    "stars": 113,
-    "forks": 6,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-11T01:00:39Z",
-    "updated_at": "2026-08-16T01:34:15Z",
-    "owner": {
-      "name": "scottmudge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19617165?v=4"
-    }
-  },
-  {
-    "name": "lensback940701/Evidence-Bound-Press-Conference-Revision-Skill",
-    "url": "https://github.com/lensback940701/Evidence-Bound-Press-Conference-Revision-Skill",
-    "description": "An evidence-bound academic revision skill for diagnosing and reducing defensive prose without weakening scholarly caution. 这是一个面向社会科学研究的证据约束型学术论文修订 Skill，旨在识别并减少防御性写作，同时不削弱必要的学术审慎。 它通过突出论文的核心贡献、压缩重复性限定与研究过程叙述，同时严格保留主张上限、证据状态、适用范围与边界条件以及竞争性解释，支持可审计、可追踪的论文修订流程。",
-    "stars": 113,
-    "forks": 3,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-11T15:31:03Z",
-    "updated_at": "2026-08-16T01:32:17Z",
-    "owner": {
-      "name": "lensback940701",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266205271?v=4"
-    }
-  },
-  {
-    "name": "jerber/arc-code",
-    "url": "https://github.com/jerber/arc-code",
-    "description": null,
-    "stars": 112,
-    "forks": 14,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-11T05:45:34Z",
-    "updated_at": "2026-08-16T00:47:22Z",
-    "owner": {
-      "name": "jerber",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19958616?v=4"
-    }
-  },
-  {
     "name": "adrianpunk/punk-ip-illustrations",
     "url": "https://github.com/adrianpunk/punk-ip-illustrations",
     "description": "Punk personal IP article illustration Agent Skill",
@@ -2269,6 +2255,22 @@
     "owner": {
       "name": "adrianpunk",
       "avatar_url": "https://avatars.githubusercontent.com/u/272800535?v=4"
+    }
+  },
+  {
+    "name": "x4gpanell/X4G",
+    "url": "https://github.com/x4gpanell/X4G",
+    "description": null,
+    "stars": 111,
+    "forks": 238,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-15T11:00:03Z",
+    "updated_at": "2026-08-17T02:07:23Z",
+    "owner": {
+      "name": "x4gpanell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/317284177?v=4"
     }
   },
   {
@@ -2380,11 +2382,27 @@
     }
   },
   {
+    "name": "eatWhitePorridge/link-pp",
+    "url": "https://github.com/eatWhitePorridge/link-pp",
+    "description": null,
+    "stars": 105,
+    "forks": 51,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-12T02:19:41Z",
+    "updated_at": "2026-08-16T14:39:42Z",
+    "owner": {
+      "name": "eatWhitePorridge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101032378?v=4"
+    }
+  },
+  {
     "name": "harukiseller-droid/commerce-agent-bench",
     "url": "https://github.com/harukiseller-droid/commerce-agent-bench",
     "description": "commerce-agent-bench",
     "stars": 105,
-    "forks": 103,
+    "forks": 102,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
@@ -2393,6 +2411,29 @@
     "owner": {
       "name": "harukiseller-droid",
       "avatar_url": "https://avatars.githubusercontent.com/u/245326152?v=4"
+    }
+  },
+  {
+    "name": "qianye-wuyu/yueyuan-bazi",
+    "url": "https://github.com/qianye-wuyu/yueyuan-bazi",
+    "description": "跃渊 YueYuan · 子平命理分析系统（研究型八字解读 Skill：假设-证据-反证、规则分层、预注册预测+后验验证、变格四态状态机、100 案例测试）",
+    "stars": 105,
+    "forks": 17,
+    "language": "Python",
+    "topics": [
+      "bazi",
+      "bazi-yanpan",
+      "chinese-metaphysics",
+      "skill",
+      "subing",
+      "zhiping"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-13T18:08:22Z",
+    "updated_at": "2026-08-17T02:36:45Z",
+    "owner": {
+      "name": "qianye-wuyu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/267578315?v=4"
     }
   },
   {
@@ -2421,13 +2462,13 @@
     "name": "straighttttt/movie-commentary-workflow",
     "url": "https://github.com/straighttttt/movie-commentary-workflow",
     "description": "Auditable Codex skills and data contracts for first-person movie commentary production",
-    "stars": 103,
+    "stars": 104,
     "forks": 8,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-08-11T12:29:46Z",
-    "updated_at": "2026-08-15T07:06:28Z",
+    "updated_at": "2026-08-16T13:10:31Z",
     "owner": {
       "name": "straighttttt",
       "avatar_url": "https://avatars.githubusercontent.com/u/128947101?v=4"
@@ -2467,7 +2508,7 @@
     "url": "https://github.com/dukz2003/lum_codex",
     "description": null,
     "stars": 102,
-    "forks": 98,
+    "forks": 97,
     "language": "Python",
     "topics": [],
     "license": "Other",
@@ -2492,22 +2533,6 @@
     "owner": {
       "name": "lilvli",
       "avatar_url": "https://avatars.githubusercontent.com/u/115538611?v=4"
-    }
-  },
-  {
-    "name": "eatWhitePorridge/link-pp",
-    "url": "https://github.com/eatWhitePorridge/link-pp",
-    "description": null,
-    "stars": 101,
-    "forks": 50,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-12T02:19:41Z",
-    "updated_at": "2026-08-16T01:14:08Z",
-    "owner": {
-      "name": "eatWhitePorridge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/101032378?v=4"
     }
   },
   {
@@ -2564,26 +2589,19 @@
     }
   },
   {
-    "name": "TencentARC/SCoPE",
-    "url": "https://github.com/TencentARC/SCoPE",
-    "description": "SCoPE: Sightline-Coordinate Positional Encoding for 3D-Aware Video Generation",
+    "name": "limouren2000/YYGlobal",
+    "url": "https://github.com/limouren2000/YYGlobal",
+    "description": null,
     "stars": 100,
-    "forks": 7,
+    "forks": 65,
     "language": "Python",
-    "topics": [
-      "3d",
-      "dit",
-      "novel-view-synthesis",
-      "video-diffusion",
-      "video-diffusion-model",
-      "world-models"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-12T02:04:25Z",
-    "updated_at": "2026-08-15T20:59:07Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-12T15:11:45Z",
+    "updated_at": "2026-08-16T10:36:32Z",
     "owner": {
-      "name": "TencentARC",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83739826?v=4"
+      "name": "limouren2000",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42027714?v=4"
     }
   },
   {
@@ -2591,7 +2609,7 @@
     "url": "https://github.com/duy90utc528/repo-publication-audit",
     "description": "Dependency-free preflight checks for repositories before making them public",
     "stars": 99,
-    "forks": 98,
+    "forks": 97,
     "language": "Python",
     "topics": [
       "devtools",
@@ -2604,7 +2622,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-13T02:17:48Z",
-    "updated_at": "2026-08-15T17:53:33Z",
+    "updated_at": "2026-08-16T05:13:44Z",
     "owner": {
       "name": "duy90utc528",
       "avatar_url": "https://avatars.githubusercontent.com/u/228160384?v=4"
@@ -2640,22 +2658,6 @@
     "owner": {
       "name": "led829155-droid",
       "avatar_url": "https://avatars.githubusercontent.com/u/248910542?v=4"
-    }
-  },
-  {
-    "name": "limouren2000/YYGlobal",
-    "url": "https://github.com/limouren2000/YYGlobal",
-    "description": null,
-    "stars": 98,
-    "forks": 64,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-12T15:11:45Z",
-    "updated_at": "2026-08-16T02:53:02Z",
-    "owner": {
-      "name": "limouren2000",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42027714?v=4"
     }
   },
   {
@@ -2994,22 +2996,6 @@
     }
   },
   {
-    "name": "alxgntv/substack-api-mcp",
-    "url": "https://github.com/alxgntv/substack-api-mcp",
-    "description": "MCP server for Substack posts (FastMCP + substack-api-client)",
-    "stars": 80,
-    "forks": 0,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-07-28T13:35:39Z",
-    "updated_at": "2026-08-02T09:28:34Z",
-    "owner": {
-      "name": "alxgntv",
-      "avatar_url": "https://avatars.githubusercontent.com/u/243579989?v=4"
-    }
-  },
-  {
     "name": "sentdm/sent-plugin",
     "url": "https://github.com/sentdm/sent-plugin",
     "description": null,
@@ -3098,22 +3084,6 @@
     "owner": {
       "name": "Tahscene",
       "avatar_url": "https://avatars.githubusercontent.com/u/125144053?v=4"
-    }
-  },
-  {
-    "name": "jayamurka/RelayHelix",
-    "url": "https://github.com/jayamurka/RelayHelix",
-    "description": "Real-Time Service Mesh Orchestration Platform with Self-Healing, Adaptive Event Routing, and Distributed State Synchronization Engine.",
-    "stars": 75,
-    "forks": 2,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-30T08:27:34Z",
-    "updated_at": "2026-08-02T21:27:49Z",
-    "owner": {
-      "name": "jayamurka",
-      "avatar_url": "https://avatars.githubusercontent.com/u/121629422?v=4"
     }
   },
   {
