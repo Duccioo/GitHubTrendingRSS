@@ -43,24 +43,26 @@
     }
   },
   {
-    "name": "gavamedia/deltafin",
-    "url": "https://github.com/gavamedia/deltafin",
-    "description": "Run full Kimi K3 on a single device. And an OpenAI-compatible API server for local chat and coding agents.",
-    "stars": 628,
-    "forks": 72,
+    "name": "hairyf/deepseek-harness-desktop",
+    "url": "https://github.com/hairyf/deepseek-harness-desktop",
+    "description": "DeepSeek Harness Tauri 桌面版 | Only 5mb installer, zero environment setup. Windows / macOS / Linux.",
+    "stars": 433,
+    "forks": 21,
     "language": "Rust",
     "topics": [
-      "kimi",
-      "kimi-k3",
-      "local-ai",
-      "local-llm"
+      "deepseek",
+      "deepseek-harness",
+      "desktop",
+      "dsh",
+      "dsh-plugin",
+      "tauri"
     ],
     "license": "Other",
-    "created_at": "2026-07-28T01:01:23Z",
-    "updated_at": "2026-08-03T05:05:34Z",
+    "created_at": "2026-08-14T02:36:29Z",
+    "updated_at": "2026-08-18T02:50:31Z",
     "owner": {
-      "name": "gavamedia",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1783489?v=4"
+      "name": "hairyf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49724027?v=4"
     }
   },
   {
@@ -88,29 +90,6 @@
     "owner": {
       "name": "lexmount",
       "avatar_url": "https://avatars.githubusercontent.com/u/231927209?v=4"
-    }
-  },
-  {
-    "name": "hairyf/deepseek-harness-desktop",
-    "url": "https://github.com/hairyf/deepseek-harness-desktop",
-    "description": "DeepSeek Harness Tauri 桌面版 | Only 5mb installer, zero environment setup. Windows / macOS / Linux.",
-    "stars": 305,
-    "forks": 15,
-    "language": "Rust",
-    "topics": [
-      "deepseek",
-      "deepseek-harness",
-      "desktop",
-      "dsh",
-      "dsh-plugin",
-      "tauri"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-14T02:36:29Z",
-    "updated_at": "2026-08-17T02:50:11Z",
-    "owner": {
-      "name": "hairyf",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49724027?v=4"
     }
   },
   {
@@ -250,6 +229,22 @@
     }
   },
   {
+    "name": "zunmax/osnm-z",
+    "url": "https://github.com/zunmax/osnm-z",
+    "description": "OpenSea NFT Minter by Zun : a single as well as multi-wallet Rust CLI for minting NFTs on Opensea",
+    "stars": 161,
+    "forks": 83,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-14T18:18:56Z",
+    "updated_at": "2026-08-17T19:09:21Z",
+    "owner": {
+      "name": "zunmax",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139138234?v=4"
+    }
+  },
+  {
     "name": "smthdagg/wificalling-location-gateway",
     "url": "https://github.com/smthdagg/wificalling-location-gateway",
     "description": "Fail-open OpenWrt WLOC location gateway PoC with auditable multi-agent development workflow",
@@ -311,22 +306,6 @@
     }
   },
   {
-    "name": "arcships/aimux",
-    "url": "https://github.com/arcships/aimux",
-    "description": "统一 LLM 服务接入层 — 一套 API 接入 172+ 家 AI 服务商",
-    "stars": 146,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-07-28T04:58:46Z",
-    "updated_at": "2026-08-03T05:24:15Z",
-    "owner": {
-      "name": "arcships",
-      "avatar_url": "https://avatars.githubusercontent.com/u/272712626?v=4"
-    }
-  },
-  {
     "name": "ikuV/deident-wasm",
     "url": "https://github.com/ikuV/deident-wasm",
     "description": "Privacy transformation engine for structured datasets — pseudonymization and risk-assessed anonymization for CSV files, driven by a declarative YAML policy.",
@@ -346,22 +325,6 @@
     "owner": {
       "name": "ikuV",
       "avatar_url": "https://avatars.githubusercontent.com/u/65980620?v=4"
-    }
-  },
-  {
-    "name": "zunmax/osnm-z",
-    "url": "https://github.com/zunmax/osnm-z",
-    "description": "OpenSea NFT Minter by Zun : a single as well as multi-wallet Rust CLI for minting NFTs on Opensea",
-    "stars": 135,
-    "forks": 64,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-14T18:18:56Z",
-    "updated_at": "2026-08-17T02:28:07Z",
-    "owner": {
-      "name": "zunmax",
-      "avatar_url": "https://avatars.githubusercontent.com/u/139138234?v=4"
     }
   },
   {
@@ -650,11 +613,27 @@
     }
   },
   {
+    "name": "CapSoftware/cinder",
+    "url": "https://github.com/CapSoftware/cinder",
+    "description": "A drop-in Cargo replacement focused on dramatically faster Rust development.",
+    "stars": 86,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-14T19:16:17Z",
+    "updated_at": "2026-08-17T17:53:27Z",
+    "owner": {
+      "name": "CapSoftware",
+      "avatar_url": "https://avatars.githubusercontent.com/u/151241629?v=4"
+    }
+  },
+  {
     "name": "dungoutlook1/ai-super-model",
     "url": "https://github.com/dungoutlook1/ai-super-model",
     "description": null,
     "stars": 85,
-    "forks": 83,
+    "forks": 81,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
@@ -724,22 +703,6 @@
     "owner": {
       "name": "mikker",
       "avatar_url": "https://avatars.githubusercontent.com/u/2819?v=4"
-    }
-  },
-  {
-    "name": "CapSoftware/cinder",
-    "url": "https://github.com/CapSoftware/cinder",
-    "description": "A drop-in Cargo replacement focused on dramatically faster Rust development.",
-    "stars": 79,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-14T19:16:17Z",
-    "updated_at": "2026-08-17T02:22:48Z",
-    "owner": {
-      "name": "CapSoftware",
-      "avatar_url": "https://avatars.githubusercontent.com/u/151241629?v=4"
     }
   },
   {
@@ -893,7 +856,7 @@
     "topics": [],
     "license": "Other",
     "created_at": "2026-08-12T13:38:27Z",
-    "updated_at": "2026-08-15T11:59:52Z",
+    "updated_at": "2026-08-17T17:47:22Z",
     "owner": {
       "name": "ArrowSK",
       "avatar_url": "https://avatars.githubusercontent.com/u/56678503?v=4"
@@ -916,48 +879,51 @@
     }
   },
   {
+    "name": "WhiteDNS/WhiteAestherMobile",
+    "url": "https://github.com/WhiteDNS/WhiteAestherMobile",
+    "description": "Native Android client for the Aether encrypted route engine",
+    "stars": 60,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-08-12T03:54:30Z",
+    "updated_at": "2026-08-18T00:11:56Z",
+    "owner": {
+      "name": "WhiteDNS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/294980615?v=4"
+    }
+  },
+  {
+    "name": "AminulBD/ds",
+    "url": "https://github.com/AminulBD/ds",
+    "description": null,
+    "stars": 60,
+    "forks": 15,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-15T14:26:42Z",
+    "updated_at": "2026-08-17T15:20:30Z",
+    "owner": {
+      "name": "AminulBD",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5006546?v=4"
+    }
+  },
+  {
     "name": "xingj404-lab/dsh-desktop",
     "url": "https://github.com/xingj404-lab/dsh-desktop",
     "description": "deepseek harness desktop",
-    "stars": 60,
-    "forks": 6,
+    "stars": 59,
+    "forks": 7,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2026-08-14T01:52:30Z",
-    "updated_at": "2026-08-16T14:46:10Z",
+    "updated_at": "2026-08-18T02:17:48Z",
     "owner": {
       "name": "xingj404-lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/226635319?v=4"
-    }
-  },
-  {
-    "name": "gaborini/monitrs",
-    "url": "https://github.com/gaborini/monitrs",
-    "description": "A fast, keyboard-first system cockpit for Linux and macOS",
-    "stars": 60,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "htop",
-      "linux",
-      "macos",
-      "monitoring",
-      "observability",
-      "process-monitor",
-      "ratatui",
-      "rust",
-      "system-monitor",
-      "terminal",
-      "tui"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-07-29T20:38:27Z",
-    "updated_at": "2026-08-03T05:42:08Z",
-    "owner": {
-      "name": "gaborini",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17881088?v=4"
     }
   },
   {
@@ -1030,49 +996,6 @@
     }
   },
   {
-    "name": "WhiteDNS/WhiteAestherMobile",
-    "url": "https://github.com/WhiteDNS/WhiteAestherMobile",
-    "description": "Native Android client for the Aether encrypted route engine",
-    "stars": 55,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-08-12T03:54:30Z",
-    "updated_at": "2026-08-17T02:34:24Z",
-    "owner": {
-      "name": "WhiteDNS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/294980615?v=4"
-    }
-  },
-  {
-    "name": "gaborini/servicrab",
-    "url": "https://github.com/gaborini/servicrab",
-    "description": "A lightweight Rust process supervisor for local stacks, homelabs, and small servers.",
-    "stars": 53,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "daemon",
-      "developer-tools",
-      "devtools",
-      "homelab",
-      "launchd",
-      "process-manager",
-      "process-supervisor",
-      "rust",
-      "systemd"
-    ],
-    "license": "Other",
-    "created_at": "2026-07-29T21:27:36Z",
-    "updated_at": "2026-08-03T10:17:30Z",
-    "owner": {
-      "name": "gaborini",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17881088?v=4"
-    }
-  },
-  {
     "name": "gronke/ui-components",
     "url": "https://github.com/gronke/ui-components",
     "description": "Web Components for TUI and Browser made with pure Rust from Lit Element",
@@ -1091,22 +1014,6 @@
     "owner": {
       "name": "gronke",
       "avatar_url": "https://avatars.githubusercontent.com/u/473924?v=4"
-    }
-  },
-  {
-    "name": "AminulBD/ds",
-    "url": "https://github.com/AminulBD/ds",
-    "description": null,
-    "stars": 50,
-    "forks": 14,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-15T14:26:42Z",
-    "updated_at": "2026-08-16T23:51:19Z",
-    "owner": {
-      "name": "AminulBD",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5006546?v=4"
     }
   },
   {
@@ -1144,22 +1051,6 @@
     "owner": {
       "name": "crazygirl437",
       "avatar_url": "https://avatars.githubusercontent.com/u/242900097?v=4"
-    }
-  },
-  {
-    "name": "ArcaEge/creakwork12",
-    "url": "https://github.com/ArcaEge/creakwork12",
-    "description": "make your framework hinge rusty (wow it's also written in rust too)",
-    "stars": 45,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "Do What The F*ck You Want To Public License",
-    "created_at": "2026-07-29T13:12:09Z",
-    "updated_at": "2026-08-03T21:11:14Z",
-    "owner": {
-      "name": "ArcaEge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40526225?v=4"
     }
   },
   {
@@ -1201,6 +1092,75 @@
     }
   },
   {
+    "name": "KyleThmpsn/sundial",
+    "url": "https://github.com/KyleThmpsn/sundial",
+    "description": "A character and loadout settings editor for Project Sunrise (Destiny 2 Shadowkeep)",
+    "stars": 39,
+    "forks": 8,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-14T01:15:38Z",
+    "updated_at": "2026-08-18T02:16:57Z",
+    "owner": {
+      "name": "KyleThmpsn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2560594?v=4"
+    }
+  },
+  {
+    "name": "xiincs/deepseek-harness-desktop",
+    "url": "https://github.com/xiincs/deepseek-harness-desktop",
+    "description": "DeepSeek Harness 原生桌面版，基于 Tauri 2，内置 Node.js 运行时，一键安装，极速启动，托盘常驻，自动更新。DeepSeek Harness native desktop version: built on Tauri 2 with a bundled Node.js runtime.",
+    "stars": 39,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "agent",
+      "ai-agent",
+      "deepseek",
+      "deepseek-harness",
+      "desktop",
+      "dsh-plugin",
+      "rust",
+      "tauri",
+      "windows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-13T17:32:36Z",
+    "updated_at": "2026-08-18T01:48:02Z",
+    "owner": {
+      "name": "xiincs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/181250834?v=4"
+    }
+  },
+  {
+    "name": "openma-ai/deepseek-harness-tui",
+    "url": "https://github.com/openma-ai/deepseek-harness-tui",
+    "description": "Self-Improvement TUI Plugin of DeepSeek Harness. dsh-tui",
+    "stars": 38,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [
+      "agent",
+      "agents",
+      "deepseek-harness",
+      "deepseek-harness-plugin",
+      "deepseek-harness-plugin-dev",
+      "deepseek-harness-plugins",
+      "dsh-plugin",
+      "dsh-plugins",
+      "tui",
+      "tui-rs"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-13T17:19:18Z",
+    "updated_at": "2026-08-18T02:22:01Z",
+    "owner": {
+      "name": "openma-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/275590287?v=4"
+    }
+  },
+  {
     "name": "lukechilds/anzen",
     "url": "https://github.com/lukechilds/anzen",
     "description": null,
@@ -1214,6 +1174,22 @@
     "owner": {
       "name": "lukechilds",
       "avatar_url": "https://avatars.githubusercontent.com/u/2123375?v=4"
+    }
+  },
+  {
+    "name": "jdvillal/SIMD_examples",
+    "url": "https://github.com/jdvillal/SIMD_examples",
+    "description": "gravity simulation examples using SIMD",
+    "stars": 37,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-15T07:09:31Z",
+    "updated_at": "2026-08-18T01:15:39Z",
+    "owner": {
+      "name": "jdvillal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57422146?v=4"
     }
   },
   {
@@ -1254,30 +1230,6 @@
     }
   },
   {
-    "name": "Andrew-Velox/animfetch",
-    "url": "https://github.com/Andrew-Velox/animfetch",
-    "description": "Animated system fetch that stays pinned above your shell while you work. Linux, no dependencies. 🦀",
-    "stars": 37,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "archlinux",
-      "fastfetch",
-      "linux",
-      "neofetch",
-      "rust",
-      "sysfetch",
-      "system-fetch"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-29T10:40:55Z",
-    "updated_at": "2026-08-03T23:05:03Z",
-    "owner": {
-      "name": "Andrew-Velox",
-      "avatar_url": "https://avatars.githubusercontent.com/u/99073463?v=4"
-    }
-  },
-  {
     "name": "hiepnnguyentcu/raftvec",
     "url": "https://github.com/hiepnnguyentcu/raftvec",
     "description": "A distributed vector search engine where every shard is a Raft-replicated group.",
@@ -1291,29 +1243,6 @@
     "owner": {
       "name": "hiepnnguyentcu",
       "avatar_url": "https://avatars.githubusercontent.com/u/43158356?v=4"
-    }
-  },
-  {
-    "name": "openma-ai/deepseek-harness-tui",
-    "url": "https://github.com/openma-ai/deepseek-harness-tui",
-    "description": "Self-Improvement TUI Plugin of DeepSeek Harness. dsh-tui",
-    "stars": 33,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "agent",
-      "agents",
-      "dsh-plugin",
-      "dsh-plugins",
-      "tui",
-      "tui-rs"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-13T17:19:18Z",
-    "updated_at": "2026-08-16T23:12:59Z",
-    "owner": {
-      "name": "openma-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/275590287?v=4"
     }
   },
   {
@@ -1413,19 +1342,19 @@
     }
   },
   {
-    "name": "KyleThmpsn/sundial",
-    "url": "https://github.com/KyleThmpsn/sundial",
-    "description": "A character and loadout settings editor for Project Sunrise (Destiny 2 Shadowkeep)",
+    "name": "ryanfan219/link-helm",
+    "url": "https://github.com/ryanfan219/link-helm",
+    "description": null,
     "stars": 31,
-    "forks": 6,
+    "forks": 0,
     "language": "Rust",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-14T01:15:38Z",
-    "updated_at": "2026-08-16T17:46:52Z",
+    "license": "MIT License",
+    "created_at": "2026-08-14T09:29:00Z",
+    "updated_at": "2026-08-18T02:41:19Z",
     "owner": {
-      "name": "KyleThmpsn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2560594?v=4"
+      "name": "ryanfan219",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32766522?v=4"
     }
   },
   {
@@ -1508,6 +1437,57 @@
     }
   },
   {
+    "name": "TONYGFX/SerialPilot",
+    "url": "https://github.com/TONYGFX/SerialPilot",
+    "description": null,
+    "stars": 29,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-12T17:45:55Z",
+    "updated_at": "2026-08-18T01:14:14Z",
+    "owner": {
+      "name": "TONYGFX",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25459930?v=4"
+    }
+  },
+  {
+    "name": "NOFireAI/ravel",
+    "url": "https://github.com/NOFireAI/ravel",
+    "description": "A distributed OpenTelemetry-native columnar datastore whose only backend is object storage.",
+    "stars": 29,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "apache-2-0-license",
+      "arrow",
+      "columnar-storage",
+      "datafusion",
+      "datastore",
+      "distributed-systems",
+      "logs",
+      "metrics",
+      "observability",
+      "opentelemetry",
+      "otap",
+      "otel",
+      "otlp",
+      "promql",
+      "rust",
+      "security",
+      "sql",
+      "traces"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-14T11:52:50Z",
+    "updated_at": "2026-08-17T18:43:15Z",
+    "owner": {
+      "name": "NOFireAI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/165256019?v=4"
+    }
+  },
+  {
     "name": "otya128/mpeg2toh264",
     "url": "https://github.com/otya128/mpeg2toh264",
     "description": "Transcode MPEG-2 to H.264/AVC without fully decoding the video.",
@@ -1556,41 +1536,6 @@
     }
   },
   {
-    "name": "NOFireAI/ravel",
-    "url": "https://github.com/NOFireAI/ravel",
-    "description": "A distributed OpenTelemetry-native columnar datastore whose only backend is object storage.",
-    "stars": 28,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "apache-2-0-license",
-      "arrow",
-      "columnar-storage",
-      "datafusion",
-      "datastore",
-      "distributed-systems",
-      "logs",
-      "metrics",
-      "observability",
-      "opentelemetry",
-      "otap",
-      "otel",
-      "otlp",
-      "promql",
-      "rust",
-      "security",
-      "sql",
-      "traces"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-14T11:52:50Z",
-    "updated_at": "2026-08-16T20:25:07Z",
-    "owner": {
-      "name": "NOFireAI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/165256019?v=4"
-    }
-  },
-  {
     "name": "cdbkk/vu",
     "url": "https://github.com/cdbkk/vu",
     "description": "A better customizable terminal",
@@ -1631,38 +1576,6 @@
     "owner": {
       "name": "yetidevworks",
       "avatar_url": "https://avatars.githubusercontent.com/u/220336074?v=4"
-    }
-  },
-  {
-    "name": "TONYGFX/SerialPilot",
-    "url": "https://github.com/TONYGFX/SerialPilot",
-    "description": null,
-    "stars": 27,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-12T17:45:55Z",
-    "updated_at": "2026-08-16T16:12:00Z",
-    "owner": {
-      "name": "TONYGFX",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25459930?v=4"
-    }
-  },
-  {
-    "name": "jdvillal/SIMD_examples",
-    "url": "https://github.com/jdvillal/SIMD_examples",
-    "description": "gravity simulation examples using SIMD",
-    "stars": 27,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-15T07:09:31Z",
-    "updated_at": "2026-08-16T21:31:44Z",
-    "owner": {
-      "name": "jdvillal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57422146?v=4"
     }
   },
   {
@@ -1713,32 +1626,6 @@
     "owner": {
       "name": "chad",
       "avatar_url": "https://avatars.githubusercontent.com/u/237?v=4"
-    }
-  },
-  {
-    "name": "xiincs/deepseek-harness-desktop",
-    "url": "https://github.com/xiincs/deepseek-harness-desktop",
-    "description": "DeepSeek Harness 原生桌面版，基于 Tauri 2，内置 Node.js 运行时，一键安装，极速启动，托盘常驻，自动更新。DeepSeek Harness native desktop version: built on Tauri 2 with a bundled Node.js runtime.",
-    "stars": 26,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [
-      "agent",
-      "ai-agent",
-      "deepseek",
-      "deepseek-harness",
-      "desktop",
-      "dsh-plugin",
-      "rust",
-      "tauri",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-13T17:32:36Z",
-    "updated_at": "2026-08-17T00:56:43Z",
-    "owner": {
-      "name": "xiincs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/181250834?v=4"
     }
   },
   {
@@ -1794,6 +1681,22 @@
     }
   },
   {
+    "name": "siggifly/ipod-emulator",
+    "url": "https://github.com/siggifly/ipod-emulator",
+    "description": "Apple's retail iPod 5.5G firmware boots here, from the reset vector. Formats its own filesystem, reads the click wheel, draws its own menus, runs a game.",
+    "stars": 23,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-14T17:01:44Z",
+    "updated_at": "2026-08-18T00:11:49Z",
+    "owner": {
+      "name": "siggifly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11075538?v=4"
+    }
+  },
+  {
     "name": "war3-archive/war3-maps",
     "url": "https://github.com/war3-archive/war3-maps",
     "description": "Warcraft III classic maps index / 魔兽争霸 III 经典地图索引",
@@ -1835,6 +1738,64 @@
     }
   },
   {
+    "name": "WEP-56/DSH-Launcher",
+    "url": "https://github.com/WEP-56/DSH-Launcher",
+    "description": "deepseek harness的启动器，非webui二次打包而是webui内嵌，可以适配所有webui强化插件。额外提供dsh包管理、配置文件管理、插件管理、浏览器标签页、多窗口等功能",
+    "stars": 22,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [
+      "dsh",
+      "dsh-plugin",
+      "dsh-plugins"
+    ],
+    "license": "No license",
+    "created_at": "2026-08-14T05:13:10Z",
+    "updated_at": "2026-08-18T02:26:35Z",
+    "owner": {
+      "name": "WEP-56",
+      "avatar_url": "https://avatars.githubusercontent.com/u/198519633?v=4"
+    }
+  },
+  {
+    "name": "cachix/dotenv-ng",
+    "url": "https://github.com/cachix/dotenv-ng",
+    "description": "A modern Rust dotenv implementation",
+    "stars": 22,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-16T03:09:25Z",
+    "updated_at": "2026-08-17T23:22:34Z",
+    "owner": {
+      "name": "cachix",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36824654?v=4"
+    }
+  },
+  {
+    "name": "Nexus-Aethra/DSHBox",
+    "url": "https://github.com/Nexus-Aethra/DSHBox",
+    "description": "Manage DeepSeek Harness locally: run multiple DSH versions in isolated containers, open the UI in an embedded WebView, import plugins/skills with one click, share extension bundles, and let a queued task system handle installs with live logs. Zero-dependency installer.",
+    "stars": 22,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "deepseek",
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin",
+      "dsh-plugins"
+    ],
+    "license": "No license",
+    "created_at": "2026-08-14T02:18:46Z",
+    "updated_at": "2026-08-18T02:30:54Z",
+    "owner": {
+      "name": "Nexus-Aethra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/301292781?v=4"
+    }
+  },
+  {
     "name": "LowLevelLogic/synology-dedup-photos",
     "url": "https://github.com/LowLevelLogic/synology-dedup-photos",
     "description": "an rust tool to compare, preview and similar and duplicate pictures",
@@ -1848,44 +1809,6 @@
     "owner": {
       "name": "LowLevelLogic",
       "avatar_url": "https://avatars.githubusercontent.com/u/82832634?v=4"
-    }
-  },
-  {
-    "name": "Nexus-Aethra/DSHBox",
-    "url": "https://github.com/Nexus-Aethra/DSHBox",
-    "description": "Manage DeepSeek Harness locally: run multiple DSH versions in isolated containers, open the UI in an embedded WebView, import plugins/skills with one click, share extension bundles, and let a queued task system handle installs with live logs. Zero-dependency installer.",
-    "stars": 21,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "deepseek",
-      "deepseek-harness",
-      "dsh",
-      "dsh-plugin",
-      "dsh-plugins"
-    ],
-    "license": "No license",
-    "created_at": "2026-08-14T02:18:46Z",
-    "updated_at": "2026-08-17T02:48:18Z",
-    "owner": {
-      "name": "Nexus-Aethra",
-      "avatar_url": "https://avatars.githubusercontent.com/u/301292781?v=4"
-    }
-  },
-  {
-    "name": "siggifly/ipod-emulator",
-    "url": "https://github.com/siggifly/ipod-emulator",
-    "description": "Apple's retail iPod 5.5G firmware boots here, from the reset vector. Formats its own filesystem, reads the click wheel, draws its own menus, runs a game.",
-    "stars": 21,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-14T17:01:44Z",
-    "updated_at": "2026-08-16T08:33:41Z",
-    "owner": {
-      "name": "siggifly",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11075538?v=4"
     }
   },
   {
@@ -2111,6 +2034,77 @@
     }
   },
   {
+    "name": "sysprog21/commentflow",
+    "url": "https://github.com/sysprog21/commentflow",
+    "description": "Reflow comments in C, C++, Rust, POSIX shell, and GAS assembly",
+    "stars": 19,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "code-quality-checker",
+      "linter"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-16T04:26:32Z",
+    "updated_at": "2026-08-17T13:00:08Z",
+    "owner": {
+      "name": "sysprog21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22310129?v=4"
+    }
+  },
+  {
+    "name": "proofofbots/web-re-toolkit",
+    "url": "https://github.com/proofofbots/web-re-toolkit",
+    "description": "Headless Akamai & Kasada solver that runs without a browser, and the reversing toolkit it was built with",
+    "stars": 19,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [
+      "akamai",
+      "akamai-bypass",
+      "akamai-sensor-generator",
+      "akamai-solver",
+      "captcha-bypass-api",
+      "captcha-slover",
+      "captcha-solving-automation",
+      "captcha-tool",
+      "deobfuscate",
+      "deobfuscation",
+      "deobfuscator",
+      "kasada",
+      "kasada-bypass",
+      "kasada-reverse",
+      "kasadasolver",
+      "reverse-engineering",
+      "web-development",
+      "web-scraper",
+      "web-scraping"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-15T15:09:12Z",
+    "updated_at": "2026-08-18T02:33:54Z",
+    "owner": {
+      "name": "proofofbots",
+      "avatar_url": "https://avatars.githubusercontent.com/u/317009041?v=4"
+    }
+  },
+  {
+    "name": "wenject/xl-search",
+    "url": "https://github.com/wenject/xl-search",
+    "description": null,
+    "stars": 19,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-15T08:39:42Z",
+    "updated_at": "2026-08-18T00:34:19Z",
+    "owner": {
+      "name": "wenject",
+      "avatar_url": "https://avatars.githubusercontent.com/u/175917508?v=4"
+    }
+  },
+  {
     "name": "tjzel/szpont-machen",
     "url": "https://github.com/tjzel/szpont-machen",
     "description": "TUI to manage your AI agentic tools",
@@ -2159,33 +2153,6 @@
     }
   },
   {
-    "name": "JoasASantos/NeuroPurple",
-    "url": "https://github.com/JoasASantos/NeuroPurple",
-    "description": "The AI Autonomous SOC & Purple-Team Engine",
-    "stars": 19,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [
-      "ai-agents",
-      "ai-security",
-      "autonomous-agents",
-      "autonomous-soc",
-      "blue-team",
-      "blue-team-tool",
-      "log-analysis",
-      "purple-team",
-      "security-automation",
-      "security-operations-center"
-    ],
-    "license": "No license",
-    "created_at": "2026-08-01T16:20:11Z",
-    "updated_at": "2026-08-03T16:01:02Z",
-    "owner": {
-      "name": "JoasASantos",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34966120?v=4"
-    }
-  },
-  {
     "name": "cyanteam/cyrio",
     "url": "https://github.com/cyanteam/cyrio",
     "description": "Diamond Rio S-Series MP3 player manager (cross-platform, pure Rust)",
@@ -2199,6 +2166,65 @@
     "owner": {
       "name": "cyanteam",
       "avatar_url": "https://avatars.githubusercontent.com/u/207325777?v=4"
+    }
+  },
+  {
+    "name": "soltia48/myna-sign",
+    "url": "https://github.com/soltia48/myna-sign",
+    "description": "マイナンバーカードの署名用電子証明書で、任意のファイルや PDF に電子署名を付与し、検証するデスクトップアプリケーション。",
+    "stars": 18,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "iso7816",
+      "jpki",
+      "mynumber",
+      "pcsc",
+      "scmartcard"
+    ],
+    "license": "No license",
+    "created_at": "2026-08-15T22:38:27Z",
+    "updated_at": "2026-08-17T14:31:26Z",
+    "owner": {
+      "name": "soltia48",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36096887?v=4"
+    }
+  },
+  {
+    "name": "ruvnet/ai-text-watermark",
+    "url": "https://github.com/ruvnet/ai-text-watermark",
+    "description": "Invisible, key-verifiable watermarks for AI/LLM-generated text — SynthID-Text-style, in Rust + WebAssembly (Node + browser). Live playground included.",
+    "stars": 18,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "ai-content-detection",
+      "ai-provenance",
+      "ai-watermark",
+      "content-credentials",
+      "distortion-free",
+      "eu-ai-act",
+      "generative-ai",
+      "gumbel-watermark",
+      "llm",
+      "llm-watermark",
+      "provenance",
+      "responsible-ai",
+      "rust",
+      "synthid",
+      "synthid-text",
+      "text-watermark",
+      "typescript",
+      "wasm",
+      "watermarking",
+      "webassembly"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-15T23:43:35Z",
+    "updated_at": "2026-08-18T01:23:20Z",
+    "owner": {
+      "name": "ruvnet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2934394?v=4"
     }
   },
   {
@@ -2295,23 +2321,19 @@
     }
   },
   {
-    "name": "WEP-56/DSH-Launcher",
-    "url": "https://github.com/WEP-56/DSH-Launcher",
-    "description": "deepseek harness的启动器，非webui二次打包而是webui内嵌，可以适配所有webui强化插件。额外提供dsh包管理、配置文件管理、插件管理、浏览器标签页、多窗口等功能",
+    "name": "fuzhengwei/WaLiOffice",
+    "url": "https://github.com/fuzhengwei/WaLiOffice",
+    "description": "WaLiOffice - 在线办公系统（docx、ppt、draw.io、excel、图像、视频）",
     "stars": 17,
-    "forks": 2,
+    "forks": 4,
     "language": "Rust",
-    "topics": [
-      "dsh",
-      "dsh-plugin",
-      "dsh-plugins"
-    ],
+    "topics": [],
     "license": "No license",
-    "created_at": "2026-08-14T05:13:10Z",
-    "updated_at": "2026-08-17T02:08:41Z",
+    "created_at": "2026-08-15T02:31:54Z",
+    "updated_at": "2026-08-18T02:20:22Z",
     "owner": {
-      "name": "WEP-56",
-      "avatar_url": "https://avatars.githubusercontent.com/u/198519633?v=4"
+      "name": "fuzhengwei",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3761578?v=4"
     }
   },
   {
@@ -2415,7 +2437,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-08-14T19:02:01Z",
-    "updated_at": "2026-08-17T00:05:29Z",
+    "updated_at": "2026-08-18T01:14:21Z",
     "owner": {
       "name": "aemrebarut",
       "avatar_url": "https://avatars.githubusercontent.com/u/131238438?v=4"
@@ -2496,43 +2518,6 @@
     }
   },
   {
-    "name": "programmersd21/oops",
-    "url": "https://github.com/programmersd21/oops",
-    "description": "🛡️ Undo daemon for destructive shell commands",
-    "stars": 16,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "backup",
-      "bash",
-      "cli",
-      "daemon",
-      "dev-tools",
-      "filesystem",
-      "fish",
-      "hooks",
-      "linux",
-      "productivity",
-      "ratatui",
-      "restore",
-      "rust",
-      "safety",
-      "shell",
-      "snapshot",
-      "terminal",
-      "tui",
-      "undo",
-      "zsh"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-07-30T14:09:19Z",
-    "updated_at": "2026-08-03T19:45:53Z",
-    "owner": {
-      "name": "programmersd21",
-      "avatar_url": "https://avatars.githubusercontent.com/u/192335465?v=4"
-    }
-  },
-  {
     "name": "ratatui/ratatui-table",
     "url": "https://github.com/ratatui/ratatui-table",
     "description": "An experimental evolution of Ratatui’s built-in Table widget",
@@ -2591,22 +2576,6 @@
     "owner": {
       "name": "cachix",
       "avatar_url": "https://avatars.githubusercontent.com/u/36824654?v=4"
-    }
-  },
-  {
-    "name": "wenject/xl-search",
-    "url": "https://github.com/wenject/xl-search",
-    "description": null,
-    "stars": 15,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-15T08:39:42Z",
-    "updated_at": "2026-08-16T14:06:23Z",
-    "owner": {
-      "name": "wenject",
-      "avatar_url": "https://avatars.githubusercontent.com/u/175917508?v=4"
     }
   },
   {
