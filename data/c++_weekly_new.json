@@ -197,22 +197,6 @@
     }
   },
   {
-    "name": "ARMSX2/ARMSX1",
-    "url": "https://github.com/ARMSX2/ARMSX1",
-    "description": "New PS1 Emulator from the Founders of ARMSX2 ",
-    "stars": 122,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "GNU Lesser General Public License v3.0",
-    "created_at": "2026-08-01T12:48:11Z",
-    "updated_at": "2026-08-07T02:54:46Z",
-    "owner": {
-      "name": "ARMSX2",
-      "avatar_url": "https://avatars.githubusercontent.com/u/225954912?v=4"
-    }
-  },
-  {
     "name": "niclasvestlund-YT/vibepulse",
     "url": "https://github.com/niclasvestlund-YT/vibepulse",
     "description": "A shelf-top AMOLED screen showing your Claude Code & Codex usage, live agent activity, and a NEEDS YOU alert when an agent waits for your input. ESP32-S3 + a pure-stdlib Mac service. Nothing leaves your LAN.",
@@ -240,13 +224,13 @@
     "name": "XIAZY/wcctl",
     "url": "https://github.com/XIAZY/wcctl",
     "description": "wcctl is a command line tool to bridge the gap between WeChat and other tools",
-    "stars": 101,
-    "forks": 47,
+    "stars": 102,
+    "forks": 48,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-08-15T07:43:09Z",
-    "updated_at": "2026-08-19T04:27:17Z",
+    "updated_at": "2026-08-20T08:22:32Z",
     "owner": {
       "name": "XIAZY",
       "avatar_url": "https://avatars.githubusercontent.com/u/8736607?v=4"
@@ -266,6 +250,30 @@
     "owner": {
       "name": "xoreaxeaxeax",
       "avatar_url": "https://avatars.githubusercontent.com/u/12904366?v=4"
+    }
+  },
+  {
+    "name": "Kuberwastaken/hp-laser-1008a-macos",
+    "url": "https://github.com/Kuberwastaken/hp-laser-1008a-macos",
+    "description": "Native macOS (Apple Silicon) driver for the HP Laser 1003-1008 — runs HP's real SPL3 codec in a container + direct-USB delivery",
+    "stars": 97,
+    "forks": 5,
+    "language": "C",
+    "topics": [
+      "apple-silicon",
+      "cups",
+      "hp-laser",
+      "macos",
+      "printer-driver",
+      "reverse-engineering",
+      "samsung-spl"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-17T18:32:05Z",
+    "updated_at": "2026-08-20T22:32:47Z",
+    "owner": {
+      "name": "Kuberwastaken",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97027230?v=4"
     }
   },
   {
@@ -298,30 +306,6 @@
     "owner": {
       "name": "staturnzz",
       "avatar_url": "https://avatars.githubusercontent.com/u/118011249?v=4"
-    }
-  },
-  {
-    "name": "Kuberwastaken/hp-laser-1008a-macos",
-    "url": "https://github.com/Kuberwastaken/hp-laser-1008a-macos",
-    "description": "Native macOS (Apple Silicon) driver for the HP Laser 1003-1008 — runs HP's real SPL3 codec in a container + direct-USB delivery",
-    "stars": 83,
-    "forks": 2,
-    "language": "C",
-    "topics": [
-      "apple-silicon",
-      "cups",
-      "hp-laser",
-      "macos",
-      "printer-driver",
-      "reverse-engineering",
-      "samsung-spl"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-17T18:32:05Z",
-    "updated_at": "2026-08-20T02:41:57Z",
-    "owner": {
-      "name": "Kuberwastaken",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97027230?v=4"
     }
   },
   {
@@ -395,6 +379,22 @@
     }
   },
   {
+    "name": "pcm720/dvrpwned",
+    "url": "https://github.com/pcm720/dvrpwned",
+    "description": "The first ever working custom firmware for the PSX DESR DVRP",
+    "stars": 75,
+    "forks": 4,
+    "language": "C",
+    "topics": [],
+    "license": "Academic Free License v3.0",
+    "created_at": "2026-08-15T19:30:50Z",
+    "updated_at": "2026-08-20T14:59:57Z",
+    "owner": {
+      "name": "pcm720",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7037804?v=4"
+    }
+  },
+  {
     "name": "xoreaxeaxeax/mmiotic",
     "url": "https://github.com/xoreaxeaxeax/mmiotic",
     "description": "Latency x-ray for undocumented hardware",
@@ -408,22 +408,6 @@
     "owner": {
       "name": "xoreaxeaxeax",
       "avatar_url": "https://avatars.githubusercontent.com/u/12904366?v=4"
-    }
-  },
-  {
-    "name": "pcm720/dvrpwned",
-    "url": "https://github.com/pcm720/dvrpwned",
-    "description": "The first ever working custom firmware for the PSX DESR DVRP",
-    "stars": 71,
-    "forks": 4,
-    "language": "C",
-    "topics": [],
-    "license": "Academic Free License v3.0",
-    "created_at": "2026-08-15T19:30:50Z",
-    "updated_at": "2026-08-19T20:05:15Z",
-    "owner": {
-      "name": "pcm720",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7037804?v=4"
     }
   },
   {
@@ -471,13 +455,13 @@
     "name": "zer0condition/GoodmansKernel",
     "url": "https://github.com/zer0condition/GoodmansKernel",
     "description": "Run unsigned kernel payloads in a signed kernel driver via wasm3. No JIT/W^x (HVCI/etc., compliant)",
-    "stars": 58,
+    "stars": 67,
     "forks": 4,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-18T19:53:22Z",
-    "updated_at": "2026-08-19T23:38:27Z",
+    "updated_at": "2026-08-20T22:30:50Z",
     "owner": {
       "name": "zer0condition",
       "avatar_url": "https://avatars.githubusercontent.com/u/70964202?v=4"
@@ -585,29 +569,6 @@
     }
   },
   {
-    "name": "xingji-studio/OpenXJ380",
-    "url": "https://github.com/xingji-studio/OpenXJ380",
-    "description": "The official open-source repository of XJ380OS, currently using as the kernel.",
-    "stars": 43,
-    "forks": 13,
-    "language": "C",
-    "topics": [
-      "cpp",
-      "kernel",
-      "open-source",
-      "osdev",
-      "system",
-      "uefi"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-01T05:17:35Z",
-    "updated_at": "2026-08-06T17:14:21Z",
-    "owner": {
-      "name": "xingji-studio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/131461087?v=4"
-    }
-  },
-  {
     "name": "MaherAzzouzi/vsockdrop",
     "url": "https://github.com/MaherAzzouzi/vsockdrop",
     "description": "Linux kernel LPE via an io_uring zerocopy page-refcount underflow over AF_VSOCK",
@@ -691,6 +652,22 @@
     "owner": {
       "name": "tripplyons",
       "avatar_url": "https://avatars.githubusercontent.com/u/14354551?v=4"
+    }
+  },
+  {
+    "name": "myfler/fler",
+    "url": "https://github.com/myfler/fler",
+    "description": "Fler",
+    "stars": 36,
+    "forks": 20,
+    "language": "C",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-08-15T05:36:40Z",
+    "updated_at": "2026-08-21T02:40:10Z",
+    "owner": {
+      "name": "myfler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/310848709?v=4"
     }
   },
   {
@@ -791,6 +768,64 @@
     }
   },
   {
+    "name": "BareiroJorge/esp32-llm-commands",
+    "url": "https://github.com/BareiroJorge/esp32-llm-commands",
+    "description": null,
+    "stars": 34,
+    "forks": 6,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-08-17T17:17:37Z",
+    "updated_at": "2026-08-20T19:04:28Z",
+    "owner": {
+      "name": "BareiroJorge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61584203?v=4"
+    }
+  },
+  {
+    "name": "memovai/mimimodel",
+    "url": "https://github.com/memovai/mimimodel",
+    "description": "MimiModel: Agentic LLM on a $5 chip. 100% on-device. Private by design.",
+    "stars": 34,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "agentic-ai",
+      "on-device-ai"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-16T10:19:09Z",
+    "updated_at": "2026-08-21T02:48:22Z",
+    "owner": {
+      "name": "memovai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/220203124?v=4"
+    }
+  },
+  {
+    "name": "CleanShirtUK/orbit-wallpaper-engine",
+    "url": "https://github.com/CleanShirtUK/orbit-wallpaper-engine",
+    "description": "A lightweight Wayland shader wallpaper engine with standalone settings, palette integration and shader browsing.",
+    "stars": 33,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "hyprland",
+      "linux",
+      "quickshell",
+      "shader",
+      "wallpaper",
+      "wayland"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-19T16:03:45Z",
+    "updated_at": "2026-08-21T02:31:34Z",
+    "owner": {
+      "name": "CleanShirtUK",
+      "avatar_url": "https://avatars.githubusercontent.com/u/125589685?v=4"
+    }
+  },
+  {
     "name": "marcocastignoli/wow-mobile",
     "url": "https://github.com/marcocastignoli/wow-mobile",
     "description": "WoW 3.3.5a on Android — single-purpose Winlator fork with ConsolePortLK touch controls",
@@ -804,22 +839,6 @@
     "owner": {
       "name": "marcocastignoli",
       "avatar_url": "https://avatars.githubusercontent.com/u/10226180?v=4"
-    }
-  },
-  {
-    "name": "BareiroJorge/esp32-llm-commands",
-    "url": "https://github.com/BareiroJorge/esp32-llm-commands",
-    "description": null,
-    "stars": 32,
-    "forks": 6,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-17T17:17:37Z",
-    "updated_at": "2026-08-19T23:55:05Z",
-    "owner": {
-      "name": "BareiroJorge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61584203?v=4"
     }
   },
   {
@@ -868,38 +887,6 @@
     }
   },
   {
-    "name": "myfler/fler",
-    "url": "https://github.com/myfler/fler",
-    "description": "Fler",
-    "stars": 29,
-    "forks": 19,
-    "language": "C",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-08-15T05:36:40Z",
-    "updated_at": "2026-08-19T15:46:02Z",
-    "owner": {
-      "name": "myfler",
-      "avatar_url": "https://avatars.githubusercontent.com/u/310848709?v=4"
-    }
-  },
-  {
-    "name": "rosbean/balatro-dualscreen",
-    "url": "https://github.com/rosbean/balatro-dualscreen",
-    "description": "Android mod of Balatro, optimised for dual screen devices and targeting and tested on the AYN Thor.",
-    "stars": 29,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-01T13:49:02Z",
-    "updated_at": "2026-08-06T21:20:38Z",
-    "owner": {
-      "name": "rosbean",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82302849?v=4"
-    }
-  },
-  {
     "name": "KingOfTheNOPs/SilentChrome-BOF",
     "url": "https://github.com/KingOfTheNOPs/SilentChrome-BOF",
     "description": "SilentChrome-BOF installs Chromium extension, native messaging, and Isolated Web App profile artifacts",
@@ -932,6 +919,28 @@
     }
   },
   {
+    "name": "zalexdev/linux-um-arm64",
+    "url": "https://github.com/zalexdev/linux-um-arm64",
+    "description": "ARCH=um SUBARCH=arm64 - a Linux kernel running as an ordinary aarch64 userspace process",
+    "stars": 27,
+    "forks": 6,
+    "language": "C",
+    "topics": [
+      "aarch64",
+      "android",
+      "linux-kernel",
+      "uml",
+      "user-mode-linux"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-15T20:22:36Z",
+    "updated_at": "2026-08-20T19:49:06Z",
+    "owner": {
+      "name": "zalexdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73614708?v=4"
+    }
+  },
+  {
     "name": "alex193a/Root-My-Pixel-Payloads",
     "url": "https://github.com/alex193a/Root-My-Pixel-Payloads",
     "description": "Exploit payloads for Root My Pixel",
@@ -948,28 +957,6 @@
     }
   },
   {
-    "name": "zalexdev/linux-um-arm64",
-    "url": "https://github.com/zalexdev/linux-um-arm64",
-    "description": "ARCH=um SUBARCH=arm64 - a Linux kernel running as an ordinary aarch64 userspace process",
-    "stars": 26,
-    "forks": 5,
-    "language": "C",
-    "topics": [
-      "aarch64",
-      "android",
-      "linux-kernel",
-      "uml",
-      "user-mode-linux"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-15T20:22:36Z",
-    "updated_at": "2026-08-20T01:37:47Z",
-    "owner": {
-      "name": "zalexdev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73614708?v=4"
-    }
-  },
-  {
     "name": "sarabpal-dev/IonStack-S22U",
     "url": "https://github.com/sarabpal-dev/IonStack-S22U",
     "description": null,
@@ -983,28 +970,6 @@
     "owner": {
       "name": "sarabpal-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/72656344?v=4"
-    }
-  },
-  {
-    "name": "Ymsniper/anyr",
-    "url": "https://github.com/Ymsniper/anyr",
-    "description": "Linux recoil compensation script for FPS games using a virtual mouse via uinput, with per-weapon JSON patterns and a sensitivity calculator.",
-    "stars": 26,
-    "forks": 5,
-    "language": "C",
-    "topics": [
-      "c",
-      "cjson",
-      "game-cheats-manager",
-      "recoil-compensation",
-      "recoil-control-engine"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-04T03:42:27Z",
-    "updated_at": "2026-08-06T20:08:05Z",
-    "owner": {
-      "name": "Ymsniper",
-      "avatar_url": "https://avatars.githubusercontent.com/u/190832399?v=4"
     }
   },
   {
@@ -1056,6 +1021,22 @@
     }
   },
   {
+    "name": "loosehose/DutchOven",
+    "url": "https://github.com/loosehose/DutchOven",
+    "description": "Application-scoped Windows network brownouts in native C and BOF form",
+    "stars": 21,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-17T14:38:44Z",
+    "updated_at": "2026-08-20T22:30:31Z",
+    "owner": {
+      "name": "loosehose",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75705022?v=4"
+    }
+  },
+  {
     "name": "aramosf/CVE-2026-68138",
     "url": "https://github.com/aramosf/CVE-2026-68138",
     "description": "CVE-2026-68138 Linux qdisc rate-table race local privilege escalation PoC",
@@ -1088,38 +1069,6 @@
     }
   },
   {
-    "name": "PhialsBasement/MoCoLinux",
-    "url": "https://github.com/PhialsBasement/MoCoLinux",
-    "description": "Modern Cooperative Linux",
-    "stars": 21,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-08-01T01:56:30Z",
-    "updated_at": "2026-08-07T01:51:15Z",
-    "owner": {
-      "name": "PhialsBasement",
-      "avatar_url": "https://avatars.githubusercontent.com/u/155454343?v=4"
-    }
-  },
-  {
-    "name": "loosehose/DutchOven",
-    "url": "https://github.com/loosehose/DutchOven",
-    "description": "Application-scoped Windows network brownouts in native C and BOF form",
-    "stars": 19,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-17T14:38:44Z",
-    "updated_at": "2026-08-20T00:16:54Z",
-    "owner": {
-      "name": "loosehose",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75705022?v=4"
-    }
-  },
-  {
     "name": "sgkdev/bad_garbage",
     "url": "https://github.com/sgkdev/bad_garbage",
     "description": "CVE-2026-53361 AF_UNIX GC vs MSG_PEEK use-after-free container escape",
@@ -1149,6 +1098,33 @@
     "owner": {
       "name": "KINGDKAK",
       "avatar_url": "https://avatars.githubusercontent.com/u/290717366?v=4"
+    }
+  },
+  {
+    "name": "Unchiga/YuGiOhForbiddenMemoriesRecomp",
+    "url": "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp",
+    "description": "Static recompilation of Yu-Gi-Oh! Forbidden Memories (PS1) into a native executable - with a live duel-rank meter, a fusion assistant, adjustable card drops and a cheat menu. Bring your own disc.",
+    "stars": 18,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "decomp",
+      "forbidden-memories",
+      "mips",
+      "native-port",
+      "playstation",
+      "ps1",
+      "psx",
+      "recompiler",
+      "static-recompilation",
+      "yugioh"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-19T18:06:39Z",
+    "updated_at": "2026-08-21T01:50:14Z",
+    "owner": {
+      "name": "Unchiga",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28535889?v=4"
     }
   },
   {
@@ -1371,6 +1347,22 @@
     }
   },
   {
+    "name": "lolz0r/reb3",
+    "url": "https://github.com/lolz0r/reb3",
+    "description": " Burnout 3: Takedown, reverse engineered (partly) It runs! The crashes, the takedowns, the handling are a pretty good rendition. Bring your own copy of the disc.",
+    "stars": 16,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-08-17T20:13:54Z",
+    "updated_at": "2026-08-20T20:55:52Z",
+    "owner": {
+      "name": "lolz0r",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4228021?v=4"
+    }
+  },
+  {
     "name": "olaffx/clipwire",
     "url": "https://github.com/olaffx/clipwire",
     "description": "iOS 26.1 vm_map_clip race + vm_fault_wire_object_pages OOB kernel exploit harness (patched in 26.6)",
@@ -1448,6 +1440,32 @@
     }
   },
   {
+    "name": "gabew100/VitaBtFix",
+    "url": "https://github.com/gabew100/VitaBtFix",
+    "description": "Fixes silent audio with newer AirPods and other Bluetooth headphones on jailbroken PS Vitas.",
+    "stars": 15,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "a2dp",
+      "airpods",
+      "bluetooth",
+      "homebrew",
+      "ps-vita",
+      "psvita",
+      "taihen",
+      "vita",
+      "vitasdk"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-16T13:33:32Z",
+    "updated_at": "2026-08-21T00:11:16Z",
+    "owner": {
+      "name": "gabew100",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35663965?v=4"
+    }
+  },
+  {
     "name": "masasron/CopyEscape-CVE-2026-17106",
     "url": "https://github.com/masasron/CopyEscape-CVE-2026-17106",
     "description": "PoC repository for the blog post CopyEscape: Taking Over Docker Hosts with docker cp",
@@ -1480,19 +1498,30 @@
     }
   },
   {
-    "name": "lolz0r/reb3",
-    "url": "https://github.com/lolz0r/reb3",
-    "description": " Burnout 3: Takedown, reverse engineered (partly) It runs! The crashes, the takedowns, the handling are a pretty good rendition. Bring your own copy of the disc.",
+    "name": "michaeldale/velocity9x",
+    "url": "https://github.com/michaeldale/velocity9x",
+    "description": "A ground-up Windows 9x display driver for S3 graphics chips (ViRGE/DX, Trio32/64), written from scratch against the Windows 98 DDI, DIB Engine, DirectDraw HAL and Direct3D HAL contracts.",
     "stars": 14,
     "forks": 0,
     "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-17T20:13:54Z",
-    "updated_at": "2026-08-19T15:34:50Z",
+    "topics": [
+      "86box",
+      "direct3d",
+      "directdraw",
+      "display-driver",
+      "graphics-driver",
+      "retrocomputing",
+      "s3-trio64",
+      "s3-virge",
+      "vxd",
+      "windows-98"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-15T06:55:55Z",
+    "updated_at": "2026-08-20T15:40:19Z",
     "owner": {
-      "name": "lolz0r",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4228021?v=4"
+      "name": "michaeldale",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1865291?v=4"
     }
   },
   {
@@ -1608,29 +1637,102 @@
     }
   },
   {
-    "name": "gabew100/VitaBtFix",
-    "url": "https://github.com/gabew100/VitaBtFix",
-    "description": "Fixes silent audio with newer AirPods and other Bluetooth headphones on jailbroken PS Vitas.",
+    "name": "abhisingh886387/DSA2026",
+    "url": "https://github.com/abhisingh886387/DSA2026",
+    "description": "This repository will be updated daily with the concepts, notes, C programs with DSA, examples, practice problems, and important questions covered in class.",
     "stars": 13,
     "forks": 0,
     "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-20T05:45:50Z",
+    "updated_at": "2026-08-20T10:56:38Z",
+    "owner": {
+      "name": "abhisingh886387",
+      "avatar_url": "https://avatars.githubusercontent.com/u/118423181?v=4"
+    }
+  },
+  {
+    "name": "simimasai111/ai-jailbreak-prompts",
+    "url": "https://github.com/simimasai111/ai-jailbreak-prompts",
+    "description": "整合 GitHub 公开的 AI 越狱/破解提示词研究资料（DAN 系列、角色扮演、开发者模式、编码混淆等），供 LLM 安全红队研究与防御参考",
+    "stars": 13,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-15T07:52:16Z",
+    "updated_at": "2026-08-20T11:26:10Z",
+    "owner": {
+      "name": "simimasai111",
+      "avatar_url": "https://avatars.githubusercontent.com/u/289110198?v=4"
+    }
+  },
+  {
+    "name": "uamphome/mini_matter_display",
+    "url": "https://github.com/uamphome/mini_matter_display",
+    "description": null,
+    "stars": 13,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-20T04:33:35Z",
+    "updated_at": "2026-08-20T23:18:43Z",
+    "owner": {
+      "name": "uamphome",
+      "avatar_url": "https://avatars.githubusercontent.com/u/224534362?v=4"
+    }
+  },
+  {
+    "name": "GeorgeKiritsis/Csv.h",
+    "url": "https://github.com/GeorgeKiritsis/Csv.h",
+    "description": "A lightweight, zero-allocation CSV library written in portable C99. Supports RFC 4180 parsing, streaming, zero-copy fields, writing, fuzz testing, and high-performance CSV processing with no external dependencies.",
+    "stars": 13,
+    "forks": 1,
+    "language": "C",
     "topics": [
-      "a2dp",
-      "airpods",
-      "bluetooth",
-      "homebrew",
-      "ps-vita",
-      "psvita",
-      "taihen",
-      "vita",
-      "vitasdk"
+      "c",
+      "cpp",
+      "csv",
+      "csv-converter",
+      "csv-export",
+      "csv-files",
+      "csv-import",
+      "csv-parser",
+      "csv-parsing",
+      "csv-processing",
+      "csv-reader",
+      "csv-reading",
+      "header-only",
+      "lightweight",
+      "open-source",
+      "portable",
+      "zero-dependencies",
+      "zero-dependency"
     ],
     "license": "MIT License",
-    "created_at": "2026-08-16T13:33:32Z",
-    "updated_at": "2026-08-19T13:40:19Z",
+    "created_at": "2026-08-18T16:06:31Z",
+    "updated_at": "2026-08-21T00:15:05Z",
     "owner": {
-      "name": "gabew100",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35663965?v=4"
+      "name": "GeorgeKiritsis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/151519458?v=4"
+    }
+  },
+  {
+    "name": "graydon/snel",
+    "url": "https://github.com/graydon/snel",
+    "description": "small vectorized interpreter",
+    "stars": 13,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-17T08:55:46Z",
+    "updated_at": "2026-08-20T17:46:01Z",
+    "owner": {
+      "name": "graydon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14097?v=4"
     }
   },
   {
@@ -1643,37 +1745,10 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-08-17T16:57:57Z",
-    "updated_at": "2026-08-19T21:41:30Z",
+    "updated_at": "2026-08-20T12:24:22Z",
     "owner": {
       "name": "R0rt1z2",
       "avatar_url": "https://avatars.githubusercontent.com/u/39171306?v=4"
-    }
-  },
-  {
-    "name": "michaeldale/velocity9x",
-    "url": "https://github.com/michaeldale/velocity9x",
-    "description": "A ground-up Windows 9x display driver for S3 graphics chips (ViRGE/DX, Trio32/64), written from scratch against the Windows 98 DDI, DIB Engine, DirectDraw HAL and Direct3D HAL contracts.",
-    "stars": 13,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "86box",
-      "direct3d",
-      "directdraw",
-      "display-driver",
-      "graphics-driver",
-      "retrocomputing",
-      "s3-trio64",
-      "s3-virge",
-      "vxd",
-      "windows-98"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-15T06:55:55Z",
-    "updated_at": "2026-08-19T16:06:23Z",
-    "owner": {
-      "name": "michaeldale",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1865291?v=4"
     }
   },
   {
@@ -1741,53 +1816,53 @@
     }
   },
   {
-    "name": "CleanShirtUK/orbit-wallpaper-engine",
-    "url": "https://github.com/CleanShirtUK/orbit-wallpaper-engine",
-    "description": "A lightweight Wayland shader wallpaper engine with standalone settings, palette integration and shader browsing.",
+    "name": "puzzled-pancake/pocket-realm",
+    "url": "https://github.com/puzzled-pancake/pocket-realm",
+    "description": "Pocket Realm — offline WoW 1.12.1 private realm for Android handhelds (alpha)",
     "stars": 12,
-    "forks": 0,
+    "forks": 3,
     "language": "C",
-    "topics": [
-      "hyprland",
-      "linux",
-      "quickshell",
-      "shader",
-      "wallpaper",
-      "wayland"
-    ],
+    "topics": [],
     "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-19T16:03:45Z",
-    "updated_at": "2026-08-20T01:57:21Z",
+    "created_at": "2026-08-18T04:48:05Z",
+    "updated_at": "2026-08-20T11:17:20Z",
     "owner": {
-      "name": "CleanShirtUK",
-      "avatar_url": "https://avatars.githubusercontent.com/u/125589685?v=4"
+      "name": "puzzled-pancake",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78745145?v=4"
     }
   },
   {
-    "name": "Unchiga/YuGiOhForbiddenMemoriesRecomp",
-    "url": "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp",
-    "description": "Static recompilation of Yu-Gi-Oh! Forbidden Memories (PS1) into a native executable - with a live duel-rank meter, a fusion assistant, adjustable card drops and a cheat menu. Bring your own disc.",
+    "name": "Dovughs/mora-hwbp",
+    "url": "https://github.com/Dovughs/mora-hwbp",
+    "description": "Hardware Breakpoint (DR0-DR7) based patch-less user-mode hooking & telemetry instrumentation engine (AMSI, WLDP & ETW PoC).",
     "stars": 12,
     "forks": 0,
     "language": "C",
     "topics": [
-      "decomp",
-      "forbidden-memories",
-      "mips",
-      "native-port",
-      "playstation",
-      "ps1",
-      "psx",
-      "recompiler",
-      "static-recompilation",
-      "yugioh"
+      "amsi",
+      "amsi-bypass",
+      "amsi-evasion",
+      "c",
+      "edr-evasion",
+      "etw",
+      "etw-bypass",
+      "etw-evasion",
+      "hardware-breakpoints",
+      "hwbp",
+      "hwbp-evasion",
+      "in-memory",
+      "patchless-hooking",
+      "security-research",
+      "veh",
+      "wldp",
+      "wldp-bypass"
     ],
-    "license": "Other",
-    "created_at": "2026-08-19T18:06:39Z",
-    "updated_at": "2026-08-20T01:14:00Z",
+    "license": "MIT License",
+    "created_at": "2026-08-19T15:06:00Z",
+    "updated_at": "2026-08-21T00:22:00Z",
     "owner": {
-      "name": "Unchiga",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28535889?v=4"
+      "name": "Dovughs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103246314?v=4"
     }
   },
   {
@@ -1804,54 +1879,6 @@
     "owner": {
       "name": "LazydaysCr",
       "avatar_url": "https://avatars.githubusercontent.com/u/307534091?v=4"
-    }
-  },
-  {
-    "name": "xlar54/PiCMD",
-    "url": "https://github.com/xlar54/PiCMD",
-    "description": null,
-    "stars": 12,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-02T01:11:28Z",
-    "updated_at": "2026-08-06T04:29:18Z",
-    "owner": {
-      "name": "xlar54",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1909642?v=4"
-    }
-  },
-  {
-    "name": "puzzled-pancake/pocket-realm",
-    "url": "https://github.com/puzzled-pancake/pocket-realm",
-    "description": "Pocket Realm — offline WoW 1.12.1 private realm for Android handhelds (alpha)",
-    "stars": 11,
-    "forks": 3,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-18T04:48:05Z",
-    "updated_at": "2026-08-19T22:02:47Z",
-    "owner": {
-      "name": "puzzled-pancake",
-      "avatar_url": "https://avatars.githubusercontent.com/u/78745145?v=4"
-    }
-  },
-  {
-    "name": "simimasai111/ai-jailbreak-prompts",
-    "url": "https://github.com/simimasai111/ai-jailbreak-prompts",
-    "description": "整合 GitHub 公开的 AI 越狱/破解提示词研究资料（DAN 系列、角色扮演、开发者模式、编码混淆等），供 LLM 安全红队研究与防御参考",
-    "stars": 11,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-15T07:52:16Z",
-    "updated_at": "2026-08-20T02:45:46Z",
-    "owner": {
-      "name": "simimasai111",
-      "avatar_url": "https://avatars.githubusercontent.com/u/289110198?v=4"
     }
   },
   {
@@ -1878,19 +1905,19 @@
     }
   },
   {
-    "name": "graydon/snel",
-    "url": "https://github.com/graydon/snel",
-    "description": "small vectorized interpreter",
+    "name": "jmarshall23/wacky_wheels_1994",
+    "url": "https://github.com/jmarshall23/wacky_wheels_1994",
+    "description": "Source code recreation of the Wacky Wheels 1990 game source code. ",
     "stars": 11,
-    "forks": 0,
+    "forks": 1,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-08-17T08:55:46Z",
-    "updated_at": "2026-08-19T06:03:37Z",
+    "created_at": "2026-08-15T03:47:01Z",
+    "updated_at": "2026-08-18T02:05:06Z",
     "owner": {
-      "name": "graydon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14097?v=4"
+      "name": "jmarshall23",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38022578?v=4"
     }
   },
   {
@@ -1907,22 +1934,6 @@
     "owner": {
       "name": "anteid",
       "avatar_url": "https://avatars.githubusercontent.com/u/22680507?v=4"
-    }
-  },
-  {
-    "name": "jmarshall23/wacky_wheels_1994",
-    "url": "https://github.com/jmarshall23/wacky_wheels_1994",
-    "description": "Source code recreation of the Wacky Wheels 1990 game source code. ",
-    "stars": 11,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-15T03:47:01Z",
-    "updated_at": "2026-08-18T02:05:06Z",
-    "owner": {
-      "name": "jmarshall23",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38022578?v=4"
     }
   },
   {
@@ -2013,19 +2024,35 @@
     }
   },
   {
-    "name": "NaGaa95/angrybirds2_nx",
-    "url": "https://github.com/NaGaa95/angrybirds2_nx",
-    "description": "Port of Angry Birds 2 for Switch.",
-    "stars": 11,
+    "name": "Swetha-2202/Fire-alert-system-ARM7",
+    "url": "https://github.com/Swetha-2202/Fire-alert-system-ARM7",
+    "description": "Temperature-based Fire Alert System using ARM7 LPC2124 and LM35 sensor with ADC and Proteus simulation.",
+    "stars": 10,
     "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-01T05:26:49Z",
-    "updated_at": "2026-08-06T15:47:30Z",
+    "license": "No license",
+    "created_at": "2026-08-15T08:01:00Z",
+    "updated_at": "2026-08-20T17:19:21Z",
     "owner": {
-      "name": "NaGaa95",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38852591?v=4"
+      "name": "Swetha-2202",
+      "avatar_url": "https://avatars.githubusercontent.com/u/259524806?v=4"
+    }
+  },
+  {
+    "name": "Artificial-Age/ESP32Gameboy",
+    "url": "https://github.com/Artificial-Age/ESP32Gameboy",
+    "description": "Headless Game Boy emulator on ESP32-S3 that streams video and audio to a phone browser over Wi-Fi.",
+    "stars": 10,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-20T07:34:05Z",
+    "updated_at": "2026-08-21T02:30:43Z",
+    "owner": {
+      "name": "Artificial-Age",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127410589?v=4"
     }
   },
   {
@@ -2166,38 +2193,6 @@
     "owner": {
       "name": "harmansingh4163-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/280861250?v=4"
-    }
-  },
-  {
-    "name": "Hypfer/Duststreamer",
-    "url": "https://github.com/Hypfer/Duststreamer",
-    "description": "Streaming dust straight into your eyes",
-    "stars": 10,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-08-01T06:42:53Z",
-    "updated_at": "2026-08-06T16:25:14Z",
-    "owner": {
-      "name": "Hypfer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/974410?v=4"
-    }
-  },
-  {
-    "name": "Mike1978uk/win95-intel-inboard-386pc",
-    "url": "https://github.com/Mike1978uk/win95-intel-inboard-386pc",
-    "description": "Windows 95 running on a real IBM 5160 + Intel Inboard 386/PC accelerator - the fixes, patches, and DDK-built custom VKD.VXD that made it work",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-05T10:12:06Z",
-    "updated_at": "2026-08-06T21:54:29Z",
-    "owner": {
-      "name": "Mike1978uk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/206574174?v=4"
     }
   }
 ]
