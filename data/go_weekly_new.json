@@ -1,30 +1,5 @@
 [
   {
-    "name": "magicrew/doc7",
-    "url": "https://github.com/magicrew/doc7",
-    "description": "Turn documents into AI-ready Markdown with visual understanding",
-    "stars": 696,
-    "forks": 16,
-    "language": "Go",
-    "topics": [
-      "document-ai",
-      "docx-to-markdown",
-      "local-ai",
-      "markdown",
-      "multimodal",
-      "open-source",
-      "pdf-to-markdown",
-      "vision-language-model"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-02T14:03:55Z",
-    "updated_at": "2026-08-08T02:40:57Z",
-    "owner": {
-      "name": "magicrew",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266043650?v=4"
-    }
-  },
-  {
     "name": "MengMengCode/VoCat",
     "url": "https://github.com/MengMengCode/VoCat",
     "description": "Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It combines modem discovery, live radio status, AT and USSD terminals, SMS, WiFi Calling, eSIM management, network selection, proxy routing, notifications, audit logs, and release automation in one self-contained service.",
@@ -44,13 +19,13 @@
     "name": "b-nnett/codex-subscription-router",
     "url": "https://github.com/b-nnett/codex-subscription-router",
     "description": null,
-    "stars": 364,
-    "forks": 37,
+    "stars": 368,
+    "forks": 38,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-16T09:35:21Z",
-    "updated_at": "2026-08-21T01:45:41Z",
+    "updated_at": "2026-08-22T02:18:53Z",
     "owner": {
       "name": "b-nnett",
       "avatar_url": "https://avatars.githubusercontent.com/u/62760393?v=4"
@@ -143,6 +118,33 @@
     "owner": {
       "name": "jundizhou",
       "avatar_url": "https://avatars.githubusercontent.com/u/92794317?v=4"
+    }
+  },
+  {
+    "name": "azrtydxb/procoder",
+    "url": "https://github.com/azrtydxb/procoder",
+    "description": "Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality controllers that refuse to call unfinished work done, and a lessons loop that closes each escaped bug's class. One Go binary, no runtime deps, works with 20+ agents.",
+    "stars": 132,
+    "forks": 8,
+    "language": "Go",
+    "topics": [
+      "ai-coding-assistant",
+      "claude-code",
+      "claude-code-plugin",
+      "code-quality",
+      "code-review",
+      "developer-tools",
+      "linter",
+      "mcp",
+      "security",
+      "static-analysis"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-16T07:47:17Z",
+    "updated_at": "2026-08-22T02:34:58Z",
+    "owner": {
+      "name": "azrtydxb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/266232796?v=4"
     }
   },
   {
@@ -241,7 +243,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-20T02:03:30Z",
-    "updated_at": "2026-08-20T15:11:36Z",
+    "updated_at": "2026-08-21T07:14:04Z",
     "owner": {
       "name": "jsongmax",
       "avatar_url": "https://avatars.githubusercontent.com/u/54309806?v=4"
@@ -396,53 +398,6 @@
     }
   },
   {
-    "name": "azrtydxb/procoder",
-    "url": "https://github.com/azrtydxb/procoder",
-    "description": "Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality controllers that refuse to call unfinished work done, and a lessons loop that closes each escaped bug's class. One Go binary, no runtime deps, works with 20+ agents.",
-    "stars": 81,
-    "forks": 5,
-    "language": "Go",
-    "topics": [
-      "ai-coding-assistant",
-      "claude-code",
-      "claude-code-plugin",
-      "code-quality",
-      "code-review",
-      "developer-tools",
-      "linter",
-      "mcp",
-      "security",
-      "static-analysis"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-16T07:47:17Z",
-    "updated_at": "2026-08-21T02:45:33Z",
-    "owner": {
-      "name": "azrtydxb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266232796?v=4"
-    }
-  },
-  {
-    "name": "smol-env/smol",
-    "url": "https://github.com/smol-env/smol",
-    "description": "smol is a smol agent",
-    "stars": 61,
-    "forks": 2,
-    "language": "Go",
-    "topics": [
-      "agents",
-      "ai-agents",
-      "openai"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-01T14:40:09Z",
-    "updated_at": "2026-08-07T04:15:03Z",
-    "owner": {
-      "name": "smol-env",
-      "avatar_url": "https://avatars.githubusercontent.com/u/311803820?v=4"
-    }
-  },
-  {
     "name": "zachahn/vomit",
     "url": "https://github.com/zachahn/vomit",
     "description": "Clean up Claude 5's token vomit with a separate LLM. Save your tokens, Claude 5 is hopeless",
@@ -476,6 +431,22 @@
     "owner": {
       "name": "Lynricsy",
       "avatar_url": "https://avatars.githubusercontent.com/u/62173814?v=4"
+    }
+  },
+  {
+    "name": "augety121/MCP-State-Twin",
+    "url": "https://github.com/augety121/MCP-State-Twin",
+    "description": "用于可复现 AI Agent 评测的确定性、可分叉、有状态 MCP 测试世界——不对生产环境产生副作用。Deterministic, forkable, stateful MCP test worlds for reproducible AI agent evaluation—without production side effects.",
+    "stars": 53,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-17T06:51:00Z",
+    "updated_at": "2026-08-22T02:39:07Z",
+    "owner": {
+      "name": "augety121",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89954519?v=4"
     }
   },
   {
@@ -527,22 +498,6 @@
     }
   },
   {
-    "name": "augety121/MCP-State-Twin",
-    "url": "https://github.com/augety121/MCP-State-Twin",
-    "description": "用于可复现 AI Agent 评测的确定性、可分叉、有状态 MCP 测试世界——不对生产环境产生副作用。Deterministic, forkable, stateful MCP test worlds for reproducible AI agent evaluation—without production side effects.",
-    "stars": 46,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-17T06:51:00Z",
-    "updated_at": "2026-08-21T01:48:31Z",
-    "owner": {
-      "name": "augety121",
-      "avatar_url": "https://avatars.githubusercontent.com/u/89954519?v=4"
-    }
-  },
-  {
     "name": "kylan11/understudy",
     "url": "https://github.com/kylan11/understudy",
     "description": "Best-effort high availability for single-replica Kubernetes workloads: no downtime from announced node disruptions (drains, upgrades, consolidation, spot reclaims) without a standing second replica.",
@@ -577,6 +532,22 @@
     }
   },
   {
+    "name": "remnawave/geocheck",
+    "url": "https://github.com/remnawave/geocheck",
+    "description": "Where the internet thinks you are, and how directly you reach it.",
+    "stars": 44,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-17T19:56:01Z",
+    "updated_at": "2026-08-21T23:03:56Z",
+    "owner": {
+      "name": "remnawave",
+      "avatar_url": "https://avatars.githubusercontent.com/u/163913909?v=4"
+    }
+  },
+  {
     "name": "larry-zy/cognida",
     "url": "https://github.com/larry-zy/cognida",
     "description": "不止是能问数据的助手——受治理、可审计、可度量的企业级「数据+知识」Agent 平台",
@@ -593,19 +564,27 @@
     }
   },
   {
-    "name": "remnawave/geocheck",
-    "url": "https://github.com/remnawave/geocheck",
-    "description": "Where the internet thinks you are, and how directly you reach it.",
-    "stars": 41,
-    "forks": 0,
+    "name": "thomassolcia/DiscordGoLiveBypass",
+    "url": "https://github.com/thomassolcia/DiscordGoLiveBypass",
+    "description": "Abra seu Discord por um IP fora do Brasil, devolvendo o Go Live, a câmera e a transmissão de tela.",
+    "stars": 40,
+    "forks": 1,
     "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-17T19:56:01Z",
-    "updated_at": "2026-08-21T02:53:20Z",
+    "topics": [
+      "anpd",
+      "brazil",
+      "discord",
+      "go",
+      "golive",
+      "proxy",
+      "windows"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-19T02:18:02Z",
+    "updated_at": "2026-08-21T20:52:16Z",
     "owner": {
-      "name": "remnawave",
-      "avatar_url": "https://avatars.githubusercontent.com/u/163913909?v=4"
+      "name": "thomassolcia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61297439?v=4"
     }
   },
   {
@@ -659,6 +638,22 @@
     }
   },
   {
+    "name": "mattn/tensai",
+    "url": "https://github.com/mattn/tensai",
+    "description": "A tiny neural-network framework in pure Go with AVX2 SIMD kernels (GOEXPERIMENT=simd)",
+    "stars": 37,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-19T09:06:30Z",
+    "updated_at": "2026-08-21T20:13:47Z",
+    "owner": {
+      "name": "mattn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10111?v=4"
+    }
+  },
+  {
     "name": "espressif/esp-rainmaker-neo",
     "url": "https://github.com/espressif/esp-rainmaker-neo",
     "description": "ESP RainMaker Neo Cloud Backend",
@@ -676,6 +671,22 @@
     "owner": {
       "name": "espressif",
       "avatar_url": "https://avatars.githubusercontent.com/u/9460735?v=4"
+    }
+  },
+  {
+    "name": "behdanisohrab/kairo",
+    "url": "https://github.com/behdanisohrab/kairo",
+    "description": "Kairo is a self-contained implementation of the split-routing gateway described by bepass-org/smartSNI. It bundles a DNS server with a policy engine and an SNI router into one binary.",
+    "stars": 36,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "created_at": "2026-08-16T11:54:35Z",
+    "updated_at": "2026-08-21T10:07:15Z",
+    "owner": {
+      "name": "behdanisohrab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72007820?v=4"
     }
   },
   {
@@ -711,19 +722,35 @@
     }
   },
   {
-    "name": "behdanisohrab/kairo",
-    "url": "https://github.com/behdanisohrab/kairo",
-    "description": "Kairo is a self-contained implementation of the split-routing gateway described by bepass-org/smartSNI. It bundles a DNS server with a policy engine and an SNI router into one binary.",
+    "name": "lxcshine/zilan",
+    "url": "https://github.com/lxcshine/zilan",
+    "description": "知澜 — 知识汇聚成澜：RAG、Agent 推理与自动Wiki一体化的智能知识中枢",
     "stars": 35,
-    "forks": 1,
+    "forks": 2,
     "language": "Go",
     "topics": [],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2026-08-16T11:54:35Z",
-    "updated_at": "2026-08-19T23:27:42Z",
+    "license": "Other",
+    "created_at": "2026-08-18T13:38:59Z",
+    "updated_at": "2026-08-22T01:16:54Z",
     "owner": {
-      "name": "behdanisohrab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72007820?v=4"
+      "name": "lxcshine",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97235189?v=4"
+    }
+  },
+  {
+    "name": "Yeseverk/DNF90CN",
+    "url": "https://github.com/Yeseverk/DNF90CN",
+    "description": "DNF90CN",
+    "stars": 35,
+    "forks": 11,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-16T23:59:53Z",
+    "updated_at": "2026-08-21T18:03:57Z",
+    "owner": {
+      "name": "Yeseverk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148515820?v=4"
     }
   },
   {
@@ -796,38 +823,6 @@
     }
   },
   {
-    "name": "Yeseverk/DNF90CN",
-    "url": "https://github.com/Yeseverk/DNF90CN",
-    "description": "DNF90CN",
-    "stars": 34,
-    "forks": 11,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-16T23:59:53Z",
-    "updated_at": "2026-08-21T01:25:27Z",
-    "owner": {
-      "name": "Yeseverk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/148515820?v=4"
-    }
-  },
-  {
-    "name": "mattn/tensai",
-    "url": "https://github.com/mattn/tensai",
-    "description": "A tiny neural-network framework in pure Go with AVX2 SIMD kernels (GOEXPERIMENT=simd)",
-    "stars": 33,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-19T09:06:30Z",
-    "updated_at": "2026-08-21T02:25:41Z",
-    "owner": {
-      "name": "mattn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10111?v=4"
-    }
-  },
-  {
     "name": "y-jingyao/agent_go",
     "url": "https://github.com/y-jingyao/agent_go",
     "description": null,
@@ -857,6 +852,22 @@
     "owner": {
       "name": "Nobody2088",
       "avatar_url": "https://avatars.githubusercontent.com/u/314920179?v=4"
+    }
+  },
+  {
+    "name": "miaoledor/Lolicount",
+    "url": "https://github.com/miaoledor/Lolicount",
+    "description": "A cute, themeable visitor counter — pick a built-in theme or upload your own, then paste a link and watch it count.",
+    "stars": 28,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-08-16T12:31:38Z",
+    "updated_at": "2026-08-21T16:23:05Z",
+    "owner": {
+      "name": "miaoledor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141328976?v=4"
     }
   },
   {
@@ -964,19 +975,19 @@
     }
   },
   {
-    "name": "Sliverkiss/traework2api",
-    "url": "https://github.com/Sliverkiss/traework2api",
-    "description": null,
-    "stars": 25,
-    "forks": 3,
+    "name": "NomanNasirMinhas/Ringer",
+    "url": "https://github.com/NomanNasirMinhas/Ringer",
+    "description": "Static + live analysis of Windows kernel drivers: extract IOCTL codes and shared ring-buffer strings, then load the driver and verify every finding against the running system.",
+    "stars": 24,
+    "forks": 2,
     "language": "Go",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-02T03:33:26Z",
-    "updated_at": "2026-08-07T16:07:27Z",
+    "license": "MIT License",
+    "created_at": "2026-08-16T16:27:21Z",
+    "updated_at": "2026-08-21T22:58:02Z",
     "owner": {
-      "name": "Sliverkiss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/70052878?v=4"
+      "name": "NomanNasirMinhas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28532113?v=4"
     }
   },
   {
@@ -993,6 +1004,33 @@
     "owner": {
       "name": "mangobubu",
       "avatar_url": "https://avatars.githubusercontent.com/u/136102466?v=4"
+    }
+  },
+  {
+    "name": "AFSlayer/antigravity-server",
+    "url": "https://github.com/AFSlayer/antigravity-server",
+    "description": "Use the Antigravity desktop app from your phone. One binary that serves Antigravity's own web UI to your devices, behind a password.",
+    "stars": 23,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "ai-agents",
+      "antigravity",
+      "antigravity-ide",
+      "golang",
+      "google-antigravity",
+      "mobile",
+      "pwa",
+      "remote-development",
+      "reverse-proxy",
+      "self-hosted"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-18T13:59:07Z",
+    "updated_at": "2026-08-21T15:56:02Z",
+    "owner": {
+      "name": "AFSlayer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5547818?v=4"
     }
   },
   {
@@ -1036,46 +1074,6 @@
     "owner": {
       "name": "NarYuki",
       "avatar_url": "https://avatars.githubusercontent.com/u/119187792?v=4"
-    }
-  },
-  {
-    "name": "thomassolcia/DiscordGoLiveBypass",
-    "url": "https://github.com/thomassolcia/DiscordGoLiveBypass",
-    "description": "Abra seu Discord por um IP fora do Brasil, devolvendo o Go Live, a câmera e a transmissão de tela.",
-    "stars": 22,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "anpd",
-      "brazil",
-      "discord",
-      "go",
-      "golive",
-      "proxy",
-      "windows"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-19T02:18:02Z",
-    "updated_at": "2026-08-20T23:52:13Z",
-    "owner": {
-      "name": "thomassolcia",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61297439?v=4"
-    }
-  },
-  {
-    "name": "NomanNasirMinhas/Ringer",
-    "url": "https://github.com/NomanNasirMinhas/Ringer",
-    "description": "Static + live analysis of Windows kernel drivers: extract IOCTL codes and shared ring-buffer strings, then load the driver and verify every finding against the running system.",
-    "stars": 22,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-16T16:27:21Z",
-    "updated_at": "2026-08-20T22:32:58Z",
-    "owner": {
-      "name": "NomanNasirMinhas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28532113?v=4"
     }
   },
   {
@@ -1127,22 +1125,6 @@
     }
   },
   {
-    "name": "bketelsen/bespoke",
-    "url": "https://github.com/bketelsen/bespoke",
-    "description": "A personal app platform: one-off software for exactly one user — built, maintained, and operated by LLM agents. Steal the idea before you steal the code.",
-    "stars": 22,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-02T03:45:50Z",
-    "updated_at": "2026-08-07T16:32:50Z",
-    "owner": {
-      "name": "bketelsen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37492?v=4"
-    }
-  },
-  {
     "name": "jbeda/mdreflow",
     "url": "https://github.com/jbeda/mdreflow",
     "description": "Reflow Markdown prose: sentence-per-line (semantic line breaks), paragraph-per-line, and hard wrap. Go library + CLI.",
@@ -1188,19 +1170,26 @@
     }
   },
   {
-    "name": "lxcshine/zilan",
-    "url": "https://github.com/lxcshine/zilan",
-    "description": "知澜 — 知识汇聚成澜：RAG、Agent 推理与自动Wiki一体化的智能知识中枢",
+    "name": "yuexiazhuojiu-byte/MacCellular",
+    "url": "https://github.com/yuexiazhuojiu-byte/MacCellular",
+    "description": "Self-hosted phone and SMS for a physical SIM connected to a home Mac.",
     "stars": 19,
-    "forks": 1,
+    "forks": 19,
     "language": "Go",
-    "topics": [],
+    "topics": [
+      "cellular",
+      "maccellular",
+      "macos",
+      "self-hosted",
+      "sms",
+      "webrtc"
+    ],
     "license": "Other",
-    "created_at": "2026-08-18T13:38:59Z",
-    "updated_at": "2026-08-21T01:26:26Z",
+    "created_at": "2026-08-18T09:01:53Z",
+    "updated_at": "2026-08-21T16:46:26Z",
     "owner": {
-      "name": "lxcshine",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97235189?v=4"
+      "name": "yuexiazhuojiu-byte",
+      "avatar_url": "https://avatars.githubusercontent.com/u/228387585?v=4"
     }
   },
   {
@@ -1228,22 +1217,6 @@
     "owner": {
       "name": "scaccogatto",
       "avatar_url": "https://avatars.githubusercontent.com/u/3670888?v=4"
-    }
-  },
-  {
-    "name": "Quorinex/LLM.PM",
-    "url": "https://github.com/Quorinex/LLM.PM",
-    "description": null,
-    "stars": 19,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-02T23:19:47Z",
-    "updated_at": "2026-08-07T13:19:59Z",
-    "owner": {
-      "name": "Quorinex",
-      "avatar_url": "https://avatars.githubusercontent.com/u/257893540?v=4"
     }
   },
   {
@@ -1292,29 +1265,6 @@
     }
   },
   {
-    "name": "yuexiazhuojiu-byte/MacCellular",
-    "url": "https://github.com/yuexiazhuojiu-byte/MacCellular",
-    "description": "Self-hosted phone and SMS for a physical SIM connected to a home Mac.",
-    "stars": 17,
-    "forks": 16,
-    "language": "Go",
-    "topics": [
-      "cellular",
-      "maccellular",
-      "macos",
-      "self-hosted",
-      "sms",
-      "webrtc"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-18T09:01:53Z",
-    "updated_at": "2026-08-21T01:16:02Z",
-    "owner": {
-      "name": "yuexiazhuojiu-byte",
-      "avatar_url": "https://avatars.githubusercontent.com/u/228387585?v=4"
-    }
-  },
-  {
     "name": "shenping1200/m365-copilot-bridge",
     "url": "https://github.com/shenping1200/m365-copilot-bridge",
     "description": "M365 Copilot ChatHub gateway — OpenAI-compatible API (Copilot Bridge)",
@@ -1344,6 +1294,38 @@
     "owner": {
       "name": "paipaiio",
       "avatar_url": "https://avatars.githubusercontent.com/u/153435661?v=4"
+    }
+  },
+  {
+    "name": "D3-vin/Qoder2Api",
+    "url": "https://github.com/D3-vin/Qoder2Api",
+    "description": null,
+    "stars": 16,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-17T07:42:24Z",
+    "updated_at": "2026-08-21T16:36:02Z",
+    "owner": {
+      "name": "D3-vin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183905858?v=4"
+    }
+  },
+  {
+    "name": "KaiZhou554/trayce",
+    "url": "https://github.com/KaiZhou554/trayce",
+    "description": "Trayce — A lightweight, no-admin Windows 11 utility to view and clean up stale notification area (tray) icon records in your user registry. Built with Wails v2, Vue 3, and Naive UI. Offline-first: scans HKCU\\Control Panel\\NotifyIconSettings, auto-backs up before deletion, supports undo, and never touches HKLM or your files.",
+    "stars": 16,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-18T14:16:52Z",
+    "updated_at": "2026-08-22T01:30:59Z",
+    "owner": {
+      "name": "KaiZhou554",
+      "avatar_url": "https://avatars.githubusercontent.com/u/229601994?v=4"
     }
   },
   {
@@ -1379,35 +1361,19 @@
     }
   },
   {
-    "name": "miaoledor/Lolicount",
-    "url": "https://github.com/miaoledor/Lolicount",
-    "description": "A cute, themeable visitor counter — pick a built-in theme or upload your own, then paste a link and watch it count.",
+    "name": "unclesam-ly/git-air",
+    "url": "https://github.com/unclesam-ly/git-air",
+    "description": null,
     "stars": 15,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-08-16T12:31:38Z",
-    "updated_at": "2026-08-21T02:50:33Z",
-    "owner": {
-      "name": "miaoledor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/141328976?v=4"
-    }
-  },
-  {
-    "name": "D3-vin/Qoder2Api",
-    "url": "https://github.com/D3-vin/Qoder2Api",
-    "description": null,
-    "stars": 15,
-    "forks": 3,
-    "language": "Go",
-    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-08-17T07:42:24Z",
-    "updated_at": "2026-08-21T00:28:13Z",
+    "created_at": "2026-08-17T08:53:00Z",
+    "updated_at": "2026-08-21T07:40:10Z",
     "owner": {
-      "name": "D3-vin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/183905858?v=4"
+      "name": "unclesam-ly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51786538?v=4"
     }
   },
   {
@@ -1440,6 +1406,59 @@
     "owner": {
       "name": "sh1iyip233",
       "avatar_url": "https://avatars.githubusercontent.com/u/295298165?v=4"
+    }
+  },
+  {
+    "name": "Kirill9732/alpac_source",
+    "url": "https://github.com/Kirill9732/alpac_source",
+    "description": null,
+    "stars": 14,
+    "forks": 6,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-18T21:26:39Z",
+    "updated_at": "2026-08-21T08:55:07Z",
+    "owner": {
+      "name": "Kirill9732",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16163213?v=4"
+    }
+  },
+  {
+    "name": "mohaanymo/m314dl",
+    "url": "https://github.com/mohaanymo/m314dl",
+    "description": "Fast HLS/DASH (m3u8/mpd) video downloader in one Go binary — native CENC/cbcs decryption, no mp4decrypt. Live recording, subtitles, byte-exact resume.",
+    "stars": 14,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "bbts",
+      "dash",
+      "decryption",
+      "decryption-key",
+      "drm",
+      "hls",
+      "hls-downloader",
+      "hls-live-streaming",
+      "hls-stream",
+      "hls-streaming",
+      "m3u8",
+      "m3u8-download",
+      "m3u8-downloader",
+      "m3u8-parser",
+      "m3u8-playlist",
+      "m3u8download",
+      "m3u8downloader",
+      "media",
+      "media-downloader",
+      "restreaming"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-17T04:04:38Z",
+    "updated_at": "2026-08-21T10:17:39Z",
+    "owner": {
+      "name": "mohaanymo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/244024658?v=4"
     }
   },
   {
@@ -1563,72 +1582,69 @@
     }
   },
   {
-    "name": "unclesam-ly/git-air",
-    "url": "https://github.com/unclesam-ly/git-air",
-    "description": null,
-    "stars": 13,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-17T08:53:00Z",
-    "updated_at": "2026-08-20T10:43:02Z",
-    "owner": {
-      "name": "unclesam-ly",
-      "avatar_url": "https://avatars.githubusercontent.com/u/51786538?v=4"
-    }
-  },
-  {
-    "name": "Kirill9732/alpac_source",
-    "url": "https://github.com/Kirill9732/alpac_source",
-    "description": null,
-    "stars": 13,
-    "forks": 5,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-18T21:26:39Z",
-    "updated_at": "2026-08-20T14:37:50Z",
-    "owner": {
-      "name": "Kirill9732",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16163213?v=4"
-    }
-  },
-  {
-    "name": "mohaanymo/m314dl",
-    "url": "https://github.com/mohaanymo/m314dl",
-    "description": "Fast HLS/DASH (m3u8/mpd) video downloader in one Go binary — native CENC/cbcs decryption, no mp4decrypt. Live recording, subtitles, byte-exact resume.",
+    "name": "unrealJune/kindshare",
+    "url": "https://github.com/unrealJune/kindshare",
+    "description": "Receive files from Android Quick Share on a jailbroken Kindle - no cable, no router, nothing on the phone. Includes a SoftAP mode and a from-scratch Go implementation of the Nearby Share protocol.",
     "stars": 13,
     "forks": 1,
     "language": "Go",
     "topics": [
-      "bbts",
-      "dash",
-      "decryption",
-      "decryption-key",
-      "drm",
-      "hls",
-      "hls-downloader",
-      "hls-live-streaming",
-      "hls-stream",
-      "hls-streaming",
-      "m3u8",
-      "m3u8-download",
-      "m3u8-downloader",
-      "m3u8-parser",
-      "m3u8-playlist",
-      "m3u8download",
-      "m3u8downloader",
-      "media",
-      "media-downloader",
-      "restreaming"
+      "e-reader",
+      "jailbreak",
+      "kindle",
+      "koreader",
+      "nearby-share",
+      "quick-share"
     ],
     "license": "MIT License",
-    "created_at": "2026-08-17T04:04:38Z",
-    "updated_at": "2026-08-20T14:23:15Z",
+    "created_at": "2026-08-17T23:08:26Z",
+    "updated_at": "2026-08-21T19:15:01Z",
     "owner": {
-      "name": "mohaanymo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/244024658?v=4"
+      "name": "unrealJune",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13021556?v=4"
+    }
+  },
+  {
+    "name": "mindsdb/setfree",
+    "url": "https://github.com/mindsdb/setfree",
+    "description": "Set claude, codex, any coding CLI free to any LLM provider",
+    "stars": 13,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-20T14:09:52Z",
+    "updated_at": "2026-08-22T02:09:54Z",
+    "owner": {
+      "name": "mindsdb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31035808?v=4"
+    }
+  },
+  {
+    "name": "OdedNeuhaus/peevee",
+    "url": "https://github.com/OdedNeuhaus/peevee",
+    "description": "df for Kubernetes PVCs",
+    "stars": 13,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "helm-chart",
+      "kubernetes",
+      "kubernetes-storage",
+      "mimir",
+      "multi-cluster",
+      "observability",
+      "persistant-volume-claim",
+      "prometheus",
+      "pvc",
+      "storage-monitoring"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-18T19:25:11Z",
+    "updated_at": "2026-08-21T08:03:46Z",
+    "owner": {
+      "name": "OdedNeuhaus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/207841245?v=4"
     }
   },
   {
@@ -1689,41 +1705,35 @@
     }
   },
   {
-    "name": "aidansteele/uvm-builder",
-    "url": "https://github.com/aidansteele/uvm-builder",
-    "description": "Docker buildx builder using Lambda MicroVMs",
-    "stars": 13,
-    "forks": 1,
+    "name": "stephrobert/pepin",
+    "url": "https://github.com/stephrobert/pepin",
+    "description": "CSPM multi-cloud souverain : évalue la posture d'un cloud (Outscale, Scaleway, Exoscale…) contre un référentiel commun ancré sur SCSL, SecNumCloud, CIS et ISO.",
+    "stars": 12,
+    "forks": 2,
     "language": "Go",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-02T20:49:50Z",
-    "updated_at": "2026-08-07T19:07:35Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-19T09:43:12Z",
+    "updated_at": "2026-08-21T17:18:30Z",
     "owner": {
-      "name": "aidansteele",
-      "avatar_url": "https://avatars.githubusercontent.com/u/369053?v=4"
+      "name": "stephrobert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/681788?v=4"
     }
   },
   {
-    "name": "atoonk/wireblast",
-    "url": "https://github.com/atoonk/wireblast",
-    "description": "A fast, easy-to-use AF_XDP traffic generator for Linux",
-    "stars": 13,
-    "forks": 0,
+    "name": "Nikkkaaws/White-Shield-IMAP-Transport",
+    "url": "https://github.com/Nikkkaaws/White-Shield-IMAP-Transport",
+    "description": null,
+    "stars": 12,
+    "forks": 2,
     "language": "Go",
-    "topics": [
-      "afxdp",
-      "ebpf",
-      "networking",
-      "packet-generator",
-      "xdp"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-02T02:06:36Z",
-    "updated_at": "2026-08-08T00:30:07Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-19T19:16:07Z",
+    "updated_at": "2026-08-21T18:38:38Z",
     "owner": {
-      "name": "atoonk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10093084?v=4"
+      "name": "Nikkkaaws",
+      "avatar_url": "https://avatars.githubusercontent.com/u/191913991?v=4"
     }
   },
   {
@@ -1854,53 +1864,19 @@
     }
   },
   {
-    "name": "unrealJune/kindshare",
-    "url": "https://github.com/unrealJune/kindshare",
-    "description": "Receive files from Android Quick Share on a jailbroken Kindle - no cable, no router, nothing on the phone. Includes a SoftAP mode and a from-scratch Go implementation of the Nearby Share protocol.",
+    "name": "dingtongbin/AceShell",
+    "url": "https://github.com/dingtongbin/AceShell",
+    "description": "AceShell is a desktop remote login tool built with Go and Wails3.",
     "stars": 11,
     "forks": 1,
     "language": "Go",
-    "topics": [
-      "e-reader",
-      "jailbreak",
-      "kindle",
-      "koreader",
-      "nearby-share",
-      "quick-share"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-17T23:08:26Z",
-    "updated_at": "2026-08-20T14:12:41Z",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-17T09:25:34Z",
+    "updated_at": "2026-08-21T05:33:53Z",
     "owner": {
-      "name": "unrealJune",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13021556?v=4"
-    }
-  },
-  {
-    "name": "OdedNeuhaus/peevee",
-    "url": "https://github.com/OdedNeuhaus/peevee",
-    "description": "df for Kubernetes PVCs",
-    "stars": 11,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "helm-chart",
-      "kubernetes",
-      "kubernetes-storage",
-      "mimir",
-      "multi-cluster",
-      "observability",
-      "persistant-volume-claim",
-      "prometheus",
-      "pvc",
-      "storage-monitoring"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-18T19:25:11Z",
-    "updated_at": "2026-08-20T21:58:53Z",
-    "owner": {
-      "name": "OdedNeuhaus",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207841245?v=4"
+      "name": "dingtongbin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/137663758?v=4"
     }
   },
   {
@@ -2040,10 +2016,42 @@
     ],
     "license": "Mozilla Public License 2.0",
     "created_at": "2026-08-18T07:22:50Z",
-    "updated_at": "2026-08-20T12:34:19Z",
+    "updated_at": "2026-08-21T07:02:19Z",
     "owner": {
       "name": "GO-VIRTUAL-bv",
       "avatar_url": "https://avatars.githubusercontent.com/u/239939272?v=4"
+    }
+  },
+  {
+    "name": "crhuber/mcp-proxy",
+    "url": "https://github.com/crhuber/mcp-proxy",
+    "description": "Add MCP support to any REST API - no code changes required",
+    "stars": 10,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-17T16:04:47Z",
+    "updated_at": "2026-08-18T18:59:07Z",
+    "owner": {
+      "name": "crhuber",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5857391?v=4"
+    }
+  },
+  {
+    "name": "sliverarmory/crystal-grotto",
+    "url": "https://github.com/sliverarmory/crystal-grotto",
+    "description": "Golang Port of Crystal Palace",
+    "stars": 10,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-16T15:53:52Z",
+    "updated_at": "2026-08-21T10:58:27Z",
+    "owner": {
+      "name": "sliverarmory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96838313?v=4"
     }
   },
   {
@@ -2090,22 +2098,6 @@
     "owner": {
       "name": "zcj-ui",
       "avatar_url": "https://avatars.githubusercontent.com/u/184645922?v=4"
-    }
-  },
-  {
-    "name": "crhuber/mcp-proxy",
-    "url": "https://github.com/crhuber/mcp-proxy",
-    "description": "Add MCP support to any REST API - no code changes required",
-    "stars": 10,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-17T16:04:47Z",
-    "updated_at": "2026-08-18T18:59:07Z",
-    "owner": {
-      "name": "crhuber",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5857391?v=4"
     }
   },
   {
@@ -2284,22 +2276,6 @@
     "owner": {
       "name": "rishiskhare",
       "avatar_url": "https://avatars.githubusercontent.com/u/30673002?v=4"
-    }
-  },
-  {
-    "name": "Userluckytian/opencode2api_enhance",
-    "url": "https://github.com/Userluckytian/opencode2api_enhance",
-    "description": "哈吉米南北绿豆~",
-    "stars": 10,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-02T16:16:16Z",
-    "updated_at": "2026-08-08T02:07:57Z",
-    "owner": {
-      "name": "Userluckytian",
-      "avatar_url": "https://avatars.githubusercontent.com/u/66506773?v=4"
     }
   }
 ]
