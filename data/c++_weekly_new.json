@@ -163,8 +163,8 @@
     "name": "Kuberwastaken/hp-laser-1008a-macos",
     "url": "https://github.com/Kuberwastaken/hp-laser-1008a-macos",
     "description": "Native macOS (Apple Silicon) driver for the HP Laser 1003-1008",
-    "stars": 124,
-    "forks": 12,
+    "stars": 138,
+    "forks": 13,
     "language": "C",
     "topics": [
       "apple-silicon",
@@ -177,7 +177,7 @@
     ],
     "license": "Other",
     "created_at": "2026-08-17T18:32:05Z",
-    "updated_at": "2026-08-22T02:36:19Z",
+    "updated_at": "2026-08-22T19:45:55Z",
     "owner": {
       "name": "Kuberwastaken",
       "avatar_url": "https://avatars.githubusercontent.com/u/97027230?v=4"
@@ -272,6 +272,22 @@
     }
   },
   {
+    "name": "zer0condition/GoodmansKernel",
+    "url": "https://github.com/zer0condition/GoodmansKernel",
+    "description": "Run unsigned kernel payloads in a signed kernel driver via wasm3. No JIT/W^x (HVCI/etc., compliant)",
+    "stars": 85,
+    "forks": 6,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-18T19:53:22Z",
+    "updated_at": "2026-08-23T02:06:47Z",
+    "owner": {
+      "name": "zer0condition",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70964202?v=4"
+    }
+  },
+  {
     "name": "sssst9s/xq",
     "url": "https://github.com/sssst9s/xq",
     "description": "a C compression library designed for fast parallel compression, random access and corruption-resistant blocks.",
@@ -320,22 +336,6 @@
     }
   },
   {
-    "name": "zer0condition/GoodmansKernel",
-    "url": "https://github.com/zer0condition/GoodmansKernel",
-    "description": "Run unsigned kernel payloads in a signed kernel driver via wasm3. No JIT/W^x (HVCI/etc., compliant)",
-    "stars": 78,
-    "forks": 5,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-18T19:53:22Z",
-    "updated_at": "2026-08-21T23:45:03Z",
-    "owner": {
-      "name": "zer0condition",
-      "avatar_url": "https://avatars.githubusercontent.com/u/70964202?v=4"
-    }
-  },
-  {
     "name": "pcm720/dvrpwned",
     "url": "https://github.com/pcm720/dvrpwned",
     "description": "The first ever working custom firmware for the PSX DESR DVRP",
@@ -365,22 +365,6 @@
     "owner": {
       "name": "xoreaxeaxeax",
       "avatar_url": "https://avatars.githubusercontent.com/u/12904366?v=4"
-    }
-  },
-  {
-    "name": "Meowmycks/EkkoNtProtect",
-    "url": "https://github.com/Meowmycks/EkkoNtProtect",
-    "description": "Use NtProtectVirtualMemory in Ekko timers without needing to use stack pivoting or other RSP shifting tricks",
-    "stars": 69,
-    "forks": 7,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-03T19:41:41Z",
-    "updated_at": "2026-08-08T22:11:42Z",
-    "owner": {
-      "name": "Meowmycks",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45502375?v=4"
     }
   },
   {
@@ -479,7 +463,7 @@
     "name": "CleanShirtUK/orbit-wallpaper-engine",
     "url": "https://github.com/CleanShirtUK/orbit-wallpaper-engine",
     "description": "A lightweight Wayland shader wallpaper engine with standalone settings, palette integration and shader browsing.",
-    "stars": 46,
+    "stars": 47,
     "forks": 0,
     "language": "C",
     "topics": [
@@ -492,7 +476,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-08-19T16:03:45Z",
-    "updated_at": "2026-08-21T18:12:33Z",
+    "updated_at": "2026-08-22T13:04:47Z",
     "owner": {
       "name": "CleanShirtUK",
       "avatar_url": "https://avatars.githubusercontent.com/u/125589685?v=4"
@@ -647,43 +631,6 @@
     }
   },
   {
-    "name": "wiringai/mod_earshot",
-    "url": "https://github.com/wiringai/mod_earshot",
-    "description": "FreeSWITCH module that streams live call audio to AI voice agents over WebSocket and plays their voice back — full-duplex.",
-    "stars": 36,
-    "forks": 14,
-    "language": "C",
-    "topics": [
-      "ai-voice",
-      "assembly-ai",
-      "conversational-ai",
-      "deepgram",
-      "elevenlabs",
-      "freeswitch",
-      "freeswitch-module",
-      "google-gemini-live-api",
-      "mod-audio-stream",
-      "openai-realtime",
-      "pipecat",
-      "sip",
-      "telephony",
-      "text-to-speech",
-      "twilio",
-      "vapi",
-      "voice-agent",
-      "voice-ai",
-      "voip",
-      "websocket"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-03T15:33:18Z",
-    "updated_at": "2026-08-08T14:16:50Z",
-    "owner": {
-      "name": "wiringai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/312584438?v=4"
-    }
-  },
-  {
     "name": "Novotarskyi/ivan-bohun",
     "url": "https://github.com/Novotarskyi/ivan-bohun",
     "description": "A personal website served from six ESP32-S3 microcontrollers: elected load balancer, virtual-MAC failover, OTA with rollback. No cloud, no CDN, no Pi.",
@@ -791,6 +738,30 @@
     }
   },
   {
+    "name": "brilliantlabsAR/halo-firmware",
+    "url": "https://github.com/brilliantlabsAR/halo-firmware",
+    "description": "Firmware for Halo, Brilliant Labs' AI glasses — Zephyr RTOS on the Alif Balletto, with a Lua runtime for on-device apps and BLE OTA updates",
+    "stars": 28,
+    "forks": 10,
+    "language": "C",
+    "topics": [
+      "alif",
+      "ble",
+      "firmware",
+      "lua",
+      "mcuboot",
+      "smart-glasses",
+      "zephyr"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-19T03:06:18Z",
+    "updated_at": "2026-08-23T00:24:31Z",
+    "owner": {
+      "name": "brilliantlabsAR",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101440566?v=4"
+    }
+  },
+  {
     "name": "KingOfTheNOPs/SilentChrome-BOF",
     "url": "https://github.com/KingOfTheNOPs/SilentChrome-BOF",
     "description": "SilentChrome-BOF installs Chromium extension, native messaging, and Isolated Web App profile artifacts",
@@ -893,30 +864,6 @@
     }
   },
   {
-    "name": "brilliantlabsAR/halo-firmware",
-    "url": "https://github.com/brilliantlabsAR/halo-firmware",
-    "description": "Firmware for Halo, Brilliant Labs' AI glasses — Zephyr RTOS on the Alif Balletto, with a Lua runtime for on-device apps and BLE OTA updates",
-    "stars": 22,
-    "forks": 8,
-    "language": "C",
-    "topics": [
-      "alif",
-      "ble",
-      "firmware",
-      "lua",
-      "mcuboot",
-      "smart-glasses",
-      "zephyr"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-19T03:06:18Z",
-    "updated_at": "2026-08-22T01:20:45Z",
-    "owner": {
-      "name": "brilliantlabsAR",
-      "avatar_url": "https://avatars.githubusercontent.com/u/101440566?v=4"
-    }
-  },
-  {
     "name": "Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP",
     "url": "https://github.com/Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP",
     "description": "CVE-2026-66804 Windows Cross Device virtual camera EoP - Standard user to SYSTEM",
@@ -946,6 +893,22 @@
     "owner": {
       "name": "loosehose",
       "avatar_url": "https://avatars.githubusercontent.com/u/75705022?v=4"
+    }
+  },
+  {
+    "name": "NeuralF/Rea-Virtua-Cop-2-VR",
+    "url": "https://github.com/NeuralF/Rea-Virtua-Cop-2-VR",
+    "description": "Native VR mod for Virtua Cop 2 (1997 PC) — reconstructs the real 3D scene from the game's renderer and plays it through OpenXR with a motion-controller light gun.",
+    "stars": 21,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-20T20:12:38Z",
+    "updated_at": "2026-08-23T00:23:13Z",
+    "owner": {
+      "name": "NeuralF",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13064952?v=4"
     }
   },
   {
@@ -981,6 +944,29 @@
     }
   },
   {
+    "name": "Mudb0y/openevv",
+    "url": "https://github.com/Mudb0y/openevv",
+    "description": "Reimplementation of IBM's Embedded ViaVoice / ETI Eloquence SF in portable C",
+    "stars": 20,
+    "forks": 6,
+    "language": "C",
+    "topics": [
+      "accessibility",
+      "eloquence",
+      "reverse-engineering",
+      "screen-reader",
+      "text-to-speech",
+      "viavoice"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-20T16:39:07Z",
+    "updated_at": "2026-08-23T02:04:36Z",
+    "owner": {
+      "name": "Mudb0y",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48333171?v=4"
+    }
+  },
+  {
     "name": "Unchiga/YuGiOhForbiddenMemoriesRecomp",
     "url": "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp",
     "description": "Static recompilation of Yu-Gi-Oh! Forbidden Memories (PS1) into a native executable - with a live duel-rank meter, a fusion assistant, adjustable card drops and a cheat menu. Bring your own disc.",
@@ -1001,10 +987,26 @@
     ],
     "license": "Other",
     "created_at": "2026-08-19T18:06:39Z",
-    "updated_at": "2026-08-22T01:44:29Z",
+    "updated_at": "2026-08-22T07:41:05Z",
     "owner": {
       "name": "Unchiga",
       "avatar_url": "https://avatars.githubusercontent.com/u/28535889?v=4"
+    }
+  },
+  {
+    "name": "uamphome/mini_matter_display",
+    "url": "https://github.com/uamphome/mini_matter_display",
+    "description": null,
+    "stars": 19,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-20T04:33:35Z",
+    "updated_at": "2026-08-22T15:19:26Z",
+    "owner": {
+      "name": "uamphome",
+      "avatar_url": "https://avatars.githubusercontent.com/u/224534362?v=4"
     }
   },
   {
@@ -1147,22 +1149,6 @@
     }
   },
   {
-    "name": "uamphome/mini_matter_display",
-    "url": "https://github.com/uamphome/mini_matter_display",
-    "description": null,
-    "stars": 17,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-20T04:33:35Z",
-    "updated_at": "2026-08-22T00:50:46Z",
-    "owner": {
-      "name": "uamphome",
-      "avatar_url": "https://avatars.githubusercontent.com/u/224534362?v=4"
-    }
-  },
-  {
     "name": "lunzima/llama98-zh",
     "url": "https://github.com/lunzima/llama98-zh",
     "description": null,
@@ -1259,42 +1245,19 @@
     }
   },
   {
-    "name": "Mudb0y/openevv",
-    "url": "https://github.com/Mudb0y/openevv",
-    "description": "Reimplementation of IBM's Embedded ViaVoice / ETI Eloquence SF in portable C",
+    "name": "Artificial-Age/ESP32Gameboy",
+    "url": "https://github.com/Artificial-Age/ESP32Gameboy",
+    "description": "Headless Game Boy emulator on ESP32-S3 that streams video and audio to a phone browser over Wi-Fi.",
     "stars": 16,
-    "forks": 4,
-    "language": "C",
-    "topics": [
-      "accessibility",
-      "eloquence",
-      "reverse-engineering",
-      "screen-reader",
-      "text-to-speech",
-      "viavoice"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-20T16:39:07Z",
-    "updated_at": "2026-08-21T23:38:53Z",
-    "owner": {
-      "name": "Mudb0y",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48333171?v=4"
-    }
-  },
-  {
-    "name": "0xdeadbeefnetwork/KKYUMPoC",
-    "url": "https://github.com/0xdeadbeefnetwork/KKYUMPoC",
-    "description": null,
-    "stars": 16,
-    "forks": 3,
+    "forks": 2,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-08-16T04:25:16Z",
-    "updated_at": "2026-08-17T22:50:58Z",
+    "created_at": "2026-08-20T07:34:05Z",
+    "updated_at": "2026-08-22T14:02:43Z",
     "owner": {
-      "name": "0xdeadbeefnetwork",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93794938?v=4"
+      "name": "Artificial-Age",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127410589?v=4"
     }
   },
   {
@@ -1311,6 +1274,38 @@
     "owner": {
       "name": "lolz0r",
       "avatar_url": "https://avatars.githubusercontent.com/u/4228021?v=4"
+    }
+  },
+  {
+    "name": "ronak-create/deepseek-v4-in-c",
+    "url": "https://github.com/ronak-create/deepseek-v4-in-c",
+    "description": "DeepSeek-V4 in C99, streamed off NVMe. Runs the 284B Flash checkpoint from 3.2 GB of RAM, 1.81 s/token with a GPU, verified against PyTorch to 2.9e-6.",
+    "stars": 16,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-20T09:35:32Z",
+    "updated_at": "2026-08-22T14:05:08Z",
+    "owner": {
+      "name": "ronak-create",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84374383?v=4"
+    }
+  },
+  {
+    "name": "0xdeadbeefnetwork/KKYUMPoC",
+    "url": "https://github.com/0xdeadbeefnetwork/KKYUMPoC",
+    "description": null,
+    "stars": 16,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-16T04:25:16Z",
+    "updated_at": "2026-08-17T22:50:58Z",
+    "owner": {
+      "name": "0xdeadbeefnetwork",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93794938?v=4"
     }
   },
   {
@@ -1391,32 +1386,6 @@
     }
   },
   {
-    "name": "gabew100/VitaBtFix",
-    "url": "https://github.com/gabew100/VitaBtFix",
-    "description": "Fixes silent audio with newer AirPods and other Bluetooth headphones on jailbroken PS Vitas.",
-    "stars": 15,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "a2dp",
-      "airpods",
-      "bluetooth",
-      "homebrew",
-      "ps-vita",
-      "psvita",
-      "taihen",
-      "vita",
-      "vitasdk"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-16T13:33:32Z",
-    "updated_at": "2026-08-21T20:04:47Z",
-    "owner": {
-      "name": "gabew100",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35663965?v=4"
-    }
-  },
-  {
     "name": "Dovughs/mora-hwbp",
     "url": "https://github.com/Dovughs/mora-hwbp",
     "description": "Hardware Breakpoint (DR0-DR7) based patch-less user-mode hooking & telemetry instrumentation engine (AMSI, WLDP & ETW PoC).",
@@ -1448,6 +1417,32 @@
     "owner": {
       "name": "Dovughs",
       "avatar_url": "https://avatars.githubusercontent.com/u/103246314?v=4"
+    }
+  },
+  {
+    "name": "gabew100/VitaBtFix",
+    "url": "https://github.com/gabew100/VitaBtFix",
+    "description": "Fixes silent audio with newer AirPods and other Bluetooth headphones on jailbroken PS Vitas.",
+    "stars": 15,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "a2dp",
+      "airpods",
+      "bluetooth",
+      "homebrew",
+      "ps-vita",
+      "psvita",
+      "taihen",
+      "vita",
+      "vitasdk"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-16T13:33:32Z",
+    "updated_at": "2026-08-21T20:04:47Z",
+    "owner": {
+      "name": "gabew100",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35663965?v=4"
     }
   },
   {
@@ -1496,6 +1491,94 @@
     "owner": {
       "name": "abhisingh886387",
       "avatar_url": "https://avatars.githubusercontent.com/u/118423181?v=4"
+    }
+  },
+  {
+    "name": "trsthales/desvendando-elifoot-98",
+    "url": "https://github.com/trsthales/desvendando-elifoot-98",
+    "description": "Engenharia reversa do Elifoot 98 (16-bit Delphi) usando Ghidra no Linux: fórmulas matemáticas dos gols, bônus de nacionalidade, mitos e o motor de jogo desvendados.",
+    "stars": 14,
+    "forks": 3,
+    "language": "C",
+    "topics": [
+      "cheat-engine-program",
+      "debian",
+      "delphi",
+      "elifoot",
+      "elifoot98",
+      "engenharia-reversa",
+      "game-engine",
+      "game-mechanics",
+      "ghidra",
+      "linux",
+      "retrogaming",
+      "reverse-engineering",
+      "x86-16bit"
+    ],
+    "license": "No license",
+    "created_at": "2026-08-21T07:05:59Z",
+    "updated_at": "2026-08-23T02:19:16Z",
+    "owner": {
+      "name": "trsthales",
+      "avatar_url": "https://avatars.githubusercontent.com/u/207514989?v=4"
+    }
+  },
+  {
+    "name": "monovibe/s26u-m3q-temp-root",
+    "url": "https://github.com/monovibe/s26u-m3q-temp-root",
+    "description": "Temporary KernelSU root and LSPosed recovery app for Galaxy S26 Ultra SM-S948N AZG3",
+    "stars": 14,
+    "forks": 7,
+    "language": "C",
+    "topics": [
+      "android",
+      "galaxy-s26-ultra",
+      "kernelsu",
+      "lsposed",
+      "samsung",
+      "security-research"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-18T02:23:32Z",
+    "updated_at": "2026-08-22T18:40:51Z",
+    "owner": {
+      "name": "monovibe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/318074817?v=4"
+    }
+  },
+  {
+    "name": "GeorgeKiritsis/Csv.h",
+    "url": "https://github.com/GeorgeKiritsis/Csv.h",
+    "description": "A lightweight, zero-allocation CSV library written in portable C99. Supports RFC 4180 parsing, streaming, zero-copy fields, writing, fuzz testing, and high-performance CSV processing with no external dependencies.",
+    "stars": 14,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "c",
+      "cpp",
+      "csv",
+      "csv-converter",
+      "csv-export",
+      "csv-files",
+      "csv-import",
+      "csv-parser",
+      "csv-parsing",
+      "csv-processing",
+      "csv-reader",
+      "csv-reading",
+      "header-only",
+      "lightweight",
+      "open-source",
+      "portable",
+      "zero-dependencies",
+      "zero-dependency"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-18T16:06:31Z",
+    "updated_at": "2026-08-22T09:46:15Z",
+    "owner": {
+      "name": "GeorgeKiritsis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/151519458?v=4"
     }
   },
   {
@@ -1622,70 +1705,24 @@
     }
   },
   {
-    "name": "minkgx1/pocket-buddy",
-    "url": "https://github.com/minkgx1/pocket-buddy",
-    "description": "AI Pocket Buddy - Waveshare ESP32-S3 Touch LCD 1.46",
-    "stars": 14,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-04T22:49:40Z",
-    "updated_at": "2026-08-08T17:18:21Z",
-    "owner": {
-      "name": "minkgx1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/225291431?v=4"
-    }
-  },
-  {
-    "name": "Artificial-Age/ESP32Gameboy",
-    "url": "https://github.com/Artificial-Age/ESP32Gameboy",
-    "description": "Headless Game Boy emulator on ESP32-S3 that streams video and audio to a phone browser over Wi-Fi.",
-    "stars": 13,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-20T07:34:05Z",
-    "updated_at": "2026-08-21T12:23:06Z",
-    "owner": {
-      "name": "Artificial-Age",
-      "avatar_url": "https://avatars.githubusercontent.com/u/127410589?v=4"
-    }
-  },
-  {
-    "name": "GeorgeKiritsis/Csv.h",
-    "url": "https://github.com/GeorgeKiritsis/Csv.h",
-    "description": "A lightweight, zero-allocation CSV library written in portable C99. Supports RFC 4180 parsing, streaming, zero-copy fields, writing, fuzz testing, and high-performance CSV processing with no external dependencies.",
+    "name": "neuromancer/wc2-re",
+    "url": "https://github.com/neuromancer/wc2-re",
+    "description": "Wing Commander 2 source reconstruction and SDL2 port",
     "stars": 13,
     "forks": 1,
     "language": "C",
     "topics": [
-      "c",
-      "cpp",
-      "csv",
-      "csv-converter",
-      "csv-export",
-      "csv-files",
-      "csv-import",
-      "csv-parser",
-      "csv-parsing",
-      "csv-processing",
-      "csv-reader",
-      "csv-reading",
-      "header-only",
-      "lightweight",
-      "open-source",
-      "portable",
-      "zero-dependencies",
-      "zero-dependency"
+      "dos-gaming",
+      "reverse-engineering",
+      "source-code-recovery",
+      "wing-commander"
     ],
-    "license": "MIT License",
-    "created_at": "2026-08-18T16:06:31Z",
-    "updated_at": "2026-08-22T01:03:37Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-17T08:42:45Z",
+    "updated_at": "2026-08-22T21:55:45Z",
     "owner": {
-      "name": "GeorgeKiritsis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/151519458?v=4"
+      "name": "neuromancer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110782?v=4"
     }
   },
   {
@@ -1702,22 +1739,6 @@
     "owner": {
       "name": "graydon",
       "avatar_url": "https://avatars.githubusercontent.com/u/14097?v=4"
-    }
-  },
-  {
-    "name": "NeuralF/Rea-Virtua-Cop-2-VR",
-    "url": "https://github.com/NeuralF/Rea-Virtua-Cop-2-VR",
-    "description": "Native VR mod for Virtua Cop 2 (1997 PC) — reconstructs the real 3D scene from the game's renderer and plays it through OpenXR with a motion-controller light gun.",
-    "stars": 13,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-20T20:12:38Z",
-    "updated_at": "2026-08-22T02:22:08Z",
-    "owner": {
-      "name": "NeuralF",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13064952?v=4"
     }
   },
   {
@@ -1785,47 +1806,19 @@
     }
   },
   {
-    "name": "neuromancer/wc2-re",
-    "url": "https://github.com/neuromancer/wc2-re",
-    "description": "Wing Commander 2 source reconstruction and SDL2 port",
+    "name": "WeedHashPeddler/PussyBlocker-UndefendV2",
+    "url": "https://github.com/WeedHashPeddler/PussyBlocker-UndefendV2",
+    "description": null,
     "stars": 12,
-    "forks": 1,
+    "forks": 2,
     "language": "C",
-    "topics": [
-      "dos-gaming",
-      "reverse-engineering",
-      "source-code-recovery",
-      "wing-commander"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-17T08:42:45Z",
-    "updated_at": "2026-08-22T01:50:44Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-20T10:36:06Z",
+    "updated_at": "2026-08-22T21:51:25Z",
     "owner": {
-      "name": "neuromancer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/110782?v=4"
-    }
-  },
-  {
-    "name": "monovibe/s26u-m3q-temp-root",
-    "url": "https://github.com/monovibe/s26u-m3q-temp-root",
-    "description": "Temporary KernelSU root and LSPosed recovery app for Galaxy S26 Ultra SM-S948N AZG3",
-    "stars": 12,
-    "forks": 6,
-    "language": "C",
-    "topics": [
-      "android",
-      "galaxy-s26-ultra",
-      "kernelsu",
-      "lsposed",
-      "samsung",
-      "security-research"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-18T02:23:32Z",
-    "updated_at": "2026-08-21T06:59:36Z",
-    "owner": {
-      "name": "monovibe",
-      "avatar_url": "https://avatars.githubusercontent.com/u/318074817?v=4"
+      "name": "WeedHashPeddler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/191970052?v=4"
     }
   },
   {
@@ -1842,22 +1835,6 @@
     "owner": {
       "name": "LazydaysCr",
       "avatar_url": "https://avatars.githubusercontent.com/u/307534091?v=4"
-    }
-  },
-  {
-    "name": "ronak-create/deepseek-v4-in-c",
-    "url": "https://github.com/ronak-create/deepseek-v4-in-c",
-    "description": "DeepSeek-V4 in C99, streamed off NVMe. Runs the 284B Flash checkpoint from 3.2 GB of RAM, 1.81 s/token with a GPU, verified against PyTorch to 2.9e-6.",
-    "stars": 11,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-20T09:35:32Z",
-    "updated_at": "2026-08-22T00:42:41Z",
-    "owner": {
-      "name": "ronak-create",
-      "avatar_url": "https://avatars.githubusercontent.com/u/84374383?v=4"
     }
   },
   {
@@ -1964,6 +1941,22 @@
     }
   },
   {
+    "name": "sliverarmory/Situational-Awareness-BOFs",
+    "url": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+    "description": "Cross-platform situational-awareness BOFs for Windows, Linux, and macOS",
+    "stars": 10,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-08-20T03:32:24Z",
+    "updated_at": "2026-08-22T14:32:02Z",
+    "owner": {
+      "name": "sliverarmory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96838313?v=4"
+    }
+  },
+  {
     "name": "sysprog21/geotrace",
     "url": "https://github.com/sysprog21/geotrace",
     "description": "Visualize outbound public IPv4 traffic as a terminal-native world map",
@@ -1977,6 +1970,38 @@
     "owner": {
       "name": "sysprog21",
       "avatar_url": "https://avatars.githubusercontent.com/u/22310129?v=4"
+    }
+  },
+  {
+    "name": "SegfaultEvan/goldeneye-native",
+    "url": "https://github.com/SegfaultEvan/goldeneye-native",
+    "description": "Native OpenGL GoldenEye 007 port built from the 100%-complete decompilation. BYO ROM.",
+    "stars": 10,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-21T23:28:20Z",
+    "updated_at": "2026-08-23T02:48:43Z",
+    "owner": {
+      "name": "SegfaultEvan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/318355275?v=4"
+    }
+  },
+  {
+    "name": "DianKuang0120/Mainline-Kernel-For-OnePlus-Ace5",
+    "url": "https://github.com/DianKuang0120/Mainline-Kernel-For-OnePlus-Ace5",
+    "description": "Mainline-Kernel-For-OnePlus-Ace5",
+    "stars": 10,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-08-18T09:16:30Z",
+    "updated_at": "2026-08-22T10:59:18Z",
+    "owner": {
+      "name": "DianKuang0120",
+      "avatar_url": "https://avatars.githubusercontent.com/u/304523735?v=4"
     }
   },
   {
@@ -2117,22 +2142,6 @@
     "owner": {
       "name": "BA-Momoi",
       "avatar_url": "https://avatars.githubusercontent.com/u/190167351?v=4"
-    }
-  },
-  {
-    "name": "harmansingh4163-ai/R-457",
-    "url": "https://github.com/harmansingh4163-ai/R-457",
-    "description": "First public release of R-457 — a 27M-parameter reasoning model running entirely offline across two ESP32-S3 boards.  **What it does:** answers questions from a 792-key knowledge bank on SD, calls on-chip tools for arithmetic and counting, refuses honestly when the facts don't support an answer, writes grounded paragraphs, and learns new facts. ",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-03T05:47:51Z",
-    "updated_at": "2026-08-08T17:12:49Z",
-    "owner": {
-      "name": "harmansingh4163-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/280861250?v=4"
     }
   }
 ]
