@@ -256,6 +256,22 @@
     }
   },
   {
+    "name": "zer0condition/GoodmansKernel",
+    "url": "https://github.com/zer0condition/GoodmansKernel",
+    "description": "Run unsigned kernel payloads in a signed kernel driver via wasm3. No JIT/W^x (HVCI/etc., compliant)",
+    "stars": 89,
+    "forks": 6,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-18T19:53:22Z",
+    "updated_at": "2026-08-24T00:40:19Z",
+    "owner": {
+      "name": "zer0condition",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70964202?v=4"
+    }
+  },
+  {
     "name": "staturnzz/momentarius",
     "url": "https://github.com/staturnzz/momentarius",
     "description": "A12/A13 PPL Bypass",
@@ -269,22 +285,6 @@
     "owner": {
       "name": "staturnzz",
       "avatar_url": "https://avatars.githubusercontent.com/u/118011249?v=4"
-    }
-  },
-  {
-    "name": "zer0condition/GoodmansKernel",
-    "url": "https://github.com/zer0condition/GoodmansKernel",
-    "description": "Run unsigned kernel payloads in a signed kernel driver via wasm3. No JIT/W^x (HVCI/etc., compliant)",
-    "stars": 85,
-    "forks": 6,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-18T19:53:22Z",
-    "updated_at": "2026-08-23T02:06:47Z",
-    "owner": {
-      "name": "zer0condition",
-      "avatar_url": "https://avatars.githubusercontent.com/u/70964202?v=4"
     }
   },
   {
@@ -320,22 +320,6 @@
     }
   },
   {
-    "name": "Carloscodix/qapla",
-    "url": "https://github.com/Carloscodix/qapla",
-    "description": "A char-level transformer trained from scratch on an $8 ESP32-S3. Not inference: the chip runs the full training loop, with backprop written by hand in C.",
-    "stars": 79,
-    "forks": 5,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-04T11:53:16Z",
-    "updated_at": "2026-08-09T17:49:20Z",
-    "owner": {
-      "name": "Carloscodix",
-      "avatar_url": "https://avatars.githubusercontent.com/u/104160877?v=4"
-    }
-  },
-  {
     "name": "pcm720/dvrpwned",
     "url": "https://github.com/pcm720/dvrpwned",
     "description": "The first ever working custom firmware for the PSX DESR DVRP",
@@ -365,31 +349,6 @@
     "owner": {
       "name": "xoreaxeaxeax",
       "avatar_url": "https://avatars.githubusercontent.com/u/12904366?v=4"
-    }
-  },
-  {
-    "name": "antitree/nfc_canary",
-    "url": "https://github.com/antitree/nfc_canary",
-    "description": "Flipper Zero app: a canary for your pocket — detects when someone scans you over NFC and alerts you by vibration",
-    "stars": 68,
-    "forks": 8,
-    "language": "C",
-    "topics": [
-      "embedded",
-      "fap",
-      "flipper-zero",
-      "flipperzero",
-      "nfc",
-      "privacy",
-      "rfid",
-      "security"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-03T14:54:26Z",
-    "updated_at": "2026-08-09T02:56:39Z",
-    "owner": {
-      "name": "antitree",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1119175?v=4"
     }
   },
   {
@@ -463,7 +422,7 @@
     "name": "CleanShirtUK/orbit-wallpaper-engine",
     "url": "https://github.com/CleanShirtUK/orbit-wallpaper-engine",
     "description": "A lightweight Wayland shader wallpaper engine with standalone settings, palette integration and shader browsing.",
-    "stars": 47,
+    "stars": 50,
     "forks": 0,
     "language": "C",
     "topics": [
@@ -476,7 +435,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-08-19T16:03:45Z",
-    "updated_at": "2026-08-22T13:04:47Z",
+    "updated_at": "2026-08-23T20:32:09Z",
     "owner": {
       "name": "CleanShirtUK",
       "avatar_url": "https://avatars.githubusercontent.com/u/125589685?v=4"
@@ -738,10 +697,26 @@
     }
   },
   {
+    "name": "SegfaultEvan/goldeneye-native",
+    "url": "https://github.com/SegfaultEvan/goldeneye-native",
+    "description": "Native OpenGL GoldenEye 007 port built from the 100%-complete decompilation. BYO ROM.",
+    "stars": 29,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-21T23:28:20Z",
+    "updated_at": "2026-08-24T01:28:04Z",
+    "owner": {
+      "name": "SegfaultEvan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/318355275?v=4"
+    }
+  },
+  {
     "name": "brilliantlabsAR/halo-firmware",
     "url": "https://github.com/brilliantlabsAR/halo-firmware",
     "description": "Firmware for Halo, Brilliant Labs' AI glasses — Zephyr RTOS on the Alif Balletto, with a Lua runtime for on-device apps and BLE OTA updates",
-    "stars": 28,
+    "stars": 29,
     "forks": 10,
     "language": "C",
     "topics": [
@@ -755,10 +730,26 @@
     ],
     "license": "Other",
     "created_at": "2026-08-19T03:06:18Z",
-    "updated_at": "2026-08-23T00:24:31Z",
+    "updated_at": "2026-08-23T07:50:51Z",
     "owner": {
       "name": "brilliantlabsAR",
       "avatar_url": "https://avatars.githubusercontent.com/u/101440566?v=4"
+    }
+  },
+  {
+    "name": "NeuralF/Rea-Virtua-Cop-2-VR",
+    "url": "https://github.com/NeuralF/Rea-Virtua-Cop-2-VR",
+    "description": "Native VR mod for Virtua Cop 2 (1997 PC) — reconstructs the real 3D scene from the game's renderer and plays it through OpenXR with a motion-controller light gun.",
+    "stars": 28,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-20T20:12:38Z",
+    "updated_at": "2026-08-24T01:01:12Z",
+    "owner": {
+      "name": "NeuralF",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13064952?v=4"
     }
   },
   {
@@ -832,6 +823,64 @@
     }
   },
   {
+    "name": "Artificial-Age/ESP32Gameboy",
+    "url": "https://github.com/Artificial-Age/ESP32Gameboy",
+    "description": "Headless Game Boy emulator on ESP32-S3 that streams video and audio to a phone browser over Wi-Fi.",
+    "stars": 25,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-20T07:34:05Z",
+    "updated_at": "2026-08-24T01:41:40Z",
+    "owner": {
+      "name": "Artificial-Age",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127410589?v=4"
+    }
+  },
+  {
+    "name": "uamphome/mini_matter_display",
+    "url": "https://github.com/uamphome/mini_matter_display",
+    "description": null,
+    "stars": 24,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-20T04:33:35Z",
+    "updated_at": "2026-08-24T00:17:53Z",
+    "owner": {
+      "name": "uamphome",
+      "avatar_url": "https://avatars.githubusercontent.com/u/224534362?v=4"
+    }
+  },
+  {
+    "name": "epynic/MeterEye",
+    "url": "https://github.com/epynic/MeterEye",
+    "description": "A camera reads my electricity meter's LCD so I don't have to. ESP32-CAM + custom 7-segment decoder, no ML, no cloud",
+    "stars": 23,
+    "forks": 7,
+    "language": "C",
+    "topics": [
+      "7-segment",
+      "energy-monitoring",
+      "esp32-cam",
+      "home-automation",
+      "iot",
+      "ocr",
+      "php",
+      "python",
+      "solar"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-23T05:14:54Z",
+    "updated_at": "2026-08-24T02:53:56Z",
+    "owner": {
+      "name": "epynic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2527481?v=4"
+    }
+  },
+  {
     "name": "Zepp-Hanzj/cmsis-runtime-watchpoint",
     "url": "https://github.com/Zepp-Hanzj/cmsis-runtime-watchpoint",
     "description": "Portable CMSIS-Core runtime DWT watchpoints with optional FreeRTOS deferred event handling",
@@ -896,22 +945,6 @@
     }
   },
   {
-    "name": "NeuralF/Rea-Virtua-Cop-2-VR",
-    "url": "https://github.com/NeuralF/Rea-Virtua-Cop-2-VR",
-    "description": "Native VR mod for Virtua Cop 2 (1997 PC) — reconstructs the real 3D scene from the game's renderer and plays it through OpenXR with a motion-controller light gun.",
-    "stars": 21,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-20T20:12:38Z",
-    "updated_at": "2026-08-23T00:23:13Z",
-    "owner": {
-      "name": "NeuralF",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13064952?v=4"
-    }
-  },
-  {
     "name": "aramosf/CVE-2026-68138",
     "url": "https://github.com/aramosf/CVE-2026-68138",
     "description": "CVE-2026-68138 Linux qdisc rate-table race local privilege escalation PoC",
@@ -960,7 +993,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-20T16:39:07Z",
-    "updated_at": "2026-08-23T02:04:36Z",
+    "updated_at": "2026-08-23T14:32:42Z",
     "owner": {
       "name": "Mudb0y",
       "avatar_url": "https://avatars.githubusercontent.com/u/48333171?v=4"
@@ -987,26 +1020,10 @@
     ],
     "license": "Other",
     "created_at": "2026-08-19T18:06:39Z",
-    "updated_at": "2026-08-22T07:41:05Z",
+    "updated_at": "2026-08-23T10:31:22Z",
     "owner": {
       "name": "Unchiga",
       "avatar_url": "https://avatars.githubusercontent.com/u/28535889?v=4"
-    }
-  },
-  {
-    "name": "uamphome/mini_matter_display",
-    "url": "https://github.com/uamphome/mini_matter_display",
-    "description": null,
-    "stars": 19,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-20T04:33:35Z",
-    "updated_at": "2026-08-22T15:19:26Z",
-    "owner": {
-      "name": "uamphome",
-      "avatar_url": "https://avatars.githubusercontent.com/u/224534362?v=4"
     }
   },
   {
@@ -1133,19 +1150,19 @@
     }
   },
   {
-    "name": "drakmor/fan_target",
-    "url": "https://github.com/drakmor/fan_target",
-    "description": "PS5 fan controller",
-    "stars": 18,
+    "name": "ronak-create/deepseek-v4-in-c",
+    "url": "https://github.com/ronak-create/deepseek-v4-in-c",
+    "description": "DeepSeek-V4 in C99, streamed off NVMe. Runs the 284B Flash checkpoint from 3.2 GB of RAM, 1.81 s/token with a GPU, verified against PyTorch to 2.9e-6.",
+    "stars": 17,
     "forks": 1,
     "language": "C",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-04T16:55:15Z",
-    "updated_at": "2026-08-10T00:17:45Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-20T09:35:32Z",
+    "updated_at": "2026-08-23T11:21:18Z",
     "owner": {
-      "name": "drakmor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1344732?v=4"
+      "name": "ronak-create",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84374383?v=4"
     }
   },
   {
@@ -1245,19 +1262,37 @@
     }
   },
   {
-    "name": "Artificial-Age/ESP32Gameboy",
-    "url": "https://github.com/Artificial-Age/ESP32Gameboy",
-    "description": "Headless Game Boy emulator on ESP32-S3 that streams video and audio to a phone browser over Wi-Fi.",
+    "name": "Dovughs/mora-hwbp",
+    "url": "https://github.com/Dovughs/mora-hwbp",
+    "description": "Hardware Breakpoint (DR0-DR7) based patch-less user-mode hooking & telemetry instrumentation engine (AMSI, WLDP & ETW PoC).",
     "stars": 16,
-    "forks": 2,
+    "forks": 1,
     "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-20T07:34:05Z",
-    "updated_at": "2026-08-22T14:02:43Z",
+    "topics": [
+      "amsi",
+      "amsi-bypass",
+      "amsi-evasion",
+      "c",
+      "edr-evasion",
+      "etw",
+      "etw-bypass",
+      "etw-evasion",
+      "hardware-breakpoints",
+      "hwbp",
+      "hwbp-evasion",
+      "in-memory",
+      "patchless-hooking",
+      "security-research",
+      "veh",
+      "wldp",
+      "wldp-bypass"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-19T15:06:00Z",
+    "updated_at": "2026-08-23T06:11:07Z",
     "owner": {
-      "name": "Artificial-Age",
-      "avatar_url": "https://avatars.githubusercontent.com/u/127410589?v=4"
+      "name": "Dovughs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103246314?v=4"
     }
   },
   {
@@ -1274,22 +1309,6 @@
     "owner": {
       "name": "lolz0r",
       "avatar_url": "https://avatars.githubusercontent.com/u/4228021?v=4"
-    }
-  },
-  {
-    "name": "ronak-create/deepseek-v4-in-c",
-    "url": "https://github.com/ronak-create/deepseek-v4-in-c",
-    "description": "DeepSeek-V4 in C99, streamed off NVMe. Runs the 284B Flash checkpoint from 3.2 GB of RAM, 1.81 s/token with a GPU, verified against PyTorch to 2.9e-6.",
-    "stars": 16,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-20T09:35:32Z",
-    "updated_at": "2026-08-22T14:05:08Z",
-    "owner": {
-      "name": "ronak-create",
-      "avatar_url": "https://avatars.githubusercontent.com/u/84374383?v=4"
     }
   },
   {
@@ -1386,37 +1405,56 @@
     }
   },
   {
-    "name": "Dovughs/mora-hwbp",
-    "url": "https://github.com/Dovughs/mora-hwbp",
-    "description": "Hardware Breakpoint (DR0-DR7) based patch-less user-mode hooking & telemetry instrumentation engine (AMSI, WLDP & ETW PoC).",
+    "name": "trsthales/desvendando-elifoot-98",
+    "url": "https://github.com/trsthales/desvendando-elifoot-98",
+    "description": "Engenharia reversa do Elifoot 98 (16-bit Delphi) usando Ghidra no Linux: fórmulas matemáticas dos gols, bônus de nacionalidade, mitos e o motor de jogo desvendados.",
     "stars": 15,
-    "forks": 1,
+    "forks": 3,
     "language": "C",
     "topics": [
-      "amsi",
-      "amsi-bypass",
-      "amsi-evasion",
-      "c",
-      "edr-evasion",
-      "etw",
-      "etw-bypass",
-      "etw-evasion",
-      "hardware-breakpoints",
-      "hwbp",
-      "hwbp-evasion",
-      "in-memory",
-      "patchless-hooking",
-      "security-research",
-      "veh",
-      "wldp",
-      "wldp-bypass"
+      "cheat-engine-program",
+      "debian",
+      "delphi",
+      "elifoot",
+      "elifoot98",
+      "engenharia-reversa",
+      "game-engine",
+      "game-mechanics",
+      "ghidra",
+      "linux",
+      "retrogaming",
+      "reverse-engineering",
+      "x86-16bit"
     ],
-    "license": "MIT License",
-    "created_at": "2026-08-19T15:06:00Z",
-    "updated_at": "2026-08-21T13:46:39Z",
+    "license": "No license",
+    "created_at": "2026-08-21T07:05:59Z",
+    "updated_at": "2026-08-23T11:38:41Z",
     "owner": {
-      "name": "Dovughs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/103246314?v=4"
+      "name": "trsthales",
+      "avatar_url": "https://avatars.githubusercontent.com/u/207514989?v=4"
+    }
+  },
+  {
+    "name": "monovibe/s26u-m3q-temp-root",
+    "url": "https://github.com/monovibe/s26u-m3q-temp-root",
+    "description": "Temporary KernelSU root and LSPosed recovery app for Galaxy S26 Ultra SM-S948N AZG3",
+    "stars": 15,
+    "forks": 7,
+    "language": "C",
+    "topics": [
+      "android",
+      "galaxy-s26-ultra",
+      "kernelsu",
+      "lsposed",
+      "samsung",
+      "security-research"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-18T02:23:32Z",
+    "updated_at": "2026-08-23T23:11:41Z",
+    "owner": {
+      "name": "monovibe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/318074817?v=4"
     }
   },
   {
@@ -1491,59 +1529,6 @@
     "owner": {
       "name": "abhisingh886387",
       "avatar_url": "https://avatars.githubusercontent.com/u/118423181?v=4"
-    }
-  },
-  {
-    "name": "trsthales/desvendando-elifoot-98",
-    "url": "https://github.com/trsthales/desvendando-elifoot-98",
-    "description": "Engenharia reversa do Elifoot 98 (16-bit Delphi) usando Ghidra no Linux: fórmulas matemáticas dos gols, bônus de nacionalidade, mitos e o motor de jogo desvendados.",
-    "stars": 14,
-    "forks": 3,
-    "language": "C",
-    "topics": [
-      "cheat-engine-program",
-      "debian",
-      "delphi",
-      "elifoot",
-      "elifoot98",
-      "engenharia-reversa",
-      "game-engine",
-      "game-mechanics",
-      "ghidra",
-      "linux",
-      "retrogaming",
-      "reverse-engineering",
-      "x86-16bit"
-    ],
-    "license": "No license",
-    "created_at": "2026-08-21T07:05:59Z",
-    "updated_at": "2026-08-23T02:19:16Z",
-    "owner": {
-      "name": "trsthales",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207514989?v=4"
-    }
-  },
-  {
-    "name": "monovibe/s26u-m3q-temp-root",
-    "url": "https://github.com/monovibe/s26u-m3q-temp-root",
-    "description": "Temporary KernelSU root and LSPosed recovery app for Galaxy S26 Ultra SM-S948N AZG3",
-    "stars": 14,
-    "forks": 7,
-    "language": "C",
-    "topics": [
-      "android",
-      "galaxy-s26-ultra",
-      "kernelsu",
-      "lsposed",
-      "samsung",
-      "security-research"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-18T02:23:32Z",
-    "updated_at": "2026-08-22T18:40:51Z",
-    "owner": {
-      "name": "monovibe",
-      "avatar_url": "https://avatars.githubusercontent.com/u/318074817?v=4"
     }
   },
   {
@@ -1689,19 +1674,19 @@
     }
   },
   {
-    "name": "horsicq/CDiE",
-    "url": "https://github.com/horsicq/CDiE",
-    "description": "Detect It Easy engine in pure C",
-    "stars": 14,
-    "forks": 1,
+    "name": "WeedHashPeddler/PussyBlocker-UndefendV2",
+    "url": "https://github.com/WeedHashPeddler/PussyBlocker-UndefendV2",
+    "description": null,
+    "stars": 13,
+    "forks": 2,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-04T17:06:48Z",
-    "updated_at": "2026-08-09T09:13:03Z",
+    "license": "No license",
+    "created_at": "2026-08-20T10:36:06Z",
+    "updated_at": "2026-08-23T15:30:12Z",
     "owner": {
-      "name": "horsicq",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7762949?v=4"
+      "name": "WeedHashPeddler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/191970052?v=4"
     }
   },
   {
@@ -1774,22 +1759,6 @@
     }
   },
   {
-    "name": "espressif/esp-rainmaker-neo-firmware",
-    "url": "https://github.com/espressif/esp-rainmaker-neo-firmware",
-    "description": "Firmware SDK for ESP RainMaker Neo",
-    "stars": 13,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-05T05:37:17Z",
-    "updated_at": "2026-08-10T02:40:46Z",
-    "owner": {
-      "name": "espressif",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9460735?v=4"
-    }
-  },
-  {
     "name": "puzzled-pancake/pocket-realm",
     "url": "https://github.com/puzzled-pancake/pocket-realm",
     "description": "Pocket Realm — offline WoW 1.12.1 private realm for Android handhelds (alpha)",
@@ -1799,26 +1768,10 @@
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-08-18T04:48:05Z",
-    "updated_at": "2026-08-20T11:17:20Z",
+    "updated_at": "2026-08-24T00:16:46Z",
     "owner": {
       "name": "puzzled-pancake",
       "avatar_url": "https://avatars.githubusercontent.com/u/78745145?v=4"
-    }
-  },
-  {
-    "name": "WeedHashPeddler/PussyBlocker-UndefendV2",
-    "url": "https://github.com/WeedHashPeddler/PussyBlocker-UndefendV2",
-    "description": null,
-    "stars": 12,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-20T10:36:06Z",
-    "updated_at": "2026-08-22T21:51:25Z",
-    "owner": {
-      "name": "WeedHashPeddler",
-      "avatar_url": "https://avatars.githubusercontent.com/u/191970052?v=4"
     }
   },
   {
@@ -1835,6 +1788,60 @@
     "owner": {
       "name": "LazydaysCr",
       "avatar_url": "https://avatars.githubusercontent.com/u/307534091?v=4"
+    }
+  },
+  {
+    "name": "maniekx86/m68k_pci",
+    "url": "https://github.com/maniekx86/m68k_pci",
+    "description": "All the sources for my homebrew 68000 computer with PCI bus",
+    "stars": 11,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-19T19:00:52Z",
+    "updated_at": "2026-08-23T18:13:57Z",
+    "owner": {
+      "name": "maniekx86",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104389805?v=4"
+    }
+  },
+  {
+    "name": "sammwyy/clay",
+    "url": "https://github.com/sammwyy/clay",
+    "description": "Compact coding-agent harness built for people who prefer to stay in the terminal",
+    "stars": 11,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "agent",
+      "ai",
+      "coding",
+      "harness",
+      "llm"
+    ],
+    "license": "No license",
+    "created_at": "2026-08-21T14:30:50Z",
+    "updated_at": "2026-08-24T01:25:15Z",
+    "owner": {
+      "name": "sammwyy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44925968?v=4"
+    }
+  },
+  {
+    "name": "sliverarmory/Situational-Awareness-BOFs",
+    "url": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+    "description": "Cross-platform situational-awareness BOFs for Windows, Linux, and macOS",
+    "stars": 11,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-08-20T03:32:24Z",
+    "updated_at": "2026-08-23T21:02:41Z",
+    "owner": {
+      "name": "sliverarmory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96838313?v=4"
     }
   },
   {
@@ -1925,35 +1932,19 @@
     }
   },
   {
-    "name": "maniekx86/m68k_pci",
-    "url": "https://github.com/maniekx86/m68k_pci",
-    "description": "All the sources for my homebrew 68000 computer with PCI bus",
+    "name": "Epic0522/3ds-anmboot",
+    "url": "https://github.com/Epic0522/3ds-anmboot",
+    "description": "Animated 3DS official-like logo boot wrapper.",
     "stars": 10,
     "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-19T19:00:52Z",
-    "updated_at": "2026-08-21T21:08:20Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-19T05:50:22Z",
+    "updated_at": "2026-08-23T14:01:25Z",
     "owner": {
-      "name": "maniekx86",
-      "avatar_url": "https://avatars.githubusercontent.com/u/104389805?v=4"
-    }
-  },
-  {
-    "name": "sliverarmory/Situational-Awareness-BOFs",
-    "url": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
-    "description": "Cross-platform situational-awareness BOFs for Windows, Linux, and macOS",
-    "stars": 10,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-08-20T03:32:24Z",
-    "updated_at": "2026-08-22T14:32:02Z",
-    "owner": {
-      "name": "sliverarmory",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96838313?v=4"
+      "name": "Epic0522",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67914358?v=4"
     }
   },
   {
@@ -1973,19 +1964,19 @@
     }
   },
   {
-    "name": "SegfaultEvan/goldeneye-native",
-    "url": "https://github.com/SegfaultEvan/goldeneye-native",
-    "description": "Native OpenGL GoldenEye 007 port built from the 100%-complete decompilation. BYO ROM.",
+    "name": "Brendonm17/Cordless",
+    "url": "https://github.com/Brendonm17/Cordless",
+    "description": "Unofficial Discord Client for PS Vita",
     "stars": 10,
     "forks": 1,
     "language": "C",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-08-21T23:28:20Z",
-    "updated_at": "2026-08-23T02:48:43Z",
+    "created_at": "2026-08-19T09:51:13Z",
+    "updated_at": "2026-08-23T17:10:04Z",
     "owner": {
-      "name": "SegfaultEvan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/318355275?v=4"
+      "name": "Brendonm17",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63375235?v=4"
     }
   },
   {
@@ -2005,6 +1996,22 @@
     }
   },
   {
+    "name": "blakemcbride/Smalltalk-2026",
+    "url": "https://github.com/blakemcbride/Smalltalk-2026",
+    "description": "True multi-threading Smalltalk",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-18T20:55:14Z",
+    "updated_at": "2026-08-24T00:42:09Z",
+    "owner": {
+      "name": "blakemcbride",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6467584?v=4"
+    }
+  },
+  {
     "name": "Nithish-Bharathwaj-N/OS-PRACTICALS",
     "url": "https://github.com/Nithish-Bharathwaj-N/OS-PRACTICALS",
     "description": null,
@@ -2018,22 +2025,6 @@
     "owner": {
       "name": "Nithish-Bharathwaj-N",
       "avatar_url": "https://avatars.githubusercontent.com/u/237449643?v=4"
-    }
-  },
-  {
-    "name": "blakemcbride/Smalltalk-2026",
-    "url": "https://github.com/blakemcbride/Smalltalk-2026",
-    "description": "True multi-threading Smalltalk",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-18T20:55:14Z",
-    "updated_at": "2026-08-21T19:33:50Z",
-    "owner": {
-      "name": "blakemcbride",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6467584?v=4"
     }
   },
   {
