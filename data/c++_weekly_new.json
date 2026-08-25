@@ -304,22 +304,6 @@
     }
   },
   {
-    "name": "V4C38/esp32-fluidbox",
-    "url": "https://github.com/V4C38/esp32-fluidbox",
-    "description": "ESP32 S3 fluid simulation on a 1.8inch display",
-    "stars": 80,
-    "forks": 14,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-06T15:19:18Z",
-    "updated_at": "2026-08-10T19:53:24Z",
-    "owner": {
-      "name": "V4C38",
-      "avatar_url": "https://avatars.githubusercontent.com/u/52865604?v=4"
-    }
-  },
-  {
     "name": "pcm720/dvrpwned",
     "url": "https://github.com/pcm720/dvrpwned",
     "description": "The first ever working custom firmware for the PSX DESR DVRP",
@@ -349,6 +333,32 @@
     "owner": {
       "name": "xoreaxeaxeax",
       "avatar_url": "https://avatars.githubusercontent.com/u/12904366?v=4"
+    }
+  },
+  {
+    "name": "epynic/MeterEye",
+    "url": "https://github.com/epynic/MeterEye",
+    "description": "A camera reads my electricity meter's LCD so I don't have to. ESP32-CAM + custom 7-segment decoder, no ML, no cloud",
+    "stars": 62,
+    "forks": 13,
+    "language": "C",
+    "topics": [
+      "7-segment",
+      "energy-monitoring",
+      "esp32-cam",
+      "home-automation",
+      "iot",
+      "ocr",
+      "php",
+      "python",
+      "solar"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-23T05:14:54Z",
+    "updated_at": "2026-08-24T21:09:40Z",
+    "owner": {
+      "name": "epynic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2527481?v=4"
     }
   },
   {
@@ -387,19 +397,26 @@
     }
   },
   {
-    "name": "ChenPi11/cmd",
-    "url": "https://github.com/ChenPi11/cmd",
-    "description": "A faithful reimplementation of the Windows `cmd.exe` command interpreter for Unix.",
-    "stars": 55,
-    "forks": 1,
+    "name": "CleanShirtUK/orbit-wallpaper-engine",
+    "url": "https://github.com/CleanShirtUK/orbit-wallpaper-engine",
+    "description": "A lightweight Wayland shader wallpaper engine with standalone settings, palette integration and shader browsing.",
+    "stars": 53,
+    "forks": 0,
     "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-05T11:24:47Z",
-    "updated_at": "2026-08-10T11:57:17Z",
+    "topics": [
+      "hyprland",
+      "linux",
+      "quickshell",
+      "shader",
+      "wallpaper",
+      "wayland"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-19T16:03:45Z",
+    "updated_at": "2026-08-25T01:57:51Z",
     "owner": {
-      "name": "ChenPi11",
-      "avatar_url": "https://avatars.githubusercontent.com/u/102936596?v=4"
+      "name": "CleanShirtUK",
+      "avatar_url": "https://avatars.githubusercontent.com/u/125589685?v=4"
     }
   },
   {
@@ -416,29 +433,6 @@
     "owner": {
       "name": "Michele-M-Media",
       "avatar_url": "https://avatars.githubusercontent.com/u/197989904?v=4"
-    }
-  },
-  {
-    "name": "CleanShirtUK/orbit-wallpaper-engine",
-    "url": "https://github.com/CleanShirtUK/orbit-wallpaper-engine",
-    "description": "A lightweight Wayland shader wallpaper engine with standalone settings, palette integration and shader browsing.",
-    "stars": 50,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "hyprland",
-      "linux",
-      "quickshell",
-      "shader",
-      "wallpaper",
-      "wayland"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-19T16:03:45Z",
-    "updated_at": "2026-08-23T20:32:09Z",
-    "owner": {
-      "name": "CleanShirtUK",
-      "avatar_url": "https://avatars.githubusercontent.com/u/125589685?v=4"
     }
   },
   {
@@ -590,6 +584,43 @@
     }
   },
   {
+    "name": "SegfaultEvan/goldeneye-native",
+    "url": "https://github.com/SegfaultEvan/goldeneye-native",
+    "description": "GoldenEye 007 as a native app for Windows, macOS and Linux. Built from the N64 decompilation, not an emulator. Mouse and keyboard, arbitrary resolution, split-screen multiplayer, Lua mods, rulesets and horde mode. Bring your own ROM.",
+    "stars": 35,
+    "forks": 2,
+    "language": "C",
+    "topics": [
+      "cross-platform",
+      "decompilation",
+      "fast3d",
+      "game-preservation",
+      "goldeneye",
+      "goldeneye-007",
+      "linux",
+      "lua",
+      "macos",
+      "modding",
+      "n64",
+      "native-port",
+      "nintendo-64",
+      "opengl",
+      "preservation",
+      "rare",
+      "raspberry-pi",
+      "sdl2",
+      "source-port",
+      "widnows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-21T23:28:20Z",
+    "updated_at": "2026-08-25T01:26:43Z",
+    "owner": {
+      "name": "SegfaultEvan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/318355275?v=4"
+    }
+  },
+  {
     "name": "Novotarskyi/ivan-bohun",
     "url": "https://github.com/Novotarskyi/ivan-bohun",
     "description": "A personal website served from six ESP32-S3 microcontrollers: elected load balancer, virtual-MAC failover, OTA with rollback. No cloud, no CDN, no Pi.",
@@ -652,6 +683,46 @@
     }
   },
   {
+    "name": "brilliantlabsAR/halo-firmware",
+    "url": "https://github.com/brilliantlabsAR/halo-firmware",
+    "description": "Firmware for Halo, Brilliant Labs' AI glasses — Zephyr RTOS on the Alif Balletto, with a Lua runtime for on-device apps and BLE OTA updates",
+    "stars": 32,
+    "forks": 10,
+    "language": "C",
+    "topics": [
+      "alif",
+      "ble",
+      "firmware",
+      "lua",
+      "mcuboot",
+      "smart-glasses",
+      "zephyr"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-19T03:06:18Z",
+    "updated_at": "2026-08-25T01:07:41Z",
+    "owner": {
+      "name": "brilliantlabsAR",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101440566?v=4"
+    }
+  },
+  {
+    "name": "NeuralF/Rea-Virtua-Cop-2-VR",
+    "url": "https://github.com/NeuralF/Rea-Virtua-Cop-2-VR",
+    "description": "Native VR mod for Virtua Cop 2 (1997 PC) — reconstructs the real 3D scene from the game's renderer and plays it through OpenXR with a motion-controller light gun.",
+    "stars": 31,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-20T20:12:38Z",
+    "updated_at": "2026-08-24T20:12:14Z",
+    "owner": {
+      "name": "NeuralF",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13064952?v=4"
+    }
+  },
+  {
     "name": "baker27727/ds4-8gb-cpu",
     "url": "https://github.com/baker27727/ds4-8gb-cpu",
     "description": "DeepSeek V4 Flash CPU/NVMe research fork: 78.62 GiB GGUF validated on 7.7 GiB RAM, CPU-only, using demand paging.",
@@ -697,62 +768,6 @@
     }
   },
   {
-    "name": "SegfaultEvan/goldeneye-native",
-    "url": "https://github.com/SegfaultEvan/goldeneye-native",
-    "description": "Native OpenGL GoldenEye 007 port built from the 100%-complete decompilation. BYO ROM.",
-    "stars": 29,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-21T23:28:20Z",
-    "updated_at": "2026-08-24T01:28:04Z",
-    "owner": {
-      "name": "SegfaultEvan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/318355275?v=4"
-    }
-  },
-  {
-    "name": "brilliantlabsAR/halo-firmware",
-    "url": "https://github.com/brilliantlabsAR/halo-firmware",
-    "description": "Firmware for Halo, Brilliant Labs' AI glasses — Zephyr RTOS on the Alif Balletto, with a Lua runtime for on-device apps and BLE OTA updates",
-    "stars": 29,
-    "forks": 10,
-    "language": "C",
-    "topics": [
-      "alif",
-      "ble",
-      "firmware",
-      "lua",
-      "mcuboot",
-      "smart-glasses",
-      "zephyr"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-19T03:06:18Z",
-    "updated_at": "2026-08-23T07:50:51Z",
-    "owner": {
-      "name": "brilliantlabsAR",
-      "avatar_url": "https://avatars.githubusercontent.com/u/101440566?v=4"
-    }
-  },
-  {
-    "name": "NeuralF/Rea-Virtua-Cop-2-VR",
-    "url": "https://github.com/NeuralF/Rea-Virtua-Cop-2-VR",
-    "description": "Native VR mod for Virtua Cop 2 (1997 PC) — reconstructs the real 3D scene from the game's renderer and plays it through OpenXR with a motion-controller light gun.",
-    "stars": 28,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-20T20:12:38Z",
-    "updated_at": "2026-08-24T01:01:12Z",
-    "owner": {
-      "name": "NeuralF",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13064952?v=4"
-    }
-  },
-  {
     "name": "KingOfTheNOPs/SilentChrome-BOF",
     "url": "https://github.com/KingOfTheNOPs/SilentChrome-BOF",
     "description": "SilentChrome-BOF installs Chromium extension, native messaging, and Isolated Web App profile artifacts",
@@ -766,6 +781,22 @@
     "owner": {
       "name": "KingOfTheNOPs",
       "avatar_url": "https://avatars.githubusercontent.com/u/59070613?v=4"
+    }
+  },
+  {
+    "name": "uamphome/mini_matter_display",
+    "url": "https://github.com/uamphome/mini_matter_display",
+    "description": null,
+    "stars": 27,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-20T04:33:35Z",
+    "updated_at": "2026-08-24T14:33:28Z",
+    "owner": {
+      "name": "uamphome",
+      "avatar_url": "https://avatars.githubusercontent.com/u/224534362?v=4"
     }
   },
   {
@@ -807,6 +838,22 @@
     }
   },
   {
+    "name": "Artificial-Age/ESP32Gameboy",
+    "url": "https://github.com/Artificial-Age/ESP32Gameboy",
+    "description": "Headless Game Boy emulator on ESP32-S3 that streams video and audio to a phone browser over Wi-Fi.",
+    "stars": 26,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-20T07:34:05Z",
+    "updated_at": "2026-08-24T18:37:07Z",
+    "owner": {
+      "name": "Artificial-Age",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127410589?v=4"
+    }
+  },
+  {
     "name": "sarabpal-dev/IonStack-S22U",
     "url": "https://github.com/sarabpal-dev/IonStack-S22U",
     "description": null,
@@ -820,64 +867,6 @@
     "owner": {
       "name": "sarabpal-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/72656344?v=4"
-    }
-  },
-  {
-    "name": "Artificial-Age/ESP32Gameboy",
-    "url": "https://github.com/Artificial-Age/ESP32Gameboy",
-    "description": "Headless Game Boy emulator on ESP32-S3 that streams video and audio to a phone browser over Wi-Fi.",
-    "stars": 25,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-20T07:34:05Z",
-    "updated_at": "2026-08-24T01:41:40Z",
-    "owner": {
-      "name": "Artificial-Age",
-      "avatar_url": "https://avatars.githubusercontent.com/u/127410589?v=4"
-    }
-  },
-  {
-    "name": "uamphome/mini_matter_display",
-    "url": "https://github.com/uamphome/mini_matter_display",
-    "description": null,
-    "stars": 24,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-20T04:33:35Z",
-    "updated_at": "2026-08-24T00:17:53Z",
-    "owner": {
-      "name": "uamphome",
-      "avatar_url": "https://avatars.githubusercontent.com/u/224534362?v=4"
-    }
-  },
-  {
-    "name": "epynic/MeterEye",
-    "url": "https://github.com/epynic/MeterEye",
-    "description": "A camera reads my electricity meter's LCD so I don't have to. ESP32-CAM + custom 7-segment decoder, no ML, no cloud",
-    "stars": 23,
-    "forks": 7,
-    "language": "C",
-    "topics": [
-      "7-segment",
-      "energy-monitoring",
-      "esp32-cam",
-      "home-automation",
-      "iot",
-      "ocr",
-      "php",
-      "python",
-      "solar"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-23T05:14:54Z",
-    "updated_at": "2026-08-24T02:53:56Z",
-    "owner": {
-      "name": "epynic",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2527481?v=4"
     }
   },
   {
@@ -897,22 +886,6 @@
     }
   },
   {
-    "name": "JustVugg/lumabri",
-    "url": "https://github.com/JustVugg/lumabri",
-    "description": "Run huge MoE models from a swarm of peers, with the colibri engine. Pure C.",
-    "stars": 23,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-04T19:01:18Z",
-    "updated_at": "2026-08-10T03:06:52Z",
-    "owner": {
-      "name": "JustVugg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13022503?v=4"
-    }
-  },
-  {
     "name": "Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP",
     "url": "https://github.com/Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP",
     "description": "CVE-2026-66804 Windows Cross Device virtual camera EoP - Standard user to SYSTEM",
@@ -926,6 +899,49 @@
     "owner": {
       "name": "Rat5ak",
       "avatar_url": "https://avatars.githubusercontent.com/u/93318888?v=4"
+    }
+  },
+  {
+    "name": "jackpoison-prog/RingOut",
+    "url": "https://github.com/jackpoison-prog/RingOut",
+    "description": "Native PC port of a GameCube fighting game via static recompilation - PowerPC translated to C, run as native x86-64 on a Dolphin-derived runtime",
+    "stars": 21,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-08-24T01:20:33Z",
+    "updated_at": "2026-08-25T02:34:38Z",
+    "owner": {
+      "name": "jackpoison-prog",
+      "avatar_url": "https://avatars.githubusercontent.com/u/309540864?v=4"
+    }
+  },
+  {
+    "name": "Unchiga/YuGiOhForbiddenMemoriesRecomp",
+    "url": "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp",
+    "description": "Static recompilation of Yu-Gi-Oh! Forbidden Memories (PS1) into a native executable - with a live duel-rank meter, a fusion assistant, adjustable card drops and a cheat menu. Bring your own disc.",
+    "stars": 21,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "decomp",
+      "forbidden-memories",
+      "mips",
+      "native-port",
+      "playstation",
+      "ps1",
+      "psx",
+      "recompiler",
+      "static-recompilation",
+      "yugioh"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-19T18:06:39Z",
+    "updated_at": "2026-08-24T19:57:10Z",
+    "owner": {
+      "name": "Unchiga",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28535889?v=4"
     }
   },
   {
@@ -981,7 +997,7 @@
     "url": "https://github.com/Mudb0y/openevv",
     "description": "Reimplementation of IBM's Embedded ViaVoice / ETI Eloquence SF in portable C",
     "stars": 20,
-    "forks": 6,
+    "forks": 8,
     "language": "C",
     "topics": [
       "accessibility",
@@ -997,33 +1013,6 @@
     "owner": {
       "name": "Mudb0y",
       "avatar_url": "https://avatars.githubusercontent.com/u/48333171?v=4"
-    }
-  },
-  {
-    "name": "Unchiga/YuGiOhForbiddenMemoriesRecomp",
-    "url": "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp",
-    "description": "Static recompilation of Yu-Gi-Oh! Forbidden Memories (PS1) into a native executable - with a live duel-rank meter, a fusion assistant, adjustable card drops and a cheat menu. Bring your own disc.",
-    "stars": 20,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "decomp",
-      "forbidden-memories",
-      "mips",
-      "native-port",
-      "playstation",
-      "ps1",
-      "psx",
-      "recompiler",
-      "static-recompilation",
-      "yugioh"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-19T18:06:39Z",
-    "updated_at": "2026-08-23T10:31:22Z",
-    "owner": {
-      "name": "Unchiga",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28535889?v=4"
     }
   },
   {
@@ -1159,7 +1148,7 @@
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-08-20T09:35:32Z",
-    "updated_at": "2026-08-23T11:21:18Z",
+    "updated_at": "2026-08-24T15:13:00Z",
     "owner": {
       "name": "ronak-create",
       "avatar_url": "https://avatars.githubusercontent.com/u/84374383?v=4"
@@ -1259,6 +1248,36 @@
     "owner": {
       "name": "spyro-98",
       "avatar_url": "https://avatars.githubusercontent.com/u/31597742?v=4"
+    }
+  },
+  {
+    "name": "trsthales/desvendando-elifoot-98",
+    "url": "https://github.com/trsthales/desvendando-elifoot-98",
+    "description": "Engenharia reversa do Elifoot 98 (16-bit Delphi) usando Ghidra no Linux: fórmulas matemáticas dos gols, bônus de nacionalidade, mitos e o motor de jogo desvendados.",
+    "stars": 16,
+    "forks": 3,
+    "language": "C",
+    "topics": [
+      "cheat-engine-program",
+      "debian",
+      "delphi",
+      "elifoot",
+      "elifoot98",
+      "engenharia-reversa",
+      "game-engine",
+      "game-mechanics",
+      "ghidra",
+      "linux",
+      "retrogaming",
+      "reverse-engineering",
+      "x86-16bit"
+    ],
+    "license": "No license",
+    "created_at": "2026-08-21T07:05:59Z",
+    "updated_at": "2026-08-24T22:26:13Z",
+    "owner": {
+      "name": "trsthales",
+      "avatar_url": "https://avatars.githubusercontent.com/u/207514989?v=4"
     }
   },
   {
@@ -1364,74 +1383,25 @@
     }
   },
   {
-    "name": "angristan/esp32-t-display-s3-amoled-up-air-quality",
-    "url": "https://github.com/angristan/esp32-t-display-s3-amoled-up-air-quality",
-    "description": "Native ESP-IDF dashboard for live UniFi UP-AirQuality readings on the LILYGO T-Display-S3 AMOLED",
-    "stars": 16,
-    "forks": 2,
-    "language": "C",
-    "topics": [
-      "air-quality",
-      "cst816",
-      "esp-idf",
-      "esp32-s3",
-      "lilygo",
-      "rm67162",
-      "t-display-s3-amoled",
-      "unifi-protect"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-06T11:25:01Z",
-    "updated_at": "2026-08-10T05:15:49Z",
-    "owner": {
-      "name": "angristan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11699655?v=4"
-    }
-  },
-  {
-    "name": "yasu-q/c-6502emu",
-    "url": "https://github.com/yasu-q/c-6502emu",
-    "description": "A 6502 emulator written in C",
-    "stars": 16,
+    "name": "sammwyy/clay",
+    "url": "https://github.com/sammwyy/clay",
+    "description": "Compact coding-agent harness built for people who prefer to stay in the terminal",
+    "stars": 15,
     "forks": 0,
     "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-06T16:17:11Z",
-    "updated_at": "2026-08-11T00:21:45Z",
-    "owner": {
-      "name": "yasu-q",
-      "avatar_url": "https://avatars.githubusercontent.com/u/155013484?v=4"
-    }
-  },
-  {
-    "name": "trsthales/desvendando-elifoot-98",
-    "url": "https://github.com/trsthales/desvendando-elifoot-98",
-    "description": "Engenharia reversa do Elifoot 98 (16-bit Delphi) usando Ghidra no Linux: fórmulas matemáticas dos gols, bônus de nacionalidade, mitos e o motor de jogo desvendados.",
-    "stars": 15,
-    "forks": 3,
-    "language": "C",
     "topics": [
-      "cheat-engine-program",
-      "debian",
-      "delphi",
-      "elifoot",
-      "elifoot98",
-      "engenharia-reversa",
-      "game-engine",
-      "game-mechanics",
-      "ghidra",
-      "linux",
-      "retrogaming",
-      "reverse-engineering",
-      "x86-16bit"
+      "agent",
+      "ai",
+      "coding",
+      "harness",
+      "llm"
     ],
     "license": "No license",
-    "created_at": "2026-08-21T07:05:59Z",
-    "updated_at": "2026-08-23T11:38:41Z",
+    "created_at": "2026-08-21T14:30:50Z",
+    "updated_at": "2026-08-24T21:25:35Z",
     "owner": {
-      "name": "trsthales",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207514989?v=4"
+      "name": "sammwyy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44925968?v=4"
     }
   },
   {
@@ -1525,7 +1495,7 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-08-20T05:45:50Z",
-    "updated_at": "2026-08-21T06:37:27Z",
+    "updated_at": "2026-08-24T11:18:01Z",
     "owner": {
       "name": "abhisingh886387",
       "avatar_url": "https://avatars.githubusercontent.com/u/118423181?v=4"
@@ -1674,6 +1644,22 @@
     }
   },
   {
+    "name": "sliverarmory/Situational-Awareness-BOFs",
+    "url": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+    "description": "Cross-platform situational-awareness BOFs for Windows, Linux, and macOS",
+    "stars": 13,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-08-20T03:32:24Z",
+    "updated_at": "2026-08-24T13:50:15Z",
+    "owner": {
+      "name": "sliverarmory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96838313?v=4"
+    }
+  },
+  {
     "name": "WeedHashPeddler/PussyBlocker-UndefendV2",
     "url": "https://github.com/WeedHashPeddler/PussyBlocker-UndefendV2",
     "description": null,
@@ -1683,7 +1669,7 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-08-20T10:36:06Z",
-    "updated_at": "2026-08-23T15:30:12Z",
+    "updated_at": "2026-08-24T11:02:54Z",
     "owner": {
       "name": "WeedHashPeddler",
       "avatar_url": "https://avatars.githubusercontent.com/u/191970052?v=4"
@@ -1759,6 +1745,22 @@
     }
   },
   {
+    "name": "Epic0522/3ds-anmboot",
+    "url": "https://github.com/Epic0522/3ds-anmboot",
+    "description": "Animated 3DS official-like logo boot wrapper.",
+    "stars": 12,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-19T05:50:22Z",
+    "updated_at": "2026-08-24T19:05:56Z",
+    "owner": {
+      "name": "Epic0522",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67914358?v=4"
+    }
+  },
+  {
     "name": "puzzled-pancake/pocket-realm",
     "url": "https://github.com/puzzled-pancake/pocket-realm",
     "description": "Pocket Realm — offline WoW 1.12.1 private realm for Android handhelds (alpha)",
@@ -1804,44 +1806,6 @@
     "owner": {
       "name": "maniekx86",
       "avatar_url": "https://avatars.githubusercontent.com/u/104389805?v=4"
-    }
-  },
-  {
-    "name": "sammwyy/clay",
-    "url": "https://github.com/sammwyy/clay",
-    "description": "Compact coding-agent harness built for people who prefer to stay in the terminal",
-    "stars": 11,
-    "forks": 0,
-    "language": "C",
-    "topics": [
-      "agent",
-      "ai",
-      "coding",
-      "harness",
-      "llm"
-    ],
-    "license": "No license",
-    "created_at": "2026-08-21T14:30:50Z",
-    "updated_at": "2026-08-24T01:25:15Z",
-    "owner": {
-      "name": "sammwyy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44925968?v=4"
-    }
-  },
-  {
-    "name": "sliverarmory/Situational-Awareness-BOFs",
-    "url": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
-    "description": "Cross-platform situational-awareness BOFs for Windows, Linux, and macOS",
-    "stars": 11,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-08-20T03:32:24Z",
-    "updated_at": "2026-08-23T21:02:41Z",
-    "owner": {
-      "name": "sliverarmory",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96838313?v=4"
     }
   },
   {
@@ -1916,51 +1880,47 @@
     }
   },
   {
-    "name": "tejassri-sm/CurrencyConverter",
-    "url": "https://github.com/tejassri-sm/CurrencyConverter",
-    "description": null,
-    "stars": 11,
-    "forks": 0,
+    "name": "dpks2003/pio-ftdi",
+    "url": "https://github.com/dpks2003/pio-ftdi",
+    "description": "Turn an RP2040 or RP2350 into an FTDI FT232H JTAG adapter, using PIO",
+    "stars": 10,
+    "forks": 2,
     "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-07T08:16:35Z",
-    "updated_at": "2026-08-10T16:38:48Z",
+    "topics": [
+      "ftdi",
+      "ftdi-232h",
+      "ftdi-device",
+      "ftdi-devices",
+      "ftdi-emulation",
+      "ftdi2232h",
+      "jtag",
+      "jtag-probe",
+      "raspberry-pi-pico",
+      "rp2040",
+      "rp2350"
+    ],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-08-22T09:45:39Z",
+    "updated_at": "2026-08-24T18:41:30Z",
     "owner": {
-      "name": "tejassri-sm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/307128393?v=4"
+      "name": "dpks2003",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98106736?v=4"
     }
   },
   {
-    "name": "Epic0522/3ds-anmboot",
-    "url": "https://github.com/Epic0522/3ds-anmboot",
-    "description": "Animated 3DS official-like logo boot wrapper.",
+    "name": "mborgerson/roswell",
+    "url": "https://github.com/mborgerson/roswell",
+    "description": "An open-source kernel for the original Xbox, based on ReactOS",
     "stars": 10,
-    "forks": 0,
+    "forks": 1,
     "language": "C",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-19T05:50:22Z",
-    "updated_at": "2026-08-23T14:01:25Z",
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-08-21T07:35:11Z",
+    "updated_at": "2026-08-24T23:07:22Z",
     "owner": {
-      "name": "Epic0522",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67914358?v=4"
-    }
-  },
-  {
-    "name": "sysprog21/geotrace",
-    "url": "https://github.com/sysprog21/geotrace",
-    "description": "Visualize outbound public IPv4 traffic as a terminal-native world map",
-    "stars": 10,
-    "forks": 0,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-18T07:47:47Z",
-    "updated_at": "2026-08-19T15:24:28Z",
-    "owner": {
-      "name": "sysprog21",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22310129?v=4"
+      "name": "mborgerson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8210?v=4"
     }
   },
   {
@@ -1977,6 +1937,22 @@
     "owner": {
       "name": "Brendonm17",
       "avatar_url": "https://avatars.githubusercontent.com/u/63375235?v=4"
+    }
+  },
+  {
+    "name": "sysprog21/geotrace",
+    "url": "https://github.com/sysprog21/geotrace",
+    "description": "Visualize outbound public IPv4 traffic as a terminal-native world map",
+    "stars": 10,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-18T07:47:47Z",
+    "updated_at": "2026-08-19T15:24:28Z",
+    "owner": {
+      "name": "sysprog21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22310129?v=4"
     }
   },
   {

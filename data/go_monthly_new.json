@@ -22,7 +22,7 @@
     "name": "magicrew/doc7",
     "url": "https://github.com/magicrew/doc7",
     "description": "Turn documents into AI-ready Markdown with visual understanding",
-    "stars": 1172,
+    "stars": 1173,
     "forks": 46,
     "language": "Go",
     "topics": [
@@ -37,7 +37,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-02T14:03:55Z",
-    "updated_at": "2026-08-24T01:04:36Z",
+    "updated_at": "2026-08-24T04:04:20Z",
     "owner": {
       "name": "magicrew",
       "avatar_url": "https://avatars.githubusercontent.com/u/266043650?v=4"
@@ -97,7 +97,7 @@
     "name": "pgrundev/pgbot",
     "url": "https://github.com/pgrundev/pgbot",
     "description": "Postgres intelligence for ai agents & apps",
-    "stars": 595,
+    "stars": 609,
     "forks": 30,
     "language": "Go",
     "topics": [
@@ -110,7 +110,7 @@
     ],
     "license": "Other",
     "created_at": "2026-08-11T23:41:52Z",
-    "updated_at": "2026-08-24T01:19:17Z",
+    "updated_at": "2026-08-25T02:48:05Z",
     "owner": {
       "name": "pgrundev",
       "avatar_url": "https://avatars.githubusercontent.com/u/300654937?v=4"
@@ -120,13 +120,13 @@
     "name": "MengMengCode/VoCat",
     "url": "https://github.com/MengMengCode/VoCat",
     "description": "Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It combines modem discovery, live radio status, AT and USSD terminals, SMS, WiFi Calling, eSIM management, network selection, proxy routing, notifications, audit logs, and release automation in one self-contained service.",
-    "stars": 540,
-    "forks": 206,
+    "stars": 559,
+    "forks": 207,
     "language": "Go",
     "topics": [],
     "license": "Other",
     "created_at": "2026-08-09T06:43:49Z",
-    "updated_at": "2026-08-24T02:13:36Z",
+    "updated_at": "2026-08-25T02:41:31Z",
     "owner": {
       "name": "MengMengCode",
       "avatar_url": "https://avatars.githubusercontent.com/u/227010654?v=4"
@@ -168,7 +168,7 @@
     "name": "jundizhou/easy-stock",
     "url": "https://github.com/jundizhou/easy-stock",
     "description": "A 股行情分析与AI智能投研智能体——easy stock",
-    "stars": 430,
+    "stars": 443,
     "forks": 6,
     "language": "Go",
     "topics": [
@@ -182,7 +182,7 @@
     ],
     "license": "Other",
     "created_at": "2026-08-07T16:25:36Z",
-    "updated_at": "2026-08-24T02:26:01Z",
+    "updated_at": "2026-08-25T02:34:03Z",
     "owner": {
       "name": "jundizhou",
       "avatar_url": "https://avatars.githubusercontent.com/u/92794317?v=4"
@@ -208,16 +208,43 @@
     "name": "b-nnett/codex-subscription-router",
     "url": "https://github.com/b-nnett/codex-subscription-router",
     "description": null,
-    "stars": 379,
+    "stars": 381,
     "forks": 43,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-16T09:35:21Z",
-    "updated_at": "2026-08-24T02:50:34Z",
+    "updated_at": "2026-08-25T01:13:52Z",
     "owner": {
       "name": "b-nnett",
       "avatar_url": "https://avatars.githubusercontent.com/u/62760393?v=4"
+    }
+  },
+  {
+    "name": "bojieli/queqiao",
+    "url": "https://github.com/bojieli/queqiao",
+    "description": "Self-hosted WAN optimization proxy for difficult long-haul links: authenticated QUIC transport with TLS/TCP fallback, SOCKS5 ingress, and packet loss treated as erasure, not congestion.",
+    "stars": 377,
+    "forks": 37,
+    "language": "Go",
+    "topics": [
+      "congestion-control",
+      "erasure-coding",
+      "fec",
+      "golang",
+      "networking",
+      "proxy",
+      "quic",
+      "socks5",
+      "tunnel",
+      "wan-optimization"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-09T15:33:28Z",
+    "updated_at": "2026-08-25T02:34:47Z",
+    "owner": {
+      "name": "bojieli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1421793?v=4"
     }
   },
   {
@@ -246,43 +273,16 @@
     }
   },
   {
-    "name": "bojieli/queqiao",
-    "url": "https://github.com/bojieli/queqiao",
-    "description": "Self-hosted WAN optimization proxy for difficult long-haul links: authenticated QUIC transport with TLS/TCP fallback, SOCKS5 ingress, and packet loss treated as erasure, not congestion.",
-    "stars": 369,
-    "forks": 35,
-    "language": "Go",
-    "topics": [
-      "congestion-control",
-      "erasure-coding",
-      "fec",
-      "golang",
-      "networking",
-      "proxy",
-      "quic",
-      "socks5",
-      "tunnel",
-      "wan-optimization"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-09T15:33:28Z",
-    "updated_at": "2026-08-24T02:19:03Z",
-    "owner": {
-      "name": "bojieli",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1421793?v=4"
-    }
-  },
-  {
     "name": "opentokenz/mcpx",
     "url": "https://github.com/opentokenz/mcpx",
     "description": "MCPX 是运行在开发环境中的 MCP Runtime（网关）。ChatGPT、Claude、Cursor、Grok 及其他支持 Streamable HTTP 的 MCP 客户端，可以通过统一工具面理解项目、查看 Unified Diff、修改源码、运行任务、采集环境信息，并调用本地 MCP 与 Skill。",
-    "stars": 357,
+    "stars": 365,
     "forks": 73,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-07-30T08:54:23Z",
-    "updated_at": "2026-08-24T01:52:43Z",
+    "updated_at": "2026-08-25T01:20:03Z",
     "owner": {
       "name": "opentokenz",
       "avatar_url": "https://avatars.githubusercontent.com/u/64851230?v=4"
@@ -313,13 +313,13 @@
     "name": "rogerbush007-a11y/DJOneHub-mac-enhanced",
     "url": "https://github.com/rogerbush007-a11y/DJOneHub-mac-enhanced",
     "description": "将大疆第一代 4G 模块变成 Mac 上的实体 SIM 终端：4G、短信、来电、GPS 与通话控制。",
-    "stars": 322,
+    "stars": 326,
     "forks": 144,
     "language": "Go",
     "topics": [],
     "license": "Other",
     "created_at": "2026-07-28T08:54:12Z",
-    "updated_at": "2026-08-23T17:28:03Z",
+    "updated_at": "2026-08-25T02:31:59Z",
     "owner": {
       "name": "rogerbush007-a11y",
       "avatar_url": "https://avatars.githubusercontent.com/u/290887177?v=4"
@@ -363,8 +363,8 @@
     "name": "kejilion/KPanel",
     "url": "https://github.com/kejilion/KPanel",
     "description": "与 kejilion.sh 双向互通的现代 Linux 服务器管理面板",
-    "stars": 299,
-    "forks": 86,
+    "stars": 301,
+    "forks": 87,
     "language": "Go",
     "topics": [
       "docker",
@@ -378,10 +378,32 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-07-27T10:19:46Z",
-    "updated_at": "2026-08-23T17:34:19Z",
+    "updated_at": "2026-08-24T17:30:10Z",
     "owner": {
       "name": "kejilion",
       "avatar_url": "https://avatars.githubusercontent.com/u/131984541?v=4"
+    }
+  },
+  {
+    "name": "lij768423-svg/grok2api-egress-enhancements",
+    "url": "https://github.com/lij768423-svg/grok2api-egress-enhancements",
+    "description": "Grok2API & CPA egress quality guard with proxy recovery, quarantine, migration, and operations UI",
+    "stars": 293,
+    "forks": 57,
+    "language": "Go",
+    "topics": [
+      "ai-gateway",
+      "circuit-breaker",
+      "grok2api",
+      "patch",
+      "proxy"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-01T02:36:14Z",
+    "updated_at": "2026-08-24T10:01:09Z",
+    "owner": {
+      "name": "lij768423-svg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/265844445?v=4"
     }
   },
   {
@@ -401,38 +423,16 @@
     }
   },
   {
-    "name": "lij768423-svg/grok2api-egress-enhancements",
-    "url": "https://github.com/lij768423-svg/grok2api-egress-enhancements",
-    "description": "Grok2API & CPA egress quality guard with proxy recovery, quarantine, migration, and operations UI",
-    "stars": 290,
-    "forks": 57,
-    "language": "Go",
-    "topics": [
-      "ai-gateway",
-      "circuit-breaker",
-      "grok2api",
-      "patch",
-      "proxy"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-01T02:36:14Z",
-    "updated_at": "2026-08-23T15:41:35Z",
-    "owner": {
-      "name": "lij768423-svg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/265844445?v=4"
-    }
-  },
-  {
     "name": "lajosdeme/mole",
     "url": "https://github.com/lajosdeme/mole",
     "description": "A deep-research agent with an enforced budget, verified quotes, and a privacy boundary for local data.",
-    "stars": 288,
+    "stars": 290,
     "forks": 15,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-08-01T21:58:04Z",
-    "updated_at": "2026-08-22T13:15:56Z",
+    "updated_at": "2026-08-24T07:14:31Z",
     "owner": {
       "name": "lajosdeme",
       "avatar_url": "https://avatars.githubusercontent.com/u/44027725?v=4"
@@ -520,13 +520,13 @@
     "name": "WhiteDNS/WhiteVPN-Desktop",
     "url": "https://github.com/WhiteDNS/WhiteVPN-Desktop",
     "description": "WhiteVPN Desktop — Wails app running the same mihomo engine as WhiteVPN for Android",
-    "stars": 228,
+    "stars": 230,
     "forks": 10,
     "language": "Go",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-08-05T12:44:16Z",
-    "updated_at": "2026-08-23T17:09:56Z",
+    "updated_at": "2026-08-24T10:26:07Z",
     "owner": {
       "name": "WhiteDNS",
       "avatar_url": "https://avatars.githubusercontent.com/u/294980615?v=4"
@@ -558,16 +558,40 @@
     }
   },
   {
+    "name": "yutat23/lsoff",
+    "url": "https://github.com/yutat23/lsoff",
+    "description": "CLI / TUI that lists listening TCP/UDP ports",
+    "stars": 223,
+    "forks": 9,
+    "language": "Go",
+    "topics": [
+      "cli",
+      "golang",
+      "linux",
+      "lsof",
+      "macos",
+      "tui",
+      "windows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-14T14:27:33Z",
+    "updated_at": "2026-08-25T01:28:21Z",
+    "owner": {
+      "name": "yutat23",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45997563?v=4"
+    }
+  },
+  {
     "name": "grafana/ai-sdk",
     "url": "https://github.com/grafana/ai-sdk",
     "description": "Grafana AI SDK for Go — streaming, tool-calling AI backends that speak fluent @ai-sdk/react",
-    "stars": 221,
+    "stars": 222,
     "forks": 10,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-07-28T21:51:20Z",
-    "updated_at": "2026-08-23T02:59:51Z",
+    "updated_at": "2026-08-24T22:39:29Z",
     "owner": {
       "name": "grafana",
       "avatar_url": "https://avatars.githubusercontent.com/u/7195757?v=4"
@@ -590,27 +614,19 @@
     }
   },
   {
-    "name": "yutat23/lsoff",
-    "url": "https://github.com/yutat23/lsoff",
-    "description": "CLI / TUI that lists listening TCP/UDP ports",
-    "stars": 219,
-    "forks": 9,
+    "name": "jasonxu114514/opencode2api",
+    "url": "https://github.com/jasonxu114514/opencode2api",
+    "description": null,
+    "stars": 210,
+    "forks": 46,
     "language": "Go",
-    "topics": [
-      "cli",
-      "golang",
-      "linux",
-      "lsof",
-      "macos",
-      "tui",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-14T14:27:33Z",
-    "updated_at": "2026-08-24T00:50:27Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-13T23:57:44Z",
+    "updated_at": "2026-08-25T00:56:37Z",
     "owner": {
-      "name": "yutat23",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45997563?v=4"
+      "name": "jasonxu114514",
+      "avatar_url": "https://avatars.githubusercontent.com/u/117326624?v=4"
     }
   },
   {
@@ -630,22 +646,6 @@
     }
   },
   {
-    "name": "jasonxu114514/opencode2api",
-    "url": "https://github.com/jasonxu114514/opencode2api",
-    "description": null,
-    "stars": 202,
-    "forks": 46,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-13T23:57:44Z",
-    "updated_at": "2026-08-23T17:14:28Z",
-    "owner": {
-      "name": "jasonxu114514",
-      "avatar_url": "https://avatars.githubusercontent.com/u/117326624?v=4"
-    }
-  },
-  {
     "name": "Sidiora-Labs/machine-genome",
     "url": "https://github.com/Sidiora-Labs/machine-genome",
     "description": "Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts that connect them.",
@@ -662,19 +662,66 @@
     }
   },
   {
+    "name": "azrtydxb/procoder",
+    "url": "https://github.com/azrtydxb/procoder",
+    "description": "Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality controllers that refuse to call unfinished work done, and a lessons loop that closes each escaped bug's class. One Go binary, no runtime deps, works with 20+ agents.",
+    "stars": 177,
+    "forks": 12,
+    "language": "Go",
+    "topics": [
+      "ai-coding-assistant",
+      "claude-code",
+      "claude-code-plugin",
+      "code-quality",
+      "code-review",
+      "developer-tools",
+      "linter",
+      "mcp",
+      "security",
+      "static-analysis"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-16T07:47:17Z",
+    "updated_at": "2026-08-25T01:55:40Z",
+    "owner": {
+      "name": "azrtydxb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/266232796?v=4"
+    }
+  },
+  {
     "name": "larry-zy/cognida",
     "url": "https://github.com/larry-zy/cognida",
     "description": "不止是能问数据的助手——受治理、可审计、可度量的企业级「数据+知识」Agent 平台",
-    "stars": 169,
-    "forks": 14,
+    "stars": 172,
+    "forks": 15,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-09T15:36:09Z",
-    "updated_at": "2026-08-24T00:25:36Z",
+    "updated_at": "2026-08-24T12:54:00Z",
     "owner": {
       "name": "larry-zy",
       "avatar_url": "https://avatars.githubusercontent.com/u/139796123?v=4"
+    }
+  },
+  {
+    "name": "zachahn/vomit",
+    "url": "https://github.com/zachahn/vomit",
+    "description": "Clean up Claude 5's token vomit with a separate LLM. Save your tokens, Claude 5 is hopeless",
+    "stars": 169,
+    "forks": 5,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "ai-tools",
+      "claude-code"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-15T05:43:59Z",
+    "updated_at": "2026-08-25T01:26:41Z",
+    "owner": {
+      "name": "zachahn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93058?v=4"
     }
   },
   {
@@ -729,57 +776,37 @@
     }
   },
   {
-    "name": "azrtydxb/procoder",
-    "url": "https://github.com/azrtydxb/procoder",
-    "description": "Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality controllers that refuse to call unfinished work done, and a lessons loop that closes each escaped bug's class. One Go binary, no runtime deps, works with 20+ agents.",
-    "stars": 160,
-    "forks": 11,
+    "name": "zhaoxuya520/MeshLAN",
+    "url": "https://github.com/zhaoxuya520/MeshLAN",
+    "description": "Self-hosted P2P-first virtual LAN, service sharing, multi-relay and AI automation built on Nebula.",
+    "stars": 163,
+    "forks": 17,
     "language": "Go",
     "topics": [
-      "ai-coding-assistant",
-      "claude-code",
-      "claude-code-plugin",
-      "code-quality",
-      "code-review",
-      "developer-tools",
-      "linter",
-      "mcp",
-      "security",
-      "static-analysis"
+      "golang",
+      "mesh-network",
+      "nat-traversal",
+      "nebula",
+      "p2p",
+      "relay",
+      "self-hosted",
+      "virtual-lan",
+      "vpn",
+      "windows"
     ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-16T07:47:17Z",
-    "updated_at": "2026-08-24T01:40:33Z",
+    "license": "MIT License",
+    "created_at": "2026-08-22T10:30:10Z",
+    "updated_at": "2026-08-25T01:33:33Z",
     "owner": {
-      "name": "azrtydxb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266232796?v=4"
-    }
-  },
-  {
-    "name": "zachahn/vomit",
-    "url": "https://github.com/zachahn/vomit",
-    "description": "Clean up Claude 5's token vomit with a separate LLM. Save your tokens, Claude 5 is hopeless",
-    "stars": 160,
-    "forks": 5,
-    "language": "Go",
-    "topics": [
-      "ai",
-      "ai-tools",
-      "claude-code"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-15T05:43:59Z",
-    "updated_at": "2026-08-24T02:22:20Z",
-    "owner": {
-      "name": "zachahn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93058?v=4"
+      "name": "zhaoxuya520",
+      "avatar_url": "https://avatars.githubusercontent.com/u/147215175?v=4"
     }
   },
   {
     "name": "ygelfand/echolocal",
     "url": "https://github.com/ygelfand/echolocal",
     "description": "Turn an Echo Dot (2nd gen) into a fully local Home Assistant voice satellite, multi-room media player, lux sensor, Bluetooth proxy, and more.  No Amazon, no cloud.",
-    "stars": 154,
+    "stars": 158,
     "forks": 6,
     "language": "Go",
     "topics": [
@@ -797,45 +824,18 @@
     ],
     "license": "MIT License",
     "created_at": "2026-07-31T01:27:15Z",
-    "updated_at": "2026-08-23T21:39:57Z",
+    "updated_at": "2026-08-25T00:35:40Z",
     "owner": {
       "name": "ygelfand",
       "avatar_url": "https://avatars.githubusercontent.com/u/886797?v=4"
     }
   },
   {
-    "name": "zhaoxuya520/MeshLAN",
-    "url": "https://github.com/zhaoxuya520/MeshLAN",
-    "description": "Self-hosted P2P-first virtual LAN, service sharing, multi-relay and AI automation built on Nebula.",
-    "stars": 153,
-    "forks": 15,
-    "language": "Go",
-    "topics": [
-      "golang",
-      "mesh-network",
-      "nat-traversal",
-      "nebula",
-      "p2p",
-      "relay",
-      "self-hosted",
-      "virtual-lan",
-      "vpn",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-22T10:30:10Z",
-    "updated_at": "2026-08-24T01:36:46Z",
-    "owner": {
-      "name": "zhaoxuya520",
-      "avatar_url": "https://avatars.githubusercontent.com/u/147215175?v=4"
-    }
-  },
-  {
     "name": "pulseaiclub/phi",
     "url": "https://github.com/pulseaiclub/phi",
     "description": "a coding Agent from pi. ∞ providers, sub-agents, hashline edits, and a permission gate",
-    "stars": 148,
-    "forks": 6,
+    "stars": 151,
+    "forks": 9,
     "language": "Go",
     "topics": [
       "ai",
@@ -853,7 +853,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-03T03:16:48Z",
-    "updated_at": "2026-08-24T02:41:20Z",
+    "updated_at": "2026-08-25T01:58:48Z",
     "owner": {
       "name": "pulseaiclub",
       "avatar_url": "https://avatars.githubusercontent.com/u/300049892?v=4"
@@ -876,19 +876,51 @@
     }
   },
   {
-    "name": "cloud-ru-tech/guardrails-llm-filter",
-    "url": "https://github.com/cloud-ru-tech/guardrails-llm-filter",
-    "description": "Прозрачный обратный прокси между вашими клиентами и LLM-провайдером: убирает чувствительные данные из запросов к модели и восстанавливает их в ответах.",
-    "stars": 145,
-    "forks": 21,
+    "name": "actonos/actonos",
+    "url": "https://github.com/actonos/actonos",
+    "description": "ActonOS is a single-purpose appliance operating system engineered as a customizable, self-governing AI agent kernel running 24/7.",
+    "stars": 139,
+    "forks": 0,
     "language": "Go",
-    "topics": [],
+    "topics": [
+      "agent",
+      "agent-framework",
+      "agent-memory",
+      "agent-orchestration",
+      "agent-skill",
+      "agentic",
+      "agentic-workflow",
+      "ai"
+    ],
     "license": "Apache License 2.0",
-    "created_at": "2026-07-13T14:26:07Z",
-    "updated_at": "2026-08-10T07:34:25Z",
+    "created_at": "2026-08-16T19:10:05Z",
+    "updated_at": "2026-08-24T13:36:49Z",
     "owner": {
-      "name": "cloud-ru-tech",
-      "avatar_url": "https://avatars.githubusercontent.com/u/145108281?v=4"
+      "name": "actonos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/317661533?v=4"
+    }
+  },
+  {
+    "name": "WongLoki/DJ4Hub",
+    "url": "https://github.com/WongLoki/DJ4Hub",
+    "description": "Local-first macOS console for the first-generation DJI 4G module",
+    "stars": 139,
+    "forks": 22,
+    "language": "Go",
+    "topics": [
+      "4g",
+      "cellular",
+      "dji",
+      "esim",
+      "macos",
+      "sms"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-13T15:22:50Z",
+    "updated_at": "2026-08-25T00:24:27Z",
+    "owner": {
+      "name": "WongLoki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18548527?v=4"
     }
   },
   {
@@ -913,29 +945,6 @@
     "owner": {
       "name": "Leon-PanPan",
       "avatar_url": "https://avatars.githubusercontent.com/u/267549192?v=4"
-    }
-  },
-  {
-    "name": "WongLoki/DJ4Hub",
-    "url": "https://github.com/WongLoki/DJ4Hub",
-    "description": "Local-first macOS console for the first-generation DJI 4G module",
-    "stars": 138,
-    "forks": 21,
-    "language": "Go",
-    "topics": [
-      "4g",
-      "cellular",
-      "dji",
-      "esim",
-      "macos",
-      "sms"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-13T15:22:50Z",
-    "updated_at": "2026-08-23T12:38:26Z",
-    "owner": {
-      "name": "WongLoki",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18548527?v=4"
     }
   },
   {
@@ -969,18 +978,34 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-11T07:06:43Z",
-    "updated_at": "2026-08-23T18:52:42Z",
+    "updated_at": "2026-08-25T00:36:09Z",
     "owner": {
       "name": "trefeon",
       "avatar_url": "https://avatars.githubusercontent.com/u/95156714?v=4"
     }
   },
   {
+    "name": "telegramdesktop/tproxy-server",
+    "url": "https://github.com/telegramdesktop/tproxy-server",
+    "description": "Proof-of-concept WEB proxy server for Telegram",
+    "stars": 135,
+    "forks": 11,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-10T09:51:17Z",
+    "updated_at": "2026-08-25T01:13:55Z",
+    "owner": {
+      "name": "telegramdesktop",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6113871?v=4"
+    }
+  },
+  {
     "name": "stephrobert/feint",
     "url": "https://github.com/stephrobert/feint",
     "description": "Run Terraform, OpenTofu and the official Scaleway, Outscale and Exoscale CLIs locally — no cloud account, no credentials, nothing billed.",
-    "stars": 128,
-    "forks": 6,
+    "stars": 130,
+    "forks": 7,
     "language": "Go",
     "topics": [
       "cloud-emulator",
@@ -1000,7 +1025,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-07-29T11:56:25Z",
-    "updated_at": "2026-08-23T23:14:53Z",
+    "updated_at": "2026-08-24T21:23:42Z",
     "owner": {
       "name": "stephrobert",
       "avatar_url": "https://avatars.githubusercontent.com/u/681788?v=4"
@@ -1020,6 +1045,29 @@
     "owner": {
       "name": "YuJunZhiXue",
       "avatar_url": "https://avatars.githubusercontent.com/u/188421097?v=4"
+    }
+  },
+  {
+    "name": "Gnosil/semantix",
+    "url": "https://github.com/Gnosil/semantix",
+    "description": "semantic agent kernel which make agent efficient and self-evolve",
+    "stars": 123,
+    "forks": 4,
+    "language": "Go",
+    "topics": [
+      "agent-framework",
+      "agent-orchestration",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-coding"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-06T16:05:30Z",
+    "updated_at": "2026-08-25T02:39:37Z",
+    "owner": {
+      "name": "Gnosil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90169347?v=4"
     }
   },
   {
