@@ -3,13 +3,13 @@
     "name": "tobi/walgit",
     "url": "https://github.com/tobi/walgit",
     "description": null,
-    "stars": 2210,
-    "forks": 117,
+    "stars": 2280,
+    "forks": 120,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-23T22:28:01Z",
-    "updated_at": "2026-08-27T12:10:58Z",
+    "updated_at": "2026-08-28T13:17:46Z",
     "owner": {
       "name": "tobi",
       "avatar_url": "https://avatars.githubusercontent.com/u/347?v=4"
@@ -82,30 +82,43 @@
     }
   },
   {
-    "name": "fzakaria/nixpkgs-multiverse",
-    "url": "https://github.com/fzakaria/nixpkgs-multiverse",
-    "description": "Any version of any nixpkgs package, from one flake input",
-    "stars": 241,
-    "forks": 3,
+    "name": "crmne/fastpotify",
+    "url": "https://github.com/crmne/fastpotify",
+    "description": "Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
+    "stars": 288,
+    "forks": 12,
     "language": "Rust",
     "topics": [
-      "nix",
-      "nixpkgs",
-      "nixpkgs-overlay"
+      "audio",
+      "cross-platform",
+      "desktop-app",
+      "egui",
+      "gui",
+      "librespot",
+      "linux",
+      "macos",
+      "mpris",
+      "music",
+      "music-player",
+      "rust",
+      "spotify",
+      "spotify-client",
+      "spotify-connect",
+      "windows"
     ],
     "license": "MIT License",
-    "created_at": "2026-08-08T21:56:37Z",
-    "updated_at": "2026-08-13T23:19:15Z",
+    "created_at": "2026-08-27T12:46:32Z",
+    "updated_at": "2026-08-28T13:38:54Z",
     "owner": {
-      "name": "fzakaria",
-      "avatar_url": "https://avatars.githubusercontent.com/u/605070?v=4"
+      "name": "crmne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106617?v=4"
     }
   },
   {
     "name": "truespar/sentio",
     "url": "https://github.com/truespar/sentio",
     "description": "Email inbox API for AI agents. Give every agent its own real email address, receive mail as structured webhooks, and reply in-thread over REST. A complete multi-tenant mail server in Rust: inbound and outbound, DKIM/SPF/DMARC/ARC, MTA-STS, DANE, three-tier anti-spam.",
-    "stars": 212,
+    "stars": 222,
     "forks": 16,
     "language": "Rust",
     "topics": [
@@ -123,7 +136,7 @@
     ],
     "license": "Other",
     "created_at": "2026-08-23T21:36:25Z",
-    "updated_at": "2026-08-27T09:08:34Z",
+    "updated_at": "2026-08-28T11:34:45Z",
     "owner": {
       "name": "truespar",
       "avatar_url": "https://avatars.githubusercontent.com/u/264198848?v=4"
@@ -261,13 +274,13 @@
     "name": "dragthelake/ambient-context",
     "url": "https://github.com/dragthelake/ambient-context",
     "description": "A menu bar app that keeps a written record of what you worked on.",
-    "stars": 135,
+    "stars": 137,
     "forks": 7,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-25T00:33:03Z",
-    "updated_at": "2026-08-27T06:47:34Z",
+    "updated_at": "2026-08-28T09:10:12Z",
     "owner": {
       "name": "dragthelake",
       "avatar_url": "https://avatars.githubusercontent.com/u/665108?v=4"
@@ -306,27 +319,11 @@
     }
   },
   {
-    "name": "tllovesxs/cc-switch-route",
-    "url": "https://github.com/tllovesxs/cc-switch-route",
-    "description": "CC Switch 本地智能路由控制面：健康检测、倍率与延迟排序、恢复调序，无侵入、打开即用",
-    "stars": 117,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-08T01:55:40Z",
-    "updated_at": "2026-08-13T22:45:23Z",
-    "owner": {
-      "name": "tllovesxs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/188217009?v=4"
-    }
-  },
-  {
     "name": "josiah-nelson/eidos",
     "url": "https://github.com/josiah-nelson/eidos",
     "description": "Private, intelligent search across every machine you own. Systems remain searchable when offline, including files buried inside VMs and archives.",
-    "stars": 111,
-    "forks": 1,
+    "stars": 112,
+    "forks": 2,
     "language": "Rust",
     "topics": [
       "filesystem",
@@ -340,7 +337,7 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-08-22T17:23:29Z",
-    "updated_at": "2026-08-27T09:38:39Z",
+    "updated_at": "2026-08-27T14:46:51Z",
     "owner": {
       "name": "josiah-nelson",
       "avatar_url": "https://avatars.githubusercontent.com/u/45463582?v=4"
@@ -385,6 +382,42 @@
     }
   },
   {
+    "name": "mdspan/posix-sync",
+    "url": "https://github.com/mdspan/posix-sync",
+    "description": "Idiomatic Rust interface for POSIX synchronisation primitives",
+    "stars": 104,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "bindings",
+      "concurrency",
+      "condvar",
+      "ffi",
+      "ipc",
+      "libc",
+      "linux",
+      "multithreading",
+      "mutexes",
+      "posix",
+      "pthreads",
+      "robust-mutex",
+      "rust",
+      "rust-library",
+      "rwlock",
+      "shared-memory",
+      "synchronization",
+      "systems-programming",
+      "unix"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-24T07:31:41Z",
+    "updated_at": "2026-08-27T16:49:51Z",
+    "owner": {
+      "name": "mdspan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/256296755?v=4"
+    }
+  },
+  {
     "name": "Apeireth/apeireth-rust",
     "url": "https://github.com/Apeireth/apeireth-rust",
     "description": "Apeireth — An AGI Operating System / LLM Base (Rust). 85 crates: companion organ, world model, curiosity, hypothesis testing, double-onion security.",
@@ -398,22 +431,6 @@
     "owner": {
       "name": "Apeireth",
       "avatar_url": "https://avatars.githubusercontent.com/u/318249439?v=4"
-    }
-  },
-  {
-    "name": "gpwn-org/gpwn-toolkit",
-    "url": "https://github.com/gpwn-org/gpwn-toolkit",
-    "description": "A collection of libraries and a TUI to test fiber GPON deployments.",
-    "stars": 98,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-08T19:34:23Z",
-    "updated_at": "2026-08-13T17:15:10Z",
-    "owner": {
-      "name": "gpwn-org",
-      "avatar_url": "https://avatars.githubusercontent.com/u/314757867?v=4"
     }
   },
   {
@@ -546,6 +563,22 @@
     }
   },
   {
+    "name": "pgrundev/pgterm",
+    "url": "https://github.com/pgrundev/pgterm",
+    "description": "Postgres Terminal",
+    "stars": 79,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-08-27T15:48:53Z",
+    "updated_at": "2026-08-28T13:23:46Z",
+    "owner": {
+      "name": "pgrundev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/300654937?v=4"
+    }
+  },
+  {
     "name": "Nour-yahyaoui/free-ecom-app",
     "url": "https://github.com/Nour-yahyaoui/free-ecom-app",
     "description": "A ready-to-run e-commerce stack built for cheap, vertically-scaled hosting — no Stripe, cash-on-delivery only, no admin dashboard yet",
@@ -586,32 +619,63 @@
     "name": "pinoox/neuromesh",
     "url": "https://github.com/pinoox/neuromesh",
     "description": "The Biomimetic Context Engine & Neural Runtime for AI Coding Assistants",
-    "stars": 71,
+    "stars": 72,
     "forks": 4,
     "language": "Rust",
-    "topics": [],
-    "license": "No license",
+    "topics": [
+      "antigravity",
+      "claude-code",
+      "code",
+      "code-analysis",
+      "code-intelligence",
+      "codex",
+      "context-management",
+      "cursor",
+      "developer-tools",
+      "gemini-cli",
+      "graph-algorithms",
+      "graph-visualization",
+      "kilo-code",
+      "knowledge-graph",
+      "mcp",
+      "mcp-server",
+      "model-compression",
+      "model-context-protocol",
+      "slimemold",
+      "windsurf"
+    ],
+    "license": "MIT License",
     "created_at": "2026-08-22T11:14:43Z",
-    "updated_at": "2026-08-27T12:07:08Z",
+    "updated_at": "2026-08-28T11:46:22Z",
     "owner": {
       "name": "pinoox",
       "avatar_url": "https://avatars.githubusercontent.com/u/33606797?v=4"
     }
   },
   {
-    "name": "lassejlv/gpui-starter",
-    "url": "https://github.com/lassejlv/gpui-starter",
-    "description": "A basic starter template for GPUI",
-    "stars": 67,
-    "forks": 6,
+    "name": "2youg1/sprawling",
+    "url": "https://github.com/2youg1/sprawling",
+    "description": "Local multi-agent city for running persistent agent teams, long-run, society-simulation",
+    "stars": 69,
+    "forks": 7,
     "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-10T13:53:44Z",
-    "updated_at": "2026-08-14T12:26:04Z",
+    "topics": [
+      "agent",
+      "agentic-workflow",
+      "harness",
+      "harness-engineering",
+      "multi-agent",
+      "multi-agent-system",
+      "privacy-first",
+      "rust",
+      "society-simulation"
+    ],
+    "license": "Mozilla Public License 2.0",
+    "created_at": "2026-08-22T13:20:29Z",
+    "updated_at": "2026-08-28T11:12:24Z",
     "owner": {
-      "name": "lassejlv",
-      "avatar_url": "https://avatars.githubusercontent.com/u/77295879?v=4"
+      "name": "2youg1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65069696?v=4"
     }
   },
   {
@@ -660,32 +724,6 @@
     "owner": {
       "name": "ArrowSK",
       "avatar_url": "https://avatars.githubusercontent.com/u/56678503?v=4"
-    }
-  },
-  {
-    "name": "2youg1/sprawling",
-    "url": "https://github.com/2youg1/sprawling",
-    "description": "Local multi-agent city for running persistent agent teams, long-run, society-simulation",
-    "stars": 60,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [
-      "agent",
-      "agentic-workflow",
-      "harness",
-      "harness-engineering",
-      "multi-agent",
-      "multi-agent-system",
-      "privacy-first",
-      "rust",
-      "society-simulation"
-    ],
-    "license": "Mozilla Public License 2.0",
-    "created_at": "2026-08-22T13:20:29Z",
-    "updated_at": "2026-08-27T12:01:23Z",
-    "owner": {
-      "name": "2youg1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65069696?v=4"
     }
   },
   {
@@ -887,7 +925,7 @@
     "name": "wpexpertinbd/BHUninstaller",
     "url": "https://github.com/wpexpertinbd/BHUninstaller",
     "description": "Free, open-source app uninstaller & leftover cleaner for macOS, Windows & Linux — a Revo Uninstaller / App Cleaner alternative. Nothing is ever deleted: every removal goes to the Trash behind a review sheet that shows why each file matched. By BiswasHost.",
-    "stars": 43,
+    "stars": 44,
     "forks": 6,
     "language": "Rust",
     "topics": [
@@ -908,7 +946,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-22T00:41:50Z",
-    "updated_at": "2026-08-26T17:57:32Z",
+    "updated_at": "2026-08-27T22:16:31Z",
     "owner": {
       "name": "wpexpertinbd",
       "avatar_url": "https://avatars.githubusercontent.com/u/26407345?v=4"
@@ -1036,6 +1074,22 @@
     }
   },
   {
+    "name": "nghyane/hands",
+    "url": "https://github.com/nghyane/hands",
+    "description": "Local Grok tools as MCP for ChatGPT Web. No model.",
+    "stars": 39,
+    "forks": 9,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-26T17:17:03Z",
+    "updated_at": "2026-08-28T10:02:28Z",
+    "owner": {
+      "name": "nghyane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59473462?v=4"
+    }
+  },
+  {
     "name": "halarewich/slotstream",
     "url": "https://github.com/halarewich/slotstream",
     "description": "Polyglot real-time observability platform for the Solana blockchain",
@@ -1077,7 +1131,7 @@
     "topics": [],
     "license": "Mozilla Public License 2.0",
     "created_at": "2026-08-22T15:03:42Z",
-    "updated_at": "2026-08-27T07:52:09Z",
+    "updated_at": "2026-08-27T14:35:10Z",
     "owner": {
       "name": "ferranbt",
       "avatar_url": "https://avatars.githubusercontent.com/u/30872539?v=4"
@@ -1287,39 +1341,36 @@
     }
   },
   {
-    "name": "mdspan/posix-sync",
-    "url": "https://github.com/mdspan/posix-sync",
-    "description": "Idiomatic Rust interface for POSIX synchronisation primitives",
+    "name": "zidniryi/unbagrnd",
+    "url": "https://github.com/zidniryi/unbagrnd",
+    "description": "Unbagrnd - Free, Fast & Open-source AI-powered background remover for Windows, macOS, and Linux.",
     "stars": 32,
-    "forks": 0,
+    "forks": 3,
     "language": "Rust",
     "topics": [
-      "bindings",
-      "concurrency",
-      "condvar",
-      "ffi",
-      "ipc",
-      "libc",
+      "ai",
+      "ai-tools",
+      "background-removal",
+      "computer-vision",
+      "cross-platform",
+      "free-software",
+      "image-editing",
+      "image-processing",
       "linux",
-      "multithreading",
-      "mutexes",
-      "posix",
-      "pthreads",
-      "robust-mutex",
-      "rust",
-      "rust-library",
-      "rwlock",
-      "shared-memory",
-      "synchronization",
-      "systems-programming",
-      "unix"
+      "machine-learning",
+      "macos",
+      "onnx",
+      "onnxruntime",
+      "open-source",
+      "u2net",
+      "windows"
     ],
     "license": "MIT License",
-    "created_at": "2026-08-24T07:31:41Z",
-    "updated_at": "2026-08-27T12:15:17Z",
+    "created_at": "2026-08-24T14:30:32Z",
+    "updated_at": "2026-08-28T13:21:30Z",
     "owner": {
-      "name": "mdspan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/256296755?v=4"
+      "name": "zidniryi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19811857?v=4"
     }
   },
   {
@@ -1546,19 +1597,71 @@
     }
   },
   {
-    "name": "otya128/mpeg2toh264",
-    "url": "https://github.com/otya128/mpeg2toh264",
-    "description": "Transcode MPEG-2 to H.264/AVC without fully decoding the video.",
-    "stars": 29,
+    "name": "countradooku/gpui-vue",
+    "url": "https://github.com/countradooku/gpui-vue",
+    "description": "Native GPU-accelerated Vue 3 renderer for Zed's GPUI",
+    "stars": 28,
     "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "bun",
+      "desktop",
+      "gpu",
+      "gpui",
+      "napi",
+      "rust",
+      "vue"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-24T07:13:35Z",
+    "updated_at": "2026-08-28T10:41:31Z",
+    "owner": {
+      "name": "countradooku",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52667211?v=4"
+    }
+  },
+  {
+    "name": "Jorji49/streamtop",
+    "url": "https://github.com/Jorji49/streamtop",
+    "description": "HLS/DASH/IPTV stream diagnostics TUI · v0.3.4",
+    "stars": 28,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "cdn",
+      "hls",
+      "iptv",
+      "ll-hls",
+      "mpeg-dash",
+      "ratatui",
+      "rust",
+      "scte-35",
+      "tui",
+      "video",
+      "video-streaming"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-25T14:20:11Z",
+    "updated_at": "2026-08-28T13:18:57Z",
+    "owner": {
+      "name": "Jorji49",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70639449?v=4"
+    }
+  },
+  {
+    "name": "lxsmnsyc/solid-gpui",
+    "url": "https://github.com/lxsmnsyc/solid-gpui",
+    "description": null,
+    "stars": 28,
+    "forks": 1,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-08-08T14:06:04Z",
-    "updated_at": "2026-08-13T12:55:30Z",
+    "created_at": "2026-08-23T17:28:32Z",
+    "updated_at": "2026-08-28T13:25:51Z",
     "owner": {
-      "name": "otya128",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4075988?v=4"
+      "name": "lxsmnsyc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4783372?v=4"
     }
   },
   {
@@ -1669,6 +1772,22 @@
     }
   },
   {
+    "name": "tdog54646/MeetPair",
+    "url": "https://github.com/tdog54646/MeetPair",
+    "description": null,
+    "stars": 26,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-26T07:55:41Z",
+    "updated_at": "2026-08-28T13:15:26Z",
+    "owner": {
+      "name": "tdog54646",
+      "avatar_url": "https://avatars.githubusercontent.com/u/188939710?v=4"
+    }
+  },
+  {
     "name": "APUS-AI-Lab/PhoneBuddySDK",
     "url": "https://github.com/APUS-AI-Lab/PhoneBuddySDK",
     "description": "Lightweight, embeddable LLM Agent engine for iOS & Android built in pure Rust. Features secure mobile-sandboxed runtime, tool calling loop, streaming LLM transport, JS scripting sandbox, and in-memory  subagent orchestration. Native C FFI, Swift & Kotlin bindings included.",
@@ -1698,6 +1817,22 @@
     "owner": {
       "name": "Zhengyuuuui",
       "avatar_url": "https://avatars.githubusercontent.com/u/206504231?v=4"
+    }
+  },
+  {
+    "name": "overspace-labs/amber",
+    "url": "https://github.com/overspace-labs/amber",
+    "description": "Read and write Burp Suite Proxy HTTP history, byte for byte.",
+    "stars": 25,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-24T08:58:05Z",
+    "updated_at": "2026-08-28T12:40:44Z",
+    "owner": {
+      "name": "overspace-labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88430400?v=4"
     }
   },
   {
@@ -1785,62 +1920,6 @@
     "owner": {
       "name": "Ayaan-Lashari",
       "avatar_url": "https://avatars.githubusercontent.com/u/175134035?v=4"
-    }
-  },
-  {
-    "name": "countradooku/gpui-vue",
-    "url": "https://github.com/countradooku/gpui-vue",
-    "description": "Native GPU-accelerated Vue 3 renderer for Zed's GPUI",
-    "stars": 24,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "bun",
-      "desktop",
-      "gpu",
-      "gpui",
-      "napi",
-      "rust",
-      "vue"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-24T07:13:35Z",
-    "updated_at": "2026-08-27T11:27:31Z",
-    "owner": {
-      "name": "countradooku",
-      "avatar_url": "https://avatars.githubusercontent.com/u/52667211?v=4"
-    }
-  },
-  {
-    "name": "overspace-labs/amber",
-    "url": "https://github.com/overspace-labs/amber",
-    "description": "Read and write Burp Suite Proxy HTTP history, byte for byte.",
-    "stars": 24,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-24T08:58:05Z",
-    "updated_at": "2026-08-27T09:20:57Z",
-    "owner": {
-      "name": "overspace-labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/88430400?v=4"
-    }
-  },
-  {
-    "name": "lxsmnsyc/solid-gpui",
-    "url": "https://github.com/lxsmnsyc/solid-gpui",
-    "description": null,
-    "stars": 24,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-23T17:28:32Z",
-    "updated_at": "2026-08-26T17:47:00Z",
-    "owner": {
-      "name": "lxsmnsyc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4783372?v=4"
     }
   },
   {
@@ -1938,19 +2017,19 @@
     }
   },
   {
-    "name": "nghyane/hands",
-    "url": "https://github.com/nghyane/hands",
-    "description": "Local Grok tools as MCP for ChatGPT Web. No model.",
+    "name": "maybewewill/metagrid",
+    "url": "https://github.com/maybewewill/metagrid",
+    "description": "Automated Dota 2 hero grids synced with the high-MMR meta in real time",
     "stars": 23,
-    "forks": 6,
+    "forks": 2,
     "language": "Rust",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-26T17:17:03Z",
-    "updated_at": "2026-08-27T10:51:10Z",
+    "license": "No license",
+    "created_at": "2026-08-26T20:23:09Z",
+    "updated_at": "2026-08-27T22:48:05Z",
     "owner": {
-      "name": "nghyane",
-      "avatar_url": "https://avatars.githubusercontent.com/u/59473462?v=4"
+      "name": "maybewewill",
+      "avatar_url": "https://avatars.githubusercontent.com/u/180951568?v=4"
     }
   },
   {
@@ -2039,6 +2118,60 @@
     }
   },
   {
+    "name": "sofintel/sofintel",
+    "url": "https://github.com/sofintel/sofintel",
+    "description": "Sofintel - Software Intelligence all-in-1 Editor, Terminal & CEF Browser - all in  lightweight rust zed-derived IDE where everything is in one environment. Build, test, and ship without switching apps.",
+    "stars": 22,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "cef",
+      "chromium-embedded-framework",
+      "ide",
+      "rust",
+      "rust-lang"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-26T11:48:37Z",
+    "updated_at": "2026-08-28T13:13:56Z",
+    "owner": {
+      "name": "sofintel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/321067321?v=4"
+    }
+  },
+  {
+    "name": "sammwyy/layerfs",
+    "url": "https://github.com/sammwyy/layerfs",
+    "description": "Transactional, layered, recoverable root filesystem architecture for Linux.",
+    "stars": 22,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-26T21:17:32Z",
+    "updated_at": "2026-08-28T06:38:02Z",
+    "owner": {
+      "name": "sammwyy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44925968?v=4"
+    }
+  },
+  {
+    "name": "guapimm/AI-Model-Development-Mentor",
+    "url": "https://github.com/guapimm/AI-Model-Development-Mentor",
+    "description": null,
+    "stars": 22,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-23T02:14:01Z",
+    "updated_at": "2026-08-28T13:00:56Z",
+    "owner": {
+      "name": "guapimm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126070208?v=4"
+    }
+  },
+  {
     "name": "eric8810/rutis",
     "url": "https://github.com/eric8810/rutis",
     "description": "Cordis core paradigm in idiomatic Rust: five-pillar kernel + minimal agent framework on the aimux LanguageModel seam",
@@ -2119,35 +2252,35 @@
     }
   },
   {
-    "name": "lichuang/docq",
-    "url": "https://github.com/lichuang/docq",
-    "description": "Local document Q&A in your terminal — powered by on-device LLMs.",
-    "stars": 21,
-    "forks": 0,
+    "name": "Zendevve/OpenCade",
+    "url": "https://github.com/Zendevve/OpenCade",
+    "description": "OpenCade — open-source arcade netplay platform (clean-room Fightcade alternative). Tauri+React+TS client, Rust+Axum+Postgres server.",
+    "stars": 20,
+    "forks": 2,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2026-08-08T03:44:21Z",
-    "updated_at": "2026-08-13T21:29:41Z",
+    "created_at": "2026-08-22T02:28:16Z",
+    "updated_at": "2026-08-27T15:36:52Z",
     "owner": {
-      "name": "lichuang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1998569?v=4"
+      "name": "Zendevve",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86281350?v=4"
     }
   },
   {
-    "name": "dnettoRaw/app-core-public",
-    "url": "https://github.com/dnettoRaw/app-core-public",
-    "description": null,
+    "name": "monyacode/monyacode",
+    "url": "https://github.com/monyacode/monyacode",
+    "description": "MonyaCode - a fast, native Rust code editor and IDE",
     "stars": 20,
-    "forks": 6,
+    "forks": 16,
     "language": "Rust",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-24T11:22:19Z",
-    "updated_at": "2026-08-27T09:38:41Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-24T21:14:35Z",
+    "updated_at": "2026-08-27T23:20:50Z",
     "owner": {
-      "name": "dnettoRaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22327858?v=4"
+      "name": "monyacode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/320739868?v=4"
     }
   },
   {
@@ -2196,35 +2329,35 @@
     }
   },
   {
-    "name": "Zendevve/OpenCade",
-    "url": "https://github.com/Zendevve/OpenCade",
-    "description": "OpenCade — open-source arcade netplay platform (clean-room Fightcade alternative). Tauri+React+TS client, Rust+Axum+Postgres server.",
+    "name": "handyutils/nvmman",
+    "url": "https://github.com/handyutils/nvmman",
+    "description": "Rust TUI NVM Manager - Manage Node.js NVM versions and NPM packages - Interactive nvm maintainer: installs and verifies native platform-specific latest Node LTS, migrates global npm packages, keeps a consolidated JSON registry in ~/.nvm  from every nvm version installed on the machine, restores it to the chosen default Node, syncs/updates packages.",
     "stars": 19,
-    "forks": 2,
+    "forks": 3,
     "language": "Rust",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-22T02:28:16Z",
-    "updated_at": "2026-08-27T05:02:38Z",
+    "license": "MIT License",
+    "created_at": "2026-08-22T00:48:56Z",
+    "updated_at": "2026-08-28T00:12:21Z",
     "owner": {
-      "name": "Zendevve",
-      "avatar_url": "https://avatars.githubusercontent.com/u/86281350?v=4"
+      "name": "handyutils",
+      "avatar_url": "https://avatars.githubusercontent.com/u/319649741?v=4"
     }
   },
   {
-    "name": "maybewewill/metagrid",
-    "url": "https://github.com/maybewewill/metagrid",
-    "description": "Automated Dota 2 hero grids synced with the high-MMR meta in real time",
+    "name": "dnettoRaw/app-core-public",
+    "url": "https://github.com/dnettoRaw/app-core-public",
+    "description": null,
     "stars": 19,
-    "forks": 1,
+    "forks": 6,
     "language": "Rust",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-26T20:23:09Z",
-    "updated_at": "2026-08-27T12:09:18Z",
+    "license": "MIT License",
+    "created_at": "2026-08-24T11:22:19Z",
+    "updated_at": "2026-08-27T15:03:10Z",
     "owner": {
-      "name": "maybewewill",
-      "avatar_url": "https://avatars.githubusercontent.com/u/180951568?v=4"
+      "name": "dnettoRaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22327858?v=4"
     }
   },
   {
@@ -2281,55 +2414,6 @@
     }
   },
   {
-    "name": "zidniryi/unbagrnd",
-    "url": "https://github.com/zidniryi/unbagrnd",
-    "description": "Unbagrnd - Free, Fast & Open-source AI-powered background remover for Windows, macOS, and Linux.",
-    "stars": 19,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [
-      "ai",
-      "ai-tools",
-      "background-removal",
-      "computer-vision",
-      "cross-platform",
-      "free-software",
-      "image-editing",
-      "image-processing",
-      "linux",
-      "machine-learning",
-      "macos",
-      "onnx",
-      "onnxruntime",
-      "open-source",
-      "u2net",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-24T14:30:32Z",
-    "updated_at": "2026-08-27T08:20:06Z",
-    "owner": {
-      "name": "zidniryi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19811857?v=4"
-    }
-  },
-  {
-    "name": "guapimm/AI-Model-Development-Mentor",
-    "url": "https://github.com/guapimm/AI-Model-Development-Mentor",
-    "description": null,
-    "stars": 19,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-23T02:14:01Z",
-    "updated_at": "2026-08-27T12:02:40Z",
-    "owner": {
-      "name": "guapimm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/126070208?v=4"
-    }
-  },
-  {
     "name": "Dicklesworthstone/franken_overlap",
     "url": "https://github.com/Dicklesworthstone/franken_overlap",
     "description": "Ultra-fast sparse-spectral textual overlap detection and approximate alignment in safe Rust",
@@ -2368,19 +2452,19 @@
     }
   },
   {
-    "name": "monyacode/monyacode",
-    "url": "https://github.com/monyacode/monyacode",
-    "description": "MonyaCode - a fast, native Rust code editor and IDE",
+    "name": "guineawheek/build-rs-gacha",
+    "url": "https://github.com/guineawheek/build-rs-gacha",
+    "description": "Interactive tool to look at random build.rs scripts",
     "stars": 18,
-    "forks": 15,
+    "forks": 0,
     "language": "Rust",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-08-24T21:14:35Z",
-    "updated_at": "2026-08-25T23:25:40Z",
+    "license": "No license",
+    "created_at": "2026-08-25T12:29:58Z",
+    "updated_at": "2026-08-27T23:18:22Z",
     "owner": {
-      "name": "monyacode",
-      "avatar_url": "https://avatars.githubusercontent.com/u/320739868?v=4"
+      "name": "guineawheek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8505007?v=4"
     }
   },
   {
@@ -2438,6 +2522,33 @@
     "owner": {
       "name": "soltia48",
       "avatar_url": "https://avatars.githubusercontent.com/u/36096887?v=4"
+    }
+  },
+  {
+    "name": "dataglotai/dataglot",
+    "url": "https://github.com/dataglotai/dataglot",
+    "description": "Rust-native federated SQL query engine with governance enforced in the query plan. One PostgreSQL endpoint for all your databases.",
+    "stars": 17,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "apache-arrow",
+      "apache-iceberg",
+      "data-governance",
+      "datafusion",
+      "federated-queries",
+      "federation",
+      "postgresql",
+      "query-engine",
+      "rust",
+      "sql"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-23T07:49:38Z",
+    "updated_at": "2026-08-28T10:10:43Z",
+    "owner": {
+      "name": "dataglotai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/320087393?v=4"
     }
   },
   {
@@ -2528,22 +2639,6 @@
     "owner": {
       "name": "infervisor",
       "avatar_url": "https://avatars.githubusercontent.com/u/286452532?v=4"
-    }
-  },
-  {
-    "name": "Tripstack-Corp/rmatrix",
-    "url": "https://github.com/Tripstack-Corp/rmatrix",
-    "description": "Digital rain for modern terminals — a Rust take on cmatrix with 24-bit fade trails and real katakana",
-    "stars": 17,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-08T00:53:46Z",
-    "updated_at": "2026-08-14T00:02:57Z",
-    "owner": {
-      "name": "Tripstack-Corp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/276975897?v=4"
     }
   },
   {
@@ -2660,80 +2755,6 @@
     "owner": {
       "name": "aemrebarut",
       "avatar_url": "https://avatars.githubusercontent.com/u/131238438?v=4"
-    }
-  },
-  {
-    "name": "ruvnet/wifi-veil",
-    "url": "https://github.com/ruvnet/wifi-veil",
-    "description": "WiFi Veil — a privacy firewall against unauthorized WiFi sensing. Compliant waveform controls only, never jamming. SYNTHETIC/L0 evidence, reproducible by cargo test.",
-    "stars": 16,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-09T17:49:30Z",
-    "updated_at": "2026-08-13T17:40:38Z",
-    "owner": {
-      "name": "ruvnet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2934394?v=4"
-    }
-  },
-  {
-    "name": "AhmadHassan-BTed/OpenHeart",
-    "url": "https://github.com/AhmadHassan-BTed/OpenHeart",
-    "description": "Succinct Compositional Program Graph (SCPG) static analysis engine & 14-diagram UML generator in Rust.",
-    "stars": 16,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "code-property-graph",
-      "compiler-theory",
-      "program-analysis",
-      "robdd",
-      "rust",
-      "static-analysis",
-      "succinct-data-structures",
-      "tree-sitter",
-      "uml-generator"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-08T16:11:06Z",
-    "updated_at": "2026-08-14T00:07:48Z",
-    "owner": {
-      "name": "AhmadHassan-BTed",
-      "avatar_url": "https://avatars.githubusercontent.com/u/123323526?v=4"
-    }
-  },
-  {
-    "name": "handyutils/nvmman",
-    "url": "https://github.com/handyutils/nvmman",
-    "description": "Rust TUI NVM Manager - Manage Node.js NVM versions and NPM packages - Interactive nvm maintainer: installs and verifies native platform-specific latest Node LTS, migrates global npm packages, keeps a consolidated JSON registry in ~/.nvm  from every nvm version installed on the machine, restores it to the chosen default Node, syncs/updates packages.",
-    "stars": 15,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-22T00:48:56Z",
-    "updated_at": "2026-08-24T13:31:46Z",
-    "owner": {
-      "name": "handyutils",
-      "avatar_url": "https://avatars.githubusercontent.com/u/319649741?v=4"
-    }
-  },
-  {
-    "name": "cachix/nix-flake-lock",
-    "url": "https://github.com/cachix/nix-flake-lock",
-    "description": "Fast, high-level parsing, canonical serialization, and graph operations for Nix flake.lock files,",
-    "stars": 15,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-11T21:44:05Z",
-    "updated_at": "2026-08-13T19:42:26Z",
-    "owner": {
-      "name": "cachix",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36824654?v=4"
     }
   },
   {
