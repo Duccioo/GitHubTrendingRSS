@@ -58,8 +58,8 @@
     "name": "crmne/fastpotify",
     "url": "https://github.com/crmne/fastpotify",
     "description": "Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
-    "stars": 421,
-    "forks": 24,
+    "stars": 514,
+    "forks": 27,
     "language": "Rust",
     "topics": [
       "audio",
@@ -81,37 +81,10 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-27T12:46:32Z",
-    "updated_at": "2026-08-29T08:22:40Z",
+    "updated_at": "2026-08-30T06:16:05Z",
     "owner": {
       "name": "crmne",
       "avatar_url": "https://avatars.githubusercontent.com/u/106617?v=4"
-    }
-  },
-  {
-    "name": "lexmount/moli",
-    "url": "https://github.com/lexmount/moli",
-    "description": "Best browser for AI agents, built in Rust.",
-    "stars": 346,
-    "forks": 23,
-    "language": "Rust",
-    "topics": [
-      "ai-agents",
-      "ai-tools",
-      "browser",
-      "browser-automation",
-      "cloud-browser",
-      "playwright",
-      "puppeteer",
-      "rust",
-      "servo",
-      "web"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-10T13:20:30Z",
-    "updated_at": "2026-08-16T02:23:48Z",
-    "owner": {
-      "name": "lexmount",
-      "avatar_url": "https://avatars.githubusercontent.com/u/231927209?v=4"
     }
   },
   {
@@ -207,6 +180,30 @@
     }
   },
   {
+    "name": "JordyZomer/lemmalog",
+    "url": "https://github.com/JordyZomer/lemmalog",
+    "description": "A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental derivation, and an MCP server that lets your harness use it as a shared brain.",
+    "stars": 160,
+    "forks": 12,
+    "language": "Rust",
+    "topics": [
+      "agent-memory",
+      "datalog",
+      "knowledge-graph",
+      "llm",
+      "llm-agents",
+      "mcp",
+      "neurosymbolic"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-27T07:06:55Z",
+    "updated_at": "2026-08-30T07:39:15Z",
+    "owner": {
+      "name": "JordyZomer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17198473?v=4"
+    }
+  },
+  {
     "name": "smthdagg/wificalling-location-gateway",
     "url": "https://github.com/smthdagg/wificalling-location-gateway",
     "description": "Fail-open OpenWrt WLOC location gateway PoC with auditable multi-agent development workflow",
@@ -223,19 +220,19 @@
     }
   },
   {
-    "name": "hsusul/lore",
-    "url": "https://github.com/hsusul/lore",
-    "description": "git memory for coding agents — a local, searchable archive of your Claude Code and Codex sessions",
-    "stars": 155,
-    "forks": 32,
+    "name": "dragthelake/ambient-context",
+    "url": "https://github.com/dragthelake/ambient-context",
+    "description": "A menu bar app that keeps a written record of what you worked on.",
+    "stars": 140,
+    "forks": 8,
     "language": "Rust",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-10T22:07:29Z",
-    "updated_at": "2026-08-16T00:28:01Z",
+    "license": "MIT License",
+    "created_at": "2026-08-25T00:33:03Z",
+    "updated_at": "2026-08-29T19:26:40Z",
     "owner": {
-      "name": "hsusul",
-      "avatar_url": "https://avatars.githubusercontent.com/u/231806842?v=4"
+      "name": "dragthelake",
+      "avatar_url": "https://avatars.githubusercontent.com/u/665108?v=4"
     }
   },
   {
@@ -255,22 +252,6 @@
     }
   },
   {
-    "name": "dragthelake/ambient-context",
-    "url": "https://github.com/dragthelake/ambient-context",
-    "description": "A menu bar app that keeps a written record of what you worked on.",
-    "stars": 139,
-    "forks": 7,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-25T00:33:03Z",
-    "updated_at": "2026-08-28T19:00:49Z",
-    "owner": {
-      "name": "dragthelake",
-      "avatar_url": "https://avatars.githubusercontent.com/u/665108?v=4"
-    }
-  },
-  {
     "name": "standardagents/ssh-clipboard",
     "url": "https://github.com/standardagents/ssh-clipboard",
     "description": "Native encrypted clipboard sync over SSH for macOS and Linux",
@@ -284,6 +265,22 @@
     "owner": {
       "name": "standardagents",
       "avatar_url": "https://avatars.githubusercontent.com/u/247467195?v=4"
+    }
+  },
+  {
+    "name": "pgrundev/pgterm",
+    "url": "https://github.com/pgrundev/pgterm",
+    "description": "Postgres Terminal",
+    "stars": 115,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-08-27T15:48:53Z",
+    "updated_at": "2026-08-30T07:12:45Z",
+    "owner": {
+      "name": "pgrundev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/300654937?v=4"
     }
   },
   {
@@ -364,22 +361,6 @@
     }
   },
   {
-    "name": "pgrundev/pgterm",
-    "url": "https://github.com/pgrundev/pgterm",
-    "description": "Postgres Terminal",
-    "stars": 102,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-27T15:48:53Z",
-    "updated_at": "2026-08-29T05:38:57Z",
-    "owner": {
-      "name": "pgrundev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/300654937?v=4"
-    }
-  },
-  {
     "name": "Apeireth/apeireth-rust",
     "url": "https://github.com/Apeireth/apeireth-rust",
     "description": "Apeireth — An AGI Operating System / LLM Base (Rust). 85 crates: companion organ, world model, curiosity, hypothesis testing, double-onion security.",
@@ -450,23 +431,39 @@
     }
   },
   {
-    "name": "44886/Exeify",
-    "url": "https://github.com/44886/Exeify",
-    "description": "一个轻量级把HTML静态文件（含SPA项目build的产物）打包成exe可执行文件的项目，打包机无需安装cli脚手架，也无需安装rust、tauri等框架。",
-    "stars": 85,
-    "forks": 15,
+    "name": "omaekumiko2-create/kru",
+    "url": "https://github.com/omaekumiko2-create/kru",
+    "description": "Local-first MCP password and credential manager for AI agents. Use passwords, API keys, SSH identities, and TOTP without exposing hidden plaintext to the model.",
+    "stars": 88,
+    "forks": 1,
     "language": "Rust",
     "topics": [
-      "html5",
+      "ai-agents",
+      "ai-security",
+      "api-key-management",
+      "claude-code",
+      "codex",
+      "credential-manager",
+      "cross-platform",
+      "cursor",
+      "llm-security",
+      "local-first",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "open-source",
+      "password-manager",
       "rust",
+      "secrets-management",
+      "ssh",
       "tauri"
     ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-10T03:15:10Z",
-    "updated_at": "2026-08-16T02:39:57Z",
+    "license": "MIT License",
+    "created_at": "2026-08-24T21:23:11Z",
+    "updated_at": "2026-08-30T03:30:51Z",
     "owner": {
-      "name": "44886",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10481933?v=4"
+      "name": "omaekumiko2-create",
+      "avatar_url": "https://avatars.githubusercontent.com/u/252937168?v=4"
     }
   },
   {
@@ -483,6 +480,22 @@
     "owner": {
       "name": "dungoutlook1",
       "avatar_url": "https://avatars.githubusercontent.com/u/316897483?v=4"
+    }
+  },
+  {
+    "name": "soirihiroka/shrimply",
+    "url": "https://github.com/soirihiroka/shrimply",
+    "description": "A simple video editor",
+    "stars": 83,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-08-26T01:55:08Z",
+    "updated_at": "2026-08-30T07:38:45Z",
+    "owner": {
+      "name": "soirihiroka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133444309?v=4"
     }
   },
   {
@@ -685,30 +698,6 @@
     }
   },
   {
-    "name": "JordyZomer/lemmalog",
-    "url": "https://github.com/JordyZomer/lemmalog",
-    "description": "A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental derivation, and an MCP server that lets your harness use it as a shared brain.",
-    "stars": 58,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [
-      "agent-memory",
-      "datalog",
-      "knowledge-graph",
-      "llm",
-      "llm-agents",
-      "mcp",
-      "neurosymbolic"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-27T07:06:55Z",
-    "updated_at": "2026-08-29T08:29:46Z",
-    "owner": {
-      "name": "JordyZomer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17198473?v=4"
-    }
-  },
-  {
     "name": "ryanfan219/link-helm",
     "url": "https://github.com/ryanfan219/link-helm",
     "description": null,
@@ -741,22 +730,6 @@
     }
   },
   {
-    "name": "ctliz/TmuxDeck",
-    "url": "https://github.com/ctliz/TmuxDeck",
-    "description": null,
-    "stars": 57,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-10T06:56:03Z",
-    "updated_at": "2026-08-16T00:34:42Z",
-    "owner": {
-      "name": "ctliz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26066413?v=4"
-    }
-  },
-  {
     "name": "ja7ad/hydra",
     "url": "https://github.com/ja7ad/hydra",
     "description": "A fast, resilient, multi-source file retriever and download engine",
@@ -779,6 +752,36 @@
     "owner": {
       "name": "ja7ad",
       "avatar_url": "https://avatars.githubusercontent.com/u/56496801?v=4"
+    }
+  },
+  {
+    "name": "ewsun22/codex-manager",
+    "url": "https://github.com/ewsun22/codex-manager",
+    "description": "Local-first desktop control center for OpenAI Codex — sessions, models, tokens, accounts, providers, and AGENTS.md.",
+    "stars": 53,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "agents-md",
+      "ai-coding",
+      "codex",
+      "codex-cli",
+      "codex-desktop",
+      "developer-tools",
+      "llm-observability",
+      "local-first",
+      "macos",
+      "openai-codex",
+      "rust",
+      "tauri",
+      "token-usage"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-27T09:06:52Z",
+    "updated_at": "2026-08-30T07:32:58Z",
+    "owner": {
+      "name": "ewsun22",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55504617?v=4"
     }
   },
   {
@@ -814,6 +817,39 @@
     }
   },
   {
+    "name": "zidniryi/unbagrnd",
+    "url": "https://github.com/zidniryi/unbagrnd",
+    "description": "Unbagrnd - Free, Fast & Open-source AI-powered background remover for Windows, macOS, and Linux.",
+    "stars": 50,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [
+      "ai",
+      "ai-tools",
+      "background-removal",
+      "computer-vision",
+      "cross-platform",
+      "free-software",
+      "image-editing",
+      "image-processing",
+      "linux",
+      "machine-learning",
+      "macos",
+      "onnx",
+      "onnxruntime",
+      "open-source",
+      "u2net",
+      "windows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-24T14:30:32Z",
+    "updated_at": "2026-08-30T07:44:06Z",
+    "owner": {
+      "name": "zidniryi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19811857?v=4"
+    }
+  },
+  {
     "name": "YintaTriss/apeireth-rust",
     "url": "https://github.com/YintaTriss/apeireth-rust",
     "description": "Apeireth — An AGI Operating System / LLM Base (Rust). 85 crates: companion organ, world model, curiosity, hypothesis testing, double-onion security.",
@@ -827,6 +863,22 @@
     "owner": {
       "name": "YintaTriss",
       "avatar_url": "https://avatars.githubusercontent.com/u/228516502?v=4"
+    }
+  },
+  {
+    "name": "artemtsitronov/glacex",
+    "url": "https://github.com/artemtsitronov/glacex",
+    "description": "GPU-Rendered UI library built from scratch in Rust [WIP]",
+    "stars": 47,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-29T08:08:00Z",
+    "updated_at": "2026-08-30T06:10:10Z",
+    "owner": {
+      "name": "artemtsitronov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/220678884?v=4"
     }
   },
   {
@@ -887,6 +939,22 @@
     }
   },
   {
+    "name": "KDU0309/BallQuantum",
+    "url": "https://github.com/KDU0309/BallQuantum",
+    "description": null,
+    "stars": 42,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-25T07:35:29Z",
+    "updated_at": "2026-08-30T07:43:42Z",
+    "owner": {
+      "name": "KDU0309",
+      "avatar_url": "https://avatars.githubusercontent.com/u/270075569?v=4"
+    }
+  },
+  {
     "name": "NeonTeam58/HSR-OWNER",
     "url": "https://github.com/NeonTeam58/HSR-OWNER",
     "description": "Be Owner Dont Be Slave",
@@ -924,36 +992,19 @@
     }
   },
   {
-    "name": "zidniryi/unbagrnd",
-    "url": "https://github.com/zidniryi/unbagrnd",
-    "description": "Unbagrnd - Free, Fast & Open-source AI-powered background remover for Windows, macOS, and Linux.",
+    "name": "nghyane/hands",
+    "url": "https://github.com/nghyane/hands",
+    "description": "Local Grok tools as MCP for ChatGPT Web. No model.",
     "stars": 41,
-    "forks": 4,
+    "forks": 11,
     "language": "Rust",
-    "topics": [
-      "ai",
-      "ai-tools",
-      "background-removal",
-      "computer-vision",
-      "cross-platform",
-      "free-software",
-      "image-editing",
-      "image-processing",
-      "linux",
-      "machine-learning",
-      "macos",
-      "onnx",
-      "onnxruntime",
-      "open-source",
-      "u2net",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-24T14:30:32Z",
-    "updated_at": "2026-08-29T03:28:29Z",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-26T17:17:03Z",
+    "updated_at": "2026-08-30T03:38:10Z",
     "owner": {
-      "name": "zidniryi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19811857?v=4"
+      "name": "nghyane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59473462?v=4"
     }
   },
   {
@@ -1019,19 +1070,40 @@
     }
   },
   {
-    "name": "nghyane/hands",
-    "url": "https://github.com/nghyane/hands",
-    "description": "Local Grok tools as MCP for ChatGPT Web. No model.",
+    "name": "incompletepi/Phantom-Blade-Zero-Combat-Menu-Toolkit",
+    "url": "https://github.com/incompletepi/Phantom-Blade-Zero-Combat-Menu-Toolkit",
+    "description": "Phantom Blade Zero external menu concept featuring weapon loadouts, Phantom Edge presets, player status panels, combat configuration, difficulty profiles, interface customization, and hotkeys.",
     "stars": 40,
-    "forks": 10,
+    "forks": 7,
     "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-26T17:17:03Z",
-    "updated_at": "2026-08-29T06:26:04Z",
+    "topics": [
+      "action-game",
+      "game-interface",
+      "gaming",
+      "phantom-blade-zero",
+      "phantom-blade-zero-difficulty",
+      "phantom-blade-zero-hotkeys",
+      "phantom-blade-zero-interface",
+      "phantom-blade-zero-loadouts",
+      "phantom-blade-zero-mod",
+      "phantom-blade-zero-phantom-edge",
+      "phantom-blade-zero-settings",
+      "phantom-blade-zero-ui",
+      "phantom-blade-zero-weapon-tools",
+      "profile-system",
+      "rpg",
+      "s-game",
+      "windows-11",
+      "windows-x64",
+      "wulin",
+      "wuxia-game"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-24T19:50:17Z",
+    "updated_at": "2026-08-30T04:59:27Z",
     "owner": {
-      "name": "nghyane",
-      "avatar_url": "https://avatars.githubusercontent.com/u/59473462?v=4"
+      "name": "incompletepi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209298247?v=4"
     }
   },
   {
@@ -1234,6 +1306,22 @@
     }
   },
   {
+    "name": "stubbb/c-shop",
+    "url": "https://github.com/stubbb/c-shop",
+    "description": "Graphic editor supporting agentic workflows with deep learning modules.",
+    "stars": 35,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-28T19:28:45Z",
+    "updated_at": "2026-08-30T06:06:40Z",
+    "owner": {
+      "name": "stubbb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4132401?v=4"
+    }
+  },
+  {
     "name": "ziv/bevytiles",
     "url": "https://github.com/ziv/bevytiles",
     "description": "3D Geospatial engine for Bevy",
@@ -1308,6 +1396,22 @@
     }
   },
   {
+    "name": "tdog54646/MeetPair",
+    "url": "https://github.com/tdog54646/MeetPair",
+    "description": null,
+    "stars": 32,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-26T07:55:41Z",
+    "updated_at": "2026-08-30T01:47:32Z",
+    "owner": {
+      "name": "tdog54646",
+      "avatar_url": "https://avatars.githubusercontent.com/u/188939710?v=4"
+    }
+  },
+  {
     "name": "naw103/foremerge",
     "url": "https://github.com/naw103/foremerge",
     "description": "Catch intent conflicts before code conflicts. The open-source coordination protocol for coding agents, built above Git.",
@@ -1348,6 +1452,76 @@
     "owner": {
       "name": "cachix",
       "avatar_url": "https://avatars.githubusercontent.com/u/36824654?v=4"
+    }
+  },
+  {
+    "name": "Jorji49/streamtop",
+    "url": "https://github.com/Jorji49/streamtop",
+    "description": "Terminal HLS, DASH, and IPTV stream monitor. Wire probes, TR 101 290, SCTE-35, Prometheus metrics. Rust CLI/TUI.",
+    "stars": 31,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "cdn",
+      "diagnostics",
+      "hls",
+      "iptv",
+      "ll-hls",
+      "monitoring",
+      "mpeg-dash",
+      "mpeg-ts",
+      "opentelemetry",
+      "prometheus",
+      "ratatui",
+      "rust",
+      "scte-35",
+      "tui",
+      "video",
+      "video-streaming"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-25T14:20:11Z",
+    "updated_at": "2026-08-30T00:57:02Z",
+    "owner": {
+      "name": "Jorji49",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70639449?v=4"
+    }
+  },
+  {
+    "name": "glossycannon/Claude-Codex-Cursor-Token-Saver",
+    "url": "https://github.com/glossycannon/Claude-Codex-Cursor-Token-Saver",
+    "description": "AI Coding Token Saver for Windows — optimize prompts and repository context before sending it to Claude, Codex, Cursor and similar tools using local filtering, file prioritization, context compression, token budgets and reversible profiles.",
+    "stars": 31,
+    "forks": 8,
+    "language": "Rust",
+    "topics": [
+      "ai-coding-tools",
+      "ai-productivity",
+      "claude-code-tools",
+      "codebase-context",
+      "codex-tools",
+      "coding",
+      "context-budget",
+      "context-filter",
+      "cursor-tools",
+      "desktop-app",
+      "developer-utility",
+      "diff-first",
+      "llm-context-compression",
+      "llm-token-saver",
+      "local-tool",
+      "privacy-first",
+      "prompt-compressor",
+      "software-development",
+      "token-usage",
+      "windows-x64"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-27T22:56:14Z",
+    "updated_at": "2026-08-30T03:15:06Z",
+    "owner": {
+      "name": "glossycannon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210427693?v=4"
     }
   },
   {
@@ -1431,31 +1605,19 @@
     }
   },
   {
-    "name": "Jorji49/streamtop",
-    "url": "https://github.com/Jorji49/streamtop",
-    "description": "HLS/DASH/IPTV stream diagnostics TUI · v1.0.1",
+    "name": "chanlunym666/chanlun-engine",
+    "url": "https://github.com/chanlunym666/chanlun-engine",
+    "description": "用 Rust 从零实现的缠论技术分析引擎：五级递归结构 + 三级独立轨道 + 大段中枢 + 买卖点，通达信/MT4 双平台 DLL 即装即用",
     "stars": 29,
-    "forks": 0,
+    "forks": 13,
     "language": "Rust",
-    "topics": [
-      "cdn",
-      "hls",
-      "iptv",
-      "ll-hls",
-      "mpeg-dash",
-      "ratatui",
-      "rust",
-      "scte-35",
-      "tui",
-      "video",
-      "video-streaming"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-08-25T14:20:11Z",
-    "updated_at": "2026-08-29T08:31:15Z",
+    "created_at": "2026-08-26T18:37:33Z",
+    "updated_at": "2026-08-30T07:42:48Z",
     "owner": {
-      "name": "Jorji49",
-      "avatar_url": "https://avatars.githubusercontent.com/u/70639449?v=4"
+      "name": "chanlunym666",
+      "avatar_url": "https://avatars.githubusercontent.com/u/294642043?v=4"
     }
   },
   {
@@ -1584,19 +1746,77 @@
     }
   },
   {
-    "name": "tdog54646/MeetPair",
-    "url": "https://github.com/tdog54646/MeetPair",
-    "description": null,
+    "name": "DamCommercial1/Lost-Ark-Damage-Meter-2026",
+    "url": "https://github.com/DamCommercial1/Lost-Ark-Damage-Meter-2026",
+    "description": "Lost Ark Damage Meter 2026 — Windows raid and combat analytics toolkit with DPS timelines, party rankings, skill contribution, buff uptime, rotation review, session history, report export, and reusable meter profiles.",
     "stars": 28,
-    "forks": 0,
+    "forks": 8,
     "language": "Rust",
-    "topics": [],
+    "topics": [
+      "boss-damage",
+      "buff-uptime-tracker",
+      "combat-report",
+      "desktop-app",
+      "dps-overlay",
+      "encounter-report",
+      "fight-timeline",
+      "gaming",
+      "lost-ark-combat-analyzer",
+      "lost-ark-damage-meter",
+      "lost-ark-dps-tracker",
+      "mmorpg",
+      "party-damage",
+      "pc",
+      "performance-analysis",
+      "raid-analysis",
+      "raid-dps",
+      "session-history",
+      "skill-analytics",
+      "windows-tool"
+    ],
     "license": "MIT License",
-    "created_at": "2026-08-26T07:55:41Z",
-    "updated_at": "2026-08-29T00:42:39Z",
+    "created_at": "2026-08-29T13:11:49Z",
+    "updated_at": "2026-08-30T03:33:42Z",
     "owner": {
-      "name": "tdog54646",
-      "avatar_url": "https://avatars.githubusercontent.com/u/188939710?v=4"
+      "name": "DamCommercial1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/299342105?v=4"
+    }
+  },
+  {
+    "name": "unitedeyeba/Fish-It-Auto-Fishing-2026",
+    "url": "https://github.com/unitedeyeba/Fish-It-Auto-Fishing-2026",
+    "description": "Fish It! progression toolkit for Windows focused on auto fishing profiles, island routes, rod and gear presets, sell rules, rare-fish filters, event settings, exploration shortcuts, and saved configs.",
+    "stars": 28,
+    "forks": 15,
+    "language": "Rust",
+    "topics": [
+      "event-tracker",
+      "fish-it",
+      "fish-it-events",
+      "fish-it-fish-tracker",
+      "fish-it-gear",
+      "fish-it-islands",
+      "fish-it-pirate-cove",
+      "fish-it-rare-fish",
+      "fish-it-rarity-filter",
+      "fish-it-roblox",
+      "fish-it-rods",
+      "fish-it-secret-fish",
+      "fish-it-starfall",
+      "fish-tracker",
+      "fishing-game",
+      "gaming-tools",
+      "rarity-filter",
+      "roblox",
+      "roblox-fish-it",
+      "windows-11"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-27T22:47:07Z",
+    "updated_at": "2026-08-30T03:15:06Z",
+    "owner": {
+      "name": "unitedeyeba",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210484101?v=4"
     }
   },
   {
@@ -1653,6 +1873,28 @@
     }
   },
   {
+    "name": "sofintel/sofintel",
+    "url": "https://github.com/sofintel/sofintel",
+    "description": "Sofintel - Software Intelligence all-in-1 Editor, Terminal & CEF Browser - all in  lightweight rust zed-derived IDE where everything is in one environment. Build, test, and ship without switching apps.",
+    "stars": 27,
+    "forks": 8,
+    "language": "Rust",
+    "topics": [
+      "cef",
+      "chromium-embedded-framework",
+      "ide",
+      "rust",
+      "rust-lang"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-26T11:48:37Z",
+    "updated_at": "2026-08-29T22:09:39Z",
+    "owner": {
+      "name": "sofintel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/321067321?v=4"
+    }
+  },
+  {
     "name": "Grenish/mouse-me",
     "url": "https://github.com/Grenish/mouse-me",
     "description": "A cursor manager for Linux desktops (Hyprland, Omarchy, GTK, Qt, and X11). It includes a Slint GUI and a CLI in one binary.",
@@ -1688,6 +1930,43 @@
     "owner": {
       "name": "siggifly",
       "avatar_url": "https://avatars.githubusercontent.com/u/11075538?v=4"
+    }
+  },
+  {
+    "name": "scholarlybat/Project-Zomboid-Lag-Crash-Fix-2026",
+    "url": "https://github.com/scholarlybat/Project-Zomboid-Lag-Crash-Fix-2026",
+    "description": "Fix Project Zomboid lag, launch issues, startup crashes, black screens, and stutter on Windows 10 / 11 with this optimization and repair utility.",
+    "stars": 26,
+    "forks": 8,
+    "language": "Rust",
+    "topics": [
+      "crash-fix",
+      "lag-fix",
+      "launch-repair",
+      "optimizer",
+      "project-zomboid",
+      "project-zomboid-black-screen-fix",
+      "project-zomboid-crash-fix",
+      "project-zomboid-fps-fix",
+      "project-zomboid-lag-fix",
+      "project-zomboid-launch-fix",
+      "project-zomboid-optimizer",
+      "project-zomboid-performance-fix",
+      "project-zomboid-stutter-fix",
+      "project-zomboid-windows-11",
+      "repair-tool",
+      "steam",
+      "windows",
+      "windows-x64",
+      "zombie-survival",
+      "zomboid"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-28T00:22:14Z",
+    "updated_at": "2026-08-30T03:15:07Z",
+    "owner": {
+      "name": "scholarlybat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/212499397?v=4"
     }
   },
   {
@@ -1736,6 +2015,22 @@
     "owner": {
       "name": "overspace-labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/88430400?v=4"
+    }
+  },
+  {
+    "name": "nol00p/Shoin",
+    "url": "https://github.com/nol00p/Shoin",
+    "description": "*Shoin* (書院) is the study alcove of a traditional Japanese house: a writing desk built into a bay by the window, and nothing else in the room.",
+    "stars": 25,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-28T15:26:38Z",
+    "updated_at": "2026-08-30T06:28:09Z",
+    "owner": {
+      "name": "nol00p",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63861454?v=4"
     }
   },
   {
@@ -1823,6 +2118,96 @@
     "owner": {
       "name": "WEP-56",
       "avatar_url": "https://avatars.githubusercontent.com/u/198519633?v=4"
+    }
+  },
+  {
+    "name": "unitedeyeba/AI-Video-Upscaler-Offline-2026",
+    "url": "https://github.com/unitedeyeba/AI-Video-Upscaler-Offline-2026",
+    "description": "Offline video upscaling utility for Windows focused on privacy, local AI processing, resolution enhancement, denoise, frame-safe export, large-file workflows, and configurable quality profiles.",
+    "stars": 24,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [
+      "1080p-to-4k",
+      "ai-upscaling",
+      "batch-upscaler",
+      "cuda",
+      "denoise-video",
+      "desktop-ai",
+      "directml",
+      "ffmpeg-gui",
+      "gpu-video-processing",
+      "large-video-files",
+      "local-video-upscaler",
+      "media-tools",
+      "offline-tool",
+      "offline-video-upscaler",
+      "onnx",
+      "pc",
+      "restore-video",
+      "video-enhancer",
+      "video-quality",
+      "windows-x64"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-27T22:27:17Z",
+    "updated_at": "2026-08-30T04:38:49Z",
+    "owner": {
+      "name": "unitedeyeba",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210484101?v=4"
+    }
+  },
+  {
+    "name": "maybewewill/metagrid",
+    "url": "https://github.com/maybewewill/metagrid",
+    "description": "Automated Dota 2 hero grids synced with the high-MMR meta in real time",
+    "stars": 24,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-26T20:23:09Z",
+    "updated_at": "2026-08-29T21:33:13Z",
+    "owner": {
+      "name": "maybewewill",
+      "avatar_url": "https://avatars.githubusercontent.com/u/180951568?v=4"
+    }
+  },
+  {
+    "name": "mammothbrew/Local-Similar-Image-Finder",
+    "url": "https://github.com/mammothbrew/Local-Similar-Image-Finder",
+    "description": "Offline duplicate photo finder for Windows focused on local image collections: scan drives and folders, find similar pictures, compare resolutions and file sizes, review groups manually, and export or clean duplicate sets.",
+    "stars": 24,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [
+      "batch-processing",
+      "desktop-ai",
+      "duplicate-image-finder",
+      "exact-match-finder",
+      "file-metadata",
+      "file-tools",
+      "graphics",
+      "image-comparison",
+      "image-indexing",
+      "image-workflow",
+      "local-scan",
+      "photo-cleanup",
+      "photo-library-tool",
+      "photography",
+      "resolution-compare",
+      "review-groups",
+      "scan-photos",
+      "similar-images",
+      "visual-match",
+      "windows-tool"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-27T20:25:45Z",
+    "updated_at": "2026-08-30T03:15:06Z",
+    "owner": {
+      "name": "mammothbrew",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210360122?v=4"
     }
   },
   {
@@ -1936,44 +2321,6 @@
     }
   },
   {
-    "name": "maybewewill/metagrid",
-    "url": "https://github.com/maybewewill/metagrid",
-    "description": "Automated Dota 2 hero grids synced with the high-MMR meta in real time",
-    "stars": 23,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-26T20:23:09Z",
-    "updated_at": "2026-08-27T22:48:05Z",
-    "owner": {
-      "name": "maybewewill",
-      "avatar_url": "https://avatars.githubusercontent.com/u/180951568?v=4"
-    }
-  },
-  {
-    "name": "sofintel/sofintel",
-    "url": "https://github.com/sofintel/sofintel",
-    "description": "Sofintel - Software Intelligence all-in-1 Editor, Terminal & CEF Browser - all in  lightweight rust zed-derived IDE where everything is in one environment. Build, test, and ship without switching apps.",
-    "stars": 23,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [
-      "cef",
-      "chromium-embedded-framework",
-      "ide",
-      "rust",
-      "rust-lang"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-26T11:48:37Z",
-    "updated_at": "2026-08-29T02:20:37Z",
-    "owner": {
-      "name": "sofintel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/321067321?v=4"
-    }
-  },
-  {
     "name": "baihejiangnan/deepseek-harness-desktop",
     "url": "https://github.com/baihejiangnan/deepseek-harness-desktop",
     "description": "DeepSeek Harness 三端兼容桌面启动器：多实例完全隔离、并行协作，协作画布编排 Agent 工作流；便携版 Exe 一键启动、仅约 18M（不超过 20M）；双隔离机制让兼容性极强，无论 DSH 本体如何更新，兼容原生到野生狗奶。",
@@ -2040,22 +2387,6 @@
     "owner": {
       "name": "Nexus-Aethra",
       "avatar_url": "https://avatars.githubusercontent.com/u/301292781?v=4"
-    }
-  },
-  {
-    "name": "war3-archive/war3-maps",
-    "url": "https://github.com/war3-archive/war3-maps",
-    "description": "Warcraft III classic maps index / 魔兽争霸 III 经典地图索引",
-    "stars": 23,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-13T02:19:20Z",
-    "updated_at": "2026-08-15T15:06:00Z",
-    "owner": {
-      "name": "war3-archive",
-      "avatar_url": "https://avatars.githubusercontent.com/u/316399840?v=4"
     }
   },
   {
@@ -2453,38 +2784,6 @@
     }
   },
   {
-    "name": "tjzel/szpont-machen",
-    "url": "https://github.com/tjzel/szpont-machen",
-    "description": "TUI to manage your AI agentic tools",
-    "stars": 19,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "The Unlicense",
-    "created_at": "2026-08-10T20:28:48Z",
-    "updated_at": "2026-08-15T22:53:48Z",
-    "owner": {
-      "name": "tjzel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40713406?v=4"
-    }
-  },
-  {
-    "name": "stubbb/c-shop",
-    "url": "https://github.com/stubbb/c-shop",
-    "description": "2D layer based graphic editor supporting agentic workflows and MCP integrations",
-    "stars": 18,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-28T19:28:45Z",
-    "updated_at": "2026-08-29T06:58:28Z",
-    "owner": {
-      "name": "stubbb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4132401?v=4"
-    }
-  },
-  {
     "name": "qweqqae/MyeKrypt-",
     "url": "https://github.com/qweqqae/MyeKrypt-",
     "description": "Secure file encryption tool (terminal) ",
@@ -2585,43 +2884,6 @@
     }
   },
   {
-    "name": "incompletepi/Phantom-Blade-Zero-Combat-Menu-Toolkit",
-    "url": "https://github.com/incompletepi/Phantom-Blade-Zero-Combat-Menu-Toolkit",
-    "description": "Phantom Blade Zero external menu concept featuring weapon loadouts, Phantom Edge presets, player status panels, combat configuration, difficulty profiles, interface customization, and hotkeys.",
-    "stars": 17,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "action-game",
-      "game-interface",
-      "gaming",
-      "phantom-blade-zero",
-      "phantom-blade-zero-difficulty",
-      "phantom-blade-zero-hotkeys",
-      "phantom-blade-zero-interface",
-      "phantom-blade-zero-loadouts",
-      "phantom-blade-zero-mod",
-      "phantom-blade-zero-phantom-edge",
-      "phantom-blade-zero-settings",
-      "phantom-blade-zero-ui",
-      "phantom-blade-zero-weapon-tools",
-      "profile-system",
-      "rpg",
-      "s-game",
-      "windows-11",
-      "windows-x64",
-      "wulin",
-      "wuxia-game"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-24T19:50:17Z",
-    "updated_at": "2026-08-26T01:03:29Z",
-    "owner": {
-      "name": "incompletepi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/209298247?v=4"
-    }
-  },
-  {
     "name": "ruvnet/llm-stream-reformat",
     "url": "https://github.com/ruvnet/llm-stream-reformat",
     "description": "Reformat a live LLM token stream inflight — separate thinking from answer, collapse repetition, normalize. Google Vertex / OpenRouter / meta-llm. Rust + WASM, built on ruvnet/midstream.",
@@ -2648,30 +2910,6 @@
     "owner": {
       "name": "ruvnet",
       "avatar_url": "https://avatars.githubusercontent.com/u/2934394?v=4"
-    }
-  },
-  {
-    "name": "infervisor/plow",
-    "url": "https://github.com/infervisor/plow",
-    "description": "Packet Language for On-device Warps — a GPU inference compiler and runtime",
-    "stars": 17,
-    "forks": 7,
-    "language": "Rust",
-    "topics": [
-      "compiler",
-      "cuda",
-      "gpu",
-      "inference",
-      "lean4",
-      "rocm",
-      "rust"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-10T15:56:09Z",
-    "updated_at": "2026-08-15T10:33:59Z",
-    "owner": {
-      "name": "infervisor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/286452532?v=4"
     }
   },
   {
@@ -2747,22 +2985,6 @@
     "owner": {
       "name": "nicolasmelo1",
       "avatar_url": "https://avatars.githubusercontent.com/u/12915742?v=4"
-    }
-  },
-  {
-    "name": "Sidiora-Labs/LayerX-Protocol",
-    "url": "https://github.com/Sidiora-Labs/LayerX-Protocol",
-    "description": null,
-    "stars": 16,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-14T19:56:00Z",
-    "updated_at": "2026-08-16T01:21:23Z",
-    "owner": {
-      "name": "Sidiora-Labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/315858149?v=4"
     }
   },
   {
