@@ -1,29 +1,5 @@
 [
   {
-    "name": "guillaumemeyer/watermarks-remover",
-    "url": "https://github.com/guillaumemeyer/watermarks-remover",
-    "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
-    "stars": 11801,
-    "forks": 1259,
-    "language": "Python",
-    "topics": [
-      "agent-skill",
-      "ai",
-      "c2pa",
-      "claude",
-      "provenance",
-      "synthid",
-      "watermark"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-11T16:32:38Z",
-    "updated_at": "2026-08-17T02:55:05Z",
-    "owner": {
-      "name": "guillaumemeyer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1385518?v=4"
-    }
-  },
-  {
     "name": "awesome-dsh-plugin/awesome-dsh-plugin",
     "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
     "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
@@ -49,13 +25,13 @@
     "name": "sapientinc/PRAXIST",
     "url": "https://github.com/sapientinc/PRAXIST",
     "description": "Autonomous research system for measurable, computer-executable research.",
-    "stars": 3223,
-    "forks": 362,
+    "stars": 4812,
+    "forks": 472,
     "language": "Python",
     "topics": [],
     "license": "Other",
     "created_at": "2026-08-27T14:20:58Z",
-    "updated_at": "2026-08-30T07:37:53Z",
+    "updated_at": "2026-08-31T07:21:12Z",
     "owner": {
       "name": "sapientinc",
       "avatar_url": "https://avatars.githubusercontent.com/u/188930505?v=4"
@@ -149,6 +125,26 @@
     }
   },
   {
+    "name": "Tencent/WeMM-Embedding",
+    "url": "https://github.com/Tencent/WeMM-Embedding",
+    "description": "WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval.",
+    "stars": 953,
+    "forks": 66,
+    "language": "Python",
+    "topics": [
+      "embedding-models",
+      "multimodal",
+      "multimodal-llm"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-25T02:46:10Z",
+    "updated_at": "2026-08-31T07:52:54Z",
+    "owner": {
+      "name": "Tencent",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18461506?v=4"
+    }
+  },
+  {
     "name": "Leutenegger/watermarks-remover",
     "url": "https://github.com/Leutenegger/watermarks-remover",
     "description": "Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD files",
@@ -206,26 +202,6 @@
     }
   },
   {
-    "name": "Tencent/WeMM-Embedding",
-    "url": "https://github.com/Tencent/WeMM-Embedding",
-    "description": "WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval.",
-    "stars": 915,
-    "forks": 61,
-    "language": "Python",
-    "topics": [
-      "embedding-models",
-      "multimodal",
-      "multimodal-llm"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-25T02:46:10Z",
-    "updated_at": "2026-08-30T07:37:59Z",
-    "owner": {
-      "name": "Tencent",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18461506?v=4"
-    }
-  },
-  {
     "name": "ShadowAqueduct/watermark-remover",
     "url": "https://github.com/ShadowAqueduct/watermark-remover",
     "description": "Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.",
@@ -249,6 +225,22 @@
     "owner": {
       "name": "ShadowAqueduct",
       "avatar_url": "https://avatars.githubusercontent.com/u/311792326?v=4"
+    }
+  },
+  {
+    "name": "tradecatlabs/shulihuazixuecongshu",
+    "url": "https://github.com/tradecatlabs/shulihuazixuecongshu",
+    "description": null,
+    "stars": 814,
+    "forks": 159,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-27T18:02:35Z",
+    "updated_at": "2026-08-31T07:29:39Z",
+    "owner": {
+      "name": "tradecatlabs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/288998340?v=4"
     }
   },
   {
@@ -292,22 +284,6 @@
     }
   },
   {
-    "name": "tradecatlabs/shulihuazixuecongshu",
-    "url": "https://github.com/tradecatlabs/shulihuazixuecongshu",
-    "description": null,
-    "stars": 703,
-    "forks": 140,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-27T18:02:35Z",
-    "updated_at": "2026-08-30T07:43:11Z",
-    "owner": {
-      "name": "tradecatlabs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/288998340?v=4"
-    }
-  },
-  {
     "name": "SigmanticAI/apex-inference-chip",
     "url": "https://github.com/SigmanticAI/apex-inference-chip",
     "description": "An inference chip design that runs a real LLM (Qwen2.5-0.5B) on FPGA — one transformer decoder layer in RTL, every silicon value bit-exact against a golden model. 0.56 tok/s measured, a 140× climb, full evidence trail.",
@@ -324,38 +300,19 @@
     }
   },
   {
-    "name": "0xsline/awesome-deepseek-harness",
-    "url": "https://github.com/0xsline/awesome-deepseek-harness",
-    "description": "DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.",
-    "stars": 627,
-    "forks": 225,
+    "name": "jprx/darwin-vm",
+    "url": "https://github.com/jprx/darwin-vm",
+    "description": "Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported.",
+    "stars": 646,
+    "forks": 51,
     "language": "Python",
-    "topics": [
-      "agent",
-      "ai",
-      "ai-agents",
-      "ai-tools",
-      "awesome",
-      "awesome-list",
-      "coding-assistant",
-      "curated-list",
-      "deepseek",
-      "deepseek-harness",
-      "developer-tools",
-      "dsh",
-      "dsh-plugin",
-      "dsh-plugins",
-      "harness",
-      "llm",
-      "mcp",
-      "plugins"
-    ],
-    "license": "Creative Commons Zero v1.0 Universal",
-    "created_at": "2026-08-11T13:14:49Z",
-    "updated_at": "2026-08-17T02:54:00Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-27T22:24:31Z",
+    "updated_at": "2026-08-31T07:48:27Z",
     "owner": {
-      "name": "0xsline",
-      "avatar_url": "https://avatars.githubusercontent.com/u/151105947?v=4"
+      "name": "jprx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36464332?v=4"
     }
   },
   {
@@ -407,22 +364,6 @@
     "owner": {
       "name": "Leutenegger",
       "avatar_url": "https://avatars.githubusercontent.com/u/265765261?v=4"
-    }
-  },
-  {
-    "name": "jprx/darwin-vm",
-    "url": "https://github.com/jprx/darwin-vm",
-    "description": "Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported.",
-    "stars": 572,
-    "forks": 43,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-27T22:24:31Z",
-    "updated_at": "2026-08-30T07:40:25Z",
-    "owner": {
-      "name": "jprx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36464332?v=4"
     }
   },
   {
@@ -622,6 +563,30 @@
     }
   },
   {
+    "name": "damejan80/tokentab",
+    "url": "https://github.com/damejan80/tokentab",
+    "description": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
+    "stars": 455,
+    "forks": 79,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "claude",
+      "claude-code",
+      "cursor",
+      "python",
+      "token-optimization",
+      "token-usage"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-27T14:16:09Z",
+    "updated_at": "2026-08-31T07:57:28Z",
+    "owner": {
+      "name": "damejan80",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15242181?v=4"
+    }
+  },
+  {
     "name": "xinxinshuhao-create/grok-register",
     "url": "https://github.com/xinxinshuhao-create/grok-register",
     "description": "Automated account registration toolkit for x.ai (Grok) with SSO extraction, OAuth Device Flow, and auto-replenish daemon",
@@ -641,16 +606,38 @@
     "name": "breslee1707/VI-Translate",
     "url": "https://github.com/breslee1707/VI-Translate",
     "description": null,
-    "stars": 418,
-    "forks": 79,
+    "stars": 442,
+    "forks": 82,
     "language": "Python",
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-08-25T08:42:50Z",
-    "updated_at": "2026-08-30T07:20:44Z",
+    "updated_at": "2026-08-31T07:50:25Z",
     "owner": {
       "name": "breslee1707",
       "avatar_url": "https://avatars.githubusercontent.com/u/199243521?v=4"
+    }
+  },
+  {
+    "name": "hkqr/my-free-code",
+    "url": "https://github.com/hkqr/my-free-code",
+    "description": "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support",
+    "stars": 430,
+    "forks": 161,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "claude-code",
+      "free-claude-api",
+      "multi-provider",
+      "multi-provider-llm"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-27T17:59:23Z",
+    "updated_at": "2026-08-31T07:55:09Z",
+    "owner": {
+      "name": "hkqr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153429021?v=4"
     }
   },
   {
@@ -699,6 +686,25 @@
     "owner": {
       "name": "gfodor",
       "avatar_url": "https://avatars.githubusercontent.com/u/220020?v=4"
+    }
+  },
+  {
+    "name": "mouredev/hello-sdd",
+    "url": "https://github.com/mouredev/hello-sdd",
+    "description": "Curso de SDD (Spec-Driven Development) desde cero",
+    "stars": 348,
+    "forks": 68,
+    "language": "Python",
+    "topics": [
+      "sdd",
+      "spec-driven-development"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-27T11:49:48Z",
+    "updated_at": "2026-08-31T07:35:02Z",
+    "owner": {
+      "name": "mouredev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17043402?v=4"
     }
   },
   {
@@ -767,25 +773,6 @@
     }
   },
   {
-    "name": "mouredev/hello-sdd",
-    "url": "https://github.com/mouredev/hello-sdd",
-    "description": "Curso de SDD (Spec-Driven Development) desde cero",
-    "stars": 324,
-    "forks": 56,
-    "language": "Python",
-    "topics": [
-      "sdd",
-      "spec-driven-development"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-27T11:49:48Z",
-    "updated_at": "2026-08-30T07:43:41Z",
-    "owner": {
-      "name": "mouredev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17043402?v=4"
-    }
-  },
-  {
     "name": "HanyuanWang/LiveStream-Agent-Studio",
     "url": "https://github.com/HanyuanWang/LiveStream-Agent-Studio",
     "description": "面向抖音直播电商的 Windows 本地 AI Agent Studio，贯通主播发现、直播洞察、直播复盘与短视频内容编导的统一智能工作流。",
@@ -823,11 +810,29 @@
     }
   },
   {
+    "name": "buaacyw/code-world-model",
+    "url": "https://github.com/buaacyw/code-world-model",
+    "description": "Code World Model  Official Repo",
+    "stars": 315,
+    "forks": 12,
+    "language": "Python",
+    "topics": [
+      "world-models"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-26T18:00:02Z",
+    "updated_at": "2026-08-31T07:12:02Z",
+    "owner": {
+      "name": "buaacyw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52091468?v=4"
+    }
+  },
+  {
     "name": "oboroge0/hayamimi",
     "url": "https://github.com/oboroge0/hayamimi",
     "description": "早耳 - Real-time multilingual speech-to-text on CPU only. Live subtitles, browser dashboard, speaker labels, translation. No GPU, no cloud.",
-    "stars": 307,
-    "forks": 19,
+    "stars": 313,
+    "forks": 22,
     "language": "Python",
     "topics": [
       "asr",
@@ -840,7 +845,7 @@
     ],
     "license": "Other",
     "created_at": "2026-08-25T03:56:26Z",
-    "updated_at": "2026-08-30T04:31:28Z",
+    "updated_at": "2026-08-31T05:20:55Z",
     "owner": {
       "name": "oboroge0",
       "avatar_url": "https://avatars.githubusercontent.com/u/202881821?v=4"
@@ -870,25 +875,19 @@
     }
   },
   {
-    "name": "hkqr/my-free-code",
-    "url": "https://github.com/hkqr/my-free-code",
-    "description": "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support",
-    "stars": 286,
-    "forks": 103,
+    "name": "Tencent-Hunyuan/Hy4-preview",
+    "url": "https://github.com/Tencent-Hunyuan/Hy4-preview",
+    "description": null,
+    "stars": 285,
+    "forks": 15,
     "language": "Python",
-    "topics": [
-      "ai",
-      "claude-code",
-      "free-claude-api",
-      "multi-provider",
-      "multi-provider-llm"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-27T17:59:23Z",
-    "updated_at": "2026-08-30T07:43:30Z",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-08-27T09:27:34Z",
+    "updated_at": "2026-08-31T07:56:57Z",
     "owner": {
-      "name": "hkqr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/153429021?v=4"
+      "name": "Tencent-Hunyuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210980732?v=4"
     }
   },
   {
@@ -972,30 +971,6 @@
     }
   },
   {
-    "name": "damejan80/tokentab",
-    "url": "https://github.com/damejan80/tokentab",
-    "description": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
-    "stars": 270,
-    "forks": 30,
-    "language": "Python",
-    "topics": [
-      "ai",
-      "claude",
-      "claude-code",
-      "cursor",
-      "python",
-      "token-optimization",
-      "token-usage"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-27T14:16:09Z",
-    "updated_at": "2026-08-30T07:43:39Z",
-    "owner": {
-      "name": "damejan80",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15242181?v=4"
-    }
-  },
-  {
     "name": "Rimagination/h3lite",
     "url": "https://github.com/Rimagination/h3lite",
     "description": "A hardware-aware Codex skill for local MiniMax H3 video generation through ComfyUI",
@@ -1012,40 +987,6 @@
     }
   },
   {
-    "name": "Tencent-Hunyuan/Hy4-preview",
-    "url": "https://github.com/Tencent-Hunyuan/Hy4-preview",
-    "description": null,
-    "stars": 263,
-    "forks": 13,
-    "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-27T09:27:34Z",
-    "updated_at": "2026-08-30T06:58:36Z",
-    "owner": {
-      "name": "Tencent-Hunyuan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/210980732?v=4"
-    }
-  },
-  {
-    "name": "buaacyw/code-world-model",
-    "url": "https://github.com/buaacyw/code-world-model",
-    "description": "Code World Model  Official Repo",
-    "stars": 260,
-    "forks": 10,
-    "language": "Python",
-    "topics": [
-      "world-models"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-26T18:00:02Z",
-    "updated_at": "2026-08-30T07:38:19Z",
-    "owner": {
-      "name": "buaacyw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/52091468?v=4"
-    }
-  },
-  {
     "name": "MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark",
     "url": "https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark",
     "description": "DeepSeek v4 Flash EXL3 on one DGX Spark",
@@ -1059,6 +1000,42 @@
     "owner": {
       "name": "MiaAI-Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/83042094?v=4"
+    }
+  },
+  {
+    "name": "MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks",
+    "url": "https://github.com/MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks",
+    "description": "GLM-5.3 Flash EXL3 for 2x DGX Sparks",
+    "stars": 259,
+    "forks": 38,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-27T16:22:58Z",
+    "updated_at": "2026-08-31T07:45:36Z",
+    "owner": {
+      "name": "MiaAI-Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83042094?v=4"
+    }
+  },
+  {
+    "name": "amap-cvlab/ABot-Recon",
+    "url": "https://github.com/amap-cvlab/ABot-Recon",
+    "description": "Streaming 3D reconstruction from only video input: Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction",
+    "stars": 258,
+    "forks": 21,
+    "language": "Python",
+    "topics": [
+      "3d-reconstruction",
+      "abot-recon",
+      "slam"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-27T08:32:09Z",
+    "updated_at": "2026-08-31T07:43:26Z",
+    "owner": {
+      "name": "amap-cvlab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/207984189?v=4"
     }
   },
   {
@@ -1132,6 +1109,22 @@
     }
   },
   {
+    "name": "framepipe-dev/media-inference-worker",
+    "url": "https://github.com/framepipe-dev/media-inference-worker",
+    "description": "Small client for media model inference",
+    "stars": 241,
+    "forks": 68,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-26T03:56:48Z",
+    "updated_at": "2026-08-31T01:23:11Z",
+    "owner": {
+      "name": "framepipe-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/321252178?v=4"
+    }
+  },
+  {
     "name": "Carasibana/ComfyUI-H3-FaceRefine",
     "url": "https://github.com/Carasibana/ComfyUI-H3-FaceRefine",
     "description": "Refine and improve the quality of small faces in MiniMax H3 video. Per-frame face tracking, crop, refine with H3, stitch back.",
@@ -1167,19 +1160,19 @@
     }
   },
   {
-    "name": "framepipe-dev/media-inference-worker",
-    "url": "https://github.com/framepipe-dev/media-inference-worker",
-    "description": "Small client for media model inference",
-    "stars": 230,
-    "forks": 65,
+    "name": "MirroS-Lab/Code-as-World",
+    "url": "https://github.com/MirroS-Lab/Code-as-World",
+    "description": "Code as World: Agentic Discovery of Executable World Representations for Physical Reasoning",
+    "stars": 234,
+    "forks": 1,
     "language": "Python",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-26T03:56:48Z",
-    "updated_at": "2026-08-30T07:43:46Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-27T17:42:04Z",
+    "updated_at": "2026-08-31T07:52:42Z",
     "owner": {
-      "name": "framepipe-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/321252178?v=4"
+      "name": "MirroS-Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/314831110?v=4"
     }
   },
   {
@@ -1201,6 +1194,22 @@
     "owner": {
       "name": "programasweights",
       "avatar_url": "https://avatars.githubusercontent.com/u/235572688?v=4"
+    }
+  },
+  {
+    "name": "MORTEN-BUUR/nordef-matrix-open-control",
+    "url": "https://github.com/MORTEN-BUUR/nordef-matrix-open-control",
+    "description": "NORDEF Matrix Open Control: model-independent AI safety belt with 0/1/2 decisions, Ed25519 root gate, replay protection, evidence chain, and incident-pattern eval bank",
+    "stars": 225,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-26T20:33:31Z",
+    "updated_at": "2026-08-31T07:56:23Z",
+    "owner": {
+      "name": "MORTEN-BUUR",
+      "avatar_url": "https://avatars.githubusercontent.com/u/175750073?v=4"
     }
   },
   {
@@ -1313,43 +1322,11 @@
     }
   },
   {
-    "name": "MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks",
-    "url": "https://github.com/MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks",
-    "description": "GLM-5.3 Flash EXL3 for 2x DGX Sparks",
-    "stars": 206,
-    "forks": 26,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-27T16:22:58Z",
-    "updated_at": "2026-08-30T07:44:05Z",
-    "owner": {
-      "name": "MiaAI-Lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83042094?v=4"
-    }
-  },
-  {
-    "name": "sudoingX/qwen38-mtp",
-    "url": "https://github.com/sudoingX/qwen38-mtp",
-    "description": "One llama.cpp flag unlocks +33-39% decode speed for Qwen3.8-27B on consumer GPUs. The MTP head already ships inside your GGUF. Recipe, paired benchmarks, probe tool.",
-    "stars": 195,
-    "forks": 60,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-14T19:45:32Z",
-    "updated_at": "2026-08-20T02:15:08Z",
-    "owner": {
-      "name": "sudoingX",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200180104?v=4"
-    }
-  },
-  {
     "name": "HRuiCcc/music-geshizhuanhuan",
     "url": "https://github.com/HRuiCcc/music-geshizhuanhuan",
     "description": "全平台加密音乐格式转换器（网页版+命令行）：网易云 NCM / QQ音乐 QMC / 酷狗 KGM / 酷我 KWM 解密与转码，代码从零自研，MIT 协议",
-    "stars": 193,
-    "forks": 43,
+    "stars": 214,
+    "forks": 47,
     "language": "Python",
     "topics": [
       "audio",
@@ -1373,26 +1350,42 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-25T07:56:06Z",
-    "updated_at": "2026-08-30T07:15:42Z",
+    "updated_at": "2026-08-31T07:17:21Z",
     "owner": {
       "name": "HRuiCcc",
       "avatar_url": "https://avatars.githubusercontent.com/u/319719670?v=4"
     }
   },
   {
-    "name": "MirroS-Lab/Code-as-World",
-    "url": "https://github.com/MirroS-Lab/Code-as-World",
-    "description": "Code as World: Agentic Discovery of Executable World Representations for Physical Reasoning",
-    "stars": 189,
-    "forks": 1,
+    "name": "MiaAI-Lab/Qwen3.8-Flash-Next-Dual-DGX-Sparks",
+    "url": "https://github.com/MiaAI-Lab/Qwen3.8-Flash-Next-Dual-DGX-Sparks",
+    "description": "Qwen3.8-Flash-Next-NVFP4-vLLM-Dual-DGX-Spark",
+    "stars": 201,
+    "forks": 23,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-26T17:15:46Z",
+    "updated_at": "2026-08-31T07:54:48Z",
+    "owner": {
+      "name": "MiaAI-Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83042094?v=4"
+    }
+  },
+  {
+    "name": "sudoingX/qwen38-mtp",
+    "url": "https://github.com/sudoingX/qwen38-mtp",
+    "description": "One llama.cpp flag unlocks +33-39% decode speed for Qwen3.8-27B on consumer GPUs. The MTP head already ships inside your GGUF. Recipe, paired benchmarks, probe tool.",
+    "stars": 195,
+    "forks": 60,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2026-08-27T17:42:04Z",
-    "updated_at": "2026-08-30T06:33:50Z",
+    "created_at": "2026-08-14T19:45:32Z",
+    "updated_at": "2026-08-20T02:15:08Z",
     "owner": {
-      "name": "MirroS-Lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/314831110?v=4"
+      "name": "sudoingX",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200180104?v=4"
     }
   },
   {
@@ -1409,6 +1402,43 @@
     "owner": {
       "name": "fellowgeek",
       "avatar_url": "https://avatars.githubusercontent.com/u/3333580?v=4"
+    }
+  },
+  {
+    "name": "GangTailorUpgrade/CoomeRtool",
+    "url": "https://github.com/GangTailorUpgrade/CoomeRtool",
+    "description": "Coomer Tool",
+    "stars": 181,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "coomer",
+      "coomer-download",
+      "coomer-downloader",
+      "coomer-party",
+      "coomer-porn",
+      "coomer-st",
+      "coomer-su",
+      "kemomo",
+      "kemon-party",
+      "kemoni",
+      "kemono",
+      "kemono-downloader",
+      "kemono-oarty",
+      "kemono-party",
+      "kemono-porn",
+      "kemono-su",
+      "kemono-su-downloader",
+      "kemono-xxx",
+      "kemonoparty",
+      "kenmono"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-31T00:12:45Z",
+    "updated_at": "2026-08-31T07:57:27Z",
+    "owner": {
+      "name": "GangTailorUpgrade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/270958586?v=4"
     }
   },
   {
@@ -1467,22 +1497,6 @@
     }
   },
   {
-    "name": "MORTEN-BUUR/nordef-matrix-open-control",
-    "url": "https://github.com/MORTEN-BUUR/nordef-matrix-open-control",
-    "description": "NORDEF Matrix Open Control: model-independent AI safety belt with 0/1/2 decisions, Ed25519 root gate, replay protection, evidence chain, and incident-pattern eval bank",
-    "stars": 173,
-    "forks": 0,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-26T20:33:31Z",
-    "updated_at": "2026-08-30T07:15:31Z",
-    "owner": {
-      "name": "MORTEN-BUUR",
-      "avatar_url": "https://avatars.githubusercontent.com/u/175750073?v=4"
-    }
-  },
-  {
     "name": "zenstory-ai/oh-story-dsh",
     "url": "https://github.com/zenstory-ai/oh-story-dsh",
     "description": "A DSH plugin for novel writing and short-drama production, powered by Oh Story and Drama Skills.",
@@ -1526,23 +1540,19 @@
     }
   },
   {
-    "name": "amap-cvlab/ABot-Recon",
-    "url": "https://github.com/amap-cvlab/ABot-Recon",
-    "description": "Streaming 3D reconstruction from only video input: Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction",
-    "stars": 166,
+    "name": "breezeblue-ai/breeze-tts",
+    "url": "https://github.com/breezeblue-ai/breeze-tts",
+    "description": "Official PyTorch inference for Breeze TTS 2",
+    "stars": 164,
     "forks": 15,
     "language": "Python",
-    "topics": [
-      "3d-reconstruction",
-      "abot-recon",
-      "slam"
-    ],
+    "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2026-08-27T08:32:09Z",
-    "updated_at": "2026-08-30T07:40:42Z",
+    "created_at": "2026-08-25T16:23:48Z",
+    "updated_at": "2026-08-31T07:10:56Z",
     "owner": {
-      "name": "amap-cvlab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207984189?v=4"
+      "name": "breezeblue-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/308726363?v=4"
     }
   },
   {
@@ -1626,22 +1636,6 @@
     }
   },
   {
-    "name": "breezeblue-ai/breeze-tts",
-    "url": "https://github.com/breezeblue-ai/breeze-tts",
-    "description": "Official PyTorch inference for Breeze TTS 2",
-    "stars": 155,
-    "forks": 12,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-25T16:23:48Z",
-    "updated_at": "2026-08-30T07:43:05Z",
-    "owner": {
-      "name": "breezeblue-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/308726363?v=4"
-    }
-  },
-  {
     "name": "squall01337/mixamo-llm-mocap",
     "url": "https://github.com/squall01337/mixamo-llm-mocap",
     "description": "Turn any video into a Mixamo-rig animation - GVHMR estimator, spec-driven retarget, FK apply in Blender via MCP. Works with any Mixamo character; built to be operated end-to-end by an AI agent.",
@@ -1682,6 +1676,24 @@
     "owner": {
       "name": "crunz-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/317506543?v=4"
+    }
+  },
+  {
+    "name": "hku-sail/StreamPI",
+    "url": "https://github.com/hku-sail/StreamPI",
+    "description": "StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models",
+    "stars": 152,
+    "forks": 4,
+    "language": "Python",
+    "topics": [
+      "vla"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-26T16:13:52Z",
+    "updated_at": "2026-08-31T07:17:20Z",
+    "owner": {
+      "name": "hku-sail",
+      "avatar_url": "https://avatars.githubusercontent.com/u/273135758?v=4"
     }
   },
   {
@@ -1809,24 +1821,6 @@
     "owner": {
       "name": "TencentARC",
       "avatar_url": "https://avatars.githubusercontent.com/u/83739826?v=4"
-    }
-  },
-  {
-    "name": "hku-sail/StreamPI",
-    "url": "https://github.com/hku-sail/StreamPI",
-    "description": "StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models",
-    "stars": 145,
-    "forks": 3,
-    "language": "Python",
-    "topics": [
-      "vla"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-26T16:13:52Z",
-    "updated_at": "2026-08-30T06:27:41Z",
-    "owner": {
-      "name": "hku-sail",
-      "avatar_url": "https://avatars.githubusercontent.com/u/273135758?v=4"
     }
   },
   {
@@ -1970,6 +1964,22 @@
     }
   },
   {
+    "name": "kvuong2711/fix-anything",
+    "url": "https://github.com/kvuong2711/fix-anything",
+    "description": "[ECCV 2026] FixAnything: 3D-Consistent Rendering Refinement via Video Generative Priors",
+    "stars": 135,
+    "forks": 3,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-25T18:13:25Z",
+    "updated_at": "2026-08-31T07:52:46Z",
+    "owner": {
+      "name": "kvuong2711",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26689442?v=4"
+    }
+  },
+  {
     "name": "jaime0815/WeChatWatcher",
     "url": "https://github.com/jaime0815/WeChatWatcher",
     "description": null,
@@ -1986,19 +1996,19 @@
     }
   },
   {
-    "name": "mikiane/claude-watermark-cleaner",
-    "url": "https://github.com/mikiane/claude-watermark-cleaner",
-    "description": "Démonstration critique et outil expérimental de perturbation des watermarks statistiques de Claude",
-    "stars": 133,
-    "forks": 21,
+    "name": "tonyd2wild/GLM-5.3-Flash-NVFP4-DFlash2-2x-DGX-Spark",
+    "url": "https://github.com/tonyd2wild/GLM-5.3-Flash-NVFP4-DFlash2-2x-DGX-Spark",
+    "description": "GLM-5.3-Flash (NVFP4) on 2x NVIDIA DGX Spark - vLLM TP2, 262K context, MTP. World-first deploy recipe: 7 day-0 bugs found and fixed, patched sm121 image, probes and full report.",
+    "stars": 132,
+    "forks": 15,
     "language": "Python",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-08-11T10:52:11Z",
-    "updated_at": "2026-08-17T01:24:53Z",
+    "created_at": "2026-08-26T20:46:55Z",
+    "updated_at": "2026-08-31T06:27:38Z",
     "owner": {
-      "name": "mikiane",
-      "avatar_url": "https://avatars.githubusercontent.com/u/513624?v=4"
+      "name": "tonyd2wild",
+      "avatar_url": "https://avatars.githubusercontent.com/u/219747476?v=4"
     }
   },
   {
@@ -2111,6 +2121,25 @@
     }
   },
   {
+    "name": "seedleap/zing-world-model",
+    "url": "https://github.com/seedleap/zing-world-model",
+    "description": "Zing-0.5: An Efficient Real-Time Interactive World Model",
+    "stars": 122,
+    "forks": 16,
+    "language": "Python",
+    "topics": [
+      "video-generation",
+      "world-models"
+    ],
+    "license": "Other",
+    "created_at": "2026-08-25T09:47:54Z",
+    "updated_at": "2026-08-31T07:57:30Z",
+    "owner": {
+      "name": "seedleap",
+      "avatar_url": "https://avatars.githubusercontent.com/u/217339031?v=4"
+    }
+  },
+  {
     "name": "hassenbrahim/NeuralRank",
     "url": "https://github.com/hassenbrahim/NeuralRank",
     "description": "NeuralRank utilizes distributed neural networks to facilitate real-time, adaptive ranking and scoring through auto-scaling architectures.",
@@ -2209,6 +2238,22 @@
     }
   },
   {
+    "name": "Belucking/ZkOracle",
+    "url": "https://github.com/Belucking/ZkOracle",
+    "description": "ZkOracle is a distributed, high-performance data replication engine that enables real-time data synchronization across a scalable platform.",
+    "stars": 121,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-26T03:07:29Z",
+    "updated_at": "2026-08-31T05:32:19Z",
+    "owner": {
+      "name": "Belucking",
+      "avatar_url": "https://avatars.githubusercontent.com/u/277704607?v=4"
+    }
+  },
+  {
     "name": "Yaxin9Luo/AutoDesign",
     "url": "https://github.com/Yaxin9Luo/AutoDesign",
     "description": "The open-source design agent and harness, better than Claude Design on academic communication artifacts production. This DesignHarness can also be used with any coding harness you like ( Codex/Claude Code/Kimi Code/Pi/OpenCode etc..) and any agentic model you want.",
@@ -2232,38 +2277,6 @@
     }
   },
   {
-    "name": "lensback940701/Evidence-Bound-Press-Conference-Revision-Skill",
-    "url": "https://github.com/lensback940701/Evidence-Bound-Press-Conference-Revision-Skill",
-    "description": "An evidence-bound academic revision skill for social science research. It reduces defensive prose without weakening scholarly caution, foregrounds core contributions, compresses repetitive qualifications and process narration, and preserves claim ceilings, evidence status, scope, boundaries, and rival explanations for auditable, traceable revision.",
-    "stars": 121,
-    "forks": 4,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-11T15:31:03Z",
-    "updated_at": "2026-08-17T01:54:57Z",
-    "owner": {
-      "name": "lensback940701",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266205271?v=4"
-    }
-  },
-  {
-    "name": "Belucking/ZkOracle",
-    "url": "https://github.com/Belucking/ZkOracle",
-    "description": "ZkOracle is a distributed, high-performance data replication engine that enables real-time data synchronization across a scalable platform.",
-    "stars": 120,
-    "forks": 0,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-26T03:07:29Z",
-    "updated_at": "2026-08-28T15:38:23Z",
-    "owner": {
-      "name": "Belucking",
-      "avatar_url": "https://avatars.githubusercontent.com/u/277704607?v=4"
-    }
-  },
-  {
     "name": "dengzehan666-png/Review-RAG",
     "url": "https://github.com/dengzehan666-png/Review-RAG",
     "description": "面向 Java 面试和 LeetCode Hot100 学习场景，搭建集多格式文档入库、语义检索、知识问答、随机刷题及错题复习于一体的 RAG 系统。系统优先依据个人知识库生成答案，证据不足时调用通用大模型补充，并通过人工确认机制将优质回答沉淀回知识库。",
@@ -2277,22 +2290,6 @@
     "owner": {
       "name": "dengzehan666-png",
       "avatar_url": "https://avatars.githubusercontent.com/u/311335522?v=4"
-    }
-  },
-  {
-    "name": "scottmudge/ComfyUI_MinimaxH3HybridLoader",
-    "url": "https://github.com/scottmudge/ComfyUI_MinimaxH3HybridLoader",
-    "description": "A model hybridization loader to combine different layers/blocks of the fl2va and ref2va models",
-    "stars": 120,
-    "forks": 6,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-11T01:00:39Z",
-    "updated_at": "2026-08-17T02:23:46Z",
-    "owner": {
-      "name": "scottmudge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19617165?v=4"
     }
   },
   {
@@ -2328,6 +2325,22 @@
     }
   },
   {
+    "name": "fuad403273/GradientOracle",
+    "url": "https://github.com/fuad403273/GradientOracle",
+    "description": "GradientOracle is a predictive analytics framework utilizing machine learning processing and online learning, with built-in optimizer and scheduler.",
+    "stars": 117,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-26T02:36:55Z",
+    "updated_at": "2026-08-28T15:37:59Z",
+    "owner": {
+      "name": "fuad403273",
+      "avatar_url": "https://avatars.githubusercontent.com/u/211134650?v=4"
+    }
+  },
+  {
     "name": "petergyang/fuck-cancer",
     "url": "https://github.com/petergyang/fuck-cancer",
     "description": "Create and update a practical brief to help patients and caregivers advocate for themselves.",
@@ -2344,34 +2357,6 @@
     }
   },
   {
-    "name": "1838904818/audit-repo",
-    "url": "https://github.com/1838904818/audit-repo",
-    "description": "A practical Codex skill for evidence-backed repository health audits",
-    "stars": 117,
-    "forks": 9,
-    "language": "Python",
-    "topics": [
-      "code-quality",
-      "codex",
-      "codex-skill",
-      "developer-tools",
-      "openai",
-      "python",
-      "repository-audit",
-      "repository-health",
-      "security-audit",
-      "static-analysis",
-      "technical-debt"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-11T08:52:31Z",
-    "updated_at": "2026-08-17T01:02:33Z",
-    "owner": {
-      "name": "1838904818",
-      "avatar_url": "https://avatars.githubusercontent.com/u/113549269?v=4"
-    }
-  },
-  {
     "name": "patterniha/Free-Configs",
     "url": "https://github.com/patterniha/Free-Configs",
     "description": null,
@@ -2385,22 +2370,6 @@
     "owner": {
       "name": "patterniha",
       "avatar_url": "https://avatars.githubusercontent.com/u/71074308?v=4"
-    }
-  },
-  {
-    "name": "jerber/arc-code",
-    "url": "https://github.com/jerber/arc-code",
-    "description": null,
-    "stars": 116,
-    "forks": 14,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-11T05:45:34Z",
-    "updated_at": "2026-08-16T20:49:04Z",
-    "owner": {
-      "name": "jerber",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19958616?v=4"
     }
   },
   {
@@ -2661,22 +2630,6 @@
     }
   },
   {
-    "name": "straighttttt/movie-commentary-workflow",
-    "url": "https://github.com/straighttttt/movie-commentary-workflow",
-    "description": "Auditable Codex skills and data contracts for first-person movie commentary production",
-    "stars": 104,
-    "forks": 8,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-11T12:29:46Z",
-    "updated_at": "2026-08-16T13:10:31Z",
-    "owner": {
-      "name": "straighttttt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/128947101?v=4"
-    }
-  },
-  {
     "name": "tubban1/leadgen",
     "url": "https://github.com/tubban1/leadgen",
     "description": "🚀 多租户全自动化闭环建站与云基础设施生成式 UI 系统 | Automated Multi-Tenant Generative UI & Infrastructure Delivery Engine (Next.js 14, OpenAI, Neon DB, Vercel & GoDaddy APIs)",
@@ -2690,25 +2643,6 @@
     "owner": {
       "name": "tubban1",
       "avatar_url": "https://avatars.githubusercontent.com/u/198357147?v=4"
-    }
-  },
-  {
-    "name": "seedleap/zing-world-model",
-    "url": "https://github.com/seedleap/zing-world-model",
-    "description": "Zing-0.5: An Efficient Real-Time Interactive World Model",
-    "stars": 103,
-    "forks": 15,
-    "language": "Python",
-    "topics": [
-      "video-generation",
-      "world-models"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-25T09:47:54Z",
-    "updated_at": "2026-08-27T11:53:41Z",
-    "owner": {
-      "name": "seedleap",
-      "avatar_url": "https://avatars.githubusercontent.com/u/217339031?v=4"
     }
   },
   {
