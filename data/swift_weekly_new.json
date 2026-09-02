@@ -145,6 +145,33 @@
     }
   },
   {
+    "name": "carloslfu/slotstream",
+    "url": "https://github.com/carloslfu/slotstream",
+    "description": "Run Qwen3.8-Flash-Next (125B MoE, 104 GB at 4-bit) on Macs with a fraction of that RAM by streaming experts from SSD. MLX + Swift, Ollama-compatible API.",
+    "stars": 159,
+    "forks": 9,
+    "language": "Swift",
+    "topics": [
+      "apple-silicon",
+      "llm",
+      "llm-inference",
+      "local-llm",
+      "macos",
+      "mixture-of-experts",
+      "mlx",
+      "ollama",
+      "qwen",
+      "swift"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-28T06:42:21Z",
+    "updated_at": "2026-09-02T06:26:12Z",
+    "owner": {
+      "name": "carloslfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5993168?v=4"
+    }
+  },
+  {
     "name": "gauthierpiarrette/highball",
     "url": "https://github.com/gauthierpiarrette/highball",
     "description": "Run Windows games on Apple Silicon — free, open source, with an open compatibility database that tells you what actually works.",
@@ -443,8 +470,8 @@
     "name": "rileycx/strafe",
     "url": "https://github.com/rileycx/strafe",
     "description": "Instant macOS Space switching. No animation delay, interactive immediately. Source-only, zero dependencies, ~1k lines.",
-    "stars": 55,
-    "forks": 1,
+    "stars": 56,
+    "forks": 2,
     "language": "Swift",
     "topics": [
       "macos",
@@ -455,7 +482,7 @@
     ],
     "license": "Other",
     "created_at": "2026-08-30T00:52:17Z",
-    "updated_at": "2026-09-01T06:51:20Z",
+    "updated_at": "2026-09-01T21:10:41Z",
     "owner": {
       "name": "rileycx",
       "avatar_url": "https://avatars.githubusercontent.com/u/129792581?v=4"
@@ -488,22 +515,6 @@
     "owner": {
       "name": "semihtalii",
       "avatar_url": "https://avatars.githubusercontent.com/u/209684418?v=4"
-    }
-  },
-  {
-    "name": "anibalribeiro/WinMice",
-    "url": "https://github.com/anibalribeiro/WinMice",
-    "description": "Native macOS menu-bar utility for Windows-style mouse scrolling and side buttons",
-    "stars": 49,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-14T13:15:37Z",
-    "updated_at": "2026-08-18T09:31:15Z",
-    "owner": {
-      "name": "anibalribeiro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7315459?v=4"
     }
   },
   {
@@ -694,19 +705,19 @@
     }
   },
   {
-    "name": "tornikegomareli/talkify-latency-bench",
-    "url": "https://github.com/tornikegomareli/talkify-latency-bench",
-    "description": "How long does dictation make you wait? Latency benchmark for macOS speech-to-text engines: Talkify, superwhisper, VoiceInk, Wispr Flow, MacWhisper",
+    "name": "imbbbbb/celldock-for-mac",
+    "url": "https://github.com/imbbbbb/celldock-for-mac",
+    "description": "CellDock 的二次开发版本：让 QDC507 模块在 Mac 完整模式、iPhone/iPad 纯数据模式与 DJI 原厂模式之间可逆切换。原项目 celldock/celldock-for-mac",
     "stars": 30,
     "forks": 2,
     "language": "Swift",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-13T17:15:36Z",
-    "updated_at": "2026-08-19T01:15:44Z",
+    "license": "Other",
+    "created_at": "2026-08-27T15:23:48Z",
+    "updated_at": "2026-09-01T09:26:20Z",
     "owner": {
-      "name": "tornikegomareli",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24585160?v=4"
+      "name": "imbbbbb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69034385?v=4"
     }
   },
   {
@@ -723,22 +734,6 @@
     "owner": {
       "name": "momenbuilds",
       "avatar_url": "https://avatars.githubusercontent.com/u/178236193?v=4"
-    }
-  },
-  {
-    "name": "imbbbbb/celldock-for-mac",
-    "url": "https://github.com/imbbbbb/celldock-for-mac",
-    "description": "CellDock 的二次开发版本：让 QDC507 模块在 Mac 完整模式、iPhone/iPad 纯数据模式与 DJI 原厂模式之间可逆切换。原项目 celldock/celldock-for-mac",
-    "stars": 29,
-    "forks": 2,
-    "language": "Swift",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-27T15:23:48Z",
-    "updated_at": "2026-08-31T08:53:39Z",
-    "owner": {
-      "name": "imbbbbb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/69034385?v=4"
     }
   },
   {
@@ -781,6 +776,36 @@
     }
   },
   {
+    "name": "qunqin24/Pulse",
+    "url": "https://github.com/qunqin24/Pulse",
+    "description": "A floating macOS monitor for how much Claude Code, Codex, Antigravity, OpenCode Go and Kimi Code you have left",
+    "stars": 27,
+    "forks": 2,
+    "language": "Swift",
+    "topics": [
+      "antigravity",
+      "appkit",
+      "claude-code",
+      "codex",
+      "kimi",
+      "macos",
+      "menu-bar",
+      "opencode",
+      "rate-limits",
+      "sparkle",
+      "swift",
+      "swiftui",
+      "usage-monitor"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-30T09:42:29Z",
+    "updated_at": "2026-09-02T04:56:21Z",
+    "owner": {
+      "name": "qunqin24",
+      "avatar_url": "https://avatars.githubusercontent.com/u/146629280?v=4"
+    }
+  },
+  {
     "name": "iannuttall/barkeep",
     "url": "https://github.com/iannuttall/barkeep",
     "description": "Manage hidden macOS menu bar items from one place",
@@ -820,6 +845,38 @@
     }
   },
   {
+    "name": "T-1234567890/hibiscus-app",
+    "url": "https://github.com/T-1234567890/hibiscus-app",
+    "description": "A free and open-source camera and color grading app for iPhone.",
+    "stars": 25,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [],
+    "license": "Mozilla Public License 2.0",
+    "created_at": "2026-08-28T14:58:32Z",
+    "updated_at": "2026-09-02T06:04:19Z",
+    "owner": {
+      "name": "T-1234567890",
+      "avatar_url": "https://avatars.githubusercontent.com/u/180069902?v=4"
+    }
+  },
+  {
+    "name": "yurirxmos/metria",
+    "url": "https://github.com/yurirxmos/metria",
+    "description": "See your AI usage without leaving your flow.",
+    "stars": 25,
+    "forks": 3,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-28T18:05:58Z",
+    "updated_at": "2026-09-02T02:29:08Z",
+    "owner": {
+      "name": "yurirxmos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72577110?v=4"
+    }
+  },
+  {
     "name": "nanguoyu/minirun-app",
     "url": "https://github.com/nanguoyu/minirun-app",
     "description": "Run Kimi K3 (2.8 T parameters,1.56 TB) on iPhone 16 Pro? Weights stream from your SSD through a memory budget you set. Free, local, on Mac and iPhone. ",
@@ -847,22 +904,6 @@
     }
   },
   {
-    "name": "koldllc/f50-monitor",
-    "url": "https://github.com/koldllc/f50-monitor",
-    "description": null,
-    "stars": 25,
-    "forks": 3,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-13T05:41:29Z",
-    "updated_at": "2026-08-19T01:41:08Z",
-    "owner": {
-      "name": "koldllc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/316446840?v=4"
-    }
-  },
-  {
     "name": "leecdiang/EdgeControl",
     "url": "https://github.com/leecdiang/EdgeControl",
     "description": "EdgeControl — two edges, two controls. A macOS menu-bar utility mapping physical trackpad edge-ingress gestures to continuous volume/brightness control. Offline, no telemetry.",
@@ -885,22 +926,6 @@
     "owner": {
       "name": "leecdiang",
       "avatar_url": "https://avatars.githubusercontent.com/u/162876606?v=4"
-    }
-  },
-  {
-    "name": "T-1234567890/hibiscus-app",
-    "url": "https://github.com/T-1234567890/hibiscus-app",
-    "description": "A free and open-source camera and color grading app for iPhone.",
-    "stars": 23,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [],
-    "license": "Mozilla Public License 2.0",
-    "created_at": "2026-08-28T14:58:32Z",
-    "updated_at": "2026-08-31T17:19:42Z",
-    "owner": {
-      "name": "T-1234567890",
-      "avatar_url": "https://avatars.githubusercontent.com/u/180069902?v=4"
     }
   },
   {
@@ -941,19 +966,35 @@
     }
   },
   {
-    "name": "chenjieliefu/MacDynamicIsland",
-    "url": "https://github.com/chenjieliefu/MacDynamicIsland",
-    "description": "A native macOS Dynamic Island utility with quick notes, clipboard history, app management, screenshots and notch interactions.",
-    "stars": 21,
-    "forks": 0,
+    "name": "silas0729/AuraTunnel",
+    "url": "https://github.com/silas0729/AuraTunnel",
+    "description": "Source-available iOS Packet Tunnel client. Free for noncommercial use; commercial use requires written authorization.源码可获取的iOS数据包隧道客户端。非商业用途免费;商业用途需书面授权。",
+    "stars": 19,
+    "forks": 5,
+    "language": "Swift",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-08-28T23:25:07Z",
+    "updated_at": "2026-09-02T06:06:22Z",
+    "owner": {
+      "name": "silas0729",
+      "avatar_url": "https://avatars.githubusercontent.com/u/212664490?v=4"
+    }
+  },
+  {
+    "name": "akerlay/obcert",
+    "url": "https://github.com/akerlay/obcert",
+    "description": "Сертификаты минцифры с ограничением пула доверенных доменов на macos",
+    "stars": 18,
+    "forks": 1,
     "language": "Swift",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-08-14T04:15:09Z",
-    "updated_at": "2026-08-19T02:25:38Z",
+    "created_at": "2026-08-27T00:47:25Z",
+    "updated_at": "2026-09-01T12:02:27Z",
     "owner": {
-      "name": "chenjieliefu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266472930?v=4"
+      "name": "akerlay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36415074?v=4"
     }
   },
   {
@@ -1015,22 +1056,6 @@
     "owner": {
       "name": "ZRui-C",
       "avatar_url": "https://avatars.githubusercontent.com/u/29998135?v=4"
-    }
-  },
-  {
-    "name": "akerlay/obcert",
-    "url": "https://github.com/akerlay/obcert",
-    "description": "Сертификаты минцифры с ограничением пула доверенных доменов на macos",
-    "stars": 17,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-27T00:47:25Z",
-    "updated_at": "2026-08-31T21:45:43Z",
-    "owner": {
-      "name": "akerlay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36415074?v=4"
     }
   },
   {
@@ -1169,22 +1194,6 @@
     }
   },
   {
-    "name": "GeekyWizKid/CodexBoard",
-    "url": "https://github.com/GeekyWizKid/CodexBoard",
-    "description": "Local-first macOS Codex project management board",
-    "stars": 16,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-13T03:04:03Z",
-    "updated_at": "2026-08-18T14:12:11Z",
-    "owner": {
-      "name": "GeekyWizKid",
-      "avatar_url": "https://avatars.githubusercontent.com/u/133981481?v=4"
-    }
-  },
-  {
     "name": "wailbabou/SwiftUIGlobe",
     "url": "https://github.com/wailbabou/SwiftUIGlobe",
     "description": "3D Globe component for SwiftUI",
@@ -1201,19 +1210,19 @@
     }
   },
   {
-    "name": "silas0729/AuraTunnel",
-    "url": "https://github.com/silas0729/AuraTunnel",
-    "description": "Source-available iOS Packet Tunnel client. Free for noncommercial use; commercial use requires written authorization.源码可获取的iOS数据包隧道客户端。非商业用途免费;商业用途需书面授权。",
+    "name": "PeterTing/mac-tool-kit",
+    "url": "https://github.com/PeterTing/mac-tool-kit",
+    "description": "🚀 High-performance macOS system dashboard, Lag Detective, and Apple Silicon closed-loop thermal fan control in Swift 6 & SwiftUI",
     "stars": 15,
-    "forks": 5,
+    "forks": 3,
     "language": "Swift",
     "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-28T23:25:07Z",
-    "updated_at": "2026-08-31T09:59:08Z",
+    "license": "MIT License",
+    "created_at": "2026-08-28T06:08:49Z",
+    "updated_at": "2026-09-01T12:46:22Z",
     "owner": {
-      "name": "silas0729",
-      "avatar_url": "https://avatars.githubusercontent.com/u/212664490?v=4"
+      "name": "PeterTing",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11405059?v=4"
     }
   },
   {
@@ -1230,32 +1239,6 @@
     "owner": {
       "name": "kerwinyoung77",
       "avatar_url": "https://avatars.githubusercontent.com/u/221734224?v=4"
-    }
-  },
-  {
-    "name": "luochenw/deepseek-harness-macos",
-    "url": "https://github.com/luochenw/deepseek-harness-macos",
-    "description": "DeepSeek Harness（dsh）的独立非官方原生 macOS 客户端——SwiftUI/AppKit 实现，非 WebView/Electron 套壳，内置 Node + dsh 运行时。Unofficial native SwiftUI macOS client for DeepSeek Harness.",
-    "stars": 15,
-    "forks": 3,
-    "language": "Swift",
-    "topics": [
-      "ai-agent",
-      "appkit",
-      "deepseek",
-      "llm",
-      "macos",
-      "macos-app",
-      "native-app",
-      "swift",
-      "swiftui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-14T12:09:42Z",
-    "updated_at": "2026-08-19T01:18:49Z",
-    "owner": {
-      "name": "luochenw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50605284?v=4"
     }
   },
   {
@@ -1347,22 +1330,6 @@
     }
   },
   {
-    "name": "PeterTing/mac-tool-kit",
-    "url": "https://github.com/PeterTing/mac-tool-kit",
-    "description": "🚀 High-performance macOS system dashboard, Lag Detective, and Apple Silicon closed-loop thermal fan control in Swift 6 & SwiftUI",
-    "stars": 14,
-    "forks": 3,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-28T06:08:49Z",
-    "updated_at": "2026-08-30T15:32:44Z",
-    "owner": {
-      "name": "PeterTing",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11405059?v=4"
-    }
-  },
-  {
     "name": "JokerQianwei/squirrel-english",
     "url": "https://github.com/JokerQianwei/squirrel-english",
     "description": "基于 鼠须管（Squirrel） 的 macOS 输入法，在中文候选词后显示英文翻译，帮助用户在日常输入时学习英语。",
@@ -1443,49 +1410,6 @@
     "owner": {
       "name": "opisaac9001",
       "avatar_url": "https://avatars.githubusercontent.com/u/129433004?v=4"
-    }
-  },
-  {
-    "name": "rongtaocheng32-ctrl/notchmemo",
-    "url": "https://github.com/rongtaocheng32-ctrl/notchmemo",
-    "description": "A focused macOS three-task planner with Pomodoro timer and notch feedback.",
-    "stars": 14,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-17T14:10:13Z",
-    "updated_at": "2026-08-19T02:10:37Z",
-    "owner": {
-      "name": "rongtaocheng32-ctrl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/310044796?v=4"
-    }
-  },
-  {
-    "name": "Borelchu/TokenNotch",
-    "url": "https://github.com/Borelchu/TokenNotch",
-    "description": "🦀 MacBook notch widget for Claude Code & Codex CLI usage — official Clawd & Codex pet mascots show your remaining quota, HP bars, and reset countdowns",
-    "stars": 14,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [
-      "claude",
-      "claude-code",
-      "codex",
-      "codex-cli",
-      "dynamic-island",
-      "macos",
-      "notch",
-      "swiftui",
-      "usage-monitor",
-      "widget"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-13T04:21:52Z",
-    "updated_at": "2026-08-19T00:26:09Z",
-    "owner": {
-      "name": "Borelchu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/130969566?v=4"
     }
   },
   {
@@ -1570,6 +1494,62 @@
     }
   },
   {
+    "name": "OpenSwiftUIProject/JindoKit",
+    "url": "https://github.com/OpenSwiftUIProject/JindoKit",
+    "description": null,
+    "stars": 12,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-30T08:52:47Z",
+    "updated_at": "2026-09-02T03:57:48Z",
+    "owner": {
+      "name": "OpenSwiftUIProject",
+      "avatar_url": "https://avatars.githubusercontent.com/u/154427668?v=4"
+    }
+  },
+  {
+    "name": "rbznr/SwipeableTabs",
+    "url": "https://github.com/rbznr/SwipeableTabs",
+    "description": "A compact segmented control for SwiftUI — one segment at a time in a Liquid Glass capsule that sizes itself to the label, neighbours peeking either side, swipe to move between them",
+    "stars": 12,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "gestures",
+      "ios",
+      "liquid-glass",
+      "segmented-control",
+      "swiftui",
+      "swipe",
+      "ui-component"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-29T17:46:20Z",
+    "updated_at": "2026-09-02T04:45:07Z",
+    "owner": {
+      "name": "rbznr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/266303055?v=4"
+    }
+  },
+  {
+    "name": "rkny6/echo",
+    "url": "https://github.com/rkny6/echo",
+    "description": null,
+    "stars": 12,
+    "forks": 36,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-31T13:04:58Z",
+    "updated_at": "2026-09-01T23:42:41Z",
+    "owner": {
+      "name": "rkny6",
+      "avatar_url": "https://avatars.githubusercontent.com/u/250456202?v=4"
+    }
+  },
+  {
     "name": "alexiosus/WandelBar",
     "url": "https://github.com/alexiosus/WandelBar",
     "description": "Customize the macOS Tahoe menu bar background with blur, tint, shadows, textures, presets, and per-Space settings!",
@@ -1630,27 +1610,25 @@
     }
   },
   {
-    "name": "rbznr/SwipeableTabs",
-    "url": "https://github.com/rbznr/SwipeableTabs",
-    "description": "A compact segmented control for SwiftUI — one segment at a time in a Liquid Glass capsule that sizes itself to the label, neighbours peeking either side, swipe to move between them",
+    "name": "yizhigou/codex-usage-bar",
+    "url": "https://github.com/yizhigou/codex-usage-bar",
+    "description": "A native macOS menu bar and Touch Bar utility for monitoring Codex usage.",
     "stars": 11,
-    "forks": 0,
+    "forks": 3,
     "language": "Swift",
     "topics": [
-      "gestures",
-      "ios",
-      "liquid-glass",
-      "segmented-control",
-      "swiftui",
-      "swipe",
-      "ui-component"
+      "codex",
+      "macos",
+      "menu-bar",
+      "swift",
+      "touch-bar"
     ],
     "license": "MIT License",
-    "created_at": "2026-08-29T17:46:20Z",
-    "updated_at": "2026-08-31T20:30:16Z",
+    "created_at": "2026-08-30T12:28:49Z",
+    "updated_at": "2026-09-02T06:35:40Z",
     "owner": {
-      "name": "rbznr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266303055?v=4"
+      "name": "yizhigou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2212749?v=4"
     }
   },
   {
@@ -1783,22 +1761,6 @@
     }
   },
   {
-    "name": "OpenSwiftUIProject/JindoKit",
-    "url": "https://github.com/OpenSwiftUIProject/JindoKit",
-    "description": null,
-    "stars": 10,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-30T08:52:47Z",
-    "updated_at": "2026-09-01T03:34:36Z",
-    "owner": {
-      "name": "OpenSwiftUIProject",
-      "avatar_url": "https://avatars.githubusercontent.com/u/154427668?v=4"
-    }
-  },
-  {
     "name": "lucianodiisouza/daily-notch-tracker",
     "url": "https://github.com/lucianodiisouza/daily-notch-tracker",
     "description": "Open-source macOS notch app: a focus + task tracker that lives around the MacBook notch. Native SwiftUI.",
@@ -1817,6 +1779,29 @@
     "owner": {
       "name": "lucianodiisouza",
       "avatar_url": "https://avatars.githubusercontent.com/u/10830068?v=4"
+    }
+  },
+  {
+    "name": "lynnswap/NeoSimulator",
+    "url": "https://github.com/lynnswap/NeoSimulator",
+    "description": "Use iOS Simulator with Xcode 27 or later—without Device Hub.",
+    "stars": 10,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "coresimulator",
+      "developer-tools",
+      "ios-simulator",
+      "macos",
+      "swift",
+      "xcode"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-27T22:41:17Z",
+    "updated_at": "2026-09-02T05:31:47Z",
+    "owner": {
+      "name": "lynnswap",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65545348?v=4"
     }
   },
   {
@@ -1849,38 +1834,6 @@
     "owner": {
       "name": "DakshG07",
       "avatar_url": "https://avatars.githubusercontent.com/u/48651837?v=4"
-    }
-  },
-  {
-    "name": "hggdet/iStore-iOS",
-    "url": "https://github.com/hggdet/iStore-iOS",
-    "description": "iStore: on-device IPA signing and installation for iOS",
-    "stars": 10,
-    "forks": 5,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-17T21:14:57Z",
-    "updated_at": "2026-08-18T22:52:00Z",
-    "owner": {
-      "name": "hggdet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/314697734?v=4"
-    }
-  },
-  {
-    "name": "dizyx/nockerl-voice",
-    "url": "https://github.com/dizyx/nockerl-voice",
-    "description": "Speech-to-text for macOS.",
-    "stars": 10,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-16T21:22:10Z",
-    "updated_at": "2026-08-18T19:35:32Z",
-    "owner": {
-      "name": "dizyx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53193560?v=4"
     }
   }
 ]
