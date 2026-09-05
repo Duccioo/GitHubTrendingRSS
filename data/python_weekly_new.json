@@ -19,13 +19,13 @@
     "name": "anthropics/commerce-agents",
     "url": "https://github.com/anthropics/commerce-agents",
     "description": "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
-    "stars": 1707,
-    "forks": 272,
+    "stars": 1957,
+    "forks": 326,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-09-01T12:30:12Z",
-    "updated_at": "2026-09-04T06:44:58Z",
+    "updated_at": "2026-09-05T06:27:07Z",
     "owner": {
       "name": "anthropics",
       "avatar_url": "https://avatars.githubusercontent.com/u/76263028?v=4"
@@ -138,7 +138,7 @@
     "name": "GangTailorUpgrade/undress-service",
     "url": "https://github.com/GangTailorUpgrade/undress-service",
     "description": "Dress AI Sponsor",
-    "stars": 1027,
+    "stars": 1066,
     "forks": 1,
     "language": "Python",
     "topics": [
@@ -165,7 +165,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-31T00:12:45Z",
-    "updated_at": "2026-09-04T06:45:09Z",
+    "updated_at": "2026-09-05T06:17:14Z",
     "owner": {
       "name": "GangTailorUpgrade",
       "avatar_url": "https://avatars.githubusercontent.com/u/270958586?v=4"
@@ -265,6 +265,43 @@
     }
   },
   {
+    "name": "2akouwu/reverify",
+    "url": "https://github.com/2akouwu/reverify",
+    "description": "Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets. MCP server + CLI.",
+    "stars": 895,
+    "forks": 193,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "anti-hallucination",
+      "binary-analysis",
+      "context-engineering",
+      "ctf",
+      "developer-tools",
+      "disassembler",
+      "frida",
+      "grounding",
+      "hallucination",
+      "hallucination-detection",
+      "llm",
+      "malware-analysis",
+      "mcp",
+      "mcp-server",
+      "python",
+      "reverse-engineering",
+      "security-tools",
+      "verification"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-31T01:02:18Z",
+    "updated_at": "2026-09-05T06:27:08Z",
+    "owner": {
+      "name": "2akouwu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14812897?v=4"
+    }
+  },
+  {
     "name": "GangTailorUpgrade/CoomeRtool",
     "url": "https://github.com/GangTailorUpgrade/CoomeRtool",
     "description": "Coomer Tool",
@@ -318,43 +355,6 @@
     }
   },
   {
-    "name": "2akouwu/reverify",
-    "url": "https://github.com/2akouwu/reverify",
-    "description": "Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets. MCP server + CLI.",
-    "stars": 830,
-    "forks": 177,
-    "language": "Python",
-    "topics": [
-      "ai",
-      "ai-agents",
-      "anti-hallucination",
-      "binary-analysis",
-      "context-engineering",
-      "ctf",
-      "developer-tools",
-      "disassembler",
-      "frida",
-      "grounding",
-      "hallucination",
-      "hallucination-detection",
-      "llm",
-      "malware-analysis",
-      "mcp",
-      "mcp-server",
-      "python",
-      "reverse-engineering",
-      "security-tools",
-      "verification"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-31T01:02:18Z",
-    "updated_at": "2026-09-04T06:24:18Z",
-    "owner": {
-      "name": "2akouwu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14812897?v=4"
-    }
-  },
-  {
     "name": "ShadowAqueduct/watermark-remover",
     "url": "https://github.com/ShadowAqueduct/watermark-remover",
     "description": "Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.",
@@ -378,22 +378,6 @@
     "owner": {
       "name": "ShadowAqueduct",
       "avatar_url": "https://avatars.githubusercontent.com/u/311792326?v=4"
-    }
-  },
-  {
-    "name": "Leutenegger/vanity-eth",
-    "url": "https://github.com/Leutenegger/vanity-eth",
-    "description": "Offline vanity address generator for Bitcoin and Ethereum. CPU multi-process search with interactive CLI menu. Supports Legacy, Nested SegWit, Native SegWit, Taproot, and ETH (EIP-55).",
-    "stars": 803,
-    "forks": 91,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-21T00:42:33Z",
-    "updated_at": "2026-08-21T14:43:27Z",
-    "owner": {
-      "name": "Leutenegger",
-      "avatar_url": "https://avatars.githubusercontent.com/u/265765261?v=4"
     }
   },
   {
@@ -459,6 +443,28 @@
     }
   },
   {
+    "name": "nahrek/polyledger",
+    "url": "https://github.com/nahrek/polyledger",
+    "description": "Resumable Polymarket indexer: CLOB market metadata plus on-chain trades from Polygon, in one DuckDB file you can query with SQL",
+    "stars": 614,
+    "forks": 109,
+    "language": "Python",
+    "topics": [
+      "data-science",
+      "hypersync",
+      "polymarket",
+      "polymarketprediction-markets",
+      "prediction-market"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-02T17:00:13Z",
+    "updated_at": "2026-09-05T01:26:28Z",
+    "owner": {
+      "name": "nahrek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/138802404?v=4"
+    }
+  },
+  {
     "name": "amirh00sain/SpiderPanel",
     "url": "https://github.com/amirh00sain/SpiderPanel",
     "description": null,
@@ -472,41 +478,6 @@
     "owner": {
       "name": "amirh00sain",
       "avatar_url": "https://avatars.githubusercontent.com/u/318304801?v=4"
-    }
-  },
-  {
-    "name": "Leutenegger/coldcard-airgap",
-    "url": "https://github.com/Leutenegger/coldcard-airgap",
-    "description": "Offline utilities for Coldcard hardware wallet users: PSBT inspection, BIP39/dice entropy, Seed XOR split/combine, BBQr encode/decode, output descriptors, and firmware verification guidance. Companion to official Coldcard firmware. Not affiliated with Coinkite.",
-    "stars": 608,
-    "forks": 78,
-    "language": "Python",
-    "topics": [
-      "airgap",
-      "airgap-devkit",
-      "airgap-download",
-      "airgap-setup",
-      "airgap-tutorial",
-      "bitcoin",
-      "bitcoin-wallet",
-      "coldcard",
-      "coldcard-mk2",
-      "coldcard-mk4",
-      "cryptography",
-      "cryptography-algorithms",
-      "cryptography-tools",
-      "ledger",
-      "ledger-cli",
-      "ledger-wallet",
-      "metamask",
-      "metamask-desktop"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-20T23:14:34Z",
-    "updated_at": "2026-08-21T07:00:26Z",
-    "owner": {
-      "name": "Leutenegger",
-      "avatar_url": "https://avatars.githubusercontent.com/u/265765261?v=4"
     }
   },
   {
@@ -539,30 +510,6 @@
     "owner": {
       "name": "lxf746",
       "avatar_url": "https://avatars.githubusercontent.com/u/216264444?v=4"
-    }
-  },
-  {
-    "name": "bawadou/ai-data-extractor",
-    "url": "https://github.com/bawadou/ai-data-extractor",
-    "description": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
-    "stars": 537,
-    "forks": 99,
-    "language": "Python",
-    "topics": [
-      "ai",
-      "ai-data-extractor",
-      "claude",
-      "cursor",
-      "cursor-ai",
-      "data-extraction",
-      "gemini"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-16T18:35:58Z",
-    "updated_at": "2026-08-21T23:04:31Z",
-    "owner": {
-      "name": "bawadou",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5231384?v=4"
     }
   },
   {
@@ -637,6 +584,36 @@
     }
   },
   {
+    "name": "Merserk/dlss5-visual-enhancer",
+    "url": "https://github.com/Merserk/dlss5-visual-enhancer",
+    "description": "DLSS 5 Neural Video & Image Enhancer with Frame Interpolation",
+    "stars": 498,
+    "forks": 39,
+    "language": "Python",
+    "topics": [
+      "ai-upscaling",
+      "dlss",
+      "dlss-5",
+      "dlssg",
+      "frame-generation",
+      "frame-interpolation",
+      "image-enhancement",
+      "image-upscaling",
+      "neural-rendering",
+      "nvidia",
+      "nvidia-rtx",
+      "video-enhancement",
+      "video-upscaling"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-30T19:45:52Z",
+    "updated_at": "2026-09-05T06:06:35Z",
+    "owner": {
+      "name": "Merserk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119538451?v=4"
+    }
+  },
+  {
     "name": "xdreizein666/getcontact-cli",
     "url": "https://github.com/xdreizein666/getcontact-cli",
     "description": "GetContact CLI adalah project Python untuk melakukan lookup nomor telepon lewat API GetContact, tanpa aplikasi Android dan tanpa browser.",
@@ -706,6 +683,31 @@
     }
   },
   {
+    "name": "Human-Agent-Society/reef",
+    "url": "https://github.com/Human-Agent-Society/reef",
+    "description": "Continual learning infra for self-improving agents",
+    "stars": 449,
+    "forks": 34,
+    "language": "Python",
+    "topics": [
+      "agent-infrastructure",
+      "ai-agents",
+      "continual-learning",
+      "inference",
+      "llm",
+      "llm-training",
+      "reinforcement-learning",
+      "self-improving-agents"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-31T01:39:18Z",
+    "updated_at": "2026-09-05T06:30:24Z",
+    "owner": {
+      "name": "Human-Agent-Society",
+      "avatar_url": "https://avatars.githubusercontent.com/u/268553699?v=4"
+    }
+  },
+  {
     "name": "breslee1707/VI-Translate",
     "url": "https://github.com/breslee1707/VI-Translate",
     "description": null,
@@ -735,36 +737,6 @@
     "owner": {
       "name": "RobertGolds1",
       "avatar_url": "https://avatars.githubusercontent.com/u/167649720?v=4"
-    }
-  },
-  {
-    "name": "Merserk/dlss5-visual-enhancer",
-    "url": "https://github.com/Merserk/dlss5-visual-enhancer",
-    "description": "DLSS 5 Neural Video & Image Enhancer with Frame Interpolation",
-    "stars": 408,
-    "forks": 37,
-    "language": "Python",
-    "topics": [
-      "ai-upscaling",
-      "dlss",
-      "dlss-5",
-      "dlssg",
-      "frame-generation",
-      "frame-interpolation",
-      "image-enhancement",
-      "image-upscaling",
-      "neural-rendering",
-      "nvidia",
-      "nvidia-rtx",
-      "video-enhancement",
-      "video-upscaling"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-30T19:45:52Z",
-    "updated_at": "2026-09-04T06:35:00Z",
-    "owner": {
-      "name": "Merserk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/119538451?v=4"
     }
   },
   {
@@ -925,6 +897,22 @@
     }
   },
   {
+    "name": "siknet/FreePEP",
+    "url": "https://github.com/siknet/FreePEP",
+    "description": "人教社电子教材下载器",
+    "stars": 338,
+    "forks": 50,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-31T02:21:10Z",
+    "updated_at": "2026-09-05T05:50:43Z",
+    "owner": {
+      "name": "siknet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32444042?v=4"
+    }
+  },
+  {
     "name": "alchaincyf/huashu-excel",
     "url": "https://github.com/alchaincyf/huashu-excel",
     "description": "数据分析与 Excel 全流程 skill：体检脏表、清洗、对齐需求、分析、对账、交付。让 AI 算出来的数字经得起追问。跨 agent 通用，依赖仅 openpyxl。",
@@ -975,28 +963,40 @@
     }
   },
   {
-    "name": "Human-Agent-Society/reef",
-    "url": "https://github.com/Human-Agent-Society/reef",
-    "description": "Continual learning infra for self-improving agents",
-    "stars": 326,
-    "forks": 26,
+    "name": "op7418/guizang-yingzao-skill",
+    "url": "https://github.com/op7418/guizang-yingzao-skill",
+    "description": "🏯 Claude Code / Codex skill — transform Chinese architecture, cultural places & travel photos into art-directed editorial posters with GPT Image. 中国古建筑与在地文化照片 → 艺术指导海报",
+    "stars": 327,
+    "forks": 28,
     "language": "Python",
     "topics": [
-      "agent-infrastructure",
-      "ai-agents",
-      "continual-learning",
-      "inference",
-      "llm",
-      "llm-training",
-      "reinforcement-learning",
-      "self-improving-agents"
+      "agent-skill",
+      "ai-agent",
+      "anthropic",
+      "chinese-architecture",
+      "chinese-culture",
+      "claude-code",
+      "claude-skill",
+      "codex",
+      "cultural-heritage",
+      "editorial-design",
+      "gpt-image",
+      "image-generation",
+      "openai",
+      "photography",
+      "poster-design",
+      "skill",
+      "skills",
+      "travel-photography",
+      "visual-design",
+      "xiaohongshu"
     ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-31T01:39:18Z",
-    "updated_at": "2026-09-04T06:44:32Z",
+    "license": "No license",
+    "created_at": "2026-09-02T11:54:57Z",
+    "updated_at": "2026-09-05T06:31:59Z",
     "owner": {
-      "name": "Human-Agent-Society",
-      "avatar_url": "https://avatars.githubusercontent.com/u/268553699?v=4"
+      "name": "op7418",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13505770?v=4"
     }
   },
   {
@@ -1022,22 +1022,6 @@
     "owner": {
       "name": "bam-bam-2",
       "avatar_url": "https://avatars.githubusercontent.com/u/262489252?v=4"
-    }
-  },
-  {
-    "name": "siknet/FreePEP",
-    "url": "https://github.com/siknet/FreePEP",
-    "description": "人教社电子教材下载器",
-    "stars": 322,
-    "forks": 46,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-31T02:21:10Z",
-    "updated_at": "2026-09-03T22:43:16Z",
-    "owner": {
-      "name": "siknet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32444042?v=4"
     }
   },
   {
@@ -1118,6 +1102,38 @@
     }
   },
   {
+    "name": "kydlikebtc/awesome-grokbot",
+    "url": "https://github.com/kydlikebtc/awesome-grokbot",
+    "description": "532 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.",
+    "stars": 307,
+    "forks": 16,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "ai-agents",
+      "ai-tools",
+      "awesome",
+      "awesome-list",
+      "bot-templates",
+      "catalog",
+      "cursor",
+      "directory",
+      "grok",
+      "grok-bot",
+      "grokbot",
+      "llm",
+      "prompt-engineering",
+      "xai"
+    ],
+    "license": "Other",
+    "created_at": "2026-09-01T02:30:25Z",
+    "updated_at": "2026-09-05T03:00:40Z",
+    "owner": {
+      "name": "kydlikebtc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75060932?v=4"
+    }
+  },
+  {
     "name": "OnlyTerp/opengrok",
     "url": "https://github.com/OnlyTerp/opengrok",
     "description": "Run any model in Grok Bot — one-command setup, model picker UI, evidence-based provider wire maps, and an update-proof doctor. Not farming you, arming you.",
@@ -1183,6 +1199,22 @@
     }
   },
   {
+    "name": "OpenVDN/vdn-minimax-h3",
+    "url": "https://github.com/OpenVDN/vdn-minimax-h3",
+    "description": null,
+    "stars": 260,
+    "forks": 16,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-02T04:52:07Z",
+    "updated_at": "2026-09-05T03:12:05Z",
+    "owner": {
+      "name": "OpenVDN",
+      "avatar_url": "https://avatars.githubusercontent.com/u/322941999?v=4"
+    }
+  },
+  {
     "name": "MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark",
     "url": "https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark",
     "description": "DeepSeek v4 Flash EXL3 on one DGX Spark",
@@ -1215,40 +1247,19 @@
     }
   },
   {
-    "name": "op7418/guizang-yingzao-skill",
-    "url": "https://github.com/op7418/guizang-yingzao-skill",
-    "description": "🏯 Claude Code / Codex skill — transform Chinese architecture, cultural places & travel photos into art-directed editorial posters with GPT Image. 中国古建筑与在地文化照片 → 艺术指导海报",
+    "name": "aaronyi97/image-story-video-wizard",
+    "url": "https://github.com/aaronyi97/image-story-video-wizard",
+    "description": "A confirmation-gated Codex and WorkBuddy skill for audio-first image-story video production.",
     "stars": 250,
-    "forks": 23,
+    "forks": 35,
     "language": "Python",
-    "topics": [
-      "agent-skill",
-      "ai-agent",
-      "anthropic",
-      "chinese-architecture",
-      "chinese-culture",
-      "claude-code",
-      "claude-skill",
-      "codex",
-      "cultural-heritage",
-      "editorial-design",
-      "gpt-image",
-      "image-generation",
-      "openai",
-      "photography",
-      "poster-design",
-      "skill",
-      "skills",
-      "travel-photography",
-      "visual-design",
-      "xiaohongshu"
-    ],
-    "license": "No license",
-    "created_at": "2026-09-02T11:54:57Z",
-    "updated_at": "2026-09-04T06:42:18Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-02T12:35:50Z",
+    "updated_at": "2026-09-05T06:08:58Z",
     "owner": {
-      "name": "op7418",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13505770?v=4"
+      "name": "aaronyi97",
+      "avatar_url": "https://avatars.githubusercontent.com/u/260806818?v=4"
     }
   },
   {
@@ -1296,28 +1307,6 @@
     }
   },
   {
-    "name": "nahrek/polyledger",
-    "url": "https://github.com/nahrek/polyledger",
-    "description": "Resumable Polymarket indexer: CLOB market metadata plus on-chain trades from Polygon, in one DuckDB file you can query with SQL",
-    "stars": 246,
-    "forks": 89,
-    "language": "Python",
-    "topics": [
-      "data-science",
-      "hypersync",
-      "polymarket",
-      "polymarketprediction-markets",
-      "prediction-market"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-02T17:00:13Z",
-    "updated_at": "2026-09-04T06:27:04Z",
-    "owner": {
-      "name": "nahrek",
-      "avatar_url": "https://avatars.githubusercontent.com/u/138802404?v=4"
-    }
-  },
-  {
     "name": "MORTEN-BUUR/nordef-matrix-open-control",
     "url": "https://github.com/MORTEN-BUUR/nordef-matrix-open-control",
     "description": "NORDEF Matrix Open Control: model-independent AI safety belt with 0/1/2 decisions, Ed25519 root gate, replay protection, evidence chain, and incident-pattern eval bank",
@@ -1347,6 +1336,22 @@
     "owner": {
       "name": "MiaAI-Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/83042094?v=4"
+    }
+  },
+  {
+    "name": "kajisho5/ffmpeg-skill",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "description": null,
+    "stars": 231,
+    "forks": 12,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-03T14:33:38Z",
+    "updated_at": "2026-09-05T06:35:36Z",
+    "owner": {
+      "name": "kajisho5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20648875?v=4"
     }
   },
   {
@@ -1413,38 +1418,6 @@
     "owner": {
       "name": "sqzw-x",
       "avatar_url": "https://avatars.githubusercontent.com/u/150016653?v=4"
-    }
-  },
-  {
-    "name": "aaronyi97/image-story-video-wizard",
-    "url": "https://github.com/aaronyi97/image-story-video-wizard",
-    "description": "A confirmation-gated Codex and WorkBuddy skill for audio-first image-story video production.",
-    "stars": 215,
-    "forks": 33,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-02T12:35:50Z",
-    "updated_at": "2026-09-04T05:55:46Z",
-    "owner": {
-      "name": "aaronyi97",
-      "avatar_url": "https://avatars.githubusercontent.com/u/260806818?v=4"
-    }
-  },
-  {
-    "name": "OpenVDN/vdn-minimax-h3",
-    "url": "https://github.com/OpenVDN/vdn-minimax-h3",
-    "description": null,
-    "stars": 215,
-    "forks": 11,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-02T04:52:07Z",
-    "updated_at": "2026-09-04T06:44:04Z",
-    "owner": {
-      "name": "OpenVDN",
-      "avatar_url": "https://avatars.githubusercontent.com/u/322941999?v=4"
     }
   },
   {
@@ -1531,35 +1504,19 @@
     }
   },
   {
-    "name": "kydlikebtc/awesome-grokbot",
-    "url": "https://github.com/kydlikebtc/awesome-grokbot",
-    "description": "440 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.",
-    "stars": 171,
-    "forks": 15,
+    "name": "lihaoyun6/ComfyUI-H3VAE_TRT",
+    "url": "https://github.com/lihaoyun6/ComfyUI-H3VAE_TRT",
+    "description": "Running ONNX/TRT version of the MiniMax-H3 VAE in ComfyUI, which increase speed by up to 1.7x",
+    "stars": 174,
+    "forks": 11,
     "language": "Python",
-    "topics": [
-      "agents",
-      "ai-agents",
-      "ai-tools",
-      "awesome",
-      "awesome-list",
-      "bot-templates",
-      "catalog",
-      "cursor",
-      "directory",
-      "grok",
-      "grok-bot",
-      "grokbot",
-      "llm",
-      "prompt-engineering",
-      "xai"
-    ],
-    "license": "Other",
-    "created_at": "2026-09-01T02:30:25Z",
-    "updated_at": "2026-09-04T01:43:57Z",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-01T01:51:46Z",
+    "updated_at": "2026-09-05T05:24:11Z",
     "owner": {
-      "name": "kydlikebtc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75060932?v=4"
+      "name": "lihaoyun6",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16348097?v=4"
     }
   },
   {
@@ -1606,19 +1563,23 @@
     }
   },
   {
-    "name": "lihaoyun6/ComfyUI-H3VAE_TRT",
-    "url": "https://github.com/lihaoyun6/ComfyUI-H3VAE_TRT",
-    "description": "Running ONNX/TRT version of the MiniMax-H3 VAE in ComfyUI, which increase speed by up to 1.7x",
-    "stars": 168,
-    "forks": 11,
+    "name": "0x6rss/instagram-private-graph",
+    "url": "https://github.com/0x6rss/instagram-private-graph",
+    "description": "Analyze the followers and following accounts that a private (hidden) Instagram account interacts with.",
+    "stars": 169,
+    "forks": 28,
     "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-01T01:51:46Z",
-    "updated_at": "2026-09-04T02:11:47Z",
+    "topics": [
+      "osint",
+      "osint-python",
+      "osint-tool"
+    ],
+    "license": "No license",
+    "created_at": "2026-09-03T13:36:30Z",
+    "updated_at": "2026-09-05T04:22:45Z",
     "owner": {
-      "name": "lihaoyun6",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16348097?v=4"
+      "name": "0x6rss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58754583?v=4"
     }
   },
   {
@@ -1635,6 +1596,22 @@
     "owner": {
       "name": "alexzhang13",
       "avatar_url": "https://avatars.githubusercontent.com/u/13501287?v=4"
+    }
+  },
+  {
+    "name": "AMAP-ML/DreamX-Creator",
+    "url": "https://github.com/AMAP-ML/DreamX-Creator",
+    "description": "Democratizing Native Audio-Video Generation at 2K Resolution",
+    "stars": 165,
+    "forks": 6,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-01T02:57:43Z",
+    "updated_at": "2026-09-05T05:05:27Z",
+    "owner": {
+      "name": "AMAP-ML",
+      "avatar_url": "https://avatars.githubusercontent.com/u/202896035?v=4"
     }
   },
   {
@@ -1669,6 +1646,22 @@
     "owner": {
       "name": "hku-sail",
       "avatar_url": "https://avatars.githubusercontent.com/u/273135758?v=4"
+    }
+  },
+  {
+    "name": "coleam00/ai-software-factory",
+    "url": "https://github.com/coleam00/ai-software-factory",
+    "description": "A repository that ships without anyone reading the diff: GitHub issues in, merged pull requests out, with the gates that make that defensible.",
+    "stars": 158,
+    "forks": 26,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-01T20:58:09Z",
+    "updated_at": "2026-09-05T06:15:03Z",
+    "owner": {
+      "name": "coleam00",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47287758?v=4"
     }
   },
   {
@@ -1758,22 +1751,6 @@
     }
   },
   {
-    "name": "AMAP-ML/DreamX-Creator",
-    "url": "https://github.com/AMAP-ML/DreamX-Creator",
-    "description": "Democratizing Native Audio-Video Generation at 2K Resolution",
-    "stars": 151,
-    "forks": 6,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-01T02:57:43Z",
-    "updated_at": "2026-09-04T06:42:19Z",
-    "owner": {
-      "name": "AMAP-ML",
-      "avatar_url": "https://avatars.githubusercontent.com/u/202896035?v=4"
-    }
-  },
-  {
     "name": "3641397194-wq/gpt5.6-claude-grok4.6-deepseekv4pro",
     "url": "https://github.com/3641397194-wq/gpt5.6-claude-grok4.6-deepseekv4pro",
     "description": "冷咖啡 ColdBrew 四合一破甲正式版 — GPT-5.6 / Claude / Grok 4.6 / DeepSeek v4 Pro 一键部署 · 启动 · 恢复 · 打包发布 | QQ 群 1057540028 / 1077074552",
@@ -1796,44 +1773,6 @@
     "owner": {
       "name": "3641397194-wq",
       "avatar_url": "https://avatars.githubusercontent.com/u/308364968?v=4"
-    }
-  },
-  {
-    "name": "chengyi-ai/native-subtitle-quote-image",
-    "url": "https://github.com/chengyi-ai/native-subtitle-quote-image",
-    "description": "保留视频内嵌字幕，精确取帧并生成 3:4 社交长图的 Agent Skill",
-    "stars": 151,
-    "forks": 17,
-    "language": "Python",
-    "topics": [
-      "agent-skills",
-      "codex",
-      "social-media",
-      "subtitles",
-      "video-processing"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-16T10:35:30Z",
-    "updated_at": "2026-08-22T02:15:17Z",
-    "owner": {
-      "name": "chengyi-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/252342592?v=4"
-    }
-  },
-  {
-    "name": "floflo777/open-crypto-puzzles",
-    "url": "https://github.com/floflo777/open-crypto-puzzles",
-    "description": "Unsolved crypto puzzles worth ~10 BTC, ~12 ETH and ~1,900 AR still on-chain: escrow addresses, author clues, and my research on each. A few solved, with payout proofs.",
-    "stars": 149,
-    "forks": 55,
-    "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-16T12:23:50Z",
-    "updated_at": "2026-08-21T22:55:46Z",
-    "owner": {
-      "name": "floflo777",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50406817?v=4"
     }
   },
   {
@@ -1891,6 +1830,22 @@
     "owner": {
       "name": "HVision-NKU",
       "avatar_url": "https://avatars.githubusercontent.com/u/118413288?v=4"
+    }
+  },
+  {
+    "name": "Mercor-Intelligence/ApexAgents-SkyRL-Recipe",
+    "url": "https://github.com/Mercor-Intelligence/ApexAgents-SkyRL-Recipe",
+    "description": "RL-training knowledge-work agents on APEX-Agents data with SkyRL + Harbor",
+    "stars": 144,
+    "forks": 10,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-01T18:50:22Z",
+    "updated_at": "2026-09-05T05:36:25Z",
+    "owner": {
+      "name": "Mercor-Intelligence",
+      "avatar_url": "https://avatars.githubusercontent.com/u/233201730?v=4"
     }
   },
   {
@@ -1960,22 +1915,6 @@
     "owner": {
       "name": "kevin-v-eng97e2",
       "avatar_url": "https://avatars.githubusercontent.com/u/279140157?v=4"
-    }
-  },
-  {
-    "name": "Glitch-Cat-Club/graph-memory-starter",
-    "url": "https://github.com/Glitch-Cat-Club/graph-memory-starter",
-    "description": "Knowledge graph memory for AI assistants: three SQLite tables, one recursive query, one prompt hook.",
-    "stars": 142,
-    "forks": 11,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-16T16:51:26Z",
-    "updated_at": "2026-08-22T00:17:25Z",
-    "owner": {
-      "name": "Glitch-Cat-Club",
-      "avatar_url": "https://avatars.githubusercontent.com/u/286092231?v=4"
     }
   },
   {
@@ -2107,22 +2046,6 @@
     }
   },
   {
-    "name": "coleam00/ai-software-factory",
-    "url": "https://github.com/coleam00/ai-software-factory",
-    "description": "A repository that ships without anyone reading the diff: GitHub issues in, merged pull requests out, with the gates that make that defensible.",
-    "stars": 130,
-    "forks": 21,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-01T20:58:09Z",
-    "updated_at": "2026-09-04T06:43:00Z",
-    "owner": {
-      "name": "coleam00",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47287758?v=4"
-    }
-  },
-  {
     "name": "rokbenko/quackd",
     "url": "https://github.com/rokbenko/quackd",
     "description": "🦆🧠 Give your small robot a brain. Tell a Microduck, a Reachy Mini, a LeRobot arm or any ROS base what you want in plain language. An LLM (Claude, OpenAI, Gemini, Grok, or a local model via Ollama, vLLM or llama.cpp) uses the skills it already has. Simulator, .duck task files, MCP, and flocks where different robots cooperate. Apache 2.0.",
@@ -2218,22 +2141,6 @@
     "owner": {
       "name": "itshen",
       "avatar_url": "https://avatars.githubusercontent.com/u/3339564?v=4"
-    }
-  },
-  {
-    "name": "Mercor-Intelligence/ApexAgents-SkyRL-Recipe",
-    "url": "https://github.com/Mercor-Intelligence/ApexAgents-SkyRL-Recipe",
-    "description": "RL-training knowledge-work agents on APEX-Agents data with SkyRL + Harbor",
-    "stars": 126,
-    "forks": 9,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-01T18:50:22Z",
-    "updated_at": "2026-09-04T06:22:50Z",
-    "owner": {
-      "name": "Mercor-Intelligence",
-      "avatar_url": "https://avatars.githubusercontent.com/u/233201730?v=4"
     }
   },
   {
@@ -2541,6 +2448,30 @@
     }
   },
   {
+    "name": "Saganaki22/ComfyUI-VDN-H3",
+    "url": "https://github.com/Saganaki22/ComfyUI-VDN-H3",
+    "description": "Video Delta Net hybrid attention for MiniMax-H3 as a native ComfyUI node. ",
+    "stars": 115,
+    "forks": 3,
+    "language": "Python",
+    "topics": [
+      "attention-mechanism",
+      "comfyui",
+      "comfyui-nodes",
+      "fl2va",
+      "minimax-h3",
+      "t2v",
+      "turbo"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-03T04:44:21Z",
+    "updated_at": "2026-09-05T05:55:23Z",
+    "owner": {
+      "name": "Saganaki22",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84208527?v=4"
+    }
+  },
+  {
     "name": "zhengzihaoPKU/KERV",
     "url": "https://github.com/zhengzihaoPKU/KERV",
     "description": "Code of paper \"KERV: Kinematic-Rectified Speculative Decoding for Embodied VLA Models\" accepted by DAC 2026.",
@@ -2607,6 +2538,22 @@
     "owner": {
       "name": "coding-parrot",
       "avatar_url": "https://avatars.githubusercontent.com/u/59478396?v=4"
+    }
+  },
+  {
+    "name": "larashero3-dotcom/lieflat-gongwen",
+    "url": "https://github.com/larashero3-dotcom/lieflat-gongwen",
+    "description": "通过102万字语料提炼的公文写作 skill，把公文写作风格变成可测量、可验收的量化数据",
+    "stars": 108,
+    "forks": 10,
+    "language": "Python",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-09-02T15:10:19Z",
+    "updated_at": "2026-09-05T05:15:47Z",
+    "owner": {
+      "name": "larashero3-dotcom",
+      "avatar_url": "https://avatars.githubusercontent.com/u/260030037?v=4"
     }
   },
   {
@@ -2680,22 +2627,6 @@
     "owner": {
       "name": "liyue-aigc",
       "avatar_url": "https://avatars.githubusercontent.com/u/34064819?v=4"
-    }
-  },
-  {
-    "name": "warmsum/mini-harness",
-    "url": "https://github.com/warmsum/mini-harness",
-    "description": "用 Python 从零理解 DeepSeek Harness 的 Headless 架构",
-    "stars": 105,
-    "forks": 0,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-16T09:48:37Z",
-    "updated_at": "2026-08-22T02:36:09Z",
-    "owner": {
-      "name": "warmsum",
-      "avatar_url": "https://avatars.githubusercontent.com/u/94373571?v=4"
     }
   },
   {
@@ -2781,6 +2712,44 @@
     "owner": {
       "name": "Jordanwei1",
       "avatar_url": "https://avatars.githubusercontent.com/u/87682056?v=4"
+    }
+  },
+  {
+    "name": "hi-nikola/hand-drawn-explainer-video-nikola",
+    "url": "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola",
+    "description": "中文手绘知识讲解视频 Codex Skill：逐笔故事、双语义岛、让怪诞小黑动起来与程序动画",
+    "stars": 102,
+    "forks": 13,
+    "language": "Python",
+    "topics": [
+      "chinese",
+      "codex-skill",
+      "explainer-video",
+      "hand-drawn-animation",
+      "whiteboard-animation"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-02T07:20:10Z",
+    "updated_at": "2026-09-04T19:22:22Z",
+    "owner": {
+      "name": "hi-nikola",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52887883?v=4"
+    }
+  },
+  {
+    "name": "MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark",
+    "url": "https://github.com/MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark",
+    "description": "Qwen3.8-Flash-Next on ONE DGX Spark (TP=1)",
+    "stars": 102,
+    "forks": 10,
+    "language": "Python",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-09-04T11:23:46Z",
+    "updated_at": "2026-09-05T06:33:22Z",
+    "owner": {
+      "name": "MiaAI-Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83042094?v=4"
     }
   },
   {
@@ -2882,6 +2851,22 @@
     }
   },
   {
+    "name": "Tyche-MKR/scientific-agent-skills",
+    "url": "https://github.com/Tyche-MKR/scientific-agent-skills",
+    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+    "stars": 100,
+    "forks": 20,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-31T10:54:19Z",
+    "updated_at": "2026-09-05T01:34:08Z",
+    "owner": {
+      "name": "Tyche-MKR",
+      "avatar_url": "https://avatars.githubusercontent.com/u/319595299?v=4"
+    }
+  },
+  {
     "name": "zhengzihaoPKU/RoboECC",
     "url": "https://github.com/zhengzihaoPKU/RoboECC",
     "description": "Code for Paper \"RoboECC: Multi-Factor-Aware Edge-Cloud Collaborative Deployment for VLA Models\" accepted by IJCNN 2026.",
@@ -2898,6 +2883,22 @@
     "owner": {
       "name": "zhengzihaoPKU",
       "avatar_url": "https://avatars.githubusercontent.com/u/141690701?v=4"
+    }
+  },
+  {
+    "name": "Instituto-IA-LNCC/manaca-1b-base",
+    "url": "https://github.com/Instituto-IA-LNCC/manaca-1b-base",
+    "description": "LLM aberto e reprodutível para o Português do Brasil An Open, Reproducible Brazilian-Portuguese Language Model",
+    "stars": 99,
+    "forks": 6,
+    "language": "Python",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-08-31T00:30:47Z",
+    "updated_at": "2026-09-04T20:20:30Z",
+    "owner": {
+      "name": "Instituto-IA-LNCC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/271777255?v=4"
     }
   },
   {
@@ -2919,26 +2920,10 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-30T17:28:16Z",
-    "updated_at": "2026-09-04T02:01:05Z",
+    "updated_at": "2026-09-05T01:07:46Z",
     "owner": {
       "name": "nickname21kmr",
       "avatar_url": "https://avatars.githubusercontent.com/u/210969119?v=4"
-    }
-  },
-  {
-    "name": "Tyche-MKR/scientific-agent-skills",
-    "url": "https://github.com/Tyche-MKR/scientific-agent-skills",
-    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-    "stars": 98,
-    "forks": 20,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-31T10:54:19Z",
-    "updated_at": "2026-09-03T23:43:20Z",
-    "owner": {
-      "name": "Tyche-MKR",
-      "avatar_url": "https://avatars.githubusercontent.com/u/319595299?v=4"
     }
   },
   {
@@ -2971,26 +2956,6 @@
     "owner": {
       "name": "vivekhaldar",
       "avatar_url": "https://avatars.githubusercontent.com/u/34522?v=4"
-    }
-  },
-  {
-    "name": "0x6rss/instagram-private-graph",
-    "url": "https://github.com/0x6rss/instagram-private-graph",
-    "description": "Analyze the followers and following accounts that a private (hidden) Instagram account interacts with.",
-    "stars": 96,
-    "forks": 17,
-    "language": "Python",
-    "topics": [
-      "osint",
-      "osint-python",
-      "osint-tool"
-    ],
-    "license": "No license",
-    "created_at": "2026-09-03T13:36:30Z",
-    "updated_at": "2026-09-04T06:41:26Z",
-    "owner": {
-      "name": "0x6rss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58754583?v=4"
     }
   },
   {
@@ -3034,22 +2999,6 @@
     "owner": {
       "name": "wangxin6x",
       "avatar_url": "https://avatars.githubusercontent.com/u/206345670?v=4"
-    }
-  },
-  {
-    "name": "Instituto-IA-LNCC/manaca-1b-base",
-    "url": "https://github.com/Instituto-IA-LNCC/manaca-1b-base",
-    "description": "LLM aberto e reprodutível para o Português do Brasil An Open, Reproducible Brazilian-Portuguese Language Model",
-    "stars": 93,
-    "forks": 5,
-    "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-31T00:30:47Z",
-    "updated_at": "2026-09-04T01:50:06Z",
-    "owner": {
-      "name": "Instituto-IA-LNCC",
-      "avatar_url": "https://avatars.githubusercontent.com/u/271777255?v=4"
     }
   },
   {
