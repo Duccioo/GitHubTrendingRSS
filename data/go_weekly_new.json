@@ -35,8 +35,8 @@
     "name": "okf-memory/okf-agent-memory",
     "url": "https://github.com/okf-memory/okf-agent-memory",
     "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
-    "stars": 527,
-    "forks": 32,
+    "stars": 552,
+    "forks": 35,
     "language": "Go",
     "topics": [
       "agent-memory",
@@ -60,7 +60,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-05T21:26:04Z",
-    "updated_at": "2026-09-10T06:34:24Z",
+    "updated_at": "2026-09-11T05:39:48Z",
     "owner": {
       "name": "okf-memory",
       "avatar_url": "https://avatars.githubusercontent.com/u/322091575?v=4"
@@ -83,30 +83,26 @@
     }
   },
   {
-    "name": "zhaoxuya520/MeshLAN",
-    "url": "https://github.com/zhaoxuya520/MeshLAN",
-    "description": "Self-hosted P2P-first virtual LAN, service sharing, multi-relay and AI automation built on Nebula.",
-    "stars": 190,
-    "forks": 22,
+    "name": "VaderChen/YourDesk",
+    "url": "https://github.com/VaderChen/YourDesk",
+    "description": "Cross-platform remote desktop for macOS and Windows with hardware acceleration, multi-monitor support, clipboard transfer for text, images, files and folders, and MCP integration for AI agents to connect to and control remote computers.",
+    "stars": 165,
+    "forks": 24,
     "language": "Go",
     "topics": [
+      "clipboard",
       "golang",
-      "mesh-network",
-      "nat-traversal",
-      "nebula",
-      "p2p",
-      "relay",
-      "self-hosted",
-      "virtual-lan",
-      "vpn",
+      "macos",
+      "remote-desktop",
+      "webrtc",
       "windows"
     ],
-    "license": "MIT License",
-    "created_at": "2026-08-22T10:30:10Z",
-    "updated_at": "2026-08-28T04:37:41Z",
+    "license": "No license",
+    "created_at": "2026-09-08T03:53:34Z",
+    "updated_at": "2026-09-11T06:10:47Z",
     "owner": {
-      "name": "zhaoxuya520",
-      "avatar_url": "https://avatars.githubusercontent.com/u/147215175?v=4"
+      "name": "VaderChen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8309425?v=4"
     }
   },
   {
@@ -126,26 +122,48 @@
     }
   },
   {
-    "name": "VaderChen/YourDesk",
-    "url": "https://github.com/VaderChen/YourDesk",
-    "description": "YourDesk 跨平台遠端桌面：支援 macOS 與 Windows、硬體加速、多螢幕，以及文字、圖片、檔案與資料夾剪貼簿傳輸。",
-    "stars": 117,
-    "forks": 20,
+    "name": "x4gpanell/3x-ui_runonflux",
+    "url": "https://github.com/x4gpanell/3x-ui_runonflux",
+    "description": null,
+    "stars": 121,
+    "forks": 212,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-10T09:34:43Z",
+    "updated_at": "2026-09-11T06:21:06Z",
+    "owner": {
+      "name": "x4gpanell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/317284177?v=4"
+    }
+  },
+  {
+    "name": "vvrnv/argo9s",
+    "url": "https://github.com/vvrnv/argo9s",
+    "description": "A K9s-inspired terminal UI for monitoring Argo CD resources in real-time",
+    "stars": 93,
+    "forks": 15,
     "language": "Go",
     "topics": [
-      "clipboard",
+      "argo",
+      "argo-cd",
+      "argocd",
+      "cli",
+      "gitops",
+      "go",
       "golang",
-      "macos",
-      "remote-desktop",
-      "webrtc",
-      "windows"
+      "k8s",
+      "k8s-cluster",
+      "kubernetes",
+      "kubernetes-clusters",
+      "tui"
     ],
-    "license": "No license",
-    "created_at": "2026-09-08T03:53:34Z",
-    "updated_at": "2026-09-10T06:39:04Z",
+    "license": "MIT License",
+    "created_at": "2026-09-07T08:11:20Z",
+    "updated_at": "2026-09-11T05:09:39Z",
     "owner": {
-      "name": "VaderChen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8309425?v=4"
+      "name": "vvrnv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40491079?v=4"
     }
   },
   {
@@ -211,45 +229,16 @@
     }
   },
   {
-    "name": "vvrnv/argo9s",
-    "url": "https://github.com/vvrnv/argo9s",
-    "description": "A K9s-inspired terminal UI for monitoring Argo CD resources in real-time",
-    "stars": 85,
-    "forks": 15,
-    "language": "Go",
-    "topics": [
-      "argo",
-      "argo-cd",
-      "argocd",
-      "cli",
-      "gitops",
-      "go",
-      "golang",
-      "k8s",
-      "k8s-cluster",
-      "kubernetes",
-      "kubernetes-clusters",
-      "tui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-07T08:11:20Z",
-    "updated_at": "2026-09-10T06:51:28Z",
-    "owner": {
-      "name": "vvrnv",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40491079?v=4"
-    }
-  },
-  {
     "name": "vianziro/Whatsapp-Dekstop",
     "url": "https://github.com/vianziro/Whatsapp-Dekstop",
     "description": "An ultra-lightweight, blazing-fast, and memory-efficient WhatsApp Desktop client for macOS, Windows, and Linux, built with Go.",
-    "stars": 84,
+    "stars": 85,
     "forks": 6,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-07T08:13:04Z",
-    "updated_at": "2026-09-10T04:32:38Z",
+    "updated_at": "2026-09-11T06:16:09Z",
     "owner": {
       "name": "vianziro",
       "avatar_url": "https://avatars.githubusercontent.com/u/9649104?v=4"
@@ -338,7 +327,7 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-08T22:27:40Z",
-    "updated_at": "2026-09-09T23:04:00Z",
+    "updated_at": "2026-09-10T21:58:00Z",
     "owner": {
       "name": "ZenNotes",
       "avatar_url": "https://avatars.githubusercontent.com/u/277024416?v=4"
@@ -364,13 +353,13 @@
     "name": "MiaM1ku/taierspeedtest",
     "url": "https://github.com/MiaM1ku/taierspeedtest",
     "description": "全球网测 / 泰尔测速 Linux 客户端",
-    "stars": 49,
-    "forks": 7,
+    "stars": 50,
+    "forks": 8,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-09-05T06:56:35Z",
-    "updated_at": "2026-09-09T12:51:37Z",
+    "updated_at": "2026-09-11T03:03:56Z",
     "owner": {
       "name": "MiaM1ku",
       "avatar_url": "https://avatars.githubusercontent.com/u/61079068?v=4"
@@ -409,6 +398,22 @@
     }
   },
   {
+    "name": "AlexAntonik/nix-graph",
+    "url": "https://github.com/AlexAntonik/nix-graph",
+    "description": "Interactive TUI viewer for Nix dependency graphs",
+    "stars": 42,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-10T12:38:55Z",
+    "updated_at": "2026-09-11T06:43:25Z",
+    "owner": {
+      "name": "AlexAntonik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55547934?v=4"
+    }
+  },
+  {
     "name": "ppxb/miyabi",
     "url": "https://github.com/ppxb/miyabi",
     "description": "A secret project with JavDB.",
@@ -431,6 +436,22 @@
     "owner": {
       "name": "ppxb",
       "avatar_url": "https://avatars.githubusercontent.com/u/17081240?v=4"
+    }
+  },
+  {
+    "name": "dualface/kander",
+    "url": "https://github.com/dualface/kander",
+    "description": "用看板调度多个 AI Agent 的任务编排工具",
+    "stars": 41,
+    "forks": 6,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-05T20:23:17Z",
+    "updated_at": "2026-09-10T07:54:04Z",
+    "owner": {
+      "name": "dualface",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62318?v=4"
     }
   },
   {
@@ -460,19 +481,19 @@
     }
   },
   {
-    "name": "dualface/kander",
-    "url": "https://github.com/dualface/kander",
-    "description": "用看板调度多个 AI Agent 的任务编排工具",
+    "name": "bluesky585/nibble",
+    "url": "https://github.com/bluesky585/nibble",
+    "description": "A Go library for splitting long text into retrieval-sized chunks for RAG.",
     "stars": 40,
-    "forks": 5,
+    "forks": 1,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-09-05T20:23:17Z",
-    "updated_at": "2026-09-10T00:16:46Z",
+    "created_at": "2026-09-08T06:58:42Z",
+    "updated_at": "2026-09-11T05:36:06Z",
     "owner": {
-      "name": "dualface",
-      "avatar_url": "https://avatars.githubusercontent.com/u/62318?v=4"
+      "name": "bluesky585",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59461118?v=4"
     }
   },
   {
@@ -509,12 +530,12 @@
     "url": "https://github.com/uvwt/CtyunHelper",
     "description": "天翼云电脑Helper： 一个exe = 自动保活 + 自动做任务 + 自动领积分 + 自动兑换",
     "stars": 38,
-    "forks": 5,
+    "forks": 4,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-09-05T08:25:27Z",
-    "updated_at": "2026-09-10T01:18:46Z",
+    "updated_at": "2026-09-11T05:54:02Z",
     "owner": {
       "name": "uvwt",
       "avatar_url": "https://avatars.githubusercontent.com/u/54053135?v=4"
@@ -558,22 +579,6 @@
     }
   },
   {
-    "name": "javieraltman/AIrecall",
-    "url": "https://github.com/javieraltman/AIrecall",
-    "description": "Drop-in long-term memory layer for AI agents - episodic + semantic memory, hybrid retrieval, and auto-summarization. Python SDK + Go memory server.",
-    "stars": 38,
-    "forks": 6,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-27T07:49:51Z",
-    "updated_at": "2026-08-27T16:45:42Z",
-    "owner": {
-      "name": "javieraltman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17326827?v=4"
-    }
-  },
-  {
     "name": "0xmania/vps-manager",
     "url": "https://github.com/0xmania/vps-manager",
     "description": "Self-hosted web control plane for VPS management, WebSSH, runbooks, anomaly analysis, and Cloudflare Workers.",
@@ -603,6 +608,28 @@
     "owner": {
       "name": "codex-tweaks",
       "avatar_url": "https://avatars.githubusercontent.com/u/321237390?v=4"
+    }
+  },
+  {
+    "name": "KasumiYuku/Aurorix",
+    "url": "https://github.com/KasumiYuku/Aurorix",
+    "description": "基于Go的轻量的QQ官方机器人框架，此为基于原版Polarix的自用定制版本",
+    "stars": 33,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "bot",
+      "chatbot",
+      "qqbot",
+      "qqbot-framework",
+      "sdk"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-07T01:37:17Z",
+    "updated_at": "2026-09-11T02:21:25Z",
+    "owner": {
+      "name": "KasumiYuku",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107661829?v=4"
     }
   },
   {
@@ -667,28 +694,6 @@
     }
   },
   {
-    "name": "KasumiYuku/Aurorix",
-    "url": "https://github.com/KasumiYuku/Aurorix",
-    "description": "基于Go的轻量的QQ官方机器人框架，此为基于原版Polarix的自用定制版本",
-    "stars": 31,
-    "forks": 2,
-    "language": "Go",
-    "topics": [
-      "bot",
-      "chatbot",
-      "qqbot",
-      "qqbot-framework",
-      "sdk"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-07T01:37:17Z",
-    "updated_at": "2026-09-10T03:36:14Z",
-    "owner": {
-      "name": "KasumiYuku",
-      "avatar_url": "https://avatars.githubusercontent.com/u/107661829?v=4"
-    }
-  },
-  {
     "name": "pcm469768-droid/llm-api-speedtest",
     "url": "https://github.com/pcm469768-droid/llm-api-speedtest",
     "description": "Benchmark LLM APIs, OpenAI-compatible gateways, and API proxies by token speed, TTFB, latency, and success rate. Compare multiple providers with reproducible JSON reports and scheduled GitHub Actions.",
@@ -709,10 +714,42 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-06T00:59:28Z",
-    "updated_at": "2026-09-10T05:04:18Z",
+    "updated_at": "2026-09-10T07:56:14Z",
     "owner": {
       "name": "pcm469768-droid",
       "avatar_url": "https://avatars.githubusercontent.com/u/325181940?v=4"
+    }
+  },
+  {
+    "name": "smoothyy3/tardigrade",
+    "url": "https://github.com/smoothyy3/tardigrade",
+    "description": "A creature of self-healing cells inside your terminal",
+    "stars": 31,
+    "forks": 4,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-07T11:20:21Z",
+    "updated_at": "2026-09-10T13:45:14Z",
+    "owner": {
+      "name": "smoothyy3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67224262?v=4"
+    }
+  },
+  {
+    "name": "aps32221/AICryptoTrading",
+    "url": "https://github.com/aps32221/AICryptoTrading",
+    "description": "The trading system uses Claude AI & ICT strategy signal",
+    "stars": 31,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-10T10:08:49Z",
+    "updated_at": "2026-09-11T06:20:07Z",
+    "owner": {
+      "name": "aps32221",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9293526?v=4"
     }
   },
   {
@@ -790,51 +827,25 @@
     }
   },
   {
-    "name": "parsaenami/taskii",
-    "url": "https://github.com/parsaenami/taskii",
-    "description": "TASKII - A terminal dashboard for tasks, notes, and focus, built with Go and Bubble Tea.",
-    "stars": 30,
-    "forks": 4,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-22T09:42:44Z",
-    "updated_at": "2026-08-28T03:04:51Z",
-    "owner": {
-      "name": "parsaenami",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25262338?v=4"
-    }
-  },
-  {
-    "name": "smoothyy3/tardigrade",
-    "url": "https://github.com/smoothyy3/tardigrade",
-    "description": "A creature of self-healing cells inside your terminal",
+    "name": "VoidSecSoftwares/voidsyscall",
+    "url": "https://github.com/VoidSecSoftwares/voidsyscall",
+    "description": "Cross-platform syscall-powered implant & C2 — direct syscalls (Win), raw syscalls (Linux), HTTPS/DNS/ICMP channels. No winapi layer.",
     "stars": 28,
-    "forks": 4,
+    "forks": 2,
     "language": "Go",
-    "topics": [],
+    "topics": [
+      "c2",
+      "edr-evasion",
+      "golang",
+      "red-team",
+      "syscall"
+    ],
     "license": "MIT License",
-    "created_at": "2026-09-07T11:20:21Z",
-    "updated_at": "2026-09-10T03:51:37Z",
+    "created_at": "2026-09-10T14:56:14Z",
+    "updated_at": "2026-09-11T06:35:50Z",
     "owner": {
-      "name": "smoothyy3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67224262?v=4"
-    }
-  },
-  {
-    "name": "bluesky585/nibble",
-    "url": "https://github.com/bluesky585/nibble",
-    "description": "A Go library for splitting long text into retrieval-sized chunks for RAG.",
-    "stars": 28,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-08T06:58:42Z",
-    "updated_at": "2026-09-10T05:01:39Z",
-    "owner": {
-      "name": "bluesky585",
-      "avatar_url": "https://avatars.githubusercontent.com/u/59461118?v=4"
+      "name": "VoidSecSoftwares",
+      "avatar_url": "https://avatars.githubusercontent.com/u/326985314?v=4"
     }
   },
   {
@@ -946,6 +957,22 @@
     }
   },
   {
+    "name": "hirotomasato/paygateme",
+    "url": "https://github.com/hirotomasato/paygateme",
+    "description": "Unofficial SDK Go library for Shopee & GoPay merchant payments ",
+    "stars": 25,
+    "forks": 8,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-10T03:16:12Z",
+    "updated_at": "2026-09-11T00:18:12Z",
+    "owner": {
+      "name": "hirotomasato",
+      "avatar_url": "https://avatars.githubusercontent.com/u/198351389?v=4"
+    }
+  },
+  {
     "name": "Solvr-io/solvr-go",
     "url": "https://github.com/Solvr-io/solvr-go",
     "description": "The official Go client for the Solvr API: typed, dependency-free access to the Kasada and DataDome endpoints, with sync examples, retries, and a small concurrency-safe core.",
@@ -1020,19 +1047,19 @@
     }
   },
   {
-    "name": "vipamess/Copilot-Bridge-",
-    "url": "https://github.com/vipamess/Copilot-Bridge-",
-    "description": null,
-    "stars": 25,
-    "forks": 7,
+    "name": "qvoo/iSeatcx",
+    "url": "https://github.com/qvoo/iSeatcx",
+    "description": "超星图书馆座位自动预约脚本",
+    "stars": 24,
+    "forks": 3,
     "language": "Go",
     "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-08-23T01:09:48Z",
-    "updated_at": "2026-08-27T09:19:11Z",
+    "license": "MIT License",
+    "created_at": "2026-09-07T16:16:38Z",
+    "updated_at": "2026-09-10T16:07:38Z",
     "owner": {
-      "name": "vipamess",
-      "avatar_url": "https://avatars.githubusercontent.com/u/285364448?v=4"
+      "name": "qvoo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110219260?v=4"
     }
   },
   {
@@ -1070,22 +1097,6 @@
     "owner": {
       "name": "incompletepi",
       "avatar_url": "https://avatars.githubusercontent.com/u/209298247?v=4"
-    }
-  },
-  {
-    "name": "Onizuka893/lazymqtt",
-    "url": "https://github.com/Onizuka893/lazymqtt",
-    "description": null,
-    "stars": 23,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-24T09:25:44Z",
-    "updated_at": "2026-08-27T19:08:15Z",
-    "owner": {
-      "name": "Onizuka893",
-      "avatar_url": "https://avatars.githubusercontent.com/u/92974194?v=4"
     }
   },
   {
@@ -1281,6 +1292,80 @@
     }
   },
   {
+    "name": "liuhuig/Sing-box-Argo-Python",
+    "url": "https://github.com/liuhuig/Sing-box-Argo-Python",
+    "description": "既然来了，就留下你的Star吧！本项目是一个专为 **100M 限制低内存容器**（如 Pella 等）打造的轻量级 VMess-WS + Argo 隧道代理节点托管服务。",
+    "stars": 19,
+    "forks": 12,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-06T08:52:41Z",
+    "updated_at": "2026-09-11T06:02:37Z",
+    "owner": {
+      "name": "liuhuig",
+      "avatar_url": "https://avatars.githubusercontent.com/u/247531160?v=4"
+    }
+  },
+  {
+    "name": "JK-97/pikawire",
+    "url": "https://github.com/JK-97/pikawire",
+    "description": "Change Data Capture for PikiwiDB (Pika): point-in-time full snapshot + live incremental stream into Kafka, Doris, Postgres, MySQL",
+    "stars": 19,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "cdc",
+      "change-data-capture",
+      "data-sync",
+      "database-streaming",
+      "debezium",
+      "doris",
+      "go",
+      "kafka",
+      "mysql",
+      "pika",
+      "pikiwidb",
+      "postgresql",
+      "replication",
+      "rocksdb"
+    ],
+    "license": "Other",
+    "created_at": "2026-09-07T08:45:24Z",
+    "updated_at": "2026-09-11T04:24:35Z",
+    "owner": {
+      "name": "JK-97",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16853338?v=4"
+    }
+  },
+  {
+    "name": "herliansyah/teledrive",
+    "url": "https://github.com/herliansyah/teledrive",
+    "description": "⚡ High-capacity personal cloud storage powered by Telegram MTProto. Single static binary with Google Drive-like Web Dashboard, resumable chunked uploads, HTTP 206 video streaming, and strict ToS Safe Mode.",
+    "stars": 19,
+    "forks": 5,
+    "language": "Go",
+    "topics": [
+      "cloud-storage",
+      "file-manager",
+      "golang",
+      "google-drive-alternative",
+      "gotd",
+      "mtproto",
+      "self-hosted",
+      "single-binary",
+      "sqlite",
+      "telegram"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-10T03:18:38Z",
+    "updated_at": "2026-09-11T06:02:46Z",
+    "owner": {
+      "name": "herliansyah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/994782?v=4"
+    }
+  },
+  {
     "name": "ca-x/tailcat-webui",
     "url": "https://github.com/ca-x/tailcat-webui",
     "description": "A multi-user Tailcat control plane and responsive web console",
@@ -1313,22 +1398,6 @@
     }
   },
   {
-    "name": "qvoo/iSeatcx",
-    "url": "https://github.com/qvoo/iSeatcx",
-    "description": "超星图书馆座位自动预约脚本",
-    "stars": 18,
-    "forks": 3,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-07T16:16:38Z",
-    "updated_at": "2026-09-10T03:21:13Z",
-    "owner": {
-      "name": "qvoo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/110219260?v=4"
-    }
-  },
-  {
     "name": "mjavedali/drain-check",
     "url": "https://github.com/mjavedali/drain-check",
     "description": "PDB / drain-check before node maintenance  ",
@@ -1348,6 +1417,38 @@
     "owner": {
       "name": "mjavedali",
       "avatar_url": "https://avatars.githubusercontent.com/u/30997178?v=4"
+    }
+  },
+  {
+    "name": "mirairoad/appeditions",
+    "url": "https://github.com/mirairoad/appeditions",
+    "description": "Turn raw app screenshots into store-ready App Store and Google Play assets, and keep tracking of the version you are in, in every language you ship in. A local Go desktop app — no account, no upload, no server.",
+    "stars": 17,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-09T01:09:08Z",
+    "updated_at": "2026-09-10T14:36:54Z",
+    "owner": {
+      "name": "mirairoad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82302576?v=4"
+    }
+  },
+  {
+    "name": "LuislopezMartinez/IC-SDR",
+    "url": "https://github.com/LuislopezMartinez/IC-SDR",
+    "description": "SDR multimodo para Windows programado en Go, con demodulación analógica y decodificadores digitales integrados.",
+    "stars": 17,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-08T05:43:42Z",
+    "updated_at": "2026-09-11T05:33:20Z",
+    "owner": {
+      "name": "LuislopezMartinez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31845151?v=4"
     }
   },
   {
@@ -1441,47 +1542,19 @@
     }
   },
   {
-    "name": "arhuman/ansible-static-lint",
-    "url": "https://github.com/arhuman/ansible-static-lint",
-    "description": "Static Ansible linting in Go: the 38 ansible-lint rules decidable from YAML alone, byte-for-byte pep8 output, no Ansible runtime.",
-    "stars": 17,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "ansible",
-      "ansible-lint",
-      "ci",
-      "devops",
-      "devops-tools",
-      "github-actions",
-      "golang",
-      "linter",
-      "pre-commit",
-      "sarif",
-      "static-analysis"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-21T03:35:17Z",
-    "updated_at": "2026-08-27T10:36:21Z",
-    "owner": {
-      "name": "arhuman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/283991?v=4"
-    }
-  },
-  {
-    "name": "mirairoad/appeditions",
-    "url": "https://github.com/mirairoad/appeditions",
-    "description": "Turn raw app screenshots into store-ready App Store and Google Play assets, and keep tracking of the version you are in, in every language you ship in. A local Go desktop app — no account, no upload, no server.",
+    "name": "Th3Purge/CPanelScanner",
+    "url": "https://github.com/Th3Purge/CPanelScanner",
+    "description": "Fast, multithreaded Go-based scanner for discovering and fingerprinting cPanel and WHM services across IPs, CIDR ranges, and target lists.",
     "stars": 16,
     "forks": 0,
     "language": "Go",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-09T01:09:08Z",
-    "updated_at": "2026-09-10T00:46:07Z",
+    "license": "No license",
+    "created_at": "2026-09-06T21:18:42Z",
+    "updated_at": "2026-09-11T01:48:02Z",
     "owner": {
-      "name": "mirairoad",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82302576?v=4"
+      "name": "Th3Purge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/325773251?v=4"
     }
   },
   {
@@ -1539,34 +1612,19 @@
     }
   },
   {
-    "name": "JK-97/pikawire",
-    "url": "https://github.com/JK-97/pikawire",
-    "description": "Change Data Capture for PikiwiDB (Pika): point-in-time full snapshot + live incremental stream into Kafka, Doris, Postgres, MySQL",
+    "name": "xiaoli8571/SSRVPN_Harmony",
+    "url": "https://github.com/xiaoli8571/SSRVPN_Harmony",
+    "description": "SSRVPN (Clash/Mihomo) ported to HarmonyOS NEXT - ArkTS UI + in-process c-shared Mihomo core over VpnExtensionAbility TUN (gVisor). DoH anti-DNS-poisoning, IPv6 auto-bypass, global/rule modes, per-app bypass, diagnostics.",
     "stars": 15,
     "forks": 0,
     "language": "Go",
-    "topics": [
-      "cdc",
-      "change-data-capture",
-      "data-sync",
-      "database-streaming",
-      "debezium",
-      "doris",
-      "go",
-      "kafka",
-      "mysql",
-      "pika",
-      "pikiwidb",
-      "postgresql",
-      "replication",
-      "rocksdb"
-    ],
-    "license": "Other",
-    "created_at": "2026-09-07T08:45:24Z",
-    "updated_at": "2026-09-10T05:31:51Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-07T15:29:51Z",
+    "updated_at": "2026-09-11T05:31:36Z",
     "owner": {
-      "name": "JK-97",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16853338?v=4"
+      "name": "xiaoli8571",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114895941?v=4"
     }
   },
   {
@@ -1603,22 +1661,6 @@
     "owner": {
       "name": "theimaginaryfoundation",
       "avatar_url": "https://avatars.githubusercontent.com/u/231262563?v=4"
-    }
-  },
-  {
-    "name": "xiaoli8571/SSRVPN_Harmony",
-    "url": "https://github.com/xiaoli8571/SSRVPN_Harmony",
-    "description": "SSRVPN (Clash/Mihomo) ported to HarmonyOS NEXT - ArkTS UI + in-process c-shared Mihomo core over VpnExtensionAbility TUN (gVisor). DoH anti-DNS-poisoning, IPv6 auto-bypass, global/rule modes, per-app bypass, diagnostics.",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-07T15:29:51Z",
-    "updated_at": "2026-09-10T06:28:57Z",
-    "owner": {
-      "name": "xiaoli8571",
-      "avatar_url": "https://avatars.githubusercontent.com/u/114895941?v=4"
     }
   },
   {
@@ -1712,6 +1754,33 @@
     }
   },
   {
+    "name": "lynchest/runnel",
+    "url": "https://github.com/lynchest/runnel",
+    "description": "A small, secure HTTP egress gateway with per-domain rate limiting, circuit breaking, queueing, caching, and SSRF protection.",
+    "stars": 13,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "api-gateway",
+      "circuit-breaker",
+      "egress-proxy",
+      "golang",
+      "rate-limiting",
+      "resilience",
+      "reverse-proxy",
+      "singleflight",
+      "sqlite",
+      "web-scraping"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-08T15:31:05Z",
+    "updated_at": "2026-09-10T11:38:14Z",
+    "owner": {
+      "name": "lynchest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77403803?v=4"
+    }
+  },
+  {
     "name": "aispace-sh/aispace-client",
     "url": "https://github.com/aispace-sh/aispace-client",
     "description": "Open-source CLI and agent skill for aispace.sh",
@@ -1795,33 +1864,6 @@
     }
   },
   {
-    "name": "caigee-cmd/cli2api",
-    "url": "https://github.com/caigee-cmd/cli2api",
-    "description": "Self-hosted OpenAI-compatible API for Qoder CLI login,workbuddy, with SQLite multi-account routing and a HeroUI console.",
-    "stars": 13,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "api-proxy",
-      "docker",
-      "golang",
-      "oauth",
-      "openai-compatible",
-      "qoder",
-      "react",
-      "self-hosted",
-      "sqlite",
-      "sse"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-21T10:10:18Z",
-    "updated_at": "2026-08-27T11:12:51Z",
-    "owner": {
-      "name": "caigee-cmd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/210803857?v=4"
-    }
-  },
-  {
     "name": "bduxhlll12/ForgeFlow-Open-source-automation-tool-for-batch-file-media-processing-with-a-native-Windows-GUI",
     "url": "https://github.com/bduxhlll12/ForgeFlow-Open-source-automation-tool-for-batch-file-media-processing-with-a-native-Windows-GUI",
     "description": "ForgeFlow Open-source automation tool for batch file/media processing with a native Windows GUI.",
@@ -1831,26 +1873,10 @@
     "topics": [],
     "license": "Other",
     "created_at": "2026-09-09T20:00:39Z",
-    "updated_at": "2026-09-09T22:53:36Z",
+    "updated_at": "2026-09-10T10:25:08Z",
     "owner": {
       "name": "bduxhlll12",
       "avatar_url": "https://avatars.githubusercontent.com/u/209691660?v=4"
-    }
-  },
-  {
-    "name": "liuhuig/Sing-box-Argo-Python",
-    "url": "https://github.com/liuhuig/Sing-box-Argo-Python",
-    "description": "既然来了，就留下你的Star吧！本项目是一个专为 **100M 限制低内存容器**（如 Pella 等）打造的轻量级 VMess-WS + Argo 隧道代理节点托管服务。",
-    "stars": 12,
-    "forks": 10,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-06T08:52:41Z",
-    "updated_at": "2026-09-10T03:15:28Z",
-    "owner": {
-      "name": "liuhuig",
-      "avatar_url": "https://avatars.githubusercontent.com/u/247531160?v=4"
     }
   },
   {
@@ -2053,33 +2079,6 @@
     }
   },
   {
-    "name": "lynchest/runnel",
-    "url": "https://github.com/lynchest/runnel",
-    "description": "A small, secure HTTP egress gateway with per-domain rate limiting, circuit breaking, queueing, caching, and SSRF protection.",
-    "stars": 11,
-    "forks": 1,
-    "language": "Go",
-    "topics": [
-      "api-gateway",
-      "circuit-breaker",
-      "egress-proxy",
-      "golang",
-      "rate-limiting",
-      "resilience",
-      "reverse-proxy",
-      "singleflight",
-      "sqlite",
-      "web-scraping"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-08T15:31:05Z",
-    "updated_at": "2026-09-09T18:36:41Z",
-    "owner": {
-      "name": "lynchest",
-      "avatar_url": "https://avatars.githubusercontent.com/u/77403803?v=4"
-    }
-  },
-  {
     "name": "permgps/herdr-telegram-agents",
     "url": "https://github.com/permgps/herdr-telegram-agents",
     "description": "Drive your coding agents from Telegram like from the terminal. A topic per agent, live status in the topic icon, two-way chat with inline buttons for choices.",
@@ -2144,22 +2143,6 @@
     "owner": {
       "name": "scriptwang",
       "avatar_url": "https://avatars.githubusercontent.com/u/19930877?v=4"
-    }
-  },
-  {
-    "name": "mattn/llm-lsp",
-    "url": "https://github.com/mattn/llm-lsp",
-    "description": "Language Server backed by an OpenAI-compatible LLM API",
-    "stars": 11,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-25T08:23:14Z",
-    "updated_at": "2026-08-27T14:29:53Z",
-    "owner": {
-      "name": "mattn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10111?v=4"
     }
   },
   {
@@ -2343,22 +2326,6 @@
     }
   },
   {
-    "name": "s3c-krd/submap",
-    "url": "https://github.com/s3c-krd/submap",
-    "description": "Fast subdomain discovery CLI powered by submap.net",
-    "stars": 10,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-23T18:17:08Z",
-    "updated_at": "2026-08-27T07:00:49Z",
-    "owner": {
-      "name": "s3c-krd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35518769?v=4"
-    }
-  },
-  {
     "name": "KSM-Team/KSM-DNS",
     "url": "https://github.com/KSM-Team/KSM-DNS",
     "description": "KSM-DNS 是一款支持各种服务商的聚合域名解析管理程序 它使用Go+Gin编写",
@@ -2372,22 +2339,6 @@
     "owner": {
       "name": "KSM-Team",
       "avatar_url": "https://avatars.githubusercontent.com/u/321145722?v=4"
-    }
-  },
-  {
-    "name": "Yehya-Elsawy/explain",
-    "url": "https://github.com/Yehya-Elsawy/explain",
-    "description": "Understand the command before you run it.",
-    "stars": 10,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-21T15:51:35Z",
-    "updated_at": "2026-08-27T08:21:20Z",
-    "owner": {
-      "name": "Yehya-Elsawy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/145206269?v=4"
     }
   }
 ]
