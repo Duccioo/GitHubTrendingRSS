@@ -54,32 +54,16 @@
     }
   },
   {
-    "name": "pathwaycom/arc-task-gen",
-    "url": "https://github.com/pathwaycom/arc-task-gen",
-    "description": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
-    "stars": 9972,
-    "forks": 65,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-04T12:59:02Z",
-    "updated_at": "2026-09-02T06:40:50Z",
-    "owner": {
-      "name": "pathwaycom",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25750857?v=4"
-    }
-  },
-  {
     "name": "sapientinc/PRAXIST",
     "url": "https://github.com/sapientinc/PRAXIST",
     "description": "Autonomous research system for measurable, computer-executable research.",
-    "stars": 6774,
-    "forks": 689,
+    "stars": 6543,
+    "forks": 699,
     "language": "Python",
     "topics": [],
     "license": "Other",
     "created_at": "2026-08-27T14:20:58Z",
-    "updated_at": "2026-09-15T06:41:04Z",
+    "updated_at": "2026-09-16T06:43:11Z",
     "owner": {
       "name": "sapientinc",
       "avatar_url": "https://avatars.githubusercontent.com/u/188930505?v=4"
@@ -89,13 +73,13 @@
     "name": "amagine-ai/Amagine3D",
     "url": "https://github.com/amagine-ai/Amagine3D",
     "description": "Amagine3D: From hardware requirements to editable 3D designs",
-    "stars": 4744,
-    "forks": 210,
+    "stars": 4959,
+    "forks": 240,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-08-19T15:31:34Z",
-    "updated_at": "2026-09-15T07:03:07Z",
+    "updated_at": "2026-09-16T06:59:17Z",
     "owner": {
       "name": "amagine-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/285729589?v=4"
@@ -121,7 +105,7 @@
     "name": "wang2122/sprix-sage-router",
     "url": "https://github.com/wang2122/sprix-sage-router",
     "description": "Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
-    "stars": 3689,
+    "stars": 3690,
     "forks": 187,
     "language": "Python",
     "topics": [
@@ -136,10 +120,42 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-18T04:08:11Z",
-    "updated_at": "2026-09-15T04:09:08Z",
+    "updated_at": "2026-09-15T14:07:28Z",
     "owner": {
       "name": "wang2122",
       "avatar_url": "https://avatars.githubusercontent.com/u/78741078?v=4"
+    }
+  },
+  {
+    "name": "bojieli/ai-infra-book",
+    "url": "https://github.com/bojieli/ai-infra-book",
+    "description": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+    "stars": 3642,
+    "forks": 252,
+    "language": "Python",
+    "topics": [
+      "accelerator",
+      "ai-infra",
+      "ai-infrastructure",
+      "book",
+      "datacenter-network",
+      "deepseek",
+      "distributed-systems",
+      "gpu",
+      "kv-cache",
+      "llm",
+      "llm-inference",
+      "llm-serving",
+      "llm-training",
+      "mixture-of-experts",
+      "performance-engineering"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-22T15:30:41Z",
+    "updated_at": "2026-09-16T07:04:27Z",
+    "owner": {
+      "name": "bojieli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1421793?v=4"
     }
   },
   {
@@ -164,48 +180,36 @@
     }
   },
   {
-    "name": "fuxicodex/Fuxi",
-    "url": "https://github.com/fuxicodex/Fuxi",
-    "description": "FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
-    "stars": 3205,
-    "forks": 225,
+    "name": "ApodexAI/FrontierAgent",
+    "url": "https://github.com/ApodexAI/FrontierAgent",
+    "description": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
+    "stars": 3309,
+    "forks": 195,
     "language": "Python",
     "topics": [
-      "agent",
-      "ai",
-      "ai-agent",
-      "ai-coding",
-      "autonomous-agent",
-      "cli",
-      "code-assistant",
-      "coding-agent",
-      "coding-assistant",
-      "developer-tool",
-      "developer-tools",
-      "go",
-      "golang",
-      "llm",
-      "mcp",
-      "openai-compatible",
-      "productivity",
-      "terminal",
-      "terminal-app",
+      "agent-orchestration",
+      "agentic-ai",
+      "agentic-framework",
+      "ai-agents",
+      "harness",
+      "multi-agent",
+      "terminal-agent",
       "tui"
     ],
-    "license": "Other",
-    "created_at": "2026-08-04T07:32:11Z",
-    "updated_at": "2026-09-02T06:34:41Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-22T05:07:35Z",
+    "updated_at": "2026-09-16T07:02:13Z",
     "owner": {
-      "name": "fuxicodex",
-      "avatar_url": "https://avatars.githubusercontent.com/u/292959175?v=4"
+      "name": "ApodexAI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/276468590?v=4"
     }
   },
   {
     "name": "yanliudesign/mono-color-skill",
     "url": "https://github.com/yanliudesign/mono-color-skill",
     "description": "One-ink editorial print image skill — warm paper, halftone photography, active negative space, and restrained typography.",
-    "stars": 3072,
-    "forks": 84,
+    "stars": 3096,
+    "forks": 85,
     "language": "Python",
     "topics": [
       "agent-skill",
@@ -223,80 +227,23 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-19T06:07:45Z",
-    "updated_at": "2026-09-15T06:54:45Z",
+    "updated_at": "2026-09-16T06:23:32Z",
     "owner": {
       "name": "yanliudesign",
       "avatar_url": "https://avatars.githubusercontent.com/u/232981236?v=4"
     }
   },
   {
-    "name": "ApodexAI/FrontierAgent",
-    "url": "https://github.com/ApodexAI/FrontierAgent",
-    "description": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
-    "stars": 3061,
-    "forks": 192,
-    "language": "Python",
-    "topics": [
-      "agent-orchestration",
-      "agentic-ai",
-      "agentic-framework",
-      "ai-agents",
-      "harness",
-      "multi-agent",
-      "terminal-agent",
-      "tui"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-22T05:07:35Z",
-    "updated_at": "2026-09-15T07:00:01Z",
-    "owner": {
-      "name": "ApodexAI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/276468590?v=4"
-    }
-  },
-  {
-    "name": "bojieli/ai-infra-book",
-    "url": "https://github.com/bojieli/ai-infra-book",
-    "description": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
-    "stars": 2907,
-    "forks": 203,
-    "language": "Python",
-    "topics": [
-      "accelerator",
-      "ai-infra",
-      "ai-infrastructure",
-      "book",
-      "datacenter-network",
-      "deepseek",
-      "distributed-systems",
-      "gpu",
-      "kv-cache",
-      "llm",
-      "llm-inference",
-      "llm-serving",
-      "llm-training",
-      "mixture-of-experts",
-      "performance-engineering"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-22T15:30:41Z",
-    "updated_at": "2026-09-15T07:02:39Z",
-    "owner": {
-      "name": "bojieli",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1421793?v=4"
-    }
-  },
-  {
     "name": "anthropics/commerce-agents",
     "url": "https://github.com/anthropics/commerce-agents",
     "description": "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
-    "stars": 2861,
-    "forks": 545,
+    "stars": 2902,
+    "forks": 557,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-09-01T12:30:12Z",
-    "updated_at": "2026-09-15T06:44:11Z",
+    "updated_at": "2026-09-16T06:54:58Z",
     "owner": {
       "name": "anthropics",
       "avatar_url": "https://avatars.githubusercontent.com/u/76263028?v=4"
@@ -306,7 +253,7 @@
     "name": "Nanako0129/sepia",
     "url": "https://github.com/Nanako0129/sepia",
     "description": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
-    "stars": 2609,
+    "stars": 2634,
     "forks": 167,
     "language": "Python",
     "topics": [
@@ -325,7 +272,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-28T05:56:49Z",
-    "updated_at": "2026-09-15T04:06:32Z",
+    "updated_at": "2026-09-16T06:01:34Z",
     "owner": {
       "name": "Nanako0129",
       "avatar_url": "https://avatars.githubusercontent.com/u/44753291?v=4"
@@ -356,13 +303,13 @@
     "name": "Rion-Wu-tech/wechat-intelligence-hub",
     "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
     "description": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
-    "stars": 2267,
-    "forks": 2648,
+    "stars": 2344,
+    "forks": 2664,
     "language": "Python",
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-09-04T15:00:53Z",
-    "updated_at": "2026-09-15T07:00:11Z",
+    "updated_at": "2026-09-16T06:11:49Z",
     "owner": {
       "name": "Rion-Wu-tech",
       "avatar_url": "https://avatars.githubusercontent.com/u/184370191?v=4"
@@ -385,32 +332,41 @@
     }
   },
   {
-    "name": "jd-opensource/JoyAI-Video-Edit",
-    "url": "https://github.com/jd-opensource/JoyAI-Video-Edit",
-    "description": "[Official Repo] JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion",
-    "stars": 1776,
-    "forks": 85,
+    "name": "Human-Agent-Society/reef",
+    "url": "https://github.com/Human-Agent-Society/reef",
+    "description": "Continual learning infra for self-improving agents",
+    "stars": 2107,
+    "forks": 126,
     "language": "Python",
-    "topics": [],
+    "topics": [
+      "agent-infrastructure",
+      "ai-agents",
+      "continual-learning",
+      "inference",
+      "llm",
+      "llm-training",
+      "reinforcement-learning",
+      "self-improving-agents"
+    ],
     "license": "Apache License 2.0",
-    "created_at": "2026-08-04T08:22:24Z",
-    "updated_at": "2026-09-02T06:27:58Z",
+    "created_at": "2026-08-31T01:39:18Z",
+    "updated_at": "2026-09-16T07:02:28Z",
     "owner": {
-      "name": "jd-opensource",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75349771?v=4"
+      "name": "Human-Agent-Society",
+      "avatar_url": "https://avatars.githubusercontent.com/u/268553699?v=4"
     }
   },
   {
     "name": "Edge0-AI/Edge0",
     "url": "https://github.com/Edge0-AI/Edge0",
     "description": null,
-    "stars": 1718,
-    "forks": 141,
+    "stars": 1771,
+    "forks": 144,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-09-08T13:41:47Z",
-    "updated_at": "2026-09-15T06:43:13Z",
+    "updated_at": "2026-09-16T06:43:24Z",
     "owner": {
       "name": "Edge0-AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/310437271?v=4"
@@ -469,35 +425,10 @@
     }
   },
   {
-    "name": "Human-Agent-Society/reef",
-    "url": "https://github.com/Human-Agent-Society/reef",
-    "description": "Continual learning infra for self-improving agents",
-    "stars": 1646,
-    "forks": 104,
-    "language": "Python",
-    "topics": [
-      "agent-infrastructure",
-      "ai-agents",
-      "continual-learning",
-      "inference",
-      "llm",
-      "llm-training",
-      "reinforcement-learning",
-      "self-improving-agents"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-31T01:39:18Z",
-    "updated_at": "2026-09-15T07:03:08Z",
-    "owner": {
-      "name": "Human-Agent-Society",
-      "avatar_url": "https://avatars.githubusercontent.com/u/268553699?v=4"
-    }
-  },
-  {
     "name": "Tencent/WeMM-Embedding",
     "url": "https://github.com/Tencent/WeMM-Embedding",
     "description": "WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval.",
-    "stars": 1583,
+    "stars": 1595,
     "forks": 111,
     "language": "Python",
     "topics": [
@@ -507,7 +438,7 @@
     ],
     "license": "Other",
     "created_at": "2026-08-25T02:46:10Z",
-    "updated_at": "2026-09-15T07:01:53Z",
+    "updated_at": "2026-09-16T06:13:40Z",
     "owner": {
       "name": "Tencent",
       "avatar_url": "https://avatars.githubusercontent.com/u/18461506?v=4"
@@ -517,116 +448,29 @@
     "name": "EverettFish/holo-card-studio",
     "url": "https://github.com/EverettFish/holo-card-studio",
     "description": "Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project.",
-    "stars": 1533,
-    "forks": 215,
+    "stars": 1552,
+    "forks": 216,
     "language": "Python",
     "topics": [],
     "license": "Other",
     "created_at": "2026-09-07T00:41:18Z",
-    "updated_at": "2026-09-15T06:58:02Z",
+    "updated_at": "2026-09-16T06:46:54Z",
     "owner": {
       "name": "EverettFish",
       "avatar_url": "https://avatars.githubusercontent.com/u/222453586?v=4"
     }
   },
   {
-    "name": "tigerless-labs/agent-memory",
-    "url": "https://github.com/tigerless-labs/agent-memory",
-    "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
-    "stars": 1446,
-    "forks": 87,
-    "language": "Python",
-    "topics": [
-      "agent-memory",
-      "ai-agents",
-      "claude-code",
-      "codex",
-      "llm",
-      "local-first",
-      "long-term-memory",
-      "markdown",
-      "mcp",
-      "python",
-      "retrieval",
-      "sqlite"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-01T21:52:29Z",
-    "updated_at": "2026-09-15T06:00:09Z",
-    "owner": {
-      "name": "tigerless-labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/285825190?v=4"
-    }
-  },
-  {
-    "name": "AdamPlatin123/dsh-plugin-radar",
-    "url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
-    "description": "DSH Plugin Radar — 开源 DSH 插件生态雷达：自动发现 15900+ 候选、k8s 运行级实测 10000+、15 分钟快照管线；插件目录是其自动生成的 artifact",
-    "stars": 1441,
-    "forks": 148,
-    "language": "Python",
-    "topics": [
-      "agent-plugins",
-      "continuous-validation",
-      "deepseek-harness",
-      "dsh",
-      "dsh-plugin",
-      "ecosystem-radar",
-      "plugin-registry"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-04T21:46:54Z",
-    "updated_at": "2026-09-02T06:30:56Z",
-    "owner": {
-      "name": "AdamPlatin123",
-      "avatar_url": "https://avatars.githubusercontent.com/u/154926636?v=4"
-    }
-  },
-  {
-    "name": "AMAP-ML/LongHorizon-Harness",
-    "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
-    "description": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.",
-    "stars": 1433,
-    "forks": 150,
-    "language": "Python",
-    "topics": [
-      "agent",
-      "claude",
-      "claude-code",
-      "claude-plugin",
-      "cli",
-      "codex",
-      "codex-desktop",
-      "codex-plugin",
-      "cua",
-      "deepseek-harness",
-      "gui",
-      "harness",
-      "long-horizon",
-      "long-horizon-agents",
-      "longhorizon-harness",
-      "loop",
-      "loop-engineering"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-04T04:30:58Z",
-    "updated_at": "2026-09-02T03:53:30Z",
-    "owner": {
-      "name": "AMAP-ML",
-      "avatar_url": "https://avatars.githubusercontent.com/u/202896035?v=4"
-    }
-  },
-  {
     "name": "FireRedTeam/FireRedAudio",
     "url": "https://github.com/FireRedTeam/FireRedAudio",
     "description": null,
-    "stars": 1365,
+    "stars": 1461,
     "forks": 15,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-08-22T11:18:12Z",
-    "updated_at": "2026-09-15T06:59:58Z",
+    "updated_at": "2026-09-16T06:52:50Z",
     "owner": {
       "name": "FireRedTeam",
       "avatar_url": "https://avatars.githubusercontent.com/u/178460259?v=4"
@@ -636,13 +480,13 @@
     "name": "donvito/codex-astra-luna-orchestrator",
     "url": "https://github.com/donvito/codex-astra-luna-orchestrator",
     "description": "Use Astra as orchestrator and Luna for subagents in Codex",
-    "stars": 1335,
-    "forks": 108,
+    "stars": 1375,
+    "forks": 110,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-09-05T16:03:06Z",
-    "updated_at": "2026-09-15T06:56:51Z",
+    "updated_at": "2026-09-16T06:44:56Z",
     "owner": {
       "name": "donvito",
       "avatar_url": "https://avatars.githubusercontent.com/u/890270?v=4"
@@ -675,19 +519,80 @@
     }
   },
   {
+    "name": "tigerless-labs/agent-memory",
+    "url": "https://github.com/tigerless-labs/agent-memory",
+    "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
+    "stars": 1317,
+    "forks": 84,
+    "language": "Python",
+    "topics": [
+      "agent-memory",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "llm",
+      "local-first",
+      "long-term-memory",
+      "markdown",
+      "mcp",
+      "python",
+      "retrieval",
+      "sqlite"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-01T21:52:29Z",
+    "updated_at": "2026-09-16T05:48:57Z",
+    "owner": {
+      "name": "tigerless-labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/285825190?v=4"
+    }
+  },
+  {
+    "name": "larashero3-dotcom/lieflat-less-ai-tone",
+    "url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+    "description": "一个基于 283 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 2.83-million-character corpus study",
+    "stars": 1291,
+    "forks": 90,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-20T09:07:59Z",
+    "updated_at": "2026-09-16T07:03:58Z",
+    "owner": {
+      "name": "larashero3-dotcom",
+      "avatar_url": "https://avatars.githubusercontent.com/u/260030037?v=4"
+    }
+  },
+  {
     "name": "amirh00sain/SpiderPanel",
     "url": "https://github.com/amirh00sain/SpiderPanel",
     "description": null,
-    "stars": 1239,
-    "forks": 4522,
+    "stars": 1255,
+    "forks": 4612,
     "language": "Python",
     "topics": [],
     "license": "No license",
     "created_at": "2026-08-18T15:30:17Z",
-    "updated_at": "2026-09-15T06:01:44Z",
+    "updated_at": "2026-09-16T06:16:45Z",
     "owner": {
       "name": "amirh00sain",
       "avatar_url": "https://avatars.githubusercontent.com/u/318304801?v=4"
+    }
+  },
+  {
+    "name": "brayonpi/hexstellar",
+    "url": "https://github.com/brayonpi/hexstellar",
+    "description": "Turn any AI agent into a computational researcher. HexStellar Cortex delivers software-accelerated optimization, quantum computing, scientific computing, decision intelligence, and verifiable execution through a Python CLI and API—with certainty labels, verification receipts, examples, and a free sandbox. Start instantly: pip install hexstellar",
+    "stars": 1240,
+    "forks": 118,
+    "language": "Python",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-08-27T20:53:42Z",
+    "updated_at": "2026-09-16T06:45:36Z",
+    "owner": {
+      "name": "brayonpi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100501194?v=4"
     }
   },
   {
@@ -695,7 +600,7 @@
     "url": "https://github.com/GangTailorUpgrade/undress-service",
     "description": "Dress AI Sponsor",
     "stars": 1238,
-    "forks": 7,
+    "forks": 8,
     "language": "Python",
     "topics": [
       "18comic",
@@ -721,7 +626,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-31T00:12:45Z",
-    "updated_at": "2026-09-14T19:52:38Z",
+    "updated_at": "2026-09-16T04:27:05Z",
     "owner": {
       "name": "GangTailorUpgrade",
       "avatar_url": "https://avatars.githubusercontent.com/u/270958586?v=4"
@@ -750,27 +655,11 @@
     }
   },
   {
-    "name": "brayonpi/hexstellar",
-    "url": "https://github.com/brayonpi/hexstellar",
-    "description": "Turn any AI agent into a computational researcher. HexStellar Cortex delivers software-accelerated optimization, quantum computing, scientific computing, decision intelligence, and verifiable execution through a Python CLI and API—with certainty labels, verification receipts, examples, and a free sandbox. Start instantly: pip install hexstellar",
-    "stars": 1222,
-    "forks": 118,
-    "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-08-27T20:53:42Z",
-    "updated_at": "2026-09-15T05:56:08Z",
-    "owner": {
-      "name": "brayonpi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/100501194?v=4"
-    }
-  },
-  {
     "name": "2akouwu/reverify",
     "url": "https://github.com/2akouwu/reverify",
     "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-    "stars": 1202,
-    "forks": 235,
+    "stars": 1211,
+    "forks": 238,
     "language": "Python",
     "topics": [
       "ai",
@@ -796,7 +685,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-31T01:02:18Z",
-    "updated_at": "2026-09-15T00:40:14Z",
+    "updated_at": "2026-09-16T04:02:00Z",
     "owner": {
       "name": "2akouwu",
       "avatar_url": "https://avatars.githubusercontent.com/u/14812897?v=4"
@@ -825,6 +714,41 @@
     }
   },
   {
+    "name": "jtydhr88/screenwriting-skills",
+    "url": "https://github.com/jtydhr88/screenwriting-skills",
+    "description": "Professional agent skills for screenwriting, television writing and dramaturgy",
+    "stars": 1177,
+    "forks": 129,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "skills"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-06T12:28:23Z",
+    "updated_at": "2026-09-16T07:01:58Z",
+    "owner": {
+      "name": "jtydhr88",
+      "avatar_url": "https://avatars.githubusercontent.com/u/860985?v=4"
+    }
+  },
+  {
+    "name": "air-embodied-brain/Zetta-Embodiment",
+    "url": "https://github.com/air-embodied-brain/Zetta-Embodiment",
+    "description": "Zetta is an efficient closed-loop embodied harness for self-evolving physical intelligence. It evolves code-based runtime critics and recovery skills online while keeping the base policy frozen. Project Page: https://air-embodied-brain.github.io/zetta/",
+    "stars": 1176,
+    "forks": 79,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-08-18T03:05:09Z",
+    "updated_at": "2026-09-16T06:45:57Z",
+    "owner": {
+      "name": "air-embodied-brain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/249725137?v=4"
+    }
+  },
+  {
     "name": "damejan80/tokentab",
     "url": "https://github.com/damejan80/tokentab",
     "description": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
@@ -849,49 +773,11 @@
     }
   },
   {
-    "name": "crwdla/tokentab",
-    "url": "https://github.com/crwdla/tokentab",
-    "description": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
-    "stars": 1134,
-    "forks": 213,
-    "language": "Python",
-    "topics": [
-      "ai",
-      "ai-token-monitor",
-      "claude-code",
-      "token-optimization",
-      "token-usage"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-07T17:18:31Z",
-    "updated_at": "2026-09-15T00:04:28Z",
-    "owner": {
-      "name": "crwdla",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1875146?v=4"
-    }
-  },
-  {
-    "name": "air-embodied-brain/Zetta-Embodiment",
-    "url": "https://github.com/air-embodied-brain/Zetta-Embodiment",
-    "description": "Zetta is an efficient closed-loop embodied harness for self-evolving physical intelligence. It evolves code-based runtime critics and recovery skills online while keeping the base policy frozen. Project Page: https://air-embodied-brain.github.io/zetta/",
-    "stars": 1129,
-    "forks": 78,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-08-18T03:05:09Z",
-    "updated_at": "2026-09-15T06:48:58Z",
-    "owner": {
-      "name": "air-embodied-brain",
-      "avatar_url": "https://avatars.githubusercontent.com/u/249725137?v=4"
-    }
-  },
-  {
     "name": "ZJU-REAL/Easel",
     "url": "https://github.com/ZJU-REAL/Easel",
     "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-    "stars": 1110,
-    "forks": 157,
+    "stars": 1141,
+    "forks": 167,
     "language": "Python",
     "topics": [
       "agent",
@@ -906,61 +792,80 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-08-28T02:22:27Z",
-    "updated_at": "2026-09-15T06:52:01Z",
+    "updated_at": "2026-09-16T06:38:16Z",
     "owner": {
       "name": "ZJU-REAL",
       "avatar_url": "https://avatars.githubusercontent.com/u/203928864?v=4"
     }
   },
   {
+    "name": "crwdla/tokentab",
+    "url": "https://github.com/crwdla/tokentab",
+    "description": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
+    "stars": 1138,
+    "forks": 215,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-token-monitor",
+      "claude-code",
+      "token-optimization",
+      "token-usage"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-07T17:18:31Z",
+    "updated_at": "2026-09-16T00:30:35Z",
+    "owner": {
+      "name": "crwdla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1875146?v=4"
+    }
+  },
+  {
     "name": "jprx/darwin-vm",
     "url": "https://github.com/jprx/darwin-vm",
     "description": "Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported.",
-    "stars": 1110,
-    "forks": 91,
+    "stars": 1119,
+    "forks": 93,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-27T22:24:31Z",
-    "updated_at": "2026-09-15T06:21:25Z",
+    "updated_at": "2026-09-16T05:09:09Z",
     "owner": {
       "name": "jprx",
       "avatar_url": "https://avatars.githubusercontent.com/u/36464332?v=4"
     }
   },
   {
-    "name": "jtydhr88/screenwriting-skills",
-    "url": "https://github.com/jtydhr88/screenwriting-skills",
-    "description": "Professional agent skills for screenwriting, television writing and dramaturgy",
-    "stars": 1102,
-    "forks": 126,
-    "language": "Python",
-    "topics": [
-      "ai",
-      "skills"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-06T12:28:23Z",
-    "updated_at": "2026-09-15T06:55:36Z",
-    "owner": {
-      "name": "jtydhr88",
-      "avatar_url": "https://avatars.githubusercontent.com/u/860985?v=4"
-    }
-  },
-  {
     "name": "kajisho5/ffmpeg-skill",
     "url": "https://github.com/kajisho5/ffmpeg-skill",
     "description": null,
-    "stars": 1055,
+    "stars": 1070,
     "forks": 78,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-03T14:33:38Z",
-    "updated_at": "2026-09-15T06:51:15Z",
+    "updated_at": "2026-09-16T01:24:06Z",
     "owner": {
       "name": "kajisho5",
       "avatar_url": "https://avatars.githubusercontent.com/u/20648875?v=4"
+    }
+  },
+  {
+    "name": "ai-sucks-butt/ai-sucks-butt",
+    "url": "https://github.com/ai-sucks-butt/ai-sucks-butt",
+    "description": "If you think AI sucks, star the repo.",
+    "stars": 1033,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-14T04:02:58Z",
+    "updated_at": "2026-09-16T07:03:31Z",
+    "owner": {
+      "name": "ai-sucks-butt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/328935899?v=4"
     }
   },
   {
@@ -1003,7 +908,7 @@
     "url": "https://github.com/HanyuanWang/LiveStream-Agent-Studio",
     "description": "面向抖音直播电商的 Windows 本地 AI Agent Studio，贯通主播发现、直播洞察、直播复盘与短视频内容编导的统一智能工作流。",
     "stars": 1019,
-    "forks": 170,
+    "forks": 171,
     "language": "Python",
     "topics": [
       "ai-agent",
@@ -1013,10 +918,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-22T14:16:48Z",
-    "updated_at": "2026-09-13T06:22:50Z",
+    "updated_at": "2026-09-15T15:53:08Z",
     "owner": {
       "name": "HanyuanWang",
       "avatar_url": "https://avatars.githubusercontent.com/u/35429205?v=4"
+    }
+  },
+  {
+    "name": "siknet/FreePEP",
+    "url": "https://github.com/siknet/FreePEP",
+    "description": "人教社电子教材下载器 v1.2",
+    "stars": 1011,
+    "forks": 164,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-31T02:21:10Z",
+    "updated_at": "2026-09-16T06:43:13Z",
+    "owner": {
+      "name": "siknet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32444042?v=4"
     }
   },
   {
@@ -1039,22 +960,6 @@
     "owner": {
       "name": "cclank",
       "avatar_url": "https://avatars.githubusercontent.com/u/29557585?v=4"
-    }
-  },
-  {
-    "name": "siknet/FreePEP",
-    "url": "https://github.com/siknet/FreePEP",
-    "description": "人教社电子教材下载器 v1.2",
-    "stars": 1002,
-    "forks": 163,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-31T02:21:10Z",
-    "updated_at": "2026-09-15T04:45:09Z",
-    "owner": {
-      "name": "siknet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32444042?v=4"
     }
   },
   {
@@ -1166,31 +1071,6 @@
     }
   },
   {
-    "name": "alexgreensh/attention-span",
-    "url": "https://github.com/alexgreensh/attention-span",
-    "description": "Make your agents talk human. ADHD-friendly output styles for Claude Code, Codex, and others. So you can pay attention, not tokens.",
-    "stars": 895,
-    "forks": 26,
-    "language": "Python",
-    "topics": [
-      "adhd-friendly",
-      "ai-slop-reduction",
-      "anti-slop",
-      "claude-code",
-      "eli5",
-      "explainability",
-      "explainable-ai",
-      "output-style"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-08-04T23:20:01Z",
-    "updated_at": "2026-09-02T05:43:56Z",
-    "owner": {
-      "name": "alexgreensh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/210140430?v=4"
-    }
-  },
-  {
     "name": "tradecatlabs/shulihuazixuecongshu",
     "url": "https://github.com/tradecatlabs/shulihuazixuecongshu",
     "description": null,
@@ -1220,43 +1100,6 @@
     "owner": {
       "name": "x4gpanell",
       "avatar_url": "https://avatars.githubusercontent.com/u/317284177?v=4"
-    }
-  },
-  {
-    "name": "GangTailorUpgrade/CoomeRtool",
-    "url": "https://github.com/GangTailorUpgrade/CoomeRtool",
-    "description": "Coomer Tool",
-    "stars": 856,
-    "forks": 1,
-    "language": "Python",
-    "topics": [
-      "coomer",
-      "coomer-download",
-      "coomer-downloader",
-      "coomer-party",
-      "coomer-porn",
-      "coomer-st",
-      "coomer-su",
-      "kemomo",
-      "kemon-party",
-      "kemoni",
-      "kemono",
-      "kemono-downloader",
-      "kemono-oarty",
-      "kemono-party",
-      "kemono-porn",
-      "kemono-su",
-      "kemono-su-downloader",
-      "kemono-xxx",
-      "kemonoparty",
-      "kenmono"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-31T00:12:45Z",
-    "updated_at": "2026-09-02T06:42:51Z",
-    "owner": {
-      "name": "GangTailorUpgrade",
-      "avatar_url": "https://avatars.githubusercontent.com/u/270958586?v=4"
     }
   },
   {
