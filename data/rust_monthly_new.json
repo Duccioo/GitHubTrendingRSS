@@ -3,8 +3,8 @@
     "name": "crmne/spotifast",
     "url": "https://github.com/crmne/spotifast",
     "description": "Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
-    "stars": 4214,
-    "forks": 183,
+    "stars": 4299,
+    "forks": 189,
     "language": "Rust",
     "topics": [
       "audio",
@@ -26,7 +26,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-27T12:46:32Z",
-    "updated_at": "2026-09-16T06:58:51Z",
+    "updated_at": "2026-09-17T06:37:56Z",
     "owner": {
       "name": "crmne",
       "avatar_url": "https://avatars.githubusercontent.com/u/106617?v=4"
@@ -98,27 +98,11 @@
     }
   },
   {
-    "name": "tobi/walgit",
-    "url": "https://github.com/tobi/walgit",
-    "description": null,
-    "stars": 2512,
-    "forks": 148,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-23T22:28:01Z",
-    "updated_at": "2026-09-16T05:44:04Z",
-    "owner": {
-      "name": "tobi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/347?v=4"
-    }
-  },
-  {
     "name": "jub0t/Concat",
     "url": "https://github.com/jub0t/Concat",
     "description": "Open-Source CapCut replacement.",
-    "stars": 2227,
-    "forks": 197,
+    "stars": 2561,
+    "forks": 226,
     "language": "Rust",
     "topics": [
       "audio-processor",
@@ -143,10 +127,26 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-08-25T18:34:47Z",
-    "updated_at": "2026-09-16T07:04:19Z",
+    "updated_at": "2026-09-17T06:48:59Z",
     "owner": {
       "name": "jub0t",
       "avatar_url": "https://avatars.githubusercontent.com/u/57962439?v=4"
+    }
+  },
+  {
+    "name": "tobi/walgit",
+    "url": "https://github.com/tobi/walgit",
+    "description": null,
+    "stars": 2518,
+    "forks": 147,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-23T22:28:01Z",
+    "updated_at": "2026-09-16T15:46:19Z",
+    "owner": {
+      "name": "tobi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/347?v=4"
     }
   },
   {
@@ -204,6 +204,37 @@
     }
   },
   {
+    "name": "qingjian-team/qingjian",
+    "url": "https://github.com/qingjian-team/qingjian",
+    "description": "青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词",
+    "stars": 1285,
+    "forks": 113,
+    "language": "Rust",
+    "topics": [
+      "chinese",
+      "chinese-input-method",
+      "english-learning",
+      "ime",
+      "input-method",
+      "japanese-learning",
+      "language-learning",
+      "language-model",
+      "macos",
+      "offline",
+      "pinyin",
+      "rust",
+      "shuangpin",
+      "windows"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-09-07T08:25:30Z",
+    "updated_at": "2026-09-17T07:00:35Z",
+    "owner": {
+      "name": "qingjian-team",
+      "avatar_url": "https://avatars.githubusercontent.com/u/325692219?v=4"
+    }
+  },
+  {
     "name": "orbien-org/orbien",
     "url": "https://github.com/orbien-org/orbien",
     "description": "一个轻量高性能的内网穿透，二进制体积大约5MB ，支持 TCP、QUIC、KCP、WebSocket 传输协议，支持 TCP、UDP、HTTP、HTTPS、SOCKS5 协议代理，提供纯Rust原生跨平台桌面客户端和服务端 Web 界面",
@@ -238,47 +269,52 @@
     "name": "soirihiroka/shrimply",
     "url": "https://github.com/soirihiroka/shrimply",
     "description": "you're telling me a shrimp made this video?!",
-    "stars": 1075,
+    "stars": 1091,
     "forks": 58,
     "language": "Rust",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-08-26T01:55:08Z",
-    "updated_at": "2026-09-16T02:21:57Z",
+    "updated_at": "2026-09-17T06:50:28Z",
     "owner": {
       "name": "soirihiroka",
       "avatar_url": "https://avatars.githubusercontent.com/u/133444309?v=4"
     }
   },
   {
-    "name": "qingjian-team/qingjian",
-    "url": "https://github.com/qingjian-team/qingjian",
-    "description": "青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词",
-    "stars": 1037,
-    "forks": 91,
+    "name": "elliothux/open-compute",
+    "url": "https://github.com/elliothux/open-compute",
+    "description": "Self-hosted Cloudflare Workers-compatible platform with KV, D1, R2, Durable Objects, Queues, and Workflows in one Rust binary.",
+    "stars": 922,
+    "forks": 29,
     "language": "Rust",
     "topics": [
-      "chinese",
-      "chinese-input-method",
-      "english-learning",
-      "ime",
-      "input-method",
-      "japanese-learning",
-      "language-learning",
-      "language-model",
-      "macos",
-      "offline",
-      "pinyin",
+      "cloudflare",
+      "cloudflare-workers",
+      "container",
+      "d1",
+      "durable-objects",
+      "edge-computing",
+      "javascript",
+      "r2",
+      "runtime",
       "rust",
-      "shuangpin",
-      "windows"
+      "self-hosted",
+      "serverless",
+      "sqlite",
+      "typescript",
+      "v8",
+      "wasm",
+      "worker",
+      "workerd",
+      "wrangler"
     ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-09-07T08:25:30Z",
-    "updated_at": "2026-09-16T07:02:29Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-08-23T04:34:25Z",
+    "updated_at": "2026-09-17T06:46:30Z",
     "owner": {
-      "name": "qingjian-team",
-      "avatar_url": "https://avatars.githubusercontent.com/u/325692219?v=4"
+      "name": "elliothux",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23466520?v=4"
     }
   },
   {
@@ -314,42 +350,6 @@
     }
   },
   {
-    "name": "elliothux/open-compute",
-    "url": "https://github.com/elliothux/open-compute",
-    "description": "Self-hosted Cloudflare Workers-compatible platform with KV, D1, R2, Durable Objects, Queues, and Workflows in one Rust binary.",
-    "stars": 888,
-    "forks": 29,
-    "language": "Rust",
-    "topics": [
-      "cloudflare",
-      "cloudflare-workers",
-      "container",
-      "d1",
-      "durable-objects",
-      "edge-computing",
-      "javascript",
-      "r2",
-      "runtime",
-      "rust",
-      "self-hosted",
-      "serverless",
-      "sqlite",
-      "typescript",
-      "v8",
-      "wasm",
-      "worker",
-      "workerd",
-      "wrangler"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-23T04:34:25Z",
-    "updated_at": "2026-09-16T07:03:54Z",
-    "owner": {
-      "name": "elliothux",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23466520?v=4"
-    }
-  },
-  {
     "name": "furkankly/zoetrope",
     "url": "https://github.com/furkankly/zoetrope",
     "description": "Watch a Claude Code or Codex session as a live flow graph, in your terminal or your browser.",
@@ -381,13 +381,13 @@
     "name": "faisalkindi/DLSS5oneclick",
     "url": "https://github.com/faisalkindi/DLSS5oneclick",
     "description": "One-click setup of the leaked DLSS 5 neural-rendering build for any DX11/DX12 game on RTX 20–50, with or without DLSS. ReShade + RenoDX add-on (or OptiScaler engine); DLSS5-Feeder + LumeniteFX for games without DLSS; dlss5-bridge for DX11. Rust, single exe.",
-    "stars": 828,
-    "forks": 61,
+    "stars": 842,
+    "forks": 62,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-31T02:12:29Z",
-    "updated_at": "2026-09-16T07:00:20Z",
+    "updated_at": "2026-09-17T03:13:32Z",
     "owner": {
       "name": "faisalkindi",
       "avatar_url": "https://avatars.githubusercontent.com/u/246171974?v=4"
@@ -424,8 +424,8 @@
     "name": "flectar/mail",
     "url": "https://github.com/flectar/mail",
     "description": "Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 20 MB of RAM.",
-    "stars": 725,
-    "forks": 41,
+    "stars": 769,
+    "forks": 44,
     "language": "Rust",
     "topics": [
       "android",
@@ -451,7 +451,7 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-09-03T00:12:32Z",
-    "updated_at": "2026-09-16T06:41:23Z",
+    "updated_at": "2026-09-17T06:49:03Z",
     "owner": {
       "name": "flectar",
       "avatar_url": "https://avatars.githubusercontent.com/u/92962995?v=4"
@@ -461,13 +461,13 @@
     "name": "inclusionAI/Choruz",
     "url": "https://github.com/inclusionAI/Choruz",
     "description": null,
-    "stars": 717,
+    "stars": 728,
     "forks": 9,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-09-02T06:46:09Z",
-    "updated_at": "2026-09-16T05:11:54Z",
+    "updated_at": "2026-09-17T04:58:11Z",
     "owner": {
       "name": "inclusionAI",
       "avatar_url": "https://avatars.githubusercontent.com/u/199075982?v=4"
@@ -477,13 +477,13 @@
     "name": "agentverse-os/AgentVerse-OS",
     "url": "https://github.com/agentverse-os/AgentVerse-OS",
     "description": "Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser: a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only via Tailscale, nothing exposed to the internet. Rust core, Svelte UI.",
-    "stars": 620,
+    "stars": 698,
     "forks": 19,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-09-12T18:20:00Z",
-    "updated_at": "2026-09-16T06:38:19Z",
+    "updated_at": "2026-09-17T07:00:03Z",
     "owner": {
       "name": "agentverse-os",
       "avatar_url": "https://avatars.githubusercontent.com/u/328451092?v=4"
@@ -535,8 +535,8 @@
     "name": "lgse/strata",
     "url": "https://github.com/lgse/strata",
     "description": "A fast, keyboard-first file manager for Linux",
-    "stars": 440,
-    "forks": 45,
+    "stars": 452,
+    "forks": 47,
     "language": "Rust",
     "topics": [
       "file-manager",
@@ -548,7 +548,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-28T22:41:07Z",
-    "updated_at": "2026-09-16T05:20:09Z",
+    "updated_at": "2026-09-17T06:54:04Z",
     "owner": {
       "name": "lgse",
       "avatar_url": "https://avatars.githubusercontent.com/u/17118095?v=4"
@@ -558,16 +558,32 @@
     "name": "egoist/quickgui",
     "url": "https://github.com/egoist/quickgui",
     "description": "An experimental GPU-rendered GUI framework, no webview.",
-    "stars": 428,
-    "forks": 10,
+    "stars": 433,
+    "forks": 11,
     "language": "Rust",
     "topics": [],
     "license": "Other",
     "created_at": "2026-08-24T07:04:59Z",
-    "updated_at": "2026-09-16T04:09:24Z",
+    "updated_at": "2026-09-17T02:40:46Z",
     "owner": {
       "name": "egoist",
       "avatar_url": "https://avatars.githubusercontent.com/u/8784712?v=4"
+    }
+  },
+  {
+    "name": "ViceVerse-cz/Serein",
+    "url": "https://github.com/ViceVerse-cz/Serein",
+    "description": "Tiny, Performant & 100% Native client for Discord made in Rust",
+    "stars": 419,
+    "forks": 10,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-09T20:42:14Z",
+    "updated_at": "2026-09-17T06:53:20Z",
+    "owner": {
+      "name": "ViceVerse-cz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106090820?v=4"
     }
   },
   {
@@ -676,32 +692,16 @@
     "name": "mizorewww/course2md",
     "url": "https://github.com/mizorewww/course2md",
     "description": "Turn YouTube, Bilibili, or local course/meeting recordings into slide-illustrated Markdown and HTML lecture notes.",
-    "stars": 371,
+    "stars": 370,
     "forks": 16,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-31T01:56:25Z",
-    "updated_at": "2026-09-15T16:36:07Z",
+    "updated_at": "2026-09-17T04:06:30Z",
     "owner": {
       "name": "mizorewww",
       "avatar_url": "https://avatars.githubusercontent.com/u/252857002?v=4"
-    }
-  },
-  {
-    "name": "ViceVerse-cz/Serein",
-    "url": "https://github.com/ViceVerse-cz/Serein",
-    "description": "Tiny, Performant & 100% Native client for Discord made in Rust",
-    "stars": 369,
-    "forks": 9,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-09T20:42:14Z",
-    "updated_at": "2026-09-16T06:47:10Z",
-    "owner": {
-      "name": "ViceVerse-cz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/106090820?v=4"
     }
   },
   {
@@ -718,6 +718,22 @@
     "owner": {
       "name": "JohnKinyanjui",
       "avatar_url": "https://avatars.githubusercontent.com/u/52638680?v=4"
+    }
+  },
+  {
+    "name": "deepseek-ai/deepseek-recipe",
+    "url": "https://github.com/deepseek-ai/deepseek-recipe",
+    "description": null,
+    "stars": 339,
+    "forks": 28,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-10T05:36:48Z",
+    "updated_at": "2026-09-17T01:40:45Z",
+    "owner": {
+      "name": "deepseek-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148330874?v=4"
     }
   },
   {
@@ -741,22 +757,6 @@
     "owner": {
       "name": "PicoMQ",
       "avatar_url": "https://avatars.githubusercontent.com/u/299949434?v=4"
-    }
-  },
-  {
-    "name": "deepseek-ai/deepseek-recipe",
-    "url": "https://github.com/deepseek-ai/deepseek-recipe",
-    "description": null,
-    "stars": 335,
-    "forks": 26,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-10T05:36:48Z",
-    "updated_at": "2026-09-15T17:54:15Z",
-    "owner": {
-      "name": "deepseek-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/148330874?v=4"
     }
   },
   {
@@ -787,8 +787,8 @@
     "name": "naw103/foremerge",
     "url": "https://github.com/naw103/foremerge",
     "description": "Catch intent conflicts before code conflicts. The open-source coordination protocol for coding agents, built above Git.",
-    "stars": 301,
-    "forks": 5,
+    "stars": 304,
+    "forks": 18,
     "language": "Rust",
     "topics": [
       "ai-agents",
@@ -804,10 +804,53 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-08-21T17:52:45Z",
-    "updated_at": "2026-09-16T05:28:34Z",
+    "updated_at": "2026-09-17T00:02:05Z",
     "owner": {
       "name": "naw103",
       "avatar_url": "https://avatars.githubusercontent.com/u/8785469?v=4"
+    }
+  },
+  {
+    "name": "crmne/zapfast",
+    "url": "https://github.com/crmne/zapfast",
+    "description": "ZapFast: a fast, native WhatsApp client in Rust and egui",
+    "stars": 298,
+    "forks": 34,
+    "language": "Rust",
+    "topics": [
+      "chat",
+      "desktop-app",
+      "egui",
+      "linux",
+      "macos",
+      "messaging",
+      "rust",
+      "whatsapp",
+      "whatsapp-client",
+      "windows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-29T15:52:40Z",
+    "updated_at": "2026-09-17T07:00:12Z",
+    "owner": {
+      "name": "crmne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106617?v=4"
+    }
+  },
+  {
+    "name": "what1f/kitter",
+    "url": "https://github.com/what1f/kitter",
+    "description": "A simple, lightweight Skill manager built in Rust. One library, just the Skills each project needs.",
+    "stars": 293,
+    "forks": 22,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-02T15:44:45Z",
+    "updated_at": "2026-09-17T05:46:21Z",
+    "owner": {
+      "name": "what1f",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61998747?v=4"
     }
   },
   {
@@ -842,22 +885,6 @@
     }
   },
   {
-    "name": "what1f/kitter",
-    "url": "https://github.com/what1f/kitter",
-    "description": "A simple, lightweight Skill manager built in Rust. One library, just the Skills each project needs.",
-    "stars": 290,
-    "forks": 22,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-02T15:44:45Z",
-    "updated_at": "2026-09-16T05:17:03Z",
-    "owner": {
-      "name": "what1f",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61998747?v=4"
-    }
-  },
-  {
     "name": "changexbc/workbuddy-switch",
     "url": "https://github.com/changexbc/workbuddy-switch",
     "description": "WorkBuddy / CodeBuddy CLI 账号切换桌面 App（Tauri），支持积分到期监控与签到。",
@@ -877,6 +904,31 @@
     "owner": {
       "name": "changexbc",
       "avatar_url": "https://avatars.githubusercontent.com/u/8199684?v=4"
+    }
+  },
+  {
+    "name": "romancitodev/cargo-pretty",
+    "url": "https://github.com/romancitodev/cargo-pretty",
+    "description": "A cargo build wrapper with a live, animated status view",
+    "stars": 282,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "cargo",
+      "cargo-subcommand",
+      "rust",
+      "rust-cli",
+      "rust-community",
+      "rust-crate",
+      "rust-lang",
+      "rust-library"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-07T17:20:40Z",
+    "updated_at": "2026-09-17T06:36:35Z",
+    "owner": {
+      "name": "romancitodev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84428770?v=4"
     }
   },
   {
@@ -902,28 +954,33 @@
     }
   },
   {
-    "name": "romancitodev/cargo-pretty",
-    "url": "https://github.com/romancitodev/cargo-pretty",
-    "description": "A cargo build wrapper with a live, animated status view",
-    "stars": 274,
-    "forks": 1,
+    "name": "rust-alert/ra2.exe",
+    "url": "https://github.com/rust-alert/ra2.exe",
+    "description": "使用 Rust 对《红色警戒 2》进行了现代化重写，现已支持高分辨率，窗口化，跨平台等特性，且额外支持《尤里的复仇》、《心灵终结》等 DLC。",
+    "stars": 270,
+    "forks": 11,
     "language": "Rust",
     "topics": [
-      "cargo",
-      "cargo-subcommand",
-      "rust",
-      "rust-cli",
-      "rust-community",
-      "rust-crate",
-      "rust-lang",
-      "rust-library"
+      "ai-arena",
+      "ai-vs-ai",
+      "command-and-conquer",
+      "game-ai",
+      "mental-omega",
+      "multiplayer-game",
+      "ra2",
+      "real-time-strategy",
+      "red-alert",
+      "red-alert-2",
+      "rts",
+      "strategy-game",
+      "yuris-revenge"
     ],
-    "license": "MIT License",
-    "created_at": "2026-09-07T17:20:40Z",
-    "updated_at": "2026-09-15T08:37:48Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-06T18:18:02Z",
+    "updated_at": "2026-09-17T07:00:36Z",
     "owner": {
-      "name": "romancitodev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/84428770?v=4"
+      "name": "rust-alert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/208321371?v=4"
     }
   },
   {
@@ -954,40 +1011,10 @@
     }
   },
   {
-    "name": "rust-alert/ra2.exe",
-    "url": "https://github.com/rust-alert/ra2.exe",
-    "description": "使用 Rust 对《红色警戒 2》进行了现代化重写，现已支持高分辨率，窗口化，跨平台等特性，且额外支持《尤里的复仇》、《心灵终结》等 DLC。",
-    "stars": 263,
-    "forks": 11,
-    "language": "Rust",
-    "topics": [
-      "ai-arena",
-      "ai-vs-ai",
-      "command-and-conquer",
-      "game-ai",
-      "mental-omega",
-      "multiplayer-game",
-      "ra2",
-      "real-time-strategy",
-      "red-alert",
-      "red-alert-2",
-      "rts",
-      "strategy-game",
-      "yuris-revenge"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-06T18:18:02Z",
-    "updated_at": "2026-09-16T02:37:35Z",
-    "owner": {
-      "name": "rust-alert",
-      "avatar_url": "https://avatars.githubusercontent.com/u/208321371?v=4"
-    }
-  },
-  {
     "name": "pgrundev/pgterm",
     "url": "https://github.com/pgrundev/pgterm",
     "description": "Modern Postgres Terminal",
-    "stars": 259,
+    "stars": 262,
     "forks": 13,
     "language": "Rust",
     "topics": [
@@ -999,7 +1026,7 @@
     ],
     "license": "Other",
     "created_at": "2026-08-27T15:48:53Z",
-    "updated_at": "2026-09-16T05:24:02Z",
+    "updated_at": "2026-09-17T01:10:19Z",
     "owner": {
       "name": "pgrundev",
       "avatar_url": "https://avatars.githubusercontent.com/u/300654937?v=4"
@@ -1075,7 +1102,7 @@
     "name": "yoli-mi/quickscan",
     "url": "https://github.com/yoli-mi/quickscan",
     "description": "轻量截屏扫码工具 · Lightweight screen-capture QR scanner (Tauri 2, ~1.3MB installer)",
-    "stars": 230,
+    "stars": 231,
     "forks": 13,
     "language": "Rust",
     "topics": [
@@ -1097,7 +1124,7 @@
     ],
     "license": "No license",
     "created_at": "2026-08-26T11:57:29Z",
-    "updated_at": "2026-09-16T01:26:55Z",
+    "updated_at": "2026-09-16T21:22:14Z",
     "owner": {
       "name": "yoli-mi",
       "avatar_url": "https://avatars.githubusercontent.com/u/282740102?v=4"
@@ -1107,7 +1134,7 @@
     "name": "richiemcilroy/chippytea",
     "url": "https://github.com/richiemcilroy/chippytea",
     "description": "A native Mac app for making space and earning your tea. SwiftUI + Rust.",
-    "stars": 223,
+    "stars": 222,
     "forks": 8,
     "language": "Rust",
     "topics": [
@@ -1119,7 +1146,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-31T11:06:58Z",
-    "updated_at": "2026-09-16T06:07:26Z",
+    "updated_at": "2026-09-17T00:43:51Z",
     "owner": {
       "name": "richiemcilroy",
       "avatar_url": "https://avatars.githubusercontent.com/u/33632126?v=4"
@@ -1158,6 +1185,24 @@
     }
   },
   {
+    "name": "denialwm/droidloom",
+    "url": "https://github.com/denialwm/droidloom",
+    "description": "Droidloom - weaving Android into Linux. Run Android Apps inside your Wayland session! Supports arm64 and x86_64 platforms, running arm64-only apps on x86_64 without closed source libraries.",
+    "stars": 215,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [
+      "android"
+    ],
+    "license": "Other",
+    "created_at": "2026-09-06T18:48:29Z",
+    "updated_at": "2026-09-17T06:48:38Z",
+    "owner": {
+      "name": "denialwm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/309062290?v=4"
+    }
+  },
+  {
     "name": "realfakenerd/OpenSkyrim",
     "url": "https://github.com/realfakenerd/OpenSkyrim",
     "description": "Skyrim made with Bevy",
@@ -1180,24 +1225,6 @@
     }
   },
   {
-    "name": "denialwm/droidloom",
-    "url": "https://github.com/denialwm/droidloom",
-    "description": "Droidloom - weaving Android into Linux. Run Android Apps inside your Wayland session! Supports arm64 and x86_64 platforms, running arm64-only apps on x86_64 without closed source libraries.",
-    "stars": 204,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [
-      "android"
-    ],
-    "license": "Other",
-    "created_at": "2026-09-06T18:48:29Z",
-    "updated_at": "2026-09-16T04:29:43Z",
-    "owner": {
-      "name": "denialwm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/309062290?v=4"
-    }
-  },
-  {
     "name": "ctliz/TmuxDeck",
     "url": "https://github.com/ctliz/TmuxDeck",
     "description": null,
@@ -1217,16 +1244,32 @@
     "name": "pjpv/zcode-switch",
     "url": "https://github.com/pjpv/zcode-switch",
     "description": "One-click switcher for multiple ZCode accounts · 多账号一键切换，额度展示 / 活动领取 / 加密导出",
-    "stars": 195,
+    "stars": 200,
     "forks": 28,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-29T07:40:47Z",
-    "updated_at": "2026-09-16T02:22:56Z",
+    "updated_at": "2026-09-17T05:41:15Z",
     "owner": {
       "name": "pjpv",
       "avatar_url": "https://avatars.githubusercontent.com/u/24811463?v=4"
+    }
+  },
+  {
+    "name": "jdx/mr-boxington",
+    "url": "https://github.com/jdx/mr-boxington",
+    "description": null,
+    "stars": 182,
+    "forks": 7,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-08-20T13:18:02Z",
+    "updated_at": "2026-09-17T04:46:08Z",
+    "owner": {
+      "name": "jdx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/216188?v=4"
     }
   },
   {
@@ -1262,22 +1305,6 @@
     }
   },
   {
-    "name": "jdx/mr-boxington",
-    "url": "https://github.com/jdx/mr-boxington",
-    "description": null,
-    "stars": 174,
-    "forks": 7,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-20T13:18:02Z",
-    "updated_at": "2026-09-15T21:41:55Z",
-    "owner": {
-      "name": "jdx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/216188?v=4"
-    }
-  },
-  {
     "name": "WhiteDNS/WhiteAestherMobile",
     "url": "https://github.com/WhiteDNS/WhiteAestherMobile",
     "description": "Native Android client for the Aether encrypted route engine",
@@ -1291,6 +1318,29 @@
     "owner": {
       "name": "WhiteDNS",
       "avatar_url": "https://avatars.githubusercontent.com/u/294980615?v=4"
+    }
+  },
+  {
+    "name": "dragthelake/ambient-context",
+    "url": "https://github.com/dragthelake/ambient-context",
+    "description": "A menu bar app that keeps a written record of what you worked on.",
+    "stars": 171,
+    "forks": 9,
+    "language": "Rust",
+    "topics": [
+      "ai-agents",
+      "ambient",
+      "claude-code",
+      "codex",
+      "context",
+      "mcp-tools"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-08-25T00:33:03Z",
+    "updated_at": "2026-09-16T11:30:52Z",
+    "owner": {
+      "name": "dragthelake",
+      "avatar_url": "https://avatars.githubusercontent.com/u/665108?v=4"
     }
   }
 ]
