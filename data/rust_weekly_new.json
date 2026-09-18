@@ -3,13 +3,13 @@
     "name": "agentverse-os/AgentVerse-OS",
     "url": "https://github.com/agentverse-os/AgentVerse-OS",
     "description": "Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser: a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only via Tailscale, nothing exposed to the internet. Rust core, Svelte UI.",
-    "stars": 698,
-    "forks": 19,
+    "stars": 760,
+    "forks": 23,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-09-12T18:20:00Z",
-    "updated_at": "2026-09-17T07:00:03Z",
+    "updated_at": "2026-09-18T06:52:36Z",
     "owner": {
       "name": "agentverse-os",
       "avatar_url": "https://avatars.githubusercontent.com/u/328451092?v=4"
@@ -322,13 +322,13 @@
     "name": "Abomination81/copybot",
     "url": "https://github.com/Abomination81/copybot",
     "description": "Abomination81 Copybot — self-hosted Polymarket copy-trading execution engine.",
-    "stars": 104,
+    "stars": 105,
     "forks": 56,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2026-09-12T06:30:47Z",
-    "updated_at": "2026-09-17T00:01:41Z",
+    "updated_at": "2026-09-18T03:13:29Z",
     "owner": {
       "name": "Abomination81",
       "avatar_url": "https://avatars.githubusercontent.com/u/275886436?v=4"
@@ -394,40 +394,35 @@
     }
   },
   {
-    "name": "OthmaneBlial/MobaRust",
-    "url": "https://github.com/OthmaneBlial/MobaRust",
-    "description": "Free, open-source MobaXterm alternative built with Rust: SSH, SFTP, SCP, terminals, tunnels, serial, Telnet, diagnostics, and remote administration.",
-    "stars": 92,
-    "forks": 7,
+    "name": "dmtrKovalenko/bashka",
+    "url": "https://github.com/dmtrKovalenko/bashka",
+    "description": "Stop running unverified bash scripts to install software! curl <url> | bashKA for static verification of bash script safty and managing installed software",
+    "stars": 96,
+    "forks": 3,
     "language": "Rust",
-    "topics": [
-      "devops",
-      "free-software",
-      "mobaxterm",
-      "mobaxterm-alternative",
-      "open-source",
-      "open-source-alternative",
-      "remote-access",
-      "remote-desktop",
-      "remote-workstation",
-      "rust",
-      "scp",
-      "sftp",
-      "sftp-client",
-      "ssh",
-      "ssh-client",
-      "ssh-tunneling",
-      "sysadmin",
-      "tauri",
-      "terminal",
-      "terminal-emulator"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-29T18:43:07Z",
-    "updated_at": "2026-09-04T06:43:47Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-15T21:31:30Z",
+    "updated_at": "2026-09-18T05:52:06Z",
     "owner": {
-      "name": "OthmaneBlial",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26414042?v=4"
+      "name": "dmtrKovalenko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16926049?v=4"
+    }
+  },
+  {
+    "name": "planetscale/lead",
+    "url": "https://github.com/planetscale/lead",
+    "description": "A non-production Postgres text-search extension for exercising TIN-compatible application SQL in development, test, CI, and staging environments",
+    "stars": 94,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-09-17T14:29:30Z",
+    "updated_at": "2026-09-18T06:30:56Z",
+    "owner": {
+      "name": "planetscale",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35612527?v=4"
     }
   },
   {
@@ -486,6 +481,22 @@
     }
   },
   {
+    "name": "XiaoQAQ10086/FrameGen-Manager",
+    "url": "https://github.com/XiaoQAQ10086/FrameGen-Manager",
+    "description": "一键为 RTX 20和30 系显卡部署 DLSS 帧生成工具，支持扫描游戏库和自动更新。One-click DLSS Frame Generation deployer for RTX 20/30 series.",
+    "stars": 80,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-13T04:01:52Z",
+    "updated_at": "2026-09-18T06:04:12Z",
+    "owner": {
+      "name": "XiaoQAQ10086",
+      "avatar_url": "https://avatars.githubusercontent.com/u/225637009?v=4"
+    }
+  },
+  {
     "name": "suversal/apple-store-inventory-monitor",
     "url": "https://github.com/suversal/apple-store-inventory-monitor",
     "description": "Apple 直营店取货库存监控，支持多门店、多型号、提示音、Bark 推送及自动打开购物袋。支持 macOS、Windows 和 Linux。",
@@ -508,38 +519,6 @@
     "owner": {
       "name": "suversal",
       "avatar_url": "https://avatars.githubusercontent.com/u/29352759?v=4"
-    }
-  },
-  {
-    "name": "artemtsitronov/glacex",
-    "url": "https://github.com/artemtsitronov/glacex",
-    "description": "GPU-Rendered UI library built from scratch in Rust [WIP]",
-    "stars": 75,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-29T08:08:00Z",
-    "updated_at": "2026-09-04T03:29:49Z",
-    "owner": {
-      "name": "artemtsitronov",
-      "avatar_url": "https://avatars.githubusercontent.com/u/220678884?v=4"
-    }
-  },
-  {
-    "name": "pjpv/zcode-switch",
-    "url": "https://github.com/pjpv/zcode-switch",
-    "description": "One-click switcher for multiple ZCode accounts · 多账号一键切换，额度展示 / 活动领取 / 加密导出",
-    "stars": 74,
-    "forks": 17,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-29T07:40:47Z",
-    "updated_at": "2026-09-04T03:29:20Z",
-    "owner": {
-      "name": "pjpv",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24811463?v=4"
     }
   },
   {
@@ -570,6 +549,22 @@
     }
   },
   {
+    "name": "raemote/raemote_server",
+    "url": "https://github.com/raemote/raemote_server",
+    "description": "Your self-hosted apps served through an end-to-end excerypted, private way.",
+    "stars": 70,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-09-14T06:28:00Z",
+    "updated_at": "2026-09-17T12:51:44Z",
+    "owner": {
+      "name": "raemote",
+      "avatar_url": "https://avatars.githubusercontent.com/u/328974495?v=4"
+    }
+  },
+  {
     "name": "Dr-TSNG/altdb",
     "url": "https://github.com/Dr-TSNG/altdb",
     "description": "A KernelSU module that provides alternative adb server over local network",
@@ -589,38 +584,6 @@
     }
   },
   {
-    "name": "dmtrKovalenko/bashka",
-    "url": "https://github.com/dmtrKovalenko/bashka",
-    "description": "Stop running unverified bash scripts to install software! curl <url> | bashKA for static verification of bash script safty and managing installed software",
-    "stars": 65,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-15T21:31:30Z",
-    "updated_at": "2026-09-17T07:00:22Z",
-    "owner": {
-      "name": "dmtrKovalenko",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16926049?v=4"
-    }
-  },
-  {
-    "name": "XiaoQAQ10086/FrameGen-Manager",
-    "url": "https://github.com/XiaoQAQ10086/FrameGen-Manager",
-    "description": "一键为 RTX 20和30 系显卡部署 DLSS 帧生成工具，支持扫描游戏库和自动更新。One-click DLSS Frame Generation deployer for RTX 20/30 series.",
-    "stars": 63,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-13T04:01:52Z",
-    "updated_at": "2026-09-17T06:59:43Z",
-    "owner": {
-      "name": "XiaoQAQ10086",
-      "avatar_url": "https://avatars.githubusercontent.com/u/225637009?v=4"
-    }
-  },
-  {
     "name": "wesleygrimes/omastorm",
     "url": "https://github.com/wesleygrimes/omastorm",
     "description": "An Omarchy-native NEXRAD radar viewer built with Rust and Quickshell.",
@@ -634,6 +597,30 @@
     "owner": {
       "name": "wesleygrimes",
       "avatar_url": "https://avatars.githubusercontent.com/u/324308?v=4"
+    }
+  },
+  {
+    "name": "flash-tex/flashtex",
+    "url": "https://github.com/flash-tex/flashtex",
+    "description": "Blazing ⚡️ fast (La)TeX compiler + IDE written in Rust (HackCMU 2026 Winner)",
+    "stars": 61,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [
+      "cmu",
+      "compiler",
+      "ide",
+      "latex",
+      "rust",
+      "swift",
+      "tex"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-12T01:40:07Z",
+    "updated_at": "2026-09-18T04:49:01Z",
+    "owner": {
+      "name": "flash-tex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/328195949?v=4"
     }
   },
   {
@@ -675,27 +662,19 @@
     }
   },
   {
-    "name": "flash-tex/flashtex",
-    "url": "https://github.com/flash-tex/flashtex",
-    "description": "Blazing ⚡️ fast (La)TeX compiler + IDE written in Rust (HackCMU 2026 Winner)",
-    "stars": 56,
-    "forks": 3,
+    "name": "programmersd21/mew",
+    "url": "https://github.com/programmersd21/mew",
+    "description": "fast, zero-daemon terminal companion and git workspace dashboard",
+    "stars": 53,
+    "forks": 2,
     "language": "Rust",
-    "topics": [
-      "cmu",
-      "compiler",
-      "ide",
-      "latex",
-      "rust",
-      "swift",
-      "tex"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-09-12T01:40:07Z",
-    "updated_at": "2026-09-17T02:56:04Z",
+    "created_at": "2026-09-14T10:52:42Z",
+    "updated_at": "2026-09-18T02:45:34Z",
     "owner": {
-      "name": "flash-tex",
-      "avatar_url": "https://avatars.githubusercontent.com/u/328195949?v=4"
+      "name": "programmersd21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/192335465?v=4"
     }
   },
   {
@@ -732,27 +711,11 @@
     }
   },
   {
-    "name": "gonzalezerik/topowall",
-    "url": "https://github.com/gonzalezerik/topowall",
-    "description": "Topographic contour wallpapers from real elevation data, rendered on the GPU",
-    "stars": 51,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-13T12:12:32Z",
-    "updated_at": "2026-09-15T06:28:31Z",
-    "owner": {
-      "name": "gonzalezerik",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60283763?v=4"
-    }
-  },
-  {
     "name": "jaywcjlove/awesome-rust-apps",
     "url": "https://github.com/jaywcjlove/awesome-rust-apps",
     "description": "A curated list of applications built with Rust",
-    "stars": 49,
-    "forks": 3,
+    "stars": 51,
+    "forks": 4,
     "language": "Rust",
     "topics": [
       "apps",
@@ -772,10 +735,26 @@
     ],
     "license": "Creative Commons Zero v1.0 Universal",
     "created_at": "2026-09-15T06:43:42Z",
-    "updated_at": "2026-09-17T03:25:25Z",
+    "updated_at": "2026-09-17T21:33:52Z",
     "owner": {
       "name": "jaywcjlove",
       "avatar_url": "https://avatars.githubusercontent.com/u/1680273?v=4"
+    }
+  },
+  {
+    "name": "gonzalezerik/topowall",
+    "url": "https://github.com/gonzalezerik/topowall",
+    "description": "Topographic contour wallpapers from real elevation data, rendered on the GPU",
+    "stars": 51,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-13T12:12:32Z",
+    "updated_at": "2026-09-15T06:28:31Z",
+    "owner": {
+      "name": "gonzalezerik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60283763?v=4"
     }
   },
   {
@@ -898,22 +877,6 @@
     }
   },
   {
-    "name": "programmersd21/mew",
-    "url": "https://github.com/programmersd21/mew",
-    "description": "fast, zero-daemon terminal companion and git workspace dashboard",
-    "stars": 38,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-14T10:52:42Z",
-    "updated_at": "2026-09-15T07:01:33Z",
-    "owner": {
-      "name": "programmersd21",
-      "avatar_url": "https://avatars.githubusercontent.com/u/192335465?v=4"
-    }
-  },
-  {
     "name": "standardagents/t1bridge",
     "url": "https://github.com/standardagents/t1bridge",
     "description": "Linux support for Apple T1 hardware",
@@ -946,27 +909,31 @@
     }
   },
   {
-    "name": "devnoname120/codexify",
-    "url": "https://github.com/devnoname120/codexify",
-    "description": "Bring Codex inside ChatGPT for unlimited vibecoding —  no Codex quota used!",
-    "stars": 37,
-    "forks": 1,
+    "name": "Dicklesworthstone/skillranker",
+    "url": "https://github.com/Dicklesworthstone/skillranker",
+    "description": "Rust CLI powered by Jev from TypeSafe.ai that ranks agent skills for the next step using live session context. Includes Claude Code hooks, structured JSON, abstention, and local feedback. Requires a TypeSafe API key.",
+    "stars": 36,
+    "forks": 3,
     "language": "Rust",
     "topics": [
-      "chatgpt",
-      "codex",
-      "codex-free",
-      "codexify",
-      "codexpro",
-      "connector",
-      "mcp"
+      "agent-skills",
+      "ai-agents",
+      "asupersync",
+      "claude-code",
+      "cli",
+      "developer-tools",
+      "frankentui",
+      "jev",
+      "rust",
+      "skill-selection",
+      "typesafe-ai"
     ],
-    "license": "MIT License",
-    "created_at": "2026-08-29T07:52:26Z",
-    "updated_at": "2026-09-03T21:04:51Z",
+    "license": "Other",
+    "created_at": "2026-09-17T06:58:19Z",
+    "updated_at": "2026-09-18T06:54:38Z",
     "owner": {
-      "name": "devnoname120",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2824100?v=4"
+      "name": "Dicklesworthstone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4"
     }
   },
   {
@@ -1030,6 +997,22 @@
     "owner": {
       "name": "prime-zt",
       "avatar_url": "https://avatars.githubusercontent.com/u/322723664?v=4"
+    }
+  },
+  {
+    "name": "rambocode/glimmer",
+    "url": "https://github.com/rambocode/glimmer",
+    "description": "微明 Glimmer：用 Rust 写的跨平台输入法，派生自青简 Qingjian（GPL-3.0-or-later）",
+    "stars": 33,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-09-15T13:43:26Z",
+    "updated_at": "2026-09-18T05:28:17Z",
+    "owner": {
+      "name": "rambocode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14227199?v=4"
     }
   },
   {
@@ -1264,6 +1247,22 @@
     }
   },
   {
+    "name": "teddytennant/prometheus",
+    "url": "https://github.com/teddytennant/prometheus",
+    "description": "Full script for training a frontier model on 220k GB200s. \"Prometheus stole fire from the gods and gave it to man.\"",
+    "stars": 28,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-15T23:59:16Z",
+    "updated_at": "2026-09-18T06:50:42Z",
+    "owner": {
+      "name": "teddytennant",
+      "avatar_url": "https://avatars.githubusercontent.com/u/192647641?v=4"
+    }
+  },
+  {
     "name": "ustoppble/openjarvisbr",
     "url": "https://github.com/ustoppble/openjarvisbr",
     "description": "OpenJarvisBR — assistente de voz open source em Rust com Gemini Live",
@@ -1423,7 +1422,7 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-13T19:44:23Z",
-    "updated_at": "2026-09-17T02:10:20Z",
+    "updated_at": "2026-09-18T02:02:11Z",
     "owner": {
       "name": "bookamp",
       "avatar_url": "https://avatars.githubusercontent.com/u/1390257?v=4"
@@ -1443,30 +1442,6 @@
     "owner": {
       "name": "akitaonrails",
       "avatar_url": "https://avatars.githubusercontent.com/u/2840?v=4"
-    }
-  },
-  {
-    "name": "Dicklesworthstone/franken_drone_geometry_reconstruction",
-    "url": "https://github.com/Dicklesworthstone/franken_drone_geometry_reconstruction",
-    "description": "Agent-native, evidence-grade operating substrate for turning owner-authorized drone video into metrically honest semantic digital twins",
-    "stars": 25,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "3d-reconstruction",
-      "computer-vision",
-      "digital-twin",
-      "drone",
-      "photogrammetry",
-      "rust",
-      "spatial-computing"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-31T20:07:48Z",
-    "updated_at": "2026-09-04T05:52:45Z",
-    "owner": {
-      "name": "Dicklesworthstone",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4"
     }
   },
   {
@@ -1618,6 +1593,40 @@
     }
   },
   {
+    "name": "vladtrc/iw4L",
+    "url": "https://github.com/vladtrc/iw4L",
+    "description": "Standalone experimental Call of Duty runtime in Rust, built on bevy and wgpu",
+    "stars": 22,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-13T11:54:59Z",
+    "updated_at": "2026-09-18T03:33:32Z",
+    "owner": {
+      "name": "vladtrc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25867395?v=4"
+    }
+  },
+  {
+    "name": "eliasstravik/herdr-agent-progress",
+    "url": "https://github.com/eliasstravik/herdr-agent-progress",
+    "description": "Agent-reported task progress and activity for the Herdr sidebar",
+    "stars": 22,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "herdr-plugin"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-15T11:18:39Z",
+    "updated_at": "2026-09-18T03:14:57Z",
+    "owner": {
+      "name": "eliasstravik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218792529?v=4"
+    }
+  },
+  {
     "name": "xn0kkx/RustBuilder",
     "url": "https://github.com/xn0kkx/RustBuilder",
     "description": "Server/client PGP build orchestrator in Rust: the server generates a fresh PGP key per build, encrypts the artifact, seals every secret in an encrypted SQLite DB, and compiles a dedicated client. The client fetches its key over mTLS and decrypts locally. Linux server, Windows client (rustls + ring).",
@@ -1692,6 +1701,43 @@
     "owner": {
       "name": "cxqc168-wq",
       "avatar_url": "https://avatars.githubusercontent.com/u/279275759?v=4"
+    }
+  },
+  {
+    "name": "DeathShotXD/0xCr0ssCrush",
+    "url": "https://github.com/DeathShotXD/0xCr0ssCrush",
+    "description": "Windows BYOVD research on DCRCVDrv.sys and Alinubx.sys, reverse engineering their kernel primitives, IOCTL surfaces, and detection opportunities.",
+    "stars": 21,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "antivirus",
+      "av-bypass",
+      "av-killer",
+      "byovd",
+      "driver-security",
+      "edr",
+      "edr-evasion",
+      "edr-killer",
+      "ioctl",
+      "kernel-exploitation",
+      "kernel-mode",
+      "kernel-security",
+      "process-termination",
+      "reverse-engineering",
+      "ring0",
+      "threatresearch",
+      "vulnerable-driver",
+      "windows-exploit",
+      "windows-internals",
+      "windows-security"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-14T17:13:21Z",
+    "updated_at": "2026-09-18T03:31:57Z",
+    "owner": {
+      "name": "DeathShotXD",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87466051?v=4"
     }
   },
   {
@@ -1791,31 +1837,6 @@
     }
   },
   {
-    "name": "schacal/FOL-discord",
-    "url": "https://github.com/schacal/FOL-discord",
-    "description": "Devolve a transmissão de tela e a câmera do Discord no Brasil. Instalador para Windows: sem VPN, sem conta e sem perder ping.",
-    "stars": 21,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "brasil",
-      "discord",
-      "instalador",
-      "proxy",
-      "rust",
-      "screen-share",
-      "tauri",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-01T03:17:56Z",
-    "updated_at": "2026-09-04T03:02:08Z",
-    "owner": {
-      "name": "schacal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11280584?v=4"
-    }
-  },
-  {
     "name": "huangziwei/readinglog",
     "url": "https://github.com/huangziwei/readinglog",
     "description": "A reading stats tracking app for jailbroken kindles.",
@@ -1834,35 +1855,19 @@
     }
   },
   {
-    "name": "Dicklesworthstone/dwarf_fortress_mcp",
-    "url": "https://github.com/Dicklesworthstone/dwarf_fortress_mcp",
-    "description": "A semantic, transactional, replayable MCP control plane that lets autonomous AI agents operate Dwarf Fortress as a long-lived civilization. Safe-Rust phase-0B scaffold: MVCC world state, witnessed semantic plans, evidence-backed effects, deterministic replay.",
-    "stars": 21,
-    "forks": 1,
+    "name": "aftermathlabs/discord-crasher",
+    "url": "https://github.com/aftermathlabs/discord-crasher",
+    "description": "Some bugs found via binary instrumentation and fuzzing",
+    "stars": 20,
+    "forks": 2,
     "language": "Rust",
-    "topics": [
-      "ai-agents",
-      "autonomous-agents",
-      "control-plane",
-      "deterministic",
-      "dfhack",
-      "dwarf-fortress",
-      "game-automation",
-      "llm-tools",
-      "mcp",
-      "model-context-protocol",
-      "multi-agent",
-      "mvcc",
-      "rust",
-      "safe-rust",
-      "transactional"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-29T23:22:51Z",
-    "updated_at": "2026-09-04T04:40:13Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-16T01:37:40Z",
+    "updated_at": "2026-09-17T22:00:15Z",
     "owner": {
-      "name": "Dicklesworthstone",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4"
+      "name": "aftermathlabs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132854957?v=4"
     }
   },
   {
@@ -1908,19 +1913,19 @@
     }
   },
   {
-    "name": "vladtrc/iw4L",
-    "url": "https://github.com/vladtrc/iw4L",
-    "description": "Standalone experimental Call of Duty runtime in Rust, built on bevy and wgpu",
+    "name": "devanshbatham/commit-miner",
+    "url": "https://github.com/devanshbatham/commit-miner",
+    "description": "Classify Git commit diffs and messages with Jev. Bug fixes, security fixes/CWEs, and change types.",
     "stars": 19,
-    "forks": 0,
+    "forks": 5,
     "language": "Rust",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-13T11:54:59Z",
-    "updated_at": "2026-09-16T21:44:15Z",
+    "license": "No license",
+    "created_at": "2026-09-17T08:00:01Z",
+    "updated_at": "2026-09-17T20:15:39Z",
     "owner": {
-      "name": "vladtrc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25867395?v=4"
+      "name": "devanshbatham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28016517?v=4"
     }
   },
   {
@@ -1995,40 +2000,6 @@
     }
   },
   {
-    "name": "eliasstravik/herdr-agent-progress",
-    "url": "https://github.com/eliasstravik/herdr-agent-progress",
-    "description": "Agent-reported task progress and activity for the Herdr sidebar",
-    "stars": 18,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "herdr-plugin"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-15T11:18:39Z",
-    "updated_at": "2026-09-17T05:38:32Z",
-    "owner": {
-      "name": "eliasstravik",
-      "avatar_url": "https://avatars.githubusercontent.com/u/218792529?v=4"
-    }
-  },
-  {
-    "name": "rambocode/glimmer",
-    "url": "https://github.com/rambocode/glimmer",
-    "description": "微明 Glimmer：用 Rust 写的跨平台输入法，派生自青简 Qingjian（GPL-3.0-or-later）",
-    "stars": 18,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-09-15T13:43:26Z",
-    "updated_at": "2026-09-17T04:54:08Z",
-    "owner": {
-      "name": "rambocode",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14227199?v=4"
-    }
-  },
-  {
     "name": "Dr-TSNG/fancyboot",
     "url": "https://github.com/Dr-TSNG/fancyboot",
     "description": "Mountless Android boot animation module",
@@ -2077,22 +2048,6 @@
     }
   },
   {
-    "name": "rashidalnaemi/zellij-commandpalette",
-    "url": "https://github.com/rashidalnaemi/zellij-commandpalette",
-    "description": null,
-    "stars": 18,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-29T13:32:59Z",
-    "updated_at": "2026-09-04T02:00:54Z",
-    "owner": {
-      "name": "rashidalnaemi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2900470?v=4"
-    }
-  },
-  {
     "name": "wasif-exe/lsm-engine",
     "url": "https://github.com/wasif-exe/lsm-engine",
     "description": "A zero-dependency, ultra-high-throughput Log-Structured Merge-Tree (LSM-Tree) storage engine integrated with a Thread-Per-Core (TPC) kernel-bypass network engine and custom Epoch-Based memory reclamation—written entirely from scratch in Rust.",
@@ -2106,6 +2061,34 @@
     "owner": {
       "name": "wasif-exe",
       "avatar_url": "https://avatars.githubusercontent.com/u/80624398?v=4"
+    }
+  },
+  {
+    "name": "RuoqingHe/lingcage",
+    "url": "https://github.com/RuoqingHe/lingcage",
+    "description": "Rust KVM VMM that cages AI agents in cloned microVMs. Boot once, clone per sandbox. x86_64, aarch64, riscv64.",
+    "stars": 17,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "aarch64",
+      "hypervisor",
+      "kvm",
+      "microvm",
+      "riscv",
+      "riscv64",
+      "rust",
+      "sandbox",
+      "snapshot",
+      "virtualization",
+      "vmm"
+    ],
+    "license": "Other",
+    "created_at": "2026-09-12T18:29:15Z",
+    "updated_at": "2026-09-18T02:35:36Z",
+    "owner": {
+      "name": "RuoqingHe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194186071?v=4"
     }
   },
   {
@@ -2173,27 +2156,6 @@
     }
   },
   {
-    "name": "pegainfer-project/kern",
-    "url": "https://github.com/pegainfer-project/kern",
-    "description": "A model-agnostic GPU runtime for shipping models as verified programs.",
-    "stars": 17,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "cuda",
-      "gpu-inference",
-      "llm-inference",
-      "rust"
-    ],
-    "license": "No license",
-    "created_at": "2026-08-29T15:43:58Z",
-    "updated_at": "2026-09-04T06:27:20Z",
-    "owner": {
-      "name": "pegainfer-project",
-      "avatar_url": "https://avatars.githubusercontent.com/u/292134277?v=4"
-    }
-  },
-  {
     "name": "IvanFitro/Learn-Rust-Attack-Vectors",
     "url": "https://github.com/IvanFitro/Learn-Rust-Attack-Vectors",
     "description": "A hands-on catalog of Rust web3 vulnerability patterns, built for a Solidity auditor learning the Rust attack surface.",
@@ -2242,31 +2204,6 @@
     }
   },
   {
-    "name": "volker-schukai/red-table",
-    "url": "https://github.com/volker-schukai/red-table",
-    "description": "Fast keyboard-driven terminal image browser for browsing, comparing, and selecting large image collections.",
-    "stars": 16,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "file-selector",
-      "image-viewer",
-      "kitty",
-      "rust",
-      "sixel",
-      "terminal",
-      "tui",
-      "yazi-plugin"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-31T20:12:00Z",
-    "updated_at": "2026-09-03T18:16:30Z",
-    "owner": {
-      "name": "volker-schukai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7348127?v=4"
-    }
-  },
-  {
     "name": "ZethRise/Ronami",
     "url": "https://github.com/ZethRise/Ronami",
     "description": "Telegram Bot API Framework in Rust",
@@ -2285,6 +2222,22 @@
     "owner": {
       "name": "ZethRise",
       "avatar_url": "https://avatars.githubusercontent.com/u/284843906?v=4"
+    }
+  },
+  {
+    "name": "FAAATQ/DeepSeekBudget",
+    "url": "https://github.com/FAAATQ/DeepSeekBudget",
+    "description": "See the price. Know when to wait. A menu-bar indicator for DeepSeek's peak/off-peak API pricing.",
+    "stars": 15,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-13T05:33:34Z",
+    "updated_at": "2026-09-18T03:02:04Z",
+    "owner": {
+      "name": "FAAATQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/254631959?v=4"
     }
   },
   {
@@ -2315,26 +2268,10 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-09-13T12:00:04Z",
-    "updated_at": "2026-09-17T05:33:55Z",
+    "updated_at": "2026-09-18T01:41:11Z",
     "owner": {
       "name": "linuztx",
       "avatar_url": "https://avatars.githubusercontent.com/u/171163806?v=4"
-    }
-  },
-  {
-    "name": "aftermathlabs/discord-crasher",
-    "url": "https://github.com/aftermathlabs/discord-crasher",
-    "description": "Some bugs found via binary instrumentation and fuzzing",
-    "stars": 15,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-16T01:37:40Z",
-    "updated_at": "2026-09-17T06:55:03Z",
-    "owner": {
-      "name": "aftermathlabs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/132854957?v=4"
     }
   },
   {
@@ -2442,6 +2379,22 @@
     }
   },
   {
+    "name": "necat101/Hierarchos-Native",
+    "url": "https://github.com/necat101/Hierarchos-Native",
+    "description": "A native rust-vulkan backend for training hierarchos and modern transformer model architectures, supporting PEFT finetuning, full training, and inference",
+    "stars": 14,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-16T23:10:25Z",
+    "updated_at": "2026-09-17T19:32:03Z",
+    "owner": {
+      "name": "necat101",
+      "avatar_url": "https://avatars.githubusercontent.com/u/203202578?v=4"
+    }
+  },
+  {
     "name": "zaksabeast/Pokemon-Bank-Offline-Mod",
     "url": "https://github.com/zaksabeast/Pokemon-Bank-Offline-Mod",
     "description": "3gx plugin to use Pokemon Bank offline when the servers go down. Includes a migration mode.",
@@ -2455,22 +2408,6 @@
     "owner": {
       "name": "zaksabeast",
       "avatar_url": "https://avatars.githubusercontent.com/u/19464008?v=4"
-    }
-  },
-  {
-    "name": "FAAATQ/DeepSeekBudget",
-    "url": "https://github.com/FAAATQ/DeepSeekBudget",
-    "description": "See the price. Know when to wait. A menu-bar indicator for DeepSeek's peak/off-peak API pricing.",
-    "stars": 14,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-13T05:33:34Z",
-    "updated_at": "2026-09-16T08:30:57Z",
-    "owner": {
-      "name": "FAAATQ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/254631959?v=4"
     }
   },
   {
@@ -2564,40 +2501,19 @@
     }
   },
   {
-    "name": "DeathShotXD/0xCr0ssCrush",
-    "url": "https://github.com/DeathShotXD/0xCr0ssCrush",
-    "description": "Windows BYOVD research on DCRCVDrv.sys and Alinubx.sys, reverse engineering their kernel primitives, IOCTL surfaces, and detection opportunities.",
+    "name": "Zhouchengjian-user/product-manager-workbench",
+    "url": "https://github.com/Zhouchengjian-user/product-manager-workbench",
+    "description": "产品经理工作台 · 周承健定制开发 | 面向产品经理的 AI 桌面工作台，支持项目协作与模型对比，基于 AionUi / AionCore",
     "stars": 13,
-    "forks": 4,
+    "forks": 1,
     "language": "Rust",
-    "topics": [
-      "antivirus",
-      "av-bypass",
-      "av-killer",
-      "byovd",
-      "driver-security",
-      "edr",
-      "edr-evasion",
-      "edr-killer",
-      "ioctl",
-      "kernel-exploitation",
-      "kernel-mode",
-      "kernel-security",
-      "process-termination",
-      "reverse-engineering",
-      "ring0",
-      "threatresearch",
-      "vulnerable-driver",
-      "windows-exploit",
-      "windows-internals",
-      "windows-security"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-14T17:13:21Z",
-    "updated_at": "2026-09-16T23:06:11Z",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-17T15:48:50Z",
+    "updated_at": "2026-09-18T06:57:18Z",
     "owner": {
-      "name": "DeathShotXD",
-      "avatar_url": "https://avatars.githubusercontent.com/u/87466051?v=4"
+      "name": "Zhouchengjian-user",
+      "avatar_url": "https://avatars.githubusercontent.com/u/309663557?v=4"
     }
   },
   {
@@ -2679,6 +2595,38 @@
     }
   },
   {
+    "name": "smithtaylor7748-ops/qb-gate",
+    "url": "https://github.com/smithtaylor7748-ops/qb-gate",
+    "description": "为需要频繁变动 IP 的工作准备的 Windows 面板：出口 IP 不在白名单时 AI 软件起不来，IP 变了立即上锁并关闭会话；附 IP 环境体检、本人账户槽位、软件托管安装与卸载。非官方项目，不对账户状态作任何承诺，使用前请读免责声明。",
+    "stars": 12,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-09-12T07:44:53Z",
+    "updated_at": "2026-09-18T05:02:22Z",
+    "owner": {
+      "name": "smithtaylor7748-ops",
+      "avatar_url": "https://avatars.githubusercontent.com/u/283452643?v=4"
+    }
+  },
+  {
+    "name": "cv-superding/WorkBuddy-Switch2api",
+    "url": "https://github.com/cv-superding/WorkBuddy-Switch2api",
+    "description": "WorkBuddy / CodeBuddy 账号切换工具（Tauri + Rust），内置 OpenAI 兼容本地反代：账号池轮转、积分签到监控、托盘常驻。Fork of changexbc/workbuddy-switch",
+    "stars": 12,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-09-16T05:08:05Z",
+    "updated_at": "2026-09-18T03:26:56Z",
+    "owner": {
+      "name": "cv-superding",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105969686?v=4"
+    }
+  },
+  {
     "name": "knadh/pkg.bot",
     "url": "https://github.com/knadh/pkg.bot",
     "description": "Super fast Linux package search engine for major Linux distros",
@@ -2740,34 +2688,6 @@
     "owner": {
       "name": "STEALTHNET-APP",
       "avatar_url": "https://avatars.githubusercontent.com/u/249982879?v=4"
-    }
-  },
-  {
-    "name": "RuoqingHe/lingcage",
-    "url": "https://github.com/RuoqingHe/lingcage",
-    "description": "Rust KVM VMM that cages AI agents in cloned microVMs. Boot once, clone per sandbox. x86_64, aarch64, riscv64.",
-    "stars": 11,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "aarch64",
-      "hypervisor",
-      "kvm",
-      "microvm",
-      "riscv",
-      "riscv64",
-      "rust",
-      "sandbox",
-      "snapshot",
-      "virtualization",
-      "vmm"
-    ],
-    "license": "Other",
-    "created_at": "2026-09-12T18:29:15Z",
-    "updated_at": "2026-09-16T15:53:13Z",
-    "owner": {
-      "name": "RuoqingHe",
-      "avatar_url": "https://avatars.githubusercontent.com/u/194186071?v=4"
     }
   },
   {
