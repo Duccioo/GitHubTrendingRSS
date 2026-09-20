@@ -3,7 +3,7 @@
     "name": "blendmaidintrigue/e621",
     "url": "https://github.com/blendmaidintrigue/e621",
     "description": "An independent community-maintained project based on the open-source \"e621\" codebase.",
-    "stars": 433,
+    "stars": 442,
     "forks": 0,
     "language": "Ruby",
     "topics": [
@@ -17,7 +17,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-23T16:20:13Z",
-    "updated_at": "2026-09-19T06:01:27Z",
+    "updated_at": "2026-09-20T07:16:50Z",
     "owner": {
       "name": "blendmaidintrigue",
       "avatar_url": "https://avatars.githubusercontent.com/u/299339635?v=4"
@@ -72,13 +72,29 @@
     "name": "obie/ruby_decision_model",
     "url": "https://github.com/obie/ruby_decision_model",
     "description": "Ruby client for decision models such as Typesafe Jev",
-    "stars": 36,
+    "stars": 45,
     "forks": 2,
     "language": "Ruby",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-18T15:30:56Z",
-    "updated_at": "2026-09-19T03:54:49Z",
+    "updated_at": "2026-09-19T20:18:04Z",
+    "owner": {
+      "name": "obie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3908?v=4"
+    }
+  },
+  {
+    "name": "obie/feelings",
+    "url": "https://github.com/obie/feelings",
+    "description": "Probabilistic conditionals for Ruby: Feelings(message).like?(\"genuinely urgent\")",
+    "stars": 42,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-18T17:46:05Z",
+    "updated_at": "2026-09-19T22:41:51Z",
     "owner": {
       "name": "obie",
       "avatar_url": "https://avatars.githubusercontent.com/u/3908?v=4"
@@ -110,22 +126,6 @@
     "owner": {
       "name": "SolicitorDeem",
       "avatar_url": "https://avatars.githubusercontent.com/u/317915988?v=4"
-    }
-  },
-  {
-    "name": "obie/feelings",
-    "url": "https://github.com/obie/feelings",
-    "description": "Probabilistic conditionals for Ruby: Feelings(message).like?(\"genuinely urgent\")",
-    "stars": 28,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-18T17:46:05Z",
-    "updated_at": "2026-09-19T06:41:38Z",
-    "owner": {
-      "name": "obie",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3908?v=4"
     }
   },
   {
@@ -235,6 +235,22 @@
     }
   },
   {
+    "name": "kieranklaassen/ruby_llm-typesafe",
+    "url": "https://github.com/kieranklaassen/ruby_llm-typesafe",
+    "description": "TypeSafe structured-output provider for RubyLLM 2",
+    "stars": 15,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-16T04:03:33Z",
+    "updated_at": "2026-09-19T18:27:41Z",
+    "owner": {
+      "name": "kieranklaassen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209089?v=4"
+    }
+  },
+  {
     "name": "christophercruz98112/WebHackersWeapons",
     "url": "https://github.com/christophercruz98112/WebHackersWeapons",
     "description": null,
@@ -320,22 +336,6 @@
     }
   },
   {
-    "name": "kieranklaassen/ruby_llm-typesafe",
-    "url": "https://github.com/kieranklaassen/ruby_llm-typesafe",
-    "description": "TypeSafe structured-output provider for RubyLLM 2",
-    "stars": 12,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-16T04:03:33Z",
-    "updated_at": "2026-09-18T17:11:55Z",
-    "owner": {
-      "name": "kieranklaassen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/209089?v=4"
-    }
-  },
-  {
     "name": "ko1/punions",
     "url": "https://github.com/ko1/punions",
     "description": "Two Puma-derived Rack servers exercising Ruby's newest concurrency features: the M:N scheduler (PuMaNy) and Ractors (Punicorn).",
@@ -349,6 +349,27 @@
     "owner": {
       "name": "ko1",
       "avatar_url": "https://avatars.githubusercontent.com/u/9558?v=4"
+    }
+  },
+  {
+    "name": "gyy489/socratic-inquiry",
+    "url": "https://github.com/gyy489/socratic-inquiry",
+    "description": "让 AI 先把问题想清楚，再开始工作。两头乌的思辨对话能力包。",
+    "stars": 11,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [
+      "ai-agents",
+      "codex",
+      "human-ai-interaction",
+      "socratic-method"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-10T19:43:48Z",
+    "updated_at": "2026-09-19T09:45:33Z",
+    "owner": {
+      "name": "gyy489",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75213760?v=4"
     }
   },
   {
@@ -393,21 +414,21 @@
     }
   },
   {
-    "name": "gyy489/socratic-inquiry",
-    "url": "https://github.com/gyy489/socratic-inquiry",
-    "description": "让 AI 先把问题想清楚，再开始工作。两头乌的思辨对话能力包。",
+    "name": "gyy489/codex-identity-manager",
+    "url": "https://github.com/gyy489/codex-identity-manager",
+    "description": "隔离 Codex 身份、项目与会话恢复关系，不读取凭据。",
     "stars": 10,
     "forks": 0,
     "language": "Ruby",
     "topics": [
       "ai-agents",
       "codex",
-      "human-ai-interaction",
-      "socratic-method"
+      "identity-management",
+      "ruby"
     ],
     "license": "MIT License",
-    "created_at": "2026-09-10T19:43:48Z",
-    "updated_at": "2026-09-18T18:05:11Z",
+    "created_at": "2026-09-10T19:43:38Z",
+    "updated_at": "2026-09-19T09:45:50Z",
     "owner": {
       "name": "gyy489",
       "avatar_url": "https://avatars.githubusercontent.com/u/75213760?v=4"
