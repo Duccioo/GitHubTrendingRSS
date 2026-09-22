@@ -32,6 +32,22 @@
     }
   },
   {
+    "name": "gylive/ccodex-sleep-state",
+    "url": "https://github.com/gylive/ccodex-sleep-state",
+    "description": "尝试改善 Codex 降智、限流与连接体验。本地一键启动、网页配置修复，支持 Astra / Sol / Terra、订阅和代理；不保证取得指定 state 或提升模型质量。",
+    "stars": 574,
+    "forks": 148,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-09-18T09:02:44Z",
+    "updated_at": "2026-09-22T06:31:19Z",
+    "owner": {
+      "name": "gylive",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87460536?v=4"
+    }
+  },
+  {
     "name": "okf-memory/okf-agent-memory",
     "url": "https://github.com/okf-memory/okf-agent-memory",
     "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
@@ -67,22 +83,6 @@
     }
   },
   {
-    "name": "gylive/ccodex-sleep-state",
-    "url": "https://github.com/gylive/ccodex-sleep-state",
-    "description": "尝试改善 Codex 降智、限流与连接体验。本地一键启动、网页配置修复，支持 Astra / Sol / Terra、订阅和代理；不保证取得指定 state 或提升模型质量。",
-    "stars": 519,
-    "forks": 142,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-09-18T09:02:44Z",
-    "updated_at": "2026-09-21T07:11:48Z",
-    "owner": {
-      "name": "gylive",
-      "avatar_url": "https://avatars.githubusercontent.com/u/87460536?v=4"
-    }
-  },
-  {
     "name": "linguo2625469/workbuddy2api-panel",
     "url": "https://github.com/linguo2625469/workbuddy2api-panel",
     "description": "把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支",
@@ -109,17 +109,36 @@
   {
     "name": "HyNetworks/OpenGFW",
     "url": "https://github.com/HyNetworks/OpenGFW",
-    "description": null,
-    "stars": 240,
+    "description": "OpenGFW is your very own DIY Great Firewall of China",
+    "stars": 249,
     "forks": 86,
     "language": "Go",
     "topics": [],
     "license": "Mozilla Public License 2.0",
     "created_at": "2026-09-19T09:21:17Z",
-    "updated_at": "2026-09-21T06:07:30Z",
+    "updated_at": "2026-09-22T03:39:40Z",
     "owner": {
       "name": "HyNetworks",
       "avatar_url": "https://avatars.githubusercontent.com/u/287139448?v=4"
+    }
+  },
+  {
+    "name": "itsmostafa/typesafe-mcp",
+    "url": "https://github.com/itsmostafa/typesafe-mcp",
+    "description": "mcp connector to give your AI agent direct access to typesafe ai's jev model",
+    "stars": 233,
+    "forks": 22,
+    "language": "Go",
+    "topics": [
+      "mcp",
+      "mcp-tools"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-17T05:23:34Z",
+    "updated_at": "2026-09-22T07:04:19Z",
+    "owner": {
+      "name": "itsmostafa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24395434?v=4"
     }
   },
   {
@@ -165,13 +184,13 @@
     "name": "wangyunjeff/sub2api-state-kit",
     "url": "https://github.com/wangyunjeff/sub2api-state-kit",
     "description": "Sub2API 账号级 STATE 扩展：Pro/Team 选择、固定代理复验与 312 异常动态守护（实验版）",
-    "stars": 164,
-    "forks": 55,
+    "stars": 178,
+    "forks": 58,
     "language": "Go",
     "topics": [],
     "license": "GNU Lesser General Public License v3.0",
     "created_at": "2026-09-18T14:25:18Z",
-    "updated_at": "2026-09-21T07:12:32Z",
+    "updated_at": "2026-09-22T06:29:43Z",
     "owner": {
       "name": "wangyunjeff",
       "avatar_url": "https://avatars.githubusercontent.com/u/17672204?v=4"
@@ -181,35 +200,16 @@
     "name": "kdbhalala/avdslim",
     "url": "https://github.com/kdbhalala/avdslim",
     "description": "⚡ Drop Android Virtual Device (AVD) emulator RAM from ~8GB to ~1.5GB on Apple Silicon & Linux. Inspired by simslim.",
-    "stars": 164,
+    "stars": 178,
     "forks": 8,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-16T06:52:40Z",
-    "updated_at": "2026-09-21T05:27:36Z",
+    "updated_at": "2026-09-22T04:38:24Z",
     "owner": {
       "name": "kdbhalala",
       "avatar_url": "https://avatars.githubusercontent.com/u/20184673?v=4"
-    }
-  },
-  {
-    "name": "itsmostafa/typesafe-mcp",
-    "url": "https://github.com/itsmostafa/typesafe-mcp",
-    "description": "mcp connector to give your AI agent direct access to typesafe ai's jev model",
-    "stars": 163,
-    "forks": 15,
-    "language": "Go",
-    "topics": [
-      "mcp",
-      "mcp-tools"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-17T05:23:34Z",
-    "updated_at": "2026-09-21T07:16:03Z",
-    "owner": {
-      "name": "itsmostafa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24395434?v=4"
     }
   },
   {
@@ -248,16 +248,32 @@
     "name": "arden-aaai/cpa-plugin-codex-turn-state",
     "url": "https://github.com/arden-aaai/cpa-plugin-codex-turn-state",
     "description": null,
-    "stars": 111,
+    "stars": 117,
     "forks": 46,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-17T10:30:02Z",
-    "updated_at": "2026-09-21T07:26:13Z",
+    "updated_at": "2026-09-22T06:54:07Z",
     "owner": {
       "name": "arden-aaai",
       "avatar_url": "https://avatars.githubusercontent.com/u/95458579?v=4"
+    }
+  },
+  {
+    "name": "446599/ccodex-rotate",
+    "url": "https://github.com/446599/ccodex-rotate",
+    "description": "Local Codex reverse proxy: rotating proxy-node pool, lazy health failover, and per-model 292 turn-state collection/injection. macOS + Windows.",
+    "stars": 103,
+    "forks": 18,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-20T08:29:10Z",
+    "updated_at": "2026-09-22T07:02:01Z",
+    "owner": {
+      "name": "446599",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116695909?v=4"
     }
   },
   {
@@ -338,19 +354,25 @@
     }
   },
   {
-    "name": "chrisgreg/glance",
-    "url": "https://github.com/chrisgreg/glance",
-    "description": "A tiny, self-hosted web analytics service. ",
-    "stars": 87,
-    "forks": 3,
+    "name": "mitkox/esf",
+    "url": "https://github.com/mitkox/esf",
+    "description": "Self-hosted engineering software factory: Temporal, CubeSandbox agents, deterministic verification and durable evidence. MIT-licensed Machinist fork.",
+    "stars": 88,
+    "forks": 14,
     "language": "Go",
-    "topics": [],
+    "topics": [
+      "ai-agents",
+      "golang",
+      "self-hosted",
+      "software-factory",
+      "temporal"
+    ],
     "license": "MIT License",
-    "created_at": "2026-09-03T23:52:08Z",
-    "updated_at": "2026-09-07T17:44:19Z",
+    "created_at": "2026-09-19T16:07:54Z",
+    "updated_at": "2026-09-22T04:17:51Z",
     "owner": {
-      "name": "chrisgreg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5280429?v=4"
+      "name": "mitkox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43349905?v=4"
     }
   },
   {
@@ -370,19 +392,24 @@
     }
   },
   {
-    "name": "pgrundev/pgbook",
-    "url": "https://github.com/pgrundev/pgbook",
-    "description": "Postgres Book, one topic at a time.",
-    "stars": 83,
-    "forks": 2,
+    "name": "Taurine-Technology/axon-pulse-foss",
+    "url": "https://github.com/Taurine-Technology/axon-pulse-foss",
+    "description": "A lightweight subscriber-side network quality sensor that can be run with Axon or in standalone local mode.",
+    "stars": 80,
+    "forks": 4,
     "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-02T16:55:32Z",
-    "updated_at": "2026-09-08T03:42:40Z",
+    "topics": [
+      "internet-measurements",
+      "qoe",
+      "qos",
+      "speedtest"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-09-18T09:30:27Z",
+    "updated_at": "2026-09-21T16:54:44Z",
     "owner": {
-      "name": "pgrundev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/300654937?v=4"
+      "name": "Taurine-Technology",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157000758?v=4"
     }
   },
   {
@@ -395,7 +422,7 @@
     "topics": [],
     "license": "Other",
     "created_at": "2026-09-19T15:34:11Z",
-    "updated_at": "2026-09-20T20:20:21Z",
+    "updated_at": "2026-09-21T13:11:25Z",
     "owner": {
       "name": "SandstoneAir",
       "avatar_url": "https://avatars.githubusercontent.com/u/296633625?v=4"
@@ -430,69 +457,6 @@
     "owner": {
       "name": "greenpandorik",
       "avatar_url": "https://avatars.githubusercontent.com/u/61934932?v=4"
-    }
-  },
-  {
-    "name": "mitkox/esf",
-    "url": "https://github.com/mitkox/esf",
-    "description": "Self-hosted engineering software factory: Temporal, CubeSandbox agents, deterministic verification and durable evidence. MIT-licensed Machinist fork.",
-    "stars": 74,
-    "forks": 13,
-    "language": "Go",
-    "topics": [
-      "ai-agents",
-      "golang",
-      "self-hosted",
-      "software-factory",
-      "temporal"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-19T16:07:54Z",
-    "updated_at": "2026-09-21T07:09:31Z",
-    "owner": {
-      "name": "mitkox",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43349905?v=4"
-    }
-  },
-  {
-    "name": "gesta-run/subpool",
-    "url": "https://github.com/gesta-run/subpool",
-    "description": "  A lightweight, self-hosted AI subscription pool for teams.",
-    "stars": 70,
-    "forks": 7,
-    "language": "Go",
-    "topics": [
-      "agent",
-      "ai",
-      "ai-agent",
-      "ai-agents",
-      "claude-code",
-      "codex",
-      "gateway",
-      "pooling"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-02T08:27:21Z",
-    "updated_at": "2026-09-08T05:18:04Z",
-    "owner": {
-      "name": "gesta-run",
-      "avatar_url": "https://avatars.githubusercontent.com/u/304205673?v=4"
-    }
-  },
-  {
-    "name": "446599/ccodex-rotate",
-    "url": "https://github.com/446599/ccodex-rotate",
-    "description": "Local Codex reverse proxy: rotating proxy-node pool, lazy health failover, and per-model 292 turn-state collection/injection. macOS + Windows.",
-    "stars": 68,
-    "forks": 12,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-20T08:29:10Z",
-    "updated_at": "2026-09-21T07:06:03Z",
-    "owner": {
-      "name": "446599",
-      "avatar_url": "https://avatars.githubusercontent.com/u/116695909?v=4"
     }
   },
   {
@@ -652,27 +616,6 @@
     }
   },
   {
-    "name": "Taurine-Technology/axon-pulse-foss",
-    "url": "https://github.com/Taurine-Technology/axon-pulse-foss",
-    "description": "A lightweight subscriber-side network quality sensor that can be run with Axon or in standalone local mode.",
-    "stars": 47,
-    "forks": 4,
-    "language": "Go",
-    "topics": [
-      "internet-measurements",
-      "qoe",
-      "qos",
-      "speedtest"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-09-18T09:30:27Z",
-    "updated_at": "2026-09-21T07:17:01Z",
-    "owner": {
-      "name": "Taurine-Technology",
-      "avatar_url": "https://avatars.githubusercontent.com/u/157000758?v=4"
-    }
-  },
-  {
     "name": "aps32221/AICryptoTrading",
     "url": "https://github.com/aps32221/AICryptoTrading",
     "description": "The trading system uses Claude AI & ICT strategy signal",
@@ -686,6 +629,22 @@
     "owner": {
       "name": "aps32221",
       "avatar_url": "https://avatars.githubusercontent.com/u/9293526?v=4"
+    }
+  },
+  {
+    "name": "MACOS-DO/sub4api",
+    "url": "https://github.com/MACOS-DO/sub4api",
+    "description": "sub4api - sub2api 的分支版本",
+    "stars": 42,
+    "forks": 12,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Lesser General Public License v3.0",
+    "created_at": "2026-09-19T08:38:02Z",
+    "updated_at": "2026-09-22T07:01:06Z",
+    "owner": {
+      "name": "MACOS-DO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/319291203?v=4"
     }
   },
   {
@@ -711,6 +670,22 @@
     "owner": {
       "name": "ppxb",
       "avatar_url": "https://avatars.githubusercontent.com/u/17081240?v=4"
+    }
+  },
+  {
+    "name": "dorkitude/webctl",
+    "url": "https://github.com/dorkitude/webctl",
+    "description": "Smart web search CLI for agents, backed by Jev. Saves a lot of tokens.",
+    "stars": 41,
+    "forks": 4,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-20T07:27:00Z",
+    "updated_at": "2026-09-22T07:05:19Z",
+    "owner": {
+      "name": "dorkitude",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157717?v=4"
     }
   },
   {
@@ -784,11 +759,30 @@
     }
   },
   {
+    "name": "Alurith/jeff",
+    "url": "https://github.com/Alurith/jeff",
+    "description": "Catch code issues before they catch you.",
+    "stars": 35,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "golang",
+      "jev"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-18T14:13:58Z",
+    "updated_at": "2026-09-21T20:01:55Z",
+    "owner": {
+      "name": "Alurith",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1178132?v=4"
+    }
+  },
+  {
     "name": "FlashyyL/oai-adversarial-plugin",
     "url": "https://github.com/FlashyyL/oai-adversarial-plugin",
     "description": "CLIProxyAPI plugin: timezone normalization, model consistency monitor, X-Codex-Turn-State observation & override, probe track.",
     "stars": 35,
-    "forks": 18,
+    "forks": 19,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
@@ -797,22 +791,6 @@
     "owner": {
       "name": "FlashyyL",
       "avatar_url": "https://avatars.githubusercontent.com/u/114214237?v=4"
-    }
-  },
-  {
-    "name": "little-greenbean/sub2api-state-reuse",
-    "url": "https://github.com/little-greenbean/sub2api-state-reuse",
-    "description": "Sub2API STATE 292/332 reuse plugin, Clash/IP collector and administrator live monitor, with deployment and customization guides",
-    "stars": 34,
-    "forks": 8,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Lesser General Public License v3.0",
-    "created_at": "2026-09-19T11:45:18Z",
-    "updated_at": "2026-09-21T06:46:51Z",
-    "owner": {
-      "name": "little-greenbean",
-      "avatar_url": "https://avatars.githubusercontent.com/u/62200636?v=4"
     }
   },
   {
@@ -859,6 +837,22 @@
     }
   },
   {
+    "name": "little-greenbean/sub2api-state-reuse",
+    "url": "https://github.com/little-greenbean/sub2api-state-reuse",
+    "description": "Sub2API STATE 292/332 reuse plugin, Clash/IP collector and administrator live monitor, with deployment and customization guides",
+    "stars": 33,
+    "forks": 8,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Lesser General Public License v3.0",
+    "created_at": "2026-09-19T11:45:18Z",
+    "updated_at": "2026-09-21T11:23:25Z",
+    "owner": {
+      "name": "little-greenbean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62200636?v=4"
+    }
+  },
+  {
     "name": "Victor-Xu-1/synon-biomed",
     "url": "https://github.com/Victor-Xu-1/synon-biomed",
     "description": "Synon Biomed — an intelligent biomedical research workspace. Community source v0.1.1; AGPL-3.0-only with component-specific third-party terms.",
@@ -868,10 +862,26 @@
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-09-17T08:10:38Z",
-    "updated_at": "2026-09-21T02:16:05Z",
+    "updated_at": "2026-09-22T01:50:14Z",
     "owner": {
       "name": "Victor-Xu-1",
       "avatar_url": "https://avatars.githubusercontent.com/u/265290313?v=4"
+    }
+  },
+  {
+    "name": "seifreed/renfecli",
+    "url": "https://github.com/seifreed/renfecli",
+    "description": "CLI no oficial de Renfe, pensada también para agentes — horarios y tarifas reales de tren desde la terminal",
+    "stars": 32,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-20T19:38:26Z",
+    "updated_at": "2026-09-22T06:37:25Z",
+    "owner": {
+      "name": "seifreed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1843119?v=4"
     }
   },
   {
@@ -900,29 +910,26 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-18T08:55:48Z",
-    "updated_at": "2026-09-21T05:47:56Z",
+    "updated_at": "2026-09-21T07:57:51Z",
     "owner": {
       "name": "Tonkic",
       "avatar_url": "https://avatars.githubusercontent.com/u/68762263?v=4"
     }
   },
   {
-    "name": "Alurith/jeff",
-    "url": "https://github.com/Alurith/jeff",
-    "description": "Catch code issues before they catch you.",
+    "name": "komari-probe/komari-probe",
+    "url": "https://github.com/komari-probe/komari-probe",
+    "description": "A pure, lightweight, and secure server monitoring probe.",
     "stars": 31,
     "forks": 2,
     "language": "Go",
-    "topics": [
-      "golang",
-      "jev"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-18T14:13:58Z",
-    "updated_at": "2026-09-20T17:53:41Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-17T07:22:44Z",
+    "updated_at": "2026-09-22T00:07:39Z",
     "owner": {
-      "name": "Alurith",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1178132?v=4"
+      "name": "komari-probe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/330317135?v=4"
     }
   },
   {
@@ -953,31 +960,19 @@
     }
   },
   {
-    "name": "nickelsec/bough",
-    "url": "https://github.com/nickelsec/bough",
-    "description": "Claude Code writes down everything you do. bough draws it: a day, the work inside it, every prompt, and what got committed. One Go binary, runs on your machine, sends nothing anywhere.",
+    "name": "pedrofarbo/farbo-rastreamento",
+    "url": "https://github.com/pedrofarbo/farbo-rastreamento",
+    "description": null,
     "stars": 30,
-    "forks": 4,
+    "forks": 10,
     "language": "Go",
-    "topics": [
-      "ai-coding",
-      "claude",
-      "claude-code",
-      "claude-code-tools",
-      "cli",
-      "developer-tools",
-      "golang",
-      "local-first",
-      "session-history",
-      "transcript-analysis",
-      "visualization"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-02T19:32:46Z",
-    "updated_at": "2026-09-07T22:11:24Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-21T00:37:03Z",
+    "updated_at": "2026-09-22T01:24:01Z",
     "owner": {
-      "name": "nickelsec",
-      "avatar_url": "https://avatars.githubusercontent.com/u/300981992?v=4"
+      "name": "pedrofarbo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6313554?v=4"
     }
   },
   {
@@ -994,22 +989,6 @@
     "owner": {
       "name": "mstrYoda",
       "avatar_url": "https://avatars.githubusercontent.com/u/12763626?v=4"
-    }
-  },
-  {
-    "name": "MACOS-DO/sub4api",
-    "url": "https://github.com/MACOS-DO/sub4api",
-    "description": "sub4api - sub2api 的分支版本",
-    "stars": 28,
-    "forks": 8,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Lesser General Public License v3.0",
-    "created_at": "2026-09-19T08:38:02Z",
-    "updated_at": "2026-09-21T05:23:24Z",
-    "owner": {
-      "name": "MACOS-DO",
-      "avatar_url": "https://avatars.githubusercontent.com/u/319291203?v=4"
     }
   },
   {
@@ -1040,7 +1019,7 @@
     "url": "https://github.com/Stack-Cairn/K-brain",
     "description": "Lightweight agent harness and TUI",
     "stars": 27,
-    "forks": 5,
+    "forks": 6,
     "language": "Go",
     "topics": [],
     "license": "Apache License 2.0",
@@ -1097,6 +1076,22 @@
     "owner": {
       "name": "LuislopezMartinez",
       "avatar_url": "https://avatars.githubusercontent.com/u/31845151?v=4"
+    }
+  },
+  {
+    "name": "takumi-sato0209/woke",
+    "url": "https://github.com/takumi-sato0209/woke",
+    "description": null,
+    "stars": 26,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-17T21:59:39Z",
+    "updated_at": "2026-09-22T05:19:25Z",
+    "owner": {
+      "name": "takumi-sato0209",
+      "avatar_url": "https://avatars.githubusercontent.com/u/304517165?v=4"
     }
   },
   {
@@ -1275,6 +1270,31 @@
     }
   },
   {
+    "name": "ismailperim/briefd",
+    "url": "https://github.com/ismailperim/briefd",
+    "description": "Your agents, briefed. Not flooded. Self-hosted context compiler: git-backed team knowledge served to coding agents as token-budgeted bundles over MCP.",
+    "stars": 20,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "claude-code",
+      "developer-tools",
+      "golang",
+      "knowledge-base",
+      "mcp",
+      "rag",
+      "self-hosted",
+      "sqlite"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-20T13:57:03Z",
+    "updated_at": "2026-09-22T06:48:47Z",
+    "owner": {
+      "name": "ismailperim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/441687?v=4"
+    }
+  },
+  {
     "name": "sd87671067/go-emby",
     "url": "https://github.com/sd87671067/go-emby",
     "description": "go语言自研的emby服务端",
@@ -1392,6 +1412,22 @@
     }
   },
   {
+    "name": "Danchuna/prismctl2api",
+    "url": "https://github.com/Danchuna/prismctl2api",
+    "description": "Users just need to access the GPT model through prismctl.",
+    "stars": 18,
+    "forks": 15,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-16T16:43:18Z",
+    "updated_at": "2026-09-21T13:23:41Z",
+    "owner": {
+      "name": "Danchuna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111338392?v=4"
+    }
+  },
+  {
     "name": "D3-vin/Zcode2Api",
     "url": "https://github.com/D3-vin/Zcode2Api",
     "description": "OpenAI-compatible proxy for Zcode",
@@ -1441,22 +1477,6 @@
     }
   },
   {
-    "name": "komari-probe/komari-probe",
-    "url": "https://github.com/komari-probe/komari-probe",
-    "description": "A pure, lightweight, and secure server monitoring probe.",
-    "stars": 18,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-17T07:22:44Z",
-    "updated_at": "2026-09-20T18:44:50Z",
-    "owner": {
-      "name": "komari-probe",
-      "avatar_url": "https://avatars.githubusercontent.com/u/330317135?v=4"
-    }
-  },
-  {
     "name": "mirairoad/appeditions",
     "url": "https://github.com/mirairoad/appeditions",
     "description": "Turn raw app screenshots into store-ready App Store and Google Play assets, and keep tracking of the version you are in, in every language you ship in. A local Go desktop app — no account, no upload, no server.",
@@ -1470,22 +1490,6 @@
     "owner": {
       "name": "mirairoad",
       "avatar_url": "https://avatars.githubusercontent.com/u/82302576?v=4"
-    }
-  },
-  {
-    "name": "Danchuna/prismctl2api",
-    "url": "https://github.com/Danchuna/prismctl2api",
-    "description": "Users just need to access the GPT model through prismctl.",
-    "stars": 17,
-    "forks": 14,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-16T16:43:18Z",
-    "updated_at": "2026-09-21T03:37:14Z",
-    "owner": {
-      "name": "Danchuna",
-      "avatar_url": "https://avatars.githubusercontent.com/u/111338392?v=4"
     }
   },
   {
@@ -1561,6 +1565,22 @@
     "owner": {
       "name": "danicat",
       "avatar_url": "https://avatars.githubusercontent.com/u/5531172?v=4"
+    }
+  },
+  {
+    "name": "zhang2580384/sub2api-state-kit",
+    "url": "https://github.com/zhang2580384/sub2api-state-kit",
+    "description": "Sub2API v0.2.7 OpenAI OAuth STATE transport plugin with account metadata, model presets and proxy chaining",
+    "stars": 16,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Lesser General Public License v3.0",
+    "created_at": "2026-09-20T11:04:48Z",
+    "updated_at": "2026-09-22T03:29:09Z",
+    "owner": {
+      "name": "zhang2580384",
+      "avatar_url": "https://avatars.githubusercontent.com/u/214616591?v=4"
     }
   },
   {
@@ -1661,28 +1681,6 @@
     }
   },
   {
-    "name": "vimalinx/LocalRouter",
-    "url": "https://github.com/vimalinx/LocalRouter",
-    "description": "Loopback-first universal API gateway for local AI Agents.",
-    "stars": 16,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "ai-agents",
-      "api-gateway",
-      "local-ai",
-      "openai-compatible",
-      "protocol-adapters"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-09-02T11:37:20Z",
-    "updated_at": "2026-09-07T22:53:00Z",
-    "owner": {
-      "name": "vimalinx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/250155949?v=4"
-    }
-  },
-  {
     "name": "iconidentify/omatune",
     "url": "https://github.com/iconidentify/omatune",
     "description": "A terminal guitar tuner for Omarchy — 6- and 12-string, theme-aware",
@@ -1708,23 +1706,46 @@
     }
   },
   {
-    "name": "rugbedbugg/portfolio.ssh",
-    "url": "https://github.com/rugbedbugg/portfolio.ssh",
-    "description": "SSH-only portfolio for all the nerds out there 🫶 Can't use it? too bad you're not a nerd",
-    "stars": 15,
+    "name": "Calcium-Ion/AstrLink",
+    "url": "https://github.com/Calcium-Ion/AstrLink",
+    "description": null,
+    "stars": 14,
+    "forks": 6,
+    "language": "Go",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-22T04:20:28Z",
+    "updated_at": "2026-09-22T06:59:07Z",
+    "owner": {
+      "name": "Calcium-Ion",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61247483?v=4"
+    }
+  },
+  {
+    "name": "Shenrui-Ma/Laodi",
+    "url": "https://github.com/Shenrui-Ma/Laodi",
+    "description": "不要偷偷上传代码啊魂淡！",
+    "stars": 14,
     "forks": 0,
     "language": "Go",
     "topics": [
-      "portfolio-website",
-      "ssh",
-      "terminal-ui"
+      "agent",
+      "agent-skills",
+      "ai-agents",
+      "code",
+      "code-generation",
+      "code-review",
+      "coding",
+      "coding-agent",
+      "golang",
+      "privacy"
     ],
-    "license": "No license",
-    "created_at": "2026-09-03T03:00:26Z",
-    "updated_at": "2026-09-07T11:45:54Z",
+    "license": "MIT License",
+    "created_at": "2026-09-18T16:30:16Z",
+    "updated_at": "2026-09-21T13:18:16Z",
     "owner": {
-      "name": "rugbedbugg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/160270614?v=4"
+      "name": "Shenrui-Ma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115921185?v=4"
     }
   },
   {
@@ -1810,33 +1831,6 @@
     "owner": {
       "name": "jason-lee-x",
       "avatar_url": "https://avatars.githubusercontent.com/u/47520063?v=4"
-    }
-  },
-  {
-    "name": "Shenrui-Ma/Laodi",
-    "url": "https://github.com/Shenrui-Ma/Laodi",
-    "description": "不要偷偷上传代码啊魂淡！",
-    "stars": 13,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "agent",
-      "agent-skills",
-      "ai-agents",
-      "code",
-      "code-generation",
-      "code-review",
-      "coding",
-      "coding-agent",
-      "golang",
-      "privacy"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-18T16:30:16Z",
-    "updated_at": "2026-09-21T07:26:03Z",
-    "owner": {
-      "name": "Shenrui-Ma",
-      "avatar_url": "https://avatars.githubusercontent.com/u/115921185?v=4"
     }
   },
   {
@@ -1954,22 +1948,6 @@
     "owner": {
       "name": "Tuava",
       "avatar_url": "https://avatars.githubusercontent.com/u/307134287?v=4"
-    }
-  },
-  {
-    "name": "takumi-sato0209/woke",
-    "url": "https://github.com/takumi-sato0209/woke",
-    "description": null,
-    "stars": 12,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-17T21:59:39Z",
-    "updated_at": "2026-09-19T01:37:43Z",
-    "owner": {
-      "name": "takumi-sato0209",
-      "avatar_url": "https://avatars.githubusercontent.com/u/304517165?v=4"
     }
   },
   {
@@ -2220,30 +2198,6 @@
     }
   },
   {
-    "name": "permgps/herdr-telegram-agents",
-    "url": "https://github.com/permgps/herdr-telegram-agents",
-    "description": "Drive your coding agents from Telegram like from the terminal. A topic per agent, live status in the topic icon, two-way chat with inline buttons for choices.",
-    "stars": 11,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "claude-code",
-      "coding-agents",
-      "go",
-      "herdr",
-      "herdr-plugin",
-      "telegram",
-      "telegram-bot"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-02T07:47:49Z",
-    "updated_at": "2026-09-07T08:47:15Z",
-    "owner": {
-      "name": "permgps",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16066887?v=4"
-    }
-  },
-  {
     "name": "sugarforever/apple-sandbox",
     "url": "https://github.com/sugarforever/apple-sandbox",
     "description": null,
@@ -2325,36 +2279,6 @@
     "owner": {
       "name": "nccapo",
       "avatar_url": "https://avatars.githubusercontent.com/u/98224439?v=4"
-    }
-  },
-  {
-    "name": "lingulingo/tlsprint",
-    "url": "https://github.com/lingulingo/tlsprint",
-    "description": "Engine-independent TLS fingerprint library for Go — JA3/JA4, uTLS browser impersonation, byte-exact HTTP/2, curl_cffi-style HTTP client. Zero CGO.",
-    "stars": 10,
-    "forks": 3,
-    "language": "Go",
-    "topics": [
-      "anti-bot",
-      "browser-impersonation",
-      "fingerprint",
-      "go",
-      "http-client",
-      "http2",
-      "http2-fingerprint",
-      "ja3",
-      "ja4",
-      "scraping",
-      "tls",
-      "tls-fingerprint",
-      "utls"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-03T04:05:02Z",
-    "updated_at": "2026-09-07T11:48:49Z",
-    "owner": {
-      "name": "lingulingo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44051472?v=4"
     }
   }
 ]
