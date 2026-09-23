@@ -16,11 +16,27 @@
     }
   },
   {
+    "name": "unreallabsai/unreal-agent",
+    "url": "https://github.com/unreallabsai/unreal-agent",
+    "description": "Async-first agent harness",
+    "stars": 1258,
+    "forks": 60,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-21T23:14:02Z",
+    "updated_at": "2026-09-23T07:02:34Z",
+    "owner": {
+      "name": "unreallabsai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/181495282?v=4"
+    }
+  },
+  {
     "name": "unstablebuild/rune",
     "url": "https://github.com/unstablebuild/rune",
     "description": "the development environment for pros",
-    "stars": 1059,
-    "forks": 83,
+    "stars": 1076,
+    "forks": 85,
     "language": "Go",
     "topics": [
       "agent-orchestration",
@@ -41,46 +57,23 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-09-10T10:50:03Z",
-    "updated_at": "2026-09-22T06:34:12Z",
+    "updated_at": "2026-09-23T06:37:07Z",
     "owner": {
       "name": "unstablebuild",
       "avatar_url": "https://avatars.githubusercontent.com/u/60412273?v=4"
     }
   },
   {
-    "name": "pgrundev/pgbot",
-    "url": "https://github.com/pgrundev/pgbot",
-    "description": "Postgres intelligence for ai agents & apps",
-    "stars": 1031,
-    "forks": 51,
-    "language": "Go",
-    "topics": [
-      "ai",
-      "data-analysis",
-      "database",
-      "postgres",
-      "postgresql",
-      "postgresql-database"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-11T23:41:52Z",
-    "updated_at": "2026-09-09T06:20:58Z",
-    "owner": {
-      "name": "pgrundev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/300654937?v=4"
-    }
-  },
-  {
     "name": "chrisgreg/boop",
     "url": "https://github.com/chrisgreg/boop",
     "description": "A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.",
-    "stars": 758,
+    "stars": 760,
     "forks": 37,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-28T15:38:33Z",
-    "updated_at": "2026-09-20T16:24:33Z",
+    "updated_at": "2026-09-22T23:07:16Z",
     "owner": {
       "name": "chrisgreg",
       "avatar_url": "https://avatars.githubusercontent.com/u/5280429?v=4"
@@ -90,7 +83,7 @@
     "name": "okf-memory/okf-agent-memory",
     "url": "https://github.com/okf-memory/okf-agent-memory",
     "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
-    "stars": 712,
+    "stars": 719,
     "forks": 52,
     "language": "Go",
     "topics": [
@@ -115,7 +108,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-05T21:26:04Z",
-    "updated_at": "2026-09-22T05:53:08Z",
+    "updated_at": "2026-09-23T06:02:57Z",
     "owner": {
       "name": "okf-memory",
       "avatar_url": "https://avatars.githubusercontent.com/u/322091575?v=4"
@@ -125,8 +118,8 @@
     "name": "linguo2625469/workbuddy2api-panel",
     "url": "https://github.com/linguo2625469/workbuddy2api-panel",
     "description": "把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支",
-    "stars": 660,
-    "forks": 128,
+    "stars": 698,
+    "forks": 136,
     "language": "Go",
     "topics": [
       "admin-panel",
@@ -139,7 +132,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-12T05:13:46Z",
-    "updated_at": "2026-09-22T05:55:43Z",
+    "updated_at": "2026-09-23T06:27:12Z",
     "owner": {
       "name": "linguo2625469",
       "avatar_url": "https://avatars.githubusercontent.com/u/49717738?v=4"
@@ -149,13 +142,13 @@
     "name": "gylive/ccodex-sleep-state",
     "url": "https://github.com/gylive/ccodex-sleep-state",
     "description": "尝试改善 Codex 降智、限流与连接体验。本地一键启动、网页配置修复，支持 Astra / Sol / Terra、订阅和代理；不保证取得指定 state 或提升模型质量。",
-    "stars": 574,
-    "forks": 148,
+    "stars": 602,
+    "forks": 152,
     "language": "Go",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-09-18T09:02:44Z",
-    "updated_at": "2026-09-22T06:31:19Z",
+    "updated_at": "2026-09-23T05:55:50Z",
     "owner": {
       "name": "gylive",
       "avatar_url": "https://avatars.githubusercontent.com/u/87460536?v=4"
@@ -165,13 +158,13 @@
     "name": "DavidCarliez/trustmebro",
     "url": "https://github.com/DavidCarliez/trustmebro",
     "description": "Bypass llm guardrails by confusing it with fabricated tool output.",
-    "stars": 497,
+    "stars": 498,
     "forks": 45,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-26T19:10:55Z",
-    "updated_at": "2026-09-21T13:29:16Z",
+    "updated_at": "2026-09-23T05:31:41Z",
     "owner": {
       "name": "DavidCarliez",
       "avatar_url": "https://avatars.githubusercontent.com/u/271374756?v=4"
@@ -181,8 +174,8 @@
     "name": "omacom/try-omarchy-windows",
     "url": "https://github.com/omacom/try-omarchy-windows",
     "description": "Use Omarchy Linux on Windows without any hassle.",
-    "stars": 448,
-    "forks": 46,
+    "stars": 461,
+    "forks": 47,
     "language": "Go",
     "topics": [
       "arch-linux",
@@ -201,7 +194,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-08-28T00:13:28Z",
-    "updated_at": "2026-09-21T22:42:51Z",
+    "updated_at": "2026-09-23T04:30:19Z",
     "owner": {
       "name": "omacom",
       "avatar_url": "https://avatars.githubusercontent.com/u/219015873?v=4"
@@ -264,10 +257,45 @@
     }
   },
   {
+    "name": "itsmostafa/typesafe-mcp",
+    "url": "https://github.com/itsmostafa/typesafe-mcp",
+    "description": "An mcp connector to evaluate anything fast and cheap. Give your AI agent direct access to typesafe ai's jev model. ",
+    "stars": 264,
+    "forks": 26,
+    "language": "Go",
+    "topics": [
+      "mcp",
+      "mcp-tools"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-17T05:23:34Z",
+    "updated_at": "2026-09-23T04:19:53Z",
+    "owner": {
+      "name": "itsmostafa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24395434?v=4"
+    }
+  },
+  {
+    "name": "BennyThink/NFCX",
+    "url": "https://github.com/BennyThink/NFCX",
+    "description": "NFC eXtended: A focused, cross-platform desktop workbench for authorized NFC card work.",
+    "stars": 258,
+    "forks": 37,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-11T23:31:57Z",
+    "updated_at": "2026-09-23T05:47:31Z",
+    "owner": {
+      "name": "BennyThink",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14024832?v=4"
+    }
+  },
+  {
     "name": "VaderChen/YourDesk",
     "url": "https://github.com/VaderChen/YourDesk",
     "description": "Cross-platform remote desktop for macOS and Windows with hardware acceleration, multi-monitor support, clipboard transfer for text, images, files and folders, and MCP integration for AI agents to connect to and control remote computers.",
-    "stars": 256,
+    "stars": 258,
     "forks": 34,
     "language": "Go",
     "topics": [
@@ -280,39 +308,23 @@
     ],
     "license": "Other",
     "created_at": "2026-09-08T03:53:34Z",
-    "updated_at": "2026-09-22T01:13:45Z",
+    "updated_at": "2026-09-23T03:25:12Z",
     "owner": {
       "name": "VaderChen",
       "avatar_url": "https://avatars.githubusercontent.com/u/8309425?v=4"
     }
   },
   {
-    "name": "BennyThink/NFCX",
-    "url": "https://github.com/BennyThink/NFCX",
-    "description": "NFC eXtended: A focused, cross-platform desktop workbench for authorized NFC card work.",
-    "stars": 255,
-    "forks": 37,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-11T23:31:57Z",
-    "updated_at": "2026-09-22T06:06:09Z",
-    "owner": {
-      "name": "BennyThink",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14024832?v=4"
-    }
-  },
-  {
     "name": "HyNetworks/OpenGFW",
     "url": "https://github.com/HyNetworks/OpenGFW",
     "description": "OpenGFW is your very own DIY Great Firewall of China",
-    "stars": 249,
-    "forks": 86,
+    "stars": 253,
+    "forks": 87,
     "language": "Go",
     "topics": [],
     "license": "Mozilla Public License 2.0",
     "created_at": "2026-09-19T09:21:17Z",
-    "updated_at": "2026-09-22T03:39:40Z",
+    "updated_at": "2026-09-23T06:01:52Z",
     "owner": {
       "name": "HyNetworks",
       "avatar_url": "https://avatars.githubusercontent.com/u/287139448?v=4"
@@ -343,22 +355,19 @@
     }
   },
   {
-    "name": "itsmostafa/typesafe-mcp",
-    "url": "https://github.com/itsmostafa/typesafe-mcp",
-    "description": "mcp connector to give your AI agent direct access to typesafe ai's jev model",
-    "stars": 233,
-    "forks": 22,
+    "name": "cocoyes/zhizhi-agent-runtime",
+    "url": "https://github.com/cocoyes/zhizhi-agent-runtime",
+    "description": "A model-agnostic, stateless Go agent runtime featuring dual-IR planning, dependency-aware batch scheduling, capability-driven MCP/tool orchestration, policy-based failure recovery, conditional replanning, side-effect control, and end-to-end execution observability.",
+    "stars": 231,
+    "forks": 12,
     "language": "Go",
-    "topics": [
-      "mcp",
-      "mcp-tools"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-09-17T05:23:34Z",
-    "updated_at": "2026-09-22T07:04:19Z",
+    "created_at": "2026-08-31T10:23:49Z",
+    "updated_at": "2026-09-23T06:48:33Z",
     "owner": {
-      "name": "itsmostafa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24395434?v=4"
+      "name": "cocoyes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24385018?v=4"
     }
   },
   {
@@ -382,7 +391,7 @@
     "url": "https://github.com/mailez-hq/mailez",
     "description": "Self-hosted mail server for your own domain: SMTP/IMAP/POP3, CardDAV/CalDAV, React webmail and admin console, one-command Docker Compose.",
     "stars": 222,
-    "forks": 15,
+    "forks": 17,
     "language": "Go",
     "topics": [
       "admin-console",
@@ -415,19 +424,27 @@
     }
   },
   {
-    "name": "cocoyes/zhizhi-agent-runtime",
-    "url": "https://github.com/cocoyes/zhizhi-agent-runtime",
-    "description": "A model-agnostic, stateless Go agent runtime featuring dual-IR planning, dependency-aware batch scheduling, capability-driven MCP/tool orchestration, policy-based failure recovery, conditional replanning, side-effect control, and end-to-end execution observability.",
-    "stars": 222,
-    "forks": 12,
+    "name": "kryvora-network/kryvora-node",
+    "url": "https://github.com/kryvora-network/kryvora-node",
+    "description": "Reference client daemon and verification worker for Kryvora Network nodes.",
+    "stars": 220,
+    "forks": 2,
     "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-08-31T10:23:49Z",
-    "updated_at": "2026-09-22T01:38:12Z",
+    "topics": [
+      "depin",
+      "distributed-systems",
+      "golang",
+      "infrastructure",
+      "node-runner",
+      "telemetry",
+      "worker-daemon"
+    ],
+    "license": "Other",
+    "created_at": "2026-09-22T16:10:23Z",
+    "updated_at": "2026-09-23T07:00:28Z",
     "owner": {
-      "name": "cocoyes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24385018?v=4"
+      "name": "kryvora-network",
+      "avatar_url": "https://avatars.githubusercontent.com/u/332587460?v=4"
     }
   },
   {
@@ -462,12 +479,12 @@
     "url": "https://github.com/x4gpanell/3x-ui_runonflux",
     "description": null,
     "stars": 211,
-    "forks": 458,
+    "forks": 461,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-09-10T09:34:43Z",
-    "updated_at": "2026-09-21T21:29:46Z",
+    "updated_at": "2026-09-22T16:55:55Z",
     "owner": {
       "name": "x4gpanell",
       "avatar_url": "https://avatars.githubusercontent.com/u/317284177?v=4"
@@ -478,7 +495,7 @@
     "url": "https://github.com/Stocist/Tailtab",
     "description": "A Tailscale node for each browser profile.",
     "stars": 207,
-    "forks": 17,
+    "forks": 18,
     "language": "Go",
     "topics": [],
     "license": "Other",
@@ -567,6 +584,22 @@
     }
   },
   {
+    "name": "wangyunjeff/sub2api-state-kit",
+    "url": "https://github.com/wangyunjeff/sub2api-state-kit",
+    "description": "Sub2API 账号级 STATE 扩展：Pro/Team 选择、固定代理复验与 312 异常动态守护（实验版）",
+    "stars": 197,
+    "forks": 58,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Lesser General Public License v3.0",
+    "created_at": "2026-09-18T14:25:18Z",
+    "updated_at": "2026-09-23T05:25:16Z",
+    "owner": {
+      "name": "wangyunjeff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17672204?v=4"
+    }
+  },
+  {
     "name": "zachahn/vomit",
     "url": "https://github.com/zachahn/vomit",
     "description": "Clean up Claude's token vomit with a separate LLM. Save your tokens, Opus is hopeless",
@@ -596,7 +629,7 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-07T08:13:04Z",
-    "updated_at": "2026-09-22T07:06:37Z",
+    "updated_at": "2026-09-23T01:26:58Z",
     "owner": {
       "name": "vianziro",
       "avatar_url": "https://avatars.githubusercontent.com/u/9649104?v=4"
@@ -619,72 +652,19 @@
     }
   },
   {
-    "name": "wangyunjeff/sub2api-state-kit",
-    "url": "https://github.com/wangyunjeff/sub2api-state-kit",
-    "description": "Sub2API 账号级 STATE 扩展：Pro/Team 选择、固定代理复验与 312 异常动态守护（实验版）",
-    "stars": 178,
-    "forks": 58,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Lesser General Public License v3.0",
-    "created_at": "2026-09-18T14:25:18Z",
-    "updated_at": "2026-09-22T06:29:43Z",
-    "owner": {
-      "name": "wangyunjeff",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17672204?v=4"
-    }
-  },
-  {
     "name": "kdbhalala/avdslim",
     "url": "https://github.com/kdbhalala/avdslim",
     "description": "⚡ Drop Android Virtual Device (AVD) emulator RAM from ~8GB to ~1.5GB on Apple Silicon & Linux. Inspired by simslim.",
-    "stars": 178,
+    "stars": 182,
     "forks": 8,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-16T06:52:40Z",
-    "updated_at": "2026-09-22T04:38:24Z",
+    "updated_at": "2026-09-23T06:06:01Z",
     "owner": {
       "name": "kdbhalala",
       "avatar_url": "https://avatars.githubusercontent.com/u/20184673?v=4"
-    }
-  },
-  {
-    "name": "trefeon/freebuff-proxy",
-    "url": "https://github.com/trefeon/freebuff-proxy",
-    "description": "OpenAI-compatible gateway for FreeBuff coding models. Token pool, session lifecycle, TLS stealth, embedded admin dashboard. No ads, no CLI, just /v1/chat/completions.",
-    "stars": 170,
-    "forks": 52,
-    "language": "Go",
-    "topics": [
-      "api-gateway",
-      "codebuff",
-      "coding-agent",
-      "coding-assistant",
-      "freebuff",
-      "golang",
-      "htmx",
-      "llm",
-      "llm-router",
-      "multi-account",
-      "openai",
-      "openai-compatible",
-      "proxy",
-      "reverse-proxy",
-      "self-hosted",
-      "session-management",
-      "single-binary",
-      "stealth",
-      "tls-fingerprinting",
-      "token-pool"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-11T07:06:43Z",
-    "updated_at": "2026-09-08T22:54:57Z",
-    "owner": {
-      "name": "trefeon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95156714?v=4"
     }
   },
   {
@@ -727,13 +707,13 @@
     "name": "CangShui/workbuddy-gateway",
     "url": "https://github.com/CangShui/workbuddy-gateway",
     "description": " 用Go语言写的腾讯 CodeBuddy 账号池纯Cli管理控制台 + OpenAI 兼容反代网关",
-    "stars": 156,
+    "stars": 157,
     "forks": 23,
     "language": "Go",
     "topics": [],
     "license": "No license",
     "created_at": "2026-09-03T15:50:21Z",
-    "updated_at": "2026-09-22T06:37:01Z",
+    "updated_at": "2026-09-22T22:49:47Z",
     "owner": {
       "name": "CangShui",
       "avatar_url": "https://avatars.githubusercontent.com/u/28698760?v=4"
@@ -743,13 +723,13 @@
     "name": "iQingshan/Toshell",
     "url": "https://github.com/iQingshan/Toshell",
     "description": "ToShell 是一个轻量 C2 框架，由 服务端（Team Server）+ Web 控制台 + 多平台植入端 组成，覆盖「生成载荷 → 会话管理 → 任务执行」的完整链路。单二进制即可部署整套服务，开箱即用。",
-    "stars": 152,
-    "forks": 40,
+    "stars": 156,
+    "forks": 41,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-08-27T12:26:59Z",
-    "updated_at": "2026-09-22T06:28:06Z",
+    "updated_at": "2026-09-23T05:48:34Z",
     "owner": {
       "name": "iQingshan",
       "avatar_url": "https://avatars.githubusercontent.com/u/102872581?v=4"
@@ -796,13 +776,13 @@
     "name": "kuuhaku1314/kairisei-ma-ch",
     "url": "https://github.com/kuuhaku1314/kairisei-ma-ch",
     "description": "《乖离性百万亚瑟王》国服社区保存与本地运行项目，提供自托管服务端、协议适配、客户端构建工具",
-    "stars": 142,
-    "forks": 22,
+    "stars": 145,
+    "forks": 24,
     "language": "Go",
     "topics": [],
     "license": "Other",
     "created_at": "2026-09-02T16:33:17Z",
-    "updated_at": "2026-09-22T03:23:37Z",
+    "updated_at": "2026-09-23T04:09:47Z",
     "owner": {
       "name": "kuuhaku1314",
       "avatar_url": "https://avatars.githubusercontent.com/u/74090599?v=4"
@@ -828,13 +808,13 @@
     "name": "YongshengWin/VpsCT",
     "url": "https://github.com/YongshengWin/VpsCT",
     "description": "面向个人和小团队的自托管服务器管理面板，集中管理 VPS 状态、流量、服务配置与资源分享。",
-    "stars": 139,
+    "stars": 141,
     "forks": 28,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-15T10:55:08Z",
-    "updated_at": "2026-09-20T14:11:02Z",
+    "updated_at": "2026-09-23T06:20:31Z",
     "owner": {
       "name": "YongshengWin",
       "avatar_url": "https://avatars.githubusercontent.com/u/58181570?v=4"
@@ -844,7 +824,7 @@
     "name": "Iman/caspian",
     "url": "https://github.com/Iman/caspian",
     "description": "Caspian-BYOC: a Persian-first anti-DPI WiFi gateway for Windows, macOS, Raspberry Pi and Linux. Share your VLESS, VMess, Trojan, Shadowsocks, SOCKS or Hysteria2 Xray tunnel, with optional SNI spoofing and TLS splitting (DPI circumvention).",
-    "stars": 138,
+    "stars": 140,
     "forks": 11,
     "language": "Go",
     "topics": [
@@ -871,7 +851,7 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-08-31T19:54:40Z",
-    "updated_at": "2026-09-21T19:15:00Z",
+    "updated_at": "2026-09-22T19:26:38Z",
     "owner": {
       "name": "Iman",
       "avatar_url": "https://avatars.githubusercontent.com/u/86786?v=4"
@@ -931,10 +911,26 @@
     }
   },
   {
+    "name": "446599/ccodex-rotate",
+    "url": "https://github.com/446599/ccodex-rotate",
+    "description": "Local Codex reverse proxy: rotating proxy-node pool, lazy health failover, and per-model 292 turn-state collection/injection. macOS + Windows.",
+    "stars": 132,
+    "forks": 22,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-20T08:29:10Z",
+    "updated_at": "2026-09-23T04:48:23Z",
+    "owner": {
+      "name": "446599",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116695909?v=4"
+    }
+  },
+  {
     "name": "mycelium-mesh/amneziawg-ui",
     "url": "https://github.com/mycelium-mesh/amneziawg-ui",
     "description": "Графический WEB интерфейс UI в браузере + VPN AmneziaWG 3.1 на VPS в Docker одной командой. Без мусора и лишних зависимостей",
-    "stars": 126,
+    "stars": 129,
     "forks": 9,
     "language": "Go",
     "topics": [
@@ -948,10 +944,42 @@
     ],
     "license": "No license",
     "created_at": "2026-09-03T14:27:10Z",
-    "updated_at": "2026-09-22T04:04:40Z",
+    "updated_at": "2026-09-23T06:35:16Z",
     "owner": {
       "name": "mycelium-mesh",
       "avatar_url": "https://avatars.githubusercontent.com/u/324076549?v=4"
+    }
+  },
+  {
+    "name": "arden-aaai/cpa-plugin-codex-turn-state",
+    "url": "https://github.com/arden-aaai/cpa-plugin-codex-turn-state",
+    "description": null,
+    "stars": 128,
+    "forks": 48,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-17T10:30:02Z",
+    "updated_at": "2026-09-23T04:45:09Z",
+    "owner": {
+      "name": "arden-aaai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95458579?v=4"
+    }
+  },
+  {
+    "name": "dorkitude/webctl",
+    "url": "https://github.com/dorkitude/webctl",
+    "description": "Smart web search CLI for agents, backed by Jev. Saves a lot of tokens.",
+    "stars": 126,
+    "forks": 13,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-20T07:27:00Z",
+    "updated_at": "2026-09-23T06:25:39Z",
+    "owner": {
+      "name": "dorkitude",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157717?v=4"
     }
   },
   {
@@ -1019,22 +1047,6 @@
     "owner": {
       "name": "vvrnv",
       "avatar_url": "https://avatars.githubusercontent.com/u/40491079?v=4"
-    }
-  },
-  {
-    "name": "arden-aaai/cpa-plugin-codex-turn-state",
-    "url": "https://github.com/arden-aaai/cpa-plugin-codex-turn-state",
-    "description": null,
-    "stars": 117,
-    "forks": 46,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-17T10:30:02Z",
-    "updated_at": "2026-09-22T06:54:07Z",
-    "owner": {
-      "name": "arden-aaai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95458579?v=4"
     }
   },
   {
@@ -1119,30 +1131,6 @@
     "owner": {
       "name": "mattn",
       "avatar_url": "https://avatars.githubusercontent.com/u/10111?v=4"
-    }
-  },
-  {
-    "name": "zepto-labs/scherry",
-    "url": "https://github.com/zepto-labs/scherry",
-    "description": "Split it. Ship it. Track it - Because every big job deserves a little scherry on top :cherries:",
-    "stars": 102,
-    "forks": 16,
-    "language": "Go",
-    "topics": [
-      "distributed-systems",
-      "go",
-      "golang",
-      "job-queue",
-      "job-scheduler",
-      "kafka",
-      "postgres"
-    ],
-    "license": "Other",
-    "created_at": "2026-08-11T08:59:18Z",
-    "updated_at": "2026-09-08T07:28:54Z",
-    "owner": {
-      "name": "zepto-labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/213445769?v=4"
     }
   },
   {
