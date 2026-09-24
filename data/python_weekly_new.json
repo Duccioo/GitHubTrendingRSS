@@ -2,14 +2,28 @@
   {
     "name": "NandhaKishorM/laya",
     "url": "https://github.com/NandhaKishorM/laya",
-    "description": null,
-    "stars": 17913,
-    "forks": 1520,
+    "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+    "stars": 21355,
+    "forks": 1817,
     "language": "Python",
-    "topics": [],
+    "topics": [
+      "calibration",
+      "classification",
+      "decision-model",
+      "huggingface",
+      "jev",
+      "modernbert",
+      "multilingual",
+      "nlp",
+      "python",
+      "pytorch",
+      "routing",
+      "typed-decisions",
+      "zero-shot"
+    ],
     "license": "Apache License 2.0",
     "created_at": "2026-09-18T04:46:33Z",
-    "updated_at": "2026-09-23T07:05:43Z",
+    "updated_at": "2026-09-24T07:01:52Z",
     "owner": {
       "name": "NandhaKishorM",
       "avatar_url": "https://avatars.githubusercontent.com/u/48623612?v=4"
@@ -35,8 +49,8 @@
     "name": "mizorewww/laya-mlx",
     "url": "https://github.com/mizorewww/laya-mlx",
     "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
-    "stars": 5643,
-    "forks": 409,
+    "stars": 6068,
+    "forks": 462,
     "language": "Python",
     "topics": [
       "apple-silicon",
@@ -52,7 +66,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-09-19T13:50:26Z",
-    "updated_at": "2026-09-23T07:05:01Z",
+    "updated_at": "2026-09-24T07:00:36Z",
     "owner": {
       "name": "mizorewww",
       "avatar_url": "https://avatars.githubusercontent.com/u/252857002?v=4"
@@ -143,32 +157,16 @@
     }
   },
   {
-    "name": "Rion-Wu-tech/wechat-intelligence-hub",
-    "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
-    "description": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
-    "stars": 2035,
-    "forks": 2551,
-    "language": "Python",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-09-04T15:00:53Z",
-    "updated_at": "2026-09-10T06:39:40Z",
-    "owner": {
-      "name": "Rion-Wu-tech",
-      "avatar_url": "https://avatars.githubusercontent.com/u/184370191?v=4"
-    }
-  },
-  {
     "name": "bespokelabsai/nimble",
     "url": "https://github.com/bespokelabsai/nimble",
     "description": "Local typed decisions, contrastive data curation, and model evaluation.",
-    "stars": 1653,
-    "forks": 119,
+    "stars": 1703,
+    "forks": 128,
     "language": "Python",
     "topics": [],
     "license": "No license",
     "created_at": "2026-09-18T09:07:48Z",
-    "updated_at": "2026-09-23T07:04:17Z",
+    "updated_at": "2026-09-24T06:38:26Z",
     "owner": {
       "name": "bespokelabsai",
       "avatar_url": "https://avatars.githubusercontent.com/u/167806754?v=4"
@@ -207,6 +205,32 @@
     }
   },
   {
+    "name": "mizorewww/laya-coreml",
+    "url": "https://github.com/mizorewww/laya-coreml",
+    "description": "Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.",
+    "stars": 1403,
+    "forks": 119,
+    "language": "Python",
+    "topics": [
+      "apple-neural-engine",
+      "apple-silicon",
+      "coreml",
+      "decision-model",
+      "laya",
+      "local-ai",
+      "modernbert",
+      "on-device-ai",
+      "typed-decisions"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-19T23:14:13Z",
+    "updated_at": "2026-09-24T06:53:15Z",
+    "owner": {
+      "name": "mizorewww",
+      "avatar_url": "https://avatars.githubusercontent.com/u/252857002?v=4"
+    }
+  },
+  {
     "name": "yibie/awesome-jev",
     "url": "https://github.com/yibie/awesome-jev",
     "description": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
@@ -228,29 +252,19 @@
     }
   },
   {
-    "name": "mizorewww/laya-coreml",
-    "url": "https://github.com/mizorewww/laya-coreml",
-    "description": "Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.",
-    "stars": 1326,
-    "forks": 101,
+    "name": "newliver666/apk-reverse",
+    "url": "https://github.com/newliver666/apk-reverse",
+    "description": "Suitable for Android APK reverse engineering analysis",
+    "stars": 1353,
+    "forks": 366,
     "language": "Python",
-    "topics": [
-      "apple-neural-engine",
-      "apple-silicon",
-      "coreml",
-      "decision-model",
-      "laya",
-      "local-ai",
-      "modernbert",
-      "on-device-ai",
-      "typed-decisions"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-19T23:14:13Z",
-    "updated_at": "2026-09-23T06:51:29Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-19T13:12:54Z",
+    "updated_at": "2026-09-24T06:53:27Z",
     "owner": {
-      "name": "mizorewww",
-      "avatar_url": "https://avatars.githubusercontent.com/u/252857002?v=4"
+      "name": "newliver666",
+      "avatar_url": "https://avatars.githubusercontent.com/u/328839634?v=4"
     }
   },
   {
@@ -283,22 +297,6 @@
     "owner": {
       "name": "TheoLeeCJ",
       "avatar_url": "https://avatars.githubusercontent.com/u/22087932?v=4"
-    }
-  },
-  {
-    "name": "newliver666/apk-reverse",
-    "url": "https://github.com/newliver666/apk-reverse",
-    "description": "Suitable for Android APK reverse engineering analysis",
-    "stars": 1023,
-    "forks": 327,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-19T13:12:54Z",
-    "updated_at": "2026-09-23T07:01:38Z",
-    "owner": {
-      "name": "newliver666",
-      "avatar_url": "https://avatars.githubusercontent.com/u/328839634?v=4"
     }
   },
   {
@@ -394,6 +392,22 @@
     }
   },
   {
+    "name": "deepopen-com/deepopen",
+    "url": "https://github.com/deepopen-com/deepopen",
+    "description": "非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine. ",
+    "stars": 740,
+    "forks": 48,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-21T02:12:24Z",
+    "updated_at": "2026-09-24T06:57:37Z",
+    "owner": {
+      "name": "deepopen-com",
+      "avatar_url": "https://avatars.githubusercontent.com/u/331844194?v=4"
+    }
+  },
+  {
     "name": "korcarc/text-humanizer",
     "url": "https://github.com/korcarc/text-humanizer",
     "description": "text-humanizer is an open-source project designed to convert text generated by AI to its \"humanized\" version. Bypasses the most of AI detectors such as Turnitin or GPTZero",
@@ -453,6 +467,22 @@
     }
   },
   {
+    "name": "volotat/mini-AGI",
+    "url": "https://github.com/volotat/mini-AGI",
+    "description": "Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data.",
+    "stars": 727,
+    "forks": 106,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-19T00:25:59Z",
+    "updated_at": "2026-09-24T06:53:26Z",
+    "owner": {
+      "name": "volotat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14307880?v=4"
+    }
+  },
+  {
     "name": "Colafornia/short-video-generator-AI",
     "url": "https://github.com/Colafornia/short-video-generator-AI",
     "description": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content.",
@@ -471,6 +501,45 @@
     "owner": {
       "name": "Colafornia",
       "avatar_url": "https://avatars.githubusercontent.com/u/13252625?v=4"
+    }
+  },
+  {
+    "name": "kerpopule/hermes-jev-skills",
+    "url": "https://github.com/kerpopule/hermes-jev-skills",
+    "description": "Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex)",
+    "stars": 718,
+    "forks": 65,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-18T20:01:29Z",
+    "updated_at": "2026-09-24T05:02:24Z",
+    "owner": {
+      "name": "kerpopule",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26120791?v=4"
+    }
+  },
+  {
+    "name": "incoai/splash",
+    "url": "https://github.com/incoai/splash",
+    "description": "A local inference engine for Apple silicon, built around the model.",
+    "stars": 706,
+    "forks": 68,
+    "language": "Python",
+    "topics": [
+      "apple-silicon",
+      "coding-agents",
+      "llm-inference",
+      "macos",
+      "metal",
+      "speculative-decoding"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-18T20:01:48Z",
+    "updated_at": "2026-09-24T06:51:31Z",
+    "owner": {
+      "name": "incoai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/282140180?v=4"
     }
   },
   {
@@ -503,61 +572,6 @@
     "owner": {
       "name": "ArasTey",
       "avatar_url": "https://avatars.githubusercontent.com/u/308009703?v=4"
-    }
-  },
-  {
-    "name": "incoai/splash",
-    "url": "https://github.com/incoai/splash",
-    "description": "A local inference engine for Apple silicon, built around the model.",
-    "stars": 646,
-    "forks": 59,
-    "language": "Python",
-    "topics": [
-      "apple-silicon",
-      "coding-agents",
-      "llm-inference",
-      "macos",
-      "metal",
-      "speculative-decoding"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-18T20:01:48Z",
-    "updated_at": "2026-09-23T06:16:39Z",
-    "owner": {
-      "name": "incoai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/282140180?v=4"
-    }
-  },
-  {
-    "name": "volotat/mini-AGI",
-    "url": "https://github.com/volotat/mini-AGI",
-    "description": "Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data.",
-    "stars": 637,
-    "forks": 78,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-19T00:25:59Z",
-    "updated_at": "2026-09-23T07:05:00Z",
-    "owner": {
-      "name": "volotat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14307880?v=4"
-    }
-  },
-  {
-    "name": "kerpopule/hermes-jev-skills",
-    "url": "https://github.com/kerpopule/hermes-jev-skills",
-    "description": "Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex)",
-    "stars": 633,
-    "forks": 56,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-18T20:01:29Z",
-    "updated_at": "2026-09-23T07:05:07Z",
-    "owner": {
-      "name": "kerpopule",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26120791?v=4"
     }
   },
   {
@@ -606,26 +620,34 @@
     }
   },
   {
-    "name": "AI-FanGe/Microduck-build-tutorial",
-    "url": "https://github.com/AI-FanGe/Microduck-build-tutorial",
-    "description": "A practical hardware and software setup for a compact RL-powered biped robot.",
-    "stars": 589,
-    "forks": 152,
+    "name": "wfzyx/von",
+    "url": "https://github.com/wfzyx/von",
+    "description": "The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev.",
+    "stars": 603,
+    "forks": 46,
     "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-04T17:18:43Z",
-    "updated_at": "2026-09-10T06:39:31Z",
+    "topics": [
+      "decision-model",
+      "jev",
+      "machine-learning",
+      "python",
+      "rlcd",
+      "system-one",
+      "typesafe"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-18T05:03:47Z",
+    "updated_at": "2026-09-24T06:59:52Z",
     "owner": {
-      "name": "AI-FanGe",
-      "avatar_url": "https://avatars.githubusercontent.com/u/202376609?v=4"
+      "name": "wfzyx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5880370?v=4"
     }
   },
   {
     "name": "arvindear/wp2shell-PoC",
     "url": "https://github.com/arvindear/wp2shell-PoC",
     "description": "CVE-2026-63030 & CVE-2026-60137 RCE chain proof-of-concept",
-    "stars": 563,
+    "stars": 564,
     "forks": 53,
     "language": "Python",
     "topics": [
@@ -637,7 +659,7 @@
     ],
     "license": "No license",
     "created_at": "2026-09-18T16:35:32Z",
-    "updated_at": "2026-09-22T16:30:21Z",
+    "updated_at": "2026-09-24T00:01:59Z",
     "owner": {
       "name": "arvindear",
       "avatar_url": "https://avatars.githubusercontent.com/u/140964372?v=4"
@@ -710,6 +732,22 @@
     }
   },
   {
+    "name": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+    "url": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+    "description": "Runtime behavioral ablation for compressed LLMs. First target: Ternary Bonsai 2 27B — no weight modification or re-quantization. by OrcaRouter team",
+    "stars": 533,
+    "forks": 62,
+    "language": "Python",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-09-18T06:45:54Z",
+    "updated_at": "2026-09-24T01:42:26Z",
+    "owner": {
+      "name": "Continuum-AI-Corp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/273996259?v=4"
+    }
+  },
+  {
     "name": "ctdal/cve-2026-41940-PoC",
     "url": "https://github.com/ctdal/cve-2026-41940-PoC",
     "description": "A cPanel and WHM authentication bypassing tool",
@@ -732,19 +770,24 @@
     }
   },
   {
-    "name": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
-    "url": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
-    "description": "Runtime behavioral ablation for compressed LLMs. First target: Ternary Bonsai 2 27B — no weight modification or re-quantization. by OrcaRouter team",
-    "stars": 526,
-    "forks": 61,
+    "name": "unicodef1wn/grokbot-field-notes",
+    "url": "https://github.com/unicodef1wn/grokbot-field-notes",
+    "description": "Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team's 72-hour live build. Drop AGENTS.md into your repo and go.",
+    "stars": 522,
+    "forks": 71,
     "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-09-18T06:45:54Z",
-    "updated_at": "2026-09-22T21:35:36Z",
+    "topics": [
+      "cursor",
+      "grokbot",
+      "spacex",
+      "xai"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-18T09:15:24Z",
+    "updated_at": "2026-09-24T05:50:03Z",
     "owner": {
-      "name": "Continuum-AI-Corp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/273996259?v=4"
+      "name": "unicodef1wn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/257170713?v=4"
     }
   },
   {
@@ -764,27 +807,19 @@
     }
   },
   {
-    "name": "wfzyx/von",
-    "url": "https://github.com/wfzyx/von",
-    "description": "The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev.",
-    "stars": 510,
-    "forks": 41,
+    "name": "featherless-ai/simple-jev",
+    "url": "https://github.com/featherless-ai/simple-jev",
+    "description": "Turn any open model into a classifier/jev endpoint",
+    "stars": 506,
+    "forks": 58,
     "language": "Python",
-    "topics": [
-      "decision-model",
-      "jev",
-      "machine-learning",
-      "python",
-      "rlcd",
-      "system-one",
-      "typesafe"
-    ],
+    "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2026-09-18T05:03:47Z",
-    "updated_at": "2026-09-23T06:41:08Z",
+    "created_at": "2026-09-18T09:52:15Z",
+    "updated_at": "2026-09-24T06:40:12Z",
     "owner": {
-      "name": "wfzyx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5880370?v=4"
+      "name": "featherless-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/172633431?v=4"
     }
   },
   {
@@ -806,43 +841,6 @@
     "owner": {
       "name": "kevinzakka",
       "avatar_url": "https://avatars.githubusercontent.com/u/10518920?v=4"
-    }
-  },
-  {
-    "name": "unicodef1wn/grokbot-field-notes",
-    "url": "https://github.com/unicodef1wn/grokbot-field-notes",
-    "description": "Rules, playbooks, bot roles and a failure log from the xAI Grok Bot team's 72-hour live build. Drop AGENTS.md into your repo and go.",
-    "stars": 501,
-    "forks": 67,
-    "language": "Python",
-    "topics": [
-      "cursor",
-      "grokbot",
-      "spacex",
-      "xai"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-18T09:15:24Z",
-    "updated_at": "2026-09-23T05:31:05Z",
-    "owner": {
-      "name": "unicodef1wn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/257170713?v=4"
-    }
-  },
-  {
-    "name": "featherless-ai/simple-jev",
-    "url": "https://github.com/featherless-ai/simple-jev",
-    "description": "Turn any open model into a classifier/jev endpoint",
-    "stars": 490,
-    "forks": 55,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-18T09:52:15Z",
-    "updated_at": "2026-09-23T06:53:08Z",
-    "owner": {
-      "name": "featherless-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/172633431?v=4"
     }
   },
   {
@@ -878,19 +876,62 @@
     }
   },
   {
+    "name": "jev-chat/jev-chat-windows",
+    "url": "https://github.com/jev-chat/jev-chat-windows",
+    "description": "微信（Windows 4.x）旁挂的回复辅助：窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
+    "stars": 481,
+    "forks": 102,
+    "language": "Python",
+    "topics": [
+      "chat-assistant",
+      "jev",
+      "llm",
+      "local-first",
+      "ocr",
+      "privacy",
+      "pyqt",
+      "python",
+      "wechat",
+      "windows"
+    ],
+    "license": "Other",
+    "created_at": "2026-09-21T14:37:14Z",
+    "updated_at": "2026-09-24T06:58:23Z",
+    "owner": {
+      "name": "jev-chat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/332283779?v=4"
+    }
+  },
+  {
     "name": "wuyoscar/jev-skill",
     "url": "https://github.com/wuyoscar/jev-skill",
     "description": "An awesome collection of Jev use cases, workflows, and agent skills.",
-    "stars": 450,
-    "forks": 27,
+    "stars": 466,
+    "forks": 31,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-20T02:35:26Z",
-    "updated_at": "2026-09-23T06:59:49Z",
+    "updated_at": "2026-09-24T06:47:30Z",
     "owner": {
       "name": "wuyoscar",
       "avatar_url": "https://avatars.githubusercontent.com/u/72287536?v=4"
+    }
+  },
+  {
+    "name": "rgem227/knoweldge-base",
+    "url": "https://github.com/rgem227/knoweldge-base",
+    "description": "Personal or team knowledge base, supports MCP API calls.",
+    "stars": 459,
+    "forks": 5,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-22T04:28:59Z",
+    "updated_at": "2026-09-24T06:56:21Z",
+    "owner": {
+      "name": "rgem227",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61940396?v=4"
     }
   },
   {
@@ -945,89 +986,68 @@
     }
   },
   {
-    "name": "deepopen-com/deepopen",
-    "url": "https://github.com/deepopen-com/deepopen",
-    "description": "非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine. ",
-    "stars": 386,
-    "forks": 3,
+    "name": "nokia-applied-research/AnyJev",
+    "url": "https://github.com/nokia-applied-research/AnyJev",
+    "description": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+    "stars": 415,
+    "forks": 64,
+    "language": "Python",
+    "topics": [
+      "calibration",
+      "decision-model",
+      "jev",
+      "jev-model",
+      "llm",
+      "system-one",
+      "transformers",
+      "vllm"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-21T05:55:40Z",
+    "updated_at": "2026-09-24T06:53:58Z",
+    "owner": {
+      "name": "nokia-applied-research",
+      "avatar_url": "https://avatars.githubusercontent.com/u/312694883?v=4"
+    }
+  },
+  {
+    "name": "jerryjliu/docjev",
+    "url": "https://github.com/jerryjliu/docjev",
+    "description": "A very fast document classifier/splitter using Jev ",
+    "stars": 414,
+    "forks": 27,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2026-09-21T02:12:24Z",
-    "updated_at": "2026-09-23T06:56:22Z",
+    "created_at": "2026-09-19T17:17:03Z",
+    "updated_at": "2026-09-24T03:58:06Z",
     "owner": {
-      "name": "deepopen-com",
-      "avatar_url": "https://avatars.githubusercontent.com/u/331844194?v=4"
+      "name": "jerryjliu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4858925?v=4"
     }
   },
   {
-    "name": "DefiLeoo/YOINK",
-    "url": "https://github.com/DefiLeoo/YOINK",
-    "description": null,
-    "stars": 379,
-    "forks": 22,
+    "name": "Rizzo-AI-Academy/rizzo-flow",
+    "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+    "description": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
+    "stars": 395,
+    "forks": 23,
     "language": "Python",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-11T10:54:31Z",
-    "updated_at": "2026-09-16T06:35:19Z",
-    "owner": {
-      "name": "DefiLeoo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/135053852?v=4"
-    }
-  },
-  {
-    "name": "caxete/crypto-tax-calculator",
-    "url": "https://github.com/caxete/crypto-tax-calculator",
-    "description": "A comprehensive crypto tax solution supporting leading wallets, exchanges, and blockchain explorers.",
-    "stars": 378,
-    "forks": 121,
-    "language": "Python",
-    "topics": [
-      "bitcoin",
-      "crypto-tax-calculator",
-      "crypto-tax-reports",
-      "cryptocurrency",
-      "cryptotax",
-      "tax-calculation",
-      "tax-calculator",
-      "tax-reports"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-09-20T12:06:40Z",
-    "updated_at": "2026-09-22T17:34:29Z",
-    "owner": {
-      "name": "caxete",
-      "avatar_url": "https://avatars.githubusercontent.com/u/153209996?v=4"
-    }
-  },
-  {
-    "name": "minorun365/minorun-marp-skill",
-    "url": "https://github.com/minorun365/minorun-marp-skill",
-    "description": "Marpで登壇スライドを作るための、ストーリー・図・デザインバランスのスキル集と黒地テーマ、検査ツール",
-    "stars": 364,
-    "forks": 12,
-    "language": "Python",
-    "topics": [
-      "agent-skills",
-      "claude-code",
-      "marp",
-      "presentation"
-    ],
     "license": "Apache License 2.0",
-    "created_at": "2026-09-20T13:48:09Z",
-    "updated_at": "2026-09-23T06:19:07Z",
+    "created_at": "2026-09-21T00:00:02Z",
+    "updated_at": "2026-09-24T03:27:03Z",
     "owner": {
-      "name": "minorun365",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74597894?v=4"
+      "name": "Rizzo-AI-Academy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/217188291?v=4"
     }
   },
   {
     "name": "MelisaPeteRs2006/Silent-Crypto-Miner",
     "url": "https://github.com/MelisaPeteRs2006/Silent-Crypto-Miner",
     "description": "Silent Crypto Miner is an advanced cryptocurrency mining builder and runtime engine with multi-algorithm CPU/GPU support and intelligent resource management. Create custom mining executables with configurable algorithms, cross-platform output, real-time monitoring, session persistence, thermal throttling, scheduling, and hashrate optimization.",
-    "stars": 358,
-    "forks": 47,
+    "stars": 391,
+    "forks": 50,
     "language": "Python",
     "topics": [
       "bitcoin-mining-tools",
@@ -1053,10 +1073,88 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-18T11:55:33Z",
-    "updated_at": "2026-09-23T06:50:42Z",
+    "updated_at": "2026-09-24T06:51:21Z",
     "owner": {
       "name": "MelisaPeteRs2006",
       "avatar_url": "https://avatars.githubusercontent.com/u/244677995?v=4"
+    }
+  },
+  {
+    "name": "razorback16/openjev",
+    "url": "https://github.com/razorback16/openjev",
+    "description": "Open, Jev-compatible System One decision server on DiffusionGemma",
+    "stars": 381,
+    "forks": 31,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-18T09:15:33Z",
+    "updated_at": "2026-09-24T06:50:26Z",
+    "owner": {
+      "name": "razorback16",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5079550?v=4"
+    }
+  },
+  {
+    "name": "DefiLeoo/YOINK",
+    "url": "https://github.com/DefiLeoo/YOINK",
+    "description": null,
+    "stars": 379,
+    "forks": 22,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-11T10:54:31Z",
+    "updated_at": "2026-09-16T06:35:19Z",
+    "owner": {
+      "name": "DefiLeoo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/135053852?v=4"
+    }
+  },
+  {
+    "name": "caxete/crypto-tax-calculator",
+    "url": "https://github.com/caxete/crypto-tax-calculator",
+    "description": "A comprehensive crypto tax solution supporting leading wallets, exchanges, and blockchain explorers.",
+    "stars": 377,
+    "forks": 121,
+    "language": "Python",
+    "topics": [
+      "bitcoin",
+      "crypto-tax-calculator",
+      "crypto-tax-reports",
+      "cryptocurrency",
+      "cryptotax",
+      "tax-calculation",
+      "tax-calculator",
+      "tax-reports"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-09-20T12:06:40Z",
+    "updated_at": "2026-09-23T11:12:17Z",
+    "owner": {
+      "name": "caxete",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153209996?v=4"
+    }
+  },
+  {
+    "name": "minorun365/minorun-marp-skill",
+    "url": "https://github.com/minorun365/minorun-marp-skill",
+    "description": "Marpで登壇スライドを作るための、ストーリー・図・デザインバランスのスキル集と黒地テーマ、検査ツール",
+    "stars": 375,
+    "forks": 13,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "claude-code",
+      "marp",
+      "presentation"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-20T13:48:09Z",
+    "updated_at": "2026-09-24T07:00:10Z",
+    "owner": {
+      "name": "minorun365",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74597894?v=4"
     }
   },
   {
@@ -1097,49 +1195,6 @@
     }
   },
   {
-    "name": "Rizzo-AI-Academy/rizzo-flow",
-    "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
-    "description": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
-    "stars": 352,
-    "forks": 19,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-21T00:00:02Z",
-    "updated_at": "2026-09-23T06:55:20Z",
-    "owner": {
-      "name": "Rizzo-AI-Academy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/217188291?v=4"
-    }
-  },
-  {
-    "name": "jev-chat/jev-chat-windows",
-    "url": "https://github.com/jev-chat/jev-chat-windows",
-    "description": "微信（Windows 4.x）旁挂的回复辅助：窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
-    "stars": 347,
-    "forks": 76,
-    "language": "Python",
-    "topics": [
-      "chat-assistant",
-      "jev",
-      "llm",
-      "local-first",
-      "ocr",
-      "privacy",
-      "pyqt",
-      "python",
-      "wechat",
-      "windows"
-    ],
-    "license": "Other",
-    "created_at": "2026-09-21T14:37:14Z",
-    "updated_at": "2026-09-23T07:01:03Z",
-    "owner": {
-      "name": "jev-chat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/332283779?v=4"
-    }
-  },
-  {
     "name": "AetherLabsAI/RSIAgent",
     "url": "https://github.com/AetherLabsAI/RSIAgent",
     "description": "A training-free multi-agent framework for recursive self-improvement in new environments through broad-then-deep autonomous exploration and reusable memory.",
@@ -1172,16 +1227,57 @@
     }
   },
   {
+    "name": "joeseesun/qiaomu-download",
+    "url": "https://github.com/joeseesun/qiaomu-download",
+    "description": "通用在线视频下载与媒体提取技能。用户提供 YouTube/youtu.be、B站/bilibili/b23.tv、X/Twitter、Vimeo、TikTok、Instagram、Facebook、Twitch、Reddit 或其他 yt-dlp 支持的视频链接，并要求下载/保存视频、提取 audio/MP3、下载字幕、查看视频信息或更新 yt-dlp 时使用。微信视频号 weixin.qq.com/sph 链接转交 qiaomu-wx-video，绝不自动化操作微信客户端。",
+    "stars": 338,
+    "forks": 58,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-19T09:53:27Z",
+    "updated_at": "2026-09-24T04:10:05Z",
+    "owner": {
+      "name": "joeseesun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3236682?v=4"
+    }
+  },
+  {
+    "name": "jev-chat/jev-chat-jarvis-mac",
+    "url": "https://github.com/jev-chat/jev-chat-jarvis-mac",
+    "description": "微信消息意图识别悬浮窗（macOS）：看屏 + 本地小模型判断意图和风险，再按话术生成回复候选。纯只读、不注入微信。",
+    "stars": 337,
+    "forks": 108,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "local-first",
+      "macos",
+      "ocr",
+      "privacy",
+      "pyobjc",
+      "python",
+      "wechat"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-21T11:39:32Z",
+    "updated_at": "2026-09-24T06:58:18Z",
+    "owner": {
+      "name": "jev-chat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/332283779?v=4"
+    }
+  },
+  {
     "name": "JamesKInner/Covalent-MAS",
     "url": "https://github.com/JamesKInner/Covalent-MAS",
     "description": null,
-    "stars": 338,
+    "stars": 337,
     "forks": 1,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-19T09:36:13Z",
-    "updated_at": "2026-09-22T05:56:07Z",
+    "updated_at": "2026-09-23T11:12:17Z",
     "owner": {
       "name": "JamesKInner",
       "avatar_url": "https://avatars.githubusercontent.com/u/59954715?v=4"
@@ -1204,38 +1300,6 @@
     }
   },
   {
-    "name": "razorback16/openjev",
-    "url": "https://github.com/razorback16/openjev",
-    "description": "Open, Jev-compatible System One decision server on DiffusionGemma",
-    "stars": 326,
-    "forks": 25,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-18T09:15:33Z",
-    "updated_at": "2026-09-23T06:42:09Z",
-    "owner": {
-      "name": "razorback16",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5079550?v=4"
-    }
-  },
-  {
-    "name": "joeseesun/qiaomu-download",
-    "url": "https://github.com/joeseesun/qiaomu-download",
-    "description": "通用在线视频下载与媒体提取技能。用户提供 YouTube/youtu.be、B站/bilibili/b23.tv、X/Twitter、Vimeo、TikTok、Instagram、Facebook、Twitch、Reddit 或其他 yt-dlp 支持的视频链接，并要求下载/保存视频、提取 audio/MP3、下载字幕、查看视频信息或更新 yt-dlp 时使用。微信视频号 weixin.qq.com/sph 链接转交 qiaomu-wx-video，绝不自动化操作微信客户端。",
-    "stars": 324,
-    "forks": 56,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-19T09:53:27Z",
-    "updated_at": "2026-09-23T06:24:19Z",
-    "owner": {
-      "name": "joeseesun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3236682?v=4"
-    }
-  },
-  {
     "name": "biusberline/cloudflare-turnstile-solver",
     "url": "https://github.com/biusberline/cloudflare-turnstile-solver",
     "description": "A small Python library and CLI for working with Cloudflare Turnstile on your own pages - read the sitekey, build the token, verify the result.",
@@ -1255,22 +1319,6 @@
     "owner": {
       "name": "biusberline",
       "avatar_url": "https://avatars.githubusercontent.com/u/8263411?v=4"
-    }
-  },
-  {
-    "name": "jerryjliu/docjev",
-    "url": "https://github.com/jerryjliu/docjev",
-    "description": "A very fast document classifier/splitter using Jev ",
-    "stars": 312,
-    "forks": 23,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-19T17:17:03Z",
-    "updated_at": "2026-09-23T07:01:37Z",
-    "owner": {
-      "name": "jerryjliu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4858925?v=4"
     }
   },
   {
@@ -1316,19 +1364,70 @@
     }
   },
   {
-    "name": "MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark",
-    "url": "https://github.com/MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark",
-    "description": "Qwen3.8-Flash-Next on ONE DGX Spark (TP=1)",
-    "stars": 302,
-    "forks": 41,
+    "name": "Oldcircle/geo-sleuth",
+    "url": "https://github.com/Oldcircle/geo-sleuth",
+    "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+    "stars": 300,
+    "forks": 33,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "computer-vision",
+      "cursor",
+      "gemini-cli",
+      "geoguessr",
+      "geoint",
+      "geolocation",
+      "github-copilot",
+      "image-geolocation",
+      "opencode",
+      "openstreetmap",
+      "osint",
+      "photo-geolocation",
+      "reverse-image-search",
+      "satellite-imagery"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-18T08:51:34Z",
+    "updated_at": "2026-09-24T06:36:28Z",
+    "owner": {
+      "name": "Oldcircle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72587513?v=4"
+    }
+  },
+  {
+    "name": "Zefan-Cai/Open-Jev",
+    "url": "https://github.com/Zefan-Cai/Open-Jev",
+    "description": null,
+    "stars": 296,
+    "forks": 28,
     "language": "Python",
     "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-09-04T11:23:46Z",
-    "updated_at": "2026-09-10T04:11:45Z",
+    "license": "MIT License",
+    "created_at": "2026-09-20T20:12:13Z",
+    "updated_at": "2026-09-24T06:06:23Z",
     "owner": {
-      "name": "MiaAI-Lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83042094?v=4"
+      "name": "Zefan-Cai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67849306?v=4"
+    }
+  },
+  {
+    "name": "Yinsongxu/LLM2Jev",
+    "url": "https://github.com/Yinsongxu/LLM2Jev",
+    "description": "Turn local language models into Jev-style structured decision models. Get results from text and images with prefill alone—no token-by-token decoding required.",
+    "stars": 290,
+    "forks": 26,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-19T10:59:33Z",
+    "updated_at": "2026-09-24T06:21:12Z",
+    "owner": {
+      "name": "Yinsongxu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71176528?v=4"
     }
   },
   {
@@ -1523,22 +1622,6 @@
     "owner": {
       "name": "sutro-sh",
       "avatar_url": "https://avatars.githubusercontent.com/u/230064936?v=4"
-    }
-  },
-  {
-    "name": "OpenBMB/Meshy",
-    "url": "https://github.com/OpenBMB/Meshy",
-    "description": null,
-    "stars": 250,
-    "forks": 15,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-04T02:45:08Z",
-    "updated_at": "2026-09-10T06:53:24Z",
-    "owner": {
-      "name": "OpenBMB",
-      "avatar_url": "https://avatars.githubusercontent.com/u/89920203?v=4"
     }
   },
   {
@@ -1831,22 +1914,6 @@
     "owner": {
       "name": "ekzhang",
       "avatar_url": "https://avatars.githubusercontent.com/u/7550632?v=4"
-    }
-  },
-  {
-    "name": "ikevss/wechat-ai-memory",
-    "url": "https://github.com/ikevss/wechat-ai-memory",
-    "description": "本地优先的 Windows 微信个人记忆库：筛选、归档并导出可追溯的聊天上下文",
-    "stars": 204,
-    "forks": 272,
-    "language": null,
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-04T09:07:00Z",
-    "updated_at": "2026-09-10T06:39:31Z",
-    "owner": {
-      "name": "ikevss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/270624779?v=4"
     }
   },
   {
@@ -2265,22 +2332,6 @@
     }
   },
   {
-    "name": "DannyMac180/astra-advisor",
-    "url": "https://github.com/DannyMac180/astra-advisor",
-    "description": "GPT-6 Astra orchestration with dynamic Sol, Terra, and Luna subagents",
-    "stars": 156,
-    "forks": 12,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-04T20:49:03Z",
-    "updated_at": "2026-09-10T04:08:25Z",
-    "owner": {
-      "name": "DannyMac180",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24324638?v=4"
-    }
-  },
-  {
     "name": "Argona7/stampede",
     "url": "https://github.com/Argona7/stampede",
     "description": "STAMPEDE — read-only explorer of observed wallet rotations on Robinhood Chain. Official CA: 0xfe627506ca7c9ab80d8551c4e72bb4dca1b8ed64",
@@ -2430,22 +2481,6 @@
     }
   },
   {
-    "name": "theo-kirby/tmax",
-    "url": "https://github.com/theo-kirby/tmax",
-    "description": null,
-    "stars": 121,
-    "forks": 2,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-05T09:24:22Z",
-    "updated_at": "2026-09-10T05:48:04Z",
-    "owner": {
-      "name": "theo-kirby",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49817786?v=4"
-    }
-  },
-  {
     "name": "charlie-chann/ai-agent-langgraph-main",
     "url": "https://github.com/charlie-chann/ai-agent-langgraph-main",
     "description": null,
@@ -2549,22 +2584,6 @@
     }
   },
   {
-    "name": "Theclues/TradeGenuis-box",
-    "url": "https://github.com/Theclues/TradeGenuis-box",
-    "description": "箱体形态识别工具，适用于A股和加密货币",
-    "stars": 117,
-    "forks": 47,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-06T11:36:24Z",
-    "updated_at": "2026-09-10T03:18:46Z",
-    "owner": {
-      "name": "Theclues",
-      "avatar_url": "https://avatars.githubusercontent.com/u/194875296?v=4"
-    }
-  },
-  {
     "name": "Oruk-AI/orukeet",
     "url": "https://github.com/Oruk-AI/orukeet",
     "description": "Orukeet: multilingual ASR with fitted, frozen Gabor kernels and native inference",
@@ -2627,30 +2646,6 @@
     }
   },
   {
-    "name": "fidetolabs/qanat",
-    "url": "https://github.com/fidetolabs/qanat",
-    "description": "Agent-native workflow engine for building and backtesting alphas as DAGs.",
-    "stars": 108,
-    "forks": 23,
-    "language": "Python",
-    "topics": [
-      "alpha-research",
-      "backtesting",
-      "dag",
-      "duckdb",
-      "mcp",
-      "quantitative-finance",
-      "trading-toolkit"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-05T14:43:40Z",
-    "updated_at": "2026-09-10T06:44:20Z",
-    "owner": {
-      "name": "fidetolabs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/324444043?v=4"
-    }
-  },
-  {
     "name": "govin-ai/dunhuang-aura-skill",
     "url": "https://github.com/govin-ai/dunhuang-aura-skill",
     "description": null,
@@ -2664,33 +2659,6 @@
     "owner": {
       "name": "govin-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/142876394?v=4"
-    }
-  },
-  {
-    "name": "chadhurley25075-png/pd-bridge",
-    "url": "https://github.com/chadhurley25075-png/pd-bridge",
-    "description": "Heterogeneous prefill/decode for DeepSeek-V4-Flash: CUDA prefill (DGX Spark, vLLM) -> Metal decode (Mac Studio, oMLX) over plain 10GbE",
-    "stars": 106,
-    "forks": 8,
-    "language": "Python",
-    "topics": [
-      "apple-silicon",
-      "deepseek",
-      "dgx-spark",
-      "heterogeneous-inference",
-      "kv-cache",
-      "llm-inference",
-      "mlx",
-      "omlx",
-      "prefill-decode",
-      "vllm"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-06T19:07:06Z",
-    "updated_at": "2026-09-10T02:19:46Z",
-    "owner": {
-      "name": "chadhurley25075-png",
-      "avatar_url": "https://avatars.githubusercontent.com/u/325742731?v=4"
     }
   },
   {
