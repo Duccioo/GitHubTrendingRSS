@@ -3,16 +3,63 @@
     "name": "unreallabsai/unreal-agent",
     "url": "https://github.com/unreallabsai/unreal-agent",
     "description": "Async-first agent harness",
-    "stars": 1788,
-    "forks": 91,
+    "stars": 1888,
+    "forks": 98,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-21T23:14:02Z",
-    "updated_at": "2026-09-24T06:44:35Z",
+    "updated_at": "2026-09-25T06:49:23Z",
     "owner": {
       "name": "unreallabsai",
       "avatar_url": "https://avatars.githubusercontent.com/u/181495282?v=4"
+    }
+  },
+  {
+    "name": "kryvora-network/kryvora-node",
+    "url": "https://github.com/kryvora-network/kryvora-node",
+    "description": "Reference client daemon and verification worker for Kryvora Network nodes.",
+    "stars": 740,
+    "forks": 19,
+    "language": "Go",
+    "topics": [
+      "depin",
+      "distributed-systems",
+      "golang",
+      "infrastructure",
+      "node-runner",
+      "telemetry",
+      "worker-daemon"
+    ],
+    "license": "Other",
+    "created_at": "2026-09-22T16:10:23Z",
+    "updated_at": "2026-09-25T06:51:10Z",
+    "owner": {
+      "name": "kryvora-network",
+      "avatar_url": "https://avatars.githubusercontent.com/u/332587460?v=4"
+    }
+  },
+  {
+    "name": "yetone/magpie",
+    "url": "https://github.com/yetone/magpie",
+    "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+    "stars": 709,
+    "forks": 38,
+    "language": "Go",
+    "topics": [
+      "claude-code",
+      "codex",
+      "deepseek",
+      "gemini-cli",
+      "llm",
+      "macos"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-23T16:22:35Z",
+    "updated_at": "2026-09-25T06:53:21Z",
+    "owner": {
+      "name": "yetone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1206493?v=4"
     }
   },
   {
@@ -64,65 +111,6 @@
     }
   },
   {
-    "name": "kryvora-network/kryvora-node",
-    "url": "https://github.com/kryvora-network/kryvora-node",
-    "description": "Reference client daemon and verification worker for Kryvora Network nodes.",
-    "stars": 575,
-    "forks": 17,
-    "language": "Go",
-    "topics": [
-      "depin",
-      "distributed-systems",
-      "golang",
-      "infrastructure",
-      "node-runner",
-      "telemetry",
-      "worker-daemon"
-    ],
-    "license": "Other",
-    "created_at": "2026-09-22T16:10:23Z",
-    "updated_at": "2026-09-24T06:58:22Z",
-    "owner": {
-      "name": "kryvora-network",
-      "avatar_url": "https://avatars.githubusercontent.com/u/332587460?v=4"
-    }
-  },
-  {
-    "name": "okf-memory/okf-agent-memory",
-    "url": "https://github.com/okf-memory/okf-agent-memory",
-    "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
-    "stars": 552,
-    "forks": 35,
-    "language": "Go",
-    "topics": [
-      "agent-memory",
-      "ai-agents",
-      "bm25",
-      "coding-agents",
-      "developer-tools",
-      "git-native",
-      "go",
-      "golang",
-      "knowledge-base",
-      "knowledge-graph",
-      "llm-memory",
-      "markdown",
-      "mcp",
-      "mcp-server",
-      "model-context-protocol",
-      "okf",
-      "open-knowledge-format",
-      "persistent-memory"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-05T21:26:04Z",
-    "updated_at": "2026-09-11T05:39:48Z",
-    "owner": {
-      "name": "okf-memory",
-      "avatar_url": "https://avatars.githubusercontent.com/u/322091575?v=4"
-    }
-  },
-  {
     "name": "linguo2625469/workbuddy2api-panel",
     "url": "https://github.com/linguo2625469/workbuddy2api-panel",
     "description": "把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支",
@@ -144,29 +132,6 @@
     "owner": {
       "name": "linguo2625469",
       "avatar_url": "https://avatars.githubusercontent.com/u/49717738?v=4"
-    }
-  },
-  {
-    "name": "yetone/magpie",
-    "url": "https://github.com/yetone/magpie",
-    "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-    "stars": 318,
-    "forks": 17,
-    "language": "Go",
-    "topics": [
-      "claude-code",
-      "codex",
-      "deepseek",
-      "gemini-cli",
-      "llm",
-      "macos"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-23T16:22:35Z",
-    "updated_at": "2026-09-24T06:59:04Z",
-    "owner": {
-      "name": "yetone",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1206493?v=4"
     }
   },
   {
@@ -192,13 +157,13 @@
     "name": "HyNetworks/OpenGFW",
     "url": "https://github.com/HyNetworks/OpenGFW",
     "description": "OpenGFW is your very own DIY Great Firewall of China",
-    "stars": 253,
+    "stars": 256,
     "forks": 87,
     "language": "Go",
     "topics": [],
     "license": "Mozilla Public License 2.0",
     "created_at": "2026-09-19T09:21:17Z",
-    "updated_at": "2026-09-23T06:01:52Z",
+    "updated_at": "2026-09-24T17:07:00Z",
     "owner": {
       "name": "HyNetworks",
       "avatar_url": "https://avatars.githubusercontent.com/u/287139448?v=4"
@@ -279,16 +244,32 @@
     "name": "dorkitude/webctl",
     "url": "https://github.com/dorkitude/webctl",
     "description": "Smart web search CLI for agents, backed by Jev. Saves a lot of tokens.",
-    "stars": 139,
-    "forks": 14,
+    "stars": 142,
+    "forks": 15,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-20T07:27:00Z",
-    "updated_at": "2026-09-24T04:24:43Z",
+    "updated_at": "2026-09-24T19:48:53Z",
     "owner": {
       "name": "dorkitude",
       "avatar_url": "https://avatars.githubusercontent.com/u/157717?v=4"
+    }
+  },
+  {
+    "name": "446599/ccodex-rotate",
+    "url": "https://github.com/446599/ccodex-rotate",
+    "description": "Local Codex reverse proxy: rotating proxy-node pool, lazy health failover, and per-model 292 turn-state collection/injection. macOS + Windows.",
+    "stars": 139,
+    "forks": 22,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-20T08:29:10Z",
+    "updated_at": "2026-09-24T22:45:18Z",
+    "owner": {
+      "name": "446599",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116695909?v=4"
     }
   },
   {
@@ -308,19 +289,25 @@
     }
   },
   {
-    "name": "446599/ccodex-rotate",
-    "url": "https://github.com/446599/ccodex-rotate",
-    "description": "Local Codex reverse proxy: rotating proxy-node pool, lazy health failover, and per-model 292 turn-state collection/injection. macOS + Windows.",
-    "stars": 137,
-    "forks": 22,
+    "name": "mitkox/esf",
+    "url": "https://github.com/mitkox/esf",
+    "description": "Self-hosted engineering software factory: Temporal, CubeSandbox agents, deterministic verification and durable evidence. MIT-licensed Machinist fork.",
+    "stars": 136,
+    "forks": 18,
     "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-20T08:29:10Z",
-    "updated_at": "2026-09-24T03:13:36Z",
+    "topics": [
+      "ai-agents",
+      "golang",
+      "self-hosted",
+      "software-factory",
+      "temporal"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-19T16:07:54Z",
+    "updated_at": "2026-09-25T06:23:22Z",
     "owner": {
-      "name": "446599",
-      "avatar_url": "https://avatars.githubusercontent.com/u/116695909?v=4"
+      "name": "mitkox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43349905?v=4"
     }
   },
   {
@@ -337,6 +324,22 @@
     "owner": {
       "name": "arden-aaai",
       "avatar_url": "https://avatars.githubusercontent.com/u/95458579?v=4"
+    }
+  },
+  {
+    "name": "MACOS-DO/sub4api",
+    "url": "https://github.com/MACOS-DO/sub4api",
+    "description": "sub4api - sub2api 的分支版本",
+    "stars": 110,
+    "forks": 23,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Lesser General Public License v3.0",
+    "created_at": "2026-09-19T08:38:02Z",
+    "updated_at": "2026-09-25T02:37:03Z",
+    "owner": {
+      "name": "MACOS-DO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/319291203?v=4"
     }
   },
   {
@@ -401,44 +404,6 @@
     }
   },
   {
-    "name": "mitkox/esf",
-    "url": "https://github.com/mitkox/esf",
-    "description": "Self-hosted engineering software factory: Temporal, CubeSandbox agents, deterministic verification and durable evidence. MIT-licensed Machinist fork.",
-    "stars": 96,
-    "forks": 14,
-    "language": "Go",
-    "topics": [
-      "ai-agents",
-      "golang",
-      "self-hosted",
-      "software-factory",
-      "temporal"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-19T16:07:54Z",
-    "updated_at": "2026-09-24T06:07:47Z",
-    "owner": {
-      "name": "mitkox",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43349905?v=4"
-    }
-  },
-  {
-    "name": "MACOS-DO/sub4api",
-    "url": "https://github.com/MACOS-DO/sub4api",
-    "description": "sub4api - sub2api 的分支版本",
-    "stars": 89,
-    "forks": 20,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Lesser General Public License v3.0",
-    "created_at": "2026-09-19T08:38:02Z",
-    "updated_at": "2026-09-24T06:49:24Z",
-    "owner": {
-      "name": "MACOS-DO",
-      "avatar_url": "https://avatars.githubusercontent.com/u/319291203?v=4"
-    }
-  },
-  {
     "name": "vianziro/Whatsapp-Dekstop",
     "url": "https://github.com/vianziro/Whatsapp-Dekstop",
     "description": "An ultra-lightweight, blazing-fast, and memory-efficient WhatsApp Desktop client for macOS, Windows, and Linux, built with Go.",
@@ -473,6 +438,22 @@
     "owner": {
       "name": "Taurine-Technology",
       "avatar_url": "https://avatars.githubusercontent.com/u/157000758?v=4"
+    }
+  },
+  {
+    "name": "JaxsonWang/cpa-plugin-oai-basispoints",
+    "url": "https://github.com/JaxsonWang/cpa-plugin-oai-basispoints",
+    "description": null,
+    "stars": 78,
+    "forks": 26,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-24T15:55:38Z",
+    "updated_at": "2026-09-25T06:48:41Z",
+    "owner": {
+      "name": "JaxsonWang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16836692?v=4"
     }
   },
   {
@@ -596,15 +577,15 @@
     "name": "Calcium-Ion/AstrLink",
     "url": "https://github.com/Calcium-Ion/AstrLink",
     "description": "A local AI gateway for AI agents, unifying your subscriptions and API providers with smart routing and on-device privacy protection.",
-    "stars": 59,
-    "forks": 15,
+    "stars": 63,
+    "forks": 14,
     "language": "Go",
     "topics": [
       "ai-gateway"
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-09-22T04:20:28Z",
-    "updated_at": "2026-09-24T06:28:56Z",
+    "updated_at": "2026-09-25T06:17:12Z",
     "owner": {
       "name": "Calcium-Ion",
       "avatar_url": "https://avatars.githubusercontent.com/u/61247483?v=4"
@@ -681,19 +662,19 @@
     }
   },
   {
-    "name": "MiaM1ku/taierspeedtest",
-    "url": "https://github.com/MiaM1ku/taierspeedtest",
-    "description": "全球网测 / 泰尔测速 Linux 客户端",
-    "stars": 50,
-    "forks": 8,
+    "name": "pedrofarbo/farbo-rastreamento",
+    "url": "https://github.com/pedrofarbo/farbo-rastreamento",
+    "description": null,
+    "stars": 49,
+    "forks": 14,
     "language": "Go",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-09-05T06:56:35Z",
-    "updated_at": "2026-09-11T03:03:56Z",
+    "created_at": "2026-09-21T00:37:03Z",
+    "updated_at": "2026-09-25T00:23:11Z",
     "owner": {
-      "name": "MiaM1ku",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61079068?v=4"
+      "name": "pedrofarbo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6313554?v=4"
     }
   },
   {
@@ -713,48 +694,16 @@
     }
   },
   {
-    "name": "pedrofarbo/farbo-rastreamento",
-    "url": "https://github.com/pedrofarbo/farbo-rastreamento",
-    "description": null,
-    "stars": 44,
-    "forks": 12,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-21T00:37:03Z",
-    "updated_at": "2026-09-24T01:56:49Z",
-    "owner": {
-      "name": "pedrofarbo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6313554?v=4"
-    }
-  },
-  {
-    "name": "dualface/kander",
-    "url": "https://github.com/dualface/kander",
-    "description": "用看板调度多个 AI Agent 的任务编排工具",
-    "stars": 41,
-    "forks": 6,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-05T20:23:17Z",
-    "updated_at": "2026-09-10T07:54:04Z",
-    "owner": {
-      "name": "dualface",
-      "avatar_url": "https://avatars.githubusercontent.com/u/62318?v=4"
-    }
-  },
-  {
     "name": "seifreed/renfecli",
     "url": "https://github.com/seifreed/renfecli",
     "description": "CLI no oficial de Renfe, pensada también para agentes — horarios y tarifas reales de tren desde la terminal",
-    "stars": 38,
+    "stars": 41,
     "forks": 2,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-20T19:38:26Z",
-    "updated_at": "2026-09-24T06:30:30Z",
+    "updated_at": "2026-09-25T06:49:58Z",
     "owner": {
       "name": "seifreed",
       "avatar_url": "https://avatars.githubusercontent.com/u/1843119?v=4"
@@ -780,22 +729,6 @@
     "owner": {
       "name": "KasumiYuku",
       "avatar_url": "https://avatars.githubusercontent.com/u/107661829?v=4"
-    }
-  },
-  {
-    "name": "uvwt/CtyunHelper",
-    "url": "https://github.com/uvwt/CtyunHelper",
-    "description": "天翼云电脑Helper： 一个exe = 自动保活 + 自动做任务 + 自动领积分 + 自动兑换",
-    "stars": 38,
-    "forks": 4,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-05T08:25:27Z",
-    "updated_at": "2026-09-11T05:54:02Z",
-    "owner": {
-      "name": "uvwt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/54053135?v=4"
     }
   },
   {
@@ -893,6 +826,22 @@
     }
   },
   {
+    "name": "Flecksis/rkn-guard",
+    "url": "https://github.com/Flecksis/rkn-guard",
+    "description": "Поставь звёздочку если использовал, а то палец откушу",
+    "stars": 33,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-22T15:17:14Z",
+    "updated_at": "2026-09-24T19:14:08Z",
+    "owner": {
+      "name": "Flecksis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/117516121?v=4"
+    }
+  },
+  {
     "name": "little-greenbean/sub2api-state-reuse",
     "url": "https://github.com/little-greenbean/sub2api-state-reuse",
     "description": "Sub2API STATE 292/332 reuse plugin, Clash/IP collector and administrator live monitor, with deployment and customization guides",
@@ -938,6 +887,22 @@
     "owner": {
       "name": "sonar-probe",
       "avatar_url": "https://avatars.githubusercontent.com/u/330317135?v=4"
+    }
+  },
+  {
+    "name": "zhang2580384/sub2api-state-kit",
+    "url": "https://github.com/zhang2580384/sub2api-state-kit",
+    "description": "Sub2API v0.2.7 OpenAI OAuth STATE transport plugin with account metadata, model presets and proxy chaining",
+    "stars": 32,
+    "forks": 11,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU Lesser General Public License v3.0",
+    "created_at": "2026-09-20T11:04:48Z",
+    "updated_at": "2026-09-25T06:32:07Z",
+    "owner": {
+      "name": "zhang2580384",
+      "avatar_url": "https://avatars.githubusercontent.com/u/214616591?v=4"
     }
   },
   {
@@ -1002,49 +967,6 @@
     "owner": {
       "name": "komari-probe",
       "avatar_url": "https://avatars.githubusercontent.com/u/330317135?v=4"
-    }
-  },
-  {
-    "name": "pcm469768-droid/llm-api-speedtest",
-    "url": "https://github.com/pcm469768-droid/llm-api-speedtest",
-    "description": "Benchmark LLM APIs, OpenAI-compatible gateways, and API proxies by token speed, TTFB, latency, and success rate. Compare multiple providers with reproducible JSON reports and scheduled GitHub Actions.",
-    "stars": 31,
-    "forks": 2,
-    "language": "Go",
-    "topics": [
-      "api-benchmark",
-      "api-proxy",
-      "api-testing",
-      "benchmarking",
-      "golang",
-      "llm-api",
-      "llm-gateway",
-      "llm-proxy",
-      "openai-compatible",
-      "performance-testing"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-06T00:59:28Z",
-    "updated_at": "2026-09-10T07:56:14Z",
-    "owner": {
-      "name": "pcm469768-droid",
-      "avatar_url": "https://avatars.githubusercontent.com/u/325181940?v=4"
-    }
-  },
-  {
-    "name": "zhang2580384/sub2api-state-kit",
-    "url": "https://github.com/zhang2580384/sub2api-state-kit",
-    "description": "Sub2API v0.2.7 OpenAI OAuth STATE transport plugin with account metadata, model presets and proxy chaining",
-    "stars": 30,
-    "forks": 10,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Lesser General Public License v3.0",
-    "created_at": "2026-09-20T11:04:48Z",
-    "updated_at": "2026-09-24T05:51:30Z",
-    "owner": {
-      "name": "zhang2580384",
-      "avatar_url": "https://avatars.githubusercontent.com/u/214616591?v=4"
     }
   },
   {
@@ -1201,19 +1123,45 @@
     }
   },
   {
-    "name": "qvoo/iSeatcx",
-    "url": "https://github.com/qvoo/iSeatcx",
-    "description": "超星图书馆座位自动预约脚本",
-    "stars": 24,
+    "name": "mattn/go-jev",
+    "url": "https://github.com/mattn/go-jev",
+    "description": "Go SDK and CLI for TypeSafe Jev: typed decisions (yes/no, choice, score) from a model",
+    "stars": 23,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "classification",
+      "cli",
+      "go",
+      "golang",
+      "jev",
+      "llm",
+      "sdk",
+      "typesafe"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-23T13:42:51Z",
+    "updated_at": "2026-09-25T05:25:37Z",
+    "owner": {
+      "name": "mattn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10111?v=4"
+    }
+  },
+  {
+    "name": "anuzx/load_balancer",
+    "url": "https://github.com/anuzx/load_balancer",
+    "description": "L7 Load Balancer in go using round robin algortihm ",
+    "stars": 23,
     "forks": 4,
     "language": "Go",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-07T16:16:38Z",
-    "updated_at": "2026-09-10T16:07:38Z",
+    "license": "No license",
+    "created_at": "2026-09-21T20:15:59Z",
+    "updated_at": "2026-09-24T20:19:02Z",
     "owner": {
-      "name": "qvoo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/110219260?v=4"
+      "name": "anuzx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/175430559?v=4"
     }
   },
   {
@@ -1280,6 +1228,22 @@
     }
   },
   {
+    "name": "skyelan1999/aide",
+    "url": "https://github.com/skyelan1999/aide",
+    "description": "a ai+ide for deepseek herness（Other model will support in 27Q2）",
+    "stars": 21,
+    "forks": 2,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-23T11:56:05Z",
+    "updated_at": "2026-09-24T10:57:27Z",
+    "owner": {
+      "name": "skyelan1999",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87317997?v=4"
+    }
+  },
+  {
     "name": "BitsFlowCloud/DengShell",
     "url": "https://github.com/BitsFlowCloud/DengShell",
     "description": "中文 SSH 桌面工作台，集成多会话终端、SFTP 文件管理、服务器监控、命令历史与个性化设置。",
@@ -1309,38 +1273,6 @@
     "owner": {
       "name": "Dillonsmart",
       "avatar_url": "https://avatars.githubusercontent.com/u/11349121?v=4"
-    }
-  },
-  {
-    "name": "Flecksis/rkn-guard",
-    "url": "https://github.com/Flecksis/rkn-guard",
-    "description": "Поставь звёздочку если использовал, а то палец откушу",
-    "stars": 20,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-22T15:17:14Z",
-    "updated_at": "2026-09-24T06:33:13Z",
-    "owner": {
-      "name": "Flecksis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/117516121?v=4"
-    }
-  },
-  {
-    "name": "anuzx/load_balancer",
-    "url": "https://github.com/anuzx/load_balancer",
-    "description": "load balancer in go using round robin algortihm ",
-    "stars": 20,
-    "forks": 4,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-21T20:15:59Z",
-    "updated_at": "2026-09-24T06:28:26Z",
-    "owner": {
-      "name": "anuzx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/175430559?v=4"
     }
   },
   {
@@ -1413,6 +1345,56 @@
     }
   },
   {
+    "name": "zweiundeins/starbase",
+    "url": "https://github.com/zweiundeins/starbase",
+    "description": "Community Components for Rocket: a gallery of Datastar Rocket web components. Go, templ, SQLite, CQRS.",
+    "stars": 19,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "component-library",
+      "cqrs",
+      "datastar",
+      "go",
+      "hypermedia",
+      "pixel-art",
+      "rocket",
+      "sqlite",
+      "sse",
+      "templ",
+      "web-components"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-21T21:30:18Z",
+    "updated_at": "2026-09-25T05:00:51Z",
+    "owner": {
+      "name": "zweiundeins",
+      "avatar_url": "https://avatars.githubusercontent.com/u/198230054?v=4"
+    }
+  },
+  {
+    "name": "replicaro/replicaro",
+    "url": "https://github.com/replicaro/replicaro",
+    "description": "Life is hard. Backups should not be. Automatic backups. Easy recovery. That's Replicaro. Use on Windows, Mac, Linux, or Docker.",
+    "stars": 19,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "backup",
+      "cloud",
+      "kopia",
+      "restic",
+      "restore"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-20T22:50:55Z",
+    "updated_at": "2026-09-25T05:50:47Z",
+    "owner": {
+      "name": "replicaro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/305645275?v=4"
+    }
+  },
+  {
     "name": "nLight/amber",
     "url": "https://github.com/nLight/amber",
     "description": null,
@@ -1442,38 +1424,6 @@
     "owner": {
       "name": "Layen-lang",
       "avatar_url": "https://avatars.githubusercontent.com/u/186914446?v=4"
-    }
-  },
-  {
-    "name": "liuhuig/Sing-box-Argo-Python",
-    "url": "https://github.com/liuhuig/Sing-box-Argo-Python",
-    "description": "既然来了，就留下你的Star吧！本项目是一个专为 **100M 限制低内存容器**（如 Pella 等）打造的轻量级 VMess-WS + Argo 隧道代理节点托管服务。",
-    "stars": 19,
-    "forks": 12,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-06T08:52:41Z",
-    "updated_at": "2026-09-11T06:02:37Z",
-    "owner": {
-      "name": "liuhuig",
-      "avatar_url": "https://avatars.githubusercontent.com/u/247531160?v=4"
-    }
-  },
-  {
-    "name": "skyelan1999/aide",
-    "url": "https://github.com/skyelan1999/aide",
-    "description": "a ai+ide for deepseek herness（Other model will support in 27Q2）",
-    "stars": 18,
-    "forks": 2,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-23T11:56:05Z",
-    "updated_at": "2026-09-24T06:53:39Z",
-    "owner": {
-      "name": "skyelan1999",
-      "avatar_url": "https://avatars.githubusercontent.com/u/87317997?v=4"
     }
   },
   {
@@ -1558,53 +1508,19 @@
     }
   },
   {
-    "name": "zweiundeins/starbase",
-    "url": "https://github.com/zweiundeins/starbase",
-    "description": "Community Components for Rocket: a gallery of Datastar Rocket web components. Go, templ, SQLite, CQRS.",
+    "name": "applyinnovations/bifrost-model-router",
+    "url": "https://github.com/applyinnovations/bifrost-model-router",
+    "description": null,
     "stars": 17,
-    "forks": 1,
+    "forks": 4,
     "language": "Go",
-    "topics": [
-      "component-library",
-      "cqrs",
-      "datastar",
-      "go",
-      "hypermedia",
-      "pixel-art",
-      "rocket",
-      "sqlite",
-      "sse",
-      "templ",
-      "web-components"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-21T21:30:18Z",
-    "updated_at": "2026-09-23T23:52:07Z",
-    "owner": {
-      "name": "zweiundeins",
-      "avatar_url": "https://avatars.githubusercontent.com/u/198230054?v=4"
-    }
-  },
-  {
-    "name": "replicaro/replicaro",
-    "url": "https://github.com/replicaro/replicaro",
-    "description": "Life is hard. Backups should not be. Automatic backups. Easy recovery. That's Replicaro. Use on Windows, Mac, Linux, or Docker.",
-    "stars": 17,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "backup",
-      "cloud",
-      "kopia",
-      "restic",
-      "restore"
-    ],
+    "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2026-09-20T22:50:55Z",
-    "updated_at": "2026-09-24T06:07:07Z",
+    "created_at": "2026-09-19T03:25:59Z",
+    "updated_at": "2026-09-25T06:44:02Z",
     "owner": {
-      "name": "replicaro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/305645275?v=4"
+      "name": "applyinnovations",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77219112?v=4"
     }
   },
   {
@@ -1748,19 +1664,59 @@
     }
   },
   {
-    "name": "Th3Purge/CPanelScanner",
-    "url": "https://github.com/Th3Purge/CPanelScanner",
-    "description": "Fast, multithreaded Go-based scanner for discovering and fingerprinting cPanel and WHM services across IPs, CIDR ranges, and target lists.",
-    "stars": 16,
+    "name": "syumai/jevyoumean",
+    "url": "https://github.com/syumai/jevyoumean",
+    "description": "Semantic \"Did you mean?\" for any CLI — wraps commands and uses TypeSafe's Jev to match subcommand typos by intent, not edit distance.",
+    "stars": 15,
     "forks": 0,
     "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-06T21:18:42Z",
-    "updated_at": "2026-09-11T01:48:02Z",
+    "topics": [
+      "jev",
+      "jev-ai"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-21T14:45:03Z",
+    "updated_at": "2026-09-24T17:48:25Z",
     "owner": {
-      "name": "Th3Purge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/325773251?v=4"
+      "name": "syumai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6882878?v=4"
+    }
+  },
+  {
+    "name": "cavaldos/pitago",
+    "url": "https://github.com/cavaldos/pitago",
+    "description": "A polished terminal UI (TUI) for the pi AI coding agent — real-time chat, multi-provider LLMs, tools and sessions. Built with Go and Bubble Tea.",
+    "stars": 15,
+    "forks": 5,
+    "language": "Go",
+    "topics": [
+      "agentic-ai",
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "bubble-tea",
+      "chatbot",
+      "claude",
+      "claude-code",
+      "cli",
+      "coding-agents",
+      "coding-assistant",
+      "command-line",
+      "developer-tools",
+      "go",
+      "llm",
+      "openai",
+      "opencode",
+      "terminal",
+      "terminal-ui",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-19T15:05:41Z",
+    "updated_at": "2026-09-25T04:55:53Z",
+    "owner": {
+      "name": "cavaldos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96412994?v=4"
     }
   },
   {
@@ -1826,6 +1782,22 @@
     }
   },
   {
+    "name": "chyroc/nomad",
+    "url": "https://github.com/chyroc/nomad",
+    "description": null,
+    "stars": 14,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-22T14:30:02Z",
+    "updated_at": "2026-09-24T07:58:08Z",
+    "owner": {
+      "name": "chyroc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15604894?v=4"
+    }
+  },
+  {
     "name": "jason-lee-x/codex-upstream-switcher",
     "url": "https://github.com/jason-lee-x/codex-upstream-switcher",
     "description": "CLIProxyAPI plugin that routes Codex OAuth credentials through a configurable upstream.",
@@ -1839,32 +1811,6 @@
     "owner": {
       "name": "jason-lee-x",
       "avatar_url": "https://avatars.githubusercontent.com/u/47520063?v=4"
-    }
-  },
-  {
-    "name": "mattn/go-jev",
-    "url": "https://github.com/mattn/go-jev",
-    "description": "Go SDK and CLI for TypeSafe Jev: typed decisions (yes/no, choice, score) from a model",
-    "stars": 14,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "ai",
-      "classification",
-      "cli",
-      "go",
-      "golang",
-      "jev",
-      "llm",
-      "sdk",
-      "typesafe"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-23T13:42:51Z",
-    "updated_at": "2026-09-24T06:18:38Z",
-    "owner": {
-      "name": "mattn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10111?v=4"
     }
   },
   {
@@ -1924,6 +1870,61 @@
     "owner": {
       "name": "thedenisnikulin",
       "avatar_url": "https://avatars.githubusercontent.com/u/46903210?v=4"
+    }
+  },
+  {
+    "name": "lvzhentao/chatgpt-prism2api",
+    "url": "https://github.com/lvzhentao/chatgpt-prism2api",
+    "description": null,
+    "stars": 13,
+    "forks": 5,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-24T06:36:20Z",
+    "updated_at": "2026-09-25T05:10:52Z",
+    "owner": {
+      "name": "lvzhentao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99717882?v=4"
+    }
+  },
+  {
+    "name": "unnipv/pokemon-slowdown",
+    "url": "https://github.com/unnipv/pokemon-slowdown",
+    "description": "A calm, keyboard-first terminal client for Pokémon Showdown",
+    "stars": 13,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "bubbletea",
+      "golang",
+      "pokemon",
+      "pokemon-showdown",
+      "terminal",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-20T11:51:27Z",
+    "updated_at": "2026-09-24T15:06:26Z",
+    "owner": {
+      "name": "unnipv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13102356?v=4"
+    }
+  },
+  {
+    "name": "blood77458/soundradar",
+    "url": "https://github.com/blood77458/soundradar",
+    "description": "Windows 游戏音效实时识别：回环采集、声纹库、悬浮窗、F8 回溯入库。",
+    "stars": 13,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-19T16:44:02Z",
+    "updated_at": "2026-09-24T05:24:12Z",
+    "owner": {
+      "name": "blood77458",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18571453?v=4"
     }
   },
   {
@@ -2177,22 +2178,6 @@
     "owner": {
       "name": "jclab-joseph",
       "avatar_url": "https://avatars.githubusercontent.com/u/88625531?v=4"
-    }
-  },
-  {
-    "name": "as-a-discipline/adopting-agentic-development",
-    "url": "https://github.com/as-a-discipline/adopting-agentic-development",
-    "description": null,
-    "stars": 11,
-    "forks": 3,
-    "language": "Go",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-06T18:14:41Z",
-    "updated_at": "2026-09-10T21:35:43Z",
-    "owner": {
-      "name": "as-a-discipline",
-      "avatar_url": "https://avatars.githubusercontent.com/u/213979399?v=4"
     }
   },
   {
