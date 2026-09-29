@@ -19,8 +19,8 @@
     "name": "yetone/magpie",
     "url": "https://github.com/yetone/magpie",
     "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-    "stars": 1401,
-    "forks": 86,
+    "stars": 1747,
+    "forks": 105,
     "language": "Go",
     "topics": [
       "claude-code",
@@ -32,7 +32,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-23T16:22:35Z",
-    "updated_at": "2026-09-28T08:02:42Z",
+    "updated_at": "2026-09-29T07:42:56Z",
     "owner": {
       "name": "yetone",
       "avatar_url": "https://avatars.githubusercontent.com/u/1206493?v=4"
@@ -218,6 +218,22 @@
     }
   },
   {
+    "name": "JaxsonWang/cpa-plugin-oai-basispoints",
+    "url": "https://github.com/JaxsonWang/cpa-plugin-oai-basispoints",
+    "description": null,
+    "stars": 150,
+    "forks": 48,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-24T15:55:38Z",
+    "updated_at": "2026-09-29T07:37:37Z",
+    "owner": {
+      "name": "JaxsonWang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16836692?v=4"
+    }
+  },
+  {
     "name": "dorkitude/webctl",
     "url": "https://github.com/dorkitude/webctl",
     "description": "Smart web search CLI for agents, backed by Jev. Saves a lot of tokens.",
@@ -304,22 +320,6 @@
     }
   },
   {
-    "name": "JaxsonWang/cpa-plugin-oai-basispoints",
-    "url": "https://github.com/JaxsonWang/cpa-plugin-oai-basispoints",
-    "description": null,
-    "stars": 127,
-    "forks": 45,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-24T15:55:38Z",
-    "updated_at": "2026-09-28T07:53:53Z",
-    "owner": {
-      "name": "JaxsonWang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16836692?v=4"
-    }
-  },
-  {
     "name": "mvanhorn/agent-tincan",
     "url": "https://github.com/mvanhorn/agent-tincan",
     "description": "Let your AI agents ask each other for help, over Tailscale. Wherever they run.",
@@ -381,6 +381,31 @@
     "owner": {
       "name": "AlexAntonik",
       "avatar_url": "https://avatars.githubusercontent.com/u/55547934?v=4"
+    }
+  },
+  {
+    "name": "Continuum-AI-Corp/scuttle",
+    "url": "https://github.com/Continuum-AI-Corp/scuttle",
+    "description": "Tiny post-quantum encryption for sensitive data. Write-only by design. ML-KEM-768 + X25519 + AES-256-GCM. Please break it.",
+    "stars": 83,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "orcarouter",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-computing",
+      "quantum-encryption",
+      "quantum-machine-learning",
+      "quantum-safe-cryptography",
+      "quantum-safety"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-23T22:28:43Z",
+    "updated_at": "2026-09-29T07:37:35Z",
+    "owner": {
+      "name": "Continuum-AI-Corp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/273996259?v=4"
     }
   },
   {
@@ -509,53 +534,6 @@
     }
   },
   {
-    "name": "Continuum-AI-Corp/scuttle",
-    "url": "https://github.com/Continuum-AI-Corp/scuttle",
-    "description": "Tiny post-quantum encryption for sensitive data. Write-only by design. ML-KEM-768 + X25519 + AES-256-GCM. Please break it.",
-    "stars": 64,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "orcarouter",
-      "quantum",
-      "quantum-algorithms",
-      "quantum-computing",
-      "quantum-encryption",
-      "quantum-machine-learning",
-      "quantum-safe-cryptography",
-      "quantum-safety"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-23T22:28:43Z",
-    "updated_at": "2026-09-28T07:45:39Z",
-    "owner": {
-      "name": "Continuum-AI-Corp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/273996259?v=4"
-    }
-  },
-  {
-    "name": "VoidSecSoftwares/voidsyscall",
-    "url": "https://github.com/VoidSecSoftwares/voidsyscall",
-    "description": "Cross-platform syscall-powered implant & C2 — direct syscalls (Win), raw syscalls (Linux), HTTPS/DNS/ICMP channels. No winapi layer.",
-    "stars": 54,
-    "forks": 6,
-    "language": "Go",
-    "topics": [
-      "c2",
-      "edr-evasion",
-      "golang",
-      "red-team",
-      "syscall"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-10T14:56:14Z",
-    "updated_at": "2026-09-14T15:20:20Z",
-    "owner": {
-      "name": "VoidSecSoftwares",
-      "avatar_url": "https://avatars.githubusercontent.com/u/326985314?v=4"
-    }
-  },
-  {
     "name": "pedrofarbo/farbo-rastreamento",
     "url": "https://github.com/pedrofarbo/farbo-rastreamento",
     "description": null,
@@ -575,7 +553,7 @@
     "name": "aurorainfra/grev",
     "url": "https://github.com/aurorainfra/grev",
     "description": "Thinking coreutils",
-    "stars": 42,
+    "stars": 45,
     "forks": 1,
     "language": "Go",
     "topics": [
@@ -588,7 +566,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-09-24T21:12:11Z",
-    "updated_at": "2026-09-28T06:21:57Z",
+    "updated_at": "2026-09-29T03:40:47Z",
     "owner": {
       "name": "aurorainfra",
       "avatar_url": "https://avatars.githubusercontent.com/u/211144664?v=4"
@@ -630,7 +608,7 @@
     "name": "mattn/go-jev",
     "url": "https://github.com/mattn/go-jev",
     "description": "Go SDK and CLI for TypeSafe Jev: typed decisions (yes/no, choice, score) from a model",
-    "stars": 39,
+    "stars": 40,
     "forks": 0,
     "language": "Go",
     "topics": [
@@ -646,10 +624,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-23T13:42:51Z",
-    "updated_at": "2026-09-28T03:13:19Z",
+    "updated_at": "2026-09-28T12:59:55Z",
     "owner": {
       "name": "mattn",
       "avatar_url": "https://avatars.githubusercontent.com/u/10111?v=4"
+    }
+  },
+  {
+    "name": "spumon1/SUCK_MY_ASTRA",
+    "url": "https://github.com/spumon1/SUCK_MY_ASTRA",
+    "description": "LOLOLOLOLOLOLOLOLOL",
+    "stars": 38,
+    "forks": 21,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-25T01:13:53Z",
+    "updated_at": "2026-09-29T07:28:41Z",
+    "owner": {
+      "name": "spumon1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93527370?v=4"
     }
   },
   {
@@ -704,46 +698,19 @@
     }
   },
   {
-    "name": "herliansyah/teledrive",
-    "url": "https://github.com/herliansyah/teledrive",
-    "description": "⚡ High-capacity personal cloud storage powered by Telegram MTProto. Single static binary with Google Drive-like Web Dashboard, resumable chunked uploads, HTTP 206 video streaming, and strict ToS Safe Mode.",
-    "stars": 34,
-    "forks": 7,
-    "language": "Go",
-    "topics": [
-      "cloud-storage",
-      "file-manager",
-      "golang",
-      "google-drive-alternative",
-      "gotd",
-      "mtproto",
-      "self-hosted",
-      "single-binary",
-      "sqlite",
-      "telegram"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-10T03:18:38Z",
-    "updated_at": "2026-09-15T02:46:28Z",
-    "owner": {
-      "name": "herliansyah",
-      "avatar_url": "https://avatars.githubusercontent.com/u/994782?v=4"
-    }
-  },
-  {
-    "name": "spumon1/SUCK_MY_ASTRA",
-    "url": "https://github.com/spumon1/SUCK_MY_ASTRA",
-    "description": "LOLOLOLOLOLOLOLOLOL",
+    "name": "HanawaBanana/workbuddy2api",
+    "url": "https://github.com/HanawaBanana/workbuddy2api",
+    "description": "WorkBuddy2API 延续仓库 —— 账号池转 OpenAI 兼容 API（原 Sliverkiss/workbuddy2api 已删库，MIT）",
     "stars": 33,
-    "forks": 19,
+    "forks": 33,
     "language": "Go",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-09-25T01:13:53Z",
-    "updated_at": "2026-09-28T04:00:23Z",
+    "created_at": "2026-09-24T02:25:31Z",
+    "updated_at": "2026-09-29T06:24:19Z",
     "owner": {
-      "name": "spumon1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93527370?v=4"
+      "name": "HanawaBanana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33088672?v=4"
     }
   },
   {
@@ -843,22 +810,6 @@
     }
   },
   {
-    "name": "hirotomasato/paygateme",
-    "url": "https://github.com/hirotomasato/paygateme",
-    "description": "Unofficial SDK Go library for Shopee & GoPay merchant payments ",
-    "stars": 32,
-    "forks": 13,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-10T03:16:12Z",
-    "updated_at": "2026-09-14T20:22:34Z",
-    "owner": {
-      "name": "hirotomasato",
-      "avatar_url": "https://avatars.githubusercontent.com/u/198351389?v=4"
-    }
-  },
-  {
     "name": "ismailperim/briefd",
     "url": "https://github.com/ismailperim/briefd",
     "description": "Your agents, briefed. Not flooded. Self-hosted context compiler: git-backed team knowledge served to coding agents as token-budgeted bundles over MCP.",
@@ -900,6 +851,22 @@
     }
   },
   {
+    "name": "mthqwork/revenge-on-school-go",
+    "url": "https://github.com/mthqwork/revenge-on-school-go",
+    "description": "A Revenge on School (Tomcat Software, 1994–95) DOS-os kalandjáték natív újraírása Go-ban.",
+    "stars": 30,
+    "forks": 4,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-25T22:07:12Z",
+    "updated_at": "2026-09-29T05:45:30Z",
+    "owner": {
+      "name": "mthqwork",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19063751?v=4"
+    }
+  },
+  {
     "name": "mstrYoda/codesaber",
     "url": "https://github.com/mstrYoda/codesaber",
     "description": "Minimalist agentic IDE built for devx. It's like a lightsaber, but for developers.",
@@ -913,6 +880,22 @@
     "owner": {
       "name": "mstrYoda",
       "avatar_url": "https://avatars.githubusercontent.com/u/12763626?v=4"
+    }
+  },
+  {
+    "name": "Vitruves/ghostty-config",
+    "url": "https://github.com/Vitruves/ghostty-config",
+    "description": "TUI for Ghostty terminal customization ",
+    "stars": 27,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-27T08:57:53Z",
+    "updated_at": "2026-09-29T04:14:19Z",
+    "owner": {
+      "name": "Vitruves",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65819137?v=4"
     }
   },
   {
@@ -964,19 +947,19 @@
     }
   },
   {
-    "name": "HanawaBanana/workbuddy2api",
-    "url": "https://github.com/HanawaBanana/workbuddy2api",
-    "description": "WorkBuddy2API 延续仓库 —— 账号池转 OpenAI 兼容 API（原 Sliverkiss/workbuddy2api 已删库，MIT）",
+    "name": "Slaker19/webkvm",
+    "url": "https://github.com/Slaker19/webkvm",
+    "description": "Self-hosted web panel to manage a Linux virtualization host (KVM/QEMU & Incus)",
     "stars": 26,
-    "forks": 31,
+    "forks": 1,
     "language": "Go",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-24T02:25:31Z",
-    "updated_at": "2026-09-28T07:55:51Z",
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-09-26T23:17:14Z",
+    "updated_at": "2026-09-29T06:21:37Z",
     "owner": {
-      "name": "HanawaBanana",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33088672?v=4"
+      "name": "Slaker19",
+      "avatar_url": "https://avatars.githubusercontent.com/u/196074148?v=4"
     }
   },
   {
@@ -1104,6 +1087,28 @@
     }
   },
   {
+    "name": "1812095643/sub2api-excel2api-plugin",
+    "url": "https://github.com/1812095643/sub2api-excel2api-plugin",
+    "description": "Sub2API 0.2.7 OpenAI OAuth 插件：Excel2API BPS 隧道、Codex CLI 工具目录、请求时区与并行降智检测。",
+    "stars": 21,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "codex",
+      "excel2api",
+      "openai",
+      "plugin",
+      "sub2api"
+    ],
+    "license": "No license",
+    "created_at": "2026-09-25T03:08:44Z",
+    "updated_at": "2026-09-29T07:24:39Z",
+    "owner": {
+      "name": "1812095643",
+      "avatar_url": "https://avatars.githubusercontent.com/u/160689198?v=4"
+    }
+  },
+  {
     "name": "replicaro/replicaro",
     "url": "https://github.com/replicaro/replicaro",
     "description": "Life is hard. Backups should not be. Automatic backups. Easy recovery. That's Replicaro. Use on Windows, Mac, Linux, or Docker.",
@@ -1167,7 +1172,7 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-23T11:56:05Z",
-    "updated_at": "2026-09-25T15:15:26Z",
+    "updated_at": "2026-09-29T03:53:12Z",
     "owner": {
       "name": "skyelan1999",
       "avatar_url": "https://avatars.githubusercontent.com/u/87317997?v=4"
@@ -1243,6 +1248,45 @@
     }
   },
   {
+    "name": "devilcoolyue/agentbox",
+    "url": "https://github.com/devilcoolyue/agentbox",
+    "description": "Self-hosted browser workspace for Claude Code and Codex CLI, with Docker sessions, terminal, files, Git, and usage tracking.",
+    "stars": 19,
+    "forks": 4,
+    "language": "Go",
+    "topics": [
+      "ai-coding",
+      "claude-code",
+      "codex",
+      "docker",
+      "golang",
+      "self-hosted"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-28T03:32:41Z",
+    "updated_at": "2026-09-29T07:11:44Z",
+    "owner": {
+      "name": "devilcoolyue",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15119216?v=4"
+    }
+  },
+  {
+    "name": "lvzhentao/chatgpt-prism2api",
+    "url": "https://github.com/lvzhentao/chatgpt-prism2api",
+    "description": null,
+    "stars": 19,
+    "forks": 5,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-24T06:36:20Z",
+    "updated_at": "2026-09-29T00:04:08Z",
+    "owner": {
+      "name": "lvzhentao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99717882?v=4"
+    }
+  },
+  {
     "name": "nLight/amber",
     "url": "https://github.com/nLight/amber",
     "description": null,
@@ -1275,25 +1319,19 @@
     }
   },
   {
-    "name": "1812095643/sub2api-excel2api-plugin",
-    "url": "https://github.com/1812095643/sub2api-excel2api-plugin",
-    "description": "Sub2API 0.2.7 OpenAI OAuth 插件：Excel2API BPS 隧道、Codex CLI 工具目录、请求时区与并行降智检测。",
+    "name": "Nexora-VPN/nexora-migrate",
+    "url": "https://github.com/Nexora-VPN/nexora-migrate",
+    "description": "Migrate users, inbounds and settings from other VPN panels into Nexora",
     "stars": 18,
     "forks": 2,
     "language": "Go",
-    "topics": [
-      "codex",
-      "excel2api",
-      "openai",
-      "plugin",
-      "sub2api"
-    ],
-    "license": "No license",
-    "created_at": "2026-09-25T03:08:44Z",
-    "updated_at": "2026-09-28T06:37:12Z",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-09-23T21:28:07Z",
+    "updated_at": "2026-09-29T04:24:28Z",
     "owner": {
-      "name": "1812095643",
-      "avatar_url": "https://avatars.githubusercontent.com/u/160689198?v=4"
+      "name": "Nexora-VPN",
+      "avatar_url": "https://avatars.githubusercontent.com/u/304456640?v=4"
     }
   },
   {
@@ -1389,19 +1427,28 @@
     }
   },
   {
-    "name": "Vitruves/ghostty-config",
-    "url": "https://github.com/Vitruves/ghostty-config",
-    "description": "TUI for Ghostty terminal customization ",
+    "name": "bjarneo/st8ks",
+    "url": "https://github.com/bjarneo/st8ks",
+    "description": "A fast Kubernetes desktop client for Linux, macOS and Windows that finds what is broken and helps you fix it",
     "stars": 17,
     "forks": 0,
     "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-27T08:57:53Z",
-    "updated_at": "2026-09-27T22:51:10Z",
+    "topics": [
+      "desktop-app",
+      "devtools",
+      "golang",
+      "helm",
+      "k8s",
+      "kubernetes",
+      "react",
+      "wails"
+    ],
+    "license": "No license",
+    "created_at": "2026-09-28T10:36:18Z",
+    "updated_at": "2026-09-29T07:00:47Z",
     "owner": {
-      "name": "Vitruves",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65819137?v=4"
+      "name": "bjarneo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1419214?v=4"
     }
   },
   {
@@ -1494,38 +1541,6 @@
     }
   },
   {
-    "name": "Slaker19/webkvm",
-    "url": "https://github.com/Slaker19/webkvm",
-    "description": "Self-hosted web panel to manage a Linux virtualization host (KVM/QEMU & Incus)",
-    "stars": 15,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-09-26T23:17:14Z",
-    "updated_at": "2026-09-28T06:35:37Z",
-    "owner": {
-      "name": "Slaker19",
-      "avatar_url": "https://avatars.githubusercontent.com/u/196074148?v=4"
-    }
-  },
-  {
-    "name": "lvzhentao/chatgpt-prism2api",
-    "url": "https://github.com/lvzhentao/chatgpt-prism2api",
-    "description": null,
-    "stars": 15,
-    "forks": 5,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-24T06:36:20Z",
-    "updated_at": "2026-09-26T15:53:22Z",
-    "owner": {
-      "name": "lvzhentao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/99717882?v=4"
-    }
-  },
-  {
     "name": "singhand-labs/AegisCrawler",
     "url": "https://github.com/singhand-labs/AegisCrawler",
     "description": "Record once, replay forever — a production-grade browser data-collection platform. A PageResearch Agent extension turns real interactions into humanized DSL rules, a Go server schedules lease-based tasks, and ScriptCat workers execute them in real browsers. Optional LLM rule enhancement with security scan + human diff review.",
@@ -1600,28 +1615,74 @@
     }
   },
   {
-    "name": "iconidentify/omatune",
-    "url": "https://github.com/iconidentify/omatune",
-    "description": "A terminal guitar tuner for Omarchy — 6- and 12-string, theme-aware",
-    "stars": 15,
-    "forks": 1,
+    "name": "Vinyl-Davyl/hermes",
+    "url": "https://github.com/Vinyl-Davyl/hermes",
+    "description": "Local-first handoff CLI that packs unfinished work on your disk and hands it to the next coding agent: Claude, Cursor, Codex, Antigravity, and more. No plugin. No cloud.",
+    "stars": 14,
+    "forks": 0,
     "language": "Go",
     "topics": [
-      "bubbletea",
-      "golang",
-      "guitar",
-      "hyprland",
-      "linux",
-      "omarchy",
-      "tui",
-      "tuner"
+      "ai-agents",
+      "antigravity",
+      "claude-code",
+      "cline",
+      "codex",
+      "context-handoff",
+      "copilot-cli",
+      "cursor",
+      "cursor-ai",
+      "deepseek",
+      "developer-tools",
+      "kimi",
+      "open-code",
+      "pi-agent",
+      "session-handoff",
+      "session-history"
     ],
     "license": "MIT License",
-    "created_at": "2026-09-14T00:59:20Z",
-    "updated_at": "2026-09-15T00:56:25Z",
+    "created_at": "2026-09-26T04:43:39Z",
+    "updated_at": "2026-09-28T13:12:16Z",
     "owner": {
-      "name": "iconidentify",
-      "avatar_url": "https://avatars.githubusercontent.com/u/303316?v=4"
+      "name": "Vinyl-Davyl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68241801?v=4"
+    }
+  },
+  {
+    "name": "kofiadeyemiq/byterange",
+    "url": "https://github.com/kofiadeyemiq/byterange",
+    "description": "RFC 9110 HTTP Range parsing and serving for Go, with limits on range count and multipart amplification.",
+    "stars": 14,
+    "forks": 10,
+    "language": "Go",
+    "topics": [
+      "go",
+      "golang",
+      "http",
+      "range-requests",
+      "rfc9110"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-28T14:44:22Z",
+    "updated_at": "2026-09-28T20:00:42Z",
+    "owner": {
+      "name": "kofiadeyemiq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/334555386?v=4"
+    }
+  },
+  {
+    "name": "kernel-cracker/sakura-print",
+    "url": "https://github.com/kernel-cracker/sakura-print",
+    "description": "Print and scan from phones through one home printer (Linux, CUPS, AirPrint). GPL-3.0-or-later.",
+    "stars": 14,
+    "forks": 3,
+    "language": "Go",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-09-27T06:39:30Z",
+    "updated_at": "2026-09-29T03:26:55Z",
+    "owner": {
+      "name": "kernel-cracker",
+      "avatar_url": "https://avatars.githubusercontent.com/u/224371213?v=4"
     }
   },
   {
@@ -1723,6 +1784,123 @@
     }
   },
   {
+    "name": "kofiadeyemiq/iterleak",
+    "url": "https://github.com/kofiadeyemiq/iterleak",
+    "description": "Go analyzer that reports iter.Pull and iter.Pull2 calls whose stop function can go uncalled and leak a goroutine.",
+    "stars": 13,
+    "forks": 10,
+    "language": "Go",
+    "topics": [
+      "go",
+      "go-analysis",
+      "golang",
+      "iterators",
+      "linter",
+      "static-analysis"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-28T14:44:14Z",
+    "updated_at": "2026-09-28T20:00:47Z",
+    "owner": {
+      "name": "kofiadeyemiq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/334555386?v=4"
+    }
+  },
+  {
+    "name": "kofiadeyemiq/shellstrict",
+    "url": "https://github.com/kofiadeyemiq/shellstrict",
+    "description": "Lint shell scripts for missing strict mode and for mktemp files with no trap cleanup, complementing ShellCheck.",
+    "stars": 13,
+    "forks": 10,
+    "language": "Go",
+    "topics": [
+      "bash",
+      "go",
+      "linter",
+      "shell",
+      "shellcheck"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-28T14:44:03Z",
+    "updated_at": "2026-09-28T20:00:54Z",
+    "owner": {
+      "name": "kofiadeyemiq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/334555386?v=4"
+    }
+  },
+  {
+    "name": "mauri870/loopvec",
+    "url": "https://github.com/mauri870/loopvec",
+    "description": "SIMD autovectorizer for Go loops",
+    "stars": 13,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-25T21:36:59Z",
+    "updated_at": "2026-09-28T11:34:14Z",
+    "owner": {
+      "name": "mauri870",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10168637?v=4"
+    }
+  },
+  {
+    "name": "snyderman3000/mixtape",
+    "url": "https://github.com/snyderman3000/mixtape",
+    "description": "App store for OnionOS on the Miyoo Mini Plus: browse, install and update community ports over Wi-Fi. Built by Claude.",
+    "stars": 13,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "app-store",
+      "golang",
+      "homebrew",
+      "miyoo-mini",
+      "miyoo-mini-plus",
+      "onionos",
+      "retro-handheld"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-27T18:25:56Z",
+    "updated_at": "2026-09-29T06:54:05Z",
+    "owner": {
+      "name": "snyderman3000",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13263386?v=4"
+    }
+  },
+  {
+    "name": "zhu961212/sub2api-oai-basispoints",
+    "url": "https://github.com/zhu961212/sub2api-oai-basispoints",
+    "description": "适用于 Sub2API 官方版的 Excel / Basis Points 插件，通过 OpenAI Excel 官方入口使用账号可用的官方模型；六模型可选，支持工具、图片与流式响应。交流群：1107265919",
+    "stars": 13,
+    "forks": 1,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-25T17:19:34Z",
+    "updated_at": "2026-09-28T06:23:20Z",
+    "owner": {
+      "name": "zhu961212",
+      "avatar_url": "https://avatars.githubusercontent.com/u/196404356?v=4"
+    }
+  },
+  {
+    "name": "t508708/icloud-mail",
+    "url": "https://github.com/t508708/icloud-mail",
+    "description": "自托管 iCloud 隐藏邮箱管理、邮箱池与 API 取码服务；基于 mangobubu/icloud-api 的派生版本，来源与许可见 NOTICE.md。",
+    "stars": 13,
+    "forks": 8,
+    "language": "Go",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-24T07:59:19Z",
+    "updated_at": "2026-09-29T06:35:10Z",
+    "owner": {
+      "name": "t508708",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35010816?v=4"
+    }
+  },
+  {
     "name": "huangmoling/EmbyMetaEditor",
     "url": "https://github.com/huangmoling/EmbyMetaEditor",
     "description": "Emby 元数据编辑器：Go 单文件 exe + 内嵌 Web UI，集成 MetaTube 刮削、gfriends 头像库、javbus 番号补全与磁力列表",
@@ -1745,71 +1923,6 @@
     "owner": {
       "name": "huangmoling",
       "avatar_url": "https://avatars.githubusercontent.com/u/68953580?v=4"
-    }
-  },
-  {
-    "name": "Vinyl-Davyl/hermes",
-    "url": "https://github.com/Vinyl-Davyl/hermes",
-    "description": "Local-first handoff CLI that packs unfinished work on your disk and hands it to the next coding agent: Claude, Cursor, Codex, Antigravity, and more. No plugin. No cloud.",
-    "stars": 13,
-    "forks": 0,
-    "language": "Go",
-    "topics": [
-      "ai-agents",
-      "antigravity",
-      "claude-code",
-      "cline",
-      "codex",
-      "context-handoff",
-      "copilot-cli",
-      "cursor",
-      "cursor-ai",
-      "deepseek",
-      "developer-tools",
-      "kimi",
-      "open-code",
-      "pi-agent",
-      "session-handoff",
-      "session-history"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-26T04:43:39Z",
-    "updated_at": "2026-09-28T07:52:08Z",
-    "owner": {
-      "name": "Vinyl-Davyl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68241801?v=4"
-    }
-  },
-  {
-    "name": "zhu961212/sub2api-oai-basispoints",
-    "url": "https://github.com/zhu961212/sub2api-oai-basispoints",
-    "description": "适用于 Sub2API 官方版的 Excel / Basis Points 插件，通过 OpenAI Excel 官方入口使用账号可用的官方模型；六模型可选，支持工具、图片与流式响应。交流群：1107265919",
-    "stars": 13,
-    "forks": 1,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-25T17:19:34Z",
-    "updated_at": "2026-09-28T06:23:20Z",
-    "owner": {
-      "name": "zhu961212",
-      "avatar_url": "https://avatars.githubusercontent.com/u/196404356?v=4"
-    }
-  },
-  {
-    "name": "kernel-cracker/sakura-print",
-    "url": "https://github.com/kernel-cracker/sakura-print",
-    "description": "Print and scan from phones through one home printer (Linux, CUPS, AirPrint). GPL-3.0-or-later.",
-    "stars": 13,
-    "forks": 3,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-09-27T06:39:30Z",
-    "updated_at": "2026-09-27T20:17:52Z",
-    "owner": {
-      "name": "kernel-cracker",
-      "avatar_url": "https://avatars.githubusercontent.com/u/224371213?v=4"
     }
   },
   {
@@ -1861,67 +1974,24 @@
     }
   },
   {
-    "name": "tymon5368/uptik",
-    "url": "https://github.com/tymon5368/uptik",
-    "description": "Omnichannel Video Auto-Scheduler & Desktop Studio",
-    "stars": 13,
-    "forks": 6,
-    "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-11T02:54:08Z",
-    "updated_at": "2026-09-15T01:55:36Z",
-    "owner": {
-      "name": "tymon5368",
-      "avatar_url": "https://avatars.githubusercontent.com/u/310262795?v=4"
-    }
-  },
-  {
-    "name": "bduxhlll12/ForgeFlow-Open-source-automation-tool-for-batch-file-media-processing-with-a-native-Windows-GUI",
-    "url": "https://github.com/bduxhlll12/ForgeFlow-Open-source-automation-tool-for-batch-file-media-processing-with-a-native-Windows-GUI",
-    "description": "ForgeFlow Open-source automation tool for batch file/media processing with a native Windows GUI.",
-    "stars": 13,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-09-09T20:00:39Z",
-    "updated_at": "2026-09-14T14:53:52Z",
-    "owner": {
-      "name": "bduxhlll12",
-      "avatar_url": "https://avatars.githubusercontent.com/u/209691660?v=4"
-    }
-  },
-  {
-    "name": "mauri870/loopvec",
-    "url": "https://github.com/mauri870/loopvec",
-    "description": "SIMD autovectorizer for Go loops",
+    "name": "dark-hxx/jev-safety-gateway",
+    "url": "https://github.com/dark-hxx/jev-safety-gateway",
+    "description": "位于 nginx 与大模型后端之间的前置过滤反向代理：逐请求提取用户输入交给 JEV 判定，有害拦截、正常透明放行",
     "stars": 12,
-    "forks": 0,
+    "forks": 1,
     "language": "Go",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-25T21:36:59Z",
-    "updated_at": "2026-09-27T23:51:03Z",
+    "topics": [
+      "api",
+      "gateway",
+      "go",
+      "jev"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-09-24T03:21:43Z",
+    "updated_at": "2026-09-29T06:29:06Z",
     "owner": {
-      "name": "mauri870",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10168637?v=4"
-    }
-  },
-  {
-    "name": "t508708/icloud-mail",
-    "url": "https://github.com/t508708/icloud-mail",
-    "description": "自托管 iCloud 隐藏邮箱管理、邮箱池与 API 取码服务；基于 mangobubu/icloud-api 的派生版本，来源与许可见 NOTICE.md。",
-    "stars": 12,
-    "forks": 8,
-    "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-24T07:59:19Z",
-    "updated_at": "2026-09-26T15:27:47Z",
-    "owner": {
-      "name": "t508708",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35010816?v=4"
+      "name": "dark-hxx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91944707?v=4"
     }
   },
   {
@@ -2047,40 +2117,19 @@
     }
   },
   {
-    "name": "Nexora-VPN/nexora-migrate",
-    "url": "https://github.com/Nexora-VPN/nexora-migrate",
-    "description": "Migrate users, inbounds and settings from other VPN panels into Nexora",
-    "stars": 11,
-    "forks": 0,
-    "language": "Go",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-09-23T21:28:07Z",
-    "updated_at": "2026-09-28T06:44:20Z",
-    "owner": {
-      "name": "Nexora-VPN",
-      "avatar_url": "https://avatars.githubusercontent.com/u/304456640?v=4"
-    }
-  },
-  {
-    "name": "dark-hxx/jev-safety-gateway",
-    "url": "https://github.com/dark-hxx/jev-safety-gateway",
-    "description": "位于 nginx 与大模型后端之间的前置过滤反向代理：逐请求提取用户输入交给 JEV 判定，有害拦截、正常透明放行",
+    "name": "geekbyter/geektls",
+    "url": "https://github.com/geekbyter/geektls",
+    "description": "spoof client tls(ja3,ja4,http2.0,http3.0....more)",
     "stars": 11,
     "forks": 1,
     "language": "Go",
-    "topics": [
-      "api",
-      "gateway",
-      "go",
-      "jev"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-09-24T03:21:43Z",
-    "updated_at": "2026-09-28T06:35:42Z",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-09-24T06:12:33Z",
+    "updated_at": "2026-09-29T02:56:55Z",
     "owner": {
-      "name": "dark-hxx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91944707?v=4"
+      "name": "geekbyter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30831453?v=4"
     }
   },
   {
@@ -2167,6 +2216,22 @@
     }
   },
   {
+    "name": "sting8k/piggery",
+    "url": "https://github.com/sting8k/piggery",
+    "description": "Piggery 🐖 - Lợn cày tasks: Your coding agents are pigs, piggery is the farm. Pi, Claude Code and Codex agents plowing tasks as one team.",
+    "stars": 10,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-28T11:33:34Z",
+    "updated_at": "2026-09-29T07:27:40Z",
+    "owner": {
+      "name": "sting8k",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11132081?v=4"
+    }
+  },
+  {
     "name": "konradasb/dicer",
     "url": "https://github.com/konradasb/dicer",
     "description": "Dice bare metal hosts into thousands of Micro VMs",
@@ -2190,19 +2255,24 @@
     }
   },
   {
-    "name": "geekbyter/geektls",
-    "url": "https://github.com/geekbyter/geektls",
-    "description": "spoof client tls(ja3,ja4,http2.0,http3.0....more)",
+    "name": "zhangsijie03/AstraBridge",
+    "url": "https://github.com/zhangsijie03/AstraBridge",
+    "description": "AstraBridge · 星桥：面向 AiMaMi 的本地 BPS Responses 桌面中转，支持 macOS、Windows 和原生图片附件。",
     "stars": 10,
-    "forks": 1,
+    "forks": 0,
     "language": "Go",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-24T06:12:33Z",
-    "updated_at": "2026-09-28T07:23:14Z",
+    "topics": [
+      "golang",
+      "macos",
+      "responses-api",
+      "windows"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-09-26T15:04:18Z",
+    "updated_at": "2026-09-28T12:17:38Z",
     "owner": {
-      "name": "geekbyter",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30831453?v=4"
+      "name": "zhangsijie03",
+      "avatar_url": "https://avatars.githubusercontent.com/u/242572900?v=4"
     }
   },
   {
