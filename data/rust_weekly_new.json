@@ -3,16 +3,48 @@
     "name": "tobi/disktree",
     "url": "https://github.com/tobi/disktree",
     "description": "A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
-    "stars": 1708,
-    "forks": 111,
+    "stars": 1851,
+    "forks": 120,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-24T20:56:29Z",
-    "updated_at": "2026-09-28T08:04:38Z",
+    "updated_at": "2026-09-29T07:41:55Z",
     "owner": {
       "name": "tobi",
       "avatar_url": "https://avatars.githubusercontent.com/u/347?v=4"
+    }
+  },
+  {
+    "name": "ollaya-dev/ollaya",
+    "url": "https://github.com/ollaya-dev/ollaya",
+    "description": "Run open decision models locally: pull and serve Laya, decider, NLI and GLiClass behind a TypeSafe-compatible API. Ollama for decision models.",
+    "stars": 910,
+    "forks": 47,
+    "language": "Rust",
+    "topics": [
+      "calibration",
+      "classification",
+      "decision-models",
+      "gliclass",
+      "jev",
+      "laya",
+      "llm-routing",
+      "local-inference",
+      "nli",
+      "ollama",
+      "onnx",
+      "onnxruntime",
+      "rust",
+      "typesafe",
+      "zero-shot-classification"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-23T22:11:15Z",
+    "updated_at": "2026-09-29T07:43:33Z",
+    "owner": {
+      "name": "ollaya-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333103087?v=4"
     }
   },
   {
@@ -45,38 +77,6 @@
     "owner": {
       "name": "agentverse-os",
       "avatar_url": "https://avatars.githubusercontent.com/u/328451092?v=4"
-    }
-  },
-  {
-    "name": "ollaya-dev/ollaya",
-    "url": "https://github.com/ollaya-dev/ollaya",
-    "description": "Run open decision models locally: pull and serve Laya, decider, NLI and GLiClass behind a TypeSafe-compatible API. Ollama for decision models.",
-    "stars": 750,
-    "forks": 36,
-    "language": "Rust",
-    "topics": [
-      "calibration",
-      "classification",
-      "decision-models",
-      "gliclass",
-      "jev",
-      "laya",
-      "llm-routing",
-      "local-inference",
-      "nli",
-      "ollama",
-      "onnx",
-      "onnxruntime",
-      "rust",
-      "typesafe",
-      "zero-shot-classification"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-23T22:11:15Z",
-    "updated_at": "2026-09-28T07:55:59Z",
-    "owner": {
-      "name": "ollaya-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/333103087?v=4"
     }
   },
   {
@@ -166,8 +166,8 @@
     "name": "jankeesvw/omarchy-meeting-recorder",
     "url": "https://github.com/jankeesvw/omarchy-meeting-recorder",
     "description": "Record meetings on Omarchy: mic and computer audio as two tracks, transcribed on your own machine, with speakers, chapters and a player.",
-    "stars": 302,
-    "forks": 25,
+    "stars": 311,
+    "forks": 26,
     "language": "Rust",
     "topics": [
       "gtk4",
@@ -182,7 +182,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-24T15:44:42Z",
-    "updated_at": "2026-09-28T07:35:01Z",
+    "updated_at": "2026-09-28T23:56:00Z",
     "owner": {
       "name": "jankeesvw",
       "avatar_url": "https://avatars.githubusercontent.com/u/167882?v=4"
@@ -224,22 +224,6 @@
     "owner": {
       "name": "ejfkdev",
       "avatar_url": "https://avatars.githubusercontent.com/u/152914458?v=4"
-    }
-  },
-  {
-    "name": "ViceVerse-cz/Serein",
-    "url": "https://github.com/ViceVerse-cz/Serein",
-    "description": "Tiny, Performant & 100% Native client for Discord made in Rust",
-    "stars": 292,
-    "forks": 7,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-09T20:42:14Z",
-    "updated_at": "2026-09-15T06:58:03Z",
-    "owner": {
-      "name": "ViceVerse-cz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/106090820?v=4"
     }
   },
   {
@@ -546,6 +530,78 @@
     }
   },
   {
+    "name": "chasmlol/2010-rust-rewrite-mashup",
+    "url": "https://github.com/chasmlol/2010-rust-rewrite-mashup",
+    "description": "MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map",
+    "stars": 147,
+    "forks": 11,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-27T23:47:01Z",
+    "updated_at": "2026-09-29T07:35:51Z",
+    "owner": {
+      "name": "chasmlol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246197476?v=4"
+    }
+  },
+  {
+    "name": "pch/rawmakase",
+    "url": "https://github.com/pch/rawmakase",
+    "description": "Free Lightroom alternative for Linux and macOS (possibly Windows too - not tested)",
+    "stars": 146,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "photography",
+      "raw-editor"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-26T13:44:32Z",
+    "updated_at": "2026-09-29T07:37:22Z",
+    "owner": {
+      "name": "pch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9818?v=4"
+    }
+  },
+  {
+    "name": "scarletkc/seiso",
+    "url": "https://github.com/scarletkc/seiso",
+    "description": "A Markdown convention and linter for project docs written by AI and read by humans and agents",
+    "stars": 133,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "coding-agents",
+      "commonmark",
+      "conventions",
+      "developer-tools",
+      "docs-as-code",
+      "documentation",
+      "documentation-tool",
+      "gfm",
+      "lint",
+      "linter",
+      "llm",
+      "markdown",
+      "markdown-linter",
+      "rust",
+      "static-analysis",
+      "technical-writing"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-27T13:27:28Z",
+    "updated_at": "2026-09-29T07:41:42Z",
+    "owner": {
+      "name": "scarletkc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50803289?v=4"
+    }
+  },
+  {
     "name": "davidondrej/cloudroom-core",
     "url": "https://github.com/davidondrej/cloudroom-core",
     "description": "Open-source, self-hostable Rust runtime for running Cloud Agents.",
@@ -559,22 +615,6 @@
     "owner": {
       "name": "davidondrej",
       "avatar_url": "https://avatars.githubusercontent.com/u/131768515?v=4"
-    }
-  },
-  {
-    "name": "pch/rawmakase",
-    "url": "https://github.com/pch/rawmakase",
-    "description": "Free Lightroom alternative for Linux and macOS (possibly Windows too - not tested)",
-    "stars": 114,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-26T13:44:32Z",
-    "updated_at": "2026-09-28T07:50:40Z",
-    "owner": {
-      "name": "pch",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9818?v=4"
     }
   },
   {
@@ -701,6 +741,22 @@
     }
   },
   {
+    "name": "rgodha24/walgithub",
+    "url": "https://github.com/rgodha24/walgithub",
+    "description": "walgit with a GitHub Enterprise Server facade — git over smart HTTP from an object-store bucket",
+    "stars": 90,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-25T20:35:23Z",
+    "updated_at": "2026-09-29T00:56:33Z",
+    "owner": {
+      "name": "rgodha24",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90421212?v=4"
+    }
+  },
+  {
     "name": "pbs05/an758x-stock2ubi",
     "url": "https://github.com/pbs05/an758x-stock2ubi",
     "description": null,
@@ -749,22 +805,6 @@
     }
   },
   {
-    "name": "rgodha24/walgithub",
-    "url": "https://github.com/rgodha24/walgithub",
-    "description": "walgit with a GitHub Enterprise Server facade — git over smart HTTP from an object-store bucket",
-    "stars": 79,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-25T20:35:23Z",
-    "updated_at": "2026-09-28T07:18:12Z",
-    "owner": {
-      "name": "rgodha24",
-      "avatar_url": "https://avatars.githubusercontent.com/u/90421212?v=4"
-    }
-  },
-  {
     "name": "ghuntley/preflight",
     "url": "https://github.com/ghuntley/preflight",
     "description": "A local proxy that scans LLM requests and attachments for secrets before they reach the model.",
@@ -810,6 +850,44 @@
     "owner": {
       "name": "Ch0pin",
       "avatar_url": "https://avatars.githubusercontent.com/u/4659186?v=4"
+    }
+  },
+  {
+    "name": "basecamp/once-campfire-rust",
+    "url": "https://github.com/basecamp/once-campfire-rust",
+    "description": "ONCE Campfire in Rust: one binary, the Rails app's data, 19–44× faster",
+    "stars": 67,
+    "forks": 10,
+    "language": "Rust",
+    "topics": [
+      "campfire",
+      "chat",
+      "once",
+      "rust",
+      "self-hosted"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-26T21:37:00Z",
+    "updated_at": "2026-09-29T07:36:35Z",
+    "owner": {
+      "name": "basecamp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13131?v=4"
+    }
+  },
+  {
+    "name": "cachix/casita",
+    "url": "https://github.com/cachix/casita",
+    "description": "A content-addressed object store, written in Rust.",
+    "stars": 64,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-27T01:24:02Z",
+    "updated_at": "2026-09-29T06:52:24Z",
+    "owner": {
+      "name": "cachix",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36824654?v=4"
     }
   },
   {
@@ -869,25 +947,42 @@
     }
   },
   {
-    "name": "g0h4n/PassTheCert-rs",
-    "url": "https://github.com/g0h4n/PassTheCert-rs",
-    "description": "Tool to authenticate to an LDAP/S server with a certificate through Schannel written in Rust. 🦀 ",
-    "stars": 57,
-    "forks": 6,
+    "name": "turbo-devv/openOMSI",
+    "url": "https://github.com/turbo-devv/openOMSI",
+    "description": "OMSI 2 recreated from scratch in Rust, compatible with every map and mod (requires the original OMSI 2)",
+    "stars": 56,
+    "forks": 8,
     "language": "Rust",
     "topics": [
-      "active-directory",
-      "pentest",
-      "pentest-tool",
-      "red-team",
-      "rust"
+      "bus-simulator",
+      "game-engine",
+      "omsi",
+      "omsi-2",
+      "rust",
+      "wgpu"
     ],
     "license": "MIT License",
-    "created_at": "2026-09-09T09:34:38Z",
-    "updated_at": "2026-09-15T05:13:33Z",
+    "created_at": "2026-09-27T22:21:06Z",
+    "updated_at": "2026-09-29T07:46:07Z",
     "owner": {
-      "name": "g0h4n",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18140652?v=4"
+      "name": "turbo-devv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/233512653?v=4"
+    }
+  },
+  {
+    "name": "toorux/steam-frame-6ghz-tool",
+    "url": "https://github.com/toorux/steam-frame-6ghz-tool",
+    "description": null,
+    "stars": 56,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-26T06:02:30Z",
+    "updated_at": "2026-09-29T03:59:41Z",
+    "owner": {
+      "name": "toorux",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68683363?v=4"
     }
   },
   {
@@ -963,26 +1058,10 @@
     }
   },
   {
-    "name": "gonzalezerik/topowall",
-    "url": "https://github.com/gonzalezerik/topowall",
-    "description": "Topographic contour wallpapers from real elevation data, rendered on the GPU",
-    "stars": 51,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-13T12:12:32Z",
-    "updated_at": "2026-09-15T06:28:31Z",
-    "owner": {
-      "name": "gonzalezerik",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60283763?v=4"
-    }
-  },
-  {
     "name": "std-microblock/windows-disk-cleaner-skill",
     "url": "https://github.com/std-microblock/windows-disk-cleaner-skill",
     "description": "基于类 Wiztree 的 NTFS/ReFS 快速扫描的 Windows 磁盘清理 Skill",
-    "stars": 49,
+    "stars": 51,
     "forks": 1,
     "language": "Rust",
     "topics": [
@@ -994,10 +1073,26 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-09-23T08:17:14Z",
-    "updated_at": "2026-09-28T05:11:47Z",
+    "updated_at": "2026-09-29T06:49:37Z",
     "owner": {
       "name": "std-microblock",
       "avatar_url": "https://avatars.githubusercontent.com/u/66859419?v=4"
+    }
+  },
+  {
+    "name": "konsti219/frameeyeosc",
+    "url": "https://github.com/konsti219/frameeyeosc",
+    "description": "Transmitting Steam Frame Eye Trackign Data via OSC",
+    "stars": 50,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-23T11:22:52Z",
+    "updated_at": "2026-09-29T06:26:35Z",
+    "owner": {
+      "name": "konsti219",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37149441?v=4"
     }
   },
   {
@@ -1058,22 +1153,6 @@
     }
   },
   {
-    "name": "cachix/casita",
-    "url": "https://github.com/cachix/casita",
-    "description": "A content-addressed object store, written in Rust.",
-    "stars": 47,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-27T01:24:02Z",
-    "updated_at": "2026-09-28T07:40:48Z",
-    "owner": {
-      "name": "cachix",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36824654?v=4"
-    }
-  },
-  {
     "name": "AkashPriyadarshii/jev-curate",
     "url": "https://github.com/AkashPriyadarshii/jev-curate",
     "description": "High-throughput synthetic and pretraining dataset sifter for TypeSafe Jev. Rust streaming core, Parquet and JSONL I/O, typed Choice/Score/Noul judgments, speculative fan-out, 24.0 rows/sec measured.  ",
@@ -1108,6 +1187,56 @@
     "owner": {
       "name": "AkashPriyadarshii",
       "avatar_url": "https://avatars.githubusercontent.com/u/272530059?v=4"
+    }
+  },
+  {
+    "name": "valeria-org/bitwright",
+    "url": "https://github.com/valeria-org/bitwright",
+    "description": "Bit-vector expression simplifier for binary analysis and deobfuscation",
+    "stars": 44,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-09-23T15:19:51Z",
+    "updated_at": "2026-09-29T02:40:40Z",
+    "owner": {
+      "name": "valeria-org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/332986935?v=4"
+    }
+  },
+  {
+    "name": "domenkozar/agentaps",
+    "url": "https://github.com/domenkozar/agentaps",
+    "description": "A universal GUI for coding harnesses.",
+    "stars": 43,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [
+      "coding-agent"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-24T17:55:34Z",
+    "updated_at": "2026-09-29T07:41:12Z",
+    "owner": {
+      "name": "domenkozar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126339?v=4"
+    }
+  },
+  {
+    "name": "lateos-ai/reflex",
+    "url": "https://github.com/lateos-ai/reflex",
+    "description": "A high-performance, GGUF-native Rust & CUDA inference engine optimized for cold-start latency and real-time 'System 1' agent decision loops.",
+    "stars": 43,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-23T04:25:55Z",
+    "updated_at": "2026-09-29T04:44:48Z",
+    "owner": {
+      "name": "lateos-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/283842333?v=4"
     }
   },
   {
@@ -1164,38 +1293,6 @@
     }
   },
   {
-    "name": "toorux/steam-frame-6ghz-tool",
-    "url": "https://github.com/toorux/steam-frame-6ghz-tool",
-    "description": null,
-    "stars": 42,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-26T06:02:30Z",
-    "updated_at": "2026-09-28T07:28:20Z",
-    "owner": {
-      "name": "toorux",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68683363?v=4"
-    }
-  },
-  {
-    "name": "valeria-org/bitwright",
-    "url": "https://github.com/valeria-org/bitwright",
-    "description": "Bit-vector expression simplifier for binary analysis and deobfuscation",
-    "stars": 41,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-09-23T15:19:51Z",
-    "updated_at": "2026-09-26T21:56:12Z",
-    "owner": {
-      "name": "valeria-org",
-      "avatar_url": "https://avatars.githubusercontent.com/u/332986935?v=4"
-    }
-  },
-  {
     "name": "Volcha-Z/Docky.rs",
     "url": "https://github.com/Volcha-Z/Docky.rs",
     "description": "A Rust dock/bar  for Hyprland",
@@ -1218,38 +1315,6 @@
     }
   },
   {
-    "name": "lateos-ai/reflex",
-    "url": "https://github.com/lateos-ai/reflex",
-    "description": "A high-performance, GGUF-native Rust & CUDA inference engine optimized for cold-start latency and real-time 'System 1' agent decision loops.",
-    "stars": 40,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-23T04:25:55Z",
-    "updated_at": "2026-09-28T05:50:30Z",
-    "owner": {
-      "name": "lateos-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/283842333?v=4"
-    }
-  },
-  {
-    "name": "konsti219/frameeyeosc",
-    "url": "https://github.com/konsti219/frameeyeosc",
-    "description": "Transmitting Steam Frame Eye Trackign Data via OSC",
-    "stars": 39,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-23T11:22:52Z",
-    "updated_at": "2026-09-28T06:49:55Z",
-    "owner": {
-      "name": "konsti219",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37149441?v=4"
-    }
-  },
-  {
     "name": "troyedwardsjr/z2rs",
     "url": "https://github.com/troyedwardsjr/z2rs",
     "description": "Clean-room reconstruction of Zelda II: The Adventure of Link (NES) in Rust. Desktop and browser, bring your own ROM.",
@@ -1266,26 +1331,10 @@
     }
   },
   {
-    "name": "devanshbatham/commit-miner",
-    "url": "https://github.com/devanshbatham/commit-miner",
-    "description": "Classify Git commit diffs and messages with Jev. Bug fixes, security fixes/CWEs, and change types.",
-    "stars": 36,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-17T08:00:01Z",
-    "updated_at": "2026-09-22T14:45:08Z",
-    "owner": {
-      "name": "devanshbatham",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28016517?v=4"
-    }
-  },
-  {
     "name": "pegainfer-project/pega-omni",
     "url": "https://github.com/pegainfer-project/pega-omni",
     "description": "OpenAI-compatible speech serving in Rust: streaming TTS and full-duplex voice over GPT-Live. 128 concurrent PersonaPlex sessions on one GPU.",
-    "stars": 33,
+    "stars": 38,
     "forks": 2,
     "language": "Rust",
     "topics": [
@@ -1306,10 +1355,144 @@
     ],
     "license": "No license",
     "created_at": "2026-09-23T13:57:45Z",
-    "updated_at": "2026-09-28T07:17:08Z",
+    "updated_at": "2026-09-29T07:12:49Z",
     "owner": {
       "name": "pegainfer-project",
       "avatar_url": "https://avatars.githubusercontent.com/u/292134277?v=4"
+    }
+  },
+  {
+    "name": "dddevid/SpotLight",
+    "url": "https://github.com/dddevid/SpotLight",
+    "description": "A blazingly fast, ultra-lightweight Spotify client written in Rust.",
+    "stars": 38,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-27T14:09:59Z",
+    "updated_at": "2026-09-29T04:07:50Z",
+    "owner": {
+      "name": "dddevid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141579210?v=4"
+    }
+  },
+  {
+    "name": "rs-alireza/shahrah",
+    "url": "https://github.com/rs-alireza/shahrah",
+    "description": "A PostgreSQL proxy that keeps each user's data in their own region. Shards by a key you name, splits reads from writes, pools connections, and moves a key between regions while the application keeps reading and writing. No driver to install.",
+    "stars": 36,
+    "forks": 9,
+    "language": "Rust",
+    "topics": [
+      "async",
+      "backend",
+      "database",
+      "database-proxy",
+      "postgres",
+      "postgresql",
+      "postgresql-proxy",
+      "proxy",
+      "rust",
+      "tokio",
+      "wire-protocol"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-27T15:38:37Z",
+    "updated_at": "2026-09-29T06:27:08Z",
+    "owner": {
+      "name": "rs-alireza",
+      "avatar_url": "https://avatars.githubusercontent.com/u/171585795?v=4"
+    }
+  },
+  {
+    "name": "devanshbatham/commit-miner",
+    "url": "https://github.com/devanshbatham/commit-miner",
+    "description": "Classify Git commit diffs and messages with Jev. Bug fixes, security fixes/CWEs, and change types.",
+    "stars": 36,
+    "forks": 6,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-17T08:00:01Z",
+    "updated_at": "2026-09-22T14:45:08Z",
+    "owner": {
+      "name": "devanshbatham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28016517?v=4"
+    }
+  },
+  {
+    "name": "vintcessun/XMUHub",
+    "url": "https://github.com/vintcessun/XMUHub",
+    "description": "鹭岛书阁 · 厦门大学学生资料共享平台：按课程整理往年试卷、笔记、课件，免费浏览下载与上传分享。非官方学生项目。Rust + Axum + redb，文件存 GitHub Releases，经国内镜像下载。",
+    "stars": 34,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [
+      "axum",
+      "cloudflare-workers",
+      "github-releases",
+      "past-papers",
+      "redb",
+      "rust",
+      "study-materials",
+      "tantivy",
+      "xiamen-university",
+      "xmu"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-09-23T09:38:39Z",
+    "updated_at": "2026-09-29T06:51:48Z",
+    "owner": {
+      "name": "vintcessun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111984858?v=4"
+    }
+  },
+  {
+    "name": "crmne/fastframe",
+    "url": "https://github.com/crmne/fastframe",
+    "description": "egui on rails: the shared foundation for native Rust apps built with egui",
+    "stars": 34,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [
+      "egui",
+      "rust"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-25T10:41:38Z",
+    "updated_at": "2026-09-28T09:21:41Z",
+    "owner": {
+      "name": "crmne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106617?v=4"
+    }
+  },
+  {
+    "name": "mirkobozzetto/bunflared",
+    "url": "https://github.com/mirkobozzetto/bunflared",
+    "description": "One command, one throwaway public link for your localhost, several ports behind it (your app and its API). Then run your demo live: chat with your client from the terminal, send them to a page, follow their cursor, catch their reactions and notes as they happen 🔥 Soon your coding agent runs the session for you.",
+    "stars": 33,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [
+      "ai-agents",
+      "cli",
+      "cloudflare",
+      "cloudflared",
+      "developer-tools",
+      "localhost",
+      "ngrok-alternative",
+      "ratatui",
+      "rust",
+      "tui",
+      "tunnel"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-25T09:57:24Z",
+    "updated_at": "2026-09-29T03:13:34Z",
+    "owner": {
+      "name": "mirkobozzetto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88030569?v=4"
     }
   },
   {
@@ -1326,6 +1509,22 @@
     "owner": {
       "name": "MontyTheSoftwareEngineer",
       "avatar_url": "https://avatars.githubusercontent.com/u/80116049?v=4"
+    }
+  },
+  {
+    "name": "longbridge/gpui-fast",
+    "url": "https://github.com/longbridge/gpui-fast",
+    "description": "GPUI extracted from the Zed monorepo as a standalone workspace, with the layout engine reworked to keep what did not change between frames",
+    "stars": 32,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-24T02:45:48Z",
+    "updated_at": "2026-09-29T07:33:13Z",
+    "owner": {
+      "name": "longbridge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68419756?v=4"
     }
   },
   {
@@ -1374,25 +1573,6 @@
     "owner": {
       "name": "klauswg",
       "avatar_url": "https://avatars.githubusercontent.com/u/142101230?v=4"
-    }
-  },
-  {
-    "name": "crmne/fastframe",
-    "url": "https://github.com/crmne/fastframe",
-    "description": "egui on rails: the shared foundation for native Rust apps built with egui",
-    "stars": 31,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "egui",
-      "rust"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-25T10:41:38Z",
-    "updated_at": "2026-09-28T04:09:58Z",
-    "owner": {
-      "name": "crmne",
-      "avatar_url": "https://avatars.githubusercontent.com/u/106617?v=4"
     }
   },
   {
@@ -1453,12 +1633,12 @@
     "url": "https://github.com/pbs05/openwrt-pon-userspace",
     "description": null,
     "stars": 30,
-    "forks": 33,
+    "forks": 35,
     "language": "Rust",
     "topics": [],
     "license": "No license",
     "created_at": "2026-09-23T04:17:24Z",
-    "updated_at": "2026-09-28T02:55:26Z",
+    "updated_at": "2026-09-29T05:52:53Z",
     "owner": {
       "name": "pbs05",
       "avatar_url": "https://avatars.githubusercontent.com/u/27010143?v=4"
@@ -1520,6 +1700,38 @@
     }
   },
   {
+    "name": "chrichuang218/claude-desktop-cn",
+    "url": "https://github.com/chrichuang218/claude-desktop-cn",
+    "description": "Windows 与 macOS 上的 Claude Desktop 管理与简体中文助手：官方安装更新、Cowork 兼容汉化、恢复原样。",
+    "stars": 29,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-09-24T08:01:01Z",
+    "updated_at": "2026-09-29T04:07:31Z",
+    "owner": {
+      "name": "chrichuang218",
+      "avatar_url": "https://avatars.githubusercontent.com/u/274725680?v=4"
+    }
+  },
+  {
+    "name": "drJhonatan00/Apple-Tiles",
+    "url": "https://github.com/drJhonatan00/Apple-Tiles",
+    "description": "A recreation of the classic **Bad Apple!!** effect rendered as an animated mosaic of apples, using multiple synchronised Win32 windows.",
+    "stars": 29,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-27T18:21:45Z",
+    "updated_at": "2026-09-28T17:17:46Z",
+    "owner": {
+      "name": "drJhonatan00",
+      "avatar_url": "https://avatars.githubusercontent.com/u/320677708?v=4"
+    }
+  },
+  {
     "name": "Kang-code-sudo/Z-Accounts",
     "url": "https://github.com/Kang-code-sudo/Z-Accounts",
     "description": "Unofficial Windows ZCode account manager with local snapshots, quota dashboard, optional auto-switch, bilingual UI, and encrypted backups.",
@@ -1561,22 +1773,6 @@
     }
   },
   {
-    "name": "elysia62/NodeFlare",
-    "url": "https://github.com/elysia62/NodeFlare",
-    "description": "NodeFlare 是一款轻量级的自托管服务器监控面板，通过 Web 界面查看服务器状态，并由轻量级 Agent 采集数据上报。",
-    "stars": 29,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-09T07:41:41Z",
-    "updated_at": "2026-09-15T04:49:33Z",
-    "owner": {
-      "name": "elysia62",
-      "avatar_url": "https://avatars.githubusercontent.com/u/294232048?v=4"
-    }
-  },
-  {
     "name": "ustoppble/openjarvisbr",
     "url": "https://github.com/ustoppble/openjarvisbr",
     "description": "OpenJarvisBR — assistente de voz open source em Rust com Gemini Live",
@@ -1593,19 +1789,19 @@
     }
   },
   {
-    "name": "chrichuang218/claude-desktop-cn",
-    "url": "https://github.com/chrichuang218/claude-desktop-cn",
-    "description": "Windows 与 macOS 上的 Claude Desktop 管理与简体中文助手：官方安装更新、Cowork 兼容汉化、恢复原样。",
+    "name": "cradiy/rovar",
+    "url": "https://github.com/cradiy/rovar",
+    "description": "A Figma-like desktop design editor built with Rust and GPUI. ",
     "stars": 27,
-    "forks": 0,
+    "forks": 5,
     "language": "Rust",
     "topics": [],
-    "license": "Other",
-    "created_at": "2026-09-24T08:01:01Z",
-    "updated_at": "2026-09-27T14:56:00Z",
+    "license": "MIT License",
+    "created_at": "2026-09-26T19:16:20Z",
+    "updated_at": "2026-09-29T06:42:58Z",
     "owner": {
-      "name": "chrichuang218",
-      "avatar_url": "https://avatars.githubusercontent.com/u/274725680?v=4"
+      "name": "cradiy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152764066?v=4"
     }
   },
   {
@@ -1622,45 +1818,6 @@
     "owner": {
       "name": "jasonkneen",
       "avatar_url": "https://avatars.githubusercontent.com/u/502002?v=4"
-    }
-  },
-  {
-    "name": "YanamiNeko/NekoSportsWorldTool",
-    "url": "https://github.com/YanamiNeko/NekoSportsWorldTool",
-    "description": "基于运动世界v7.3.70协议实现的纯自动化神秘工具",
-    "stars": 27,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-09-09T17:08:37Z",
-    "updated_at": "2026-09-15T05:54:46Z",
-    "owner": {
-      "name": "YanamiNeko",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63277113?v=4"
-    }
-  },
-  {
-    "name": "dbrizov/NaughtyAttributesGD",
-    "url": "https://github.com/dbrizov/NaughtyAttributesGD",
-    "description": "NaughtyAttributes for Godot",
-    "stars": 27,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [
-      "attributes",
-      "editor",
-      "extension",
-      "godot",
-      "inspector",
-      "tool"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-09T18:12:53Z",
-    "updated_at": "2026-09-15T06:41:47Z",
-    "owner": {
-      "name": "dbrizov",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3619573?v=4"
     }
   },
   {
@@ -1825,22 +1982,6 @@
     }
   },
   {
-    "name": "vintcessun/XMUHub",
-    "url": "https://github.com/vintcessun/XMUHub",
-    "description": null,
-    "stars": 23,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-09-23T09:38:39Z",
-    "updated_at": "2026-09-28T08:04:04Z",
-    "owner": {
-      "name": "vintcessun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/111984858?v=4"
-    }
-  },
-  {
     "name": "takumi-sato0209/ggez",
     "url": "https://github.com/takumi-sato0209/ggez",
     "description": null,
@@ -1990,7 +2131,7 @@
     "topics": [],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-09-26T17:30:14Z",
-    "updated_at": "2026-09-27T12:16:58Z",
+    "updated_at": "2026-09-29T04:02:39Z",
     "owner": {
       "name": "Cyr1s-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/164361902?v=4"
@@ -2015,26 +2156,10 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-23T14:17:33Z",
-    "updated_at": "2026-09-27T22:04:24Z",
+    "updated_at": "2026-09-28T21:00:42Z",
     "owner": {
       "name": "emnlmn",
       "avatar_url": "https://avatars.githubusercontent.com/u/32902406?v=4"
-    }
-  },
-  {
-    "name": "cradiy/rovar",
-    "url": "https://github.com/cradiy/rovar",
-    "description": "A Figma-like desktop design editor built with Rust and GPUI. ",
-    "stars": 21,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-26T19:16:20Z",
-    "updated_at": "2026-09-28T05:49:40Z",
-    "owner": {
-      "name": "cradiy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152764066?v=4"
     }
   },
   {
@@ -2083,22 +2208,6 @@
     "owner": {
       "name": "HenryHsu",
       "avatar_url": "https://avatars.githubusercontent.com/u/4929732?v=4"
-    }
-  },
-  {
-    "name": "dddevid/SpotLight",
-    "url": "https://github.com/dddevid/SpotLight",
-    "description": "A blazingly fast, ultra-lightweight Spotify client written in Rust.",
-    "stars": 20,
-    "forks": 0,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-27T14:09:59Z",
-    "updated_at": "2026-09-28T07:34:16Z",
-    "owner": {
-      "name": "dddevid",
-      "avatar_url": "https://avatars.githubusercontent.com/u/141579210?v=4"
     }
   },
   {
@@ -2424,38 +2533,6 @@
     "owner": {
       "name": "FAAATQ",
       "avatar_url": "https://avatars.githubusercontent.com/u/254631959?v=4"
-    }
-  },
-  {
-    "name": "tangsj-hub/Storm-Dock",
-    "url": "https://github.com/tangsj-hub/Storm-Dock",
-    "description": null,
-    "stars": 15,
-    "forks": 9,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-09T03:55:55Z",
-    "updated_at": "2026-09-15T05:11:50Z",
-    "owner": {
-      "name": "tangsj-hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/153509895?v=4"
-    }
-  },
-  {
-    "name": "vx-lang/Vx",
-    "url": "https://github.com/vx-lang/Vx",
-    "description": "Vx: one language, every core.",
-    "stars": 14,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-09-09T04:05:21Z",
-    "updated_at": "2026-09-15T05:46:18Z",
-    "owner": {
-      "name": "vx-lang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/298562492?v=4"
     }
   },
   {
