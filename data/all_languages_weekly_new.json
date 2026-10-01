@@ -166,20 +166,22 @@
     "name": "KKKKhazix/AIHOT",
     "url": "https://github.com/KKKKhazix/AIHOT",
     "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-    "stars": 3642,
-    "forks": 1039,
+    "stars": 4232,
+    "forks": 1225,
     "language": "TypeScript",
     "topics": [
       "ai",
+      "content-curation",
       "llm",
       "mcp",
       "news-aggregator",
       "rss",
-      "self-hosted"
+      "self-hosted",
+      "typescript"
     ],
     "license": "MIT License",
     "created_at": "2026-09-28T23:40:05Z",
-    "updated_at": "2026-09-30T07:44:19Z",
+    "updated_at": "2026-10-01T08:03:05Z",
     "owner": {
       "name": "KKKKhazix",
       "avatar_url": "https://avatars.githubusercontent.com/u/239590580?v=4"
@@ -231,22 +233,6 @@
     "owner": {
       "name": "mcncarl",
       "avatar_url": "https://avatars.githubusercontent.com/u/204130968?v=4"
-    }
-  },
-  {
-    "name": "ai-sucks-butt/ai-sucks-butt",
-    "url": "https://github.com/ai-sucks-butt/ai-sucks-butt",
-    "description": "If you think AI sucks, star the repo.",
-    "stars": 2118,
-    "forks": 0,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-14T04:02:58Z",
-    "updated_at": "2026-09-17T06:54:58Z",
-    "owner": {
-      "name": "ai-sucks-butt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/328935899?v=4"
     }
   },
   {
@@ -330,6 +316,43 @@
     }
   },
   {
+    "name": "feder-cr/dots",
+    "url": "https://github.com/feder-cr/dots",
+    "description": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+    "stars": 1966,
+    "forks": 321,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "ai-agents",
+      "ai-browser",
+      "anti-detect-browser",
+      "browser-agent",
+      "browser-automation",
+      "chatgpt",
+      "dotfiles",
+      "dots",
+      "firefox",
+      "llm-agent",
+      "mcp",
+      "open-source-alternative",
+      "openai",
+      "openai-dots",
+      "openrouter",
+      "playwright",
+      "stealth-browser",
+      "web-agent",
+      "web-automation"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-29T23:06:00Z",
+    "updated_at": "2026-10-01T07:59:03Z",
+    "owner": {
+      "name": "feder-cr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85809106?v=4"
+    }
+  },
+  {
     "name": "tobi/disktree",
     "url": "https://github.com/tobi/disktree",
     "description": "A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
@@ -362,27 +385,11 @@
     }
   },
   {
-    "name": "jarrodwatts/jev-trader",
-    "url": "https://github.com/jarrodwatts/jev-trader",
-    "description": "One AI trade decision every Monad block. Jev on Kuru MON-USDC.",
-    "stars": 1909,
-    "forks": 367,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-16T21:36:20Z",
-    "updated_at": "2026-09-22T07:01:41Z",
-    "owner": {
-      "name": "jarrodwatts",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35651410?v=4"
-    }
-  },
-  {
     "name": "dzhng/jevgrep",
     "url": "https://github.com/dzhng/jevgrep",
     "description": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
-    "stars": 1819,
-    "forks": 118,
+    "stars": 1928,
+    "forks": 128,
     "language": "TypeScript",
     "topics": [
       "ai-sdk",
@@ -400,10 +407,55 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-26T04:06:56Z",
-    "updated_at": "2026-09-30T07:35:52Z",
+    "updated_at": "2026-10-01T07:36:14Z",
     "owner": {
       "name": "dzhng",
       "avatar_url": "https://avatars.githubusercontent.com/u/1329503?v=4"
+    }
+  },
+  {
+    "name": "jarrodwatts/jev-trader",
+    "url": "https://github.com/jarrodwatts/jev-trader",
+    "description": "One AI trade decision every Monad block. Jev on Kuru MON-USDC.",
+    "stars": 1909,
+    "forks": 367,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-16T21:36:20Z",
+    "updated_at": "2026-09-22T07:01:41Z",
+    "owner": {
+      "name": "jarrodwatts",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35651410?v=4"
+    }
+  },
+  {
+    "name": "Louis-CFM/coucou",
+    "url": "https://github.com/Louis-CFM/coucou",
+    "description": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.",
+    "stars": 1809,
+    "forks": 237,
+    "language": "Swift",
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "dynamic-island",
+      "macos",
+      "macos-app",
+      "menubar-app",
+      "notch",
+      "open-source",
+      "swift",
+      "swiftui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-27T21:54:12Z",
+    "updated_at": "2026-10-01T08:03:45Z",
+    "owner": {
+      "name": "Louis-CFM",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72659375?v=4"
     }
   },
   {
@@ -546,6 +598,47 @@
     }
   },
   {
+    "name": "firelex/jeff",
+    "url": "https://github.com/firelex/jeff",
+    "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
+    "stars": 1215,
+    "forks": 53,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-28T16:18:39Z",
+    "updated_at": "2026-10-01T07:34:26Z",
+    "owner": {
+      "name": "firelex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3168549?v=4"
+    }
+  },
+  {
+    "name": "kaankiziltug/logo-design-skill",
+    "url": "https://github.com/kaankiziltug/logo-design-skill",
+    "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+    "stars": 1202,
+    "forks": 64,
+    "language": "HTML",
+    "topics": [
+      "agent-skills",
+      "branding",
+      "claude",
+      "claude-skills",
+      "codex",
+      "gemini-cli",
+      "logo-design",
+      "svg"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-26T08:23:34Z",
+    "updated_at": "2026-10-01T08:01:29Z",
+    "owner": {
+      "name": "kaankiziltug",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119437067?v=4"
+    }
+  },
+  {
     "name": "vinnylarouge/jevlike",
     "url": "https://github.com/vinnylarouge/jevlike",
     "description": null,
@@ -559,6 +652,32 @@
     "owner": {
       "name": "vinnylarouge",
       "avatar_url": "https://avatars.githubusercontent.com/u/5328067?v=4"
+    }
+  },
+  {
+    "name": "yihui-dev/awesome-opus5-5-videos",
+    "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+    "description": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+    "stars": 1149,
+    "forks": 129,
+    "language": null,
+    "topics": [
+      "ai-video",
+      "awesome",
+      "awesome-list",
+      "claude",
+      "claude-opus",
+      "creative-coding",
+      "motion-graphics",
+      "prompts",
+      "threejs"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-27T06:19:36Z",
+    "updated_at": "2026-10-01T07:56:23Z",
+    "owner": {
+      "name": "yihui-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26054274?v=4"
     }
   },
   {
@@ -578,19 +697,27 @@
     }
   },
   {
-    "name": "firelex/jeff",
-    "url": "https://github.com/firelex/jeff",
-    "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
-    "stars": 1111,
-    "forks": 46,
+    "name": "feitangyuan/onetake",
+    "url": "https://github.com/feitangyuan/onetake",
+    "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.",
+    "stars": 1080,
+    "forks": 68,
     "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-28T16:18:39Z",
-    "updated_at": "2026-09-30T07:32:05Z",
+    "topics": [
+      "agent-skill",
+      "animation",
+      "canvas",
+      "claude-skill",
+      "launch-video",
+      "motion-graphics",
+      "video"
+    ],
+    "license": "Other",
+    "created_at": "2026-09-26T05:35:17Z",
+    "updated_at": "2026-10-01T07:48:42Z",
     "owner": {
-      "name": "firelex",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3168549?v=4"
+      "name": "feitangyuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/251547459?v=4"
     }
   },
   {
@@ -628,6 +755,49 @@
     "owner": {
       "name": "mikehasa",
       "avatar_url": "https://avatars.githubusercontent.com/u/91774998?v=4"
+    }
+  },
+  {
+    "name": "wy51ai/floorplan-3d",
+    "url": "https://github.com/wy51ai/floorplan-3d",
+    "description": null,
+    "stars": 1058,
+    "forks": 229,
+    "language": "HTML",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-29T02:57:30Z",
+    "updated_at": "2026-10-01T07:58:06Z",
+    "owner": {
+      "name": "wy51ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/253894366?v=4"
+    }
+  },
+  {
+    "name": "rehan-remade/universal-modder",
+    "url": "https://github.com/rehan-remade/universal-modder",
+    "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+    "stars": 1052,
+    "forks": 76,
+    "language": "Python",
+    "topics": [
+      "age-of-empires",
+      "claude-code",
+      "claude-code-plugin",
+      "fal",
+      "game-assets",
+      "game-modding",
+      "mcp",
+      "modding",
+      "reverse-engineering",
+      "tmodloader"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-30T05:00:35Z",
+    "updated_at": "2026-10-01T08:01:43Z",
+    "owner": {
+      "name": "rehan-remade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173837546?v=4"
     }
   },
   {
@@ -679,30 +849,6 @@
     }
   },
   {
-    "name": "feitangyuan/onetake",
-    "url": "https://github.com/feitangyuan/onetake",
-    "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.",
-    "stars": 1001,
-    "forks": 64,
-    "language": "Python",
-    "topics": [
-      "agent-skill",
-      "animation",
-      "canvas",
-      "claude-skill",
-      "launch-video",
-      "motion-graphics",
-      "video"
-    ],
-    "license": "Other",
-    "created_at": "2026-09-26T05:35:17Z",
-    "updated_at": "2026-09-30T07:42:07Z",
-    "owner": {
-      "name": "feitangyuan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/251547459?v=4"
-    }
-  },
-  {
     "name": "kryvora-network/kryvora-node",
     "url": "https://github.com/kryvora-network/kryvora-node",
     "description": "Reference client daemon and verification worker for Kryvora Network nodes.",
@@ -727,32 +873,6 @@
     }
   },
   {
-    "name": "yihui-dev/awesome-opus5-5-videos",
-    "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
-    "description": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
-    "stars": 974,
-    "forks": 112,
-    "language": null,
-    "topics": [
-      "ai-video",
-      "awesome",
-      "awesome-list",
-      "claude",
-      "claude-opus",
-      "creative-coding",
-      "motion-graphics",
-      "prompts",
-      "threejs"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-27T06:19:36Z",
-    "updated_at": "2026-09-30T07:40:08Z",
-    "owner": {
-      "name": "yihui-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26054274?v=4"
-    }
-  },
-  {
     "name": "dgreenheck/tidewater",
     "url": "https://github.com/dgreenheck/tidewater",
     "description": "Coastal town built with Opus 5.5",
@@ -766,31 +886,6 @@
     "owner": {
       "name": "dgreenheck",
       "avatar_url": "https://avatars.githubusercontent.com/u/3814912?v=4"
-    }
-  },
-  {
-    "name": "kaankiziltug/logo-design-skill",
-    "url": "https://github.com/kaankiziltug/logo-design-skill",
-    "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
-    "stars": 912,
-    "forks": 42,
-    "language": "HTML",
-    "topics": [
-      "agent-skills",
-      "branding",
-      "claude",
-      "claude-skills",
-      "codex",
-      "gemini-cli",
-      "logo-design",
-      "svg"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-26T08:23:34Z",
-    "updated_at": "2026-09-30T07:36:34Z",
-    "owner": {
-      "name": "kaankiziltug",
-      "avatar_url": "https://avatars.githubusercontent.com/u/119437067?v=4"
     }
   },
   {
@@ -842,6 +937,22 @@
     }
   },
   {
+    "name": "supermemoryai/company-brain",
+    "url": "https://github.com/supermemoryai/company-brain",
+    "description": "Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work.",
+    "stars": 877,
+    "forks": 124,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-25T22:48:14Z",
+    "updated_at": "2026-10-01T07:54:56Z",
+    "owner": {
+      "name": "supermemoryai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/171979587?v=4"
+    }
+  },
+  {
     "name": "yifanzhang-pro/recurrent-looped-tranformer",
     "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
     "description": "Official Project Page for Recurrent Looped Transformer (RLT)",
@@ -874,22 +985,6 @@
     }
   },
   {
-    "name": "supermemoryai/company-brain",
-    "url": "https://github.com/supermemoryai/company-brain",
-    "description": "Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work.",
-    "stars": 860,
-    "forks": 120,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-25T22:48:14Z",
-    "updated_at": "2026-09-30T07:24:06Z",
-    "owner": {
-      "name": "supermemoryai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/171979587?v=4"
-    }
-  },
-  {
     "name": "zjwzcx/Awesome-Astra-Embodied-AI",
     "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
     "description": "GPT-6 Astra for embodied AI and robotics.",
@@ -903,27 +998,6 @@
     "owner": {
       "name": "zjwzcx",
       "avatar_url": "https://avatars.githubusercontent.com/u/43678835?v=4"
-    }
-  },
-  {
-    "name": "kruzovic7/ai-data-extractor",
-    "url": "https://github.com/kruzovic7/ai-data-extractor",
-    "description": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
-    "stars": 827,
-    "forks": 133,
-    "language": "Python",
-    "topics": [
-      "ai",
-      "ai-data-extraction",
-      "claude-code",
-      "cursor"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-11T18:12:58Z",
-    "updated_at": "2026-09-17T02:08:48Z",
-    "owner": {
-      "name": "kruzovic7",
-      "avatar_url": "https://avatars.githubusercontent.com/u/250558869?v=4"
     }
   },
   {
@@ -1346,25 +1420,35 @@
     }
   },
   {
-    "name": "eternityspring/reelbench-skills",
-    "url": "https://github.com/eternityspring/reelbench-skills",
-    "description": "Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill",
+    "name": "lemomo-ai/lemo-opuscar",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar",
+    "description": "43 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
     "stars": 710,
-    "forks": 92,
-    "language": "HTML",
+    "forks": 88,
+    "language": "JavaScript",
     "topics": [
+      "ai-agents",
       "ai-video",
-      "claude-skills",
+      "animation",
+      "canvas",
+      "claude",
+      "claude-code",
+      "creative-coding",
       "ffmpeg",
-      "shot-analysis",
-      "video-analysis"
+      "filmmaking",
+      "motion-graphics",
+      "prompt-library",
+      "text-to-speech",
+      "threejs",
+      "video-production",
+      "webgl"
     ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-11T04:55:49Z",
-    "updated_at": "2026-09-17T06:18:59Z",
+    "license": "Other",
+    "created_at": "2026-09-26T10:10:41Z",
+    "updated_at": "2026-10-01T07:48:43Z",
     "owner": {
-      "name": "eternityspring",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5795147?v=4"
+      "name": "lemomo-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97503247?v=4"
     }
   },
   {
@@ -1414,19 +1498,19 @@
     }
   },
   {
-    "name": "wy51ai/floorplan-3d",
-    "url": "https://github.com/wy51ai/floorplan-3d",
-    "description": null,
-    "stars": 687,
-    "forks": 163,
-    "language": "HTML",
+    "name": "echris6/motion-video-kit",
+    "url": "https://github.com/echris6/motion-video-kit",
+    "description": "Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch films, quality bar, sound design, business offers, Three.js patterns, scripts",
+    "stars": 686,
+    "forks": 56,
+    "language": "Python",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-29T02:57:30Z",
-    "updated_at": "2026-09-30T07:41:15Z",
+    "license": "MIT License",
+    "created_at": "2026-09-27T14:11:14Z",
+    "updated_at": "2026-10-01T08:02:43Z",
     "owner": {
-      "name": "wy51ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/253894366?v=4"
+      "name": "echris6",
+      "avatar_url": "https://avatars.githubusercontent.com/u/209274433?v=4"
     }
   },
   {
@@ -1462,6 +1546,33 @@
     }
   },
   {
+    "name": "nanaism/yomiyasu",
+    "url": "https://github.com/nanaism/yomiyasu",
+    "description": "AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
+    "stars": 655,
+    "forks": 12,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "ai-writing",
+      "claude-code",
+      "codex",
+      "cursor",
+      "japanese",
+      "linter",
+      "llm",
+      "nlp",
+      "writing"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-30T11:49:32Z",
+    "updated_at": "2026-10-01T08:02:48Z",
+    "owner": {
+      "name": "nanaism",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72681409?v=4"
+    }
+  },
+  {
     "name": "saragordic/window-sweaters",
     "url": "https://github.com/saragordic/window-sweaters",
     "description": "A macOS menu-bar app that dresses your windows in knitted borders.",
@@ -1484,38 +1595,6 @@
     "owner": {
       "name": "saragordic",
       "avatar_url": "https://avatars.githubusercontent.com/u/329245707?v=4"
-    }
-  },
-  {
-    "name": "lemomo-ai/lemo-opuscar",
-    "url": "https://github.com/lemomo-ai/lemo-opuscar",
-    "description": "43 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
-    "stars": 638,
-    "forks": 82,
-    "language": "JavaScript",
-    "topics": [
-      "ai-agents",
-      "ai-video",
-      "animation",
-      "canvas",
-      "claude",
-      "claude-code",
-      "creative-coding",
-      "ffmpeg",
-      "filmmaking",
-      "motion-graphics",
-      "prompt-library",
-      "text-to-speech",
-      "threejs",
-      "video-production",
-      "webgl"
-    ],
-    "license": "Other",
-    "created_at": "2026-09-26T10:10:41Z",
-    "updated_at": "2026-09-30T07:38:55Z",
-    "owner": {
-      "name": "lemomo-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97503247?v=4"
     }
   },
   {
@@ -1877,16 +1956,42 @@
     }
   },
   {
+    "name": "edenfunf/reelmimic",
+    "url": "https://github.com/edenfunf/reelmimic",
+    "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+    "stars": 546,
+    "forks": 92,
+    "language": "JavaScript",
+    "topics": [
+      "2d-animation",
+      "ai-agents",
+      "ai-video",
+      "animation",
+      "claude-code",
+      "codex",
+      "multi-agent",
+      "style-transfer",
+      "video-generation"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-28T19:14:59Z",
+    "updated_at": "2026-10-01T07:49:09Z",
+    "owner": {
+      "name": "edenfunf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/146086744?v=4"
+    }
+  },
+  {
     "name": "OpSafari/hypoarena",
     "url": "https://github.com/OpSafari/hypoarena",
     "description": "Scientific hypothesis-discovery workbench: grounded hypothesis-evidence graphs, synthetic literature with planted causal chains, generate-debate-evolve loops over pluggable offline adapters, Elo tournaments recovering planted skill order, paraphrase dedup, Bayesian evidence accumulation, reproducible reports. NumPy core, CPU-only torch extra.",
-    "stars": 544,
-    "forks": 27,
+    "stars": 546,
+    "forks": 28,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-30T03:35:45Z",
-    "updated_at": "2026-09-30T07:35:33Z",
+    "updated_at": "2026-10-01T06:03:43Z",
     "owner": {
       "name": "OpSafari",
       "avatar_url": "https://avatars.githubusercontent.com/u/226998942?v=4"
@@ -2004,40 +2109,19 @@
     }
   },
   {
-    "name": "feder-cr/dots",
-    "url": "https://github.com/feder-cr/dots",
-    "description": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+    "name": "openai/mcp-extensions",
+    "url": "https://github.com/openai/mcp-extensions",
+    "description": "Build plugins that feel like native, first-class features of ChatGPT.",
     "stars": 508,
-    "forks": 33,
-    "language": "Python",
-    "topics": [
-      "ai-agent",
-      "ai-agents",
-      "ai-browser",
-      "anti-detect-browser",
-      "browser-agent",
-      "browser-automation",
-      "chatgpt",
-      "dotfiles",
-      "dots",
-      "firefox",
-      "llm-agent",
-      "mcp",
-      "open-source-alternative",
-      "openai",
-      "openai-dots",
-      "openrouter",
-      "playwright",
-      "stealth-browser",
-      "web-agent",
-      "web-automation"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-29T23:06:00Z",
-    "updated_at": "2026-09-30T07:44:35Z",
+    "forks": 22,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-29T00:45:42Z",
+    "updated_at": "2026-10-01T07:59:52Z",
     "owner": {
-      "name": "feder-cr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/85809106?v=4"
+      "name": "openai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4"
     }
   },
   {
@@ -2070,6 +2154,22 @@
     "owner": {
       "name": "rgem227",
       "avatar_url": "https://avatars.githubusercontent.com/u/61940396?v=4"
+    }
+  },
+  {
+    "name": "JoasASantos/Offensive-Security-AI-Models",
+    "url": "https://github.com/JoasASantos/Offensive-Security-AI-Models",
+    "description": "Uncensored AI models or those fine-tuned for cybersecurity tasks.",
+    "stars": 495,
+    "forks": 48,
+    "language": null,
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-27T20:36:30Z",
+    "updated_at": "2026-10-01T07:52:58Z",
+    "owner": {
+      "name": "JoasASantos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34966120?v=4"
     }
   },
   {
@@ -2110,6 +2210,33 @@
     "owner": {
       "name": "Aureliengmz",
       "avatar_url": "https://avatars.githubusercontent.com/u/8859760?v=4"
+    }
+  },
+  {
+    "name": "amitshekhariitbhu/ai-system-design",
+    "url": "https://github.com/amitshekhariitbhu/ai-system-design",
+    "description": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+    "stars": 480,
+    "forks": 58,
+    "language": "Markdown",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-engineering",
+      "ai-system",
+      "ai-system-design",
+      "ai-systems",
+      "ai-systems-design",
+      "llm",
+      "system-design",
+      "system-design-interview"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-25T04:50:06Z",
+    "updated_at": "2026-10-01T07:08:27Z",
+    "owner": {
+      "name": "amitshekhariitbhu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9877145?v=4"
     }
   },
   {
@@ -2169,33 +2296,6 @@
     }
   },
   {
-    "name": "amitshekhariitbhu/ai-system-design",
-    "url": "https://github.com/amitshekhariitbhu/ai-system-design",
-    "description": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-    "stars": 471,
-    "forks": 56,
-    "language": "Markdown",
-    "topics": [
-      "ai",
-      "ai-agents",
-      "ai-engineering",
-      "ai-system",
-      "ai-system-design",
-      "ai-systems",
-      "ai-systems-design",
-      "llm",
-      "system-design",
-      "system-design-interview"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-25T04:50:06Z",
-    "updated_at": "2026-09-30T07:33:05Z",
-    "owner": {
-      "name": "amitshekhariitbhu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9877145?v=4"
-    }
-  },
-  {
     "name": "Liuziyu77/Valen",
     "url": "https://github.com/Liuziyu77/Valen",
     "description": "Train a Jev-like multimodal model by yourself. System One Model, now with vision.",
@@ -2209,6 +2309,22 @@
     "owner": {
       "name": "Liuziyu77",
       "avatar_url": "https://avatars.githubusercontent.com/u/113190597?v=4"
+    }
+  },
+  {
+    "name": "chasmlol/2010-rust-rewrite-mashup",
+    "url": "https://github.com/chasmlol/2010-rust-rewrite-mashup",
+    "description": "MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map",
+    "stars": 465,
+    "forks": 28,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-27T23:47:01Z",
+    "updated_at": "2026-10-01T07:54:59Z",
+    "owner": {
+      "name": "chasmlol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246197476?v=4"
     }
   },
   {
@@ -2231,7 +2347,7 @@
     "name": "SpecterLouse/CapCut-Pro-macOS-Windows",
     "url": "https://github.com/SpecterLouse/CapCut-Pro-macOS-Windows",
     "description": "Capcut Pro Unlocked v2026.7 - Full Premium (Windows & MacOS)",
-    "stars": 454,
+    "stars": 459,
     "forks": 1,
     "language": null,
     "topics": [
@@ -2258,7 +2374,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-25T11:40:59Z",
-    "updated_at": "2026-09-30T02:03:53Z",
+    "updated_at": "2026-10-01T03:41:11Z",
     "owner": {
       "name": "SpecterLouse",
       "avatar_url": "https://avatars.githubusercontent.com/u/292081444?v=4"
@@ -2286,6 +2402,38 @@
     "owner": {
       "name": "linguo2625469",
       "avatar_url": "https://avatars.githubusercontent.com/u/49717738?v=4"
+    }
+  },
+  {
+    "name": "xikhar/spiderbench",
+    "url": "https://github.com/xikhar/spiderbench",
+    "description": null,
+    "stars": 451,
+    "forks": 80,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-09-27T05:55:36Z",
+    "updated_at": "2026-10-01T01:06:03Z",
+    "owner": {
+      "name": "xikhar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/215908419?v=4"
+    }
+  },
+  {
+    "name": "AgentSystemLabs/agent-office",
+    "url": "https://github.com/AgentSystemLabs/agent-office",
+    "description": "A cartoon 3D office where your team hires Claude Code workers at desks, shares live terminals, talks over voice, and tracks GitHub issues and PRs.",
+    "stars": 451,
+    "forks": 105,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-26T00:32:48Z",
+    "updated_at": "2026-10-01T06:37:12Z",
+    "owner": {
+      "name": "AgentSystemLabs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279078077?v=4"
     }
   },
   {
@@ -2332,19 +2480,19 @@
     }
   },
   {
-    "name": "xikhar/spiderbench",
-    "url": "https://github.com/xikhar/spiderbench",
-    "description": null,
-    "stars": 441,
-    "forks": 78,
-    "language": "JavaScript",
+    "name": "fsiaonma/elpis",
+    "url": "https://github.com/fsiaonma/elpis",
+    "description": "elpis",
+    "stars": 446,
+    "forks": 4,
+    "language": "TypeScript",
     "topics": [],
-    "license": "Other",
-    "created_at": "2026-09-27T05:55:36Z",
-    "updated_at": "2026-09-30T07:40:41Z",
+    "license": "No license",
+    "created_at": "2026-09-29T02:19:22Z",
+    "updated_at": "2026-10-01T07:40:15Z",
     "owner": {
-      "name": "xikhar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/215908419?v=4"
+      "name": "fsiaonma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1947494?v=4"
     }
   },
   {
@@ -2386,22 +2534,6 @@
     }
   },
   {
-    "name": "JoasASantos/Offensive-Security-AI-Models",
-    "url": "https://github.com/JoasASantos/Offensive-Security-AI-Models",
-    "description": "Uncensored AI models or those fine-tuned for cybersecurity tasks.",
-    "stars": 435,
-    "forks": 41,
-    "language": null,
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-27T20:36:30Z",
-    "updated_at": "2026-09-30T07:44:11Z",
-    "owner": {
-      "name": "JoasASantos",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34966120?v=4"
-    }
-  },
-  {
     "name": "mabdulre9/electrical-engineering",
     "url": "https://github.com/mabdulre9/electrical-engineering",
     "description": "🎓 Path to a free self-taught education in Electrical Engineering",
@@ -2415,6 +2547,38 @@
     "owner": {
       "name": "mabdulre9",
       "avatar_url": "https://avatars.githubusercontent.com/u/193662455?v=4"
+    }
+  },
+  {
+    "name": "deepseek-ai/DeepGEMM-Ascend",
+    "url": "https://github.com/deepseek-ai/DeepGEMM-Ascend",
+    "description": "DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs",
+    "stars": 421,
+    "forks": 29,
+    "language": "C++",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-29T15:49:55Z",
+    "updated_at": "2026-10-01T07:57:06Z",
+    "owner": {
+      "name": "deepseek-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148330874?v=4"
+    }
+  },
+  {
+    "name": "bjarneo/flux",
+    "url": "https://github.com/bjarneo/flux",
+    "description": "Connect an Omarchy computer to your phone: files, clipboard, notifications, media, camera, and more",
+    "stars": 419,
+    "forks": 28,
+    "language": "Swift",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-25T18:45:46Z",
+    "updated_at": "2026-10-01T06:45:52Z",
+    "owner": {
+      "name": "bjarneo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1419214?v=4"
     }
   },
   {
@@ -2506,38 +2670,6 @@
     }
   },
   {
-    "name": "AgentSystemLabs/agent-office",
-    "url": "https://github.com/AgentSystemLabs/agent-office",
-    "description": "A cartoon 3D office where your team hires Claude Code workers at desks, shares live terminals, talks over voice, and tracks GitHub issues and PRs.",
-    "stars": 409,
-    "forks": 93,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-26T00:32:48Z",
-    "updated_at": "2026-09-30T07:35:33Z",
-    "owner": {
-      "name": "AgentSystemLabs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/279078077?v=4"
-    }
-  },
-  {
-    "name": "bjarneo/flux",
-    "url": "https://github.com/bjarneo/flux",
-    "description": "Connect an Omarchy computer to your phone: files, clipboard, notifications, media, camera, and more",
-    "stars": 404,
-    "forks": 28,
-    "language": "Swift",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-25T18:45:46Z",
-    "updated_at": "2026-09-30T07:06:57Z",
-    "owner": {
-      "name": "bjarneo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1419214?v=4"
-    }
-  },
-  {
     "name": "Qiuner/birdview",
     "url": "https://github.com/Qiuner/birdview",
     "description": "Stop letting AI code blind. Map the architecture before every change with Birdview.",
@@ -2582,7 +2714,7 @@
     "name": "CaptureGrubEnchant/SolidWorks",
     "url": "https://github.com/CaptureGrubEnchant/SolidWorks",
     "description": "SolidWorks MCP Server connects an AI assistant to a running SolidWorks instance. Sketch, extrude, fillet, export STEP/STL, generate macros.",
-    "stars": 375,
+    "stars": 382,
     "forks": 0,
     "language": "TypeScript",
     "topics": [
@@ -2605,23 +2737,46 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-25T10:42:51Z",
-    "updated_at": "2026-09-30T07:35:34Z",
+    "updated_at": "2026-10-01T02:55:37Z",
     "owner": {
       "name": "CaptureGrubEnchant",
       "avatar_url": "https://avatars.githubusercontent.com/u/292081201?v=4"
     }
   },
   {
+    "name": "athemeroy/awesome-opus-5-5-videos",
+    "url": "https://github.com/athemeroy/awesome-opus-5-5-videos",
+    "description": "Source-linked guide to 1,000+ videos people made with Claude Opus 5.5: what they're about, how they look, how the frames were made.",
+    "stars": 382,
+    "forks": 28,
+    "language": "Python",
+    "topics": [
+      "ai-video",
+      "awesome",
+      "awesome-list",
+      "claude",
+      "claude-opus-5-5",
+      "video-workflows"
+    ],
+    "license": "Creative Commons Attribution 4.0 International",
+    "created_at": "2026-09-25T00:29:30Z",
+    "updated_at": "2026-10-01T07:28:16Z",
+    "owner": {
+      "name": "athemeroy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29937484?v=4"
+    }
+  },
+  {
     "name": "Rieranthony/product-film-skill",
     "url": "https://github.com/Rieranthony/product-film-skill",
     "description": null,
-    "stars": 371,
-    "forks": 26,
+    "stars": 380,
+    "forks": 27,
     "language": "TypeScript",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-26T10:42:48Z",
-    "updated_at": "2026-09-30T06:01:35Z",
+    "updated_at": "2026-10-01T07:38:17Z",
     "owner": {
       "name": "Rieranthony",
       "avatar_url": "https://avatars.githubusercontent.com/u/19694603?v=4"
@@ -2644,63 +2799,16 @@
     }
   },
   {
-    "name": "nhovongoc0-max/meme-radar",
-    "url": "https://github.com/nhovongoc0-max/meme-radar",
-    "description": "Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
-    "stars": 352,
-    "forks": 148,
-    "language": "JavaScript",
-    "topics": [
-      "bsc",
-      "crypto",
-      "gmgn",
-      "meme",
-      "security",
-      "solana",
-      "token-scanner"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-09-11T12:14:57Z",
-    "updated_at": "2026-09-17T06:13:35Z",
-    "owner": {
-      "name": "nhovongoc0-max",
-      "avatar_url": "https://avatars.githubusercontent.com/u/277285323?v=4"
-    }
-  },
-  {
-    "name": "athemeroy/awesome-opus-5-5-videos",
-    "url": "https://github.com/athemeroy/awesome-opus-5-5-videos",
-    "description": "Source-linked guide to 1,000+ videos people made with Claude Opus 5.5: what they're about, how they look, how the frames were made.",
-    "stars": 350,
-    "forks": 25,
-    "language": "Python",
-    "topics": [
-      "ai-video",
-      "awesome",
-      "awesome-list",
-      "claude",
-      "claude-opus-5-5",
-      "video-workflows"
-    ],
-    "license": "Creative Commons Attribution 4.0 International",
-    "created_at": "2026-09-25T00:29:30Z",
-    "updated_at": "2026-09-30T07:36:59Z",
-    "owner": {
-      "name": "athemeroy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29937484?v=4"
-    }
-  },
-  {
     "name": "Barty-Bart/motion-graphics",
     "url": "https://github.com/Barty-Bart/motion-graphics",
     "description": "Motion-graphics skills for Claude Code and Codex.",
-    "stars": 344,
-    "forks": 56,
+    "stars": 369,
+    "forks": 59,
     "language": "HTML",
     "topics": [],
     "license": "Other",
     "created_at": "2026-09-25T12:07:01Z",
-    "updated_at": "2026-09-30T06:35:08Z",
+    "updated_at": "2026-10-01T07:34:28Z",
     "owner": {
       "name": "Barty-Bart",
       "avatar_url": "https://avatars.githubusercontent.com/u/169445477?v=4"
@@ -2773,38 +2881,6 @@
     }
   },
   {
-    "name": "browser-use/life-recorder",
-    "url": "https://github.com/browser-use/life-recorder",
-    "description": null,
-    "stars": 304,
-    "forks": 36,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-11T02:51:50Z",
-    "updated_at": "2026-09-16T22:04:51Z",
-    "owner": {
-      "name": "browser-use",
-      "avatar_url": "https://avatars.githubusercontent.com/u/192012301?v=4"
-    }
-  },
-  {
-    "name": "tqmane/gunshot",
-    "url": "https://github.com/tqmane/gunshot",
-    "description": "Google Photo tweak",
-    "stars": 300,
-    "forks": 24,
-    "language": "Objective-C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-09-11T23:26:08Z",
-    "updated_at": "2026-09-17T06:56:30Z",
-    "owner": {
-      "name": "tqmane",
-      "avatar_url": "https://avatars.githubusercontent.com/u/149690876?v=4"
-    }
-  },
-  {
     "name": "devagrawal09/jev-review",
     "url": "https://github.com/devagrawal09/jev-review",
     "description": "A staged code-review workflow and local dashboard built with TypeSafe Jev.",
@@ -2849,33 +2925,6 @@
     "owner": {
       "name": "Marcos66236",
       "avatar_url": "https://avatars.githubusercontent.com/u/309151474?v=4"
-    }
-  },
-  {
-    "name": "groundboxerrespect/Dlls5-auto",
-    "url": "https://github.com/groundboxerrespect/Dlls5-auto",
-    "description": "🎮 Self-hosted neural rendering & AI image enhancement service inspired by DLSS 5. Turn any photo, screenshot or game capture into a photoreal cinematic render — bloom, filmic tone mapping, 6 style presets, REST API, batch mode. Python + FastAPI + Docker. Free & open-source.",
-    "stars": 258,
-    "forks": 1,
-    "language": "Python",
-    "topics": [
-      "dlls",
-      "dlls-5",
-      "dlls-enabler",
-      "dlls-neural-rendering",
-      "dlls-swapper",
-      "dlls5",
-      "dlls5-menu",
-      "dllsideloading",
-      "nvidia-dlss-5",
-      "optiscaler"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-12T14:33:24Z",
-    "updated_at": "2026-09-17T06:26:26Z",
-    "owner": {
-      "name": "groundboxerrespect",
-      "avatar_url": "https://avatars.githubusercontent.com/u/270958220?v=4"
     }
   }
 ]
