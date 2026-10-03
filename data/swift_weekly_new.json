@@ -18,9 +18,9 @@
   {
     "name": "Louis-CFM/coucou",
     "url": "https://github.com/Louis-CFM/coucou",
-    "description": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Gemini CLI, Antigravity and more.",
-    "stars": 2605,
-    "forks": 387,
+    "description": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
+    "stars": 3054,
+    "forks": 470,
     "language": "Swift",
     "topics": [
       "ai-agents",
@@ -28,6 +28,8 @@
       "antigravity",
       "claude",
       "claude-code",
+      "codex",
+      "cursor",
       "dynamic-island",
       "gemini-cli",
       "linux",
@@ -42,7 +44,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-27T21:54:12Z",
-    "updated_at": "2026-10-02T07:48:17Z",
+    "updated_at": "2026-10-03T07:23:40Z",
     "owner": {
       "name": "Louis-CFM",
       "avatar_url": "https://avatars.githubusercontent.com/u/72659375?v=4"
@@ -182,8 +184,8 @@
     "name": "pengchujin/livecanvas",
     "url": "https://github.com/pengchujin/livecanvas",
     "description": "一句话，做成有封面、有动画的 Live 图。Turn a sentence into a Live Photo with a designed cover and animation.",
-    "stars": 315,
-    "forks": 24,
+    "stars": 333,
+    "forks": 23,
     "language": "Swift",
     "topics": [
       "agent-skills",
@@ -194,7 +196,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-30T10:26:35Z",
-    "updated_at": "2026-10-02T07:36:29Z",
+    "updated_at": "2026-10-03T07:00:52Z",
     "owner": {
       "name": "pengchujin",
       "avatar_url": "https://avatars.githubusercontent.com/u/16513318?v=4"
@@ -438,6 +440,31 @@
     }
   },
   {
+    "name": "omlahore/RemoveMacAI",
+    "url": "https://github.com/omlahore/RemoveMacAI",
+    "description": "Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible.",
+    "stars": 92,
+    "forks": 4,
+    "language": "Swift",
+    "topics": [
+      "apple-intelligence",
+      "cli",
+      "debloat",
+      "macos",
+      "macos-27",
+      "privacy",
+      "siri",
+      "swift"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-29T11:02:39Z",
+    "updated_at": "2026-10-03T07:22:01Z",
+    "owner": {
+      "name": "omlahore",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119071446?v=4"
+    }
+  },
+  {
     "name": "Altimor/flo-state",
     "url": "https://github.com/Altimor/flo-state",
     "description": "A minimalist, native macOS markdown editor. Swift + TextKit 2. GPL-3.0.",
@@ -483,27 +510,6 @@
     "owner": {
       "name": "SamGu-NRX",
       "avatar_url": "https://avatars.githubusercontent.com/u/127461594?v=4"
-    }
-  },
-  {
-    "name": "callbacked/kinesis",
-    "url": "https://github.com/callbacked/kinesis",
-    "description": "native macos controls for the meta neural band (highly experimental)",
-    "stars": 79,
-    "forks": 3,
-    "language": "Swift",
-    "topics": [
-      "emg",
-      "gesture-control",
-      "human-computer-interaction",
-      "wearables"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-14T11:30:54Z",
-    "updated_at": "2026-09-18T09:03:25Z",
-    "owner": {
-      "name": "callbacked",
-      "avatar_url": "https://avatars.githubusercontent.com/u/117959902?v=4"
     }
   },
   {
@@ -574,23 +580,52 @@
     }
   },
   {
-    "name": "JamesRyanATX/fcbnerd",
-    "url": "https://github.com/JamesRyanATX/fcbnerd",
-    "description": "Do things with a Behringer FCB1010 MIDI pedalboard in MacOS",
+    "name": "chadMueller/Nostalgex",
+    "url": "https://github.com/chadMueller/Nostalgex",
+    "description": "Retro cable TV guide for your Plex, Jellyfin or Emby library. Native Apple TV app + web tuner.",
     "stars": 62,
     "forks": 1,
     "language": "Swift",
     "topics": [
-      "fcb1010",
-      "macos",
-      "midi"
+      "apple-tv",
+      "emby",
+      "epg",
+      "jellyfin",
+      "plex",
+      "retro",
+      "swiftui",
+      "tvos"
     ],
     "license": "MIT License",
-    "created_at": "2026-09-14T21:33:23Z",
-    "updated_at": "2026-09-19T01:33:41Z",
+    "created_at": "2026-09-28T18:48:03Z",
+    "updated_at": "2026-10-03T06:42:02Z",
     "owner": {
-      "name": "JamesRyanATX",
-      "avatar_url": "https://avatars.githubusercontent.com/u/86906?v=4"
+      "name": "chadMueller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3299263?v=4"
+    }
+  },
+  {
+    "name": "zoolapp/aime",
+    "url": "https://github.com/zoolapp/aime",
+    "description": "艾么输入法 · An open-source Chinese input method for macOS, built on RIME. Local first, optional AI.",
+    "stars": 61,
+    "forks": 5,
+    "language": "Swift",
+    "topics": [
+      "chinese",
+      "input-method",
+      "librime",
+      "macos",
+      "pinyin",
+      "rime",
+      "swift"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-01T03:51:36Z",
+    "updated_at": "2026-10-03T07:23:12Z",
+    "owner": {
+      "name": "zoolapp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/336227434?v=4"
     }
   },
   {
@@ -732,6 +767,32 @@
     }
   },
   {
+    "name": "flaviocopes/factorylog",
+    "url": "https://github.com/flaviocopes/factorylog",
+    "description": "See what your coding agents did for you: a timeline of each day and week on your Mac, and where your time went, project by project",
+    "stars": 52,
+    "forks": 2,
+    "language": "Swift",
+    "topics": [
+      "ai-agents",
+      "cli",
+      "codex",
+      "coding-agents",
+      "cursor",
+      "macos",
+      "swift",
+      "swiftui",
+      "time-tracking"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-01T16:28:49Z",
+    "updated_at": "2026-10-03T03:47:15Z",
+    "owner": {
+      "name": "flaviocopes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11783388?v=4"
+    }
+  },
+  {
     "name": "codingnoye/gksdud",
     "url": "https://github.com/codingnoye/gksdud",
     "description": "빠릿빠릿한 macOS 한영 전환 유틸",
@@ -745,6 +806,32 @@
     "owner": {
       "name": "codingnoye",
       "avatar_url": "https://avatars.githubusercontent.com/u/48244997?v=4"
+    }
+  },
+  {
+    "name": "flaviocopes/skillscout",
+    "url": "https://github.com/flaviocopes/skillscout",
+    "description": "Find the skills your coding agents load, see which agents can use each one, and count how often you use them",
+    "stars": 50,
+    "forks": 3,
+    "language": "Swift",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "cursor",
+      "developer-tools",
+      "macos",
+      "swift",
+      "swiftui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-30T13:27:04Z",
+    "updated_at": "2026-10-02T19:39:31Z",
+    "owner": {
+      "name": "flaviocopes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11783388?v=4"
     }
   },
   {
@@ -777,6 +864,28 @@
     "owner": {
       "name": "peterfriese",
       "avatar_url": "https://avatars.githubusercontent.com/u/232107?v=4"
+    }
+  },
+  {
+    "name": "Tobi1chi/OpenRayneo",
+    "url": "https://github.com/Tobi1chi/OpenRayneo",
+    "description": "Unofficial macOS Bluetooth bridge for RayNeo iO glasses: local HTTP notifications and teleprompter control.",
+    "stars": 47,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "bluetooth",
+      "macos",
+      "rayneo",
+      "swift",
+      "teleprompter"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-28T15:43:58Z",
+    "updated_at": "2026-10-03T06:23:14Z",
+    "owner": {
+      "name": "Tobi1chi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49900770?v=4"
     }
   },
   {
@@ -817,91 +926,11 @@
     }
   },
   {
-    "name": "flaviocopes/skillscout",
-    "url": "https://github.com/flaviocopes/skillscout",
-    "description": "Find the skills your coding agents load, see which agents can use each one, and count how often you use them",
-    "stars": 45,
-    "forks": 3,
-    "language": "Swift",
-    "topics": [
-      "agent-skills",
-      "ai-agents",
-      "claude-code",
-      "codex",
-      "cursor",
-      "developer-tools",
-      "macos",
-      "swift",
-      "swiftui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-30T13:27:04Z",
-    "updated_at": "2026-10-02T06:00:08Z",
-    "owner": {
-      "name": "flaviocopes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11783388?v=4"
-    }
-  },
-  {
-    "name": "Cogria-AI/HeadOrbit",
-    "url": "https://github.com/Cogria-AI/HeadOrbit",
-    "description": "Your AirPods know where you're looking. macOS menu bar app: look-away blur and posture reminder from AirPods head tracking.",
-    "stars": 43,
-    "forks": 9,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-13T18:07:20Z",
-    "updated_at": "2026-09-19T04:40:28Z",
-    "owner": {
-      "name": "Cogria-AI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/260770435?v=4"
-    }
-  },
-  {
-    "name": "visualizevalue/ratio",
-    "url": "https://github.com/visualizevalue/ratio",
-    "description": "Ratio: create more, consume less — an open-source macOS menu-bar time tracker",
-    "stars": 43,
-    "forks": 8,
-    "language": "Swift",
-    "topics": [
-      "macos",
-      "open-source",
-      "productivity",
-      "swift",
-      "time-tracking"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-09-13T18:32:55Z",
-    "updated_at": "2026-09-18T08:19:12Z",
-    "owner": {
-      "name": "visualizevalue",
-      "avatar_url": "https://avatars.githubusercontent.com/u/116980698?v=4"
-    }
-  },
-  {
-    "name": "arinltte/kevMac",
-    "url": "https://github.com/arinltte/kevMac",
-    "description": "Questions in. Answers out.",
-    "stars": 42,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-20T17:13:07Z",
-    "updated_at": "2026-09-26T03:39:49Z",
-    "owner": {
-      "name": "arinltte",
-      "avatar_url": "https://avatars.githubusercontent.com/u/166289099?v=4"
-    }
-  },
-  {
     "name": "kai-wu-cortex/AirSIM",
     "url": "https://github.com/kai-wu-cortex/AirSIM",
     "description": "Source-available, noncommercial cross-device calling and messaging for Samsung Android, iPhone, Apple Watch, AVF Linux and Cloudflare Workers.",
-    "stars": 41,
-    "forks": 8,
+    "stars": 43,
+    "forks": 10,
     "language": "Swift",
     "topics": [
       "airsim",
@@ -922,10 +951,26 @@
     ],
     "license": "Other",
     "created_at": "2026-09-29T04:42:19Z",
-    "updated_at": "2026-10-02T06:54:27Z",
+    "updated_at": "2026-10-03T03:59:09Z",
     "owner": {
       "name": "kai-wu-cortex",
       "avatar_url": "https://avatars.githubusercontent.com/u/60846098?v=4"
+    }
+  },
+  {
+    "name": "arinltte/kevMac",
+    "url": "https://github.com/arinltte/kevMac",
+    "description": "Questions in. Answers out.",
+    "stars": 42,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-20T17:13:07Z",
+    "updated_at": "2026-09-26T03:39:49Z",
+    "owner": {
+      "name": "arinltte",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166289099?v=4"
     }
   },
   {
@@ -948,32 +993,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-29T11:54:07Z",
-    "updated_at": "2026-10-01T20:21:40Z",
+    "updated_at": "2026-10-02T10:08:19Z",
     "owner": {
       "name": "flaviocopes",
       "avatar_url": "https://avatars.githubusercontent.com/u/11783388?v=4"
     }
   },
   {
-    "name": "Tobi1chi/OpenRayneo",
-    "url": "https://github.com/Tobi1chi/OpenRayneo",
-    "description": "Unofficial macOS Bluetooth bridge for RayNeo iO glasses: local HTTP notifications and teleprompter control.",
-    "stars": 40,
-    "forks": 0,
+    "name": "rbrown101010/bluey-by-riley",
+    "url": "https://github.com/rbrown101010/bluey-by-riley",
+    "description": "Googly Eyes: a blueberry character on iPhone that points and acts on your Mac (Mac menu bar app + iOS app)",
+    "stars": 38,
+    "forks": 9,
     "language": "Swift",
-    "topics": [
-      "bluetooth",
-      "macos",
-      "rayneo",
-      "swift",
-      "teleprompter"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-28T15:43:58Z",
-    "updated_at": "2026-10-02T07:13:19Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-02T16:12:02Z",
+    "updated_at": "2026-10-03T07:08:29Z",
     "owner": {
-      "name": "Tobi1chi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49900770?v=4"
+      "name": "rbrown101010",
+      "avatar_url": "https://avatars.githubusercontent.com/u/176113762?v=4"
     }
   },
   {
@@ -1042,27 +1081,35 @@
     }
   },
   {
-    "name": "zoolapp/aime",
-    "url": "https://github.com/zoolapp/aime",
-    "description": "艾么输入法 · An open-source Chinese input method for macOS, built on RIME. Local first, optional AI.",
-    "stars": 32,
-    "forks": 2,
+    "name": "margelo/simdutf-swift",
+    "url": "https://github.com/margelo/simdutf-swift",
+    "description": "Swift bindings for simdutf: SIMD-accelerated Unicode validation, conversion, and Base64 with configurable SwiftPM traits.",
+    "stars": 33,
+    "forks": 1,
     "language": "Swift",
     "topics": [
-      "chinese",
-      "input-method",
-      "librime",
+      "ascii",
+      "base64",
+      "cpp",
+      "ios",
+      "latin1",
+      "linux",
       "macos",
-      "pinyin",
-      "rime",
-      "swift"
+      "simd",
+      "simdutf",
+      "swift",
+      "swift-package-manager",
+      "unicode",
+      "utf16",
+      "utf32",
+      "utf8"
     ],
     "license": "MIT License",
-    "created_at": "2026-10-01T03:51:36Z",
-    "updated_at": "2026-10-02T07:04:38Z",
+    "created_at": "2026-09-30T15:23:38Z",
+    "updated_at": "2026-10-03T05:35:06Z",
     "owner": {
-      "name": "zoolapp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/336227434?v=4"
+      "name": "margelo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91980534?v=4"
     }
   },
   {
@@ -1132,35 +1179,27 @@
     }
   },
   {
-    "name": "margelo/simdutf-swift",
-    "url": "https://github.com/margelo/simdutf-swift",
-    "description": "Swift bindings for simdutf: SIMD-accelerated Unicode validation, conversion, and Base64 with configurable SwiftPM traits.",
+    "name": "caiyuyou1227-glitch/tequila",
+    "url": "https://github.com/caiyuyou1227-glitch/tequila",
+    "description": "A native, open-source macOS all-in-one productivity app built in Swift, designed for deep focus and visual clarity.",
     "stars": 31,
-    "forks": 1,
+    "forks": 3,
     "language": "Swift",
     "topics": [
-      "ascii",
-      "base64",
-      "cpp",
-      "ios",
-      "latin1",
-      "linux",
+      "calendar",
+      "indie-developer",
       "macos",
-      "simd",
-      "simdutf",
-      "swift",
-      "swift-package-manager",
-      "unicode",
-      "utf16",
-      "utf32",
-      "utf8"
+      "mail-client",
+      "open-source",
+      "productivity",
+      "swift"
     ],
-    "license": "MIT License",
-    "created_at": "2026-09-30T15:23:38Z",
-    "updated_at": "2026-10-02T07:37:17Z",
+    "license": "No license",
+    "created_at": "2026-09-27T02:14:38Z",
+    "updated_at": "2026-10-03T05:49:01Z",
     "owner": {
-      "name": "margelo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91980534?v=4"
+      "name": "caiyuyou1227-glitch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/288250598?v=4"
     }
   },
   {
@@ -1241,32 +1280,6 @@
     }
   },
   {
-    "name": "flaviocopes/factorylog",
-    "url": "https://github.com/flaviocopes/factorylog",
-    "description": "See what your coding agents did for you: a timeline of each day and week on your Mac, and where your time went, project by project",
-    "stars": 29,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [
-      "ai-agents",
-      "cli",
-      "codex",
-      "coding-agents",
-      "cursor",
-      "macos",
-      "swift",
-      "swiftui",
-      "time-tracking"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-01T16:28:49Z",
-    "updated_at": "2026-10-02T05:05:25Z",
-    "owner": {
-      "name": "flaviocopes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11783388?v=4"
-    }
-  },
-  {
     "name": "elliotttate/SpatialSlideshow",
     "url": "https://github.com/elliotttate/SpatialSlideshow",
     "description": "Native macOS spatial slideshows using installed Apple Photos Reframe models, with optional local edge expansion.",
@@ -1342,6 +1355,22 @@
     "owner": {
       "name": "tonsky",
       "avatar_url": "https://avatars.githubusercontent.com/u/285292?v=4"
+    }
+  },
+  {
+    "name": "sorrycc/tiller",
+    "url": "https://github.com/sorrycc/tiller",
+    "description": null,
+    "stars": 28,
+    "forks": 7,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-30T01:29:26Z",
+    "updated_at": "2026-10-02T14:44:13Z",
+    "owner": {
+      "name": "sorrycc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35128?v=4"
     }
   },
   {
@@ -1482,43 +1511,35 @@
     }
   },
   {
-    "name": "sorrycc/tiller",
-    "url": "https://github.com/sorrycc/tiller",
-    "description": null,
-    "stars": 25,
-    "forks": 6,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-30T01:29:26Z",
-    "updated_at": "2026-10-02T05:44:33Z",
-    "owner": {
-      "name": "sorrycc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35128?v=4"
-    }
-  },
-  {
-    "name": "caiyuyou1227-glitch/tequila",
-    "url": "https://github.com/caiyuyou1227-glitch/tequila",
-    "description": "A native, open-source macOS all-in-one productivity app built in Swift, designed for deep focus and visual clarity.",
+    "name": "spatie/bloom",
+    "url": "https://github.com/spatie/bloom",
+    "description": "A native macOS app for running coding agents in git worktrees",
     "stars": 25,
     "forks": 2,
     "language": "Swift",
-    "topics": [
-      "calendar",
-      "indie-developer",
-      "macos",
-      "mail-client",
-      "open-source",
-      "productivity",
-      "swift"
-    ],
-    "license": "No license",
-    "created_at": "2026-09-27T02:14:38Z",
-    "updated_at": "2026-10-02T06:31:04Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-28T09:34:01Z",
+    "updated_at": "2026-10-03T00:26:31Z",
     "owner": {
-      "name": "caiyuyou1227-glitch",
-      "avatar_url": "https://avatars.githubusercontent.com/u/288250598?v=4"
+      "name": "spatie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7535935?v=4"
+    }
+  },
+  {
+    "name": "Grwaywee/spiralday",
+    "url": "https://github.com/Grwaywee/spiralday",
+    "description": "창 하나가 곧 종이 한 장인 macOS 플래너 — 10분 플래너 양식, 형광펜 타임테이블, 진짜 종이처럼 넘어가는 페이지",
+    "stars": 25,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-29T02:24:42Z",
+    "updated_at": "2026-10-02T15:19:24Z",
+    "owner": {
+      "name": "Grwaywee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/178464662?v=4"
     }
   },
   {
@@ -1574,70 +1595,6 @@
     }
   },
   {
-    "name": "gtrg55/dlss5-macos-overlay",
-    "url": "https://github.com/gtrg55/dlss5-macos-overlay",
-    "description": "DLSS 5 neural rendering overlay and video processing for Apple Silicon Macs.",
-    "stars": 24,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-13T19:04:56Z",
-    "updated_at": "2026-09-18T09:53:18Z",
-    "owner": {
-      "name": "gtrg55",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26360241?v=4"
-    }
-  },
-  {
-    "name": "spatie/bloom",
-    "url": "https://github.com/spatie/bloom",
-    "description": "A native macOS app for running coding agents in git worktrees",
-    "stars": 23,
-    "forks": 2,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-28T09:34:01Z",
-    "updated_at": "2026-10-02T07:06:56Z",
-    "owner": {
-      "name": "spatie",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7535935?v=4"
-    }
-  },
-  {
-    "name": "yuntongyao/renew-ai",
-    "url": "https://github.com/yuntongyao/renew-ai",
-    "description": null,
-    "stars": 23,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-13T05:59:59Z",
-    "updated_at": "2026-09-19T04:05:44Z",
-    "owner": {
-      "name": "yuntongyao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/128367399?v=4"
-    }
-  },
-  {
-    "name": "Grwaywee/spiralday",
-    "url": "https://github.com/Grwaywee/spiralday",
-    "description": "창 하나가 곧 종이 한 장인 macOS 플래너 — 10분 플래너 양식, 형광펜 타임테이블, 진짜 종이처럼 넘어가는 페이지",
-    "stars": 22,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-29T02:24:42Z",
-    "updated_at": "2026-10-02T05:58:27Z",
-    "owner": {
-      "name": "Grwaywee",
-      "avatar_url": "https://avatars.githubusercontent.com/u/178464662?v=4"
-    }
-  },
-  {
     "name": "Geliv/MoniVol",
     "url": "https://github.com/Geliv/MoniVol",
     "description": "Free, lightweight macOS menu bar app that enables system volume control for external HDMI and DisplayPort displays.",
@@ -1681,6 +1638,43 @@
     }
   },
   {
+    "name": "lhfer/factory-switcher",
+    "url": "https://github.com/lhfer/factory-switcher",
+    "description": "🔁 Native macOS menu-bar app to switch between your own Factory (Droid) accounts — quota at a glance, backup-first switching with auto-rollback. 菜单栏一键切换 Factory 多账号，额度一目了然，先备份再切换。",
+    "stars": 20,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [
+      "account-manager",
+      "account-switcher",
+      "ai-agent",
+      "ai-coding",
+      "appkit",
+      "coding-agent",
+      "developer-tools",
+      "droid",
+      "droid-cli",
+      "factory-ai",
+      "factory-droid",
+      "keychain",
+      "macos",
+      "macos-app",
+      "menu-bar",
+      "menubar-app",
+      "multi-account",
+      "productivity",
+      "quota",
+      "swift"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-01T05:24:35Z",
+    "updated_at": "2026-10-02T15:36:13Z",
+    "owner": {
+      "name": "lhfer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70016333?v=4"
+    }
+  },
+  {
     "name": "demirfirat/ipadScreen",
     "url": "https://github.com/demirfirat/ipadScreen",
     "description": "Use an old jailbroken iPad (iOS 6+, tested on iPad 2) as a real extended display for your Mac, over USB or Wi-Fi. Native iOS 6 app with libjpeg-turbo NEON, ~35 fps.",
@@ -1710,88 +1704,10 @@
     }
   },
   {
-    "name": "lhfer/factory-switcher",
-    "url": "https://github.com/lhfer/factory-switcher",
-    "description": "🔁 Native macOS menu-bar app to switch between your own Factory (Droid) accounts — quota at a glance, backup-first switching with auto-rollback. 菜单栏一键切换 Factory 多账号，额度一目了然，先备份再切换。",
-    "stars": 19,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [
-      "account-manager",
-      "account-switcher",
-      "ai-agent",
-      "ai-coding",
-      "appkit",
-      "coding-agent",
-      "developer-tools",
-      "droid",
-      "droid-cli",
-      "factory-ai",
-      "factory-droid",
-      "keychain",
-      "macos",
-      "macos-app",
-      "menu-bar",
-      "menubar-app",
-      "multi-account",
-      "productivity",
-      "quota",
-      "swift"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-01T05:24:35Z",
-    "updated_at": "2026-10-02T06:37:34Z",
-    "owner": {
-      "name": "lhfer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/70016333?v=4"
-    }
-  },
-  {
-    "name": "chadMueller/Nostalgex",
-    "url": "https://github.com/chadMueller/Nostalgex",
-    "description": "Retro cable TV guide for your Plex, Jellyfin or Emby library. Native Apple TV app + web tuner.",
-    "stars": 19,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [
-      "apple-tv",
-      "emby",
-      "epg",
-      "jellyfin",
-      "plex",
-      "retro",
-      "swiftui",
-      "tvos"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-28T18:48:03Z",
-    "updated_at": "2026-10-01T20:04:45Z",
-    "owner": {
-      "name": "chadMueller",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3299263?v=4"
-    }
-  },
-  {
-    "name": "AnuragTummapudi/Localflow",
-    "url": "https://github.com/AnuragTummapudi/Localflow",
-    "description": null,
-    "stars": 19,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-20T18:40:13Z",
-    "updated_at": "2026-09-23T15:50:01Z",
-    "owner": {
-      "name": "AnuragTummapudi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/180643822?v=4"
-    }
-  },
-  {
     "name": "Raynan00/cell-use",
     "url": "https://github.com/Raynan00/cell-use",
     "description": "On-device iPhone automation for AI agents. Open-source Swift SDK for screenshots, taps, swipes, text input and an embedded local tunnel.",
-    "stars": 18,
+    "stars": 19,
     "forks": 2,
     "language": "Swift",
     "topics": [
@@ -1812,10 +1728,26 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-09-28T03:06:47Z",
-    "updated_at": "2026-09-30T16:48:45Z",
+    "updated_at": "2026-10-02T21:56:56Z",
     "owner": {
       "name": "Raynan00",
       "avatar_url": "https://avatars.githubusercontent.com/u/92277081?v=4"
+    }
+  },
+  {
+    "name": "AnuragTummapudi/Localflow",
+    "url": "https://github.com/AnuragTummapudi/Localflow",
+    "description": null,
+    "stars": 19,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-20T18:40:13Z",
+    "updated_at": "2026-09-23T15:50:01Z",
+    "owner": {
+      "name": "AnuragTummapudi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/180643822?v=4"
     }
   },
   {
@@ -2064,6 +1996,22 @@
     }
   },
   {
+    "name": "thaw-app/Floe",
+    "url": "https://github.com/thaw-app/Floe",
+    "description": "The open source launcher for macOS",
+    "stars": 15,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-03T01:04:58Z",
+    "updated_at": "2026-10-03T07:24:14Z",
+    "owner": {
+      "name": "thaw-app",
+      "avatar_url": "https://avatars.githubusercontent.com/u/281780541?v=4"
+    }
+  },
+  {
     "name": "haplollc/Scrubbers",
     "url": "https://github.com/haplollc/Scrubbers",
     "description": "Twelve sliders you'll want to touch, for SwiftUI. One view, one enum: Scrubber(.jelly, value: $value). Liquid Glass, jelly, elastic, fluid, squiggle, thermostat, swing, mood and more.",
@@ -2087,6 +2035,27 @@
     "owner": {
       "name": "haplollc",
       "avatar_url": "https://avatars.githubusercontent.com/u/257211683?v=4"
+    }
+  },
+  {
+    "name": "kageroumado/sevoflurane",
+    "url": "https://github.com/kageroumado/sevoflurane",
+    "description": "Steam for macOS, as a real Mac app: the Windows Steam client runs hidden in a Wine bottle; everything you see and touch is native",
+    "stars": 15,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "games",
+      "gaming",
+      "macos",
+      "wine"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-30T17:02:04Z",
+    "updated_at": "2026-10-02T22:02:08Z",
+    "owner": {
+      "name": "kageroumado",
+      "avatar_url": "https://avatars.githubusercontent.com/u/262214232?v=4"
     }
   },
   {
@@ -2174,27 +2143,6 @@
     }
   },
   {
-    "name": "kageroumado/sevoflurane",
-    "url": "https://github.com/kageroumado/sevoflurane",
-    "description": "Steam for macOS, as a real Mac app: the Windows Steam client runs hidden in a Wine bottle; everything you see and touch is native",
-    "stars": 14,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [
-      "games",
-      "gaming",
-      "macos",
-      "wine"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-30T17:02:04Z",
-    "updated_at": "2026-10-02T02:05:42Z",
-    "owner": {
-      "name": "kageroumado",
-      "avatar_url": "https://avatars.githubusercontent.com/u/262214232?v=4"
-    }
-  },
-  {
     "name": "adamsardo/screenshot-renamer",
     "url": "https://github.com/adamsardo/screenshot-renamer",
     "description": "Native macOS screenshot renamer using on-device Apple Intelligence. Review, rename and undo.",
@@ -2241,37 +2189,6 @@
     }
   },
   {
-    "name": "eriktaveras/modelnap",
-    "url": "https://github.com/eriktaveras/modelnap",
-    "description": "Let idle local LLMs sleep and get your Mac's memory back. A native macOS menu bar app to turn Ollama on and off and auto-free idle model RAM. Free and open source.",
-    "stars": 14,
-    "forks": 2,
-    "language": "Swift",
-    "topics": [
-      "ai",
-      "apple-silicon",
-      "llm",
-      "local-llm",
-      "macos",
-      "macos-app",
-      "memory",
-      "menu-bar-app",
-      "menubar",
-      "ollama",
-      "open-source",
-      "ram",
-      "swift",
-      "swiftui"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-15T03:30:01Z",
-    "updated_at": "2026-09-18T22:03:16Z",
-    "owner": {
-      "name": "eriktaveras",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10116703?v=4"
-    }
-  },
-  {
     "name": "zolferfigueiredo/claudiostat",
     "url": "https://github.com/zolferfigueiredo/claudiostat",
     "description": "Your Claude plan limits, live in the macOS menu bar",
@@ -2288,10 +2205,63 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-28T17:13:09Z",
-    "updated_at": "2026-10-01T13:38:22Z",
+    "updated_at": "2026-10-02T15:07:54Z",
     "owner": {
       "name": "zolferfigueiredo",
       "avatar_url": "https://avatars.githubusercontent.com/u/244608048?v=4"
+    }
+  },
+  {
+    "name": "Digisensus/digisensus-recorder",
+    "url": "https://github.com/Digisensus/digisensus-recorder",
+    "description": "Free, open source call recorder and bot-free AI meeting note taker for Mac: record Zoom, Meet, Teams, FaceTime, WhatsApp and phone calls, get transcripts and meeting notes.",
+    "stars": 13,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "ai-note-taker",
+      "audio-recorder",
+      "bot-free",
+      "call-recorder",
+      "fireflies-alternative",
+      "granola-alternative",
+      "mac-app",
+      "macos",
+      "mcp-server",
+      "meeting-notes",
+      "meeting-recorder",
+      "menu-bar-app",
+      "ogg-opus",
+      "open-source",
+      "otter-alternative",
+      "speech-to-text",
+      "swift",
+      "swiftui",
+      "transcription",
+      "whatsapp"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-09-29T05:57:42Z",
+    "updated_at": "2026-10-02T11:26:23Z",
+    "owner": {
+      "name": "Digisensus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/282476084?v=4"
+    }
+  },
+  {
+    "name": "panda-island/MintLedger",
+    "url": "https://github.com/panda-island/MintLedger",
+    "description": "完整、離線優先的 iOS 26 Liquid Glass 記帳 App，支援鎖定畫面捷徑、本機備份與 Widget。",
+    "stars": 13,
+    "forks": 1,
+    "language": "Swift",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-29T11:37:06Z",
+    "updated_at": "2026-10-03T06:21:24Z",
+    "owner": {
+      "name": "panda-island",
+      "avatar_url": "https://avatars.githubusercontent.com/u/316664139?v=4"
     }
   },
   {
@@ -2406,28 +2376,68 @@
     }
   },
   {
-    "name": "nothingbutcici/pastory",
-    "url": "https://github.com/nothingbutcici/pastory",
-    "description": "Clipboard history + screenshots, annotation, OCR and screen recording for macOS. Everything stays on your Mac. 剪贴板历史 + 截图标注 / 识别文字 / 录屏。",
-    "stars": 13,
+    "name": "playportdev/playport",
+    "url": "https://github.com/playportdev/playport",
+    "description": "Playport runs x86-64 Windows games on a stock, non-jailbroken iPhone. Install a game from your library onto the phone, pick up a controller and press Play. The game runs on the phone's own CPU and GPU: no PC, no cloud, no stream.",
+    "stars": 12,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-01T19:39:36Z",
+    "updated_at": "2026-10-02T21:05:32Z",
+    "owner": {
+      "name": "playportdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/336672526?v=4"
+    }
+  },
+  {
+    "name": "Thesimpleex/steno",
+    "url": "https://github.com/Thesimpleex/steno",
+    "description": "Free, open-source dictation and meeting notes for macOS. Hold a key, speak, and your words appear at the cursor – transcribed locally with OpenAI Whisper.",
+    "stars": 12,
     "forks": 0,
     "language": "Swift",
     "topics": [
-      "clipboard",
-      "clipboard-manager",
+      "apple-silicon",
+      "dictation",
+      "local-first",
       "macos",
-      "menubar",
-      "ocr",
-      "screen-recording",
-      "screenshot",
-      "swift"
+      "meeting-notes",
+      "meeting-transcription",
+      "menubar-app",
+      "offline",
+      "privacy",
+      "speech-to-text",
+      "swift",
+      "swiftui",
+      "transcription",
+      "voice-typing",
+      "whisper",
+      "whisper-cpp"
     ],
     "license": "MIT License",
-    "created_at": "2026-09-14T09:09:38Z",
-    "updated_at": "2026-09-19T01:26:04Z",
+    "created_at": "2026-09-28T16:27:56Z",
+    "updated_at": "2026-10-03T02:49:44Z",
     "owner": {
-      "name": "nothingbutcici",
-      "avatar_url": "https://avatars.githubusercontent.com/u/274159231?v=4"
+      "name": "Thesimpleex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/181644279?v=4"
+    }
+  },
+  {
+    "name": "primayudantra/salah",
+    "url": "https://github.com/primayudantra/salah",
+    "description": null,
+    "stars": 12,
+    "forks": 2,
+    "language": "Swift",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-09-27T23:45:02Z",
+    "updated_at": "2026-10-02T18:06:36Z",
+    "owner": {
+      "name": "primayudantra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11775861?v=4"
     }
   },
   {
@@ -2587,55 +2597,6 @@
     }
   },
   {
-    "name": "leechan/sitizen",
-    "url": "https://github.com/leechan/sitizen",
-    "description": "Sitizen - 久坐提醒工具",
-    "stars": 12,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-17T08:05:46Z",
-    "updated_at": "2026-09-18T15:47:16Z",
-    "owner": {
-      "name": "leechan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3675428?v=4"
-    }
-  },
-  {
-    "name": "Thesimpleex/steno",
-    "url": "https://github.com/Thesimpleex/steno",
-    "description": "Free, open-source dictation and meeting notes for macOS. Hold a key, speak, and your words appear at the cursor – transcribed locally with OpenAI Whisper.",
-    "stars": 11,
-    "forks": 0,
-    "language": "Swift",
-    "topics": [
-      "apple-silicon",
-      "dictation",
-      "local-first",
-      "macos",
-      "meeting-notes",
-      "meeting-transcription",
-      "menubar-app",
-      "offline",
-      "privacy",
-      "speech-to-text",
-      "swift",
-      "swiftui",
-      "transcription",
-      "voice-typing",
-      "whisper",
-      "whisper-cpp"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-28T16:27:56Z",
-    "updated_at": "2026-09-30T07:17:11Z",
-    "owner": {
-      "name": "Thesimpleex",
-      "avatar_url": "https://avatars.githubusercontent.com/u/181644279?v=4"
-    }
-  },
-  {
     "name": "xsxs18-dev/SwiftIPA",
     "url": "https://github.com/xsxs18-dev/SwiftIPA",
     "description": "A fast, on-device IPA signer for iOS — bundle ID, entitlements, tweaks, all of it, without waiting around.",
@@ -2731,38 +2692,6 @@
     "owner": {
       "name": "binders-io",
       "avatar_url": "https://avatars.githubusercontent.com/u/229415636?v=4"
-    }
-  },
-  {
-    "name": "jaskirat1616/AirPoise",
-    "url": "https://github.com/jaskirat1616/AirPoise",
-    "description": "Mac menu-bar app: AirPods posture coaching and head-gesture shortcuts. On-device, no camera, no cloud.",
-    "stars": 11,
-    "forks": 1,
-    "language": "Swift",
-    "topics": [
-      "airpods",
-      "airpods-pro",
-      "core-motion",
-      "gestures",
-      "head-tracking",
-      "health",
-      "macos",
-      "macos-app",
-      "menu-bar",
-      "menu-bar-app",
-      "open-source",
-      "posture",
-      "spatial-audio",
-      "swift",
-      "utilities"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-15T17:25:22Z",
-    "updated_at": "2026-09-19T03:46:29Z",
-    "owner": {
-      "name": "jaskirat1616",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95251417?v=4"
     }
   },
   {
