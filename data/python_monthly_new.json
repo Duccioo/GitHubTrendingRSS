@@ -3,8 +3,8 @@
     "name": "NandhaKishorM/laya",
     "url": "https://github.com/NandhaKishorM/laya",
     "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
-    "stars": 30281,
-    "forks": 2640,
+    "stars": 30535,
+    "forks": 2674,
     "language": "Python",
     "topics": [
       "calibration",
@@ -23,7 +23,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-09-18T04:46:33Z",
-    "updated_at": "2026-10-03T07:21:31Z",
+    "updated_at": "2026-10-04T07:36:34Z",
     "owner": {
       "name": "NandhaKishorM",
       "avatar_url": "https://avatars.githubusercontent.com/u/48623612?v=4"
@@ -33,13 +33,13 @@
     "name": "browser-use/jev-ultrafast",
     "url": "https://github.com/browser-use/jev-ultrafast",
     "description": "Fastest and cheapest web agent",
-    "stars": 21833,
-    "forks": 1552,
+    "stars": 21925,
+    "forks": 1562,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-16T21:30:12Z",
-    "updated_at": "2026-10-03T06:18:01Z",
+    "updated_at": "2026-10-04T07:33:37Z",
     "owner": {
       "name": "browser-use",
       "avatar_url": "https://avatars.githubusercontent.com/u/192012301?v=4"
@@ -49,8 +49,8 @@
     "name": "jaredpalmer/kev",
     "url": "https://github.com/jaredpalmer/kev",
     "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
-    "stars": 8339,
-    "forks": 541,
+    "stars": 8384,
+    "forks": 548,
     "language": "Python",
     "topics": [
       "decision-model",
@@ -59,7 +59,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-09-17T20:49:39Z",
-    "updated_at": "2026-10-03T06:53:09Z",
+    "updated_at": "2026-10-04T07:37:08Z",
     "owner": {
       "name": "jaredpalmer",
       "avatar_url": "https://avatars.githubusercontent.com/u/4060187?v=4"
@@ -110,8 +110,8 @@
     "name": "mizorewww/laya-mlx",
     "url": "https://github.com/mizorewww/laya-mlx",
     "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
-    "stars": 6725,
-    "forks": 536,
+    "stars": 6745,
+    "forks": 539,
     "language": "Python",
     "topics": [
       "apple-silicon",
@@ -127,7 +127,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-09-19T13:50:26Z",
-    "updated_at": "2026-10-03T07:22:50Z",
+    "updated_at": "2026-10-04T06:05:52Z",
     "owner": {
       "name": "mizorewww",
       "avatar_url": "https://avatars.githubusercontent.com/u/252857002?v=4"
@@ -137,86 +137,29 @@
     "name": "TheoLeeCJ/SemIf-OpenJev",
     "url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
     "description": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
-    "stars": 4663,
-    "forks": 333,
+    "stars": 4678,
+    "forks": 334,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-16T03:51:21Z",
-    "updated_at": "2026-10-03T06:04:53Z",
+    "updated_at": "2026-10-04T06:35:09Z",
     "owner": {
       "name": "TheoLeeCJ",
       "avatar_url": "https://avatars.githubusercontent.com/u/22087932?v=4"
     }
   },
   {
-    "name": "bojieli/ai-infra-book",
-    "url": "https://github.com/bojieli/ai-infra-book",
-    "description": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
-    "stars": 4596,
-    "forks": 326,
-    "language": "Python",
-    "topics": [
-      "accelerator",
-      "ai-infra",
-      "ai-infrastructure",
-      "book",
-      "datacenter-network",
-      "deepseek",
-      "distributed-systems",
-      "gpu",
-      "kv-cache",
-      "llm",
-      "llm-inference",
-      "llm-serving",
-      "llm-training",
-      "mixture-of-experts",
-      "performance-engineering"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-22T15:30:41Z",
-    "updated_at": "2026-09-20T07:07:05Z",
-    "owner": {
-      "name": "bojieli",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1421793?v=4"
-    }
-  },
-  {
-    "name": "ApodexAI/FrontierAgent",
-    "url": "https://github.com/ApodexAI/FrontierAgent",
-    "description": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
-    "stars": 4178,
-    "forks": 210,
-    "language": "Python",
-    "topics": [
-      "agent-orchestration",
-      "agentic-ai",
-      "agentic-framework",
-      "ai-agents",
-      "harness",
-      "multi-agent",
-      "terminal-agent",
-      "tui"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-22T05:07:35Z",
-    "updated_at": "2026-09-20T07:15:53Z",
-    "owner": {
-      "name": "ApodexAI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/276468590?v=4"
-    }
-  },
-  {
     "name": "yi1108/printfilm",
     "url": "https://github.com/yi1108/printfilm",
     "description": "PRINTFILM：AI 视频获客与 AI短剧创作平台",
-    "stars": 4100,
-    "forks": 447,
+    "stars": 4103,
+    "forks": 448,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-10T02:08:47Z",
-    "updated_at": "2026-10-03T04:12:00Z",
+    "updated_at": "2026-10-04T04:31:02Z",
     "owner": {
       "name": "yi1108",
       "avatar_url": "https://avatars.githubusercontent.com/u/100551693?v=4"
@@ -242,13 +185,13 @@
     "name": "newliver666/apk-reverse",
     "url": "https://github.com/newliver666/apk-reverse",
     "description": "Suitable for Android APK reverse engineering analysis",
-    "stars": 3168,
-    "forks": 641,
+    "stars": 3185,
+    "forks": 645,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-19T13:12:54Z",
-    "updated_at": "2026-10-03T06:15:36Z",
+    "updated_at": "2026-10-04T07:31:36Z",
     "owner": {
       "name": "newliver666",
       "avatar_url": "https://avatars.githubusercontent.com/u/328839634?v=4"
@@ -290,13 +233,13 @@
     "name": "mcncarl/jianying-headless",
     "url": "https://github.com/mcncarl/jianying-headless",
     "description": "Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.",
-    "stars": 2950,
-    "forks": 1951,
+    "stars": 2959,
+    "forks": 1950,
     "language": "Python",
     "topics": [],
     "license": "Other",
     "created_at": "2026-09-15T11:51:15Z",
-    "updated_at": "2026-10-03T05:10:10Z",
+    "updated_at": "2026-10-04T02:14:16Z",
     "owner": {
       "name": "mcncarl",
       "avatar_url": "https://avatars.githubusercontent.com/u/204130968?v=4"
@@ -332,19 +275,62 @@
     }
   },
   {
+    "name": "Edge0-AI/Edge0",
+    "url": "https://github.com/Edge0-AI/Edge0",
+    "description": null,
+    "stars": 2774,
+    "forks": 313,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-08T13:41:47Z",
+    "updated_at": "2026-10-04T07:22:14Z",
+    "owner": {
+      "name": "Edge0-AI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/310437271?v=4"
+    }
+  },
+  {
     "name": "Contrastive-LM/CLM",
     "url": "https://github.com/Contrastive-LM/CLM",
     "description": null,
-    "stars": 2742,
-    "forks": 239,
+    "stars": 2767,
+    "forks": 238,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-09-23T19:29:56Z",
-    "updated_at": "2026-10-03T06:01:02Z",
+    "updated_at": "2026-10-04T07:06:29Z",
     "owner": {
       "name": "Contrastive-LM",
       "avatar_url": "https://avatars.githubusercontent.com/u/332430450?v=4"
+    }
+  },
+  {
+    "name": "rehan-remade/universal-modder",
+    "url": "https://github.com/rehan-remade/universal-modder",
+    "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+    "stars": 2729,
+    "forks": 240,
+    "language": "Python",
+    "topics": [
+      "age-of-empires",
+      "claude-code",
+      "claude-code-plugin",
+      "fal",
+      "game-assets",
+      "game-modding",
+      "mcp",
+      "modding",
+      "reverse-engineering",
+      "tmodloader"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-30T05:00:35Z",
+    "updated_at": "2026-10-04T07:32:37Z",
+    "owner": {
+      "name": "rehan-remade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173837546?v=4"
     }
   },
   {
@@ -367,8 +353,8 @@
     "name": "feder-cr/dots",
     "url": "https://github.com/feder-cr/dots",
     "description": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
-    "stars": 2562,
-    "forks": 434,
+    "stars": 2582,
+    "forks": 436,
     "language": "Python",
     "topics": [
       "ai-agent",
@@ -394,77 +380,34 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-29T23:06:00Z",
-    "updated_at": "2026-10-03T07:01:51Z",
+    "updated_at": "2026-10-04T07:18:22Z",
     "owner": {
       "name": "feder-cr",
       "avatar_url": "https://avatars.githubusercontent.com/u/85809106?v=4"
     }
   },
   {
-    "name": "Edge0-AI/Edge0",
-    "url": "https://github.com/Edge0-AI/Edge0",
-    "description": null,
-    "stars": 2527,
-    "forks": 252,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-08T13:41:47Z",
-    "updated_at": "2026-10-03T07:22:17Z",
-    "owner": {
-      "name": "Edge0-AI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/310437271?v=4"
-    }
-  },
-  {
     "name": "TianyuCodings/NanoJev",
     "url": "https://github.com/TianyuCodings/NanoJev",
     "description": "A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
-    "stars": 2478,
+    "stars": 2487,
     "forks": 255,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-17T16:08:30Z",
-    "updated_at": "2026-10-03T07:14:43Z",
+    "updated_at": "2026-10-04T01:56:48Z",
     "owner": {
       "name": "TianyuCodings",
       "avatar_url": "https://avatars.githubusercontent.com/u/48460209?v=4"
     }
   },
   {
-    "name": "rehan-remade/universal-modder",
-    "url": "https://github.com/rehan-remade/universal-modder",
-    "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
-    "stars": 2264,
-    "forks": 176,
-    "language": "Python",
-    "topics": [
-      "age-of-empires",
-      "claude-code",
-      "claude-code-plugin",
-      "fal",
-      "game-assets",
-      "game-modding",
-      "mcp",
-      "modding",
-      "reverse-engineering",
-      "tmodloader"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-30T05:00:35Z",
-    "updated_at": "2026-10-03T07:18:37Z",
-    "owner": {
-      "name": "rehan-remade",
-      "avatar_url": "https://avatars.githubusercontent.com/u/173837546?v=4"
-    }
-  },
-  {
     "name": "yibie/awesome-jev",
     "url": "https://github.com/yibie/awesome-jev",
     "description": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
-    "stars": 2093,
-    "forks": 319,
+    "stars": 2117,
+    "forks": 321,
     "language": "Python",
     "topics": [
       "awesome",
@@ -474,7 +417,7 @@
     ],
     "license": "No license",
     "created_at": "2026-09-17T14:23:21Z",
-    "updated_at": "2026-10-03T06:36:06Z",
+    "updated_at": "2026-10-04T07:10:18Z",
     "owner": {
       "name": "yibie",
       "avatar_url": "https://avatars.githubusercontent.com/u/365484?v=4"
@@ -484,13 +427,13 @@
     "name": "deepopen-com/deepopen",
     "url": "https://github.com/deepopen-com/deepopen",
     "description": "非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine. ",
-    "stars": 2058,
+    "stars": 2060,
     "forks": 220,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-09-21T02:12:24Z",
-    "updated_at": "2026-10-03T06:48:38Z",
+    "updated_at": "2026-10-03T14:17:41Z",
     "owner": {
       "name": "deepopen-com",
       "avatar_url": "https://avatars.githubusercontent.com/u/331844194?v=4"
@@ -500,39 +443,23 @@
     "name": "bespokelabsai/nimble",
     "url": "https://github.com/bespokelabsai/nimble",
     "description": "Local typed decisions, contrastive data curation, and model evaluation.",
-    "stars": 2032,
-    "forks": 158,
+    "stars": 2040,
+    "forks": 159,
     "language": "Python",
     "topics": [],
     "license": "No license",
     "created_at": "2026-09-18T09:07:48Z",
-    "updated_at": "2026-10-03T01:14:46Z",
+    "updated_at": "2026-10-04T01:13:45Z",
     "owner": {
       "name": "bespokelabsai",
       "avatar_url": "https://avatars.githubusercontent.com/u/167806754?v=4"
     }
   },
   {
-    "name": "FireRedTeam/FireRedAudio",
-    "url": "https://github.com/FireRedTeam/FireRedAudio",
-    "description": null,
-    "stars": 1904,
-    "forks": 17,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-08-22T11:18:12Z",
-    "updated_at": "2026-09-20T07:05:11Z",
-    "owner": {
-      "name": "FireRedTeam",
-      "avatar_url": "https://avatars.githubusercontent.com/u/178460259?v=4"
-    }
-  },
-  {
     "name": "RubinLabs26/ISpotify",
     "url": "https://github.com/RubinLabs26/ISpotify",
     "description": "Local-first desktop music search, playlist, download, and playback app for Windows and Linux",
-    "stars": 1902,
+    "stars": 1901,
     "forks": 1,
     "language": "Python",
     "topics": [
@@ -545,7 +472,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-20T07:51:15Z",
-    "updated_at": "2026-10-01T06:54:31Z",
+    "updated_at": "2026-10-03T12:50:00Z",
     "owner": {
       "name": "RubinLabs26",
       "avatar_url": "https://avatars.githubusercontent.com/u/331578739?v=4"
@@ -555,13 +482,13 @@
     "name": "EverettFish/holo-card-studio",
     "url": "https://github.com/EverettFish/holo-card-studio",
     "description": "Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project.",
-    "stars": 1855,
-    "forks": 247,
+    "stars": 1862,
+    "forks": 248,
     "language": "Python",
     "topics": [],
     "license": "Other",
     "created_at": "2026-09-07T00:41:18Z",
-    "updated_at": "2026-10-03T05:17:22Z",
+    "updated_at": "2026-10-04T03:52:10Z",
     "owner": {
       "name": "EverettFish",
       "avatar_url": "https://avatars.githubusercontent.com/u/222453586?v=4"
@@ -600,13 +527,13 @@
     "name": "QwenLM/Qwen-Image-2.1",
     "url": "https://github.com/QwenLM/Qwen-Image-2.1",
     "description": "Qwen's most powerful open-source image generation model",
-    "stars": 1686,
-    "forks": 101,
+    "stars": 1707,
+    "forks": 102,
     "language": "Python",
     "topics": [],
     "license": "Other",
     "created_at": "2026-09-14T04:12:17Z",
-    "updated_at": "2026-10-03T05:37:20Z",
+    "updated_at": "2026-10-04T06:29:51Z",
     "owner": {
       "name": "QwenLM",
       "avatar_url": "https://avatars.githubusercontent.com/u/141221163?v=4"
@@ -616,13 +543,13 @@
     "name": "donvito/codex-astra-luna-orchestrator",
     "url": "https://github.com/donvito/codex-astra-luna-orchestrator",
     "description": "Use Astra or Sol as orchestrator and Luna for subagents in Codex",
-    "stars": 1670,
+    "stars": 1674,
     "forks": 133,
     "language": "Python",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-09-05T16:03:06Z",
-    "updated_at": "2026-10-03T05:22:19Z",
+    "updated_at": "2026-10-04T04:42:53Z",
     "owner": {
       "name": "donvito",
       "avatar_url": "https://avatars.githubusercontent.com/u/890270?v=4"
@@ -652,8 +579,8 @@
     "name": "jtydhr88/screenwriting-skills",
     "url": "https://github.com/jtydhr88/screenwriting-skills",
     "description": "Professional agent skills for screenwriting, television writing and dramaturgy",
-    "stars": 1542,
-    "forks": 163,
+    "stars": 1553,
+    "forks": 164,
     "language": "Python",
     "topics": [
       "ai",
@@ -661,7 +588,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-06T12:28:23Z",
-    "updated_at": "2026-10-03T04:31:34Z",
+    "updated_at": "2026-10-04T05:24:17Z",
     "owner": {
       "name": "jtydhr88",
       "avatar_url": "https://avatars.githubusercontent.com/u/860985?v=4"
@@ -671,8 +598,8 @@
     "name": "mizorewww/laya-coreml",
     "url": "https://github.com/mizorewww/laya-coreml",
     "description": "Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.",
-    "stars": 1539,
-    "forks": 130,
+    "stars": 1542,
+    "forks": 131,
     "language": "Python",
     "topics": [
       "apple-neural-engine",
@@ -687,7 +614,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-09-19T23:14:13Z",
-    "updated_at": "2026-10-03T05:03:26Z",
+    "updated_at": "2026-10-04T01:06:40Z",
     "owner": {
       "name": "mizorewww",
       "avatar_url": "https://avatars.githubusercontent.com/u/252857002?v=4"
@@ -743,6 +670,30 @@
     }
   },
   {
+    "name": "feitangyuan/onetake",
+    "url": "https://github.com/feitangyuan/onetake",
+    "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.",
+    "stars": 1465,
+    "forks": 90,
+    "language": "Python",
+    "topics": [
+      "agent-skill",
+      "animation",
+      "canvas",
+      "claude-skill",
+      "launch-video",
+      "motion-graphics",
+      "video"
+    ],
+    "license": "Other",
+    "created_at": "2026-09-26T05:35:17Z",
+    "updated_at": "2026-10-04T07:37:54Z",
+    "owner": {
+      "name": "feitangyuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/251547459?v=4"
+    }
+  },
+  {
     "name": "kajisho5/ffmpeg-skill",
     "url": "https://github.com/kajisho5/ffmpeg-skill",
     "description": null,
@@ -759,59 +710,66 @@
     }
   },
   {
-    "name": "feitangyuan/onetake",
-    "url": "https://github.com/feitangyuan/onetake",
-    "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.",
-    "stars": 1372,
-    "forks": 85,
+    "name": "firelex/jeff",
+    "url": "https://github.com/firelex/jeff",
+    "description": "Millisecond decisions, any domain: a 0.8B open \"System 1\" model that picks between your options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.",
+    "stars": 1352,
+    "forks": 64,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-09-28T16:18:39Z",
+    "updated_at": "2026-10-04T05:35:14Z",
+    "owner": {
+      "name": "firelex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3168549?v=4"
+    }
+  },
+  {
+    "name": "nanaism/yomiyasu",
+    "url": "https://github.com/nanaism/yomiyasu",
+    "description": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+    "stars": 1345,
+    "forks": 29,
     "language": "Python",
     "topics": [
-      "agent-skill",
-      "animation",
-      "canvas",
-      "claude-skill",
-      "launch-video",
-      "motion-graphics",
-      "video"
+      "agent-skills",
+      "ai-writing",
+      "antigravity",
+      "claude-code",
+      "codex",
+      "cursor",
+      "gemini",
+      "japanese",
+      "linter",
+      "llm",
+      "nlp",
+      "writing",
+      "writing-assistant",
+      "writing-tool"
     ],
-    "license": "Other",
-    "created_at": "2026-09-26T05:35:17Z",
-    "updated_at": "2026-10-03T07:20:25Z",
+    "license": "MIT License",
+    "created_at": "2026-09-30T11:49:32Z",
+    "updated_at": "2026-10-04T07:31:20Z",
     "owner": {
-      "name": "feitangyuan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/251547459?v=4"
+      "name": "nanaism",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72681409?v=4"
     }
   },
   {
     "name": "vinnylarouge/jevlike",
     "url": "https://github.com/vinnylarouge/jevlike",
     "description": null,
-    "stars": 1339,
+    "stars": 1341,
     "forks": 117,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-16T10:26:01Z",
-    "updated_at": "2026-10-03T01:33:43Z",
+    "updated_at": "2026-10-03T08:30:26Z",
     "owner": {
       "name": "vinnylarouge",
       "avatar_url": "https://avatars.githubusercontent.com/u/5328067?v=4"
-    }
-  },
-  {
-    "name": "firelex/jeff",
-    "url": "https://github.com/firelex/jeff",
-    "description": "Millisecond decisions, any domain: a 0.8B open \"System 1\" model that picks between your options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.",
-    "stars": 1335,
-    "forks": 63,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-28T16:18:39Z",
-    "updated_at": "2026-10-03T07:21:49Z",
-    "owner": {
-      "name": "firelex",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3168549?v=4"
     }
   },
   {
@@ -910,34 +868,19 @@
     }
   },
   {
-    "name": "nanaism/yomiyasu",
-    "url": "https://github.com/nanaism/yomiyasu",
-    "description": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
-    "stars": 1231,
-    "forks": 27,
+    "name": "google-research/rrsi",
+    "url": "https://github.com/google-research/rrsi",
+    "description": null,
+    "stars": 1229,
+    "forks": 118,
     "language": "Python",
-    "topics": [
-      "agent-skills",
-      "ai-writing",
-      "antigravity",
-      "claude-code",
-      "codex",
-      "cursor",
-      "gemini",
-      "japanese",
-      "linter",
-      "llm",
-      "nlp",
-      "writing",
-      "writing-assistant",
-      "writing-tool"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-30T11:49:32Z",
-    "updated_at": "2026-10-03T07:22:34Z",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-09-16T04:50:49Z",
+    "updated_at": "2026-10-04T05:59:58Z",
     "owner": {
-      "name": "nanaism",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72681409?v=4"
+      "name": "google-research",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43830688?v=4"
     }
   },
   {
@@ -978,19 +921,66 @@
     }
   },
   {
-    "name": "google-research/rrsi",
-    "url": "https://github.com/google-research/rrsi",
-    "description": null,
-    "stars": 1205,
-    "forks": 112,
+    "name": "ninjahawk/livenerf",
+    "url": "https://github.com/ninjahawk/livenerf",
+    "description": "Benchmark for tracking model capability after release.",
+    "stars": 1216,
+    "forks": 17,
     "language": "Python",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-16T04:50:49Z",
-    "updated_at": "2026-10-03T07:23:48Z",
+    "license": "MIT License",
+    "created_at": "2026-09-22T21:59:26Z",
+    "updated_at": "2026-10-04T07:35:06Z",
     "owner": {
-      "name": "google-research",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43830688?v=4"
+      "name": "ninjahawk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40222252?v=4"
+    }
+  },
+  {
+    "name": "Jakeschincariol/linkedin-agent-skill",
+    "url": "https://github.com/Jakeschincariol/linkedin-agent-skill",
+    "description": "Eleven free Claude skills that run a LinkedIn account: posts off 21 hook formulas, comments, replies, profile score, weekly plan, and a humanizer that strips the AI fingerprint and scores the draft before it goes out.",
+    "stars": 1173,
+    "forks": 180,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "ai-humanizer",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "content-marketing",
+      "linkedin"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-07T22:58:16Z",
+    "updated_at": "2026-10-04T07:25:57Z",
+    "owner": {
+      "name": "Jakeschincariol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/196724947?v=4"
+    }
+  },
+  {
+    "name": "awlevin/typesafe-computer-use",
+    "url": "https://github.com/awlevin/typesafe-computer-use",
+    "description": "Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.",
+    "stars": 1159,
+    "forks": 112,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "automation",
+      "computer-use",
+      "macos",
+      "ocr",
+      "typesafe"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-09-16T17:48:45Z",
+    "updated_at": "2026-10-04T07:01:47Z",
+    "owner": {
+      "name": "awlevin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8488209?v=4"
     }
   },
   {
@@ -1048,29 +1038,6 @@
     }
   },
   {
-    "name": "awlevin/typesafe-computer-use",
-    "url": "https://github.com/awlevin/typesafe-computer-use",
-    "description": "Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.",
-    "stars": 1104,
-    "forks": 107,
-    "language": "Python",
-    "topics": [
-      "ai-agents",
-      "automation",
-      "computer-use",
-      "macos",
-      "ocr",
-      "typesafe"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-16T17:48:45Z",
-    "updated_at": "2026-10-01T07:26:50Z",
-    "owner": {
-      "name": "awlevin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8488209?v=4"
-    }
-  },
-  {
     "name": "yejy53/Editable-Design",
     "url": "https://github.com/yejy53/Editable-Design",
     "description": "Agent-driven creation of editable, tastefully crafted visual artifacts.",
@@ -1084,27 +1051,6 @@
     "owner": {
       "name": "yejy53",
       "avatar_url": "https://avatars.githubusercontent.com/u/83576010?v=4"
-    }
-  },
-  {
-    "name": "HanyuanWang/LiveStream-Agent-Studio",
-    "url": "https://github.com/HanyuanWang/LiveStream-Agent-Studio",
-    "description": "面向抖音直播电商的 Windows 本地 AI Agent Studio，贯通主播发现、直播洞察、直播复盘与短视频内容编导的统一智能工作流。",
-    "stars": 1022,
-    "forks": 171,
-    "language": "Python",
-    "topics": [
-      "ai-agent",
-      "douyin",
-      "livestream",
-      "speech-to-text"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-08-22T14:16:48Z",
-    "updated_at": "2026-09-20T07:07:57Z",
-    "owner": {
-      "name": "HanyuanWang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35429205?v=4"
     }
   }
 ]
