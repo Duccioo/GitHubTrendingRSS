@@ -68,22 +68,6 @@
     }
   },
   {
-    "name": "tamaratran/fast-jev-compaction",
-    "url": "https://github.com/tamaratran/fast-jev-compaction",
-    "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
-    "stars": 6398,
-    "forks": 366,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-17T05:57:20Z",
-    "updated_at": "2026-09-23T06:57:12Z",
-    "owner": {
-      "name": "tamaratran",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65584429?v=4"
-    }
-  },
-  {
     "name": "mizorewww/laya-mlx",
     "url": "https://github.com/mizorewww/laya-mlx",
     "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
@@ -136,23 +120,19 @@
     }
   },
   {
-    "name": "jaredpalmer/kev",
-    "url": "https://github.com/jaredpalmer/kev",
-    "description": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
-    "stars": 4807,
-    "forks": 261,
-    "language": "Python",
-    "topics": [
-      "decision-model",
-      "jev",
-      "qwen3"
-    ],
+    "name": "openai/math",
+    "url": "https://github.com/openai/math",
+    "description": null,
+    "stars": 5464,
+    "forks": 500,
+    "language": "Lean",
+    "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2026-09-17T20:49:39Z",
-    "updated_at": "2026-09-23T07:01:59Z",
+    "created_at": "2026-10-06T21:47:02Z",
+    "updated_at": "2026-10-07T07:57:53Z",
     "owner": {
-      "name": "jaredpalmer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4060187?v=4"
+      "name": "openai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4"
     }
   },
   {
@@ -316,22 +296,6 @@
     }
   },
   {
-    "name": "TianyuCodings/NanoJev",
-    "url": "https://github.com/TianyuCodings/NanoJev",
-    "description": "A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
-    "stars": 2036,
-    "forks": 217,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-17T16:08:30Z",
-    "updated_at": "2026-09-23T06:45:06Z",
-    "owner": {
-      "name": "TianyuCodings",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48460209?v=4"
-    }
-  },
-  {
     "name": "Niko1221/Strata",
     "url": "https://github.com/Niko1221/Strata",
     "description": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
@@ -441,6 +405,35 @@
     }
   },
   {
+    "name": "QingYunA/answer-me-with-html",
+    "url": "https://github.com/QingYunA/answer-me-with-html",
+    "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+    "stars": 1859,
+    "forks": 129,
+    "language": "JavaScript",
+    "topics": [
+      "agent-skill",
+      "ai-agent",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "claude-skills",
+      "cli",
+      "diagram",
+      "explainer",
+      "html",
+      "llm",
+      "ste100"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-02T09:57:40Z",
+    "updated_at": "2026-10-07T07:54:19Z",
+    "owner": {
+      "name": "QingYunA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41177312?v=4"
+    }
+  },
+  {
     "name": "yetone/magpie",
     "url": "https://github.com/yetone/magpie",
     "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
@@ -480,29 +473,35 @@
     }
   },
   {
-    "name": "QingYunA/answer-me-with-html",
-    "url": "https://github.com/QingYunA/answer-me-with-html",
-    "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-    "stars": 1561,
-    "forks": 108,
-    "language": "JavaScript",
-    "topics": [
-      "agent-skill",
-      "ai-agent",
-      "claude-code",
-      "cli",
-      "diagram",
-      "explainer",
-      "html",
-      "llm",
-      "ste100"
-    ],
+    "name": "kargulstudio/sales-crm",
+    "url": "https://github.com/kargulstudio/sales-crm",
+    "description": null,
+    "stars": 1602,
+    "forks": 339,
+    "language": "TypeScript",
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-10-02T09:57:40Z",
-    "updated_at": "2026-10-06T08:16:54Z",
+    "created_at": "2026-10-04T10:55:58Z",
+    "updated_at": "2026-10-07T07:54:50Z",
     "owner": {
-      "name": "QingYunA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/41177312?v=4"
+      "name": "kargulstudio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/245261909?v=4"
+    }
+  },
+  {
+    "name": "facebookincubator/muse-gadget-sdk",
+    "url": "https://github.com/facebookincubator/muse-gadget-sdk",
+    "description": "Open source SDK to build Muse gadgets",
+    "stars": 1589,
+    "forks": 308,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-02T18:21:23Z",
+    "updated_at": "2026-10-07T07:48:37Z",
+    "owner": {
+      "name": "facebookincubator",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19538647?v=4"
     }
   },
   {
@@ -534,38 +533,6 @@
     "owner": {
       "name": "nanaism",
       "avatar_url": "https://avatars.githubusercontent.com/u/72681409?v=4"
-    }
-  },
-  {
-    "name": "kargulstudio/sales-crm",
-    "url": "https://github.com/kargulstudio/sales-crm",
-    "description": null,
-    "stars": 1520,
-    "forks": 317,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-04T10:55:58Z",
-    "updated_at": "2026-10-06T08:17:26Z",
-    "owner": {
-      "name": "kargulstudio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/245261909?v=4"
-    }
-  },
-  {
-    "name": "facebookincubator/muse-gadget-sdk",
-    "url": "https://github.com/facebookincubator/muse-gadget-sdk",
-    "description": "Open source SDK to build Muse gadgets",
-    "stars": 1475,
-    "forks": 283,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-02T18:21:23Z",
-    "updated_at": "2026-10-06T08:18:49Z",
-    "owner": {
-      "name": "facebookincubator",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19538647?v=4"
     }
   },
   {
@@ -678,24 +645,19 @@
     }
   },
   {
-    "name": "yibie/awesome-jev",
-    "url": "https://github.com/yibie/awesome-jev",
-    "description": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
-    "stars": 1366,
-    "forks": 191,
-    "language": "Python",
-    "topics": [
-      "awesome",
-      "awesome-list",
-      "jev",
-      "llm"
-    ],
-    "license": "No license",
-    "created_at": "2026-09-17T14:23:21Z",
-    "updated_at": "2026-09-23T06:56:21Z",
+    "name": "deadinside28/bloodborne_pc",
+    "url": "https://github.com/deadinside28/bloodborne_pc",
+    "description": null,
+    "stars": 1359,
+    "forks": 118,
+    "language": "C++",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-10-01T05:50:31Z",
+    "updated_at": "2026-10-07T07:57:57Z",
     "owner": {
-      "name": "yibie",
-      "avatar_url": "https://avatars.githubusercontent.com/u/365484?v=4"
+      "name": "deadinside28",
+      "avatar_url": "https://avatars.githubusercontent.com/u/225147579?v=4"
     }
   },
   {
@@ -866,6 +828,22 @@
     }
   },
   {
+    "name": "storytold/effectcraft",
+    "url": "https://github.com/storytold/effectcraft",
+    "description": null,
+    "stars": 1056,
+    "forks": 410,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-01T14:24:46Z",
+    "updated_at": "2026-10-07T07:57:56Z",
+    "owner": {
+      "name": "storytold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
+    }
+  },
+  {
     "name": "deepopen-com/deepopen",
     "url": "https://github.com/deepopen-com/deepopen",
     "description": "非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine. ",
@@ -954,6 +932,22 @@
     }
   },
   {
+    "name": "alchaincyf/huashu-art-motion",
+    "url": "https://github.com/alchaincyf/huashu-art-motion",
+    "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+    "stars": 939,
+    "forks": 120,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-06T04:49:37Z",
+    "updated_at": "2026-10-07T07:57:12Z",
+    "owner": {
+      "name": "alchaincyf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127714341?v=4"
+    }
+  },
+  {
     "name": "dgreenheck/tidewater",
     "url": "https://github.com/dgreenheck/tidewater",
     "description": "Coastal town built with Opus 5.5",
@@ -1018,6 +1012,29 @@
     }
   },
   {
+    "name": "lucasmarkes/hairline",
+    "url": "https://github.com/lucasmarkes/hairline",
+    "description": "Six isometric line figures that answer the pointer. For React and for anything with a DOM.",
+    "stars": 877,
+    "forks": 51,
+    "language": "TypeScript",
+    "topics": [
+      "animation",
+      "isometric",
+      "react",
+      "shadcn",
+      "svg",
+      "typescript"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-01T13:52:19Z",
+    "updated_at": "2026-10-07T07:42:10Z",
+    "owner": {
+      "name": "lucasmarkes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66750157?v=4"
+    }
+  },
+  {
     "name": "supermemoryai/company-brain",
     "url": "https://github.com/supermemoryai/company-brain",
     "description": "Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work.",
@@ -1034,35 +1051,26 @@
     }
   },
   {
-    "name": "hydra-db/open-glean",
-    "url": "https://github.com/hydra-db/open-glean",
-    "description": "An open-source AI platform for knowledge work. Connect your apps, find answers, and get work done.",
-    "stars": 868,
-    "forks": 373,
-    "language": "TypeScript",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-09-17T05:22:08Z",
-    "updated_at": "2026-09-23T06:22:50Z",
+    "name": "sganggs/Stronghold-Protocol",
+    "url": "https://github.com/sganggs/Stronghold-Protocol",
+    "description": "明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）",
+    "stars": 857,
+    "forks": 187,
+    "language": "JavaScript",
+    "topics": [
+      "arknights",
+      "auto-chess",
+      "fan-game",
+      "nodejs",
+      "tower-defense",
+      "websocket"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-02T09:38:41Z",
+    "updated_at": "2026-10-07T07:52:06Z",
     "owner": {
-      "name": "hydra-db",
-      "avatar_url": "https://avatars.githubusercontent.com/u/244433600?v=4"
-    }
-  },
-  {
-    "name": "deadinside28/bloodborne_pc",
-    "url": "https://github.com/deadinside28/bloodborne_pc",
-    "description": null,
-    "stars": 825,
-    "forks": 75,
-    "language": "C++",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-10-01T05:50:31Z",
-    "updated_at": "2026-10-06T08:16:05Z",
-    "owner": {
-      "name": "deadinside28",
-      "avatar_url": "https://avatars.githubusercontent.com/u/225147579?v=4"
+      "name": "sganggs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64717086?v=4"
     }
   },
   {
@@ -1183,6 +1191,34 @@
     }
   },
   {
+    "name": "StayLameBro/backburner",
+    "url": "https://github.com/StayLameBro/backburner",
+    "description": "Your iPhone helps your Mac run a 27B model: faster prompt reading and more context over a USB-C cable",
+    "stars": 800,
+    "forks": 78,
+    "language": "Python",
+    "topics": [
+      "apple-silicon",
+      "ios",
+      "iphone",
+      "llama-cpp",
+      "llm-inference",
+      "local-llm",
+      "macos",
+      "metal",
+      "qwen",
+      "sme2",
+      "speculative-decoding"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-01T20:59:56Z",
+    "updated_at": "2026-10-07T07:55:53Z",
+    "owner": {
+      "name": "StayLameBro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/182310482?v=4"
+    }
+  },
+  {
     "name": "omlahore/RemoveMacAI",
     "url": "https://github.com/omlahore/RemoveMacAI",
     "description": "Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible.",
@@ -1272,26 +1308,19 @@
     }
   },
   {
-    "name": "sganggs/Stronghold-Protocol",
-    "url": "https://github.com/sganggs/Stronghold-Protocol",
-    "description": "明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）",
-    "stars": 751,
-    "forks": 168,
-    "language": "JavaScript",
-    "topics": [
-      "arknights",
-      "auto-chess",
-      "fan-game",
-      "nodejs",
-      "tower-defense",
-      "websocket"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-02T09:38:41Z",
-    "updated_at": "2026-10-06T08:18:17Z",
+    "name": "mizorewww/x_gift_bot",
+    "url": "https://github.com/mizorewww/x_gift_bot",
+    "description": "X Premium gift CLI and redemption site",
+    "stars": 752,
+    "forks": 278,
+    "language": "Go",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-02T10:29:43Z",
+    "updated_at": "2026-10-07T07:53:36Z",
     "owner": {
-      "name": "sganggs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64717086?v=4"
+      "name": "mizorewww",
+      "avatar_url": "https://avatars.githubusercontent.com/u/252857002?v=4"
     }
   },
   {
@@ -1315,6 +1344,32 @@
     "owner": {
       "name": "asokurasu",
       "avatar_url": "https://avatars.githubusercontent.com/u/314023151?v=4"
+    }
+  },
+  {
+    "name": "Jakeschincariol/replica-skill",
+    "url": "https://github.com/Jakeschincariol/replica-skill",
+    "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+    "stars": 741,
+    "forks": 79,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "agent-skills",
+      "app-clone",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "indie-hacker",
+      "reverse-engineering",
+      "saas"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-03T12:07:49Z",
+    "updated_at": "2026-10-07T07:52:13Z",
+    "owner": {
+      "name": "Jakeschincariol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/196724947?v=4"
     }
   },
   {
@@ -1452,6 +1507,22 @@
     }
   },
   {
+    "name": "rauchg/gdp-ts",
+    "url": "https://github.com/rauchg/gdp-ts",
+    "description": null,
+    "stars": 717,
+    "forks": 19,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-04T18:55:18Z",
+    "updated_at": "2026-10-07T07:51:28Z",
+    "owner": {
+      "name": "rauchg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13041?v=4"
+    }
+  },
+  {
     "name": "v-modal/awesome-jev-tools",
     "url": "https://github.com/v-modal/awesome-jev-tools",
     "description": "A curated list of tools  built for Jev — TypeSafe AI's System One model for typed decisions.",
@@ -1517,34 +1588,6 @@
     }
   },
   {
-    "name": "StayLameBro/backburner",
-    "url": "https://github.com/StayLameBro/backburner",
-    "description": "Your iPhone helps your Mac run a 27B model: faster prompt reading and more context over a USB-C cable",
-    "stars": 695,
-    "forks": 67,
-    "language": "Python",
-    "topics": [
-      "apple-silicon",
-      "ios",
-      "iphone",
-      "llama-cpp",
-      "llm-inference",
-      "local-llm",
-      "macos",
-      "metal",
-      "qwen",
-      "sme2",
-      "speculative-decoding"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-01T20:59:56Z",
-    "updated_at": "2026-10-06T08:14:06Z",
-    "owner": {
-      "name": "StayLameBro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/182310482?v=4"
-    }
-  },
-  {
     "name": "storytold/filmcraft",
     "url": "https://github.com/storytold/filmcraft",
     "description": "An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.",
@@ -1585,6 +1628,38 @@
     }
   },
   {
+    "name": "storytold/designcraft",
+    "url": "https://github.com/storytold/designcraft",
+    "description": null,
+    "stars": 656,
+    "forks": 331,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-01T13:13:14Z",
+    "updated_at": "2026-10-07T07:56:23Z",
+    "owner": {
+      "name": "storytold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
+    }
+  },
+  {
+    "name": "elstongun/leviathan",
+    "url": "https://github.com/elstongun/leviathan",
+    "description": "**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
+    "stars": 651,
+    "forks": 32,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-05T08:57:44Z",
+    "updated_at": "2026-10-07T07:32:49Z",
+    "owner": {
+      "name": "elstongun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75282682?v=4"
+    }
+  },
+  {
     "name": "chasmlol/2010-rust-rewrite-mashup",
     "url": "https://github.com/chasmlol/2010-rust-rewrite-mashup",
     "description": "MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map",
@@ -1601,26 +1676,19 @@
     }
   },
   {
-    "name": "lucasmarkes/hairline",
-    "url": "https://github.com/lucasmarkes/hairline",
-    "description": "Six isometric line figures that answer the pointer. For React and for anything with a DOM.",
-    "stars": 634,
-    "forks": 36,
-    "language": "TypeScript",
-    "topics": [
-      "animation",
-      "isometric",
-      "react",
-      "shadcn",
-      "svg",
-      "typescript"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-01T13:52:19Z",
-    "updated_at": "2026-10-06T08:17:52Z",
+    "name": "ythx-101/live-panel-skill",
+    "url": "https://github.com/ythx-101/live-panel-skill",
+    "description": "Config-driven animated architecture diagrams: turn one JSON file into a terminal-style, always-running diagram or a light-theme infographic that moves. Outputs H.264 mp4 or a live web page; also a Claude Code style skill (SKILL.md).",
+    "stars": 635,
+    "forks": 84,
+    "language": "HTML",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-03T16:53:36Z",
+    "updated_at": "2026-10-07T06:34:56Z",
     "owner": {
-      "name": "lucasmarkes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/66750157?v=4"
+      "name": "ythx-101",
+      "avatar_url": "https://avatars.githubusercontent.com/u/226337373?v=4"
     }
   },
   {
@@ -1653,45 +1721,6 @@
     "owner": {
       "name": "gylive",
       "avatar_url": "https://avatars.githubusercontent.com/u/87460536?v=4"
-    }
-  },
-  {
-    "name": "ethanplusai/astra-flash-orchestrator",
-    "url": "https://github.com/ethanplusai/astra-flash-orchestrator",
-    "description": "Astra plans and reviews; DeepSeek Flash builds. A native Codex workflow with phased tasks, verification, safe installation and reversible setup.",
-    "stars": 608,
-    "forks": 47,
-    "language": "Python",
-    "topics": [
-      "agent-orchestration",
-      "ai-agents",
-      "codex",
-      "codex-skills",
-      "deepseek",
-      "developer-tools"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-17T05:42:31Z",
-    "updated_at": "2026-09-23T06:59:37Z",
-    "owner": {
-      "name": "ethanplusai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/249879463?v=4"
-    }
-  },
-  {
-    "name": "ythx-101/live-panel-skill",
-    "url": "https://github.com/ythx-101/live-panel-skill",
-    "description": "Config-driven animated architecture diagrams: turn one JSON file into a terminal-style, always-running diagram or a light-theme infographic that moves. Outputs H.264 mp4 or a live web page; also a Claude Code style skill (SKILL.md).",
-    "stars": 604,
-    "forks": 81,
-    "language": "HTML",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-03T16:53:36Z",
-    "updated_at": "2026-10-06T08:09:47Z",
-    "owner": {
-      "name": "ythx-101",
-      "avatar_url": "https://avatars.githubusercontent.com/u/226337373?v=4"
     }
   },
   {
@@ -1780,22 +1809,6 @@
     }
   },
   {
-    "name": "yynxxxxx/gpt_sub_analysis",
-    "url": "https://github.com/yynxxxxx/gpt_sub_analysis",
-    "description": "Security analysis of the ChatGPT iOS subscription / entitlement flow (internal draft, coordinated disclosure WIP)",
-    "stars": 596,
-    "forks": 313,
-    "language": null,
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-17T13:43:00Z",
-    "updated_at": "2026-09-23T03:18:33Z",
-    "owner": {
-      "name": "yynxxxxx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/139136586?v=4"
-    }
-  },
-  {
     "name": "Sac-Y/Jev-cu",
     "url": "https://github.com/Sac-Y/Jev-cu",
     "description": null,
@@ -1812,19 +1825,19 @@
     }
   },
   {
-    "name": "rauchg/gdp-ts",
-    "url": "https://github.com/rauchg/gdp-ts",
-    "description": null,
+    "name": "AgentMemoryRepo/agentmemoryrepo",
+    "url": "https://github.com/AgentMemoryRepo/agentmemoryrepo",
+    "description": "Spec for Agent Memory Repo",
     "stars": 589,
-    "forks": 16,
-    "language": "TypeScript",
+    "forks": 30,
+    "language": null,
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-10-04T18:55:18Z",
-    "updated_at": "2026-10-06T08:20:49Z",
+    "created_at": "2026-10-04T22:10:48Z",
+    "updated_at": "2026-10-07T07:18:00Z",
     "owner": {
-      "name": "rauchg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13041?v=4"
+      "name": "AgentMemoryRepo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/337866316?v=4"
     }
   },
   {
@@ -1857,32 +1870,6 @@
     "owner": {
       "name": "kydlikebtc",
       "avatar_url": "https://avatars.githubusercontent.com/u/75060932?v=4"
-    }
-  },
-  {
-    "name": "Jakeschincariol/replica-skill",
-    "url": "https://github.com/Jakeschincariol/replica-skill",
-    "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
-    "stars": 576,
-    "forks": 49,
-    "language": "Python",
-    "topics": [
-      "agent",
-      "agent-skills",
-      "app-clone",
-      "claude",
-      "claude-code",
-      "claude-skills",
-      "indie-hacker",
-      "reverse-engineering",
-      "saas"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-03T12:07:49Z",
-    "updated_at": "2026-10-06T08:17:04Z",
-    "owner": {
-      "name": "Jakeschincariol",
-      "avatar_url": "https://avatars.githubusercontent.com/u/196724947?v=4"
     }
   },
   {
@@ -2162,22 +2149,6 @@
     }
   },
   {
-    "name": "thruwire/foreman",
-    "url": "https://github.com/thruwire/foreman",
-    "description": "Software factory foreman based on TypeSafe's Jev model",
-    "stars": 520,
-    "forks": 37,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-17T11:46:13Z",
-    "updated_at": "2026-09-23T03:51:24Z",
-    "owner": {
-      "name": "thruwire",
-      "avatar_url": "https://avatars.githubusercontent.com/u/214398454?v=4"
-    }
-  },
-  {
     "name": "storytold/vectorcraft",
     "url": "https://github.com/storytold/vectorcraft",
     "description": "An open-source, clean-room reimplementation of Adobe Illustrator, built in pure Rust.",
@@ -2204,6 +2175,22 @@
     "owner": {
       "name": "storytold",
       "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
+    }
+  },
+  {
+    "name": "zzzz7788990213-ops/EvoVLM",
+    "url": "https://github.com/zzzz7788990213-ops/EvoVLM",
+    "description": "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference.",
+    "stars": 507,
+    "forks": 5,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-02T01:03:55Z",
+    "updated_at": "2026-10-07T03:58:06Z",
+    "owner": {
+      "name": "zzzz7788990213-ops",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246614082?v=4"
     }
   },
   {
@@ -2317,6 +2304,33 @@
     }
   },
   {
+    "name": "whirlchat/whirl",
+    "url": "https://github.com/whirlchat/whirl",
+    "description": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
+    "stars": 491,
+    "forks": 45,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-chat",
+      "chat",
+      "convex",
+      "llm",
+      "nextjs",
+      "openrouter",
+      "react",
+      "self-hosted",
+      "typescript"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-02T13:50:42Z",
+    "updated_at": "2026-10-07T06:00:13Z",
+    "owner": {
+      "name": "whirlchat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/336916860?v=4"
+    }
+  },
+  {
     "name": "ESPARGOS/esp-sdr",
     "url": "https://github.com/ESPARGOS/esp-sdr",
     "description": "ESP-SDR uses the undocumented raw I/Q capture functionality of ESP32 family chips to turn them into (low-duty-cycle) Software Defined Radios",
@@ -2398,33 +2412,6 @@
     }
   },
   {
-    "name": "whirlchat/whirl",
-    "url": "https://github.com/whirlchat/whirl",
-    "description": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
-    "stars": 482,
-    "forks": 43,
-    "language": "TypeScript",
-    "topics": [
-      "ai",
-      "ai-chat",
-      "chat",
-      "convex",
-      "llm",
-      "nextjs",
-      "openrouter",
-      "react",
-      "self-hosted",
-      "typescript"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-02T13:50:42Z",
-    "updated_at": "2026-10-06T08:01:33Z",
-    "owner": {
-      "name": "whirlchat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/336916860?v=4"
-    }
-  },
-  {
     "name": "amitshekhariitbhu/ai-system-design",
     "url": "https://github.com/amitshekhariitbhu/ai-system-design",
     "description": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
@@ -2452,19 +2439,19 @@
     }
   },
   {
-    "name": "elstongun/leviathan",
-    "url": "https://github.com/elstongun/leviathan",
-    "description": "**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
-    "stars": 476,
-    "forks": 27,
-    "language": "Rust",
+    "name": "Dingo-Shenanigans/ReSkate",
+    "url": "https://github.com/Dingo-Shenanigans/ReSkate",
+    "description": null,
+    "stars": 475,
+    "forks": 76,
+    "language": "C++",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-05T08:57:44Z",
-    "updated_at": "2026-10-06T08:15:58Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-02T15:15:28Z",
+    "updated_at": "2026-10-07T07:24:23Z",
     "owner": {
-      "name": "elstongun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75282682?v=4"
+      "name": "Dingo-Shenanigans",
+      "avatar_url": "https://avatars.githubusercontent.com/u/327657586?v=4"
     }
   },
   {
@@ -2481,6 +2468,22 @@
     "owner": {
       "name": "xikhar",
       "avatar_url": "https://avatars.githubusercontent.com/u/215908419?v=4"
+    }
+  },
+  {
+    "name": "DozenTwelve/Papermorph",
+    "url": "https://github.com/DozenTwelve/Papermorph",
+    "description": "An AI skill that turns books into animated, narrated, interactive web experiences",
+    "stars": 473,
+    "forks": 55,
+    "language": "HTML",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-03T01:38:22Z",
+    "updated_at": "2026-10-07T07:36:35Z",
+    "owner": {
+      "name": "DozenTwelve",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26440117?v=4"
     }
   },
   {
@@ -2580,22 +2583,6 @@
     }
   },
   {
-    "name": "zzzz7788990213-ops/EvoVLM",
-    "url": "https://github.com/zzzz7788990213-ops/EvoVLM",
-    "description": "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference.",
-    "stars": 449,
-    "forks": 5,
-    "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-02T01:03:55Z",
-    "updated_at": "2026-10-06T08:18:34Z",
-    "owner": {
-      "name": "zzzz7788990213-ops",
-      "avatar_url": "https://avatars.githubusercontent.com/u/246614082?v=4"
-    }
-  },
-  {
     "name": "wangmingxuan666/Tiersense",
     "url": "https://github.com/wangmingxuan666/Tiersense",
     "description": null,
@@ -2690,35 +2677,19 @@
     }
   },
   {
-    "name": "Dingo-Shenanigans/ReSkate",
-    "url": "https://github.com/Dingo-Shenanigans/ReSkate",
+    "name": "blendi-remade/agentcraft",
+    "url": "https://github.com/blendi-remade/agentcraft",
     "description": null,
-    "stars": 423,
-    "forks": 63,
-    "language": "C++",
+    "stars": 426,
+    "forks": 64,
+    "language": "Java",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-02T15:15:28Z",
-    "updated_at": "2026-10-06T07:55:30Z",
+    "license": "MIT License",
+    "created_at": "2026-10-03T00:59:54Z",
+    "updated_at": "2026-10-07T07:26:48Z",
     "owner": {
-      "name": "Dingo-Shenanigans",
-      "avatar_url": "https://avatars.githubusercontent.com/u/327657586?v=4"
-    }
-  },
-  {
-    "name": "storytold/effectcraft",
-    "url": "https://github.com/storytold/effectcraft",
-    "description": null,
-    "stars": 423,
-    "forks": 96,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-01T14:24:46Z",
-    "updated_at": "2026-10-06T08:20:52Z",
-    "owner": {
-      "name": "storytold",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
+      "name": "blendi-remade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173838289?v=4"
     }
   },
   {
@@ -2735,6 +2706,30 @@
     "owner": {
       "name": "bjarneo",
       "avatar_url": "https://avatars.githubusercontent.com/u/1419214?v=4"
+    }
+  },
+  {
+    "name": "shinshin86/mesh-avatar-studio",
+    "url": "https://github.com/shinshin86/mesh-avatar-studio",
+    "description": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
+    "stars": 416,
+    "forks": 55,
+    "language": "TypeScript",
+    "topics": [
+      "2d-animation",
+      "avatar",
+      "claude-code",
+      "codex",
+      "mesh-deformation",
+      "vtuber",
+      "webgl"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-04T03:33:57Z",
+    "updated_at": "2026-10-07T07:18:44Z",
+    "owner": {
+      "name": "shinshin86",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8216064?v=4"
     }
   },
   {
@@ -2759,6 +2754,27 @@
     "owner": {
       "name": "jev-chat",
       "avatar_url": "https://avatars.githubusercontent.com/u/332283779?v=4"
+    }
+  },
+  {
+    "name": "allenv0/SCM",
+    "url": "https://github.com/allenv0/SCM",
+    "description": "Deep AI search for every photo and every frame of video in any folder on macOS",
+    "stars": 414,
+    "forks": 30,
+    "language": "JavaScript",
+    "topics": [
+      "electron",
+      "transformers-js",
+      "video-processing",
+      "vlms"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-03T16:11:55Z",
+    "updated_at": "2026-10-07T04:39:39Z",
+    "owner": {
+      "name": "allenv0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3938314?v=4"
     }
   },
   {
@@ -2896,6 +2912,44 @@
     }
   },
   {
+    "name": "saawant12/orbit-store-ps5",
+    "url": "https://github.com/saawant12/orbit-store-ps5",
+    "description": "A modern PS5 download manager with resumable downloads and phone controls",
+    "stars": 396,
+    "forks": 19,
+    "language": null,
+    "topics": [
+      "download-manager",
+      "homebrew",
+      "payload",
+      "playstation5",
+      "ps5"
+    ],
+    "license": "No license",
+    "created_at": "2026-10-02T22:53:42Z",
+    "updated_at": "2026-10-07T07:27:58Z",
+    "owner": {
+      "name": "saawant12",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148706913?v=4"
+    }
+  },
+  {
+    "name": "genex-games/genex-desktop",
+    "url": "https://github.com/genex-games/genex-desktop",
+    "description": "Desktop app for game dev with AI. macOS and Linux, Windows soon.",
+    "stars": 390,
+    "forks": 50,
+    "language": "TypeScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-02T17:17:59Z",
+    "updated_at": "2026-10-07T07:44:56Z",
+    "owner": {
+      "name": "genex-games",
+      "avatar_url": "https://avatars.githubusercontent.com/u/329987112?v=4"
+    }
+  },
+  {
     "name": "moguzbulbul/blueprint-animation",
     "url": "https://github.com/moguzbulbul/blueprint-animation",
     "description": "Claude Design skill: animated before → after UX redesign, explained step by step through a blueprint drawing. By @moguzbulbul.",
@@ -3000,6 +3054,38 @@
     }
   },
   {
+    "name": "x4gpanell/SuperJinX",
+    "url": "https://github.com/x4gpanell/SuperJinX",
+    "description": null,
+    "stars": 377,
+    "forks": 827,
+    "language": "HTML",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-02T11:56:18Z",
+    "updated_at": "2026-10-07T07:05:44Z",
+    "owner": {
+      "name": "x4gpanell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/317284177?v=4"
+    }
+  },
+  {
+    "name": "Vincentwei1021/mg-styles-15",
+    "url": "https://github.com/Vincentwei1021/mg-styles-15",
+    "description": "15 motion design styles, each made by Claude Opus 5.5 writing code from one prompt: watch the films, copy the prompts, read the full source.",
+    "stars": 371,
+    "forks": 67,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-02T09:43:06Z",
+    "updated_at": "2026-10-07T07:38:57Z",
+    "owner": {
+      "name": "Vincentwei1021",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18239147?v=4"
+    }
+  },
+  {
     "name": "Barty-Bart/motion-graphics",
     "url": "https://github.com/Barty-Bart/motion-graphics",
     "description": "Motion-graphics skills for Claude Code and Codex.",
@@ -3013,6 +3099,22 @@
     "owner": {
       "name": "Barty-Bart",
       "avatar_url": "https://avatars.githubusercontent.com/u/169445477?v=4"
+    }
+  },
+  {
+    "name": "noahdunnagan/mcopt",
+    "url": "https://github.com/noahdunnagan/mcopt",
+    "description": "mcopt, a Minecraft mod: a native Metal renderer for Minecraft: Java Edition on Apple Silicon Macs (alpha)",
+    "stars": 365,
+    "forks": 18,
+    "language": "Java",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-04T17:34:30Z",
+    "updated_at": "2026-10-07T07:33:25Z",
+    "owner": {
+      "name": "noahdunnagan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119903110?v=4"
     }
   },
   {
@@ -3056,6 +3158,22 @@
     "owner": {
       "name": "MisakaZentai",
       "avatar_url": "https://avatars.githubusercontent.com/u/47909752?v=4"
+    }
+  },
+  {
+    "name": "YXBwbWFya2V0/AppMarket",
+    "url": "https://github.com/YXBwbWFya2V0/AppMarket",
+    "description": null,
+    "stars": 345,
+    "forks": 166,
+    "language": "Kotlin",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-04T08:16:39Z",
+    "updated_at": "2026-10-07T05:43:35Z",
+    "owner": {
+      "name": "YXBwbWFya2V0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/337561798?v=4"
     }
   }
 ]
