@@ -3,13 +3,16 @@
     "name": "QingYunA/answer-me-with-html",
     "url": "https://github.com/QingYunA/answer-me-with-html",
     "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-    "stars": 1562,
-    "forks": 108,
+    "stars": 1860,
+    "forks": 129,
     "language": "JavaScript",
     "topics": [
       "agent-skill",
       "ai-agent",
       "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "claude-skills",
       "cli",
       "diagram",
       "explainer",
@@ -19,7 +22,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-10-02T09:57:40Z",
-    "updated_at": "2026-10-06T08:23:09Z",
+    "updated_at": "2026-10-07T08:00:22Z",
     "owner": {
       "name": "QingYunA",
       "avatar_url": "https://avatars.githubusercontent.com/u/41177312?v=4"
@@ -68,6 +71,22 @@
     }
   },
   {
+    "name": "alchaincyf/huashu-art-motion",
+    "url": "https://github.com/alchaincyf/huashu-art-motion",
+    "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+    "stars": 944,
+    "forks": 120,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-06T04:49:37Z",
+    "updated_at": "2026-10-07T08:00:23Z",
+    "owner": {
+      "name": "alchaincyf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127714341?v=4"
+    }
+  },
+  {
     "name": "dgreenheck/tidewater",
     "url": "https://github.com/dgreenheck/tidewater",
     "description": "Coastal town built with Opus 5.5",
@@ -100,6 +119,29 @@
     }
   },
   {
+    "name": "sganggs/Stronghold-Protocol",
+    "url": "https://github.com/sganggs/Stronghold-Protocol",
+    "description": "明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）",
+    "stars": 857,
+    "forks": 187,
+    "language": "JavaScript",
+    "topics": [
+      "arknights",
+      "auto-chess",
+      "fan-game",
+      "nodejs",
+      "tower-defense",
+      "websocket"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-02T09:38:41Z",
+    "updated_at": "2026-10-07T07:52:06Z",
+    "owner": {
+      "name": "sganggs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64717086?v=4"
+    }
+  },
+  {
     "name": "lemomo-ai/lemo-opuscar",
     "url": "https://github.com/lemomo-ai/lemo-opuscar",
     "description": "43 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
@@ -129,29 +171,6 @@
     "owner": {
       "name": "lemomo-ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/97503247?v=4"
-    }
-  },
-  {
-    "name": "sganggs/Stronghold-Protocol",
-    "url": "https://github.com/sganggs/Stronghold-Protocol",
-    "description": "明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）",
-    "stars": 751,
-    "forks": 168,
-    "language": "JavaScript",
-    "topics": [
-      "arknights",
-      "auto-chess",
-      "fan-game",
-      "nodejs",
-      "tower-defense",
-      "websocket"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-02T09:38:41Z",
-    "updated_at": "2026-10-06T08:18:17Z",
-    "owner": {
-      "name": "sganggs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64717086?v=4"
     }
   },
   {
@@ -350,6 +369,27 @@
     }
   },
   {
+    "name": "allenv0/SCM",
+    "url": "https://github.com/allenv0/SCM",
+    "description": "Deep AI search for every photo and every frame of video in any folder on macOS",
+    "stars": 414,
+    "forks": 30,
+    "language": "JavaScript",
+    "topics": [
+      "electron",
+      "transformers-js",
+      "video-processing",
+      "vlms"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-03T16:11:55Z",
+    "updated_at": "2026-10-07T04:39:39Z",
+    "owner": {
+      "name": "allenv0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3938314?v=4"
+    }
+  },
+  {
     "name": "maanHimself/OpenDLSS-NR",
     "url": "https://github.com/maanHimself/OpenDLSS-NR",
     "description": "A Vulkan reimplementation of NVIDIA's DLSS 5 Neural Rendering network, bit-exact against the original.",
@@ -366,27 +406,6 @@
     }
   },
   {
-    "name": "allenv0/SCM",
-    "url": "https://github.com/allenv0/SCM",
-    "description": "Deep AI search for every photo and every frame of video in any folder on macOS",
-    "stars": 387,
-    "forks": 25,
-    "language": "JavaScript",
-    "topics": [
-      "electron",
-      "transformers-js",
-      "video-processing",
-      "vlms"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-03T16:11:55Z",
-    "updated_at": "2026-10-06T08:02:44Z",
-    "owner": {
-      "name": "allenv0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3938314?v=4"
-    }
-  },
-  {
     "name": "moguzbulbul/blueprint-animation",
     "url": "https://github.com/moguzbulbul/blueprint-animation",
     "description": "Claude Design skill: animated before → after UX redesign, explained step by step through a blueprint drawing. By @moguzbulbul.",
@@ -400,22 +419,6 @@
     "owner": {
       "name": "moguzbulbul",
       "avatar_url": "https://avatars.githubusercontent.com/u/31392894?v=4"
-    }
-  },
-  {
-    "name": "droidrun/mobile-jev",
-    "url": "https://github.com/droidrun/mobile-jev",
-    "description": null,
-    "stars": 360,
-    "forks": 43,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-17T10:41:01Z",
-    "updated_at": "2026-09-23T06:16:11Z",
-    "owner": {
-      "name": "droidrun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207381488?v=4"
     }
   },
   {
@@ -440,22 +443,6 @@
     "owner": {
       "name": "jaydendavisnc",
       "avatar_url": "https://avatars.githubusercontent.com/u/178687560?v=4"
-    }
-  },
-  {
-    "name": "jkudish/jev-mcp",
-    "url": "https://github.com/jkudish/jev-mcp",
-    "description": "Fast, cheap, typed judgments from TypeSafe's Jev model, as MCP tools.",
-    "stars": 294,
-    "forks": 32,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-17T02:25:38Z",
-    "updated_at": "2026-09-23T07:04:16Z",
-    "owner": {
-      "name": "jkudish",
-      "avatar_url": "https://avatars.githubusercontent.com/u/260253?v=4"
     }
   },
   {
@@ -491,38 +478,6 @@
     }
   },
   {
-    "name": "moritzkremb/jev-voice-browser",
-    "url": "https://github.com/moritzkremb/jev-voice-browser",
-    "description": "Control a real browser by voice. Jev (TypeSafe System One) decides intent + target in ~300 ms per spoken word; Playwright acts — often before you finish the sentence.",
-    "stars": 251,
-    "forks": 37,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-17T22:40:19Z",
-    "updated_at": "2026-09-23T06:24:43Z",
-    "owner": {
-      "name": "moritzkremb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33087790?v=4"
-    }
-  },
-  {
-    "name": "jkudish/jev-browser",
-    "url": "https://github.com/jkudish/jev-browser",
-    "description": "Browser use using Typesafe's Jev model",
-    "stars": 244,
-    "forks": 19,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-17T19:22:28Z",
-    "updated_at": "2026-09-23T06:11:11Z",
-    "owner": {
-      "name": "jkudish",
-      "avatar_url": "https://avatars.githubusercontent.com/u/260253?v=4"
-    }
-  },
-  {
     "name": "852wa/JIZURA",
     "url": "https://github.com/852wa/JIZURA",
     "description": "歌詞から文字PVを自動で組み立てるブラウザアプリ",
@@ -536,46 +491,6 @@
     "owner": {
       "name": "852wa",
       "avatar_url": "https://avatars.githubusercontent.com/u/137879019?v=4"
-    }
-  },
-  {
-    "name": "0xNatoshi/jev-codex-router",
-    "url": "https://github.com/0xNatoshi/jev-codex-router",
-    "description": "Per-turn model & reasoning routing for Codex, driven by Jev (TypeSafe System One): picks the model, thinking depth and speed mode for every turn.",
-    "stars": 233,
-    "forks": 27,
-    "language": "JavaScript",
-    "topics": [
-      "ai",
-      "codex",
-      "jev",
-      "llm",
-      "macos",
-      "routing",
-      "typesafe"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-17T04:14:19Z",
-    "updated_at": "2026-09-23T07:00:41Z",
-    "owner": {
-      "name": "0xNatoshi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/155581707?v=4"
-    }
-  },
-  {
-    "name": "kuhnhomeuk-cell/procedural-film",
-    "url": "https://github.com/kuhnhomeuk-cell/procedural-film",
-    "description": "Agent skill: turn a topic into a 30s vertical film drawn and scored entirely in JavaScript. Reference film: the life of a monarch butterfly.",
-    "stars": 230,
-    "forks": 24,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-17T17:15:34Z",
-    "updated_at": "2026-09-23T07:03:17Z",
-    "owner": {
-      "name": "kuhnhomeuk-cell",
-      "avatar_url": "https://avatars.githubusercontent.com/u/277176978?v=4"
     }
   },
   {
@@ -631,38 +546,6 @@
     }
   },
   {
-    "name": "OmniJev/awesome-jev-gallery",
-    "url": "https://github.com/OmniJev/awesome-jev-gallery",
-    "description": "🔥🔥 Papers, open reproductions and independent evaluations behind System One models and Jev.",
-    "stars": 218,
-    "forks": 16,
-    "language": "JavaScript",
-    "topics": [
-      "awesome",
-      "awesome-list",
-      "calibrated-probabilities",
-      "calibration",
-      "decision-models",
-      "jev",
-      "llm",
-      "llm-evaluation",
-      "rlcd",
-      "structured-outputs",
-      "system-one",
-      "system-one-models",
-      "typed-decisions",
-      "typesafe",
-      "zero-shot-classification"
-    ],
-    "license": "Other",
-    "created_at": "2026-09-17T20:16:57Z",
-    "updated_at": "2026-09-23T06:48:26Z",
-    "owner": {
-      "name": "OmniJev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/330584757?v=4"
-    }
-  },
-  {
     "name": "Shelpid/SETS",
     "url": "https://github.com/Shelpid/SETS",
     "description": "Self Improving Trading Machine",
@@ -692,6 +575,31 @@
     "owner": {
       "name": "grmchn",
       "avatar_url": "https://avatars.githubusercontent.com/u/214206822?v=4"
+    }
+  },
+  {
+    "name": "GTKottman/mortiflix-oss",
+    "url": "https://github.com/GTKottman/mortiflix-oss",
+    "description": "A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Bring your own Claude Code or API key.",
+    "stars": 209,
+    "forks": 6,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "harness",
+      "motion-design",
+      "remotion",
+      "video",
+      "video-production"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-10-05T15:15:13Z",
+    "updated_at": "2026-10-07T08:00:22Z",
+    "owner": {
+      "name": "GTKottman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/259927371?v=4"
     }
   },
   {
@@ -842,22 +750,6 @@
     }
   },
   {
-    "name": "standardagents/jevpilot",
-    "url": "https://github.com/standardagents/jevpilot",
-    "description": "A playable Three.js driving simulator with Jev-powered autopilot",
-    "stars": 171,
-    "forks": 26,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-17T15:47:59Z",
-    "updated_at": "2026-09-23T05:27:12Z",
-    "owner": {
-      "name": "standardagents",
-      "avatar_url": "https://avatars.githubusercontent.com/u/247467195?v=4"
-    }
-  },
-  {
     "name": "trustfuture/simon-skills",
     "url": "https://github.com/trustfuture/simon-skills",
     "description": "不露脸做视频账号的 AI skill 合集：调查长片 + 手绘白板讲解视频，一句选题出片、配音字幕、封面与各平台文案",
@@ -952,10 +844,26 @@
     ],
     "license": "The Unlicense",
     "created_at": "2026-10-05T21:43:03Z",
-    "updated_at": "2026-10-06T08:23:18Z",
+    "updated_at": "2026-10-07T07:59:54Z",
     "owner": {
       "name": "yoge7388095s",
       "avatar_url": "https://avatars.githubusercontent.com/u/312658268?v=4"
+    }
+  },
+  {
+    "name": "Hiteater-wzm/eeo",
+    "url": "https://github.com/Hiteater-wzm/eeo",
+    "description": "An open community where brands define themselves for AI",
+    "stars": 154,
+    "forks": 26,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-05T12:24:03Z",
+    "updated_at": "2026-10-07T07:00:35Z",
+    "owner": {
+      "name": "Hiteater-wzm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/338094245?v=4"
     }
   },
   {
@@ -975,26 +883,19 @@
     }
   },
   {
-    "name": "hellogumbo/awesome-jev",
-    "url": "https://github.com/hellogumbo/awesome-jev",
-    "description": "A community directory of projects built on Jev, TypeSafe AI's System One model.",
-    "stars": 152,
-    "forks": 52,
+    "name": "lxj5820/dsh-boot-animation",
+    "url": "https://github.com/lxj5820/dsh-boot-animation",
+    "description": "DSH plugin: replaces the kernel boot page with a full-window video clip, then dissolves into the app. 中文说明见 MANUAL.md",
+    "stars": 151,
+    "forks": 7,
     "language": "JavaScript",
-    "topics": [
-      "awesome",
-      "awesome-list",
-      "jev",
-      "system-one",
-      "typesafe",
-      "typesafe-ai"
-    ],
-    "license": "Creative Commons Zero v1.0 Universal",
-    "created_at": "2026-09-17T15:30:09Z",
-    "updated_at": "2026-09-23T06:28:39Z",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-01T14:06:43Z",
+    "updated_at": "2026-10-07T07:44:43Z",
     "owner": {
-      "name": "hellogumbo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/242542061?v=4"
+      "name": "lxj5820",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38858374?v=4"
     }
   },
   {
@@ -1133,38 +1034,6 @@
     }
   },
   {
-    "name": "alchaincyf/huashu-art-motion",
-    "url": "https://github.com/alchaincyf/huashu-art-motion",
-    "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
-    "stars": 134,
-    "forks": 19,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-06T04:49:37Z",
-    "updated_at": "2026-10-06T08:21:27Z",
-    "owner": {
-      "name": "alchaincyf",
-      "avatar_url": "https://avatars.githubusercontent.com/u/127714341?v=4"
-    }
-  },
-  {
-    "name": "lxj5820/dsh-boot-animation",
-    "url": "https://github.com/lxj5820/dsh-boot-animation",
-    "description": "DSH plugin: replaces the kernel boot page with a full-window video clip, then dissolves into the app. 中文说明见 MANUAL.md",
-    "stars": 134,
-    "forks": 6,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-01T14:06:43Z",
-    "updated_at": "2026-10-06T04:55:52Z",
-    "owner": {
-      "name": "lxj5820",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38858374?v=4"
-    }
-  },
-  {
     "name": "ANDRETRIPOL/OpenGhost",
     "url": "https://github.com/ANDRETRIPOL/OpenGhost",
     "description": "Open desktop agent for Windows, macOS and Linux",
@@ -1206,6 +1075,22 @@
     "owner": {
       "name": "valentynkit",
       "avatar_url": "https://avatars.githubusercontent.com/u/35431524?v=4"
+    }
+  },
+  {
+    "name": "Roylyl/WinPlay",
+    "url": "https://github.com/Roylyl/WinPlay",
+    "description": "WinPlay是一款开源Windows无线CarPlay接收软件，支持本机热点与局域网连接，让你在电脑上显示和操作iPhone的CarPlay界面。",
+    "stars": 132,
+    "forks": 7,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-01T23:31:45Z",
+    "updated_at": "2026-10-07T07:59:06Z",
+    "owner": {
+      "name": "Roylyl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/189338861?v=4"
     }
   },
   {
@@ -1358,22 +1243,6 @@
     }
   },
   {
-    "name": "xianxie6/qingming-riverside",
-    "url": "https://github.com/xianxie6/qingming-riverside",
-    "description": "可交互的宋代沿河街市画卷：行走、乘船、时雨与虹桥过船。Canvas 2D + Three.js。",
-    "stars": 124,
-    "forks": 30,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-17T03:33:16Z",
-    "updated_at": "2026-09-23T06:29:11Z",
-    "owner": {
-      "name": "xianxie6",
-      "avatar_url": "https://avatars.githubusercontent.com/u/221522067?v=4"
-    }
-  },
-  {
     "name": "byalex33/changelog.earth",
     "url": "https://github.com/byalex33/changelog.earth",
     "description": "Your planet. The release notes. An unofficial changelog for Earth, built from real reporting.",
@@ -1411,22 +1280,6 @@
     "owner": {
       "name": "caomod2077",
       "avatar_url": "https://avatars.githubusercontent.com/u/116502323?v=4"
-    }
-  },
-  {
-    "name": "pyd021226/fly-paradise",
-    "url": "https://github.com/pyd021226/fly-paradise",
-    "description": "果蝇乐园：Windows 桌面果蝇，两份安装包可选。",
-    "stars": 119,
-    "forks": 5,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-09-17T07:05:49Z",
-    "updated_at": "2026-09-23T06:51:26Z",
-    "owner": {
-      "name": "pyd021226",
-      "avatar_url": "https://avatars.githubusercontent.com/u/214361901?v=4"
     }
   },
   {
@@ -1499,35 +1352,27 @@
     }
   },
   {
-    "name": "Hiteater-wzm/eeo",
-    "url": "https://github.com/Hiteater-wzm/eeo",
-    "description": "An open community where brands define themselves for AI",
-    "stars": 113,
-    "forks": 14,
+    "name": "joeseesun/qiaomu-codex-imagegen",
+    "url": "https://github.com/joeseesun/qiaomu-codex-imagegen",
+    "description": "让任何 Agent 调用 Codex 内置生图（MCP + CLI + Skill），内置小红书、视频封面、Mondo 海报技巧 · Codex image generation for any agent",
+    "stars": 108,
+    "forks": 7,
     "language": "JavaScript",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-05T12:24:03Z",
-    "updated_at": "2026-10-06T08:18:56Z",
+    "topics": [
+      "agent-skills",
+      "claude-code",
+      "codex",
+      "image-generation",
+      "mcp",
+      "poster-design",
+      "xiaohongshu"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-04T08:47:02Z",
+    "updated_at": "2026-10-07T07:51:13Z",
     "owner": {
-      "name": "Hiteater-wzm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/338094245?v=4"
-    }
-  },
-  {
-    "name": "Roylyl/WinPlay",
-    "url": "https://github.com/Roylyl/WinPlay",
-    "description": "WinPlay是一款开源Windows无线CarPlay接收软件，支持本机热点与局域网连接，让你在电脑上显示和操作iPhone的CarPlay界面。",
-    "stars": 107,
-    "forks": 5,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-01T23:31:45Z",
-    "updated_at": "2026-10-06T07:43:44Z",
-    "owner": {
-      "name": "Roylyl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/189338861?v=4"
+      "name": "joeseesun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3236682?v=4"
     }
   },
   {
@@ -1582,6 +1427,22 @@
     }
   },
   {
+    "name": "Zproger/ConceptLoom",
+    "url": "https://github.com/Zproger/ConceptLoom",
+    "description": "AI-powered learning workflow for Codex, Claude Code, OpenCode and DeepSeek Harness that maps your knowledge, builds a personalized learning path, checks understanding, and saves progress across sessions.",
+    "stars": 106,
+    "forks": 10,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-01T14:29:47Z",
+    "updated_at": "2026-10-07T07:19:24Z",
+    "owner": {
+      "name": "Zproger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81753080?v=4"
+    }
+  },
+  {
     "name": "kangkungmozzarella/kantor-ai",
     "url": "https://github.com/kangkungmozzarella/kantor-ai",
     "description": "Kantor Kita: interactive 3D paper-model office for a 13-person team",
@@ -1630,6 +1491,33 @@
     }
   },
   {
+    "name": "jarrodwatts/intermission",
+    "url": "https://github.com/jarrodwatts/intermission",
+    "description": "Play Doom deathmatch while Claude works. A Claude Code plugin.",
+    "stars": 101,
+    "forks": 8,
+    "language": "JavaScript",
+    "topics": [
+      "claude-code",
+      "claude-code-plugin",
+      "doom",
+      "freedoom",
+      "ghostty",
+      "kitty",
+      "macos",
+      "multiplayer",
+      "odamex",
+      "terminal"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-02T01:04:14Z",
+    "updated_at": "2026-10-07T01:59:18Z",
+    "owner": {
+      "name": "jarrodwatts",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35651410?v=4"
+    }
+  },
+  {
     "name": "kkokosa/heapspace",
     "url": "https://github.com/kkokosa/heapspace",
     "description": "Heapscape: a local Three.js and ClrMD explorer for .NET memory dumps",
@@ -1643,30 +1531,6 @@
     "owner": {
       "name": "kkokosa",
       "avatar_url": "https://avatars.githubusercontent.com/u/11159779?v=4"
-    }
-  },
-  {
-    "name": "joeseesun/qiaomu-codex-imagegen",
-    "url": "https://github.com/joeseesun/qiaomu-codex-imagegen",
-    "description": "让任何 Agent 调用 Codex 内置生图（MCP + CLI + Skill），内置小红书、视频封面、Mondo 海报技巧 · Codex image generation for any agent",
-    "stars": 98,
-    "forks": 6,
-    "language": "JavaScript",
-    "topics": [
-      "agent-skills",
-      "claude-code",
-      "codex",
-      "image-generation",
-      "mcp",
-      "poster-design",
-      "xiaohongshu"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-04T08:47:02Z",
-    "updated_at": "2026-10-06T07:25:43Z",
-    "owner": {
-      "name": "joeseesun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3236682?v=4"
     }
   },
   {
@@ -1699,33 +1563,6 @@
     "owner": {
       "name": "deniza-png",
       "avatar_url": "https://avatars.githubusercontent.com/u/266298355?v=4"
-    }
-  },
-  {
-    "name": "jarrodwatts/intermission",
-    "url": "https://github.com/jarrodwatts/intermission",
-    "description": "Play Doom deathmatch while Claude works. A Claude Code plugin.",
-    "stars": 97,
-    "forks": 8,
-    "language": "JavaScript",
-    "topics": [
-      "claude-code",
-      "claude-code-plugin",
-      "doom",
-      "freedoom",
-      "ghostty",
-      "kitty",
-      "macos",
-      "multiplayer",
-      "odamex",
-      "terminal"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-02T01:04:14Z",
-    "updated_at": "2026-10-05T15:43:23Z",
-    "owner": {
-      "name": "jarrodwatts",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35651410?v=4"
     }
   },
   {
@@ -1869,22 +1706,6 @@
     }
   },
   {
-    "name": "Zproger/ConceptLoom",
-    "url": "https://github.com/Zproger/ConceptLoom",
-    "description": "AI-powered learning workflow for Codex, Claude Code, and OpenCode that maps your knowledge, builds a personalized learning path, checks understanding, and saves progress across sessions.",
-    "stars": 87,
-    "forks": 8,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-01T14:29:47Z",
-    "updated_at": "2026-10-06T06:43:43Z",
-    "owner": {
-      "name": "Zproger",
-      "avatar_url": "https://avatars.githubusercontent.com/u/81753080?v=4"
-    }
-  },
-  {
     "name": "Kenton-GMI/sakuragaoka-station",
     "url": "https://github.com/Kenton-GMI/sakuragaoka-station",
     "description": "A walkable first-person anime cel-shaded Japanese sakura station town, fully procedural in plain three.js",
@@ -1906,6 +1727,38 @@
     "owner": {
       "name": "Kenton-GMI",
       "avatar_url": "https://avatars.githubusercontent.com/u/310775475?v=4"
+    }
+  },
+  {
+    "name": "wieslawsoltes/VB6",
+    "url": "https://github.com/wieslawsoltes/VB6",
+    "description": "VB6 Studio Web — a browser-native classic Visual Basic IDE, form designer, source runtime and controls library in HTML, CSS and JavaScript, with a debugger, WebGPU drawing and single-file HTML app export.",
+    "stars": 86,
+    "forks": 14,
+    "language": "JavaScript",
+    "topics": [
+      "browser-ide",
+      "canvas2d",
+      "debugger",
+      "form-designer",
+      "github-pages",
+      "html",
+      "ide",
+      "interpreter",
+      "javascript",
+      "retro",
+      "runtime",
+      "vb6",
+      "visual-basic",
+      "visual-basic-6",
+      "webgpu"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-04T17:40:27Z",
+    "updated_at": "2026-10-07T07:57:16Z",
+    "owner": {
+      "name": "wieslawsoltes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2297442?v=4"
     }
   },
   {
@@ -1984,6 +1837,33 @@
     }
   },
   {
+    "name": "cth9191/animate",
+    "url": "https://github.com/cth9191/animate",
+    "description": "Procedural animation in any style for Claude Code: short single-file canvas videos with story, look and storyboard check-ins. 7 built-in styles or one matched from your references, your own music (beat-mapped), real product screenshots, every format from one piece.",
+    "stars": 78,
+    "forks": 10,
+    "language": "JavaScript",
+    "topics": [
+      "animation",
+      "canvas",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "explainer-video",
+      "generative-art",
+      "motion-graphics",
+      "procedural-animation",
+      "storyboard"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-04T00:05:25Z",
+    "updated_at": "2026-10-07T07:57:03Z",
+    "owner": {
+      "name": "cth9191",
+      "avatar_url": "https://avatars.githubusercontent.com/u/129889057?v=4"
+    }
+  },
+  {
     "name": "shuma12303/nebula-decode",
     "url": "https://github.com/shuma12303/nebula-decode",
     "description": "Nebula-Decode — Cloudflare 单文件终端",
@@ -1997,6 +1877,22 @@
     "owner": {
       "name": "shuma12303",
       "avatar_url": "https://avatars.githubusercontent.com/u/286563251?v=4"
+    }
+  },
+  {
+    "name": "jeantimex/tokyo",
+    "url": "https://github.com/jeantimex/tokyo",
+    "description": "A real-time 3D model of Tokyo in the browser, compiled from public data with procedural detail on top. Fly over the city, change the time of day, and watch the traffic, the trains and the birds.",
+    "stars": 76,
+    "forks": 12,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-04T02:54:38Z",
+    "updated_at": "2026-10-07T04:04:52Z",
+    "owner": {
+      "name": "jeantimex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/565300?v=4"
     }
   },
   {
@@ -2150,19 +2046,19 @@
     }
   },
   {
-    "name": "jeantimex/tokyo",
-    "url": "https://github.com/jeantimex/tokyo",
-    "description": "A real-time 3D model of Tokyo in the browser, compiled from public data with procedural detail on top. Fly over the city, change the time of day, and watch the traffic, the trains and the birds.",
+    "name": "whykang/ssts--Android",
+    "url": "https://github.com/whykang/ssts--Android",
+    "description": "随身听书 安卓版 —— 一个聚合听书工具，支持自定义源",
     "stars": 70,
-    "forks": 12,
+    "forks": 16,
     "language": "JavaScript",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-04T02:54:38Z",
-    "updated_at": "2026-10-06T06:53:08Z",
+    "license": "No license",
+    "created_at": "2026-10-03T03:48:36Z",
+    "updated_at": "2026-10-07T07:06:56Z",
     "owner": {
-      "name": "jeantimex",
-      "avatar_url": "https://avatars.githubusercontent.com/u/565300?v=4"
+      "name": "whykang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35453866?v=4"
     }
   },
   {
@@ -2185,6 +2081,22 @@
     "owner": {
       "name": "yikangy873-gif",
       "avatar_url": "https://avatars.githubusercontent.com/u/266203161?v=4"
+    }
+  },
+  {
+    "name": "KJGX66F/free-proxy-airport-cf",
+    "url": "https://github.com/KJGX66F/free-proxy-airport-cf",
+    "description": "一个轻量、高效的 Cloudflare Worker 订阅代理与透传转换服务。支持 1:1 原汁原味透传 Clash (YAML) 完整配置与通用 Base64 订阅，具备多 CDN 容灾加速、自定义访问后缀（Token）防扒保护以及动态 URL 代理转换功能。机场级体验的 Clash Verge / Mihomo 免费节点订阅系统。 每 30 分钟自动聚合公开免费节点源，执行真实延迟测试，剔除超时和无效节点，并按健康评分生成自动分组。",
+    "stars": 69,
+    "forks": 10,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-05T08:08:38Z",
+    "updated_at": "2026-10-07T07:35:41Z",
+    "owner": {
+      "name": "KJGX66F",
+      "avatar_url": "https://avatars.githubusercontent.com/u/300279924?v=4"
     }
   },
   {
@@ -2245,6 +2157,31 @@
     }
   },
   {
+    "name": "Tejashmakwana/motionmaxxing",
+    "url": "https://github.com/Tejashmakwana/motionmaxxing",
+    "description": "Looksmaxxing for motion graphics. An agent skill that turns AI slop videos into films that look made by a motion designer.",
+    "stars": 64,
+    "forks": 8,
+    "language": "JavaScript",
+    "topics": [
+      "agent-skills",
+      "ai",
+      "claude-code",
+      "gsap",
+      "hyperframes",
+      "motion-graphics",
+      "motionmaxxing",
+      "video"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-06T18:18:49Z",
+    "updated_at": "2026-10-07T07:34:45Z",
+    "owner": {
+      "name": "Tejashmakwana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89969328?v=4"
+    }
+  },
+  {
     "name": "morganhub/fluidplan",
     "url": "https://github.com/morganhub/fluidplan",
     "description": "Plan visualization for Claude",
@@ -2282,6 +2219,22 @@
     "owner": {
       "name": "kurbaitaev",
       "avatar_url": "https://avatars.githubusercontent.com/u/191476036?v=4"
+    }
+  },
+  {
+    "name": "bpinheiroms/open-apuracao-brazil",
+    "url": "https://github.com/bpinheiroms/open-apuracao-brazil",
+    "description": null,
+    "stars": 62,
+    "forks": 20,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-05T00:59:00Z",
+    "updated_at": "2026-10-06T20:46:40Z",
+    "owner": {
+      "name": "bpinheiroms",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22135548?v=4"
     }
   },
   {
@@ -2340,7 +2293,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-10-02T00:43:49Z",
-    "updated_at": "2026-10-05T14:54:13Z",
+    "updated_at": "2026-10-06T23:35:08Z",
     "owner": {
       "name": "Btluo1",
       "avatar_url": "https://avatars.githubusercontent.com/u/278428202?v=4"
@@ -2430,38 +2383,6 @@
     }
   },
   {
-    "name": "wieslawsoltes/VB6",
-    "url": "https://github.com/wieslawsoltes/VB6",
-    "description": "VB6 Studio Web — a browser-native classic Visual Basic IDE, form designer, source runtime and controls library in HTML, CSS and JavaScript, with a debugger, WebGPU drawing and single-file HTML app export.",
-    "stars": 59,
-    "forks": 9,
-    "language": "JavaScript",
-    "topics": [
-      "browser-ide",
-      "canvas2d",
-      "debugger",
-      "form-designer",
-      "github-pages",
-      "html",
-      "ide",
-      "interpreter",
-      "javascript",
-      "retro",
-      "runtime",
-      "vb6",
-      "visual-basic",
-      "visual-basic-6",
-      "webgpu"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-04T17:40:27Z",
-    "updated_at": "2026-10-06T08:21:28Z",
-    "owner": {
-      "name": "wieslawsoltes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2297442?v=4"
-    }
-  },
-  {
     "name": "levy-street/pokemon-claude-red",
     "url": "https://github.com/levy-street/pokemon-claude-red",
     "description": "Pokémon Red, rebuilt from raw pixels by Claude Opus 5.5. Every sprite, tile, battle effect and song is code: zero image files. Plays in the browser.",
@@ -2503,22 +2424,6 @@
     "owner": {
       "name": "mmnga",
       "avatar_url": "https://avatars.githubusercontent.com/u/115213907?v=4"
-    }
-  },
-  {
-    "name": "bpinheiroms/open-apuracao-brazil",
-    "url": "https://github.com/bpinheiroms/open-apuracao-brazil",
-    "description": null,
-    "stars": 58,
-    "forks": 20,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-05T00:59:00Z",
-    "updated_at": "2026-10-06T03:50:50Z",
-    "owner": {
-      "name": "bpinheiroms",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22135548?v=4"
     }
   },
   {
@@ -2573,6 +2478,22 @@
     "owner": {
       "name": "GordenSun",
       "avatar_url": "https://avatars.githubusercontent.com/u/3281492?v=4"
+    }
+  },
+  {
+    "name": "luoluo-121/neural-creator-dashboard",
+    "url": "https://github.com/luoluo-121/neural-creator-dashboard",
+    "description": "创作神经网络看板与 Agent Skill｜学习及非商业使用，商业使用须另行授权；历史授权例外见 NOTICE",
+    "stars": 56,
+    "forks": 15,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-06T03:44:37Z",
+    "updated_at": "2026-10-07T06:47:49Z",
+    "owner": {
+      "name": "luoluo-121",
+      "avatar_url": "https://avatars.githubusercontent.com/u/273278829?v=4"
     }
   },
   {
@@ -2662,19 +2583,35 @@
     }
   },
   {
-    "name": "whykang/ssts--Android",
-    "url": "https://github.com/whykang/ssts--Android",
-    "description": "随身听书 安卓版 —— 一个聚合听书工具，支持自定义源",
+    "name": "jingguanzhang/OldAlmanac",
+    "url": "https://github.com/jingguanzhang/OldAlmanac",
+    "description": "电子老黄历",
     "stars": 54,
-    "forks": 10,
+    "forks": 21,
     "language": "JavaScript",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-10-03T03:48:36Z",
-    "updated_at": "2026-10-06T08:11:39Z",
+    "created_at": "2026-10-04T12:45:20Z",
+    "updated_at": "2026-10-07T06:10:28Z",
     "owner": {
-      "name": "whykang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35453866?v=4"
+      "name": "jingguanzhang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156168287?v=4"
+    }
+  },
+  {
+    "name": "bangbuilds/code-poem-film",
+    "url": "https://github.com/bangbuilds/code-poem-film",
+    "description": "Claude Code skill：说一首诗，做出一条水墨手绘风 2D 动画（代码逐帧绘制 + 朗诵逐字对位 + numpy 配乐）",
+    "stars": 54,
+    "forks": 4,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-03T11:22:42Z",
+    "updated_at": "2026-10-07T01:59:14Z",
+    "owner": {
+      "name": "bangbuilds",
+      "avatar_url": "https://avatars.githubusercontent.com/u/189947538?v=4"
     }
   },
   {
@@ -2691,22 +2628,6 @@
     "owner": {
       "name": "iceorange-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/54463537?v=4"
-    }
-  },
-  {
-    "name": "bangbuilds/code-poem-film",
-    "url": "https://github.com/bangbuilds/code-poem-film",
-    "description": "Claude Code skill：说一首诗，做出一条水墨手绘风 2D 动画（代码逐帧绘制 + 朗诵逐字对位 + numpy 配乐）",
-    "stars": 52,
-    "forks": 4,
-    "language": "JavaScript",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-03T11:22:42Z",
-    "updated_at": "2026-10-05T00:44:14Z",
-    "owner": {
-      "name": "bangbuilds",
-      "avatar_url": "https://avatars.githubusercontent.com/u/189947538?v=4"
     }
   },
   {
@@ -2802,6 +2723,53 @@
     }
   },
   {
+    "name": "EGSECDA/vocaloid-style-mv-pipeline",
+    "url": "https://github.com/EGSECDA/vocaloid-style-mv-pipeline",
+    "description": "Production pipeline and Claude Code skill for Vocaloid-style hand-drawn (手書き) lyric music videos: deterministic Canvas2D/WebGL2 animation engine, JIZURA lyric motion, AI illustration, Blender toon 3D, headless rendering to 16:9 and 9:16.",
+    "stars": 50,
+    "forks": 6,
+    "language": "JavaScript",
+    "topics": [
+      "animation",
+      "anime",
+      "blender",
+      "canvas",
+      "claude-code",
+      "claude-skill",
+      "ffmpeg",
+      "kinetic-typography",
+      "lyric-video",
+      "motion-graphics",
+      "music-video",
+      "playwright",
+      "vocaloid",
+      "webgl"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-04T10:23:26Z",
+    "updated_at": "2026-10-07T07:33:48Z",
+    "owner": {
+      "name": "EGSECDA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128212024?v=4"
+    }
+  },
+  {
+    "name": "sindresorhus/eslint-cssicorn",
+    "url": "https://github.com/sindresorhus/eslint-cssicorn",
+    "description": "Powerful ESLint rules for CSS",
+    "stars": 50,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-03T04:23:12Z",
+    "updated_at": "2026-10-07T06:19:16Z",
+    "owner": {
+      "name": "sindresorhus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/170270?v=4"
+    }
+  },
+  {
     "name": "T8mars/Comfyui-Qwen-Image-2.1-MultiAngle-T8",
     "url": "https://github.com/T8mars/Comfyui-Qwen-Image-2.1-MultiAngle-T8",
     "description": null,
@@ -2831,6 +2799,29 @@
     "owner": {
       "name": "YusufAbdulah",
       "avatar_url": "https://avatars.githubusercontent.com/u/228737441?v=4"
+    }
+  },
+  {
+    "name": "isas1/daily-team",
+    "url": "https://github.com/isas1/daily-team",
+    "description": "A new four-person creative team every day, and the small web tool it built. Generated with Claude Code, recorded on GitHub.",
+    "stars": 46,
+    "forks": 5,
+    "language": "JavaScript",
+    "topics": [
+      "agent-skills",
+      "claude",
+      "claude-code",
+      "generative",
+      "github-actions",
+      "openrouter"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-02T22:48:41Z",
+    "updated_at": "2026-10-07T04:01:56Z",
+    "owner": {
+      "name": "isas1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14927202?v=4"
     }
   },
   {
@@ -2876,6 +2867,22 @@
     "owner": {
       "name": "YusufAbdulah",
       "avatar_url": "https://avatars.githubusercontent.com/u/228737441?v=4"
+    }
+  },
+  {
+    "name": "theRizwan/FlagshipRouter",
+    "url": "https://github.com/theRizwan/FlagshipRouter",
+    "description": "Free AI models for every coding tool — a local OpenAI-compatible gateway for Claude Code, Codex, Cursor, Cline and OpenCode. Based on 9router (MIT).",
+    "stars": 43,
+    "forks": 24,
+    "language": "JavaScript",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-04T13:54:43Z",
+    "updated_at": "2026-10-07T07:06:01Z",
+    "owner": {
+      "name": "theRizwan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70063440?v=4"
     }
   },
   {
@@ -2947,26 +2954,26 @@
     }
   },
   {
-    "name": "isas1/daily-team",
-    "url": "https://github.com/isas1/daily-team",
-    "description": "A new four-person creative team every day, and the small web tool it built. Generated with Claude Code, recorded on GitHub.",
+    "name": "sundyme/punctum",
+    "url": "https://github.com/sundyme/punctum",
+    "description": "Punctum: a free variable dot-matrix typeface. 5×7 dots, two axes: dot size and dot shape. 可变点阵字体",
     "stars": 41,
-    "forks": 4,
+    "forks": 6,
     "language": "JavaScript",
     "topics": [
-      "agent-skills",
-      "claude",
-      "claude-code",
-      "generative",
-      "github-actions",
-      "openrouter"
+      "dot-matrix",
+      "font",
+      "open-font-license",
+      "pixel-font",
+      "typeface",
+      "variable-font"
     ],
-    "license": "MIT License",
-    "created_at": "2026-10-02T22:48:41Z",
-    "updated_at": "2026-10-06T05:06:51Z",
+    "license": "Other",
+    "created_at": "2026-10-05T13:48:51Z",
+    "updated_at": "2026-10-07T05:55:28Z",
     "owner": {
-      "name": "isas1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14927202?v=4"
+      "name": "sundyme",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7632409?v=4"
     }
   }
 ]
