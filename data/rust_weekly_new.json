@@ -45,6 +45,22 @@
     }
   },
   {
+    "name": "nullmoth/nvidia-macos-driver",
+    "url": "https://github.com/nullmoth/nvidia-macos-driver",
+    "description": "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.",
+    "stars": 1480,
+    "forks": 137,
+    "language": "Rust",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-07T08:13:12Z",
+    "updated_at": "2026-10-09T08:16:46Z",
+    "owner": {
+      "name": "nullmoth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333880792?v=4"
+    }
+  },
+  {
     "name": "storytold/effectcraft",
     "url": "https://github.com/storytold/effectcraft",
     "description": null,
@@ -55,6 +71,38 @@
     "license": "Apache License 2.0",
     "created_at": "2026-10-01T14:24:46Z",
     "updated_at": "2026-10-07T08:01:36Z",
+    "owner": {
+      "name": "storytold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
+    }
+  },
+  {
+    "name": "storytold/wordcraft",
+    "url": "https://github.com/storytold/wordcraft",
+    "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+    "stars": 1032,
+    "forks": 370,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-07T08:34:24Z",
+    "updated_at": "2026-10-09T08:08:50Z",
+    "owner": {
+      "name": "storytold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
+    }
+  },
+  {
+    "name": "storytold/cadcraft",
+    "url": "https://github.com/storytold/cadcraft",
+    "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
+    "stars": 955,
+    "forks": 429,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-07T05:22:31Z",
+    "updated_at": "2026-10-09T08:15:25Z",
     "owner": {
       "name": "storytold",
       "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
@@ -93,6 +141,75 @@
     }
   },
   {
+    "name": "pingdotgg/ts-rust",
+    "url": "https://github.com/pingdotgg/ts-rust",
+    "description": "An experimental Rust port of the TypeScript 7 compiler (tsc)",
+    "stars": 745,
+    "forks": 46,
+    "language": "Rust",
+    "topics": [
+      "compiler",
+      "rust",
+      "tsc",
+      "typescript"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-07T05:17:07Z",
+    "updated_at": "2026-10-09T08:13:39Z",
+    "owner": {
+      "name": "pingdotgg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89191727?v=4"
+    }
+  },
+  {
+    "name": "noahdunnagan/fsearch",
+    "url": "https://github.com/noahdunnagan/fsearch",
+    "description": "Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.",
+    "stars": 742,
+    "forks": 55,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-08T17:50:33Z",
+    "updated_at": "2026-10-09T08:15:35Z",
+    "owner": {
+      "name": "noahdunnagan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119903110?v=4"
+    }
+  },
+  {
+    "name": "storytold/gridcraft",
+    "url": "https://github.com/storytold/gridcraft",
+    "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
+    "stars": 710,
+    "forks": 323,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-07T05:18:16Z",
+    "updated_at": "2026-10-09T08:15:50Z",
+    "owner": {
+      "name": "storytold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
+    }
+  },
+  {
+    "name": "elstongun/leviathan",
+    "url": "https://github.com/elstongun/leviathan",
+    "description": "**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
+    "stars": 698,
+    "forks": 37,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-05T08:57:44Z",
+    "updated_at": "2026-10-09T06:13:55Z",
+    "owner": {
+      "name": "elstongun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75282682?v=4"
+    }
+  },
+  {
     "name": "storytold/filmcraft",
     "url": "https://github.com/storytold/filmcraft",
     "description": "An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.",
@@ -117,19 +234,19 @@
     }
   },
   {
-    "name": "elstongun/leviathan",
-    "url": "https://github.com/elstongun/leviathan",
-    "description": "**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
-    "stars": 676,
-    "forks": 35,
+    "name": "storytold/soundcraft",
+    "url": "https://github.com/storytold/soundcraft",
+    "description": "An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust",
+    "stars": 666,
+    "forks": 356,
     "language": "Rust",
     "topics": [],
     "license": "Apache License 2.0",
-    "created_at": "2026-10-05T08:57:44Z",
-    "updated_at": "2026-10-08T08:06:04Z",
+    "created_at": "2026-10-07T08:31:31Z",
+    "updated_at": "2026-10-09T08:17:09Z",
     "owner": {
-      "name": "elstongun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75282682?v=4"
+      "name": "storytold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
     }
   },
   {
@@ -165,40 +282,19 @@
     }
   },
   {
-    "name": "nullmoth/nvidia-macos-driver",
-    "url": "https://github.com/nullmoth/nvidia-macos-driver",
-    "description": "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.",
-    "stars": 591,
-    "forks": 59,
+    "name": "storytold/deckcraft",
+    "url": "https://github.com/storytold/deckcraft",
+    "description": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
+    "stars": 594,
+    "forks": 321,
     "language": "Rust",
     "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-07T08:13:12Z",
-    "updated_at": "2026-10-08T08:07:52Z",
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-07T05:27:21Z",
+    "updated_at": "2026-10-09T08:15:54Z",
     "owner": {
-      "name": "nullmoth",
-      "avatar_url": "https://avatars.githubusercontent.com/u/333880792?v=4"
-    }
-  },
-  {
-    "name": "pingdotgg/ts-rust",
-    "url": "https://github.com/pingdotgg/ts-rust",
-    "description": "An experimental Rust port of the TypeScript 7 compiler (tsc)",
-    "stars": 556,
-    "forks": 31,
-    "language": "Rust",
-    "topics": [
-      "compiler",
-      "rust",
-      "tsc",
-      "typescript"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-07T05:17:07Z",
-    "updated_at": "2026-10-08T08:08:30Z",
-    "owner": {
-      "name": "pingdotgg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/89191727?v=4"
+      "name": "storytold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
     }
   },
   {
@@ -323,22 +419,6 @@
     }
   },
   {
-    "name": "storytold/wordcraft",
-    "url": "https://github.com/storytold/wordcraft",
-    "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
-    "stars": 375,
-    "forks": 151,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-07T08:34:24Z",
-    "updated_at": "2026-10-08T08:15:22Z",
-    "owner": {
-      "name": "storytold",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
-    }
-  },
-  {
     "name": "OnlistTeam/ai-manager",
     "url": "https://github.com/OnlistTeam/ai-manager",
     "description": "AI Manager desktop application for AI coding tools",
@@ -352,22 +432,6 @@
     "owner": {
       "name": "OnlistTeam",
       "avatar_url": "https://avatars.githubusercontent.com/u/290737652?v=4"
-    }
-  },
-  {
-    "name": "storytold/cadcraft",
-    "url": "https://github.com/storytold/cadcraft",
-    "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
-    "stars": 348,
-    "forks": 161,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-07T05:22:31Z",
-    "updated_at": "2026-10-08T08:15:51Z",
-    "owner": {
-      "name": "storytold",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
     }
   },
   {
@@ -494,224 +558,29 @@
     }
   },
   {
-    "name": "storytold/soundcraft",
-    "url": "https://github.com/storytold/soundcraft",
-    "description": "An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust",
+    "name": "opencoredev/convt",
+    "url": "https://github.com/opencoredev/convt",
+    "description": "Convert any file with a right-click.",
     "stars": 259,
-    "forks": 129,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-07T08:31:31Z",
-    "updated_at": "2026-10-08T08:15:28Z",
-    "owner": {
-      "name": "storytold",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
-    }
-  },
-  {
-    "name": "storytold/gridcraft",
-    "url": "https://github.com/storytold/gridcraft",
-    "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
-    "stars": 256,
-    "forks": 116,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-07T05:18:16Z",
-    "updated_at": "2026-10-08T08:16:24Z",
-    "owner": {
-      "name": "storytold",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
-    }
-  },
-  {
-    "name": "storytold/deckcraft",
-    "url": "https://github.com/storytold/deckcraft",
-    "description": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
-    "stars": 224,
-    "forks": 110,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-07T05:27:21Z",
-    "updated_at": "2026-10-08T08:15:15Z",
-    "owner": {
-      "name": "storytold",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
-    }
-  },
-  {
-    "name": "BridgeDruidCompress/TauriKit",
-    "url": "https://github.com/BridgeDruidCompress/TauriKit",
-    "description": "Modern UI component kit for Rust desktop applications",
-    "stars": 224,
-    "forks": 47,
+    "forks": 13,
     "language": "Rust",
     "topics": [
-      "components",
-      "cross-platform",
-      "desktop",
-      "gui",
-      "rust",
-      "tauri",
-      "ui-kit"
+      "convert",
+      "convert-images",
+      "convert-local",
+      "converted-to-private",
+      "converter",
+      "converter-app",
+      "local",
+      "local-first",
+      "private"
     ],
-    "license": "MIT License",
-    "created_at": "2026-09-23T11:21:48Z",
-    "updated_at": "2026-09-24T17:07:10Z",
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-10-06T01:17:53Z",
+    "updated_at": "2026-10-09T07:37:39Z",
     "owner": {
-      "name": "BridgeDruidCompress",
-      "avatar_url": "https://avatars.githubusercontent.com/u/307794066?v=4"
-    }
-  },
-  {
-    "name": "AutocratGirder/ClashDesk",
-    "url": "https://github.com/AutocratGirder/ClashDesk",
-    "description": "Modern cross-platform desktop client for proxy workflows",
-    "stars": 224,
-    "forks": 47,
-    "language": "Rust",
-    "topics": [
-      "clash",
-      "desktop",
-      "gui",
-      "linux",
-      "macos",
-      "proxy",
-      "rust",
-      "tauri",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-23T11:21:44Z",
-    "updated_at": "2026-09-24T17:07:13Z",
-    "owner": {
-      "name": "AutocratGirder",
-      "avatar_url": "https://avatars.githubusercontent.com/u/307795303?v=4"
-    }
-  },
-  {
-    "name": "BinaryDeliverer/CodexDesk",
-    "url": "https://github.com/BinaryDeliverer/CodexDesk",
-    "description": "Desktop companion for AI coding agents and Codex workflows",
-    "stars": 223,
-    "forks": 48,
-    "language": "Rust",
-    "topics": [
-      "agent",
-      "ai",
-      "codex",
-      "desktop",
-      "developer-tools",
-      "gui",
-      "productivity",
-      "rust"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-23T11:21:44Z",
-    "updated_at": "2026-09-24T17:07:14Z",
-    "owner": {
-      "name": "BinaryDeliverer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/307794984?v=4"
-    }
-  },
-  {
-    "name": "BricklayerSurmount/DockForge",
-    "url": "https://github.com/BricklayerSurmount/DockForge",
-    "description": "Flexible dock and panel layout system for desktop apps",
-    "stars": 223,
-    "forks": 47,
-    "language": "Rust",
-    "topics": [
-      "desktop",
-      "dock",
-      "gui",
-      "layout",
-      "panels",
-      "productivity",
-      "rust",
-      "workspace"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-23T11:21:45Z",
-    "updated_at": "2026-09-24T17:07:17Z",
-    "owner": {
-      "name": "BricklayerSurmount",
-      "avatar_url": "https://avatars.githubusercontent.com/u/307793905?v=4"
-    }
-  },
-  {
-    "name": "CassowaryDevelop/HelixEdit",
-    "url": "https://github.com/CassowaryDevelop/HelixEdit",
-    "description": "Modal code editor with LSP support written in Rust",
-    "stars": 222,
-    "forks": 47,
-    "language": "Rust",
-    "topics": [
-      "code-editor",
-      "desktop",
-      "developer-tools",
-      "editor",
-      "helix",
-      "lsp",
-      "rust"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-23T11:21:48Z",
-    "updated_at": "2026-09-24T17:07:19Z",
-    "owner": {
-      "name": "CassowaryDevelop",
-      "avatar_url": "https://avatars.githubusercontent.com/u/307794893?v=4"
-    }
-  },
-  {
-    "name": "Behemothlyaoscillate/RustDeskPro",
-    "url": "https://github.com/Behemothlyaoscillate/RustDeskPro",
-    "description": "Self-hosted remote desktop client for teams",
-    "stars": 222,
-    "forks": 47,
-    "language": "Rust",
-    "topics": [
-      "cross-platform",
-      "desktop",
-      "gui",
-      "remote-access",
-      "remote-desktop",
-      "rust",
-      "self-hosted"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-23T11:21:46Z",
-    "updated_at": "2026-09-24T17:07:20Z",
-    "owner": {
-      "name": "Behemothlyaoscillate",
-      "avatar_url": "https://avatars.githubusercontent.com/u/307793903?v=4"
-    }
-  },
-  {
-    "name": "AvenueSnowStep/ClaudePanel",
-    "url": "https://github.com/AvenueSnowStep/ClaudePanel",
-    "description": "Desktop panel and toolkit for Claude and AI assistants",
-    "stars": 222,
-    "forks": 48,
-    "language": "Rust",
-    "topics": [
-      "agent",
-      "ai",
-      "assistant",
-      "claude",
-      "desktop",
-      "gui",
-      "productivity",
-      "rust"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-23T11:21:45Z",
-    "updated_at": "2026-09-24T17:07:21Z",
-    "owner": {
-      "name": "AvenueSnowStep",
-      "avatar_url": "https://avatars.githubusercontent.com/u/307795094?v=4"
+      "name": "opencoredev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218007078?v=4"
     }
   },
   {
@@ -757,29 +626,19 @@
     }
   },
   {
-    "name": "opencoredev/convt",
-    "url": "https://github.com/opencoredev/convt",
-    "description": "Convert any file with a right-click.",
-    "stars": 205,
-    "forks": 7,
+    "name": "MystiaFin/amane",
+    "url": "https://github.com/MystiaFin/amane",
+    "description": "A library for building Wayland desktop shell purely in Rust",
+    "stars": 215,
+    "forks": 4,
     "language": "Rust",
-    "topics": [
-      "convert",
-      "convert-images",
-      "convert-local",
-      "converted-to-private",
-      "converter",
-      "converter-app",
-      "local",
-      "local-first",
-      "private"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-10-06T01:17:53Z",
-    "updated_at": "2026-10-08T08:13:16Z",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-04T02:57:26Z",
+    "updated_at": "2026-10-09T07:39:56Z",
     "owner": {
-      "name": "opencoredev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/218007078?v=4"
+      "name": "MystiaFin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/137388364?v=4"
     }
   },
   {
@@ -799,22 +658,6 @@
     "owner": {
       "name": "pch",
       "avatar_url": "https://avatars.githubusercontent.com/u/9818?v=4"
-    }
-  },
-  {
-    "name": "MystiaFin/amane",
-    "url": "https://github.com/MystiaFin/amane",
-    "description": "A library for building Wayland desktop shell purely in Rust",
-    "stars": 186,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-04T02:57:26Z",
-    "updated_at": "2026-10-08T08:11:24Z",
-    "owner": {
-      "name": "MystiaFin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/137388364?v=4"
     }
   },
   {
@@ -852,43 +695,6 @@
     "owner": {
       "name": "scarletkc",
       "avatar_url": "https://avatars.githubusercontent.com/u/50803289?v=4"
-    }
-  },
-  {
-    "name": "surya-koritala/Glyd",
-    "url": "https://github.com/surya-koritala/Glyd",
-    "description": "Glyd - Fast lossless compression algorithm",
-    "stars": 168,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "benchmark",
-      "c-abi",
-      "cli",
-      "compression",
-      "data-compression",
-      "deduplication",
-      "delta-compression",
-      "entropy-coding",
-      "gzip",
-      "jpeg",
-      "logs",
-      "lossless-compression",
-      "lz4",
-      "lz77",
-      "object-storage",
-      "parquet",
-      "rust",
-      "s3",
-      "simd",
-      "zstd"
-    ],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "created_at": "2026-09-19T03:34:15Z",
-    "updated_at": "2026-09-25T06:27:44Z",
-    "owner": {
-      "name": "surya-koritala",
-      "avatar_url": "https://avatars.githubusercontent.com/u/188490054?v=4"
     }
   },
   {
@@ -995,6 +801,63 @@
     }
   },
   {
+    "name": "Funny-Bones/ELDEN-RING-Combat-Rewrite",
+    "url": "https://github.com/Funny-Bones/ELDEN-RING-Combat-Rewrite",
+    "description": null,
+    "stars": 140,
+    "forks": 24,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-05T22:05:04Z",
+    "updated_at": "2026-10-09T06:55:06Z",
+    "owner": {
+      "name": "Funny-Bones",
+      "avatar_url": "https://avatars.githubusercontent.com/u/338330057?v=4"
+    }
+  },
+  {
+    "name": "storytold/craft-fonts",
+    "url": "https://github.com/storytold/craft-fonts",
+    "description": "Fonts for the Crafting Apps",
+    "stars": 134,
+    "forks": 149,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-06T13:44:10Z",
+    "updated_at": "2026-10-09T07:44:45Z",
+    "owner": {
+      "name": "storytold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
+    }
+  },
+  {
+    "name": "Stellar-Sentinel/sentinel-contracts",
+    "url": "https://github.com/Stellar-Sentinel/sentinel-contracts",
+    "description": "Soroban contract for authorized Stellar Sentinel flags, configurable thresholds, and latest-flag records.",
+    "stars": 131,
+    "forks": 130,
+    "language": "Rust",
+    "topics": [
+      "risk-monitoring",
+      "rust",
+      "security",
+      "smart-contracts",
+      "soroban",
+      "stellar",
+      "stellar-blockchain",
+      "stellar-smart-contracts"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-08T15:01:03Z",
+    "updated_at": "2026-10-08T17:22:03Z",
+    "owner": {
+      "name": "Stellar-Sentinel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/339700399?v=4"
+    }
+  },
+  {
     "name": "Stellar-tradehub/stellar-trade-contracts",
     "url": "https://github.com/Stellar-tradehub/stellar-trade-contracts",
     "description": "Soroban smart contracts for Stellar Trade: pooled XLM markets, settlement, referrals, leaderboard, and STRD rewards.",
@@ -1050,49 +913,6 @@
     "owner": {
       "name": "Stellar-Promiscope",
       "avatar_url": "https://avatars.githubusercontent.com/u/339359471?v=4"
-    }
-  },
-  {
-    "name": "reco-tools/ritridata",
-    "url": "https://github.com/reco-tools/ritridata",
-    "description": "Read-only MBR/GPT inspection, public file signature definitions, and synthetic disk image tools. AGPL-3.0-only.",
-    "stars": 114,
-    "forks": 1,
-    "language": "Rust",
-    "topics": [
-      "cli",
-      "datarecovery",
-      "dfir",
-      "disk-image",
-      "file-signatures",
-      "filerecovery",
-      "forensic-tools",
-      "mbr",
-      "partition-table",
-      "rust"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-09-19T10:07:26Z",
-    "updated_at": "2026-09-25T06:55:22Z",
-    "owner": {
-      "name": "reco-tools",
-      "avatar_url": "https://avatars.githubusercontent.com/u/248309487?v=4"
-    }
-  },
-  {
-    "name": "Funny-Bones/ELDEN-RING-Combat-Rewrite",
-    "url": "https://github.com/Funny-Bones/ELDEN-RING-Combat-Rewrite",
-    "description": null,
-    "stars": 112,
-    "forks": 20,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-05T22:05:04Z",
-    "updated_at": "2026-10-08T07:47:33Z",
-    "owner": {
-      "name": "Funny-Bones",
-      "avatar_url": "https://avatars.githubusercontent.com/u/338330057?v=4"
     }
   },
   {
@@ -1166,6 +986,28 @@
     }
   },
   {
+    "name": "slaterain/nv-rs",
+    "url": "https://github.com/slaterain/nv-rs",
+    "description": "Experimental Fallout: New Vegas engine reimplementation in Rust and Bevy. Requires your own game data; base-game foundations first.",
+    "stars": 97,
+    "forks": 16,
+    "language": "Rust",
+    "topics": [
+      "bevy",
+      "experimental",
+      "fallout-new-vegas",
+      "game-engine",
+      "rust"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-03T21:43:03Z",
+    "updated_at": "2026-10-09T07:04:52Z",
+    "owner": {
+      "name": "slaterain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/336352762?v=4"
+    }
+  },
+  {
     "name": "henrydennis/petal",
     "url": "https://github.com/henrydennis/petal",
     "description": "A fast, exact disk-space explorer for macOS with a live sunburst chart. Rust + GPUI.",
@@ -1188,6 +1030,38 @@
     "owner": {
       "name": "henrydennis",
       "avatar_url": "https://avatars.githubusercontent.com/u/8142854?v=4"
+    }
+  },
+  {
+    "name": "inertiajs/inertia-omega",
+    "url": "https://github.com/inertiajs/inertia-omega",
+    "description": "[ALPHA] The Inertia.js server-side protocol for Rust, with a framework-agnostic core and an Axum adapter",
+    "stars": 96,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-05T12:49:10Z",
+    "updated_at": "2026-10-09T08:13:21Z",
+    "owner": {
+      "name": "inertiajs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47703742?v=4"
+    }
+  },
+  {
+    "name": "YozoraKurage/YoluPainter",
+    "url": "https://github.com/YozoraKurage/YoluPainter",
+    "description": null,
+    "stars": 93,
+    "forks": 5,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-03T15:38:24Z",
+    "updated_at": "2026-10-08T21:22:25Z",
+    "owner": {
+      "name": "YozoraKurage",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130652890?v=4"
     }
   },
   {
@@ -1223,38 +1097,6 @@
     }
   },
   {
-    "name": "YozoraKurage/YoluPainter",
-    "url": "https://github.com/YozoraKurage/YoluPainter",
-    "description": null,
-    "stars": 91,
-    "forks": 5,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-03T15:38:24Z",
-    "updated_at": "2026-10-08T05:34:21Z",
-    "owner": {
-      "name": "YozoraKurage",
-      "avatar_url": "https://avatars.githubusercontent.com/u/130652890?v=4"
-    }
-  },
-  {
-    "name": "storytold/craft-fonts",
-    "url": "https://github.com/storytold/craft-fonts",
-    "description": "Fonts for the Crafting Apps",
-    "stars": 89,
-    "forks": 98,
-    "language": "Rust",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-06T13:44:10Z",
-    "updated_at": "2026-10-08T07:35:21Z",
-    "owner": {
-      "name": "storytold",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76897702?v=4"
-    }
-  },
-  {
     "name": "pbs05/an758x-stock2ubi",
     "url": "https://github.com/pbs05/an758x-stock2ubi",
     "description": null,
@@ -1268,38 +1110,6 @@
     "owner": {
       "name": "pbs05",
       "avatar_url": "https://avatars.githubusercontent.com/u/27010143?v=4"
-    }
-  },
-  {
-    "name": "can1357/jegrep",
-    "url": "https://github.com/can1357/jegrep",
-    "description": "Semantic grep: find code by describing what you're looking for, powered by Jev.",
-    "stars": 89,
-    "forks": 8,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-19T22:01:25Z",
-    "updated_at": "2026-09-25T00:36:29Z",
-    "owner": {
-      "name": "can1357",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11807264?v=4"
-    }
-  },
-  {
-    "name": "inertiajs/inertia-omega",
-    "url": "https://github.com/inertiajs/inertia-omega",
-    "description": "[ALPHA] The Inertia.js server-side protocol for Rust, with a framework-agnostic core and an Axum adapter",
-    "stars": 87,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-05T12:49:10Z",
-    "updated_at": "2026-10-08T07:53:12Z",
-    "owner": {
-      "name": "inertiajs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47703742?v=4"
     }
   },
   {
@@ -1332,6 +1142,22 @@
     "owner": {
       "name": "longbridge",
       "avatar_url": "https://avatars.githubusercontent.com/u/68419756?v=4"
+    }
+  },
+  {
+    "name": "juspay/streamgres",
+    "url": "https://github.com/juspay/streamgres",
+    "description": "A subscription-native sync engine for PostgreSQL. ",
+    "stars": 79,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-07T17:34:18Z",
+    "updated_at": "2026-10-09T08:04:08Z",
+    "owner": {
+      "name": "juspay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11497632?v=4"
     }
   },
   {
@@ -1371,41 +1197,66 @@
     }
   },
   {
-    "name": "ghuntley/preflight",
-    "url": "https://github.com/ghuntley/preflight",
-    "description": "A local proxy that scans LLM requests and attachments for secrets before they reach the model.",
-    "stars": 76,
-    "forks": 8,
+    "name": "secblitz/Secblitz",
+    "url": "https://github.com/secblitz/Secblitz",
+    "description": "Maximize Windows security and privacy in one click",
+    "stars": 72,
+    "forks": 7,
     "language": "Rust",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-09-20T14:11:20Z",
-    "updated_at": "2026-09-24T14:57:40Z",
+    "created_at": "2026-10-06T12:08:02Z",
+    "updated_at": "2026-10-09T06:39:15Z",
     "owner": {
-      "name": "ghuntley",
-      "avatar_url": "https://avatars.githubusercontent.com/u/127353?v=4"
+      "name": "secblitz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148813886?v=4"
     }
   },
   {
-    "name": "slaterain/nv-rs",
-    "url": "https://github.com/slaterain/nv-rs",
-    "description": "Experimental Fallout: New Vegas engine reimplementation in Rust and Bevy. Requires your own game data; base-game foundations first.",
-    "stars": 75,
-    "forks": 10,
+    "name": "Dicklesworthstone/frankensonos",
+    "url": "https://github.com/Dicklesworthstone/frankensonos",
+    "description": "Memory-safe Rust controller for your own Sonos speakers on your own LAN — reliable SSDP/UPnP-SOAP/GENA interoperability (S1 + S2), a Spotify-library classical DJ, and a CLI + HTTP API + MCP server so AI agents can run the house, including off-LAN over Tailscale.",
+    "stars": 71,
+    "forks": 4,
     "language": "Rust",
     "topics": [
-      "bevy",
-      "experimental",
-      "fallout-new-vegas",
-      "game-engine",
-      "rust"
+      "async",
+      "dlna",
+      "home-automation",
+      "interoperability",
+      "mcp",
+      "model-context-protocol",
+      "rust",
+      "smart-home",
+      "soco",
+      "sonos",
+      "spotify",
+      "ssdp",
+      "tailscale",
+      "upnp"
     ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-03T21:43:03Z",
-    "updated_at": "2026-10-08T07:47:37Z",
+    "license": "Other",
+    "created_at": "2026-10-06T23:30:08Z",
+    "updated_at": "2026-10-09T07:06:04Z",
     "owner": {
-      "name": "slaterain",
-      "avatar_url": "https://avatars.githubusercontent.com/u/336352762?v=4"
+      "name": "Dicklesworthstone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4"
+    }
+  },
+  {
+    "name": "idlefoundry/ca-72",
+    "url": "https://github.com/idlefoundry/ca-72",
+    "description": "CA-72: a synthesizer plug-in (VST3, CLAP, AU) for macOS, Windows and Linux, modelled from the circuit of a 1970s analogue synthesizer",
+    "stars": 70,
+    "forks": 2,
+    "language": "Rust",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-03T23:56:39Z",
+    "updated_at": "2026-10-09T07:59:09Z",
+    "owner": {
+      "name": "idlefoundry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/337441547?v=4"
     }
   },
   {
@@ -1468,34 +1319,19 @@
     }
   },
   {
-    "name": "Dicklesworthstone/frankensonos",
-    "url": "https://github.com/Dicklesworthstone/frankensonos",
-    "description": "Memory-safe Rust controller for your own Sonos speakers on your own LAN — reliable SSDP/UPnP-SOAP/GENA interoperability (S1 + S2), a Spotify-library classical DJ, and a CLI + HTTP API + MCP server so AI agents can run the house, including off-LAN over Tailscale.",
-    "stars": 65,
-    "forks": 3,
+    "name": "openhausfun/photocraft",
+    "url": "https://github.com/openhausfun/photocraft",
+    "description": "Independent source snapshot of storytold/photocraft. Original MIT/Apache-2.0 licenses and attribution retained.",
+    "stars": 66,
+    "forks": 12,
     "language": "Rust",
-    "topics": [
-      "async",
-      "dlna",
-      "home-automation",
-      "interoperability",
-      "mcp",
-      "model-context-protocol",
-      "rust",
-      "smart-home",
-      "soco",
-      "sonos",
-      "spotify",
-      "ssdp",
-      "tailscale",
-      "upnp"
-    ],
-    "license": "Other",
-    "created_at": "2026-10-06T23:30:08Z",
-    "updated_at": "2026-10-08T07:46:00Z",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-06T22:24:35Z",
+    "updated_at": "2026-10-09T08:15:58Z",
     "owner": {
-      "name": "Dicklesworthstone",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35050222?v=4"
+      "name": "openhausfun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15891795?v=4"
     }
   },
   {
@@ -1515,6 +1351,22 @@
     }
   },
   {
+    "name": "lulu-loopp/glance",
+    "url": "https://github.com/lulu-loopp/glance",
+    "description": "Edge-triggered system monitor panel for Windows",
+    "stars": 62,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-05T02:21:01Z",
+    "updated_at": "2026-10-09T06:15:30Z",
+    "owner": {
+      "name": "lulu-loopp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/268334776?v=4"
+    }
+  },
+  {
     "name": "sahenjp/rustdsh",
     "url": "https://github.com/sahenjp/rustdsh",
     "description": "rdsh: safe Rust fast launcher for dsh with local web dashboard (90x startup, 1/25 RSS)",
@@ -1531,60 +1383,19 @@
     }
   },
   {
-    "name": "lulu-loopp/glance",
-    "url": "https://github.com/lulu-loopp/glance",
-    "description": "Edge-triggered system monitor panel for Windows",
-    "stars": 54,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-05T02:21:01Z",
-    "updated_at": "2026-10-08T06:40:49Z",
-    "owner": {
-      "name": "lulu-loopp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/268334776?v=4"
-    }
-  },
-  {
-    "name": "idlefoundry/ca-72",
-    "url": "https://github.com/idlefoundry/ca-72",
-    "description": "CA-72: a synthesizer plug-in (VST3, CLAP, AU) for macOS, Windows and Linux, modelled from the circuit of a 1970s analogue synthesizer",
-    "stars": 54,
-    "forks": 2,
-    "language": "Rust",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-03T23:56:39Z",
-    "updated_at": "2026-10-08T08:09:28Z",
-    "owner": {
-      "name": "idlefoundry",
-      "avatar_url": "https://avatars.githubusercontent.com/u/337441547?v=4"
-    }
-  },
-  {
-    "name": "silverling/xuan",
-    "url": "https://github.com/silverling/xuan",
-    "description": "An image editor for Linux and Windows, inspired by Compositor and ported from it.",
+    "name": "over825hp/wowcraft",
+    "url": "https://github.com/over825hp/wowcraft",
+    "description": "Minecraft played inside World of Warcraft 1.12",
     "stars": 53,
-    "forks": 2,
+    "forks": 6,
     "language": "Rust",
-    "topics": [
-      "egui",
-      "image-editor",
-      "linux",
-      "photoshop",
-      "rust",
-      "wayland",
-      "wgpu",
-      "windows"
-    ],
+    "topics": [],
     "license": "MIT License",
-    "created_at": "2026-09-19T16:20:22Z",
-    "updated_at": "2026-09-24T18:34:11Z",
+    "created_at": "2026-10-05T13:14:13Z",
+    "updated_at": "2026-10-09T07:31:12Z",
     "owner": {
-      "name": "silverling",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36693973?v=4"
+      "name": "over825hp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79455978?v=4"
     }
   },
   {
@@ -1673,22 +1484,6 @@
     "owner": {
       "name": "ashhart",
       "avatar_url": "https://avatars.githubusercontent.com/u/71890694?v=4"
-    }
-  },
-  {
-    "name": "over825hp/wowcraft",
-    "url": "https://github.com/over825hp/wowcraft",
-    "description": "Minecraft played inside World of Warcraft 1.12",
-    "stars": 48,
-    "forks": 6,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-05T13:14:13Z",
-    "updated_at": "2026-10-07T22:07:32Z",
-    "owner": {
-      "name": "over825hp",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79455978?v=4"
     }
   },
   {
@@ -1854,7 +1649,7 @@
     "name": "ThetaCursed/TinyLuma",
     "url": "https://github.com/ThetaCursed/TinyLuma",
     "description": "Fast, native (~8MB) post-processor and batch editor for AI images (Midjourney, Flux, ComfyUI). Preserves workflow metadata, Oklab grading, 3D LUTs.",
-    "stars": 38,
+    "stars": 40,
     "forks": 4,
     "language": "Rust",
     "topics": [
@@ -1871,7 +1666,7 @@
     ],
     "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-10-03T05:01:32Z",
-    "updated_at": "2026-10-08T01:01:00Z",
+    "updated_at": "2026-10-08T19:20:06Z",
     "owner": {
       "name": "ThetaCursed",
       "avatar_url": "https://avatars.githubusercontent.com/u/142548835?v=4"
@@ -1937,6 +1732,22 @@
     }
   },
   {
+    "name": "fxaxg/sms-pop-rs",
+    "url": "https://github.com/fxaxg/sms-pop-rs",
+    "description": "SmsPop - 让 iPhone 通知来到 Windows，让短信验证码弹出填充。",
+    "stars": 37,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-04T12:46:28Z",
+    "updated_at": "2026-10-09T07:00:16Z",
+    "owner": {
+      "name": "fxaxg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99973797?v=4"
+    }
+  },
+  {
     "name": "LambdaBytes/sping",
     "url": "https://github.com/LambdaBytes/sping",
     "description": "A modern, cross-platform ping with real-time diagnostics, network context, quality scoring, and multi-target monitoring.",
@@ -1990,6 +1801,26 @@
     }
   },
   {
+    "name": "jazware/vlpds",
+    "url": "https://github.com/jazware/vlpds",
+    "description": "Very Large PDS, a world-scale, incredibly efficient, incredibly resilient, atproto personal data server",
+    "stars": 36,
+    "forks": 3,
+    "language": "Rust",
+    "topics": [
+      "atproto",
+      "atproto-pds",
+      "pds"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-04T06:03:30Z",
+    "updated_at": "2026-10-09T05:52:19Z",
+    "owner": {
+      "name": "jazware",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1617325?v=4"
+    }
+  },
+  {
     "name": "atgreen/evergreen",
     "url": "https://github.com/atgreen/evergreen",
     "description": "Evergreen Common Lisp",
@@ -2030,26 +1861,6 @@
     "owner": {
       "name": "IuCC123",
       "avatar_url": "https://avatars.githubusercontent.com/u/80768059?v=4"
-    }
-  },
-  {
-    "name": "jazware/vlpds",
-    "url": "https://github.com/jazware/vlpds",
-    "description": "Very Large PDS, a world-scale, incredibly efficient, incredibly resilient, atproto personal data server",
-    "stars": 34,
-    "forks": 3,
-    "language": "Rust",
-    "topics": [
-      "atproto",
-      "atproto-pds",
-      "pds"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-04T06:03:30Z",
-    "updated_at": "2026-10-07T01:00:12Z",
-    "owner": {
-      "name": "jazware",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1617325?v=4"
     }
   },
   {
@@ -2382,22 +2193,6 @@
     "owner": {
       "name": "Kang-code-sudo",
       "avatar_url": "https://avatars.githubusercontent.com/u/202261386?v=4"
-    }
-  },
-  {
-    "name": "dhava-gautama/AirCard-Windows",
-    "url": "https://github.com/dhava-gautama/AirCard-Windows",
-    "description": "Windows AirCard fork: Grappa handshake fix for iOS 26+, batched flashes. Tutorial Bahasa Indonesia.",
-    "stars": 29,
-    "forks": 4,
-    "language": "Rust",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-09-19T08:30:30Z",
-    "updated_at": "2026-09-24T18:05:41Z",
-    "owner": {
-      "name": "dhava-gautama",
-      "avatar_url": "https://avatars.githubusercontent.com/u/62224294?v=4"
     }
   },
   {
