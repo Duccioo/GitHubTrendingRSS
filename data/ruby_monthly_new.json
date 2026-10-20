@@ -3,13 +3,13 @@
     "name": "akitaonrails/ai-book-2026",
     "url": "https://github.com/akitaonrails/ai-book-2026",
     "description": "e-book version of the akitaonrails.com blog.",
-    "stars": 237,
-    "forks": 29,
+    "stars": 254,
+    "forks": 32,
     "language": "Ruby",
     "topics": [],
     "license": "Other",
     "created_at": "2026-10-13T20:23:40Z",
-    "updated_at": "2026-10-19T03:30:37Z",
+    "updated_at": "2026-10-20T02:29:47Z",
     "owner": {
       "name": "akitaonrails",
       "avatar_url": "https://avatars.githubusercontent.com/u/2840?v=4"
@@ -19,13 +19,13 @@
     "name": "makevoid/motion-graphics-music-video-skill",
     "url": "https://github.com/makevoid/motion-graphics-music-video-skill",
     "description": "Opus 5.5 plugin for creating high quality motion graphics videos from just a music track and a prompt",
-    "stars": 168,
+    "stars": 169,
     "forks": 22,
     "language": "Ruby",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-09-26T15:33:53Z",
-    "updated_at": "2026-10-18T19:38:08Z",
+    "updated_at": "2026-10-19T15:32:12Z",
     "owner": {
       "name": "makevoid",
       "avatar_url": "https://avatars.githubusercontent.com/u/14677?v=4"
@@ -155,13 +155,13 @@
     "name": "zoolutions/stationery",
     "url": "https://github.com/zoolutions/stationery",
     "description": "Pure-Ruby, Phlex-style PDF documents: box layout, TrueType fonts, images. No Prawn, no Chrome.",
-    "stars": 36,
+    "stars": 37,
     "forks": 1,
     "language": "Ruby",
     "topics": [],
     "license": "Other",
     "created_at": "2026-09-26T10:23:10Z",
-    "updated_at": "2026-10-18T15:41:53Z",
+    "updated_at": "2026-10-19T07:13:54Z",
     "owner": {
       "name": "zoolutions",
       "avatar_url": "https://avatars.githubusercontent.com/u/315058868?v=4"
@@ -244,7 +244,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-23T16:48:29Z",
-    "updated_at": "2026-10-18T18:40:36Z",
+    "updated_at": "2026-10-19T08:50:31Z",
     "owner": {
       "name": "incident-io",
       "avatar_url": "https://avatars.githubusercontent.com/u/76436871?v=4"
@@ -328,6 +328,30 @@
     }
   },
   {
+    "name": "qso71/gouge-smart-input-releases",
+    "url": "https://github.com/qso71/gouge-smart-input-releases",
+    "description": "狗哥智慧輸入法：macOS 注音輸入法，整句組字、中英混打免切換、英文與成語自動完成",
+    "stars": 20,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [
+      "bopomofo",
+      "chinese-input-method",
+      "input-method",
+      "macos",
+      "taiwan",
+      "traditional-chinese",
+      "zhuyin"
+    ],
+    "license": "Other",
+    "created_at": "2026-10-13T06:47:42Z",
+    "updated_at": "2026-10-20T03:13:23Z",
+    "owner": {
+      "name": "qso71",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61104198?v=4"
+    }
+  },
+  {
     "name": "Ray-Hughes/jevalyn",
     "url": "https://github.com/Ray-Hughes/jevalyn",
     "description": "The decision layer for your Rails app. A Rails-native wrapper around TypeSafe's Jev System One API: typed, calibrated decisions in your control flow.",
@@ -349,53 +373,6 @@
     "owner": {
       "name": "Ray-Hughes",
       "avatar_url": "https://avatars.githubusercontent.com/u/5935246?v=4"
-    }
-  },
-  {
-    "name": "qso71/gouge-smart-input-releases",
-    "url": "https://github.com/qso71/gouge-smart-input-releases",
-    "description": "狗哥智慧輸入法：macOS 注音輸入法，整句組字、中英混打免切換、英文與成語自動完成",
-    "stars": 19,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [
-      "bopomofo",
-      "chinese-input-method",
-      "input-method",
-      "macos",
-      "taiwan",
-      "traditional-chinese",
-      "zhuyin"
-    ],
-    "license": "Other",
-    "created_at": "2026-10-13T06:47:42Z",
-    "updated_at": "2026-10-19T06:05:34Z",
-    "owner": {
-      "name": "qso71",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61104198?v=4"
-    }
-  },
-  {
-    "name": "carldaws/hunch",
-    "url": "https://github.com/carldaws/hunch",
-    "description": "Probabilistic control flow for Ruby and Rails - powered by TypeSafe's Jev",
-    "stars": 19,
-    "forks": 0,
-    "language": "Ruby",
-    "topics": [
-      "ai",
-      "jev",
-      "ruby",
-      "ruby-gem",
-      "s1-models",
-      "typesafe"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-18T23:08:32Z",
-    "updated_at": "2026-10-05T20:10:08Z",
-    "owner": {
-      "name": "carldaws",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83088654?v=4"
     }
   },
   {
@@ -440,6 +417,22 @@
     }
   },
   {
+    "name": "aslam/rails-preflight",
+    "url": "https://github.com/aslam/rails-preflight",
+    "description": "Answers one question about a Rails app: what stands between it and Rails X? Scans the lockfile, Ruby version, Dockerfile, schema, config and code, then writes a single HTML report of blockers, fixes, and a suggested upgrade path — one step per Rails minor version. Read-only, offline, deterministic.",
+    "stars": 13,
+    "forks": 2,
+    "language": "Ruby",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-07T16:10:41Z",
+    "updated_at": "2026-10-19T12:03:14Z",
+    "owner": {
+      "name": "aslam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95872?v=4"
+    }
+  },
+  {
     "name": "keshavbiswa/rails_event_viewer",
     "url": "https://github.com/keshavbiswa/rails_event_viewer",
     "description": "A Rails engine to browse, search, and analyze structured events from Rails.event",
@@ -456,25 +449,9 @@
     }
   },
   {
-    "name": "aslam/rails-preflight",
-    "url": "https://github.com/aslam/rails-preflight",
-    "description": "Answers one question about a Rails app: what stands between it and Rails X? Scans the lockfile, Ruby version, Dockerfile, schema, config and code, then writes a single HTML report of blockers, fixes, and a suggested upgrade path — one step per Rails minor version. Read-only, offline, deterministic.",
-    "stars": 12,
-    "forks": 2,
-    "language": "Ruby",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-07T16:10:41Z",
-    "updated_at": "2026-10-18T15:20:44Z",
-    "owner": {
-      "name": "aslam",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95872?v=4"
-    }
-  },
-  {
     "name": "TonyCTHsu/simple-english",
     "url": "https://github.com/TonyCTHsu/simple-english",
-    "description": "Your AI agent writes clean prose in the first paragraph and slop in the third. This linter keeps the agent honest: it reads the Markdown and the code comments, and names every broken plain-English rule. Send the findings back, and the agent fixes its own text.",
+    "description": "Keep the agent honest: a plain-English linter for Markdown prose and code comments.",
     "stars": 10,
     "forks": 1,
     "language": "Ruby",
@@ -494,7 +471,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-09-27T09:10:36Z",
-    "updated_at": "2026-10-17T23:40:37Z",
+    "updated_at": "2026-10-19T20:02:21Z",
     "owner": {
       "name": "TonyCTHsu",
       "avatar_url": "https://avatars.githubusercontent.com/u/16049123?v=4"
@@ -510,10 +487,26 @@
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-10-11T00:20:28Z",
-    "updated_at": "2026-10-19T06:32:58Z",
+    "updated_at": "2026-10-19T22:22:00Z",
     "owner": {
       "name": "seuros",
       "avatar_url": "https://avatars.githubusercontent.com/u/2394703?v=4"
+    }
+  },
+  {
+    "name": "Coolhand-Labs/squishling",
+    "url": "https://github.com/Coolhand-Labs/squishling",
+    "description": null,
+    "stars": 10,
+    "forks": 0,
+    "language": "Ruby",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-06T11:04:56Z",
+    "updated_at": "2026-10-19T20:03:59Z",
+    "owner": {
+      "name": "Coolhand-Labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/233376277?v=4"
     }
   },
   {
