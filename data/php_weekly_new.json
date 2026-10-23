@@ -60,8 +60,8 @@
     "name": "syhunt/php2shell-protection",
     "url": "https://github.com/syhunt/php2shell-protection",
     "description": "Emergency Apache mitigation and testing toolkit for php2shell (CVE-2026-109618 / CVE-2026-109619), featuring multipart POST blocking, request-size limits, and additional hardening measures.",
-    "stars": 65,
-    "forks": 7,
+    "stars": 96,
+    "forks": 9,
     "language": "PHP",
     "topics": [
       "apache",
@@ -76,7 +76,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-10-21T04:01:24Z",
-    "updated_at": "2026-10-22T04:05:31Z",
+    "updated_at": "2026-10-23T06:30:45Z",
     "owner": {
       "name": "syhunt",
       "avatar_url": "https://avatars.githubusercontent.com/u/7361944?v=4"
@@ -175,6 +175,22 @@
     }
   },
   {
+    "name": "grwth404/PHP_eCertificate_Generator",
+    "url": "https://github.com/grwth404/PHP_eCertificate_Generator",
+    "description": "Let's Generate eCertificates",
+    "stars": 29,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-20T09:34:23Z",
+    "updated_at": "2026-10-22T11:38:45Z",
+    "owner": {
+      "name": "grwth404",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32352182?v=4"
+    }
+  },
+  {
     "name": "welcoMattic/messenger-central",
     "url": "https://github.com/welcoMattic/messenger-central",
     "description": "A terminal UI to drive Symfony Messenger workers during development",
@@ -188,22 +204,6 @@
     "owner": {
       "name": "welcoMattic",
       "avatar_url": "https://avatars.githubusercontent.com/u/773875?v=4"
-    }
-  },
-  {
-    "name": "grwth404/PHP_eCertificate_Generator",
-    "url": "https://github.com/grwth404/PHP_eCertificate_Generator",
-    "description": "Let's Generate eCertificates",
-    "stars": 28,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-20T09:34:23Z",
-    "updated_at": "2026-10-20T21:57:05Z",
-    "owner": {
-      "name": "grwth404",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32352182?v=4"
     }
   },
   {
@@ -322,6 +322,33 @@
     }
   },
   {
+    "name": "mmhospedagem/mvo-whats-php",
+    "url": "https://github.com/mmhospedagem/mvo-whats-php",
+    "description": "MVO WHATS PHP — biblioteca PHP nativa para WhatsApp, com QR Code, sessões persistentes, mensagens, mídia e integração MCP para LLMs.",
+    "stars": 13,
+    "forks": 6,
+    "language": "PHP",
+    "topics": [
+      "llm",
+      "mcp",
+      "messaging",
+      "multi-session",
+      "php",
+      "qr-code",
+      "signal-protocol",
+      "whatsapp",
+      "whatsapp-library",
+      "whatsapp-web"
+    ],
+    "license": "Other",
+    "created_at": "2026-10-17T21:20:40Z",
+    "updated_at": "2026-10-22T22:01:27Z",
+    "owner": {
+      "name": "mmhospedagem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11893565?v=4"
+    }
+  },
+  {
     "name": "Nguyenvanhieu24082006/PTPMMNM-CNTT-18-09-NHOM-9",
     "url": "https://github.com/Nguyenvanhieu24082006/PTPMMNM-CNTT-18-09-NHOM-9",
     "description": null,
@@ -372,33 +399,6 @@
     "owner": {
       "name": "DirectoryTree",
       "avatar_url": "https://avatars.githubusercontent.com/u/49739287?v=4"
-    }
-  },
-  {
-    "name": "mmhospedagem/mvo-whats-php",
-    "url": "https://github.com/mmhospedagem/mvo-whats-php",
-    "description": "MVO WHATS PHP — biblioteca PHP nativa para WhatsApp, com QR Code, sessões persistentes, mensagens, mídia e integração MCP para LLMs.",
-    "stars": 12,
-    "forks": 6,
-    "language": "PHP",
-    "topics": [
-      "llm",
-      "mcp",
-      "messaging",
-      "multi-session",
-      "php",
-      "qr-code",
-      "signal-protocol",
-      "whatsapp",
-      "whatsapp-library",
-      "whatsapp-web"
-    ],
-    "license": "Other",
-    "created_at": "2026-10-17T21:20:40Z",
-    "updated_at": "2026-10-22T01:10:17Z",
-    "owner": {
-      "name": "mmhospedagem",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11893565?v=4"
     }
   },
   {
@@ -494,6 +494,31 @@
     "owner": {
       "name": "rizalahmaddd",
       "avatar_url": "https://avatars.githubusercontent.com/u/93845700?v=4"
+    }
+  },
+  {
+    "name": "Gi1gamesh123/php-unserialize-uaf-rce",
+    "url": "https://github.com/Gi1gamesh123/php-unserialize-uaf-rce",
+    "description": "PHP Serializable var_hash UAF -> RCE (php2shell/MADBugs) — repro + adapted EXP, php8.3.6 verified, disable_functions bypass 10/10",
+    "stars": 10,
+    "forks": 9,
+    "language": "PHP",
+    "topics": [
+      "cve-2026-109618",
+      "disable-functions-bypass",
+      "exploit",
+      "php",
+      "poc",
+      "rce",
+      "uaf",
+      "unserialize"
+    ],
+    "license": "No license",
+    "created_at": "2026-10-21T09:36:49Z",
+    "updated_at": "2026-10-22T14:57:51Z",
+    "owner": {
+      "name": "Gi1gamesh123",
+      "avatar_url": "https://avatars.githubusercontent.com/u/304288034?v=4"
     }
   },
   {
