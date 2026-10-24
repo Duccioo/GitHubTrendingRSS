@@ -59,9 +59,9 @@
   {
     "name": "syhunt/php2shell-protection",
     "url": "https://github.com/syhunt/php2shell-protection",
-    "description": "Emergency Apache mitigation and testing toolkit for php2shell (CVE-2026-109618 / CVE-2026-109619), featuring multipart POST blocking, request-size limits, and additional hardening measures.",
-    "stars": 96,
-    "forks": 9,
+    "description": "Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apache protections and PHP hardening guidance",
+    "stars": 103,
+    "forks": 10,
     "language": "PHP",
     "topics": [
       "apache",
@@ -76,7 +76,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-10-21T04:01:24Z",
-    "updated_at": "2026-10-23T06:30:45Z",
+    "updated_at": "2026-10-23T21:40:35Z",
     "owner": {
       "name": "syhunt",
       "avatar_url": "https://avatars.githubusercontent.com/u/7361944?v=4"
@@ -143,22 +143,6 @@
     }
   },
   {
-    "name": "AthenXiv/athenxiv",
-    "url": "https://github.com/AthenXiv/athenxiv",
-    "description": "The source code of the open academic website AthenXiv",
-    "stars": 48,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-03T10:39:11Z",
-    "updated_at": "2026-10-09T07:31:29Z",
-    "owner": {
-      "name": "AthenXiv",
-      "avatar_url": "https://avatars.githubusercontent.com/u/337303110?v=4"
-    }
-  },
-  {
     "name": "itzryuka/PTPMNNM-CNTT1809-NHOM10",
     "url": "https://github.com/itzryuka/PTPMNNM-CNTT1809-NHOM10",
     "description": null,
@@ -178,13 +162,13 @@
     "name": "grwth404/PHP_eCertificate_Generator",
     "url": "https://github.com/grwth404/PHP_eCertificate_Generator",
     "description": "Let's Generate eCertificates",
-    "stars": 29,
+    "stars": 30,
     "forks": 0,
     "language": "PHP",
     "topics": [],
     "license": "No license",
     "created_at": "2026-10-20T09:34:23Z",
-    "updated_at": "2026-10-22T11:38:45Z",
+    "updated_at": "2026-10-23T18:05:22Z",
     "owner": {
       "name": "grwth404",
       "avatar_url": "https://avatars.githubusercontent.com/u/32352182?v=4"
@@ -481,6 +465,43 @@
     }
   },
   {
+    "name": "elvajohns123/sportsbook-casino-platform",
+    "url": "https://github.com/elvajohns123/sportsbook-casino-platform",
+    "description": "Betting Platform Project (Sports & Casino)",
+    "stars": 11,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "gambling",
+      "gambling-website",
+      "sports-betting",
+      "sports-betting-clone",
+      "sports-betting-data",
+      "sports-betting-odds",
+      "sports-betting-platform",
+      "sports-betting-site",
+      "sports-booking",
+      "sports-bot",
+      "sportsbet",
+      "sportsbetting",
+      "sportsbook",
+      "sportsbook-area",
+      "sportsbook-betting",
+      "sportsbook-components",
+      "sportsbook-core",
+      "sportsbook-investment",
+      "sportsbook-platform",
+      "sportsbook-platform-team"
+    ],
+    "license": "No license",
+    "created_at": "2026-10-23T04:17:30Z",
+    "updated_at": "2026-10-24T03:35:50Z",
+    "owner": {
+      "name": "elvajohns123",
+      "avatar_url": "https://avatars.githubusercontent.com/u/345772096?v=4"
+    }
+  },
+  {
     "name": "rizalahmaddd/paraf",
     "url": "https://github.com/rizalahmaddd/paraf",
     "description": null,
@@ -501,7 +522,7 @@
     "url": "https://github.com/Gi1gamesh123/php-unserialize-uaf-rce",
     "description": "PHP Serializable var_hash UAF -> RCE (php2shell/MADBugs) — repro + adapted EXP, php8.3.6 verified, disable_functions bypass 10/10",
     "stars": 10,
-    "forks": 9,
+    "forks": 10,
     "language": "PHP",
     "topics": [
       "cve-2026-109618",
@@ -519,6 +540,22 @@
     "owner": {
       "name": "Gi1gamesh123",
       "avatar_url": "https://avatars.githubusercontent.com/u/304288034?v=4"
+    }
+  },
+  {
+    "name": "Bulletdev/php2shell-poc",
+    "url": "https://github.com/Bulletdev/php2shell-poc",
+    "description": "CVE-2026-109618/109619 --- PHP session.upload_progress pre-auth RCE (chain A/B/C)",
+    "stars": 10,
+    "forks": 3,
+    "language": "PHP",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-21T19:57:51Z",
+    "updated_at": "2026-10-24T06:35:55Z",
+    "owner": {
+      "name": "Bulletdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109600318?v=4"
     }
   },
   {
@@ -551,27 +588,6 @@
     "owner": {
       "name": "elpulsocivico",
       "avatar_url": "https://avatars.githubusercontent.com/u/341668686?v=4"
-    }
-  },
-  {
-    "name": "human2human-ai/moodle-tool_human2human",
-    "url": "https://github.com/human2human-ai/moodle-tool_human2human",
-    "description": "Add AI-facilitated oral exams, role plays, debates and guided reflections to any Moodle course",
-    "stars": 10,
-    "forks": 1,
-    "language": "PHP",
-    "topics": [
-      "conversational-ai",
-      "educational-tool",
-      "learning",
-      "moodle-plugin"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-05T19:59:51Z",
-    "updated_at": "2026-10-10T03:19:42Z",
-    "owner": {
-      "name": "human2human-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/324145449?v=4"
     }
   }
 ]
