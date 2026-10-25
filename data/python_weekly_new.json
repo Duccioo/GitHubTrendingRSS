@@ -170,8 +170,8 @@
     "name": "ikow/php2shell-poc",
     "url": "https://github.com/ikow/php2shell-poc",
     "description": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.",
-    "stars": 1708,
-    "forks": 597,
+    "stars": 1766,
+    "forks": 611,
     "language": "Python",
     "topics": [
       "cve-2026-109618",
@@ -191,10 +191,26 @@
     ],
     "license": "MIT License",
     "created_at": "2026-10-21T07:55:16Z",
-    "updated_at": "2026-10-24T06:36:26Z",
+    "updated_at": "2026-10-25T06:41:07Z",
     "owner": {
       "name": "ikow",
       "avatar_url": "https://avatars.githubusercontent.com/u/5469411?v=4"
+    }
+  },
+  {
+    "name": "9bie/php2shell-bypass-aslr-exp",
+    "url": "https://github.com/9bie/php2shell-bypass-aslr-exp",
+    "description": "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory.",
+    "stars": 1411,
+    "forks": 414,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-21T11:11:57Z",
+    "updated_at": "2026-10-25T07:06:54Z",
+    "owner": {
+      "name": "9bie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12439321?v=4"
     }
   },
   {
@@ -236,19 +252,25 @@
     }
   },
   {
-    "name": "9bie/php2shell-bypass-aslr-exp",
-    "url": "https://github.com/9bie/php2shell-bypass-aslr-exp",
-    "description": "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory.",
-    "stars": 1322,
-    "forks": 398,
+    "name": "Jakeschincariol/day-trader-skill",
+    "url": "https://github.com/Jakeschincariol/day-trader-skill",
+    "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+    "stars": 1207,
+    "forks": 271,
     "language": "Python",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-21T11:11:57Z",
-    "updated_at": "2026-10-24T06:43:40Z",
+    "topics": [
+      "backtesting",
+      "claude",
+      "claude-skills",
+      "day-trading",
+      "stock-market"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-20T14:17:54Z",
+    "updated_at": "2026-10-25T07:04:53Z",
     "owner": {
-      "name": "9bie",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12439321?v=4"
+      "name": "Jakeschincariol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/196724947?v=4"
     }
   },
   {
@@ -334,8 +356,8 @@
     "name": "eagle-hq/EAGLE-4",
     "url": "https://github.com/eagle-hq/EAGLE-4",
     "description": "Official Inference Code of EAGLE-4",
-    "stars": 959,
-    "forks": 31,
+    "stars": 974,
+    "forks": 34,
     "language": "Python",
     "topics": [
       "eagle",
@@ -348,7 +370,7 @@
     ],
     "license": "Other",
     "created_at": "2026-10-20T14:03:04Z",
-    "updated_at": "2026-10-24T05:46:33Z",
+    "updated_at": "2026-10-25T06:57:33Z",
     "owner": {
       "name": "eagle-hq",
       "avatar_url": "https://avatars.githubusercontent.com/u/283747567?v=4"
@@ -392,43 +414,37 @@
     }
   },
   {
-    "name": "Jakeschincariol/day-trader-skill",
-    "url": "https://github.com/Jakeschincariol/day-trader-skill",
-    "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
-    "stars": 894,
-    "forks": 195,
-    "language": "Python",
-    "topics": [
-      "backtesting",
-      "claude",
-      "claude-skills",
-      "day-trading",
-      "stock-market"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-20T14:17:54Z",
-    "updated_at": "2026-10-24T06:39:37Z",
-    "owner": {
-      "name": "Jakeschincariol",
-      "avatar_url": "https://avatars.githubusercontent.com/u/196724947?v=4"
-    }
-  },
-  {
     "name": "UniXNU/UniXNU",
     "url": "https://github.com/UniXNU/UniXNU",
     "description": "Run iOS and macOS on non-Apple ARM64 hardware through UEFI.",
-    "stars": 865,
-    "forks": 156,
+    "stars": 912,
+    "forks": 171,
     "language": "Python",
     "topics": [
       "unixnu"
     ],
     "license": "Other",
     "created_at": "2026-10-19T10:46:55Z",
-    "updated_at": "2026-10-24T05:53:28Z",
+    "updated_at": "2026-10-25T06:36:35Z",
     "owner": {
       "name": "UniXNU",
       "avatar_url": "https://avatars.githubusercontent.com/u/344663807?v=4"
+    }
+  },
+  {
+    "name": "Snapintosh/Snapintosh",
+    "url": "https://github.com/Snapintosh/Snapintosh",
+    "description": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack",
+    "stars": 902,
+    "forks": 51,
+    "language": "Python",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-22T01:40:05Z",
+    "updated_at": "2026-10-25T06:48:22Z",
+    "owner": {
+      "name": "Snapintosh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/346728985?v=4"
     }
   },
   {
@@ -448,6 +464,22 @@
     }
   },
   {
+    "name": "assetnote/php2shell-scanner",
+    "url": "https://github.com/assetnote/php2shell-scanner",
+    "description": "High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
+    "stars": 828,
+    "forks": 127,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-22T03:53:20Z",
+    "updated_at": "2026-10-25T07:10:52Z",
+    "owner": {
+      "name": "assetnote",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35264812?v=4"
+    }
+  },
+  {
     "name": "cranebeaker/coop-anything",
     "url": "https://github.com/cranebeaker/coop-anything",
     "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
@@ -461,22 +493,6 @@
     "owner": {
       "name": "cranebeaker",
       "avatar_url": "https://avatars.githubusercontent.com/u/343430477?v=4"
-    }
-  },
-  {
-    "name": "Snapintosh/Snapintosh",
-    "url": "https://github.com/Snapintosh/Snapintosh",
-    "description": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack",
-    "stars": 794,
-    "forks": 45,
-    "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-22T01:40:05Z",
-    "updated_at": "2026-10-24T06:43:48Z",
-    "owner": {
-      "name": "Snapintosh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/346728985?v=4"
     }
   },
   {
@@ -639,6 +655,22 @@
     }
   },
   {
+    "name": "NVIDIA/flare-local-inference",
+    "url": "https://github.com/NVIDIA/flare-local-inference",
+    "description": null,
+    "stars": 647,
+    "forks": 67,
+    "language": "Python",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-20T17:09:40Z",
+    "updated_at": "2026-10-25T07:08:44Z",
+    "owner": {
+      "name": "NVIDIA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1728152?v=4"
+    }
+  },
+  {
     "name": "datalab-to/indra",
     "url": "https://github.com/datalab-to/indra",
     "description": "Fast CPU OCR: line detection, CTC recognition, reading order, markdown",
@@ -662,38 +694,6 @@
     }
   },
   {
-    "name": "NVIDIA/flare-local-inference",
-    "url": "https://github.com/NVIDIA/flare-local-inference",
-    "description": null,
-    "stars": 627,
-    "forks": 66,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-20T17:09:40Z",
-    "updated_at": "2026-10-24T02:05:50Z",
-    "owner": {
-      "name": "NVIDIA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1728152?v=4"
-    }
-  },
-  {
-    "name": "BQ-Wang0511/TalkLikeYou-Streaming-RealTime-Demo",
-    "url": "https://github.com/BQ-Wang0511/TalkLikeYou-Streaming-RealTime-Demo",
-    "description": "Real-time browser demo for Talk Like You",
-    "stars": 620,
-    "forks": 10,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-04T05:57:06Z",
-    "updated_at": "2026-10-10T07:50:54Z",
-    "owner": {
-      "name": "BQ-Wang0511",
-      "avatar_url": "https://avatars.githubusercontent.com/u/204159916?v=4"
-    }
-  },
-  {
     "name": "yeyuxin777/baoyan-agent-benchmark",
     "url": "https://github.com/yeyuxin777/baoyan-agent-benchmark",
     "description": "Sprix AI at 屿智同行 × 保研岛 — an open-source benchmark for AI agents in Baoyan advising and application planning.",
@@ -707,22 +707,6 @@
     "owner": {
       "name": "yeyuxin777",
       "avatar_url": "https://avatars.githubusercontent.com/u/32065217?v=4"
-    }
-  },
-  {
-    "name": "szabadkai/c64-keyboard-font",
-    "url": "https://github.com/szabadkai/c64-keyboard-font",
-    "description": "Photo-based reconstruction of classic Commodore 64 keycap lettering, with desktop fonts, webfont, editable outlines, and a specimen.",
-    "stars": 593,
-    "forks": 11,
-    "language": "Python",
-    "topics": [],
-    "license": "Creative Commons Zero v1.0 Universal",
-    "created_at": "2026-10-05T11:03:06Z",
-    "updated_at": "2026-10-10T21:35:42Z",
-    "owner": {
-      "name": "szabadkai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5462129?v=4"
     }
   },
   {
@@ -854,19 +838,19 @@
     }
   },
   {
-    "name": "assetnote/php2shell-scanner",
-    "url": "https://github.com/assetnote/php2shell-scanner",
-    "description": "High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
-    "stars": 490,
-    "forks": 101,
+    "name": "zita-ch/supermimic_vibed",
+    "url": "https://github.com/zita-ch/supermimic_vibed",
+    "description": "vibe coded supermimic within 1h, LAFAN passed within 1.5 gpuh training",
+    "stars": 484,
+    "forks": 44,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
-    "created_at": "2026-10-22T03:53:20Z",
-    "updated_at": "2026-10-24T06:01:51Z",
+    "created_at": "2026-10-21T17:29:28Z",
+    "updated_at": "2026-10-25T07:07:05Z",
     "owner": {
-      "name": "assetnote",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35264812?v=4"
+      "name": "zita-ch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54518250?v=4"
     }
   },
   {
@@ -936,22 +920,6 @@
     "owner": {
       "name": "Jakeschincariol",
       "avatar_url": "https://avatars.githubusercontent.com/u/196724947?v=4"
-    }
-  },
-  {
-    "name": "zita-ch/supermimic_vibed",
-    "url": "https://github.com/zita-ch/supermimic_vibed",
-    "description": "vibe coded supermimic within 1h, LAFAN passed within 1.5 gpuh training",
-    "stars": 444,
-    "forks": 37,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-21T17:29:28Z",
-    "updated_at": "2026-10-24T06:37:09Z",
-    "owner": {
-      "name": "zita-ch",
-      "avatar_url": "https://avatars.githubusercontent.com/u/54518250?v=4"
     }
   },
   {
@@ -1029,6 +997,33 @@
     }
   },
   {
+    "name": "MemTensor/MemT-1.0",
+    "url": "https://github.com/MemTensor/MemT-1.0",
+    "description": "Official repository for MemT-1.0",
+    "stars": 392,
+    "forks": 18,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "deepseek",
+      "llm",
+      "long-context",
+      "long-term-memory",
+      "memory",
+      "memory-augmented-models",
+      "native-memory",
+      "qwen",
+      "sglang"
+    ],
+    "license": "Other",
+    "created_at": "2026-10-19T03:29:30Z",
+    "updated_at": "2026-10-25T05:06:30Z",
+    "owner": {
+      "name": "MemTensor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210160027?v=4"
+    }
+  },
+  {
     "name": "QAQLeonard/a7c2-fl23-research",
     "url": "https://github.com/QAQLeonard/a7c2-fl23-research",
     "description": "Desktop tool for Sony A7C II (ILCE-7CM2) firmware 2.01: one-click FL2/FL3, custom Creative Looks (LUT/DCP), electronic shutter sound, Vertical Display and factory restore. Windows/macOS. | Sony A7C II 固件 2.01 桌面工具：一键安装 FL2/FL3、自定义创意外观、电子快门声、竖屏显示，并可一键恢复原厂。",
@@ -1077,33 +1072,6 @@
     }
   },
   {
-    "name": "MemTensor/MemT-1.0",
-    "url": "https://github.com/MemTensor/MemT-1.0",
-    "description": "Official repository for MemT-1.0",
-    "stars": 378,
-    "forks": 17,
-    "language": "Python",
-    "topics": [
-      "ai-agents",
-      "deepseek",
-      "llm",
-      "long-context",
-      "long-term-memory",
-      "memory",
-      "memory-augmented-models",
-      "native-memory",
-      "qwen",
-      "sglang"
-    ],
-    "license": "Other",
-    "created_at": "2026-10-19T03:29:30Z",
-    "updated_at": "2026-10-24T06:22:41Z",
-    "owner": {
-      "name": "MemTensor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/210160027?v=4"
-    }
-  },
-  {
     "name": "Ayzzz123/mcd-coupon-strategist",
     "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
     "description": "麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。",
@@ -1134,29 +1102,45 @@
     "name": "soumatheusgomes/editonny",
     "url": "https://github.com/soumatheusgomes/editonny",
     "description": "Local video editing through conversation. Created by Matheus Gomes.",
-    "stars": 348,
+    "stars": 360,
     "forks": 31,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-10-19T01:09:26Z",
-    "updated_at": "2026-10-24T06:29:28Z",
+    "updated_at": "2026-10-25T06:28:38Z",
     "owner": {
       "name": "soumatheusgomes",
       "avatar_url": "https://avatars.githubusercontent.com/u/11700039?v=4"
     }
   },
   {
-    "name": "garycaogan/ai-live-avatar",
-    "url": "https://github.com/garycaogan/ai-live-avatar",
-    "description": "AI 实时直播间：Vidu S2 实时数字人 + 弹幕过滤调度 + 衣柜换装 + OBS 叠层（角色资产不含）",
-    "stars": 344,
+    "name": "actionow-ai/vvv",
+    "url": "https://github.com/actionow-ai/vvv",
+    "description": "Build a video template once, reuse it across coding agents. Editable Remotion templates and an Agent Skill for Claude Code, Codex and 25+ agents.",
+    "stars": 356,
     "forks": 99,
     "language": "Python",
     "topics": [],
     "license": "MIT License",
+    "created_at": "2026-10-22T07:29:54Z",
+    "updated_at": "2026-10-25T06:28:13Z",
+    "owner": {
+      "name": "actionow-ai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/255481024?v=4"
+    }
+  },
+  {
+    "name": "garycaogan/ai-live-avatar",
+    "url": "https://github.com/garycaogan/ai-live-avatar",
+    "description": "AI 实时直播间：Vidu S2 实时数字人 + 弹幕过滤调度 + 衣柜换装 + OBS 叠层（角色资产不含）",
+    "stars": 351,
+    "forks": 103,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
     "created_at": "2026-10-19T08:10:48Z",
-    "updated_at": "2026-10-24T04:49:42Z",
+    "updated_at": "2026-10-25T07:07:14Z",
     "owner": {
       "name": "garycaogan",
       "avatar_url": "https://avatars.githubusercontent.com/u/31685224?v=4"
@@ -1176,6 +1160,29 @@
     "owner": {
       "name": "lucannez64",
       "avatar_url": "https://avatars.githubusercontent.com/u/58551020?v=4"
+    }
+  },
+  {
+    "name": "jss8649/quiet-tizen",
+    "url": "https://github.com/jss8649/quiet-tizen",
+    "description": "Native Quiet Home launcher, reversible cleanup tools, and an agent-readable guide for the Samsung U8000F running Tizen 9.",
+    "stars": 337,
+    "forks": 42,
+    "language": "Python",
+    "topics": [
+      "codex",
+      "debloat",
+      "launcher",
+      "samsung-tv",
+      "smart-tv",
+      "tizen"
+    ],
+    "license": "Other",
+    "created_at": "2026-10-20T17:23:41Z",
+    "updated_at": "2026-10-25T06:56:39Z",
+    "owner": {
+      "name": "jss8649",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15822557?v=4"
     }
   },
   {
@@ -1323,26 +1330,33 @@
     }
   },
   {
-    "name": "chengyi-ai/cy-carousel-skill",
-    "url": "https://github.com/chengyi-ai/cy-carousel-skill",
-    "description": "图文轮播 Skill（cy-carousel）：给一个选题，查证、找素材、排版、检查、打包，交付封面＋10 页",
-    "stars": 304,
-    "forks": 41,
+    "name": "morganlinton/BeautifulRust",
+    "url": "https://github.com/morganlinton/BeautifulRust",
+    "description": "A Claude Code plugin that teaches Claude to write idiomatic, robust Rust",
+    "stars": 310,
+    "forks": 21,
     "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-04T13:27:37Z",
-    "updated_at": "2026-10-10T07:51:13Z",
+    "topics": [
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "coding-agent",
+      "rust",
+      "style-guide"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-23T03:01:11Z",
+    "updated_at": "2026-10-25T07:07:12Z",
     "owner": {
-      "name": "chengyi-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/252342592?v=4"
+      "name": "morganlinton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41390763?v=4"
     }
   },
   {
     "name": "david-silvalab1993i0/Roblox-Aimbot-Smooth-Tracking-Auto-Aim-Script-2026",
     "url": "https://github.com/david-silvalab1993i0/Roblox-Aimbot-Smooth-Tracking-Auto-Aim-Script-2026",
     "description": "High-performance Roblox aimbot with adaptive smooth tracking and precise auto aim. Fully configurable, works with most executors, clean modular structure. Easy setup for current Roblox version.",
-    "stars": 302,
+    "stars": 304,
     "forks": 217,
     "language": "Python",
     "topics": [
@@ -1350,7 +1364,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-10-22T18:45:14Z",
-    "updated_at": "2026-10-23T15:22:13Z",
+    "updated_at": "2026-10-24T22:27:40Z",
     "owner": {
       "name": "david-silvalab1993i0",
       "avatar_url": "https://avatars.githubusercontent.com/u/279184050?v=4"
@@ -1390,6 +1404,22 @@
     "owner": {
       "name": "egotoadcitadel",
       "avatar_url": "https://avatars.githubusercontent.com/u/335218241?v=4"
+    }
+  },
+  {
+    "name": "philips71017/Hiddify-Manager",
+    "url": "https://github.com/philips71017/Hiddify-Manager",
+    "description": "Multi-user anti-filtering panel, with an effortless installation and supporting more than 20 protocols to circumvent filtering plus the telegram proxy.",
+    "stars": 299,
+    "forks": 28,
+    "language": "Python",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-19T09:01:13Z",
+    "updated_at": "2026-10-25T00:14:53Z",
+    "owner": {
+      "name": "philips71017",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111347554?v=4"
     }
   },
   {
@@ -1456,46 +1486,44 @@
     }
   },
   {
-    "name": "actionow-ai/vvv",
-    "url": "https://github.com/actionow-ai/vvv",
-    "description": "Build a video template once, reuse it across coding agents. Editable Remotion templates and an Agent Skill for Claude Code, Codex and 25+ agents.",
+    "name": "atbfun/ATBGamePort",
+    "url": "https://github.com/atbfun/ATBGamePort",
+    "description": "Transplant all the games to the web platform",
     "stars": 293,
-    "forks": 84,
+    "forks": 58,
     "language": "Python",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-22T07:29:54Z",
-    "updated_at": "2026-10-24T06:40:42Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-21T01:29:33Z",
+    "updated_at": "2026-10-25T06:15:56Z",
     "owner": {
-      "name": "actionow-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/255481024?v=4"
+      "name": "atbfun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/345173412?v=4"
     }
   },
   {
-    "name": "mushigaite/short-video-maker",
-    "url": "https://github.com/mushigaite/short-video-maker",
-    "description": "A free open-source project designed to turn youtube-videos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content: no pre-clip credits or any watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for free.",
-    "stars": 291,
-    "forks": 75,
+    "name": "rddmwmddr/android-ad-cleaner",
+    "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+    "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+    "stars": 288,
+    "forks": 27,
     "language": "Python",
     "topics": [
-      "ai-video",
-      "ai-video-editing",
-      "ai-video-generation-api",
-      "money-printer",
-      "short-video",
-      "short-video-automation",
-      "short-video-generator",
-      "short-video-maker",
-      "short-video-sdk",
-      "shorts-generator"
+      "adb",
+      "ai-agent",
+      "android",
+      "coloros",
+      "debloat",
+      "hyperos",
+      "magicos",
+      "originos"
     ],
     "license": "MIT License",
-    "created_at": "2026-10-05T18:35:21Z",
-    "updated_at": "2026-10-11T02:30:18Z",
+    "created_at": "2026-10-24T05:35:47Z",
+    "updated_at": "2026-10-25T07:10:41Z",
     "owner": {
-      "name": "mushigaite",
-      "avatar_url": "https://avatars.githubusercontent.com/u/310725007?v=4"
+      "name": "rddmwmddr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5119232?v=4"
     }
   },
   {
@@ -1521,19 +1549,19 @@
     }
   },
   {
-    "name": "atbfun/ATBGamePort",
-    "url": "https://github.com/atbfun/ATBGamePort",
-    "description": "Transplant all the games to the web platform",
-    "stars": 286,
-    "forks": 58,
+    "name": "NCSC-NL/php2shell",
+    "url": "https://github.com/NCSC-NL/php2shell",
+    "description": "Operational information regarding the 2026 php2shell vulnerabilities  ",
+    "stars": 283,
+    "forks": 93,
     "language": "Python",
     "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-21T01:29:33Z",
-    "updated_at": "2026-10-24T05:22:31Z",
+    "license": "European Union Public License 1.2",
+    "created_at": "2026-10-21T10:21:40Z",
+    "updated_at": "2026-10-25T04:19:27Z",
     "owner": {
-      "name": "atbfun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/345173412?v=4"
+      "name": "NCSC-NL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16208471?v=4"
     }
   },
   {
@@ -1571,45 +1599,6 @@
     "owner": {
       "name": "liyupi",
       "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4"
-    }
-  },
-  {
-    "name": "NCSC-NL/php2shell",
-    "url": "https://github.com/NCSC-NL/php2shell",
-    "description": "Operational information regarding the 2026 php2shell vulnerabilities  ",
-    "stars": 274,
-    "forks": 92,
-    "language": "Python",
-    "topics": [],
-    "license": "European Union Public License 1.2",
-    "created_at": "2026-10-21T10:21:40Z",
-    "updated_at": "2026-10-24T04:45:17Z",
-    "owner": {
-      "name": "NCSC-NL",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16208471?v=4"
-    }
-  },
-  {
-    "name": "jss8649/quiet-tizen",
-    "url": "https://github.com/jss8649/quiet-tizen",
-    "description": "Native Quiet Home launcher, reversible cleanup tools, and an agent-readable guide for the Samsung U8000F running Tizen 9.",
-    "stars": 272,
-    "forks": 32,
-    "language": "Python",
-    "topics": [
-      "codex",
-      "debloat",
-      "launcher",
-      "samsung-tv",
-      "smart-tv",
-      "tizen"
-    ],
-    "license": "Other",
-    "created_at": "2026-10-20T17:23:41Z",
-    "updated_at": "2026-10-24T05:36:56Z",
-    "owner": {
-      "name": "jss8649",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15822557?v=4"
     }
   },
   {
@@ -1688,6 +1677,69 @@
     "owner": {
       "name": "ziplab",
       "avatar_url": "https://avatars.githubusercontent.com/u/79640140?v=4"
+    }
+  },
+  {
+    "name": "JMS1717/ming-voice",
+    "url": "https://github.com/JMS1717/ming-voice",
+    "description": "Low-latency local speech-to-speech voice assistant with Ming-3.0-audio-tiny on AMD and Nvidia GPUs. Easy setup on Windows and Linux",
+    "stars": 251,
+    "forks": 13,
+    "language": "Python",
+    "topics": [
+      "amd",
+      "local-llm",
+      "radeon",
+      "realtime",
+      "rocm",
+      "speech-to-speech",
+      "triton",
+      "voice-assistant",
+      "wsl2"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-21T01:08:35Z",
+    "updated_at": "2026-10-25T06:04:33Z",
+    "owner": {
+      "name": "JMS1717",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43321848?v=4"
+    }
+  },
+  {
+    "name": "routerhubSI/glm-5.3-abliterated",
+    "url": "https://github.com/routerhubSI/glm-5.3-abliterated",
+    "description": "GLM 5.3 abliterated or uncensored API access with RouterHub. Browse 35 jailbreak prompt links, compare GLM models, and find SDK examples, coding-tool setup, pricing, and evaluation guides.",
+    "stars": 246,
+    "forks": 5,
+    "language": "Python",
+    "topics": [
+      "abliterated",
+      "abliterated-models",
+      "ai-api",
+      "ai-jailbreaks",
+      "api-gateway",
+      "glm",
+      "glm-5-3",
+      "glm-5-3-abliterated",
+      "glm-5-3-jailbreak",
+      "glm-5-3-uncensored",
+      "jailbreak-prompts",
+      "llm-api",
+      "llm-jailbreak",
+      "model-evaluation",
+      "openai-compatible",
+      "pay-per-token",
+      "prompt-research",
+      "routerhub",
+      "uncensored-ai",
+      "uncensored-ai-model"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-24T13:51:36Z",
+    "updated_at": "2026-10-25T07:10:51Z",
+    "owner": {
+      "name": "routerhubSI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/347402468?v=4"
     }
   },
   {
@@ -1797,6 +1849,22 @@
     }
   },
   {
+    "name": "zengshuangzi/mcd-money-saver",
+    "url": "https://github.com/zengshuangzi/mcd-money-saver",
+    "description": "基于麦当劳MCP的智能省钱助手",
+    "stars": 228,
+    "forks": 27,
+    "language": "Python",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-22T08:15:03Z",
+    "updated_at": "2026-10-25T06:51:48Z",
+    "owner": {
+      "name": "zengshuangzi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/206506905?v=4"
+    }
+  },
+  {
     "name": "google-deepmind/alphaprotein-novo",
     "url": "https://github.com/google-deepmind/alphaprotein-novo",
     "description": "AlphaProtein Novo",
@@ -1874,6 +1942,22 @@
     "owner": {
       "name": "iha2",
       "avatar_url": "https://avatars.githubusercontent.com/u/3457705?v=4"
+    }
+  },
+  {
+    "name": "inclusionAI/Ming-3.0-tts",
+    "url": "https://github.com/inclusionAI/Ming-3.0-tts",
+    "description": "Ming-3.0-tts is an open-source TTS model family with 0.5B dense and 7.9B-A1.3B MoE variants, supporting multilingual speech, voice cloning, voice design, and natural-language control.",
+    "stars": 213,
+    "forks": 14,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-19T07:03:25Z",
+    "updated_at": "2026-10-25T06:59:13Z",
+    "owner": {
+      "name": "inclusionAI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/199075982?v=4"
     }
   },
   {
@@ -1974,6 +2058,22 @@
     }
   },
   {
+    "name": "CuboiLeo/SuperMimic-Reproduced",
+    "url": "https://github.com/CuboiLeo/SuperMimic-Reproduced",
+    "description": "Reproduction of SuperMimic (arXiv:2610.28480): learned differentiable world model + BPTT policy for G1 humanoid motion tracking, on mjlab/MuJoCo Warp",
+    "stars": 205,
+    "forks": 19,
+    "language": "Python",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-21T23:36:13Z",
+    "updated_at": "2026-10-25T06:40:10Z",
+    "owner": {
+      "name": "CuboiLeo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65527170?v=4"
+    }
+  },
+  {
     "name": "cdcailf/cjkfold",
     "url": "https://github.com/cdcailf/cjkfold",
     "description": "Fold look-alike CJK glyphs (Kangxi radicals, CJK radical supplements) so text extracted from PDFs matches again.",
@@ -2000,45 +2100,6 @@
     }
   },
   {
-    "name": "Pluviobyte/dot2api",
-    "url": "https://github.com/Pluviobyte/dot2api",
-    "description": "Turn your OpenAI Dot into an OpenAI- and Claude-compatible API",
-    "stars": 201,
-    "forks": 20,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-06T06:33:50Z",
-    "updated_at": "2026-10-10T15:55:39Z",
-    "owner": {
-      "name": "Pluviobyte",
-      "avatar_url": "https://avatars.githubusercontent.com/u/94058511?v=4"
-    }
-  },
-  {
-    "name": "h100envy/gem-search",
-    "url": "https://github.com/h100envy/gem-search",
-    "description": "Rainbow spider that X-rays memecoins: bundles, linked wallets, dev history. Scanner, Telegram bot, live Bundle Index.",
-    "stars": 201,
-    "forks": 46,
-    "language": "Python",
-    "topics": [
-      "memecoin",
-      "open-source",
-      "pumpfun",
-      "scanner",
-      "solana",
-      "telegram-bot"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-05T13:12:12Z",
-    "updated_at": "2026-10-11T07:09:28Z",
-    "owner": {
-      "name": "h100envy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/279768423?v=4"
-    }
-  },
-  {
     "name": "Prometheus-first/helper",
     "url": "https://github.com/Prometheus-first/helper",
     "description": "一个微信机器人框架，目前稳定可用",
@@ -2052,6 +2113,27 @@
     "owner": {
       "name": "Prometheus-first",
       "avatar_url": "https://avatars.githubusercontent.com/u/80702346?v=4"
+    }
+  },
+  {
+    "name": "xingjian-bai/opal",
+    "url": "https://github.com/xingjian-bai/opal",
+    "description": "OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your model trains.",
+    "stars": 199,
+    "forks": 10,
+    "language": "Python",
+    "topics": [
+      "deep-learning",
+      "llm-agents",
+      "optimizer",
+      "pytorch"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-21T14:17:50Z",
+    "updated_at": "2026-10-25T05:22:36Z",
+    "owner": {
+      "name": "xingjian-bai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93810179?v=4"
     }
   },
   {
@@ -2092,19 +2174,33 @@
     }
   },
   {
-    "name": "inclusionAI/Ming-3.0-tts",
-    "url": "https://github.com/inclusionAI/Ming-3.0-tts",
-    "description": "Ming-3.0-tts is an open-source TTS model family with 0.5B dense and 7.9B-A1.3B MoE variants, supporting multilingual speech, voice cloning, voice design, and natural-language control.",
+    "name": "kukemc/bili-cli",
+    "url": "https://github.com/kukemc/bili-cli",
+    "description": "为 AI Agent 设计的哔哩哔哩命令行工具：扫码登录、看视频、评论、私信、发动态、投稿，全部 JSON 输出",
     "stars": 197,
-    "forks": 13,
+    "forks": 12,
     "language": "Python",
-    "topics": [],
+    "topics": [
+      "agent-skills",
+      "ai-agent",
+      "automation",
+      "bilibili",
+      "claude-code",
+      "cli",
+      "codex",
+      "deepseek",
+      "deepseek-harness",
+      "llm-tools",
+      "mcp",
+      "openclaw",
+      "qwen3-asr"
+    ],
     "license": "MIT License",
-    "created_at": "2026-10-19T07:03:25Z",
-    "updated_at": "2026-10-24T04:49:45Z",
+    "created_at": "2026-10-19T22:44:50Z",
+    "updated_at": "2026-10-25T07:06:47Z",
     "owner": {
-      "name": "inclusionAI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/199075982?v=4"
+      "name": "kukemc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95417077?v=4"
     }
   },
   {
@@ -2131,6 +2227,37 @@
     }
   },
   {
+    "name": "C4rohan/Lampline",
+    "url": "https://github.com/C4rohan/Lampline",
+    "description": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.",
+    "stars": 196,
+    "forks": 39,
+    "language": "Python",
+    "topics": [
+      "agents-as-code",
+      "contact-center",
+      "conversational-ai",
+      "cx-agent-studio",
+      "dialogflow-cx",
+      "ivr",
+      "llm",
+      "pipecat",
+      "self-hosted",
+      "sip",
+      "speech-to-text",
+      "text-to-speech",
+      "voice-agents",
+      "voice-ai"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-19T06:50:54Z",
+    "updated_at": "2026-10-25T07:10:43Z",
+    "owner": {
+      "name": "C4rohan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62870990?v=4"
+    }
+  },
+  {
     "name": "marouane53/GeoINT",
     "url": "https://github.com/marouane53/GeoINT",
     "description": null,
@@ -2147,35 +2274,27 @@
     }
   },
   {
-    "name": "RecordSlayerIdentify/shotcut-download",
-    "url": "https://github.com/RecordSlayerIdentify/shotcut-download",
-    "description": "Shotcut v26.9.27 — Shotcut is a free, open source, cross-platform video editor. Info page and download link. Third-party software; all rights belong to the original authors.",
+    "name": "EricJujianZou/rederive",
+    "url": "https://github.com/EricJujianZou/rederive",
+    "description": "Learn a codebase by re-deriving its design decisions yourself. A Claude Code skill.",
     "stars": 193,
-    "forks": 0,
+    "forks": 6,
     "language": "Python",
     "topics": [
-      "4k-video",
-      "cross-platform",
-      "download",
-      "ffmpeg",
-      "mlt",
-      "non-linear-editor",
-      "qt",
-      "screen-capture",
-      "shotcut",
-      "shotcut-download",
-      "timeline-editor",
-      "video-editing",
-      "video-editor",
-      "video-filters",
-      "video-production"
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "learning",
+      "socratic-method",
+      "system-design"
     ],
-    "license": "No license",
-    "created_at": "2026-10-05T14:52:48Z",
-    "updated_at": "2026-10-10T16:00:29Z",
+    "license": "MIT License",
+    "created_at": "2026-10-19T03:05:36Z",
+    "updated_at": "2026-10-25T07:03:42Z",
     "owner": {
-      "name": "RecordSlayerIdentify",
-      "avatar_url": "https://avatars.githubusercontent.com/u/330632485?v=4"
+      "name": "EricJujianZou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/182662111?v=4"
     }
   },
   {
@@ -2208,32 +2327,6 @@
     "owner": {
       "name": "Enderfga",
       "avatar_url": "https://avatars.githubusercontent.com/u/74981769?v=4"
-    }
-  },
-  {
-    "name": "JMS1717/ming-voice",
-    "url": "https://github.com/JMS1717/ming-voice",
-    "description": "Low-latency local speech-to-speech voice assistant with Ming-3.0-audio-tiny on AMD and Nvidia GPUs. Easy setup on Windows and Linux",
-    "stars": 186,
-    "forks": 7,
-    "language": "Python",
-    "topics": [
-      "amd",
-      "local-llm",
-      "radeon",
-      "realtime",
-      "rocm",
-      "speech-to-speech",
-      "triton",
-      "voice-assistant",
-      "wsl2"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-21T01:08:35Z",
-    "updated_at": "2026-10-24T06:34:40Z",
-    "owner": {
-      "name": "JMS1717",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43321848?v=4"
     }
   },
   {
@@ -2279,27 +2372,6 @@
     }
   },
   {
-    "name": "xingjian-bai/opal",
-    "url": "https://github.com/xingjian-bai/opal",
-    "description": "OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your model trains.",
-    "stars": 184,
-    "forks": 9,
-    "language": "Python",
-    "topics": [
-      "deep-learning",
-      "llm-agents",
-      "optimizer",
-      "pytorch"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-21T14:17:50Z",
-    "updated_at": "2026-10-23T21:55:54Z",
-    "owner": {
-      "name": "xingjian-bai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93810179?v=4"
-    }
-  },
-  {
     "name": "MirroS-Lab/AgentGarten",
     "url": "https://github.com/MirroS-Lab/AgentGarten",
     "description": "AgentGarten: Code Worlds for Evolving Agents",
@@ -2318,22 +2390,6 @@
     "owner": {
       "name": "MirroS-Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/314831110?v=4"
-    }
-  },
-  {
-    "name": "CuboiLeo/SuperMimic-Reproduced",
-    "url": "https://github.com/CuboiLeo/SuperMimic-Reproduced",
-    "description": "Reproduction of SuperMimic (arXiv:2610.28480): learned differentiable world model + BPTT policy for G1 humanoid motion tracking, on mjlab/MuJoCo Warp",
-    "stars": 181,
-    "forks": 14,
-    "language": "Python",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-21T23:36:13Z",
-    "updated_at": "2026-10-24T06:36:05Z",
-    "owner": {
-      "name": "CuboiLeo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65527170?v=4"
     }
   },
   {
@@ -2416,22 +2472,6 @@
     }
   },
   {
-    "name": "binwu1/drama-series-agent",
-    "url": "https://github.com/binwu1/drama-series-agent",
-    "description": "一句话出片的短剧系列 Agent（A short drama series Agent that produces a film in one sentence）",
-    "stars": 179,
-    "forks": 5,
-    "language": "Python",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-08T07:26:51Z",
-    "updated_at": "2026-10-11T03:25:56Z",
-    "owner": {
-      "name": "binwu1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79432906?v=4"
-    }
-  },
-  {
     "name": "alihammoud21/playgta5",
     "url": "https://github.com/alihammoud21/playgta5",
     "description": "Complete local browser-game snapshot with full mirror downloads, Windows launcher, and installation instructions. https://discord.gg/ACgUGFwm4",
@@ -2448,22 +2488,6 @@
     }
   },
   {
-    "name": "philips71017/Hiddify-Manager",
-    "url": "https://github.com/philips71017/Hiddify-Manager",
-    "description": "Multi-user anti-filtering panel, with an effortless installation and supporting more than 20 protocols to circumvent filtering plus the telegram proxy.",
-    "stars": 176,
-    "forks": 20,
-    "language": "Python",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-19T09:01:13Z",
-    "updated_at": "2026-10-24T03:30:25Z",
-    "owner": {
-      "name": "philips71017",
-      "avatar_url": "https://avatars.githubusercontent.com/u/111347554?v=4"
-    }
-  },
-  {
     "name": "Sam-Hui-dot/mcd-budget-meal",
     "url": "https://github.com/Sam-Hui-dot/mcd-budget-meal",
     "description": "麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill",
@@ -2477,22 +2501,6 @@
     "owner": {
       "name": "Sam-Hui-dot",
       "avatar_url": "https://avatars.githubusercontent.com/u/235049831?v=4"
-    }
-  },
-  {
-    "name": "lithos-ai/lithos-metal",
-    "url": "https://github.com/lithos-ai/lithos-metal",
-    "description": "lithos-metal: high-performance LLM inference kernels and serving for Apple silicon.",
-    "stars": 175,
-    "forks": 12,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-05T15:23:30Z",
-    "updated_at": "2026-10-11T05:10:47Z",
-    "owner": {
-      "name": "lithos-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/255913790?v=4"
     }
   },
   {
@@ -2560,22 +2568,6 @@
     }
   },
   {
-    "name": "canberk7/ema-lightning",
-    "url": "https://github.com/canberk7/ema-lightning",
-    "description": "Tiny, fast and accurate Turkish text-to-speech. 8.6M parameters, 0.92% WER on Freya-TR-Eval, first audio in ~4 ms and 1,300× real time on one GPU. Streams audio, batches many callers on one GPU, and runs offline on a GPU or CPU.",
-    "stars": 167,
-    "forks": 24,
-    "language": "Python",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-05T20:19:47Z",
-    "updated_at": "2026-10-10T22:40:11Z",
-    "owner": {
-      "name": "canberk7",
-      "avatar_url": "https://avatars.githubusercontent.com/u/155566748?v=4"
-    }
-  },
-  {
     "name": "zju3dv/SuperNav",
     "url": "https://github.com/zju3dv/SuperNav",
     "description": "An Agentic Navigation System for Any Task in Any Scene",
@@ -2589,37 +2581,6 @@
     "owner": {
       "name": "zju3dv",
       "avatar_url": "https://avatars.githubusercontent.com/u/48914724?v=4"
-    }
-  },
-  {
-    "name": "C4rohan/Lampline",
-    "url": "https://github.com/C4rohan/Lampline",
-    "description": "Build AI phone agents on your own computer and test every change with an AI caller. Open source, runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.",
-    "stars": 164,
-    "forks": 29,
-    "language": "Python",
-    "topics": [
-      "agents-as-code",
-      "contact-center",
-      "conversational-ai",
-      "cx-agent-studio",
-      "dialogflow-cx",
-      "ivr",
-      "llm",
-      "pipecat",
-      "self-hosted",
-      "sip",
-      "speech-to-text",
-      "text-to-speech",
-      "voice-agents",
-      "voice-ai"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-19T06:50:54Z",
-    "updated_at": "2026-10-23T02:05:15Z",
-    "owner": {
-      "name": "C4rohan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/62870990?v=4"
     }
   },
   {
@@ -2668,32 +2629,6 @@
     "owner": {
       "name": "robosimstudio",
       "avatar_url": "https://avatars.githubusercontent.com/u/339888530?v=4"
-    }
-  },
-  {
-    "name": "script-wizards/athanor",
-    "url": "https://github.com/script-wizards/athanor",
-    "description": "an alchemical layer for arch and hyprland",
-    "stars": 160,
-    "forks": 5,
-    "language": "Python",
-    "topics": [
-      "arch-linux",
-      "dotfiles",
-      "hyprland",
-      "hyprland-config",
-      "hyprland-rice",
-      "ricing",
-      "roguelike",
-      "tarot",
-      "wayland"
-    ],
-    "license": "Other",
-    "created_at": "2026-10-04T20:17:29Z",
-    "updated_at": "2026-10-10T07:51:00Z",
-    "owner": {
-      "name": "script-wizards",
-      "avatar_url": "https://avatars.githubusercontent.com/u/124129765?v=4"
     }
   },
   {
