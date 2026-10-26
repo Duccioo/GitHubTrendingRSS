@@ -44,7 +44,7 @@
     "name": "syhunt/php2shell-protection",
     "url": "https://github.com/syhunt/php2shell-protection",
     "description": "Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apache protections and PHP hardening guidance",
-    "stars": 113,
+    "stars": 115,
     "forks": 11,
     "language": "PHP",
     "topics": [
@@ -60,7 +60,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-10-21T04:01:24Z",
-    "updated_at": "2026-10-25T06:38:06Z",
+    "updated_at": "2026-10-26T00:01:56Z",
     "owner": {
       "name": "syhunt",
       "avatar_url": "https://avatars.githubusercontent.com/u/7361944?v=4"
@@ -502,11 +502,37 @@
     }
   },
   {
+    "name": "abo3ish/stock-alerts",
+    "url": "https://github.com/abo3ish/stock-alerts",
+    "description": "Real-time stock price alerts built to learn system design: Laravel API with a transactional outbox, Node evaluator on Kafka (Redpanda), Redis sorted sets as a price index. 1M alerts at 2,000 ticks/s with 31ms lag.",
+    "stars": 11,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "event-driven",
+      "kafka",
+      "laravel",
+      "nodejs",
+      "outbox-pattern",
+      "postgresql",
+      "redis",
+      "redpanda",
+      "system-design"
+    ],
+    "license": "No license",
+    "created_at": "2026-10-24T11:57:19Z",
+    "updated_at": "2026-10-25T21:29:29Z",
+    "owner": {
+      "name": "abo3ish",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12235677?v=4"
+    }
+  },
+  {
     "name": "Bulletdev/php2shell-poc",
     "url": "https://github.com/Bulletdev/php2shell-poc",
     "description": "CVE-2026-109618/109619 --- PHP session.upload_progress pre-auth RCE (chain A/B/C)",
     "stars": 11,
-    "forks": 3,
+    "forks": 4,
     "language": "PHP",
     "topics": [],
     "license": "No license",
@@ -515,22 +541,6 @@
     "owner": {
       "name": "Bulletdev",
       "avatar_url": "https://avatars.githubusercontent.com/u/109600318?v=4"
-    }
-  },
-  {
-    "name": "rizalahmaddd/paraf",
-    "url": "https://github.com/rizalahmaddd/paraf",
-    "description": null,
-    "stars": 11,
-    "forks": 3,
-    "language": "PHP",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-09T06:32:52Z",
-    "updated_at": "2026-10-12T00:21:40Z",
-    "owner": {
-      "name": "rizalahmaddd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93845700?v=4"
     }
   },
   {
