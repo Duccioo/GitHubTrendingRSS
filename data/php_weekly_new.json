@@ -44,7 +44,7 @@
     "name": "syhunt/php2shell-protection",
     "url": "https://github.com/syhunt/php2shell-protection",
     "description": "Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apache protections and PHP hardening guidance",
-    "stars": 115,
+    "stars": 118,
     "forks": 11,
     "language": "PHP",
     "topics": [
@@ -60,7 +60,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-10-21T04:01:24Z",
-    "updated_at": "2026-10-26T00:01:56Z",
+    "updated_at": "2026-10-27T05:29:45Z",
     "owner": {
       "name": "syhunt",
       "avatar_url": "https://avatars.githubusercontent.com/u/7361944?v=4"
@@ -343,6 +343,97 @@
     }
   },
   {
+    "name": "jy7lsna/laravel-appointment-reminders",
+    "url": "https://github.com/jy7lsna/laravel-appointment-reminders",
+    "description": "Laravel appointment booking with calendar invites (.ics), 24h/2h reminders and one-click reschedule. Emails via Mailtrap Email API.",
+    "stars": 13,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "appointment-booking",
+      "appointment-reminders",
+      "booking-system",
+      "calendar-invite",
+      "email-api",
+      "ics",
+      "laravel",
+      "laravel-mail",
+      "mailtrap",
+      "no-show",
+      "php",
+      "transactional-email"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-21T08:32:00Z",
+    "updated_at": "2026-10-27T02:59:49Z",
+    "owner": {
+      "name": "jy7lsna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121849188?v=4"
+    }
+  },
+  {
+    "name": "abo3ish/stock-alerts",
+    "url": "https://github.com/abo3ish/stock-alerts",
+    "description": "Real-time stock price alerts built to learn system design: Laravel API with a transactional outbox, Node evaluator on Kafka (Redpanda), Redis sorted sets as a price index. 1M alerts at 2,000 ticks/s with 31ms lag.",
+    "stars": 13,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "event-driven",
+      "kafka",
+      "laravel",
+      "nodejs",
+      "outbox-pattern",
+      "postgresql",
+      "redis",
+      "redpanda",
+      "system-design"
+    ],
+    "license": "No license",
+    "created_at": "2026-10-24T11:57:19Z",
+    "updated_at": "2026-10-26T12:51:02Z",
+    "owner": {
+      "name": "abo3ish",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12235677?v=4"
+    }
+  },
+  {
+    "name": "ehabest/lhabyby-icons-api",
+    "url": "https://github.com/ehabest/lhabyby-icons-api",
+    "description": "Documentation and examples for using the hosted LHabyby Icons API.",
+    "stars": 13,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "api",
+      "api-integration",
+      "api-testing",
+      "css3",
+      "html5",
+      "icon",
+      "icon-set",
+      "icons",
+      "icons-pack",
+      "javascript",
+      "json",
+      "logo",
+      "logos",
+      "php",
+      "program",
+      "programs",
+      "skills",
+      "socail-media",
+      "socail-network"
+    ],
+    "license": "No license",
+    "created_at": "2026-10-22T09:48:28Z",
+    "updated_at": "2026-10-26T15:45:03Z",
+    "owner": {
+      "name": "ehabest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11926230?v=4"
+    }
+  },
+  {
     "name": "mmhospedagem/mvo-whats-php",
     "url": "https://github.com/mmhospedagem/mvo-whats-php",
     "description": "MVO WHATS PHP — biblioteca PHP nativa para WhatsApp, com QR Code, sessões persistentes, mensagens, mídia e integração MCP para LLMs.",
@@ -420,6 +511,22 @@
     "owner": {
       "name": "DirectoryTree",
       "avatar_url": "https://avatars.githubusercontent.com/u/49739287?v=4"
+    }
+  },
+  {
+    "name": "Bulletdev/php2shell-poc",
+    "url": "https://github.com/Bulletdev/php2shell-poc",
+    "description": "CVE-2026-109618/109619 --- PHP session.upload_progress pre-auth RCE (chain A/B/C)",
+    "stars": 12,
+    "forks": 4,
+    "language": "PHP",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-21T19:57:51Z",
+    "updated_at": "2026-10-26T23:54:58Z",
+    "owner": {
+      "name": "Bulletdev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109600318?v=4"
     }
   },
   {
@@ -502,52 +609,10 @@
     }
   },
   {
-    "name": "abo3ish/stock-alerts",
-    "url": "https://github.com/abo3ish/stock-alerts",
-    "description": "Real-time stock price alerts built to learn system design: Laravel API with a transactional outbox, Node evaluator on Kafka (Redpanda), Redis sorted sets as a price index. 1M alerts at 2,000 ticks/s with 31ms lag.",
-    "stars": 11,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [
-      "event-driven",
-      "kafka",
-      "laravel",
-      "nodejs",
-      "outbox-pattern",
-      "postgresql",
-      "redis",
-      "redpanda",
-      "system-design"
-    ],
-    "license": "No license",
-    "created_at": "2026-10-24T11:57:19Z",
-    "updated_at": "2026-10-25T21:29:29Z",
-    "owner": {
-      "name": "abo3ish",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12235677?v=4"
-    }
-  },
-  {
-    "name": "Bulletdev/php2shell-poc",
-    "url": "https://github.com/Bulletdev/php2shell-poc",
-    "description": "CVE-2026-109618/109619 --- PHP session.upload_progress pre-auth RCE (chain A/B/C)",
-    "stars": 11,
-    "forks": 4,
-    "language": "PHP",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-21T19:57:51Z",
-    "updated_at": "2026-10-24T21:04:23Z",
-    "owner": {
-      "name": "Bulletdev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109600318?v=4"
-    }
-  },
-  {
     "name": "Gi1gamesh123/php-unserialize-uaf-rce",
     "url": "https://github.com/Gi1gamesh123/php-unserialize-uaf-rce",
     "description": "PHP Serializable var_hash UAF -> RCE (php2shell/MADBugs) — repro + adapted EXP, php8.3.6 verified, disable_functions bypass 10/10",
-    "stars": 10,
+    "stars": 11,
     "forks": 10,
     "language": "PHP",
     "topics": [
@@ -562,10 +627,26 @@
     ],
     "license": "No license",
     "created_at": "2026-10-21T09:36:49Z",
-    "updated_at": "2026-10-22T14:57:51Z",
+    "updated_at": "2026-10-26T12:19:01Z",
     "owner": {
       "name": "Gi1gamesh123",
       "avatar_url": "https://avatars.githubusercontent.com/u/304288034?v=4"
+    }
+  },
+  {
+    "name": "liutexi/ec-feedback",
+    "url": "https://github.com/liutexi/ec-feedback",
+    "description": "使用世界上最强大的语言php开发的云湖机器人反馈系统",
+    "stars": 10,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-24T12:35:47Z",
+    "updated_at": "2026-10-26T08:16:26Z",
+    "owner": {
+      "name": "liutexi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/255449302?v=4"
     }
   },
   {
