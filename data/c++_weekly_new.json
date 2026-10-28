@@ -19,13 +19,13 @@
     "name": "JustAResearcher/gpu-unlock-ada",
     "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
     "description": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
-    "stars": 3982,
-    "forks": 513,
+    "stars": 4333,
+    "forks": 558,
     "language": "C",
     "topics": [],
     "license": "GNU General Public License v2.0",
     "created_at": "2026-10-23T21:00:53Z",
-    "updated_at": "2026-10-27T07:05:34Z",
+    "updated_at": "2026-10-28T07:40:54Z",
     "owner": {
       "name": "JustAResearcher",
       "avatar_url": "https://avatars.githubusercontent.com/u/62031663?v=4"
@@ -105,13 +105,13 @@
     "name": "oosexgang/hackios-xnu-kernel",
     "url": "https://github.com/oosexgang/hackios-xnu-kernel",
     "description": null,
-    "stars": 1510,
-    "forks": 273,
+    "stars": 1854,
+    "forks": 322,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-10-22T06:20:11Z",
-    "updated_at": "2026-10-26T07:14:29Z",
+    "updated_at": "2026-10-28T07:46:20Z",
     "owner": {
       "name": "oosexgang",
       "avatar_url": "https://avatars.githubusercontent.com/u/343646710?v=4"
@@ -370,6 +370,57 @@
     }
   },
   {
+    "name": "kuraeow/ultratears",
+    "url": "https://github.com/kuraeow/ultratears",
+    "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
+    "stars": 338,
+    "forks": 19,
+    "language": "C",
+    "topics": [
+      "arm64",
+      "arm64-x86",
+      "game-port",
+      "native-port",
+      "proton",
+      "recomp",
+      "sd13",
+      "static-recompilation",
+      "steam-deck",
+      "tears-of-the-kingdom",
+      "totk",
+      "vulkan",
+      "windows",
+      "x86",
+      "x86-64",
+      "zelda",
+      "zelda-pc",
+      "zelda-totk"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-25T00:04:08Z",
+    "updated_at": "2026-10-28T07:40:51Z",
+    "owner": {
+      "name": "kuraeow",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79721693?v=4"
+    }
+  },
+  {
+    "name": "KohakuBlueleaf/KohakUnlock",
+    "url": "https://github.com/KohakuBlueleaf/KohakUnlock",
+    "description": "Experimental NVIDIA tensor-compute unlock research: guarded TU102 initramfs port, offline tests, and Ampere reproduction notes",
+    "stars": 337,
+    "forks": 32,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-10-25T01:18:54Z",
+    "updated_at": "2026-10-28T05:24:03Z",
+    "owner": {
+      "name": "KohakuBlueleaf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59680068?v=4"
+    }
+  },
+  {
     "name": "thebcd69/bcd-games",
     "url": "https://github.com/thebcd69/bcd-games",
     "description": "BCD: Windows games on iPhone and iPad. Steam and GOG built in.",
@@ -453,51 +504,59 @@
     "name": "nlzy/turing-unlock",
     "url": "https://github.com/nlzy/turing-unlock",
     "description": "Unlock full speed FP16 tensor core of NVIDIA Turing GPUs",
-    "stars": 267,
-    "forks": 37,
+    "stars": 301,
+    "forks": 42,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-10-24T15:18:08Z",
-    "updated_at": "2026-10-27T06:37:22Z",
+    "updated_at": "2026-10-28T07:38:49Z",
     "owner": {
       "name": "nlzy",
       "avatar_url": "https://avatars.githubusercontent.com/u/11763913?v=4"
     }
   },
   {
-    "name": "kuraeow/ultratears",
-    "url": "https://github.com/kuraeow/ultratears",
-    "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
-    "stars": 265,
-    "forks": 9,
+    "name": "mxhm11cr/LinuxRunner",
+    "url": "https://github.com/mxhm11cr/LinuxRunner",
+    "description": "Run ARM64 Linux userspace and desktop applications on iPhone and iPad.",
+    "stars": 298,
+    "forks": 15,
     "language": "C",
     "topics": [
+      "alpine-linux",
+      "archlinux",
       "arm64",
-      "arm64-x86",
-      "game-port",
-      "native-port",
-      "proton",
-      "recomp",
-      "sd13",
-      "static-recompilation",
-      "steam-deck",
-      "tears-of-the-kingdom",
-      "totk",
-      "vulkan",
-      "windows",
-      "x86",
-      "x86-64",
-      "zelda",
-      "zelda-pc",
-      "zelda-totk"
+      "debian",
+      "interpreter",
+      "ios",
+      "ipados",
+      "linux",
+      "linux-userspace",
+      "open-source"
     ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-25T00:04:08Z",
-    "updated_at": "2026-10-27T06:55:55Z",
+    "license": "Other",
+    "created_at": "2026-10-25T20:47:02Z",
+    "updated_at": "2026-10-28T07:26:57Z",
     "owner": {
-      "name": "kuraeow",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79721693?v=4"
+      "name": "mxhm11cr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100222176?v=4"
+    }
+  },
+  {
+    "name": "mamcjr/BOTWRecompAndroid",
+    "url": "https://github.com/mamcjr/BOTWRecompAndroid",
+    "description": "Static recompilation of The Legend of Zelda: Breath of the Wild (Switch 1.0.0 / 1.6.0 / 1.8.2) for Android - no game files included",
+    "stars": 283,
+    "forks": 14,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-24T00:53:21Z",
+    "updated_at": "2026-10-28T07:39:03Z",
+    "owner": {
+      "name": "mamcjr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26612066?v=4"
     }
   },
   {
@@ -517,6 +576,22 @@
     }
   },
   {
+    "name": "dlt2000/xc-soundfont-synth",
+    "url": "https://github.com/dlt2000/xc-soundfont-synth",
+    "description": null,
+    "stars": 251,
+    "forks": 13,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-24T02:49:32Z",
+    "updated_at": "2026-10-27T22:46:12Z",
+    "owner": {
+      "name": "dlt2000",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99519634?v=4"
+    }
+  },
+  {
     "name": "TamaribaEmu/OpenPS2BIOS",
     "url": "https://github.com/TamaribaEmu/OpenPS2BIOS",
     "description": "Experimental open-source replacement PlayStation 2 BIOS for emulators. MIT licensed.",
@@ -530,6 +605,22 @@
     "owner": {
       "name": "TamaribaEmu",
       "avatar_url": "https://avatars.githubusercontent.com/u/338912349?v=4"
+    }
+  },
+  {
+    "name": "morerokk/MHGURecomp",
+    "url": "https://github.com/morerokk/MHGURecomp",
+    "description": "A native PC port of Monster Hunter Generations Ultimate. Requires the game's files to play or build.",
+    "stars": 244,
+    "forks": 23,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-22T13:43:06Z",
+    "updated_at": "2026-10-28T06:38:58Z",
+    "owner": {
+      "name": "morerokk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5961617?v=4"
     }
   },
   {
@@ -629,22 +720,6 @@
     }
   },
   {
-    "name": "morerokk/MHGURecomp",
-    "url": "https://github.com/morerokk/MHGURecomp",
-    "description": "A native PC port of Monster Hunter Generations Ultimate. Requires the game's files to play or build.",
-    "stars": 207,
-    "forks": 17,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-22T13:43:06Z",
-    "updated_at": "2026-10-27T06:47:42Z",
-    "owner": {
-      "name": "morerokk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5961617?v=4"
-    }
-  },
-  {
     "name": "pLabs5/pLinux5-NG",
     "url": "https://github.com/pLabs5/pLinux5-NG",
     "description": "PS5 Linux for high FW's (8.xx, 9.xx, 10.xx, 11.xx, 12.xx, 13.xx)",
@@ -661,19 +736,30 @@
     }
   },
   {
-    "name": "dlt2000/xc-soundfont-synth",
-    "url": "https://github.com/dlt2000/xc-soundfont-synth",
-    "description": null,
-    "stars": 203,
-    "forks": 11,
+    "name": "kuscholar/iDeck",
+    "url": "https://github.com/kuscholar/iDeck",
+    "description": "iDeck brings the Steam Big Picture experience to iOS",
+    "stars": 200,
+    "forks": 6,
     "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-24T02:49:32Z",
-    "updated_at": "2026-10-27T06:52:07Z",
+    "topics": [
+      "big-picture",
+      "experimental",
+      "fex",
+      "ios",
+      "ipados",
+      "madeira",
+      "metal",
+      "pc-gaming",
+      "steam",
+      "wine"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-24T19:20:34Z",
+    "updated_at": "2026-10-28T07:13:58Z",
     "owner": {
-      "name": "dlt2000",
-      "avatar_url": "https://avatars.githubusercontent.com/u/99519634?v=4"
+      "name": "kuscholar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61807135?v=4"
     }
   },
   {
@@ -693,51 +779,19 @@
     }
   },
   {
-    "name": "mamcjr/BOTWRecompAndroid",
-    "url": "https://github.com/mamcjr/BOTWRecompAndroid",
-    "description": "Static recompilation of The Legend of Zelda: Breath of the Wild (Switch 1.0.0 / 1.6.0 / 1.8.2) for Android - no game files included",
-    "stars": 189,
-    "forks": 8,
+    "name": "ngxson/esp32-usb-to-airprint",
+    "url": "https://github.com/ngxson/esp32-usb-to-airprint",
+    "description": "Add AirPrint / AirScan support to your old printer, using just a cheap ESP32-S3",
+    "stars": 164,
+    "forks": 9,
     "language": "C",
     "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-24T00:53:21Z",
-    "updated_at": "2026-10-26T07:11:53Z",
+    "license": "MIT License",
+    "created_at": "2026-10-26T16:18:54Z",
+    "updated_at": "2026-10-28T07:22:19Z",
     "owner": {
-      "name": "mamcjr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26612066?v=4"
-    }
-  },
-  {
-    "name": "KohakuBlueleaf/KohakUnlock",
-    "url": "https://github.com/KohakuBlueleaf/KohakUnlock",
-    "description": "Experimental NVIDIA tensor-compute unlock research: guarded TU102 initramfs port, offline tests, and Ampere reproduction notes",
-    "stars": 185,
-    "forks": 16,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-10-25T01:18:54Z",
-    "updated_at": "2026-10-26T07:14:14Z",
-    "owner": {
-      "name": "KohakuBlueleaf",
-      "avatar_url": "https://avatars.githubusercontent.com/u/59680068?v=4"
-    }
-  },
-  {
-    "name": "sqliteai/sqlite-multiwriter",
-    "url": "https://github.com/sqliteai/sqlite-multiwriter",
-    "description": "Concurrent SQLite writes across threads and processes without modifying SQLite. No forks, no schema changes, up to 5.7x faster writes.",
-    "stars": 175,
-    "forks": 10,
-    "language": "C",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-08T15:56:00Z",
-    "updated_at": "2026-10-14T06:34:15Z",
-    "owner": {
-      "name": "sqliteai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/206516623?v=4"
+      "name": "ngxson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7702203?v=4"
     }
   },
   {
@@ -763,33 +817,6 @@
     "owner": {
       "name": "andrisgauracs",
       "avatar_url": "https://avatars.githubusercontent.com/u/19580427?v=4"
-    }
-  },
-  {
-    "name": "kuscholar/iDeck",
-    "url": "https://github.com/kuscholar/iDeck",
-    "description": "iDeck brings the Steam Big Picture experience to iOS",
-    "stars": 161,
-    "forks": 5,
-    "language": "C",
-    "topics": [
-      "big-picture",
-      "experimental",
-      "fex",
-      "ios",
-      "ipados",
-      "madeira",
-      "metal",
-      "pc-gaming",
-      "steam",
-      "wine"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-24T19:20:34Z",
-    "updated_at": "2026-10-27T07:00:40Z",
-    "owner": {
-      "name": "kuscholar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61807135?v=4"
     }
   },
   {
@@ -948,22 +975,6 @@
     }
   },
   {
-    "name": "peiikai/LASRecomp",
-    "url": "https://github.com/peiikai/LASRecomp",
-    "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
-    "stars": 144,
-    "forks": 8,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-08T22:42:12Z",
-    "updated_at": "2026-10-14T06:54:40Z",
-    "owner": {
-      "name": "peiikai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/339721950?v=4"
-    }
-  },
-  {
     "name": "scarletnx/ScarletNX",
     "url": "https://github.com/scarletnx/ScarletNX",
     "description": "ARM64 Recompiler",
@@ -1029,6 +1040,22 @@
     "owner": {
       "name": "gasb07",
       "avatar_url": "https://avatars.githubusercontent.com/u/6545051?v=4"
+    }
+  },
+  {
+    "name": "haohervchb/Turing-unlock",
+    "url": "https://github.com/haohervchb/Turing-unlock",
+    "description": "2080ti TU102 doing the unlock trick",
+    "stars": 121,
+    "forks": 10,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-22T00:39:44Z",
+    "updated_at": "2026-10-28T05:28:07Z",
+    "owner": {
+      "name": "haohervchb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88283168?v=4"
     }
   },
   {
@@ -1160,28 +1187,6 @@
     }
   },
   {
-    "name": "SirLouen/pecl-mail-imap",
-    "url": "https://github.com/SirLouen/pecl-mail-imap",
-    "description": "An extension to operate with the IMAP protocol, as well as the NNTP, POP3, and local mailbox access methods. ",
-    "stars": 100,
-    "forks": 25,
-    "language": "C",
-    "topics": [
-      "imap",
-      "imap-client",
-      "imap4",
-      "imapfilter",
-      "php-imap"
-    ],
-    "license": "Other",
-    "created_at": "2026-10-09T06:54:44Z",
-    "updated_at": "2026-10-13T12:07:58Z",
-    "owner": {
-      "name": "SirLouen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/224787?v=4"
-    }
-  },
-  {
     "name": "chryzsh/redteam-bofs",
     "url": "https://github.com/chryzsh/redteam-bofs",
     "description": "Repository for various Beacon Object Files (BOFs)",
@@ -1211,6 +1216,22 @@
     "owner": {
       "name": "Rotmill",
       "avatar_url": "https://avatars.githubusercontent.com/u/69960663?v=4"
+    }
+  },
+  {
+    "name": "ttom795/Skyrim_Android",
+    "url": "https://github.com/ttom795/Skyrim_Android",
+    "description": "A static recompilation of Skyrim (2011) for Android devices.",
+    "stars": 97,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-25T05:03:01Z",
+    "updated_at": "2026-10-28T07:36:55Z",
+    "owner": {
+      "name": "ttom795",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69662271?v=4"
     }
   },
   {
@@ -1267,6 +1288,22 @@
     }
   },
   {
+    "name": "odiecay/android-tv-ps4",
+    "url": "https://github.com/odiecay/android-tv-ps4",
+    "description": "Android TV 13 for PlayStation 4",
+    "stars": 94,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-23T09:43:03Z",
+    "updated_at": "2026-10-28T06:09:15Z",
+    "owner": {
+      "name": "odiecay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116058325?v=4"
+    }
+  },
+  {
     "name": "19h/eac-linux-devirt",
     "url": "https://github.com/19h/eac-linux-devirt",
     "description": null,
@@ -1283,6 +1320,22 @@
     }
   },
   {
+    "name": "Maldev-Academy/WhisperHijack",
+    "url": "https://github.com/Maldev-Academy/WhisperHijack",
+    "description": "A stealthy process injection PoC combining Thread Name-Calling for payload delivery with Waiting Thread Hijacking for execution, with zero cross-process writes.",
+    "stars": 92,
+    "forks": 9,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-24T11:26:36Z",
+    "updated_at": "2026-10-28T07:27:31Z",
+    "owner": {
+      "name": "Maldev-Academy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121844819?v=4"
+    }
+  },
+  {
     "name": "erica-synths/lxr-desktop-app",
     "url": "https://github.com/erica-synths/lxr-desktop-app",
     "description": "Firmware for LXR desktop drum synthesizer",
@@ -1296,6 +1349,38 @@
     "owner": {
       "name": "erica-synths",
       "avatar_url": "https://avatars.githubusercontent.com/u/68069806?v=4"
+    }
+  },
+  {
+    "name": "shirai91/nx2android",
+    "url": "https://github.com/shirai91/nx2android",
+    "description": "A compatibility layer for porting Switch games to Android, one game at a time",
+    "stars": 87,
+    "forks": 14,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-24T17:21:12Z",
+    "updated_at": "2026-10-28T07:37:21Z",
+    "owner": {
+      "name": "shirai91",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8848513?v=4"
+    }
+  },
+  {
+    "name": "juanjsebgarcia/vita-turbo-wifi",
+    "url": "https://github.com/juanjsebgarcia/vita-turbo-wifi",
+    "description": "PS Vita Wi-Fi QoL plugin: boot auto-connect, HT40, power profiles, live SNR HUD",
+    "stars": 84,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-23T07:29:09Z",
+    "updated_at": "2026-10-28T07:40:43Z",
+    "owner": {
+      "name": "juanjsebgarcia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16254139?v=4"
     }
   },
   {
@@ -1324,22 +1409,6 @@
     }
   },
   {
-    "name": "odiecay/android-tv-ps4",
-    "url": "https://github.com/odiecay/android-tv-ps4",
-    "description": "Android TV 13 for PlayStation 4",
-    "stars": 79,
-    "forks": 3,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-23T09:43:03Z",
-    "updated_at": "2026-10-27T06:49:47Z",
-    "owner": {
-      "name": "odiecay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/116058325?v=4"
-    }
-  },
-  {
     "name": "Jarvis322/matinee",
     "url": "https://github.com/Jarvis322/matinee",
     "description": "A calm, ad-free home screen for Google TV and Android TV",
@@ -1356,6 +1425,22 @@
     }
   },
   {
+    "name": "loopj/tinysd",
+    "url": "https://github.com/loopj/tinysd",
+    "description": "Dependency-free C library for SD cards and SDIO on embedded and bare-metal systems.",
+    "stars": 78,
+    "forks": 5,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-24T08:14:15Z",
+    "updated_at": "2026-10-27T20:53:20Z",
+    "owner": {
+      "name": "loopj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104009?v=4"
+    }
+  },
+  {
     "name": "kuslota/InkBoy",
     "url": "https://github.com/kuslota/InkBoy",
     "description": null,
@@ -1369,6 +1454,22 @@
     "owner": {
       "name": "kuslota",
       "avatar_url": "https://avatars.githubusercontent.com/u/64355906?v=4"
+    }
+  },
+  {
+    "name": "gminustwo/primerecomp",
+    "url": "https://github.com/gminustwo/primerecomp",
+    "description": null,
+    "stars": 77,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-25T17:46:03Z",
+    "updated_at": "2026-10-28T01:33:49Z",
+    "owner": {
+      "name": "gminustwo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/347583672?v=4"
     }
   },
   {
@@ -1397,22 +1498,6 @@
     "owner": {
       "name": "griches",
       "avatar_url": "https://avatars.githubusercontent.com/u/798117?v=4"
-    }
-  },
-  {
-    "name": "ttom795/Skyrim_Android",
-    "url": "https://github.com/ttom795/Skyrim_Android",
-    "description": "A static recompilation of Skyrim (2011) for Android devices.",
-    "stars": 75,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-25T05:03:01Z",
-    "updated_at": "2026-10-27T06:15:01Z",
-    "owner": {
-      "name": "ttom795",
-      "avatar_url": "https://avatars.githubusercontent.com/u/69662271?v=4"
     }
   },
   {
@@ -1452,22 +1537,6 @@
     "owner": {
       "name": "mmm1712",
       "avatar_url": "https://avatars.githubusercontent.com/u/77479412?v=4"
-    }
-  },
-  {
-    "name": "loopj/tinysd",
-    "url": "https://github.com/loopj/tinysd",
-    "description": "Dependency-free C library for SD cards and SDIO on embedded and bare-metal systems.",
-    "stars": 70,
-    "forks": 5,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-24T08:14:15Z",
-    "updated_at": "2026-10-26T05:50:48Z",
-    "owner": {
-      "name": "loopj",
-      "avatar_url": "https://avatars.githubusercontent.com/u/104009?v=4"
     }
   },
   {
@@ -1513,43 +1582,22 @@
     }
   },
   {
-    "name": "juanjsebgarcia/vita-turbo-wifi",
-    "url": "https://github.com/juanjsebgarcia/vita-turbo-wifi",
-    "description": "PS Vita Wi-Fi QoL plugin: boot auto-connect, HT40, power profiles, live SNR HUD",
-    "stars": 66,
+    "name": "YotsuhaMeru/NeToRne",
+    "url": "https://github.com/YotsuhaMeru/NeToRne",
+    "description": "AI Slop torne driver ",
+    "stars": 65,
     "forks": 1,
     "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-23T07:29:09Z",
-    "updated_at": "2026-10-27T06:36:34Z",
-    "owner": {
-      "name": "juanjsebgarcia",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16254139?v=4"
-    }
-  },
-  {
-    "name": "mxhm11cr/LinuxRunner",
-    "url": "https://github.com/mxhm11cr/LinuxRunner",
-    "description": "Run ARM64 Linux applications and desktop environments on iPhone.",
-    "stars": 66,
-    "forks": 2,
-    "language": "C",
     "topics": [
-      "arm64",
-      "debian",
-      "interpreter",
-      "ios",
-      "iphone",
-      "linux",
-      "open-source"
+      "ntr",
+      "slop"
     ],
-    "license": "Other",
-    "created_at": "2026-10-25T20:47:02Z",
-    "updated_at": "2026-10-26T07:14:29Z",
+    "license": "No license",
+    "created_at": "2026-10-26T15:39:12Z",
+    "updated_at": "2026-10-28T05:57:23Z",
     "owner": {
-      "name": "mxhm11cr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/100222176?v=4"
+      "name": "YotsuhaMeru",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79040168?v=4"
     }
   },
   {
@@ -1569,22 +1617,6 @@
     }
   },
   {
-    "name": "Al-Azif/ps-disc-detect",
-    "url": "https://github.com/Al-Azif/ps-disc-detect",
-    "description": null,
-    "stars": 65,
-    "forks": 9,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-09T21:52:33Z",
-    "updated_at": "2026-10-13T19:15:23Z",
-    "owner": {
-      "name": "Al-Azif",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4"
-    }
-  },
-  {
     "name": "xvvulcanvx/PS5-TabShifter",
     "url": "https://github.com/xvvulcanvx/PS5-TabShifter",
     "description": "Standalone PS5 on-console payload to move apps between Games/Media tabs and hide offline PSN bloatware (FW 12.xx – 13.60 Supported)",
@@ -1598,22 +1630,6 @@
     "owner": {
       "name": "xvvulcanvx",
       "avatar_url": "https://avatars.githubusercontent.com/u/335660230?v=4"
-    }
-  },
-  {
-    "name": "obs-rust/obs-studio",
-    "url": "https://github.com/obs-rust/obs-studio",
-    "description": "OBS-STUDIO-RUST is an independent fork of obsproject/obs-studio with all the problems fixed. want to have maintainer privledges? File an issue and tag @zackees",
-    "stars": 63,
-    "forks": 16,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-10-08T05:06:55Z",
-    "updated_at": "2026-10-14T06:43:01Z",
-    "owner": {
-      "name": "obs-rust",
-      "avatar_url": "https://avatars.githubusercontent.com/u/339444210?v=4"
     }
   },
   {
@@ -1754,22 +1770,6 @@
     }
   },
   {
-    "name": "gminustwo/primerecomp",
-    "url": "https://github.com/gminustwo/primerecomp",
-    "description": null,
-    "stars": 56,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-25T17:46:03Z",
-    "updated_at": "2026-10-26T06:27:13Z",
-    "owner": {
-      "name": "gminustwo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/347583672?v=4"
-    }
-  },
-  {
     "name": "zyn950929/MotoNav",
     "url": "https://github.com/zyn950929/MotoNav",
     "description": "Android 与 ESP32-S3 1.75 英寸圆屏导航；AI 辅助开发，仅供非商业使用，禁止未经许可转售。",
@@ -1818,22 +1818,6 @@
     }
   },
   {
-    "name": "mydanyi/armadaos-freedom",
-    "url": "https://github.com/mydanyi/armadaos-freedom",
-    "description": "An ArmadaOS fork for ARM tablets with kShimC multi-boot. 基于 ArmadaOS 的 ARM 平板适配分支，支持 kShimC 多系统启动。",
-    "stars": 55,
-    "forks": 3,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-10-08T23:56:47Z",
-    "updated_at": "2026-10-14T05:51:12Z",
-    "owner": {
-      "name": "mydanyi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/308664957?v=4"
-    }
-  },
-  {
     "name": "ages2001/WINUSB",
     "url": "https://github.com/ages2001/WINUSB",
     "description": "Universal USB driver for DOS, Windows 1.0x/2.xx/3.xx and Windows 95/98/ME",
@@ -1866,22 +1850,6 @@
     }
   },
   {
-    "name": "haohervchb/Turing-unlock",
-    "url": "https://github.com/haohervchb/Turing-unlock",
-    "description": "2080ti TU102 doing the unlock trick",
-    "stars": 53,
-    "forks": 6,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-22T00:39:44Z",
-    "updated_at": "2026-10-26T06:39:15Z",
-    "owner": {
-      "name": "haohervchb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/88283168?v=4"
-    }
-  },
-  {
     "name": "Kristijan1001/Hytale-Aurora-Shaders",
     "url": "https://github.com/Kristijan1001/Hytale-Aurora-Shaders",
     "description": "Aurora Shaders: a shader pack for Hytale - soft shadows, volumetric clouds, light shafts, reflective water, ray-traced bounce light - with an in-game options menu and a one-click installer.",
@@ -1895,6 +1863,22 @@
     "owner": {
       "name": "Kristijan1001",
       "avatar_url": "https://avatars.githubusercontent.com/u/24441639?v=4"
+    }
+  },
+  {
+    "name": "iHaiDeeZ/HENkaku-PS4",
+    "url": "https://github.com/iHaiDeeZ/HENkaku-PS4",
+    "description": "HENkaku: PS Vita games on the PS4 (Vita3K port for jailbroken PS4)",
+    "stars": 52,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-10-22T05:04:52Z",
+    "updated_at": "2026-10-27T16:47:00Z",
+    "owner": {
+      "name": "iHaiDeeZ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23220202?v=4"
     }
   },
   {
@@ -1920,6 +1904,22 @@
     "owner": {
       "name": "KuchiSofts",
       "avatar_url": "https://avatars.githubusercontent.com/u/32385966?v=4"
+    }
+  },
+  {
+    "name": "power-pudu/egg-of-time",
+    "url": "https://github.com/power-pudu/egg-of-time",
+    "description": "Native PC port of Chrono Trigger (DS) by static recompilation. Bring your own ROM.",
+    "stars": 51,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-26T19:10:06Z",
+    "updated_at": "2026-10-28T05:35:53Z",
+    "owner": {
+      "name": "power-pudu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/348400656?v=4"
     }
   },
   {
@@ -1973,6 +1973,22 @@
     "owner": {
       "name": "ReazGan",
       "avatar_url": "https://avatars.githubusercontent.com/u/93791503?v=4"
+    }
+  },
+  {
+    "name": "khanhduytran0/LiveSimBooter",
+    "url": "https://github.com/khanhduytran0/LiveSimBooter",
+    "description": "Boot iOS simulator on jailed iOS without JIT",
+    "stars": 49,
+    "forks": 9,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-27T11:27:59Z",
+    "updated_at": "2026-10-28T06:45:35Z",
+    "owner": {
+      "name": "khanhduytran0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40482367?v=4"
     }
   },
   {
@@ -2044,6 +2060,51 @@
     }
   },
   {
+    "name": "Magerko/MagerCam",
+    "url": "https://github.com/Magerko/MagerCam",
+    "description": "Android-телефон как веб-камера: OBS-плагин, виртуальная камера Windows 11, веб-панель (аналог DroidCam)",
+    "stars": 45,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "android",
+      "camera",
+      "droidcam-alternative",
+      "hevc",
+      "media-foundation",
+      "obs-plugin",
+      "obs-studio",
+      "streaming",
+      "virtual-camera",
+      "webcam",
+      "windows-11",
+      "zoom"
+    ],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-10-26T18:25:32Z",
+    "updated_at": "2026-10-28T07:35:21Z",
+    "owner": {
+      "name": "Magerko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/192038783?v=4"
+    }
+  },
+  {
+    "name": "alula/beetool",
+    "url": "https://github.com/alula/beetool",
+    "description": "hactool with Nintendo Switch 2 (Ounce) support",
+    "stars": 45,
+    "forks": 4,
+    "language": "C",
+    "topics": [],
+    "license": "ISC License",
+    "created_at": "2026-10-24T20:52:27Z",
+    "updated_at": "2026-10-28T05:12:08Z",
+    "owner": {
+      "name": "alula",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6276139?v=4"
+    }
+  },
+  {
     "name": "ClickingMaster/pokeheartgold-single-screen",
     "url": "https://github.com/ClickingMaster/pokeheartgold-single-screen",
     "description": "Single-screen decompilation build of Pokemon HeartGold/SoulSilver (pokeheartgold), the source for the ssrecomp single-screen recomp.",
@@ -2095,6 +2156,22 @@
     }
   },
   {
+    "name": "samyeei/mosaico-learning-assistant",
+    "url": "https://github.com/samyeei/mosaico-learning-assistant",
+    "description": "ESP-Mosaico 学习助手：拍题选题、语音追问与朗读。v1.1.0 支持 Vibe Mode 0.2 / ABI 2。源码公开，禁止商用（PolyForm Noncommercial 1.0.0）。",
+    "stars": 44,
+    "forks": 11,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-23T03:28:55Z",
+    "updated_at": "2026-10-26T15:59:35Z",
+    "owner": {
+      "name": "samyeei",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50938541?v=4"
+    }
+  },
+  {
     "name": "NicholasDominici/super-mario-odyssey-ios",
     "url": "https://github.com/NicholasDominici/super-mario-odyssey-ios",
     "description": "Native Super Mario Odyssey for iPhone and iPad: Metal, controller motion, DualSense haptics, adaptive triggers and optional generated 120 FPS. Bring your own game files.",
@@ -2134,35 +2211,19 @@
     }
   },
   {
-    "name": "samyeei/mosaico-learning-assistant",
-    "url": "https://github.com/samyeei/mosaico-learning-assistant",
-    "description": "ESP-Mosaico 学习助手：拍题选题、语音追问与朗读。v1.1.0 支持 Vibe Mode 0.2 / ABI 2。源码公开，禁止商用（PolyForm Noncommercial 1.0.0）。",
+    "name": "sthetix/JoyOff",
+    "url": "https://github.com/sthetix/JoyOff",
+    "description": "A simple Nintendo Switch homebrew app that puts original Joy-Con controllers into shipment low-power mode and disconnects them.",
     "stars": 43,
-    "forks": 11,
+    "forks": 0,
     "language": "C",
     "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-23T03:28:55Z",
-    "updated_at": "2026-10-24T06:08:43Z",
+    "license": "GNU Lesser General Public License v3.0",
+    "created_at": "2026-10-22T11:02:10Z",
+    "updated_at": "2026-10-27T11:26:02Z",
     "owner": {
-      "name": "samyeei",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50938541?v=4"
-    }
-  },
-  {
-    "name": "iHaiDeeZ/HENkaku-PS4",
-    "url": "https://github.com/iHaiDeeZ/HENkaku-PS4",
-    "description": "HENkaku: PS Vita games on the PS4 (Vita3K port for jailbroken PS4)",
-    "stars": 43,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-10-22T05:04:52Z",
-    "updated_at": "2026-10-26T05:34:28Z",
-    "owner": {
-      "name": "iHaiDeeZ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23220202?v=4"
+      "name": "sthetix",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22261135?v=4"
     }
   },
   {
@@ -2182,6 +2243,22 @@
     }
   },
   {
+    "name": "S12cybersecurity/CredGuardRuntimeShutdown",
+    "url": "https://github.com/S12cybersecurity/CredGuardRuntimeShutdown",
+    "description": "Runtime Credential Guard deactivation via \\\\LSA_ISO_DISABLE_CREDENTIAL_GUARD + LSASS NT hash extraction (Win11 24H2)",
+    "stars": 41,
+    "forks": 5,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-27T10:45:46Z",
+    "updated_at": "2026-10-28T06:06:21Z",
+    "owner": {
+      "name": "S12cybersecurity",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79543461?v=4"
+    }
+  },
+  {
     "name": "Epinorr/y2jb-update-blocker",
     "url": "https://github.com/Epinorr/y2jb-update-blocker",
     "description": "A PlayStation 5 payload for blocking YouTube update metadata",
@@ -2195,6 +2272,38 @@
     "owner": {
       "name": "Epinorr",
       "avatar_url": "https://avatars.githubusercontent.com/u/154914022?v=4"
+    }
+  },
+  {
+    "name": "PinkiePie1/SmoothEPD",
+    "url": "https://github.com/PinkiePie1/SmoothEPD",
+    "description": "47FPS EPD display driver, for EPD modules with SPI interface",
+    "stars": 40,
+    "forks": 8,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-25T09:05:06Z",
+    "updated_at": "2026-10-28T05:09:34Z",
+    "owner": {
+      "name": "PinkiePie1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7542698?v=4"
+    }
+  },
+  {
+    "name": "jiijii0/soup-engine",
+    "url": "https://github.com/jiijii0/soup-engine",
+    "description": "Film looks, in the camera, on a Canon EOS 5D Classic. (beta)",
+    "stars": 40,
+    "forks": 7,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-10-22T12:46:15Z",
+    "updated_at": "2026-10-27T20:55:56Z",
+    "owner": {
+      "name": "jiijii0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49161552?v=4"
     }
   },
   {
@@ -2234,22 +2343,6 @@
     "owner": {
       "name": "XXD3V3L0P3RXX",
       "avatar_url": "https://avatars.githubusercontent.com/u/346175137?v=4"
-    }
-  },
-  {
-    "name": "jiijii0/soup-engine",
-    "url": "https://github.com/jiijii0/soup-engine",
-    "description": "Film looks, in the camera, on a Canon EOS 5D Classic. (beta)",
-    "stars": 38,
-    "forks": 6,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-10-22T12:46:15Z",
-    "updated_at": "2026-10-27T04:22:42Z",
-    "owner": {
-      "name": "jiijii0",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49161552?v=4"
     }
   },
   {
@@ -2363,22 +2456,6 @@
     }
   },
   {
-    "name": "shirai91/nx2android",
-    "url": "https://github.com/shirai91/nx2android",
-    "description": "porting some nintendo switch game to android",
-    "stars": 33,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-24T17:21:12Z",
-    "updated_at": "2026-10-27T06:47:22Z",
-    "owner": {
-      "name": "shirai91",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8848513?v=4"
-    }
-  },
-  {
     "name": "alphafox02/s31-sdr",
     "url": "https://github.com/alphafox02/s31-sdr",
     "description": "SDR firmware for the Espressif ESP32-S31: 10-bit I/Q as VITA-49 over Gigabit Ethernet",
@@ -2415,71 +2492,6 @@
     "owner": {
       "name": "Apolinario-coder",
       "avatar_url": "https://avatars.githubusercontent.com/u/200193372?v=4"
-    }
-  },
-  {
-    "name": "darkxex/SwanStationPS5",
-    "url": "https://github.com/darkxex/SwanStationPS5",
-    "description": "SwanStationPS5 (PSXS5 Fork to work with the SwanStation core): a PlayStation 1 emulator running natively on jailbroken PS5, based on SwanStation.  https://discord.gg/MseFnnfYzt",
-    "stars": 28,
-    "forks": 2,
-    "language": "C",
-    "topics": [
-      "homebrew",
-      "libretro",
-      "playstation-5",
-      "psx-emulator",
-      "swanstation"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-07T20:41:07Z",
-    "updated_at": "2026-10-13T08:16:22Z",
-    "owner": {
-      "name": "darkxex",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17991404?v=4"
-    }
-  },
-  {
-    "name": "PinkiePie1/SmoothEPD",
-    "url": "https://github.com/PinkiePie1/SmoothEPD",
-    "description": "47FPS EPD display driver, for EPD modules with SPI interface",
-    "stars": 27,
-    "forks": 8,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-25T09:05:06Z",
-    "updated_at": "2026-10-27T07:06:25Z",
-    "owner": {
-      "name": "PinkiePie1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7542698?v=4"
-    }
-  },
-  {
-    "name": "ashmerra/wehavephones",
-    "url": "https://github.com/ashmerra/wehavephones",
-    "description": "Winlator fork for running World of Warcraft and Battle.net on Android.",
-    "stars": 27,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "android",
-      "android-gaming",
-      "arm64",
-      "battle-net",
-      "fex",
-      "proton",
-      "wine",
-      "winlator",
-      "world-of-warcraft",
-      "wow"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-09T10:11:01Z",
-    "updated_at": "2026-10-13T23:23:30Z",
-    "owner": {
-      "name": "ashmerra",
-      "avatar_url": "https://avatars.githubusercontent.com/u/334785101?v=4"
     }
   },
   {
