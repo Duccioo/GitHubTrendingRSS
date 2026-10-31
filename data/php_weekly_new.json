@@ -101,14 +101,16 @@
   {
     "name": "Jacckisback/eclair-cms",
     "url": "https://github.com/Jacckisback/eclair-cms",
-    "description": "CMS PHP ultra léger, sans base de données ni extensions : Lighthouse 100, SEO et GEO intégrés (JSON-LD, llms.txt, robots IA), sécurisé, installable en 3 minutes sur n'importe quel hébergement mutualisé.",
-    "stars": 34,
-    "forks": 6,
+    "description": "Ultra-lightweight, secure PHP CMS with no database or plugins: Lighthouse 100, built-in SEO and GEO (JSON-LD, llms.txt, AI bots), and a 3-minute setup on any shared hosting plan.",
+    "stars": 45,
+    "forks": 7,
     "language": "PHP",
-    "topics": [],
+    "topics": [
+      "cms"
+    ],
     "license": "MIT License",
     "created_at": "2026-10-29T07:42:45Z",
-    "updated_at": "2026-10-30T07:29:42Z",
+    "updated_at": "2026-10-31T02:13:02Z",
     "owner": {
       "name": "Jacckisback",
       "avatar_url": "https://avatars.githubusercontent.com/u/12006567?v=4"
@@ -203,22 +205,6 @@
     "owner": {
       "name": "yahyakhalid",
       "avatar_url": "https://avatars.githubusercontent.com/u/35874151?v=4"
-    }
-  },
-  {
-    "name": "kungec/nat-cloud",
-    "url": "https://github.com/kungec/nat-cloud",
-    "description": "☁️ NAT Cloud — 轻量 NAT VPS 销售与自动化开通系统（PHP/MySQL，LXC 节点全自动交付，含计费/工单/实名/返利/开放API）",
-    "stars": 21,
-    "forks": 18,
-    "language": "PHP",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-12T07:57:20Z",
-    "updated_at": "2026-10-17T05:27:56Z",
-    "owner": {
-      "name": "kungec",
-      "avatar_url": "https://avatars.githubusercontent.com/u/330999056?v=4"
     }
   },
   {
@@ -318,32 +304,39 @@
     }
   },
   {
-    "name": "91cnm/web-crawler",
-    "url": "https://github.com/91cnm/web-crawler",
-    "description": "网页爬虫工具（PHP 版）",
+    "name": "LokiCheckout/LokiCheckout_Core",
+    "url": "https://github.com/LokiCheckout/LokiCheckout_Core",
+    "description": null,
     "stars": 14,
-    "forks": 5,
+    "forks": 3,
     "language": "PHP",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-11T05:27:03Z",
-    "updated_at": "2026-10-17T00:34:02Z",
+    "topics": [
+      "loki-checkout",
+      "loki-checkout-category-core",
+      "loki-checkout-plan-free",
+      "loki-checkout-plan-professional",
+      "loki-checkout-plan-standard",
+      "loki-checkout-plan-trial"
+    ],
+    "license": "Open Software License 3.0",
+    "created_at": "2026-10-27T08:23:25Z",
+    "updated_at": "2026-10-30T21:09:31Z",
     "owner": {
-      "name": "91cnm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/140958003?v=4"
+      "name": "LokiCheckout",
+      "avatar_url": "https://avatars.githubusercontent.com/u/220194355?v=4"
     }
   },
   {
     "name": "davidnurdin/jumPhp",
     "url": "https://github.com/davidnurdin/jumPhp",
     "description": "PHP framework for retro 2D games running on the desktop and in the browser (WebAssembly), Docker-only",
-    "stars": 13,
+    "stars": 14,
     "forks": 0,
     "language": "PHP",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-10-27T17:11:09Z",
-    "updated_at": "2026-10-30T07:51:25Z",
+    "updated_at": "2026-10-30T11:12:20Z",
     "owner": {
       "name": "davidnurdin",
       "avatar_url": "https://avatars.githubusercontent.com/u/50957749?v=4"
@@ -442,50 +435,6 @@
     }
   },
   {
-    "name": "DirectoryTree/Screenshot",
-    "url": "https://github.com/DirectoryTree/Screenshot",
-    "description": "Capture images and PDFs with PHP and Laravel",
-    "stars": 13,
-    "forks": 2,
-    "language": "PHP",
-    "topics": [
-      "laravel",
-      "php",
-      "screenshot",
-      "screenshots"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-14T01:49:31Z",
-    "updated_at": "2026-10-17T05:29:52Z",
-    "owner": {
-      "name": "DirectoryTree",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49739287?v=4"
-    }
-  },
-  {
-    "name": "LokiCheckout/LokiCheckout_Core",
-    "url": "https://github.com/LokiCheckout/LokiCheckout_Core",
-    "description": null,
-    "stars": 12,
-    "forks": 3,
-    "language": "PHP",
-    "topics": [
-      "loki-checkout",
-      "loki-checkout-category-core",
-      "loki-checkout-plan-free",
-      "loki-checkout-plan-professional",
-      "loki-checkout-plan-standard",
-      "loki-checkout-plan-trial"
-    ],
-    "license": "Open Software License 3.0",
-    "created_at": "2026-10-27T08:23:25Z",
-    "updated_at": "2026-10-29T22:35:04Z",
-    "owner": {
-      "name": "LokiCheckout",
-      "avatar_url": "https://avatars.githubusercontent.com/u/220194355?v=4"
-    }
-  },
-  {
     "name": "Bulletdev/php2shell-poc",
     "url": "https://github.com/Bulletdev/php2shell-poc",
     "description": "CVE-2026-109618/109619 --- PHP session.upload_progress pre-auth RCE (chain A/B/C)",
@@ -565,6 +514,60 @@
     }
   },
   {
+    "name": "SerafimArts/PHP-Doom",
+    "url": "https://github.com/SerafimArts/PHP-Doom",
+    "description": "Pure PHP Doom (built-in extensions only), powered by Vulkan API with ray tracing",
+    "stars": 11,
+    "forks": 1,
+    "language": "PHP",
+    "topics": [
+      "doom",
+      "ffi",
+      "native",
+      "php",
+      "raytracing",
+      "vulkan",
+      "vulkan-api"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-30T17:39:48Z",
+    "updated_at": "2026-10-31T07:08:56Z",
+    "owner": {
+      "name": "SerafimArts",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2461257?v=4"
+    }
+  },
+  {
+    "name": "tevkert/queue-prefork",
+    "url": "https://github.com/tevkert/queue-prefork",
+    "description": "Cut the memory of Laravel queue workers by up to 80 %: queue:work and Horizon workers fork from one template that shares compiled code. Drop-in, no code changes.",
+    "stars": 11,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "fork",
+      "horizon",
+      "laravel",
+      "laravel-horizon",
+      "laravel-queue",
+      "memory",
+      "memory-usage",
+      "opcache",
+      "performance",
+      "php",
+      "queue",
+      "queue-workers",
+      "ram"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-28T08:42:06Z",
+    "updated_at": "2026-10-30T16:02:02Z",
+    "owner": {
+      "name": "tevkert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/337683099?v=4"
+    }
+  },
+  {
     "name": "Gi1gamesh123/php-unserialize-uaf-rce",
     "url": "https://github.com/Gi1gamesh123/php-unserialize-uaf-rce",
     "description": "PHP Serializable var_hash UAF -> RCE (php2shell/MADBugs) — repro + adapted EXP, php8.3.6 verified, disable_functions bypass 10/10",
@@ -635,22 +638,6 @@
     "owner": {
       "name": "gongpz",
       "avatar_url": "https://avatars.githubusercontent.com/u/68883149?v=4"
-    }
-  },
-  {
-    "name": "elpulsocivico/pulso-civico",
-    "url": "https://github.com/elpulsocivico/pulso-civico",
-    "description": "Plataforma ciudadana y abierta de transparencia política en México. Monitoreo del Congreso, asistencias, votaciones y trayectoria sin sesgo partidista.",
-    "stars": 10,
-    "forks": 4,
-    "language": "PHP",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-10-12T21:09:29Z",
-    "updated_at": "2026-10-16T16:51:21Z",
-    "owner": {
-      "name": "elpulsocivico",
-      "avatar_url": "https://avatars.githubusercontent.com/u/341668686?v=4"
     }
   }
 ]
