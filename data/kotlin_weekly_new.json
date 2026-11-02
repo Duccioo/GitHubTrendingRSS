@@ -19,8 +19,8 @@
     "name": "wangzan101/Mika",
     "url": "https://github.com/wangzan101/Mika",
     "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-    "stars": 3108,
-    "forks": 502,
+    "stars": 4594,
+    "forks": 873,
     "language": "Kotlin",
     "topics": [
       "accessibility",
@@ -34,7 +34,7 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-10-29T14:34:07Z",
-    "updated_at": "2026-11-01T09:30:09Z",
+    "updated_at": "2026-11-02T08:42:23Z",
     "owner": {
       "name": "wangzan101",
       "avatar_url": "https://avatars.githubusercontent.com/u/102038245?v=4"
@@ -67,8 +67,8 @@
     "name": "jackwener/DSH-Android",
     "url": "https://github.com/jackwener/DSH-Android",
     "description": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
-    "stars": 650,
-    "forks": 65,
+    "stars": 730,
+    "forks": 78,
     "language": "Kotlin",
     "topics": [
       "ai-agent",
@@ -81,10 +81,84 @@
     ],
     "license": "Apache License 2.0",
     "created_at": "2026-10-27T19:26:12Z",
-    "updated_at": "2026-11-01T09:24:39Z",
+    "updated_at": "2026-11-02T08:02:11Z",
     "owner": {
       "name": "jackwener",
       "avatar_url": "https://avatars.githubusercontent.com/u/30525741?v=4"
+    }
+  },
+  {
+    "name": "Verlintas/NOIR",
+    "url": "https://github.com/Verlintas/NOIR",
+    "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+    "stars": 624,
+    "forks": 46,
+    "language": "Kotlin",
+    "topics": [
+      "adb",
+      "android",
+      "android-privacy",
+      "android-security",
+      "android-tools",
+      "apk-analysis",
+      "bloatware",
+      "cli",
+      "cross-platform",
+      "debloat",
+      "jadx",
+      "kotlin",
+      "kotlin-multiplatform",
+      "privacy",
+      "privacy-tools",
+      "security-audit",
+      "static-analysis",
+      "telemetry",
+      "terminal-ui",
+      "tui"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-31T21:34:39Z",
+    "updated_at": "2026-11-02T08:42:07Z",
+    "owner": {
+      "name": "Verlintas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/310443301?v=4"
+    }
+  },
+  {
+    "name": "arpanjot-coding/AVault",
+    "url": "https://github.com/arpanjot-coding/AVault",
+    "description": "AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. Rootless call recording via Shizuku with AES-256-GCM, biometrics & auto-cleanup.",
+    "stars": 517,
+    "forks": 34,
+    "language": "Kotlin",
+    "topics": [
+      "aes-256",
+      "android",
+      "android-14",
+      "android-15",
+      "android-16",
+      "android-call-recorder",
+      "audio-recorder",
+      "biometrics",
+      "call-recorder",
+      "call-recording",
+      "encryption",
+      "foss",
+      "jetpack-compose",
+      "kotlin",
+      "open-source",
+      "privacy",
+      "rootless",
+      "security",
+      "shizuku",
+      "vault"
+    ],
+    "license": "Other",
+    "created_at": "2026-10-31T19:21:27Z",
+    "updated_at": "2026-11-02T08:28:16Z",
+    "owner": {
+      "name": "arpanjot-coding",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50767931?v=4"
     }
   },
   {
@@ -101,33 +175,6 @@
     "owner": {
       "name": "lesnolie",
       "avatar_url": "https://avatars.githubusercontent.com/u/81410185?v=4"
-    }
-  },
-  {
-    "name": "PiggyBackBayonet/MiAuto",
-    "url": "https://github.com/PiggyBackBayonet/MiAuto",
-    "description": "小米 / OPPO / vivo 等 ICCOA CarLink 手机投上车机：无线连接，无需转接盒、无需 root。Car-side ICCOA CarLink receiver for Xiaomi CarWith, OPPO Car+ and vivo Jovi InCar.",
-    "stars": 379,
-    "forks": 44,
-    "language": "Kotlin",
-    "topics": [
-      "agpl",
-      "android",
-      "carlink",
-      "carwith",
-      "headunit",
-      "iccoa",
-      "oppo",
-      "screen-mirroring",
-      "vivo",
-      "xiaomi"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-10-13T07:54:44Z",
-    "updated_at": "2026-10-19T07:00:56Z",
-    "owner": {
-      "name": "PiggyBackBayonet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73511303?v=4"
     }
   },
   {
@@ -173,43 +220,6 @@
     "owner": {
       "name": "man15h",
       "avatar_url": "https://avatars.githubusercontent.com/u/13364153?v=4"
-    }
-  },
-  {
-    "name": "arpanjot-coding/AVault",
-    "url": "https://github.com/arpanjot-coding/AVault",
-    "description": "AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. Rootless call recording via Shizuku with AES-256-GCM, biometrics & auto-cleanup.",
-    "stars": 323,
-    "forks": 8,
-    "language": "Kotlin",
-    "topics": [
-      "aes-256",
-      "android",
-      "android-14",
-      "android-15",
-      "android-16",
-      "android-call-recorder",
-      "audio-recorder",
-      "biometrics",
-      "call-recorder",
-      "call-recording",
-      "encryption",
-      "foss",
-      "jetpack-compose",
-      "kotlin",
-      "open-source",
-      "privacy",
-      "rootless",
-      "security",
-      "shizuku",
-      "vault"
-    ],
-    "license": "Other",
-    "created_at": "2026-10-31T19:21:27Z",
-    "updated_at": "2026-11-01T09:29:34Z",
-    "owner": {
-      "name": "arpanjot-coding",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50767931?v=4"
     }
   },
   {
@@ -260,16 +270,32 @@
     }
   },
   {
+    "name": "mylea1/phongent",
+    "url": "https://github.com/mylea1/phongent",
+    "description": "基于 Mika 的 iOS / Android 多设备 agent 主控与安卓执行端",
+    "stars": 262,
+    "forks": 68,
+    "language": "Kotlin",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-11-01T04:40:37Z",
+    "updated_at": "2026-11-02T08:39:23Z",
+    "owner": {
+      "name": "mylea1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/277937759?v=4"
+    }
+  },
+  {
     "name": "5151561/Trackr",
     "url": "https://github.com/5151561/Trackr",
     "description": "公交实时到站查询与动态追踪",
-    "stars": 234,
-    "forks": 37,
+    "stars": 247,
+    "forks": 40,
     "language": "Kotlin",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-10-29T19:41:43Z",
-    "updated_at": "2026-11-01T07:55:31Z",
+    "updated_at": "2026-11-02T08:03:18Z",
     "owner": {
       "name": "5151561",
       "avatar_url": "https://avatars.githubusercontent.com/u/62234963?v=4"
@@ -279,13 +305,13 @@
     "name": "kalasyan/recompa",
     "url": "https://github.com/kalasyan/recompa",
     "description": null,
-    "stars": 168,
+    "stars": 189,
     "forks": 3,
     "language": "Kotlin",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-10-27T11:31:43Z",
-    "updated_at": "2026-11-01T09:09:12Z",
+    "updated_at": "2026-11-01T23:20:39Z",
     "owner": {
       "name": "kalasyan",
       "avatar_url": "https://avatars.githubusercontent.com/u/10440484?v=4"
@@ -305,6 +331,38 @@
     "owner": {
       "name": "aradhyas8",
       "avatar_url": "https://avatars.githubusercontent.com/u/98498041?v=4"
+    }
+  },
+  {
+    "name": "levhakobyan/OpenTV-Remote",
+    "url": "https://github.com/levhakobyan/OpenTV-Remote",
+    "description": "Free, open-source smart TV remote for Android and iPhone. Custom layouts, local Wi-Fi control, and English/Russian interfaces. MIT licensed.",
+    "stars": 138,
+    "forks": 9,
+    "language": "Kotlin",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-27T22:24:47Z",
+    "updated_at": "2026-11-02T08:36:00Z",
+    "owner": {
+      "name": "levhakobyan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44626278?v=4"
+    }
+  },
+  {
+    "name": "addozhang/leancast",
+    "url": "https://github.com/addozhang/leancast",
+    "description": "Ad-free DLNA / UPnP cast receiver for Android TV · 极简无广告投屏接收器",
+    "stars": 137,
+    "forks": 11,
+    "language": "Kotlin",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-28T00:22:23Z",
+    "updated_at": "2026-11-02T03:16:11Z",
+    "owner": {
+      "name": "addozhang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2224492?v=4"
     }
   },
   {
@@ -339,22 +397,6 @@
     }
   },
   {
-    "name": "addozhang/leancast",
-    "url": "https://github.com/addozhang/leancast",
-    "description": "Ad-free DLNA / UPnP cast receiver for Android TV · 极简无广告投屏接收器",
-    "stars": 125,
-    "forks": 9,
-    "language": "Kotlin",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-28T00:22:23Z",
-    "updated_at": "2026-11-01T04:45:31Z",
-    "owner": {
-      "name": "addozhang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2224492?v=4"
-    }
-  },
-  {
     "name": "Jimu888/home-tv-cn",
     "url": "https://github.com/Jimu888/home-tv-cn",
     "description": "简居 TV：面向中国大陆常用视频应用的简约 Android TV 桌面，基于 Aerial 定制。",
@@ -368,6 +410,31 @@
     "owner": {
       "name": "Jimu888",
       "avatar_url": "https://avatars.githubusercontent.com/u/90743532?v=4"
+    }
+  },
+  {
+    "name": "JulioFerrero/pocket-foundry",
+    "url": "https://github.com/JulioFerrero/pocket-foundry",
+    "description": "Play your own copy of Factorio on Android: the official Linux ARM64 build, run without emulation on the phone's GPU, with an on-screen controller.",
+    "stars": 115,
+    "forks": 6,
+    "language": "Kotlin",
+    "topics": [
+      "adreno",
+      "android",
+      "factorio",
+      "linux-arm64",
+      "mesa",
+      "termux-x11",
+      "turnip",
+      "zink"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-27T19:27:12Z",
+    "updated_at": "2026-11-02T03:42:32Z",
+    "owner": {
+      "name": "JulioFerrero",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61594022?v=4"
     }
   },
   {
@@ -436,31 +503,6 @@
     }
   },
   {
-    "name": "JulioFerrero/pocket-foundry",
-    "url": "https://github.com/JulioFerrero/pocket-foundry",
-    "description": "Play your own copy of Factorio on Android: the official Linux ARM64 build, run without emulation on the phone's GPU, with an on-screen controller.",
-    "stars": 111,
-    "forks": 7,
-    "language": "Kotlin",
-    "topics": [
-      "adreno",
-      "android",
-      "factorio",
-      "linux-arm64",
-      "mesa",
-      "termux-x11",
-      "turnip",
-      "zink"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-27T19:27:12Z",
-    "updated_at": "2026-11-01T02:18:54Z",
-    "owner": {
-      "name": "JulioFerrero",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61594022?v=4"
-    }
-  },
-  {
     "name": "subhashhhhhh/Lumen",
     "url": "https://github.com/subhashhhhhh/Lumen",
     "description": "A photo gallery for Android with the smart features of Google Photos and iPhone Photos. Nothing leaves your phone.",
@@ -518,29 +560,6 @@
     }
   },
   {
-    "name": "Verlintas/NOIR",
-    "url": "https://github.com/Verlintas/NOIR",
-    "description": "Desktop audit of what an Android device can leak: permissions, endpoints, risk, reversible fixes",
-    "stars": 99,
-    "forks": 9,
-    "language": "Kotlin",
-    "topics": [
-      "adb",
-      "android",
-      "cli",
-      "kotlin",
-      "privacy",
-      "security-audit"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-31T21:34:39Z",
-    "updated_at": "2026-11-01T09:28:51Z",
-    "owner": {
-      "name": "Verlintas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/310443301?v=4"
-    }
-  },
-  {
     "name": "samdgea/idlix-androidtv",
     "url": "https://github.com/samdgea/idlix-androidtv",
     "description": null,
@@ -595,22 +614,6 @@
     "owner": {
       "name": "shaonialife",
       "avatar_url": "https://avatars.githubusercontent.com/u/16135960?v=4"
-    }
-  },
-  {
-    "name": "levhakobyan/OpenTV-Remote",
-    "url": "https://github.com/levhakobyan/OpenTV-Remote",
-    "description": "Free, open-source smart TV remote for Android and iPhone. Custom layouts, local Wi-Fi control, and English/Russian interfaces. MIT licensed.",
-    "stars": 84,
-    "forks": 5,
-    "language": "Kotlin",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-27T22:24:47Z",
-    "updated_at": "2026-11-01T09:05:34Z",
-    "owner": {
-      "name": "levhakobyan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44626278?v=4"
     }
   },
   {
@@ -827,6 +830,22 @@
     }
   },
   {
+    "name": "MEH-VPN/MEH-VPN",
+    "url": "https://github.com/MEH-VPN/MEH-VPN",
+    "description": "به سادگی یک کلیک وصل بشید",
+    "stars": 59,
+    "forks": 1,
+    "language": "Kotlin",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-30T14:00:46Z",
+    "updated_at": "2026-11-01T19:40:57Z",
+    "owner": {
+      "name": "MEH-VPN",
+      "avatar_url": "https://avatars.githubusercontent.com/u/350315152?v=4"
+    }
+  },
+  {
     "name": "NEORUAA/Glasmio",
     "url": "https://github.com/NEORUAA/Glasmio",
     "description": "A Jetpack Compose UI framework bringing a faithful 1:1 recreation of iOS 27 Liquid Glass, animations, controls, and interactions to Android.",
@@ -889,22 +908,6 @@
     "owner": {
       "name": "inkappdev",
       "avatar_url": "https://avatars.githubusercontent.com/u/348110936?v=4"
-    }
-  },
-  {
-    "name": "MEH-VPN/MEH-VPN",
-    "url": "https://github.com/MEH-VPN/MEH-VPN",
-    "description": "به سادگی یک کلیک وصل بشید",
-    "stars": 49,
-    "forks": 1,
-    "language": "Kotlin",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-30T14:00:46Z",
-    "updated_at": "2026-11-01T09:30:40Z",
-    "owner": {
-      "name": "MEH-VPN",
-      "avatar_url": "https://avatars.githubusercontent.com/u/350315152?v=4"
     }
   },
   {
@@ -988,19 +991,19 @@
     }
   },
   {
-    "name": "mttmcknn/sea-glass",
-    "url": "https://github.com/mttmcknn/sea-glass",
-    "description": null,
-    "stars": 46,
-    "forks": 1,
+    "name": "Again1996-bit/CVE-2026-98260-GhostKey",
+    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
+    "description": "GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
+    "stars": 45,
+    "forks": 25,
     "language": "Kotlin",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-13T17:44:02Z",
-    "updated_at": "2026-10-19T05:35:02Z",
+    "license": "No license",
+    "created_at": "2026-10-29T05:12:04Z",
+    "updated_at": "2026-11-02T01:52:50Z",
     "owner": {
-      "name": "mttmcknn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6266621?v=4"
+      "name": "Again1996-bit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67904045?v=4"
     }
   },
   {
@@ -1042,19 +1045,19 @@
     }
   },
   {
-    "name": "Again1996-bit/CVE-2026-98260-GhostKey",
-    "url": "https://github.com/Again1996-bit/CVE-2026-98260-GhostKey",
-    "description": "GhostKey - CVE-2026-98260 一键提权工具（Shizuku + NDK Native）",
-    "stars": 42,
-    "forks": 22,
+    "name": "zzzhr1990/StellarAndroid",
+    "url": "https://github.com/zzzhr1990/StellarAndroid",
+    "description": "恒星播放器（Android） · StellarPlayer (Android), an open-source Kotlin and MPV media player",
+    "stars": 39,
+    "forks": 1,
     "language": "Kotlin",
     "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-29T05:12:04Z",
-    "updated_at": "2026-11-01T07:03:27Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-29T03:22:13Z",
+    "updated_at": "2026-11-02T02:21:24Z",
     "owner": {
-      "name": "Again1996-bit",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67904045?v=4"
+      "name": "zzzhr1990",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13807378?v=4"
     }
   },
   {
@@ -1164,6 +1167,51 @@
     }
   },
   {
+    "name": "7Ds7/AODLed",
+    "url": "https://github.com/7Ds7/AODLed",
+    "description": "A notification LED for phones without one, drawn on the always-on display",
+    "stars": 33,
+    "forks": 2,
+    "language": "Kotlin",
+    "topics": [
+      "always-on-display",
+      "android",
+      "aod",
+      "foss",
+      "grapheneos",
+      "led"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-28T19:52:58Z",
+    "updated_at": "2026-11-01T21:50:24Z",
+    "owner": {
+      "name": "7Ds7",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1581656?v=4"
+    }
+  },
+  {
+    "name": "ephraimduncan/hackertube.tv",
+    "url": "https://github.com/ephraimduncan/hackertube.tv",
+    "description": "HackerTube for Android TV: the videos Hacker News recommends, played in the YouTube app on your TV.",
+    "stars": 31,
+    "forks": 3,
+    "language": "Kotlin",
+    "topics": [
+      "android-tv",
+      "hacker-news",
+      "jetpack-compose",
+      "kotlin",
+      "youtube"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-11-01T20:10:48Z",
+    "updated_at": "2026-11-02T08:24:26Z",
+    "owner": {
+      "name": "ephraimduncan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55143799?v=4"
+    }
+  },
+  {
     "name": "zainkhalid91/compose-loaders",
     "url": "https://github.com/zainkhalid91/compose-loaders",
     "description": "A growing collection of loading indicators in pure Jetpack Compose / Compose Multiplatform. No assets, no Lottie.",
@@ -1190,45 +1238,6 @@
     "owner": {
       "name": "zainkhalid91",
       "avatar_url": "https://avatars.githubusercontent.com/u/43206893?v=4"
-    }
-  },
-  {
-    "name": "zzzhr1990/StellarAndroid",
-    "url": "https://github.com/zzzhr1990/StellarAndroid",
-    "description": "恒星播放器（Android） · StellarPlayer (Android), an open-source Kotlin and MPV media player",
-    "stars": 30,
-    "forks": 1,
-    "language": "Kotlin",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-29T03:22:13Z",
-    "updated_at": "2026-11-01T04:54:17Z",
-    "owner": {
-      "name": "zzzhr1990",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13807378?v=4"
-    }
-  },
-  {
-    "name": "7Ds7/AODLed",
-    "url": "https://github.com/7Ds7/AODLed",
-    "description": "A notification LED for phones without one, drawn on the always-on display",
-    "stars": 30,
-    "forks": 1,
-    "language": "Kotlin",
-    "topics": [
-      "always-on-display",
-      "android",
-      "aod",
-      "foss",
-      "grapheneos",
-      "led"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-28T19:52:58Z",
-    "updated_at": "2026-11-01T04:45:04Z",
-    "owner": {
-      "name": "7Ds7",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1581656?v=4"
     }
   },
   {
@@ -1290,6 +1299,22 @@
     "owner": {
       "name": "Rainy-C",
       "avatar_url": "https://avatars.githubusercontent.com/u/187751705?v=4"
+    }
+  },
+  {
+    "name": "notBrian2/revanced-rif-fixes",
+    "url": "https://github.com/notBrian2/revanced-rif-fixes",
+    "description": "ReVanced patches for rif is fun golden platinum 5.6.22: Reddit galleries, load more comments, Redgifs, imgur albums",
+    "stars": 29,
+    "forks": 1,
+    "language": "Kotlin",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-30T04:01:13Z",
+    "updated_at": "2026-11-02T04:41:06Z",
+    "owner": {
+      "name": "notBrian2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/327044655?v=4"
     }
   },
   {
@@ -1406,31 +1431,6 @@
     }
   },
   {
-    "name": "Pixelgamer4k/graden",
-    "url": "https://github.com/Pixelgamer4k/graden",
-    "description": "Multi-layer video editor and colour grading app for Android — proxy editing, native-resolution preview, colour wheels and scopes, full-quality H.264/H.265 export. Beta.",
-    "stars": 29,
-    "forks": 2,
-    "language": "Kotlin",
-    "topics": [
-      "android",
-      "color-grading",
-      "hevc",
-      "jetpack-compose",
-      "kotlin",
-      "media3",
-      "video-editing",
-      "video-editor"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-15T17:01:36Z",
-    "updated_at": "2026-10-19T03:00:28Z",
-    "owner": {
-      "name": "Pixelgamer4k",
-      "avatar_url": "https://avatars.githubusercontent.com/u/139259340?v=4"
-    }
-  },
-  {
     "name": "Koustubh12345/YTXTube",
     "url": "https://github.com/Koustubh12345/YTXTube",
     "description": "YTXTube: A lightweight YouTube and YouTube Music client with ad-free playback, synced lyrics, and high-quality downloads for Android phones, tablets, and TV.",
@@ -1502,22 +1502,6 @@
     "owner": {
       "name": "WWRJ3321",
       "avatar_url": "https://avatars.githubusercontent.com/u/164207424?v=4"
-    }
-  },
-  {
-    "name": "notBrian2/revanced-rif-fixes",
-    "url": "https://github.com/notBrian2/revanced-rif-fixes",
-    "description": "ReVanced patches for rif is fun golden platinum 5.6.22: Reddit galleries, load more comments, Redgifs, imgur albums",
-    "stars": 26,
-    "forks": 1,
-    "language": "Kotlin",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-30T04:01:13Z",
-    "updated_at": "2026-11-01T05:03:07Z",
-    "owner": {
-      "name": "notBrian2",
-      "avatar_url": "https://avatars.githubusercontent.com/u/327044655?v=4"
     }
   },
   {
@@ -1630,6 +1614,26 @@
     "owner": {
       "name": "HapeLee",
       "avatar_url": "https://avatars.githubusercontent.com/u/63206378?v=4"
+    }
+  },
+  {
+    "name": "mytv-android/myBV",
+    "url": "https://github.com/mytv-android/myBV",
+    "description": "哔神，启动！",
+    "stars": 24,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [
+      "android-tv",
+      "bilibili",
+      "material-design-3"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-27T03:55:21Z",
+    "updated_at": "2026-11-02T01:23:04Z",
+    "owner": {
+      "name": "mytv-android",
+      "avatar_url": "https://avatars.githubusercontent.com/u/205516765?v=4"
     }
   },
   {
@@ -1807,23 +1811,19 @@
     }
   },
   {
-    "name": "mytv-android/myBV",
-    "url": "https://github.com/mytv-android/myBV",
-    "description": "哔神，启动！",
+    "name": "goonerzdevops/DwisnuLabsParental",
+    "url": "https://github.com/goonerzdevops/DwisnuLabsParental",
+    "description": "Multi-Device Parental Control & Screen Lock Agent with Telegram Bot & Firebase Relay",
     "stars": 22,
-    "forks": 0,
+    "forks": 2,
     "language": "Kotlin",
-    "topics": [
-      "android-tv",
-      "bilibili",
-      "material-design-3"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-27T03:55:21Z",
-    "updated_at": "2026-11-01T09:00:06Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-27T16:05:46Z",
+    "updated_at": "2026-11-02T07:51:54Z",
     "owner": {
-      "name": "mytv-android",
-      "avatar_url": "https://avatars.githubusercontent.com/u/205516765?v=4"
+      "name": "goonerzdevops",
+      "avatar_url": "https://avatars.githubusercontent.com/u/149767226?v=4"
     }
   },
   {
@@ -1918,38 +1918,6 @@
     "owner": {
       "name": "newMalloc",
       "avatar_url": "https://avatars.githubusercontent.com/u/259806477?v=4"
-    }
-  },
-  {
-    "name": "cassiozen/notesd",
-    "url": "https://github.com/cassiozen/notesd",
-    "description": "Self-hosted note taking",
-    "stars": 22,
-    "forks": 3,
-    "language": "Kotlin",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-13T13:19:47Z",
-    "updated_at": "2026-10-19T06:15:52Z",
-    "owner": {
-      "name": "cassiozen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33676?v=4"
-    }
-  },
-  {
-    "name": "ymusic-io/YMusicV4",
-    "url": "https://github.com/ymusic-io/YMusicV4",
-    "description": null,
-    "stars": 22,
-    "forks": 8,
-    "language": "Kotlin",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-13T02:31:05Z",
-    "updated_at": "2026-10-19T05:17:19Z",
-    "owner": {
-      "name": "ymusic-io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/317754690?v=4"
     }
   },
   {
@@ -2049,6 +2017,53 @@
     }
   },
   {
+    "name": "ktv668899/maidong-ktv",
+    "url": "https://github.com/ktv668899/maidong-ktv",
+    "description": "麦动KTV（麦动 KTV）· 开源电视 KTV 点歌应用，Android TV / 机顶盒 karaoke app：遥控器点歌 + 手机扫码点歌，自带曲库同步与 IJK 播放内核，免费无广告。 Maidong KTV - open source karaoke player for Android TV.",
+    "stars": 20,
+    "forks": 1,
+    "language": "Kotlin",
+    "topics": [
+      "android",
+      "android-tv",
+      "chinese",
+      "homelab",
+      "ijkplayer",
+      "karaoke",
+      "karaoke-player",
+      "kotlin",
+      "ktv",
+      "ktv-app",
+      "media-player",
+      "music-player",
+      "sing",
+      "tv-box"
+    ],
+    "license": "Other",
+    "created_at": "2026-10-27T06:39:16Z",
+    "updated_at": "2026-11-02T06:14:38Z",
+    "owner": {
+      "name": "ktv668899",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295618696?v=4"
+    }
+  },
+  {
+    "name": "Stormlyd/PodTide",
+    "url": "https://github.com/Stormlyd/PodTide",
+    "description": "An open-source Android companion for AirPods",
+    "stars": 20,
+    "forks": 1,
+    "language": "Kotlin",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-27T07:18:31Z",
+    "updated_at": "2026-11-02T05:41:18Z",
+    "owner": {
+      "name": "Stormlyd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/321229824?v=4"
+    }
+  },
+  {
     "name": "wangxso/mcarplay",
     "url": "https://github.com/wangxso/mcarplay",
     "description": "mCarPlay bridges Xiaomi CarWith to wireless CarPlay for seamless in-car connectivity.",
@@ -2113,6 +2128,42 @@
     }
   },
   {
+    "name": "HatriGt/flix-launcher",
+    "url": "https://github.com/HatriGt/flix-launcher",
+    "description": "Flix Launcher: an ad-free Android TV launcher made for watching. Resume your shows, start films and open your streaming apps from one fast home screen. About 700 KB.",
+    "stars": 19,
+    "forks": 1,
+    "language": "Kotlin",
+    "topics": [
+      "aerial-screensaver",
+      "android-launcher",
+      "android-tv",
+      "android-tv-launcher",
+      "bravia",
+      "custom-launcher",
+      "flix",
+      "flix-launcher",
+      "google-tv",
+      "google-tv-launcher",
+      "home-screen",
+      "kotlin",
+      "launcher",
+      "leanback",
+      "nuvio",
+      "nuvio-tv",
+      "sideload",
+      "stremio",
+      "tv-launcher"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-27T16:25:15Z",
+    "updated_at": "2026-11-01T15:37:41Z",
+    "owner": {
+      "name": "HatriGt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24761301?v=4"
+    }
+  },
+  {
     "name": "0xCoach/TaoSheng",
     "url": "https://github.com/0xCoach/TaoSheng",
     "description": "涛声 TaoSheng：用一部安卓手机全天收音 → 转写 → 认人 → AI 整理成待办与记忆。无需硬件、无需账号，数据只在你手机里。",
@@ -2166,39 +2217,27 @@
     }
   },
   {
-    "name": "HatriGt/flix-launcher",
-    "url": "https://github.com/HatriGt/flix-launcher",
-    "description": "Flix Launcher: an ad-free Android TV launcher made for watching. Resume your shows, start films and open your streaming apps from one fast home screen. About 700 KB.",
+    "name": "the-geeky-couldron/waypoint",
+    "url": "https://github.com/the-geeky-couldron/waypoint",
+    "description": "Real streets. Game worlds. Native Android navigation with 27 game-inspired maps, sensor-assisted guidance and verified in-app updates.",
     "stars": 18,
-    "forks": 1,
+    "forks": 4,
     "language": "Kotlin",
     "topics": [
-      "aerial-screensaver",
-      "android-launcher",
-      "android-tv",
-      "android-tv-launcher",
-      "bravia",
-      "custom-launcher",
-      "flix",
-      "flix-launcher",
-      "google-tv",
-      "google-tv-launcher",
-      "home-screen",
+      "android",
+      "gaming",
+      "jetpack-compose",
       "kotlin",
-      "launcher",
-      "leanback",
-      "nuvio",
-      "nuvio-tv",
-      "sideload",
-      "stremio",
-      "tv-launcher"
+      "maplibre",
+      "navigation",
+      "open-source"
     ],
     "license": "MIT License",
-    "created_at": "2026-10-27T16:25:15Z",
-    "updated_at": "2026-10-31T20:52:15Z",
+    "created_at": "2026-10-30T13:50:08Z",
+    "updated_at": "2026-11-02T04:10:11Z",
     "owner": {
-      "name": "HatriGt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24761301?v=4"
+      "name": "the-geeky-couldron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79440117?v=4"
     }
   },
   {
@@ -2327,37 +2366,6 @@
     }
   },
   {
-    "name": "ktv668899/maidong-ktv",
-    "url": "https://github.com/ktv668899/maidong-ktv",
-    "description": "麦动KTV（麦动 KTV）· 开源电视 KTV 点歌应用，Android TV / 机顶盒 karaoke app：遥控器点歌 + 手机扫码点歌，自带曲库同步与 IJK 播放内核，免费无广告。 Maidong KTV - open source karaoke player for Android TV.",
-    "stars": 16,
-    "forks": 1,
-    "language": "Kotlin",
-    "topics": [
-      "android",
-      "android-tv",
-      "chinese",
-      "homelab",
-      "ijkplayer",
-      "karaoke",
-      "karaoke-player",
-      "kotlin",
-      "ktv",
-      "ktv-app",
-      "media-player",
-      "music-player",
-      "sing",
-      "tv-box"
-    ],
-    "license": "Other",
-    "created_at": "2026-10-27T06:39:16Z",
-    "updated_at": "2026-11-01T07:47:12Z",
-    "owner": {
-      "name": "ktv668899",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295618696?v=4"
-    }
-  },
-  {
     "name": "HapeLee/Boxlet",
     "url": "https://github.com/HapeLee/Boxlet",
     "description": "Boxlet - 局域网文件互传客户端 (Android / Windows / Web)，主协议 LocalSend v2.2",
@@ -2456,7 +2464,7 @@
     "topics": [],
     "license": "No license",
     "created_at": "2026-10-29T05:24:24Z",
-    "updated_at": "2026-11-01T03:51:36Z",
+    "updated_at": "2026-11-02T04:34:15Z",
     "owner": {
       "name": "leizhiyuan",
       "avatar_url": "https://avatars.githubusercontent.com/u/2684384?v=4"
@@ -2568,6 +2576,93 @@
     }
   },
   {
+    "name": "yorulmazsinan/kokpit-car-launcher",
+    "url": "https://github.com/yorulmazsinan/kokpit-car-launcher",
+    "description": "Android araç multimedya cihazları için açık kaynak ana ekran: radyo, Bluetooth telefon ve müzik, yapay zekâ asistanı, USB medya. MT8227L / Android 8.1 CarPlay'li multimedya cihazları için; root gerekmez.",
+    "stars": 14,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [
+      "android",
+      "android-auto",
+      "android-launcher",
+      "arac-multimedya",
+      "car-launcher",
+      "carplay",
+      "head-unit",
+      "jetpack-compose",
+      "kotlin",
+      "mt8227l",
+      "turkce"
+    ],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-29T23:00:40Z",
+    "updated_at": "2026-11-02T05:26:44Z",
+    "owner": {
+      "name": "yorulmazsinan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17414972?v=4"
+    }
+  },
+  {
+    "name": "liamhiggins2011/Steno",
+    "url": "https://github.com/liamhiggins2011/Steno",
+    "description": "Offline-first text expander for Android with zero internet permission. Free, open-source, no ads, no trackers.",
+    "stars": 13,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [
+      "accessibility-service",
+      "android",
+      "foss",
+      "jetpack-compose",
+      "kotlin",
+      "no-tracking",
+      "offline-first",
+      "open-source",
+      "privacy",
+      "text-expander"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-30T17:03:18Z",
+    "updated_at": "2026-11-01T21:23:09Z",
+    "owner": {
+      "name": "liamhiggins2011",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218319558?v=4"
+    }
+  },
+  {
+    "name": "azayn-labs/fold-desk",
+    "url": "https://github.com/azayn-labs/fold-desk",
+    "description": "Desktop experience for Samsung Folds and minimal launcher",
+    "stars": 13,
+    "forks": 2,
+    "language": "Kotlin",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-27T14:47:39Z",
+    "updated_at": "2026-11-02T01:15:29Z",
+    "owner": {
+      "name": "azayn-labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98957197?v=4"
+    }
+  },
+  {
+    "name": "BinaryTape/a2ui-kmp",
+    "url": "https://github.com/BinaryTape/a2ui-kmp",
+    "description": "Google's Agent-to-UI renderer for Jetpack Compose (A2UI) on Kotlin Multiplatform: Android, desktop and iOS. Sponsored by LittlePress.AI.",
+    "stars": 13,
+    "forks": 2,
+    "language": "Kotlin",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-29T22:42:47Z",
+    "updated_at": "2026-11-02T07:13:59Z",
+    "owner": {
+      "name": "BinaryTape",
+      "avatar_url": "https://avatars.githubusercontent.com/u/185744922?v=4"
+    }
+  },
+  {
     "name": "devgalib/QuickTube",
     "url": "https://github.com/devgalib/QuickTube",
     "description": "Open-source Android video & music downloader: YouTube + 1,800 sites, in-app browser, share-to-download. Jetpack Compose.",
@@ -2595,22 +2690,6 @@
     }
   },
   {
-    "name": "azayn-labs/fold-desk",
-    "url": "https://github.com/azayn-labs/fold-desk",
-    "description": "Desktop experience for Samsung Folds and minimal launcher",
-    "stars": 13,
-    "forks": 2,
-    "language": "Kotlin",
-    "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-27T14:47:39Z",
-    "updated_at": "2026-10-31T06:28:44Z",
-    "owner": {
-      "name": "azayn-labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/98957197?v=4"
-    }
-  },
-  {
     "name": "mccoy88f/Zephyr_TV",
     "url": "https://github.com/mccoy88f/Zephyr_TV",
     "description": "Zephyr TV: home screen per Android TV (prima Piume)",
@@ -2624,50 +2703,6 @@
     "owner": {
       "name": "mccoy88f",
       "avatar_url": "https://avatars.githubusercontent.com/u/50622699?v=4"
-    }
-  },
-  {
-    "name": "Stormlyd/PodTide",
-    "url": "https://github.com/Stormlyd/PodTide",
-    "description": "An open-source Android companion for AirPods",
-    "stars": 13,
-    "forks": 1,
-    "language": "Kotlin",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-27T07:18:31Z",
-    "updated_at": "2026-10-31T16:56:19Z",
-    "owner": {
-      "name": "Stormlyd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/321229824?v=4"
-    }
-  },
-  {
-    "name": "yorulmazsinan/kokpit-car-launcher",
-    "url": "https://github.com/yorulmazsinan/kokpit-car-launcher",
-    "description": "Android araç multimedya cihazları için açık kaynak ana ekran: radyo, Bluetooth telefon ve müzik, yapay zekâ asistanı, USB medya. MT8227L / Android 8.1 CarPlay'li multimedya cihazları için; root gerekmez.",
-    "stars": 13,
-    "forks": 0,
-    "language": "Kotlin",
-    "topics": [
-      "android",
-      "android-auto",
-      "android-launcher",
-      "arac-multimedya",
-      "car-launcher",
-      "carplay",
-      "head-unit",
-      "jetpack-compose",
-      "kotlin",
-      "mt8227l",
-      "turkce"
-    ],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-29T23:00:40Z",
-    "updated_at": "2026-10-31T19:54:19Z",
-    "owner": {
-      "name": "yorulmazsinan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17414972?v=4"
     }
   },
   {
@@ -2687,19 +2722,19 @@
     }
   },
   {
-    "name": "Skittle6938/MG4Dash",
-    "url": "https://github.com/Skittle6938/MG4Dash",
-    "description": "MG4Dash: full-screen dark glass launcher for the MG4 Standard (SWI69 firmware)",
-    "stars": 13,
-    "forks": 1,
+    "name": "iamr0s/carvex-android",
+    "url": "https://github.com/iamr0s/carvex-android",
+    "description": "An Android implementation of multi-protocol vehicle connectivity; CarPlay is the first protocol being reproduced from iPhone firmware.(These walls are funny. First you hate 'em, then you get used to 'em. Enough time passes, you get so you depend on them. That's institutionalized.)",
+    "stars": 12,
+    "forks": 5,
     "language": "Kotlin",
     "topics": [],
     "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-13T15:53:20Z",
-    "updated_at": "2026-10-18T19:52:51Z",
+    "created_at": "2026-10-31T15:46:07Z",
+    "updated_at": "2026-11-02T03:20:08Z",
     "owner": {
-      "name": "Skittle6938",
-      "avatar_url": "https://avatars.githubusercontent.com/u/285625367?v=4"
+      "name": "iamr0s",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41138521?v=4"
     }
   },
   {
@@ -2772,34 +2807,19 @@
     }
   },
   {
-    "name": "doesthings/Meshwise",
-    "url": "https://github.com/doesthings/Meshwise",
-    "description": "Fast, free and open-source 3D model viewer for Android: STL, OBJ, 3MF, STEP, IGES. Section cuts, measuring, wall thickness, weight estimates. No ads, no tracking.",
-    "stars": 12,
+    "name": "stelios53/depthlock",
+    "url": "https://github.com/stelios53/depthlock",
+    "description": "DepthLock is an app that brings the depth effect to google pixel",
+    "stars": 11,
     "forks": 0,
     "language": "Kotlin",
-    "topics": [
-      "3d-printing",
-      "3d-printing-software",
-      "3d-printing-tools",
-      "3d-viewer",
-      "3d-viewers",
-      "android",
-      "cad",
-      "jetpack-compose",
-      "kotlin",
-      "kotlin-android",
-      "open-cascade",
-      "opengl-es",
-      "step-viewer",
-      "stl-viewer"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-13T13:53:36Z",
-    "updated_at": "2026-10-18T21:07:57Z",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-29T22:08:31Z",
+    "updated_at": "2026-11-02T07:49:21Z",
     "owner": {
-      "name": "doesthings",
-      "avatar_url": "https://avatars.githubusercontent.com/u/304099160?v=4"
+      "name": "stelios53",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46429252?v=4"
     }
   },
   {
@@ -2824,22 +2844,6 @@
     "owner": {
       "name": "feice11",
       "avatar_url": "https://avatars.githubusercontent.com/u/151984269?v=4"
-    }
-  },
-  {
-    "name": "fyworld/hongguoTV",
-    "url": "https://github.com/fyworld/hongguoTV",
-    "description": "红果TV无广爽看客户端（非官方、自家电视用）",
-    "stars": 11,
-    "forks": 0,
-    "language": "Kotlin",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-13T18:41:11Z",
-    "updated_at": "2026-10-19T02:23:45Z",
-    "owner": {
-      "name": "fyworld",
-      "avatar_url": "https://avatars.githubusercontent.com/u/128120310?v=4"
     }
   },
   {
