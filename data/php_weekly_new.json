@@ -16,31 +16,6 @@
     }
   },
   {
-    "name": "NeuroVision-Studio/NeuraVision",
-    "url": "https://github.com/NeuroVision-Studio/NeuraVision",
-    "description": "NeuraVision — AI content generation platform (PHP backend engine: auth, credits, generation, analytics)",
-    "stars": 205,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [
-      "ab-testing",
-      "ai-platform",
-      "analytics",
-      "backend-api",
-      "oauth",
-      "php",
-      "saas",
-      "sqlite"
-    ],
-    "license": "Other",
-    "created_at": "2026-10-15T14:23:06Z",
-    "updated_at": "2026-10-20T02:24:26Z",
-    "owner": {
-      "name": "NeuroVision-Studio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/342946863?v=4"
-    }
-  },
-  {
     "name": "syhunt/php2shell-protection",
     "url": "https://github.com/syhunt/php2shell-protection",
     "description": "Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apache protections and PHP hardening guidance",
@@ -102,15 +77,15 @@
     "name": "Jacckisback/eclair-cms",
     "url": "https://github.com/Jacckisback/eclair-cms",
     "description": "Ultra-lightweight, secure PHP CMS with no database or plugins: Lighthouse 100, built-in SEO and GEO (JSON-LD, llms.txt, AI bots), and a 3-minute setup on any shared hosting plan.",
-    "stars": 47,
+    "stars": 49,
     "forks": 7,
     "language": "PHP",
     "topics": [
       "cms"
     ],
-    "license": "MIT License",
+    "license": "GNU Affero General Public License v3.0",
     "created_at": "2026-10-29T07:42:45Z",
-    "updated_at": "2026-11-02T07:52:43Z",
+    "updated_at": "2026-11-02T22:18:37Z",
     "owner": {
       "name": "Jacckisback",
       "avatar_url": "https://avatars.githubusercontent.com/u/12006567?v=4"
@@ -195,8 +170,8 @@
     "name": "SerafimArts/PHP-Doom",
     "url": "https://github.com/SerafimArts/PHP-Doom",
     "description": "Pure PHP Doom (built-in extensions only), powered by Vulkan API with ray tracing",
-    "stars": 20,
-    "forks": 1,
+    "stars": 22,
+    "forks": 2,
     "language": "PHP",
     "topics": [
       "doom",
@@ -209,7 +184,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-10-30T17:39:48Z",
-    "updated_at": "2026-11-02T08:34:05Z",
+    "updated_at": "2026-11-02T18:56:23Z",
     "owner": {
       "name": "SerafimArts",
       "avatar_url": "https://avatars.githubusercontent.com/u/2461257?v=4"
@@ -351,6 +326,22 @@
     }
   },
   {
+    "name": "ikooc/aigw-backend",
+    "url": "https://github.com/ikooc/aigw-backend",
+    "description": "AI 聚合网关后端：多供应商账号池 + OpenAI 兼容 API（PHP 8.2）",
+    "stars": 14,
+    "forks": 13,
+    "language": "PHP",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-11-01T11:21:18Z",
+    "updated_at": "2026-11-03T08:43:22Z",
+    "owner": {
+      "name": "ikooc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119422672?v=4"
+    }
+  },
+  {
     "name": "ehabest/lhabyby-icons-api",
     "url": "https://github.com/ehabest/lhabyby-icons-api",
     "description": "Documentation and examples for using the hosted LHabyby Icons API.",
@@ -443,6 +434,36 @@
     }
   },
   {
+    "name": "tevkert/queue-prefork",
+    "url": "https://github.com/tevkert/queue-prefork",
+    "description": "Cut the memory of Laravel queue workers by up to 80 %: queue:work and Horizon workers fork from one template that shares compiled code. Drop-in, no code changes.",
+    "stars": 12,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [
+      "fork",
+      "horizon",
+      "laravel",
+      "laravel-horizon",
+      "laravel-queue",
+      "memory",
+      "memory-usage",
+      "opcache",
+      "performance",
+      "php",
+      "queue",
+      "queue-workers",
+      "ram"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-28T08:42:06Z",
+    "updated_at": "2026-11-02T22:35:17Z",
+    "owner": {
+      "name": "tevkert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/337683099?v=4"
+    }
+  },
+  {
     "name": "Bulletdev/php2shell-poc",
     "url": "https://github.com/Bulletdev/php2shell-poc",
     "description": "CVE-2026-109618/109619 --- PHP session.upload_progress pre-auth RCE (chain A/B/C)",
@@ -495,79 +516,6 @@
     }
   },
   {
-    "name": "bvr218/nubicta",
-    "url": "https://github.com/bvr218/nubicta",
-    "description": "Nubicta: ERP contable libre para Colombia. Facturación electrónica DIAN como software propio, nómina electrónica, inventario y contabilidad. Licencia MIT.",
-    "stars": 12,
-    "forks": 9,
-    "language": "PHP",
-    "topics": [
-      "colombia",
-      "contabilidad",
-      "dian",
-      "erp",
-      "facturacion-electronica",
-      "inertiajs",
-      "laravel",
-      "nomina-electronica",
-      "open-source",
-      "vue"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-14T22:45:22Z",
-    "updated_at": "2026-10-20T06:45:17Z",
-    "owner": {
-      "name": "bvr218",
-      "avatar_url": "https://avatars.githubusercontent.com/u/106783311?v=4"
-    }
-  },
-  {
-    "name": "tevkert/queue-prefork",
-    "url": "https://github.com/tevkert/queue-prefork",
-    "description": "Cut the memory of Laravel queue workers by up to 80 %: queue:work and Horizon workers fork from one template that shares compiled code. Drop-in, no code changes.",
-    "stars": 11,
-    "forks": 0,
-    "language": "PHP",
-    "topics": [
-      "fork",
-      "horizon",
-      "laravel",
-      "laravel-horizon",
-      "laravel-queue",
-      "memory",
-      "memory-usage",
-      "opcache",
-      "performance",
-      "php",
-      "queue",
-      "queue-workers",
-      "ram"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-28T08:42:06Z",
-    "updated_at": "2026-10-30T16:02:02Z",
-    "owner": {
-      "name": "tevkert",
-      "avatar_url": "https://avatars.githubusercontent.com/u/337683099?v=4"
-    }
-  },
-  {
-    "name": "ikooc/aigw-backend",
-    "url": "https://github.com/ikooc/aigw-backend",
-    "description": "AI 聚合网关后端：多供应商账号池 + OpenAI 兼容 API（PHP 8.2）",
-    "stars": 11,
-    "forks": 11,
-    "language": "PHP",
-    "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-11-01T11:21:18Z",
-    "updated_at": "2026-11-02T08:03:20Z",
-    "owner": {
-      "name": "ikooc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/119422672?v=4"
-    }
-  },
-  {
     "name": "Gi1gamesh123/php-unserialize-uaf-rce",
     "url": "https://github.com/Gi1gamesh123/php-unserialize-uaf-rce",
     "description": "PHP Serializable var_hash UAF -> RCE (php2shell/MADBugs) — repro + adapted EXP, php8.3.6 verified, disable_functions bypass 10/10",
@@ -590,6 +538,22 @@
     "owner": {
       "name": "Gi1gamesh123",
       "avatar_url": "https://avatars.githubusercontent.com/u/304288034?v=4"
+    }
+  },
+  {
+    "name": "mike37510/nixos-mdm",
+    "url": "https://github.com/mike37510/nixos-mdm",
+    "description": "nixos-mdm",
+    "stars": 10,
+    "forks": 2,
+    "language": "PHP",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-31T09:54:02Z",
+    "updated_at": "2026-11-02T13:29:41Z",
+    "owner": {
+      "name": "mike37510",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16438616?v=4"
     }
   },
   {
