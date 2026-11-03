@@ -34,14 +34,20 @@
   {
     "name": "valentderah/totk-pc-recomp",
     "url": "https://github.com/valentderah/totk-pc-recomp",
-    "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
-    "stars": 3436,
-    "forks": 276,
+    "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+    "stars": 4202,
+    "forks": 336,
     "language": "C",
-    "topics": [],
+    "topics": [
+      "game",
+      "linux",
+      "port",
+      "recompilation",
+      "windows"
+    ],
     "license": "MIT License",
     "created_at": "2026-10-29T12:32:46Z",
-    "updated_at": "2026-11-02T08:39:57Z",
+    "updated_at": "2026-11-03T08:52:01Z",
     "owner": {
       "name": "valentderah",
       "avatar_url": "https://avatars.githubusercontent.com/u/41872026?v=4"
@@ -93,22 +99,6 @@
     "owner": {
       "name": "Zagitta",
       "avatar_url": "https://avatars.githubusercontent.com/u/865977?v=4"
-    }
-  },
-  {
-    "name": "cranebeaker/coop-anything",
-    "url": "https://github.com/cranebeaker/coop-anything",
-    "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
-    "stars": 603,
-    "forks": 61,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-16T11:12:03Z",
-    "updated_at": "2026-10-20T06:42:01Z",
-    "owner": {
-      "name": "cranebeaker",
-      "avatar_url": "https://avatars.githubusercontent.com/u/343430477?v=4"
     }
   },
   {
@@ -629,6 +619,39 @@
     }
   },
   {
+    "name": "daniel-madrid-07/weeping-of-the-empire",
+    "url": "https://github.com/daniel-madrid-07/weeping-of-the-empire",
+    "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
+    "stars": 210,
+    "forks": 8,
+    "language": "C",
+    "topics": [
+      "dlss",
+      "game-port",
+      "native-port",
+      "nintendo-switch",
+      "pc-port",
+      "recomp",
+      "recompilation",
+      "reverse-engineering",
+      "static-recompilation",
+      "tears-of-the-kingdom",
+      "totk",
+      "vulkan",
+      "windows",
+      "zelda",
+      "zelda-pc",
+      "zelda-totk"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-30T23:58:29Z",
+    "updated_at": "2026-11-03T08:49:40Z",
+    "owner": {
+      "name": "daniel-madrid-07",
+      "avatar_url": "https://avatars.githubusercontent.com/u/233722961?v=4"
+    }
+  },
+  {
     "name": "tombkeeper/BitKindle",
     "url": "https://github.com/tombkeeper/BitKindle",
     "description": null,
@@ -686,6 +709,22 @@
     }
   },
   {
+    "name": "jmars125/xcx-recomp",
+    "url": "https://github.com/jmars125/xcx-recomp",
+    "description": "Static recompilation of Xenoblade Chronicles X : Definitive Edition to native Windows x86-64, with a Vulkan renderer. Game files not included.",
+    "stars": 155,
+    "forks": 5,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-31T20:49:30Z",
+    "updated_at": "2026-11-03T07:56:40Z",
+    "owner": {
+      "name": "jmars125",
+      "avatar_url": "https://avatars.githubusercontent.com/u/903682?v=4"
+    }
+  },
+  {
     "name": "ttom795/Skyrim_Android",
     "url": "https://github.com/ttom795/Skyrim_Android",
     "description": "A static recompilation of Skyrim (2011) for Android devices.",
@@ -723,39 +762,6 @@
     "owner": {
       "name": "HOSTED-POWER",
       "avatar_url": "https://avatars.githubusercontent.com/u/5538957?v=4"
-    }
-  },
-  {
-    "name": "daniel-madrid-07/weeping-of-the-empire",
-    "url": "https://github.com/daniel-madrid-07/weeping-of-the-empire",
-    "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
-    "stars": 153,
-    "forks": 5,
-    "language": "C",
-    "topics": [
-      "dlss",
-      "game-port",
-      "native-port",
-      "nintendo-switch",
-      "pc-port",
-      "recomp",
-      "recompilation",
-      "reverse-engineering",
-      "static-recompilation",
-      "tears-of-the-kingdom",
-      "totk",
-      "vulkan",
-      "windows",
-      "zelda",
-      "zelda-pc",
-      "zelda-totk"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-30T23:58:29Z",
-    "updated_at": "2026-11-02T07:29:16Z",
-    "owner": {
-      "name": "daniel-madrid-07",
-      "avatar_url": "https://avatars.githubusercontent.com/u/233722961?v=4"
     }
   },
   {
@@ -805,19 +811,19 @@
     }
   },
   {
-    "name": "jmars125/xcx-recomp",
-    "url": "https://github.com/jmars125/xcx-recomp",
-    "description": "Static recompilation of Xenoblade Chronicles X : Definitive Edition to native Windows x86-64, with a Vulkan renderer. Game files not included.",
-    "stars": 129,
+    "name": "mamcjr/TOTKDroid",
+    "url": "https://github.com/mamcjr/TOTKDroid",
+    "description": "TOTKDroid (formerly TOTKRecompAndroid): The Legend of Zelda: Tears of the Kingdom (Switch 1.4.3) running natively on Android - no game files included",
+    "stars": 128,
     "forks": 4,
     "language": "C",
     "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-31T20:49:30Z",
-    "updated_at": "2026-11-02T05:18:14Z",
+    "license": "Other",
+    "created_at": "2026-10-29T12:20:32Z",
+    "updated_at": "2026-11-03T07:44:35Z",
     "owner": {
-      "name": "jmars125",
-      "avatar_url": "https://avatars.githubusercontent.com/u/903682?v=4"
+      "name": "mamcjr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26612066?v=4"
     }
   },
   {
@@ -885,19 +891,71 @@
     }
   },
   {
-    "name": "eladharels/ps5-60FPS",
-    "url": "https://github.com/eladharels/ps5-60FPS",
-    "description": null,
-    "stars": 106,
-    "forks": 6,
+    "name": "superboyyy/hakios-arm64e-dada",
+    "url": "https://github.com/superboyyy/hakios-arm64e-dada",
+    "description": "iOS 26 (arm64e) on Xiaomi 15 / Snapdragon 8 Elite (dada)：在小米 15 上运行 iOS 26",
+    "stars": 116,
+    "forks": 19,
+    "language": "C",
+    "topics": [
+      "hackios",
+      "hakios",
+      "ios",
+      "ios26",
+      "snapdragon",
+      "snapdragon-8-elite",
+      "xiaomi",
+      "xiaomi15"
+    ],
+    "license": "No license",
+    "created_at": "2026-10-30T05:56:09Z",
+    "updated_at": "2026-11-03T08:28:03Z",
+    "owner": {
+      "name": "superboyyy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75305545?v=4"
+    }
+  },
+  {
+    "name": "akazemi67/LinuxMalwareTechniques",
+    "url": "https://github.com/akazemi67/LinuxMalwareTechniques",
+    "description": "Contains materials for my technical presentation exploring Linux malware tradecraft—from userland and fileless techniques to kernel rootkits, ftrace, eBPF, and defensive strategies.",
+    "stars": 105,
+    "forks": 13,
     "language": "C",
     "topics": [],
     "license": "No license",
-    "created_at": "2026-10-14T21:01:28Z",
-    "updated_at": "2026-10-19T21:45:22Z",
+    "created_at": "2026-10-30T07:06:24Z",
+    "updated_at": "2026-11-02T22:04:09Z",
     "owner": {
-      "name": "eladharels",
-      "avatar_url": "https://avatars.githubusercontent.com/u/209666346?v=4"
+      "name": "akazemi67",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93037858?v=4"
+    }
+  },
+  {
+    "name": "undecuple/project-helghast",
+    "url": "https://github.com/undecuple/project-helghast",
+    "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+    "stars": 102,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "ai-assisted",
+      "direct3d12",
+      "game-port",
+      "killzone",
+      "killzone3",
+      "ps3",
+      "ps3recomp",
+      "recompilation",
+      "static-recompilation",
+      "windows"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-28T00:26:17Z",
+    "updated_at": "2026-11-03T04:02:20Z",
+    "owner": {
+      "name": "undecuple",
+      "avatar_url": "https://avatars.githubusercontent.com/u/125844332?v=4"
     }
   },
   {
@@ -914,47 +972,6 @@
     "owner": {
       "name": "odiecay",
       "avatar_url": "https://avatars.githubusercontent.com/u/116058325?v=4"
-    }
-  },
-  {
-    "name": "superboyyy/hakios-arm64e-dada",
-    "url": "https://github.com/superboyyy/hakios-arm64e-dada",
-    "description": "iOS 26 (arm64e) on Xiaomi 15 / Snapdragon 8 Elite (dada)：在小米 15 上运行 iOS 26",
-    "stars": 100,
-    "forks": 17,
-    "language": "C",
-    "topics": [
-      "hackios",
-      "hakios",
-      "ios",
-      "ios26",
-      "snapdragon",
-      "snapdragon-8-elite",
-      "xiaomi",
-      "xiaomi15"
-    ],
-    "license": "No license",
-    "created_at": "2026-10-30T05:56:09Z",
-    "updated_at": "2026-11-02T06:41:52Z",
-    "owner": {
-      "name": "superboyyy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75305545?v=4"
-    }
-  },
-  {
-    "name": "akazemi67/LinuxMalwareTechniques",
-    "url": "https://github.com/akazemi67/LinuxMalwareTechniques",
-    "description": "Contains materials for my technical presentation exploring Linux malware tradecraft—from userland and fileless techniques to kernel rootkits, ftrace, eBPF, and defensive strategies.",
-    "stars": 100,
-    "forks": 12,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-30T07:06:24Z",
-    "updated_at": "2026-11-02T05:17:12Z",
-    "owner": {
-      "name": "akazemi67",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93037858?v=4"
     }
   },
   {
@@ -1016,33 +1033,6 @@
     }
   },
   {
-    "name": "undecuple/project-helghast",
-    "url": "https://github.com/undecuple/project-helghast",
-    "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
-    "stars": 96,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "ai-assisted",
-      "direct3d12",
-      "game-port",
-      "killzone",
-      "killzone3",
-      "ps3",
-      "ps3recomp",
-      "recompilation",
-      "static-recompilation",
-      "windows"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-28T00:26:17Z",
-    "updated_at": "2026-11-02T06:39:14Z",
-    "owner": {
-      "name": "undecuple",
-      "avatar_url": "https://avatars.githubusercontent.com/u/125844332?v=4"
-    }
-  },
-  {
     "name": "Shagg88/Athelas",
     "url": "https://github.com/Shagg88/Athelas",
     "description": "Play The Return of the King (PC and Xbox) and The Two Towers (Xbox) on a modern PC",
@@ -1080,6 +1070,33 @@
     }
   },
   {
+    "name": "Lucas-blip-png/dkb-pc-recomp",
+    "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
+    "description": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
+    "stars": 95,
+    "forks": 5,
+    "language": "C",
+    "topics": [
+      "arm64",
+      "donkey-kong",
+      "game-port",
+      "nintendo-switch-2",
+      "nvn",
+      "recompilation",
+      "reverse-engineering",
+      "spir-v",
+      "static-recompilation",
+      "vulkan"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-11-01T15:03:52Z",
+    "updated_at": "2026-11-03T08:33:30Z",
+    "owner": {
+      "name": "Lucas-blip-png",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177052392?v=4"
+    }
+  },
+  {
     "name": "TheLostPantheon/nativ",
     "url": "https://github.com/TheLostPantheon/nativ",
     "description": "PS Vita games recompiled into native PC programs: you bring your own games and firmware",
@@ -1093,6 +1110,22 @@
     "owner": {
       "name": "TheLostPantheon",
       "avatar_url": "https://avatars.githubusercontent.com/u/23112860?v=4"
+    }
+  },
+  {
+    "name": "HNGSeries/M-Film",
+    "url": "https://github.com/HNGSeries/M-Film",
+    "description": null,
+    "stars": 91,
+    "forks": 8,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-10-29T06:33:10Z",
+    "updated_at": "2026-11-03T08:36:34Z",
+    "owner": {
+      "name": "HNGSeries",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139279100?v=4"
     }
   },
   {
@@ -1166,6 +1199,31 @@
     "owner": {
       "name": "S12cybersecurity",
       "avatar_url": "https://avatars.githubusercontent.com/u/79543461?v=4"
+    }
+  },
+  {
+    "name": "stremio-origin/webos",
+    "url": "https://github.com/stremio-origin/webos",
+    "description": "Native app for Stremio addons on LG webOS TVs. Unofficial.",
+    "stars": 80,
+    "forks": 6,
+    "language": "C",
+    "topics": [
+      "addons",
+      "c",
+      "homebrew-channel",
+      "lg-tv",
+      "sdl2",
+      "smart-tv",
+      "stremio",
+      "webos"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-31T11:41:04Z",
+    "updated_at": "2026-11-03T06:04:22Z",
+    "owner": {
+      "name": "stremio-origin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/350698311?v=4"
     }
   },
   {
@@ -1280,29 +1338,6 @@
     }
   },
   {
-    "name": "mmm1712/Local_AI_esp32",
-    "url": "https://github.com/mmm1712/Local_AI_esp32",
-    "description": "A language model trained from scratch and running offline on an ESP32-S3 with a touchscreen chat interface.",
-    "stars": 74,
-    "forks": 13,
-    "language": "C",
-    "topics": [
-      "embedded-ai",
-      "esp32",
-      "esp32-s3",
-      "llm",
-      "transformer",
-      "xiao"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-14T02:31:13Z",
-    "updated_at": "2026-10-20T04:44:55Z",
-    "owner": {
-      "name": "mmm1712",
-      "avatar_url": "https://avatars.githubusercontent.com/u/77479412?v=4"
-    }
-  },
-  {
     "name": "ToxyCola/Half-Life-Nintendo-64-Port",
     "url": "https://github.com/ToxyCola/Half-Life-Nintendo-64-Port",
     "description": null,
@@ -1316,22 +1351,6 @@
     "owner": {
       "name": "ToxyCola",
       "avatar_url": "https://avatars.githubusercontent.com/u/300661001?v=4"
-    }
-  },
-  {
-    "name": "mamcjr/TOTKDroid",
-    "url": "https://github.com/mamcjr/TOTKDroid",
-    "description": "TOTKDroid (formerly TOTKRecompAndroid): The Legend of Zelda: Tears of the Kingdom (Switch 1.4.3) running natively on Android - no game files included",
-    "stars": 72,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-29T12:20:32Z",
-    "updated_at": "2026-11-02T08:38:45Z",
-    "owner": {
-      "name": "mamcjr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26612066?v=4"
     }
   },
   {
@@ -1377,6 +1396,38 @@
     }
   },
   {
+    "name": "khorne-hub/gu-native",
+    "url": "https://github.com/khorne-hub/gu-native",
+    "description": "Native Android port with touch controls. Bring your own copy of the game.",
+    "stars": 69,
+    "forks": 7,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-11-01T21:24:06Z",
+    "updated_at": "2026-11-03T08:14:39Z",
+    "owner": {
+      "name": "khorne-hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/351190368?v=4"
+    }
+  },
+  {
+    "name": "josiahg2502-glitch/TomodachiLife-recomp",
+    "url": "https://github.com/josiahg2502-glitch/TomodachiLife-recomp",
+    "description": "Static recompilation of Tomodachi Life: Living the Dream to a native Windows program: tools and runtime only, bring your own dump",
+    "stars": 68,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-29T11:41:01Z",
+    "updated_at": "2026-11-03T07:08:37Z",
+    "owner": {
+      "name": "josiahg2502-glitch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/339941312?v=4"
+    }
+  },
+  {
     "name": "Zerone-Laboratories/ztOS",
     "url": "https://github.com/Zerone-Laboratories/ztOS",
     "description": "ztOS: a phone OS with the ztMETRO shell (Windows Phone 8.1 look and motion) on Arch Linux ARM; Galaxy S9 port, SDK and installer",
@@ -1390,22 +1441,6 @@
     "owner": {
       "name": "Zerone-Laboratories",
       "avatar_url": "https://avatars.githubusercontent.com/u/153111832?v=4"
-    }
-  },
-  {
-    "name": "HNGSeries/M-Film",
-    "url": "https://github.com/HNGSeries/M-Film",
-    "description": null,
-    "stars": 67,
-    "forks": 7,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-10-29T06:33:10Z",
-    "updated_at": "2026-11-02T08:34:30Z",
-    "owner": {
-      "name": "HNGSeries",
-      "avatar_url": "https://avatars.githubusercontent.com/u/139279100?v=4"
     }
   },
   {
@@ -1451,22 +1486,6 @@
     "owner": {
       "name": "Allannn-sudo",
       "avatar_url": "https://avatars.githubusercontent.com/u/57735559?v=4"
-    }
-  },
-  {
-    "name": "xvvulcanvx/PS5-TabShifter",
-    "url": "https://github.com/xvvulcanvx/PS5-TabShifter",
-    "description": "Standalone PS5 on-console payload to move apps between Games/Media tabs and hide offline PSN bloatware (FW 12.xx – 13.60 Supported)",
-    "stars": 64,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-14T03:40:37Z",
-    "updated_at": "2026-10-20T04:36:19Z",
-    "owner": {
-      "name": "xvvulcanvx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/335660230?v=4"
     }
   },
   {
@@ -1613,6 +1632,33 @@
     }
   },
   {
+    "name": "FlashCat-Jordan/Flashduck",
+    "url": "https://github.com/FlashCat-Jordan/Flashduck",
+    "description": "闪猫造物Flashduck — an open-source ESP32-S3 desktop duck robot with six servos, a single animated eye, wide-stance walking and two interaction systems (voice assistant / DuckClaw local agent).",
+    "stars": 55,
+    "forks": 1,
+    "language": "C",
+    "topics": [
+      "3d-printing",
+      "diy",
+      "duckclaw",
+      "embedded",
+      "esp-idf",
+      "esp32-s3",
+      "flashduck",
+      "lvgl",
+      "robot",
+      "robotics"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-31T05:10:09Z",
+    "updated_at": "2026-11-03T06:52:46Z",
+    "owner": {
+      "name": "FlashCat-Jordan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78297190?v=4"
+    }
+  },
+  {
     "name": "Puddz/AstralChain-PC",
     "url": "https://github.com/Puddz/AstralChain-PC",
     "description": "Unofficial native Windows port of Astral Chain by static recompilation. Bring your own dump and keys.",
@@ -1642,6 +1688,22 @@
     "owner": {
       "name": "isod89",
       "avatar_url": "https://avatars.githubusercontent.com/u/25253147?v=4"
+    }
+  },
+  {
+    "name": "uriyovsiannikov/OpenSillicon",
+    "url": "https://github.com/uriyovsiannikov/OpenSillicon",
+    "description": "be simple! ",
+    "stars": 54,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "BSD 2-Clause \"Simplified\" License",
+    "created_at": "2026-11-01T19:55:20Z",
+    "updated_at": "2026-11-02T21:22:00Z",
+    "owner": {
+      "name": "uriyovsiannikov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/220516281?v=4"
     }
   },
   {
@@ -1702,6 +1764,22 @@
     }
   },
   {
+    "name": "Mas0nShi/CVE-2026-112445",
+    "url": "https://github.com/Mas0nShi/CVE-2026-112445",
+    "description": "CVE-2026-112445: The Simplest macOS Local Privilege Escalation to Date",
+    "stars": 51,
+    "forks": 6,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-29T04:45:44Z",
+    "updated_at": "2026-11-02T12:00:49Z",
+    "owner": {
+      "name": "Mas0nShi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60805843?v=4"
+    }
+  },
+  {
     "name": "alexandreunitypro/MetalHorizon-FH6-Mac-Launcher",
     "url": "https://github.com/alexandreunitypro/MetalHorizon-FH6-Mac-Launcher",
     "description": "Forza Horizon 6 (Xbox / Microsoft Store edition) on Apple silicon Macs, without CrossOver",
@@ -1734,22 +1812,6 @@
     }
   },
   {
-    "name": "Mas0nShi/CVE-2026-112445",
-    "url": "https://github.com/Mas0nShi/CVE-2026-112445",
-    "description": "CVE-2026-112445: The Simplest macOS Local Privilege Escalation to Date",
-    "stars": 50,
-    "forks": 6,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-29T04:45:44Z",
-    "updated_at": "2026-11-01T17:45:55Z",
-    "owner": {
-      "name": "Mas0nShi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60805843?v=4"
-    }
-  },
-  {
     "name": "Revivedx/SavageWindRecomp",
     "url": "https://github.com/Revivedx/SavageWindRecomp",
     "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.8.2) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
@@ -1763,27 +1825,6 @@
     "owner": {
       "name": "Revivedx",
       "avatar_url": "https://avatars.githubusercontent.com/u/82332536?v=4"
-    }
-  },
-  {
-    "name": "ReazGan/tarndb",
-    "url": "https://github.com/ReazGan/tarndb",
-    "description": "Crash-safe embedded key-value store in C",
-    "stars": 50,
-    "forks": 21,
-    "language": "C",
-    "topics": [
-      "c",
-      "database",
-      "key-value-store",
-      "storage-engine"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-10-15T01:28:07Z",
-    "updated_at": "2026-10-19T17:45:28Z",
-    "owner": {
-      "name": "ReazGan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93791503?v=4"
     }
   },
   {
@@ -1839,35 +1880,19 @@
     }
   },
   {
-    "name": "uriyovsiannikov/OpenSillicon",
-    "url": "https://github.com/uriyovsiannikov/OpenSillicon",
-    "description": "be simple! ",
+    "name": "soumarcelino/fiio-jm21-xnu",
+    "url": "https://github.com/soumarcelino/fiio-jm21-xnu",
+    "description": "Native XNU port for the FiiO JM21: kernel patches, device drivers and boot loader",
     "stars": 46,
-    "forks": 0,
+    "forks": 4,
     "language": "C",
     "topics": [],
-    "license": "BSD 2-Clause \"Simplified\" License",
-    "created_at": "2026-11-01T19:55:20Z",
-    "updated_at": "2026-11-01T21:41:15Z",
+    "license": "Other",
+    "created_at": "2026-11-01T11:44:38Z",
+    "updated_at": "2026-11-03T07:00:39Z",
     "owner": {
-      "name": "uriyovsiannikov",
-      "avatar_url": "https://avatars.githubusercontent.com/u/220516281?v=4"
-    }
-  },
-  {
-    "name": "josiahg2502-glitch/TomodachiLife-recomp",
-    "url": "https://github.com/josiahg2502-glitch/TomodachiLife-recomp",
-    "description": "Static recompilation of Tomodachi Life: Living the Dream to a native Windows program: tools and runtime only, bring your own dump",
-    "stars": 46,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-29T11:41:01Z",
-    "updated_at": "2026-11-02T04:44:13Z",
-    "owner": {
-      "name": "josiahg2502-glitch",
-      "avatar_url": "https://avatars.githubusercontent.com/u/339941312?v=4"
+      "name": "soumarcelino",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7838414?v=4"
     }
   },
   {
@@ -1977,22 +2002,6 @@
     }
   },
   {
-    "name": "SecondaryLifer/StarHaven",
-    "url": "https://github.com/SecondaryLifer/StarHaven",
-    "description": "Native Nintendo 3DS port of Paper Mario (N64), built from the decompilation. Bring your own ROM.",
-    "stars": 44,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-14T16:42:45Z",
-    "updated_at": "2026-10-20T06:39:33Z",
-    "owner": {
-      "name": "SecondaryLifer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/342609230?v=4"
-    }
-  },
-  {
     "name": "Gary-0925/gcp",
     "url": "https://github.com/Gary-0925/gcp",
     "description": "GCP (Greenhouse Code Producer) - Next-Gen C/C++ compiler!",
@@ -2022,6 +2031,22 @@
     "owner": {
       "name": "sthetix",
       "avatar_url": "https://avatars.githubusercontent.com/u/22261135?v=4"
+    }
+  },
+  {
+    "name": "cheviman/outrunners-port",
+    "url": "https://github.com/cheviman/outrunners-port",
+    "description": "Native port of OutRunners (Sega arcade, 1992) for PC and consoles, built on the verified C decompilation cheviman/outrunners-decomp. Bring your own ROM.",
+    "stars": 42,
+    "forks": 5,
+    "language": "C",
+    "topics": [],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "created_at": "2026-10-29T17:11:14Z",
+    "updated_at": "2026-11-03T07:30:18Z",
+    "owner": {
+      "name": "cheviman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/732310?v=4"
     }
   },
   {
@@ -2089,22 +2114,6 @@
     }
   },
   {
-    "name": "Epinorr/y2jb-update-blocker",
-    "url": "https://github.com/Epinorr/y2jb-update-blocker",
-    "description": "A PlayStation 5 payload for blocking YouTube update metadata",
-    "stars": 41,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-18T07:28:46Z",
-    "updated_at": "2026-10-20T06:42:11Z",
-    "owner": {
-      "name": "Epinorr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/154914022?v=4"
-    }
-  },
-  {
     "name": "ChiricoG/OneFamily",
     "url": "https://github.com/ChiricoG/OneFamily",
     "description": "OneFamily is a high-performance background daemon for jailbroken PlayStation 4 consoles running GoldHEN that allows unsupported USB controller compatibility,",
@@ -2121,31 +2130,6 @@
     }
   },
   {
-    "name": "stremio-origin/webos",
-    "url": "https://github.com/stremio-origin/webos",
-    "description": "Native app for Stremio addons on LG webOS TVs. Unofficial.",
-    "stars": 40,
-    "forks": 1,
-    "language": "C",
-    "topics": [
-      "addons",
-      "c",
-      "homebrew-channel",
-      "lg-tv",
-      "sdl2",
-      "smart-tv",
-      "stremio",
-      "webos"
-    ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-31T11:41:04Z",
-    "updated_at": "2026-11-02T06:03:23Z",
-    "owner": {
-      "name": "stremio-origin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/350698311?v=4"
-    }
-  },
-  {
     "name": "jiijii0/soup-engine",
     "url": "https://github.com/jiijii0/soup-engine",
     "description": "Film looks, in the camera, on a Canon EOS 5D Classic. (beta)",
@@ -2159,6 +2143,22 @@
     "owner": {
       "name": "jiijii0",
       "avatar_url": "https://avatars.githubusercontent.com/u/49161552?v=4"
+    }
+  },
+  {
+    "name": "Maldev-Academy/TpDirectCallbackHijack",
+    "url": "https://github.com/Maldev-Academy/TpDirectCallbackHijack",
+    "description": "Remote process injection via TP_DIRECT.Callback hijack",
+    "stars": 39,
+    "forks": 4,
+    "language": "C",
+    "topics": [],
+    "license": "Apache License 2.0",
+    "created_at": "2026-10-29T17:27:23Z",
+    "updated_at": "2026-11-02T16:30:19Z",
+    "owner": {
+      "name": "Maldev-Academy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121844819?v=4"
     }
   },
   {
@@ -2242,19 +2242,35 @@
     }
   },
   {
-    "name": "Maldev-Academy/TpDirectCallbackHijack",
-    "url": "https://github.com/Maldev-Academy/TpDirectCallbackHijack",
-    "description": "Remote process injection via TP_DIRECT.Callback hijack",
+    "name": "TekRantGaming/Trials-ReVolution-Collection",
+    "url": "https://github.com/TekRantGaming/Trials-ReVolution-Collection",
+    "description": "Trials HD, Trials Evolution and Trials Fusion on PC, recompiled from the Xbox 360 games, with their DLC, in one launcher",
     "stars": 35,
-    "forks": 4,
+    "forks": 3,
     "language": "C",
     "topics": [],
-    "license": "Apache License 2.0",
-    "created_at": "2026-10-29T17:27:23Z",
-    "updated_at": "2026-11-02T08:39:51Z",
+    "license": "No license",
+    "created_at": "2026-10-29T02:17:05Z",
+    "updated_at": "2026-11-03T03:45:29Z",
     "owner": {
-      "name": "Maldev-Academy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/121844819?v=4"
+      "name": "TekRantGaming",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52795608?v=4"
+    }
+  },
+  {
+    "name": "aidencantcode/GTAVCJ2ME",
+    "url": "https://github.com/aidencantcode/GTAVCJ2ME",
+    "description": "a Port of GTAVC for J2ME",
+    "stars": 35,
+    "forks": 2,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-11-01T22:23:02Z",
+    "updated_at": "2026-11-03T06:01:29Z",
+    "owner": {
+      "name": "aidencantcode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/151684074?v=4"
     }
   },
   {
@@ -2322,35 +2338,39 @@
     }
   },
   {
-    "name": "TekRantGaming/Trials-ReVolution-Collection",
-    "url": "https://github.com/TekRantGaming/Trials-ReVolution-Collection",
-    "description": "Trials HD, Trials Evolution and Trials Fusion on PC, recompiled from the Xbox 360 games, with their DLC, in one launcher",
-    "stars": 33,
-    "forks": 2,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-29T02:17:05Z",
-    "updated_at": "2026-11-02T06:02:55Z",
-    "owner": {
-      "name": "TekRantGaming",
-      "avatar_url": "https://avatars.githubusercontent.com/u/52795608?v=4"
-    }
-  },
-  {
     "name": "setha-maker/levo-tcu-protocol",
     "url": "https://github.com/setha-maker/levo-tcu-protocol",
     "description": "CAN protocol, connector pinouts and an ESP32 reference TCU for a 2021 Specialized Turbo Levo.",
-    "stars": 32,
-    "forks": 3,
+    "stars": 33,
+    "forks": 4,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-10-28T15:31:42Z",
-    "updated_at": "2026-11-02T07:17:05Z",
+    "updated_at": "2026-11-02T23:07:13Z",
     "owner": {
       "name": "setha-maker",
       "avatar_url": "https://avatars.githubusercontent.com/u/275021354?v=4"
+    }
+  },
+  {
+    "name": "ZiZc3/Hydroid",
+    "url": "https://github.com/ZiZc3/Hydroid",
+    "description": "Run Android games natively on PS5.",
+    "stars": 32,
+    "forks": 4,
+    "language": "C",
+    "topics": [
+      "android",
+      "ps5",
+      "sdk-c"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-31T07:13:01Z",
+    "updated_at": "2026-11-03T07:22:37Z",
+    "owner": {
+      "name": "ZiZc3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60833584?v=4"
     }
   },
   {
@@ -2367,22 +2387,6 @@
     "owner": {
       "name": "Vancete",
       "avatar_url": "https://avatars.githubusercontent.com/u/4982103?v=4"
-    }
-  },
-  {
-    "name": "soumarcelino/fiio-jm21-xnu",
-    "url": "https://github.com/soumarcelino/fiio-jm21-xnu",
-    "description": "Native XNU port for the FiiO JM21: kernel patches, device drivers and boot loader",
-    "stars": 31,
-    "forks": 3,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-11-01T11:44:38Z",
-    "updated_at": "2026-11-02T06:35:21Z",
-    "owner": {
-      "name": "soumarcelino",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7838414?v=4"
     }
   },
   {
@@ -2406,6 +2410,38 @@
     "owner": {
       "name": "alphafox02",
       "avatar_url": "https://avatars.githubusercontent.com/u/44436101?v=4"
+    }
+  },
+  {
+    "name": "mutlisensor/op-free",
+    "url": "https://github.com/mutlisensor/op-free",
+    "description": "OP-FREE: community synths, effects and research for the OP-Z. Independent project, not affiliated with teenage engineering.",
+    "stars": 29,
+    "forks": 3,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-11-01T21:04:54Z",
+    "updated_at": "2026-11-03T08:31:55Z",
+    "owner": {
+      "name": "mutlisensor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/300193076?v=4"
+    }
+  },
+  {
+    "name": "mada-02/iOS-Emulator",
+    "url": "https://github.com/mada-02/iOS-Emulator",
+    "description": "An iOS 1-7 emulator",
+    "stars": 29,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v2.0",
+    "created_at": "2026-10-31T01:28:59Z",
+    "updated_at": "2026-11-03T04:29:46Z",
+    "owner": {
+      "name": "mada-02",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128426416?v=4"
     }
   },
   {
@@ -2450,35 +2486,35 @@
     }
   },
   {
-    "name": "mada-02/iOS-Emulator",
-    "url": "https://github.com/mada-02/iOS-Emulator",
-    "description": "An iOS 1-7 emulator",
-    "stars": 28,
-    "forks": 1,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v2.0",
-    "created_at": "2026-10-31T01:28:59Z",
-    "updated_at": "2026-11-02T07:26:42Z",
-    "owner": {
-      "name": "mada-02",
-      "avatar_url": "https://avatars.githubusercontent.com/u/128426416?v=4"
-    }
-  },
-  {
     "name": "TekRantGaming/angry-birds-re-hatched-collection",
     "url": "https://github.com/TekRantGaming/angry-birds-re-hatched-collection",
     "description": "Native PC ports of Angry Birds Classic, Seasons, Rio and Star Wars (Xbox 360) via static recompilation, in one launcher",
-    "stars": 27,
+    "stars": 28,
     "forks": 1,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-10-28T04:24:11Z",
-    "updated_at": "2026-11-02T00:16:32Z",
+    "updated_at": "2026-11-03T01:45:11Z",
     "owner": {
       "name": "TekRantGaming",
       "avatar_url": "https://avatars.githubusercontent.com/u/52795608?v=4"
+    }
+  },
+  {
+    "name": "Desm0nt/doom-port",
+    "url": "https://github.com/Desm0nt/doom-port",
+    "description": "DOOM Mobile: the Nintendo Switch release of DOOM (2016) running natively on ARM64 Android (Vulkan). Bring your own game files.",
+    "stars": 28,
+    "forks": 1,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-28T21:00:45Z",
+    "updated_at": "2026-11-03T07:41:43Z",
+    "owner": {
+      "name": "Desm0nt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11135734?v=4"
     }
   },
   {
@@ -2511,6 +2547,54 @@
     "owner": {
       "name": "conol-tony",
       "avatar_url": "https://avatars.githubusercontent.com/u/231188230?v=4"
+    }
+  },
+  {
+    "name": "DreamFekk/Andriod_UnrealMemoryTools_Mcp",
+    "url": "https://github.com/DreamFekk/Andriod_UnrealMemoryTools_Mcp",
+    "description": "Android Unreal Engine memory tools with native and Web UI, MCP integration, and automatic IDA connection.",
+    "stars": 25,
+    "forks": 17,
+    "language": "C",
+    "topics": [],
+    "license": "MIT License",
+    "created_at": "2026-10-31T09:01:50Z",
+    "updated_at": "2026-11-03T06:02:36Z",
+    "owner": {
+      "name": "DreamFekk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95064332?v=4"
+    }
+  },
+  {
+    "name": "cdetv/conker-live-recompiled",
+    "url": "https://github.com/cdetv/conker-live-recompiled",
+    "description": "A native Windows PC version of Conker: Live & Reloaded, made by statically recompiling the original Xbox game. No game files included.",
+    "stars": 25,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-30T22:06:05Z",
+    "updated_at": "2026-11-03T04:15:51Z",
+    "owner": {
+      "name": "cdetv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/150357990?v=4"
+    }
+  },
+  {
+    "name": "arslansadiq87/print-server-esp32-s3",
+    "url": "https://github.com/arslansadiq87/print-server-esp32-s3",
+    "description": "ESP32-S3 Wi-Fi to USB print server for TSC TTP-244 Pro: RAW TCP 9100, HTTP labels, and Wi-Fi setup.",
+    "stars": 24,
+    "forks": 7,
+    "language": "C",
+    "topics": [],
+    "license": "No license",
+    "created_at": "2026-10-30T00:53:29Z",
+    "updated_at": "2026-11-03T02:12:23Z",
+    "owner": {
+      "name": "arslansadiq87",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107746319?v=4"
     }
   },
   {
@@ -2582,6 +2666,38 @@
     "owner": {
       "name": "bheppe",
       "avatar_url": "https://avatars.githubusercontent.com/u/52939532?v=4"
+    }
+  },
+  {
+    "name": "dax8it/nous-girl-stackchan",
+    "url": "https://github.com/dax8it/nous-girl-stackchan",
+    "description": "Open-source voice companion firmware for the M5Stack StackChan (CoreS3, ESP32-S3): xiaozhi-based, Hermes Agent brain, anime faces, dance, DJ and rave modes, memes and email. Beta.",
+    "stars": 22,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "ai-companion",
+      "cores3",
+      "esp-idf",
+      "esp32",
+      "esp32-s3",
+      "firmware",
+      "hermes-agent",
+      "lvgl",
+      "m5stack",
+      "nous-research",
+      "open-source",
+      "robot",
+      "stackchan",
+      "voice-assistant",
+      "xiaozhi"
+    ],
+    "license": "MIT License",
+    "created_at": "2026-10-28T00:12:56Z",
+    "updated_at": "2026-11-02T15:58:17Z",
+    "owner": {
+      "name": "dax8it",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37917427?v=4"
     }
   },
   {

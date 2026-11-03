@@ -3,13 +3,13 @@
     "name": "Zagitta/gpu-unlock",
     "url": "https://github.com/Zagitta/gpu-unlock",
     "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-    "stars": 14245,
-    "forks": 1385,
+    "stars": 14945,
+    "forks": 1449,
     "language": "C",
     "topics": [],
     "license": "No license",
     "created_at": "2026-10-18T01:28:31Z",
-    "updated_at": "2026-11-02T08:24:41Z",
+    "updated_at": "2026-11-03T08:51:55Z",
     "owner": {
       "name": "Zagitta",
       "avatar_url": "https://avatars.githubusercontent.com/u/865977?v=4"
@@ -19,8 +19,8 @@
     "name": "ly05010419/MacNativeGames",
     "url": "https://github.com/ly05010419/MacNativeGames",
     "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
-    "stars": 6825,
-    "forks": 998,
+    "stars": 6922,
+    "forks": 1016,
     "language": "C",
     "topics": [
       "apple-silicon",
@@ -38,7 +38,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-10-17T19:52:00Z",
-    "updated_at": "2026-11-02T08:36:42Z",
+    "updated_at": "2026-11-03T08:52:20Z",
     "owner": {
       "name": "ly05010419",
       "avatar_url": "https://avatars.githubusercontent.com/u/1425386?v=4"
@@ -48,8 +48,8 @@
     "name": "jhaizhou-ops/d2r-mobile",
     "url": "https://github.com/jhaizhou-ops/d2r-mobile",
     "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
-    "stars": 5005,
-    "forks": 1298,
+    "stars": 5036,
+    "forks": 1304,
     "language": "C",
     "topics": [
       "android",
@@ -69,7 +69,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-10-12T08:41:19Z",
-    "updated_at": "2026-11-02T07:59:47Z",
+    "updated_at": "2026-11-03T07:56:05Z",
     "owner": {
       "name": "jhaizhou-ops",
       "avatar_url": "https://avatars.githubusercontent.com/u/258432107?v=4"
@@ -79,13 +79,13 @@
     "name": "JustAResearcher/gpu-unlock-ada",
     "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
     "description": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
-    "stars": 4685,
-    "forks": 599,
+    "stars": 4718,
+    "forks": 603,
     "language": "C",
     "topics": [],
     "license": "GNU General Public License v2.0",
     "created_at": "2026-10-23T21:00:53Z",
-    "updated_at": "2026-11-02T08:16:46Z",
+    "updated_at": "2026-11-03T08:31:26Z",
     "owner": {
       "name": "JustAResearcher",
       "avatar_url": "https://avatars.githubusercontent.com/u/62031663?v=4"
@@ -95,8 +95,8 @@
     "name": "onehumanbeing/esp32-iphone-agent",
     "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
     "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
-    "stars": 4215,
-    "forks": 563,
+    "stars": 4266,
+    "forks": 571,
     "language": "C",
     "topics": [
       "ai-agent",
@@ -111,7 +111,7 @@
     ],
     "license": "MIT License",
     "created_at": "2026-10-11T19:10:25Z",
-    "updated_at": "2026-11-02T08:23:03Z",
+    "updated_at": "2026-11-03T08:27:57Z",
     "owner": {
       "name": "onehumanbeing",
       "avatar_url": "https://avatars.githubusercontent.com/u/20528382?v=4"
@@ -120,14 +120,20 @@
   {
     "name": "valentderah/totk-pc-recomp",
     "url": "https://github.com/valentderah/totk-pc-recomp",
-    "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
-    "stars": 3436,
-    "forks": 276,
+    "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+    "stars": 4202,
+    "forks": 336,
     "language": "C",
-    "topics": [],
+    "topics": [
+      "game",
+      "linux",
+      "port",
+      "recompilation",
+      "windows"
+    ],
     "license": "MIT License",
     "created_at": "2026-10-29T12:32:46Z",
-    "updated_at": "2026-11-02T08:39:57Z",
+    "updated_at": "2026-11-03T08:52:01Z",
     "owner": {
       "name": "valentderah",
       "avatar_url": "https://avatars.githubusercontent.com/u/41872026?v=4"
@@ -153,13 +159,13 @@
     "name": "Revivedx/SavageWindRecomp",
     "url": "https://github.com/Revivedx/SavageWindRecomp",
     "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
-    "stars": 2778,
-    "forks": 161,
+    "stars": 2924,
+    "forks": 170,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-10-16T17:34:55Z",
-    "updated_at": "2026-11-02T08:38:11Z",
+    "updated_at": "2026-11-03T08:44:40Z",
     "owner": {
       "name": "Revivedx",
       "avatar_url": "https://avatars.githubusercontent.com/u/82332536?v=4"
@@ -182,48 +188,48 @@
     }
   },
   {
-    "name": "EthanArbuckle/fairplay-decrypt",
-    "url": "https://github.com/EthanArbuckle/fairplay-decrypt",
-    "description": "Offline FairPlay App Store IPA decryption with independent key derivation",
-    "stars": 2310,
-    "forks": 355,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-19T10:07:58Z",
-    "updated_at": "2026-11-02T06:59:05Z",
-    "owner": {
-      "name": "EthanArbuckle",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4250718?v=4"
-    }
-  },
-  {
     "name": "oosexgang/hakios-xnu-kernel",
     "url": "https://github.com/oosexgang/hakios-xnu-kernel",
     "description": null,
-    "stars": 2227,
-    "forks": 376,
+    "stars": 2397,
+    "forks": 397,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-10-22T06:20:11Z",
-    "updated_at": "2026-11-02T08:37:42Z",
+    "updated_at": "2026-11-03T08:44:32Z",
     "owner": {
       "name": "oosexgang",
       "avatar_url": "https://avatars.githubusercontent.com/u/343646710?v=4"
     }
   },
   {
+    "name": "EthanArbuckle/fairplay-decrypt",
+    "url": "https://github.com/EthanArbuckle/fairplay-decrypt",
+    "description": "Offline FairPlay App Store IPA decryption with independent key derivation",
+    "stars": 2325,
+    "forks": 358,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-19T10:07:58Z",
+    "updated_at": "2026-11-03T08:36:17Z",
+    "owner": {
+      "name": "EthanArbuckle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4250718?v=4"
+    }
+  },
+  {
     "name": "peiikai/LASRecomp",
     "url": "https://github.com/peiikai/LASRecomp",
     "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
-    "stars": 2064,
-    "forks": 260,
+    "stars": 2102,
+    "forks": 263,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-10-08T22:42:12Z",
-    "updated_at": "2026-11-02T08:28:05Z",
+    "updated_at": "2026-11-03T08:03:03Z",
     "owner": {
       "name": "peiikai",
       "avatar_url": "https://avatars.githubusercontent.com/u/339721950?v=4"
@@ -249,13 +255,13 @@
     "name": "oscar-soirey/Raven",
     "url": "https://github.com/oscar-soirey/Raven",
     "description": "A lightweight, multithreaded GUI library in C for editors and tools. For C, Rust, C++, C#, Java, Python, Zig, Lua, Go, Odin",
-    "stars": 1672,
-    "forks": 68,
+    "stars": 1795,
+    "forks": 76,
     "language": "C",
     "topics": [],
     "license": "Apache License 2.0",
     "created_at": "2026-10-09T05:45:57Z",
-    "updated_at": "2026-11-02T08:13:14Z",
+    "updated_at": "2026-11-03T08:27:27Z",
     "owner": {
       "name": "oscar-soirey",
       "avatar_url": "https://avatars.githubusercontent.com/u/47278608?v=4"
@@ -265,13 +271,13 @@
     "name": "windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
     "url": "https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
     "description": "Windows GPU UNLOCK: RTX3090 UEFI port, Korean no-reset Windows boot guide, verified source and benchmark evidence",
-    "stars": 1496,
-    "forks": 144,
+    "stars": 1555,
+    "forks": 151,
     "language": "C",
     "topics": [],
     "license": "GNU General Public License v2.0",
     "created_at": "2026-10-20T04:41:07Z",
-    "updated_at": "2026-11-02T08:28:38Z",
+    "updated_at": "2026-11-03T08:49:38Z",
     "owner": {
       "name": "windows-GPU-UNLOCK",
       "avatar_url": "https://avatars.githubusercontent.com/u/350266573?v=4"
@@ -281,13 +287,13 @@
     "name": "fyzugx/DEsk",
     "url": "https://github.com/fyzugx/DEsk",
     "description": null,
-    "stars": 1469,
+    "stars": 1479,
     "forks": 51,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-10-10T14:30:03Z",
-    "updated_at": "2026-11-02T08:10:45Z",
+    "updated_at": "2026-11-03T08:30:55Z",
     "owner": {
       "name": "fyzugx",
       "avatar_url": "https://avatars.githubusercontent.com/u/293603221?v=4"
@@ -358,13 +364,13 @@
     "name": "h0m3us3r/w1700k-sdr",
     "url": "https://github.com/h0m3us3r/w1700k-sdr",
     "description": null,
-    "stars": 911,
+    "stars": 914,
     "forks": 98,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-10-11T23:21:22Z",
-    "updated_at": "2026-11-02T08:19:47Z",
+    "updated_at": "2026-11-03T04:11:00Z",
     "owner": {
       "name": "h0m3us3r",
       "avatar_url": "https://avatars.githubusercontent.com/u/8192706?v=4"
@@ -390,13 +396,13 @@
     "name": "mirkobrombin/raven",
     "url": "https://github.com/mirkobrombin/raven",
     "description": "A Windows your apps recognize.",
-    "stars": 777,
-    "forks": 27,
+    "stars": 819,
+    "forks": 30,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-10-24T17:13:42Z",
-    "updated_at": "2026-11-02T08:25:54Z",
+    "updated_at": "2026-11-03T08:27:17Z",
     "owner": {
       "name": "mirkobrombin",
       "avatar_url": "https://avatars.githubusercontent.com/u/9479903?v=4"
@@ -419,35 +425,86 @@
     }
   },
   {
-    "name": "z3xox/Tenkaichi3Decomp",
-    "url": "https://github.com/z3xox/Tenkaichi3Decomp",
-    "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
-    "stars": 671,
-    "forks": 120,
+    "name": "shirai91/nx2android",
+    "url": "https://github.com/shirai91/nx2android",
+    "description": "A compatibility layer for porting Switch games to Android, one game at a time",
+    "stars": 702,
+    "forks": 94,
     "language": "C",
     "topics": [],
-    "license": "GNU Affero General Public License v3.0",
-    "created_at": "2026-10-06T07:39:08Z",
-    "updated_at": "2026-11-02T03:43:47Z",
+    "license": "No license",
+    "created_at": "2026-10-24T17:21:12Z",
+    "updated_at": "2026-11-03T08:09:42Z",
     "owner": {
-      "name": "z3xox",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61629424?v=4"
+      "name": "shirai91",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8848513?v=4"
     }
   },
   {
     "name": "th0mk/nfsu2-web",
     "url": "https://github.com/th0mk/nfsu2-web",
     "description": null,
-    "stars": 642,
-    "forks": 124,
+    "stars": 688,
+    "forks": 147,
     "language": "C",
     "topics": [],
     "license": "Other",
     "created_at": "2026-10-19T08:47:39Z",
-    "updated_at": "2026-11-02T08:38:55Z",
+    "updated_at": "2026-11-03T08:48:06Z",
     "owner": {
       "name": "th0mk",
       "avatar_url": "https://avatars.githubusercontent.com/u/9088316?v=4"
+    }
+  },
+  {
+    "name": "z3xox/Tenkaichi3Decomp",
+    "url": "https://github.com/z3xox/Tenkaichi3Decomp",
+    "description": "PC port of Dragon Ball Z: Budokai Tenkaichi 3, built on the BT3-Decompiled project.",
+    "stars": 681,
+    "forks": 122,
+    "language": "C",
+    "topics": [],
+    "license": "GNU Affero General Public License v3.0",
+    "created_at": "2026-10-06T07:39:08Z",
+    "updated_at": "2026-11-03T07:14:20Z",
+    "owner": {
+      "name": "z3xox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61629424?v=4"
+    }
+  },
+  {
+    "name": "kuraeow/ultratears",
+    "url": "https://github.com/kuraeow/ultratears",
+    "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
+    "stars": 656,
+    "forks": 34,
+    "language": "C",
+    "topics": [
+      "arm64",
+      "arm64-x86",
+      "game-port",
+      "native-port",
+      "proton",
+      "recomp",
+      "sd13",
+      "static-recompilation",
+      "steam-deck",
+      "tears-of-the-kingdom",
+      "totk",
+      "vulkan",
+      "windows",
+      "x86",
+      "x86-64",
+      "zelda",
+      "zelda-pc",
+      "zelda-totk"
+    ],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-25T00:04:08Z",
+    "updated_at": "2026-11-03T08:52:03Z",
+    "owner": {
+      "name": "kuraeow",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79721693?v=4"
     }
   },
   {
@@ -483,70 +540,46 @@
     }
   },
   {
-    "name": "shirai91/nx2android",
-    "url": "https://github.com/shirai91/nx2android",
-    "description": "A compatibility layer for porting Switch games to Android, one game at a time",
-    "stars": 606,
-    "forks": 79,
-    "language": "C",
-    "topics": [],
-    "license": "No license",
-    "created_at": "2026-10-24T17:21:12Z",
-    "updated_at": "2026-11-02T08:20:47Z",
-    "owner": {
-      "name": "shirai91",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8848513?v=4"
-    }
-  },
-  {
-    "name": "cranebeaker/coop-anything",
-    "url": "https://github.com/cranebeaker/coop-anything",
-    "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
-    "stars": 603,
-    "forks": 61,
-    "language": "C",
-    "topics": [],
-    "license": "MIT License",
-    "created_at": "2026-10-16T11:12:03Z",
-    "updated_at": "2026-10-20T06:42:01Z",
-    "owner": {
-      "name": "cranebeaker",
-      "avatar_url": "https://avatars.githubusercontent.com/u/343430477?v=4"
-    }
-  },
-  {
-    "name": "kuraeow/ultratears",
-    "url": "https://github.com/kuraeow/ultratears",
-    "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
-    "stars": 584,
+    "name": "mxhm11cr/LinuxRunner",
+    "url": "https://github.com/mxhm11cr/LinuxRunner",
+    "description": "Run ARM64 Linux userspace and desktop applications on iPhone and iPad.",
+    "stars": 596,
     "forks": 32,
     "language": "C",
     "topics": [
+      "alpine-linux",
+      "archlinux",
       "arm64",
-      "arm64-x86",
-      "game-port",
-      "native-port",
-      "proton",
-      "recomp",
-      "sd13",
-      "static-recompilation",
-      "steam-deck",
-      "tears-of-the-kingdom",
-      "totk",
-      "vulkan",
-      "windows",
-      "x86",
-      "x86-64",
-      "zelda",
-      "zelda-pc",
-      "zelda-totk"
+      "debian",
+      "interpreter",
+      "ios",
+      "ipados",
+      "linux",
+      "linux-userspace",
+      "open-source"
     ],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-25T00:04:08Z",
-    "updated_at": "2026-11-02T08:34:40Z",
+    "license": "Other",
+    "created_at": "2026-10-25T20:47:02Z",
+    "updated_at": "2026-11-03T08:41:48Z",
     "owner": {
-      "name": "kuraeow",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79721693?v=4"
+      "name": "mxhm11cr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100222176?v=4"
+    }
+  },
+  {
+    "name": "OpenSmash-Ultimate/ssbu-recomp",
+    "url": "https://github.com/OpenSmash-Ultimate/ssbu-recomp",
+    "description": "Static recompilation of Super Smash Bros. Ultimate 13.0.4 to a native Windows program: tools and runtime only, bring your own dump",
+    "stars": 582,
+    "forks": 67,
+    "language": "C",
+    "topics": [],
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-12T10:30:45Z",
+    "updated_at": "2026-11-03T07:58:09Z",
+    "owner": {
+      "name": "OpenSmash-Ultimate",
+      "avatar_url": "https://avatars.githubusercontent.com/u/344691012?v=4"
     }
   },
   {
@@ -582,35 +615,35 @@
     }
   },
   {
-    "name": "OpenSmash-Ultimate/ssbu-recomp",
-    "url": "https://github.com/OpenSmash-Ultimate/ssbu-recomp",
-    "description": "Static recompilation of Super Smash Bros. Ultimate 13.0.4 to a native Windows program: tools and runtime only, bring your own dump",
-    "stars": 569,
-    "forks": 65,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-12T10:30:45Z",
-    "updated_at": "2026-11-02T06:08:26Z",
-    "owner": {
-      "name": "OpenSmash-Ultimate",
-      "avatar_url": "https://avatars.githubusercontent.com/u/344691012?v=4"
-    }
-  },
-  {
     "name": "K0NL/B2recomp",
     "url": "https://github.com/K0NL/B2recomp",
     "description": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK code included.",
-    "stars": 533,
-    "forks": 15,
+    "stars": 541,
+    "forks": 16,
     "language": "C",
     "topics": [],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-10-17T16:04:18Z",
-    "updated_at": "2026-11-02T06:11:28Z",
+    "updated_at": "2026-11-03T07:16:12Z",
     "owner": {
       "name": "K0NL",
       "avatar_url": "https://avatars.githubusercontent.com/u/181441546?v=4"
+    }
+  },
+  {
+    "name": "Apolinario-coder/SkyRecomp",
+    "url": "https://github.com/Apolinario-coder/SkyRecomp",
+    "description": "Static recompilation of The Legend of Zelda: Skyward Sword for PC",
+    "stars": 533,
+    "forks": 39,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-17T09:17:49Z",
+    "updated_at": "2026-11-03T07:57:13Z",
+    "owner": {
+      "name": "Apolinario-coder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200193372?v=4"
     }
   },
   {
@@ -646,62 +679,35 @@
     }
   },
   {
-    "name": "Apolinario-coder/SkyRecomp",
-    "url": "https://github.com/Apolinario-coder/SkyRecomp",
-    "description": "Static recompilation of The Legend of Zelda: Skyward Sword for PC",
-    "stars": 521,
-    "forks": 36,
-    "language": "C",
-    "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-17T09:17:49Z",
-    "updated_at": "2026-11-02T06:03:25Z",
-    "owner": {
-      "name": "Apolinario-coder",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200193372?v=4"
-    }
-  },
-  {
-    "name": "mxhm11cr/LinuxRunner",
-    "url": "https://github.com/mxhm11cr/LinuxRunner",
-    "description": "Run ARM64 Linux userspace and desktop applications on iPhone and iPad.",
-    "stars": 514,
-    "forks": 26,
-    "language": "C",
-    "topics": [
-      "alpine-linux",
-      "archlinux",
-      "arm64",
-      "debian",
-      "interpreter",
-      "ios",
-      "ipados",
-      "linux",
-      "linux-userspace",
-      "open-source"
-    ],
-    "license": "Other",
-    "created_at": "2026-10-25T20:47:02Z",
-    "updated_at": "2026-11-02T08:34:12Z",
-    "owner": {
-      "name": "mxhm11cr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/100222176?v=4"
-    }
-  },
-  {
     "name": "xenophobentx/takedawn",
     "url": "https://github.com/xenophobentx/takedawn",
     "description": "Unofficial native PC/handheld port of Burnout 3: Takedown (static recompilation). Bring your own disc.",
-    "stars": 505,
+    "stars": 517,
     "forks": 24,
     "language": "C",
     "topics": [],
     "license": "MIT License",
     "created_at": "2026-10-12T17:33:06Z",
-    "updated_at": "2026-11-02T06:14:30Z",
+    "updated_at": "2026-11-03T08:42:43Z",
     "owner": {
       "name": "xenophobentx",
       "avatar_url": "https://avatars.githubusercontent.com/u/31575788?v=4"
+    }
+  },
+  {
+    "name": "mamcjr/BOTWRecompAndroid",
+    "url": "https://github.com/mamcjr/BOTWRecompAndroid",
+    "description": "Static recompilation of The Legend of Zelda: Breath of the Wild (Switch 1.0.0 / 1.6.0 / 1.8.2) for Android - no game files included",
+    "stars": 498,
+    "forks": 31,
+    "language": "C",
+    "topics": [],
+    "license": "Other",
+    "created_at": "2026-10-24T00:53:21Z",
+    "updated_at": "2026-11-03T08:48:52Z",
+    "owner": {
+      "name": "mamcjr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26612066?v=4"
     }
   },
   {
@@ -749,19 +755,48 @@
     }
   },
   {
-    "name": "mamcjr/BOTWRecompAndroid",
-    "url": "https://github.com/mamcjr/BOTWRecompAndroid",
-    "description": "Static recompilation of The Legend of Zelda: Breath of the Wild (Switch 1.0.0 / 1.6.0 / 1.8.2) for Android - no game files included",
-    "stars": 467,
-    "forks": 30,
+    "name": "stencil-hq/dquickts",
+    "url": "https://github.com/stencil-hq/dquickts",
+    "description": "QuickJS with durable execution: suspend running JS, snapshot the whole heap, resume it in another process. Native TypeScript, a REPL that survives restarts, Rust bindings.",
+    "stars": 469,
+    "forks": 11,
+    "language": "C",
+    "topics": [
+      "c",
+      "durable-execution",
+      "embeddable",
+      "hibernation",
+      "interpreter",
+      "javascript",
+      "javascript-engine",
+      "quickjs",
+      "repl",
+      "rust",
+      "snapshots",
+      "typescript"
+    ],
+    "license": "Other",
+    "created_at": "2026-10-19T12:06:42Z",
+    "updated_at": "2026-11-03T06:42:05Z",
+    "owner": {
+      "name": "stencil-hq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/290938359?v=4"
+    }
+  },
+  {
+    "name": "thebcd69/bcd-games",
+    "url": "https://github.com/thebcd69/bcd-games",
+    "description": "BCD: Windows games on iPhone and iPad. Steam and GOG built in.",
+    "stars": 465,
+    "forks": 57,
     "language": "C",
     "topics": [],
-    "license": "Other",
-    "created_at": "2026-10-24T00:53:21Z",
-    "updated_at": "2026-11-02T08:38:47Z",
+    "license": "GNU General Public License v3.0",
+    "created_at": "2026-10-19T09:51:10Z",
+    "updated_at": "2026-11-03T06:23:01Z",
     "owner": {
-      "name": "mamcjr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26612066?v=4"
+      "name": "thebcd69",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190844990?v=4"
     }
   },
   {
@@ -781,55 +816,26 @@
     }
   },
   {
-    "name": "stencil-hq/dquickts",
-    "url": "https://github.com/stencil-hq/dquickts",
-    "description": "QuickJS with durable execution: suspend running JS, snapshot the whole heap, resume it in another process. Native TypeScript, a REPL that survives restarts, Rust bindings.",
-    "stars": 457,
-    "forks": 9,
-    "language": "C",
-    "topics": [
-      "c",
-      "durable-execution",
-      "embeddable",
-      "hibernation",
-      "interpreter",
-      "javascript",
-      "javascript-engine",
-      "quickjs",
-      "repl",
-      "rust",
-      "snapshots",
-      "typescript"
-    ],
-    "license": "Other",
-    "created_at": "2026-10-19T12:06:42Z",
-    "updated_at": "2026-11-02T02:33:34Z",
-    "owner": {
-      "name": "stencil-hq",
-      "avatar_url": "https://avatars.githubusercontent.com/u/290938359?v=4"
-    }
-  },
-  {
-    "name": "thebcd69/bcd-games",
-    "url": "https://github.com/thebcd69/bcd-games",
-    "description": "BCD: Windows games on iPhone and iPad. Steam and GOG built in.",
-    "stars": 453,
-    "forks": 55,
+    "name": "RokkuDayo/ForzaHorizon2_ExtraOptions",
+    "url": "https://github.com/RokkuDayo/ForzaHorizon2_ExtraOptions",
+    "description": "Several quality-of-life tweaks for the game.",
+    "stars": 449,
+    "forks": 23,
     "language": "C",
     "topics": [],
     "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-19T09:51:10Z",
-    "updated_at": "2026-11-02T04:43:15Z",
+    "created_at": "2026-10-10T22:17:00Z",
+    "updated_at": "2026-11-03T04:47:32Z",
     "owner": {
-      "name": "thebcd69",
-      "avatar_url": "https://avatars.githubusercontent.com/u/190844990?v=4"
+      "name": "RokkuDayo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79050876?v=4"
     }
   },
   {
     "name": "OpenSmash-Ultimate/WindowSmash",
     "url": "https://github.com/OpenSmash-Ultimate/WindowSmash",
     "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
-    "stars": 446,
+    "stars": 449,
     "forks": 39,
     "language": "C",
     "topics": [
@@ -841,26 +847,10 @@
     ],
     "license": "GNU General Public License v3.0",
     "created_at": "2026-10-18T00:50:53Z",
-    "updated_at": "2026-11-02T01:11:43Z",
+    "updated_at": "2026-11-03T02:48:46Z",
     "owner": {
       "name": "OpenSmash-Ultimate",
       "avatar_url": "https://avatars.githubusercontent.com/u/344691012?v=4"
-    }
-  },
-  {
-    "name": "RokkuDayo/ForzaHorizon2_ExtraOptions",
-    "url": "https://github.com/RokkuDayo/ForzaHorizon2_ExtraOptions",
-    "description": "Several quality-of-life tweaks for the game.",
-    "stars": 428,
-    "forks": 22,
-    "language": "C",
-    "topics": [],
-    "license": "GNU General Public License v3.0",
-    "created_at": "2026-10-10T22:17:00Z",
-    "updated_at": "2026-10-30T07:43:55Z",
-    "owner": {
-      "name": "RokkuDayo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79050876?v=4"
     }
   },
   {
@@ -1022,28 +1012,6 @@
     "owner": {
       "name": "zgauthier2000",
       "avatar_url": "https://avatars.githubusercontent.com/u/127626977?v=4"
-    }
-  },
-  {
-    "name": "linuxkid473/maclator",
-    "url": "https://github.com/linuxkid473/maclator",
-    "description": "Run arm64 macOS apps on Intel Macs: a reverse-Rosetta emulator (interpreter + x86-64 JIT + AOT cache) with a Metal bridge to the host GPU",
-    "stars": 270,
-    "forks": 24,
-    "language": "C",
-    "topics": [
-      "arm64",
-      "emulator",
-      "jit",
-      "macos",
-      "rosetta"
-    ],
-    "license": "MIT License",
-    "created_at": "2026-09-30T00:56:52Z",
-    "updated_at": "2026-10-20T05:21:09Z",
-    "owner": {
-      "name": "linuxkid473",
-      "avatar_url": "https://avatars.githubusercontent.com/u/207131026?v=4"
     }
   }
 ]
